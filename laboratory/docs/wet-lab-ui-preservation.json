@@ -1,0 +1,8 @@
+{
+  "checked": 786,
+  "changed": [
+    "src\\App.jsx",
+    "src\\session\\laboratorySession.js",
+    "tests\\axisGrouping.test.js"
+  ]
+}

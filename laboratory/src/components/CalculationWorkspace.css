@@ -1,0 +1,84 @@
+/* Calculation only. A neutral instrument workspace; data retains its own colours. */
+.laboratory .calculation-layout.instrument-workspace {
+ --calc-bg:#171b1f; --calc-panel:#1d2227; --calc-line:#3d454d;
+ --calc-text:#e5e8eb; --calc-muted:#aeb6bf;
+ --edit-bg:#151c22; --edit-ink:#edf0f3; --edit-border:#657480;
+ background:var(--calc-bg);color:var(--calc-text);border:0;border-radius:0;box-shadow:none;padding:20px;
+ font-size:14px;line-height:1.45;
+}
+.laboratory .calculation-layout.instrument-workspace :is(button,input,select){border-radius:3px;box-shadow:none;font:inherit}
+.laboratory .calculation-layout.instrument-workspace button{background:#252c33;border:1px solid #535e68;color:#e5e8eb;min-height:36px;padding:7px 12px}
+.laboratory .calculation-layout.instrument-workspace button:hover:not(:disabled){background:#343e48;border-color:#8b99a6}
+.laboratory .calculation-layout.instrument-workspace button:disabled{opacity:.45;border-style:solid;cursor:default}
+.laboratory .calculation-layout.instrument-workspace :is(input,select){background:#11171c;color:#edf0f3;border:1px solid #63717e;min-height:36px;padding:6px 9px;font-variant-numeric:tabular-nums}
+.laboratory .calculation-layout.instrument-workspace :is(input,select):is([readonly],:disabled){background:#20262c;color:#aeb6bf;border-color:#404950}
+.laboratory .calculation-layout.instrument-workspace :is(button,input,select,summary):focus-visible{outline:2px solid #b6d5f0;outline-offset:3px}
+.laboratory .calculation-layout.instrument-workspace summary{cursor:pointer;color:var(--calc-muted);font-size:13px;padding:7px 0}
+.laboratory .calculation-layout.instrument-workspace :is(h2,h3,h4){letter-spacing:0;color:var(--calc-text)}
+.laboratory .calculation-layout.instrument-workspace .calculation-setup{gap:14px}
+.laboratory .calculation-layout.instrument-workspace .diagram-editor{background:none;border:0;border-radius:0;padding:0;gap:24px;margin:0;grid-template-columns:minmax(155px,.45fr) minmax(360px,2fr) minmax(210px,.62fr)}
+.laboratory .calculation-layout.instrument-workspace .diagram-editor[data-dimensions="2"]{grid-template-columns:minmax(230px,.65fr) minmax(360px,1.8fr) minmax(210px,.62fr)}
+.laboratory .calculation-layout.instrument-workspace .diagram-editor .axis-role{background:none;border:0;border-radius:0;padding:0;box-shadow:none}
+.laboratory .calculation-layout.instrument-workspace .diagram-editor .axis-role legend{color:var(--calc-text);font-size:14px;padding:0;margin-bottom:12px}
+.laboratory .calculation-layout.instrument-workspace .diagram-editor .axis-role h3{color:var(--calc-text);font-size:14px}
+.laboratory .calculation-layout.instrument-workspace .diagram-editor .diagram-preview{background:#12171b;border:1px solid var(--calc-line)!important;border-radius:0;min-height:400px;padding:20px}
+.laboratory .calculation-layout.instrument-workspace .diagram-preview-toolbar{gap:24px;align-items:flex-start}
+.laboratory .calculation-layout.instrument-workspace .diagram-type-select{font-size:13px;font-weight:500;gap:8px}
+.laboratory .calculation-layout.instrument-workspace .diagram-type-select select{font-size:15px;min-height:40px}
+.laboratory .calculation-layout.instrument-workspace .plot-action,.laboratory .calculation-layout.instrument-workspace .results-actions .back-to-setup{background:#dae4ec;color:#18232c;border:1px solid #dae4ec;font-weight:650;min-height:44px;padding:10px 18px;border-radius:3px}
+.laboratory .calculation-layout.instrument-workspace .plot-action:hover:not(:disabled),.laboratory .calculation-layout.instrument-workspace .results-actions .back-to-setup:hover{background:#fff;color:#18232c}
+.laboratory .calculation-layout.instrument-workspace .diagram-sketch{color:#b9c3cc;min-height:250px;background-image:linear-gradient(#69798916 1px,transparent 1px),linear-gradient(90deg,#69798916 1px,transparent 1px);border-left:1px solid #687581;border-bottom:1px solid #687581;margin-top:22px}
+.laboratory .calculation-layout.instrument-workspace .diagram-sketch>small{color:#9eabb7}
+.laboratory .calculation-layout.instrument-workspace .diagram-ordinate{gap:20px}
+.laboratory .calculation-layout.instrument-workspace .diagram-ordinate p{font-size:13px;color:var(--calc-muted)}
+.laboratory .calculation-layout.instrument-workspace .diagram-editor>.diagram-conditions{background:none;border:0;border-left:1px solid var(--calc-line);border-radius:0;padding:0 0 0 20px;gap:16px}
+.laboratory .calculation-layout.instrument-workspace .diagram-conditions h3{font-size:15px;font-weight:600}
+.laboratory .calculation-layout.instrument-workspace .diagram-conditions label{font-size:13px;gap:8px}
+.laboratory .calculation-layout.instrument-workspace .composition-setup{background:none;border:0;border-top:1px solid var(--calc-line);border-radius:0;padding:16px 0;margin-top:4px}
+.laboratory .calculation-layout.instrument-workspace .component-heading{background:none;border:0;padding:0;font-size:15px;margin-bottom:12px}
+.laboratory .calculation-layout.instrument-workspace .compact-total{background:none;border:0;border-bottom:1px solid #343c43;border-radius:0;padding:8px 0}
+.laboratory .calculation-layout.instrument-workspace .problem-summary{background:none;border:0;border-top:1px solid var(--calc-line);border-radius:0;padding:14px 0;gap:8px 20px;color:var(--calc-muted)}
+.laboratory .calculation-layout.instrument-workspace :is(.setup-extras,.advanced-panel,.setup-options,.calculation-secondary){background:none;border:0;border-top:1px solid var(--calc-line);border-radius:0;box-shadow:none;padding:10px 0;margin:0}
+.laboratory .calculation-layout.instrument-workspace.results-mode>.results-toolbar{background:var(--calc-bg);border:0;border-bottom:1px solid var(--calc-line);padding:0 0 12px;margin:0;gap:12px;top:70px}
+.laboratory .calculation-layout.instrument-workspace .results-actions h2{font-size:18px;font-weight:500;border:0;margin-right:8px}
+.laboratory .calculation-layout.instrument-workspace .results-actions small{color:var(--calc-muted);font-variant-numeric:tabular-nums}
+.laboratory .calculation-layout.instrument-workspace .result-run-details{margin-left:auto}
+.laboratory .calculation-layout.instrument-workspace .results-toolbar .result-run-details[open]{flex-basis:100%}
+.laboratory .calculation-layout.instrument-workspace .result-view-controls{padding:12px 0;border-color:var(--calc-line);gap:12px 24px;margin:0 0 12px}
+.laboratory .calculation-layout.instrument-workspace .result-view-buttons{display:none}
+.laboratory .calculation-layout.instrument-workspace .result-view-mobile{display:flex;gap:12px}
+.laboratory .calculation-layout.instrument-workspace .result-view-controls select{max-width:340px;min-width:220px}
+.laboratory .calculation-layout.instrument-workspace .result-view-help{margin-left:auto;font-size:13px}
+.laboratory .calculation-layout.instrument-workspace .result-view-help[open]{flex-basis:100%}
+.laboratory .calculation-layout.instrument-workspace .result-split{grid-template-columns:minmax(0,1fr) minmax(240px,285px);gap:24px}
+.laboratory .calculation-layout.instrument-workspace .plot-workspace{border:0;border-radius:0;box-shadow:none;padding:0}
+.laboratory .calculation-layout.instrument-workspace .plot-workspace.dark{background:#12171b}
+.laboratory .calculation-layout.instrument-workspace :is(.plot-heading,.plot-status){border:0;border-radius:0;background:none;padding:8px 12px}
+.laboratory .calculation-layout.instrument-workspace .plot-heading h2{font-size:16px;font-weight:500}
+.laboratory .calculation-layout.instrument-workspace .plot-status{font-size:12px;color:var(--calc-muted);margin:0}
+.laboratory .calculation-layout.instrument-workspace .interactive-beaker{--bk-panel:#1d2329;--bk-line:#414c56;--bk-muted:#b0bbc4;background:none;border:0;border-left:1px solid var(--calc-line);border-radius:0;padding:0 0 0 20px;box-shadow:none;font-size:13px}
+.laboratory .calculation-layout.instrument-workspace .interactive-beaker h2{font-size:16px;font-weight:500}
+.laboratory .calculation-layout.instrument-workspace :is(.beaker-phase-card,.beaker-readout,.component-partition){background:none;border:0;border-top:1px solid var(--calc-line);border-radius:0;padding:12px 0;box-shadow:none}
+.laboratory .calculation-layout.instrument-workspace .beaker-scientific-scene{border:0;border-radius:0}
+.laboratory .calculation-layout.instrument-workspace .expand-toolbar{margin:0 0 12px}
+@media(max-width:1100px){
+ .laboratory .calculation-layout.instrument-workspace .diagram-editor,.laboratory .calculation-layout.instrument-workspace .diagram-editor[data-dimensions="2"]{grid-template-columns:minmax(160px,.5fr) minmax(0,1.5fr)}
+ .laboratory .calculation-layout.instrument-workspace .diagram-editor>.diagram-conditions{grid-column:1/-1;grid-row:4;border-left:0;border-top:1px solid var(--calc-line);padding:16px 0;grid-template-columns:repeat(2,minmax(0,1fr))}
+ .laboratory .calculation-layout.instrument-workspace .diagram-preview-toolbar{flex-wrap:wrap}
+}
+@media(max-width:800px){
+ .laboratory .calculation-layout.instrument-workspace{padding:12px}
+ .laboratory .calculation-layout.instrument-workspace .result-split{grid-template-columns:1fr}
+ .laboratory .calculation-layout.instrument-workspace .interactive-beaker{border-left:0;border-top:1px solid var(--calc-line);padding:16px 0}
+ .laboratory .calculation-layout.instrument-workspace .result-view-controls label{width:auto;flex-wrap:wrap}
+ .laboratory .calculation-layout.instrument-workspace .result-view-controls select{min-width:0;max-width:100%}
+ .laboratory .calculation-layout.instrument-workspace .result-view-help{margin-left:0}
+}
+@media(max-width:650px){
+ .laboratory .calculation-layout.instrument-workspace .diagram-editor,.laboratory .calculation-layout.instrument-workspace .diagram-editor[data-dimensions="2"]{display:flex;flex-direction:column;gap:18px}
+ .laboratory .calculation-layout.instrument-workspace .diagram-editor>.diagram-preview{min-height:320px;padding:12px}
+ .laboratory .calculation-layout.instrument-workspace .diagram-sketch{min-height:180px}
+ .laboratory .calculation-layout.instrument-workspace .diagram-editor>.diagram-conditions{grid-template-columns:1fr}
+ .laboratory .calculation-layout.instrument-workspace.results-mode>.results-toolbar{position:static}
+ .laboratory .calculation-layout.instrument-workspace .result-run-details{margin-left:0}
+}

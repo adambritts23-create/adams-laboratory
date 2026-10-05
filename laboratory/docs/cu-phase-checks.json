@@ -1,0 +1,1072 @@
+{
+  "baseline": {
+    "tests": 458,
+    "pass": 458,
+    "fail": 0,
+    "goldens": [
+      "acid-base",
+      "complexation",
+      "precipitation",
+      "redox",
+      "fixed-activity"
+    ],
+    "build": "passed",
+    "lint": "0 errors; 1 pre-existing warning",
+    "artifactAudit": "passed"
+  },
+  "final": {
+    "tests": 468,
+    "pass": 468,
+    "fail": 0,
+    "cancelled": 0,
+    "skipped": 0,
+    "todo": 0,
+    "durationMs": 324877.1552,
+    "goldens": [
+      "acid-base",
+      "complexation",
+      "precipitation",
+      "redox",
+      "fixed-activity"
+    ],
+    "build": "passed",
+    "lint": "0 errors; 1 pre-existing warning",
+    "artifactAudit": "passed"
+  },
+  "protectedFiles": [
+    {
+      "path": "src/analysis/feOxidationMetadata.js",
+      "beforeSha256": "068bce4e6c17889a7ba081f74f46dd664b3e14769c0d2f99a46c93eb4a19f6bd",
+      "afterSha256": "068bce4e6c17889a7ba081f74f46dd664b3e14769c0d2f99a46c93eb4a19f6bd",
+      "unchanged": true
+    },
+    {
+      "path": "src/analysis/oxidationInventory.js",
+      "beforeSha256": "e9b0e5c87843b4c3670038e5a7a9e37d8c8f0eb518854788096f6a2a309ae8d4",
+      "afterSha256": "e9b0e5c87843b4c3670038e5a7a9e37d8c8f0eb518854788096f6a2a309ae8d4",
+      "unchanged": true
+    },
+    {
+      "path": "src/solver/assemblages.js",
+      "beforeSha256": "e25b0801841e7fa90f2bfba44488807e2c0f417dc5e0ee7c0bf98b7745650dc4",
+      "afterSha256": "e25b0801841e7fa90f2bfba44488807e2c0f417dc5e0ee7c0bf98b7745650dc4",
+      "unchanged": true
+    },
+    {
+      "path": "src/solver/contract.js",
+      "beforeSha256": "8d035ccb7c9637ff734fb3cd5d14aec7ddc01ee61243cdd9fe4bd4372b8099bf",
+      "afterSha256": "8d035ccb7c9637ff734fb3cd5d14aec7ddc01ee61243cdd9fe4bd4372b8099bf",
+      "unchanged": true
+    },
+    {
+      "path": "src/solver/linear.js",
+      "beforeSha256": "85bc2b1dd9792cf050bf64014ae76c0e66c6602c208c18607e97f05f71ba2f79",
+      "afterSha256": "85bc2b1dd9792cf050bf64014ae76c0e66c6602c208c18607e97f05f71ba2f79",
+      "unchanged": true
+    },
+    {
+      "path": "src/solver/models.js",
+      "beforeSha256": "6627e609bcb575037aafeee9610e5a408ddad505eb17ee30eeee93ee45535bb5",
+      "afterSha256": "6627e609bcb575037aafeee9610e5a408ddad505eb17ee30eeee93ee45535bb5",
+      "unchanged": true
+    },
+    {
+      "path": "src/solver/point.js",
+      "beforeSha256": "5ae9b017b3ea3cb8c6b7e23ac4bb57f7935da42af93c60050fb9b92f6d4b5809",
+      "afterSha256": "5ae9b017b3ea3cb8c6b7e23ac4bb57f7935da42af93c60050fb9b92f6d4b5809",
+      "unchanged": true
+    },
+    {
+      "path": "src/solver/prepareCanonicalRedox.js",
+      "beforeSha256": "d5666d86b7e3a5730f09ccaaf6d330f590149a54317647a94aeb24e41db19085",
+      "afterSha256": "d5666d86b7e3a5730f09ccaaf6d330f590149a54317647a94aeb24e41db19085",
+      "unchanged": true
+    },
+    {
+      "path": "src/solver/prepareSession.js",
+      "beforeSha256": "6eb8bf7d6b11d14508f3f05c3bb8d0c8099e0c5eb30f0df262cd6c59767b2164",
+      "afterSha256": "6eb8bf7d6b11d14508f3f05c3bb8d0c8099e0c5eb30f0df262cd6c59767b2164",
+      "unchanged": true
+    },
+    {
+      "path": "src/solver/redox.js",
+      "beforeSha256": "80b9f117b93a313e7172476ee38633bb7156d8886839bdeaf6c9d7cc9a9d6074",
+      "afterSha256": "80b9f117b93a313e7172476ee38633bb7156d8886839bdeaf6c9d7cc9a9d6074",
+      "unchanged": true
+    },
+    {
+      "path": "src/solver/validationContract.js",
+      "beforeSha256": "1eec965214cb5aaf583b55280c0203d4f58396264fa44e1cc69b0e7e6a3317db",
+      "afterSha256": "1eec965214cb5aaf583b55280c0203d4f58396264fa44e1cc69b0e7e6a3317db",
+      "unchanged": true
+    },
+    {
+      "path": "src/thermodynamics/canonicalRedox.js",
+      "beforeSha256": "1627b21369186cd78e405faa127b4ca9921d165ae69aa4eecfb44c7487ff5754",
+      "afterSha256": "1627b21369186cd78e405faa127b4ca9921d165ae69aa4eecfb44c7487ff5754",
+      "unchanged": true
+    },
+    {
+      "path": "src/thermodynamics/compatibility.js",
+      "beforeSha256": "65bec87e1351d660cb0c453c18b57f0a58f8fd041ef0a48714b226a46e942603",
+      "afterSha256": "65bec87e1351d660cb0c453c18b57f0a58f8fd041ef0a48714b226a46e942603",
+      "unchanged": true
+    },
+    {
+      "path": "src/thermodynamics/formationSupport.js",
+      "beforeSha256": "7e3d39500b13e63f21865af5aaa5dda090687971fce50e4ee7e030bf510eaca2",
+      "afterSha256": "7e3d39500b13e63f21865af5aaa5dda090687971fce50e4ee7e030bf510eaca2",
+      "unchanged": true
+    },
+    {
+      "path": "src/thermodynamics/index.js",
+      "beforeSha256": "54f32bdf2c6731b37494cad1ff939269b5b3740249447315cd823cb9639f5c47",
+      "afterSha256": "54f32bdf2c6731b37494cad1ff939269b5b3740249447315cd823cb9639f5c47",
+      "unchanged": true
+    },
+    {
+      "path": "src/thermodynamics/repository.js",
+      "beforeSha256": "fa5727992267e38947edded8bfcc0228a3ebca564d42e8e6e464cf08268d6f63",
+      "afterSha256": "fa5727992267e38947edded8bfcc0228a3ebca564d42e8e6e464cf08268d6f63",
+      "unchanged": true
+    },
+    {
+      "path": "src/thermodynamics/repository.test.js",
+      "beforeSha256": "47fad4e831d87de3e01da033e674e894838c1f4a9d1ef291d9b91c3f28de5d92",
+      "afterSha256": "47fad4e831d87de3e01da033e674e894838c1f4a9d1ef291d9b91c3f28de5d92",
+      "unchanged": true
+    },
+    {
+      "path": "src/thermodynamics/schema.js",
+      "beforeSha256": "b9ad007ae1d96ca7a693fa1d7debbd505ab205045844c2c99a503208e08737a2",
+      "afterSha256": "b9ad007ae1d96ca7a693fa1d7debbd505ab205045844c2c99a503208e08737a2",
+      "unchanged": true
+    },
+    {
+      "path": "src/thermodynamics/snapshot.js",
+      "beforeSha256": "8c8fd7076f005858cded6a6dd1340179018ba71c1af2aec3beaff9427a9d7acc",
+      "afterSha256": "8c8fd7076f005858cded6a6dd1340179018ba71c1af2aec3beaff9427a9d7acc",
+      "unchanged": true
+    },
+    {
+      "path": "src/thermodynamics/userComponents.js",
+      "beforeSha256": "9b48067be2ec303218ae9ee1daed3e98ed2e8d71e7b7541a5523ead89777c725",
+      "afterSha256": "9b48067be2ec303218ae9ee1daed3e98ed2e8d71e7b7541a5523ead89777c725",
+      "unchanged": true
+    },
+    {
+      "path": "src/thermodynamics/userEquilibria.js",
+      "beforeSha256": "5c1aabb37aec7131d57d48006341fb9da5824043ad147e8f3c6ffc98fd0bc9a8",
+      "afterSha256": "5c1aabb37aec7131d57d48006341fb9da5824043ad147e8f3c6ffc98fd0bc9a8",
+      "unchanged": true
+    },
+    {
+      "path": "src/thermodynamics/validation.js",
+      "beforeSha256": "6e094cc718006f0300ce4f335fbcda6349629250518570b005551fc70f87405f",
+      "afterSha256": "6e094cc718006f0300ce4f335fbcda6349629250518570b005551fc70f87405f",
+      "unchanged": true
+    },
+    {
+      "path": "src/thermodynamics/validation.test.js",
+      "beforeSha256": "d4c58a21beb0d9b36268f4995b355bc577fbb12af30630a752c8ecee3a5e259b",
+      "afterSha256": "d4c58a21beb0d9b36268f4995b355bc577fbb12af30630a752c8ecee3a5e259b",
+      "unchanged": true
+    },
+    {
+      "path": "src/thermodynamics/importers/pipeline.js",
+      "beforeSha256": "8d041a97bea3957ce4e7785acfad29cc7f547758c8cbcc666b4a3447e149d909",
+      "afterSha256": "8d041a97bea3957ce4e7785acfad29cc7f547758c8cbcc666b4a3447e149d909",
+      "unchanged": true
+    },
+    {
+      "path": "src/thermodynamics/importers/pipeline.test.js",
+      "beforeSha256": "93740acc37618fc625769b656b64478e610557f0a7db1f867dc4c5933b845ce4",
+      "afterSha256": "93740acc37618fc625769b656b64478e610557f0a7db1f867dc4c5933b845ce4",
+      "unchanged": true
+    },
+    {
+      "path": "src/thermodynamics/importers/spana/binary.js",
+      "beforeSha256": "889017b231430c00de0c7107e135517f3f137e145d69f759f58efddcde642356",
+      "afterSha256": "889017b231430c00de0c7107e135517f3f137e145d69f759f58efddcde642356",
+      "unchanged": true
+    },
+    {
+      "path": "src/thermodynamics/importers/spana/components.js",
+      "beforeSha256": "5ba6cf65a05dfeb506fd70f70ed8998122eab1b6dd524ebdd3d42872840bd765",
+      "afterSha256": "5ba6cf65a05dfeb506fd70f70ed8998122eab1b6dd524ebdd3d42872840bd765",
+      "unchanged": true
+    },
+    {
+      "path": "src/thermodynamics/importers/spana/convert.js",
+      "beforeSha256": "3a1e6e05c1c25d743991cc4b95b7fa7b7f993d1f6831c9e4a72d4cf1919aa776",
+      "afterSha256": "3a1e6e05c1c25d743991cc4b95b7fa7b7f993d1f6831c9e4a72d4cf1919aa776",
+      "unchanged": true
+    },
+    {
+      "path": "src/thermodynamics/importers/spana/names.js",
+      "beforeSha256": "2e3c89d92ab2f663e29f26a2978064c3a3d91aacf373dc450e241f18552bf61f",
+      "afterSha256": "2e3c89d92ab2f663e29f26a2978064c3a3d91aacf373dc450e241f18552bf61f",
+      "unchanged": true
+    },
+    {
+      "path": "src/thermodynamics/importers/spana/normalize.js",
+      "beforeSha256": "1524a967ec6cbf9cbd92f8831ca186631143b838c594f1fea53ee1193b343a18",
+      "afterSha256": "1524a967ec6cbf9cbd92f8831ca186631143b838c594f1fea53ee1193b343a18",
+      "unchanged": true
+    },
+    {
+      "path": "src/thermodynamics/importers/spana/references.js",
+      "beforeSha256": "75b47f05838d8d8608b11064a78154b555002f99616e032f133c4999843d3b5c",
+      "afterSha256": "75b47f05838d8d8608b11064a78154b555002f99616e032f133c4999843d3b5c",
+      "unchanged": true
+    },
+    {
+      "path": "src/thermodynamics/importers/spana/spana.test.js",
+      "beforeSha256": "1ef6f3420f058047061d376d07238e3d02cbbbfcfb027c4c50cede1f9f32087f",
+      "afterSha256": "1ef6f3420f058047061d376d07238e3d02cbbbfcfb027c4c50cede1f9f32087f",
+      "unchanged": true
+    },
+    {
+      "path": "tests/fixtures/eq-diagr/references.json",
+      "beforeSha256": "aefc0949b585ef290595088c8ed852a1eb591be25dff24563a44a2cf98d40960",
+      "afterSha256": "aefc0949b585ef290595088c8ed852a1eb591be25dff24563a44a2cf98d40960",
+      "unchanged": true
+    },
+    {
+      "path": "public/favicon.svg",
+      "beforeSha256": "61bc9a161de58248288e6905425d7180f0624c2865007b97d763fdac12043a66",
+      "afterSha256": "61bc9a161de58248288e6905425d7180f0624c2865007b97d763fdac12043a66",
+      "unchanged": true
+    },
+    {
+      "path": "public/icons.svg",
+      "beforeSha256": "b45fa506195cfcdef406ba9f0c77b36ddc1a7c224040926ec70abc2fdea7b93a",
+      "afterSha256": "b45fa506195cfcdef406ba9f0c77b36ddc1a7c224040926ec70abc2fdea7b93a",
+      "unchanged": true
+    },
+    {
+      "path": "public/artwork/adam-laboratory.png",
+      "beforeSha256": "c88de996a7e8019a2fb09bbdb60beb8f10416f4e678b23f24cc641709cc934d6",
+      "afterSha256": "c88de996a7e8019a2fb09bbdb60beb8f10416f4e678b23f24cc641709cc934d6",
+      "unchanged": true
+    },
+    {
+      "path": "public/artwork/adam-observer.png",
+      "beforeSha256": "0389cc3730a6cae0f643a7f07559c87063ed3bfce27b1d3d0e2d780d36c5a16d",
+      "afterSha256": "0389cc3730a6cae0f643a7f07559c87063ed3bfce27b1d3d0e2d780d36c5a16d",
+      "unchanged": true
+    },
+    {
+      "path": "public/artwork/adam-portrait.png",
+      "beforeSha256": "cc814a5f3fc7bc7e0d56caa168e756e8d7aaf2a8c9bb013c6f5b82a829ad32f0",
+      "afterSha256": "cc814a5f3fc7bc7e0d56caa168e756e8d7aaf2a8c9bb013c6f5b82a829ad32f0",
+      "unchanged": true
+    },
+    {
+      "path": "public/artwork/adam-studio.png",
+      "beforeSha256": "8340fd8a6958d78c986bf53d5c7d42c7733316ca992c3c89c526c8aa96c095b4",
+      "afterSha256": "8340fd8a6958d78c986bf53d5c7d42c7733316ca992c3c89c526c8aa96c095b4",
+      "unchanged": true
+    },
+    {
+      "path": "public/artwork/adam-workspace.png",
+      "beforeSha256": "1cf49efeaae32267b7d814251fd351792ebfaee12ef4b02158bd7e22fe2c6820",
+      "afterSha256": "1cf49efeaae32267b7d814251fd351792ebfaee12ef4b02158bd7e22fe2c6820",
+      "unchanged": true
+    },
+    {
+      "path": "public/data/thermodynamic-default.json",
+      "beforeSha256": "9fa7db6f4a13a88073a0ca214c412690846674f6b3f442e336baf1586c45d245",
+      "afterSha256": "9fa7db6f4a13a88073a0ca214c412690846674f6b3f442e336baf1586c45d245",
+      "unchanged": true
+    },
+    {
+      "path": "docs/oxidation-state-fe-validation.json.gz",
+      "beforeSha256": "5d21b07f65f9988179d81e1301743a0406a9d443581bf8c02a2dbd41000c86c0",
+      "afterSha256": "5d21b07f65f9988179d81e1301743a0406a9d443581bf8c02a2dbd41000c86c0",
+      "unchanged": true
+    }
+  ],
+  "changes": [
+    {
+      "path": "src/analysis/cuOxidationMetadata.js",
+      "change": "added",
+      "beforeSha256": null,
+      "afterSha256": "255174cc7ec4f3413156d8ae10a1e1f47c4d9d0dbc3b7ec5fb29b16f05d7afc4"
+    },
+    {
+      "path": "src/analysis/cuPourbaixContract.js",
+      "change": "added",
+      "beforeSha256": null,
+      "afterSha256": "a462d56ac0b5cd580021134fc9cef1165ea5da16633ee15fd91d65a37417a7ae"
+    },
+    {
+      "path": "src/analysis/fePourbaixContract.js",
+      "change": "modified",
+      "beforeSha256": "fa1a03fb9603e6005a751dd55721dd84d3b0ade320157613ec6d2e0088c28b70",
+      "afterSha256": "1f4ee90d1ea0bc5541e01e067d86aee41e6d781c119ea69cddc6766d5a7c3d93"
+    },
+    {
+      "path": "src/analysis/feWaterContext.js",
+      "change": "modified",
+      "beforeSha256": "8bf5cbcbdda386deb4f3e81f78362ab1ab0c69a3eccc8f6f09f239bc836b4753",
+      "afterSha256": "78cca6987f0f197c39b33b65770e5ee3ab9395dc79855695b1059a9fa81ae64a"
+    },
+    {
+      "path": "src/analysis/pourbaixContract.js",
+      "change": "added",
+      "beforeSha256": null,
+      "afterSha256": "2d1764d7f237071f2253ebe0fe54b4519ec09e072aea2c98623d9c8fb579c47c"
+    },
+    {
+      "path": "src/analysis/prepareElementCandidate.js",
+      "change": "added",
+      "beforeSha256": null,
+      "afterSha256": "f2329c2e0636f8bdc748fbc1fa1a167ab4905a16e877f2667958a9345461da2e"
+    },
+    {
+      "path": "src/analysis/prepareFeCandidate.js",
+      "change": "modified",
+      "beforeSha256": "46fd520fb1cec495c9a8dea150d2b5bbe94f8a2a8e560f43b66793831bd5564b",
+      "afterSha256": "ea079ff22c5c8ab6d541f6719faf615c3b0c62a4c70e51c6531667063f5bfb47"
+    },
+    {
+      "path": "src/analysis/registeredElementOxidation.js",
+      "change": "added",
+      "beforeSha256": null,
+      "afterSha256": "7cd70eef611ca6c37aff9da042fc334ef367fc3255e10f198ad01298a1188aef"
+    },
+    {
+      "path": "src/analysis/registeredOxidation.js",
+      "change": "modified",
+      "beforeSha256": "b4474e6709c39099db1a5185c832788a6708b9cb0d726a98aa2b3c0da9f0b4df",
+      "afterSha256": "9e9b39f34a56a9a3a45ad5b65c229bf3de7c2822bb3579982f5ed1d1b4814c1b"
+    },
+    {
+      "path": "src/analysis/registeredWaterContext.js",
+      "change": "added",
+      "beforeSha256": null,
+      "afterSha256": "fc396a4df5f8e1ac883a2f6b616b20ef761a4eef849fa0b2ec48b4630ee9ae82"
+    },
+    {
+      "path": "src/calculations/boundedPourbaix.js",
+      "change": "added",
+      "beforeSha256": null,
+      "afterSha256": "7d1736d49da0234ce2817c27f585e6d687e702d6979d6b6d5ff72426ddbe8820"
+    },
+    {
+      "path": "src/calculations/publicFePourbaix.js",
+      "change": "modified",
+      "beforeSha256": "b46fa47e15838af338ff1d513916c1ef53066753980e0761701e931702665d60",
+      "afterSha256": "acd50b5f8c516a3d311b2c2965c46a64ac8fbec7453f88d1469b76d2150dd3e9"
+    },
+    {
+      "path": "src/components/FePourbaixWorkspace.jsx",
+      "change": "modified",
+      "beforeSha256": "fe489d7cc86f960c736d2c65c5984ac84e27caa109f272876f1d614c299afcf5",
+      "afterSha256": "86f41051c8e1deacb466b73e6c1d337cb589dbfc4843593171f01cbbae9960eb"
+    },
+    {
+      "path": "src/plots/fePourbaixView.js",
+      "change": "modified",
+      "beforeSha256": "00489bc3a61cfad23b1a5904b3b80664d82d6072b75f5dcd4d002dc0d7a3e13a",
+      "afterSha256": "44c3c0164cf4f0fd06000022422c3800326284b24271904b4af8cf1b045ddbb9"
+    },
+    {
+      "path": "src/plots/pourbaixView.js",
+      "change": "added",
+      "beforeSha256": null,
+      "afterSha256": "70e10d59a4585f26bad0811c335d78f6dc8e0c57202fc6e8a4ddade7fc0128f4"
+    },
+    {
+      "path": "scripts/validate-cu-pourbaix.js",
+      "change": "added",
+      "beforeSha256": null,
+      "afterSha256": "abddfdeffb6c47663048271a97dc7050bd0e6f8ed1df9adbbb64fc318c42e4f6"
+    },
+    {
+      "path": "scripts/validation/compare-cu-reference.mjs",
+      "change": "added",
+      "beforeSha256": null,
+      "afterSha256": "267b9e31348c189a6838c68ecb5949f90064b304e0c1687ca32b0be872abe767"
+    },
+    {
+      "path": "scripts/validation/PourbaixProbe.java",
+      "change": "added",
+      "beforeSha256": null,
+      "afterSha256": "bbea915b5ce550b71ce55e7dc45808850e1d420dc4a8d0a7c6dbda18bbc8f64d"
+    },
+    {
+      "path": "scripts/validation/prepare-cu-reference.mjs",
+      "change": "added",
+      "beforeSha256": null,
+      "afterSha256": "79ea90bfa886742d00e6be3658c471d28bde3bab3680229fa398de520be73fc0"
+    },
+    {
+      "path": "tests/cuPourbaix.test.js",
+      "change": "added",
+      "beforeSha256": null,
+      "afterSha256": "1adc3ff819e4806859baea2680ae4511a7d32770169cf95ce62fd8e069baaff7"
+    },
+    {
+      "path": "docs/cu-haltafall-comparison.json",
+      "change": "added",
+      "beforeSha256": null,
+      "afterSha256": "adc99e4b92b2e77206606e1f224caf6d69029254b9c67ef1298922d83986456a"
+    },
+    {
+      "path": "docs/cu-haltafall-reference.json.gz",
+      "change": "added",
+      "beforeSha256": null,
+      "afterSha256": "9ced7c210e85de291fa36eaf5109ef4a5b402326c30ac65d41db9411833888c4"
+    },
+    {
+      "path": "docs/cu-pourbaix-prototype.html",
+      "change": "added",
+      "beforeSha256": null,
+      "afterSha256": "a67672d7cfee6ec04d7d9e325bc92fc54e6649d92d75340d8e2570450373cfae"
+    },
+    {
+      "path": "docs/cu-pourbaix-prototype.png",
+      "change": "added",
+      "beforeSha256": null,
+      "afterSha256": "f1d6e631ad932ee16e52a94e089422a6c011fdc99f917da8a77624d68d09e6b5"
+    },
+    {
+      "path": "docs/cu-pourbaix-prototype.svg",
+      "change": "added",
+      "beforeSha256": null,
+      "afterSha256": "0e1ea190f90acab1155c0b39b9330d36fa8bbbcb96325816dbdad2767fd07057"
+    },
+    {
+      "path": "docs/cu-pourbaix-samples.json.gz",
+      "change": "added",
+      "beforeSha256": null,
+      "afterSha256": "f04ff58d4ac0a8281dd9d72f3fe84c6024b3491be3f8eec25f9ae8483dd2a1ef"
+    },
+    {
+      "path": "docs/cu-pourbaix-validation.md",
+      "change": "added",
+      "beforeSha256": null,
+      "afterSha256": "049377c3200fd2c435fcc8ca12bd97f6152e329503fe0c5229c143d8acce93d7"
+    },
+    {
+      "path": "docs/cu-source-carriers.json",
+      "change": "added",
+      "beforeSha256": null,
+      "afterSha256": "661271ee73e3adae2b0c01ab5039379db521a68c9fe7e5960d6d771dbbcc5521"
+    },
+    {
+      "path": "docs/cu-source-carriers.md",
+      "change": "added",
+      "beforeSha256": null,
+      "afterSha256": "2a0d72b38c7fa700b4700f21be7f4cecae955f362b69170b79a8d0a211605dcf"
+    },
+    {
+      "path": "docs/cu-validation-summary.json",
+      "change": "added",
+      "beforeSha256": null,
+      "afterSha256": "6afc01e80014459466533098d48103c02938752a699575881a4506636c0ac008"
+    }
+  ],
+  "generatedResearchFiles": [
+    {
+      "path": ".local/cu-phase/baseline-audit.txt",
+      "sha256": "e96cbb05465cdce8d2f833fa09aff690741edd1122b57f0ec7c5ab6ffabb3799"
+    },
+    {
+      "path": ".local/cu-phase/baseline-build.txt",
+      "sha256": "de59e03861ad3581bc0af9a7544a4acf9ab33acbad86bd5070ce226b0bd5acb7"
+    },
+    {
+      "path": ".local/cu-phase/baseline-lint.txt",
+      "sha256": "ccfed2e35c115009b462a04cc39d68f307a29db01030a5072722e4500def6729"
+    },
+    {
+      "path": ".local/cu-phase/baseline-tests.txt",
+      "sha256": "3069f18dc3526d8072e87ee151be45315cdcbde820fd6b5804ab1e8a71c85d25"
+    },
+    {
+      "path": ".local/cu-phase/before.json",
+      "sha256": "421d4553040b04ee72c37102fc738a42800096d0bd46a16312f9d34c953c7ac2"
+    },
+    {
+      "path": ".local/cu-phase/classes/lib/common/ClassLocator.class",
+      "sha256": "83c58cea236af12fa9e9693cf9da1932546b7d4a1e0723db6eec78a9b8b6139b"
+    },
+    {
+      "path": ".local/cu-phase/classes/lib/common/MsgExceptn$ErrMsgBox$MsgBoxDialog$1.class",
+      "sha256": "57316fad3bdd4c1cc008c3ddad7c001fd118e2829ad2a90e12b5cb94bdbb4db9"
+    },
+    {
+      "path": ".local/cu-phase/classes/lib/common/MsgExceptn$ErrMsgBox$MsgBoxDialog$2.class",
+      "sha256": "8129bca8c05813195141c188e8c692c6ae41e03b5ccd7bef4ff98d0dd45dd58e"
+    },
+    {
+      "path": ".local/cu-phase/classes/lib/common/MsgExceptn$ErrMsgBox$MsgBoxDialog$3.class",
+      "sha256": "6c7a49f1a89ebac942ab45023c9a91cfaa5be69e40e9ab48d3910d8e62ca9beb"
+    },
+    {
+      "path": ".local/cu-phase/classes/lib/common/MsgExceptn$ErrMsgBox$MsgBoxDialog$4.class",
+      "sha256": "96212eb70265080aaee53a18f92dfa3a36a56ef480b3e9b3b2b1bfe6bef2a955"
+    },
+    {
+      "path": ".local/cu-phase/classes/lib/common/MsgExceptn$ErrMsgBox$MsgBoxDialog.class",
+      "sha256": "b8e880d9f7c55115f17f2d96884e7a31ddea29683137074da3ed4a59b3f8378c"
+    },
+    {
+      "path": ".local/cu-phase/classes/lib/common/MsgExceptn$ErrMsgBox.class",
+      "sha256": "9a48befdd6f86ffeafee5ccbca04c0fc71d0c71e703c1c7d5d4b45b3b69d06c4"
+    },
+    {
+      "path": ".local/cu-phase/classes/lib/common/MsgExceptn.class",
+      "sha256": "104744b7e9e85dd3b762677862a7c9f28425fcc426219f83f8d6d9f68f2d9a17"
+    },
+    {
+      "path": ".local/cu-phase/classes/lib/common/Util$IntPointer.class",
+      "sha256": "976fce7f73c7fb31256f01abf40c0bd64e7712a96f4436937cbb93e3551ac23c"
+    },
+    {
+      "path": ".local/cu-phase/classes/lib/common/Util$OptionPaneArrowAction.class",
+      "sha256": "f078a9fa3c49a68179c0d13f4425723617c4e1c0ad971d69a093b502547b2f5f"
+    },
+    {
+      "path": ".local/cu-phase/classes/lib/common/Util$OptionPaneCloseAction.class",
+      "sha256": "e904b07515c6cc86b644e2556a3e064e3a61e8bcf1c2f3f7830e32bd7d744de8"
+    },
+    {
+      "path": ".local/cu-phase/classes/lib/common/Util.class",
+      "sha256": "94068d8f21cf0cce14cdb1c95ae86262e62189b09431c402b27a4336b2ebaf8c"
+    },
+    {
+      "path": ".local/cu-phase/classes/lib/huvud/Div$1.class",
+      "sha256": "e6886f40ce20b1086a7f37e497ab0b39cd97d50415a810ef8a0f2feeda8f9253"
+    },
+    {
+      "path": ".local/cu-phase/classes/lib/huvud/Div.class",
+      "sha256": "c64d742f28b7674ddf08b7f6662cf0ad5c96efc2546af1b1d7c38063a012ea15"
+    },
+    {
+      "path": ".local/cu-phase/classes/lib/huvud/JarClassLoader.class",
+      "sha256": "b0e2bf2084078477064e2bb2ca747e2fdda8b7e67319fffde88d2f82e8959e63"
+    },
+    {
+      "path": ".local/cu-phase/classes/lib/huvud/LicenseFrame$1.class",
+      "sha256": "8d9457f1e041499694c61c2e44222cbe2ad40db572352e6989fd8bb93ac5c11f"
+    },
+    {
+      "path": ".local/cu-phase/classes/lib/huvud/LicenseFrame$2.class",
+      "sha256": "d5a3d31a163aa7ae47a1039e230e7366f8a3a867257922ac0f9fc8e9cab27081"
+    },
+    {
+      "path": ".local/cu-phase/classes/lib/huvud/LicenseFrame$3.class",
+      "sha256": "b4c85bd3eff2f191b17d7156e7c4ec0ea2b67938c3685cf73a1e3b37037b0fb8"
+    },
+    {
+      "path": ".local/cu-phase/classes/lib/huvud/LicenseFrame$4.class",
+      "sha256": "43c705d27e1c8be42f466715385ba3256fa6a9aea3df27975d3e4750c1328d5e"
+    },
+    {
+      "path": ".local/cu-phase/classes/lib/huvud/LicenseFrame.class",
+      "sha256": "1e2e85ac98dd12f14a70424f4b5b10d1730926c4665eb05000a07538450c6a98"
+    },
+    {
+      "path": ".local/cu-phase/classes/lib/huvud/ProgramConf.class",
+      "sha256": "8faceae9825967b68b5802089dfd570d4a339aa078af34c246bbb2d512b9865f"
+    },
+    {
+      "path": ".local/cu-phase/classes/lib/huvud/RedirectedFrame$1.class",
+      "sha256": "084febc9d3d96de13517ea2344db5c54dfe179d418b58bf88de2b04142eb9198"
+    },
+    {
+      "path": ".local/cu-phase/classes/lib/huvud/RedirectedFrame$10.class",
+      "sha256": "8485531bf6646cedaee939eda79e4c7790bba3ff194b093c233e87151a965490"
+    },
+    {
+      "path": ".local/cu-phase/classes/lib/huvud/RedirectedFrame$2.class",
+      "sha256": "7139c971d88fefd40a86eed4a9c698660c414e09c03c73f6a619e792e3cd323a"
+    },
+    {
+      "path": ".local/cu-phase/classes/lib/huvud/RedirectedFrame$3.class",
+      "sha256": "0251aa25f9726d5dd5506830b0818a8a24fc5157225b03f3ab177b564618e92b"
+    },
+    {
+      "path": ".local/cu-phase/classes/lib/huvud/RedirectedFrame$4.class",
+      "sha256": "23913599e25a41719201873bbfbe88706f465033e6bb215c25248385f61d8042"
+    },
+    {
+      "path": ".local/cu-phase/classes/lib/huvud/RedirectedFrame$5.class",
+      "sha256": "55b24aeb52fa94622f1cd9fb3d38b310e474dea35109337051b84f0b758e759d"
+    },
+    {
+      "path": ".local/cu-phase/classes/lib/huvud/RedirectedFrame$6.class",
+      "sha256": "6420335f82cea370b0a98453a9fef95d9a4e6ff322881180980344a4fec7a44a"
+    },
+    {
+      "path": ".local/cu-phase/classes/lib/huvud/RedirectedFrame$7.class",
+      "sha256": "e574b3a2219295c66c2a709b1d3aa2c317bfb42b8a910cf18fdcc4b068569c9f"
+    },
+    {
+      "path": ".local/cu-phase/classes/lib/huvud/RedirectedFrame$8.class",
+      "sha256": "c78bc1e8eece7f31e2ac0a87e3d47ac154e98c8c80fb5162a63ecb4f2132ed17"
+    },
+    {
+      "path": ".local/cu-phase/classes/lib/huvud/RedirectedFrame$9.class",
+      "sha256": "7703ff476d270e2c5b3510f0ee1d4fb274bfa0ddb998dd06eacd193af1c3e6b9"
+    },
+    {
+      "path": ".local/cu-phase/classes/lib/huvud/RedirectedFrame$errFilteredStream.class",
+      "sha256": "cba47c78916a9c85c514dcc41a43de957215c06b4b7a3c488e75b0d0ab2d05d4"
+    },
+    {
+      "path": ".local/cu-phase/classes/lib/huvud/RedirectedFrame$outFilteredStream.class",
+      "sha256": "db9a9fd6424656e8a39e8d21bff3fd95782f5fc4233c3e9c257864a4eab876be"
+    },
+    {
+      "path": ".local/cu-phase/classes/lib/huvud/RedirectedFrame.class",
+      "sha256": "da00c6ff0cb24d9172bab3d252d655dee4b1fe6e0f4e6ceb518f6b56445f756d"
+    },
+    {
+      "path": ".local/cu-phase/classes/lib/huvud/RunJar$WorkTask.class",
+      "sha256": "73ebfb44d8f949bf578ca73bd0619392a082a3244d3461eff5f982f77407d04a"
+    },
+    {
+      "path": ".local/cu-phase/classes/lib/huvud/RunJar.class",
+      "sha256": "125fe372d4ca3331db2ee12f3f33bdcfcdc53d3c936d5631ce7c67e206b1b95b"
+    },
+    {
+      "path": ".local/cu-phase/classes/lib/huvud/RunProgr$StreamEater.class",
+      "sha256": "715c276f83d10d1266e05ff58f96addf0a76817b4f5210ce3b8eed59b8e8559e"
+    },
+    {
+      "path": ".local/cu-phase/classes/lib/huvud/RunProgr.class",
+      "sha256": "87c24372aae06f71490514e117a9f4770c3ff0606bd0f1017c5abfeaee75a3c2"
+    },
+    {
+      "path": ".local/cu-phase/classes/lib/huvud/SortedListModel.class",
+      "sha256": "33caf3a6c20337ee63a6b23403675d2d1014539d06c2edbc0a9e5fc63adee820"
+    },
+    {
+      "path": ".local/cu-phase/classes/lib/huvud/SortedProperties.class",
+      "sha256": "3aec34582df5927f1173195422f501de085c419de9c5e2e22e5830c9171a8dc8"
+    },
+    {
+      "path": ".local/cu-phase/classes/lib/huvud/Splash.class",
+      "sha256": "52ed454df62c920db502e10e33fb13f0c6c8e9df50dfd7b26de033ee68baf09f"
+    },
+    {
+      "path": ".local/cu-phase/classes/lib/kemi/chem/Chem$ChemicalParameterException.class",
+      "sha256": "ace89b12d649e371598d52b8cb7533c318993e147f742daa1cf328f2746116d9"
+    },
+    {
+      "path": ".local/cu-phase/classes/lib/kemi/chem/Chem$ChemSystem$ChemConcs.class",
+      "sha256": "daad54a18d317c07d72d1c7211b2d975203ad753a652e4376d063ceb1e9e9e04"
+    },
+    {
+      "path": ".local/cu-phase/classes/lib/kemi/chem/Chem$ChemSystem$NamesEtc.class",
+      "sha256": "05e309b10c9089ad97e219db588a0dd9d8c341fa969cf04c2d1a0fca9c0d32a1"
+    },
+    {
+      "path": ".local/cu-phase/classes/lib/kemi/chem/Chem$ChemSystem.class",
+      "sha256": "ccd737869f3b78047d6a1d4097c665009bc25cef0cd8e87db316a9b8a6db41f1"
+    },
+    {
+      "path": ".local/cu-phase/classes/lib/kemi/chem/Chem$Diagr.class",
+      "sha256": "ad4a898ac95f93ce3d9e5156de8977a2146fb2ab903db8e78408801e60a2949b"
+    },
+    {
+      "path": ".local/cu-phase/classes/lib/kemi/chem/Chem$DiagrConcs.class",
+      "sha256": "37299d029f979ce503ece7d369b4fff5d6d8a3cb7573a0a0ce00e92df0776d3a"
+    },
+    {
+      "path": ".local/cu-phase/classes/lib/kemi/chem/Chem.class",
+      "sha256": "6a9ff43b152f06ad6580f9eee43454a7310b0cee5bd3957e697a8deebf10e37a"
+    },
+    {
+      "path": ".local/cu-phase/classes/lib/kemi/graph_lib/DiagrPaintUtility$ChemFormula.class",
+      "sha256": "7040de85d1a5bd25c1c28b47922ddfc321233f2a17f7656d2262ef37901b4e12"
+    },
+    {
+      "path": ".local/cu-phase/classes/lib/kemi/graph_lib/DiagrPaintUtility$FontInfo.class",
+      "sha256": "730ee8fe590dec10d318f2c2cc18c41ad24920675a26b6e09a004f6524edef7f"
+    },
+    {
+      "path": ".local/cu-phase/classes/lib/kemi/graph_lib/DiagrPaintUtility.class",
+      "sha256": "c1daec9631d7d7bb46f221cdc56310ceffe8849499991d04010532d208be2ad7"
+    },
+    {
+      "path": ".local/cu-phase/classes/lib/kemi/graph_lib/GraphLib$AxesDataException.class",
+      "sha256": "1f71b65eb07af2524ea1e92d8b674a7e4a59b2faed69bdc4c53f38188619bad4"
+    },
+    {
+      "path": ".local/cu-phase/classes/lib/kemi/graph_lib/GraphLib$CodeData.class",
+      "sha256": "4d87b12741f07ad508458c9feddbf44c16e257049855ed18fbb820c9843b748d"
+    },
+    {
+      "path": ".local/cu-phase/classes/lib/kemi/graph_lib/GraphLib$PltData$PlotStep.class",
+      "sha256": "c000f0ceecc508fdb379011b81643bdb151910c1bf179d65c0dd6f137e1924a4"
+    },
+    {
+      "path": ".local/cu-phase/classes/lib/kemi/graph_lib/GraphLib$PltData$PlotText.class",
+      "sha256": "5903c1d447ec2073d70566d111b4366c9b86c1b639d1cd20c80338f65d7668d5"
+    },
+    {
+      "path": ".local/cu-phase/classes/lib/kemi/graph_lib/GraphLib$PltData.class",
+      "sha256": "2aa62dade35048301ff900eee9c1b25e5218719bbb9d94acaca2dcdd3a5e6c89"
+    },
+    {
+      "path": ".local/cu-phase/classes/lib/kemi/graph_lib/GraphLib$WritePlotFileException.class",
+      "sha256": "6e0b9c450793746904f850af8c7f70d67f8637401c7edac4e3a6cf0df889078d"
+    },
+    {
+      "path": ".local/cu-phase/classes/lib/kemi/graph_lib/GraphLib.class",
+      "sha256": "d1cc2fc4cc5bee7ae91f74e9a3ca71eac7aee74ffb45859754191962e5166344"
+    },
+    {
+      "path": ".local/cu-phase/classes/lib/kemi/H2O/Dielectric.class",
+      "sha256": "adb83141aac72a9a719a0a6241c8d36d16046b1a555db0d736be653862d157c7"
+    },
+    {
+      "path": ".local/cu-phase/classes/lib/kemi/H2O/IAPWSF95.class",
+      "sha256": "7281294bc4b45469159e45c6c5177c8bab10b98e3fb4f2dd97052c25bd132597"
+    },
+    {
+      "path": ".local/cu-phase/classes/lib/kemi/haltaFall/Factor$SITdataException.class",
+      "sha256": "d06d421d9300433ee70f6636a7851bb9ba54e442deb53c39c3bb986fe7fa7a96"
+    },
+    {
+      "path": ".local/cu-phase/classes/lib/kemi/haltaFall/Factor$SITeps.class",
+      "sha256": "9a0360f3fa7a00b02f09164dab1be694ed37dd1348a90155dfc44a3b92fbf189"
+    },
+    {
+      "path": ".local/cu-phase/classes/lib/kemi/haltaFall/Factor.class",
+      "sha256": "d636e5d40e8a67ce47ed56e117ce344f5e061bba1321f2641316a27eb67a065f"
+    },
+    {
+      "path": ".local/cu-phase/classes/lib/kemi/haltaFall/FactorInterface.class",
+      "sha256": "cd97ddf391977c5ee2b426e576ad7ccfdd364e2cdc41f8c9ae9d9174387e14f0"
+    },
+    {
+      "path": ".local/cu-phase/classes/lib/kemi/haltaFall/HaltaFall$TooManyIterationsException.class",
+      "sha256": "4483b711493bb366a52333bc369bc3ecd1452c5fb632ec5885a1082c5c58f486"
+    },
+    {
+      "path": ".local/cu-phase/classes/lib/kemi/haltaFall/HaltaFall.class",
+      "sha256": "60c1471ef9f7799e5aa826707adb95d45db4e9a4bc5831b867501b8f89753e23"
+    },
+    {
+      "path": ".local/cu-phase/classes/lib/kemi/interpolate/Interpolate.class",
+      "sha256": "b4fe184cbdc2e8a557210f11e2ebc6f6301fd74b751622128c0ddc937fa85c59"
+    },
+    {
+      "path": ".local/cu-phase/classes/lib/kemi/readDataLib/ReadDataLib$DataEofException.class",
+      "sha256": "f14835a79bc1f97a4a1c450e6e212596ff094b74930b23533db20bee1b731e4e"
+    },
+    {
+      "path": ".local/cu-phase/classes/lib/kemi/readDataLib/ReadDataLib$DataFileException.class",
+      "sha256": "e106bd6fee4996c7aaf1e89e76de8eaebcc438bc804dab86e19409d22df8508f"
+    },
+    {
+      "path": ".local/cu-phase/classes/lib/kemi/readDataLib/ReadDataLib$DataReadException.class",
+      "sha256": "a7494ceec3ea1ef534697ddd352a92f9f6a5f3692855db1cd4fed4c301e42a8b"
+    },
+    {
+      "path": ".local/cu-phase/classes/lib/kemi/readDataLib/ReadDataLib$ReadDataLibException.class",
+      "sha256": "0142304e168d752f11bb71ff9b8e04e81f012c4c17cfc510fd806012ab9a15aa"
+    },
+    {
+      "path": ".local/cu-phase/classes/lib/kemi/readDataLib/ReadDataLib.class",
+      "sha256": "1ba59fc5207f884e123604e284116e31b4532be15119b712fa77afa33879c239"
+    },
+    {
+      "path": ".local/cu-phase/classes/lib/kemi/readWriteDataFiles/DefaultPlotAndConcs.class",
+      "sha256": "af7e2714ae7fe0bec46884c1566706220db134ab43bb4aa04794780d1b0fda39"
+    },
+    {
+      "path": ".local/cu-phase/classes/lib/kemi/readWriteDataFiles/ModifyChemSyst.class",
+      "sha256": "9f2c292adf0d2a5d61125c59ddd6258a3c8f80d87fc44230f6172a770d53bd4d"
+    },
+    {
+      "path": ".local/cu-phase/classes/lib/kemi/readWriteDataFiles/ReadChemSyst$ConcDataException.class",
+      "sha256": "05420dbdea1e35ea1aab03db5f974dd8724d537720f2b3a88e272b1e8ebe07bc"
+    },
+    {
+      "path": ".local/cu-phase/classes/lib/kemi/readWriteDataFiles/ReadChemSyst$DataLimitsException.class",
+      "sha256": "41ea9fb0c589e80ee17c637019d604f4e25b69e7c46c61e768929216186c222e"
+    },
+    {
+      "path": ".local/cu-phase/classes/lib/kemi/readWriteDataFiles/ReadChemSyst$PlotDataException.class",
+      "sha256": "6366e05acca84fd0b7bd644b41f4c7fb7f1ce047db812b59b79d67bfe2ca5d9e"
+    },
+    {
+      "path": ".local/cu-phase/classes/lib/kemi/readWriteDataFiles/ReadChemSyst$ReadDataFileException.class",
+      "sha256": "49f36c02624f41497b6eaa770cd3950a2e703bec2c0852d32a592d5fa6daa4ae"
+    },
+    {
+      "path": ".local/cu-phase/classes/lib/kemi/readWriteDataFiles/ReadChemSyst.class",
+      "sha256": "6d05be4ae7a853c996fa74cc81460fa1f1885b3b86195c6b2613f79a870262a8"
+    },
+    {
+      "path": ".local/cu-phase/classes/lib/kemi/readWriteDataFiles/WriteChemSyst$DataLimitsException.class",
+      "sha256": "e82fd82c0a7eac13d4216a82113195917b74170d4353cbce07f562e41330cbb3"
+    },
+    {
+      "path": ".local/cu-phase/classes/lib/kemi/readWriteDataFiles/WriteChemSyst$WriteChemSystArgsException.class",
+      "sha256": "337906715ee9d1ae7c19a97cb89ef038bcfb822ffeaf7674433afc42a7dccfaa"
+    },
+    {
+      "path": ".local/cu-phase/classes/lib/kemi/readWriteDataFiles/WriteChemSyst.class",
+      "sha256": "d8b5360c23deadad1c36ced14129306027eba6e5ca25e5afa9d646d5ca923fde"
+    },
+    {
+      "path": ".local/cu-phase/classes/lib/Version.class",
+      "sha256": "75ebacba70a621f14e81915794a88cd0e6a893fd708433fc97e8479482235de4"
+    },
+    {
+      "path": ".local/cu-phase/classes/PourbaixProbe.class",
+      "sha256": "f9e8d381aa23c7ab3476a3d7bcf10e40e6487bffa7e01fa3a44e260240cc9b83"
+    },
+    {
+      "path": ".local/cu-phase/coordinates.csv",
+      "sha256": "04305a6bf5b011c57f25452e123580b4759d0dcdb58771051cbf11f0fc5e0c78"
+    },
+    {
+      "path": ".local/cu-phase/curate.mjs",
+      "sha256": "08d6483168c1c54ecb9c7f94cbe4d2330ca3395f2acc27eab443d6b575d5e4ac"
+    },
+    {
+      "path": ".local/cu-phase/extract.mjs",
+      "sha256": "85df0553243e4bfde9f2cc652697d1dec27a1ee2e9f7f448ca7bac09bc1673d5"
+    },
+    {
+      "path": ".local/cu-phase/final-audit.txt",
+      "sha256": "4512d684c50903de5fbd14c2a05f0f3b4521ceb7151dd0f76a18775b9de400ec"
+    },
+    {
+      "path": ".local/cu-phase/final-build.txt",
+      "sha256": "99c0d003d761c1201c8e1bfa766a22d52c96cfedfd2cd2b1531ea83f5eda49e3"
+    },
+    {
+      "path": ".local/cu-phase/final-lint.txt",
+      "sha256": "ccfed2e35c115009b462a04cc39d68f307a29db01030a5072722e4500def6729"
+    },
+    {
+      "path": ".local/cu-phase/final-tests.txt",
+      "sha256": "49a2388bf75871bacbdae6e858c8baefa966764eab19acfa35b498fffffd8e0f"
+    },
+    {
+      "path": ".local/cu-phase/finalize.mjs",
+      "sha256": "23f706846429c8feaec96bf91b6b72daa69bd60b851de62e95db9c42ee21e989"
+    },
+    {
+      "path": ".local/cu-phase/focused-tests.txt",
+      "sha256": "592c2cdfa4da9b9a2fa45ff6f05bfcbb3ac8cdc8f7613adfe4727c994b1c056a"
+    },
+    {
+      "path": ".local/cu-phase/grid-validation.txt",
+      "sha256": "549d9e66b872103c0388f88984c69c252efb3781953eb7a5bb15740d0e29b98f"
+    },
+    {
+      "path": ".local/cu-phase/haltafall-cu.ndjson",
+      "sha256": "311f54cc3b0e8e0a9476dca71b76d493fe3d6c9865b5a7a143b2e449f73ce4bb"
+    },
+    {
+      "path": ".local/cu-phase/independent-chemistry.json",
+      "sha256": "551886108f0243cd424e9b4c9a8860149d129c6a95c539c694f9a27124fa19e3"
+    },
+    {
+      "path": ".local/cu-phase/matched-cu.dat",
+      "sha256": "16ac49cbd29e9d21de96daa68386d3ddf7e0db097e149952d94798203d39baa4"
+    },
+    {
+      "path": ".local/cu-phase/metadata-test.txt",
+      "sha256": "7e18d2fb769c0fe590f2c856bfc4ce71407a1e1937ac988f50a8ae371d8286a1"
+    },
+    {
+      "path": ".local/cu-phase/official-library-verification.json",
+      "sha256": "b75523d414be13ca2001559267ce761553141ccc9c363d2c4dd03c77e8d6277f"
+    },
+    {
+      "path": ".local/cu-phase/prepared.json",
+      "sha256": "3678c3a04efcef49ae0191436df9b4e357bdd8a6cda5370f910f854004ef28a7"
+    },
+    {
+      "path": ".local/cu-phase/proposed-registry.json",
+      "sha256": "b578d1c64a16e78f2cce5b2fffc5a49b4de9b14df0b07e2efa68aabc1f98af3d"
+    },
+    {
+      "path": ".local/cu-phase/write-report.mjs",
+      "sha256": "095684c72e9da16b17149c616158a254e3d99d36b22a34998649b60a96b43242"
+    }
+  ],
+  "publicCuEnabled": false,
+  "deployed": false,
+  "pushed": false,
+  "recommendation": "A — READY FOR BOUNDED PUBLIC Cu POURBAIX",
+  "sourceModules": [
+    "src\\App.css",
+    "src\\App.jsx",
+    "src\\analysis\\feOxidationMetadata.js",
+    "src\\analysis\\fePourbaixContract.js",
+    "src\\analysis\\gridDiagnostics.js",
+    "src\\analysis\\mnDiagnostic.js",
+    "src\\analysis\\oxidationInventory.js",
+    "src\\analysis\\pointTrace.js",
+    "src\\analysis\\pourbaixContract.js",
+    "src\\analysis\\prepareElementCandidate.js",
+    "src\\analysis\\prepareFeCandidate.js",
+    "src\\analysis\\registeredElementOxidation.js",
+    "src\\analysis\\registeredWaterContext.js",
+    "src\\analysis\\samples.js",
+    "src\\analysis\\slices.js",
+    "src\\analysis\\summary.js",
+    "src\\analysis\\waterReferences.js",
+    "src\\beaker\\acceptedState.js",
+    "src\\beaker\\componentPartition.js",
+    "src\\beaker\\phaseLabel.js",
+    "src\\beaker\\scene.js",
+    "src\\beaker\\solutionSummary.js",
+    "src\\beaker\\visual.js",
+    "src\\calculations\\aqueousFractions.js",
+    "src\\calculations\\boundedPourbaix.js",
+    "src\\calculations\\definition.js",
+    "src\\calculations\\diagramSetup.js",
+    "src\\calculations\\fePublicSetup.js",
+    "src\\calculations\\grid.js",
+    "src\\calculations\\independentSolubility.js",
+    "src\\calculations\\liveRun.js",
+    "src\\calculations\\massConcentration.js",
+    "src\\calculations\\outputDescriptors.js",
+    "src\\calculations\\outputs.js",
+    "src\\calculations\\publicFePourbaix.js",
+    "src\\calculations\\setupEditing.js",
+    "src\\calculations\\solubility.js",
+    "src\\calculations\\surfaceResponses.js",
+    "src\\calculations\\sweep.js",
+    "src\\calculations\\units.js",
+    "src\\chemistry\\components.js",
+    "src\\chemistry\\elementInteraction.js",
+    "src\\chemistry\\format.js",
+    "src\\chemistry\\system.js",
+    "src\\chemistry\\validation.js",
+    "src\\components\\AdamMedia.jsx",
+    "src\\components\\AmountUnitSelect.jsx",
+    "src\\components\\AnalysisPanel.jsx",
+    "src\\components\\AqueousFractionInspection.jsx",
+    "src\\components\\AxisControls.jsx",
+    "src\\components\\BeakerDrawing.jsx",
+    "src\\components\\CalculationWorkspace.jsx",
+    "src\\components\\CellDiagnostic.jsx",
+    "src\\components\\ComponentPartition.jsx",
+    "src\\components\\ComponentSelector.jsx",
+    "src\\components\\DatabaseSource.jsx",
+    "src\\components\\DiagramSwitcher.jsx",
+    "src\\components\\ElementSelector.jsx",
+    "src\\components\\ExpandedPlot.jsx",
+    "src\\components\\ExportPanel.jsx",
+    "src\\components\\FePourbaix.css",
+    "src\\components\\FePourbaixSetup.jsx",
+    "src\\components\\FePourbaixWorkspace.jsx",
+    "src\\components\\FixedCondition.jsx",
+    "src\\components\\GridDiagnostics.jsx",
+    "src\\components\\GridPlot.jsx",
+    "src\\components\\GridWorkspace.jsx",
+    "src\\components\\IndependentSolubilityPlot.jsx",
+    "src\\components\\IndependentSolubilitySetup.jsx",
+    "src\\components\\InteractiveBeaker.css",
+    "src\\components\\InteractiveBeaker.jsx",
+    "src\\components\\JsonDetails.jsx",
+    "src\\components\\MapOutput.jsx",
+    "src\\components\\MassInput.jsx",
+    "src\\components\\MnDiagnostic.css",
+    "src\\components\\MnDiagnostic.jsx",
+    "src\\components\\NumberField.jsx",
+    "src\\components\\ObserverPortrait.jsx",
+    "src\\components\\OutputControls.jsx",
+    "src\\components\\PlotExport.jsx",
+    "src\\components\\PlotWorkspace.jsx",
+    "src\\components\\PointResult.jsx",
+    "src\\components\\ReactionReview.jsx",
+    "src\\components\\RedoxControls.jsx",
+    "src\\components\\ResultSelectionContext.js",
+    "src\\components\\ScientificPlot.jsx",
+    "src\\components\\ScientificTrace.jsx",
+    "src\\components\\SelectedSystem.jsx",
+    "src\\components\\SliceView.jsx",
+    "src\\components\\SolutionSummary.jsx",
+    "src\\components\\SpeciesDetails.jsx",
+    "src\\components\\Surface3D.jsx",
+    "src\\components\\SurfaceControls.jsx",
+    "src\\components\\SurfaceResponseControls.jsx",
+    "src\\components\\SystemDefinition.jsx",
+    "src\\components\\SystemReadiness.jsx",
+    "src\\components\\UserChemistry.jsx",
+    "src\\components\\UserComponents.jsx",
+    "src\\components\\UserEquilibria.jsx",
+    "src\\components\\databaseLoading.js",
+    "src\\components\\defaultSource.js",
+    "src\\components\\usePlotBox.js",
+    "src\\components\\usePlotGestures.js",
+    "src\\data\\atomicWeights.js",
+    "src\\data\\elements.js",
+    "src\\data\\fePourbaixExample.js",
+    "src\\data\\metalLigandSurfaceExample.js",
+    "src\\data\\mnDiagnosticIdentity.js",
+    "src\\data\\mnRegionIdentity.js",
+    "src\\data\\mnTopologyIdentity.js",
+    "src\\data\\periodicTable.js",
+    "src\\data\\solubilityExample.js",
+    "src\\data\\species.js",
+    "src\\data\\surfaceExamples.js",
+    "src\\index.css",
+    "src\\main.jsx",
+    "src\\plots\\diagramIdentity.js",
+    "src\\plots\\export.js",
+    "src\\plots\\fePourbaixView.js",
+    "src\\plots\\formatNumber.js",
+    "src\\plots\\geometry.js",
+    "src\\plots\\gridView.js",
+    "src\\plots\\labels.js",
+    "src\\plots\\legendReadout.js",
+    "src\\plots\\logLandmarks.js",
+    "src\\plots\\mnDiagnostic.js",
+    "src\\plots\\mnRegions.js",
+    "src\\plots\\mnTopology.js",
+    "src\\plots\\navigation.js",
+    "src\\plots\\parameterScale.js",
+    "src\\plots\\pourbaixView.js",
+    "src\\plots\\presentation.js",
+    "src\\plots\\responseSurface.js",
+    "src\\plots\\resultSelection.js",
+    "src\\plots\\scalarMap.js",
+    "src\\plots\\statusText.js",
+    "src\\plots\\surface3d.js",
+    "src\\plots\\surfaceFigure.js",
+    "src\\plots\\surfaceLifecycle.js",
+    "src\\plots\\threeSurfaceRenderer.js",
+    "src\\plots\\workspaceView.js",
+    "src\\session\\diagramNavigation.js",
+    "src\\session\\laboratorySession.js",
+    "src\\session\\workspaceDefaults.js",
+    "src\\solver\\assemblages.js",
+    "src\\solver\\contract.js",
+    "src\\solver\\linear.js",
+    "src\\solver\\models.js",
+    "src\\solver\\point.js",
+    "src\\solver\\prepareCanonicalRedox.js",
+    "src\\solver\\prepareSession.js",
+    "src\\solver\\redox.js",
+    "src\\solver\\validationContract.js",
+    "src\\thermodynamics\\canonicalRedox.js",
+    "src\\thermodynamics\\compatibility.js",
+    "src\\thermodynamics\\formationSupport.js",
+    "src\\thermodynamics\\importers\\spana\\names.js",
+    "src\\thermodynamics\\index.js",
+    "src\\thermodynamics\\repository.js",
+    "src\\thermodynamics\\schema.js",
+    "src\\thermodynamics\\snapshot.js",
+    "src\\thermodynamics\\userComponents.js",
+    "src\\thermodynamics\\userEquilibria.js",
+    "src\\thermodynamics\\validation.js"
+  ]
+}

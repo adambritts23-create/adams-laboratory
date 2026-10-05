@@ -1,0 +1,578 @@
+{
+  "ok": true,
+  "pH": 11.234,
+  "components": [
+    {
+      "id": "component:Ca%202%2B",
+      "name": "Ca 2+",
+      "totalDissolved": 0.10000000000001259,
+      "contributors": [
+        {
+          "id": "component:Ca%202%2B",
+          "name": "Ca 2+",
+          "coefficient": 1,
+          "molality": 0.09559025360552152,
+          "weightedMolality": 0.09559025360552152
+        },
+        {
+          "id": "spana:2ac52a30213c9288:63057",
+          "name": "CaOH+",
+          "coefficient": 1,
+          "molality": 0.004409746394491065,
+          "weightedMolality": 0.004409746394491065
+        }
+      ],
+      "dominant": {
+        "id": "component:Ca%202%2B",
+        "name": "Ca 2+",
+        "coefficient": 1,
+        "molality": 0.09559025360552152,
+        "weightedMolality": 0.09559025360552152
+      }
+    }
+  ],
+  "solids": [],
+  "allSolids": [],
+  "category": "aqueous",
+  "explanation": "No selected candidate solid has a positive accepted amount.",
+  "visual": {
+    "inventory": 0,
+    "bedHeight": 0,
+    "mapping": "Schematic bed height = 12 + 44 S/(S + 0.05) drawing units for positive S; otherwise zero. S is the summed solid amount in mol/kg H₂O. The 0.05 scale and drawing units are visual choices, not thermodynamic data or calibrated volume. Fixed liquid level is decorative."
+  },
+  "input": {
+    "schemaVersion": 1,
+    "systemId": "a205c160755ec75d267bf8fc57d26e4691009eea0746b1d3c088e05e5607c33c",
+    "revision": 5,
+    "constraints": [
+      {
+        "componentId": "component:H2O",
+        "kh": 2,
+        "value": 0
+      },
+      {
+        "componentId": "component:Ca%202%2B",
+        "kh": 1,
+        "value": 0.1
+      },
+      {
+        "componentId": "component:H%2B",
+        "kh": 2,
+        "value": -11.234
+      }
+    ],
+    "unit": "mol/kg-H2O",
+    "temperatureC": 25,
+    "pressureBar": 1,
+    "activityModel": "ideal",
+    "electroneutrality": "not-imposed",
+    "id": "d3cb9287357f1ffcdf79487142264bf6321bc134d78250db73ba2cbcf42cd453"
+  },
+  "result": {
+    "ok": true,
+    "status": "converged",
+    "scientificValidation": "passed",
+    "method": {
+      "name": "scaled-log-Newton-with-single-solid-active-set",
+      "version": "1.0.1"
+    },
+    "systemId": "a205c160755ec75d267bf8fc57d26e4691009eea0746b1d3c088e05e5607c33c",
+    "inputId": "d3cb9287357f1ffcdf79487142264bf6321bc134d78250db73ba2cbcf42cd453",
+    "revision": 5,
+    "sourceIdentity": {
+      "sources": [
+        {
+          "id": "spana:2ac52a30213c9288dd18fc6dd597411e5c3ca53173fa6d1fab5530b371c30a0a",
+          "name": "Spana/DataBase · local imported records",
+          "citation": null,
+          "sourceFile": "Eq-Diagr/Reactions.db"
+        },
+        {
+          "id": "local-demo-v1",
+          "name": "DEMO / NON-THERMODYNAMIC",
+          "citation": null,
+          "description": "Manually authored identity fixtures; no equilibrium data."
+        }
+      ],
+      "databaseHashes": [
+        "2ac52a30213c9288dd18fc6dd597411e5c3ca53173fa6d1fab5530b371c30a0a"
+      ],
+      "selectedComponentIds": [
+        "component:H2O",
+        "component:Ca%202%2B",
+        "component:H%2B"
+      ],
+      "selectedSpeciesIds": [
+        "spana:2ac52a30213c9288:63057",
+        "spana:2ac52a30213c9288:250448"
+      ]
+    },
+    "componentIds": [
+      "component:H2O",
+      "component:Ca%202%2B",
+      "component:H%2B"
+    ],
+    "speciesIds": [
+      "component:H2O",
+      "component:Ca%202%2B",
+      "component:H%2B",
+      "spana:2ac52a30213c9288:63057",
+      "spana:2ac52a30213c9288:250448"
+    ],
+    "componentNames": [
+      "H2O",
+      "Ca 2+",
+      "H+"
+    ],
+    "speciesNames": [
+      "H2O",
+      "Ca 2+",
+      "H+",
+      "CaOH+",
+      "OH-"
+    ],
+    "freeComponentConcentrations": [
+      0,
+      0.09559025360552152,
+      5.834451042737448e-12
+    ],
+    "freeComponentActivities": [
+      1,
+      0.09559025360552152,
+      5.834451042737448e-12
+    ],
+    "concentrations": [
+      0,
+      0.09559025360552152,
+      5.834451042737448e-12,
+      0.004409746394491065,
+      0.0017080477200597077
+    ],
+    "logActivities": [
+      0,
+      -1.0195863861875172,
+      -11.234,
+      -2.355586386187518,
+      -2.7675
+    ],
+    "componentTotals": [
+      0,
+      0.10000000000001259,
+      -0.006117794108716322
+    ],
+    "dissolvedComponentAmounts": [
+      0,
+      0.10000000000001259,
+      -0.006117794108716322
+    ],
+    "logActivityCoefficients": [
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "solids": [],
+    "residuals": {
+      "componentBalance": [
+        null,
+        1.2587153541687712e-14,
+        null
+      ],
+      "componentBalanceLimits": [
+        null,
+        1.0000000000000001e-11,
+        null
+      ],
+      "massActionLog": [
+        0,
+        0
+      ],
+      "scaledBalance": [
+        null,
+        1.2587153541686127e-13,
+        null
+      ]
+    },
+    "iterations": 3,
+    "diagnostics": [],
+    "attempts": [
+      {
+        "active": false,
+        "activeIds": [],
+        "iteration": 3,
+        "accepted": true,
+        "diagnostics": []
+      }
+    ],
+    "minimumPivotRatio": 1,
+    "iterationTolerance": 2e-13,
+    "saturationTolerance": 1e-12,
+    "temperatureC": 25,
+    "pressureBar": 1,
+    "unit": "mol/kg-H2O",
+    "activityModel": "ideal",
+    "ionicStrength": null,
+    "electricBalance": null,
+    "waterOsmoticCoefficient": null,
+    "warnings": [
+      "Restricted species set and explicit direct basis; no completeness or general independence proof.",
+      "Source reference-pressure scalar unavailable; 1 bar is a declared calculation setting, not reconstructed source metadata.",
+      "Ideal activities only; ionic strength and electroneutrality are not calculated or imposed.",
+      "Absent-solid log activity is a hypothetical formation/saturation quantity, not an assigned phase activity."
+    ]
+  },
+  "systemId": "a205c160755ec75d267bf8fc57d26e4691009eea0746b1d3c088e05e5607c33c",
+  "revision": 5,
+  "system": {
+    "schemaVersion": 1,
+    "preparationVersion": "direct-basis-1",
+    "basisStatus": "explicit-direct",
+    "readiness": "ready-restricted",
+    "components": [
+      {
+        "id": "component:H2O",
+        "name": "H2O",
+        "role": "water",
+        "phase": "liquid",
+        "source": {
+          "id": "component:H2O",
+          "name": "H2O",
+          "role": "solvent",
+          "associations": [
+            {
+              "element": "XX",
+              "description": "water",
+              "byteOffset": 3449,
+              "rawBlockBase64": "AAJYWAAAAAEAA0gyTwAFd2F0ZXI="
+            }
+          ],
+          "deprecated": false,
+          "provenance": {
+            "sourceDatabase": "spana:2ac52a30213c9288dd18fc6dd597411e5c3ca53173fa6d1fab5530b371c30a0a",
+            "sourceFile": "Eq-Diagr/Reactions.elb",
+            "importDate": "2026-09-05T16:23:16.736Z",
+            "importerVersion": "spana-readonly-1.0.0"
+          }
+        },
+        "suppressed": true
+      },
+      {
+        "id": "component:Ca%202%2B",
+        "name": "Ca 2+",
+        "role": "ordinary",
+        "phase": "aqueous",
+        "source": {
+          "id": "component:Ca%202%2B",
+          "name": "Ca 2+",
+          "role": "basis-choice",
+          "associations": [
+            {
+              "element": "Ca",
+              "description": "",
+              "byteOffset": 1144,
+              "rawBlockBase64": "AAJDYQAAAAEABUNhIDIrAAA="
+            }
+          ],
+          "deprecated": false,
+          "provenance": {
+            "sourceDatabase": "spana:2ac52a30213c9288dd18fc6dd597411e5c3ca53173fa6d1fab5530b371c30a0a",
+            "sourceFile": "Eq-Diagr/Reactions.elb",
+            "importDate": "2026-09-05T16:23:16.736Z",
+            "importerVersion": "spana-readonly-1.0.0"
+          }
+        },
+        "suppressed": false
+      },
+      {
+        "id": "component:H%2B",
+        "name": "H+",
+        "role": "proton",
+        "phase": "aqueous",
+        "source": {
+          "id": "component:H%2B",
+          "name": "H+",
+          "role": "proton",
+          "associations": [
+            {
+              "element": "H",
+              "description": "hydrogen ion",
+              "byteOffset": 42,
+              "rawBlockBase64": "AAFIAAAAAgACSCsADGh5ZHJvZ2VuIGlvbgAESDJPMgARaHlkcm9nZW4gcGVyb3hpZGU="
+            }
+          ],
+          "deprecated": false,
+          "provenance": {
+            "sourceDatabase": "spana:2ac52a30213c9288dd18fc6dd597411e5c3ca53173fa6d1fab5530b371c30a0a",
+            "sourceFile": "Eq-Diagr/Reactions.elb",
+            "importDate": "2026-09-05T16:23:16.736Z",
+            "importerVersion": "spana-readonly-1.0.0"
+          }
+        },
+        "suppressed": false
+      }
+    ],
+    "products": [
+      {
+        "id": "spana:2ac52a30213c9288:63057",
+        "name": "CaOH+",
+        "phase": "aqueous",
+        "logBeta": -12.57,
+        "coefficients": [
+          1,
+          1,
+          -1
+        ],
+        "sourceRecord": {
+          "kind": "imported",
+          "sourceDatabase": "spana:2ac52a30213c9288dd18fc6dd597411e5c3ca53173fa6d1fab5530b371c30a0a",
+          "sourceFile": "Eq-Diagr/Reactions.db",
+          "sourceRecordId": "byte:63057",
+          "originalRecordId": null,
+          "originalSpeciesName": "CaOH+",
+          "originalReaction": {
+            "product": "CaOH+",
+            "components": [
+              {
+                "name": "Ca 2+",
+                "coefficient": 1
+              },
+              {
+                "name": "H+",
+                "coefficient": -1
+              },
+              {
+                "name": "H2O",
+                "coefficient": 1
+              }
+            ],
+            "separateProtonCount": null
+          },
+          "originalLogK": -12.57,
+          "originalReferenceCode": "2016BE",
+          "resolvedCitation": "2016BE: Brown P L, Ekberg C; Hydrolysis of Metal Ions. Weinheim, Germany: Wiley-VCH Verlag GmbH & Co. KGaA, 2016",
+          "referenceSourceFile": "Eq-Diagr/References.txt",
+          "dbSha256": "2ac52a30213c9288dd18fc6dd597411e5c3ca53173fa6d1fab5530b371c30a0a",
+          "byteOffset": 63057,
+          "byteLength": 84,
+          "importDate": "2026-09-05T16:23:16.736Z",
+          "importerVersion": "spana-readonly-1.0.0",
+          "comments": [
+            "Element links describe source components, not product atom counts. Oxidation states are not supplied."
+          ],
+          "qualityFlags": [
+            "imported",
+            "not-solver-validated",
+            "composition-unknown"
+          ],
+          "original": {
+            "speciesName": "CaOH+",
+            "reaction": {
+              "product": "CaOH+",
+              "components": [
+                {
+                  "name": "Ca 2+",
+                  "coefficient": 1
+                },
+                {
+                  "name": "H+",
+                  "coefficient": -1
+                },
+                {
+                  "name": "H2O",
+                  "coefficient": 1
+                }
+              ],
+              "separateProtonCount": null
+            },
+            "logK": -12.57,
+            "citation": "2016BE",
+            "raw": {
+              "ordinal": 680,
+              "byteOffset": 63057,
+              "byteLength": 84,
+              "name": "CaOH+",
+              "logK": -12.57,
+              "thermal": {
+                "kind": "deltaH-deltaCp",
+                "deltaH": 53.89999999999998,
+                "deltaCp": -446.99999999999994
+              },
+              "layout": "variable",
+              "componentToken": "3",
+              "components": [
+                {
+                  "name": "Ca 2+",
+                  "coefficient": 1
+                },
+                {
+                  "name": "H+",
+                  "coefficient": -1
+                },
+                {
+                  "name": "H2O",
+                  "coefficient": 1
+                }
+              ],
+              "protonCount": null,
+              "reference": "2016BE",
+              "comment": "",
+              "rawBase64": "AAVDYU9IK8ApI9cKPXCkQErzMzMzMzDAe+///////wABMwAFQ2EgMis/8AAAAAAAAAACSCu/8AAAAAAAAAADSDJPP/AAAAAAAAAABjIwMTZCRQAA"
+            }
+          }
+        }
+      },
+      {
+        "id": "spana:2ac52a30213c9288:250448",
+        "name": "OH-",
+        "phase": "aqueous",
+        "logBeta": -14.0015,
+        "coefficients": [
+          1,
+          0,
+          -1
+        ],
+        "sourceRecord": {
+          "kind": "imported",
+          "sourceDatabase": "spana:2ac52a30213c9288dd18fc6dd597411e5c3ca53173fa6d1fab5530b371c30a0a",
+          "sourceFile": "Eq-Diagr/Reactions.db",
+          "sourceRecordId": "byte:250448",
+          "originalRecordId": null,
+          "originalSpeciesName": "OH-",
+          "originalReaction": {
+            "product": "OH-",
+            "components": [
+              {
+                "name": "H+",
+                "coefficient": -1
+              },
+              {
+                "name": "H2O",
+                "coefficient": 1
+              }
+            ],
+            "separateProtonCount": null
+          },
+          "originalLogK": -14.0015,
+          "originalReferenceCode": "Codata+88Sho/Hel",
+          "resolvedCitation": "Codata: Cox J D, Wagman D D, Medvedev V A, CODATA Key Values for Thermodynamics. Hemisphere Publ. Co., New York, 1989\n\n88Sho/Hel: Shock E L, Helgeson H C; Geochim. Cosmochim. Acta 52 (1988) 2009-2036; and \"ERRATA\", ibid, 53 (1989) p.215",
+          "referenceSourceFile": "Eq-Diagr/References.txt",
+          "dbSha256": "2ac52a30213c9288dd18fc6dd597411e5c3ca53173fa6d1fab5530b371c30a0a",
+          "byteOffset": 250448,
+          "byteLength": 77,
+          "importDate": "2026-09-05T16:23:16.736Z",
+          "importerVersion": "spana-readonly-1.0.0",
+          "comments": [
+            "Element links describe source components, not product atom counts. Oxidation states are not supplied."
+          ],
+          "qualityFlags": [
+            "imported",
+            "not-solver-validated",
+            "composition-unknown"
+          ],
+          "original": {
+            "speciesName": "OH-",
+            "reaction": {
+              "product": "OH-",
+              "components": [
+                {
+                  "name": "H+",
+                  "coefficient": -1
+                },
+                {
+                  "name": "H2O",
+                  "coefficient": 1
+                }
+              ],
+              "separateProtonCount": null
+            },
+            "logK": -14.0015,
+            "citation": "Codata+88Sho/Hel",
+            "raw": {
+              "ordinal": 2824,
+              "byteOffset": 250448,
+              "byteLength": 77,
+              "name": "OH-",
+              "logK": -14.0015,
+              "thermal": {
+                "kind": "deltaH-deltaCp",
+                "deltaH": 55.82000000000001,
+                "deltaCp": -212.99999999999997
+              },
+              "layout": "variable",
+              "componentToken": "2",
+              "components": [
+                {
+                  "name": "H+",
+                  "coefficient": -1
+                },
+                {
+                  "name": "H2O",
+                  "coefficient": 1
+                }
+              ],
+              "protonCount": null,
+              "reference": "Codata+88Sho/Hel",
+              "comment": "",
+              "rawBase64": "AANPSC3ALADEm6XjVEBL6PXCj1wqwGqf//////8AATIAAkgrv/AAAAAAAAAAA0gyTz/wAAAAAAAAABBDb2RhdGErODhTaG8vSGVsAAA="
+            }
+          }
+        }
+      }
+    ],
+    "speciesIds": [
+      "component:H2O",
+      "component:Ca%202%2B",
+      "component:H%2B",
+      "spana:2ac52a30213c9288:63057",
+      "spana:2ac52a30213c9288:250448"
+    ],
+    "componentIndex": {
+      "component:H2O": 0,
+      "component:Ca%202%2B": 1,
+      "component:H%2B": 2
+    },
+    "aqueousRows": [
+      0,
+      1
+    ],
+    "solidRows": [],
+    "temperatureC": 25,
+    "pressureBar": 1,
+    "sourceReferencePressure": null,
+    "unit": "mol/kg-H2O",
+    "sourceIdentity": {
+      "sources": [
+        {
+          "id": "spana:2ac52a30213c9288dd18fc6dd597411e5c3ca53173fa6d1fab5530b371c30a0a",
+          "name": "Spana/DataBase · local imported records",
+          "citation": null,
+          "sourceFile": "Eq-Diagr/Reactions.db"
+        },
+        {
+          "id": "local-demo-v1",
+          "name": "DEMO / NON-THERMODYNAMIC",
+          "citation": null,
+          "description": "Manually authored identity fixtures; no equilibrium data."
+        }
+      ],
+      "databaseHashes": [
+        "2ac52a30213c9288dd18fc6dd597411e5c3ca53173fa6d1fab5530b371c30a0a"
+      ],
+      "selectedComponentIds": [
+        "component:H2O",
+        "component:Ca%202%2B",
+        "component:H%2B"
+      ],
+      "selectedSpeciesIds": [
+        "spana:2ac52a30213c9288:63057",
+        "spana:2ac52a30213c9288:250448"
+      ]
+    },
+    "warnings": [
+      "Restricted species set and explicit direct basis; no completeness or general independence proof.",
+      "Source reference-pressure scalar unavailable; 1 bar is a declared calculation setting, not reconstructed source metadata."
+    ],
+    "id": "a205c160755ec75d267bf8fc57d26e4691009eea0746b1d3c088e05e5607c33c"
+  }
+}

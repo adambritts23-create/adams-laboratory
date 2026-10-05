@@ -1,0 +1,29 @@
+✔ Closed UI path exactly reproduces every Step-5 broad-sweep carrier and derived potential (3.8132ms)
+✔ Closed adapter is branded, preserves identity, and rejects forged or incomplete runs (0.2601ms)
+✔ All three views reuse the sweep and preserve total/dissolved denominators (32.1207ms)
+✔ Selected endpoint/hover/pin use exact closed objects and expose derived pH/Eh/net reaction (2.7373ms)
+✔ Changed addition/setup/chemistry and restored ordinary mode invalidate closed inspection and commit (3.3974ms)
+✔ Unsupported reagent selection, electron and changed source never fall back to ordinary sweep (1083.454ms)
+✔ Out-of-scope samples remain gaps in views and Beaker; cancellation/stale never commits (1104.1407ms)
+✔ Supplied axis and residual species labels remain distinct in output/export (250.9266ms)
+✔ Step 5 actual reagents automatically discover all 24 source reactions without selected electron (0.6216ms)
+✔ Step 5 independent raw-law expectation and equivalent controlled boundary conditions at dose 2.5e-7 (161.4046ms)
+✔ Step 5 independent raw-law expectation and equivalent controlled boundary conditions at dose 5e-7 (145.0254ms)
+✔ Step 5 independent raw-law expectation and equivalent controlled boundary conditions at dose 0.000001 (165.1259ms)
+✔ Step 5 generated net reaction retains electron cancellation, source coefficients and signed extent closure (0.8167ms)
+✔ Step 5 preparation history, supported bases and reversed source order preserve equilibrium (1498.43ms)
+✔ Step 5 scope fails closed for imposed conditions, electron inventory, changed sources and unreviewed metadata (1257.9431ms)
+✔ Step 5 reviewed aqueous domain excludes supersaturated high-Fe candidate and out-of-range additions (1.1123ms)
+✔ Step 5 broad closed addition sweep preserves inventories, phase exclusions and derived outputs (4.9626ms)
+✔ Step 5 source-derived equivalence region is sampled without imposing textbook completion (1924.2818ms)
+✔ Step 5 selected sample is exact accepted result, retains dimer weighting and rejects stale or forged selection (0.8955ms)
+✔ Step 5 failed additions remain gaps and cancelled/stale sweeps cannot provide inspection (508.4744ms)
+✔ Step 5 analytical axis validation retains existing invalid/reversed-range rules (465.1285ms)
+ℹ tests 21
+ℹ suites 0
+ℹ pass 21
+ℹ fail 0
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 14734.1112

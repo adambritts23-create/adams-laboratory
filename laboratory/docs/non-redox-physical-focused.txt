@@ -1,0 +1,24 @@
+✔ compiler preserves reviewed Fe peroxide source scope and independent Step-5 expectations (3.0903ms)
+✔ two soluble redox families and non-Fe network agree with separate raw-law balances (1.8593ms)
+✔ abstract signed proton equivalents compile acid/base source laws without spectator inventory (0.9242ms)
+✔ excluded supersaturated Fe phases withhold complete equilibrium despite aqueous convergence (0.2253ms)
+✔ compiler fails closed for missing metadata, unknown identities, boundary conflicts and forged results (1316.35ms)
+✔ source identity ordering leaves analytical accepted amounts invariant (1648.4227ms)
+✔ Calculation integration uses compiler without replacing reviewed engines or adding a new mode (4.7402ms)
+✔ six independent physical mixtures reproduce all saved source-law carriers and derived pH (1.2015ms)
+✔ nonnegative physical NaOH remains distinct from signed internal proton coordinates (0.5022ms)
+✔ one cross-family complex and 2/3/4-boron oligomers retain exact shared stoichiometry (0.9383ms)
+✔ ordinary phases/gas retain conditional diagnostics; electron-dependent phases are explicit and unevaluated (0.4929ms)
+✔ physical and boundary errors fail without repairing inputs or accepting caller-imposed coordinates (576.2303ms)
+✔ redox-active Fe/peroxide preparation is refused, while original reviewed redox route remains valid (1850.283ms)
+✔ simple acetic acid physical control agrees with established independent acid/base reference (493.5961ms)
+✔ supersaturated solid or gas requirement withholds accepted aqueous physical result (992.737ms)
+✔ physical provenance/revision affect identity, while reordered contributions preserve equilibrium (1373.6755ms)
+ℹ tests 16
+ℹ suites 0
+ℹ pass 16
+ℹ fail 0
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 19634.3342

@@ -1,0 +1,39 @@
+✔ Closed UI artifact permits only exact unchanged Step-5 metadata, never source payloads or drift (90.5391ms)
+✔ Closed UI path exactly reproduces every Step-5 broad-sweep carrier and derived potential (1.2963ms)
+✔ Closed adapter is branded, preserves identity, and rejects forged or incomplete runs (0.2109ms)
+✔ All three views reuse the sweep and preserve total/dissolved denominators (17.976ms)
+✔ Selected endpoint/hover/pin use exact closed objects and expose derived pH/Eh/net reaction (1.0064ms)
+✔ Changed addition/setup/chemistry and restored ordinary mode invalidate closed inspection and commit (1.1554ms)
+✔ Unsupported reagent selection, electron and changed source never fall back to ordinary sweep (447.4294ms)
+✔ Out-of-scope samples remain gaps in views and Beaker; cancellation/stale never commits (562.6361ms)
+✔ Supplied axis and residual species labels remain distinct in output/export (178.9755ms)
+✔ Step 5 actual reagents automatically discover all 24 source reactions without selected electron (0.8464ms)
+✔ Step 5 independent raw-law expectation and equivalent controlled boundary conditions at dose 2.5e-7 (139.0175ms)
+✔ Step 5 independent raw-law expectation and equivalent controlled boundary conditions at dose 5e-7 (104.3464ms)
+✔ Step 5 independent raw-law expectation and equivalent controlled boundary conditions at dose 0.000001 (117.1996ms)
+✔ Step 5 generated net reaction retains electron cancellation, source coefficients and signed extent closure (0.4154ms)
+✔ Step 5 preparation history, supported bases and reversed source order preserve equilibrium (1282.3921ms)
+✔ Step 5 scope fails closed for imposed conditions, electron inventory, changed sources and unreviewed metadata (1253.6769ms)
+✔ Step 5 reviewed aqueous domain excludes supersaturated high-Fe candidate and out-of-range additions (1.1145ms)
+✔ Step 5 broad closed addition sweep preserves inventories, phase exclusions and derived outputs (1.794ms)
+✔ Step 5 source-derived equivalence region is sampled without imposing textbook completion (1968.3467ms)
+✔ Step 5 selected sample is exact accepted result, retains dimer weighting and rejects stale or forged selection (0.6594ms)
+✔ Step 5 failed additions remain gaps and cancelled/stale sweeps cannot provide inspection (545.9888ms)
+✔ Step 5 analytical axis validation retains existing invalid/reversed-range rules (572.1272ms)
+✔ derived log concentration and log activity preserve source units and raw values (9.7885ms)
+✔ nonnegative component fractions sum to one including solids; dissolved output excludes solid inventory (8.8676ms)
+✔ pH and pe/Eh derived values follow independently checked signs and units (12.395ms)
+✔ unsupported requests and untrusted or stale result objects cannot create scientific series (3.6862ms)
+✔ failed and not-run samples stay gaps; geometry never joins separated runs (4.3033ms)
+✔ exact pinned lookup, numeric axis geometry, pan and zoom do not interpolate chemistry (5.6995ms)
+✔ plot visibility leaves revision and chemistry untouched; scientific edits retain clearly old plot identity (4.1987ms)
+✔ figure and numerical exports retain actual conditions, identities, visibility, units and gap reasons (4.1588ms)
+✔ renderer geometry and SVG modules do not import preparation or numerical solvers (1.4769ms)
+ℹ tests 31
+ℹ suites 0
+ℹ pass 31
+ℹ fail 0
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 12911.1087

@@ -1,0 +1,56 @@
+{
+  "snapshotBytes": 36269385,
+  "speciesRecords": 4445,
+  "importedRecords": 4444,
+  "solventRecords": 1,
+  "componentForms": 168,
+  "nodeFileLoading": {
+    "readMs": 68.28540000000001,
+    "parseMs": 113.76480000000001,
+    "repositoryValidationMs": 195.89520000000005,
+    "totalMs": 463.3094
+  },
+  "independentDatasetValidation": {
+    "runs": 3,
+    "meanMs": 28.616433333333323,
+    "minMs": 18.771100000000047,
+    "maxMs": 39.96259999999995
+  },
+  "repositoryConstructionIncludingValidationAndIsolation": {
+    "runs": 3,
+    "meanMs": 180.1436,
+    "minMs": 179.52009999999996,
+    "maxMs": 180.47040000000004
+  },
+  "elementAvailabilityFromCachedComponents": {
+    "runs": 100,
+    "meanMs": 0.02341599999998607,
+    "minMs": 0.01410000000009859,
+    "maxMs": 0.36159999999995307
+  },
+  "carbonateCandidateFilteringIncludingReturnedCopies": {
+    "runs": 30,
+    "meanMs": 2.698053333333314,
+    "minMs": 1.0814000000000306,
+    "maxMs": 19.260499999999865
+  },
+  "customComponentCollectionUpdateIncludingRepositoryIsolation": {
+    "runs": 3,
+    "meanMs": 420.1080666666665,
+    "minMs": 389.1080999999999,
+    "maxMs": 454.37469999999985
+  },
+  "customReactionCollectionUpdateIncludingRepositoryIsolation": {
+    "runs": 3,
+    "meanMs": 683.2807999999999,
+    "minMs": 430.0477000000001,
+    "maxMs": 821.4615999999996
+  },
+  "combinedCustomCollectionUpdateIncludingRepositoryIsolation": {
+    "runs": 3,
+    "meanMs": 1760.3641,
+    "minMs": 1646.6113000000005,
+    "maxMs": 1848.3766999999998
+  },
+  "note": "Node measurements on local hardware, not browser frame timings. Repository construction includes its required validation and structured-clone isolation. Dataset validation is measured independently; do not subtract timings as a precise decomposition."
+}

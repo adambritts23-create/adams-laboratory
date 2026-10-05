@@ -1,0 +1,329 @@
+{
+  "knownControlSourceCount": 41,
+  "knownControlCoefficients": 113,
+  "allKnownControlSafeIntegers": true,
+  "distinctKnownCoefficients": [
+    -8,
+    -6,
+    -5,
+    -4,
+    -3,
+    -2,
+    -1,
+    1,
+    2,
+    3,
+    4
+  ],
+  "nonintegerRecordsInRepository": [
+    {
+      "sourceId": "spana:2ac52a30213c9288:29961",
+      "coefficient": 1.5
+    },
+    {
+      "sourceId": "spana:2ac52a30213c9288:37390",
+      "coefficient": -2.75
+    },
+    {
+      "sourceId": "spana:2ac52a30213c9288:37390",
+      "coefficient": -0.75
+    },
+    {
+      "sourceId": "spana:2ac52a30213c9288:37390",
+      "coefficient": 1.875
+    },
+    {
+      "sourceId": "spana:2ac52a30213c9288:57392",
+      "coefficient": 0.5
+    },
+    {
+      "sourceId": "spana:2ac52a30213c9288:57392",
+      "coefficient": 2.3
+    },
+    {
+      "sourceId": "spana:2ac52a30213c9288:77631",
+      "coefficient": 0.5
+    },
+    {
+      "sourceId": "spana:2ac52a30213c9288:87614",
+      "coefficient": 0.84
+    },
+    {
+      "sourceId": "spana:2ac52a30213c9288:87614",
+      "coefficient": -0.32
+    },
+    {
+      "sourceId": "spana:2ac52a30213c9288:103470",
+      "coefficient": 1.75
+    },
+    {
+      "sourceId": "spana:2ac52a30213c9288:103470",
+      "coefficient": -0.25
+    },
+    {
+      "sourceId": "spana:2ac52a30213c9288:103577",
+      "coefficient": 1.934
+    },
+    {
+      "sourceId": "spana:2ac52a30213c9288:103577",
+      "coefficient": -0.066
+    },
+    {
+      "sourceId": "spana:2ac52a30213c9288:115530",
+      "coefficient": 0.5
+    },
+    {
+      "sourceId": "spana:2ac52a30213c9288:119314",
+      "coefficient": 0.5
+    },
+    {
+      "sourceId": "spana:2ac52a30213c9288:124497",
+      "coefficient": 0.5
+    },
+    {
+      "sourceId": "spana:2ac52a30213c9288:132631",
+      "coefficient": 0.875
+    },
+    {
+      "sourceId": "spana:2ac52a30213c9288:132631",
+      "coefficient": -0.25
+    },
+    {
+      "sourceId": "spana:2ac52a30213c9288:132744",
+      "coefficient": 0.932
+    },
+    {
+      "sourceId": "spana:2ac52a30213c9288:132744",
+      "coefficient": -0.136
+    },
+    {
+      "sourceId": "spana:2ac52a30213c9288:140799",
+      "coefficient": -3.67
+    },
+    {
+      "sourceId": "spana:2ac52a30213c9288:140799",
+      "coefficient": -1.67
+    },
+    {
+      "sourceId": "spana:2ac52a30213c9288:140799",
+      "coefficient": 1.835
+    },
+    {
+      "sourceId": "spana:2ac52a30213c9288:147642",
+      "coefficient": 0.5
+    },
+    {
+      "sourceId": "spana:2ac52a30213c9288:161924",
+      "coefficient": 0.5
+    },
+    {
+      "sourceId": "spana:2ac52a30213c9288:161996",
+      "coefficient": 0.5
+    },
+    {
+      "sourceId": "spana:2ac52a30213c9288:162942",
+      "coefficient": 0.5
+    },
+    {
+      "sourceId": "spana:2ac52a30213c9288:163605",
+      "coefficient": 0.5
+    },
+    {
+      "sourceId": "spana:2ac52a30213c9288:176169",
+      "coefficient": 0.5
+    },
+    {
+      "sourceId": "spana:2ac52a30213c9288:178031",
+      "coefficient": -1.5
+    },
+    {
+      "sourceId": "spana:2ac52a30213c9288:178031",
+      "coefficient": 0.5
+    },
+    {
+      "sourceId": "spana:2ac52a30213c9288:193509",
+      "coefficient": 0.5
+    },
+    {
+      "sourceId": "spana:2ac52a30213c9288:200036",
+      "coefficient": 0.5
+    },
+    {
+      "sourceId": "spana:2ac52a30213c9288:214086",
+      "coefficient": 0.5
+    },
+    {
+      "sourceId": "spana:2ac52a30213c9288:218633",
+      "coefficient": 0.5
+    },
+    {
+      "sourceId": "spana:2ac52a30213c9288:218932",
+      "coefficient": 0.5
+    },
+    {
+      "sourceId": "spana:2ac52a30213c9288:224482",
+      "coefficient": 3.5
+    },
+    {
+      "sourceId": "spana:2ac52a30213c9288:229815",
+      "coefficient": 0.5
+    },
+    {
+      "sourceId": "spana:2ac52a30213c9288:235847",
+      "coefficient": 0.88
+    },
+    {
+      "sourceId": "spana:2ac52a30213c9288:235847",
+      "coefficient": -0.24
+    },
+    {
+      "sourceId": "spana:2ac52a30213c9288:237885",
+      "coefficient": 0.5
+    },
+    {
+      "sourceId": "spana:2ac52a30213c9288:237885",
+      "coefficient": 2.5
+    },
+    {
+      "sourceId": "spana:2ac52a30213c9288:272541",
+      "coefficient": 0.5
+    },
+    {
+      "sourceId": "spana:2ac52a30213c9288:280044",
+      "coefficient": -3.22
+    },
+    {
+      "sourceId": "spana:2ac52a30213c9288:280044",
+      "coefficient": 0.78
+    },
+    {
+      "sourceId": "spana:2ac52a30213c9288:280044",
+      "coefficient": 1.61
+    },
+    {
+      "sourceId": "spana:2ac52a30213c9288:306251",
+      "coefficient": 0.5
+    },
+    {
+      "sourceId": "spana:2ac52a30213c9288:312597",
+      "coefficient": 1.5
+    },
+    {
+      "sourceId": "spana:2ac52a30213c9288:312597",
+      "coefficient": 0.5
+    },
+    {
+      "sourceId": "spana:2ac52a30213c9288:312919",
+      "coefficient": 2.5
+    },
+    {
+      "sourceId": "spana:2ac52a30213c9288:312919",
+      "coefficient": 0.5
+    },
+    {
+      "sourceId": "spana:2ac52a30213c9288:321752",
+      "coefficient": 0.5
+    },
+    {
+      "sourceId": "spana:2ac52a30213c9288:324474",
+      "coefficient": 0.6
+    },
+    {
+      "sourceId": "spana:2ac52a30213c9288:344696",
+      "coefficient": 0.5
+    },
+    {
+      "sourceId": "spana:2ac52a30213c9288:348584",
+      "coefficient": -4.6667
+    },
+    {
+      "sourceId": "spana:2ac52a30213c9288:348584",
+      "coefficient": -0.6667
+    },
+    {
+      "sourceId": "spana:2ac52a30213c9288:348584",
+      "coefficient": 2.3333
+    },
+    {
+      "sourceId": "spana:2ac52a30213c9288:348696",
+      "coefficient": -5.3333
+    },
+    {
+      "sourceId": "spana:2ac52a30213c9288:348696",
+      "coefficient": -1.3333
+    },
+    {
+      "sourceId": "spana:2ac52a30213c9288:348696",
+      "coefficient": 2.6667
+    },
+    {
+      "sourceId": "spana:2ac52a30213c9288:349004",
+      "coefficient": -4.5
+    },
+    {
+      "sourceId": "spana:2ac52a30213c9288:349004",
+      "coefficient": -0.5
+    },
+    {
+      "sourceId": "spana:2ac52a30213c9288:349004",
+      "coefficient": 2.25
+    },
+    {
+      "sourceId": "spana:2ac52a30213c9288:349843",
+      "coefficient": 2.5
+    },
+    {
+      "sourceId": "spana:2ac52a30213c9288:358272",
+      "coefficient": 2.5
+    },
+    {
+      "sourceId": "spana:2ac52a30213c9288:358380",
+      "coefficient": 3.5
+    },
+    {
+      "sourceId": "spana:2ac52a30213c9288:359656",
+      "coefficient": 2.5
+    },
+    {
+      "sourceId": "spana:2ac52a30213c9288:360257",
+      "coefficient": -1.9
+    },
+    {
+      "sourceId": "spana:2ac52a30213c9288:360257",
+      "coefficient": 1.9
+    },
+    {
+      "sourceId": "spana:2ac52a30213c9288:360257",
+      "coefficient": 0.2
+    },
+    {
+      "sourceId": "spana:2ac52a30213c9288:371327",
+      "coefficient": 2.2
+    },
+    {
+      "sourceId": "spana:2ac52a30213c9288:371327",
+      "coefficient": 0.2
+    },
+    {
+      "sourceId": "spana:2ac52a30213c9288:371327",
+      "coefficient": -1.1
+    },
+    {
+      "sourceId": "spana:2ac52a30213c9288:378057",
+      "coefficient": 0.5
+    },
+    {
+      "sourceId": "spana:2ac52a30213c9288:379745",
+      "coefficient": 0.5
+    },
+    {
+      "sourceId": "spana:2ac52a30213c9288:392284",
+      "coefficient": -1.5
+    },
+    {
+      "sourceId": "spana:2ac52a30213c9288:392284",
+      "coefficient": 1.5
+    }
+  ],
+  "admission": "Only exact safe-integer source structural coefficients admitted by prototype. Nonintegers require separate source precision/semantics audit; log K excluded."
+}

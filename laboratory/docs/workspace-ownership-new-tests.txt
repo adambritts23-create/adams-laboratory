@@ -1,0 +1,16 @@
+✔ ordinary UI element toggle removes forms, incompatible phases and downstream component selections (438.2958ms)
+✔ required solvent elements cannot be removed and have explicit explanations (27.7855ms)
+✔ tabs change only view state and explicit example load synchronizes authoritative chemistry (25.0099ms)
+✔ unsupported current Ca/carbonate chemistry never substitutes a beaker example (80.4679ms)
+✔ New and Reset isolate prior examples without resurrecting metals or ligands (85.7059ms)
+✔ explicit shared beaker session preserves every one of the 29 accepted exact pH states (2647.1751ms)
+✔ Ca/carbonate recalculation and exact numerical export contain no removed Mg component or species (145.2984ms)
+✔ Mn development control is dev-gated inside collapsed diagnostics, outside ordinary header (0.8784ms)
+ℹ tests 8
+ℹ suites 0
+ℹ pass 8
+ℹ fail 0
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 4291.9017

@@ -1,0 +1,34 @@
+[
+  {
+    "name": "HCl",
+    "samples": 101,
+    "exact": true,
+    "beforeMs": 85.6748,
+    "afterMs": 77.13789999999995,
+    "prepareMs": 4.519900000000007
+  },
+  {
+    "name": "Acetate",
+    "samples": 101,
+    "exact": true,
+    "beforeMs": 323399.2258,
+    "afterMs": 4048.4044000000004,
+    "prepareMs": 1462.3022
+  },
+  {
+    "name": "Cr",
+    "samples": 101,
+    "exact": true,
+    "beforeMs": 507545.04250000004,
+    "afterMs": 22392.4302,
+    "prepareMs": 1570.7257
+  },
+  {
+    "name": "Mixed",
+    "samples": 101,
+    "exact": true,
+    "beforeMs": 352564.5786,
+    "afterMs": 3306.8747000000003,
+    "prepareMs": 106.85109999999986
+  }
+]

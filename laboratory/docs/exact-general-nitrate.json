@@ -1,0 +1,83 @@
+{
+  "ok": false,
+  "code": "equilibrium-not-accepted",
+  "audit": {
+    "sourceFingerprint": "5fece8b93a3a1fa9a845c73a775c21d0a323dd3853aebb8cb5efdd664943f68c",
+    "physicalAdmission": true,
+    "aqueousCount": 25,
+    "excludedCount": 10,
+    "sourceIds": [
+      "spana:2ac52a30213c9288:9455",
+      "spana:2ac52a30213c9288:9551",
+      "spana:2ac52a30213c9288:9659",
+      "spana:2ac52a30213c9288:9768",
+      "spana:2ac52a30213c9288:9875",
+      "spana:2ac52a30213c9288:151381",
+      "spana:2ac52a30213c9288:152477",
+      "spana:2ac52a30213c9288:152743",
+      "spana:2ac52a30213c9288:173109",
+      "spana:2ac52a30213c9288:173181",
+      "spana:2ac52a30213c9288:175307",
+      "spana:2ac52a30213c9288:219667",
+      "spana:2ac52a30213c9288:219750",
+      "spana:2ac52a30213c9288:219933",
+      "spana:2ac52a30213c9288:224689",
+      "spana:2ac52a30213c9288:230906",
+      "spana:2ac52a30213c9288:231007",
+      "spana:2ac52a30213c9288:231170",
+      "spana:2ac52a30213c9288:231362",
+      "spana:2ac52a30213c9288:241198",
+      "spana:2ac52a30213c9288:241294",
+      "spana:2ac52a30213c9288:241393",
+      "spana:2ac52a30213c9288:249989",
+      "spana:2ac52a30213c9288:250161",
+      "spana:2ac52a30213c9288:250448"
+    ],
+    "elementsUsed": false,
+    "basisIds": [
+      "spana:2ac52a30213c9288:9875",
+      "component:Na%2B",
+      "component:NO3-",
+      "component:H%2B",
+      "component:H2O"
+    ],
+    "targets": [
+      0,
+      0.01,
+      0.01,
+      0,
+      0
+    ],
+    "conservationDimension": 4,
+    "nullResidual": 0
+  },
+  "result": {
+    "ok": false,
+    "status": "failed",
+    "diagnostics": [
+      {
+        "code": "singular-or-ill-conditioned",
+        "message": "No scientifically accepted point state was found. Inspect the per-assemblage diagnostics.",
+        "path": null
+      }
+    ],
+    "attempts": [
+      {
+        "active": false,
+        "activeIds": [],
+        "ok": false,
+        "code": "singular-or-ill-conditioned",
+        "message": "Scaled Newton Jacobian is singular or fails the pivot threshold.",
+        "iteration": 0
+      }
+    ],
+    "method": {
+      "name": "scaled-log-Newton-with-single-solid-active-set",
+      "version": "1.0.1"
+    },
+    "systemId": "1bcfb4d5219f13c1d788cf9facf5c461b1d41e19dc975dff975283004ef1fc0d",
+    "inputId": "52ba1e9547004ef24aec25892913b329c7d7e5807f60d6e40cd672142d501c47",
+    "revision": 0,
+    "result": null
+  }
+}

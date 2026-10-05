@@ -1,0 +1,57 @@
+{
+  "ok": true,
+  "rows": [
+    {
+      "name": "HCl",
+      "samples": 101,
+      "exact": true,
+      "beforeMs": 85.6748,
+      "afterMs": 70.20259999999996,
+      "beforeStructuralCompiles": 0,
+      "afterStructuralCompiles": 0,
+      "beforeCompileMs": 0,
+      "afterCompileMs": 0,
+      "beforeSolveMs": 0,
+      "afterSolveMs": 0
+    },
+    {
+      "name": "Acetate",
+      "samples": 101,
+      "exact": true,
+      "beforeMs": 323399.2258,
+      "afterMs": 123279.853,
+      "beforeStructuralCompiles": 0,
+      "afterStructuralCompiles": 0,
+      "beforeCompileMs": 162729.13090000034,
+      "afterCompileMs": 63783.07189999998,
+      "beforeSolveMs": 94.85369999987688,
+      "afterSolveMs": 128.3686000000398
+    },
+    {
+      "name": "Cr",
+      "samples": 101,
+      "exact": true,
+      "beforeMs": 507545.04250000004,
+      "afterMs": 84766.3978,
+      "beforeStructuralCompiles": 204,
+      "afterStructuralCompiles": 4,
+      "beforeCompileMs": 318477.1145000005,
+      "afterCompileMs": 26356.872700000225,
+      "beforeSolveMs": 2171.540599999891,
+      "afterSolveMs": 1911.2115999999078
+    },
+    {
+      "name": "Mixed",
+      "samples": 101,
+      "exact": true,
+      "beforeMs": 352564.5786,
+      "afterMs": 119018.2979,
+      "beforeStructuralCompiles": 0,
+      "afterStructuralCompiles": 0,
+      "beforeCompileMs": 180364.20529999945,
+      "afterCompileMs": 61720.78770000019,
+      "beforeSolveMs": 292.75460000056773,
+      "afterSolveMs": 195.65170000007492
+    }
+  ]
+}

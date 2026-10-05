@@ -1,0 +1,64 @@
+{
+  "pH": 3.633028194538202,
+  "pe": 9.191787475602922,
+  "variant": 0,
+  "maxLogRatio": 0,
+  "pHDifference": 0,
+  "peDifference": 0,
+  "dimension": 5,
+  "maxNullResidual": 0,
+  "maxCarrierDifference": 0,
+  "maxTargetDifference": 0,
+  "closure": [
+    {
+      "key": "charge",
+      "total": 0,
+      "residual": -1.0292946291126945e-17,
+      "limit": 8.381755042763738e-12
+    },
+    {
+      "key": "source-coordinate-1",
+      "total": 0.008333333333333335,
+      "residual": -3.469446951953614e-18,
+      "limit": 4.195088376097071e-12
+    },
+    {
+      "key": "source-coordinate-2",
+      "total": 0.008333333333333333,
+      "residual": -6.938893903907228e-18,
+      "limit": 8.817550427637374e-13
+    },
+    {
+      "key": "source-coordinate-3",
+      "total": 0.016666666666666666,
+      "residual": 0,
+      "limit": 1.6950883760970708e-12
+    },
+    {
+      "key": "source-coordinate-4",
+      "total": -0.009722222222222222,
+      "residual": 5.204170427930421e-18,
+      "limit": 3.236199487208182e-12
+    }
+  ],
+  "solids": [
+    {
+      "id": "spana:2ac52a30213c9288:93877",
+      "name": "Cr(OH)3(cr)",
+      "amount": 0,
+      "logSaturation": -1.589999999999999,
+      "status": "absent",
+      "activity": null
+    },
+    {
+      "id": "spana:2ac52a30213c9288:94801",
+      "name": "Cr2O3(cr)",
+      "amount": 0.002118169947586859,
+      "logSaturation": 1.7763568394002505e-15,
+      "status": "present",
+      "activity": 1
+    }
+  ],
+  "referenceDose": 10,
+  "elementalSpanMatches": true
+}

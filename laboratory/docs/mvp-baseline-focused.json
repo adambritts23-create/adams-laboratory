@@ -1,0 +1,14 @@
+{
+  "tests": 6,
+  "passed": 6,
+  "failed": 0,
+  "durationMs": 93808.421,
+  "historicalFull": {
+    "tests": 703,
+    "passed": 701,
+    "failed": 2
+  },
+  "commands": [
+    "node --test --experimental-test-isolation=none --test-name-pattern=\"invalid, duplicate and forged|N physical contributions|authoritative two-row|mixed reviewed and ionic|all editable numeric|cached hover crosses phase transition\" tests/wetLabMixed.test.js tests/wetLabIonic.test.js tests/wetLabSetup.test.js tests/wetLabSolids.test.js"
+  ]
+}

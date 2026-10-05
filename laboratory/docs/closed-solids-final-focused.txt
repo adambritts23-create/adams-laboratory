@@ -1,0 +1,16 @@
+✔ coupled Fe/chromate agrees with independent raw-source nine-phase reference (5.742ms)
+✔ candidate ordering is immaterial in independently evaluated source reference (27.2846ms)
+✔ more acidic exact physical recipe remains fully aqueous with zero solid amounts (612.7862ms)
+✔ unchanged ordinary Fe(III) pH zero bridge uses the same bounded phase selector (47.3251ms)
+✔ aqueous-only contract retains the original solid-required refusal (493.7819ms)
+✔ unreviewed phase class is explicitly refused (0.2733ms)
+✔ production candidate ordering and composition/capacity refusal are explicit (575.9686ms)
+✔ persist compact phase evidence only after the focused scientific assertions (10.234ms)
+ℹ tests 8
+ℹ suites 0
+ℹ pass 8
+ℹ fail 0
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 5814.166

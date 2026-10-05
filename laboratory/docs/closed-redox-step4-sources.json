@@ -1,0 +1,2129 @@
+{
+  "admittedRequest": {
+    "mode": "closed-redox",
+    "temperatureC": 25,
+    "pressureBar": 1,
+    "activityModel": "ideal",
+    "unit": "mol/kg-H2O",
+    "species": [
+      {
+        "id": "component:V%203%2B",
+        "name": "V 3+",
+        "charge": 3,
+        "elements": {
+          "V": 1
+        },
+        "role": "ordinary",
+        "phase": "aqueous",
+        "sourceIdentity": {
+          "id": "component:V%203%2B",
+          "reference": "Imported source component identity; explicit monatomic composition and charge",
+          "record": {
+            "sourceDatabase": "spana:2ac52a30213c9288dd18fc6dd597411e5c3ca53173fa6d1fab5530b371c30a0a",
+            "sourceFile": "Eq-Diagr/Reactions.elb",
+            "importDate": "2026-09-05T16:23:16.736Z",
+            "importerVersion": "spana-readonly-1.0.0"
+          }
+        }
+      },
+      {
+        "id": "spana:2ac52a30213c9288:360928",
+        "name": "V 2+",
+        "charge": 2,
+        "elements": {
+          "V": 1
+        },
+        "role": "ordinary",
+        "phase": "aqueous",
+        "sourceIdentity": {
+          "id": "spana:2ac52a30213c9288:360928",
+          "reference": "85Bar/Par: Bard A J, Parsons R, Jordan J, (eds.); Standard Potentials in Aqueous Solution. New York: Marcel Dekker, Inc., IUPAC (Int. Union Pure Appl. Chem.), 1985",
+          "record": {
+            "kind": "imported",
+            "sourceDatabase": "spana:2ac52a30213c9288dd18fc6dd597411e5c3ca53173fa6d1fab5530b371c30a0a",
+            "sourceFile": "Eq-Diagr/Reactions.db",
+            "sourceRecordId": "byte:360928",
+            "originalRecordId": null,
+            "originalSpeciesName": "V 2+",
+            "originalReaction": {
+              "product": "V 2+",
+              "components": [
+                {
+                  "name": "V 3+",
+                  "coefficient": 1
+                },
+                {
+                  "name": "e-",
+                  "coefficient": 1
+                }
+              ],
+              "separateProtonCount": null
+            },
+            "originalLogK": -5.83,
+            "originalReferenceCode": "85Bar/Par",
+            "resolvedCitation": "85Bar/Par: Bard A J, Parsons R, Jordan J, (eds.); Standard Potentials in Aqueous Solution. New York: Marcel Dekker, Inc., IUPAC (Int. Union Pure Appl. Chem.), 1985",
+            "referenceSourceFile": "Eq-Diagr/References.txt",
+            "dbSha256": "2ac52a30213c9288dd18fc6dd597411e5c3ca53173fa6d1fab5530b371c30a0a",
+            "byteOffset": 360928,
+            "byteLength": 72,
+            "importDate": "2026-09-05T16:23:16.736Z",
+            "importerVersion": "spana-readonly-1.0.0",
+            "comments": [
+              "Element links describe source components, not product atom counts. Oxidation states are not supplied."
+            ],
+            "qualityFlags": [
+              "imported",
+              "not-solver-validated",
+              "composition-unknown"
+            ],
+            "original": {
+              "speciesName": "V 2+",
+              "reaction": {
+                "product": "V 2+",
+                "components": [
+                  {
+                    "name": "V 3+",
+                    "coefficient": 1
+                  },
+                  {
+                    "name": "e-",
+                    "coefficient": 1
+                  }
+                ],
+                "separateProtonCount": null
+              },
+              "logK": -5.83,
+              "citation": "85Bar/Par",
+              "raw": {
+                "ordinal": 4079,
+                "byteOffset": 360928,
+                "byteLength": 72,
+                "name": "V 2+",
+                "logK": -5.83,
+                "thermal": {
+                  "kind": "deltaH-deltaCp",
+                  "deltaH": 33,
+                  "deltaCp": -999999.9
+                },
+                "layout": "variable",
+                "componentToken": "2",
+                "components": [
+                  {
+                    "name": "V 3+",
+                    "coefficient": 1
+                  },
+                  {
+                    "name": "e-",
+                    "coefficient": 1
+                  }
+                ],
+                "protonCount": null,
+                "reference": "85Bar/Par",
+                "comment": "",
+                "rawBase64": "AARWIDIrwBdR64UeuFJAQIAAAAAAAMEuhH/MzMzNAAEyAARWIDMrP/AAAAAAAAAAAmUtP/AAAAAAAAAACTg1QmFyL1BhcgAA"
+              }
+            }
+          }
+        }
+      },
+      {
+        "id": "component:Eu%203%2B",
+        "name": "Eu 3+",
+        "charge": 3,
+        "elements": {
+          "Eu": 1
+        },
+        "role": "ordinary",
+        "phase": "aqueous",
+        "sourceIdentity": {
+          "id": "component:Eu%203%2B",
+          "reference": "Imported source component identity; explicit monatomic composition and charge",
+          "record": {
+            "sourceDatabase": "spana:2ac52a30213c9288dd18fc6dd597411e5c3ca53173fa6d1fab5530b371c30a0a",
+            "sourceFile": "Eq-Diagr/Reactions.elb",
+            "importDate": "2026-09-05T16:23:16.736Z",
+            "importerVersion": "spana-readonly-1.0.0"
+          }
+        }
+      },
+      {
+        "id": "spana:2ac52a30213c9288:120483",
+        "name": "Eu 2+",
+        "charge": 2,
+        "elements": {
+          "Eu": 1
+        },
+        "role": "ordinary",
+        "phase": "aqueous",
+        "sourceIdentity": {
+          "id": "spana:2ac52a30213c9288:120483",
+          "reference": "85Bar/Par: Bard A J, Parsons R, Jordan J, (eds.); Standard Potentials in Aqueous Solution. New York: Marcel Dekker, Inc., IUPAC (Int. Union Pure Appl. Chem.), 1985",
+          "record": {
+            "kind": "imported",
+            "sourceDatabase": "spana:2ac52a30213c9288dd18fc6dd597411e5c3ca53173fa6d1fab5530b371c30a0a",
+            "sourceFile": "Eq-Diagr/Reactions.db",
+            "sourceRecordId": "byte:120483",
+            "originalRecordId": null,
+            "originalSpeciesName": "Eu 2+",
+            "originalReaction": {
+              "product": "Eu 2+",
+              "components": [
+                {
+                  "name": "Eu 3+",
+                  "coefficient": 1
+                },
+                {
+                  "name": "e-",
+                  "coefficient": 1
+                }
+              ],
+              "separateProtonCount": null
+            },
+            "originalLogK": -6.1,
+            "originalReferenceCode": "85Bar/Par",
+            "resolvedCitation": "85Bar/Par: Bard A J, Parsons R, Jordan J, (eds.); Standard Potentials in Aqueous Solution. New York: Marcel Dekker, Inc., IUPAC (Int. Union Pure Appl. Chem.), 1985",
+            "referenceSourceFile": "Eq-Diagr/References.txt",
+            "dbSha256": "2ac52a30213c9288dd18fc6dd597411e5c3ca53173fa6d1fab5530b371c30a0a",
+            "byteOffset": 120483,
+            "byteLength": 74,
+            "importDate": "2026-09-05T16:23:16.736Z",
+            "importerVersion": "spana-readonly-1.0.0",
+            "comments": [
+              "Element links describe source components, not product atom counts. Oxidation states are not supplied."
+            ],
+            "qualityFlags": [
+              "imported",
+              "not-solver-validated",
+              "composition-unknown"
+            ],
+            "original": {
+              "speciesName": "Eu 2+",
+              "reaction": {
+                "product": "Eu 2+",
+                "components": [
+                  {
+                    "name": "Eu 3+",
+                    "coefficient": 1
+                  },
+                  {
+                    "name": "e-",
+                    "coefficient": 1
+                  }
+                ],
+                "separateProtonCount": null
+              },
+              "logK": -6.1,
+              "citation": "85Bar/Par",
+              "raw": {
+                "ordinal": 1345,
+                "byteOffset": 120483,
+                "byteLength": 74,
+                "name": "Eu 2+",
+                "logK": -6.1,
+                "thermal": {
+                  "kind": "deltaH-deltaCp",
+                  "deltaH": 78,
+                  "deltaCp": -999999.9
+                },
+                "layout": "variable",
+                "componentToken": "2",
+                "components": [
+                  {
+                    "name": "Eu 3+",
+                    "coefficient": 1
+                  },
+                  {
+                    "name": "e-",
+                    "coefficient": 1
+                  }
+                ],
+                "protonCount": null,
+                "reference": "85Bar/Par",
+                "comment": "",
+                "rawBase64": "AAVFdSAyK8AYZmZmZmZmQFOAAAAAAADBLoR/zMzMzQABMgAFRXUgMys/8AAAAAAAAAACZS0/8AAAAAAAAAAJODVCYXIvUGFyAAA="
+              }
+            }
+          }
+        }
+      },
+      {
+        "id": "component:Cl-",
+        "name": "Cl-",
+        "charge": -1,
+        "elements": {
+          "Cl": 1
+        },
+        "role": "ordinary",
+        "phase": "aqueous",
+        "sourceIdentity": {
+          "id": "component:Cl-",
+          "reference": "Imported source component identity; explicit monatomic composition and charge",
+          "record": {
+            "sourceDatabase": "spana:2ac52a30213c9288dd18fc6dd597411e5c3ca53173fa6d1fab5530b371c30a0a",
+            "sourceFile": "Eq-Diagr/Reactions.elb",
+            "importDate": "2026-09-05T16:23:16.736Z",
+            "importerVersion": "spana-readonly-1.0.0"
+          }
+        }
+      },
+      {
+        "id": "component:e-",
+        "name": "e-",
+        "role": "electron",
+        "charge": -1,
+        "elements": {},
+        "sourceIdentity": {
+          "id": "component:e-",
+          "reference": "Imported formal electron component; charge −1, no elemental atoms"
+        }
+      },
+      {
+        "id": "component:H%2B",
+        "name": "H+",
+        "role": "proton",
+        "phase": "aqueous",
+        "charge": 1,
+        "elements": {
+          "H": 1
+        },
+        "sourceIdentity": {
+          "id": "component:H%2B",
+          "reference": "Explicit imported proton/solvent identity with static atom/charge metadata",
+          "record": {
+            "sourceDatabase": "spana:2ac52a30213c9288dd18fc6dd597411e5c3ca53173fa6d1fab5530b371c30a0a",
+            "sourceFile": "Eq-Diagr/Reactions.elb",
+            "importDate": "2026-09-05T16:23:16.736Z",
+            "importerVersion": "spana-readonly-1.0.0"
+          }
+        }
+      },
+      {
+        "id": "component:H2O",
+        "name": "H2O",
+        "role": "water",
+        "phase": "liquid",
+        "charge": 0,
+        "elements": {
+          "H": 2,
+          "O": 1
+        },
+        "sourceIdentity": {
+          "id": "component:H2O",
+          "reference": "Explicit imported proton/solvent identity with static atom/charge metadata",
+          "record": {
+            "sourceDatabase": "spana:2ac52a30213c9288dd18fc6dd597411e5c3ca53173fa6d1fab5530b371c30a0a",
+            "sourceFile": "Eq-Diagr/Reactions.elb",
+            "importDate": "2026-09-05T16:23:16.736Z",
+            "importerVersion": "spana-readonly-1.0.0"
+          }
+        }
+      },
+      {
+        "id": "spana:2ac52a30213c9288:369711",
+        "name": "VOH+2",
+        "charge": 2,
+        "elements": {
+          "V": 1,
+          "O": 1,
+          "H": 1
+        },
+        "role": "ordinary",
+        "phase": "aqueous",
+        "sourceIdentity": {
+          "id": "spana:2ac52a30213c9288:369711",
+          "reference": "76Bae/Mes: Baes C. F., Jr., Mesmer R. E.,\nThe Hydrolysis of Cations. New York: J. Wiley & Sons, 1976",
+          "record": {
+            "kind": "imported",
+            "sourceDatabase": "spana:2ac52a30213c9288dd18fc6dd597411e5c3ca53173fa6d1fab5530b371c30a0a",
+            "sourceFile": "Eq-Diagr/Reactions.db",
+            "sourceRecordId": "byte:369711",
+            "originalRecordId": null,
+            "originalSpeciesName": "VOH+2",
+            "originalReaction": {
+              "product": "VOH+2",
+              "components": [
+                {
+                  "name": "V 3+",
+                  "coefficient": 1
+                },
+                {
+                  "name": "H+",
+                  "coefficient": -1
+                },
+                {
+                  "name": "H2O",
+                  "coefficient": 1
+                }
+              ],
+              "separateProtonCount": null
+            },
+            "originalLogK": -2.26,
+            "originalReferenceCode": "76Bae/Mes",
+            "resolvedCitation": "76Bae/Mes: Baes C. F., Jr., Mesmer R. E.,\nThe Hydrolysis of Cations. New York: J. Wiley & Sons, 1976",
+            "referenceSourceFile": "Eq-Diagr/References.txt",
+            "dbSha256": "2ac52a30213c9288dd18fc6dd597411e5c3ca53173fa6d1fab5530b371c30a0a",
+            "byteOffset": 369711,
+            "byteLength": 86,
+            "importDate": "2026-09-05T16:23:16.736Z",
+            "importerVersion": "spana-readonly-1.0.0",
+            "comments": [
+              "Element links describe source components, not product atom counts. Oxidation states are not supplied."
+            ],
+            "qualityFlags": [
+              "imported",
+              "not-solver-validated",
+              "composition-unknown"
+            ],
+            "original": {
+              "speciesName": "VOH+2",
+              "reaction": {
+                "product": "VOH+2",
+                "components": [
+                  {
+                    "name": "V 3+",
+                    "coefficient": 1
+                  },
+                  {
+                    "name": "H+",
+                    "coefficient": -1
+                  },
+                  {
+                    "name": "H2O",
+                    "coefficient": 1
+                  }
+                ],
+                "separateProtonCount": null
+              },
+              "logK": -2.26,
+              "citation": "76Bae/Mes",
+              "raw": {
+                "ordinal": 4177,
+                "byteOffset": 369711,
+                "byteLength": 86,
+                "name": "VOH+2",
+                "logK": -2.26,
+                "thermal": {
+                  "kind": "deltaH-deltaCp",
+                  "deltaH": -999999.9,
+                  "deltaCp": -999999.9
+                },
+                "layout": "variable",
+                "componentToken": "3",
+                "components": [
+                  {
+                    "name": "V 3+",
+                    "coefficient": 1
+                  },
+                  {
+                    "name": "H+",
+                    "coefficient": -1
+                  },
+                  {
+                    "name": "H2O",
+                    "coefficient": 1
+                  }
+                ],
+                "protonCount": null,
+                "reference": "76Bae/Mes",
+                "comment": "",
+                "rawBase64": "AAVWT0grMsACFHrhR64UwS6Ef8zMzM3BLoR/zMzMzQABMwAEViAzKz/wAAAAAAAAAAJIK7/wAAAAAAAAAANIMk8/8AAAAAAAAAAJNzZCYWUvTWVzAAA="
+              }
+            }
+          }
+        }
+      },
+      {
+        "id": "spana:2ac52a30213c9288:250448",
+        "name": "OH-",
+        "charge": -1,
+        "elements": {
+          "O": 1,
+          "H": 1
+        },
+        "role": "ordinary",
+        "phase": "aqueous",
+        "sourceIdentity": {
+          "id": "spana:2ac52a30213c9288:250448",
+          "reference": "Codata: Cox J D, Wagman D D, Medvedev V A, CODATA Key Values for Thermodynamics. Hemisphere Publ. Co., New York, 1989\n\n88Sho/Hel: Shock E L, Helgeson H C; Geochim. Cosmochim. Acta 52 (1988) 2009-2036; and \"ERRATA\", ibid, 53 (1989) p.215",
+          "record": {
+            "kind": "imported",
+            "sourceDatabase": "spana:2ac52a30213c9288dd18fc6dd597411e5c3ca53173fa6d1fab5530b371c30a0a",
+            "sourceFile": "Eq-Diagr/Reactions.db",
+            "sourceRecordId": "byte:250448",
+            "originalRecordId": null,
+            "originalSpeciesName": "OH-",
+            "originalReaction": {
+              "product": "OH-",
+              "components": [
+                {
+                  "name": "H+",
+                  "coefficient": -1
+                },
+                {
+                  "name": "H2O",
+                  "coefficient": 1
+                }
+              ],
+              "separateProtonCount": null
+            },
+            "originalLogK": -14.0015,
+            "originalReferenceCode": "Codata+88Sho/Hel",
+            "resolvedCitation": "Codata: Cox J D, Wagman D D, Medvedev V A, CODATA Key Values for Thermodynamics. Hemisphere Publ. Co., New York, 1989\n\n88Sho/Hel: Shock E L, Helgeson H C; Geochim. Cosmochim. Acta 52 (1988) 2009-2036; and \"ERRATA\", ibid, 53 (1989) p.215",
+            "referenceSourceFile": "Eq-Diagr/References.txt",
+            "dbSha256": "2ac52a30213c9288dd18fc6dd597411e5c3ca53173fa6d1fab5530b371c30a0a",
+            "byteOffset": 250448,
+            "byteLength": 77,
+            "importDate": "2026-09-05T16:23:16.736Z",
+            "importerVersion": "spana-readonly-1.0.0",
+            "comments": [
+              "Element links describe source components, not product atom counts. Oxidation states are not supplied."
+            ],
+            "qualityFlags": [
+              "imported",
+              "not-solver-validated",
+              "composition-unknown"
+            ],
+            "original": {
+              "speciesName": "OH-",
+              "reaction": {
+                "product": "OH-",
+                "components": [
+                  {
+                    "name": "H+",
+                    "coefficient": -1
+                  },
+                  {
+                    "name": "H2O",
+                    "coefficient": 1
+                  }
+                ],
+                "separateProtonCount": null
+              },
+              "logK": -14.0015,
+              "citation": "Codata+88Sho/Hel",
+              "raw": {
+                "ordinal": 2824,
+                "byteOffset": 250448,
+                "byteLength": 77,
+                "name": "OH-",
+                "logK": -14.0015,
+                "thermal": {
+                  "kind": "deltaH-deltaCp",
+                  "deltaH": 55.82000000000001,
+                  "deltaCp": -212.99999999999997
+                },
+                "layout": "variable",
+                "componentToken": "2",
+                "components": [
+                  {
+                    "name": "H+",
+                    "coefficient": -1
+                  },
+                  {
+                    "name": "H2O",
+                    "coefficient": 1
+                  }
+                ],
+                "protonCount": null,
+                "reference": "Codata+88Sho/Hel",
+                "comment": "",
+                "rawBase64": "AANPSC3ALADEm6XjVEBL6PXCj1wqwGqf//////8AATIAAkgrv/AAAAAAAAAAA0gyTz/wAAAAAAAAABBDb2RhdGErODhTaG8vSGVsAAA="
+              }
+            }
+          }
+        }
+      }
+    ],
+    "reactions": [
+      {
+        "id": "spana:2ac52a30213c9288:360928",
+        "productId": "spana:2ac52a30213c9288:360928",
+        "terms": [
+          {
+            "id": "component:V%203%2B",
+            "coefficient": 1
+          },
+          {
+            "id": "component:e-",
+            "coefficient": 1
+          }
+        ],
+        "logK": -5.83,
+        "phase": "aqueous",
+        "unit": {
+          "kind": "ideal-molal-standard"
+        },
+        "provenance": {
+          "reference": "85Bar/Par: Bard A J, Parsons R, Jordan J, (eds.); Standard Potentials in Aqueous Solution. New York: Marcel Dekker, Inc., IUPAC (Int. Union Pure Appl. Chem.), 1985",
+          "record": {
+            "kind": "imported",
+            "sourceDatabase": "spana:2ac52a30213c9288dd18fc6dd597411e5c3ca53173fa6d1fab5530b371c30a0a",
+            "sourceFile": "Eq-Diagr/Reactions.db",
+            "sourceRecordId": "byte:360928",
+            "originalRecordId": null,
+            "originalSpeciesName": "V 2+",
+            "originalReaction": {
+              "product": "V 2+",
+              "components": [
+                {
+                  "name": "V 3+",
+                  "coefficient": 1
+                },
+                {
+                  "name": "e-",
+                  "coefficient": 1
+                }
+              ],
+              "separateProtonCount": null
+            },
+            "originalLogK": -5.83,
+            "originalReferenceCode": "85Bar/Par",
+            "resolvedCitation": "85Bar/Par: Bard A J, Parsons R, Jordan J, (eds.); Standard Potentials in Aqueous Solution. New York: Marcel Dekker, Inc., IUPAC (Int. Union Pure Appl. Chem.), 1985",
+            "referenceSourceFile": "Eq-Diagr/References.txt",
+            "dbSha256": "2ac52a30213c9288dd18fc6dd597411e5c3ca53173fa6d1fab5530b371c30a0a",
+            "byteOffset": 360928,
+            "byteLength": 72,
+            "importDate": "2026-09-05T16:23:16.736Z",
+            "importerVersion": "spana-readonly-1.0.0",
+            "comments": [
+              "Element links describe source components, not product atom counts. Oxidation states are not supplied."
+            ],
+            "qualityFlags": [
+              "imported",
+              "not-solver-validated",
+              "composition-unknown"
+            ],
+            "original": {
+              "speciesName": "V 2+",
+              "reaction": {
+                "product": "V 2+",
+                "components": [
+                  {
+                    "name": "V 3+",
+                    "coefficient": 1
+                  },
+                  {
+                    "name": "e-",
+                    "coefficient": 1
+                  }
+                ],
+                "separateProtonCount": null
+              },
+              "logK": -5.83,
+              "citation": "85Bar/Par",
+              "raw": {
+                "ordinal": 4079,
+                "byteOffset": 360928,
+                "byteLength": 72,
+                "name": "V 2+",
+                "logK": -5.83,
+                "thermal": {
+                  "kind": "deltaH-deltaCp",
+                  "deltaH": 33,
+                  "deltaCp": -999999.9
+                },
+                "layout": "variable",
+                "componentToken": "2",
+                "components": [
+                  {
+                    "name": "V 3+",
+                    "coefficient": 1
+                  },
+                  {
+                    "name": "e-",
+                    "coefficient": 1
+                  }
+                ],
+                "protonCount": null,
+                "reference": "85Bar/Par",
+                "comment": "",
+                "rawBase64": "AARWIDIrwBdR64UeuFJAQIAAAAAAAMEuhH/MzMzNAAEyAARWIDMrP/AAAAAAAAAAAmUtP/AAAAAAAAAACTg1QmFyL1BhcgAA"
+              }
+            }
+          }
+        }
+      },
+      {
+        "id": "spana:2ac52a30213c9288:120483",
+        "productId": "spana:2ac52a30213c9288:120483",
+        "terms": [
+          {
+            "id": "component:Eu%203%2B",
+            "coefficient": 1
+          },
+          {
+            "id": "component:e-",
+            "coefficient": 1
+          }
+        ],
+        "logK": -6.1,
+        "phase": "aqueous",
+        "unit": {
+          "kind": "ideal-molal-standard"
+        },
+        "provenance": {
+          "reference": "85Bar/Par: Bard A J, Parsons R, Jordan J, (eds.); Standard Potentials in Aqueous Solution. New York: Marcel Dekker, Inc., IUPAC (Int. Union Pure Appl. Chem.), 1985",
+          "record": {
+            "kind": "imported",
+            "sourceDatabase": "spana:2ac52a30213c9288dd18fc6dd597411e5c3ca53173fa6d1fab5530b371c30a0a",
+            "sourceFile": "Eq-Diagr/Reactions.db",
+            "sourceRecordId": "byte:120483",
+            "originalRecordId": null,
+            "originalSpeciesName": "Eu 2+",
+            "originalReaction": {
+              "product": "Eu 2+",
+              "components": [
+                {
+                  "name": "Eu 3+",
+                  "coefficient": 1
+                },
+                {
+                  "name": "e-",
+                  "coefficient": 1
+                }
+              ],
+              "separateProtonCount": null
+            },
+            "originalLogK": -6.1,
+            "originalReferenceCode": "85Bar/Par",
+            "resolvedCitation": "85Bar/Par: Bard A J, Parsons R, Jordan J, (eds.); Standard Potentials in Aqueous Solution. New York: Marcel Dekker, Inc., IUPAC (Int. Union Pure Appl. Chem.), 1985",
+            "referenceSourceFile": "Eq-Diagr/References.txt",
+            "dbSha256": "2ac52a30213c9288dd18fc6dd597411e5c3ca53173fa6d1fab5530b371c30a0a",
+            "byteOffset": 120483,
+            "byteLength": 74,
+            "importDate": "2026-09-05T16:23:16.736Z",
+            "importerVersion": "spana-readonly-1.0.0",
+            "comments": [
+              "Element links describe source components, not product atom counts. Oxidation states are not supplied."
+            ],
+            "qualityFlags": [
+              "imported",
+              "not-solver-validated",
+              "composition-unknown"
+            ],
+            "original": {
+              "speciesName": "Eu 2+",
+              "reaction": {
+                "product": "Eu 2+",
+                "components": [
+                  {
+                    "name": "Eu 3+",
+                    "coefficient": 1
+                  },
+                  {
+                    "name": "e-",
+                    "coefficient": 1
+                  }
+                ],
+                "separateProtonCount": null
+              },
+              "logK": -6.1,
+              "citation": "85Bar/Par",
+              "raw": {
+                "ordinal": 1345,
+                "byteOffset": 120483,
+                "byteLength": 74,
+                "name": "Eu 2+",
+                "logK": -6.1,
+                "thermal": {
+                  "kind": "deltaH-deltaCp",
+                  "deltaH": 78,
+                  "deltaCp": -999999.9
+                },
+                "layout": "variable",
+                "componentToken": "2",
+                "components": [
+                  {
+                    "name": "Eu 3+",
+                    "coefficient": 1
+                  },
+                  {
+                    "name": "e-",
+                    "coefficient": 1
+                  }
+                ],
+                "protonCount": null,
+                "reference": "85Bar/Par",
+                "comment": "",
+                "rawBase64": "AAVFdSAyK8AYZmZmZmZmQFOAAAAAAADBLoR/zMzMzQABMgAFRXUgMys/8AAAAAAAAAACZS0/8AAAAAAAAAAJODVCYXIvUGFyAAA="
+              }
+            }
+          }
+        }
+      },
+      {
+        "id": "spana:2ac52a30213c9288:369711",
+        "productId": "spana:2ac52a30213c9288:369711",
+        "terms": [
+          {
+            "id": "component:V%203%2B",
+            "coefficient": 1
+          },
+          {
+            "id": "component:H%2B",
+            "coefficient": -1
+          },
+          {
+            "id": "component:H2O",
+            "coefficient": 1
+          }
+        ],
+        "logK": -2.26,
+        "phase": "aqueous",
+        "unit": {
+          "kind": "ideal-molal-standard"
+        },
+        "provenance": {
+          "reference": "76Bae/Mes: Baes C. F., Jr., Mesmer R. E.,\nThe Hydrolysis of Cations. New York: J. Wiley & Sons, 1976",
+          "record": {
+            "kind": "imported",
+            "sourceDatabase": "spana:2ac52a30213c9288dd18fc6dd597411e5c3ca53173fa6d1fab5530b371c30a0a",
+            "sourceFile": "Eq-Diagr/Reactions.db",
+            "sourceRecordId": "byte:369711",
+            "originalRecordId": null,
+            "originalSpeciesName": "VOH+2",
+            "originalReaction": {
+              "product": "VOH+2",
+              "components": [
+                {
+                  "name": "V 3+",
+                  "coefficient": 1
+                },
+                {
+                  "name": "H+",
+                  "coefficient": -1
+                },
+                {
+                  "name": "H2O",
+                  "coefficient": 1
+                }
+              ],
+              "separateProtonCount": null
+            },
+            "originalLogK": -2.26,
+            "originalReferenceCode": "76Bae/Mes",
+            "resolvedCitation": "76Bae/Mes: Baes C. F., Jr., Mesmer R. E.,\nThe Hydrolysis of Cations. New York: J. Wiley & Sons, 1976",
+            "referenceSourceFile": "Eq-Diagr/References.txt",
+            "dbSha256": "2ac52a30213c9288dd18fc6dd597411e5c3ca53173fa6d1fab5530b371c30a0a",
+            "byteOffset": 369711,
+            "byteLength": 86,
+            "importDate": "2026-09-05T16:23:16.736Z",
+            "importerVersion": "spana-readonly-1.0.0",
+            "comments": [
+              "Element links describe source components, not product atom counts. Oxidation states are not supplied."
+            ],
+            "qualityFlags": [
+              "imported",
+              "not-solver-validated",
+              "composition-unknown"
+            ],
+            "original": {
+              "speciesName": "VOH+2",
+              "reaction": {
+                "product": "VOH+2",
+                "components": [
+                  {
+                    "name": "V 3+",
+                    "coefficient": 1
+                  },
+                  {
+                    "name": "H+",
+                    "coefficient": -1
+                  },
+                  {
+                    "name": "H2O",
+                    "coefficient": 1
+                  }
+                ],
+                "separateProtonCount": null
+              },
+              "logK": -2.26,
+              "citation": "76Bae/Mes",
+              "raw": {
+                "ordinal": 4177,
+                "byteOffset": 369711,
+                "byteLength": 86,
+                "name": "VOH+2",
+                "logK": -2.26,
+                "thermal": {
+                  "kind": "deltaH-deltaCp",
+                  "deltaH": -999999.9,
+                  "deltaCp": -999999.9
+                },
+                "layout": "variable",
+                "componentToken": "3",
+                "components": [
+                  {
+                    "name": "V 3+",
+                    "coefficient": 1
+                  },
+                  {
+                    "name": "H+",
+                    "coefficient": -1
+                  },
+                  {
+                    "name": "H2O",
+                    "coefficient": 1
+                  }
+                ],
+                "protonCount": null,
+                "reference": "76Bae/Mes",
+                "comment": "",
+                "rawBase64": "AAVWT0grMsACFHrhR64UwS6Ef8zMzM3BLoR/zMzMzQABMwAEViAzKz/wAAAAAAAAAAJIK7/wAAAAAAAAAANIMk8/8AAAAAAAAAAJNzZCYWUvTWVzAAA="
+              }
+            }
+          }
+        }
+      },
+      {
+        "id": "spana:2ac52a30213c9288:250448",
+        "productId": "spana:2ac52a30213c9288:250448",
+        "terms": [
+          {
+            "id": "component:H%2B",
+            "coefficient": -1
+          },
+          {
+            "id": "component:H2O",
+            "coefficient": 1
+          }
+        ],
+        "logK": -14.0015,
+        "phase": "aqueous",
+        "unit": {
+          "kind": "ideal-molal-standard"
+        },
+        "provenance": {
+          "reference": "Codata: Cox J D, Wagman D D, Medvedev V A, CODATA Key Values for Thermodynamics. Hemisphere Publ. Co., New York, 1989\n\n88Sho/Hel: Shock E L, Helgeson H C; Geochim. Cosmochim. Acta 52 (1988) 2009-2036; and \"ERRATA\", ibid, 53 (1989) p.215",
+          "record": {
+            "kind": "imported",
+            "sourceDatabase": "spana:2ac52a30213c9288dd18fc6dd597411e5c3ca53173fa6d1fab5530b371c30a0a",
+            "sourceFile": "Eq-Diagr/Reactions.db",
+            "sourceRecordId": "byte:250448",
+            "originalRecordId": null,
+            "originalSpeciesName": "OH-",
+            "originalReaction": {
+              "product": "OH-",
+              "components": [
+                {
+                  "name": "H+",
+                  "coefficient": -1
+                },
+                {
+                  "name": "H2O",
+                  "coefficient": 1
+                }
+              ],
+              "separateProtonCount": null
+            },
+            "originalLogK": -14.0015,
+            "originalReferenceCode": "Codata+88Sho/Hel",
+            "resolvedCitation": "Codata: Cox J D, Wagman D D, Medvedev V A, CODATA Key Values for Thermodynamics. Hemisphere Publ. Co., New York, 1989\n\n88Sho/Hel: Shock E L, Helgeson H C; Geochim. Cosmochim. Acta 52 (1988) 2009-2036; and \"ERRATA\", ibid, 53 (1989) p.215",
+            "referenceSourceFile": "Eq-Diagr/References.txt",
+            "dbSha256": "2ac52a30213c9288dd18fc6dd597411e5c3ca53173fa6d1fab5530b371c30a0a",
+            "byteOffset": 250448,
+            "byteLength": 77,
+            "importDate": "2026-09-05T16:23:16.736Z",
+            "importerVersion": "spana-readonly-1.0.0",
+            "comments": [
+              "Element links describe source components, not product atom counts. Oxidation states are not supplied."
+            ],
+            "qualityFlags": [
+              "imported",
+              "not-solver-validated",
+              "composition-unknown"
+            ],
+            "original": {
+              "speciesName": "OH-",
+              "reaction": {
+                "product": "OH-",
+                "components": [
+                  {
+                    "name": "H+",
+                    "coefficient": -1
+                  },
+                  {
+                    "name": "H2O",
+                    "coefficient": 1
+                  }
+                ],
+                "separateProtonCount": null
+              },
+              "logK": -14.0015,
+              "citation": "Codata+88Sho/Hel",
+              "raw": {
+                "ordinal": 2824,
+                "byteOffset": 250448,
+                "byteLength": 77,
+                "name": "OH-",
+                "logK": -14.0015,
+                "thermal": {
+                  "kind": "deltaH-deltaCp",
+                  "deltaH": 55.82000000000001,
+                  "deltaCp": -212.99999999999997
+                },
+                "layout": "variable",
+                "componentToken": "2",
+                "components": [
+                  {
+                    "name": "H+",
+                    "coefficient": -1
+                  },
+                  {
+                    "name": "H2O",
+                    "coefficient": 1
+                  }
+                ],
+                "protonCount": null,
+                "reference": "Codata+88Sho/Hel",
+                "comment": "",
+                "rawBase64": "AANPSC3ALADEm6XjVEBL6PXCj1wqwGqf//////8AATIAAkgrv/AAAAAAAAAAA0gyTz/wAAAAAAAAABBDb2RhdGErODhTaG8vSGVsAAA="
+              }
+            }
+          }
+        }
+      }
+    ],
+    "basisIds": [
+      "component:V%203%2B",
+      "component:Eu%203%2B",
+      "spana:2ac52a30213c9288:360928",
+      "component:Cl-",
+      "component:H%2B",
+      "component:H2O"
+    ],
+    "electronId": "component:e-",
+    "preparation": {
+      "amounts": {
+        "component:V%203%2B": 0.001,
+        "spana:2ac52a30213c9288:120483": 0.001,
+        "component:Cl-": 0.006,
+        "component:H%2B": 0.001
+      },
+      "chargePolicy": "electroneutral",
+      "description": "Conditional real V/Eu + V hydrolysis; closed solute H-2O, fixed solvent water; history 0"
+    },
+    "solvent": {
+      "kind": "fixed-water-activity",
+      "speciesId": "component:H2O",
+      "logActivity": 0
+    }
+  },
+  "sourceRecords": [
+    {
+      "schemaVersion": 1,
+      "id": "spana:2ac52a30213c9288:360928",
+      "name": "V 2+",
+      "displayName": "V 2+",
+      "formula": "V 2+",
+      "phase": "aqueous",
+      "role": "solute",
+      "charge": 2,
+      "elementalComposition": null,
+      "discoveryElements": [
+        "V"
+      ],
+      "oxidationStates": null,
+      "componentStoichiometry": {
+        "V 3+": 1,
+        "e-": 1
+      },
+      "formationReaction": null,
+      "logK": -5.83,
+      "logKConvention": "log10 formation constant for one named product from the signed source component coefficients (eq-diagr Complex)",
+      "temperatureReference": 298.15,
+      "temperatureModel": {
+        "type": "spana-deltaH-deltaCp",
+        "parameters": {
+          "deltaH_kJ_per_mol": 33,
+          "deltaCp_J_per_mol_K": null
+        }
+      },
+      "pressureReference": null,
+      "activityModelCompatibility": null,
+      "source": "Spana/DataBase local reaction database",
+      "sourceDatabase": "spana:2ac52a30213c9288dd18fc6dd597411e5c3ca53173fa6d1fab5530b371c30a0a",
+      "sourceRecordId": "byte:360928",
+      "citation": "85Bar/Par: Bard A J, Parsons R, Jordan J, (eds.); Standard Potentials in Aqueous Solution. New York: Marcel Dekker, Inc., IUPAC (Int. Union Pure Appl. Chem.), 1985",
+      "notes": [
+        "Element links describe source components, not product atom counts. Oxidation states are not supplied."
+      ],
+      "qualityFlags": [
+        "imported",
+        "not-solver-validated",
+        "composition-unknown"
+      ],
+      "deprecated": false,
+      "metadata": {
+        "sourceFormat": "spana-java-binary",
+        "sourceRevision": "c94b0d8f33fd89eaadcec5a9f3fbf296b6b0e3f7",
+        "componentLinks": [
+          {
+            "name": "V 3+",
+            "coefficient": 1,
+            "associations": [
+              {
+                "element": "V",
+                "description": "",
+                "recognizedElement": true,
+                "byteOffset": 1226
+              }
+            ]
+          },
+          {
+            "name": "e-",
+            "coefficient": 1,
+            "associations": [
+              {
+                "element": "e-",
+                "description": "electron (= redox potential)",
+                "recognizedElement": false,
+                "byteOffset": 0
+              }
+            ]
+          }
+        ],
+        "elementFilterBasis": "source-component-associations; not complete product composition",
+        "solverReady": false,
+        "sourceNamingConvention": "eq-diagr Util",
+        "sourceReferenceResolutions": [
+          {
+            "code": "85Bar/Par",
+            "matchedKey": "85Bar/Par",
+            "citation": "Bard A J, Parsons R, Jordan J, (eds.); Standard Potentials in Aqueous Solution. New York: Marcel Dekker, Inc., IUPAC (Int. Union Pure Appl. Chem.), 1985",
+            "status": "resolved"
+          }
+        ],
+        "sourceTemperatureMetadata": {
+          "kind": "deltaH-deltaCp",
+          "deltaH": 33,
+          "deltaCp": -999999.9
+        },
+        "sourcePressureMetadata": {
+          "storedReferencePressure": null,
+          "note": "No pressure-reference scalar stored. Upstream derives limits; no derivation performed here."
+        },
+        "originalReaction": {
+          "product": "V 2+",
+          "components": [
+            {
+              "name": "V 3+",
+              "coefficient": 1
+            },
+            {
+              "name": "e-",
+              "coefficient": 1
+            }
+          ],
+          "separateProtonCount": null
+        },
+        "effectiveSourceReaction": {
+          "product": "V 2+",
+          "components": [
+            {
+              "name": "V 3+",
+              "coefficient": 1
+            },
+            {
+              "name": "e-",
+              "coefficient": 1
+            }
+          ]
+        }
+      },
+      "provenance": {
+        "kind": "imported",
+        "sourceDatabase": "spana:2ac52a30213c9288dd18fc6dd597411e5c3ca53173fa6d1fab5530b371c30a0a",
+        "sourceFile": "Eq-Diagr/Reactions.db",
+        "sourceRecordId": "byte:360928",
+        "originalRecordId": null,
+        "originalSpeciesName": "V 2+",
+        "originalReaction": {
+          "product": "V 2+",
+          "components": [
+            {
+              "name": "V 3+",
+              "coefficient": 1
+            },
+            {
+              "name": "e-",
+              "coefficient": 1
+            }
+          ],
+          "separateProtonCount": null
+        },
+        "originalLogK": -5.83,
+        "originalReferenceCode": "85Bar/Par",
+        "resolvedCitation": "85Bar/Par: Bard A J, Parsons R, Jordan J, (eds.); Standard Potentials in Aqueous Solution. New York: Marcel Dekker, Inc., IUPAC (Int. Union Pure Appl. Chem.), 1985",
+        "referenceSourceFile": "Eq-Diagr/References.txt",
+        "dbSha256": "2ac52a30213c9288dd18fc6dd597411e5c3ca53173fa6d1fab5530b371c30a0a",
+        "byteOffset": 360928,
+        "byteLength": 72,
+        "importDate": "2026-09-05T16:23:16.736Z",
+        "importerVersion": "spana-readonly-1.0.0",
+        "comments": [
+          "Element links describe source components, not product atom counts. Oxidation states are not supplied."
+        ],
+        "qualityFlags": [
+          "imported",
+          "not-solver-validated",
+          "composition-unknown"
+        ],
+        "original": {
+          "speciesName": "V 2+",
+          "reaction": {
+            "product": "V 2+",
+            "components": [
+              {
+                "name": "V 3+",
+                "coefficient": 1
+              },
+              {
+                "name": "e-",
+                "coefficient": 1
+              }
+            ],
+            "separateProtonCount": null
+          },
+          "logK": -5.83,
+          "citation": "85Bar/Par",
+          "raw": {
+            "ordinal": 4079,
+            "byteOffset": 360928,
+            "byteLength": 72,
+            "name": "V 2+",
+            "logK": -5.83,
+            "thermal": {
+              "kind": "deltaH-deltaCp",
+              "deltaH": 33,
+              "deltaCp": -999999.9
+            },
+            "layout": "variable",
+            "componentToken": "2",
+            "components": [
+              {
+                "name": "V 3+",
+                "coefficient": 1
+              },
+              {
+                "name": "e-",
+                "coefficient": 1
+              }
+            ],
+            "protonCount": null,
+            "reference": "85Bar/Par",
+            "comment": "",
+            "rawBase64": "AARWIDIrwBdR64UeuFJAQIAAAAAAAMEuhH/MzMzNAAEyAARWIDMrP/AAAAAAAAAAAmUtP/AAAAAAAAAACTg1QmFyL1BhcgAA"
+          }
+        }
+      }
+    },
+    {
+      "schemaVersion": 1,
+      "id": "spana:2ac52a30213c9288:120483",
+      "name": "Eu 2+",
+      "displayName": "Eu 2+",
+      "formula": "Eu 2+",
+      "phase": "aqueous",
+      "role": "solute",
+      "charge": 2,
+      "elementalComposition": null,
+      "discoveryElements": [
+        "Eu"
+      ],
+      "oxidationStates": null,
+      "componentStoichiometry": {
+        "Eu 3+": 1,
+        "e-": 1
+      },
+      "formationReaction": null,
+      "logK": -6.1,
+      "logKConvention": "log10 formation constant for one named product from the signed source component coefficients (eq-diagr Complex)",
+      "temperatureReference": 298.15,
+      "temperatureModel": {
+        "type": "spana-deltaH-deltaCp",
+        "parameters": {
+          "deltaH_kJ_per_mol": 78,
+          "deltaCp_J_per_mol_K": null
+        }
+      },
+      "pressureReference": null,
+      "activityModelCompatibility": null,
+      "source": "Spana/DataBase local reaction database",
+      "sourceDatabase": "spana:2ac52a30213c9288dd18fc6dd597411e5c3ca53173fa6d1fab5530b371c30a0a",
+      "sourceRecordId": "byte:120483",
+      "citation": "85Bar/Par: Bard A J, Parsons R, Jordan J, (eds.); Standard Potentials in Aqueous Solution. New York: Marcel Dekker, Inc., IUPAC (Int. Union Pure Appl. Chem.), 1985",
+      "notes": [
+        "Element links describe source components, not product atom counts. Oxidation states are not supplied."
+      ],
+      "qualityFlags": [
+        "imported",
+        "not-solver-validated",
+        "composition-unknown"
+      ],
+      "deprecated": false,
+      "metadata": {
+        "sourceFormat": "spana-java-binary",
+        "sourceRevision": "c94b0d8f33fd89eaadcec5a9f3fbf296b6b0e3f7",
+        "componentLinks": [
+          {
+            "name": "Eu 3+",
+            "coefficient": 1,
+            "associations": [
+              {
+                "element": "Eu",
+                "description": "",
+                "recognizedElement": true,
+                "byteOffset": 2593
+              }
+            ]
+          },
+          {
+            "name": "e-",
+            "coefficient": 1,
+            "associations": [
+              {
+                "element": "e-",
+                "description": "electron (= redox potential)",
+                "recognizedElement": false,
+                "byteOffset": 0
+              }
+            ]
+          }
+        ],
+        "elementFilterBasis": "source-component-associations; not complete product composition",
+        "solverReady": false,
+        "sourceNamingConvention": "eq-diagr Util",
+        "sourceReferenceResolutions": [
+          {
+            "code": "85Bar/Par",
+            "matchedKey": "85Bar/Par",
+            "citation": "Bard A J, Parsons R, Jordan J, (eds.); Standard Potentials in Aqueous Solution. New York: Marcel Dekker, Inc., IUPAC (Int. Union Pure Appl. Chem.), 1985",
+            "status": "resolved"
+          }
+        ],
+        "sourceTemperatureMetadata": {
+          "kind": "deltaH-deltaCp",
+          "deltaH": 78,
+          "deltaCp": -999999.9
+        },
+        "sourcePressureMetadata": {
+          "storedReferencePressure": null,
+          "note": "No pressure-reference scalar stored. Upstream derives limits; no derivation performed here."
+        },
+        "originalReaction": {
+          "product": "Eu 2+",
+          "components": [
+            {
+              "name": "Eu 3+",
+              "coefficient": 1
+            },
+            {
+              "name": "e-",
+              "coefficient": 1
+            }
+          ],
+          "separateProtonCount": null
+        },
+        "effectiveSourceReaction": {
+          "product": "Eu 2+",
+          "components": [
+            {
+              "name": "Eu 3+",
+              "coefficient": 1
+            },
+            {
+              "name": "e-",
+              "coefficient": 1
+            }
+          ]
+        }
+      },
+      "provenance": {
+        "kind": "imported",
+        "sourceDatabase": "spana:2ac52a30213c9288dd18fc6dd597411e5c3ca53173fa6d1fab5530b371c30a0a",
+        "sourceFile": "Eq-Diagr/Reactions.db",
+        "sourceRecordId": "byte:120483",
+        "originalRecordId": null,
+        "originalSpeciesName": "Eu 2+",
+        "originalReaction": {
+          "product": "Eu 2+",
+          "components": [
+            {
+              "name": "Eu 3+",
+              "coefficient": 1
+            },
+            {
+              "name": "e-",
+              "coefficient": 1
+            }
+          ],
+          "separateProtonCount": null
+        },
+        "originalLogK": -6.1,
+        "originalReferenceCode": "85Bar/Par",
+        "resolvedCitation": "85Bar/Par: Bard A J, Parsons R, Jordan J, (eds.); Standard Potentials in Aqueous Solution. New York: Marcel Dekker, Inc., IUPAC (Int. Union Pure Appl. Chem.), 1985",
+        "referenceSourceFile": "Eq-Diagr/References.txt",
+        "dbSha256": "2ac52a30213c9288dd18fc6dd597411e5c3ca53173fa6d1fab5530b371c30a0a",
+        "byteOffset": 120483,
+        "byteLength": 74,
+        "importDate": "2026-09-05T16:23:16.736Z",
+        "importerVersion": "spana-readonly-1.0.0",
+        "comments": [
+          "Element links describe source components, not product atom counts. Oxidation states are not supplied."
+        ],
+        "qualityFlags": [
+          "imported",
+          "not-solver-validated",
+          "composition-unknown"
+        ],
+        "original": {
+          "speciesName": "Eu 2+",
+          "reaction": {
+            "product": "Eu 2+",
+            "components": [
+              {
+                "name": "Eu 3+",
+                "coefficient": 1
+              },
+              {
+                "name": "e-",
+                "coefficient": 1
+              }
+            ],
+            "separateProtonCount": null
+          },
+          "logK": -6.1,
+          "citation": "85Bar/Par",
+          "raw": {
+            "ordinal": 1345,
+            "byteOffset": 120483,
+            "byteLength": 74,
+            "name": "Eu 2+",
+            "logK": -6.1,
+            "thermal": {
+              "kind": "deltaH-deltaCp",
+              "deltaH": 78,
+              "deltaCp": -999999.9
+            },
+            "layout": "variable",
+            "componentToken": "2",
+            "components": [
+              {
+                "name": "Eu 3+",
+                "coefficient": 1
+              },
+              {
+                "name": "e-",
+                "coefficient": 1
+              }
+            ],
+            "protonCount": null,
+            "reference": "85Bar/Par",
+            "comment": "",
+            "rawBase64": "AAVFdSAyK8AYZmZmZmZmQFOAAAAAAADBLoR/zMzMzQABMgAFRXUgMys/8AAAAAAAAAACZS0/8AAAAAAAAAAJODVCYXIvUGFyAAA="
+          }
+        }
+      }
+    },
+    {
+      "schemaVersion": 1,
+      "id": "spana:2ac52a30213c9288:369711",
+      "name": "VOH+2",
+      "displayName": "VOH+2",
+      "formula": "VOH+2",
+      "phase": "aqueous",
+      "role": "solute",
+      "charge": 2,
+      "elementalComposition": null,
+      "discoveryElements": [
+        "H",
+        "V"
+      ],
+      "oxidationStates": null,
+      "componentStoichiometry": {
+        "V 3+": 1,
+        "H+": -1,
+        "H2O": 1
+      },
+      "formationReaction": null,
+      "logK": -2.26,
+      "logKConvention": "log10 formation constant for one named product from the signed source component coefficients (eq-diagr Complex)",
+      "temperatureReference": 298.15,
+      "temperatureModel": {
+        "type": "spana-deltaH-deltaCp",
+        "parameters": {
+          "deltaH_kJ_per_mol": null,
+          "deltaCp_J_per_mol_K": null
+        }
+      },
+      "pressureReference": null,
+      "activityModelCompatibility": null,
+      "source": "Spana/DataBase local reaction database",
+      "sourceDatabase": "spana:2ac52a30213c9288dd18fc6dd597411e5c3ca53173fa6d1fab5530b371c30a0a",
+      "sourceRecordId": "byte:369711",
+      "citation": "76Bae/Mes: Baes C. F., Jr., Mesmer R. E.,\nThe Hydrolysis of Cations. New York: J. Wiley & Sons, 1976",
+      "notes": [
+        "Element links describe source components, not product atom counts. Oxidation states are not supplied."
+      ],
+      "qualityFlags": [
+        "imported",
+        "not-solver-validated",
+        "composition-unknown"
+      ],
+      "deprecated": false,
+      "metadata": {
+        "sourceFormat": "spana-java-binary",
+        "sourceRevision": "c94b0d8f33fd89eaadcec5a9f3fbf296b6b0e3f7",
+        "componentLinks": [
+          {
+            "name": "V 3+",
+            "coefficient": 1,
+            "associations": [
+              {
+                "element": "V",
+                "description": "",
+                "recognizedElement": true,
+                "byteOffset": 1226
+              }
+            ]
+          },
+          {
+            "name": "H+",
+            "coefficient": -1,
+            "associations": [
+              {
+                "element": "H",
+                "description": "hydrogen ion",
+                "recognizedElement": true,
+                "byteOffset": 42
+              }
+            ]
+          },
+          {
+            "name": "H2O",
+            "coefficient": 1,
+            "associations": [
+              {
+                "element": "XX",
+                "description": "water",
+                "recognizedElement": false,
+                "byteOffset": 3449
+              }
+            ]
+          }
+        ],
+        "elementFilterBasis": "source-component-associations; not complete product composition",
+        "solverReady": false,
+        "sourceNamingConvention": "eq-diagr Util",
+        "sourceReferenceResolutions": [
+          {
+            "code": "76Bae/Mes",
+            "matchedKey": "76Bae/Mes",
+            "citation": "Baes C. F., Jr., Mesmer R. E.,\nThe Hydrolysis of Cations. New York: J. Wiley & Sons, 1976",
+            "status": "resolved"
+          }
+        ],
+        "sourceTemperatureMetadata": {
+          "kind": "deltaH-deltaCp",
+          "deltaH": -999999.9,
+          "deltaCp": -999999.9
+        },
+        "sourcePressureMetadata": {
+          "storedReferencePressure": null,
+          "note": "No pressure-reference scalar stored. Upstream derives limits; no derivation performed here."
+        },
+        "originalReaction": {
+          "product": "VOH+2",
+          "components": [
+            {
+              "name": "V 3+",
+              "coefficient": 1
+            },
+            {
+              "name": "H+",
+              "coefficient": -1
+            },
+            {
+              "name": "H2O",
+              "coefficient": 1
+            }
+          ],
+          "separateProtonCount": null
+        },
+        "effectiveSourceReaction": {
+          "product": "VOH+2",
+          "components": [
+            {
+              "name": "V 3+",
+              "coefficient": 1
+            },
+            {
+              "name": "H+",
+              "coefficient": -1
+            },
+            {
+              "name": "H2O",
+              "coefficient": 1
+            }
+          ]
+        }
+      },
+      "provenance": {
+        "kind": "imported",
+        "sourceDatabase": "spana:2ac52a30213c9288dd18fc6dd597411e5c3ca53173fa6d1fab5530b371c30a0a",
+        "sourceFile": "Eq-Diagr/Reactions.db",
+        "sourceRecordId": "byte:369711",
+        "originalRecordId": null,
+        "originalSpeciesName": "VOH+2",
+        "originalReaction": {
+          "product": "VOH+2",
+          "components": [
+            {
+              "name": "V 3+",
+              "coefficient": 1
+            },
+            {
+              "name": "H+",
+              "coefficient": -1
+            },
+            {
+              "name": "H2O",
+              "coefficient": 1
+            }
+          ],
+          "separateProtonCount": null
+        },
+        "originalLogK": -2.26,
+        "originalReferenceCode": "76Bae/Mes",
+        "resolvedCitation": "76Bae/Mes: Baes C. F., Jr., Mesmer R. E.,\nThe Hydrolysis of Cations. New York: J. Wiley & Sons, 1976",
+        "referenceSourceFile": "Eq-Diagr/References.txt",
+        "dbSha256": "2ac52a30213c9288dd18fc6dd597411e5c3ca53173fa6d1fab5530b371c30a0a",
+        "byteOffset": 369711,
+        "byteLength": 86,
+        "importDate": "2026-09-05T16:23:16.736Z",
+        "importerVersion": "spana-readonly-1.0.0",
+        "comments": [
+          "Element links describe source components, not product atom counts. Oxidation states are not supplied."
+        ],
+        "qualityFlags": [
+          "imported",
+          "not-solver-validated",
+          "composition-unknown"
+        ],
+        "original": {
+          "speciesName": "VOH+2",
+          "reaction": {
+            "product": "VOH+2",
+            "components": [
+              {
+                "name": "V 3+",
+                "coefficient": 1
+              },
+              {
+                "name": "H+",
+                "coefficient": -1
+              },
+              {
+                "name": "H2O",
+                "coefficient": 1
+              }
+            ],
+            "separateProtonCount": null
+          },
+          "logK": -2.26,
+          "citation": "76Bae/Mes",
+          "raw": {
+            "ordinal": 4177,
+            "byteOffset": 369711,
+            "byteLength": 86,
+            "name": "VOH+2",
+            "logK": -2.26,
+            "thermal": {
+              "kind": "deltaH-deltaCp",
+              "deltaH": -999999.9,
+              "deltaCp": -999999.9
+            },
+            "layout": "variable",
+            "componentToken": "3",
+            "components": [
+              {
+                "name": "V 3+",
+                "coefficient": 1
+              },
+              {
+                "name": "H+",
+                "coefficient": -1
+              },
+              {
+                "name": "H2O",
+                "coefficient": 1
+              }
+            ],
+            "protonCount": null,
+            "reference": "76Bae/Mes",
+            "comment": "",
+            "rawBase64": "AAVWT0grMsACFHrhR64UwS6Ef8zMzM3BLoR/zMzMzQABMwAEViAzKz/wAAAAAAAAAAJIK7/wAAAAAAAAAANIMk8/8AAAAAAAAAAJNzZCYWUvTWVzAAA="
+          }
+        }
+      }
+    },
+    {
+      "schemaVersion": 1,
+      "id": "spana:2ac52a30213c9288:250448",
+      "name": "OH-",
+      "displayName": "OH-",
+      "formula": "OH-",
+      "phase": "aqueous",
+      "role": "solute",
+      "charge": -1,
+      "elementalComposition": null,
+      "discoveryElements": [
+        "H"
+      ],
+      "oxidationStates": null,
+      "componentStoichiometry": {
+        "H+": -1,
+        "H2O": 1
+      },
+      "formationReaction": null,
+      "logK": -14.0015,
+      "logKConvention": "log10 formation constant for one named product from the signed source component coefficients (eq-diagr Complex)",
+      "temperatureReference": 298.15,
+      "temperatureModel": {
+        "type": "spana-deltaH-deltaCp",
+        "parameters": {
+          "deltaH_kJ_per_mol": 55.82000000000001,
+          "deltaCp_J_per_mol_K": -212.99999999999997
+        }
+      },
+      "pressureReference": null,
+      "activityModelCompatibility": null,
+      "source": "Spana/DataBase local reaction database",
+      "sourceDatabase": "spana:2ac52a30213c9288dd18fc6dd597411e5c3ca53173fa6d1fab5530b371c30a0a",
+      "sourceRecordId": "byte:250448",
+      "citation": "Codata: Cox J D, Wagman D D, Medvedev V A, CODATA Key Values for Thermodynamics. Hemisphere Publ. Co., New York, 1989\n\n88Sho/Hel: Shock E L, Helgeson H C; Geochim. Cosmochim. Acta 52 (1988) 2009-2036; and \"ERRATA\", ibid, 53 (1989) p.215",
+      "notes": [
+        "Element links describe source components, not product atom counts. Oxidation states are not supplied."
+      ],
+      "qualityFlags": [
+        "imported",
+        "not-solver-validated",
+        "composition-unknown"
+      ],
+      "deprecated": false,
+      "metadata": {
+        "sourceFormat": "spana-java-binary",
+        "sourceRevision": "c94b0d8f33fd89eaadcec5a9f3fbf296b6b0e3f7",
+        "componentLinks": [
+          {
+            "name": "H+",
+            "coefficient": -1,
+            "associations": [
+              {
+                "element": "H",
+                "description": "hydrogen ion",
+                "recognizedElement": true,
+                "byteOffset": 42
+              }
+            ]
+          },
+          {
+            "name": "H2O",
+            "coefficient": 1,
+            "associations": [
+              {
+                "element": "XX",
+                "description": "water",
+                "recognizedElement": false,
+                "byteOffset": 3449
+              }
+            ]
+          }
+        ],
+        "elementFilterBasis": "source-component-associations; not complete product composition",
+        "solverReady": false,
+        "sourceNamingConvention": "eq-diagr Util",
+        "sourceReferenceResolutions": [
+          {
+            "code": "Codata",
+            "matchedKey": "Codata",
+            "citation": "Cox J D, Wagman D D, Medvedev V A, CODATA Key Values for Thermodynamics. Hemisphere Publ. Co., New York, 1989",
+            "status": "resolved"
+          },
+          {
+            "code": "88Sho/Hel",
+            "matchedKey": "88Sho/Hel",
+            "citation": "Shock E L, Helgeson H C; Geochim. Cosmochim. Acta 52 (1988) 2009-2036; and \"ERRATA\", ibid, 53 (1989) p.215",
+            "status": "resolved"
+          }
+        ],
+        "sourceTemperatureMetadata": {
+          "kind": "deltaH-deltaCp",
+          "deltaH": 55.82000000000001,
+          "deltaCp": -212.99999999999997
+        },
+        "sourcePressureMetadata": {
+          "storedReferencePressure": null,
+          "note": "No pressure-reference scalar stored. Upstream derives limits; no derivation performed here."
+        },
+        "originalReaction": {
+          "product": "OH-",
+          "components": [
+            {
+              "name": "H+",
+              "coefficient": -1
+            },
+            {
+              "name": "H2O",
+              "coefficient": 1
+            }
+          ],
+          "separateProtonCount": null
+        },
+        "effectiveSourceReaction": {
+          "product": "OH-",
+          "components": [
+            {
+              "name": "H+",
+              "coefficient": -1
+            },
+            {
+              "name": "H2O",
+              "coefficient": 1
+            }
+          ]
+        }
+      },
+      "provenance": {
+        "kind": "imported",
+        "sourceDatabase": "spana:2ac52a30213c9288dd18fc6dd597411e5c3ca53173fa6d1fab5530b371c30a0a",
+        "sourceFile": "Eq-Diagr/Reactions.db",
+        "sourceRecordId": "byte:250448",
+        "originalRecordId": null,
+        "originalSpeciesName": "OH-",
+        "originalReaction": {
+          "product": "OH-",
+          "components": [
+            {
+              "name": "H+",
+              "coefficient": -1
+            },
+            {
+              "name": "H2O",
+              "coefficient": 1
+            }
+          ],
+          "separateProtonCount": null
+        },
+        "originalLogK": -14.0015,
+        "originalReferenceCode": "Codata+88Sho/Hel",
+        "resolvedCitation": "Codata: Cox J D, Wagman D D, Medvedev V A, CODATA Key Values for Thermodynamics. Hemisphere Publ. Co., New York, 1989\n\n88Sho/Hel: Shock E L, Helgeson H C; Geochim. Cosmochim. Acta 52 (1988) 2009-2036; and \"ERRATA\", ibid, 53 (1989) p.215",
+        "referenceSourceFile": "Eq-Diagr/References.txt",
+        "dbSha256": "2ac52a30213c9288dd18fc6dd597411e5c3ca53173fa6d1fab5530b371c30a0a",
+        "byteOffset": 250448,
+        "byteLength": 77,
+        "importDate": "2026-09-05T16:23:16.736Z",
+        "importerVersion": "spana-readonly-1.0.0",
+        "comments": [
+          "Element links describe source components, not product atom counts. Oxidation states are not supplied."
+        ],
+        "qualityFlags": [
+          "imported",
+          "not-solver-validated",
+          "composition-unknown"
+        ],
+        "original": {
+          "speciesName": "OH-",
+          "reaction": {
+            "product": "OH-",
+            "components": [
+              {
+                "name": "H+",
+                "coefficient": -1
+              },
+              {
+                "name": "H2O",
+                "coefficient": 1
+              }
+            ],
+            "separateProtonCount": null
+          },
+          "logK": -14.0015,
+          "citation": "Codata+88Sho/Hel",
+          "raw": {
+            "ordinal": 2824,
+            "byteOffset": 250448,
+            "byteLength": 77,
+            "name": "OH-",
+            "logK": -14.0015,
+            "thermal": {
+              "kind": "deltaH-deltaCp",
+              "deltaH": 55.82000000000001,
+              "deltaCp": -212.99999999999997
+            },
+            "layout": "variable",
+            "componentToken": "2",
+            "components": [
+              {
+                "name": "H+",
+                "coefficient": -1
+              },
+              {
+                "name": "H2O",
+                "coefficient": 1
+              }
+            ],
+            "protonCount": null,
+            "reference": "Codata+88Sho/Hel",
+            "comment": "",
+            "rawBase64": "AANPSC3ALADEm6XjVEBL6PXCj1wqwGqf//////8AATIAAkgrv/AAAAAAAAAAA0gyTz/wAAAAAAAAABBDb2RhdGErODhTaG8vSGVsAAA="
+          }
+        }
+      }
+    }
+  ],
+  "alternativeEuHydrolysis": {
+    "schemaVersion": 1,
+    "id": "spana:2ac52a30213c9288:125602",
+    "name": "EuOH 2+",
+    "displayName": "EuOH 2+",
+    "formula": "EuOH 2+",
+    "phase": "aqueous",
+    "role": "solute",
+    "charge": 2,
+    "elementalComposition": null,
+    "discoveryElements": [
+      "Eu",
+      "H"
+    ],
+    "oxidationStates": null,
+    "componentStoichiometry": {
+      "Eu 3+": 1,
+      "H+": -1,
+      "H2O": 1
+    },
+    "formationReaction": null,
+    "logK": -7.9,
+    "logKConvention": "log10 formation constant for one named product from the signed source component coefficients (eq-diagr Complex)",
+    "temperatureReference": 298.15,
+    "temperatureModel": {
+      "type": "spana-deltaH-deltaCp",
+      "parameters": {
+        "deltaH_kJ_per_mol": null,
+        "deltaCp_J_per_mol_K": null
+      }
+    },
+    "pressureReference": null,
+    "activityModelCompatibility": null,
+    "source": "Spana/DataBase local reaction database",
+    "sourceDatabase": "spana:2ac52a30213c9288dd18fc6dd597411e5c3ca53173fa6d1fab5530b371c30a0a",
+    "sourceRecordId": "byte:125602",
+    "citation": "1995HSS: Haas J R, Shock E L, Sassani D; Cosmochim. Acta 59 (1995) 4329-4350",
+    "notes": [
+      "Element links describe source components, not product atom counts. Oxidation states are not supplied."
+    ],
+    "qualityFlags": [
+      "imported",
+      "not-solver-validated",
+      "composition-unknown"
+    ],
+    "deprecated": false,
+    "metadata": {
+      "sourceFormat": "spana-java-binary",
+      "sourceRevision": "c94b0d8f33fd89eaadcec5a9f3fbf296b6b0e3f7",
+      "componentLinks": [
+        {
+          "name": "Eu 3+",
+          "coefficient": 1,
+          "associations": [
+            {
+              "element": "Eu",
+              "description": "",
+              "recognizedElement": true,
+              "byteOffset": 2593
+            }
+          ]
+        },
+        {
+          "name": "H+",
+          "coefficient": -1,
+          "associations": [
+            {
+              "element": "H",
+              "description": "hydrogen ion",
+              "recognizedElement": true,
+              "byteOffset": 42
+            }
+          ]
+        },
+        {
+          "name": "H2O",
+          "coefficient": 1,
+          "associations": [
+            {
+              "element": "XX",
+              "description": "water",
+              "recognizedElement": false,
+              "byteOffset": 3449
+            }
+          ]
+        }
+      ],
+      "elementFilterBasis": "source-component-associations; not complete product composition",
+      "solverReady": false,
+      "sourceNamingConvention": "eq-diagr Util",
+      "sourceReferenceResolutions": [
+        {
+          "code": "1995HSS",
+          "matchedKey": "1995HSS",
+          "citation": "Haas J R, Shock E L, Sassani D; Cosmochim. Acta 59 (1995) 4329-4350",
+          "status": "resolved"
+        }
+      ],
+      "sourceTemperatureMetadata": {
+        "kind": "deltaH-deltaCp",
+        "deltaH": -999999.9,
+        "deltaCp": -999999.9
+      },
+      "sourcePressureMetadata": {
+        "storedReferencePressure": null,
+        "note": "No pressure-reference scalar stored. Upstream derives limits; no derivation performed here."
+      },
+      "originalReaction": {
+        "product": "EuOH 2+",
+        "components": [
+          {
+            "name": "Eu 3+",
+            "coefficient": 1
+          },
+          {
+            "name": "H+",
+            "coefficient": -1
+          },
+          {
+            "name": "H2O",
+            "coefficient": 1
+          }
+        ],
+        "separateProtonCount": null
+      },
+      "effectiveSourceReaction": {
+        "product": "EuOH 2+",
+        "components": [
+          {
+            "name": "Eu 3+",
+            "coefficient": 1
+          },
+          {
+            "name": "H+",
+            "coefficient": -1
+          },
+          {
+            "name": "H2O",
+            "coefficient": 1
+          }
+        ]
+      }
+    },
+    "provenance": {
+      "kind": "imported",
+      "sourceDatabase": "spana:2ac52a30213c9288dd18fc6dd597411e5c3ca53173fa6d1fab5530b371c30a0a",
+      "sourceFile": "Eq-Diagr/Reactions.db",
+      "sourceRecordId": "byte:125602",
+      "originalRecordId": null,
+      "originalSpeciesName": "EuOH 2+",
+      "originalReaction": {
+        "product": "EuOH 2+",
+        "components": [
+          {
+            "name": "Eu 3+",
+            "coefficient": 1
+          },
+          {
+            "name": "H+",
+            "coefficient": -1
+          },
+          {
+            "name": "H2O",
+            "coefficient": 1
+          }
+        ],
+        "separateProtonCount": null
+      },
+      "originalLogK": -7.9,
+      "originalReferenceCode": "1995HSS",
+      "resolvedCitation": "1995HSS: Haas J R, Shock E L, Sassani D; Cosmochim. Acta 59 (1995) 4329-4350",
+      "referenceSourceFile": "Eq-Diagr/References.txt",
+      "dbSha256": "2ac52a30213c9288dd18fc6dd597411e5c3ca53173fa6d1fab5530b371c30a0a",
+      "byteOffset": 125602,
+      "byteLength": 87,
+      "importDate": "2026-09-05T16:23:16.736Z",
+      "importerVersion": "spana-readonly-1.0.0",
+      "comments": [
+        "Element links describe source components, not product atom counts. Oxidation states are not supplied."
+      ],
+      "qualityFlags": [
+        "imported",
+        "not-solver-validated",
+        "composition-unknown"
+      ],
+      "original": {
+        "speciesName": "EuOH 2+",
+        "reaction": {
+          "product": "EuOH 2+",
+          "components": [
+            {
+              "name": "Eu 3+",
+              "coefficient": 1
+            },
+            {
+              "name": "H+",
+              "coefficient": -1
+            },
+            {
+              "name": "H2O",
+              "coefficient": 1
+            }
+          ],
+          "separateProtonCount": null
+        },
+        "logK": -7.9,
+        "citation": "1995HSS",
+        "raw": {
+          "ordinal": 1405,
+          "byteOffset": 125602,
+          "byteLength": 87,
+          "name": "EuOH 2+",
+          "logK": -7.9,
+          "thermal": {
+            "kind": "deltaH-deltaCp",
+            "deltaH": -999999.9,
+            "deltaCp": -999999.9
+          },
+          "layout": "variable",
+          "componentToken": "3",
+          "components": [
+            {
+              "name": "Eu 3+",
+              "coefficient": 1
+            },
+            {
+              "name": "H+",
+              "coefficient": -1
+            },
+            {
+              "name": "H2O",
+              "coefficient": 1
+            }
+          ],
+          "protonCount": null,
+          "reference": "1995HSS",
+          "comment": "",
+          "rawBase64": "AAdFdU9IIDIrwB+ZmZmZmZrBLoR/zMzMzcEuhH/MzMzNAAEzAAVFdSAzKz/wAAAAAAAAAAJIK7/wAAAAAAAAAANIMk8/8AAAAAAAAAAHMTk5NUhTUwAA"
+        }
+      }
+    }
+  },
+  "excludedScope": "Other hydrolysis products, chloride complexes, other V/Eu states, solids, gases, nonideal activities; no completeness claim"
+}

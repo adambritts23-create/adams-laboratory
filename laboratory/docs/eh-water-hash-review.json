@@ -1,0 +1,11 @@
+{
+  "changed": [
+    "src/calculations/imposedEh.js",
+    "src/components/PlotWorkspace.jsx",
+    "src/components/ScientificPlot.jsx",
+    "src/plots/export.js",
+    "src/plots/presentation.js"
+  ],
+  "unchanged": 214,
+  "protectedUnchanged": true
+}

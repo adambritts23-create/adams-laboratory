@@ -1,0 +1,9 @@
+Browser validation (local Vite, 2026-09-16)
+- System: H+/H2O/H2O2, no electron selected.
+- Existing Closed reagent / automatic redox action invokes compiler.
+- 1e-6 mol/kg peroxide accepted conditionally; pH 7.00075000 and Eh 0.76439751 V vs SHE derived.
+- Compiler provenance remains in a closed disclosure; no new mode or permanent debug panel.
+- Changing supplied peroxide removes accepted answer immediately.
+- 0.01 mol/kg peroxide is explicitly UNSUPPORTED: gas-inventory-headspace-required. No ordinary fallback.
+- Return to ordinary restores compact Quantity / Component / Scale setup and single view selector.
+- Ordinary 51-sample pH plot retains selected-result beaker and scientific partition. No portrait inside/next to beaker; original glass drawing retained.

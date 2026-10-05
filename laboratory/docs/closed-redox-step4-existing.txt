@@ -1,0 +1,29 @@
+✔ closed original: independent concentrations, inventories, charge and simultaneous half laws (2.5167ms)
+✔ closed unequal: independent concentrations, inventories, charge and simultaneous half laws (0.3006ms)
+✔ closed three: independent concentrations, inventories, charge and simultaneous half laws (0.2355ms)
+✔ unequal two/three electron stoichiometry cancels exactly at six with transformed log K (1.0651ms)
+✔ all controls preserve equilibrium across preparations and supported bases, not preparation provenance (0.548ms)
+✔ three simultaneous couples are invariant to reaction order, reversal and scaling (9.9903ms)
+✔ reservoir or electron-total inputs cannot enter closed mode (1.38ms)
+✔ missing counterions, source metadata or invalid composition fail before solving (1.4932ms)
+✔ rank gates reject underdetermined/disconnected families and contradictory reaction cycles (1.3263ms)
+✔ forged preparations cannot solve and inspection branding cannot be copied (1.2063ms)
+✔ real V/Eu raw-source expected solution is independently analytic before production calculation (2.0813ms)
+✔ real two-family closed chemistry closes atoms, charge and electrons with common derived potential (9.0183ms)
+✔ real closed chemistry is preparation-history, reaction-order and supported-basis invariant (78.6657ms)
+✔ same five-ion chemistry through generic imposed-Eh sweep agrees at exact independent equilibrium potential (20.9627ms)
+✔ real fixture cannot silently admit unbalanced preparation, imposed closed potential or edited source constants (3.3139ms)
+✔ closed two-couple synthetic equilibrium agrees with independent analytic extent without electron input (0.5282ms)
+✔ both half reactions give common derived pe and satisfy net K=100 (0.1837ms)
+✔ three chemical bases and two equivalent preparation histories preserve the same final state (0.3024ms)
+✔ charge is independently audited; generic additional electroneutrality remains explicitly unsupported (0.1356ms)
+✔ disconnected state-total constraints preserve inappropriate preparation memory (2.0948ms)
+✔ an unconstrained explicit electron basis is rejected rather than silently prescribing Eh (0.4939ms)
+ℹ tests 21
+ℹ suites 0
+ℹ pass 21
+ℹ fail 0
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 1260.7752

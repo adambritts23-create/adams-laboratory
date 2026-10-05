@@ -1,0 +1,3502 @@
+{
+  "version": "source-closed-discovery-v1",
+  "control": {
+    "audit": {
+      "status": "CONDITIONAL",
+      "canCalculate": true,
+      "reasons": [
+        {
+          "code": "excluded-phase-scope",
+          "message": "Only the explicitly disclosed aqueous conditional model may be calculated. Excluded phases are checked after equilibrium.",
+          "ids": []
+        }
+      ],
+      "rows": [
+        {
+          "id": "spana:2ac52a30213c9288:151381",
+          "name": "H2",
+          "phase": "aqueous",
+          "reference": "82NBS: Wagman D D, Evans W H, Parker V B, Schumm R H, Halow I, Bailey S M, Churney K L, Nuttall R L; The NBS tables of chemical thermodynamic properties: Selected values for inorganic and C1 and C2 organic substances in SI units. J. Phys. Chem. Ref. Data 11, Suppl. No.2, 1982\n\n89Sho/Hel: Shock E L, Helgeson H C, Sverjensky D A; Geochim. Cosmochim. Acta 53 (1989) 2157-2183",
+          "terms": [
+            {
+              "name": "H+",
+              "coefficient": 2
+            },
+            {
+              "name": "e-",
+              "coefficient": 2
+            }
+          ],
+          "logK": -3.083,
+          "classification": "admitted"
+        },
+        {
+          "id": "spana:2ac52a30213c9288:152743",
+          "name": "H2O2",
+          "phase": "aqueous",
+          "reference": "82NBS: Wagman D D, Evans W H, Parker V B, Schumm R H, Halow I, Bailey S M, Churney K L, Nuttall R L; The NBS tables of chemical thermodynamic properties: Selected values for inorganic and C1 and C2 organic substances in SI units. J. Phys. Chem. Ref. Data 11, Suppl. No.2, 1982\n\n1962GC: Giguere P A, Carmichael J L; J.Chem.Eng.Data 7 (1962) 526-527",
+          "terms": [
+            {
+              "name": "H+",
+              "coefficient": -2
+            },
+            {
+              "name": "e-",
+              "coefficient": -2
+            },
+            {
+              "name": "H2O",
+              "coefficient": 2
+            }
+          ],
+          "logK": -59.61,
+          "classification": "admitted"
+        },
+        {
+          "id": "spana:2ac52a30213c9288:175307",
+          "name": "HO2-",
+          "phase": "aqueous",
+          "reference": "SmithMart: NIST Standard Reference Database 46 Version 8.\nNIST Critically Selected Stability Constants of Metal Complexes Database\nhttp://www.nist.gov/srd/nist46.cfm\nNational Institute of Standards and Technology, 100 Bureau Dr., Stop 2300, Gaithersburg, MD\n\n88Sho/Hel: Shock E L, Helgeson H C; Geochim. Cosmochim. Acta 52 (1988) 2009-2036; and \"ERRATA\", ibid, 53 (1989) p.215",
+          "terms": [
+            {
+              "name": "H2O2",
+              "coefficient": 1
+            },
+            {
+              "name": "H+",
+              "coefficient": -1
+            }
+          ],
+          "logK": -11.65,
+          "classification": "admitted"
+        },
+        {
+          "id": "spana:2ac52a30213c9288:249989",
+          "name": "O2",
+          "phase": "aqueous",
+          "reference": "89Sho/Hel: Shock E L, Helgeson H C, Sverjensky D A; Geochim. Cosmochim. Acta 53 (1989) 2157-2183",
+          "terms": [
+            {
+              "name": "H+",
+              "coefficient": -4
+            },
+            {
+              "name": "e-",
+              "coefficient": -4
+            },
+            {
+              "name": "H2O",
+              "coefficient": 2
+            }
+          ],
+          "logK": -85.988,
+          "classification": "admitted"
+        },
+        {
+          "id": "spana:2ac52a30213c9288:250161",
+          "name": "O3",
+          "phase": "aqueous",
+          "reference": "82NBS: Wagman D D, Evans W H, Parker V B, Schumm R H, Halow I, Bailey S M, Churney K L, Nuttall R L; The NBS tables of chemical thermodynamic properties: Selected values for inorganic and C1 and C2 organic substances in SI units. J. Phys. Chem. Ref. Data 11, Suppl. No.2, 1982",
+          "terms": [
+            {
+              "name": "H+",
+              "coefficient": -6
+            },
+            {
+              "name": "e-",
+              "coefficient": -6
+            },
+            {
+              "name": "H2O",
+              "coefficient": 3
+            }
+          ],
+          "logK": -155.14,
+          "classification": "admitted"
+        },
+        {
+          "id": "spana:2ac52a30213c9288:250448",
+          "name": "OH-",
+          "phase": "aqueous",
+          "reference": "Codata: Cox J D, Wagman D D, Medvedev V A, CODATA Key Values for Thermodynamics. Hemisphere Publ. Co., New York, 1989\n\n88Sho/Hel: Shock E L, Helgeson H C; Geochim. Cosmochim. Acta 52 (1988) 2009-2036; and \"ERRATA\", ibid, 53 (1989) p.215",
+          "terms": [
+            {
+              "name": "H+",
+              "coefficient": -1
+            },
+            {
+              "name": "H2O",
+              "coefficient": 1
+            }
+          ],
+          "logK": -14.0015,
+          "classification": "admitted"
+        }
+      ],
+      "excluded": [
+        {
+          "id": "spana:2ac52a30213c9288:151531",
+          "name": "H2(g)",
+          "phase": "gas",
+          "reference": "82NBS: Wagman D D, Evans W H, Parker V B, Schumm R H, Halow I, Bailey S M, Churney K L, Nuttall R L; The NBS tables of chemical thermodynamic properties: Selected values for inorganic and C1 and C2 organic substances in SI units. J. Phys. Chem. Ref. Data 11, Suppl. No.2, 1982",
+          "terms": [
+            {
+              "name": "H+",
+              "coefficient": 2
+            },
+            {
+              "name": "e-",
+              "coefficient": 2
+            }
+          ],
+          "logK": 0,
+          "classification": "excluded-conditionally",
+          "reason": "Aqueous-only model; no solid or gas inventory solver in this path"
+        },
+        {
+          "id": "spana:2ac52a30213c9288:250070",
+          "name": "O2(g)",
+          "phase": "gas",
+          "reference": "Codata: Cox J D, Wagman D D, Medvedev V A, CODATA Key Values for Thermodynamics. Hemisphere Publ. Co., New York, 1989\n\n95Rob/Hem: Robie R A, Hemingway B S; Thermodynamic properties of minerals and related substances at 298.15 K and 1 bar (10^5 pascals) pressure and at higher temperatures. U.S. Geological Survey Bulletin 2131. Washington, DC: U.S. Goverment Printing Office, 1995",
+          "terms": [
+            {
+              "name": "H+",
+              "coefficient": -4
+            },
+            {
+              "name": "e-",
+              "coefficient": -4
+            },
+            {
+              "name": "H2O",
+              "coefficient": 2
+            }
+          ],
+          "logK": -83.09,
+          "classification": "excluded-conditionally",
+          "reason": "Aqueous-only model; no solid or gas inventory solver in this path"
+        },
+        {
+          "id": "spana:2ac52a30213c9288:250265",
+          "name": "O3(g)",
+          "phase": "gas",
+          "reference": "82NBS: Wagman D D, Evans W H, Parker V B, Schumm R H, Halow I, Bailey S M, Churney K L, Nuttall R L; The NBS tables of chemical thermodynamic properties: Selected values for inorganic and C1 and C2 organic substances in SI units. J. Phys. Chem. Ref. Data 11, Suppl. No.2, 1982",
+          "terms": [
+            {
+              "name": "H+",
+              "coefficient": -6
+            },
+            {
+              "name": "e-",
+              "coefficient": -6
+            },
+            {
+              "name": "H2O",
+              "coefficient": 3
+            }
+          ],
+          "logK": -153.23,
+          "classification": "excluded-conditionally",
+          "reason": "Aqueous-only model; no solid or gas inventory solver in this path"
+        }
+      ],
+      "redoxFamilies": [
+        {
+          "conservedElements": "H/O",
+          "sourceIds": [
+            "spana:2ac52a30213c9288:151381",
+            "spana:2ac52a30213c9288:152743",
+            "spana:2ac52a30213c9288:249989",
+            "spana:2ac52a30213c9288:250161"
+          ],
+          "electronCounts": [
+            2,
+            -2,
+            -4,
+            -6
+          ]
+        }
+      ],
+      "ordinary": [
+        {
+          "id": "spana:2ac52a30213c9288:175307",
+          "name": "HO2-",
+          "category": "acid/base or ordinary association",
+          "classificationBasis": "Source participation only; detailed mechanistic subtype not inferred from formula"
+        },
+        {
+          "id": "spana:2ac52a30213c9288:250448",
+          "name": "OH-",
+          "category": "proton/water or hydrolysis",
+          "classificationBasis": "Source participation only; detailed mechanistic subtype not inferred from formula"
+        }
+      ],
+      "componentRoles": [
+        {
+          "id": "component:H2O2",
+          "roles": [
+            "redox-active",
+            "ordinary acid/base or association"
+          ],
+          "phaseForming": false
+        }
+      ],
+      "basis": [
+        [
+          "component:H2O2",
+          "component:H%2B",
+          "component:H2O"
+        ]
+      ],
+      "conservation": [
+        {
+          "key": "H-2O",
+          "weights": [
+            -2,
+            1,
+            2,
+            -3,
+            -4,
+            -6,
+            -1
+          ],
+          "basisWeights": [
+            -2,
+            1,
+            0
+          ]
+        },
+        {
+          "key": "charge",
+          "weights": [
+            0,
+            1,
+            0,
+            -1,
+            0,
+            0,
+            -1
+          ],
+          "basisWeights": [
+            0,
+            1,
+            0
+          ]
+        }
+      ],
+      "conservationPhysicalIds": [
+        "component:H2O2",
+        "component:H%2B",
+        "spana:2ac52a30213c9288:151381",
+        "spana:2ac52a30213c9288:175307",
+        "spana:2ac52a30213c9288:249989",
+        "spana:2ac52a30213c9288:250161",
+        "spana:2ac52a30213c9288:250448"
+      ],
+      "conservationBasisIds": [
+        "component:H2O2",
+        "component:H%2B",
+        "component:H2O"
+      ],
+      "cycleChecks": []
+    },
+    "independent": {
+      "method": "Raw source mass-action laws; charge eliminates proton; bisection of H-2O inventory. No production compiler or solver imported.",
+      "dose": 0.000001,
+      "expected": {
+        "u": -19.921742501084005,
+        "H": 9.982745514810884e-8,
+        "H2": 1.1844452696684446e-43,
+        "H2O2": 1.7119260563967557e-20,
+        "HO2": 3.8391493046028566e-25,
+        "OH": 9.982745514810885e-8,
+        "O2": 5e-7,
+        "O3": 2.457282040283027e-36,
+        "residual": 1.7152417181899582e-20,
+        "pH": 7.00075,
+        "pe": 12.920992501084005
+      }
+    },
+    "inspection": {
+      "pH": 7.00075,
+      "pe": 12.920992501084005,
+      "Eh": 0.7643975136460789,
+      "carriers": [
+        {
+          "id": "component:H2O2",
+          "name": "H2O2",
+          "phase": "aqueous",
+          "amount": 1.7119260563967415e-20,
+          "elements": {
+            "H": 2,
+            "O": 2
+          },
+          "allocation": null
+        },
+        {
+          "id": "component:H%2B",
+          "name": "H+",
+          "phase": "aqueous",
+          "amount": 9.982745514810884e-8,
+          "elements": {
+            "H": 1
+          },
+          "allocation": null
+        },
+        {
+          "id": "spana:2ac52a30213c9288:151381",
+          "name": "H2",
+          "phase": "aqueous",
+          "amount": 1.1844452696684446e-43,
+          "elements": {
+            "H": 2
+          },
+          "allocation": null
+        },
+        {
+          "id": "spana:2ac52a30213c9288:175307",
+          "name": "HO2-",
+          "phase": "aqueous",
+          "amount": 3.839149304602841e-25,
+          "elements": {
+            "H": 1,
+            "O": 2
+          },
+          "allocation": null
+        },
+        {
+          "id": "spana:2ac52a30213c9288:249989",
+          "name": "O2",
+          "phase": "aqueous",
+          "amount": 4.999999999999917e-7,
+          "elements": {
+            "O": 2
+          },
+          "allocation": null
+        },
+        {
+          "id": "spana:2ac52a30213c9288:250161",
+          "name": "O3",
+          "phase": "aqueous",
+          "amount": 2.4572820402829065e-36,
+          "elements": {
+            "O": 3
+          },
+          "allocation": null
+        },
+        {
+          "id": "spana:2ac52a30213c9288:250448",
+          "name": "OH-",
+          "phase": "aqueous",
+          "amount": 9.982745514810884e-8,
+          "elements": {
+            "H": 1,
+            "O": 1
+          },
+          "allocation": null
+        }
+      ],
+      "elements": {},
+      "acceptedSolids": [],
+      "redistribution": {
+        "status": "available",
+        "meaning": "Algebraic source-reaction basis for thermodynamically predicted equilibrium redistribution; signed extents are not rates or a kinetic pathway.",
+        "residuals": [
+          6.352747104407253e-22,
+          0,
+          -1.1844452696684446e-43,
+          0,
+          0,
+          -4.235164736271526e-22,
+          0,
+          0
+        ],
+        "limit": 8.8421709430404e-14,
+        "reactions": [
+          {
+            "kind": "redox",
+            "coefficients": {
+              "component:H2O2": -1,
+              "component:H%2B": 0,
+              "component:H2O": 2,
+              "component:e-": 0,
+              "spana:2ac52a30213c9288:151381": -1,
+              "spana:2ac52a30213c9288:175307": 0,
+              "spana:2ac52a30213c9288:249989": 0,
+              "spana:2ac52a30213c9288:250161": 0,
+              "spana:2ac52a30213c9288:250448": 0
+            },
+            "logK": 62.693,
+            "sourceIds": [
+              "spana:2ac52a30213c9288:151381",
+              "spana:2ac52a30213c9288:152743"
+            ],
+            "sourceMultipliers": [
+              -1,
+              -1
+            ],
+            "electrons": 2,
+            "reactants": [
+              {
+                "id": "component:H2O2",
+                "name": "H2O2",
+                "coefficient": 1
+              },
+              {
+                "id": "spana:2ac52a30213c9288:151381",
+                "name": "H2",
+                "coefficient": 1
+              }
+            ],
+            "products": [
+              {
+                "id": "component:H2O",
+                "name": "H2O",
+                "coefficient": 2
+              }
+            ],
+            "extent": 9.999999999999822e-7,
+            "extentUnit": "mol/kg-H2O",
+            "halfReactionDirections": [
+              {
+                "sourceId": "spana:2ac52a30213c9288:151381",
+                "reference": "82NBS: Wagman D D, Evans W H, Parker V B, Schumm R H, Halow I, Bailey S M, Churney K L, Nuttall R L; The NBS tables of chemical thermodynamic properties: Selected values for inorganic and C1 and C2 organic substances in SI units. J. Phys. Chem. Ref. Data 11, Suppl. No.2, 1982\n\n89Sho/Hel: Shock E L, Helgeson H C, Sverjensky D A; Geochim. Cosmochim. Acta 53 (1989) 2157-2183",
+                "role": "oxidation",
+                "reactants": [
+                  {
+                    "id": "spana:2ac52a30213c9288:151381",
+                    "name": "H2",
+                    "coefficient": 1
+                  }
+                ],
+                "products": [
+                  {
+                    "id": "component:H%2B",
+                    "name": "H+",
+                    "coefficient": 2
+                  }
+                ]
+              },
+              {
+                "sourceId": "spana:2ac52a30213c9288:152743",
+                "reference": "82NBS: Wagman D D, Evans W H, Parker V B, Schumm R H, Halow I, Bailey S M, Churney K L, Nuttall R L; The NBS tables of chemical thermodynamic properties: Selected values for inorganic and C1 and C2 organic substances in SI units. J. Phys. Chem. Ref. Data 11, Suppl. No.2, 1982\n\n1962GC: Giguere P A, Carmichael J L; J.Chem.Eng.Data 7 (1962) 526-527",
+                "role": "reduction",
+                "reactants": [
+                  {
+                    "id": "component:H2O2",
+                    "name": "H2O2",
+                    "coefficient": 1
+                  },
+                  {
+                    "id": "component:H%2B",
+                    "name": "H+",
+                    "coefficient": 2
+                  }
+                ],
+                "products": [
+                  {
+                    "id": "component:H2O",
+                    "name": "H2O",
+                    "coefficient": 2
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "kind": "redox",
+            "coefficients": {
+              "component:H2O2": 0,
+              "component:H%2B": 0,
+              "component:H2O": 2,
+              "component:e-": 0,
+              "spana:2ac52a30213c9288:151381": -2,
+              "spana:2ac52a30213c9288:175307": 0,
+              "spana:2ac52a30213c9288:249989": -1,
+              "spana:2ac52a30213c9288:250161": 0,
+              "spana:2ac52a30213c9288:250448": 0
+            },
+            "logK": 92.154,
+            "sourceIds": [
+              "spana:2ac52a30213c9288:151381",
+              "spana:2ac52a30213c9288:249989"
+            ],
+            "sourceMultipliers": [
+              -2,
+              -1
+            ],
+            "electrons": 4,
+            "reactants": [
+              {
+                "id": "spana:2ac52a30213c9288:151381",
+                "name": "H2",
+                "coefficient": 2
+              },
+              {
+                "id": "spana:2ac52a30213c9288:249989",
+                "name": "O2",
+                "coefficient": 1
+              }
+            ],
+            "products": [
+              {
+                "id": "component:H2O",
+                "name": "H2O",
+                "coefficient": 2
+              }
+            ],
+            "extent": -4.999999999999917e-7,
+            "extentUnit": "mol/kg-H2O",
+            "halfReactionDirections": [
+              {
+                "sourceId": "spana:2ac52a30213c9288:151381",
+                "reference": "82NBS: Wagman D D, Evans W H, Parker V B, Schumm R H, Halow I, Bailey S M, Churney K L, Nuttall R L; The NBS tables of chemical thermodynamic properties: Selected values for inorganic and C1 and C2 organic substances in SI units. J. Phys. Chem. Ref. Data 11, Suppl. No.2, 1982\n\n89Sho/Hel: Shock E L, Helgeson H C, Sverjensky D A; Geochim. Cosmochim. Acta 53 (1989) 2157-2183",
+                "role": "oxidation",
+                "reactants": [
+                  {
+                    "id": "spana:2ac52a30213c9288:151381",
+                    "name": "H2",
+                    "coefficient": 2
+                  }
+                ],
+                "products": [
+                  {
+                    "id": "component:H%2B",
+                    "name": "H+",
+                    "coefficient": 4
+                  }
+                ]
+              },
+              {
+                "sourceId": "spana:2ac52a30213c9288:249989",
+                "reference": "89Sho/Hel: Shock E L, Helgeson H C, Sverjensky D A; Geochim. Cosmochim. Acta 53 (1989) 2157-2183",
+                "role": "reduction",
+                "reactants": [
+                  {
+                    "id": "component:H%2B",
+                    "name": "H+",
+                    "coefficient": 4
+                  },
+                  {
+                    "id": "spana:2ac52a30213c9288:249989",
+                    "name": "O2",
+                    "coefficient": 1
+                  }
+                ],
+                "products": [
+                  {
+                    "id": "component:H2O",
+                    "name": "H2O",
+                    "coefficient": 2
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "kind": "redox",
+            "coefficients": {
+              "component:H2O2": 0,
+              "component:H%2B": 0,
+              "component:H2O": 3,
+              "component:e-": 0,
+              "spana:2ac52a30213c9288:151381": -3,
+              "spana:2ac52a30213c9288:175307": 0,
+              "spana:2ac52a30213c9288:249989": 0,
+              "spana:2ac52a30213c9288:250161": -1,
+              "spana:2ac52a30213c9288:250448": 0
+            },
+            "logK": 164.38899999999998,
+            "sourceIds": [
+              "spana:2ac52a30213c9288:151381",
+              "spana:2ac52a30213c9288:250161"
+            ],
+            "sourceMultipliers": [
+              -3,
+              -1
+            ],
+            "electrons": 6,
+            "reactants": [
+              {
+                "id": "spana:2ac52a30213c9288:151381",
+                "name": "H2",
+                "coefficient": 3
+              },
+              {
+                "id": "spana:2ac52a30213c9288:250161",
+                "name": "O3",
+                "coefficient": 1
+              }
+            ],
+            "products": [
+              {
+                "id": "component:H2O",
+                "name": "H2O",
+                "coefficient": 3
+              }
+            ],
+            "extent": 4.235164736271502e-22,
+            "extentUnit": "mol/kg-H2O",
+            "halfReactionDirections": [
+              {
+                "sourceId": "spana:2ac52a30213c9288:151381",
+                "reference": "82NBS: Wagman D D, Evans W H, Parker V B, Schumm R H, Halow I, Bailey S M, Churney K L, Nuttall R L; The NBS tables of chemical thermodynamic properties: Selected values for inorganic and C1 and C2 organic substances in SI units. J. Phys. Chem. Ref. Data 11, Suppl. No.2, 1982\n\n89Sho/Hel: Shock E L, Helgeson H C, Sverjensky D A; Geochim. Cosmochim. Acta 53 (1989) 2157-2183",
+                "role": "oxidation",
+                "reactants": [
+                  {
+                    "id": "spana:2ac52a30213c9288:151381",
+                    "name": "H2",
+                    "coefficient": 3
+                  }
+                ],
+                "products": [
+                  {
+                    "id": "component:H%2B",
+                    "name": "H+",
+                    "coefficient": 6
+                  }
+                ]
+              },
+              {
+                "sourceId": "spana:2ac52a30213c9288:250161",
+                "reference": "82NBS: Wagman D D, Evans W H, Parker V B, Schumm R H, Halow I, Bailey S M, Churney K L, Nuttall R L; The NBS tables of chemical thermodynamic properties: Selected values for inorganic and C1 and C2 organic substances in SI units. J. Phys. Chem. Ref. Data 11, Suppl. No.2, 1982",
+                "role": "reduction",
+                "reactants": [
+                  {
+                    "id": "component:H%2B",
+                    "name": "H+",
+                    "coefficient": 6
+                  },
+                  {
+                    "id": "spana:2ac52a30213c9288:250161",
+                    "name": "O3",
+                    "coefficient": 1
+                  }
+                ],
+                "products": [
+                  {
+                    "id": "component:H2O",
+                    "name": "H2O",
+                    "coefficient": 3
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "kind": "ordinary",
+            "coefficients": {
+              "component:H2O2": -1,
+              "component:H%2B": 1,
+              "component:H2O": 0,
+              "component:e-": 0,
+              "spana:2ac52a30213c9288:151381": 0,
+              "spana:2ac52a30213c9288:175307": 1,
+              "spana:2ac52a30213c9288:249989": 0,
+              "spana:2ac52a30213c9288:250161": 0,
+              "spana:2ac52a30213c9288:250448": 0
+            },
+            "logK": -11.65,
+            "sourceIds": [
+              "spana:2ac52a30213c9288:175307"
+            ],
+            "sourceMultipliers": [
+              1
+            ],
+            "electrons": 0,
+            "reactants": [
+              {
+                "id": "component:H2O2",
+                "name": "H2O2",
+                "coefficient": 1
+              }
+            ],
+            "products": [
+              {
+                "id": "component:H%2B",
+                "name": "H+",
+                "coefficient": 1
+              },
+              {
+                "id": "spana:2ac52a30213c9288:175307",
+                "name": "HO2-",
+                "coefficient": 1
+              }
+            ],
+            "extent": 3.839149304602841e-25,
+            "extentUnit": "mol/kg-H2O",
+            "halfReactionDirections": []
+          },
+          {
+            "kind": "ordinary",
+            "coefficients": {
+              "component:H2O2": 0,
+              "component:H%2B": 1,
+              "component:H2O": -1,
+              "component:e-": 0,
+              "spana:2ac52a30213c9288:151381": 0,
+              "spana:2ac52a30213c9288:175307": 0,
+              "spana:2ac52a30213c9288:249989": 0,
+              "spana:2ac52a30213c9288:250161": 0,
+              "spana:2ac52a30213c9288:250448": 1
+            },
+            "logK": -14.0015,
+            "sourceIds": [
+              "spana:2ac52a30213c9288:250448"
+            ],
+            "sourceMultipliers": [
+              1
+            ],
+            "electrons": 0,
+            "reactants": [
+              {
+                "id": "component:H2O",
+                "name": "H2O",
+                "coefficient": 1
+              }
+            ],
+            "products": [
+              {
+                "id": "component:H%2B",
+                "name": "H+",
+                "coefficient": 1
+              },
+              {
+                "id": "spana:2ac52a30213c9288:250448",
+                "name": "OH-",
+                "coefficient": 1
+              }
+            ],
+            "extent": 9.982745514810884e-8,
+            "extentUnit": "mol/kg-H2O",
+            "halfReactionDirections": []
+          }
+        ]
+      },
+      "scientificStatus": "Conditional source scope; equilibrium only, no kinetics or radicals modeled."
+    },
+    "phaseDiagnostics": [
+      {
+        "id": "spana:2ac52a30213c9288:151531",
+        "name": "H2(g)",
+        "phase": "gas",
+        "reference": "82NBS: Wagman D D, Evans W H, Parker V B, Schumm R H, Halow I, Bailey S M, Churney K L, Nuttall R L; The NBS tables of chemical thermodynamic properties: Selected values for inorganic and C1 and C2 organic substances in SI units. J. Phys. Chem. Ref. Data 11, Suppl. No.2, 1982",
+        "terms": [
+          {
+            "name": "H+",
+            "coefficient": 2
+          },
+          {
+            "name": "e-",
+            "coefficient": 2
+          }
+        ],
+        "logK": 0,
+        "classification": "excluded-conditionally",
+        "reason": "Aqueous-only model; no solid or gas inventory solver in this path",
+        "logActivity": -39.84348500216801,
+        "meaning": "Hypothetical normalized gas log fugacity"
+      },
+      {
+        "id": "spana:2ac52a30213c9288:250070",
+        "name": "O2(g)",
+        "phase": "gas",
+        "reference": "Codata: Cox J D, Wagman D D, Medvedev V A, CODATA Key Values for Thermodynamics. Hemisphere Publ. Co., New York, 1989\n\n95Rob/Hem: Robie R A, Hemingway B S; Thermodynamic properties of minerals and related substances at 298.15 K and 1 bar (10^5 pascals) pressure and at higher temperatures. U.S. Geological Survey Bulletin 2131. Washington, DC: U.S. Goverment Printing Office, 1995",
+        "terms": [
+          {
+            "name": "H+",
+            "coefficient": -4
+          },
+          {
+            "name": "e-",
+            "coefficient": -4
+          },
+          {
+            "name": "H2O",
+            "coefficient": 2
+          }
+        ],
+        "logK": -83.09,
+        "classification": "excluded-conditionally",
+        "reason": "Aqueous-only model; no solid or gas inventory solver in this path",
+        "logActivity": -3.403029995663985,
+        "meaning": "Hypothetical normalized gas log fugacity"
+      },
+      {
+        "id": "spana:2ac52a30213c9288:250265",
+        "name": "O3(g)",
+        "phase": "gas",
+        "reference": "82NBS: Wagman D D, Evans W H, Parker V B, Schumm R H, Halow I, Bailey S M, Churney K L, Nuttall R L; The NBS tables of chemical thermodynamic properties: Selected values for inorganic and C1 and C2 organic substances in SI units. J. Phys. Chem. Ref. Data 11, Suppl. No.2, 1982",
+        "terms": [
+          {
+            "name": "H+",
+            "coefficient": -6
+          },
+          {
+            "name": "e-",
+            "coefficient": -6
+          },
+          {
+            "name": "H2O",
+            "coefficient": 3
+          }
+        ],
+        "logK": -153.23,
+        "classification": "excluded-conditionally",
+        "reason": "Aqueous-only model; no solid or gas inventory solver in this path",
+        "logActivity": -33.69954499349595,
+        "meaning": "Hypothetical normalized gas log fugacity"
+      }
+    ],
+    "gasFugacitySum": 0.000395339313999909
+  },
+  "Fe": {
+    "audit": {
+      "status": "CONDITIONAL",
+      "canCalculate": true,
+      "reasons": [
+        {
+          "code": "excluded-phase-scope",
+          "message": "Only the explicitly disclosed aqueous conditional model may be calculated. Excluded phases are checked after equilibrium.",
+          "ids": []
+        }
+      ],
+      "rows": [
+        {
+          "id": "spana:2ac52a30213c9288:126513",
+          "name": "Fe 2+",
+          "phase": "aqueous",
+          "reference": "NEA-Fe: Lemire R J, Berner U, Musikas C, Palmer D A, Taylor P, Tochiyama O, Chemical Thermodynamics of Iron. Part 1. Paris: OECD Nuclear Energy Agency (NEA), 2013",
+          "terms": [
+            {
+              "name": "Fe 3+",
+              "coefficient": 1
+            },
+            {
+              "name": "e-",
+              "coefficient": 1
+            }
+          ],
+          "logK": 13.051,
+          "classification": "admitted"
+        },
+        {
+          "id": "spana:2ac52a30213c9288:126584",
+          "name": "Fe 3+",
+          "phase": "aqueous",
+          "reference": "NEA-Fe: Lemire R J, Berner U, Musikas C, Palmer D A, Taylor P, Tochiyama O, Chemical Thermodynamics of Iron. Part 1. Paris: OECD Nuclear Energy Agency (NEA), 2013",
+          "terms": [
+            {
+              "name": "Fe 2+",
+              "coefficient": 1
+            },
+            {
+              "name": "e-",
+              "coefficient": -1
+            }
+          ],
+          "logK": -13.051,
+          "classification": "admitted"
+        },
+        {
+          "id": "spana:2ac52a30213c9288:130813",
+          "name": "Fe(OH)2",
+          "phase": "aqueous",
+          "reference": "1996BP-Fe: Beverskog B, Puigdomenech I; Corros. Sci. 38 (1996) 2121-2135",
+          "terms": [
+            {
+              "name": "Fe 2+",
+              "coefficient": 1
+            },
+            {
+              "name": "H+",
+              "coefficient": -2
+            },
+            {
+              "name": "H2O",
+              "coefficient": 2
+            }
+          ],
+          "logK": -20.6,
+          "classification": "admitted"
+        },
+        {
+          "id": "spana:2ac52a30213c9288:131002",
+          "name": "Fe(OH)2+",
+          "phase": "aqueous",
+          "reference": "NEA-Fe: Lemire R J, Berner U, Musikas C, Palmer D A, Taylor P, Tochiyama O, Chemical Thermodynamics of Iron. Part 1. Paris: OECD Nuclear Energy Agency (NEA), 2013\n\n1996BP-Fe: Beverskog B, Puigdomenech I; Corros. Sci. 38 (1996) 2121-2135",
+          "terms": [
+            {
+              "name": "Fe 3+",
+              "coefficient": 1
+            },
+            {
+              "name": "H+",
+              "coefficient": -2
+            },
+            {
+              "name": "H2O",
+              "coefficient": 2
+            }
+          ],
+          "logK": -4.8,
+          "classification": "admitted"
+        },
+        {
+          "id": "spana:2ac52a30213c9288:131099",
+          "name": "Fe(OH)3",
+          "phase": "aqueous",
+          "reference": "1996BP-Fe: Beverskog B, Puigdomenech I; Corros. Sci. 38 (1996) 2121-2135",
+          "terms": [
+            {
+              "name": "Fe 3+",
+              "coefficient": 1
+            },
+            {
+              "name": "H+",
+              "coefficient": -3
+            },
+            {
+              "name": "H2O",
+              "coefficient": 3
+            }
+          ],
+          "logK": -12,
+          "classification": "admitted"
+        },
+        {
+          "id": "spana:2ac52a30213c9288:131406",
+          "name": "Fe(OH)3-",
+          "phase": "aqueous",
+          "reference": "1996BP-Fe: Beverskog B, Puigdomenech I; Corros. Sci. 38 (1996) 2121-2135",
+          "terms": [
+            {
+              "name": "Fe 2+",
+              "coefficient": 1
+            },
+            {
+              "name": "H+",
+              "coefficient": -3
+            },
+            {
+              "name": "H2O",
+              "coefficient": 3
+            }
+          ],
+          "logK": -34.2,
+          "classification": "admitted"
+        },
+        {
+          "id": "spana:2ac52a30213c9288:131496",
+          "name": "Fe(OH)4-",
+          "phase": "aqueous",
+          "reference": "1996BP-Fe: Beverskog B, Puigdomenech I; Corros. Sci. 38 (1996) 2121-2135",
+          "terms": [
+            {
+              "name": "Fe 3+",
+              "coefficient": 1
+            },
+            {
+              "name": "H+",
+              "coefficient": -4
+            },
+            {
+              "name": "H2O",
+              "coefficient": 4
+            }
+          ],
+          "logK": -21.6,
+          "classification": "admitted"
+        },
+        {
+          "id": "spana:2ac52a30213c9288:131586",
+          "name": "Fe(OH)4-2",
+          "phase": "aqueous",
+          "reference": "1996BP-Fe: Beverskog B, Puigdomenech I; Corros. Sci. 38 (1996) 2121-2135",
+          "terms": [
+            {
+              "name": "Fe 2+",
+              "coefficient": 1
+            },
+            {
+              "name": "H+",
+              "coefficient": -4
+            },
+            {
+              "name": "H2O",
+              "coefficient": 4
+            }
+          ],
+          "logK": -46,
+          "classification": "admitted"
+        },
+        {
+          "id": "spana:2ac52a30213c9288:133463",
+          "name": "Fe2(OH)2+4",
+          "phase": "aqueous",
+          "reference": "NEA-Fe: Lemire R J, Berner U, Musikas C, Palmer D A, Taylor P, Tochiyama O, Chemical Thermodynamics of Iron. Part 1. Paris: OECD Nuclear Energy Agency (NEA), 2013",
+          "terms": [
+            {
+              "name": "Fe 3+",
+              "coefficient": 2
+            },
+            {
+              "name": "H+",
+              "coefficient": -2
+            },
+            {
+              "name": "H2O",
+              "coefficient": 2
+            }
+          ],
+          "logK": -2.82,
+          "classification": "admitted"
+        },
+        {
+          "id": "spana:2ac52a30213c9288:135482",
+          "name": "FeCl+",
+          "phase": "aqueous",
+          "reference": "SmithMart: NIST Standard Reference Database 46 Version 8.\nNIST Critically Selected Stability Constants of Metal Complexes Database\nhttp://www.nist.gov/srd/nist46.cfm\nNational Institute of Standards and Technology, 100 Bureau Dr., Stop 2300, Gaithersburg, MD",
+          "terms": [
+            {
+              "name": "Fe 2+",
+              "coefficient": 1
+            },
+            {
+              "name": "Cl-",
+              "coefficient": 1
+            }
+          ],
+          "logK": -0.3,
+          "classification": "admitted"
+        },
+        {
+          "id": "spana:2ac52a30213c9288:135557",
+          "name": "FeCl+2",
+          "phase": "aqueous",
+          "reference": "NEA-Fe: Lemire R J, Berner U, Musikas C, Palmer D A, Taylor P, Tochiyama O, Chemical Thermodynamics of Iron. Part 1. Paris: OECD Nuclear Energy Agency (NEA), 2013",
+          "terms": [
+            {
+              "name": "Fe 3+",
+              "coefficient": 1
+            },
+            {
+              "name": "Cl-",
+              "coefficient": 1
+            }
+          ],
+          "logK": 1.52,
+          "classification": "admitted"
+        },
+        {
+          "id": "spana:2ac52a30213c9288:135630",
+          "name": "FeCl2+",
+          "phase": "aqueous",
+          "reference": "NEA-Fe: Lemire R J, Berner U, Musikas C, Palmer D A, Taylor P, Tochiyama O, Chemical Thermodynamics of Iron. Part 1. Paris: OECD Nuclear Energy Agency (NEA), 2013\n\n2006LEa: Liu W, Etschmann B, Brugger J, Spiccia L, Foran G, McInnes B; Chem. Geol. 231 (2006) 326-349",
+          "terms": [
+            {
+              "name": "Fe 3+",
+              "coefficient": 1
+            },
+            {
+              "name": "Cl-",
+              "coefficient": 2
+            }
+          ],
+          "logK": 2.22,
+          "classification": "admitted"
+        },
+        {
+          "id": "spana:2ac52a30213c9288:135711",
+          "name": "FeCl3",
+          "phase": "aqueous",
+          "reference": "NEA-Fe: Lemire R J, Berner U, Musikas C, Palmer D A, Taylor P, Tochiyama O, Chemical Thermodynamics of Iron. Part 1. Paris: OECD Nuclear Energy Agency (NEA), 2013\n\n2006LEa: Liu W, Etschmann B, Brugger J, Spiccia L, Foran G, McInnes B; Chem. Geol. 231 (2006) 326-349",
+          "terms": [
+            {
+              "name": "Fe 3+",
+              "coefficient": 1
+            },
+            {
+              "name": "Cl-",
+              "coefficient": 3
+            }
+          ],
+          "logK": 1.02,
+          "classification": "admitted"
+        },
+        {
+          "id": "spana:2ac52a30213c9288:135791",
+          "name": "FeCl4-",
+          "phase": "aqueous",
+          "reference": "NEA-Fe: Lemire R J, Berner U, Musikas C, Palmer D A, Taylor P, Tochiyama O, Chemical Thermodynamics of Iron. Part 1. Paris: OECD Nuclear Energy Agency (NEA), 2013\n\n2006LEa: Liu W, Etschmann B, Brugger J, Spiccia L, Foran G, McInnes B; Chem. Geol. 231 (2006) 326-349",
+          "terms": [
+            {
+              "name": "Fe 3+",
+              "coefficient": 1
+            },
+            {
+              "name": "Cl-",
+              "coefficient": 4
+            }
+          ],
+          "logK": -0.98,
+          "classification": "admitted"
+        },
+        {
+          "id": "spana:2ac52a30213c9288:138672",
+          "name": "FeO4-2",
+          "phase": "aqueous",
+          "reference": "1996BP-Fe: Beverskog B, Puigdomenech I; Corros. Sci. 38 (1996) 2121-2135",
+          "terms": [
+            {
+              "name": "Fe 3+",
+              "coefficient": 1
+            },
+            {
+              "name": "H+",
+              "coefficient": -8
+            },
+            {
+              "name": "e-",
+              "coefficient": -3
+            },
+            {
+              "name": "H2O",
+              "coefficient": 4
+            }
+          ],
+          "logK": -112.6,
+          "classification": "admitted"
+        },
+        {
+          "id": "spana:2ac52a30213c9288:138873",
+          "name": "FeOH 2+",
+          "phase": "aqueous",
+          "reference": "NEA-Fe: Lemire R J, Berner U, Musikas C, Palmer D A, Taylor P, Tochiyama O, Chemical Thermodynamics of Iron. Part 1. Paris: OECD Nuclear Energy Agency (NEA), 2013\n\n1996BP-Fe: Beverskog B, Puigdomenech I; Corros. Sci. 38 (1996) 2121-2135",
+          "terms": [
+            {
+              "name": "Fe 3+",
+              "coefficient": 1
+            },
+            {
+              "name": "H+",
+              "coefficient": -1
+            },
+            {
+              "name": "H2O",
+              "coefficient": 1
+            }
+          ],
+          "logK": -2.15,
+          "classification": "admitted"
+        },
+        {
+          "id": "spana:2ac52a30213c9288:138969",
+          "name": "FeOH+",
+          "phase": "aqueous",
+          "reference": "NEA-Fe: Lemire R J, Berner U, Musikas C, Palmer D A, Taylor P, Tochiyama O, Chemical Thermodynamics of Iron. Part 1. Paris: OECD Nuclear Energy Agency (NEA), 2013\n\n1996BP-Fe: Beverskog B, Puigdomenech I; Corros. Sci. 38 (1996) 2121-2135",
+          "terms": [
+            {
+              "name": "Fe 2+",
+              "coefficient": 1
+            },
+            {
+              "name": "H+",
+              "coefficient": -1
+            },
+            {
+              "name": "H2O",
+              "coefficient": 1
+            }
+          ],
+          "logK": -9.1,
+          "classification": "admitted"
+        },
+        {
+          "id": "spana:2ac52a30213c9288:151381",
+          "name": "H2",
+          "phase": "aqueous",
+          "reference": "82NBS: Wagman D D, Evans W H, Parker V B, Schumm R H, Halow I, Bailey S M, Churney K L, Nuttall R L; The NBS tables of chemical thermodynamic properties: Selected values for inorganic and C1 and C2 organic substances in SI units. J. Phys. Chem. Ref. Data 11, Suppl. No.2, 1982\n\n89Sho/Hel: Shock E L, Helgeson H C, Sverjensky D A; Geochim. Cosmochim. Acta 53 (1989) 2157-2183",
+          "terms": [
+            {
+              "name": "H+",
+              "coefficient": 2
+            },
+            {
+              "name": "e-",
+              "coefficient": 2
+            }
+          ],
+          "logK": -3.083,
+          "classification": "admitted"
+        },
+        {
+          "id": "spana:2ac52a30213c9288:152743",
+          "name": "H2O2",
+          "phase": "aqueous",
+          "reference": "82NBS: Wagman D D, Evans W H, Parker V B, Schumm R H, Halow I, Bailey S M, Churney K L, Nuttall R L; The NBS tables of chemical thermodynamic properties: Selected values for inorganic and C1 and C2 organic substances in SI units. J. Phys. Chem. Ref. Data 11, Suppl. No.2, 1982\n\n1962GC: Giguere P A, Carmichael J L; J.Chem.Eng.Data 7 (1962) 526-527",
+          "terms": [
+            {
+              "name": "H+",
+              "coefficient": -2
+            },
+            {
+              "name": "e-",
+              "coefficient": -2
+            },
+            {
+              "name": "H2O",
+              "coefficient": 2
+            }
+          ],
+          "logK": -59.61,
+          "classification": "admitted"
+        },
+        {
+          "id": "spana:2ac52a30213c9288:159033",
+          "name": "HCl",
+          "phase": "aqueous",
+          "reference": "1997Tag: Tagirov B R, Zotov A V, Akinfiev N N; Geochim. Cosmochim. Acta, 61 (1997) 4267-4280",
+          "terms": [
+            {
+              "name": "H+",
+              "coefficient": 1
+            },
+            {
+              "name": "Cl-",
+              "coefficient": 1
+            }
+          ],
+          "logK": -0.7,
+          "classification": "admitted"
+        },
+        {
+          "id": "spana:2ac52a30213c9288:175307",
+          "name": "HO2-",
+          "phase": "aqueous",
+          "reference": "SmithMart: NIST Standard Reference Database 46 Version 8.\nNIST Critically Selected Stability Constants of Metal Complexes Database\nhttp://www.nist.gov/srd/nist46.cfm\nNational Institute of Standards and Technology, 100 Bureau Dr., Stop 2300, Gaithersburg, MD\n\n88Sho/Hel: Shock E L, Helgeson H C; Geochim. Cosmochim. Acta 52 (1988) 2009-2036; and \"ERRATA\", ibid, 53 (1989) p.215",
+          "terms": [
+            {
+              "name": "H2O2",
+              "coefficient": 1
+            },
+            {
+              "name": "H+",
+              "coefficient": -1
+            }
+          ],
+          "logK": -11.65,
+          "classification": "admitted"
+        },
+        {
+          "id": "spana:2ac52a30213c9288:249989",
+          "name": "O2",
+          "phase": "aqueous",
+          "reference": "89Sho/Hel: Shock E L, Helgeson H C, Sverjensky D A; Geochim. Cosmochim. Acta 53 (1989) 2157-2183",
+          "terms": [
+            {
+              "name": "H+",
+              "coefficient": -4
+            },
+            {
+              "name": "e-",
+              "coefficient": -4
+            },
+            {
+              "name": "H2O",
+              "coefficient": 2
+            }
+          ],
+          "logK": -85.988,
+          "classification": "admitted"
+        },
+        {
+          "id": "spana:2ac52a30213c9288:250161",
+          "name": "O3",
+          "phase": "aqueous",
+          "reference": "82NBS: Wagman D D, Evans W H, Parker V B, Schumm R H, Halow I, Bailey S M, Churney K L, Nuttall R L; The NBS tables of chemical thermodynamic properties: Selected values for inorganic and C1 and C2 organic substances in SI units. J. Phys. Chem. Ref. Data 11, Suppl. No.2, 1982",
+          "terms": [
+            {
+              "name": "H+",
+              "coefficient": -6
+            },
+            {
+              "name": "e-",
+              "coefficient": -6
+            },
+            {
+              "name": "H2O",
+              "coefficient": 3
+            }
+          ],
+          "logK": -155.14,
+          "classification": "admitted"
+        },
+        {
+          "id": "spana:2ac52a30213c9288:250448",
+          "name": "OH-",
+          "phase": "aqueous",
+          "reference": "Codata: Cox J D, Wagman D D, Medvedev V A, CODATA Key Values for Thermodynamics. Hemisphere Publ. Co., New York, 1989\n\n88Sho/Hel: Shock E L, Helgeson H C; Geochim. Cosmochim. Acta 52 (1988) 2009-2036; and \"ERRATA\", ibid, 53 (1989) p.215",
+          "terms": [
+            {
+              "name": "H+",
+              "coefficient": -1
+            },
+            {
+              "name": "H2O",
+              "coefficient": 1
+            }
+          ],
+          "logK": -14.0015,
+          "classification": "admitted"
+        }
+      ],
+      "excluded": [
+        {
+          "id": "spana:2ac52a30213c9288:82236",
+          "name": "Cl2",
+          "phase": "aqueous",
+          "reference": "2001SSW: Schulte M D, Shock E L, Wood R H; Geochim. Cosmochim. Acta 65 (2001) 3919-3930\n\n88Sho/Hel: Shock E L, Helgeson H C; Geochim. Cosmochim. Acta 52 (1988) 2009-2036; and \"ERRATA\", ibid, 53 (1989) p.215",
+          "terms": [
+            {
+              "name": "Cl-",
+              "coefficient": 2
+            },
+            {
+              "name": "e-",
+              "coefficient": -2
+            }
+          ],
+          "logK": -47.19,
+          "classification": "excluded-conditionally",
+          "reason": "Reviewed scope-specific counterion-redox exclusion"
+        },
+        {
+          "id": "spana:2ac52a30213c9288:82314",
+          "name": "Cl2(g)",
+          "phase": "gas",
+          "reference": "Codata: Cox J D, Wagman D D, Medvedev V A, CODATA Key Values for Thermodynamics. Hemisphere Publ. Co., New York, 1989\n\n88Sho/Hel: Shock E L, Helgeson H C; Geochim. Cosmochim. Acta 52 (1988) 2009-2036; and \"ERRATA\", ibid, 53 (1989) p.215",
+          "terms": [
+            {
+              "name": "Cl-",
+              "coefficient": 2
+            },
+            {
+              "name": "e-",
+              "coefficient": -2
+            }
+          ],
+          "logK": -45.98,
+          "classification": "excluded-conditionally",
+          "reason": "Aqueous-only model; no solid or gas inventory solver in this path"
+        },
+        {
+          "id": "spana:2ac52a30213c9288:82394",
+          "name": "ClO-",
+          "phase": "aqueous",
+          "reference": "NEA-Fe: Lemire R J, Berner U, Musikas C, Palmer D A, Taylor P, Tochiyama O, Chemical Thermodynamics of Iron. Part 1. Paris: OECD Nuclear Energy Agency (NEA), 2013\n\n88Sho/Hel: Shock E L, Helgeson H C; Geochim. Cosmochim. Acta 52 (1988) 2009-2036; and \"ERRATA\", ibid, 53 (1989) p.215",
+          "terms": [
+            {
+              "name": "H+",
+              "coefficient": -2
+            },
+            {
+              "name": "Cl-",
+              "coefficient": 1
+            },
+            {
+              "name": "e-",
+              "coefficient": -2
+            },
+            {
+              "name": "H2O",
+              "coefficient": 1
+            }
+          ],
+          "logK": -57.934,
+          "classification": "excluded-conditionally",
+          "reason": "Reviewed scope-specific counterion-redox exclusion"
+        },
+        {
+          "id": "spana:2ac52a30213c9288:82497",
+          "name": "ClO2(aq)",
+          "phase": "aqueous",
+          "reference": "2001SSW: Schulte M D, Shock E L, Wood R H; Geochim. Cosmochim. Acta 65 (2001) 3919-3930\n\n88Sho/Hel: Shock E L, Helgeson H C; Geochim. Cosmochim. Acta 52 (1988) 2009-2036; and \"ERRATA\", ibid, 53 (1989) p.215",
+          "terms": [
+            {
+              "name": "H+",
+              "coefficient": -4
+            },
+            {
+              "name": "Cl-",
+              "coefficient": 1
+            },
+            {
+              "name": "e-",
+              "coefficient": -5
+            },
+            {
+              "name": "H2O",
+              "coefficient": 2
+            }
+          ],
+          "logK": -127.1,
+          "classification": "excluded-conditionally",
+          "reason": "Reviewed scope-specific counterion-redox exclusion"
+        },
+        {
+          "id": "spana:2ac52a30213c9288:82605",
+          "name": "ClO2-",
+          "phase": "aqueous",
+          "reference": "NEA-Fe: Lemire R J, Berner U, Musikas C, Palmer D A, Taylor P, Tochiyama O, Chemical Thermodynamics of Iron. Part 1. Paris: OECD Nuclear Energy Agency (NEA), 2013\n\n82NBS: Wagman D D, Evans W H, Parker V B, Schumm R H, Halow I, Bailey S M, Churney K L, Nuttall R L; The NBS tables of chemical thermodynamic properties: Selected values for inorganic and C1 and C2 organic substances in SI units. J. Phys. Chem. Ref. Data 11, Suppl. No.2, 1982\n\n88Sho/Hel: Shock E L, Helgeson H C; Geochim. Cosmochim. Acta 52 (1988) 2009-2036; and \"ERRATA\", ibid, 53 (1989) p.215",
+          "terms": [
+            {
+              "name": "H+",
+              "coefficient": -4
+            },
+            {
+              "name": "Cl-",
+              "coefficient": 1
+            },
+            {
+              "name": "e-",
+              "coefficient": -4
+            },
+            {
+              "name": "H2O",
+              "coefficient": 2
+            }
+          ],
+          "logK": -107.9,
+          "classification": "excluded-conditionally",
+          "reason": "Reviewed scope-specific counterion-redox exclusion"
+        },
+        {
+          "id": "spana:2ac52a30213c9288:82715",
+          "name": "ClO3-",
+          "phase": "aqueous",
+          "reference": "NEA-Fe: Lemire R J, Berner U, Musikas C, Palmer D A, Taylor P, Tochiyama O, Chemical Thermodynamics of Iron. Part 1. Paris: OECD Nuclear Energy Agency (NEA), 2013\n\n88Sho/Hel: Shock E L, Helgeson H C; Geochim. Cosmochim. Acta 52 (1988) 2009-2036; and \"ERRATA\", ibid, 53 (1989) p.215",
+          "terms": [
+            {
+              "name": "H+",
+              "coefficient": -6
+            },
+            {
+              "name": "Cl-",
+              "coefficient": 1
+            },
+            {
+              "name": "e-",
+              "coefficient": -6
+            },
+            {
+              "name": "H2O",
+              "coefficient": 3
+            }
+          ],
+          "logK": -146.24,
+          "classification": "excluded-conditionally",
+          "reason": "Reviewed scope-specific counterion-redox exclusion"
+        },
+        {
+          "id": "spana:2ac52a30213c9288:127500",
+          "name": "Fe(cr)",
+          "phase": "solid",
+          "reference": "NEA-Fe: Lemire R J, Berner U, Musikas C, Palmer D A, Taylor P, Tochiyama O, Chemical Thermodynamics of Iron. Part 1. Paris: OECD Nuclear Energy Agency (NEA), 2013",
+          "terms": [
+            {
+              "name": "Fe 2+",
+              "coefficient": 1
+            },
+            {
+              "name": "e-",
+              "coefficient": 2
+            }
+          ],
+          "logK": -15.89,
+          "classification": "excluded-conditionally",
+          "reason": "Aqueous-only model; no solid or gas inventory solver in this path"
+        },
+        {
+          "id": "spana:2ac52a30213c9288:130902",
+          "name": "Fe(OH)2(cr)",
+          "phase": "solid",
+          "reference": "2016BE: Brown P L, Ekberg C; Hydrolysis of Metal Ions. Weinheim, Germany: Wiley-VCH Verlag GmbH & Co. KGaA, 2016\n\n91Kna/Kub: Knacke O, Kubaschewski O, Hesselmann K; Thermochemical Properties of Inorganic Substances. Springer-Verlag, Berlin, 1991, 2 ed.",
+          "terms": [
+            {
+              "name": "Fe 2+",
+              "coefficient": 1
+            },
+            {
+              "name": "H+",
+              "coefficient": -2
+            },
+            {
+              "name": "H2O",
+              "coefficient": 2
+            }
+          ],
+          "logK": -12.3,
+          "classification": "excluded-conditionally",
+          "reason": "Aqueous-only model; no solid or gas inventory solver in this path"
+        },
+        {
+          "id": "spana:2ac52a30213c9288:131188",
+          "name": "Fe(OH)3(am)",
+          "phase": "solid",
+          "reference": "1990NP: Nordstrom D K, Plummer L N, Langmuir D, Busenberg E, May H M, Jones B F, Parkhurst D L; in \"Chemical Modeling Of Aqueous Systems II\" (D C Melchior and R L Basett, eds.). Washington, D.C.: A.C.S.Symp.Ser. 416, Amer.Chem.Soc., 1990, pp.398-413.\n\nNEA-Fe: Lemire R J, Berner U, Musikas C, Palmer D A, Taylor P, Tochiyama O, Chemical Thermodynamics of Iron. Part 1. Paris: OECD Nuclear Energy Agency (NEA), 2013",
+          "terms": [
+            {
+              "name": "Fe 3+",
+              "coefficient": 1
+            },
+            {
+              "name": "H+",
+              "coefficient": -3
+            },
+            {
+              "name": "H2O",
+              "coefficient": 3
+            }
+          ],
+          "logK": -4.9,
+          "classification": "excluded-conditionally",
+          "reason": "Aqueous-only model; no solid or gas inventory solver in this path"
+        },
+        {
+          "id": "spana:2ac52a30213c9288:131294",
+          "name": "Fe(OH)3(s)",
+          "phase": "solid",
+          "reference": "NEA-Fe: Lemire R J, Berner U, Musikas C, Palmer D A, Taylor P, Tochiyama O, Chemical Thermodynamics of Iron. Part 1. Paris: OECD Nuclear Energy Agency (NEA), 2013",
+          "terms": [
+            {
+              "name": "Fe 3+",
+              "coefficient": 1
+            },
+            {
+              "name": "H+",
+              "coefficient": -3
+            },
+            {
+              "name": "H2O",
+              "coefficient": 3
+            }
+          ],
+          "logK": -3.43,
+          "classification": "excluded-conditionally",
+          "reason": "Aqueous-only model; no solid or gas inventory solver in this path"
+        },
+        {
+          "id": "spana:2ac52a30213c9288:132744",
+          "name": "Fe0.932O(cr)",
+          "phase": "solid",
+          "reference": "NEA-Fe: Lemire R J, Berner U, Musikas C, Palmer D A, Taylor P, Tochiyama O, Chemical Thermodynamics of Iron. Part 1. Paris: OECD Nuclear Energy Agency (NEA), 2013",
+          "terms": [
+            {
+              "name": "Fe 2+",
+              "coefficient": 0.932
+            },
+            {
+              "name": "H+",
+              "coefficient": -2
+            },
+            {
+              "name": "e-",
+              "coefficient": -0.136
+            },
+            {
+              "name": "H2O",
+              "coefficient": 1
+            }
+          ],
+          "logK": -13.507,
+          "classification": "excluded-conditionally",
+          "reason": "Aqueous-only model; no solid or gas inventory solver in this path"
+        },
+        {
+          "id": "spana:2ac52a30213c9288:133739",
+          "name": "Fe2O3(cr)",
+          "phase": "solid",
+          "reference": "NEA-Fe: Lemire R J, Berner U, Musikas C, Palmer D A, Taylor P, Tochiyama O, Chemical Thermodynamics of Iron. Part 1. Paris: OECD Nuclear Energy Agency (NEA), 2013",
+          "terms": [
+            {
+              "name": "Fe 3+",
+              "coefficient": 2
+            },
+            {
+              "name": "H+",
+              "coefficient": -6
+            },
+            {
+              "name": "H2O",
+              "coefficient": 3
+            }
+          ],
+          "logK": 0.101,
+          "classification": "excluded-conditionally",
+          "reason": "Aqueous-only model; no solid or gas inventory solver in this path"
+        },
+        {
+          "id": "spana:2ac52a30213c9288:134486",
+          "name": "Fe3O4(cr)",
+          "phase": "solid",
+          "reference": "NEA-Fe: Lemire R J, Berner U, Musikas C, Palmer D A, Taylor P, Tochiyama O, Chemical Thermodynamics of Iron. Part 1. Paris: OECD Nuclear Energy Agency (NEA), 2013",
+          "terms": [
+            {
+              "name": "Fe 3+",
+              "coefficient": 3
+            },
+            {
+              "name": "H+",
+              "coefficient": -8
+            },
+            {
+              "name": "e-",
+              "coefficient": 1
+            },
+            {
+              "name": "H2O",
+              "coefficient": 4
+            }
+          ],
+          "logK": 2.712,
+          "classification": "excluded-conditionally",
+          "reason": "Aqueous-only model; no solid or gas inventory solver in this path"
+        },
+        {
+          "id": "spana:2ac52a30213c9288:138772",
+          "name": "FeOCl(cr)",
+          "phase": "solid",
+          "reference": "NEA-Fe: Lemire R J, Berner U, Musikas C, Palmer D A, Taylor P, Tochiyama O, Chemical Thermodynamics of Iron. Part 1. Paris: OECD Nuclear Energy Agency (NEA), 2013",
+          "terms": [
+            {
+              "name": "Fe 3+",
+              "coefficient": 1
+            },
+            {
+              "name": "H+",
+              "coefficient": -2
+            },
+            {
+              "name": "Cl-",
+              "coefficient": 1
+            },
+            {
+              "name": "H2O",
+              "coefficient": 1
+            }
+          ],
+          "logK": -4.55,
+          "classification": "excluded-conditionally",
+          "reason": "Aqueous-only model; no solid or gas inventory solver in this path"
+        },
+        {
+          "id": "spana:2ac52a30213c9288:139276",
+          "name": "FeOOH(cr)",
+          "phase": "solid",
+          "reference": "NEA-Fe: Lemire R J, Berner U, Musikas C, Palmer D A, Taylor P, Tochiyama O, Chemical Thermodynamics of Iron. Part 1. Paris: OECD Nuclear Energy Agency (NEA), 2013",
+          "terms": [
+            {
+              "name": "Fe 3+",
+              "coefficient": 1
+            },
+            {
+              "name": "H+",
+              "coefficient": -3
+            },
+            {
+              "name": "H2O",
+              "coefficient": 2
+            }
+          ],
+          "logK": -0.17,
+          "classification": "excluded-conditionally",
+          "reason": "Aqueous-only model; no solid or gas inventory solver in this path"
+        },
+        {
+          "id": "spana:2ac52a30213c9288:151531",
+          "name": "H2(g)",
+          "phase": "gas",
+          "reference": "82NBS: Wagman D D, Evans W H, Parker V B, Schumm R H, Halow I, Bailey S M, Churney K L, Nuttall R L; The NBS tables of chemical thermodynamic properties: Selected values for inorganic and C1 and C2 organic substances in SI units. J. Phys. Chem. Ref. Data 11, Suppl. No.2, 1982",
+          "terms": [
+            {
+              "name": "H+",
+              "coefficient": 2
+            },
+            {
+              "name": "e-",
+              "coefficient": 2
+            }
+          ],
+          "logK": 0,
+          "classification": "excluded-conditionally",
+          "reason": "Aqueous-only model; no solid or gas inventory solver in this path"
+        },
+        {
+          "id": "spana:2ac52a30213c9288:159101",
+          "name": "HClO",
+          "phase": "aqueous",
+          "reference": "NEA-Fe: Lemire R J, Berner U, Musikas C, Palmer D A, Taylor P, Tochiyama O, Chemical Thermodynamics of Iron. Part 1. Paris: OECD Nuclear Energy Agency (NEA), 2013\n\n1986SPN: Smith R W, Pop C J, Norman D I; Geochim. Cosmochim. Acta 50 (1986) 137-142\n\n88Sho/Hel: Shock E L, Helgeson H C; Geochim. Cosmochim. Acta 52 (1988) 2009-2036; and \"ERRATA\", ibid, 53 (1989) p.215",
+          "terms": [
+            {
+              "name": "H+",
+              "coefficient": -1
+            },
+            {
+              "name": "Cl-",
+              "coefficient": 1
+            },
+            {
+              "name": "e-",
+              "coefficient": -2
+            },
+            {
+              "name": "H2O",
+              "coefficient": 1
+            }
+          ],
+          "logK": -50.514,
+          "classification": "excluded-conditionally",
+          "reason": "Reviewed scope-specific counterion-redox exclusion"
+        },
+        {
+          "id": "spana:2ac52a30213c9288:159212",
+          "name": "HClO2",
+          "phase": "aqueous",
+          "reference": "NEA-Fe: Lemire R J, Berner U, Musikas C, Palmer D A, Taylor P, Tochiyama O, Chemical Thermodynamics of Iron. Part 1. Paris: OECD Nuclear Energy Agency (NEA), 2013\n\n82NBS: Wagman D D, Evans W H, Parker V B, Schumm R H, Halow I, Bailey S M, Churney K L, Nuttall R L; The NBS tables of chemical thermodynamic properties: Selected values for inorganic and C1 and C2 organic substances in SI units. J. Phys. Chem. Ref. Data 11, Suppl. No.2, 1982\n\n1986SPN: Smith R W, Pop C J, Norman D I; Geochim. Cosmochim. Acta 50 (1986) 137-142\n\n88Sho/Hel: Shock E L, Helgeson H C; Geochim. Cosmochim. Acta 52 (1988) 2009-2036; and \"ERRATA\", ibid, 53 (1989) p.215",
+          "terms": [
+            {
+              "name": "H+",
+              "coefficient": -3
+            },
+            {
+              "name": "Cl-",
+              "coefficient": 1
+            },
+            {
+              "name": "e-",
+              "coefficient": -4
+            },
+            {
+              "name": "H2O",
+              "coefficient": 2
+            }
+          ],
+          "logK": -105.91,
+          "classification": "excluded-conditionally",
+          "reason": "Reviewed scope-specific counterion-redox exclusion"
+        },
+        {
+          "id": "spana:2ac52a30213c9288:250070",
+          "name": "O2(g)",
+          "phase": "gas",
+          "reference": "Codata: Cox J D, Wagman D D, Medvedev V A, CODATA Key Values for Thermodynamics. Hemisphere Publ. Co., New York, 1989\n\n95Rob/Hem: Robie R A, Hemingway B S; Thermodynamic properties of minerals and related substances at 298.15 K and 1 bar (10^5 pascals) pressure and at higher temperatures. U.S. Geological Survey Bulletin 2131. Washington, DC: U.S. Goverment Printing Office, 1995",
+          "terms": [
+            {
+              "name": "H+",
+              "coefficient": -4
+            },
+            {
+              "name": "e-",
+              "coefficient": -4
+            },
+            {
+              "name": "H2O",
+              "coefficient": 2
+            }
+          ],
+          "logK": -83.09,
+          "classification": "excluded-conditionally",
+          "reason": "Aqueous-only model; no solid or gas inventory solver in this path"
+        },
+        {
+          "id": "spana:2ac52a30213c9288:250265",
+          "name": "O3(g)",
+          "phase": "gas",
+          "reference": "82NBS: Wagman D D, Evans W H, Parker V B, Schumm R H, Halow I, Bailey S M, Churney K L, Nuttall R L; The NBS tables of chemical thermodynamic properties: Selected values for inorganic and C1 and C2 organic substances in SI units. J. Phys. Chem. Ref. Data 11, Suppl. No.2, 1982",
+          "terms": [
+            {
+              "name": "H+",
+              "coefficient": -6
+            },
+            {
+              "name": "e-",
+              "coefficient": -6
+            },
+            {
+              "name": "H2O",
+              "coefficient": 3
+            }
+          ],
+          "logK": -153.23,
+          "classification": "excluded-conditionally",
+          "reason": "Aqueous-only model; no solid or gas inventory solver in this path"
+        }
+      ],
+      "redoxFamilies": [
+        {
+          "conservedElements": "Fe",
+          "sourceIds": [
+            "spana:2ac52a30213c9288:126513",
+            "spana:2ac52a30213c9288:126584",
+            "spana:2ac52a30213c9288:138672"
+          ],
+          "electronCounts": [
+            1,
+            -1,
+            -3
+          ]
+        },
+        {
+          "conservedElements": "H/O",
+          "sourceIds": [
+            "spana:2ac52a30213c9288:151381",
+            "spana:2ac52a30213c9288:152743",
+            "spana:2ac52a30213c9288:249989",
+            "spana:2ac52a30213c9288:250161"
+          ],
+          "electronCounts": [
+            2,
+            -2,
+            -4,
+            -6
+          ]
+        }
+      ],
+      "ordinary": [
+        {
+          "id": "spana:2ac52a30213c9288:130813",
+          "name": "Fe(OH)2",
+          "category": "proton/water or hydrolysis",
+          "classificationBasis": "Source participation only; detailed mechanistic subtype not inferred from formula"
+        },
+        {
+          "id": "spana:2ac52a30213c9288:131002",
+          "name": "Fe(OH)2+",
+          "category": "proton/water or hydrolysis",
+          "classificationBasis": "Source participation only; detailed mechanistic subtype not inferred from formula"
+        },
+        {
+          "id": "spana:2ac52a30213c9288:131099",
+          "name": "Fe(OH)3",
+          "category": "proton/water or hydrolysis",
+          "classificationBasis": "Source participation only; detailed mechanistic subtype not inferred from formula"
+        },
+        {
+          "id": "spana:2ac52a30213c9288:131406",
+          "name": "Fe(OH)3-",
+          "category": "proton/water or hydrolysis",
+          "classificationBasis": "Source participation only; detailed mechanistic subtype not inferred from formula"
+        },
+        {
+          "id": "spana:2ac52a30213c9288:131496",
+          "name": "Fe(OH)4-",
+          "category": "proton/water or hydrolysis",
+          "classificationBasis": "Source participation only; detailed mechanistic subtype not inferred from formula"
+        },
+        {
+          "id": "spana:2ac52a30213c9288:131586",
+          "name": "Fe(OH)4-2",
+          "category": "proton/water or hydrolysis",
+          "classificationBasis": "Source participation only; detailed mechanistic subtype not inferred from formula"
+        },
+        {
+          "id": "spana:2ac52a30213c9288:133463",
+          "name": "Fe2(OH)2+4",
+          "category": "proton/water or hydrolysis",
+          "classificationBasis": "Source participation only; detailed mechanistic subtype not inferred from formula"
+        },
+        {
+          "id": "spana:2ac52a30213c9288:135482",
+          "name": "FeCl+",
+          "category": "complexation",
+          "classificationBasis": "Source participation only; detailed mechanistic subtype not inferred from formula"
+        },
+        {
+          "id": "spana:2ac52a30213c9288:135557",
+          "name": "FeCl+2",
+          "category": "complexation",
+          "classificationBasis": "Source participation only; detailed mechanistic subtype not inferred from formula"
+        },
+        {
+          "id": "spana:2ac52a30213c9288:135630",
+          "name": "FeCl2+",
+          "category": "complexation",
+          "classificationBasis": "Source participation only; detailed mechanistic subtype not inferred from formula"
+        },
+        {
+          "id": "spana:2ac52a30213c9288:135711",
+          "name": "FeCl3",
+          "category": "complexation",
+          "classificationBasis": "Source participation only; detailed mechanistic subtype not inferred from formula"
+        },
+        {
+          "id": "spana:2ac52a30213c9288:135791",
+          "name": "FeCl4-",
+          "category": "complexation",
+          "classificationBasis": "Source participation only; detailed mechanistic subtype not inferred from formula"
+        },
+        {
+          "id": "spana:2ac52a30213c9288:138873",
+          "name": "FeOH 2+",
+          "category": "proton/water or hydrolysis",
+          "classificationBasis": "Source participation only; detailed mechanistic subtype not inferred from formula"
+        },
+        {
+          "id": "spana:2ac52a30213c9288:138969",
+          "name": "FeOH+",
+          "category": "proton/water or hydrolysis",
+          "classificationBasis": "Source participation only; detailed mechanistic subtype not inferred from formula"
+        },
+        {
+          "id": "spana:2ac52a30213c9288:159033",
+          "name": "HCl",
+          "category": "acid/base or ordinary association",
+          "classificationBasis": "Source participation only; detailed mechanistic subtype not inferred from formula"
+        },
+        {
+          "id": "spana:2ac52a30213c9288:175307",
+          "name": "HO2-",
+          "category": "acid/base or ordinary association",
+          "classificationBasis": "Source participation only; detailed mechanistic subtype not inferred from formula"
+        },
+        {
+          "id": "spana:2ac52a30213c9288:250448",
+          "name": "OH-",
+          "category": "proton/water or hydrolysis",
+          "classificationBasis": "Source participation only; detailed mechanistic subtype not inferred from formula"
+        }
+      ],
+      "componentRoles": [
+        {
+          "id": "component:Fe%202%2B",
+          "roles": [
+            "redox-active",
+            "ordinary acid/base or association",
+            "complexing"
+          ],
+          "phaseForming": true
+        },
+        {
+          "id": "component:H2O2",
+          "roles": [
+            "redox-active",
+            "ordinary acid/base or association"
+          ],
+          "phaseForming": false
+        },
+        {
+          "id": "component:Cl-",
+          "roles": [
+            "complexing",
+            "ordinary acid/base or association"
+          ],
+          "phaseForming": true
+        }
+      ],
+      "basis": [
+        [
+          "component:Fe%202%2B",
+          "component:H2O2",
+          "component:H%2B",
+          "component:Cl-",
+          "component:H2O"
+        ],
+        [
+          "component:Fe%203%2B",
+          "component:H2O2",
+          "component:H%2B",
+          "component:Cl-",
+          "component:H2O"
+        ]
+      ],
+      "conservation": [
+        {
+          "key": "Cl",
+          "weights": [
+            0,
+            0,
+            0,
+            1,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            1,
+            1,
+            2,
+            3,
+            4,
+            0,
+            0,
+            0,
+            0,
+            1,
+            0,
+            0,
+            0,
+            0
+          ],
+          "basisWeights": [
+            0,
+            0,
+            0,
+            1,
+            0
+          ]
+        },
+        {
+          "key": "Fe",
+          "weights": [
+            1,
+            0,
+            0,
+            0,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            2,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          "basisWeights": [
+            1,
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        {
+          "key": "H-2O",
+          "weights": [
+            0,
+            -2,
+            1,
+            0,
+            0,
+            -2,
+            -2,
+            -3,
+            -3,
+            -4,
+            -4,
+            -2,
+            0,
+            0,
+            0,
+            0,
+            0,
+            -8,
+            -1,
+            -1,
+            2,
+            1,
+            -3,
+            -4,
+            -6,
+            -1
+          ],
+          "basisWeights": [
+            0,
+            -2,
+            1,
+            0,
+            0
+          ]
+        },
+        {
+          "key": "charge",
+          "weights": [
+            2,
+            0,
+            1,
+            -1,
+            3,
+            0,
+            1,
+            0,
+            -1,
+            -1,
+            -2,
+            4,
+            1,
+            2,
+            1,
+            0,
+            -1,
+            -2,
+            2,
+            1,
+            0,
+            0,
+            -1,
+            0,
+            0,
+            -1
+          ],
+          "basisWeights": [
+            2,
+            0,
+            1,
+            -1,
+            0
+          ]
+        }
+      ],
+      "conservationPhysicalIds": [
+        "component:Fe%202%2B",
+        "component:H2O2",
+        "component:H%2B",
+        "component:Cl-",
+        "component:Fe%203%2B",
+        "spana:2ac52a30213c9288:130813",
+        "spana:2ac52a30213c9288:131002",
+        "spana:2ac52a30213c9288:131099",
+        "spana:2ac52a30213c9288:131406",
+        "spana:2ac52a30213c9288:131496",
+        "spana:2ac52a30213c9288:131586",
+        "spana:2ac52a30213c9288:133463",
+        "spana:2ac52a30213c9288:135482",
+        "spana:2ac52a30213c9288:135557",
+        "spana:2ac52a30213c9288:135630",
+        "spana:2ac52a30213c9288:135711",
+        "spana:2ac52a30213c9288:135791",
+        "spana:2ac52a30213c9288:138672",
+        "spana:2ac52a30213c9288:138873",
+        "spana:2ac52a30213c9288:138969",
+        "spana:2ac52a30213c9288:151381",
+        "spana:2ac52a30213c9288:159033",
+        "spana:2ac52a30213c9288:175307",
+        "spana:2ac52a30213c9288:249989",
+        "spana:2ac52a30213c9288:250161",
+        "spana:2ac52a30213c9288:250448"
+      ],
+      "conservationBasisIds": [
+        "component:Fe%202%2B",
+        "component:H2O2",
+        "component:H%2B",
+        "component:Cl-",
+        "component:H2O"
+      ],
+      "cycleChecks": [
+        {
+          "residuals": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          "sourceBounds": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          "arithmeticBound": 9.123937161348296e-13
+        }
+      ]
+    },
+    "oldAcceptedHash": "ae35342869b0b9d853b6fd208a7c6ddf493ab9eb1e1ec4837511efbb70830300",
+    "generalAcceptedHash": "ae35342869b0b9d853b6fd208a7c6ddf493ab9eb1e1ec4837511efbb70830300",
+    "exact": true
+  },
+  "refusals": {
+    "highPeroxide": {
+      "ok": false,
+      "status": "UNSUPPORTED",
+      "reasons": [
+        {
+          "code": "gas-inventory-headspace-required",
+          "message": "An excluded phase requires a broader inventory/phase model.",
+          "ids": [
+            "spana:2ac52a30213c9288:151531",
+            "spana:2ac52a30213c9288:250070",
+            "spana:2ac52a30213c9288:250265"
+          ]
+        }
+      ],
+      "phaseDiagnostics": [
+        {
+          "id": "spana:2ac52a30213c9288:151531",
+          "name": "H2(g)",
+          "phase": "gas",
+          "reference": "82NBS: Wagman D D, Evans W H, Parker V B, Schumm R H, Halow I, Bailey S M, Churney K L, Nuttall R L; The NBS tables of chemical thermodynamic properties: Selected values for inorganic and C1 and C2 organic substances in SI units. J. Phys. Chem. Ref. Data 11, Suppl. No.2, 1982",
+          "terms": [
+            {
+              "name": "H+",
+              "coefficient": 2
+            },
+            {
+              "name": "e-",
+              "coefficient": 2
+            }
+          ],
+          "logK": 0,
+          "classification": "required-but-unsupported",
+          "reason": "Aqueous-only model; no solid or gas inventory solver in this path",
+          "logActivity": -41.84348500216802,
+          "meaning": "Hypothetical normalized gas log fugacity"
+        },
+        {
+          "id": "spana:2ac52a30213c9288:250070",
+          "name": "O2(g)",
+          "phase": "gas",
+          "reference": "Codata: Cox J D, Wagman D D, Medvedev V A, CODATA Key Values for Thermodynamics. Hemisphere Publ. Co., New York, 1989\n\n95Rob/Hem: Robie R A, Hemingway B S; Thermodynamic properties of minerals and related substances at 298.15 K and 1 bar (10^5 pascals) pressure and at higher temperatures. U.S. Geological Survey Bulletin 2131. Washington, DC: U.S. Goverment Printing Office, 1995",
+          "terms": [
+            {
+              "name": "H+",
+              "coefficient": -4
+            },
+            {
+              "name": "e-",
+              "coefficient": -4
+            },
+            {
+              "name": "H2O",
+              "coefficient": 2
+            }
+          ],
+          "logK": -83.09,
+          "classification": "required-but-unsupported",
+          "reason": "Aqueous-only model; no solid or gas inventory solver in this path",
+          "logActivity": 0.5969700043360433,
+          "meaning": "Hypothetical normalized gas log fugacity"
+        },
+        {
+          "id": "spana:2ac52a30213c9288:250265",
+          "name": "O3(g)",
+          "phase": "gas",
+          "reference": "82NBS: Wagman D D, Evans W H, Parker V B, Schumm R H, Halow I, Bailey S M, Churney K L, Nuttall R L; The NBS tables of chemical thermodynamic properties: Selected values for inorganic and C1 and C2 organic substances in SI units. J. Phys. Chem. Ref. Data 11, Suppl. No.2, 1982",
+          "terms": [
+            {
+              "name": "H+",
+              "coefficient": -6
+            },
+            {
+              "name": "e-",
+              "coefficient": -6
+            },
+            {
+              "name": "H2O",
+              "coefficient": 3
+            }
+          ],
+          "logK": -153.23,
+          "classification": "required-but-unsupported",
+          "reason": "Aqueous-only model; no solid or gas inventory solver in this path",
+          "logActivity": -27.69954499349592,
+          "meaning": "Hypothetical normalized gas log fugacity"
+        }
+      ],
+      "gasFugacitySum": 3.9533931399993487
+    },
+    "unrestrictedFe": {
+      "status": "UNSUPPORTED",
+      "canCalculate": false,
+      "reasons": [
+        {
+          "code": "bounded-compiler-capacity",
+          "message": "Discovered chemistry exceeds the unchanged closed compiler capacity; it cannot be truncated.",
+          "ids": []
+        }
+      ],
+      "rows": [
+        {
+          "id": "spana:2ac52a30213c9288:82236",
+          "name": "Cl2",
+          "phase": "aqueous",
+          "reference": "2001SSW: Schulte M D, Shock E L, Wood R H; Geochim. Cosmochim. Acta 65 (2001) 3919-3930\n\n88Sho/Hel: Shock E L, Helgeson H C; Geochim. Cosmochim. Acta 52 (1988) 2009-2036; and \"ERRATA\", ibid, 53 (1989) p.215",
+          "terms": [
+            {
+              "name": "Cl-",
+              "coefficient": 2
+            },
+            {
+              "name": "e-",
+              "coefficient": -2
+            }
+          ],
+          "logK": -47.19,
+          "classification": "admitted"
+        },
+        {
+          "id": "spana:2ac52a30213c9288:82394",
+          "name": "ClO-",
+          "phase": "aqueous",
+          "reference": "NEA-Fe: Lemire R J, Berner U, Musikas C, Palmer D A, Taylor P, Tochiyama O, Chemical Thermodynamics of Iron. Part 1. Paris: OECD Nuclear Energy Agency (NEA), 2013\n\n88Sho/Hel: Shock E L, Helgeson H C; Geochim. Cosmochim. Acta 52 (1988) 2009-2036; and \"ERRATA\", ibid, 53 (1989) p.215",
+          "terms": [
+            {
+              "name": "H+",
+              "coefficient": -2
+            },
+            {
+              "name": "Cl-",
+              "coefficient": 1
+            },
+            {
+              "name": "e-",
+              "coefficient": -2
+            },
+            {
+              "name": "H2O",
+              "coefficient": 1
+            }
+          ],
+          "logK": -57.934,
+          "classification": "admitted"
+        },
+        {
+          "id": "spana:2ac52a30213c9288:82497",
+          "name": "ClO2(aq)",
+          "phase": "aqueous",
+          "reference": "2001SSW: Schulte M D, Shock E L, Wood R H; Geochim. Cosmochim. Acta 65 (2001) 3919-3930\n\n88Sho/Hel: Shock E L, Helgeson H C; Geochim. Cosmochim. Acta 52 (1988) 2009-2036; and \"ERRATA\", ibid, 53 (1989) p.215",
+          "terms": [
+            {
+              "name": "H+",
+              "coefficient": -4
+            },
+            {
+              "name": "Cl-",
+              "coefficient": 1
+            },
+            {
+              "name": "e-",
+              "coefficient": -5
+            },
+            {
+              "name": "H2O",
+              "coefficient": 2
+            }
+          ],
+          "logK": -127.1,
+          "classification": "admitted"
+        },
+        {
+          "id": "spana:2ac52a30213c9288:82605",
+          "name": "ClO2-",
+          "phase": "aqueous",
+          "reference": "NEA-Fe: Lemire R J, Berner U, Musikas C, Palmer D A, Taylor P, Tochiyama O, Chemical Thermodynamics of Iron. Part 1. Paris: OECD Nuclear Energy Agency (NEA), 2013\n\n82NBS: Wagman D D, Evans W H, Parker V B, Schumm R H, Halow I, Bailey S M, Churney K L, Nuttall R L; The NBS tables of chemical thermodynamic properties: Selected values for inorganic and C1 and C2 organic substances in SI units. J. Phys. Chem. Ref. Data 11, Suppl. No.2, 1982\n\n88Sho/Hel: Shock E L, Helgeson H C; Geochim. Cosmochim. Acta 52 (1988) 2009-2036; and \"ERRATA\", ibid, 53 (1989) p.215",
+          "terms": [
+            {
+              "name": "H+",
+              "coefficient": -4
+            },
+            {
+              "name": "Cl-",
+              "coefficient": 1
+            },
+            {
+              "name": "e-",
+              "coefficient": -4
+            },
+            {
+              "name": "H2O",
+              "coefficient": 2
+            }
+          ],
+          "logK": -107.9,
+          "classification": "admitted"
+        },
+        {
+          "id": "spana:2ac52a30213c9288:82715",
+          "name": "ClO3-",
+          "phase": "aqueous",
+          "reference": "NEA-Fe: Lemire R J, Berner U, Musikas C, Palmer D A, Taylor P, Tochiyama O, Chemical Thermodynamics of Iron. Part 1. Paris: OECD Nuclear Energy Agency (NEA), 2013\n\n88Sho/Hel: Shock E L, Helgeson H C; Geochim. Cosmochim. Acta 52 (1988) 2009-2036; and \"ERRATA\", ibid, 53 (1989) p.215",
+          "terms": [
+            {
+              "name": "H+",
+              "coefficient": -6
+            },
+            {
+              "name": "Cl-",
+              "coefficient": 1
+            },
+            {
+              "name": "e-",
+              "coefficient": -6
+            },
+            {
+              "name": "H2O",
+              "coefficient": 3
+            }
+          ],
+          "logK": -146.24,
+          "classification": "admitted"
+        },
+        {
+          "id": "spana:2ac52a30213c9288:126513",
+          "name": "Fe 2+",
+          "phase": "aqueous",
+          "reference": "NEA-Fe: Lemire R J, Berner U, Musikas C, Palmer D A, Taylor P, Tochiyama O, Chemical Thermodynamics of Iron. Part 1. Paris: OECD Nuclear Energy Agency (NEA), 2013",
+          "terms": [
+            {
+              "name": "Fe 3+",
+              "coefficient": 1
+            },
+            {
+              "name": "e-",
+              "coefficient": 1
+            }
+          ],
+          "logK": 13.051,
+          "classification": "admitted"
+        },
+        {
+          "id": "spana:2ac52a30213c9288:126584",
+          "name": "Fe 3+",
+          "phase": "aqueous",
+          "reference": "NEA-Fe: Lemire R J, Berner U, Musikas C, Palmer D A, Taylor P, Tochiyama O, Chemical Thermodynamics of Iron. Part 1. Paris: OECD Nuclear Energy Agency (NEA), 2013",
+          "terms": [
+            {
+              "name": "Fe 2+",
+              "coefficient": 1
+            },
+            {
+              "name": "e-",
+              "coefficient": -1
+            }
+          ],
+          "logK": -13.051,
+          "classification": "admitted"
+        },
+        {
+          "id": "spana:2ac52a30213c9288:130813",
+          "name": "Fe(OH)2",
+          "phase": "aqueous",
+          "reference": "1996BP-Fe: Beverskog B, Puigdomenech I; Corros. Sci. 38 (1996) 2121-2135",
+          "terms": [
+            {
+              "name": "Fe 2+",
+              "coefficient": 1
+            },
+            {
+              "name": "H+",
+              "coefficient": -2
+            },
+            {
+              "name": "H2O",
+              "coefficient": 2
+            }
+          ],
+          "logK": -20.6,
+          "classification": "admitted"
+        },
+        {
+          "id": "spana:2ac52a30213c9288:131002",
+          "name": "Fe(OH)2+",
+          "phase": "aqueous",
+          "reference": "NEA-Fe: Lemire R J, Berner U, Musikas C, Palmer D A, Taylor P, Tochiyama O, Chemical Thermodynamics of Iron. Part 1. Paris: OECD Nuclear Energy Agency (NEA), 2013\n\n1996BP-Fe: Beverskog B, Puigdomenech I; Corros. Sci. 38 (1996) 2121-2135",
+          "terms": [
+            {
+              "name": "Fe 3+",
+              "coefficient": 1
+            },
+            {
+              "name": "H+",
+              "coefficient": -2
+            },
+            {
+              "name": "H2O",
+              "coefficient": 2
+            }
+          ],
+          "logK": -4.8,
+          "classification": "admitted"
+        },
+        {
+          "id": "spana:2ac52a30213c9288:131099",
+          "name": "Fe(OH)3",
+          "phase": "aqueous",
+          "reference": "1996BP-Fe: Beverskog B, Puigdomenech I; Corros. Sci. 38 (1996) 2121-2135",
+          "terms": [
+            {
+              "name": "Fe 3+",
+              "coefficient": 1
+            },
+            {
+              "name": "H+",
+              "coefficient": -3
+            },
+            {
+              "name": "H2O",
+              "coefficient": 3
+            }
+          ],
+          "logK": -12,
+          "classification": "admitted"
+        },
+        {
+          "id": "spana:2ac52a30213c9288:131406",
+          "name": "Fe(OH)3-",
+          "phase": "aqueous",
+          "reference": "1996BP-Fe: Beverskog B, Puigdomenech I; Corros. Sci. 38 (1996) 2121-2135",
+          "terms": [
+            {
+              "name": "Fe 2+",
+              "coefficient": 1
+            },
+            {
+              "name": "H+",
+              "coefficient": -3
+            },
+            {
+              "name": "H2O",
+              "coefficient": 3
+            }
+          ],
+          "logK": -34.2,
+          "classification": "admitted"
+        },
+        {
+          "id": "spana:2ac52a30213c9288:131496",
+          "name": "Fe(OH)4-",
+          "phase": "aqueous",
+          "reference": "1996BP-Fe: Beverskog B, Puigdomenech I; Corros. Sci. 38 (1996) 2121-2135",
+          "terms": [
+            {
+              "name": "Fe 3+",
+              "coefficient": 1
+            },
+            {
+              "name": "H+",
+              "coefficient": -4
+            },
+            {
+              "name": "H2O",
+              "coefficient": 4
+            }
+          ],
+          "logK": -21.6,
+          "classification": "admitted"
+        },
+        {
+          "id": "spana:2ac52a30213c9288:131586",
+          "name": "Fe(OH)4-2",
+          "phase": "aqueous",
+          "reference": "1996BP-Fe: Beverskog B, Puigdomenech I; Corros. Sci. 38 (1996) 2121-2135",
+          "terms": [
+            {
+              "name": "Fe 2+",
+              "coefficient": 1
+            },
+            {
+              "name": "H+",
+              "coefficient": -4
+            },
+            {
+              "name": "H2O",
+              "coefficient": 4
+            }
+          ],
+          "logK": -46,
+          "classification": "admitted"
+        },
+        {
+          "id": "spana:2ac52a30213c9288:133463",
+          "name": "Fe2(OH)2+4",
+          "phase": "aqueous",
+          "reference": "NEA-Fe: Lemire R J, Berner U, Musikas C, Palmer D A, Taylor P, Tochiyama O, Chemical Thermodynamics of Iron. Part 1. Paris: OECD Nuclear Energy Agency (NEA), 2013",
+          "terms": [
+            {
+              "name": "Fe 3+",
+              "coefficient": 2
+            },
+            {
+              "name": "H+",
+              "coefficient": -2
+            },
+            {
+              "name": "H2O",
+              "coefficient": 2
+            }
+          ],
+          "logK": -2.82,
+          "classification": "admitted"
+        },
+        {
+          "id": "spana:2ac52a30213c9288:135482",
+          "name": "FeCl+",
+          "phase": "aqueous",
+          "reference": "SmithMart: NIST Standard Reference Database 46 Version 8.\nNIST Critically Selected Stability Constants of Metal Complexes Database\nhttp://www.nist.gov/srd/nist46.cfm\nNational Institute of Standards and Technology, 100 Bureau Dr., Stop 2300, Gaithersburg, MD",
+          "terms": [
+            {
+              "name": "Fe 2+",
+              "coefficient": 1
+            },
+            {
+              "name": "Cl-",
+              "coefficient": 1
+            }
+          ],
+          "logK": -0.3,
+          "classification": "admitted"
+        },
+        {
+          "id": "spana:2ac52a30213c9288:135557",
+          "name": "FeCl+2",
+          "phase": "aqueous",
+          "reference": "NEA-Fe: Lemire R J, Berner U, Musikas C, Palmer D A, Taylor P, Tochiyama O, Chemical Thermodynamics of Iron. Part 1. Paris: OECD Nuclear Energy Agency (NEA), 2013",
+          "terms": [
+            {
+              "name": "Fe 3+",
+              "coefficient": 1
+            },
+            {
+              "name": "Cl-",
+              "coefficient": 1
+            }
+          ],
+          "logK": 1.52,
+          "classification": "admitted"
+        },
+        {
+          "id": "spana:2ac52a30213c9288:135630",
+          "name": "FeCl2+",
+          "phase": "aqueous",
+          "reference": "NEA-Fe: Lemire R J, Berner U, Musikas C, Palmer D A, Taylor P, Tochiyama O, Chemical Thermodynamics of Iron. Part 1. Paris: OECD Nuclear Energy Agency (NEA), 2013\n\n2006LEa: Liu W, Etschmann B, Brugger J, Spiccia L, Foran G, McInnes B; Chem. Geol. 231 (2006) 326-349",
+          "terms": [
+            {
+              "name": "Fe 3+",
+              "coefficient": 1
+            },
+            {
+              "name": "Cl-",
+              "coefficient": 2
+            }
+          ],
+          "logK": 2.22,
+          "classification": "admitted"
+        },
+        {
+          "id": "spana:2ac52a30213c9288:135711",
+          "name": "FeCl3",
+          "phase": "aqueous",
+          "reference": "NEA-Fe: Lemire R J, Berner U, Musikas C, Palmer D A, Taylor P, Tochiyama O, Chemical Thermodynamics of Iron. Part 1. Paris: OECD Nuclear Energy Agency (NEA), 2013\n\n2006LEa: Liu W, Etschmann B, Brugger J, Spiccia L, Foran G, McInnes B; Chem. Geol. 231 (2006) 326-349",
+          "terms": [
+            {
+              "name": "Fe 3+",
+              "coefficient": 1
+            },
+            {
+              "name": "Cl-",
+              "coefficient": 3
+            }
+          ],
+          "logK": 1.02,
+          "classification": "admitted"
+        },
+        {
+          "id": "spana:2ac52a30213c9288:135791",
+          "name": "FeCl4-",
+          "phase": "aqueous",
+          "reference": "NEA-Fe: Lemire R J, Berner U, Musikas C, Palmer D A, Taylor P, Tochiyama O, Chemical Thermodynamics of Iron. Part 1. Paris: OECD Nuclear Energy Agency (NEA), 2013\n\n2006LEa: Liu W, Etschmann B, Brugger J, Spiccia L, Foran G, McInnes B; Chem. Geol. 231 (2006) 326-349",
+          "terms": [
+            {
+              "name": "Fe 3+",
+              "coefficient": 1
+            },
+            {
+              "name": "Cl-",
+              "coefficient": 4
+            }
+          ],
+          "logK": -0.98,
+          "classification": "admitted"
+        },
+        {
+          "id": "spana:2ac52a30213c9288:135872",
+          "name": "FeClO3+2",
+          "phase": "aqueous",
+          "reference": "SmithMart: NIST Standard Reference Database 46 Version 8.\nNIST Critically Selected Stability Constants of Metal Complexes Database\nhttp://www.nist.gov/srd/nist46.cfm\nNational Institute of Standards and Technology, 100 Bureau Dr., Stop 2300, Gaithersburg, MD",
+          "terms": [
+            {
+              "name": "Fe 3+",
+              "coefficient": 1
+            },
+            {
+              "name": "ClO3-",
+              "coefficient": 1
+            }
+          ],
+          "logK": 0.5,
+          "classification": "admitted"
+        },
+        {
+          "id": "spana:2ac52a30213c9288:138672",
+          "name": "FeO4-2",
+          "phase": "aqueous",
+          "reference": "1996BP-Fe: Beverskog B, Puigdomenech I; Corros. Sci. 38 (1996) 2121-2135",
+          "terms": [
+            {
+              "name": "Fe 3+",
+              "coefficient": 1
+            },
+            {
+              "name": "H+",
+              "coefficient": -8
+            },
+            {
+              "name": "e-",
+              "coefficient": -3
+            },
+            {
+              "name": "H2O",
+              "coefficient": 4
+            }
+          ],
+          "logK": -112.6,
+          "classification": "admitted"
+        },
+        {
+          "id": "spana:2ac52a30213c9288:138873",
+          "name": "FeOH 2+",
+          "phase": "aqueous",
+          "reference": "NEA-Fe: Lemire R J, Berner U, Musikas C, Palmer D A, Taylor P, Tochiyama O, Chemical Thermodynamics of Iron. Part 1. Paris: OECD Nuclear Energy Agency (NEA), 2013\n\n1996BP-Fe: Beverskog B, Puigdomenech I; Corros. Sci. 38 (1996) 2121-2135",
+          "terms": [
+            {
+              "name": "Fe 3+",
+              "coefficient": 1
+            },
+            {
+              "name": "H+",
+              "coefficient": -1
+            },
+            {
+              "name": "H2O",
+              "coefficient": 1
+            }
+          ],
+          "logK": -2.15,
+          "classification": "admitted"
+        },
+        {
+          "id": "spana:2ac52a30213c9288:138969",
+          "name": "FeOH+",
+          "phase": "aqueous",
+          "reference": "NEA-Fe: Lemire R J, Berner U, Musikas C, Palmer D A, Taylor P, Tochiyama O, Chemical Thermodynamics of Iron. Part 1. Paris: OECD Nuclear Energy Agency (NEA), 2013\n\n1996BP-Fe: Beverskog B, Puigdomenech I; Corros. Sci. 38 (1996) 2121-2135",
+          "terms": [
+            {
+              "name": "Fe 2+",
+              "coefficient": 1
+            },
+            {
+              "name": "H+",
+              "coefficient": -1
+            },
+            {
+              "name": "H2O",
+              "coefficient": 1
+            }
+          ],
+          "logK": -9.1,
+          "classification": "admitted"
+        },
+        {
+          "id": "spana:2ac52a30213c9288:151381",
+          "name": "H2",
+          "phase": "aqueous",
+          "reference": "82NBS: Wagman D D, Evans W H, Parker V B, Schumm R H, Halow I, Bailey S M, Churney K L, Nuttall R L; The NBS tables of chemical thermodynamic properties: Selected values for inorganic and C1 and C2 organic substances in SI units. J. Phys. Chem. Ref. Data 11, Suppl. No.2, 1982\n\n89Sho/Hel: Shock E L, Helgeson H C, Sverjensky D A; Geochim. Cosmochim. Acta 53 (1989) 2157-2183",
+          "terms": [
+            {
+              "name": "H+",
+              "coefficient": 2
+            },
+            {
+              "name": "e-",
+              "coefficient": 2
+            }
+          ],
+          "logK": -3.083,
+          "classification": "admitted"
+        },
+        {
+          "id": "spana:2ac52a30213c9288:152743",
+          "name": "H2O2",
+          "phase": "aqueous",
+          "reference": "82NBS: Wagman D D, Evans W H, Parker V B, Schumm R H, Halow I, Bailey S M, Churney K L, Nuttall R L; The NBS tables of chemical thermodynamic properties: Selected values for inorganic and C1 and C2 organic substances in SI units. J. Phys. Chem. Ref. Data 11, Suppl. No.2, 1982\n\n1962GC: Giguere P A, Carmichael J L; J.Chem.Eng.Data 7 (1962) 526-527",
+          "terms": [
+            {
+              "name": "H+",
+              "coefficient": -2
+            },
+            {
+              "name": "e-",
+              "coefficient": -2
+            },
+            {
+              "name": "H2O",
+              "coefficient": 2
+            }
+          ],
+          "logK": -59.61,
+          "classification": "admitted"
+        },
+        {
+          "id": "spana:2ac52a30213c9288:159033",
+          "name": "HCl",
+          "phase": "aqueous",
+          "reference": "1997Tag: Tagirov B R, Zotov A V, Akinfiev N N; Geochim. Cosmochim. Acta, 61 (1997) 4267-4280",
+          "terms": [
+            {
+              "name": "H+",
+              "coefficient": 1
+            },
+            {
+              "name": "Cl-",
+              "coefficient": 1
+            }
+          ],
+          "logK": -0.7,
+          "classification": "admitted"
+        },
+        {
+          "id": "spana:2ac52a30213c9288:159101",
+          "name": "HClO",
+          "phase": "aqueous",
+          "reference": "NEA-Fe: Lemire R J, Berner U, Musikas C, Palmer D A, Taylor P, Tochiyama O, Chemical Thermodynamics of Iron. Part 1. Paris: OECD Nuclear Energy Agency (NEA), 2013\n\n1986SPN: Smith R W, Pop C J, Norman D I; Geochim. Cosmochim. Acta 50 (1986) 137-142\n\n88Sho/Hel: Shock E L, Helgeson H C; Geochim. Cosmochim. Acta 52 (1988) 2009-2036; and \"ERRATA\", ibid, 53 (1989) p.215",
+          "terms": [
+            {
+              "name": "H+",
+              "coefficient": -1
+            },
+            {
+              "name": "Cl-",
+              "coefficient": 1
+            },
+            {
+              "name": "e-",
+              "coefficient": -2
+            },
+            {
+              "name": "H2O",
+              "coefficient": 1
+            }
+          ],
+          "logK": -50.514,
+          "classification": "admitted"
+        },
+        {
+          "id": "spana:2ac52a30213c9288:159212",
+          "name": "HClO2",
+          "phase": "aqueous",
+          "reference": "NEA-Fe: Lemire R J, Berner U, Musikas C, Palmer D A, Taylor P, Tochiyama O, Chemical Thermodynamics of Iron. Part 1. Paris: OECD Nuclear Energy Agency (NEA), 2013\n\n82NBS: Wagman D D, Evans W H, Parker V B, Schumm R H, Halow I, Bailey S M, Churney K L, Nuttall R L; The NBS tables of chemical thermodynamic properties: Selected values for inorganic and C1 and C2 organic substances in SI units. J. Phys. Chem. Ref. Data 11, Suppl. No.2, 1982\n\n1986SPN: Smith R W, Pop C J, Norman D I; Geochim. Cosmochim. Acta 50 (1986) 137-142\n\n88Sho/Hel: Shock E L, Helgeson H C; Geochim. Cosmochim. Acta 52 (1988) 2009-2036; and \"ERRATA\", ibid, 53 (1989) p.215",
+          "terms": [
+            {
+              "name": "H+",
+              "coefficient": -3
+            },
+            {
+              "name": "Cl-",
+              "coefficient": 1
+            },
+            {
+              "name": "e-",
+              "coefficient": -4
+            },
+            {
+              "name": "H2O",
+              "coefficient": 2
+            }
+          ],
+          "logK": -105.91,
+          "classification": "admitted"
+        },
+        {
+          "id": "spana:2ac52a30213c9288:175307",
+          "name": "HO2-",
+          "phase": "aqueous",
+          "reference": "SmithMart: NIST Standard Reference Database 46 Version 8.\nNIST Critically Selected Stability Constants of Metal Complexes Database\nhttp://www.nist.gov/srd/nist46.cfm\nNational Institute of Standards and Technology, 100 Bureau Dr., Stop 2300, Gaithersburg, MD\n\n88Sho/Hel: Shock E L, Helgeson H C; Geochim. Cosmochim. Acta 52 (1988) 2009-2036; and \"ERRATA\", ibid, 53 (1989) p.215",
+          "terms": [
+            {
+              "name": "H2O2",
+              "coefficient": 1
+            },
+            {
+              "name": "H+",
+              "coefficient": -1
+            }
+          ],
+          "logK": -11.65,
+          "classification": "admitted"
+        },
+        {
+          "id": "spana:2ac52a30213c9288:249989",
+          "name": "O2",
+          "phase": "aqueous",
+          "reference": "89Sho/Hel: Shock E L, Helgeson H C, Sverjensky D A; Geochim. Cosmochim. Acta 53 (1989) 2157-2183",
+          "terms": [
+            {
+              "name": "H+",
+              "coefficient": -4
+            },
+            {
+              "name": "e-",
+              "coefficient": -4
+            },
+            {
+              "name": "H2O",
+              "coefficient": 2
+            }
+          ],
+          "logK": -85.988,
+          "classification": "admitted"
+        },
+        {
+          "id": "spana:2ac52a30213c9288:250161",
+          "name": "O3",
+          "phase": "aqueous",
+          "reference": "82NBS: Wagman D D, Evans W H, Parker V B, Schumm R H, Halow I, Bailey S M, Churney K L, Nuttall R L; The NBS tables of chemical thermodynamic properties: Selected values for inorganic and C1 and C2 organic substances in SI units. J. Phys. Chem. Ref. Data 11, Suppl. No.2, 1982",
+          "terms": [
+            {
+              "name": "H+",
+              "coefficient": -6
+            },
+            {
+              "name": "e-",
+              "coefficient": -6
+            },
+            {
+              "name": "H2O",
+              "coefficient": 3
+            }
+          ],
+          "logK": -155.14,
+          "classification": "admitted"
+        },
+        {
+          "id": "spana:2ac52a30213c9288:250448",
+          "name": "OH-",
+          "phase": "aqueous",
+          "reference": "Codata: Cox J D, Wagman D D, Medvedev V A, CODATA Key Values for Thermodynamics. Hemisphere Publ. Co., New York, 1989\n\n88Sho/Hel: Shock E L, Helgeson H C; Geochim. Cosmochim. Acta 52 (1988) 2009-2036; and \"ERRATA\", ibid, 53 (1989) p.215",
+          "terms": [
+            {
+              "name": "H+",
+              "coefficient": -1
+            },
+            {
+              "name": "H2O",
+              "coefficient": 1
+            }
+          ],
+          "logK": -14.0015,
+          "classification": "admitted"
+        }
+      ],
+      "excluded": [
+        {
+          "id": "spana:2ac52a30213c9288:82314",
+          "name": "Cl2(g)",
+          "phase": "gas",
+          "reference": "Codata: Cox J D, Wagman D D, Medvedev V A, CODATA Key Values for Thermodynamics. Hemisphere Publ. Co., New York, 1989\n\n88Sho/Hel: Shock E L, Helgeson H C; Geochim. Cosmochim. Acta 52 (1988) 2009-2036; and \"ERRATA\", ibid, 53 (1989) p.215",
+          "terms": [
+            {
+              "name": "Cl-",
+              "coefficient": 2
+            },
+            {
+              "name": "e-",
+              "coefficient": -2
+            }
+          ],
+          "logK": -45.98,
+          "classification": "excluded-conditionally",
+          "reason": "Aqueous-only model; no solid or gas inventory solver in this path"
+        },
+        {
+          "id": "spana:2ac52a30213c9288:127500",
+          "name": "Fe(cr)",
+          "phase": "solid",
+          "reference": "NEA-Fe: Lemire R J, Berner U, Musikas C, Palmer D A, Taylor P, Tochiyama O, Chemical Thermodynamics of Iron. Part 1. Paris: OECD Nuclear Energy Agency (NEA), 2013",
+          "terms": [
+            {
+              "name": "Fe 2+",
+              "coefficient": 1
+            },
+            {
+              "name": "e-",
+              "coefficient": 2
+            }
+          ],
+          "logK": -15.89,
+          "classification": "excluded-conditionally",
+          "reason": "Aqueous-only model; no solid or gas inventory solver in this path"
+        },
+        {
+          "id": "spana:2ac52a30213c9288:130902",
+          "name": "Fe(OH)2(cr)",
+          "phase": "solid",
+          "reference": "2016BE: Brown P L, Ekberg C; Hydrolysis of Metal Ions. Weinheim, Germany: Wiley-VCH Verlag GmbH & Co. KGaA, 2016\n\n91Kna/Kub: Knacke O, Kubaschewski O, Hesselmann K; Thermochemical Properties of Inorganic Substances. Springer-Verlag, Berlin, 1991, 2 ed.",
+          "terms": [
+            {
+              "name": "Fe 2+",
+              "coefficient": 1
+            },
+            {
+              "name": "H+",
+              "coefficient": -2
+            },
+            {
+              "name": "H2O",
+              "coefficient": 2
+            }
+          ],
+          "logK": -12.3,
+          "classification": "excluded-conditionally",
+          "reason": "Aqueous-only model; no solid or gas inventory solver in this path"
+        },
+        {
+          "id": "spana:2ac52a30213c9288:131188",
+          "name": "Fe(OH)3(am)",
+          "phase": "solid",
+          "reference": "1990NP: Nordstrom D K, Plummer L N, Langmuir D, Busenberg E, May H M, Jones B F, Parkhurst D L; in \"Chemical Modeling Of Aqueous Systems II\" (D C Melchior and R L Basett, eds.). Washington, D.C.: A.C.S.Symp.Ser. 416, Amer.Chem.Soc., 1990, pp.398-413.\n\nNEA-Fe: Lemire R J, Berner U, Musikas C, Palmer D A, Taylor P, Tochiyama O, Chemical Thermodynamics of Iron. Part 1. Paris: OECD Nuclear Energy Agency (NEA), 2013",
+          "terms": [
+            {
+              "name": "Fe 3+",
+              "coefficient": 1
+            },
+            {
+              "name": "H+",
+              "coefficient": -3
+            },
+            {
+              "name": "H2O",
+              "coefficient": 3
+            }
+          ],
+          "logK": -4.9,
+          "classification": "excluded-conditionally",
+          "reason": "Aqueous-only model; no solid or gas inventory solver in this path"
+        },
+        {
+          "id": "spana:2ac52a30213c9288:131294",
+          "name": "Fe(OH)3(s)",
+          "phase": "solid",
+          "reference": "NEA-Fe: Lemire R J, Berner U, Musikas C, Palmer D A, Taylor P, Tochiyama O, Chemical Thermodynamics of Iron. Part 1. Paris: OECD Nuclear Energy Agency (NEA), 2013",
+          "terms": [
+            {
+              "name": "Fe 3+",
+              "coefficient": 1
+            },
+            {
+              "name": "H+",
+              "coefficient": -3
+            },
+            {
+              "name": "H2O",
+              "coefficient": 3
+            }
+          ],
+          "logK": -3.43,
+          "classification": "excluded-conditionally",
+          "reason": "Aqueous-only model; no solid or gas inventory solver in this path"
+        },
+        {
+          "id": "spana:2ac52a30213c9288:132744",
+          "name": "Fe0.932O(cr)",
+          "phase": "solid",
+          "reference": "NEA-Fe: Lemire R J, Berner U, Musikas C, Palmer D A, Taylor P, Tochiyama O, Chemical Thermodynamics of Iron. Part 1. Paris: OECD Nuclear Energy Agency (NEA), 2013",
+          "terms": [
+            {
+              "name": "Fe 2+",
+              "coefficient": 0.932
+            },
+            {
+              "name": "H+",
+              "coefficient": -2
+            },
+            {
+              "name": "e-",
+              "coefficient": -0.136
+            },
+            {
+              "name": "H2O",
+              "coefficient": 1
+            }
+          ],
+          "logK": -13.507,
+          "classification": "excluded-conditionally",
+          "reason": "Aqueous-only model; no solid or gas inventory solver in this path"
+        },
+        {
+          "id": "spana:2ac52a30213c9288:133739",
+          "name": "Fe2O3(cr)",
+          "phase": "solid",
+          "reference": "NEA-Fe: Lemire R J, Berner U, Musikas C, Palmer D A, Taylor P, Tochiyama O, Chemical Thermodynamics of Iron. Part 1. Paris: OECD Nuclear Energy Agency (NEA), 2013",
+          "terms": [
+            {
+              "name": "Fe 3+",
+              "coefficient": 2
+            },
+            {
+              "name": "H+",
+              "coefficient": -6
+            },
+            {
+              "name": "H2O",
+              "coefficient": 3
+            }
+          ],
+          "logK": 0.101,
+          "classification": "excluded-conditionally",
+          "reason": "Aqueous-only model; no solid or gas inventory solver in this path"
+        },
+        {
+          "id": "spana:2ac52a30213c9288:134486",
+          "name": "Fe3O4(cr)",
+          "phase": "solid",
+          "reference": "NEA-Fe: Lemire R J, Berner U, Musikas C, Palmer D A, Taylor P, Tochiyama O, Chemical Thermodynamics of Iron. Part 1. Paris: OECD Nuclear Energy Agency (NEA), 2013",
+          "terms": [
+            {
+              "name": "Fe 3+",
+              "coefficient": 3
+            },
+            {
+              "name": "H+",
+              "coefficient": -8
+            },
+            {
+              "name": "e-",
+              "coefficient": 1
+            },
+            {
+              "name": "H2O",
+              "coefficient": 4
+            }
+          ],
+          "logK": 2.712,
+          "classification": "excluded-conditionally",
+          "reason": "Aqueous-only model; no solid or gas inventory solver in this path"
+        },
+        {
+          "id": "spana:2ac52a30213c9288:138772",
+          "name": "FeOCl(cr)",
+          "phase": "solid",
+          "reference": "NEA-Fe: Lemire R J, Berner U, Musikas C, Palmer D A, Taylor P, Tochiyama O, Chemical Thermodynamics of Iron. Part 1. Paris: OECD Nuclear Energy Agency (NEA), 2013",
+          "terms": [
+            {
+              "name": "Fe 3+",
+              "coefficient": 1
+            },
+            {
+              "name": "H+",
+              "coefficient": -2
+            },
+            {
+              "name": "Cl-",
+              "coefficient": 1
+            },
+            {
+              "name": "H2O",
+              "coefficient": 1
+            }
+          ],
+          "logK": -4.55,
+          "classification": "excluded-conditionally",
+          "reason": "Aqueous-only model; no solid or gas inventory solver in this path"
+        },
+        {
+          "id": "spana:2ac52a30213c9288:139276",
+          "name": "FeOOH(cr)",
+          "phase": "solid",
+          "reference": "NEA-Fe: Lemire R J, Berner U, Musikas C, Palmer D A, Taylor P, Tochiyama O, Chemical Thermodynamics of Iron. Part 1. Paris: OECD Nuclear Energy Agency (NEA), 2013",
+          "terms": [
+            {
+              "name": "Fe 3+",
+              "coefficient": 1
+            },
+            {
+              "name": "H+",
+              "coefficient": -3
+            },
+            {
+              "name": "H2O",
+              "coefficient": 2
+            }
+          ],
+          "logK": -0.17,
+          "classification": "excluded-conditionally",
+          "reason": "Aqueous-only model; no solid or gas inventory solver in this path"
+        },
+        {
+          "id": "spana:2ac52a30213c9288:151531",
+          "name": "H2(g)",
+          "phase": "gas",
+          "reference": "82NBS: Wagman D D, Evans W H, Parker V B, Schumm R H, Halow I, Bailey S M, Churney K L, Nuttall R L; The NBS tables of chemical thermodynamic properties: Selected values for inorganic and C1 and C2 organic substances in SI units. J. Phys. Chem. Ref. Data 11, Suppl. No.2, 1982",
+          "terms": [
+            {
+              "name": "H+",
+              "coefficient": 2
+            },
+            {
+              "name": "e-",
+              "coefficient": 2
+            }
+          ],
+          "logK": 0,
+          "classification": "excluded-conditionally",
+          "reason": "Aqueous-only model; no solid or gas inventory solver in this path"
+        },
+        {
+          "id": "spana:2ac52a30213c9288:250070",
+          "name": "O2(g)",
+          "phase": "gas",
+          "reference": "Codata: Cox J D, Wagman D D, Medvedev V A, CODATA Key Values for Thermodynamics. Hemisphere Publ. Co., New York, 1989\n\n95Rob/Hem: Robie R A, Hemingway B S; Thermodynamic properties of minerals and related substances at 298.15 K and 1 bar (10^5 pascals) pressure and at higher temperatures. U.S. Geological Survey Bulletin 2131. Washington, DC: U.S. Goverment Printing Office, 1995",
+          "terms": [
+            {
+              "name": "H+",
+              "coefficient": -4
+            },
+            {
+              "name": "e-",
+              "coefficient": -4
+            },
+            {
+              "name": "H2O",
+              "coefficient": 2
+            }
+          ],
+          "logK": -83.09,
+          "classification": "excluded-conditionally",
+          "reason": "Aqueous-only model; no solid or gas inventory solver in this path"
+        },
+        {
+          "id": "spana:2ac52a30213c9288:250265",
+          "name": "O3(g)",
+          "phase": "gas",
+          "reference": "82NBS: Wagman D D, Evans W H, Parker V B, Schumm R H, Halow I, Bailey S M, Churney K L, Nuttall R L; The NBS tables of chemical thermodynamic properties: Selected values for inorganic and C1 and C2 organic substances in SI units. J. Phys. Chem. Ref. Data 11, Suppl. No.2, 1982",
+          "terms": [
+            {
+              "name": "H+",
+              "coefficient": -6
+            },
+            {
+              "name": "e-",
+              "coefficient": -6
+            },
+            {
+              "name": "H2O",
+              "coefficient": 3
+            }
+          ],
+          "logK": -153.23,
+          "classification": "excluded-conditionally",
+          "reason": "Aqueous-only model; no solid or gas inventory solver in this path"
+        }
+      ],
+      "redoxFamilies": [
+        {
+          "conservedElements": "Cl",
+          "sourceIds": [
+            "spana:2ac52a30213c9288:82236",
+            "spana:2ac52a30213c9288:82394",
+            "spana:2ac52a30213c9288:82497",
+            "spana:2ac52a30213c9288:82605",
+            "spana:2ac52a30213c9288:82715",
+            "spana:2ac52a30213c9288:159101",
+            "spana:2ac52a30213c9288:159212"
+          ],
+          "electronCounts": [
+            -2,
+            -2,
+            -5,
+            -4,
+            -6,
+            -2,
+            -4
+          ]
+        },
+        {
+          "conservedElements": "Fe",
+          "sourceIds": [
+            "spana:2ac52a30213c9288:126513",
+            "spana:2ac52a30213c9288:126584",
+            "spana:2ac52a30213c9288:138672"
+          ],
+          "electronCounts": [
+            1,
+            -1,
+            -3
+          ]
+        },
+        {
+          "conservedElements": "H/O",
+          "sourceIds": [
+            "spana:2ac52a30213c9288:151381",
+            "spana:2ac52a30213c9288:152743",
+            "spana:2ac52a30213c9288:249989",
+            "spana:2ac52a30213c9288:250161"
+          ],
+          "electronCounts": [
+            2,
+            -2,
+            -4,
+            -6
+          ]
+        }
+      ],
+      "ordinary": [
+        {
+          "id": "spana:2ac52a30213c9288:130813",
+          "name": "Fe(OH)2",
+          "category": "proton/water or hydrolysis",
+          "classificationBasis": "Source participation only; detailed mechanistic subtype not inferred from formula"
+        },
+        {
+          "id": "spana:2ac52a30213c9288:131002",
+          "name": "Fe(OH)2+",
+          "category": "proton/water or hydrolysis",
+          "classificationBasis": "Source participation only; detailed mechanistic subtype not inferred from formula"
+        },
+        {
+          "id": "spana:2ac52a30213c9288:131099",
+          "name": "Fe(OH)3",
+          "category": "proton/water or hydrolysis",
+          "classificationBasis": "Source participation only; detailed mechanistic subtype not inferred from formula"
+        },
+        {
+          "id": "spana:2ac52a30213c9288:131406",
+          "name": "Fe(OH)3-",
+          "category": "proton/water or hydrolysis",
+          "classificationBasis": "Source participation only; detailed mechanistic subtype not inferred from formula"
+        },
+        {
+          "id": "spana:2ac52a30213c9288:131496",
+          "name": "Fe(OH)4-",
+          "category": "proton/water or hydrolysis",
+          "classificationBasis": "Source participation only; detailed mechanistic subtype not inferred from formula"
+        },
+        {
+          "id": "spana:2ac52a30213c9288:131586",
+          "name": "Fe(OH)4-2",
+          "category": "proton/water or hydrolysis",
+          "classificationBasis": "Source participation only; detailed mechanistic subtype not inferred from formula"
+        },
+        {
+          "id": "spana:2ac52a30213c9288:133463",
+          "name": "Fe2(OH)2+4",
+          "category": "proton/water or hydrolysis",
+          "classificationBasis": "Source participation only; detailed mechanistic subtype not inferred from formula"
+        },
+        {
+          "id": "spana:2ac52a30213c9288:135482",
+          "name": "FeCl+",
+          "category": "complexation",
+          "classificationBasis": "Source participation only; detailed mechanistic subtype not inferred from formula"
+        },
+        {
+          "id": "spana:2ac52a30213c9288:135557",
+          "name": "FeCl+2",
+          "category": "complexation",
+          "classificationBasis": "Source participation only; detailed mechanistic subtype not inferred from formula"
+        },
+        {
+          "id": "spana:2ac52a30213c9288:135630",
+          "name": "FeCl2+",
+          "category": "complexation",
+          "classificationBasis": "Source participation only; detailed mechanistic subtype not inferred from formula"
+        },
+        {
+          "id": "spana:2ac52a30213c9288:135711",
+          "name": "FeCl3",
+          "category": "complexation",
+          "classificationBasis": "Source participation only; detailed mechanistic subtype not inferred from formula"
+        },
+        {
+          "id": "spana:2ac52a30213c9288:135791",
+          "name": "FeCl4-",
+          "category": "complexation",
+          "classificationBasis": "Source participation only; detailed mechanistic subtype not inferred from formula"
+        },
+        {
+          "id": "spana:2ac52a30213c9288:135872",
+          "name": "FeClO3+2",
+          "category": "complexation",
+          "classificationBasis": "Source participation only; detailed mechanistic subtype not inferred from formula"
+        },
+        {
+          "id": "spana:2ac52a30213c9288:138873",
+          "name": "FeOH 2+",
+          "category": "proton/water or hydrolysis",
+          "classificationBasis": "Source participation only; detailed mechanistic subtype not inferred from formula"
+        },
+        {
+          "id": "spana:2ac52a30213c9288:138969",
+          "name": "FeOH+",
+          "category": "proton/water or hydrolysis",
+          "classificationBasis": "Source participation only; detailed mechanistic subtype not inferred from formula"
+        },
+        {
+          "id": "spana:2ac52a30213c9288:159033",
+          "name": "HCl",
+          "category": "acid/base or ordinary association",
+          "classificationBasis": "Source participation only; detailed mechanistic subtype not inferred from formula"
+        },
+        {
+          "id": "spana:2ac52a30213c9288:175307",
+          "name": "HO2-",
+          "category": "acid/base or ordinary association",
+          "classificationBasis": "Source participation only; detailed mechanistic subtype not inferred from formula"
+        },
+        {
+          "id": "spana:2ac52a30213c9288:250448",
+          "name": "OH-",
+          "category": "proton/water or hydrolysis",
+          "classificationBasis": "Source participation only; detailed mechanistic subtype not inferred from formula"
+        }
+      ],
+      "componentRoles": [
+        {
+          "id": "component:Fe%202%2B",
+          "roles": [
+            "redox-active",
+            "ordinary acid/base or association",
+            "complexing"
+          ],
+          "phaseForming": true
+        },
+        {
+          "id": "component:H2O2",
+          "roles": [
+            "redox-active",
+            "ordinary acid/base or association"
+          ],
+          "phaseForming": false
+        },
+        {
+          "id": "component:Cl-",
+          "roles": [
+            "redox-active",
+            "complexing",
+            "ordinary acid/base or association"
+          ],
+          "phaseForming": true
+        }
+      ]
+    }
+  }
+}

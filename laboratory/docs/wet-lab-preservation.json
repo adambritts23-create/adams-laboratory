@@ -1,0 +1,26 @@
+{
+  "checked": 772,
+  "changedPreExistingFiles": [],
+  "newEngineFiles": [
+    {
+      "path": "src/calculations/wetLabSolutions.js",
+      "sha256": "DC68EAE0F79CA8F8A9B0CD9DA4AD4F9A66495BAB55FE221299FB19E7B404FD71"
+    },
+    {
+      "path": "src/calculations/wetLabTitration.js",
+      "sha256": "F817E3D724D77DE1FF8BCBBC20F0944C61B724AC46F2559760251E899BC050B9"
+    },
+    {
+      "path": "tests/wetLab.test.js",
+      "sha256": "657907EC7E71DA253ED7BBE6CC4C13080BDE04A094A552AE1D5CB57471698451"
+    },
+    {
+      "path": "scripts/validation/wetLabReference.js",
+      "sha256": "D8ED1E34D568FBD9904A48FC55213D78C12C30F247AB7030A5722A93D3B23587"
+    },
+    {
+      "path": "scripts/validation/wetLabBenchmark.js",
+      "sha256": "3357DE9C118830BF456947351ED6E7E7639946A4D9840693A0DBFB70D08E5318"
+    }
+  ]
+}

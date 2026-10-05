@@ -1,0 +1,2128 @@
+{
+  "kind": "bounded-canonical-redox-validation",
+  "date": "2026-09-10T13:35:58.317Z",
+  "baselineTests": 408,
+  "pourbaixEnabled": false,
+  "scope": "One unit electron-bridge-connected source inventory, integer source coefficients; not a public thermodynamic completeness claim.",
+  "cases": [
+    {
+      "selectedSource": "Fe 2+",
+      "preparationMs": 58.2491,
+      "systemId": "a93f694ad9d3b6f36f922a5cd6244766cc49ad43e2f5932b2518a6b4210af4ce",
+      "inventory": {
+        "canonicalComponentId": "component:Fe%202%2B",
+        "sourceComponentIds": [
+          "component:Fe%202%2B",
+          "component:Fe%203%2B"
+        ],
+        "weights": [
+          {
+            "componentId": "component:Fe%202%2B",
+            "coefficient": 1
+          },
+          {
+            "componentId": "component:Fe%203%2B",
+            "coefficient": 1
+          }
+        ],
+        "meaning": "One conserved source moiety established by unit electron-only bridges; no separate oxidation-state totals."
+      },
+      "basis": [
+        {
+          "id": "component:Fe%202%2B",
+          "name": "Fe 2+",
+          "charge": 2,
+          "role": "ordinary",
+          "suppressed": false
+        },
+        {
+          "id": "component:H%2B",
+          "name": "H+",
+          "charge": 1,
+          "role": "proton",
+          "suppressed": false
+        },
+        {
+          "id": "component:e-",
+          "name": "e-",
+          "charge": -1,
+          "role": "electron",
+          "suppressed": true
+        },
+        {
+          "id": "component:H2O",
+          "name": "H2O",
+          "charge": 0,
+          "role": "water",
+          "suppressed": true
+        }
+      ],
+      "validation": {
+        "rank": 1,
+        "dependentBasisCount": 1,
+        "cycleLogTolerance": 1e-10,
+        "bridgeRecords": [
+          "spana:2ac52a30213c9288:126513",
+          "spana:2ac52a30213c9288:126584"
+        ],
+        "basisRule": "lexically-smallest-exact-source-component-id",
+        "bounds": {
+          "records": 10000,
+          "states": 8,
+          "depth": 7,
+          "products": 128,
+          "coefficient": 1024
+        }
+      },
+      "productCount": 23,
+      "solidCount": 7,
+      "excluded": [
+        "Fe0.932O(cr)"
+      ],
+      "transformedRows": [
+        {
+          "id": "canonical-state:component:Fe%203%2B",
+          "name": "Fe 3+",
+          "phase": "aqueous",
+          "coefficients": [
+            1,
+            0,
+            -1,
+            0
+          ],
+          "logBeta": -13.051,
+          "sourceIds": [
+            {
+              "id": "spana:2ac52a30213c9288:126513",
+              "multiplier": -1
+            }
+          ],
+          "originalId": "spana:2ac52a30213c9288:126513"
+        },
+        {
+          "id": "spana:2ac52a30213c9288:130813",
+          "name": "Fe(OH)2",
+          "phase": "aqueous",
+          "coefficients": [
+            1,
+            -2,
+            0,
+            2
+          ],
+          "logBeta": -20.6,
+          "sourceIds": [],
+          "originalId": "spana:2ac52a30213c9288:130813"
+        },
+        {
+          "id": "spana:2ac52a30213c9288:131002",
+          "name": "Fe(OH)2+",
+          "phase": "aqueous",
+          "coefficients": [
+            1,
+            -2,
+            -1,
+            2
+          ],
+          "logBeta": -17.851,
+          "sourceIds": [
+            {
+              "id": "spana:2ac52a30213c9288:126513",
+              "multiplier": -1
+            }
+          ],
+          "originalId": "spana:2ac52a30213c9288:131002"
+        },
+        {
+          "id": "spana:2ac52a30213c9288:131099",
+          "name": "Fe(OH)3",
+          "phase": "aqueous",
+          "coefficients": [
+            1,
+            -3,
+            -1,
+            3
+          ],
+          "logBeta": -25.051000000000002,
+          "sourceIds": [
+            {
+              "id": "spana:2ac52a30213c9288:126513",
+              "multiplier": -1
+            }
+          ],
+          "originalId": "spana:2ac52a30213c9288:131099"
+        },
+        {
+          "id": "spana:2ac52a30213c9288:131406",
+          "name": "Fe(OH)3-",
+          "phase": "aqueous",
+          "coefficients": [
+            1,
+            -3,
+            0,
+            3
+          ],
+          "logBeta": -34.2,
+          "sourceIds": [],
+          "originalId": "spana:2ac52a30213c9288:131406"
+        },
+        {
+          "id": "spana:2ac52a30213c9288:131496",
+          "name": "Fe(OH)4-",
+          "phase": "aqueous",
+          "coefficients": [
+            1,
+            -4,
+            -1,
+            4
+          ],
+          "logBeta": -34.651,
+          "sourceIds": [
+            {
+              "id": "spana:2ac52a30213c9288:126513",
+              "multiplier": -1
+            }
+          ],
+          "originalId": "spana:2ac52a30213c9288:131496"
+        },
+        {
+          "id": "spana:2ac52a30213c9288:131586",
+          "name": "Fe(OH)4-2",
+          "phase": "aqueous",
+          "coefficients": [
+            1,
+            -4,
+            0,
+            4
+          ],
+          "logBeta": -46,
+          "sourceIds": [],
+          "originalId": "spana:2ac52a30213c9288:131586"
+        },
+        {
+          "id": "spana:2ac52a30213c9288:133463",
+          "name": "Fe2(OH)2+4",
+          "phase": "aqueous",
+          "coefficients": [
+            2,
+            -2,
+            -2,
+            2
+          ],
+          "logBeta": -28.922,
+          "sourceIds": [
+            {
+              "id": "spana:2ac52a30213c9288:126513",
+              "multiplier": -2
+            }
+          ],
+          "originalId": "spana:2ac52a30213c9288:133463"
+        },
+        {
+          "id": "spana:2ac52a30213c9288:138672",
+          "name": "FeO4-2",
+          "phase": "aqueous",
+          "coefficients": [
+            1,
+            -8,
+            -4,
+            4
+          ],
+          "logBeta": -125.651,
+          "sourceIds": [
+            {
+              "id": "spana:2ac52a30213c9288:126513",
+              "multiplier": -1
+            }
+          ],
+          "originalId": "spana:2ac52a30213c9288:138672"
+        },
+        {
+          "id": "spana:2ac52a30213c9288:138873",
+          "name": "FeOH 2+",
+          "phase": "aqueous",
+          "coefficients": [
+            1,
+            -1,
+            -1,
+            1
+          ],
+          "logBeta": -15.201,
+          "sourceIds": [
+            {
+              "id": "spana:2ac52a30213c9288:126513",
+              "multiplier": -1
+            }
+          ],
+          "originalId": "spana:2ac52a30213c9288:138873"
+        },
+        {
+          "id": "spana:2ac52a30213c9288:138969",
+          "name": "FeOH+",
+          "phase": "aqueous",
+          "coefficients": [
+            1,
+            -1,
+            0,
+            1
+          ],
+          "logBeta": -9.1,
+          "sourceIds": [],
+          "originalId": "spana:2ac52a30213c9288:138969"
+        },
+        {
+          "id": "spana:2ac52a30213c9288:151381",
+          "name": "H2",
+          "phase": "aqueous",
+          "coefficients": [
+            0,
+            2,
+            2,
+            0
+          ],
+          "logBeta": -3.083,
+          "sourceIds": [],
+          "originalId": "spana:2ac52a30213c9288:151381"
+        },
+        {
+          "id": "spana:2ac52a30213c9288:152743",
+          "name": "H2O2",
+          "phase": "aqueous",
+          "coefficients": [
+            0,
+            -2,
+            -2,
+            2
+          ],
+          "logBeta": -59.61,
+          "sourceIds": [],
+          "originalId": "spana:2ac52a30213c9288:152743"
+        },
+        {
+          "id": "spana:2ac52a30213c9288:249989",
+          "name": "O2",
+          "phase": "aqueous",
+          "coefficients": [
+            0,
+            -4,
+            -4,
+            2
+          ],
+          "logBeta": -85.988,
+          "sourceIds": [],
+          "originalId": "spana:2ac52a30213c9288:249989"
+        },
+        {
+          "id": "spana:2ac52a30213c9288:250161",
+          "name": "O3",
+          "phase": "aqueous",
+          "coefficients": [
+            0,
+            -6,
+            -6,
+            3
+          ],
+          "logBeta": -155.14,
+          "sourceIds": [],
+          "originalId": "spana:2ac52a30213c9288:250161"
+        },
+        {
+          "id": "spana:2ac52a30213c9288:250448",
+          "name": "OH-",
+          "phase": "aqueous",
+          "coefficients": [
+            0,
+            -1,
+            0,
+            1
+          ],
+          "logBeta": -14.0015,
+          "sourceIds": [],
+          "originalId": "spana:2ac52a30213c9288:250448"
+        },
+        {
+          "id": "spana:2ac52a30213c9288:127500",
+          "name": "Fe(cr)",
+          "phase": "solid",
+          "coefficients": [
+            1,
+            0,
+            2,
+            0
+          ],
+          "logBeta": -15.89,
+          "sourceIds": [],
+          "originalId": "spana:2ac52a30213c9288:127500"
+        },
+        {
+          "id": "spana:2ac52a30213c9288:130902",
+          "name": "Fe(OH)2(cr)",
+          "phase": "solid",
+          "coefficients": [
+            1,
+            -2,
+            0,
+            2
+          ],
+          "logBeta": -12.3,
+          "sourceIds": [],
+          "originalId": "spana:2ac52a30213c9288:130902"
+        },
+        {
+          "id": "spana:2ac52a30213c9288:131188",
+          "name": "Fe(OH)3(am)",
+          "phase": "solid",
+          "coefficients": [
+            1,
+            -3,
+            -1,
+            3
+          ],
+          "logBeta": -17.951,
+          "sourceIds": [
+            {
+              "id": "spana:2ac52a30213c9288:126513",
+              "multiplier": -1
+            }
+          ],
+          "originalId": "spana:2ac52a30213c9288:131188"
+        },
+        {
+          "id": "spana:2ac52a30213c9288:131294",
+          "name": "Fe(OH)3(s)",
+          "phase": "solid",
+          "coefficients": [
+            1,
+            -3,
+            -1,
+            3
+          ],
+          "logBeta": -16.481,
+          "sourceIds": [
+            {
+              "id": "spana:2ac52a30213c9288:126513",
+              "multiplier": -1
+            }
+          ],
+          "originalId": "spana:2ac52a30213c9288:131294"
+        },
+        {
+          "id": "spana:2ac52a30213c9288:133739",
+          "name": "Fe2O3(cr)",
+          "phase": "solid",
+          "coefficients": [
+            2,
+            -6,
+            -2,
+            3
+          ],
+          "logBeta": -26.001,
+          "sourceIds": [
+            {
+              "id": "spana:2ac52a30213c9288:126513",
+              "multiplier": -2
+            }
+          ],
+          "originalId": "spana:2ac52a30213c9288:133739"
+        },
+        {
+          "id": "spana:2ac52a30213c9288:134486",
+          "name": "Fe3O4(cr)",
+          "phase": "solid",
+          "coefficients": [
+            3,
+            -8,
+            -2,
+            4
+          ],
+          "logBeta": -36.440999999999995,
+          "sourceIds": [
+            {
+              "id": "spana:2ac52a30213c9288:126513",
+              "multiplier": -3
+            }
+          ],
+          "originalId": "spana:2ac52a30213c9288:134486"
+        },
+        {
+          "id": "spana:2ac52a30213c9288:139276",
+          "name": "FeOOH(cr)",
+          "phase": "solid",
+          "coefficients": [
+            1,
+            -3,
+            -1,
+            2
+          ],
+          "logBeta": -13.221,
+          "sourceIds": [
+            {
+              "id": "spana:2ac52a30213c9288:126513",
+              "multiplier": -1
+            }
+          ],
+          "originalId": "spana:2ac52a30213c9288:139276"
+        }
+      ],
+      "points": [
+        {
+          "pH": 2,
+          "pe": 0,
+          "Eh": 0,
+          "solveMs": 8.794999999999845,
+          "inputId": "2f1ded6ecaeb99ff6559e018dbc11e08f4cfc33e441704747bc40e70462f5e93",
+          "accepted": true,
+          "dissolved": 0.001000000000000003,
+          "solidTotal": 0,
+          "inventoryError": 3.0357660829594124e-18,
+          "balanceTolerance": 1e-13,
+          "massActionMax": 0,
+          "componentResiduals": [
+            3.0357660829594124e-18,
+            null,
+            null,
+            null
+          ],
+          "electronActivityLog": 0,
+          "electronFreeAmount": 0,
+          "solids": [
+            {
+              "id": "spana:2ac52a30213c9288:127500",
+              "name": "Fe(cr)",
+              "amount": 0,
+              "logSaturation": -18.890000034497305,
+              "status": "absent",
+              "activity": null
+            },
+            {
+              "id": "spana:2ac52a30213c9288:130902",
+              "name": "Fe(OH)2(cr)",
+              "amount": 0,
+              "logSaturation": -11.300000034497307,
+              "status": "absent",
+              "activity": null
+            },
+            {
+              "id": "spana:2ac52a30213c9288:131188",
+              "name": "Fe(OH)3(am)",
+              "amount": 0,
+              "logSaturation": -14.951000034497307,
+              "status": "absent",
+              "activity": null
+            },
+            {
+              "id": "spana:2ac52a30213c9288:131294",
+              "name": "Fe(OH)3(s)",
+              "amount": 0,
+              "logSaturation": -13.481000034497308,
+              "status": "absent",
+              "activity": null
+            },
+            {
+              "id": "spana:2ac52a30213c9288:133739",
+              "name": "Fe2O3(cr)",
+              "amount": 0,
+              "logSaturation": -20.001000068994614,
+              "status": "absent",
+              "activity": null
+            },
+            {
+              "id": "spana:2ac52a30213c9288:134486",
+              "name": "Fe3O4(cr)",
+              "amount": 0,
+              "logSaturation": -29.441000103491916,
+              "status": "absent",
+              "activity": null
+            },
+            {
+              "id": "spana:2ac52a30213c9288:139276",
+              "name": "FeOOH(cr)",
+              "amount": 0,
+              "logSaturation": -10.221000034497306,
+              "status": "absent",
+              "activity": null
+            }
+          ],
+          "classification": null
+        },
+        {
+          "pH": 7,
+          "pe": 0,
+          "Eh": 0,
+          "solveMs": 1.9541999999999007,
+          "inputId": "65c15050a24cda9af1ec9e66bd546e7ad84b16c499d47e61b4bfb84e52fedaaa",
+          "accepted": true,
+          "dissolved": 1.0093349833559378e-8,
+          "solidTotal": 0.0009999899066501664,
+          "inventoryError": 0,
+          "balanceTolerance": 1e-13,
+          "massActionMax": 0,
+          "componentResiduals": [
+            0,
+            null,
+            null,
+            null
+          ],
+          "electronActivityLog": 0,
+          "electronFreeAmount": 0,
+          "solids": [
+            {
+              "id": "spana:2ac52a30213c9288:127500",
+              "name": "Fe(cr)",
+              "amount": 0,
+              "logSaturation": -23.889499999999998,
+              "status": "absent",
+              "activity": null
+            },
+            {
+              "id": "spana:2ac52a30213c9288:130902",
+              "name": "Fe(OH)2(cr)",
+              "amount": 0,
+              "logSaturation": -6.2995,
+              "status": "absent",
+              "activity": null
+            },
+            {
+              "id": "spana:2ac52a30213c9288:131188",
+              "name": "Fe(OH)3(am)",
+              "amount": 0,
+              "logSaturation": -4.9505,
+              "status": "absent",
+              "activity": null
+            },
+            {
+              "id": "spana:2ac52a30213c9288:131294",
+              "name": "Fe(OH)3(s)",
+              "amount": 0,
+              "logSaturation": -3.480500000000001,
+              "status": "absent",
+              "activity": null
+            },
+            {
+              "id": "spana:2ac52a30213c9288:133739",
+              "name": "Fe2O3(cr)",
+              "amount": 0.0004999949533250832,
+              "logSaturation": 0,
+              "status": "present",
+              "activity": 1
+            },
+            {
+              "id": "spana:2ac52a30213c9288:134486",
+              "name": "Fe3O4(cr)",
+              "amount": 0,
+              "logSaturation": -4.439499999999995,
+              "status": "absent",
+              "activity": null
+            },
+            {
+              "id": "spana:2ac52a30213c9288:139276",
+              "name": "FeOOH(cr)",
+              "amount": 0,
+              "logSaturation": -0.22049999999999947,
+              "status": "absent",
+              "activity": null
+            }
+          ],
+          "classification": null
+        },
+        {
+          "pH": 7,
+          "pe": 13,
+          "Eh": 0.7690715459021703,
+          "solveMs": 1.8725000000001728,
+          "inputId": "467745e063e22af94f2517b7d75245e93f4f0f140100ffbda9e62c1c4b8ab2d1",
+          "accepted": true,
+          "dissolved": 2.3034368447009703e-12,
+          "solidTotal": 0.0009999999976965633,
+          "inventoryError": 0,
+          "balanceTolerance": 1e-13,
+          "massActionMax": 0,
+          "componentResiduals": [
+            0,
+            null,
+            null,
+            null
+          ],
+          "electronActivityLog": -13,
+          "electronFreeAmount": 0,
+          "solids": [
+            {
+              "id": "spana:2ac52a30213c9288:127500",
+              "name": "Fe(cr)",
+              "amount": 0,
+              "logSaturation": -62.8895,
+              "status": "absent",
+              "activity": null
+            },
+            {
+              "id": "spana:2ac52a30213c9288:130902",
+              "name": "Fe(OH)2(cr)",
+              "amount": 0,
+              "logSaturation": -19.2995,
+              "status": "absent",
+              "activity": null
+            },
+            {
+              "id": "spana:2ac52a30213c9288:131188",
+              "name": "Fe(OH)3(am)",
+              "amount": 0,
+              "logSaturation": -4.950499999999998,
+              "status": "absent",
+              "activity": null
+            },
+            {
+              "id": "spana:2ac52a30213c9288:131294",
+              "name": "Fe(OH)3(s)",
+              "amount": 0,
+              "logSaturation": -3.4804999999999993,
+              "status": "absent",
+              "activity": null
+            },
+            {
+              "id": "spana:2ac52a30213c9288:133739",
+              "name": "Fe2O3(cr)",
+              "amount": 0.0004999999988482816,
+              "logSaturation": 3.552713678800501e-15,
+              "status": "present",
+              "activity": 1
+            },
+            {
+              "id": "spana:2ac52a30213c9288:134486",
+              "name": "Fe3O4(cr)",
+              "amount": 0,
+              "logSaturation": -17.43949999999999,
+              "status": "absent",
+              "activity": null
+            },
+            {
+              "id": "spana:2ac52a30213c9288:139276",
+              "name": "FeOOH(cr)",
+              "amount": 0,
+              "logSaturation": -0.2204999999999977,
+              "status": "absent",
+              "activity": null
+            }
+          ],
+          "classification": null
+        },
+        {
+          "pH": 10,
+          "pe": 20,
+          "Eh": 1.1831869936956467,
+          "solveMs": 4.590199999999868,
+          "inputId": "316587b0037065c2e30a955bc9e21e42973a4b436249a4eee73936afcef3f1bc",
+          "accepted": true,
+          "dissolved": 0.0009999999999999835,
+          "solidTotal": 0,
+          "inventoryError": -1.6479873021779667e-17,
+          "balanceTolerance": 1e-13,
+          "massActionMax": 0,
+          "componentResiduals": [
+            -1.6479873021779667e-17,
+            null,
+            null,
+            null
+          ],
+          "electronActivityLog": -20,
+          "electronFreeAmount": 0,
+          "solids": [
+            {
+              "id": "spana:2ac52a30213c9288:127500",
+              "name": "Fe(cr)",
+              "amount": 0,
+              "logSaturation": -93.23900000060748,
+              "status": "absent",
+              "activity": null
+            },
+            {
+              "id": "spana:2ac52a30213c9288:130902",
+              "name": "Fe(OH)2(cr)",
+              "amount": 0,
+              "logSaturation": -29.649000000607476,
+              "status": "absent",
+              "activity": null
+            },
+            {
+              "id": "spana:2ac52a30213c9288:131188",
+              "name": "Fe(OH)3(am)",
+              "amount": 0,
+              "logSaturation": -5.300000000607476,
+              "status": "absent",
+              "activity": null
+            },
+            {
+              "id": "spana:2ac52a30213c9288:131294",
+              "name": "Fe(OH)3(s)",
+              "amount": 0,
+              "logSaturation": -3.830000000607477,
+              "status": "absent",
+              "activity": null
+            },
+            {
+              "id": "spana:2ac52a30213c9288:133739",
+              "name": "Fe2O3(cr)",
+              "amount": 0,
+              "logSaturation": -0.6990000012149515,
+              "status": "absent",
+              "activity": null
+            },
+            {
+              "id": "spana:2ac52a30213c9288:134486",
+              "name": "Fe3O4(cr)",
+              "amount": 0,
+              "logSaturation": -28.48800000182242,
+              "status": "absent",
+              "activity": null
+            },
+            {
+              "id": "spana:2ac52a30213c9288:139276",
+              "name": "FeOOH(cr)",
+              "amount": 0,
+              "logSaturation": -0.5700000006074752,
+              "status": "absent",
+              "activity": null
+            }
+          ],
+          "classification": null
+        }
+      ]
+    },
+    {
+      "selectedSource": "Cu+",
+      "preparationMs": 34.9529,
+      "systemId": "29d11a5efaa2efa95d9ea44328e367bc572d96818656525ba47452dddb23288a",
+      "inventory": {
+        "canonicalComponentId": "component:Cu%202%2B",
+        "sourceComponentIds": [
+          "component:Cu%202%2B",
+          "component:Cu%2B"
+        ],
+        "weights": [
+          {
+            "componentId": "component:Cu%202%2B",
+            "coefficient": 1
+          },
+          {
+            "componentId": "component:Cu%2B",
+            "coefficient": 1
+          }
+        ],
+        "meaning": "One conserved source moiety established by unit electron-only bridges; no separate oxidation-state totals."
+      },
+      "basis": [
+        {
+          "id": "component:Cu%202%2B",
+          "name": "Cu 2+",
+          "charge": 2,
+          "role": "ordinary",
+          "suppressed": false
+        },
+        {
+          "id": "component:H%2B",
+          "name": "H+",
+          "charge": 1,
+          "role": "proton",
+          "suppressed": false
+        },
+        {
+          "id": "component:e-",
+          "name": "e-",
+          "charge": -1,
+          "role": "electron",
+          "suppressed": true
+        },
+        {
+          "id": "component:H2O",
+          "name": "H2O",
+          "charge": 0,
+          "role": "water",
+          "suppressed": true
+        }
+      ],
+      "validation": {
+        "rank": 1,
+        "dependentBasisCount": 1,
+        "cycleLogTolerance": 1e-10,
+        "bridgeRecords": [
+          "spana:2ac52a30213c9288:103398",
+          "spana:2ac52a30213c9288:97858"
+        ],
+        "basisRule": "lexically-smallest-exact-source-component-id",
+        "bounds": {
+          "records": 10000,
+          "states": 8,
+          "depth": 7,
+          "products": 128,
+          "coefficient": 1024
+        }
+      },
+      "productCount": 18,
+      "solidCount": 4,
+      "excluded": [],
+      "transformedRows": [
+        {
+          "id": "canonical-state:component:Cu%2B",
+          "name": "Cu+",
+          "phase": "aqueous",
+          "coefficients": [
+            1,
+            0,
+            1,
+            0
+          ],
+          "logBeta": 2.833,
+          "sourceIds": [
+            {
+              "id": "spana:2ac52a30213c9288:103398",
+              "multiplier": 1
+            }
+          ],
+          "originalId": "spana:2ac52a30213c9288:103398"
+        },
+        {
+          "id": "spana:2ac52a30213c9288:102305",
+          "name": "Cu(OH)2",
+          "phase": "aqueous",
+          "coefficients": [
+            1,
+            -2,
+            0,
+            2
+          ],
+          "logBeta": -16.24,
+          "sourceIds": [],
+          "originalId": "spana:2ac52a30213c9288:102305"
+        },
+        {
+          "id": "spana:2ac52a30213c9288:102484",
+          "name": "Cu(OH)2-",
+          "phase": "aqueous",
+          "coefficients": [
+            1,
+            -2,
+            1,
+            2
+          ],
+          "logBeta": -13.348,
+          "sourceIds": [
+            {
+              "id": "spana:2ac52a30213c9288:103398",
+              "multiplier": 1
+            }
+          ],
+          "originalId": "spana:2ac52a30213c9288:102484"
+        },
+        {
+          "id": "spana:2ac52a30213c9288:102572",
+          "name": "Cu(OH)3-",
+          "phase": "aqueous",
+          "coefficients": [
+            1,
+            -3,
+            0,
+            3
+          ],
+          "logBeta": -26.7,
+          "sourceIds": [],
+          "originalId": "spana:2ac52a30213c9288:102572"
+        },
+        {
+          "id": "spana:2ac52a30213c9288:102662",
+          "name": "Cu(OH)4-2",
+          "phase": "aqueous",
+          "coefficients": [
+            1,
+            -4,
+            0,
+            4
+          ],
+          "logBeta": -39.6,
+          "sourceIds": [],
+          "originalId": "spana:2ac52a30213c9288:102662"
+        },
+        {
+          "id": "spana:2ac52a30213c9288:104107",
+          "name": "Cu2(OH)2+2",
+          "phase": "aqueous",
+          "coefficients": [
+            2,
+            -2,
+            0,
+            2
+          ],
+          "logBeta": -10.354,
+          "sourceIds": [],
+          "originalId": "spana:2ac52a30213c9288:104107"
+        },
+        {
+          "id": "spana:2ac52a30213c9288:105296",
+          "name": "Cu3(OH)4+2",
+          "phase": "aqueous",
+          "coefficients": [
+            3,
+            -4,
+            0,
+            4
+          ],
+          "logBeta": -21.1,
+          "sourceIds": [],
+          "originalId": "spana:2ac52a30213c9288:105296"
+        },
+        {
+          "id": "spana:2ac52a30213c9288:110864",
+          "name": "CuOH",
+          "phase": "aqueous",
+          "coefficients": [
+            1,
+            -1,
+            1,
+            1
+          ],
+          "logBeta": -8.721,
+          "sourceIds": [
+            {
+              "id": "spana:2ac52a30213c9288:103398",
+              "multiplier": 1
+            }
+          ],
+          "originalId": "spana:2ac52a30213c9288:110864"
+        },
+        {
+          "id": "spana:2ac52a30213c9288:110948",
+          "name": "CuOH+",
+          "phase": "aqueous",
+          "coefficients": [
+            1,
+            -1,
+            0,
+            1
+          ],
+          "logBeta": -7.961,
+          "sourceIds": [],
+          "originalId": "spana:2ac52a30213c9288:110948"
+        },
+        {
+          "id": "spana:2ac52a30213c9288:151381",
+          "name": "H2",
+          "phase": "aqueous",
+          "coefficients": [
+            0,
+            2,
+            2,
+            0
+          ],
+          "logBeta": -3.083,
+          "sourceIds": [],
+          "originalId": "spana:2ac52a30213c9288:151381"
+        },
+        {
+          "id": "spana:2ac52a30213c9288:152743",
+          "name": "H2O2",
+          "phase": "aqueous",
+          "coefficients": [
+            0,
+            -2,
+            -2,
+            2
+          ],
+          "logBeta": -59.61,
+          "sourceIds": [],
+          "originalId": "spana:2ac52a30213c9288:152743"
+        },
+        {
+          "id": "spana:2ac52a30213c9288:249989",
+          "name": "O2",
+          "phase": "aqueous",
+          "coefficients": [
+            0,
+            -4,
+            -4,
+            2
+          ],
+          "logBeta": -85.988,
+          "sourceIds": [],
+          "originalId": "spana:2ac52a30213c9288:249989"
+        },
+        {
+          "id": "spana:2ac52a30213c9288:250161",
+          "name": "O3",
+          "phase": "aqueous",
+          "coefficients": [
+            0,
+            -6,
+            -6,
+            3
+          ],
+          "logBeta": -155.14,
+          "sourceIds": [],
+          "originalId": "spana:2ac52a30213c9288:250161"
+        },
+        {
+          "id": "spana:2ac52a30213c9288:250448",
+          "name": "OH-",
+          "phase": "aqueous",
+          "coefficients": [
+            0,
+            -1,
+            0,
+            1
+          ],
+          "logBeta": -14.0015,
+          "sourceIds": [],
+          "originalId": "spana:2ac52a30213c9288:250448"
+        },
+        {
+          "id": "spana:2ac52a30213c9288:102394",
+          "name": "Cu(OH)2(cr)",
+          "phase": "solid",
+          "coefficients": [
+            1,
+            -2,
+            0,
+            2
+          ],
+          "logBeta": -8.641,
+          "sourceIds": [],
+          "originalId": "spana:2ac52a30213c9288:102394"
+        },
+        {
+          "id": "spana:2ac52a30213c9288:104641",
+          "name": "Cu2O(cr)",
+          "phase": "solid",
+          "coefficients": [
+            2,
+            -2,
+            2,
+            1
+          ],
+          "logBeta": 7.155,
+          "sourceIds": [
+            {
+              "id": "spana:2ac52a30213c9288:103398",
+              "multiplier": 2
+            }
+          ],
+          "originalId": "spana:2ac52a30213c9288:104641"
+        },
+        {
+          "id": "spana:2ac52a30213c9288:110778",
+          "name": "CuO(cr)",
+          "phase": "solid",
+          "coefficients": [
+            1,
+            -2,
+            0,
+            1
+          ],
+          "logBeta": -7.675,
+          "sourceIds": [],
+          "originalId": "spana:2ac52a30213c9288:110778"
+        },
+        {
+          "id": "spana:2ac52a30213c9288:98874",
+          "name": "Cu(cr)",
+          "phase": "solid",
+          "coefficients": [
+            1,
+            0,
+            2,
+            0
+          ],
+          "logBeta": 11.395,
+          "sourceIds": [
+            {
+              "id": "spana:2ac52a30213c9288:103398",
+              "multiplier": 1
+            }
+          ],
+          "originalId": "spana:2ac52a30213c9288:98874"
+        }
+      ],
+      "points": [
+        {
+          "pH": 2,
+          "pe": 0,
+          "Eh": 0,
+          "solveMs": 1.7248999999999342,
+          "inputId": "3ad0f5705b91c3834b3862873219b458d6fe4f02788dccb10322b457c36d70e2",
+          "accepted": true,
+          "dissolved": 2.745601347444096e-9,
+          "solidTotal": 0.0009999972543986528,
+          "inventoryError": 2.168404344971009e-19,
+          "balanceTolerance": 1e-13,
+          "massActionMax": 0,
+          "componentResiduals": [
+            2.168404344971009e-19,
+            null,
+            null,
+            null
+          ],
+          "electronActivityLog": 0,
+          "electronFreeAmount": 0,
+          "solids": [
+            {
+              "id": "spana:2ac52a30213c9288:102394",
+              "name": "Cu(OH)2(cr)",
+              "amount": 0,
+              "logSaturation": -16.036,
+              "status": "absent",
+              "activity": null
+            },
+            {
+              "id": "spana:2ac52a30213c9288:104641",
+              "name": "Cu2O(cr)",
+              "amount": 0,
+              "logSaturation": -11.634999999999998,
+              "status": "absent",
+              "activity": null
+            },
+            {
+              "id": "spana:2ac52a30213c9288:110778",
+              "name": "CuO(cr)",
+              "amount": 0,
+              "logSaturation": -15.07,
+              "status": "absent",
+              "activity": null
+            },
+            {
+              "id": "spana:2ac52a30213c9288:98874",
+              "name": "Cu(cr)",
+              "amount": 0.0009999972543986528,
+              "logSaturation": 0,
+              "status": "present",
+              "activity": 1
+            }
+          ],
+          "classification": null
+        },
+        {
+          "pH": 7,
+          "pe": 0,
+          "Eh": 0,
+          "solveMs": 0.8665000000000873,
+          "inputId": "c5627dae0079bf4e7b32690a1a6de5cc5786215d0ed641c2351d233f65fd414f",
+          "accepted": true,
+          "dissolved": 2.764213380180778e-9,
+          "solidTotal": 0.00099999723578662,
+          "inventoryError": 0,
+          "balanceTolerance": 1e-13,
+          "massActionMax": 0,
+          "componentResiduals": [
+            0,
+            null,
+            null,
+            null
+          ],
+          "electronActivityLog": 0,
+          "electronFreeAmount": 0,
+          "solids": [
+            {
+              "id": "spana:2ac52a30213c9288:102394",
+              "name": "Cu(OH)2(cr)",
+              "amount": 0,
+              "logSaturation": -6.036,
+              "status": "absent",
+              "activity": null
+            },
+            {
+              "id": "spana:2ac52a30213c9288:104641",
+              "name": "Cu2O(cr)",
+              "amount": 0,
+              "logSaturation": -1.634999999999999,
+              "status": "absent",
+              "activity": null
+            },
+            {
+              "id": "spana:2ac52a30213c9288:110778",
+              "name": "CuO(cr)",
+              "amount": 0,
+              "logSaturation": -5.069999999999999,
+              "status": "absent",
+              "activity": null
+            },
+            {
+              "id": "spana:2ac52a30213c9288:98874",
+              "name": "Cu(cr)",
+              "amount": 0.00099999723578662,
+              "logSaturation": 0,
+              "status": "present",
+              "activity": 1
+            }
+          ],
+          "classification": null
+        },
+        {
+          "pH": 7,
+          "pe": 13,
+          "Eh": 0.7690715459021703,
+          "solveMs": 2.8316999999999553,
+          "inputId": "4a234dc52da9a261d3bd61b931d689b22d38eb0e802ca69037cad6a220db363f",
+          "accepted": true,
+          "dissolved": 5.296197756343141e-7,
+          "solidTotal": 0.0009994703802243662,
+          "inventoryError": 4.336808689942018e-19,
+          "balanceTolerance": 1e-13,
+          "massActionMax": 0,
+          "componentResiduals": [
+            4.336808689942018e-19,
+            null,
+            null,
+            null
+          ],
+          "electronActivityLog": -13,
+          "electronFreeAmount": 0,
+          "solids": [
+            {
+              "id": "spana:2ac52a30213c9288:102394",
+              "name": "Cu(OH)2(cr)",
+              "amount": 0,
+              "logSaturation": -0.9660000000000002,
+              "status": "absent",
+              "activity": null
+            },
+            {
+              "id": "spana:2ac52a30213c9288:104641",
+              "name": "Cu2O(cr)",
+              "amount": 0,
+              "logSaturation": -17.494999999999997,
+              "status": "absent",
+              "activity": null
+            },
+            {
+              "id": "spana:2ac52a30213c9288:110778",
+              "name": "CuO(cr)",
+              "amount": 0.0009994703802243662,
+              "logSaturation": 0,
+              "status": "present",
+              "activity": 1
+            },
+            {
+              "id": "spana:2ac52a30213c9288:98874",
+              "name": "Cu(cr)",
+              "amount": 0,
+              "logSaturation": -20.930000000000003,
+              "status": "absent",
+              "activity": null
+            }
+          ],
+          "classification": null
+        },
+        {
+          "pH": 10,
+          "pe": 20,
+          "Eh": 1.1831869936956467,
+          "solveMs": 1.669800000000123,
+          "inputId": "6f8b7f35ea45884f1189600c70af62cee8be131c9d5f8e0479a089e21e0d0204",
+          "accepted": true,
+          "dissolved": 3.7201865052333834e-9,
+          "solidTotal": 0.0009999962798134948,
+          "inventoryError": 0,
+          "balanceTolerance": 1e-13,
+          "massActionMax": 0,
+          "componentResiduals": [
+            0,
+            null,
+            null,
+            null
+          ],
+          "electronActivityLog": -20,
+          "electronFreeAmount": 0,
+          "solids": [
+            {
+              "id": "spana:2ac52a30213c9288:102394",
+              "name": "Cu(OH)2(cr)",
+              "amount": 0,
+              "logSaturation": -0.9659999999999993,
+              "status": "absent",
+              "activity": null
+            },
+            {
+              "id": "spana:2ac52a30213c9288:104641",
+              "name": "Cu2O(cr)",
+              "amount": 0,
+              "logSaturation": -37.495,
+              "status": "absent",
+              "activity": null
+            },
+            {
+              "id": "spana:2ac52a30213c9288:110778",
+              "name": "CuO(cr)",
+              "amount": 0.0009999962798134948,
+              "logSaturation": 8.881784197001252e-16,
+              "status": "present",
+              "activity": 1
+            },
+            {
+              "id": "spana:2ac52a30213c9288:98874",
+              "name": "Cu(cr)",
+              "amount": 0,
+              "logSaturation": -40.93000000000001,
+              "status": "absent",
+              "activity": null
+            }
+          ],
+          "classification": null
+        }
+      ]
+    },
+    {
+      "selectedSource": "Mn 2+",
+      "preparationMs": 26.699299999999994,
+      "systemId": "8818f29be9f014330417353dc74547da60757f52ef46786b07429015743c4c85",
+      "inventory": {
+        "canonicalComponentId": "component:Mn%202%2B",
+        "sourceComponentIds": [
+          "component:Mn%202%2B",
+          "component:Mn%203%2B"
+        ],
+        "weights": [
+          {
+            "componentId": "component:Mn%202%2B",
+            "coefficient": 1
+          },
+          {
+            "componentId": "component:Mn%203%2B",
+            "coefficient": 1
+          }
+        ],
+        "meaning": "One conserved source moiety established by unit electron-only bridges; no separate oxidation-state totals."
+      },
+      "basis": [
+        {
+          "id": "component:Mn%202%2B",
+          "name": "Mn 2+",
+          "charge": 2,
+          "role": "ordinary",
+          "suppressed": false
+        },
+        {
+          "id": "component:H%2B",
+          "name": "H+",
+          "charge": 1,
+          "role": "proton",
+          "suppressed": false
+        },
+        {
+          "id": "component:e-",
+          "name": "e-",
+          "charge": -1,
+          "role": "electron",
+          "suppressed": true
+        },
+        {
+          "id": "component:H2O",
+          "name": "H2O",
+          "charge": 0,
+          "role": "water",
+          "suppressed": true
+        }
+      ],
+      "validation": {
+        "rank": 1,
+        "dependentBasisCount": 1,
+        "cycleLogTolerance": 1e-10,
+        "bridgeRecords": [
+          "spana:2ac52a30213c9288:207128",
+          "spana:2ac52a30213c9288:207202"
+        ],
+        "basisRule": "lexically-smallest-exact-source-component-id",
+        "bounds": {
+          "records": 10000,
+          "states": 8,
+          "depth": 7,
+          "products": 128,
+          "coefficient": 1024
+        }
+      },
+      "productCount": 24,
+      "solidCount": 7,
+      "excluded": [],
+      "transformedRows": [
+        {
+          "id": "canonical-state:component:Mn%203%2B",
+          "name": "Mn 3+",
+          "phase": "aqueous",
+          "coefficients": [
+            1,
+            0,
+            -1,
+            0
+          ],
+          "logBeta": -25.42,
+          "sourceIds": [
+            {
+              "id": "spana:2ac52a30213c9288:207128",
+              "multiplier": -1
+            }
+          ],
+          "originalId": "spana:2ac52a30213c9288:207128"
+        },
+        {
+          "id": "spana:2ac52a30213c9288:151381",
+          "name": "H2",
+          "phase": "aqueous",
+          "coefficients": [
+            0,
+            2,
+            2,
+            0
+          ],
+          "logBeta": -3.083,
+          "sourceIds": [],
+          "originalId": "spana:2ac52a30213c9288:151381"
+        },
+        {
+          "id": "spana:2ac52a30213c9288:152743",
+          "name": "H2O2",
+          "phase": "aqueous",
+          "coefficients": [
+            0,
+            -2,
+            -2,
+            2
+          ],
+          "logBeta": -59.61,
+          "sourceIds": [],
+          "originalId": "spana:2ac52a30213c9288:152743"
+        },
+        {
+          "id": "spana:2ac52a30213c9288:209137",
+          "name": "Mn(OH)2",
+          "phase": "aqueous",
+          "coefficients": [
+            1,
+            -2,
+            0,
+            2
+          ],
+          "logBeta": -22.2,
+          "sourceIds": [],
+          "originalId": "spana:2ac52a30213c9288:209137"
+        },
+        {
+          "id": "spana:2ac52a30213c9288:209319",
+          "name": "Mn(OH)2+",
+          "phase": "aqueous",
+          "coefficients": [
+            1,
+            -2,
+            -1,
+            2
+          ],
+          "logBeta": -24.580000000000002,
+          "sourceIds": [
+            {
+              "id": "spana:2ac52a30213c9288:207128",
+              "multiplier": -1
+            }
+          ],
+          "originalId": "spana:2ac52a30213c9288:209319"
+        },
+        {
+          "id": "spana:2ac52a30213c9288:209409",
+          "name": "Mn(OH)3-",
+          "phase": "aqueous",
+          "coefficients": [
+            1,
+            -3,
+            0,
+            3
+          ],
+          "logBeta": -34.8,
+          "sourceIds": [],
+          "originalId": "spana:2ac52a30213c9288:209409"
+        },
+        {
+          "id": "spana:2ac52a30213c9288:209499",
+          "name": "Mn(OH)4-2",
+          "phase": "aqueous",
+          "coefficients": [
+            1,
+            -4,
+            0,
+            4
+          ],
+          "logBeta": -48.3,
+          "sourceIds": [],
+          "originalId": "spana:2ac52a30213c9288:209499"
+        },
+        {
+          "id": "spana:2ac52a30213c9288:210106",
+          "name": "Mn2(OH)3+",
+          "phase": "aqueous",
+          "coefficients": [
+            2,
+            -3,
+            0,
+            3
+          ],
+          "logBeta": -23.9,
+          "sourceIds": [],
+          "originalId": "spana:2ac52a30213c9288:210106"
+        },
+        {
+          "id": "spana:2ac52a30213c9288:210288",
+          "name": "Mn2OH+3",
+          "phase": "aqueous",
+          "coefficients": [
+            2,
+            -1,
+            0,
+            1
+          ],
+          "logBeta": -10.56,
+          "sourceIds": [],
+          "originalId": "spana:2ac52a30213c9288:210288"
+        },
+        {
+          "id": "spana:2ac52a30213c9288:212826",
+          "name": "MnO4 2-",
+          "phase": "aqueous",
+          "coefficients": [
+            1,
+            -8,
+            -4,
+            4
+          ],
+          "logBeta": -118.4,
+          "sourceIds": [],
+          "originalId": "spana:2ac52a30213c9288:212826"
+        },
+        {
+          "id": "spana:2ac52a30213c9288:212927",
+          "name": "MnO4-",
+          "phase": "aqueous",
+          "coefficients": [
+            1,
+            -8,
+            -5,
+            4
+          ],
+          "logBeta": -122.5,
+          "sourceIds": [],
+          "originalId": "spana:2ac52a30213c9288:212927"
+        },
+        {
+          "id": "spana:2ac52a30213c9288:213026",
+          "name": "MnO4-3",
+          "phase": "aqueous",
+          "coefficients": [
+            1,
+            -8,
+            -3,
+            4
+          ],
+          "logBeta": -113.8,
+          "sourceIds": [],
+          "originalId": "spana:2ac52a30213c9288:213026"
+        },
+        {
+          "id": "spana:2ac52a30213c9288:213126",
+          "name": "MnOH+",
+          "phase": "aqueous",
+          "coefficients": [
+            1,
+            -1,
+            0,
+            1
+          ],
+          "logBeta": -10.59,
+          "sourceIds": [],
+          "originalId": "spana:2ac52a30213c9288:213126"
+        },
+        {
+          "id": "spana:2ac52a30213c9288:213213",
+          "name": "MnOH+2",
+          "phase": "aqueous",
+          "coefficients": [
+            1,
+            -1,
+            -1,
+            1
+          ],
+          "logBeta": -24.180000000000003,
+          "sourceIds": [
+            {
+              "id": "spana:2ac52a30213c9288:207128",
+              "multiplier": -1
+            }
+          ],
+          "originalId": "spana:2ac52a30213c9288:213213"
+        },
+        {
+          "id": "spana:2ac52a30213c9288:249989",
+          "name": "O2",
+          "phase": "aqueous",
+          "coefficients": [
+            0,
+            -4,
+            -4,
+            2
+          ],
+          "logBeta": -85.988,
+          "sourceIds": [],
+          "originalId": "spana:2ac52a30213c9288:249989"
+        },
+        {
+          "id": "spana:2ac52a30213c9288:250161",
+          "name": "O3",
+          "phase": "aqueous",
+          "coefficients": [
+            0,
+            -6,
+            -6,
+            3
+          ],
+          "logBeta": -155.14,
+          "sourceIds": [],
+          "originalId": "spana:2ac52a30213c9288:250161"
+        },
+        {
+          "id": "spana:2ac52a30213c9288:250448",
+          "name": "OH-",
+          "phase": "aqueous",
+          "coefficients": [
+            0,
+            -1,
+            0,
+            1
+          ],
+          "logBeta": -14.0015,
+          "sourceIds": [],
+          "originalId": "spana:2ac52a30213c9288:250448"
+        },
+        {
+          "id": "spana:2ac52a30213c9288:11394",
+          "name": "a-MnOOH(s)",
+          "phase": "solid",
+          "coefficients": [
+            1,
+            -3,
+            -1,
+            2
+          ],
+          "logBeta": -25.35,
+          "sourceIds": [
+            {
+              "id": "spana:2ac52a30213c9288:207128",
+              "multiplier": -1
+            }
+          ],
+          "originalId": "spana:2ac52a30213c9288:11394"
+        },
+        {
+          "id": "spana:2ac52a30213c9288:207519",
+          "name": "Mn(cr)",
+          "phase": "solid",
+          "coefficients": [
+            1,
+            0,
+            2,
+            0
+          ],
+          "logBeta": -39.96,
+          "sourceIds": [],
+          "originalId": "spana:2ac52a30213c9288:207519"
+        },
+        {
+          "id": "spana:2ac52a30213c9288:209226",
+          "name": "Mn(OH)2(am)",
+          "phase": "solid",
+          "coefficients": [
+            1,
+            -2,
+            0,
+            2
+          ],
+          "logBeta": -15.2,
+          "sourceIds": [],
+          "originalId": "spana:2ac52a30213c9288:209226"
+        },
+        {
+          "id": "spana:2ac52a30213c9288:210197",
+          "name": "Mn2O3(cr)",
+          "phase": "solid",
+          "coefficients": [
+            2,
+            -6,
+            -2,
+            3
+          ],
+          "logBeta": -50.190000000000005,
+          "sourceIds": [
+            {
+              "id": "spana:2ac52a30213c9288:207128",
+              "multiplier": -2
+            }
+          ],
+          "originalId": "spana:2ac52a30213c9288:210197"
+        },
+        {
+          "id": "spana:2ac52a30213c9288:210463",
+          "name": "Mn3O4(s)",
+          "phase": "solid",
+          "coefficients": [
+            3,
+            -8,
+            -2,
+            4
+          ],
+          "logBeta": -61.26,
+          "sourceIds": [],
+          "originalId": "spana:2ac52a30213c9288:210463"
+        },
+        {
+          "id": "spana:2ac52a30213c9288:212626",
+          "name": "MnO(cr)",
+          "phase": "solid",
+          "coefficients": [
+            1,
+            -2,
+            0,
+            1
+          ],
+          "logBeta": -17.93,
+          "sourceIds": [],
+          "originalId": "spana:2ac52a30213c9288:212626"
+        },
+        {
+          "id": "spana:2ac52a30213c9288:212715",
+          "name": "MnO2(s)",
+          "phase": "solid",
+          "coefficients": [
+            1,
+            -4,
+            -2,
+            2
+          ],
+          "logBeta": -41.56,
+          "sourceIds": [],
+          "originalId": "spana:2ac52a30213c9288:212715"
+        }
+      ],
+      "points": [
+        {
+          "pH": 2,
+          "pe": 0,
+          "Eh": 0,
+          "solveMs": 5.404300000000148,
+          "inputId": "732d87bc7c7bb5c3e999e3cc44b9e973a804c6acf52590a9c5e475d5bba7d5f6",
+          "accepted": true,
+          "dissolved": 0.0009999999999999998,
+          "solidTotal": 0,
+          "inventoryError": -2.168404344971009e-19,
+          "balanceTolerance": 1e-13,
+          "massActionMax": 0,
+          "componentResiduals": [
+            -2.168404344971009e-19,
+            null,
+            null,
+            null
+          ],
+          "electronActivityLog": 0,
+          "electronFreeAmount": 0,
+          "solids": [
+            {
+              "id": "spana:2ac52a30213c9288:11394",
+              "name": "a-MnOOH(s)",
+              "amount": 0,
+              "logSaturation": -22.3500000011187,
+              "status": "absent",
+              "activity": null
+            },
+            {
+              "id": "spana:2ac52a30213c9288:207519",
+              "name": "Mn(cr)",
+              "amount": 0,
+              "logSaturation": -42.9600000011187,
+              "status": "absent",
+              "activity": null
+            },
+            {
+              "id": "spana:2ac52a30213c9288:209226",
+              "name": "Mn(OH)2(am)",
+              "amount": 0,
+              "logSaturation": -14.2000000011187,
+              "status": "absent",
+              "activity": null
+            },
+            {
+              "id": "spana:2ac52a30213c9288:210197",
+              "name": "Mn2O3(cr)",
+              "amount": 0,
+              "logSaturation": -44.190000002237404,
+              "status": "absent",
+              "activity": null
+            },
+            {
+              "id": "spana:2ac52a30213c9288:210463",
+              "name": "Mn3O4(s)",
+              "amount": 0,
+              "logSaturation": -54.2600000033561,
+              "status": "absent",
+              "activity": null
+            },
+            {
+              "id": "spana:2ac52a30213c9288:212626",
+              "name": "MnO(cr)",
+              "amount": 0,
+              "logSaturation": -16.9300000011187,
+              "status": "absent",
+              "activity": null
+            },
+            {
+              "id": "spana:2ac52a30213c9288:212715",
+              "name": "MnO2(s)",
+              "amount": 0,
+              "logSaturation": -36.5600000011187,
+              "status": "absent",
+              "activity": null
+            }
+          ],
+          "classification": null
+        },
+        {
+          "pH": 7,
+          "pe": 0,
+          "Eh": 0,
+          "solveMs": 8.124500000000126,
+          "inputId": "ac3c766c6608d93fc4d8ef7fcc158af0980424e0d054be6386a191114f5d74d1",
+          "accepted": true,
+          "dissolved": 0.0010000000000000009,
+          "solidTotal": 0,
+          "inventoryError": 8.673617379884035e-19,
+          "balanceTolerance": 1e-13,
+          "massActionMax": 0,
+          "componentResiduals": [
+            8.673617379884035e-19,
+            null,
+            null,
+            null
+          ],
+          "electronActivityLog": 0,
+          "electronFreeAmount": 0,
+          "solids": [
+            {
+              "id": "spana:2ac52a30213c9288:11394",
+              "name": "a-MnOOH(s)",
+              "amount": 0,
+              "logSaturation": -7.350112951304077,
+              "status": "absent",
+              "activity": null
+            },
+            {
+              "id": "spana:2ac52a30213c9288:207519",
+              "name": "Mn(cr)",
+              "amount": 0,
+              "logSaturation": -42.960112951304076,
+              "status": "absent",
+              "activity": null
+            },
+            {
+              "id": "spana:2ac52a30213c9288:209226",
+              "name": "Mn(OH)2(am)",
+              "amount": 0,
+              "logSaturation": -4.2001129513040745,
+              "status": "absent",
+              "activity": null
+            },
+            {
+              "id": "spana:2ac52a30213c9288:210197",
+              "name": "Mn2O3(cr)",
+              "amount": 0,
+              "logSaturation": -14.190225902608155,
+              "status": "absent",
+              "activity": null
+            },
+            {
+              "id": "spana:2ac52a30213c9288:210463",
+              "name": "Mn3O4(s)",
+              "amount": 0,
+              "logSaturation": -14.260338853912224,
+              "status": "absent",
+              "activity": null
+            },
+            {
+              "id": "spana:2ac52a30213c9288:212626",
+              "name": "MnO(cr)",
+              "amount": 0,
+              "logSaturation": -6.930112951304075,
+              "status": "absent",
+              "activity": null
+            },
+            {
+              "id": "spana:2ac52a30213c9288:212715",
+              "name": "MnO2(s)",
+              "amount": 0,
+              "logSaturation": -16.560112951304077,
+              "status": "absent",
+              "activity": null
+            }
+          ],
+          "classification": null
+        },
+        {
+          "pH": 7,
+          "pe": 13,
+          "Eh": 0.7690715459021703,
+          "solveMs": 3.5353000000000065,
+          "inputId": "581294bf59c64d1e457201ad21605c7d52a013b1eaae5d4a8c17b924ce86de48",
+          "accepted": true,
+          "dissolved": 9.587393550919349e-11,
+          "solidTotal": 0.0009999999041260645,
+          "inventoryError": 0,
+          "balanceTolerance": 1e-13,
+          "massActionMax": 0,
+          "componentResiduals": [
+            0,
+            null,
+            null,
+            null
+          ],
+          "electronActivityLog": -13,
+          "electronFreeAmount": 0,
+          "solids": [
+            {
+              "id": "spana:2ac52a30213c9288:11394",
+              "name": "a-MnOOH(s)",
+              "amount": 0,
+              "logSaturation": -3.789999999999999,
+              "status": "absent",
+              "activity": null
+            },
+            {
+              "id": "spana:2ac52a30213c9288:207519",
+              "name": "Mn(cr)",
+              "amount": 0,
+              "logSaturation": -78.4,
+              "status": "absent",
+              "activity": null
+            },
+            {
+              "id": "spana:2ac52a30213c9288:209226",
+              "name": "Mn(OH)2(am)",
+              "amount": 0,
+              "logSaturation": -13.639999999999997,
+              "status": "absent",
+              "activity": null
+            },
+            {
+              "id": "spana:2ac52a30213c9288:210197",
+              "name": "Mn2O3(cr)",
+              "amount": 0,
+              "logSaturation": -7.07,
+              "status": "absent",
+              "activity": null
+            },
+            {
+              "id": "spana:2ac52a30213c9288:210463",
+              "name": "Mn3O4(s)",
+              "amount": 0,
+              "logSaturation": -16.57999999999999,
+              "status": "absent",
+              "activity": null
+            },
+            {
+              "id": "spana:2ac52a30213c9288:212626",
+              "name": "MnO(cr)",
+              "amount": 0,
+              "logSaturation": -16.369999999999997,
+              "status": "absent",
+              "activity": null
+            },
+            {
+              "id": "spana:2ac52a30213c9288:212715",
+              "name": "MnO2(s)",
+              "amount": 0.0009999999041260645,
+              "logSaturation": 0,
+              "status": "present",
+              "activity": 1
+            }
+          ],
+          "classification": null
+        },
+        {
+          "pH": 10,
+          "pe": 20,
+          "Eh": 1.1831869936956467,
+          "solveMs": 4.165399999999863,
+          "inputId": "569570c572563a8ac53c526e5afe4054b9066800900e96a449a1b81a07c0d8d3",
+          "accepted": true,
+          "dissolved": 0.001000000000000033,
+          "solidTotal": 0,
+          "inventoryError": 3.2959746043559335e-17,
+          "balanceTolerance": 1e-13,
+          "massActionMax": 0,
+          "componentResiduals": [
+            3.2959746043559335e-17,
+            null,
+            null,
+            null
+          ],
+          "electronActivityLog": -20,
+          "electronFreeAmount": 0,
+          "solids": [
+            {
+              "id": "spana:2ac52a30213c9288:11394",
+              "name": "a-MnOOH(s)",
+              "amount": 0,
+              "logSaturation": -35.84999999999999,
+              "status": "absent",
+              "activity": null
+            },
+            {
+              "id": "spana:2ac52a30213c9288:207519",
+              "name": "Mn(cr)",
+              "amount": 0,
+              "logSaturation": -140.45999999999998,
+              "status": "absent",
+              "activity": null
+            },
+            {
+              "id": "spana:2ac52a30213c9288:209226",
+              "name": "Mn(OH)2(am)",
+              "amount": 0,
+              "logSaturation": -55.69999999999999,
+              "status": "absent",
+              "activity": null
+            },
+            {
+              "id": "spana:2ac52a30213c9288:210197",
+              "name": "Mn2O3(cr)",
+              "amount": 0,
+              "logSaturation": -71.18999999999997,
+              "status": "absent",
+              "activity": null
+            },
+            {
+              "id": "spana:2ac52a30213c9288:210463",
+              "name": "Mn3O4(s)",
+              "amount": 0,
+              "logSaturation": -122.75999999999993,
+              "status": "absent",
+              "activity": null
+            },
+            {
+              "id": "spana:2ac52a30213c9288:212626",
+              "name": "MnO(cr)",
+              "amount": 0,
+              "logSaturation": -58.429999999999986,
+              "status": "absent",
+              "activity": null
+            },
+            {
+              "id": "spana:2ac52a30213c9288:212715",
+              "name": "MnO2(s)",
+              "amount": 0,
+              "logSaturation": -22.059999999999988,
+              "status": "absent",
+              "activity": null
+            }
+          ],
+          "classification": null
+        }
+      ]
+    }
+  ],
+  "protectedFileCount": 176,
+  "changedProtected": []
+}

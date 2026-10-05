@@ -1,0 +1,35 @@
+✔ reviewed acetate source identities and physical acid recipe are explicit (9.427ms)
+✔ signed analytical composition sweep agrees with independent balances without spectators (8.7057ms)
+✔ same accepted composition sweep supplies logs and unchanged acetate fractions (8.9004ms)
+✔ all fifteen physical doses satisfy independent simultaneous source laws and inventories (1.9799ms)
+✔ equivalent Calculation and Wet Lab analytical states use the same admitted reactions (209.0601ms)
+✔ acetate views preview exact accepted samples without solving or committing on hover (143.9358ms)
+✔ axis grouping: fieldset labels retain variable, range, samples and native unit controls together (0.3642ms)
+✔ axis grouping: dimensionality controls fieldset count and surface response heading without fake bounds (0.2048ms)
+✔ axis grouping: editing Y retains X and the fixed inventory while changing only selected bounds (273.0352ms)
+✔ axis grouping: 2D/3D view and workspace navigation retain the scientific definition (24.154ms)
+✔ axis grouping: navigation semantics and component identities stay separate from display labels (0.7632ms)
+✔ structured axis choices preserve signed protons, electron activities and ordinary total scales (0.2891ms)
+✔ structured selection retains prior axis defaults, fixed-component handoff and input immutability (0.3149ms)
+✔ Calculation keeps one primary output selector and visible setup beside retained result (0.4435ms)
+✔ four common outputs reuse one current accepted sweep and preserve scientific setup and selected state (4.9919ms)
+✔ fast solubility retains unsaturated gaps and aqueous fractions retain aqueous-only normalization (0.923ms)
+✔ stale, missing and unverified snapshots never become reusable through navigation (0.9567ms)
+✔ surface and dependent-pH transitions preserve compatible conditions but explicitly require setup (0.3497ms)
+✔ missing fraction component and incompatible fraction axis go to setup without inventing a selection (0.2376ms)
+✔ pending modes and unavailable solubility remain unavailable (0.2102ms)
+✔ navigation uses only view updates for reuse and suppresses automatic solve for changed setup (0.6923ms)
+✔ switcher exposes direct choices, remaining modes, native button semantics and explicit availability (0.4949ms)
+✔ media preserves local artwork architecture, native dialog close and focus restoration with missing-image fallback (0.3666ms)
+✔ active solid phase label has correct zero, singular and plural forms (0.0739ms)
+✔ Calculate opens results only for a new returned snapshot; invalid requests retain setup (0.0881ms)
+✔ Edit setup survives background updates; explicit return/recalculate retain the existing graph (0.0824ms)
+✔ results condition summary uses the actual snapshot, not edited inputs, and preserves exact values (4.8736ms)
+ℹ tests 27
+ℹ suites 0
+ℹ pass 27
+ℹ fail 0
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 2461.49

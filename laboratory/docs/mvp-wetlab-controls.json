@@ -1,0 +1,998 @@
+[
+  {
+    "name": "CuCl",
+    "ok": true,
+    "pH": 4.416482679202116,
+    "pe": 14.160701432847617,
+    "solids": [
+      {
+        "id": "spana:2ac52a30213c9288:102394",
+        "name": "Cu(OH)2(cr)",
+        "amount": 0,
+        "logSaturation": -1.8444862870125869,
+        "status": "absent",
+        "activity": null
+      },
+      {
+        "id": "spana:2ac52a30213c9288:104641",
+        "name": "Cu2O(cr)",
+        "amount": 0,
+        "logSaturation": -16.406340798124635,
+        "status": "absent",
+        "activity": null
+      },
+      {
+        "id": "spana:2ac52a30213c9288:106825",
+        "name": "CuCl(cr)",
+        "amount": 0,
+        "logSaturation": -8.28069782503714,
+        "status": "absent",
+        "activity": null
+      },
+      {
+        "id": "spana:2ac52a30213c9288:107051",
+        "name": "CuCl2(cr)",
+        "amount": 0,
+        "logSaturation": -9.199541138962235,
+        "status": "absent",
+        "activity": null
+      },
+      {
+        "id": "spana:2ac52a30213c9288:107212",
+        "name": "CuCl2·3Cu(OH)2(cr)",
+        "amount": 0.000005125676351968837,
+        "logSaturation": 5.329070518200751e-15,
+        "status": "present",
+        "activity": 1
+      },
+      {
+        "id": "spana:2ac52a30213c9288:110778",
+        "name": "CuO(cr)",
+        "amount": 0,
+        "logSaturation": -0.8784862870125867,
+        "status": "absent",
+        "activity": null
+      },
+      {
+        "id": "spana:2ac52a30213c9288:98874",
+        "name": "Cu(cr)",
+        "amount": 0,
+        "logSaturation": -18.962854511112045,
+        "status": "absent",
+        "activity": null
+      }
+    ],
+    "sourceId": "317232e13422fa0026e96332ed114c72f2d4c18d680b8c675ffaa0821dbc72f9",
+    "scope": {
+      "boundary": "closed-physical",
+      "components": [
+        "component:H%2B",
+        "component:Cl-",
+        "component:Cu%202%2B",
+        "component:Na%2B",
+        "component:H2O"
+      ],
+      "reactions": [
+        "spana:2ac52a30213c9288:82236",
+        "spana:2ac52a30213c9288:82394",
+        "spana:2ac52a30213c9288:82497",
+        "spana:2ac52a30213c9288:82605",
+        "spana:2ac52a30213c9288:82715",
+        "spana:2ac52a30213c9288:97858",
+        "spana:2ac52a30213c9288:102305",
+        "spana:2ac52a30213c9288:102484",
+        "spana:2ac52a30213c9288:102572",
+        "spana:2ac52a30213c9288:102662",
+        "spana:2ac52a30213c9288:103398",
+        "spana:2ac52a30213c9288:104107",
+        "spana:2ac52a30213c9288:104279",
+        "spana:2ac52a30213c9288:105296",
+        "spana:2ac52a30213c9288:105720",
+        "spana:2ac52a30213c9288:106756",
+        "spana:2ac52a30213c9288:106907",
+        "spana:2ac52a30213c9288:106979",
+        "spana:2ac52a30213c9288:107141",
+        "spana:2ac52a30213c9288:107332",
+        "spana:2ac52a30213c9288:107405",
+        "spana:2ac52a30213c9288:107477",
+        "spana:2ac52a30213c9288:107551",
+        "spana:2ac52a30213c9288:107627",
+        "spana:2ac52a30213c9288:110864",
+        "spana:2ac52a30213c9288:110948",
+        "spana:2ac52a30213c9288:151381",
+        "spana:2ac52a30213c9288:152743",
+        "spana:2ac52a30213c9288:159033",
+        "spana:2ac52a30213c9288:159101",
+        "spana:2ac52a30213c9288:159212",
+        "spana:2ac52a30213c9288:175307",
+        "spana:2ac52a30213c9288:223384",
+        "spana:2ac52a30213c9288:224689",
+        "spana:2ac52a30213c9288:249989",
+        "spana:2ac52a30213c9288:250161",
+        "spana:2ac52a30213c9288:250448"
+      ],
+      "status": "CONDITIONAL",
+      "phaseScope": {
+        "version": "source-pure-solids-v2",
+        "selection": {
+          "kind": "general-source"
+        },
+        "admitted": [
+          {
+            "id": "spana:2ac52a30213c9288:98874",
+            "name": "Cu(cr)",
+            "phase": "solid",
+            "reference": "2000PT: Puigdomenech I, Taxén C; Thermodynamic data for copper. Implications for the corrosion of copper under repository conditions. Report SKB-TR-00-13. Stockholm, Sweden: Swedish Nuclear Fuel and Waste Management Co. (SKB), 2000",
+            "terms": [
+              {
+                "name": "Cu+",
+                "coefficient": 1
+              },
+              {
+                "name": "e-",
+                "coefficient": 1
+              }
+            ],
+            "logK": 8.562,
+            "classification": "admitted-pure-solid",
+            "reason": "Source-bound neutral integer pure-solid law; presence determined only by coupled equilibrium",
+            "elementalStatus": "unavailable",
+            "charge": 0,
+            "coefficients": [
+              -0.5,
+              0.5,
+              1,
+              0,
+              -2,
+              1
+            ],
+            "logBeta": -42.55500000000001,
+            "role": "ordinary",
+            "sourceIdentity": {
+              "id": "spana:2ac52a30213c9288:98874",
+              "reference": "2000PT: Puigdomenech I, Taxén C; Thermodynamic data for copper. Implications for the corrosion of copper under repository conditions. Report SKB-TR-00-13. Stockholm, Sweden: Swedish Nuclear Fuel and Waste Management Co. (SKB), 2000",
+              "terms": [
+                {
+                  "name": "Cu+",
+                  "coefficient": 1
+                },
+                {
+                  "name": "e-",
+                  "coefficient": 1
+                }
+              ],
+              "logK": 8.562,
+              "scope": "source-pure-solids-v2"
+            }
+          },
+          {
+            "id": "spana:2ac52a30213c9288:102394",
+            "name": "Cu(OH)2(cr)",
+            "phase": "solid",
+            "reference": "2000PT: Puigdomenech I, Taxén C; Thermodynamic data for copper. Implications for the corrosion of copper under repository conditions. Report SKB-TR-00-13. Stockholm, Sweden: Swedish Nuclear Fuel and Waste Management Co. (SKB), 2000",
+            "terms": [
+              {
+                "name": "Cu 2+",
+                "coefficient": 1
+              },
+              {
+                "name": "H+",
+                "coefficient": -2
+              },
+              {
+                "name": "H2O",
+                "coefficient": 2
+              }
+            ],
+            "logK": -8.641,
+            "classification": "admitted-pure-solid",
+            "reason": "Source-bound neutral integer pure-solid law; presence determined only by coupled equilibrium",
+            "elementalStatus": "unavailable",
+            "charge": 0,
+            "coefficients": [
+              0,
+              0,
+              1,
+              0,
+              -2,
+              2
+            ],
+            "logBeta": -8.641,
+            "role": "ordinary",
+            "sourceIdentity": {
+              "id": "spana:2ac52a30213c9288:102394",
+              "reference": "2000PT: Puigdomenech I, Taxén C; Thermodynamic data for copper. Implications for the corrosion of copper under repository conditions. Report SKB-TR-00-13. Stockholm, Sweden: Swedish Nuclear Fuel and Waste Management Co. (SKB), 2000",
+              "terms": [
+                {
+                  "name": "Cu 2+",
+                  "coefficient": 1
+                },
+                {
+                  "name": "H+",
+                  "coefficient": -2
+                },
+                {
+                  "name": "H2O",
+                  "coefficient": 2
+                }
+              ],
+              "logK": -8.641,
+              "scope": "source-pure-solids-v2"
+            }
+          },
+          {
+            "id": "spana:2ac52a30213c9288:104641",
+            "name": "Cu2O(cr)",
+            "phase": "solid",
+            "reference": "2000PT: Puigdomenech I, Taxén C; Thermodynamic data for copper. Implications for the corrosion of copper under repository conditions. Report SKB-TR-00-13. Stockholm, Sweden: Swedish Nuclear Fuel and Waste Management Co. (SKB), 2000",
+            "terms": [
+              {
+                "name": "Cu+",
+                "coefficient": 2
+              },
+              {
+                "name": "H+",
+                "coefficient": -2
+              },
+              {
+                "name": "H2O",
+                "coefficient": 1
+              }
+            ],
+            "logK": 1.489,
+            "classification": "admitted-pure-solid",
+            "reason": "Source-bound neutral integer pure-solid law; presence determined only by coupled equilibrium",
+            "elementalStatus": "unavailable",
+            "charge": 0,
+            "coefficients": [
+              -0.5,
+              0.5,
+              2,
+              0,
+              -4,
+              2
+            ],
+            "logBeta": -46.79500000000001,
+            "role": "ordinary",
+            "sourceIdentity": {
+              "id": "spana:2ac52a30213c9288:104641",
+              "reference": "2000PT: Puigdomenech I, Taxén C; Thermodynamic data for copper. Implications for the corrosion of copper under repository conditions. Report SKB-TR-00-13. Stockholm, Sweden: Swedish Nuclear Fuel and Waste Management Co. (SKB), 2000",
+              "terms": [
+                {
+                  "name": "Cu+",
+                  "coefficient": 2
+                },
+                {
+                  "name": "H+",
+                  "coefficient": -2
+                },
+                {
+                  "name": "H2O",
+                  "coefficient": 1
+                }
+              ],
+              "logK": 1.489,
+              "scope": "source-pure-solids-v2"
+            }
+          },
+          {
+            "id": "spana:2ac52a30213c9288:106825",
+            "name": "CuCl(cr)",
+            "phase": "solid",
+            "reference": "2000PT: Puigdomenech I, Taxén C; Thermodynamic data for copper. Implications for the corrosion of copper under repository conditions. Report SKB-TR-00-13. Stockholm, Sweden: Swedish Nuclear Fuel and Waste Management Co. (SKB), 2000",
+            "terms": [
+              {
+                "name": "Cu+",
+                "coefficient": 1
+              },
+              {
+                "name": "Cl-",
+                "coefficient": 1
+              }
+            ],
+            "logK": 6.8,
+            "classification": "admitted-pure-solid",
+            "reason": "Source-bound neutral integer pure-solid law; presence determined only by coupled equilibrium",
+            "elementalStatus": "unavailable",
+            "charge": 0,
+            "coefficients": [
+              -0.25,
+              1.25,
+              1,
+              0,
+              -1,
+              0.5
+            ],
+            "logBeta": -17.342000000000002,
+            "role": "ordinary",
+            "sourceIdentity": {
+              "id": "spana:2ac52a30213c9288:106825",
+              "reference": "2000PT: Puigdomenech I, Taxén C; Thermodynamic data for copper. Implications for the corrosion of copper under repository conditions. Report SKB-TR-00-13. Stockholm, Sweden: Swedish Nuclear Fuel and Waste Management Co. (SKB), 2000",
+              "terms": [
+                {
+                  "name": "Cu+",
+                  "coefficient": 1
+                },
+                {
+                  "name": "Cl-",
+                  "coefficient": 1
+                }
+              ],
+              "logK": 6.8,
+              "scope": "source-pure-solids-v2"
+            }
+          },
+          {
+            "id": "spana:2ac52a30213c9288:107051",
+            "name": "CuCl2(cr)",
+            "phase": "solid",
+            "reference": "2000PT: Puigdomenech I, Taxén C; Thermodynamic data for copper. Implications for the corrosion of copper under repository conditions. Report SKB-TR-00-13. Stockholm, Sweden: Swedish Nuclear Fuel and Waste Management Co. (SKB), 2000",
+            "terms": [
+              {
+                "name": "Cu 2+",
+                "coefficient": 1
+              },
+              {
+                "name": "Cl-",
+                "coefficient": 2
+              }
+            ],
+            "logK": -3.73,
+            "classification": "admitted-pure-solid",
+            "reason": "Source-bound neutral integer pure-solid law; presence determined only by coupled equilibrium",
+            "elementalStatus": "unavailable",
+            "charge": 0,
+            "coefficients": [
+              0,
+              2,
+              1,
+              0,
+              0,
+              0
+            ],
+            "logBeta": -3.73,
+            "role": "ordinary",
+            "sourceIdentity": {
+              "id": "spana:2ac52a30213c9288:107051",
+              "reference": "2000PT: Puigdomenech I, Taxén C; Thermodynamic data for copper. Implications for the corrosion of copper under repository conditions. Report SKB-TR-00-13. Stockholm, Sweden: Swedish Nuclear Fuel and Waste Management Co. (SKB), 2000",
+              "terms": [
+                {
+                  "name": "Cu 2+",
+                  "coefficient": 1
+                },
+                {
+                  "name": "Cl-",
+                  "coefficient": 2
+                }
+              ],
+              "logK": -3.73,
+              "scope": "source-pure-solids-v2"
+            }
+          },
+          {
+            "id": "spana:2ac52a30213c9288:107212",
+            "name": "CuCl2·3Cu(OH)2(cr)",
+            "phase": "solid",
+            "reference": "2000PT: Puigdomenech I, Taxén C; Thermodynamic data for copper. Implications for the corrosion of copper under repository conditions. Report SKB-TR-00-13. Stockholm, Sweden: Swedish Nuclear Fuel and Waste Management Co. (SKB), 2000",
+            "terms": [
+              {
+                "name": "Cu 2+",
+                "coefficient": 4
+              },
+              {
+                "name": "H+",
+                "coefficient": -6
+              },
+              {
+                "name": "Cl-",
+                "coefficient": 2
+              },
+              {
+                "name": "H2O",
+                "coefficient": 6
+              }
+            ],
+            "logK": -14.92,
+            "classification": "admitted-pure-solid",
+            "reason": "Source-bound neutral integer pure-solid law; presence determined only by coupled equilibrium",
+            "elementalStatus": "unavailable",
+            "charge": 0,
+            "coefficients": [
+              0,
+              2,
+              4,
+              0,
+              -6,
+              6
+            ],
+            "logBeta": -14.92,
+            "role": "ordinary",
+            "sourceIdentity": {
+              "id": "spana:2ac52a30213c9288:107212",
+              "reference": "2000PT: Puigdomenech I, Taxén C; Thermodynamic data for copper. Implications for the corrosion of copper under repository conditions. Report SKB-TR-00-13. Stockholm, Sweden: Swedish Nuclear Fuel and Waste Management Co. (SKB), 2000",
+              "terms": [
+                {
+                  "name": "Cu 2+",
+                  "coefficient": 4
+                },
+                {
+                  "name": "H+",
+                  "coefficient": -6
+                },
+                {
+                  "name": "Cl-",
+                  "coefficient": 2
+                },
+                {
+                  "name": "H2O",
+                  "coefficient": 6
+                }
+              ],
+              "logK": -14.92,
+              "scope": "source-pure-solids-v2"
+            }
+          },
+          {
+            "id": "spana:2ac52a30213c9288:110778",
+            "name": "CuO(cr)",
+            "phase": "solid",
+            "reference": "2000PT: Puigdomenech I, Taxén C; Thermodynamic data for copper. Implications for the corrosion of copper under repository conditions. Report SKB-TR-00-13. Stockholm, Sweden: Swedish Nuclear Fuel and Waste Management Co. (SKB), 2000",
+            "terms": [
+              {
+                "name": "Cu 2+",
+                "coefficient": 1
+              },
+              {
+                "name": "H+",
+                "coefficient": -2
+              },
+              {
+                "name": "H2O",
+                "coefficient": 1
+              }
+            ],
+            "logK": -7.675,
+            "classification": "admitted-pure-solid",
+            "reason": "Source-bound neutral integer pure-solid law; presence determined only by coupled equilibrium",
+            "elementalStatus": "unavailable",
+            "charge": 0,
+            "coefficients": [
+              0,
+              0,
+              1,
+              0,
+              -2,
+              1
+            ],
+            "logBeta": -7.675,
+            "role": "ordinary",
+            "sourceIdentity": {
+              "id": "spana:2ac52a30213c9288:110778",
+              "reference": "2000PT: Puigdomenech I, Taxén C; Thermodynamic data for copper. Implications for the corrosion of copper under repository conditions. Report SKB-TR-00-13. Stockholm, Sweden: Swedish Nuclear Fuel and Waste Management Co. (SKB), 2000",
+              "terms": [
+                {
+                  "name": "Cu 2+",
+                  "coefficient": 1
+                },
+                {
+                  "name": "H+",
+                  "coefficient": -2
+                },
+                {
+                  "name": "H2O",
+                  "coefficient": 1
+                }
+              ],
+              "logK": -7.675,
+              "scope": "source-pure-solids-v2"
+            }
+          },
+          {
+            "id": "spana:2ac52a30213c9288:220295",
+            "name": "Na(cr)",
+            "phase": "solid",
+            "reference": "Codata: Cox J D, Wagman D D, Medvedev V A, CODATA Key Values for Thermodynamics. Hemisphere Publ. Co., New York, 1989",
+            "terms": [
+              {
+                "name": "Na+",
+                "coefficient": 1
+              },
+              {
+                "name": "e-",
+                "coefficient": 1
+              }
+            ],
+            "logK": -45.89,
+            "classification": "admitted-pure-solid",
+            "reason": "Source-bound neutral integer pure-solid law; presence determined only by coupled equilibrium",
+            "elements": {
+              "Na": 1
+            },
+            "charge": 0,
+            "coefficients": [
+              -0.25,
+              0.25,
+              0,
+              1,
+              -1,
+              0.5
+            ],
+            "logBeta": -72.86500000000001,
+            "role": "ordinary",
+            "sourceIdentity": {
+              "id": "spana:2ac52a30213c9288:220295",
+              "reference": "Codata: Cox J D, Wagman D D, Medvedev V A, CODATA Key Values for Thermodynamics. Hemisphere Publ. Co., New York, 1989",
+              "terms": [
+                {
+                  "name": "Na+",
+                  "coefficient": 1
+                },
+                {
+                  "name": "e-",
+                  "coefficient": 1
+                }
+              ],
+              "logK": -45.89,
+              "scope": "source-pure-solids-v2"
+            }
+          },
+          {
+            "id": "spana:2ac52a30213c9288:223454",
+            "name": "NaCl(s)",
+            "phase": "solid",
+            "reference": "NEA-Np-Pu: Lemire R J, Fuger J, Nitsche H, Potter P, Rand M H, Rydberg J, Spahiu K, Sullivan J C, Ullman W J, Vitorge P, Wanner H, Chemical Thermodynamics of Neptunium and Plutonium. North-Holland, Elsevier Sci. Publ. B.V., Amsterdam, 2001",
+            "terms": [
+              {
+                "name": "Na+",
+                "coefficient": 1
+              },
+              {
+                "name": "Cl-",
+                "coefficient": 1
+              }
+            ],
+            "logK": -1.558,
+            "classification": "admitted-pure-solid",
+            "reason": "Source-bound neutral integer pure-solid law; presence determined only by coupled equilibrium",
+            "elements": {
+              "Na": 1,
+              "Cl": 1
+            },
+            "charge": 0,
+            "coefficients": [
+              0,
+              1,
+              0,
+              1,
+              0,
+              0
+            ],
+            "logBeta": -1.558,
+            "role": "ordinary",
+            "sourceIdentity": {
+              "id": "spana:2ac52a30213c9288:223454",
+              "reference": "NEA-Np-Pu: Lemire R J, Fuger J, Nitsche H, Potter P, Rand M H, Rydberg J, Spahiu K, Sullivan J C, Ullman W J, Vitorge P, Wanner H, Chemical Thermodynamics of Neptunium and Plutonium. North-Holland, Elsevier Sci. Publ. B.V., Amsterdam, 2001",
+              "terms": [
+                {
+                  "name": "Na+",
+                  "coefficient": 1
+                },
+                {
+                  "name": "Cl-",
+                  "coefficient": 1
+                }
+              ],
+              "logK": -1.558,
+              "scope": "source-pure-solids-v2"
+            }
+          }
+        ],
+        "excluded": [],
+        "included": [
+          "aqueous",
+          "pure-solids"
+        ]
+      },
+      "reason": "Source-derived closed-redox equilibrium under the disclosed phase scope. Each dose is independently equilibrated; no precipitation history or kinetics. Unsupported phase/gas requirements remain gaps. Eh/pe derived."
+    }
+  },
+  {
+    "name": "Nitrate",
+    "ok": true,
+    "pH": 7.089258956203147,
+    "pe": 12.586270943981088,
+    "solids": [
+      {
+        "id": "spana:2ac52a30213c9288:220295",
+        "name": "Na(cr)",
+        "amount": 0,
+        "logSaturation": -60.476270965215654,
+        "status": "absent",
+        "activity": null
+      }
+    ],
+    "sourceId": "81d2659c941991d7d7d5ae3766e240ebb465b340e83c7e3daecf94918d601e7a",
+    "scope": {
+      "boundary": "closed-physical",
+      "components": [
+        "component:H%2B",
+        "component:NO3-",
+        "component:Na%2B",
+        "component:H2O"
+      ],
+      "reactions": [
+        "spana:2ac52a30213c9288:9455",
+        "spana:2ac52a30213c9288:9551",
+        "spana:2ac52a30213c9288:9659",
+        "spana:2ac52a30213c9288:9768",
+        "spana:2ac52a30213c9288:9875",
+        "spana:2ac52a30213c9288:151381",
+        "spana:2ac52a30213c9288:152477",
+        "spana:2ac52a30213c9288:152743",
+        "spana:2ac52a30213c9288:173109",
+        "spana:2ac52a30213c9288:173181",
+        "spana:2ac52a30213c9288:175307",
+        "spana:2ac52a30213c9288:219667",
+        "spana:2ac52a30213c9288:219750",
+        "spana:2ac52a30213c9288:219933",
+        "spana:2ac52a30213c9288:224689",
+        "spana:2ac52a30213c9288:230906",
+        "spana:2ac52a30213c9288:231007",
+        "spana:2ac52a30213c9288:231170",
+        "spana:2ac52a30213c9288:231362",
+        "spana:2ac52a30213c9288:241198",
+        "spana:2ac52a30213c9288:241294",
+        "spana:2ac52a30213c9288:241393",
+        "spana:2ac52a30213c9288:249989",
+        "spana:2ac52a30213c9288:250161",
+        "spana:2ac52a30213c9288:250448"
+      ],
+      "status": "CONDITIONAL",
+      "phaseScope": {
+        "version": "source-pure-solids-v2",
+        "selection": {
+          "kind": "general-source"
+        },
+        "admitted": [
+          {
+            "id": "spana:2ac52a30213c9288:220295",
+            "name": "Na(cr)",
+            "phase": "solid",
+            "reference": "Codata: Cox J D, Wagman D D, Medvedev V A, CODATA Key Values for Thermodynamics. Hemisphere Publ. Co., New York, 1989",
+            "terms": [
+              {
+                "name": "Na+",
+                "coefficient": 1
+              },
+              {
+                "name": "e-",
+                "coefficient": 1
+              }
+            ],
+            "logK": -45.89,
+            "classification": "admitted-pure-solid",
+            "reason": "Source-bound neutral integer pure-solid law; presence determined only by coupled equilibrium",
+            "elements": {
+              "Na": 1
+            },
+            "charge": 0,
+            "coefficients": [
+              -0.16666666666666666,
+              1,
+              0,
+              -1,
+              0.5
+            ],
+            "logBeta": -71.74666666666667,
+            "role": "ordinary",
+            "sourceIdentity": {
+              "id": "spana:2ac52a30213c9288:220295",
+              "reference": "Codata: Cox J D, Wagman D D, Medvedev V A, CODATA Key Values for Thermodynamics. Hemisphere Publ. Co., New York, 1989",
+              "terms": [
+                {
+                  "name": "Na+",
+                  "coefficient": 1
+                },
+                {
+                  "name": "e-",
+                  "coefficient": 1
+                }
+              ],
+              "logK": -45.89,
+              "scope": "source-pure-solids-v2"
+            }
+          }
+        ],
+        "excluded": [],
+        "included": [
+          "aqueous",
+          "pure-solids"
+        ]
+      },
+      "reason": "Source-derived closed-redox equilibrium under the disclosed phase scope. Each dose is independently equilibrated; no precipitation history or kinetics. Unsupported phase/gas requirements remain gaps. Eh/pe derived."
+    }
+  },
+  {
+    "name": "MixedIonic",
+    "ok": true,
+    "pH": 7.0003732187647705,
+    "pe": 6.760202690610115,
+    "solids": [
+      {
+        "id": "spana:2ac52a30213c9288:187224",
+        "name": "K(cr)",
+        "amount": 0,
+        "logSaturation": -58.55123270134564,
+        "status": "absent",
+        "activity": null
+      },
+      {
+        "id": "spana:2ac52a30213c9288:188345",
+        "name": "KCl(s)",
+        "amount": 0,
+        "logSaturation": -5.201406560674706,
+        "status": "absent",
+        "activity": null
+      },
+      {
+        "id": "spana:2ac52a30213c9288:220295",
+        "name": "Na(cr)",
+        "amount": 0,
+        "logSaturation": -54.9519861128927,
+        "status": "absent",
+        "activity": null
+      },
+      {
+        "id": "spana:2ac52a30213c9288:223454",
+        "name": "NaCl(s)",
+        "amount": 0,
+        "logSaturation": -5.860159972221762,
+        "status": "absent",
+        "activity": null
+      }
+    ],
+    "sourceId": "37652caee8636e75c14e5fa3a1e5bef2148c74631cbba78b49795464b972c44c",
+    "scope": {
+      "boundary": "closed-physical",
+      "components": [
+        "component:H%2B",
+        "component:Cl-",
+        "component:K%2B",
+        "component:Na%2B",
+        "component:H2O"
+      ],
+      "reactions": [
+        "spana:2ac52a30213c9288:82236",
+        "spana:2ac52a30213c9288:82394",
+        "spana:2ac52a30213c9288:82497",
+        "spana:2ac52a30213c9288:82605",
+        "spana:2ac52a30213c9288:82715",
+        "spana:2ac52a30213c9288:151381",
+        "spana:2ac52a30213c9288:152743",
+        "spana:2ac52a30213c9288:159033",
+        "spana:2ac52a30213c9288:159101",
+        "spana:2ac52a30213c9288:159212",
+        "spana:2ac52a30213c9288:175307",
+        "spana:2ac52a30213c9288:189498",
+        "spana:2ac52a30213c9288:223384",
+        "spana:2ac52a30213c9288:224689",
+        "spana:2ac52a30213c9288:249989",
+        "spana:2ac52a30213c9288:250161",
+        "spana:2ac52a30213c9288:250448"
+      ],
+      "status": "CONDITIONAL",
+      "phaseScope": {
+        "version": "source-pure-solids-v2",
+        "selection": {
+          "kind": "general-source"
+        },
+        "admitted": [
+          {
+            "id": "spana:2ac52a30213c9288:187224",
+            "name": "K(cr)",
+            "phase": "solid",
+            "reference": "Codata: Cox J D, Wagman D D, Medvedev V A, CODATA Key Values for Thermodynamics. Hemisphere Publ. Co., New York, 1989",
+            "terms": [
+              {
+                "name": "K+",
+                "coefficient": 1
+              },
+              {
+                "name": "e-",
+                "coefficient": 1
+              }
+            ],
+            "logK": -49.49,
+            "classification": "admitted-pure-solid",
+            "reason": "Source-bound neutral integer pure-solid law; presence determined only by coupled equilibrium",
+            "elements": {
+              "K": 1
+            },
+            "charge": 0,
+            "coefficients": [
+              -0.25,
+              0.25,
+              1,
+              0,
+              -1,
+              0.5
+            ],
+            "logBeta": -76.465,
+            "role": "ordinary",
+            "sourceIdentity": {
+              "id": "spana:2ac52a30213c9288:187224",
+              "reference": "Codata: Cox J D, Wagman D D, Medvedev V A, CODATA Key Values for Thermodynamics. Hemisphere Publ. Co., New York, 1989",
+              "terms": [
+                {
+                  "name": "K+",
+                  "coefficient": 1
+                },
+                {
+                  "name": "e-",
+                  "coefficient": 1
+                }
+              ],
+              "logK": -49.49,
+              "scope": "source-pure-solids-v2"
+            }
+          },
+          {
+            "id": "spana:2ac52a30213c9288:188345",
+            "name": "KCl(s)",
+            "phase": "solid",
+            "reference": "SmithMart: NIST Standard Reference Database 46 Version 8.\nNIST Critically Selected Stability Constants of Metal Complexes Database\nhttp://www.nist.gov/srd/nist46.cfm\nNational Institute of Standards and Technology, 100 Bureau Dr., Stop 2300, Gaithersburg, MD",
+            "terms": [
+              {
+                "name": "K+",
+                "coefficient": 1
+              },
+              {
+                "name": "Cl-",
+                "coefficient": 1
+              }
+            ],
+            "logK": -0.9,
+            "classification": "admitted-pure-solid",
+            "reason": "Source-bound neutral integer pure-solid law; presence determined only by coupled equilibrium",
+            "elements": {
+              "K": 1,
+              "Cl": 1
+            },
+            "charge": 0,
+            "coefficients": [
+              0,
+              1,
+              1,
+              0,
+              0,
+              0
+            ],
+            "logBeta": -0.9,
+            "role": "ordinary",
+            "sourceIdentity": {
+              "id": "spana:2ac52a30213c9288:188345",
+              "reference": "SmithMart: NIST Standard Reference Database 46 Version 8.\nNIST Critically Selected Stability Constants of Metal Complexes Database\nhttp://www.nist.gov/srd/nist46.cfm\nNational Institute of Standards and Technology, 100 Bureau Dr., Stop 2300, Gaithersburg, MD",
+              "terms": [
+                {
+                  "name": "K+",
+                  "coefficient": 1
+                },
+                {
+                  "name": "Cl-",
+                  "coefficient": 1
+                }
+              ],
+              "logK": -0.9,
+              "scope": "source-pure-solids-v2"
+            }
+          },
+          {
+            "id": "spana:2ac52a30213c9288:220295",
+            "name": "Na(cr)",
+            "phase": "solid",
+            "reference": "Codata: Cox J D, Wagman D D, Medvedev V A, CODATA Key Values for Thermodynamics. Hemisphere Publ. Co., New York, 1989",
+            "terms": [
+              {
+                "name": "Na+",
+                "coefficient": 1
+              },
+              {
+                "name": "e-",
+                "coefficient": 1
+              }
+            ],
+            "logK": -45.89,
+            "classification": "admitted-pure-solid",
+            "reason": "Source-bound neutral integer pure-solid law; presence determined only by coupled equilibrium",
+            "elements": {
+              "Na": 1
+            },
+            "charge": 0,
+            "coefficients": [
+              -0.25,
+              0.25,
+              0,
+              1,
+              -1,
+              0.5
+            ],
+            "logBeta": -72.86500000000001,
+            "role": "ordinary",
+            "sourceIdentity": {
+              "id": "spana:2ac52a30213c9288:220295",
+              "reference": "Codata: Cox J D, Wagman D D, Medvedev V A, CODATA Key Values for Thermodynamics. Hemisphere Publ. Co., New York, 1989",
+              "terms": [
+                {
+                  "name": "Na+",
+                  "coefficient": 1
+                },
+                {
+                  "name": "e-",
+                  "coefficient": 1
+                }
+              ],
+              "logK": -45.89,
+              "scope": "source-pure-solids-v2"
+            }
+          },
+          {
+            "id": "spana:2ac52a30213c9288:223454",
+            "name": "NaCl(s)",
+            "phase": "solid",
+            "reference": "NEA-Np-Pu: Lemire R J, Fuger J, Nitsche H, Potter P, Rand M H, Rydberg J, Spahiu K, Sullivan J C, Ullman W J, Vitorge P, Wanner H, Chemical Thermodynamics of Neptunium and Plutonium. North-Holland, Elsevier Sci. Publ. B.V., Amsterdam, 2001",
+            "terms": [
+              {
+                "name": "Na+",
+                "coefficient": 1
+              },
+              {
+                "name": "Cl-",
+                "coefficient": 1
+              }
+            ],
+            "logK": -1.558,
+            "classification": "admitted-pure-solid",
+            "reason": "Source-bound neutral integer pure-solid law; presence determined only by coupled equilibrium",
+            "elements": {
+              "Na": 1,
+              "Cl": 1
+            },
+            "charge": 0,
+            "coefficients": [
+              0,
+              1,
+              0,
+              1,
+              0,
+              0
+            ],
+            "logBeta": -1.558,
+            "role": "ordinary",
+            "sourceIdentity": {
+              "id": "spana:2ac52a30213c9288:223454",
+              "reference": "NEA-Np-Pu: Lemire R J, Fuger J, Nitsche H, Potter P, Rand M H, Rydberg J, Spahiu K, Sullivan J C, Ullman W J, Vitorge P, Wanner H, Chemical Thermodynamics of Neptunium and Plutonium. North-Holland, Elsevier Sci. Publ. B.V., Amsterdam, 2001",
+              "terms": [
+                {
+                  "name": "Na+",
+                  "coefficient": 1
+                },
+                {
+                  "name": "Cl-",
+                  "coefficient": 1
+                }
+              ],
+              "logK": -1.558,
+              "scope": "source-pure-solids-v2"
+            }
+          }
+        ],
+        "excluded": [],
+        "included": [
+          "aqueous",
+          "pure-solids"
+        ]
+      },
+      "reason": "Source-derived closed-redox equilibrium under the disclosed phase scope. Each dose is independently equilibrated; no precipitation history or kinetics. Unsupported phase/gas requirements remain gaps. Eh/pe derived."
+    }
+  }
+]

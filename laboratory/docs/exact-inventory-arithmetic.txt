@@ -1,0 +1,1 @@
+7 exact Number round trips passed, including smallest subnormal and maximum finite value. Tiny nonzero cancellation and structural zero checks passed. Three tiny nonzero physical-inventory projections passed (Number.MIN_VALUE, 1e-300, 1e-30). No magnitude threshold.

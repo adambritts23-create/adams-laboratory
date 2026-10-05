@@ -1,0 +1,102 @@
+[
+  {
+    "case": "1D shared state",
+    "index": 0,
+    "solids": 0,
+    "totals": [
+      {
+        "id": "component:Ca%202%2B",
+        "value": 0.1
+      },
+      {
+        "id": "component:CO3%202-",
+        "value": 0.10000000000000028
+      },
+      {
+        "id": "component:Mg%202%2B",
+        "value": 0.0010000000000000005
+      }
+    ]
+  },
+  {
+    "case": "1D shared state",
+    "index": 14,
+    "solids": 1,
+    "totals": [
+      {
+        "id": "component:Ca%202%2B",
+        "value": 0.003044375888997809
+      },
+      {
+        "id": "component:CO3%202-",
+        "value": 0.003044375888997815
+      },
+      {
+        "id": "component:Mg%202%2B",
+        "value": 0.0009999999999999994
+      }
+    ]
+  },
+  {
+    "case": "1D shared state",
+    "index": 21,
+    "solids": 2,
+    "totals": [
+      {
+        "id": "component:Ca%202%2B",
+        "value": 0.000081602184152827
+      },
+      {
+        "id": "component:CO3%202-",
+        "value": 0.00008160218415282952
+      },
+      {
+        "id": "component:Mg%202%2B",
+        "value": 0.00008153088569393767
+      }
+    ]
+  },
+  {
+    "case": "1D shared state",
+    "index": 28,
+    "solids": 3,
+    "totals": [
+      {
+        "id": "component:Ca%202%2B",
+        "value": 0.00016252580424081534
+      },
+      {
+        "id": "component:CO3%202-",
+        "value": 0.0005945149508740985
+      },
+      {
+        "id": "component:Mg%202%2B",
+        "value": 2.58094261823735e-9
+      }
+    ]
+  },
+  {
+    "case": "1D hover/click/pin",
+    "index": 13
+  },
+  {
+    "case": "Ca/carbonate calcite without Mg",
+    "inputId": "5ce76b1986d481b727eafec090fda0495acb616a91d7a1fb51a936834311dd1c"
+  },
+  {
+    "case": "2D selected grid sample",
+    "index": 20
+  },
+  {
+    "case": "2D clicked grid sample",
+    "index": 32
+  },
+  {
+    "case": "3D sampled vertex and click",
+    "index": 30
+  },
+  {
+    "case": "390px synchronized stack",
+    "passed": true
+  }
+]

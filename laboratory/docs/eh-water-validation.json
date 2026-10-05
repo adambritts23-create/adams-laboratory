@@ -1,0 +1,48 @@
+{
+  "status": "passed",
+  "tests": {
+    "focused": 14,
+    "regression": 545,
+    "failures": 0,
+    "skipped": 0,
+    "cancelled": 0,
+    "todo": 0
+  },
+  "build": "passed",
+  "artifactAudit": "passed",
+  "lint": {
+    "errors": 0,
+    "preExistingWarnings": 1
+  },
+  "hashReview": {
+    "changed": [
+      "src/calculations/imposedEh.js",
+      "src/components/PlotWorkspace.jsx",
+      "src/components/ScientificPlot.jsx",
+      "src/plots/export.js",
+      "src/plots/presentation.js"
+    ],
+    "unchanged": 214,
+    "protectedUnchanged": true
+  },
+  "waterAtPH0": {
+    "temperatureC": 25,
+    "referenceElectrode": "SHE",
+    "H2": 0,
+    "O2": 1.228887591327141
+  },
+  "feAudit": "fe-metal-eh-audit.json",
+  "browser": {
+    "productionPreview": true,
+    "accepted": 17,
+    "requested": 17,
+    "markerToggle": true,
+    "viewReuse": true,
+    "endpointBeakerSync": true,
+    "exactSolidAmount": true,
+    "svgReferenceProvenance": true,
+    "consoleErrors": 0
+  },
+  "deployed": false,
+  "pushed": false
+}

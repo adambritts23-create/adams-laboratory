@@ -1,0 +1,14 @@
+✔ ionic chromium inventory equals reviewed bottle and supports dispense and N rows (3.1384ms)
+✔ authoritative two-row balance works in either order; unbalanced/unknown/forged metadata refuse (0.9438ms)
+✔ mixed reviewed and ionic contributions retain a single physical preparation (0.2146ms)
+✔ Cu passes component admission then refuses unsupported redox conservation; exclusions respected (6138.9424ms)
+✔ non-chromium sodium chloride uses identical generic preparation and compiler route (9237.5708ms)
+✔ ionic Cr titration matches all saved independent doses and existing shared analytical views (34561.3304ms)
+ℹ tests 6
+ℹ suites 0
+ℹ pass 6
+ℹ fail 0
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 50913.52

@@ -1,0 +1,26 @@
+[
+  {
+    "inputId": "a3855a683efe7a9e31ada33e87ea442c54c97301eb380e924b0839aa86c87dc4",
+    "pH": "0",
+    "solidCount": "0",
+    "text": "Aqueous only\nTotal dissolved Ca²⁺\n0.1 mol/kg H₂O\nLargest weighted contributor: Ca²⁺\nTotal dissolved Mg²⁺\n0.001 mol/kg H₂O\nLargest weighted contributor: Mg²⁺\nActive solid inventory\n\nNo positive solid amount.\n\nWhy does the beaker change?"
+  },
+  {
+    "inputId": "221dbd2c44c599006688377bc8d4c7ea5a9749f2ad55034d1b4e6d60dfebbf8c",
+    "pH": "7",
+    "solidCount": "1",
+    "text": "1 solid phase\nTotal dissolved Ca²⁺\n0.003044375889 mol/kg H₂O\nLargest weighted contributor: Ca²⁺\nTotal dissolved Mg²⁺\n0.001 mol/kg H₂O\nLargest weighted contributor: Mg²⁺\nActive solid inventory\nCaCO₃(cr)\n0.09695562411 mol/kg H₂O\nWhy does the beaker change?"
+  },
+  {
+    "inputId": "acf9bad10f10cb80e739dc2fba3ffc7354460d90e3ec72fcc05de89ac51715c9",
+    "pH": "10.5",
+    "solidCount": "2",
+    "text": "2 solid phases\nTotal dissolved Ca²⁺\n8.160218415e-5 mol/kg H₂O\nLargest weighted contributor: Ca²⁺\nTotal dissolved Mg²⁺\n8.153088569e-5 mol/kg H₂O\nLargest weighted contributor: Mg²⁺\nActive solid inventory\nMg(OH)₂(cr)\n0.0009184691143 mol/kg H₂O\nCaCO₃(cr)\n0.09991839782 mol/kg H₂O\nWhy does the beaker change?"
+  },
+  {
+    "inputId": "c978b2f4004f64ab71ef68e9e6ec52b70cacc52c22b5ea90fef4c4926af15e49",
+    "pH": "14",
+    "solidCount": "3",
+    "text": "3 solid phases\nTotal dissolved Ca²⁺\n0.0001625258042 mol/kg H₂O\nLargest weighted contributor: CaOH⁺\nTotal dissolved Mg²⁺\n2.580942618e-9 mol/kg H₂O\nLargest weighted contributor: MgOH⁺\nActive solid inventory\nMg(OH)₂(cr)\n0.0009999974191 mol/kg H₂O\nCa(OH)₂(cr)\n0.0004319891466 mol/kg H₂O\nCaCO₃(cr)\n0.09940548505 mol/kg H₂O\nWhy does the beaker change?"
+  }
+]

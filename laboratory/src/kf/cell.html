@@ -1,0 +1,56 @@
+<div id="kf-cell">
+  <div id="kf-stage" role="img" aria-label="Roterbar tredimensionell KF-cell med generatorelektrod, indikatorelektrod, gasinlopp och magnetomrörare. Dra för att rotera och skrolla för att zooma."><div id="kf-loading" aria-live="polite">Laddar 3D-modell…</div></div>
+  <section class="kf-below-model" aria-label="KF view controls and explanations">
+  <h2>KF titration · interactive cell</h2>
+  <div class="viz-controls">
+    <label class="form-check"><input class="form-check-input" type="checkbox" id="kf-dia"><span class="form-check-label">Med diafragma</span></label>
+    <label class="form-check"><input class="form-check-input" type="checkbox" id="kf-cut" checked><span class="form-check-label">Genomskärning</span></label>
+    <button class="btn" id="kf-play" aria-pressed="true">Pause animation</button><output id="kf-motion" aria-live="off">Running</output>
+    <button class="btn" id="kf-inspect-generator">Zoom generator</button><button class="btn" id="kf-inspect-indicator">Zoom indicator</button><button class="btn" id="kf-full-setup">Full setup</button>
+    <button class="btn" id="kf-fly">Full-screen fly mode</button>
+    <button class="btn" id="kf-front">Framifrån</button>
+    <button class="btn" id="kf-angle">Perspektiv</button>
+  </div>
+  <label class="form-check"><input type="checkbox" id="kf-surface-reactions" checked> Animate reactions on the electrodes</label>
+  <details id="kf-additions" open><summary>Apparatus and flow visibility</summary>
+  <div class="viz-controls">
+    <label><input type="checkbox" id="kf-background" checked> Complete apparatus: heater, vial, tubing and instruments</label>
+    <label><input type="checkbox" id="kf-labels"> Labels and polarity</label>
+    <label><input type="checkbox" id="kf-electrons" checked> Electron flow</label>
+    <label><input type="checkbox" id="kf-gas" checked> Argon / water-vapour route</label>
+  </div><p class="text-small">The long needle supplies dry argon below the vial cap; the short needle collects water vapour from the headspace and carries it to the cell. Electrons leave the positive anode for the coulometer and enter the negative cathode from it. Charge through the reagent is carried by ions, not free electrons. Collapsing these controls keeps the apparatus visible. Use Full setup to return from a close-up to the complete connected system.</p></details>
+  <p id="kf-view-status">Click the generator or indicator to magnify it.</p>
+  <p id="kf-indicator-status"></p>
+  <div class="viz-row text-small"><span style="color:#e32626">●</span><span>Anod (+) · Pt-nät</span><span style="color:#2169d5">●</span><span>Katod (−) · H₂</span><span>Färger enligt din principskiss</span></div>
+  </section>
+  <div id="kf-reaction-controls" class="viz-controls"><label>Generator reaction <select id="kf-reaction-mode"><option value="both">Both electrodes</option><option value="anode">Anode oxidation</option><option value="cathode">Cathode reduction</option></select></label><button id="kf-reaction-play">Pause reactions</button></div>
+  <p id="kf-reaction-step"></p>
+  <details id="kf-reactions"><summary>Chemical equations</summary>
+  <p>B denotes the reagent base (RN in your figure); ROH denotes the alcohol. Ionic notation below makes the charge balance explicit.</p>
+  <h3>Generator electrode</h3>
+  <p class="kf-anode">(1) Anode (+), oxidation: 2 I⁻ → I₂ + 2 e⁻</p>
+  <p class="kf-cathode">(2) Cathode (−), reduction: 2 BH⁺ + 2 e⁻ → 2 B + H₂(g)</p>
+  <h3>Formation of alkyl sulfite</h3>
+  <p>(3) ROH + SO₂ + B ⇌ BH⁺ + ROSO₂⁻</p>
+  <p class="text-small">Alcohol-rich reagent favours alkyl-sulfite formation. Methanol corresponds to R = CH₃.</p>
+  <details open><summary>Reaction in the reagent and overall KF reaction</summary>
+  <p>(4) Reduction: I₂ + 2 e⁻ → 2 I⁻</p>
+  <p>(5) Oxidation: ROSO₂⁻ + H₂O + 2 B → ROSO₃⁻ + 2 BH⁺ + 2 e⁻</p>
+  <p>(6) Combined: ROSO₂⁻ + H₂O + I₂ + 2 B → ROSO₃⁻ + 2 BH⁺ + 2 I⁻</p>
+  <p>(7) Overall KF: ROH + SO₂ + 3 B + I₂ + H₂O → ROSO₃⁻ + 3 BH⁺ + 2 I⁻</p>
+  <p class="text-small">These are the reactions in your diagram written with dissociated ions. The two solution half-reactions are electron bookkeeping, not electron paths through the liquid. Cathodic chemistry is reagent-dependent; the displayed hydrogen reaction follows your schematic.</p>
+  </details></details>
+  <details><summary>Cell inspection and export</summary>
+  <div class="viz-controls">
+    <label class="form-label">Inspektera del<select class="form-select" id="kf-part"><option value="all">Hela cellen</option><option value="generator">Generatorelektrod</option><option value="anode">Anod (+) · rött Pt-nät</option><option value="cathode">Katod (−) · blå</option><option value="indicator">Indikatorelektrod</option><option value="inlet">Gasledning från ugn</option><option value="dryer">Torkrör</option><option value="septum">Septum / provport</option><option value="stirrer">Magnetstav och omrörare</option><option value="vessel">Glaskärl</option><option value="liquid">Reagens</option></select></label>
+    <label class="form-label">Sprängvy <output id="kf-explode-value">0%</output><input class="form-range" id="kf-explode" type="range" min="0" max="100" value="0"></label>
+    <label class="form-label">Vätskenivå <output id="kf-level-value">42%</output><input class="form-range" id="kf-level" type="range" min="28" max="65" value="42"></label>
+    <label class="form-label">Animationshastighet <output id="kf-speed-value">1×</output><input class="form-range" id="kf-speed" type="range" min="0.2" max="2" value="1" step="0.1"></label>
+  </div>
+  <div class="viz-row"><button class="btn" id="kf-export" disabled>Exportera 3D (.glb)</button><a id="kf-file" hidden download="kf-cell-schematic.glb">Spara 3D-modellen</a><span class="text-small">Dra: rotera · Skrolla: zooma · Klicka på en del: inspektera</span></div>
+  </details>
+  <p class="text-small" id="kf-detail" aria-live="polite">Schematisk modell för metodillustration — ej måttriktig. Utan diafragma som standard.</p>
+</div>
+<style>
+#kf-cell #kf-stage{height:620px;position:relative;touch-action:none;cursor:grab}#kf-cell canvas{display:block;width:100%;height:100%}#kf-cell #kf-loading{position:absolute;inset:45% 0 auto;text-align:center}#kf-cell output{font-variant-numeric:tabular-nums}#kf-cell #kf-detail{min-height:2.5em}@media(max-width:480px){#kf-cell #kf-stage{height:370px}}
+</style>

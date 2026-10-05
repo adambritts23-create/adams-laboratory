@@ -1,0 +1,2551 @@
+{
+  "version": "closed-redox-aqueous-v1",
+  "summary": {
+    "runs": 12,
+    "orderControls": 2,
+    "maxConcentrationError": 7.105427357601002e-15,
+    "maxPeError": 2.7755575615628914e-16,
+    "maxPeDisagreement": 2.220446049250313e-16,
+    "maxInventoryResidual": 7.105427357601002e-15
+  },
+  "runs": [
+    {
+      "kind": "original",
+      "alternate": false,
+      "history": 0,
+      "independentExpected": {
+        "Ao": 0.9090909090909091,
+        "Ar": 0.09090909090909091,
+        "Bo": 0.09090909090909091,
+        "Br": 0.9090909090909091,
+        "X": 1
+      },
+      "expectedPe": 1,
+      "equilibriumId": "4239f308820eb8169d00e889a5eeda15ccc447af94fc0013784e33bd5730dbec",
+      "preparationId": "9b8cf681d005f80bf0bc4e037978736af02545446966483d564681921d3a90df",
+      "constraints": [
+        {
+          "componentId": "Ao",
+          "kh": 1,
+          "value": 0
+        },
+        {
+          "componentId": "Bo",
+          "kh": 1,
+          "value": 1
+        },
+        {
+          "componentId": "Ar",
+          "kh": 1,
+          "value": 1
+        },
+        {
+          "componentId": "X",
+          "kh": 1,
+          "value": 1
+        }
+      ],
+      "cancellations": [
+        {
+          "sourceIds": [
+            "A-reduction",
+            "B-reduction"
+          ],
+          "multipliers": [
+            1,
+            -1
+          ],
+          "electronMultiple": 1,
+          "electronResidual": 0,
+          "coefficients": {
+            "Ao": -1,
+            "Ar": 1,
+            "Bo": 1,
+            "Br": -1,
+            "X": 0,
+            "E": 0
+          },
+          "logK": -2
+        }
+      ],
+      "concentrations": {
+        "Ao": 0.9090909090909091,
+        "Bo": 0.09090909090909088,
+        "Ar": 0.09090909090909094,
+        "X": 1,
+        "Br": 0.9090909090909094
+      },
+      "inspection": {
+        "inventories": [
+          {
+            "key": "A",
+            "total": 1,
+            "actual": 1,
+            "residual": 0,
+            "limit": 1.0004842170943041e-10,
+            "ok": true
+          },
+          {
+            "key": "B",
+            "total": 1,
+            "actual": 1.0000000000000002,
+            "residual": 2.220446049250313e-16,
+            "limit": 1.0002842170943041e-10,
+            "ok": true
+          },
+          {
+            "key": "X",
+            "total": 1,
+            "actual": 1,
+            "residual": 0,
+            "limit": 1.0002842170943041e-10,
+            "ok": true
+          },
+          {
+            "key": "charge",
+            "total": 0,
+            "actual": 0,
+            "residual": 0,
+            "limit": 2.000768434188608e-10,
+            "ok": true
+          }
+        ],
+        "potentials": [
+          {
+            "reactionId": "A-reduction",
+            "electronCoefficient": 1,
+            "pe": 0.9999999999999999,
+            "Eh": 0.05915934968478233,
+            "peErrorBound": 1.0003077461117063e-10,
+            "difference": 0,
+            "agreementLimit": 2.0006154922234125e-10,
+            "ok": true
+          },
+          {
+            "reactionId": "B-reduction",
+            "electronCoefficient": 1,
+            "pe": 0.9999999999999998,
+            "Eh": 0.05915934968478232,
+            "peErrorBound": 1.0008761803003143e-10,
+            "difference": -1.1102230246251565e-16,
+            "agreementLimit": 2.0011839264120206e-10,
+            "ok": true
+          }
+        ],
+        "netReactions": [
+          {
+            "sourceIds": [
+              "A-reduction",
+              "B-reduction"
+            ],
+            "residual": 0,
+            "limit": 2.0005684341886082e-10,
+            "ok": true
+          }
+        ],
+        "pe": 0.9999999999999999,
+        "Eh": 0.05915934968478233,
+        "potentialConvention": "Derived from supplied half-reaction standard states; not an imposed reservoir.",
+        "chargePolicy": "Explicit electroneutral reagent preparation; physical charge residual independently checked."
+      },
+      "solverResiduals": {
+        "componentBalance": [
+          -3.3306690738754696e-16,
+          2.220446049250313e-16,
+          4.440892098500626e-16,
+          0
+        ],
+        "componentBalanceLimits": [
+          2e-14,
+          1e-10,
+          1e-10,
+          1e-10
+        ],
+        "massActionLog": [
+          2.0816681711721685e-17
+        ],
+        "scaledBalance": [
+          -1.8318679906315082e-16,
+          2.2204460492503126e-16,
+          4.440892098500624e-16,
+          0
+        ]
+      }
+    },
+    {
+      "kind": "original",
+      "alternate": false,
+      "history": 1,
+      "independentExpected": {
+        "Ao": 0.9090909090909091,
+        "Ar": 0.09090909090909091,
+        "Bo": 0.09090909090909091,
+        "Br": 0.9090909090909091,
+        "X": 1
+      },
+      "expectedPe": 1,
+      "equilibriumId": "4239f308820eb8169d00e889a5eeda15ccc447af94fc0013784e33bd5730dbec",
+      "preparationId": "070e0913cace4ff4fce568037ac987637d986ca422c12cb8bf7db2f032a9da56",
+      "constraints": [
+        {
+          "componentId": "Ao",
+          "kh": 1,
+          "value": 0
+        },
+        {
+          "componentId": "Bo",
+          "kh": 1,
+          "value": 1
+        },
+        {
+          "componentId": "Ar",
+          "kh": 1,
+          "value": 1
+        },
+        {
+          "componentId": "X",
+          "kh": 1,
+          "value": 1
+        }
+      ],
+      "cancellations": [
+        {
+          "sourceIds": [
+            "A-reduction",
+            "B-reduction"
+          ],
+          "multipliers": [
+            1,
+            -1
+          ],
+          "electronMultiple": 1,
+          "electronResidual": 0,
+          "coefficients": {
+            "Ao": -1,
+            "Ar": 1,
+            "Bo": 1,
+            "Br": -1,
+            "X": 0,
+            "E": 0
+          },
+          "logK": -2
+        }
+      ],
+      "concentrations": {
+        "Ao": 0.9090909090909091,
+        "Bo": 0.09090909090909088,
+        "Ar": 0.09090909090909094,
+        "X": 1,
+        "Br": 0.9090909090909094
+      },
+      "inspection": {
+        "inventories": [
+          {
+            "key": "A",
+            "total": 1,
+            "actual": 1,
+            "residual": 0,
+            "limit": 1.0004842170943041e-10,
+            "ok": true
+          },
+          {
+            "key": "B",
+            "total": 1,
+            "actual": 1.0000000000000002,
+            "residual": 2.220446049250313e-16,
+            "limit": 1.0002842170943041e-10,
+            "ok": true
+          },
+          {
+            "key": "X",
+            "total": 1,
+            "actual": 1,
+            "residual": 0,
+            "limit": 1.0002842170943041e-10,
+            "ok": true
+          },
+          {
+            "key": "charge",
+            "total": 0,
+            "actual": 0,
+            "residual": 0,
+            "limit": 2.000768434188608e-10,
+            "ok": true
+          }
+        ],
+        "potentials": [
+          {
+            "reactionId": "A-reduction",
+            "electronCoefficient": 1,
+            "pe": 0.9999999999999999,
+            "Eh": 0.05915934968478233,
+            "peErrorBound": 1.0003077461117063e-10,
+            "difference": 0,
+            "agreementLimit": 2.0006154922234125e-10,
+            "ok": true
+          },
+          {
+            "reactionId": "B-reduction",
+            "electronCoefficient": 1,
+            "pe": 0.9999999999999998,
+            "Eh": 0.05915934968478232,
+            "peErrorBound": 1.0008761803003143e-10,
+            "difference": -1.1102230246251565e-16,
+            "agreementLimit": 2.0011839264120206e-10,
+            "ok": true
+          }
+        ],
+        "netReactions": [
+          {
+            "sourceIds": [
+              "A-reduction",
+              "B-reduction"
+            ],
+            "residual": 0,
+            "limit": 2.0005684341886082e-10,
+            "ok": true
+          }
+        ],
+        "pe": 0.9999999999999999,
+        "Eh": 0.05915934968478233,
+        "potentialConvention": "Derived from supplied half-reaction standard states; not an imposed reservoir.",
+        "chargePolicy": "Explicit electroneutral reagent preparation; physical charge residual independently checked."
+      },
+      "solverResiduals": {
+        "componentBalance": [
+          -3.3306690738754696e-16,
+          2.220446049250313e-16,
+          4.440892098500626e-16,
+          0
+        ],
+        "componentBalanceLimits": [
+          2e-14,
+          1e-10,
+          1e-10,
+          1e-10
+        ],
+        "massActionLog": [
+          2.0816681711721685e-17
+        ],
+        "scaledBalance": [
+          -1.8318679906315082e-16,
+          2.2204460492503126e-16,
+          4.440892098500624e-16,
+          0
+        ]
+      }
+    },
+    {
+      "kind": "original",
+      "alternate": true,
+      "history": 0,
+      "independentExpected": {
+        "Ao": 0.9090909090909091,
+        "Ar": 0.09090909090909091,
+        "Bo": 0.09090909090909091,
+        "Br": 0.9090909090909091,
+        "X": 1
+      },
+      "expectedPe": 1,
+      "equilibriumId": "61cc040683b91abc306fd8965f2397783d9844ee09391274a738ec270fc8586a",
+      "preparationId": "9b8cf681d005f80bf0bc4e037978736af02545446966483d564681921d3a90df",
+      "constraints": [
+        {
+          "componentId": "Ar",
+          "kh": 1,
+          "value": 0
+        },
+        {
+          "componentId": "Br",
+          "kh": 1,
+          "value": 1
+        },
+        {
+          "componentId": "Ao",
+          "kh": 1,
+          "value": 1
+        },
+        {
+          "componentId": "X",
+          "kh": 1,
+          "value": 1
+        }
+      ],
+      "cancellations": [
+        {
+          "sourceIds": [
+            "A-reduction",
+            "B-reduction"
+          ],
+          "multipliers": [
+            1,
+            -1
+          ],
+          "electronMultiple": 1,
+          "electronResidual": 0,
+          "coefficients": {
+            "Ao": -1,
+            "Ar": 1,
+            "Bo": 1,
+            "Br": -1,
+            "X": 0,
+            "E": 0
+          },
+          "logK": -2
+        }
+      ],
+      "concentrations": {
+        "Ar": 0.09090909090909088,
+        "Br": 0.9090909090909092,
+        "Ao": 0.9090909090909092,
+        "X": 1,
+        "Bo": 0.09090909090909094
+      },
+      "inspection": {
+        "inventories": [
+          {
+            "key": "A",
+            "total": 1,
+            "actual": 1,
+            "residual": 0,
+            "limit": 1.0004842170943041e-10,
+            "ok": true
+          },
+          {
+            "key": "B",
+            "total": 1,
+            "actual": 1,
+            "residual": 0,
+            "limit": 1.0002842170943041e-10,
+            "ok": true
+          },
+          {
+            "key": "X",
+            "total": 1,
+            "actual": 1,
+            "residual": 0,
+            "limit": 1.0002842170943041e-10,
+            "ok": true
+          },
+          {
+            "key": "charge",
+            "total": 0,
+            "actual": 0,
+            "residual": 0,
+            "limit": 2.0005684341886082e-10,
+            "ok": true
+          }
+        ],
+        "potentials": [
+          {
+            "reactionId": "A-reduction",
+            "electronCoefficient": 1,
+            "pe": 1.0000000000000002,
+            "Eh": 0.05915934968478235,
+            "peErrorBound": 1.0003077461117063e-10,
+            "difference": 0,
+            "agreementLimit": 2.0006154922234125e-10,
+            "ok": true
+          },
+          {
+            "reactionId": "B-reduction",
+            "electronCoefficient": 1,
+            "pe": 1,
+            "Eh": 0.059159349684782335,
+            "peErrorBound": 1.0008761803003143e-10,
+            "difference": -2.220446049250313e-16,
+            "agreementLimit": 2.0011839264120206e-10,
+            "ok": true
+          }
+        ],
+        "netReactions": [
+          {
+            "sourceIds": [
+              "A-reduction",
+              "B-reduction"
+            ],
+            "residual": -4.440892098500626e-16,
+            "limit": 2.0005684341886082e-10,
+            "ok": true
+          }
+        ],
+        "pe": 1.0000000000000002,
+        "Eh": 0.05915934968478235,
+        "potentialConvention": "Derived from supplied half-reaction standard states; not an imposed reservoir.",
+        "chargePolicy": "Explicit electroneutral reagent preparation; physical charge residual independently checked."
+      },
+      "solverResiduals": {
+        "componentBalance": [
+          -5.551115123125783e-17,
+          0,
+          0,
+          0
+        ],
+        "componentBalanceLimits": [
+          2e-14,
+          1e-10,
+          1e-10,
+          1e-10
+        ],
+        "massActionLog": [
+          0
+        ],
+        "scaledBalance": [
+          -3.0531133177191805e-16,
+          0,
+          0,
+          0
+        ]
+      }
+    },
+    {
+      "kind": "original",
+      "alternate": true,
+      "history": 1,
+      "independentExpected": {
+        "Ao": 0.9090909090909091,
+        "Ar": 0.09090909090909091,
+        "Bo": 0.09090909090909091,
+        "Br": 0.9090909090909091,
+        "X": 1
+      },
+      "expectedPe": 1,
+      "equilibriumId": "61cc040683b91abc306fd8965f2397783d9844ee09391274a738ec270fc8586a",
+      "preparationId": "070e0913cace4ff4fce568037ac987637d986ca422c12cb8bf7db2f032a9da56",
+      "constraints": [
+        {
+          "componentId": "Ar",
+          "kh": 1,
+          "value": 0
+        },
+        {
+          "componentId": "Br",
+          "kh": 1,
+          "value": 1
+        },
+        {
+          "componentId": "Ao",
+          "kh": 1,
+          "value": 1
+        },
+        {
+          "componentId": "X",
+          "kh": 1,
+          "value": 1
+        }
+      ],
+      "cancellations": [
+        {
+          "sourceIds": [
+            "A-reduction",
+            "B-reduction"
+          ],
+          "multipliers": [
+            1,
+            -1
+          ],
+          "electronMultiple": 1,
+          "electronResidual": 0,
+          "coefficients": {
+            "Ao": -1,
+            "Ar": 1,
+            "Bo": 1,
+            "Br": -1,
+            "X": 0,
+            "E": 0
+          },
+          "logK": -2
+        }
+      ],
+      "concentrations": {
+        "Ar": 0.09090909090909088,
+        "Br": 0.9090909090909092,
+        "Ao": 0.9090909090909092,
+        "X": 1,
+        "Bo": 0.09090909090909094
+      },
+      "inspection": {
+        "inventories": [
+          {
+            "key": "A",
+            "total": 1,
+            "actual": 1,
+            "residual": 0,
+            "limit": 1.0004842170943041e-10,
+            "ok": true
+          },
+          {
+            "key": "B",
+            "total": 1,
+            "actual": 1,
+            "residual": 0,
+            "limit": 1.0002842170943041e-10,
+            "ok": true
+          },
+          {
+            "key": "X",
+            "total": 1,
+            "actual": 1,
+            "residual": 0,
+            "limit": 1.0002842170943041e-10,
+            "ok": true
+          },
+          {
+            "key": "charge",
+            "total": 0,
+            "actual": 0,
+            "residual": 0,
+            "limit": 2.0005684341886082e-10,
+            "ok": true
+          }
+        ],
+        "potentials": [
+          {
+            "reactionId": "A-reduction",
+            "electronCoefficient": 1,
+            "pe": 1.0000000000000002,
+            "Eh": 0.05915934968478235,
+            "peErrorBound": 1.0003077461117063e-10,
+            "difference": 0,
+            "agreementLimit": 2.0006154922234125e-10,
+            "ok": true
+          },
+          {
+            "reactionId": "B-reduction",
+            "electronCoefficient": 1,
+            "pe": 1,
+            "Eh": 0.059159349684782335,
+            "peErrorBound": 1.0008761803003143e-10,
+            "difference": -2.220446049250313e-16,
+            "agreementLimit": 2.0011839264120206e-10,
+            "ok": true
+          }
+        ],
+        "netReactions": [
+          {
+            "sourceIds": [
+              "A-reduction",
+              "B-reduction"
+            ],
+            "residual": -4.440892098500626e-16,
+            "limit": 2.0005684341886082e-10,
+            "ok": true
+          }
+        ],
+        "pe": 1.0000000000000002,
+        "Eh": 0.05915934968478235,
+        "potentialConvention": "Derived from supplied half-reaction standard states; not an imposed reservoir.",
+        "chargePolicy": "Explicit electroneutral reagent preparation; physical charge residual independently checked."
+      },
+      "solverResiduals": {
+        "componentBalance": [
+          -5.551115123125783e-17,
+          0,
+          0,
+          0
+        ],
+        "componentBalanceLimits": [
+          2e-14,
+          1e-10,
+          1e-10,
+          1e-10
+        ],
+        "massActionLog": [
+          0
+        ],
+        "scaledBalance": [
+          -3.0531133177191805e-16,
+          0,
+          0,
+          0
+        ]
+      }
+    },
+    {
+      "kind": "unequal",
+      "alternate": false,
+      "history": 0,
+      "independentExpected": {
+        "Ao": 9,
+        "Ar": 18,
+        "Bo": 2,
+        "Br": 6,
+        "X": 24
+      },
+      "expectedPe": 0,
+      "equilibriumId": "f1bd173bba7206e2a0beb027c631deb88a86cf33c8fc01581e6fed5927ab87ab",
+      "preparationId": "7928f623f8c35f7d43e6be7b036c48bb3229413b2da9210a11f5cc73a6458a65",
+      "constraints": [
+        {
+          "componentId": "Ao",
+          "kh": 1,
+          "value": 0
+        },
+        {
+          "componentId": "Bo",
+          "kh": 1,
+          "value": 8
+        },
+        {
+          "componentId": "Ar",
+          "kh": 1,
+          "value": 27
+        },
+        {
+          "componentId": "X",
+          "kh": 1,
+          "value": 24
+        }
+      ],
+      "cancellations": [
+        {
+          "sourceIds": [
+            "A-reduction",
+            "B-reduction"
+          ],
+          "multipliers": [
+            3,
+            -2
+          ],
+          "electronMultiple": 6,
+          "electronResidual": 0,
+          "coefficients": {
+            "Ao": -3,
+            "Ar": 3,
+            "Bo": 2,
+            "Br": -2,
+            "X": 0,
+            "E": 0
+          },
+          "logK": -0.05115252244738133
+        }
+      ],
+      "concentrations": {
+        "Ao": 8.999999999999998,
+        "Bo": 2.000000000000001,
+        "Ar": 17.999999999999996,
+        "X": 23.999999999999993,
+        "Br": 6.000000000000003
+      },
+      "inspection": {
+        "inventories": [
+          {
+            "key": "A",
+            "total": 27,
+            "actual": 26.999999999999993,
+            "residual": -7.105427357601002e-15,
+            "limit": 2.7007873861546213e-9,
+            "ok": true
+          },
+          {
+            "key": "B",
+            "total": 8,
+            "actual": 8.000000000000004,
+            "residual": 3.552713678800501e-15,
+            "limit": 8.002273736754433e-10,
+            "ok": true
+          },
+          {
+            "key": "X",
+            "total": 24,
+            "actual": 23.999999999999993,
+            "residual": -7.105427357601002e-15,
+            "limit": 2.4006821210263297e-9,
+            "ok": true
+          },
+          {
+            "key": "charge",
+            "total": 0,
+            "actual": 7.105427357601002e-15,
+            "residual": 7.105427357601002e-15,
+            "limit": 4.801404242052659e-9,
+            "ok": true
+          }
+        ],
+        "potentials": [
+          {
+            "reactionId": "A-reduction",
+            "electronCoefficient": 2,
+            "pe": 0,
+            "Eh": 0,
+            "peErrorBound": 5.003567699039602e-11,
+            "difference": 0,
+            "agreementLimit": 1.0007135398079204e-10,
+            "ok": true
+          },
+          {
+            "reactionId": "B-reduction",
+            "electronCoefficient": 3,
+            "pe": -1.850371707708594e-17,
+            "Eh": -1.0946678690316056e-18,
+            "peErrorBound": 3.334807759248754e-11,
+            "difference": -1.850371707708594e-17,
+            "agreementLimit": 8.338375458288356e-11,
+            "ok": true
+          }
+        ],
+        "netReactions": [
+          {
+            "sourceIds": [
+              "A-reduction",
+              "B-reduction"
+            ],
+            "residual": 1.1102230246251565e-16,
+            "limit": 5.000284217094304e-10,
+            "ok": true
+          }
+        ],
+        "pe": 0,
+        "Eh": 0,
+        "potentialConvention": "Derived from supplied half-reaction standard states; not an imposed reservoir.",
+        "chargePolicy": "Explicit electroneutral reagent preparation; physical charge residual independently checked."
+      },
+      "solverResiduals": {
+        "componentBalance": [
+          -5.329070518200751e-15,
+          3.552713678800501e-15,
+          0,
+          -7.105427357601002e-15
+        ],
+        "componentBalanceLimits": [
+          2e-14,
+          8e-10,
+          2.7e-9,
+          2.4e-9
+        ],
+        "massActionLog": [
+          0
+        ],
+        "scaledBalance": [
+          -2.9605947323337506e-16,
+          4.440892098500624e-16,
+          0,
+          -2.9605947323337506e-16
+        ]
+      }
+    },
+    {
+      "kind": "unequal",
+      "alternate": false,
+      "history": 1,
+      "independentExpected": {
+        "Ao": 9,
+        "Ar": 18,
+        "Bo": 2,
+        "Br": 6,
+        "X": 24
+      },
+      "expectedPe": 0,
+      "equilibriumId": "f1bd173bba7206e2a0beb027c631deb88a86cf33c8fc01581e6fed5927ab87ab",
+      "preparationId": "3fd3d90e19d25bb2bf6be06b899f812dd1f4be25f34499be74617f2670339f40",
+      "constraints": [
+        {
+          "componentId": "Ao",
+          "kh": 1,
+          "value": 0
+        },
+        {
+          "componentId": "Bo",
+          "kh": 1,
+          "value": 8
+        },
+        {
+          "componentId": "Ar",
+          "kh": 1,
+          "value": 27
+        },
+        {
+          "componentId": "X",
+          "kh": 1,
+          "value": 24
+        }
+      ],
+      "cancellations": [
+        {
+          "sourceIds": [
+            "A-reduction",
+            "B-reduction"
+          ],
+          "multipliers": [
+            3,
+            -2
+          ],
+          "electronMultiple": 6,
+          "electronResidual": 0,
+          "coefficients": {
+            "Ao": -3,
+            "Ar": 3,
+            "Bo": 2,
+            "Br": -2,
+            "X": 0,
+            "E": 0
+          },
+          "logK": -0.05115252244738133
+        }
+      ],
+      "concentrations": {
+        "Ao": 8.999999999999998,
+        "Bo": 2.000000000000001,
+        "Ar": 17.999999999999996,
+        "X": 23.999999999999993,
+        "Br": 6.000000000000003
+      },
+      "inspection": {
+        "inventories": [
+          {
+            "key": "A",
+            "total": 27,
+            "actual": 26.999999999999993,
+            "residual": -7.105427357601002e-15,
+            "limit": 2.7007873861546213e-9,
+            "ok": true
+          },
+          {
+            "key": "B",
+            "total": 8,
+            "actual": 8.000000000000004,
+            "residual": 3.552713678800501e-15,
+            "limit": 8.002273736754433e-10,
+            "ok": true
+          },
+          {
+            "key": "X",
+            "total": 24,
+            "actual": 23.999999999999993,
+            "residual": -7.105427357601002e-15,
+            "limit": 2.4006821210263297e-9,
+            "ok": true
+          },
+          {
+            "key": "charge",
+            "total": 0,
+            "actual": 7.105427357601002e-15,
+            "residual": 7.105427357601002e-15,
+            "limit": 4.801404242052659e-9,
+            "ok": true
+          }
+        ],
+        "potentials": [
+          {
+            "reactionId": "A-reduction",
+            "electronCoefficient": 2,
+            "pe": 0,
+            "Eh": 0,
+            "peErrorBound": 5.003567699039602e-11,
+            "difference": 0,
+            "agreementLimit": 1.0007135398079204e-10,
+            "ok": true
+          },
+          {
+            "reactionId": "B-reduction",
+            "electronCoefficient": 3,
+            "pe": -1.850371707708594e-17,
+            "Eh": -1.0946678690316056e-18,
+            "peErrorBound": 3.334807759248754e-11,
+            "difference": -1.850371707708594e-17,
+            "agreementLimit": 8.338375458288356e-11,
+            "ok": true
+          }
+        ],
+        "netReactions": [
+          {
+            "sourceIds": [
+              "A-reduction",
+              "B-reduction"
+            ],
+            "residual": 1.1102230246251565e-16,
+            "limit": 5.000284217094304e-10,
+            "ok": true
+          }
+        ],
+        "pe": 0,
+        "Eh": 0,
+        "potentialConvention": "Derived from supplied half-reaction standard states; not an imposed reservoir.",
+        "chargePolicy": "Explicit electroneutral reagent preparation; physical charge residual independently checked."
+      },
+      "solverResiduals": {
+        "componentBalance": [
+          -5.329070518200751e-15,
+          3.552713678800501e-15,
+          0,
+          -7.105427357601002e-15
+        ],
+        "componentBalanceLimits": [
+          2e-14,
+          8e-10,
+          2.7e-9,
+          2.4e-9
+        ],
+        "massActionLog": [
+          0
+        ],
+        "scaledBalance": [
+          -2.9605947323337506e-16,
+          4.440892098500624e-16,
+          0,
+          -2.9605947323337506e-16
+        ]
+      }
+    },
+    {
+      "kind": "unequal",
+      "alternate": true,
+      "history": 0,
+      "independentExpected": {
+        "Ao": 9,
+        "Ar": 18,
+        "Bo": 2,
+        "Br": 6,
+        "X": 24
+      },
+      "expectedPe": 0,
+      "equilibriumId": "a19bfa69ad62be366633c1e7e86466e454cc3e6361a71de39d6addc62d23288f",
+      "preparationId": "7928f623f8c35f7d43e6be7b036c48bb3229413b2da9210a11f5cc73a6458a65",
+      "constraints": [
+        {
+          "componentId": "Ar",
+          "kh": 1,
+          "value": 15
+        },
+        {
+          "componentId": "Br",
+          "kh": 1,
+          "value": 8
+        },
+        {
+          "componentId": "Ao",
+          "kh": 1,
+          "value": 12
+        },
+        {
+          "componentId": "X",
+          "kh": 1,
+          "value": 24
+        }
+      ],
+      "cancellations": [
+        {
+          "sourceIds": [
+            "A-reduction",
+            "B-reduction"
+          ],
+          "multipliers": [
+            3,
+            -2
+          ],
+          "electronMultiple": 6,
+          "electronResidual": 0,
+          "coefficients": {
+            "Ao": -3,
+            "Ar": 3,
+            "Bo": 2,
+            "Br": -2,
+            "X": 0,
+            "E": 0
+          },
+          "logK": -0.05115252244738133
+        }
+      ],
+      "concentrations": {
+        "Ar": 17.999999999999996,
+        "Br": 6,
+        "Ao": 9,
+        "X": 24.000000000000007,
+        "Bo": 2.0000000000000004
+      },
+      "inspection": {
+        "inventories": [
+          {
+            "key": "A",
+            "total": 27,
+            "actual": 26.999999999999996,
+            "residual": -3.552713678800501e-15,
+            "limit": 2.700767386154621e-9,
+            "ok": true
+          },
+          {
+            "key": "B",
+            "total": 8,
+            "actual": 8,
+            "residual": 0,
+            "limit": 8.002273736754433e-10,
+            "ok": true
+          },
+          {
+            "key": "X",
+            "total": 24,
+            "actual": 24.000000000000007,
+            "residual": 7.105427357601002e-15,
+            "limit": 2.4006821210263297e-9,
+            "ok": true
+          },
+          {
+            "key": "charge",
+            "total": 0,
+            "actual": -7.105427357601002e-15,
+            "residual": -7.105427357601002e-15,
+            "limit": 4.801364242052659e-9,
+            "ok": true
+          }
+        ],
+        "potentials": [
+          {
+            "reactionId": "A-reduction",
+            "electronCoefficient": 2,
+            "pe": 5.551115123125783e-17,
+            "Eh": 3.2840036070948173e-18,
+            "peErrorBound": 5.003567699039602e-11,
+            "difference": 0,
+            "agreementLimit": 1.0007135398079204e-10,
+            "ok": true
+          },
+          {
+            "reactionId": "B-reduction",
+            "electronCoefficient": 3,
+            "pe": 3.700743415417188e-17,
+            "Eh": 2.1893357380632112e-18,
+            "peErrorBound": 3.334807759248754e-11,
+            "difference": -1.8503717077085944e-17,
+            "agreementLimit": 8.338375458288356e-11,
+            "ok": true
+          }
+        ],
+        "netReactions": [
+          {
+            "sourceIds": [
+              "A-reduction",
+              "B-reduction"
+            ],
+            "residual": -1.1102230246251565e-16,
+            "limit": 5.000284217094304e-10,
+            "ok": true
+          }
+        ],
+        "pe": 5.551115123125783e-17,
+        "Eh": 3.2840036070948173e-18,
+        "potentialConvention": "Derived from supplied half-reaction standard states; not an imposed reservoir.",
+        "chargePolicy": "Explicit electroneutral reagent preparation; physical charge residual independently checked."
+      },
+      "solverResiduals": {
+        "componentBalance": [
+          -3.552713678800501e-15,
+          0,
+          0,
+          7.105427357601002e-15
+        ],
+        "componentBalanceLimits": [
+          1.5e-9,
+          8e-10,
+          1.2e-9,
+          2.4e-9
+        ],
+        "massActionLog": [
+          0
+        ],
+        "scaledBalance": [
+          -1.6917684184764294e-16,
+          0,
+          0,
+          2.96059473233375e-16
+        ]
+      }
+    },
+    {
+      "kind": "unequal",
+      "alternate": true,
+      "history": 1,
+      "independentExpected": {
+        "Ao": 9,
+        "Ar": 18,
+        "Bo": 2,
+        "Br": 6,
+        "X": 24
+      },
+      "expectedPe": 0,
+      "equilibriumId": "a19bfa69ad62be366633c1e7e86466e454cc3e6361a71de39d6addc62d23288f",
+      "preparationId": "3fd3d90e19d25bb2bf6be06b899f812dd1f4be25f34499be74617f2670339f40",
+      "constraints": [
+        {
+          "componentId": "Ar",
+          "kh": 1,
+          "value": 15
+        },
+        {
+          "componentId": "Br",
+          "kh": 1,
+          "value": 8
+        },
+        {
+          "componentId": "Ao",
+          "kh": 1,
+          "value": 12
+        },
+        {
+          "componentId": "X",
+          "kh": 1,
+          "value": 24
+        }
+      ],
+      "cancellations": [
+        {
+          "sourceIds": [
+            "A-reduction",
+            "B-reduction"
+          ],
+          "multipliers": [
+            3,
+            -2
+          ],
+          "electronMultiple": 6,
+          "electronResidual": 0,
+          "coefficients": {
+            "Ao": -3,
+            "Ar": 3,
+            "Bo": 2,
+            "Br": -2,
+            "X": 0,
+            "E": 0
+          },
+          "logK": -0.05115252244738133
+        }
+      ],
+      "concentrations": {
+        "Ar": 17.999999999999996,
+        "Br": 6,
+        "Ao": 9,
+        "X": 24.000000000000007,
+        "Bo": 2.0000000000000004
+      },
+      "inspection": {
+        "inventories": [
+          {
+            "key": "A",
+            "total": 27,
+            "actual": 26.999999999999996,
+            "residual": -3.552713678800501e-15,
+            "limit": 2.700767386154621e-9,
+            "ok": true
+          },
+          {
+            "key": "B",
+            "total": 8,
+            "actual": 8,
+            "residual": 0,
+            "limit": 8.002273736754433e-10,
+            "ok": true
+          },
+          {
+            "key": "X",
+            "total": 24,
+            "actual": 24.000000000000007,
+            "residual": 7.105427357601002e-15,
+            "limit": 2.4006821210263297e-9,
+            "ok": true
+          },
+          {
+            "key": "charge",
+            "total": 0,
+            "actual": -7.105427357601002e-15,
+            "residual": -7.105427357601002e-15,
+            "limit": 4.801364242052659e-9,
+            "ok": true
+          }
+        ],
+        "potentials": [
+          {
+            "reactionId": "A-reduction",
+            "electronCoefficient": 2,
+            "pe": 5.551115123125783e-17,
+            "Eh": 3.2840036070948173e-18,
+            "peErrorBound": 5.003567699039602e-11,
+            "difference": 0,
+            "agreementLimit": 1.0007135398079204e-10,
+            "ok": true
+          },
+          {
+            "reactionId": "B-reduction",
+            "electronCoefficient": 3,
+            "pe": 3.700743415417188e-17,
+            "Eh": 2.1893357380632112e-18,
+            "peErrorBound": 3.334807759248754e-11,
+            "difference": -1.8503717077085944e-17,
+            "agreementLimit": 8.338375458288356e-11,
+            "ok": true
+          }
+        ],
+        "netReactions": [
+          {
+            "sourceIds": [
+              "A-reduction",
+              "B-reduction"
+            ],
+            "residual": -1.1102230246251565e-16,
+            "limit": 5.000284217094304e-10,
+            "ok": true
+          }
+        ],
+        "pe": 5.551115123125783e-17,
+        "Eh": 3.2840036070948173e-18,
+        "potentialConvention": "Derived from supplied half-reaction standard states; not an imposed reservoir.",
+        "chargePolicy": "Explicit electroneutral reagent preparation; physical charge residual independently checked."
+      },
+      "solverResiduals": {
+        "componentBalance": [
+          -3.552713678800501e-15,
+          0,
+          0,
+          7.105427357601002e-15
+        ],
+        "componentBalanceLimits": [
+          1.5e-9,
+          8e-10,
+          1.2e-9,
+          2.4e-9
+        ],
+        "massActionLog": [
+          0
+        ],
+        "scaledBalance": [
+          -1.6917684184764294e-16,
+          0,
+          0,
+          2.96059473233375e-16
+        ]
+      }
+    },
+    {
+      "kind": "three",
+      "alternate": false,
+      "history": 0,
+      "independentExpected": {
+        "Ao": 0.5,
+        "Ar": 0.5,
+        "Bo": 0.5,
+        "Br": 1.5,
+        "Co": 0.5,
+        "Cr": 4.5,
+        "X": 1.5
+      },
+      "expectedPe": 0,
+      "equilibriumId": "d0421516e9710763d64d236f60ef0cfb5241c531c05f208bf1f9a27f829ca636",
+      "preparationId": "8a2b580431d10a2bdb459381de59499e67ed4b078f3cd74e26836f69607298b3",
+      "constraints": [
+        {
+          "componentId": "Ao",
+          "kh": 1,
+          "value": -5.5
+        },
+        {
+          "componentId": "Bo",
+          "kh": 1,
+          "value": 2
+        },
+        {
+          "componentId": "Co",
+          "kh": 1,
+          "value": 5
+        },
+        {
+          "componentId": "Ar",
+          "kh": 1,
+          "value": 6.5
+        },
+        {
+          "componentId": "X",
+          "kh": 1,
+          "value": 1.5
+        }
+      ],
+      "cancellations": [
+        {
+          "sourceIds": [
+            "A-reduction",
+            "B-reduction"
+          ],
+          "multipliers": [
+            1,
+            -1
+          ],
+          "electronMultiple": 1,
+          "electronResidual": 0,
+          "coefficients": {
+            "Ao": -1,
+            "Ar": 1,
+            "Bo": 1,
+            "Br": -1,
+            "Co": 0,
+            "Cr": 0,
+            "X": 0,
+            "E": 0
+          },
+          "logK": -0.47712125471966244
+        },
+        {
+          "sourceIds": [
+            "A-reduction",
+            "C-reduction"
+          ],
+          "multipliers": [
+            1,
+            -1
+          ],
+          "electronMultiple": 1,
+          "electronResidual": 0,
+          "coefficients": {
+            "Ao": -1,
+            "Ar": 1,
+            "Bo": 0,
+            "Br": 0,
+            "Co": 1,
+            "Cr": -1,
+            "X": 0,
+            "E": 0
+          },
+          "logK": -0.9542425094393249
+        }
+      ],
+      "concentrations": {
+        "Ao": 0.5000000000000007,
+        "Bo": 0.4999999999999998,
+        "Co": 0.5,
+        "Ar": 0.500000000000001,
+        "X": 1.5,
+        "Br": 1.5000000000000004,
+        "Cr": 4.500000000000003
+      },
+      "inspection": {
+        "inventories": [
+          {
+            "key": "A",
+            "total": 1,
+            "actual": 1.0000000000000018,
+            "residual": 1.7763568394002505e-15,
+            "limit": 1.2000284217094304e-9,
+            "ok": true
+          },
+          {
+            "key": "B",
+            "total": 2,
+            "actual": 2,
+            "residual": 0,
+            "limit": 2.0005684341886082e-10,
+            "ok": true
+          },
+          {
+            "key": "C",
+            "total": 5,
+            "actual": 5.000000000000003,
+            "residual": 2.6645352591003757e-15,
+            "limit": 5.00142108547152e-10,
+            "ok": true
+          },
+          {
+            "key": "X",
+            "total": 1.5,
+            "actual": 1.5,
+            "residual": 0,
+            "limit": 1.500426325641456e-10,
+            "ok": true
+          },
+          {
+            "key": "charge",
+            "total": 0,
+            "actual": 4.440892098500626e-16,
+            "residual": 4.440892098500626e-16,
+            "limit": 1.4000852651282913e-9,
+            "ok": true
+          }
+        ],
+        "potentials": [
+          {
+            "reactionId": "A-reduction",
+            "electronCoefficient": 1,
+            "pe": -2.7755575615628914e-16,
+            "Eh": -1.6420018035474087e-17,
+            "peErrorBound": 1.0002842170943041e-10,
+            "difference": 0,
+            "agreementLimit": 2.0005684341886082e-10,
+            "ok": true
+          },
+          {
+            "reactionId": "B-reduction",
+            "electronCoefficient": 1,
+            "pe": -2.7755575615628914e-16,
+            "Eh": -1.6420018035474087e-17,
+            "peErrorBound": 1.0002842170943041e-10,
+            "difference": 0,
+            "agreementLimit": 2.0005684341886082e-10,
+            "ok": true
+          },
+          {
+            "reactionId": "C-reduction",
+            "electronCoefficient": 1,
+            "pe": -2.7755575615628914e-16,
+            "Eh": -1.6420018035474087e-17,
+            "peErrorBound": 1.0005424240665885e-10,
+            "difference": 0,
+            "agreementLimit": 2.0008266411608925e-10,
+            "ok": true
+          }
+        ],
+        "netReactions": [
+          {
+            "sourceIds": [
+              "A-reduction",
+              "B-reduction"
+            ],
+            "residual": 0,
+            "limit": 2.000284217094304e-10,
+            "ok": true
+          },
+          {
+            "sourceIds": [
+              "A-reduction",
+              "C-reduction"
+            ],
+            "residual": 0,
+            "limit": 2.000284217094304e-10,
+            "ok": true
+          }
+        ],
+        "pe": -2.7755575615628914e-16,
+        "Eh": -1.6420018035474087e-17,
+        "potentialConvention": "Derived from supplied half-reaction standard states; not an imposed reservoir.",
+        "chargePolicy": "Explicit electroneutral reagent preparation; physical charge residual independently checked."
+      },
+      "solverResiduals": {
+        "componentBalance": [
+          -2.6645352591003757e-15,
+          0,
+          2.6645352591003757e-15,
+          3.552713678800501e-15,
+          0
+        ],
+        "componentBalanceLimits": [
+          5.500000000000001e-10,
+          2e-10,
+          5e-10,
+          6.5e-10,
+          1.5e-10
+        ],
+        "massActionLog": [
+          0,
+          0
+        ],
+        "scaledBalance": [
+          -4.0992850140005753e-16,
+          0,
+          5.329070518200748e-16,
+          5.465713352000767e-16,
+          0
+        ]
+      }
+    },
+    {
+      "kind": "three",
+      "alternate": false,
+      "history": 1,
+      "independentExpected": {
+        "Ao": 0.5,
+        "Ar": 0.5,
+        "Bo": 0.5,
+        "Br": 1.5,
+        "Co": 0.5,
+        "Cr": 4.5,
+        "X": 1.5
+      },
+      "expectedPe": 0,
+      "equilibriumId": "d0421516e9710763d64d236f60ef0cfb5241c531c05f208bf1f9a27f829ca636",
+      "preparationId": "8ad26fcbecb4f50e6baf3e53fc3f252be9b78457b890ca63fb2288adf754ae45",
+      "constraints": [
+        {
+          "componentId": "Ao",
+          "kh": 1,
+          "value": -5.5
+        },
+        {
+          "componentId": "Bo",
+          "kh": 1,
+          "value": 2
+        },
+        {
+          "componentId": "Co",
+          "kh": 1,
+          "value": 5
+        },
+        {
+          "componentId": "Ar",
+          "kh": 1,
+          "value": 6.5
+        },
+        {
+          "componentId": "X",
+          "kh": 1,
+          "value": 1.5
+        }
+      ],
+      "cancellations": [
+        {
+          "sourceIds": [
+            "A-reduction",
+            "B-reduction"
+          ],
+          "multipliers": [
+            1,
+            -1
+          ],
+          "electronMultiple": 1,
+          "electronResidual": 0,
+          "coefficients": {
+            "Ao": -1,
+            "Ar": 1,
+            "Bo": 1,
+            "Br": -1,
+            "Co": 0,
+            "Cr": 0,
+            "X": 0,
+            "E": 0
+          },
+          "logK": -0.47712125471966244
+        },
+        {
+          "sourceIds": [
+            "A-reduction",
+            "C-reduction"
+          ],
+          "multipliers": [
+            1,
+            -1
+          ],
+          "electronMultiple": 1,
+          "electronResidual": 0,
+          "coefficients": {
+            "Ao": -1,
+            "Ar": 1,
+            "Bo": 0,
+            "Br": 0,
+            "Co": 1,
+            "Cr": -1,
+            "X": 0,
+            "E": 0
+          },
+          "logK": -0.9542425094393249
+        }
+      ],
+      "concentrations": {
+        "Ao": 0.5000000000000007,
+        "Bo": 0.4999999999999998,
+        "Co": 0.5,
+        "Ar": 0.500000000000001,
+        "X": 1.5,
+        "Br": 1.5000000000000004,
+        "Cr": 4.500000000000003
+      },
+      "inspection": {
+        "inventories": [
+          {
+            "key": "A",
+            "total": 1,
+            "actual": 1.0000000000000018,
+            "residual": 1.7763568394002505e-15,
+            "limit": 1.2000284217094304e-9,
+            "ok": true
+          },
+          {
+            "key": "B",
+            "total": 2,
+            "actual": 2,
+            "residual": 0,
+            "limit": 2.0005684341886082e-10,
+            "ok": true
+          },
+          {
+            "key": "C",
+            "total": 5,
+            "actual": 5.000000000000003,
+            "residual": 2.6645352591003757e-15,
+            "limit": 5.00142108547152e-10,
+            "ok": true
+          },
+          {
+            "key": "X",
+            "total": 1.5,
+            "actual": 1.5,
+            "residual": 0,
+            "limit": 1.500426325641456e-10,
+            "ok": true
+          },
+          {
+            "key": "charge",
+            "total": 0,
+            "actual": 4.440892098500626e-16,
+            "residual": 4.440892098500626e-16,
+            "limit": 1.4000852651282913e-9,
+            "ok": true
+          }
+        ],
+        "potentials": [
+          {
+            "reactionId": "A-reduction",
+            "electronCoefficient": 1,
+            "pe": -2.7755575615628914e-16,
+            "Eh": -1.6420018035474087e-17,
+            "peErrorBound": 1.0002842170943041e-10,
+            "difference": 0,
+            "agreementLimit": 2.0005684341886082e-10,
+            "ok": true
+          },
+          {
+            "reactionId": "B-reduction",
+            "electronCoefficient": 1,
+            "pe": -2.7755575615628914e-16,
+            "Eh": -1.6420018035474087e-17,
+            "peErrorBound": 1.0002842170943041e-10,
+            "difference": 0,
+            "agreementLimit": 2.0005684341886082e-10,
+            "ok": true
+          },
+          {
+            "reactionId": "C-reduction",
+            "electronCoefficient": 1,
+            "pe": -2.7755575615628914e-16,
+            "Eh": -1.6420018035474087e-17,
+            "peErrorBound": 1.0005424240665885e-10,
+            "difference": 0,
+            "agreementLimit": 2.0008266411608925e-10,
+            "ok": true
+          }
+        ],
+        "netReactions": [
+          {
+            "sourceIds": [
+              "A-reduction",
+              "B-reduction"
+            ],
+            "residual": 0,
+            "limit": 2.000284217094304e-10,
+            "ok": true
+          },
+          {
+            "sourceIds": [
+              "A-reduction",
+              "C-reduction"
+            ],
+            "residual": 0,
+            "limit": 2.000284217094304e-10,
+            "ok": true
+          }
+        ],
+        "pe": -2.7755575615628914e-16,
+        "Eh": -1.6420018035474087e-17,
+        "potentialConvention": "Derived from supplied half-reaction standard states; not an imposed reservoir.",
+        "chargePolicy": "Explicit electroneutral reagent preparation; physical charge residual independently checked."
+      },
+      "solverResiduals": {
+        "componentBalance": [
+          -2.6645352591003757e-15,
+          0,
+          2.6645352591003757e-15,
+          3.552713678800501e-15,
+          0
+        ],
+        "componentBalanceLimits": [
+          5.500000000000001e-10,
+          2e-10,
+          5e-10,
+          6.5e-10,
+          1.5e-10
+        ],
+        "massActionLog": [
+          0,
+          0
+        ],
+        "scaledBalance": [
+          -4.0992850140005753e-16,
+          0,
+          5.329070518200748e-16,
+          5.465713352000767e-16,
+          0
+        ]
+      }
+    },
+    {
+      "kind": "three",
+      "alternate": true,
+      "history": 0,
+      "independentExpected": {
+        "Ao": 0.5,
+        "Ar": 0.5,
+        "Bo": 0.5,
+        "Br": 1.5,
+        "Co": 0.5,
+        "Cr": 4.5,
+        "X": 1.5
+      },
+      "expectedPe": 0,
+      "equilibriumId": "c970bc8de16756c6311bff1af846254864816a43b94239ea3d3e9fc5c7bb4105",
+      "preparationId": "8a2b580431d10a2bdb459381de59499e67ed4b078f3cd74e26836f69607298b3",
+      "constraints": [
+        {
+          "componentId": "Ar",
+          "kh": 1,
+          "value": -0.5
+        },
+        {
+          "componentId": "Br",
+          "kh": 1,
+          "value": 2
+        },
+        {
+          "componentId": "Cr",
+          "kh": 1,
+          "value": 5
+        },
+        {
+          "componentId": "Ao",
+          "kh": 1,
+          "value": 1.5
+        },
+        {
+          "componentId": "X",
+          "kh": 1,
+          "value": 1.5
+        }
+      ],
+      "cancellations": [
+        {
+          "sourceIds": [
+            "A-reduction",
+            "B-reduction"
+          ],
+          "multipliers": [
+            1,
+            -1
+          ],
+          "electronMultiple": 1,
+          "electronResidual": 0,
+          "coefficients": {
+            "Ao": -1,
+            "Ar": 1,
+            "Bo": 1,
+            "Br": -1,
+            "Co": 0,
+            "Cr": 0,
+            "X": 0,
+            "E": 0
+          },
+          "logK": -0.47712125471966244
+        },
+        {
+          "sourceIds": [
+            "A-reduction",
+            "C-reduction"
+          ],
+          "multipliers": [
+            1,
+            -1
+          ],
+          "electronMultiple": 1,
+          "electronResidual": 0,
+          "coefficients": {
+            "Ao": -1,
+            "Ar": 1,
+            "Bo": 0,
+            "Br": 0,
+            "Co": 1,
+            "Cr": -1,
+            "X": 0,
+            "E": 0
+          },
+          "logK": -0.9542425094393249
+        }
+      ],
+      "concentrations": {
+        "Ar": 0.5,
+        "Br": 1.5,
+        "Cr": 4.500000000000001,
+        "Ao": 0.5,
+        "X": 1.5,
+        "Bo": 0.5,
+        "Co": 0.5000000000000001
+      },
+      "inspection": {
+        "inventories": [
+          {
+            "key": "A",
+            "total": 1,
+            "actual": 1,
+            "residual": 0,
+            "limit": 2.000284217094304e-10,
+            "ok": true
+          },
+          {
+            "key": "B",
+            "total": 2,
+            "actual": 2,
+            "residual": 0,
+            "limit": 2.0005684341886082e-10,
+            "ok": true
+          },
+          {
+            "key": "C",
+            "total": 5,
+            "actual": 5.000000000000001,
+            "residual": 8.881784197001252e-16,
+            "limit": 5.00142108547152e-10,
+            "ok": true
+          },
+          {
+            "key": "X",
+            "total": 1.5,
+            "actual": 1.5,
+            "residual": 0,
+            "limit": 1.500426325641456e-10,
+            "ok": true
+          },
+          {
+            "key": "charge",
+            "total": 0,
+            "actual": 0,
+            "residual": 0,
+            "limit": 3.000852651282912e-10,
+            "ok": true
+          }
+        ],
+        "potentials": [
+          {
+            "reactionId": "A-reduction",
+            "electronCoefficient": 1,
+            "pe": 0,
+            "Eh": 0,
+            "peErrorBound": 1.0002842170943041e-10,
+            "difference": 0,
+            "agreementLimit": 2.0005684341886082e-10,
+            "ok": true
+          },
+          {
+            "reactionId": "B-reduction",
+            "electronCoefficient": 1,
+            "pe": 0,
+            "Eh": 0,
+            "peErrorBound": 1.0002842170943041e-10,
+            "difference": 0,
+            "agreementLimit": 2.0005684341886082e-10,
+            "ok": true
+          },
+          {
+            "reactionId": "C-reduction",
+            "electronCoefficient": 1,
+            "pe": 5.551115123125783e-17,
+            "Eh": 3.2840036070948173e-18,
+            "peErrorBound": 1.0005424240665885e-10,
+            "difference": 5.551115123125783e-17,
+            "agreementLimit": 2.0008266411608925e-10,
+            "ok": true
+          }
+        ],
+        "netReactions": [
+          {
+            "sourceIds": [
+              "A-reduction",
+              "B-reduction"
+            ],
+            "residual": 0,
+            "limit": 2.000284217094304e-10,
+            "ok": true
+          },
+          {
+            "sourceIds": [
+              "A-reduction",
+              "C-reduction"
+            ],
+            "residual": 1.1102230246251565e-16,
+            "limit": 2.000284217094304e-10,
+            "ok": true
+          }
+        ],
+        "pe": 0,
+        "Eh": 0,
+        "potentialConvention": "Derived from supplied half-reaction standard states; not an imposed reservoir.",
+        "chargePolicy": "Explicit electroneutral reagent preparation; physical charge residual independently checked."
+      },
+      "solverResiduals": {
+        "componentBalance": [
+          -1.1102230246251565e-16,
+          0,
+          8.881784197001252e-16,
+          0,
+          0
+        ],
+        "componentBalanceLimits": [
+          5e-11,
+          2e-10,
+          5e-10,
+          1.5e-10,
+          1.5e-10
+        ],
+        "massActionLog": [
+          0,
+          5.551115123125783e-17
+        ],
+        "scaledBalance": [
+          -7.401486830834377e-17,
+          0,
+          1.77635683940025e-16,
+          0,
+          0
+        ]
+      }
+    },
+    {
+      "kind": "three",
+      "alternate": true,
+      "history": 1,
+      "independentExpected": {
+        "Ao": 0.5,
+        "Ar": 0.5,
+        "Bo": 0.5,
+        "Br": 1.5,
+        "Co": 0.5,
+        "Cr": 4.5,
+        "X": 1.5
+      },
+      "expectedPe": 0,
+      "equilibriumId": "c970bc8de16756c6311bff1af846254864816a43b94239ea3d3e9fc5c7bb4105",
+      "preparationId": "8ad26fcbecb4f50e6baf3e53fc3f252be9b78457b890ca63fb2288adf754ae45",
+      "constraints": [
+        {
+          "componentId": "Ar",
+          "kh": 1,
+          "value": -0.5
+        },
+        {
+          "componentId": "Br",
+          "kh": 1,
+          "value": 2
+        },
+        {
+          "componentId": "Cr",
+          "kh": 1,
+          "value": 5
+        },
+        {
+          "componentId": "Ao",
+          "kh": 1,
+          "value": 1.5
+        },
+        {
+          "componentId": "X",
+          "kh": 1,
+          "value": 1.5
+        }
+      ],
+      "cancellations": [
+        {
+          "sourceIds": [
+            "A-reduction",
+            "B-reduction"
+          ],
+          "multipliers": [
+            1,
+            -1
+          ],
+          "electronMultiple": 1,
+          "electronResidual": 0,
+          "coefficients": {
+            "Ao": -1,
+            "Ar": 1,
+            "Bo": 1,
+            "Br": -1,
+            "Co": 0,
+            "Cr": 0,
+            "X": 0,
+            "E": 0
+          },
+          "logK": -0.47712125471966244
+        },
+        {
+          "sourceIds": [
+            "A-reduction",
+            "C-reduction"
+          ],
+          "multipliers": [
+            1,
+            -1
+          ],
+          "electronMultiple": 1,
+          "electronResidual": 0,
+          "coefficients": {
+            "Ao": -1,
+            "Ar": 1,
+            "Bo": 0,
+            "Br": 0,
+            "Co": 1,
+            "Cr": -1,
+            "X": 0,
+            "E": 0
+          },
+          "logK": -0.9542425094393249
+        }
+      ],
+      "concentrations": {
+        "Ar": 0.5,
+        "Br": 1.5,
+        "Cr": 4.500000000000001,
+        "Ao": 0.5,
+        "X": 1.5,
+        "Bo": 0.5,
+        "Co": 0.5000000000000001
+      },
+      "inspection": {
+        "inventories": [
+          {
+            "key": "A",
+            "total": 1,
+            "actual": 1,
+            "residual": 0,
+            "limit": 2.000284217094304e-10,
+            "ok": true
+          },
+          {
+            "key": "B",
+            "total": 2,
+            "actual": 2,
+            "residual": 0,
+            "limit": 2.0005684341886082e-10,
+            "ok": true
+          },
+          {
+            "key": "C",
+            "total": 5,
+            "actual": 5.000000000000001,
+            "residual": 8.881784197001252e-16,
+            "limit": 5.00142108547152e-10,
+            "ok": true
+          },
+          {
+            "key": "X",
+            "total": 1.5,
+            "actual": 1.5,
+            "residual": 0,
+            "limit": 1.500426325641456e-10,
+            "ok": true
+          },
+          {
+            "key": "charge",
+            "total": 0,
+            "actual": 0,
+            "residual": 0,
+            "limit": 3.000852651282912e-10,
+            "ok": true
+          }
+        ],
+        "potentials": [
+          {
+            "reactionId": "A-reduction",
+            "electronCoefficient": 1,
+            "pe": 0,
+            "Eh": 0,
+            "peErrorBound": 1.0002842170943041e-10,
+            "difference": 0,
+            "agreementLimit": 2.0005684341886082e-10,
+            "ok": true
+          },
+          {
+            "reactionId": "B-reduction",
+            "electronCoefficient": 1,
+            "pe": 0,
+            "Eh": 0,
+            "peErrorBound": 1.0002842170943041e-10,
+            "difference": 0,
+            "agreementLimit": 2.0005684341886082e-10,
+            "ok": true
+          },
+          {
+            "reactionId": "C-reduction",
+            "electronCoefficient": 1,
+            "pe": 5.551115123125783e-17,
+            "Eh": 3.2840036070948173e-18,
+            "peErrorBound": 1.0005424240665885e-10,
+            "difference": 5.551115123125783e-17,
+            "agreementLimit": 2.0008266411608925e-10,
+            "ok": true
+          }
+        ],
+        "netReactions": [
+          {
+            "sourceIds": [
+              "A-reduction",
+              "B-reduction"
+            ],
+            "residual": 0,
+            "limit": 2.000284217094304e-10,
+            "ok": true
+          },
+          {
+            "sourceIds": [
+              "A-reduction",
+              "C-reduction"
+            ],
+            "residual": 1.1102230246251565e-16,
+            "limit": 2.000284217094304e-10,
+            "ok": true
+          }
+        ],
+        "pe": 0,
+        "Eh": 0,
+        "potentialConvention": "Derived from supplied half-reaction standard states; not an imposed reservoir.",
+        "chargePolicy": "Explicit electroneutral reagent preparation; physical charge residual independently checked."
+      },
+      "solverResiduals": {
+        "componentBalance": [
+          -1.1102230246251565e-16,
+          0,
+          8.881784197001252e-16,
+          0,
+          0
+        ],
+        "componentBalanceLimits": [
+          5e-11,
+          2e-10,
+          5e-10,
+          1.5e-10,
+          1.5e-10
+        ],
+        "massActionLog": [
+          0,
+          5.551115123125783e-17
+        ],
+        "scaledBalance": [
+          -7.401486830834377e-17,
+          0,
+          1.77635683940025e-16,
+          0,
+          0
+        ]
+      }
+    }
+  ],
+  "orderControls": [
+    {
+      "variant": "reversed-order",
+      "concentrations": {
+        "Ao": 0.5000000000000007,
+        "Bo": 0.4999999999999998,
+        "Co": 0.5,
+        "Ar": 0.500000000000001,
+        "X": 1.5,
+        "Br": 1.5000000000000004,
+        "Cr": 4.500000000000003
+      },
+      "inspection": {
+        "inventories": [
+          {
+            "key": "A",
+            "total": 1,
+            "actual": 1.0000000000000018,
+            "residual": 1.7763568394002505e-15,
+            "limit": 1.2000284217094304e-9,
+            "ok": true
+          },
+          {
+            "key": "B",
+            "total": 2,
+            "actual": 2,
+            "residual": 0,
+            "limit": 2.0005684341886082e-10,
+            "ok": true
+          },
+          {
+            "key": "C",
+            "total": 5,
+            "actual": 5.000000000000003,
+            "residual": 2.6645352591003757e-15,
+            "limit": 5.00142108547152e-10,
+            "ok": true
+          },
+          {
+            "key": "X",
+            "total": 1.5,
+            "actual": 1.5,
+            "residual": 0,
+            "limit": 1.500426325641456e-10,
+            "ok": true
+          },
+          {
+            "key": "charge",
+            "total": 0,
+            "actual": 4.440892098500626e-16,
+            "residual": 4.440892098500626e-16,
+            "limit": 1.4000852651282913e-9,
+            "ok": true
+          }
+        ],
+        "potentials": [
+          {
+            "reactionId": "A-reduction",
+            "electronCoefficient": 1,
+            "pe": -2.7755575615628914e-16,
+            "Eh": -1.6420018035474087e-17,
+            "peErrorBound": 1.0002842170943041e-10,
+            "difference": 0,
+            "agreementLimit": 2.0005684341886082e-10,
+            "ok": true
+          },
+          {
+            "reactionId": "B-reduction",
+            "electronCoefficient": 1,
+            "pe": -2.7755575615628914e-16,
+            "Eh": -1.6420018035474087e-17,
+            "peErrorBound": 1.0002842170943041e-10,
+            "difference": 0,
+            "agreementLimit": 2.0005684341886082e-10,
+            "ok": true
+          },
+          {
+            "reactionId": "C-reduction",
+            "electronCoefficient": 1,
+            "pe": -2.7755575615628914e-16,
+            "Eh": -1.6420018035474087e-17,
+            "peErrorBound": 1.0005424240665885e-10,
+            "difference": 0,
+            "agreementLimit": 2.0008266411608925e-10,
+            "ok": true
+          }
+        ],
+        "netReactions": [
+          {
+            "sourceIds": [
+              "A-reduction",
+              "B-reduction"
+            ],
+            "residual": 0,
+            "limit": 2.000284217094304e-10,
+            "ok": true
+          },
+          {
+            "sourceIds": [
+              "A-reduction",
+              "C-reduction"
+            ],
+            "residual": 0,
+            "limit": 2.000284217094304e-10,
+            "ok": true
+          }
+        ],
+        "pe": -2.7755575615628914e-16,
+        "Eh": -1.6420018035474087e-17,
+        "potentialConvention": "Derived from supplied half-reaction standard states; not an imposed reservoir.",
+        "chargePolicy": "Explicit electroneutral reagent preparation; physical charge residual independently checked."
+      },
+      "cancellations": [
+        {
+          "sourceIds": [
+            "A-reduction",
+            "B-reduction"
+          ],
+          "multipliers": [
+            1,
+            -1
+          ],
+          "electronMultiple": 1,
+          "electronResidual": 0,
+          "coefficients": {
+            "Ao": -1,
+            "Ar": 1,
+            "Bo": 1,
+            "Br": -1,
+            "Co": 0,
+            "Cr": 0,
+            "X": 0,
+            "E": 0
+          },
+          "logK": -0.47712125471966244
+        },
+        {
+          "sourceIds": [
+            "A-reduction",
+            "C-reduction"
+          ],
+          "multipliers": [
+            1,
+            -1
+          ],
+          "electronMultiple": 1,
+          "electronResidual": 0,
+          "coefficients": {
+            "Ao": -1,
+            "Ar": 1,
+            "Bo": 0,
+            "Br": 0,
+            "Co": 1,
+            "Cr": -1,
+            "X": 0,
+            "E": 0
+          },
+          "logK": -0.9542425094393249
+        }
+      ]
+    },
+    {
+      "variant": "reversed-scaled-half-reactions",
+      "concentrations": {
+        "Ao": 0.5000000000000007,
+        "Bo": 0.4999999999999998,
+        "Co": 0.5,
+        "Ar": 0.500000000000001,
+        "X": 1.5,
+        "Br": 1.5000000000000004,
+        "Cr": 4.500000000000003
+      },
+      "inspection": {
+        "inventories": [
+          {
+            "key": "A",
+            "total": 1,
+            "actual": 1.0000000000000018,
+            "residual": 1.7763568394002505e-15,
+            "limit": 1.2000284217094304e-9,
+            "ok": true
+          },
+          {
+            "key": "B",
+            "total": 2,
+            "actual": 2,
+            "residual": 0,
+            "limit": 2.0005684341886082e-10,
+            "ok": true
+          },
+          {
+            "key": "C",
+            "total": 5,
+            "actual": 5.000000000000003,
+            "residual": 2.6645352591003757e-15,
+            "limit": 5.00142108547152e-10,
+            "ok": true
+          },
+          {
+            "key": "X",
+            "total": 1.5,
+            "actual": 1.5,
+            "residual": 0,
+            "limit": 1.500426325641456e-10,
+            "ok": true
+          },
+          {
+            "key": "charge",
+            "total": 0,
+            "actual": 4.440892098500626e-16,
+            "residual": 4.440892098500626e-16,
+            "limit": 1.4000852651282913e-9,
+            "ok": true
+          }
+        ],
+        "potentials": [
+          {
+            "reactionId": "A-reduction",
+            "electronCoefficient": 3,
+            "pe": -2.9605947323337506e-16,
+            "Eh": -1.751468590450569e-17,
+            "peErrorBound": 3.335044490746653e-11,
+            "difference": 0,
+            "agreementLimit": 6.670088981493306e-11,
+            "ok": true
+          },
+          {
+            "reactionId": "B-reduction",
+            "electronCoefficient": -2,
+            "pe": -2.7755575615628914e-16,
+            "Eh": -1.6420018035474087e-17,
+            "peErrorBound": 5.002712120332943e-11,
+            "difference": 1.8503717077085926e-17,
+            "agreementLimit": 8.337756611079596e-11,
+            "ok": true
+          },
+          {
+            "reactionId": "C-reduction",
+            "electronCoefficient": 3,
+            "pe": -2.220446049250313e-16,
+            "Eh": -1.3136014428379269e-17,
+            "peErrorBound": 3.338757573999218e-11,
+            "difference": 7.401486830834375e-17,
+            "agreementLimit": 6.673802064745871e-11,
+            "ok": true
+          }
+        ],
+        "netReactions": [
+          {
+            "sourceIds": [
+              "A-reduction",
+              "B-reduction"
+            ],
+            "residual": 0,
+            "limit": 5.000813636099883e-10,
+            "ok": true
+          },
+          {
+            "sourceIds": [
+              "A-reduction",
+              "C-reduction"
+            ],
+            "residual": 0,
+            "limit": 2.0008136360998828e-10,
+            "ok": true
+          }
+        ],
+        "pe": -2.9605947323337506e-16,
+        "Eh": -1.751468590450569e-17,
+        "potentialConvention": "Derived from supplied half-reaction standard states; not an imposed reservoir.",
+        "chargePolicy": "Explicit electroneutral reagent preparation; physical charge residual independently checked."
+      },
+      "cancellations": [
+        {
+          "sourceIds": [
+            "A-reduction",
+            "B-reduction"
+          ],
+          "multipliers": [
+            2,
+            3
+          ],
+          "electronMultiple": 6,
+          "electronResidual": 0,
+          "coefficients": {
+            "Ao": -6,
+            "Ar": 6,
+            "Bo": 6,
+            "Br": -6,
+            "Co": 0,
+            "Cr": 0,
+            "X": 0,
+            "E": 0
+          },
+          "logK": -2.8627275283179747
+        },
+        {
+          "sourceIds": [
+            "A-reduction",
+            "C-reduction"
+          ],
+          "multipliers": [
+            1,
+            -1
+          ],
+          "electronMultiple": 3,
+          "electronResidual": 0,
+          "coefficients": {
+            "Ao": -3,
+            "Ar": 3,
+            "Bo": 0,
+            "Br": 0,
+            "Co": 3,
+            "Cr": -3,
+            "X": 0,
+            "E": 0
+          },
+          "logK": -2.8627275283179747
+        }
+      ]
+    }
+  ]
+}

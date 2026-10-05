@@ -1,0 +1,42 @@
+{
+  "Fe": {
+    "beaker": "47a3d503d6e6371306dfcb7f6aca28c95a7a0f1b4e65032c26da612a75bb298b",
+    "contract": "Total Fe = 0.001 mol/kg H₂O · 25 °C · 1 bar declared · Ideal57 × 45 calculated points · Exact independently matched reference conditions; all calculation checks passed.",
+    "inspection": "47a3d503d6e6371306dfcb7f6aca28c95a7a0f1b4e65032c26da612a75bb298b",
+    "status": "REFERENCE VALIDATED"
+  },
+  "Cu": {
+    "beaker": "fda30eee4d6226b1b3419b2ed7a6347e78cbafac16983eaa28a25f698fc72a6f",
+    "contract": "Total Cu = 0.0001 mol/kg H₂O · 25 °C · 1 bar declared · Ideal57 × 45 calculated points · Exact independently matched reference conditions; all calculation checks passed.",
+    "inspection": "fda30eee4d6226b1b3419b2ed7a6347e78cbafac16983eaa28a25f698fc72a6f",
+    "scrollWidth": 1265,
+    "status": "REFERENCE VALIDATED",
+    "width": 1280
+  },
+  "mobile": {
+    "beaker": "b5a00c598c969a2a9cf7424c3668efcd8383827cc927eac9f4c79cfad9941a08",
+    "beakerIndex": "1",
+    "index": "1",
+    "inspection": "b5a00c598c969a2a9cf7424c3668efcd8383827cc927eac9f4c79cfad9941a08",
+    "scrollWidth": 375,
+    "width": 390
+  },
+  "uranium": "Redox component\nChoose a selected element\nU\nTotal U\nmol/kg H₂O · one total across all oxidation states\nX · pH\nMinimum\nMaximum\nSamples\nY · Eh vs SHE (V)\nMinimum\nMaximum\nSamples\n\nTemperature: 25 °C · Pressure: 1 bar declared · Activity: ideal. Fixed H⁺ / electron activities and a(H₂O)=1. H₂/O₂ reference overlays only; no gas inventory is solved.\n\nPOURBAIX UNAVAILABLE\n\nRedox bridges cannot be canonicalized by the current supported compiler. A connected bridge is not a validated unit, electron-only substitution.\n\nRedox system details / scientific scope\n\nSource-connected forms: component:U%203%2B, component:U%204%2B, component:UO2%202%2B, component:UO2%2B. These share one analytical inventory; separate oxidation-state totals are not imposed.\n\nCanonical basis: not established · Oxidation-state inventory: unresolved\n\nIncluded solid candidates: U(cr), UH3(cr), UO2(am), UO2(cr), UO2(OH)2(cr), UO3·2H2O(cr). Included means eligible for equilibrium, not necessarily stable.\n\nExcluded candidates: none.\n\nUnsupported candidates: U3O7(cr): unsupported-fractional-canonical-stoichiometry; U3O8(cr): unsupported-fractional-canonical-stoichiometry; U4O9(cr): unsupported-fractional-canonical-stoichiometry.\n\nUnresolved carrier allocations: 27. (UO2)2(OH)2 2+, (UO2)2OH+3, (UO2)3(OH)4 2+, (UO2)3(OH)5+, (UO2)3(OH)7-, (UO2)4(OH)7+, U 3+, U 4+, U 4+, U 4+, U(cr), U(OH)4, U(OH)5-, UH3(cr), UO2 2+, UO2 2+, UO2(am), UO2(cr), UO2(OH)2, UO2(OH)2(cr), UO2(OH)3-, UO2(OH)4 2-, UO2+, UO2+, UO2OH+, UO3·2H2O(cr), UOH 3+\n\n184 source reactions require components outside this selected family.\n\nExact source identities, bridges and exclusions\n\nChoose Plot diagram to calculate. Changing total, ranges, sampling or phase scope creates a new result; it does not inherit independent reference validation.",
+  "changedCu": {
+    "total": 0.002,
+    "pH": [
+      2,
+      12
+    ],
+    "Eh": [
+      -1.005715,
+      1.005715
+    ],
+    "shape": [
+      57,
+      45
+    ],
+    "status": "CALCULATED / INTERNALLY VERIFIED",
+    "screenshot": "discovery-changed-browser.png"
+  }
+}

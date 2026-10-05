@@ -1,0 +1,233 @@
+{
+  "order": "Z[iy][ix]; rows hold fixed Y, columns hold fixed X",
+  "x": [
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12
+  ],
+  "y": [
+    -6,
+    -5,
+    -4,
+    -3,
+    -2
+  ],
+  "z": [
+    [
+      -8.355574740889347,
+      -7.372478184740926,
+      -6.512909806943048,
+      -6.088573816519519,
+      -6.011691456702186,
+      -6.020922591787423,
+      -6.167672628603588,
+      -6.756620579879511,
+      -7.6821246243000285
+    ],
+    [
+      -7.3555747408893435,
+      -6.372478184740926,
+      -5.512909806943046,
+      -5.088573816519519,
+      -5.011691456702183,
+      -5.020922591787423,
+      -5.167672628603588,
+      -5.756620579879511,
+      -6.6821246243000285
+    ],
+    [
+      -6.355574740889347,
+      -5.372478184740924,
+      -4.512909806943046,
+      -4.088573816519519,
+      -4.011691456702183,
+      -4.020922591787423,
+      -4.167672628603588,
+      -4.756620579879511,
+      -5.6821246243000285
+    ],
+    [
+      -5.355574740889347,
+      -4.372478184740924,
+      -3.512909806943048,
+      -3.088573816519519,
+      -3.0116914567021826,
+      -3.0209225917874214,
+      -3.1676726286035883,
+      -3.7566205798795114,
+      -4.682124624300027
+    ],
+    [
+      -4.355574740889347,
+      -3.372478184740924,
+      -2.512909806943048,
+      -2.088573816519519,
+      -2.0116914567021844,
+      -2.0209225917874214,
+      -2.1676726286035883,
+      -2.7566205798795114,
+      -3.6821246243000267
+    ]
+  ],
+  "global": {
+    "valid": 45,
+    "min": -8.355574740889347,
+    "max": -2.0116914567021844,
+    "range": 6.343883284187163,
+    "rangeOverMaxAbs": 0.7592396071980962,
+    "fractionOfGlobalSpan": 1
+  },
+  "alongX": {
+    "ranges": [
+      {
+        "valid": 9,
+        "min": -8.355574740889347,
+        "max": -6.011691456702186,
+        "range": 2.343883284187161,
+        "rangeOverMaxAbs": 0.28051730214523624,
+        "fractionOfGlobalSpan": 0.36947137568396815
+      },
+      {
+        "valid": 9,
+        "min": -7.3555747408893435,
+        "max": -5.011691456702183,
+        "range": 2.343883284187161,
+        "rangeOverMaxAbs": 0.3186539960171444,
+        "fractionOfGlobalSpan": 0.36947137568396815
+      },
+      {
+        "valid": 9,
+        "min": -6.355574740889347,
+        "max": -4.011691456702183,
+        "range": 2.3438832841871644,
+        "rangeOverMaxAbs": 0.368791711174052,
+        "fractionOfGlobalSpan": 0.3694713756839687
+      },
+      {
+        "valid": 9,
+        "min": -5.355574740889347,
+        "max": -3.0116914567021826,
+        "range": 2.3438832841871644,
+        "rangeOverMaxAbs": 0.4376529873239971,
+        "fractionOfGlobalSpan": 0.3694713756839687
+      },
+      {
+        "valid": 9,
+        "min": -4.355574740889347,
+        "max": -2.0116914567021844,
+        "range": 2.3438832841871626,
+        "rangeOverMaxAbs": 0.5381340979373423,
+        "fractionOfGlobalSpan": 0.36947137568396843
+      }
+    ],
+    "adjacent": {
+      "count": 40,
+      "max": 0.9830965561484231,
+      "median": 0.5066419708497261,
+      "aboveOnePercentOfGlobalSpan": 35
+    },
+    "duplicatePairs": [],
+    "effectiveDuplicatePairs": [],
+    "duplicateLines": 0,
+    "effectivelyDuplicateLines": 0,
+    "effectivelyFlatLines": []
+  },
+  "alongY": {
+    "ranges": [
+      {
+        "valid": 5,
+        "min": -8.355574740889347,
+        "max": -4.355574740889347,
+        "range": 4,
+        "rangeOverMaxAbs": 0.4787223050528598,
+        "fractionOfGlobalSpan": 0.6305286243160315
+      },
+      {
+        "valid": 5,
+        "min": -7.372478184740926,
+        "max": -3.372478184740924,
+        "range": 4.000000000000002,
+        "rangeOverMaxAbs": 0.5425584043475288,
+        "fractionOfGlobalSpan": 0.6305286243160318
+      },
+      {
+        "valid": 5,
+        "min": -6.512909806943048,
+        "max": -2.512909806943048,
+        "range": 4,
+        "rangeOverMaxAbs": 0.6141648078307217,
+        "fractionOfGlobalSpan": 0.6305286243160315
+      },
+      {
+        "valid": 5,
+        "min": -6.088573816519519,
+        "max": -2.088573816519519,
+        "range": 4,
+        "rangeOverMaxAbs": 0.6569683016977145,
+        "fractionOfGlobalSpan": 0.6305286243160315
+      },
+      {
+        "valid": 5,
+        "min": -6.011691456702186,
+        "max": -2.0116914567021844,
+        "range": 4.000000000000002,
+        "rangeOverMaxAbs": 0.6653701422983987,
+        "fractionOfGlobalSpan": 0.6305286243160318
+      },
+      {
+        "valid": 5,
+        "min": -6.020922591787423,
+        "max": -2.0209225917874214,
+        "range": 4.000000000000002,
+        "rangeOverMaxAbs": 0.6643500126469035,
+        "fractionOfGlobalSpan": 0.6305286243160318
+      },
+      {
+        "valid": 5,
+        "min": -6.167672628603588,
+        "max": -2.1676726286035883,
+        "range": 4,
+        "rangeOverMaxAbs": 0.648542852525821,
+        "fractionOfGlobalSpan": 0.6305286243160315
+      },
+      {
+        "valid": 5,
+        "min": -6.756620579879511,
+        "max": -2.7566205798795114,
+        "range": 4,
+        "rangeOverMaxAbs": 0.5920119315137465,
+        "fractionOfGlobalSpan": 0.6305286243160315
+      },
+      {
+        "valid": 5,
+        "min": -7.6821246243000285,
+        "max": -3.6821246243000267,
+        "range": 4.000000000000002,
+        "rangeOverMaxAbs": 0.5206892878758094,
+        "fractionOfGlobalSpan": 0.6305286243160318
+      }
+    ],
+    "adjacent": {
+      "count": 36,
+      "max": 1.0000000000000036,
+      "median": 1,
+      "aboveOnePercentOfGlobalSpan": 36
+    },
+    "duplicatePairs": [],
+    "effectiveDuplicatePairs": [],
+    "duplicateLines": 0,
+    "effectivelyDuplicateLines": 0,
+    "effectivelyFlatLines": []
+  },
+  "policy": {
+    "effectiveEquality": "abs(a-b) <= 4e-14 + 2e-10 * max(abs(a),abs(b)); existing analytical comparison criterion",
+    "substantialVariation": "Descriptive screen: adjacent difference > 1% of global Z span. Not a thermodynamic acceptance tolerance.",
+    "relativeVariation": "range/max(abs(Z)); signed logarithmic outputs also report range/global span, not a molality relative error."
+  }
+}

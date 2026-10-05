@@ -1,0 +1,878 @@
+.laboratory { max-width: 1400px; margin: auto; padding: 28px; }
+header { display: flex; justify-content: space-between; align-items: center; gap: 16px; margin-bottom: 20px; }
+h1 { color: #86efac; font-size: clamp(26px, 4vw, 40px); margin-bottom: 8px; letter-spacing: -1px; }
+h2 { color: #bbf7d0; font-size: 21px; margin-bottom: 12px; }
+header p { color: #a1a1aa; margin-bottom: 0; }
+.badge { color: #bbf7d0; background: #052e16; border: 1px solid #166534; border-radius: 24px; padding: 10px 14px; white-space: nowrap; font-size: 13px; }
+.builder { display: grid; grid-template-columns: minmax(0, .9fr) minmax(0, 1.1fr); gap: 20px; align-items: start; }
+.card { background: #18181b; border: 1px solid #303036; padding: 24px; border-radius: 18px; min-width: 0; }
+.element-panel { grid-column: 1 / -1; }
+.notice { background: #101e18; border: 1px solid #355342; padding: 14px; border-radius: 10px; line-height: 1.5; overflow-wrap: anywhere; }
+.notice p:last-child { margin-bottom: 0; }
+.hint { color: #b0b0ba; font-size: 13px; margin: 10px 0 16px; }
+.periodic-scroll { overflow-x: auto; padding: 4px; }
+.periodic-table { display: grid; grid-template-columns: repeat(18, minmax(28px, 1fr)); grid-template-rows: repeat(5, 55px); gap: 4px; min-width: 620px; }
+.element { background: #09090b; border: 1px solid #52525b; border-radius: 6px; color: #e4e4e7; padding: 4px; text-align: left; }
+.element small { display: block; font-size: 10px; }
+.element strong { display: block; text-align: center; font-size: 20px; }
+.element[aria-pressed="true"] { color: #bbf7d0; background: #143321; border: 2px solid #86efac; }
+.element:hover { border-color: #86efac; }
+.selection { color: #86efac; font-weight: bold; margin-bottom: 0; }
+.selection + .notice { margin-top: 16px; margin-bottom: 0; }
+fieldset { border: 0; padding: 0; margin: 20px 0; min-width: 0; }
+legend { font-weight: bold; margin-bottom: 10px; padding: 0; }
+.species-group legend { text-transform: capitalize; }
+.species-row { display: flex; align-items: center; gap: 12px; padding: 10px; border-bottom: 1px solid #303036; cursor: pointer; }
+input[type="checkbox"] { width: 18px; height: 18px; accent-color: #86efac; }
+.fields { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 16px; }
+.fields label { display: flex; flex-direction: column; gap: 8px; font-size: 14px; }
+input[type="number"], select { width: 100%; min-width: 0; background: #09090b; border: 1px solid #52525b; color: #f4f4f5; padding: 10px; border-radius: 6px; }
+.calculate { background: #86efac; color: #052e16; border: 0; border-radius: 8px; font-weight: bold; padding: 12px 24px; }
+footer { color: #a1a1aa; font-size: 13px; margin-top: 24px; line-height: 1.5; }
+@media (max-width: 760px) { .laboratory { padding: 16px; } header { flex-wrap: wrap; } .builder { grid-template-columns: minmax(0, 1fr); } .card { padding: 18px; } }
+@media (max-width: 400px) { .fields { grid-template-columns: minmax(0, 1fr); } }
+input[type="search"] { width: 100%; min-width: 0; background: #09090b; border: 1px solid #52525b; color: #f4f4f5; padding: 10px; border-radius: 6px; }
+.element:disabled { cursor: default; border-style: dashed; }
+.inline-options { display: flex; flex-wrap: wrap; gap: 12px; }
+.inline-options label { display: flex; align-items: center; gap: 4px; }
+.secondary { background: #27272a; color: #e4e4e7; border: 1px solid #52525b; border-radius: 6px; padding: 8px 12px; }
+.species-row small { display: block; color: #b0b0ba; font-size: 12px; margin-top: 6px; line-height: 1.5; }
+.species-details { padding: 8px 10px 14px; border-bottom: 1px solid #303036; font-size: 13px; }
+summary { cursor: pointer; color: #bbf7d0; padding: 8px 0; }
+pre { max-height: 320px; overflow: auto; white-space: pre-wrap; overflow-wrap: anywhere; padding: 12px; background: #09090b; font-size: 12px; line-height: 1.5; }
+dt { color: #a1a1aa; margin-top: 10px; }
+dd { margin: 4px 0 0; overflow-wrap: anywhere; }
+.database-source { margin-bottom: 20px; }
+.database-source input[type="file"] { display: block; margin: 12px 0; max-width: 100%; }
+.extra-elements { display: flex; flex-wrap: wrap; gap: 8px; margin: 12px 0; }
+.extra-elements [aria-pressed="true"] { background: #143321; border-color: #86efac; color: #bbf7d0; }
+.component-panel { grid-column: 1 / -1; }
+.component-options { display: grid; grid-template-columns: repeat(auto-fit, minmax(240px, 1fr)); max-height: 360px; overflow: auto; gap: 4px 16px; }
+.workspace-nav { display: flex; gap: .75rem; margin: 1rem 0; }
+.workspace-nav [aria-pressed="true"] { border-color: #75d9c2; }
+.calculation-workspace fieldset { margin: 1rem 0; display: flex; flex-wrap: wrap; gap: 1rem; }
+.calculation-workspace label { display: flex; flex-direction: column; gap: .35rem; margin: .6rem 0; }
+.calculation-workspace pre { overflow: auto; max-height: 28rem; }
+.result-scroll { overflow-x: auto; margin: 1rem 0; }
+.result-scroll table { border-collapse: collapse; width: 100%; font-variant-numeric: tabular-nums; }
+.result-scroll th, .result-scroll td { text-align: left; padding: .5rem; border-bottom: 1px solid #334155; }
+/* Phase 7 scientific workspace: continuous controls beside a responsive figure. */
+.science-layout { display:grid; grid-template-columns: 300px minmax(0,1fr); gap:22px; align-items:start; }
+.condition-sidebar { padding:20px; max-height:calc(100vh - 32px); overflow:auto; position:sticky; top:16px; }
+.condition-sidebar label,.output-controls label,.series-filters label { display:flex; flex-direction:column; gap:6px; font-size:13px; margin:8px 0; }
+.condition-sidebar fieldset { padding:14px 0; border-bottom:1px solid #35444d; margin:10px 0; }
+.condition-sidebar legend { font-size:14px; }
+.axis-condition { border-left:3px solid #6ee7c6; padding-left:12px!important; }
+.control-unit,.condition-sidebar small { font-size:11px; color:#a9b8c2; }
+.range-fields { display:grid; grid-template-columns:1fr 1fr; gap:10px; }
+.inline-check { flex-direction:row!important; align-items:flex-start; }
+.run-controls,.plot-toolbar,.output-controls,.series-filters,.plot-heading { display:flex; flex-wrap:wrap; gap:10px; align-items:center; }
+.plot-heading { justify-content:space-between; align-items:flex-start; }
+.plot-heading p { color:var(--muted); font-size:13px; }
+.plot-workspace { --surface:#11191e; --ink:#e5edf3; --muted:#a9b8c2; --border:#35444d; min-width:0; background:var(--surface); color:var(--ink); padding:22px; border:1px solid var(--border); border-radius:18px; }
+.plot-workspace.light { --surface:#fff; --ink:#17232c; --muted:#526472; --border:#ccd8df; }
+.plot-workspace h2,.plot-workspace h3,.plot-workspace summary { color:var(--ink); }
+.plot-workspace.light input,.plot-workspace.light select { background:#f4f7f9; color:#17232c; border-color:#8ea4b2; }
+.plot-workspace button,.condition-sidebar button { border:1px solid #536a77; padding:8px 12px; border-radius:7px; cursor:pointer; background:#21343f; color:#e5edf3; font-size:12px; }
+.plot-workspace.light button { background:#edf3f5; color:#17232c; border-color:#afbec8; }
+.condition-sidebar .calculate { background:#6ee7c6; color:#092b23; font-weight:700; }
+.plot-status { font-size:13px; border-left:3px solid #6ee7c6; padding:10px; }
+.stale-banner { background:#503515; color:#ffe2aa; padding:14px; border-radius:8px; font-weight:600; }
+.series-panel { margin:12px 0; border-top:1px solid var(--border); border-bottom:1px solid var(--border); }
+.series-legend { display:flex; flex-wrap:wrap; gap:8px 20px; max-height:150px; overflow:auto; padding:8px 0 14px; }
+.series-legend label { display:flex; align-items:center; gap:6px; font-size:13px; }
+.series-legend small { color:var(--muted); font-size:10px; }
+.plot-surface { position:relative; touch-action:none; cursor:crosshair; }
+.plot-surface svg { width:100%; height:auto; display:block; }
+.crosshair { position:absolute; pointer-events:none; top:5%; bottom:18%; width:1px; border-left:1px dashed #8b9aa6; }
+.inspection { background:color-mix(in srgb,var(--surface),#64748b 10%); padding:16px; border-radius:10px; overflow-x:auto; }
+.inspection table { width:100%; border-collapse:collapse; font-size:12px; font-variant-numeric:tabular-nums; }
+.inspection td,.inspection th { padding:8px; border-bottom:1px solid var(--border); text-align:left; }
+.scientific-chart > label { display:flex; align-items:center; gap:12px; font-size:13px; margin:10px 0; }
+.scientific-chart > label input { max-width:100px; }
+.plot-workspace pre { color:var(--ink); background:var(--surface); }
+button:focus-visible,input:focus-visible,select:focus-visible,summary:focus-visible { outline:2px solid #6bbfe8; outline-offset:3px; }
+input[type=range] { width:100%; accent-color:#54bca4; }
+@media(max-width:1050px) { .science-layout { grid-template-columns:260px minmax(0,1fr); gap:12px; } .plot-workspace { padding:14px; } }
+@media(max-width:800px) { .science-layout { grid-template-columns:1fr; } .condition-sidebar { position:static; max-height:none; } .plot-toolbar { gap:5px; } }
+/* Phase 8: graph first, compact setup above, live controls directly alongside. */
+.calculation-layout { display:grid; grid-template-columns:minmax(0,1fr) 275px; gap:20px; align-items:start; }
+.calculation-setup,.advanced-panel { grid-column:1/-1; }
+.calculation-setup { border-bottom:1px solid #35444d; padding-bottom:14px; }
+.setup-heading { display:flex; gap:16px; align-items:end; flex-wrap:wrap; }
+.calculation-layout label { display:flex; flex-direction:column; gap:5px; font-size:13px; }
+.calculation-layout button { cursor:pointer; border:1px solid #536a77; border-radius:7px; padding:9px 14px; background:#21343f; color:#e5edf3; }
+.calculation-layout .calculate { background:#6ee7c6; color:#092b23; font-weight:700; }
+.axis-controls { display:flex; gap:24px; flex-wrap:wrap; margin-top:12px; }
+.axis-setup { flex:1; min-width:230px; padding:6px 0; margin:0; border:0; }
+.axis-setup legend { font-size:13px; color:#6ee7c6; }
+.axis-range { display:grid; grid-template-columns:1fr 1fr 90px; gap:10px; margin:10px 0; }
+.graph-column { min-width:0; }
+.live-panel { position:sticky; top:65px; padding:12px 0 12px 16px; border-left:1px solid #35444d; }
+.live-panel h2 { font-size:18px; margin-top:0; }
+.live-condition { border:0; border-bottom:1px solid #35444d; margin:12px 0; padding:12px 0; }
+.live-condition label { margin:10px 0; }
+.live-condition legend { font-weight:600; }
+.live-condition legend small { font-weight:400; margin-left:8px; }
+.scope-note,.calculation-layout small { color:#9baeb9; font-size:11px; line-height:1.5; }
+.unit-choice select { max-width:100%; }
+.plot-workspace { padding:16px; border-radius:12px; }
+.plot-workspace .hint { color:var(--muted); font-size:11px; }
+.plot-heading h2 { font-size:20px; }
+.advanced-panel { border-top:1px solid #35444d; padding:12px 0; }
+.advanced-panel pre { max-height:360px; overflow:auto; }
+.advanced-panel > label { max-width:420px; margin:10px 0; }
+.workspace-nav { position:sticky; top:0; z-index:4; background:#10171c; padding:8px; border-radius:8px; }
+@media(min-width:1400px) { .calculation-layout { grid-template-columns:minmax(0,1fr) 300px; } }
+@media(max-width:900px) { .calculation-layout { grid-template-columns:minmax(0,1fr); } .live-panel { position:static; border-left:0; padding:12px 0; display:flex; flex-wrap:wrap; gap:16px; } .live-panel h2,.live-panel>.inline-check { width:100%; } .live-condition { flex:1; min-width:200px; } .graph-column { order:0; } }
+.calculation-layout.no-fixed { grid-template-columns:minmax(0,1fr); }
+.calculation-layout.no-fixed .live-panel { display:none; }
+.database-disclosure { margin:8px 0; color:#a9b8c2; font-size:13px; }
+.workspace-nav { display:flex; gap:8px; }
+.workspace-nav button { border:0; padding:10px 24px; border-radius:6px; background:transparent; color:#b9cbd7; cursor:pointer; font:inherit; font-weight:600; }
+.workspace-nav button[aria-pressed=true] { color:#b5f6e4; background:#234438; }
+.database-disclosure summary { cursor:pointer; padding:7px 0; }
+/* Phase 8.1: compact instrument workspace. Numerical layers are unchanged. */
+.laboratory { max-width:1800px; padding:10px 20px 20px; }
+.laboratory > header { margin:0; height:38px; }
+h1 { font-size:22px; letter-spacing:-.5px; margin:0; color:#e5edf3; }
+h2 { font-size:17px; color:#e5edf3; margin:0; }
+.badge { border:0; background:none; padding:0; font-size:11px; color:#8fa7b5; }
+.database-disclosure { margin:0; font-size:12px; }
+.database-disclosure > summary { padding:5px 0; color:#a9bac5; }
+.database-ready { color:#7ad9bb; }
+.database-name { color:#8195a2; }
+.database-source { display:flex; align-items:center; flex-wrap:wrap; gap:12px; padding:10px 0; margin:0; }
+.database-source input[type=file] { margin:4px 0; }
+.database-source > details { flex-basis:100%; }
+.demo-banner { font-size:12px; color:#e4bf83; margin:2px 0; }
+.workspace-nav { margin:4px 0 10px; padding:3px; gap:4px; border-radius:0; border-bottom:1px solid #30404b; }
+.workspace-nav button { padding:7px 20px; font-size:13px; }
+footer { font-size:11px; margin-top:12px; }
+button { background:#1b2b35; color:#dbe6ee; border:1px solid #405361; border-radius:5px; padding:6px 10px; }
+input[type=number],input[type=search],select { padding:6px 8px; border-color:#3b4d59; background:#0e161d; font-size:12px; }
+summary { font-size:12px; color:#a2b7c5; padding:5px 0; }
+.muted { color:#92a6b4; font-size:11px; }
+.section-heading { display:flex; align-items:center; justify-content:space-between; gap:12px; margin-bottom:10px; }
+.section-heading small { font-size:11px; color:#a1b3bf; }
+.selected-key { color:#88e3c8; }.unavailable-key { color:#687984; }
+.builder { grid-template-columns:minmax(0,1fr) 290px; gap:12px 22px; }
+.element-panel { grid-column:1; }.component-panel { grid-column:2; }
+.periodic-table { grid-template-rows:repeat(7,44px) 10px repeat(2,44px); grid-template-columns:repeat(18,minmax(30px,1fr)); gap:3px; min-width:650px; }
+.periodic-scroll { padding:0; }
+.element { border:1px solid #49616c; border-radius:4px; padding:3px; background:#172a34; }
+.element small { font-size:9px; color:#a3b8c6; }
+.element strong { font-size:17px; }
+.element.selected { background:#1a463d; color:#b2f6e5; border:2px solid #6bd6b6; }
+.element.unavailable { color:#6f7d87; background:#10181e; border:1px solid #22303a; opacity:.7; }
+.element.unavailable small { color:#667681; }
+.element:disabled { border-style:solid; }
+.element.available:hover { background:#254654; }
+.periodic-caption,.series-placeholder { font-size:10px; color:#8299a7; align-self:center; text-align:center; }
+.component-options { display:block; margin-top:8px; max-height:405px; overflow:auto; }
+.component-options .species-row { padding:6px 3px; font-size:13px; gap:7px; }
+.component-options .species-row small { font-size:10px; line-height:1.2; margin:2px 0 0; }
+.selected-tray { grid-column:1/-1; display:flex; flex-wrap:wrap; gap:7px; align-items:center; border-top:1px solid #30404b; border-bottom:1px solid #30404b; padding:8px 0; font-size:12px; }
+.selected-tray > span { padding:4px 8px; background:#1b302e; border-radius:4px; color:#a9decf; }
+.selected-tray small { color:#9fb0ba; margin-left:auto; }
+.species-browser { grid-column:1/-1; }
+.system-extra { grid-column:1/-1; order:5; }
+.species-search { display:flex; align-items:end; gap:12px; margin-bottom:8px; }
+.species-search > label { display:flex; flex-direction:column; gap:4px; font-size:11px; }
+.species-search > label:first-child { flex:1; max-width:400px; }
+.species-search .inline-check { align-items:center; white-space:nowrap; padding-bottom:5px; }
+.filter-options { position:relative; }.filter-options[open] { flex:1; }
+.filter-options p { font-size:12px; }
+.species-content { display:flex; align-items:start; gap:14px; }
+.species-table-scroll { flex:1; min-width:0; max-height:340px; overflow:auto; border-block:1px solid #30404b; }
+.species-table { width:100%; border-collapse:collapse; text-align:left; font-size:12px; }
+.species-table thead { position:sticky; top:0; background:#16232c; z-index:1; }
+.species-table th { color:#9fb3c1; font-weight:400; padding:7px 10px; }
+.species-table td { padding:3px 10px; border-bottom:1px solid #1e2d37; }
+.species-table td:first-child { width:40%; }
+.species-table label { display:flex; align-items:center; gap:8px; min-height:28px; }
+.species-table .included { background:#11251f; }
+.species-table td:nth-child(3) { color:#acbbc4; font-size:11px; }
+.species-table button { border:0; background:none; font-size:16px; padding:2px 10px; }
+.species-inspector { flex:0 1 380px; max-height:380px; overflow:auto; padding:10px; background:#13202a; }
+.species-details { border:0; padding:0; }.species-details summary { font-size:14px; }
+.calculation-layout { grid-template-columns:minmax(0,1fr) 205px; gap:0; }
+.calculation-setup { padding:0 0 5px; border:0; }
+.setup-heading { gap:8px; align-items:end; }
+.setup-heading > label { max-width:235px; }
+.setup-heading > label:first-child { max-width:110px; }
+.setup-heading .inline-check { padding-bottom:5px; margin-left:auto; font-size:11px; }
+.calculation-layout label { font-size:11px; gap:3px; }
+.calculation-layout button { font-size:11px; padding:6px 9px; }
+.axis-controls { margin:6px 0 0; gap:14px; }
+.axis-setup { flex:0 1 auto; min-width:0; display:flex; align-items:end; gap:8px; padding:0; }
+.axis-setup > label { width:185px; }
+.axis-range { display:flex; gap:6px; margin:0; }
+.axis-range label { width:72px; }
+.axis-range label:last-child { width:65px; }
+.axis-setup > small { align-self:center; }
+.axis-help { position:relative; }.axis-help[open] { max-width:170px; }
+.scope-note { margin:5px 0 0; font-size:10px; }
+.calculation-setup > [role=alert] { margin:5px 0; font-size:12px; color:#f2c787; }
+.plot-workspace { padding:8px 8px 0; border:0; border-radius:0; display:flex; flex-direction:column; position:relative; }
+.plot-heading { position:absolute; right:8px; top:5px; z-index:1; }
+.plot-heading h2 { display:none; }
+.plot-heading button { font-size:10px; padding:3px 6px; }
+.plot-status,.stale-banner { margin:0 90px 4px 0; padding:3px 7px; font-size:11px; border-radius:0; }
+.plot-workspace > details { order:5; margin:0; border-top:1px solid #2b3e49; }
+.plot-workspace > .scientific-chart { order:2; }
+.plot-workspace > .output-controls { margin:0 85px 2px 0; gap:8px; }
+.output-controls label { margin:0; font-size:10px; }
+.plot-toolbar { gap:4px; margin:2px 0; }
+.plot-toolbar button { padding:4px 7px; font-size:10px; }
+.plot-surface svg { width:100%; height:auto; }
+.live-panel { top:43px; margin:0; padding:12px 10px; background:#11191e; border-left:1px solid #34525f; min-height:480px; }
+.live-panel h2 { font-size:11px; text-transform:uppercase; letter-spacing:1px; color:#88a7b7; margin-bottom:14px; }
+.live-condition { margin:0 0 16px; padding:0 0 12px; }
+.live-condition legend { font-size:17px; padding:0; margin:0; }
+.live-condition legend small { display:block; margin:3px 0; color:#a8bfc9; font-size:10px; text-transform:uppercase; letter-spacing:.6px; }
+.live-condition label { margin:6px 0; }
+.live-condition input[type=number] { font-size:19px; color:#a2edda; font-variant-numeric:tabular-nums; border:0; border-bottom:1px solid #385662; border-radius:0; padding:6px 2px; background:transparent; }
+.live-slider { margin-top:14px!important; }
+.live-slider input[type=range] { appearance:none; background:linear-gradient(90deg,#203943,#518b86); height:12px; border-radius:3px; margin:10px 0; }
+.live-slider input[type=range]::-webkit-slider-thumb { appearance:none; width:13px; height:28px; border-radius:3px; background:#b0f4df; border:2px solid #0b3028; box-shadow:0 0 0 1px #8dcebb; cursor:ew-resize; }
+.live-slider small,.unit-choice small { font-size:9px; }
+.series-legend { padding:5px 0; max-height:105px; gap:5px 14px; }
+.calculation-layout .series-legend label { flex-direction:row; align-items:center; font-size:12px; }
+.series-filters { gap:8px; }.series-filters label { margin:4px 0; }
+.inspection { padding:8px; border-radius:0; }
+.inspection h3,.inspection p { margin:4px 0; font-size:12px; }
+.inspection table { font-size:11px; }.inspection td,.inspection th { padding:4px 6px; }
+.advanced-panel { margin-top:8px; padding:0; }
+@media(max-width:1100px) { .builder { grid-template-columns:minmax(0,1fr) 230px; gap:12px; } .calculation-layout { grid-template-columns:minmax(0,1fr) 185px; } .axis-setup > label { width:155px; } }
+@media(max-width:850px) { .laboratory { padding:8px 10px; } .builder { grid-template-columns:minmax(0,1fr); } .component-panel { grid-column:1; } .component-options { display:grid; grid-template-columns:repeat(2,minmax(0,1fr)); max-height:190px; } .calculation-layout { grid-template-columns:minmax(0,1fr); } .live-panel { position:static; min-height:0; display:flex; border:0; border-top:1px solid #34525f; padding:10px; gap:10px; } .live-panel h2 { width:100%; margin:0; } .live-condition { min-width:160px; flex:1; } .live-panel > small { width:100%; } .axis-controls { flex-direction:column; gap:6px; } .setup-heading .inline-check { margin-left:0; } .species-content { flex-direction:column; } .species-table-scroll { width:100%; } .species-inspector { flex:auto; width:100%; } .species-search { flex-wrap:wrap; } }
+@media(max-width:480px) { .axis-setup { flex-wrap:wrap; } .axis-setup > label { width:100%; } .database-name,.badge { display:none; } .component-options { grid-template-columns:1fr; } .species-table td,.species-table th { padding:4px; font-size:10px; } }
+.calculation-setup { display:flex; flex-wrap:wrap; align-items:end; gap:5px 10px; }
+.setup-heading,.axis-controls { display:contents; }
+.setup-heading > button { order:2; }
+.setup-heading > .inline-check { order:3; }
+.calculation-setup > .scope-note,.calculation-setup > [role=alert] { flex-basis:100%; order:4; margin:0; }
+@media(max-width:850px) { .axis-setup { flex-basis:100%; } }
+@media(min-width:481px) and (max-width:850px) {
+  .live-condition { display:grid; grid-template-columns:repeat(2,minmax(0,1fr)); gap:4px 12px; }
+  .live-condition legend { margin-bottom:4px; }
+  .live-condition .live-slider { grid-column:1/-1; margin-top:4px!important; }
+}
+.grid-workspace .output-controls label { flex-direction:row; align-items:center; }
+.grid-workspace .output-controls select { width:auto; max-width:230px; }
+
+/* Phase 8.2: source-aware chemistry and graph-attached instruments. */
+.nav-spacer { flex:1; }
+.element[data-focused=true] { outline:2px solid #d5e9f4; outline-offset:2px; }
+.element.unavailable { cursor:pointer; }
+.component-context { min-width:0; }
+.component-context > h2 { font-size:15px; margin:0 0 8px; }
+.component-context .component-panel { margin-top:10px; }
+.component-context .component-panel h2 { display:none; }
+.user-badge { display:block; color:#e2bf79; font-size:10px; font-weight:500; }
+.selected-tray { display:block; }
+.selected-tray h2 { font-size:15px; margin:0 0 6px; }
+.selected-tray > div { display:flex; align-items:center; flex-wrap:wrap; gap:5px; margin:4px 0; }
+.selected-tray > div > strong { width:175px; color:#9eb1be; font-size:11px; font-weight:500; }
+.selected-tray button { padding:4px 7px; font-size:12px; }
+.selected-tray span { padding:4px 0; }
+.system-handoff { grid-column:1/-1; display:flex; align-items:center; gap:18px; border-top:1px solid #30404b; padding:12px 0; }
+.system-handoff > div { font-size:12px; color:#b4c7cd; }
+.system-handoff p { margin:3px 0; }
+.custom-tabs { display:flex; gap:8px; margin:10px 0; }
+.custom-chemistry > .card { display:grid; grid-template-columns:repeat(2,minmax(0,1fr)); gap:12px; box-shadow:none; }
+.custom-chemistry .card > h2,.custom-chemistry .card > p,.custom-chemistry .card > ul,.custom-chemistry .card > details,.custom-chemistry .card > fieldset { grid-column:1/-1; }
+.custom-chemistry .card > button { justify-self:start; align-self:end; }
+.custom-chemistry li { padding:8px 0; border-top:1px solid #34444e; }
+.custom-chemistry li button { margin:3px; }
+.custom-chemistry textarea { width:100%; min-height:55px; }
+.custom-chemistry fieldset { display:grid; grid-template-columns:repeat(3,minmax(0,1fr)); gap:10px; }
+.custom-chemistry fieldset > label:first-of-type { grid-column:1/-1; }
+.live-panel { align-self:stretch; }
+.live-condition .live-slider { display:grid; grid-template-columns:40px minmax(0,1fr); gap:8px; align-items:center; }
+.live-condition .live-slider input[type=range] { writing-mode:vertical-lr; direction:rtl; width:28px; height:220px; appearance:auto; background:#273f49; accent-color:#82d8c0; margin:8px 0; grid-column:1; cursor:ns-resize; }
+.live-condition .live-slider small { grid-column:2; line-height:1.8; }
+.live-condition .live-slider input[type=range]::-webkit-slider-thumb { appearance:auto; cursor:ns-resize; box-shadow:none; }
+@media(max-width:850px) {
+  .custom-chemistry > .card,.custom-chemistry fieldset { grid-template-columns:minmax(0,1fr); }
+  .system-handoff { align-items:start; flex-direction:column; gap:8px; }
+  .live-condition .live-slider input[type=range] { height:130px; }
+  .workspace-nav { flex-wrap:wrap; }
+}
+
+.live-condition .live-slider > span { grid-column:1/-1; }
+.bar-landmarks { position:relative; height:202px; align-self:center; grid-column:2; grid-row:2; pointer-events:none; }
+.bar-landmarks span { position:absolute; transform:translateY(50%); font-size:11px; }
+.bar-landmarks .minor { color:#8ca0aa; }
+.live-condition .live-slider .bar-caption { grid-column:1/-1; font-size:11px; }
+.reaction-count { font-size:12px; color:#b4ccc8; margin-top:8px; }
+@media(max-width:700px) { .bar-landmarks { height:112px; } .bar-landmarks .major { font-size:9px; } }
+
+.export-panel textarea { width:100%; font:11px monospace; resize:vertical; }
+.export-panel a { color:#a2edda; }
+
+.analysis-panel { margin: 1rem 0; padding: .6rem; border-top: 1px solid #38505d; font-size: .85rem; }
+.analysis-panel h3 { margin: .3rem 0; }
+.analysis-extrema { display: flex; gap: 2rem; flex-wrap: wrap; }
+.analysis-extrema > div { flex: 1 1 230px; }
+.analysis-extrema p { margin: .35rem 0; overflow-wrap: anywhere; }
+.analysis-panel button { margin: .2rem .4rem .2rem 0; }
+.analysis-panel label { display: block; }
+.slice-view { border-top: 1px solid #38505d; margin-top: 1rem; }
+
+.surface-stage { display: flex; min-height: 460px; height: min(68vh, 760px); background: #10191f; }
+.surface-canvas { flex: 1; min-width: 0; height: 100%; touch-action: none; }
+.surface-canvas canvas { display: block; width: 100%; height: 100%; }
+.surface-colorbar { width: 156px; padding: 1rem .3rem; display: flex; flex-direction: column; gap: .6rem; font-size: .67rem; justify-content: center; overflow-wrap: anywhere; }
+.surface-colorbar > div { height: 240px; width: 20px; background: linear-gradient(to top,rgb(17,42,67),rgb(190,240,225)); }
+.surface-identities { display: flex; flex-wrap: wrap; gap: .3rem 1rem; font-size: .8rem; margin: .5rem 0; }
+.surface-identities strong { flex-basis: 100%; }
+.surface-legend { font-size: .75rem; }
+.surface-workspace details label { display: inline-block; margin: .3rem .7rem .3rem 0; }
+@media (max-width: 650px) { .surface-stage { min-height: 360px; } .surface-colorbar { width: 100px; font-size: .6rem; } }
+
+.grid-diagnostics { border-top: 1px solid #38505d; margin-top: 1rem; padding-top: .5rem; }
+.grid-diagnostics details { margin: .5rem 0; } .grid-diagnostics table { width: 100%; border-collapse: collapse; } .grid-diagnostics th, .grid-diagnostics td { text-align: left; padding: .3rem; border-bottom: 1px solid #38505d; } .cell-diagnostic { border-left: 3px solid #708e9f; padding-left: .7rem; margin-top: .8rem; }
+
+/* Decorative portrait stays inside the header, away from all scientific content. */
+.adam-media-pair { display:flex; gap:8px; align-items:center; flex-shrink:0; }
+.laboratory > header .adam-media-trigger { width: 160px; height: 106px; flex: 0 0 160px; overflow: hidden; border-radius: 8px; position: relative; padding: 0; border: 1px solid #a79b74; background:#101d25; }
+.laboratory > header .adam-media-trigger.portrait { width:74px; flex-basis:74px; }
+.adam-media-trigger img { display:block; width:100%; height:100%; object-fit:contain; }
+.laboratory > header h1 { margin-right: auto; }
+@media (max-width: 900px) { .laboratory > header .adam-media-trigger { width: 104px; height: 78px; flex-basis: 104px; } }
+@media (max-width: 900px) { .laboratory > header .adam-media-trigger.portrait { width:54px; flex-basis:54px; } }
+
+.laboratory > header { height:auto; min-height:78px; padding-bottom:12px; }
+
+.plot-inspection-frame { min-width: 0; }
+.expand-toolbar { display: flex; align-items: center; gap: 12px; margin-bottom: 6px; }
+.expanded-plot { position: fixed; inset: 0; z-index: 1000; overflow: auto; padding: 12px; background: #11191e; color: #e5edf3; }
+.expanded-plot > .expand-toolbar { position: sticky; top: -12px; z-index: 2; background: #11191e; padding: 6px; }
+.expanded-plot > .plot-workspace { width: 100%; }
+.expanded-plot .scientific-chart { order: -1; }
+.expanded-plot .surface-stage { height: max(360px, calc(100dvh - 220px)); }
+.species-focus { display: flex; flex-wrap: wrap; align-items: center; gap: 5px; margin-bottom: 8px; }
+.species-focus button[aria-pressed=true] { font-weight: 700; border: 2px solid #86efac; text-decoration: underline; }
+.species-focus button:focus-visible, .expand-toolbar button:focus-visible { outline: 2px solid #fff; outline-offset: 2px; }
+@media (max-width: 600px) { .expanded-plot { padding: 4px; } .species-focus { max-height: 100px; overflow: auto; } }
+
+/* Dense setup keeps the existing dark workspace and exact numeric inputs. */
+.diagram-editor { display: grid; grid-template-columns: minmax(0, 2fr) minmax(260px, 1fr); gap: 12px; }
+.diagram-editor .axis-controls { display: flex; flex-direction: column; gap: 8px; }
+.diagram-conditions { display: grid; grid-template-columns: 1fr 1fr; gap: 8px; align-content: start; }
+.diagram-conditions small { grid-column: 1 / -1; }
+.compact-conditions { display: grid; grid-template-columns: repeat(auto-fit, minmax(290px, 1fr)); gap: 8px; margin: 10px 0; }
+.compact-conditions .live-condition { display: grid; grid-template-columns: 1fr 1fr; gap: 6px; padding: 8px; margin: 0; }
+.compact-conditions .mass-input { grid-column: 1 / -1; }
+@media (max-width: 760px) { .diagram-editor { grid-template-columns: 1fr; } }
+.calculation-setup { display: block; }
+.calculation-setup > h2 { margin: 0 0 6px; font-size: 15px; }
+.calculation-setup .setup-heading { display: flex; margin-bottom: 8px; }
+.compact-conditions .live-condition legend { font-size: 13px; }
+.compact-conditions .live-condition legend small { display: inline; text-transform: none; letter-spacing: 0; }
+.compact-conditions .live-condition label { margin: 2px 0; }
+.compact-conditions .live-condition input[type=number] { font-size: 14px; padding: 4px; }
+/* Graph-first navigation: hidden panels retain their mounted plot state. */
+.graph-first { display: block; }
+.graph-first [hidden] { display: none !important; }
+.graph-first > .graph-column { min-width: 0; width: 100%; }
+.results-toolbar { scroll-margin-top: 52px; margin-bottom: 8px; padding: 8px 0; border-bottom: 1px solid #31434c; outline: none; }
+.results-actions { display: flex; align-items: center; flex-wrap: wrap; gap: 8px; }
+.results-actions h2 { font-size: 16px; margin: 0 12px 0 0; }
+.results-actions small { margin-left: auto; }
+.result-conditions { margin: 6px 0; font-size: 12px; color: #b7ccd5; }
+.results-toolbar details { font-size: 12px; }
+.request-feedback { border-left: 3px solid #e3b26c; background: #30271d; padding: 10px 12px; margin: 8px 0; }
+.request-feedback p { margin: 4px 0; font-size: 13px; }
+.request-feedback small { display: block; }
+.graph-first .advanced-panel { margin-top: 10px; }
+.result-analysis { margin: 10px 0; border-top: 1px solid #31434c; padding-top: 7px; }
+.results-mode .plot-heading { margin: 0; }
+.results-mode .species-focus { max-height: 76px; overflow: auto; }
+.results-mode .surface-stage { height: max(320px, calc(100dvh - 300px)); }
+.graph-first .diagram-editor { grid-template-columns: minmax(0, 1.6fr) minmax(260px, 1fr); }
+.graph-first .setup-heading > small { flex-basis: 100%; order: 3; }
+.graph-first .compact-conditions .live-condition { grid-template-columns: minmax(0, 1fr) minmax(0, 1fr); }
+.graph-first input, .graph-first select { max-width: 100%; min-width: 0; }
+.graph-first pre { overflow: auto; max-width: 100%; }
+.return-results { margin: 8px 8px 8px 0; }
+@media (max-width: 760px) {
+  .graph-first .diagram-editor { grid-template-columns: minmax(0, 1fr); }
+  .graph-first .compact-conditions { grid-template-columns: minmax(0, 1fr); }
+  .results-actions small { width: 100%; margin: 0; }
+  .results-toolbar { scroll-margin-top: 48px; }
+  .results-mode .plot-toolbar { gap: 4px; }
+  .results-mode .plot-toolbar button { padding: 5px 7px; }
+}
+/* One bounded scientific work surface, switching between setup and plot. */
+.graph-first { background: #0e1b24; border: 1px solid #2c4b5c; border-radius: 16px; padding: 16px 18px; margin-top: 12px; box-shadow: 0 8px 24px #0003; }
+.graph-first .setup-title { display: flex; align-items: baseline; justify-content: space-between; gap: 12px; margin-bottom: 18px; }
+.graph-first .setup-title h2 { font-size: 22px; margin: 0; color: #e5f3fa; }
+.graph-first .diagram-editor { display: grid; grid-template-columns: minmax(0, 1fr) minmax(0, 1fr) minmax(0, 1.15fr); gap: 20px; }
+.graph-first .output-setup, .graph-first .axis-controls { display: flex; flex-direction: column; gap: 10px; min-width: 0; margin: 0; }
+.graph-first .output-setup > label { width: 100%; }
+.graph-first .diagram-editor .axis-setup { display: flex; flex-direction: column; align-items: stretch; gap: 10px; min-width: 0; padding: 0; }
+.graph-first .diagram-editor .axis-setup > label { width: 100%; }
+.graph-first .axis-range { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 8px; width: 100%; }
+.graph-first .axis-range input { width: 100%; }
+.graph-first .diagram-conditions { border-left: 1px solid #2c424f; padding-left: 18px; }
+.graph-first select, .graph-first input[type=number], .graph-first input[readonly] { border: 1px solid #385564; border-radius: 6px; background: #122631; color: #dcecf3; padding: 7px 9px; box-sizing: border-box; }
+.graph-first input[readonly] { color: #a9bfcb; }
+.graph-first .component-heading { margin: 16px 0 6px; font-size: 13px; font-weight: 500; color: #c5d9e5; }
+.graph-first .compact-conditions { margin: 0 0 6px; }
+.graph-first .compact-conditions .live-condition { border: 1px solid #2b4757; border-radius: 8px; background: #10212b; padding: 8px 10px; }
+.graph-first .setup-footer { display: flex; align-items: center; justify-content: flex-end; gap: 12px; border-top: 1px solid #2c424f; padding-top: 10px; margin-top: 10px; }
+.graph-first .setup-footer small { margin-right: auto; }
+.graph-first .setup-footer .calculate { padding: 10px 24px; font-size: 14px; }
+.graph-first .results-toolbar { padding-top: 0; }
+.scientific-chart.with-focus-legend { display: grid; grid-template-columns: minmax(0, 1fr) 200px; column-gap: 16px; align-items: start; }
+.scientific-chart.with-focus-legend > .plot-toolbar { grid-column: 1; grid-row: 1; }
+.scientific-chart.with-focus-legend > .plot-surface { grid-column: 1; grid-row: 2; min-width: 0; }
+.scientific-chart.with-focus-legend > label { grid-column: 1; grid-row: 3; }
+.scientific-chart.with-focus-legend > .sample-details { grid-column: 1 / -1; grid-row: 4; min-width: 0; }
+.scientific-chart.with-focus-legend > .species-focus { grid-column: 2; grid-row: 1 / 4; display: flex; flex-direction: column; align-items: stretch; max-height: min(650px, 75dvh); overflow: auto; padding: 10px; border: 1px solid #2b4757; border-radius: 8px; background: #10212b; }
+.species-focus strong { font-size: 12px; margin: 2px 0 8px; }
+.species-focus .legend-swatch { display: inline-block; width: 18px; height: 3px; margin-right: 8px; flex-shrink: 0; }
+.scientific-chart .species-focus button { display: flex; align-items: center; text-align: left; overflow-wrap: anywhere; }
+@media (max-width: 900px) {
+  .graph-first .diagram-editor { grid-template-columns: minmax(0, 1fr) minmax(0, 1fr); }
+  .graph-first .diagram-conditions { grid-column: 1 / -1; border-left: 0; border-top: 1px solid #2c424f; padding: 10px 0 0; grid-template-columns: repeat(4,minmax(0,1fr)); }
+  .scientific-chart.with-focus-legend { display: flex; flex-direction: column; }
+  .scientific-chart.with-focus-legend > .species-focus { width: 100%; box-sizing: border-box; flex-direction: row; flex-wrap: wrap; max-height: 105px; order: 0; padding: 6px; }
+  .scientific-chart.with-focus-legend > .species-focus strong { flex-basis: 100%; margin: 0; }
+  .scientific-chart.with-focus-legend > .plot-toolbar { order: 1; }
+  .scientific-chart.with-focus-legend > .plot-surface { order: 2; width: 100%; }
+  .scientific-chart.with-focus-legend > label { order: 3; }
+  .scientific-chart.with-focus-legend > .sample-details { order: 4; width: 100%; }
+}
+@media (max-width: 540px) {
+  .graph-first { padding: 12px 10px; border-radius: 10px; }
+  .graph-first .diagram-editor { gap: 12px; }
+  .graph-first .diagram-conditions { grid-template-columns: repeat(2,minmax(0,1fr)); }
+  .graph-first .setup-title small { display: none; }
+  .graph-first .setup-footer { flex-wrap: wrap; }
+  .graph-first .setup-footer small { width: 100%; }
+  .graph-first .setup-footer .calculate { width: 100%; }
+}
+.graph-first { scroll-margin-top: 52px; overflow-anchor: none; outline: none; }
+.graph-first .compact-conditions .live-condition { grid-template-columns: repeat(3,minmax(0,1fr)); }
+.output-availability { color: #e8c792; font-size: 12px; margin: 5px 0; }
+@media (max-width: 540px) { .graph-first .compact-conditions .live-condition { grid-template-columns: repeat(2,minmax(0,1fr)); } }
+
+/* Response-surface controls and quantitative scale only. */
+.surface-workspace > .response-mode { display: flex; flex-direction: row; justify-content: flex-start; align-items: center; gap: .6rem; font-size: .8rem; margin: .5rem 0; }
+.response-mode select { max-width: 320px; }
+.surface-colorbar .response-scale { display: flex; height: 260px; width: 100%; background: none; gap: .5rem; }
+.response-gradient { width: 16px; flex-shrink: 0; background: linear-gradient(to top,rgb(17,42,67),rgb(190,240,225)); }
+.response-ticks { display: flex; flex-direction: column; justify-content: space-between; }
+.surface-colorbar { width: 118px; }
+@media(max-width:650px) { .surface-colorbar { width: 86px; } .response-mode { flex-wrap: wrap; } }
+
+/* Compact scientific setup: output and independent axes, conditions, then totals. */
+.graph-first .setup-title { margin-bottom: 8px; }
+.graph-first .calculation-setup > details { margin: 6px 0; font-size: 12px; }
+.graph-first .diagram-editor { gap: 14px; margin-top: 12px; }
+.graph-first .diagram-conditions h3 { grid-column: 1 / -1; font-size: 14px; margin: 0 0 4px; }
+.graph-first .compact-conditions { display: grid; grid-template-columns: repeat(2,minmax(0,1fr)); gap: 8px; }
+.graph-first .compact-conditions .compact-total { display: grid; grid-template-columns: minmax(90px,1fr) minmax(80px,1fr) auto; gap: 6px; padding: 5px 8px; align-items: end; }
+.compact-total legend { font-size: 12px; }.compact-total details { align-self: center; }.compact-total details[open] { grid-column: 1 / -1; }
+.graph-first .setup-options { color: #b6cbd5; }
+@media(max-width:650px){.graph-first .diagram-editor,.graph-first .compact-conditions { grid-template-columns:minmax(0,1fr); }.graph-first .diagram-conditions {grid-column:auto;}.graph-first .compact-conditions .compact-total {grid-template-columns:minmax(0,1fr) minmax(0,1fr);}.compact-total details {grid-column:1 / -1;}}
+
+/* One accepted Calculation sample, shared by plot, inspection and Beaker. */
+.result-split {display:grid;grid-template-columns:minmax(0,1fr) 300px;gap:16px;align-items:start;}
+.result-plot {min-width:0;}.result-beaker {position:sticky;top:60px;min-width:0;padding:12px!important;margin:0!important;overflow:hidden;}
+.result-beaker h3 {font-size:16px;margin:0 0 10px;}.result-beaker .beaker-drawing {width:100%;height:220px;}
+.result-beaker p,.result-beaker li {font-size:12px;overflow-wrap:anywhere;}.result-beaker pre {max-height:300px;overflow:auto;}
+.result-beaker input {width:100%;}.result-beaker .beaker-readout {padding:6px!important;}.result-beaker .beaker-readout h4 {margin:8px 0;}
+@media(max-width:1100px){.result-split {grid-template-columns:minmax(0,1fr);}.result-beaker {position:static;}.result-beaker .beaker-drawing {height:230px;}}
+
+/* Scientific diagram setup: compact controls and progressive disclosure. */
+.sr-only { position: absolute; width: 1px; height: 1px; padding: 0; margin: -1px; overflow: hidden; clip-path: inset(50%); white-space: nowrap; border: 0; }
+.diagram-type { max-width: 520px; margin: 16px 0 6px; font-weight: 600; }
+.diagram-type select { margin-top: 6px; min-height: 42px; }
+.plot-action { display: inline-flex; gap: 8px; align-items: center; justify-content: center; }
+.setup-title { display: flex; align-items: center; justify-content: space-between; gap: 16px; }
+.graph-first .compact-conditions { display: flex; flex-direction: column; gap: 0; }
+.graph-first .compact-conditions .compact-total { display: grid; grid-template-columns: minmax(130px,1fr) minmax(100px,160px) minmax(130px,220px) auto; gap: 12px; align-items: center; border: 0; border-bottom: 1px solid #2b4757; border-radius: 0; background: transparent; padding: 10px 0; }
+.compact-total strong { font-size: 14px; font-weight: 500; }
+.compact-total .compact-value, .compact-total .unit-choice { margin: 0; }
+.graph-first .compact-conditions .compact-total input, .compact-total select { min-height: 40px; }
+.compact-total details[open] { grid-column: 1 / -1; }
+.compact-total summary { padding: 8px; cursor: pointer; }
+.axis-range details { align-self: end; }
+@media (max-width: 650px) {
+  .graph-first .compact-conditions .compact-total { grid-template-columns: minmax(0,1fr) minmax(0,1fr); gap: 8px; }
+  .compact-total strong { grid-column: 1 / -1; }
+  .compact-total details { grid-column: 1 / -1; }
+  .setup-title { align-items: flex-start; flex-wrap: wrap; }
+  .diagram-type { max-width: none; }
+}
+/* Restrained semantic presentation. Native readonly/disabled attributes remain authoritative. */
+.laboratory { --edit-bg:#193440; --edit-ink:#edf7fb; --edit-border:#7295a7; --edit-focus:#9dd9ff; }
+.plot-workspace.light, .beaker-light { --edit-bg:#edf6fc; --edit-ink:#142b3b; --edit-border:#587e94; --edit-focus:#135e96; }
+.laboratory :is(input[type=number],input[type=text],input[type=search],select):not([readonly]):not(:disabled) {
+  background:var(--edit-bg); color:var(--edit-ink); border:1px solid var(--edit-border); border-radius:6px; padding:8px 10px; min-height:40px;
+}
+.laboratory :is(input,select):not([readonly]):not(:disabled):hover { border-color:var(--edit-focus); }
+.laboratory :is(input,select,button,summary,.plot-surface):focus-visible { outline:3px solid var(--edit-focus); outline-offset:3px; }
+.laboratory input[readonly], .laboratory .field-readonly { background:#111e26; color:#aec0cb; border:1px dashed #607582; cursor:default; }
+.laboratory :is(input,select,button):disabled { opacity:.55; cursor:not-allowed; border-style:dashed; }
+.plot-workspace.light input[readonly] { background:#f0f2f3; color:#50616d; border-color:#71838e; }
+[data-diagram] { --diagram-accent:#afc1cd; }
+[data-diagram=fraction] { --diagram-accent:#85cf9e; }
+[data-diagram=solubility] { --diagram-accent:#efbb72; }
+[data-diagram=surface] { --diagram-accent:#c3a5ef; }
+[data-diagram=coordinate] { --diagram-accent:#79d0db; }
+[data-diagram=pourbaix] { --diagram-accent:#93baf5; }
+[data-diagram=predominance] { --diagram-accent:#b7c884; }
+[data-diagram=relative] { --diagram-accent:#adbcdf; }
+.graph-first .setup-title, .graph-first .results-toolbar { border-left:4px solid var(--diagram-accent); padding-left:12px; }
+.graph-first .diagram-type select { border-left:4px solid var(--diagram-accent); }
+.graph-first .calculate:not(:disabled) { background:var(--diagram-accent); color:#12202a; }
+.scientific-chart > .species-focus { border-top:3px solid var(--diagram-accent)!important; }
+.plot-workspace.light [data-diagram=concentration] { --diagram-accent:#546c7c; }
+.plot-workspace.light [data-diagram=fraction] { --diagram-accent:#267046; }
+.plot-workspace.light [data-diagram=solubility] { --diagram-accent:#895b15; }
+.plot-workspace.light [data-diagram=coordinate] { --diagram-accent:#186979; }
+/* Forms are larger than explanatory metadata; the periodic-table geometry is unchanged. */
+.component-options .component-form { min-height:58px; box-sizing:border-box; padding:10px 12px; border:1px solid #4b6573; border-radius:7px; background:#14252e; gap:12px; }
+.component-form .component-form-name { font-size:20px; font-weight:600; line-height:1.5; color:#edf7fb; }
+.component-form .component-form-name small { display:block; font-size:13px; font-weight:400; line-height:1.45; color:#bfced7; }
+.component-options .component-form.is-selected { border:2px solid #92d8c4; padding:9px 11px; background:#193b38; }
+.component-options .component-form:focus-within { outline:3px solid #9dd9ff; outline-offset:1px; }
+.component-form input[type=checkbox] { width:22px; height:22px; flex-shrink:0; }
+.component-options { max-height:420px; gap:8px; }
+.scientific-chart.with-focus-legend { grid-template-columns:minmax(0,1fr) minmax(245px,290px); }
+.scientific-chart.with-focus-legend > .species-focus { background:var(--surface); color:var(--ink); }
+.scientific-chart .species-focus button { display:grid; grid-template-columns:14px minmax(0,1fr) auto; gap:7px; min-height:42px; width:100%; padding:8px; font-size:13px; }
+.scientific-chart .species-focus button:last-child { display:block; text-align:center; }
+.species-focus .legend-swatch { width:14px; margin:0; }
+.species-focus .legend-name { overflow-wrap:anywhere; }
+.species-focus .legend-value { text-align:right; font-variant-numeric:tabular-nums; font-family:ui-monospace,monospace; font-size:13px; }
+.species-focus > small { font-size:11px; color:var(--muted); overflow-wrap:anywhere; }
+.species-focus > strong { font-size:14px; }
+.plot-surface:active { cursor:grabbing; }
+.component-partition { border-top:1px solid var(--bk-line); padding-top:10px; margin-top:12px; }
+.component-partition article { border-bottom:1px solid var(--bk-line); padding:8px 0; }
+.component-partition h5 { color:var(--bk-ink); font-size:16px; margin:0 0 6px; }
+.component-partition .partition-percent { display:flex; flex-wrap:wrap; gap:4px 12px; margin:5px 0; font-variant-numeric:tabular-nums; }
+.component-partition .partition-percent strong { color:var(--bk-accent); }
+.component-partition li { margin:4px 0; }
+.component-partition ul { padding-left:18px; }
+.component-partition details { font-size:12px; margin-top:6px; }
+.component-partition > small { color:var(--bk-muted); }
+/* Calculation hierarchy: editing has one consistent language, independent of diagram color. */
+.laboratory { --edit-bg:#234b5b; --edit-ink:#f1f9fc; --edit-border:#91b7c9; }
+.graph-first .setup-title { position:sticky; top:0; z-index:12; background:#0e1d26; padding:12px; border-bottom:1px solid #456070; box-shadow:0 5px 14px #0003; align-items:center; }
+.graph-first .diagram-choice-row { display:grid; grid-template-columns:170px minmax(0,1fr); gap:24px; margin:18px 0; align-items:center; }
+.observer-portrait { margin:0; min-width:0; text-align:center; }
+.observer-portrait img { display:block; width:100%; height:285px; object-fit:contain; border-radius:12px; background:#090b0d; }
+.observer-portrait figcaption { font-size:11px; color:#abc0cc; margin-top:6px; }
+.diagram-choice-controls { min-width:0; }
+.diagram-choice-controls > details { font-size:12px; color:#b6c9d4; margin:8px 0; }
+.graph-first .diagram-editor { padding:14px; border:1px solid #4b626f; border-top:3px solid var(--diagram-accent); border-radius:10px; background:#12252f; }
+.graph-first .diagram-editor h3 { margin:0 0 4px; font-size:14px; color:#e5f0f6; }
+.graph-first .diagram-conditions { border:1px solid #587084; border-radius:8px; background:#192d3e; padding:14px; gap:12px; }
+.graph-first .diagram-conditions label { font-size:12px; }
+.graph-first .diagram-conditions details { grid-column:1/-1; padding-top:8px; border-top:1px solid #526779; color:#bbccd7; }
+.graph-first .component-heading { padding:12px 12px 9px; margin:22px 0 0; border-left:3px solid #82cabb; background:#142c30; color:#d9f4ed; }
+.component-heading small { display:block; margin-top:4px; font-size:11px; font-weight:400; color:#b3cec9; }
+.graph-first .compact-conditions { border:1px solid #4e7778; border-radius:0 0 8px 8px; padding:0 12px; background:#102428; }
+.graph-first .compact-conditions .compact-total { gap:12px; padding:10px 0; }
+.graph-first .compact-total .compact-value input { font-size:17px; font-weight:600; border-width:2px; }
+.graph-first .compact-total .unit-choice select { font-size:12px; }
+.graph-first .compact-total summary { color:#b4c9cf; font-size:12px; }
+.graph-first .setup-options, .graph-first > .advanced-panel { color:#adbfca; border-top:1px solid #334b5a; padding:9px 0; font-size:12px; }
+.graph-first .setup-options > summary, .graph-first > .advanced-panel > summary { font-size:12px; }
+.graph-first input[readonly] { background:#13212b; color:#b9c8d1; border:1px dashed #8194a1; }
+.graph-first :is(input,select,button,summary):focus-visible { outline:3px solid #b5e6ff; outline-offset:3px; }
+@media(max-width:650px) {
+  .graph-first .diagram-choice-row { grid-template-columns:120px minmax(0,1fr); gap:14px; }
+  .diagram-choice-row .observer-portrait img { height:202px; }
+  .graph-first .setup-title { padding:9px; flex-wrap:nowrap; top:0; }
+  .graph-first .setup-title h2 { font-size:19px; }
+  .graph-first .setup-title .plot-action { font-size:15px; padding:10px 15px; }
+  .graph-first .diagram-conditions { padding:12px; }
+}
+.diagram-switcher { margin:12px 0; min-width:0; }
+.diagram-segments { display:flex; flex-wrap:wrap; align-items:start; gap:6px; }
+.diagram-segments > button, .diagram-more > summary { min-height:44px; padding:10px 15px; font-size:14px; border:1px solid #658092; border-radius:7px; background:#152832; color:#e5edf3; cursor:pointer; }
+.diagram-segments > button { border-top:3px solid var(--diagram-accent); }
+.diagram-segments button[aria-pressed=true] { background:var(--diagram-accent); color:#12202a; font-weight:700; box-shadow:inset 0 -3px #12202a; }
+.diagram-segments button small { display:block; font-size:11px; }
+.diagram-more { position:relative; max-width:100%; }
+.diagram-more > summary { list-style:none; }
+.diagram-more-options { display:grid; gap:6px; padding:10px; margin-top:6px; border:1px solid #658092; border-radius:8px; background:#111f28; }
+.diagram-more-options button { min-height:44px; text-align:left; border-left:3px solid var(--diagram-accent); }
+.more-current { font-size:12px; }
+.diagram-switch-notice { color:#bdd2df; font-size:13px; margin:6px 0 12px; }
+.graph-first .calculate.plot-action { min-height:54px; padding:13px 25px; font-size:17px; font-weight:700; gap:11px; border:1px solid transparent; border-radius:9px; box-shadow:0 2px 0 #071117; }
+.graph-first .plot-action svg { width:27px; height:27px; flex-shrink:0; }
+.graph-first .calculate.plot-action:not(:disabled):hover { filter:brightness(1.1); border-color:#f2f7fa; }
+.graph-first .calculate.plot-action:not(:disabled):active { transform:translateY(1px); box-shadow:none; }
+.graph-first .setup-footer { gap:20px; }
+.graph-first .results-actions .calculate:not(:disabled) { background:#21343f; color:#e5edf3; }
+.adam-expand-mark { position:absolute; bottom:0; right:0; background:#12202a; color:#fff; font-size:13px; padding:0 3px; }
+.adam-media-dialog { box-sizing:border-box; width:min(780px,calc(100vw - 28px)); max-height:calc(100dvh - 28px); padding:18px; border:1px solid #6e8999; border-radius:12px; background:#111f28; color:#e5edf3; overflow:auto; }
+.adam-media-dialog::backdrop { background:rgba(0,0,0,.72); }
+.adam-media-heading { display:flex; gap:12px; align-items:center; justify-content:space-between; margin-bottom:12px; }
+.adam-media-heading h2 { font-size:18px; margin:0; }
+.adam-media-heading button { min-height:44px; flex-shrink:0; }
+.adam-expanded-image { display:block; width:100%; height:auto; max-height:calc(100dvh - 180px); object-fit:contain; }
+.adam-media-dialog p { font-size:13px; color:#bdd2df; }
+@media(max-width:540px) {
+  .diagram-segments > button { flex:1 1 130px; padding:10px; }
+  .diagram-more { flex:1 1 130px; }
+  .diagram-more-options { width:auto; }
+  .graph-first .calculate.plot-action { min-height:52px; padding:12px 19px; }
+  .laboratory > header { flex-wrap:wrap; }
+  .laboratory > header h1 { flex:1 1 130px; min-width:0; }
+  .adam-media-dialog { padding:12px; }
+}
+@media(max-width:900px) {
+  .scientific-chart.with-focus-legend > .species-focus { display:grid; grid-template-columns:repeat(2,minmax(0,1fr)); max-height:260px; width:100%; }
+  .species-focus > strong,.species-focus > small { grid-column:1/-1; }
+  .component-options { max-height:360px; }
+}
+@media(max-width:540px) {
+  .scientific-chart.with-focus-legend > .species-focus { grid-template-columns:minmax(0,1fr); max-height:280px; }
+  .component-form .component-form-name { font-size:21px; }
+  .plot-toolbar button { min-height:42px; }
+}
+.workspace-nav { min-height:58px; box-sizing:border-box; padding:5px 8px; gap:8px; align-items:center; }
+.workspace-nav .workspace-primary { min-height:48px; padding:10px 26px; font-size:17px; font-weight:600; border:1px solid #536e79; background:#172830; color:#dfebef; }
+.workspace-nav .workspace-primary[aria-pressed=true] { background:#275a4a; color:#d3ffee; border-color:#83cdb4; box-shadow:inset 0 -3px #83cdb4; }
+.workspace-nav .workspace-primary:hover { background:#28433e; border-color:#a5d5c4; }
+.workspace-nav .workspace-secondary { min-height:44px; padding:9px 14px; font-size:14px; font-weight:500; color:#b9cbd7; }
+.workspace-nav button:focus-visible { outline:3px solid #b5e6ff; outline-offset:2px; }
+.system-summary { display:flex; flex-wrap:wrap; align-items:baseline; gap:6px 14px; padding:10px 14px; margin:0 0 14px; border:1px solid #304652; border-radius:6px; background:#112029; color:#dcebf1; font-size:14px; }
+.system-summary strong { color:#aebfca; font-size:12px; font-weight:600; }
+.system-summary span { overflow-wrap:anywhere; }
+.graph-first .diagram-editor .axis-role { --axis-accent:#a6b9c7; padding:14px; border:1px solid #526773; border-top:3px solid var(--axis-accent); border-radius:8px; background:#142731; min-width:0; margin:0; }
+.graph-first .diagram-editor [data-axis-role=x] { --axis-accent:#86b9df; background:#142833; }
+.graph-first .diagram-editor [data-axis-role=y] { --axis-accent:#87c9b1; background:#142b2d; }
+.graph-first .diagram-editor [data-axis-role=z] { --axis-accent:#bba6df; background:#202635; }
+.graph-first .diagram-editor .axis-role legend { padding:0 6px; font-size:14px; font-weight:700; color:var(--axis-accent); }
+.graph-first .diagram-editor .axis-role h3 { color:var(--axis-accent); }
+.graph-first .diagram-editor .axis-setup { display:flex; flex-direction:column; gap:12px; }
+.graph-first .diagram-editor .diagram-conditions { grid-column:auto; }
+.graph-first .diagram-editor[data-dimensions="2"] { grid-template-columns:repeat(2,minmax(0,1fr)); }
+.graph-first .axis-range label { min-width:0; }
+.graph-first .axis-help { margin-top:0; }
+@media(min-width:1500px) { .graph-first .diagram-editor[data-dimensions="2"] { grid-template-columns:repeat(4,minmax(0,1fr)); } }
+@media(max-width:900px) { .graph-first .diagram-editor { grid-template-columns:repeat(2,minmax(0,1fr)); } }
+@media(max-width:650px) {
+  .workspace-nav { display:grid; grid-template-columns:repeat(2,minmax(0,1fr)); gap:6px; padding:6px; }
+  .workspace-nav .nav-spacer { display:none; }
+  .workspace-nav .workspace-primary { min-height:48px; padding:10px 12px; font-size:16px; }
+  .workspace-nav .workspace-secondary { padding:8px 6px; }
+  .graph-first .diagram-editor,.graph-first .diagram-editor[data-dimensions="2"] { grid-template-columns:minmax(0,1fr); }
+  .graph-first .axis-range { grid-template-columns:repeat(2,minmax(0,1fr)); }
+  .graph-first .axis-range > label:last-child { grid-column:1/-1; max-width:150px; }
+}
+
+/* Keep the existing sticky Plot action below the enlarged workspace navigation. */
+.graph-first .setup-title { top:59px; }
+.graph-first .diagram-editor .axis-range input { width:100%; max-width:none; min-height:40px; }
+@media(max-width:650px) { .graph-first .setup-title { top:111px; } }
+.graph-first .diagram-editor .axis-range label { width:auto; }
+
+.plot-export { position:relative; }
+.plot-export > summary { list-style:none; cursor:pointer; min-height:44px; display:flex; align-items:center; padding:7px 12px; box-sizing:border-box; border:1px solid #658092; border-radius:7px; color:inherit; background:transparent; }
+.plot-export-options { position:absolute; top:100%; left:0; z-index:20; min-width:180px; padding:8px; display:grid; gap:6px; background:#142731; color:#e8f0f3; border:1px solid #658092; border-radius:8px; box-shadow:0 6px 18px #0005; }
+.plot-export-options button { min-height:44px; text-align:left; }
+.plot-export summary:focus-visible { outline:3px solid #91cbe7; outline-offset:2px; }
+.species-focus .legend-value { white-space:normal; }
+
+/* Shared 1D legend: formulas stay intact; sample quantities belong in inspection. */
+.scientific-chart.with-compact-legend { display:block; min-width:0; }
+.scientific-chart > .compact-plot-legend { display:flex; flex-wrap:wrap; align-items:center; gap:6px; max-height:160px; overflow:auto; padding:8px; margin-bottom:8px; }
+.scientific-chart .compact-plot-legend > strong { flex-basis:100%; margin:0; }
+.scientific-chart .compact-plot-legend button { display:inline-flex; align-items:center; gap:7px; width:auto; min-height:34px; flex-shrink:0; padding:6px 9px; }
+.scientific-chart .compact-plot-legend button:last-child { display:inline-flex; }
+.scientific-chart .legend-name,.scientific-chart .chemical-formula,.series-legend span { white-space:nowrap; overflow-wrap:normal; word-break:normal; }
+.scientific-chart .inspection { overflow-x:auto; }
+
+/* Phase labels identify carriers, never a different total-fraction denominator. */
+.carrier-phase {font-size:10px; padding:2px 5px; border:1px solid currentColor; border-radius:4px; white-space:nowrap; opacity:.85;}
+.total-denominator-note {display:block; margin:4px 8px 10px;}
+.focused-carrier-readout {display:flex; flex-wrap:wrap; gap:6px 14px; padding:8px 10px; border-left:3px solid var(--diagram-accent); margin:8px 0;}
+.chemical-formula {white-space:nowrap; overflow-wrap:normal; word-break:normal;}
+.component-partition .partition-percent {display:flex; flex-direction:column; gap:6px;}
+
+/* Calculation: one output selector and a persistent, horizontal definition desk. */
+.graph-first .calculation-setup {display:flex;flex-direction:column;gap:5px;}
+.graph-first .setup-title {order:0;margin:0;min-height:36px;padding-left:8px;}
+.graph-first .setup-title h2 {font-size:14px;margin:0;}
+.graph-first .plot-action {min-height:34px;padding:6px 18px;font-size:14px;}
+.graph-first .calculation-mode-row {order:1;display:flex;gap:16px;align-items:center;font-size:12px;}
+.graph-first .calculation-mode-row > label {display:flex;align-items:center;gap:8px;}
+.graph-first .calculation-mode-row select {width:auto;max-width:350px;}
+.graph-first .setup-reference {order:5;font-size:12px;}
+.graph-first .diagram-editor {order:2;display:grid;grid-template-columns:minmax(320px,1.15fr) minmax(280px,1fr) minmax(220px,.75fr);gap:8px;margin:0;padding:8px;align-items:start;}
+.graph-first .diagram-editor .axis-setup {grid-column:1;grid-row:1;padding:8px;gap:6px;}
+.graph-first .axis-selectors,.graph-first .axis-range {display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:6px;}
+.graph-first .axis-selectors label,.graph-first .axis-range label {font-size:12px;min-width:0;}
+.graph-first .axis-selectors select {width:100%;}
+.graph-first .diagram-editor .axis-range input {min-height:32px;}
+.graph-first .diagram-editor select,.graph-first .diagram-editor input {padding:5px 6px;font-size:13px;min-height:32px;}
+.graph-first .composition-setup {grid-column:2;grid-row:1;min-width:0;}
+.graph-first .component-heading {margin:0 0 5px;font-size:13px;}
+.graph-first .compact-conditions {grid-template-columns:minmax(0,1fr);gap:4px;}
+.graph-first .compact-conditions .compact-total {padding:4px;grid-template-columns:minmax(95px,1fr) minmax(80px,.8fr) auto;gap:4px;}
+.graph-first .diagram-editor .diagram-conditions {grid-column:3;grid-row:1;padding:8px;display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:5px;}
+.graph-first .diagram-conditions label {min-width:0;}
+.graph-first .diagram-conditions details {padding-top:3px;}
+.graph-first .diagram-editor .output-setup {grid-column:1/-1;grid-row:2;padding:0;border:0;background:none;font-size:12px;}
+.graph-first .output-setup > summary {cursor:pointer;}
+.graph-first .output-setup p {margin:4px 0;}
+.graph-first .setup-options {order:6;font-size:12px;margin:0;}
+.graph-first .setup-footer {order:3;padding-top:4px;margin-top:0;font-size:12px;}
+.graph-first .return-results {display:none;}
+.graph-first .results-toolbar {margin:0;padding:0 8px;font-size:12px;}
+.graph-first .results-toolbar h2,.graph-first .results-toolbar .results-actions > button {display:none;}
+.graph-first .results-toolbar .result-conditions {margin:2px 0;}
+.graph-first .diagram-switcher {margin:4px 0;}
+.graph-first .diagram-segments > button,.graph-first .diagram-more > summary {min-height:34px;padding:6px 12px;}
+.graph-first .diagram-switch-notice {margin:2px 0;font-size:12px;}
+.graph-first .graph-column {margin-top:8px;}
+.graph-first .diagram-editor[data-dimensions="2"] {grid-template-columns:repeat(2,minmax(0,1fr));}
+.graph-first .diagram-editor[data-dimensions="2"] [data-axis-role=y] {grid-column:2;grid-row:1;}
+.graph-first .diagram-editor[data-dimensions="2"] .composition-setup {grid-column:1;grid-row:2;}
+.graph-first .diagram-editor[data-dimensions="2"] .diagram-conditions {grid-column:2;grid-row:2;}
+.graph-first .diagram-editor[data-dimensions="2"] .output-setup {grid-row:3;}
+@media(max-width:1050px){.graph-first .diagram-editor {grid-template-columns:repeat(2,minmax(0,1fr));}.graph-first .diagram-editor .diagram-conditions {grid-column:1/-1;grid-row:2;grid-template-columns:repeat(4,minmax(0,1fr));}.graph-first .diagram-editor .output-setup {grid-row:3;}}
+@media(max-width:650px){.graph-first .diagram-editor,.graph-first .diagram-editor[data-dimensions="2"] {display:flex;flex-direction:column;}.graph-first .diagram-editor > * {width:100%;box-sizing:border-box;}.graph-first .diagram-editor .diagram-conditions {grid-template-columns:repeat(2,minmax(0,1fr));}.graph-first .calculation-mode-row {flex-wrap:wrap;}.graph-first .calculation-mode-row > label {display:block;}.graph-first .axis-range > label:last-child {grid-column:auto;}.graph-first .axis-selectors {grid-template-columns:minmax(0,1fr);}}
+/* Keep the submission action alongside mode selection, rather than on a tall separate row. */
+.graph-first .calculation-setup {display:grid;grid-template-columns:minmax(0,1fr) auto;align-items:start;gap:4px 10px;}
+.graph-first .calculation-setup > * {grid-column:1/-1;}
+.graph-first .calculation-setup > .setup-title {grid-column:2;grid-row:1;order:0;align-items:center;border:0;padding:0;}
+.graph-first .setup-title h2 {display:none;}
+.graph-first .calculation-setup > .calculation-mode-row {grid-column:1;grid-row:1;order:0;}
+.graph-first .calculation-mode-row label {margin:0;}
+.graph-first .setup-title .plot-action {padding:6px 16px;min-height:34px;}
+.graph-first .diagram-editor {width:100%;box-sizing:border-box;}
+.graph-first .diagram-conditions label {font-size:11px;}
+.graph-first .diagram-conditions h3 {margin:0;}
+.graph-first .diagram-editor .diagram-conditions {gap:3px 6px;}
+@media(max-width:650px){.graph-first .calculation-setup {display:flex;align-items:stretch;}.graph-first .setup-title {justify-content:flex-end;}}
+.laboratory:has(.graph-first) > header {min-height:40px;padding-bottom:4px;}
+.laboratory:has(.graph-first) > header .adam-media-trigger {width:62px;flex-basis:62px;height:40px;}
+.laboratory:has(.graph-first) > header .adam-media-trigger.portrait {width:30px;flex-basis:30px;}
+.graph-first .results-toolbar {display:flex;flex-wrap:wrap;align-items:center;gap:4px 12px;}
+.graph-first .results-toolbar .results-actions {margin:0;}
+.graph-first .results-toolbar summary {padding:3px 0;}
+.graph-first .results-toolbar details[open] {flex-basis:100%;}
+.graph-first .diagram-editor summary {padding:4px 0;}
+.graph-first .diagram-editor legend {margin-bottom:4px;}
+.graph-first .setup-extras {margin-top:10px;font-size:12px;}
+.graph-first .setup-extras .setup-reference {margin:4px 0;}
+.laboratory .graph-first .diagram-editor :is(input,select):not([readonly]):not(:disabled) {min-height:30px;padding:4px 6px;font-size:12px;}
+.graph-first .calculation-mode-row > label {flex-direction:row;font-size:12px;}
+.graph-first .calculation-mode-row select {min-height:30px;padding:4px 6px;}
+.graph-first .calculation-setup > label {max-width:320px;display:flex;flex-direction:row;align-items:center;gap:8px;font-size:12px;}
+.graph-first .calculation-setup > label select {min-height:30px;padding:4px 6px;}
+.graph-first .diagram-editor .axis-selectors select:disabled {min-height:30px;padding:4px 6px;font-size:12px;}
+.graph-first .diagram-editor .axis-setup {gap:4px;}
+.graph-first .diagram-editor .output-setup {display:block;margin:0;}
+.graph-first .diagram-editor {gap:4px;padding:6px;}
+.graph-first .diagram-editor .axis-setup {padding:6px;}
+/* Compact plot context without hiding scientific status, denominators, or controls. */
+.graph-first .plot-workspace > .fraction-phase-note {font-size:12px;margin:4px 0;line-height:1.35;}
+.graph-first .plot-workspace > details > summary {padding:3px 0;font-size:12px;}
+.graph-first .plot-workspace > .plot-status {margin:3px 0;font-size:12px;}
+.graph-first .plot-heading {margin:0;min-height:30px;}
+.graph-first .plot-heading button,.graph-first .expand-toolbar button {min-height:30px;padding:4px 9px;font-size:12px;}
+.graph-first .expand-toolbar {margin:0;padding:0;}
+.graph-first .scientific-chart > .compact-plot-legend {padding:4px;gap:4px;margin-bottom:4px;}
+.graph-first .scientific-chart .compact-plot-legend > strong {flex-basis:auto;font-size:12px;}
+.graph-first .scientific-chart .compact-plot-legend button {min-height:30px;padding:4px 7px;font-size:12px;}
+.graph-first .scientific-chart .plot-toolbar {margin:3px 0;gap:4px;}
+.graph-first .total-denominator-note {font-size:12px;margin:3px 4px;}
+
+.calculation-layout > .general-closed-panel {grid-column:1 / -1;min-width:0;}
+.general-closed-panel pre {max-width:100%;overflow:auto;}
+.general-closed-panel table {display:block;max-width:100%;overflow:auto;}
+
+.general-closed-panel .beaker-drawing text {fill:currentColor;}
+/* SPANA-inspired spatial setup. These rules change presentation only. */
+.graph-first .diagram-editor,.graph-first .diagram-editor[data-dimensions="2"]{display:grid;grid-template-columns:minmax(190px,.7fr) minmax(300px,1.5fr) minmax(240px,1fr);gap:12px;padding:12px;align-items:start}
+.graph-first .diagram-ordinate{grid-column:1;grid-row:1/3;min-width:0;display:flex;flex-direction:column;gap:12px}
+.graph-first .diagram-ordinate .output-setup{font-size:12px;max-width:100%}
+.graph-first .diagram-ordinate .axis-setup{margin:0;padding:0}
+.graph-first .diagram-ordinate .axis-selectors{grid-template-columns:1fr}
+.graph-first .diagram-editor>.diagram-preview{grid-column:2;grid-row:1;min-width:0;border-left:2px solid #78b8c7;border-bottom:2px solid #78b8c7;padding:10px 14px;background:#0d202a;min-height:145px}
+.diagram-sketch{display:flex;flex-direction:column;gap:12px;font-size:12px;color:#b4d2df;padding-top:10px}.diagram-sketch>small{color:#829fae}.diagram-sketch>span:last-child{align-self:flex-end}
+.graph-first .diagram-editor>.axis-setup[data-axis-role=x]{grid-column:2;grid-row:2;padding:0}
+.graph-first .diagram-editor>.composition-setup,.graph-first .diagram-editor[data-dimensions="2"]>.composition-setup{grid-column:1/3;grid-row:3}
+.graph-first .diagram-editor>.diagram-conditions,.graph-first .diagram-editor[data-dimensions="2"]>.diagram-conditions{grid-column:3;grid-row:1/4;grid-template-columns:1fr;padding:10px;gap:10px}
+.graph-first .diagram-conditions label{display:flex;align-items:center;flex-wrap:wrap;gap:6px}.graph-first .diagram-conditions label input{width:80px}.graph-first .diagram-conditions label select{flex:1;min-width:120px}
+.diagram-switcher{display:flex;flex-direction:column;align-items:stretch;gap:4px}.diagram-type-select{display:flex;flex-direction:column;gap:5px;max-width:100%;font-weight:600}.diagram-type-select select{width:100%;min-height:36px}.diagram-shortcuts{font-size:12px}.diagram-shortcuts>summary{cursor:pointer;color:#a8c2cf}.diagram-shortcuts .diagram-segments{padding:6px 0}.diagram-shortcuts button{font-size:12px}
+.problem-summary{display:grid;grid-template-columns:auto minmax(0,1fr) minmax(0,1fr);gap:5px 14px;border:1px solid #38535f;background:#102129;padding:10px;border-radius:6px;font-size:12px;min-width:0}.problem-summary>div{display:flex;flex-direction:column;gap:4px;min-width:0}.problem-summary b{color:#93b5c5;font-size:11px;text-transform:uppercase}.problem-summary>small{grid-column:1/-1;color:#aac4d0}.problem-summary span{overflow-wrap:normal;word-break:normal}
+.graph-first .problem-summary{order:3}.example-buttons{display:flex;gap:6px;flex-wrap:wrap}.example-buttons small{flex-basis:100%}.area-preview .diagram-switcher{width:100%}.area-preview details{font-size:12px}.area-preview label{display:flex;flex-direction:column;gap:4px}
+@media(max-width:1050px){.graph-first .diagram-editor,.graph-first .diagram-editor[data-dimensions="2"]{grid-template-columns:minmax(170px,.7fr) minmax(0,1.4fr)}.graph-first .diagram-editor>.diagram-conditions,.graph-first .diagram-editor[data-dimensions="2"]>.diagram-conditions{grid-column:1/3;grid-row:4;grid-template-columns:repeat(2,minmax(0,1fr))}}
+@media(max-width:650px){.graph-first .diagram-editor,.graph-first .diagram-editor[data-dimensions="2"]{display:flex;flex-direction:column;padding:8px}.graph-first .diagram-editor>*{width:100%;box-sizing:border-box}.graph-first .diagram-preview{order:0}.graph-first .diagram-ordinate{order:1}.graph-first .diagram-editor>.axis-setup{order:2}.graph-first .composition-setup{order:3}.graph-first .diagram-conditions{order:4}.graph-first .diagram-ordinate .axis-selectors{grid-template-columns:1fr}.problem-summary{grid-template-columns:1fr}.problem-summary>small{grid-column:auto}.graph-first .diagram-editor .diagram-conditions{grid-template-columns:1fr}}
+/* Keep the scientific boundary summary compact without changing its controls. */
+.graph-first .calculation-mode-row{display:flex;flex-wrap:wrap;align-items:baseline;gap:6px 16px;margin:4px 0;padding:6px;font-size:12px}
+.graph-first .calculation-mode-row>span{flex:0 1 auto}.graph-first .calculation-mode-row>details{flex:1 1 250px}.graph-first .calculation-mode-row p{margin:4px 0;max-width:70ch}
+.laboratory:has(.area-workspace) > header,.laboratory:has(.wet-lab) > header{min-height:40px;padding-bottom:4px}
+.laboratory:has(.wet-lab) > header .adam-media-trigger{width:62px;flex-basis:62px;height:40px}
+.laboratory:has(.wet-lab) > header .adam-media-trigger.portrait{width:30px;flex-basis:30px}
+.graph-first .diagram-conditions label{flex-direction:row;justify-content:flex-start;text-align:left}.graph-first .diagram-conditions label input{margin-left:auto}
+.laboratory:has(.area-workspace) > header .adam-media-trigger{width:62px;flex-basis:62px;height:40px}.laboratory:has(.area-workspace) > header .adam-media-trigger.portrait{width:30px;flex-basis:30px}
+@media(max-width:650px){.area-workspace .area-preview{order:-1}.area-workspace .area-y .axis-selectors,.area-workspace .area-x .axis-selectors{flex-direction:column}.area-workspace .axis-selectors>label{width:100%}}
+/* Distinct in-page result mode; retain the mounted selection provider when collapsed. */
+.graph-first.results-mode>.calculation-setup,.graph-first.results-mode>.setup-extras,.graph-first.results-mode>.advanced-panel,.graph-first.results-mode>.diagram-switcher{display:none}
+.graph-first.setup-mode>.graph-column,.graph-first.setup-mode>.results-toolbar{display:none}
+.graph-first.results-mode>.graph-column{display:block;grid-column:1/-1;margin:0}
+.graph-first.results-mode>.results-toolbar .results-actions{display:flex;align-items:center;gap:10px;flex-wrap:wrap}
+.graph-first.results-mode>.results-toolbar .results-actions h2,.graph-first.results-mode>.results-toolbar .results-actions button{display:block}
+.graph-first.results-mode{scroll-margin-top:70px;display:block;padding:10px}
+.graph-first.results-mode .result-split{display:grid;grid-template-columns:minmax(0,1fr) minmax(270px,320px);gap:16px;align-items:start}
+.result-view-controls{display:flex;gap:8px 12px;flex-wrap:wrap;align-items:center;padding:8px 0;border-bottom:1px solid #45616c;margin-bottom:8px}
+.result-view-buttons{display:flex;gap:5px;flex-wrap:wrap}.result-view-buttons button{font-size:12px;padding:6px 9px;min-height:32px}.result-view-buttons button[aria-pressed=true]{border-color:#8adebf;background:#214d44}
+.result-view-controls label{display:flex;gap:8px;align-items:center;font-size:12px}.result-view-controls select{min-height:32px;padding:4px;max-width:240px}.result-view-controls small{font-size:11px;color:#aec1ca}.result-view-controls .result-view-mobile{display:none}
+.graph-first .axis-setup[data-axis-role=x],.area-x{border-left:2px solid #70b3cc;padding-left:8px}.graph-first .axis-setup[data-axis-role=y],.area-y{border-left:2px solid #c6b381;padding-left:8px}
+.graph-first .output-setup[data-axis-role=z]{border-left:2px solid #b9a2cf;padding-left:8px}.graph-first .diagram-preview{border-left-color:#c6b381!important;border-bottom-color:#70b3cc!important}.area-preview{border-left-color:#c6b381;border-bottom-color:#70b3cc}
+@media(max-width:800px){.graph-first.results-mode .result-split{grid-template-columns:1fr}.result-view-buttons{display:none}.result-view-controls .result-view-mobile{display:flex}.result-view-controls label{width:100%}.result-view-controls select{flex:1;min-width:0}.graph-first.results-mode{padding:8px}}
+
+.area-results{scroll-margin-top:70px}.area-result-split{display:grid;grid-template-columns:minmax(0,1fr) minmax(270px,320px);gap:16px;align-items:start}.area-result-split>section{min-width:0}.area-result-split pre{white-space:pre-wrap;overflow-wrap:anywhere}@media(max-width:800px){.area-result-split{grid-template-columns:1fr}}
+
+.fixed-sample-plot{touch-action:pan-y}.fixed-sample-plot:active{cursor:crosshair}.plot-surface .sample-marker-overlay{position:absolute;inset:0;width:100%;height:100%;pointer-events:none}
+
+/* Native-ratio wide Intro artwork, with no viewport-height crop or empty stage. */
+.intro-pane{display:flex;flex-direction:column;align-items:center;gap:8px;box-sizing:border-box;background:#080909;padding:8px 0 12px}.intro-laboratory-art{display:block;width:94%;max-width:2454px;height:auto;object-fit:contain}.intro-enter{position:static;font-size:14px;font-weight:500;min-height:40px;padding:7px 18px;border:1px solid #ad473d;background:#190d0ce8;color:#ffc0ad;border-radius:4px}.intro-enter:hover{background:#38201a}.system-summary[hidden]{display:none}@media(max-width:650px){.intro-laboratory-art{width:100%}.intro-enter{min-height:44px}.workspace-nav{flex-wrap:wrap}}
+
+.intro-photo-gallery{display:flex;flex-wrap:wrap;justify-content:center;gap:16px;width:94%;margin:16px 0}
+.intro-photo-gallery .adam-media-trigger{position:relative;display:block;width:240px;height:240px;padding:8px;border:1px solid #47616c;border-radius:8px;background:#101d25;overflow:hidden}
+.intro-photo-gallery .adam-media-trigger:hover{border-color:#82dfc7}
+.intro-photo-gallery .adam-media-trigger:focus-visible{outline:2px solid #82dfc7;outline-offset:3px}
+
+/* Diagram-first calculation setup: generous preview, compact side parameters. */
+.graph-first .diagram-editor,.graph-first .diagram-editor[data-dimensions="2"]{grid-template-columns:minmax(150px,.42fr) minmax(360px,2fr) minmax(210px,.65fr);gap:16px;padding:16px}
+.graph-first .diagram-editor>.diagram-preview{min-height:360px;display:flex;flex-direction:column;padding:16px;box-sizing:border-box}
+.diagram-preview-toolbar{display:flex;gap:18px;align-items:flex-start;justify-content:space-between}
+.diagram-preview-toolbar>.diagram-switcher{flex:1;min-width:0}
+.diagram-preview-toolbar .plot-action{display:flex;align-items:center;gap:10px;white-space:nowrap;min-height:44px;padding:10px 18px;flex-shrink:0}
+.graph-first .diagram-sketch{flex:1;justify-content:space-between;min-height:230px;margin-top:16px;padding:12px;background-image:linear-gradient(#668c9c12 1px,transparent 1px),linear-gradient(90deg,#668c9c12 1px,transparent 1px);background-size:20% 25%}
+.graph-first .diagram-sketch>small{align-self:center;font-size:13px}
+.graph-first .diagram-editor>.diagram-conditions{padding:12px;gap:12px}
+.graph-first .diagram-conditions label{font-size:12px;align-items:flex-start}
+.graph-first .diagram-conditions label select{flex-basis:100%;width:100%;min-width:0}
+.graph-first .diagram-ordinate .axis-range{display:flex;flex-direction:column;gap:8px}
+.graph-first .diagram-ordinate .axis-range label{display:flex;flex-direction:column}
+.graph-first .calculation-secondary{order:4;width:100%;box-sizing:border-box;border-top:1px solid #365461;padding:12px 0}
+.graph-first .calculation-secondary>summary{cursor:pointer;color:#aac4d0}
+.graph-first .calculation-secondary section{padding:8px 0}
+@media(max-width:1050px){.graph-first .diagram-editor,.graph-first .diagram-editor[data-dimensions="2"]{grid-template-columns:minmax(140px,.4fr) minmax(0,1.6fr)}.graph-first .diagram-preview-toolbar{flex-wrap:wrap}.graph-first .diagram-editor>.diagram-conditions,.graph-first .diagram-editor[data-dimensions="2"]>.diagram-conditions{grid-column:1/-1;grid-row:4;grid-template-columns:repeat(2,minmax(0,1fr))}}
+@media(max-width:650px){.graph-first .diagram-editor,.graph-first .diagram-editor[data-dimensions="2"]{display:flex;padding:10px}.graph-first .diagram-editor>.diagram-preview{min-height:300px}.graph-first .diagram-sketch{min-height:170px}.diagram-preview-toolbar{flex-direction:column;align-items:stretch}.graph-first .diagram-editor>.diagram-conditions{grid-template-columns:1fr}}
+@media(min-width:1051px){.graph-first .diagram-editor[data-dimensions="2"]{grid-template-columns:minmax(230px,.7fr) minmax(360px,1.8fr) minmax(210px,.65fr)}}
+
+/* Keep the route back to diagram settings distinct from plot actions. */
+.graph-first.results-mode>.results-toolbar{position:sticky;top:70px;z-index:14;background:#101c23;padding:10px 12px;border-left:0;border-bottom:1px solid #60717a}
+.graph-first.results-mode>.results-toolbar .results-actions .back-to-setup{display:inline-flex;align-items:center;gap:10px;min-height:46px;padding:10px 20px;background:#e1e8eb;color:#15232b;border:1px solid #e1e8eb;border-radius:4px;font-size:16px;font-weight:700;margin-right:10px}
+.graph-first.results-mode>.results-toolbar .results-actions .back-to-setup:hover{background:#fff;border-color:#fff}
+.graph-first.results-mode>.results-toolbar .results-actions .back-to-setup:focus-visible{outline:3px solid #82dfc7;outline-offset:3px}
+@media(max-width:650px){.graph-first.results-mode>.results-toolbar{position:static}.graph-first.results-mode>.results-toolbar .results-actions .back-to-setup{flex-basis:100%;justify-content:center;margin-right:0}}

@@ -1,0 +1,41 @@
+✔ local generic Cr carrier smoke: accepted full grid, exact source identities, no guessed oxidation states (10.2508ms)
+✔ metadata-pending public maps remain blocked and reviewed Fe/Cu cannot use the fallback (303.164ms)
+✔ failed or forged equilibria yield gaps, never carrier winners (0.5401ms)
+✔ cancellation retains uncalculated gaps without manufacturing equilibria (53.3309ms)
+✔ imposed Fe control: 17 independent accepted equilibria exactly match fixed-Eh solves (40.7105ms)
+✔ total partition closes and dissolved speciation uses the unchanged normalization at every Eh (5.9589ms)
+✔ accepted saturation keeps 13 defined solubilities and four genuine gaps; mixed overlay stays pH-only (0.8548ms)
+✔ sample endpoints, hover and keyboard index navigation share exact Beaker equilibrium identities (0.78ms)
+✔ all four compatible view switches reuse the same branded sweep without scientific revision changes (1.8855ms)
+✔ invalid ranges, samples and conditions fail the existing sweep rules (421.3585ms)
+✔ fixed pH, Eh range, phase scope, forged results and stale requests cannot reuse inspection (69.7057ms)
+✔ electron tile selection is a special-condition route, not an element or conserved inventory (8.7855ms)
+✔ fixed imposed Eh configuration varies pH using the same fixed-electron preparation (78.2142ms)
+✔ MVP boundary contract distinguishes all six reservoir combinations (0.197ms)
+✔ MVP constructor preserves ordinary preparation and refuses unknown adapters (308.6855ms)
+✔ non-redox structural scope reuse respects immutable repository and exact support (536.2465ms)
+✔ boundary UI transitions reset incompatible hydrogen coordinates and never reinterpret electron reagent (1.1558ms)
+✔ selected Cu/chloride source system uses independent total and retains real unavailable samples (237.1678ms)
+✔ Fe discovered full grid exactly preserves independently accepted fractions and topology (427.0663ms)
+✔ Cu discovered full grid exactly preserves independently accepted fractions and topology (369.3257ms)
+✔ element-only System selection discovers its family without manually selecting redox forms (104.4955ms)
+✔ source family closure is independent of starting form and explicit registry identity covers every included carrier (360.3904ms)
+✔ missing, ambiguous and changed metadata fail closed with no test-only fallback (147.3443ms)
+✔ user total and ranges change the actual grid and cannot inherit reference validation (138.0854ms)
+✔ phase suppression is disclosed and cannot retain the default reference claim (214.4455ms)
+✔ invalid totals, ranges, oversized grids, nonideal conditions and extra analytical components fail explicitly (62.5192ms)
+✔ uranium discovery resolves fractional reaction algebra but keeps unresolved allocations unavailable (76.5559ms)
+✔ stale, cancelled or forged results cannot enter the shared plot and beaker (539.1961ms)
+✔ generic map and numerical export retain actual element, source scope, total denominator and status (22.961ms)
+✔ generic discovery contains no element-specific branches or oxidation-state name parsing (44.5707ms)
+✔ experience readiness distinguishes constructible metadata-pending chemistry from unsupported and checked results (73.6773ms)
+✔ carrier details preserve within-state chemistry and count mixed-valence atoms once per carrier (57.5672ms)
+✔ keyboard inspection reuses the same accepted input and result for plot and beaker (0.4399ms)
+ℹ tests 33
+ℹ suites 0
+ℹ pass 33
+ℹ fail 0
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 25440.7642

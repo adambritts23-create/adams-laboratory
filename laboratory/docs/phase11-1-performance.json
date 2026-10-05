@@ -1,0 +1,48 @@
+{
+  "date": "2026-09-06T12:44:42.307Z",
+  "scope": "Safe local carbonate grid; diagnostics classified five times on each same calculated result. No solver calls from classification; median CPU times, not browser render measurements.",
+  "measurements": [
+    {
+      "shape": [
+        21,
+        21
+      ],
+      "counts": {
+        "requested": 441,
+        "converged": 441,
+        "failed": 0,
+        "notRun": 0
+      },
+      "calculationMs": 347.09169999999995,
+      "diagnosticsMedianMs": 0.2647999999999229
+    },
+    {
+      "shape": [
+        51,
+        51
+      ],
+      "counts": {
+        "requested": 2601,
+        "converged": 2601,
+        "failed": 0,
+        "notRun": 0
+      },
+      "calculationMs": 2031.6571999999999,
+      "diagnosticsMedianMs": 0.6716999999998734
+    },
+    {
+      "shape": [
+        81,
+        61
+      ],
+      "counts": {
+        "requested": 4941,
+        "converged": 4941,
+        "failed": 0,
+        "notRun": 0
+      },
+      "calculationMs": 3797.0315,
+      "diagnosticsMedianMs": 0.7685999999994237
+    }
+  ]
+}

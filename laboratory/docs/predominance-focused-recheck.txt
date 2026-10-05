@@ -1,0 +1,18 @@
+✔ four common outputs reuse one current accepted sweep and preserve scientific setup and selected state (12.7487ms)
+✔ fast solubility retains unsaturated gaps and aqueous fractions retain aqueous-only normalization (1.2401ms)
+✔ stale, missing and unverified snapshots never become reusable through navigation (1.632ms)
+✔ surface and dependent-pH transitions preserve compatible conditions but explicitly require setup (0.834ms)
+✔ missing fraction component and incompatible fraction axis go to setup without inventing a selection (0.4594ms)
+✔ predominance requires explicit area setup while pending activity and unavailable solubility remain unavailable (1.0144ms)
+✔ navigation uses only view updates for reuse and suppresses automatic solve for changed setup (0.9672ms)
+✔ switcher exposes direct choices, remaining modes, native button semantics and explicit availability (0.7661ms)
+✔ media preserves local artwork architecture, native dialog close and focus restoration with missing-image fallback (0.6366ms)
+✔ active solid phase label has correct zero, singular and plural forms (0.2236ms)
+ℹ tests 10
+ℹ suites 0
+ℹ pass 10
+ℹ fail 0
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 922.4987

@@ -1,0 +1,8 @@
+.experimental-carrier{margin-top:1rem;padding:1rem;border:2px solid #cba45d;border-radius:.5rem}
+.experimental-carrier h3{color:#efd598}
+.experimental-carrier-map{display:block;width:100%;height:auto;max-width:1000px;color:#deedf5;touch-action:pan-y}
+.experimental-carrier-map:focus-visible{outline:3px solid #efd598;outline-offset:3px}
+.experimental-carrier-legend{display:flex;flex-wrap:wrap;gap:.4rem;margin:.7rem 0}
+.experimental-carrier-legend span{display:inline-block;width:1rem;height:1rem;margin-right:.5rem;border:1px solid #fff;vertical-align:middle}
+.experimental-carrier pre{white-space:pre-wrap;overflow-wrap:anywhere;max-height:24rem;overflow:auto}
+.experimental-carrier code{overflow-wrap:anywhere}

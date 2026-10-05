@@ -1,0 +1,9 @@
+Live browser verification against local Vite source, 2026-09-16.
+1. Peroxide selection -> Calculation -> Closed reagent / automatic redox opened the general single-point form.
+2. Supplied peroxide 1e-6 mol/kg H2O, zero supplied proton: CONDITIONAL accepted result, pH 7.00075000 and Eh 0.76439751 V derived; residual carriers visible.
+3. Editing supplied H+ to 0.001 removed the old accepted result, displayed net charge +0.001 and required countercharge -0.001; Calculate disabled.
+4. Explicitly loading the reviewed Fe/H2O2 experiment showed its 24-reaction profile and 21-sample addition setup.
+5. Selecting general closed mode with the same components showed 32 admitted reactions and editable Fe, peroxide, H+, Cl- amounts; no forced sweep.
+6. Explicit FeCl2 recipe dose 1e-6 added Fe 1e-6 and Cl 2e-6; preparation remained balanced.
+Browser AX select operations sometimes reported a retention error because the source select was unmounted by successful navigation; subsequent state confirmed the intended target.
+7. Fresh general setup entered from the reviewed experiment returns to Ordinary / imposed-condition mode, not back into the reviewed experiment.

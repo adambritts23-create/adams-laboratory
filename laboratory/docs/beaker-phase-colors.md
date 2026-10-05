@@ -1,0 +1,13 @@
+# Beaker phase colors and summaries
+
+Applied the user's reference image as presentation guidance. Solution uses cyan (#66c2e6), precipitate soft green (#a3c97a), and glass retains neutral highlights. Liquid shading is stronger; accepted-solid patterns and the existing bounded height mapping remain intact. Colors identify phase type only, not actual chemical appearance or concentration. Adam's seated portrait remains beside the vessel.
+
+Added a Solution (aqueous) card for each ordinary component's leading dissolved contributor and other aqueous forms. Percentages use coefficient-weighted accepted dissolved contributions divided by that component's total dissolved inventory. Signed, nonfinite, zero or inconsistent inventories show unavailable instead of a misleading percentage. No equilibrium is solved by this display helper.
+
+Accepted solids have a Precipitate (solid) card with identity, amount and contribution to each supplied component total, obtained from the unchanged component partition helper. This denominator is explicitly distinct from dissolved-form percentages. Exact inspection, sample input, pH display and component partition remain. Aqueous-only samples remove the sediment and precipitate card; failed states do not gain summaries.
+
+There were no zoom/export/reset buttons inside the interactive beaker. The main scientific plot toolbar remains outside this scope. No solver, thermodynamic data, phase discovery, accepted-state projection, partition mathematics, height mapping or exports changed. Existing scientific files match the prior preservation manifest outside the intended beaker presentation files.
+
+Verification: 21 focused tests passed (three new summary tests plus existing beaker/result checks); build and production artifact audit passed. Lint has zero errors and the existing ExpandedPlot warning. Full regression suite was not repeated for this presentation-only change; the preceding phase passed 404 tests. Browser checked nickel at pH 8.96 (78.4% leading dissolved form, 21.6% other), returning to pH 0 (no bed/card), light and dark presentation, and 390-pixel mobile width without overflow. The final solid-percentage text addition was build/lint checked after the preview. No browser console errors; screenshots displayed inline. Viewport restored. No deployment.
+
+Modified: src/components/InteractiveBeaker.jsx, src/components/InteractiveBeaker.css, src/components/BeakerDrawing.jsx. Added: src/components/SolutionSummary.jsx, src/beaker/solutionSummary.js, tests/solutionSummary.test.js and this note. Build output regenerated; logs under .local/beaker-color-*.

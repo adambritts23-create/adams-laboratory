@@ -1,0 +1,137 @@
+✖ coupled Fe/chromate agrees with independent raw-source nine-phase reference (8.4176ms)
+✔ candidate ordering is immaterial in independently evaluated source reference (35.5517ms)
+✖ more acidic exact physical recipe remains fully aqueous with zero solid amounts (1674.2995ms)
+✔ unchanged ordinary Fe(III) pH zero bridge uses the same bounded phase selector (58.1449ms)
+✔ aqueous-only contract retains the original solid-required refusal (1956.7096ms)
+✔ unreviewed phase class is explicitly refused (0.3894ms)
+✖ production candidate ordering and composition/capacity refusal are explicit (1955.623ms)
+✖ persist compact phase evidence only after the focused scientific assertions (0.364ms)
+✔ all pinned source components carry source charge; unknown atoms remain absent (1013.6419ms)
+✖ nitrate and copper admit balanced physical inventory then expose actual redox source refusal (8716.0229ms)
+✔ atomless lithium acetate closes component balances and mass action with the ordinary solver (5281.9867ms)
+✔ charge, negative amounts, special identities and stale source/revision still refuse (10383.0252ms)
+✔ unified physical route retains independent acetate/borate values and has no derived Eh (15838.3575ms)
+✔ positive physical source base projects to signed proton equivalents without negative reagents (5567.4251ms)
+✔ unified physical redox preserves exact reviewed Fe peroxide source scope and reference (11901.4475ms)
+✔ non Fe Cr europium control uses the same physical contract and independent source reference (3243.3362ms)
+✔ all twelve independent Cr doses reproduce pH pe aqueous carriers solid inventory and closure (43588.8618ms)
+✖ unknown metadata physical negatives conflicting constraints forged and stale preparations refuse (8145.0121ms)
+✔ gas and required excluded solids remain refusals after automatic routing (7299.5387ms)
+✔ ordinary reviewed chromium recipe feeds Wet Lab and elemental plots using exact accepted objects (22011.3887ms)
+✔ ionic chromium inventory equals reviewed bottle and supports dispense and N rows (3.8797ms)
+✔ authoritative two-row balance works in either order; unbalanced/unknown/forged metadata refuse (1.1761ms)
+✔ mixed reviewed and ionic contributions retain a single physical preparation (0.2843ms)
+✖ Cu passes component admission then refuses unsupported redox conservation; exclusions respected (3994.2943ms)
+✔ non-chromium sodium chloride uses identical generic preparation and compiler route (10438.8341ms)
+✔ ionic Cr titration matches all saved independent doses and existing shared analytical views (51330.1832ms)
+ℹ tests 26
+ℹ suites 0
+ℹ pass 19
+ℹ fail 7
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 218855.3522
+
+✖ failing tests:
+
+test at tests\closedPureSolids.test.js:17:1
+✖ coupled Fe/chromate agrees with independent raw-source nine-phase reference (8.4176ms)
+  AssertionError [ERR_ASSERTION]: [{"code":"solid-network-capacity-exceeded","message":"The existing candidate/species/reaction bounds cannot be exceeded."}]
+      at TestContext.<anonymous> (file:///C:/Users/adamb/PycharmProjects/PythonProject/adams-laboratory/tests/closedPureSolids.test.js:18:9)
+      at Test.runInAsyncScope (node:async_hooks:227:14)
+      at Test.run (node:internal/test_runner/test:1201:25)
+      at Test.start (node:internal/test_runner/test:1096:17)
+      at startSubtestAfterBootstrap (node:internal/test_runner/harness:385:17) {
+    generatedMessage: false,
+    code: 'ERR_ASSERTION',
+    actual: false,
+    expected: true,
+    operator: '==',
+    diff: 'simple'
+  }
+
+test at tests\closedPureSolids.test.js:46:1
+✖ more acidic exact physical recipe remains fully aqueous with zero solid amounts (1674.2995ms)
+  AssertionError [ERR_ASSERTION]: [{"code":"solid-network-capacity-exceeded","message":"The existing candidate/species/reaction bounds cannot be exceeded."}]
+      at TestContext.<anonymous> (file:///C:/Users/adamb/PycharmProjects/PythonProject/adams-laboratory/tests/closedPureSolids.test.js:48:9)
+      at async Test.run (node:internal/test_runner/test:1208:7)
+      at async Test.processPendingSubtests (node:internal/test_runner/test:831:7) {
+    generatedMessage: false,
+    code: 'ERR_ASSERTION',
+    actual: false,
+    expected: true,
+    operator: '==',
+    diff: 'simple'
+  }
+
+test at tests\closedPureSolids.test.js:74:1
+✖ production candidate ordering and composition/capacity refusal are explicit (1955.623ms)
+  TypeError: Cannot read properties of undefined (reading 'admitted')
+      at TestContext.<anonymous> (file:///C:/Users/adamb/PycharmProjects/PythonProject/adams-laboratory/tests/closedPureSolids.test.js:75:124)
+      at async Test.run (node:internal/test_runner/test:1208:7)
+      at async Test.processPendingSubtests (node:internal/test_runner/test:831:7)
+
+test at tests\closedPureSolids.test.js:84:1
+✖ persist compact phase evidence only after the focused scientific assertions (0.364ms)
+  TypeError: Cannot read properties of undefined (reading 'networkSpeciesCount')
+      at TestContext.<anonymous> (file:///C:/Users/adamb/PycharmProjects/PythonProject/adams-laboratory/tests/closedPureSolids.test.js:86:148)
+      at Test.runInAsyncScope (node:async_hooks:227:14)
+      at Test.run (node:internal/test_runner/test:1201:25)
+      at Test.processPendingSubtests (node:internal/test_runner/test:831:18)
+      at Test.postRun (node:internal/test_runner/test:1330:19)
+      at Test.run (node:internal/test_runner/test:1258:12)
+      at async Test.processPendingSubtests (node:internal/test_runner/test:831:7)
+
+test at tests\componentPhysical.test.js:16:1
+✖ nitrate and copper admit balanced physical inventory then expose actual redox source refusal (8716.0229ms)
+  AssertionError [ERR_ASSERTION]: Expected values to be strictly equal:
+  
+  true !== false
+  
+      at TestContext.<anonymous> (file:///C:/Users/adamb/PycharmProjects/PythonProject/adams-laboratory/tests/componentPhysical.test.js:21:58)
+      at async Test.run (node:internal/test_runner/test:1208:7)
+      at async Test.processPendingSubtests (node:internal/test_runner/test:831:7) {
+    generatedMessage: true,
+    code: 'ERR_ASSERTION',
+    actual: true,
+    expected: false,
+    operator: 'strictEqual',
+    diff: 'simple'
+  }
+
+test at tests\unifiedPhysical.test.js:34:1
+✖ unknown metadata physical negatives conflicting constraints forged and stale preparations refuse (8145.0121ms)
+  AssertionError [ERR_ASSERTION]: Expected values to be strictly equal:
+  
+  true !== false
+  
+      at TestContext.<anonymous> (file:///C:/Users/adamb/PycharmProjects/PythonProject/adams-laboratory/tests/unifiedPhysical.test.js:35:224)
+      at async Test.run (node:internal/test_runner/test:1208:7)
+      at async Test.processPendingSubtests (node:internal/test_runner/test:831:7) {
+    generatedMessage: true,
+    code: 'ERR_ASSERTION',
+    actual: true,
+    expected: false,
+    operator: 'strictEqual',
+    diff: 'simple'
+  }
+
+test at tests\wetLabIonic.test.js:48:1
+✖ Cu passes component admission then refuses unsupported redox conservation; exclusions respected (3994.2943ms)
+  AssertionError [ERR_ASSERTION]: Expected values to be strictly equal:
+  + actual - expected
+  
+  + 'CONDITIONAL'
+  - 'UNAVAILABLE'
+  
+      at TestContext.<anonymous> (file:///C:/Users/adamb/PycharmProjects/PythonProject/adams-laboratory/tests/wetLabIonic.test.js:52:9)
+      at async Test.run (node:internal/test_runner/test:1208:7)
+      at async Test.processPendingSubtests (node:internal/test_runner/test:831:7) {
+    generatedMessage: true,
+    code: 'ERR_ASSERTION',
+    actual: 'CONDITIONAL',
+    expected: 'UNAVAILABLE',
+    operator: 'strictEqual',
+    diff: 'simple'
+  }

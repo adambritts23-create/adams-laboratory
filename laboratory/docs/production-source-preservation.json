@@ -1,0 +1,42 @@
+{
+  "checked": 251,
+  "changed": [
+    {
+      "path": "src/calculations/wetLabAnalysis.js",
+      "before": "0d990d1dbfb94935d5b2fa64d00a65d05eed2743ce9fa3613c7d182120a4a9e2",
+      "after": "3803feed46413e6ba7577350a5382c05164b7e997f30609840ed64f60f342b9e"
+    },
+    {
+      "path": "src/calculations/wetLabTitration.js",
+      "before": "7233d5b42f2e774ce7b8bae6b61e7026cd3cafd236ced81fb8b9895449fad4e9",
+      "after": "cb9dc36c68545c79d7b8f80697700f05d8094ba139dc828b57d6f895d4c8cb57"
+    },
+    {
+      "path": "src/solver/closedRedox.js",
+      "before": "d6907456dcc9b8030041c88b89c57922e0ec51a9f6bb1a9be78c19e8f00ad268",
+      "after": "b0d60dfaa71ffc7e61ed54ab45f2a49be71dd38f6897d58004aebee1402f7683"
+    },
+    {
+      "path": "src/thermodynamics/closedPureSolids.js",
+      "before": "3fc0f36c4d95aa7e32aea152724dfce11142c3868a6041245734be454033973f",
+      "after": "b672a8a2d8497d025742a702fa5a3d5e1cad707ab4f979e75a29070d725d53af"
+    },
+    {
+      "path": "src/thermodynamics/closedReagents.js",
+      "before": "4fc6fce6de02f96e77da44b22f0d097b4aaf7e7210cbf6776602aed25a00e3db",
+      "after": "3ae24ccbd2ece1e0837e206d3de58f9dc7039d91208f9708d954d19db654dbe5"
+    },
+    {
+      "path": "src/thermodynamics/closedRedoxNetwork.js",
+      "before": "5cf62cd979e7e6f353edb356f7d832026efc4ade3eaddfb9da2d522723d50005",
+      "after": "b879c68b1cc826e315b7ada77c2514d57f290df12700dc92714176ec535cdf84"
+    },
+    {
+      "path": "src/thermodynamics/generalClosedReagents.js",
+      "before": "dc72fb97b6398b21058846f0bb170602cee427d685dd00852bd43911b0426d96",
+      "after": "f172b2cf800922643ee3fa02e4cda2fa12990073bd8a5307ff3ac87aaa5bb457"
+    }
+  ],
+  "missing": [],
+  "protectedChanges": []
+}

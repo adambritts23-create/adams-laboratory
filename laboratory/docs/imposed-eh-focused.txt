@@ -1,0 +1,27 @@
+✔ four common outputs reuse one current accepted sweep and preserve scientific setup and selected state (15.3253ms)
+✔ fast solubility retains unsaturated gaps and aqueous fractions retain aqueous-only normalization (1.9903ms)
+✔ stale, missing and unverified snapshots never become reusable through navigation (1.7583ms)
+✔ surface and dependent-pH transitions preserve compatible conditions but explicitly require setup (0.988ms)
+✔ missing fraction component and incompatible fraction axis go to setup without inventing a selection (0.7371ms)
+✔ pending modes and unavailable solubility remain unavailable (0.3314ms)
+✔ navigation uses only view updates for reuse and suppresses automatic solve for changed setup (2.4504ms)
+✔ switcher exposes direct choices, remaining modes, native button semantics and explicit availability (1.9187ms)
+✔ media preserves local artwork architecture, native dialog close and focus restoration with missing-image fallback (1.7845ms)
+✔ active solid phase label has correct zero, singular and plural forms (0.6099ms)
+✔ imposed Fe control: 17 independent accepted equilibria exactly match fixed-Eh solves (74.6213ms)
+✔ total partition closes and dissolved speciation uses the unchanged normalization at every Eh (9.5019ms)
+✔ accepted saturation keeps 13 defined solubilities and four genuine gaps; mixed overlay stays pH-only (1.1252ms)
+✔ sample endpoints, hover and keyboard index navigation share exact Beaker equilibrium identities (0.7365ms)
+✔ all four compatible view switches reuse the same branded sweep without scientific revision changes (0.7873ms)
+✔ invalid ranges, samples and conditions fail the existing sweep rules (367.781ms)
+✔ fixed pH, Eh range, phase scope, forged results and stale requests cannot reuse inspection (61.2024ms)
+✔ electron tile selection is a special-condition route, not an element or conserved inventory (16.311ms)
+✔ fixed imposed Eh configuration varies pH using the same fixed-electron preparation (59.4307ms)
+ℹ tests 19
+ℹ suites 0
+ℹ pass 19
+ℹ fail 0
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 2618.1726

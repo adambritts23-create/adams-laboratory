@@ -1,0 +1,13 @@
+✔ authoritative two-row balance works in either order; unbalanced/unknown/forged metadata refuse (3.4945ms)
+✔ mixed reviewed and ionic contributions retain a single physical preparation (0.399ms)
+✔ N physical contributions occupy one final volume and retain immutable source provenance (2.749ms)
+✔ invalid, duplicate and forged rows cannot define recipes or source identities (0.6199ms)
+✔ all editable numeric fields refuse invalid values and arbitrary recipes (1.0503ms)
+ℹ tests 5
+ℹ suites 0
+ℹ pass 5
+ℹ fail 0
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 2874.7923

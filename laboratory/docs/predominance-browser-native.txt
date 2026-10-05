@@ -1,0 +1,7 @@
+Native-yield-only browser checkpoint (before periodic ordinary-task fairness safeguard):
+Fe full-grid 12391.5 ms; compact 11222.2 ms; compact preparation 221.3 ms; inspection 3.9 ms.
+Cu full-grid 7294.6 ms; compact 6167.9 ms; compact preparation 176.0 ms; inspection 3.6 ms.
+Cr full-grid 17335.8 ms; compact 14858.9 ms; compact preparation 231.1 ms; inspection 5.2 ms.
+Each route: 2565 full solves, 2565 region evaluations, zero analytical boundary evaluations.
+Compact grid serialization sizes: Fe 1406212, Cu 1221252, Cr 594932 bytes.
+The native-only continuation improved timings, but the browser cancellation-control query timed out during a complete Fe run. To avoid starving ordinary UI tasks, the final scheduling path additionally uses a timer task at least every 75 ms between point batches. No scientific changes.

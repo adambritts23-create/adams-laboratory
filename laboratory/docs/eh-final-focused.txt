@@ -1,0 +1,27 @@
+✔ conserved basis inventory is Fe atom weighted across oxidation states; electron activity is not analytical total (5.1144ms)
+✔ selected-sample ranking changes from metal to oxidized carrier without global maxima or rounded display values (20.2602ms)
+✔ focus, reference preference, view and endpoint selection retain exact accepted sweep identities (6.9527ms)
+✔ redox labels do not alter fractions or provenance and missing validated metadata cannot assign oxidation states (21.4904ms)
+✔ supplied ferric form is preserved separately from canonical ferrous basis and elemental Fe conservation (125.1674ms)
+✔ Fe metal source mass action and Nernst independently reproduce disappearance and 50/50 transitions (586.1858ms)
+✔ Eh sweep references exactly reuse registered Pourbaix convention at pH 0 and 7 (2.9048ms)
+✔ water annotations fail independently of equilibrium and do not apply to a pH axis (0.2245ms)
+✔ water toggle preserves exact sweep, selected samples, numerical curves and outside-window equilibria (11.4929ms)
+✔ short metal label retains exact accepted formula-unit amount and units in output/export (0.3313ms)
+✔ imposed Fe control: 17 independent accepted equilibria exactly match fixed-Eh solves (47.5406ms)
+✔ total partition closes and dissolved speciation uses the unchanged normalization at every Eh (7.1604ms)
+✔ accepted saturation keeps 13 defined solubilities and four genuine gaps; mixed overlay stays pH-only (1.5641ms)
+✔ sample endpoints, hover and keyboard index navigation share exact Beaker equilibrium identities (0.7186ms)
+✔ all four compatible view switches reuse the same branded sweep without scientific revision changes (1.8209ms)
+✔ invalid ranges, samples and conditions fail the existing sweep rules (333.2024ms)
+✔ fixed pH, Eh range, phase scope, forged results and stale requests cannot reuse inspection (60.9188ms)
+✔ electron tile selection is a special-condition route, not an element or conserved inventory (18.3636ms)
+✔ fixed imposed Eh configuration varies pH using the same fixed-electron preparation (51.9894ms)
+ℹ tests 19
+ℹ suites 0
+ℹ pass 19
+ℹ fail 0
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 4134.1796

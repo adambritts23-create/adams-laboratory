@@ -1,0 +1,65 @@
+✔ six independent physical mixtures reproduce all saved source-law carriers and derived pH (2.7997ms)
+✔ nonnegative physical NaOH remains distinct from signed internal proton coordinates (0.2796ms)
+✔ one cross-family complex and 2/3/4-boron oligomers retain exact shared stoichiometry (0.5474ms)
+✔ ordinary phases/gas retain conditional diagnostics; electron-dependent phases are explicit and unevaluated (0.4364ms)
+✔ physical and boundary errors fail without repairing inputs or accepting caller-imposed coordinates (447.2156ms)
+✔ redox-active Fe/peroxide preparation is refused, while original reviewed redox route remains valid (1656.187ms)
+✔ simple acetic acid physical control agrees with established independent acid/base reference (441.3139ms)
+✔ supersaturated solid or gas requirement withholds accepted aqueous physical result (998.7106ms)
+✔ physical provenance/revision affect identity, while reordered contributions preserve equilibrium (882.8132ms)
+✔ N physical contributions occupy one final volume and retain immutable source provenance (5.0637ms)
+✔ invalid, duplicate and forged rows cannot define recipes or source identities (0.6285ms)
+✖ mixed Wet Lab reproduces saved independent carriers and all six pH controls; views/hover preserve identities (45662.2302ms)
+✔ scope checks respect exclusions, refuse stale/forged stocks and do not fall back for chloride/borate (859.0098ms)
+✔ required phase closure stays an unavailable Wet Lab sample, never accepted aqueous fallback (807.5157ms)
+✔ physical pure-solid states match ordinary Calculation and independent raw-source reference (4.9155ms)
+✔ permitted phases remain exactly absent, then precipitate and redissolve without sediment leakage (0.9344ms)
+✖ Wet Lab independent physical doses preserve point parity and inventory lineage (2532.7726ms)
+✔ source candidate ordering preserves physical result; gas and redox stay refused (3386.6769ms)
+✔ cached hover crosses phase transition and restores exact commitment without solving (45286.4004ms)
+ℹ tests 19
+ℹ suites 0
+ℹ pass 17
+ℹ fail 2
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 111537.8813
+
+✖ failing tests:
+
+test at tests\wetLabMixed.test.js:42:1
+✖ mixed Wet Lab reproduces saved independent carriers and all six pH controls; views/hover preserve identities (45662.2302ms)
+  AssertionError [ERR_ASSERTION]: H3BO3(cr)
+      at file:///C:/Users/adamb/PycharmProjects/PythonProject/adams-laboratory/tests/wetLabMixed.test.js:59:11
+      at Array.map (<anonymous>)
+      at TestContext.<anonymous> (file:///C:/Users/adamb/PycharmProjects/PythonProject/adams-laboratory/tests/wetLabMixed.test.js:57:90)
+      at async Test.run (node:internal/test_runner/test:1208:7)
+      at async Test.processPendingSubtests (node:internal/test_runner/test:831:7) {
+    generatedMessage: false,
+    code: 'ERR_ASSERTION',
+    actual: false,
+    expected: true,
+    operator: '==',
+    diff: 'simple'
+  }
+
+test at tests\wetLabSolids.test.js:47:1
+✖ Wet Lab independent physical doses preserve point parity and inventory lineage (2532.7726ms)
+  AssertionError [ERR_ASSERTION]: Expected values to be strictly equal:
+  + actual - expected
+  
+  + 0.04000000000000001
+  - 0.04
+        ^
+  
+      at TestContext.<anonymous> (file:///C:/Users/adamb/PycharmProjects/PythonProject/adams-laboratory/tests/wetLabSolids.test.js:52:10)
+      at async Test.run (node:internal/test_runner/test:1208:7)
+      at async Test.processPendingSubtests (node:internal/test_runner/test:831:7) {
+    generatedMessage: true,
+    code: 'ERR_ASSERTION',
+    actual: 0.04000000000000001,
+    expected: 0.04,
+    operator: 'strictEqual',
+    diff: 'simple'
+  }

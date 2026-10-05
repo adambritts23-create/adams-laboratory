@@ -1,0 +1,367 @@
+{
+  "generatedAt": "2026-09-05T23:25:14.520Z",
+  "runtime": "v24.15.0",
+  "note": "Local Node timings; SVG string generation is measured separately from solving and transformation. This is not browser paint/compositor latency. Ten renderer iterations; full sample sequences retained, no decimation. New coordinates use the existing validated sweep, not new Java oracle fixtures.",
+  "measurements": [
+    {
+      "case": "acid-base",
+      "points": 51,
+      "series": 3,
+      "nonScientific": true,
+      "elapsedMs": 31.23389999999999,
+      "inputPreparationMs": 10.871799999999922,
+      "solvingMs": 5.804999999999978,
+      "transformationMs": 1.4303000000000026,
+      "svgGenerationMeanMs": 0.6114599999999996,
+      "svgBytes": 8759,
+      "counts": {
+        "requested": 51,
+        "converged": 51,
+        "failed": 0,
+        "notRun": 0
+      }
+    },
+    {
+      "case": "acid-base",
+      "points": 101,
+      "series": 3,
+      "nonScientific": true,
+      "elapsedMs": 65.6279,
+      "inputPreparationMs": 23.324400000000082,
+      "solvingMs": 7.01360000000021,
+      "transformationMs": 0.6828000000000145,
+      "svgGenerationMeanMs": 0.22383000000000094,
+      "svgBytes": 12345,
+      "counts": {
+        "requested": 101,
+        "converged": 101,
+        "failed": 0,
+        "notRun": 0
+      }
+    },
+    {
+      "case": "acid-base",
+      "points": 501,
+      "series": 3,
+      "nonScientific": true,
+      "elapsedMs": 385.9222,
+      "inputPreparationMs": 81.63510000000048,
+      "solvingMs": 23.89870000000019,
+      "transformationMs": 1.3067000000000917,
+      "svgGenerationMeanMs": 0.5762000000000057,
+      "svgBytes": 41338,
+      "counts": {
+        "requested": 501,
+        "converged": 501,
+        "failed": 0,
+        "notRun": 0
+      }
+    },
+    {
+      "case": "acid-base",
+      "points": 1001,
+      "series": 3,
+      "nonScientific": true,
+      "elapsedMs": 752.2838,
+      "inputPreparationMs": 159.67159999999978,
+      "solvingMs": 45.862800000001926,
+      "transformationMs": 2.5438000000001466,
+      "svgGenerationMeanMs": 1.3878099999999904,
+      "svgBytes": 77498,
+      "counts": {
+        "requested": 1001,
+        "converged": 1001,
+        "failed": 0,
+        "notRun": 0
+      }
+    },
+    {
+      "case": "complexation",
+      "points": 51,
+      "series": 3,
+      "nonScientific": true,
+      "elapsedMs": 29.422599999999875,
+      "inputPreparationMs": 8.496500000000879,
+      "solvingMs": 7.6171000000003914,
+      "transformationMs": 0.2298000000000684,
+      "svgGenerationMeanMs": 0.08880999999998948,
+      "svgBytes": 10658,
+      "counts": {
+        "requested": 51,
+        "converged": 51,
+        "failed": 0,
+        "notRun": 0
+      }
+    },
+    {
+      "case": "complexation",
+      "points": 101,
+      "series": 3,
+      "nonScientific": true,
+      "elapsedMs": 72.61930000000007,
+      "inputPreparationMs": 16.303999999999405,
+      "solvingMs": 11.483600000000251,
+      "transformationMs": 0.40079999999989013,
+      "svgGenerationMeanMs": 0.1299099999999953,
+      "svgBytes": 15877,
+      "counts": {
+        "requested": 101,
+        "converged": 101,
+        "failed": 0,
+        "notRun": 0
+      }
+    },
+    {
+      "case": "complexation",
+      "points": 501,
+      "series": 3,
+      "nonScientific": true,
+      "elapsedMs": 385.2777000000001,
+      "inputPreparationMs": 88.38339999999698,
+      "solvingMs": 62.550199999998995,
+      "transformationMs": 1.2252000000000862,
+      "svgGenerationMeanMs": 0.683459999999991,
+      "svgBytes": 58698,
+      "counts": {
+        "requested": 501,
+        "converged": 501,
+        "failed": 0,
+        "notRun": 0
+      }
+    },
+    {
+      "case": "complexation",
+      "points": 1001,
+      "series": 3,
+      "nonScientific": true,
+      "elapsedMs": 762.9256000000003,
+      "inputPreparationMs": 152.97050000000763,
+      "solvingMs": 101.68119999999908,
+      "transformationMs": 3.1833999999998923,
+      "svgGenerationMeanMs": 1.486200000000008,
+      "svgBytes": 111921,
+      "counts": {
+        "requested": 1001,
+        "converged": 1001,
+        "failed": 0,
+        "notRun": 0
+      }
+    },
+    {
+      "case": "precipitation",
+      "points": 51,
+      "series": 4,
+      "nonScientific": true,
+      "elapsedMs": 43.606700000000274,
+      "inputPreparationMs": 8.914200000001074,
+      "solvingMs": 12.802500000001146,
+      "transformationMs": 0.3170000000000073,
+      "svgGenerationMeanMs": 0.10427999999997155,
+      "svgBytes": 12597,
+      "counts": {
+        "requested": 51,
+        "converged": 51,
+        "failed": 0,
+        "notRun": 0
+      }
+    },
+    {
+      "case": "precipitation",
+      "points": 101,
+      "series": 4,
+      "nonScientific": true,
+      "elapsedMs": 55.941699999999855,
+      "inputPreparationMs": 14.033099999998285,
+      "solvingMs": 17.895899999995436,
+      "transformationMs": 0.4557999999997264,
+      "svgGenerationMeanMs": 0.14166999999997643,
+      "svgBytes": 19391,
+      "counts": {
+        "requested": 101,
+        "converged": 101,
+        "failed": 0,
+        "notRun": 0
+      }
+    },
+    {
+      "case": "precipitation",
+      "points": 501,
+      "series": 4,
+      "nonScientific": true,
+      "elapsedMs": 354.49230000000034,
+      "inputPreparationMs": 83.60990000000129,
+      "solvingMs": 89.99559999999974,
+      "transformationMs": 2.565100000000257,
+      "svgGenerationMeanMs": 0.6979199999999764,
+      "svgBytes": 75465,
+      "counts": {
+        "requested": 501,
+        "converged": 501,
+        "failed": 0,
+        "notRun": 0
+      }
+    },
+    {
+      "case": "precipitation",
+      "points": 1001,
+      "series": 4,
+      "nonScientific": true,
+      "elapsedMs": 810.8436000000002,
+      "inputPreparationMs": 179.42239999999856,
+      "solvingMs": 217.25679999999784,
+      "transformationMs": 4.846100000000206,
+      "svgGenerationMeanMs": 2.5086699999999835,
+      "svgBytes": 145688,
+      "counts": {
+        "requested": 1001,
+        "converged": 1001,
+        "failed": 0,
+        "notRun": 0
+      }
+    },
+    {
+      "case": "redox",
+      "points": 51,
+      "series": 3,
+      "nonScientific": true,
+      "elapsedMs": 29.253099999999904,
+      "inputPreparationMs": 7.310400000001209,
+      "solvingMs": 4.365600000003269,
+      "transformationMs": 0.3207999999999629,
+      "svgGenerationMeanMs": 0.10248000000001412,
+      "svgBytes": 8915,
+      "counts": {
+        "requested": 51,
+        "converged": 51,
+        "failed": 0,
+        "notRun": 0
+      }
+    },
+    {
+      "case": "redox",
+      "points": 101,
+      "series": 3,
+      "nonScientific": true,
+      "elapsedMs": 73.77030000000013,
+      "inputPreparationMs": 14.474800000003597,
+      "solvingMs": 7.354400000002897,
+      "transformationMs": 0.3955999999998312,
+      "svgGenerationMeanMs": 0.12201000000000022,
+      "svgBytes": 12498,
+      "counts": {
+        "requested": 101,
+        "converged": 101,
+        "failed": 0,
+        "notRun": 0
+      }
+    },
+    {
+      "case": "redox",
+      "points": 501,
+      "series": 3,
+      "nonScientific": true,
+      "elapsedMs": 388.91439999999966,
+      "inputPreparationMs": 74.15779999999995,
+      "solvingMs": 37.72439999999642,
+      "transformationMs": 1.3319000000001324,
+      "svgGenerationMeanMs": 0.530869999999959,
+      "svgBytes": 41793,
+      "counts": {
+        "requested": 501,
+        "converged": 501,
+        "failed": 0,
+        "notRun": 0
+      }
+    },
+    {
+      "case": "redox",
+      "points": 1001,
+      "series": 3,
+      "nonScientific": true,
+      "elapsedMs": 773.6637000000001,
+      "inputPreparationMs": 159.9972000000007,
+      "solvingMs": 88.5197999999973,
+      "transformationMs": 3.207900000000336,
+      "svgGenerationMeanMs": 0.9373099999999794,
+      "svgBytes": 78200,
+      "counts": {
+        "requested": 1001,
+        "converged": 1001,
+        "failed": 0,
+        "notRun": 0
+      }
+    },
+    {
+      "case": "fixed-activity",
+      "points": 51,
+      "series": 3,
+      "nonScientific": true,
+      "elapsedMs": 30.795399999999972,
+      "inputPreparationMs": 13.517899999999827,
+      "solvingMs": 4.171599999999671,
+      "transformationMs": 0.355199999999968,
+      "svgGenerationMeanMs": 0.22950000000000728,
+      "svgBytes": 10759,
+      "counts": {
+        "requested": 51,
+        "converged": 51,
+        "failed": 0,
+        "notRun": 0
+      }
+    },
+    {
+      "case": "fixed-activity",
+      "points": 101,
+      "series": 3,
+      "nonScientific": true,
+      "elapsedMs": 71.03259999999955,
+      "inputPreparationMs": 15.644799999996394,
+      "solvingMs": 5.171500000004926,
+      "transformationMs": 0.6701999999995678,
+      "svgGenerationMeanMs": 0.23011999999998806,
+      "svgBytes": 16013,
+      "counts": {
+        "requested": 101,
+        "converged": 101,
+        "failed": 0,
+        "notRun": 0
+      }
+    },
+    {
+      "case": "fixed-activity",
+      "points": 501,
+      "series": 3,
+      "nonScientific": true,
+      "elapsedMs": 385.46319999999923,
+      "inputPreparationMs": 74.75999999998567,
+      "solvingMs": 23.24739999999474,
+      "transformationMs": 2.2658000000001266,
+      "svgGenerationMeanMs": 0.8647600000000238,
+      "svgBytes": 58977,
+      "counts": {
+        "requested": 501,
+        "converged": 501,
+        "failed": 0,
+        "notRun": 0
+      }
+    },
+    {
+      "case": "fixed-activity",
+      "points": 1001,
+      "series": 3,
+      "nonScientific": true,
+      "elapsedMs": 779.0472000000009,
+      "inputPreparationMs": 153.6515000000045,
+      "solvingMs": 51.71889999999348,
+      "transformationMs": 3.4434999999994034,
+      "svgGenerationMeanMs": 1.2263600000000223,
+      "svgBytes": 112451,
+      "counts": {
+        "requested": 1001,
+        "converged": 1001,
+        "failed": 0,
+        "notRun": 0
+      }
+    }
+  ]
+}

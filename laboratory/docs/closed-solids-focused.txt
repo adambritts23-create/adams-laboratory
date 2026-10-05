@@ -1,0 +1,37 @@
+✔ coupled Fe/chromate agrees with independent raw-source nine-phase reference (8.9187ms)
+✔ candidate ordering is immaterial in independently evaluated source reference (78.0253ms)
+✔ more acidic exact physical recipe remains fully aqueous with zero solid amounts (686.195ms)
+✔ unchanged ordinary Fe(III) pH zero bridge uses the same bounded phase selector (49.2666ms)
+✔ aqueous-only contract retains the original solid-required refusal (548.6007ms)
+✔ unreviewed phase class is explicitly refused (0.293ms)
+✔ production candidate ordering and composition/capacity refusal are explicit (603.3007ms)
+✔ persist compact phase evidence only after the focused scientific assertions (11.0078ms)
+✔ Closed UI path exactly reproduces every Step-5 broad-sweep carrier and derived potential (1.7945ms)
+✔ Closed adapter is branded, preserves identity, and rejects forged or incomplete runs (0.4729ms)
+✔ All three views reuse the sweep and preserve total/dissolved denominators (21.3453ms)
+✔ Selected endpoint/hover/pin use exact closed objects and expose derived pH/Eh/net reaction (2.0122ms)
+✔ Changed addition/setup/chemistry and restored ordinary mode invalidate closed inspection and commit (2.4112ms)
+✔ Unsupported reagent selection, electron and changed source never fall back to ordinary sweep (941.1343ms)
+✔ Out-of-scope samples remain gaps in views and Beaker; cancellation/stale never commits (920.0808ms)
+✔ Supplied axis and residual species labels remain distinct in output/export (165.1364ms)
+✔ compiler preserves reviewed Fe peroxide source scope and independent Step-5 expectations (0.2244ms)
+✔ two soluble redox families and non-Fe network agree with separate raw-law balances (0.7029ms)
+✔ abstract signed proton equivalents compile acid/base source laws without spectator inventory (0.3458ms)
+✔ excluded supersaturated Fe phases withhold complete equilibrium despite aqueous convergence (0.1412ms)
+✔ compiler fails closed for missing metadata, unknown identities, boundary conflicts and forged results (988.5962ms)
+✔ source identity ordering leaves analytical accepted amounts invariant (1369.6337ms)
+✔ Calculation integration uses compiler without replacing reviewed engines or adding a new mode (0.9445ms)
+✔ total fractions close across aqueous plus accepted solids using each analytical component total (8.9728ms)
+✔ pH 0 Fe total 1: significant hematite, zero amorphous hydroxide, same exact dissolved solubility (0.8635ms)
+✔ dissolved-only speciation is unchanged and total-fraction legend reports both denominators (1.8288ms)
+✔ amorphous hydroxide alone is unsaturated at pH 0: no false precipitate or solubility (491.4278ms)
+✔ accepted trace solid remains exact but is invisible; significant solid and saturated-zero behave distinctly (4.3092ms)
+✔ total partitions reject forged states and retain stale result gaps (0.8682ms)
+ℹ tests 29
+ℹ suites 0
+ℹ pass 29
+ℹ fail 0
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 19611.3007

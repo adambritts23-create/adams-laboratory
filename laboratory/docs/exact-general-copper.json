@@ -1,0 +1,418 @@
+{
+  "ok": false,
+  "code": "excluded-phase-required",
+  "audit": {
+    "sourceFingerprint": "5fece8b93a3a1fa9a845c73a775c21d0a323dd3853aebb8cb5efdd664943f68c",
+    "physicalAdmission": true,
+    "aqueousCount": 35,
+    "excludedCount": 11,
+    "sourceIds": [
+      "spana:2ac52a30213c9288:82236",
+      "spana:2ac52a30213c9288:82394",
+      "spana:2ac52a30213c9288:82497",
+      "spana:2ac52a30213c9288:82605",
+      "spana:2ac52a30213c9288:82715",
+      "spana:2ac52a30213c9288:97858",
+      "spana:2ac52a30213c9288:102305",
+      "spana:2ac52a30213c9288:102484",
+      "spana:2ac52a30213c9288:102572",
+      "spana:2ac52a30213c9288:102662",
+      "spana:2ac52a30213c9288:103398",
+      "spana:2ac52a30213c9288:104107",
+      "spana:2ac52a30213c9288:104279",
+      "spana:2ac52a30213c9288:105296",
+      "spana:2ac52a30213c9288:105720",
+      "spana:2ac52a30213c9288:106756",
+      "spana:2ac52a30213c9288:106907",
+      "spana:2ac52a30213c9288:106979",
+      "spana:2ac52a30213c9288:107141",
+      "spana:2ac52a30213c9288:107332",
+      "spana:2ac52a30213c9288:107405",
+      "spana:2ac52a30213c9288:107477",
+      "spana:2ac52a30213c9288:107551",
+      "spana:2ac52a30213c9288:107627",
+      "spana:2ac52a30213c9288:110864",
+      "spana:2ac52a30213c9288:110948",
+      "spana:2ac52a30213c9288:151381",
+      "spana:2ac52a30213c9288:152743",
+      "spana:2ac52a30213c9288:159033",
+      "spana:2ac52a30213c9288:159101",
+      "spana:2ac52a30213c9288:159212",
+      "spana:2ac52a30213c9288:175307",
+      "spana:2ac52a30213c9288:249989",
+      "spana:2ac52a30213c9288:250161",
+      "spana:2ac52a30213c9288:250448"
+    ],
+    "elementsUsed": false,
+    "basisIds": [
+      "spana:2ac52a30213c9288:82605",
+      "component:Cl-",
+      "component:Cu%202%2B",
+      "component:H%2B",
+      "component:H2O"
+    ],
+    "targets": [
+      0,
+      0.02,
+      0.01,
+      0,
+      0
+    ],
+    "conservationDimension": 4,
+    "nullResidual": 0
+  },
+  "candidate": {
+    "pH": 4.672530609681158,
+    "pe": 13.955996137974916,
+    "Eh": 0.8256276557259298,
+    "carriers": [
+      {
+        "id": "component:H%2B",
+        "name": "H+",
+        "amount": 0.000021255405288747935
+      },
+      {
+        "id": "component:Cl-",
+        "name": "Cl-",
+        "amount": 0.019216226693482902
+      },
+      {
+        "id": "component:Cu%202%2B",
+        "name": "Cu 2+",
+        "amount": 0.009200928056501814
+      },
+      {
+        "id": "spana:2ac52a30213c9288:82236",
+        "name": "Cl2",
+        "amount": 1.9468321198919153e-23
+      },
+      {
+        "id": "spana:2ac52a30213c9288:82394",
+        "name": "ClO-",
+        "amount": 4.0431663376249453e-23
+      },
+      {
+        "id": "spana:2ac52a30213c9288:82497",
+        "name": "ClO2(aq)",
+        "amount": 4.505793062954129e-41
+      },
+      {
+        "id": "spana:2ac52a30213c9288:82605",
+        "name": "ClO2-",
+        "amount": 7.902692873950068e-36
+      },
+      {
+        "id": "component:ClO3-",
+        "name": "ClO3-",
+        "amount": 6.528728360700292e-37
+      },
+      {
+        "id": "component:Cu%2B",
+        "name": "Cu+",
+        "amount": 6.931631983122675e-14
+      },
+      {
+        "id": "spana:2ac52a30213c9288:102305",
+        "name": "Cu(OH)2",
+        "amount": 1.171906206343854e-9
+      },
+      {
+        "id": "spana:2ac52a30213c9288:102484",
+        "name": "Cu(OH)2-",
+        "amount": 1.0113389095039608e-20
+      },
+      {
+        "id": "spana:2ac52a30213c9288:102572",
+        "name": "Cu(OH)3-",
+        "amount": 1.9117163916349873e-15
+      },
+      {
+        "id": "spana:2ac52a30213c9288:102662",
+        "name": "Cu(OH)4-2",
+        "amount": 1.1322806189194467e-23
+      },
+      {
+        "id": "spana:2ac52a30213c9288:104107",
+        "name": "Cu2(OH)2+2",
+        "amount": 0.000008293244877985977
+      },
+      {
+        "id": "spana:2ac52a30213c9288:104279",
+        "name": "Cu2Cl4-2",
+        "amount": 2.1200370348081068e-23
+      },
+      {
+        "id": "spana:2ac52a30213c9288:105296",
+        "name": "Cu3(OH)4+2",
+        "amount": 3.0312192020051536e-9
+      },
+      {
+        "id": "spana:2ac52a30213c9288:105720",
+        "name": "Cu3Cl6-3",
+        "amount": 1.4272996900819454e-34
+      },
+      {
+        "id": "spana:2ac52a30213c9288:106756",
+        "name": "CuCl",
+        "amount": 2.6576856433366652e-12
+      },
+      {
+        "id": "spana:2ac52a30213c9288:106907",
+        "name": "CuCl+",
+        "amount": 0.0007717910683777469
+      },
+      {
+        "id": "spana:2ac52a30213c9288:106979",
+        "name": "CuCl2",
+        "amount": 0.000005945219064952862
+      },
+      {
+        "id": "spana:2ac52a30213c9288:107141",
+        "name": "CuCl2-",
+        "amount": 1.06701794604143e-11
+      },
+      {
+        "id": "spana:2ac52a30213c9288:107332",
+        "name": "CuCl3-",
+        "amount": 3.4263835413565625e-9
+      },
+      {
+        "id": "spana:2ac52a30213c9288:107405",
+        "name": "CuCl3-2",
+        "amount": 3.5631970266139614e-14
+      },
+      {
+        "id": "spana:2ac52a30213c9288:107477",
+        "name": "CuCl4-2",
+        "amount": 1.316752309369144e-13
+      },
+      {
+        "id": "spana:2ac52a30213c9288:107551",
+        "name": "CuClO3+",
+        "amount": 2.7457452077800382e-39
+      },
+      {
+        "id": "spana:2ac52a30213c9288:107627",
+        "name": "CuClOH-",
+        "amount": 3.540252352599405e-20
+      },
+      {
+        "id": "spana:2ac52a30213c9288:110864",
+        "name": "CuOH",
+        "amount": 9.106806452869796e-21
+      },
+      {
+        "id": "spana:2ac52a30213c9288:110948",
+        "name": "CuOH+",
+        "amount": 0.000004735460785756011
+      },
+      {
+        "id": "spana:2ac52a30213c9288:151381",
+        "name": "H2",
+        "amount": 4.5703189009809467e-41
+      },
+      {
+        "id": "component:H2O2",
+        "name": "H2O2",
+        "amount": 4.436632899043578e-23
+      },
+      {
+        "id": "spana:2ac52a30213c9288:159033",
+        "name": "HCl",
+        "amount": 8.14962271752905e-8
+      },
+      {
+        "id": "spana:2ac52a30213c9288:159101",
+        "name": "HClO",
+        "amount": 2.2604296697317508e-20
+      },
+      {
+        "id": "spana:2ac52a30213c9288:159212",
+        "name": "HClO2",
+        "amount": 1.641513634662175e-38
+      },
+      {
+        "id": "spana:2ac52a30213c9288:175307",
+        "name": "HO2-",
+        "amount": 4.6728743678269876e-30
+      },
+      {
+        "id": "spana:2ac52a30213c9288:249989",
+        "name": "O2",
+        "amount": 3.358203350774078e-12
+      },
+      {
+        "id": "spana:2ac52a30213c9288:250161",
+        "name": "O3",
+        "amount": 4.2772091374082116e-44
+      },
+      {
+        "id": "spana:2ac52a30213c9288:250448",
+        "name": "OH-",
+        "amount": 4.688464259311561e-10
+      }
+    ],
+    "closure": [
+      {
+        "key": "charge",
+        "total": 0,
+        "residual": -3.4030643636277383e-18,
+        "limit": 4.068421709430404e-12,
+        "ok": true
+      },
+      {
+        "key": "source-coordinate-1",
+        "total": 0.01,
+        "residual": -5.204170427930421e-18,
+        "limit": 1.028421709430404e-12,
+        "ok": true
+      },
+      {
+        "key": "source-coordinate-2",
+        "total": 0.02,
+        "residual": -3.469446951953614e-18,
+        "limit": 2.048421709430404e-12,
+        "ok": true
+      },
+      {
+        "key": "source-coordinate-3",
+        "total": -0.013333333333333332,
+        "residual": 0,
+        "limit": 1.3617550427637372e-12,
+        "ok": true
+      }
+    ],
+    "potentials": [
+      {
+        "id": "spana:2ac52a30213c9288:82236",
+        "pe": 13.955996137974916
+      },
+      {
+        "id": "spana:2ac52a30213c9288:82394",
+        "pe": 13.955996137974914
+      },
+      {
+        "id": "spana:2ac52a30213c9288:82497",
+        "pe": 13.955996137974916
+      },
+      {
+        "id": "spana:2ac52a30213c9288:82605",
+        "pe": 13.955996137974916
+      },
+      {
+        "id": "spana:2ac52a30213c9288:82715",
+        "pe": 13.955996137974914
+      },
+      {
+        "id": "spana:2ac52a30213c9288:97858",
+        "pe": 13.955996137974918
+      },
+      {
+        "id": "spana:2ac52a30213c9288:103398",
+        "pe": 13.955996137974918
+      },
+      {
+        "id": "spana:2ac52a30213c9288:151381",
+        "pe": 13.955996137974918
+      },
+      {
+        "id": "spana:2ac52a30213c9288:152743",
+        "pe": 13.955996137974918
+      },
+      {
+        "id": "spana:2ac52a30213c9288:159101",
+        "pe": 13.955996137974916
+      },
+      {
+        "id": "spana:2ac52a30213c9288:159212",
+        "pe": 13.955996137974914
+      },
+      {
+        "id": "spana:2ac52a30213c9288:249989",
+        "pe": 13.955996137974918
+      },
+      {
+        "id": "spana:2ac52a30213c9288:250161",
+        "pe": 13.955996137974914
+      }
+    ],
+    "scientificValidation": "passed"
+  },
+  "phaseDiagnostics": [
+    {
+      "id": "spana:2ac52a30213c9288:82314",
+      "name": "Cl2(g)",
+      "phase": "gas",
+      "logActivity": -21.50067149714358
+    },
+    {
+      "id": "spana:2ac52a30213c9288:98874",
+      "name": "Cu(cr)",
+      "phase": "solid",
+      "logActivity": -18.553160641051015
+    },
+    {
+      "id": "spana:2ac52a30213c9288:102394",
+      "name": "Cu(OH)2(cr)",
+      "phase": "solid",
+      "logActivity": -1.3321071457388642
+    },
+    {
+      "id": "spana:2ac52a30213c9288:104641",
+      "name": "Cu2O(cr)",
+      "phase": "solid",
+      "logActivity": -15.484267786789875
+    },
+    {
+      "id": "spana:2ac52a30213c9288:106825",
+      "name": "CuCl(cr)",
+      "phase": "solid",
+      "logActivity": -8.075496389622803
+    },
+    {
+      "id": "spana:2ac52a30213c9288:107051",
+      "name": "CuCl2(cr)",
+      "phase": "solid",
+      "logActivity": -9.198832138194595
+    },
+    {
+      "id": "spana:2ac52a30213c9288:107212",
+      "name": "CuCl2·3Cu(OH)2(cr)",
+      "phase": "solid",
+      "logActivity": 1.5378464245888157
+    },
+    {
+      "id": "spana:2ac52a30213c9288:110778",
+      "name": "CuO(cr)",
+      "phase": "solid",
+      "logActivity": -0.36610714573886405
+    },
+    {
+      "id": "spana:2ac52a30213c9288:151531",
+      "name": "H2(g)",
+      "phase": "gas",
+      "logActivity": -37.25705349531215
+    },
+    {
+      "id": "spana:2ac52a30213c9288:250070",
+      "name": "O2(g)",
+      "phase": "gas",
+      "logActivity": -8.575893009375704
+    },
+    {
+      "id": "spana:2ac52a30213c9288:250265",
+      "name": "O3(g)",
+      "phase": "gas",
+      "logActivity": -41.45883951406354
+    }
+  ],
+  "required": [
+    {
+      "id": "spana:2ac52a30213c9288:107212",
+      "name": "CuCl2·3Cu(OH)2(cr)",
+      "phase": "solid",
+      "logActivity": 1.5378464245888157
+    }
+  ],
+  "gasSum": 2.655259617934799e-9
+}

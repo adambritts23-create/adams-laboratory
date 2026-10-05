@@ -1,0 +1,612 @@
+{
+  "metrics": {
+    "min": -14.600141872711571,
+    "max": -10.363923303021949,
+    "rows": [
+      {
+        "y": -2,
+        "range": 4.1137109702530985,
+        "peak": {
+          "index": 28,
+          "x": 9.5625,
+          "pointStatus": "converged",
+          "diagnostic": null,
+          "revision": 0,
+          "runDisposition": null,
+          "y": -2,
+          "ix": 28,
+          "iy": 0,
+          "pointId": "30f1ab8a2370c0b1189bea36bf894e805485e9a0bf516ce04d90d1b2197513e5:28",
+          "value": -10.486430902458473,
+          "reason": null,
+          "linearValue": 3.262639558290801e-11,
+          "linearUnit": "mol/kg-H2O"
+        }
+      },
+      {
+        "y": -1.875,
+        "range": 3.9319204052708763,
+        "peak": {
+          "index": 61,
+          "x": 9.5625,
+          "pointStatus": "converged",
+          "diagnostic": null,
+          "revision": 0,
+          "runDisposition": null,
+          "y": -1.875,
+          "ix": 28,
+          "iy": 1,
+          "pointId": "30f1ab8a2370c0b1189bea36bf894e805485e9a0bf516ce04d90d1b2197513e5:61",
+          "value": -10.419603584566662,
+          "reason": null,
+          "linearValue": 3.805365841283958e-11,
+          "linearUnit": "mol/kg-H2O"
+        }
+      },
+      {
+        "y": -1.75,
+        "range": 3.7179106035747296,
+        "peak": {
+          "index": 93,
+          "x": 9.453125,
+          "pointStatus": "converged",
+          "diagnostic": null,
+          "revision": 0,
+          "runDisposition": null,
+          "y": -1.75,
+          "ix": 27,
+          "iy": 2,
+          "pointId": "30f1ab8a2370c0b1189bea36bf894e805485e9a0bf516ce04d90d1b2197513e5:93",
+          "value": -10.385453411810293,
+          "reason": null,
+          "linearValue": 4.116675058541776e-11,
+          "linearUnit": "mol/kg-H2O"
+        }
+      },
+      {
+        "y": -1.625,
+        "range": 3.482390355071182,
+        "peak": {
+          "index": 124,
+          "x": 9.234375,
+          "pointStatus": "converged",
+          "diagnostic": null,
+          "revision": 0,
+          "runDisposition": null,
+          "y": -1.625,
+          "ix": 25,
+          "iy": 3,
+          "pointId": "30f1ab8a2370c0b1189bea36bf894e805485e9a0bf516ce04d90d1b2197513e5:124",
+          "value": -10.373421962858625,
+          "reason": null,
+          "linearValue": 4.2323155215945174e-11,
+          "linearUnit": "mol/kg-H2O"
+        }
+      },
+      {
+        "y": -1.5,
+        "range": 3.239832941029171,
+        "peak": {
+          "index": 155,
+          "x": 9.015625,
+          "pointStatus": "converged",
+          "diagnostic": null,
+          "revision": 0,
+          "runDisposition": null,
+          "y": -1.5,
+          "ix": 23,
+          "iy": 4,
+          "pointId": "30f1ab8a2370c0b1189bea36bf894e805485e9a0bf516ce04d90d1b2197513e5:155",
+          "value": -10.369234679037913,
+          "reason": null,
+          "linearValue": 4.273319070681907e-11,
+          "linearUnit": "mol/kg-H2O"
+        }
+      },
+      {
+        "y": -1.375,
+        "range": 2.995090956292472,
+        "peak": {
+          "index": 186,
+          "x": 8.796875,
+          "pointStatus": "converged",
+          "diagnostic": null,
+          "revision": 0,
+          "runDisposition": null,
+          "y": -1.375,
+          "ix": 21,
+          "iy": 5,
+          "pointId": "30f1ab8a2370c0b1189bea36bf894e805485e9a0bf516ce04d90d1b2197513e5:186",
+          "value": -10.36830081700678,
+          "reason": null,
+          "linearValue": 4.282517861490681e-11,
+          "linearUnit": "mol/kg-H2O"
+        }
+      },
+      {
+        "y": -1.25,
+        "range": 2.7530915150944786,
+        "peak": {
+          "index": 218,
+          "x": 8.6875,
+          "pointStatus": "converged",
+          "diagnostic": null,
+          "revision": 0,
+          "runDisposition": null,
+          "y": -1.25,
+          "ix": 20,
+          "iy": 6,
+          "pointId": "30f1ab8a2370c0b1189bea36bf894e805485e9a0bf516ce04d90d1b2197513e5:218",
+          "value": -10.366036954460377,
+          "reason": null,
+          "linearValue": 4.304899782010447e-11,
+          "linearUnit": "mol/kg-H2O"
+        }
+      },
+      {
+        "y": -1.125,
+        "range": 2.5095333480330737,
+        "peak": {
+          "index": 250,
+          "x": 8.578125,
+          "pointStatus": "converged",
+          "diagnostic": null,
+          "revision": 0,
+          "runDisposition": null,
+          "y": -1.125,
+          "ix": 19,
+          "iy": 7,
+          "pointId": "30f1ab8a2370c0b1189bea36bf894e805485e9a0bf516ce04d90d1b2197513e5:250",
+          "value": -10.36719316197367,
+          "reason": null,
+          "linearValue": 4.293454235199362e-11,
+          "linearUnit": "mol/kg-H2O"
+        }
+      },
+      {
+        "y": -1,
+        "range": 2.2717015154178277,
+        "peak": {
+          "index": 281,
+          "x": 8.359375,
+          "pointStatus": "converged",
+          "diagnostic": null,
+          "revision": 0,
+          "runDisposition": null,
+          "y": -1,
+          "ix": 17,
+          "iy": 8,
+          "pointId": "30f1ab8a2370c0b1189bea36bf894e805485e9a0bf516ce04d90d1b2197513e5:281",
+          "value": -10.365066503075575,
+          "reason": null,
+          "linearValue": 4.3145300380614456e-11,
+          "linearUnit": "mol/kg-H2O"
+        }
+      },
+      {
+        "y": -0.875,
+        "range": 2.03539485853139,
+        "peak": {
+          "index": 313,
+          "x": 8.25,
+          "pointStatus": "converged",
+          "diagnostic": null,
+          "revision": 0,
+          "runDisposition": null,
+          "y": -0.875,
+          "ix": 16,
+          "iy": 9,
+          "pointId": "30f1ab8a2370c0b1189bea36bf894e805485e9a0bf516ce04d90d1b2197513e5:313",
+          "value": -10.364606589826398,
+          "reason": null,
+          "linearValue": 4.3191014997390865e-11,
+          "linearUnit": "mol/kg-H2O"
+        }
+      },
+      {
+        "y": -0.75,
+        "range": 1.8018887961759695,
+        "peak": {
+          "index": 345,
+          "x": 8.140625,
+          "pointStatus": "converged",
+          "diagnostic": null,
+          "revision": 0,
+          "runDisposition": null,
+          "y": -0.75,
+          "ix": 15,
+          "iy": 10,
+          "pointId": "30f1ab8a2370c0b1189bea36bf894e805485e9a0bf516ce04d90d1b2197513e5:345",
+          "value": -10.36548943525607,
+          "reason": null,
+          "linearValue": 4.310330432829124e-11,
+          "linearUnit": "mol/kg-H2O"
+        }
+      },
+      {
+        "y": -0.625,
+        "range": 1.5741120661246484,
+        "peak": {
+          "index": 376,
+          "x": 7.921875,
+          "pointStatus": "converged",
+          "diagnostic": null,
+          "revision": 0,
+          "runDisposition": null,
+          "y": -0.625,
+          "ix": 13,
+          "iy": 11,
+          "pointId": "30f1ab8a2370c0b1189bea36bf894e805485e9a0bf516ce04d90d1b2197513e5:376",
+          "value": -10.365978244870028,
+          "reason": null,
+          "linearValue": 4.305481774177285e-11,
+          "linearUnit": "mol/kg-H2O"
+        }
+      },
+      {
+        "y": -0.5,
+        "range": 1.7405984753893726,
+        "peak": {
+          "index": 408,
+          "x": 7.8125,
+          "pointStatus": "converged",
+          "diagnostic": null,
+          "revision": 0,
+          "runDisposition": null,
+          "y": -0.5,
+          "ix": 12,
+          "iy": 12,
+          "pointId": "30f1ab8a2370c0b1189bea36bf894e805485e9a0bf516ce04d90d1b2197513e5:408",
+          "value": -10.364545677835611,
+          "reason": null,
+          "linearValue": 4.3197073179847406e-11,
+          "linearUnit": "mol/kg-H2O"
+        }
+      },
+      {
+        "y": -0.375,
+        "range": 2.071111598826132,
+        "peak": {
+          "index": 440,
+          "x": 7.703125,
+          "pointStatus": "converged",
+          "diagnostic": null,
+          "revision": 0,
+          "runDisposition": null,
+          "y": -0.375,
+          "ix": 11,
+          "iy": 13,
+          "pointId": "30f1ab8a2370c0b1189bea36bf894e805485e9a0bf516ce04d90d1b2197513e5:440",
+          "value": -10.363923303021949,
+          "reason": null,
+          "linearValue": 4.325902202927925e-11,
+          "linearUnit": "mol/kg-H2O"
+        }
+      },
+      {
+        "y": -0.25,
+        "range": 2.4246911822094397,
+        "peak": {
+          "index": 472,
+          "x": 7.59375,
+          "pointStatus": "converged",
+          "diagnostic": null,
+          "revision": 0,
+          "runDisposition": null,
+          "y": -0.25,
+          "ix": 10,
+          "iy": 14,
+          "pointId": "30f1ab8a2370c0b1189bea36bf894e805485e9a0bf516ce04d90d1b2197513e5:472",
+          "value": -10.364001192837968,
+          "reason": null,
+          "linearValue": 4.325126430894274e-11,
+          "linearUnit": "mol/kg-H2O"
+        }
+      },
+      {
+        "y": -0.125,
+        "range": 2.799521441156994,
+        "peak": {
+          "index": 504,
+          "x": 7.484375,
+          "pointStatus": "converged",
+          "diagnostic": null,
+          "revision": 0,
+          "runDisposition": null,
+          "y": -0.125,
+          "ix": 9,
+          "iy": 15,
+          "pointId": "30f1ab8a2370c0b1189bea36bf894e805485e9a0bf516ce04d90d1b2197513e5:504",
+          "value": -10.364702448931471,
+          "reason": null,
+          "linearValue": 4.318148276678466e-11,
+          "linearUnit": "mol/kg-H2O"
+        }
+      },
+      {
+        "y": 0,
+        "range": 3.193676606600551,
+        "peak": {
+          "index": 536,
+          "x": 7.375,
+          "pointStatus": "converged",
+          "diagnostic": null,
+          "revision": 0,
+          "runDisposition": null,
+          "y": 0,
+          "ix": 8,
+          "iy": 16,
+          "pointId": "30f1ab8a2370c0b1189bea36bf894e805485e9a0bf516ce04d90d1b2197513e5:536",
+          "value": -10.365973651847124,
+          "reason": null,
+          "linearValue": 4.3055273084444616e-11,
+          "linearUnit": "mol/kg-H2O"
+        }
+      }
+    ],
+    "columns": [
+      {
+        "x": 6.5,
+        "range": 3.6550296458543023
+      },
+      {
+        "x": 6.609375,
+        "range": 3.5742772117987336
+      },
+      {
+        "x": 6.71875,
+        "range": 3.4784707130205703
+      },
+      {
+        "x": 6.828125,
+        "range": 3.3661472636389753
+      },
+      {
+        "x": 6.9375,
+        "range": 3.2360521276565564
+      },
+      {
+        "x": 7.046875,
+        "range": 3.087199456994707
+      },
+      {
+        "x": 7.15625,
+        "range": 2.9189155142515126
+      },
+      {
+        "x": 7.265625,
+        "range": 2.7308637036336556
+      },
+      {
+        "x": 7.375,
+        "range": 2.523054040431468
+      },
+      {
+        "x": 7.484375,
+        "range": 2.318052016008597
+      },
+      {
+        "x": 7.59375,
+        "range": 2.1157954495477256
+      },
+      {
+        "x": 7.703125,
+        "range": 1.9170284832731745
+      },
+      {
+        "x": 7.8125,
+        "range": 1.7226172358120877
+      },
+      {
+        "x": 7.921875,
+        "range": 1.5335425746696423
+      },
+      {
+        "x": 8.03125,
+        "range": 1.35185560558266
+      },
+      {
+        "x": 8.140625,
+        "range": 1.1822072564192219
+      },
+      {
+        "x": 8.25,
+        "range": 1.021638404683877
+      },
+      {
+        "x": 8.359375,
+        "range": 0.9330654307603119
+      },
+      {
+        "x": 8.46875,
+        "range": 1.119628788045329
+      },
+      {
+        "x": 8.578125,
+        "range": 1.3174171421878356
+      },
+      {
+        "x": 8.6875,
+        "range": 1.5213527524552042
+      },
+      {
+        "x": 8.796875,
+        "range": 1.7229754568845372
+      },
+      {
+        "x": 8.90625,
+        "range": 1.9233112412236295
+      },
+      {
+        "x": 9.015625,
+        "range": 2.1166066700331
+      },
+      {
+        "x": 9.125,
+        "range": 2.29685657102765
+      },
+      {
+        "x": 9.234375,
+        "range": 2.464510153316354
+      },
+      {
+        "x": 9.34375,
+        "range": 2.6155770054371033
+      },
+      {
+        "x": 9.453125,
+        "range": 2.744942509541147
+      },
+      {
+        "x": 9.5625,
+        "range": 2.8571157479375664
+      },
+      {
+        "x": 9.671875,
+        "range": 2.950679930044469
+      },
+      {
+        "x": 9.78125,
+        "range": 3.0223193160209405
+      },
+      {
+        "x": 9.890625,
+        "range": 3.070808181669225
+      },
+      {
+        "x": 10,
+        "range": 3.097583312276388
+      }
+    ],
+    "mixedDifference": 6.602569986188328,
+    "contourSegments": 308,
+    "normalizedContourAngleRange": 47.658692787577024,
+    "levels": [
+      -13.894105444429968,
+      -13.188069016148363,
+      -12.48203258786676,
+      -11.775996159585157,
+      -11.069959731303552
+    ]
+  },
+  "contourAngles": [
+    {
+      "level": -13.894105444429968,
+      "min": 119.73537877763692,
+      "max": 119.97010728514408,
+      "spread": 0.2347285075071568
+    },
+    {
+      "level": -13.188069016148363,
+      "min": 119.63650021120554,
+      "max": 164.4168916294568,
+      "spread": 44.78039141825127
+    },
+    {
+      "level": -12.48203258786676,
+      "min": 119.41069223452564,
+      "max": 164.56378134881402,
+      "spread": 45.15308911428838
+    },
+    {
+      "level": -11.775996159585157,
+      "min": 118.83805213975194,
+      "max": 164.86263581366848,
+      "spread": 46.02458367391654
+    },
+    {
+      "level": -11.069959731303552,
+      "min": 117.37588155022831,
+      "max": 165.03457433780534,
+      "spread": 47.658692787577024
+    }
+  ],
+  "slices": [
+    {
+      "kept": 0,
+      "fixed": -2,
+      "points": 33
+    },
+    {
+      "kept": 0,
+      "fixed": -1,
+      "points": 33
+    },
+    {
+      "kept": 0,
+      "fixed": 0,
+      "points": 33
+    },
+    {
+      "kept": 1,
+      "fixed": 6.5,
+      "points": 17
+    },
+    {
+      "kept": 1,
+      "fixed": 8.25,
+      "points": 17
+    },
+    {
+      "kept": 1,
+      "fixed": 10,
+      "points": 17
+    }
+  ],
+  "traversals": [
+    "column-major",
+    "reverse-X",
+    "reverse-Y"
+  ],
+  "maxIndependentError": 8.526512829121202e-14,
+  "maxSolidSaturation": -2.3996984054129413,
+  "goldenSha256": "aefc0949b585ef290595088c8ed852a1eb591be25dff24563a44a2cf98d40960",
+  "databaseSha256": "9fa7db6f4a13a88073a0ca214c412690846674f6b3f442e336baf1586c45d245",
+  "connectedContours": [
+    {
+      "level": -13.894105444429968,
+      "segments": 12,
+      "angleSpread": 0.2347285075071568
+    },
+    {
+      "level": -13.188069016148363,
+      "segments": 24,
+      "angleSpread": 0.5835852251642564
+    },
+    {
+      "level": -13.188069016148363,
+      "segments": 10,
+      "angleSpread": 16.749321128774568
+    },
+    {
+      "level": -12.48203258786676,
+      "segments": 36,
+      "angleSpread": 1.3280225334472107
+    },
+    {
+      "level": -12.48203258786676,
+      "segments": 24,
+      "angleSpread": 35.074708928605105
+    },
+    {
+      "level": -11.775996159585157,
+      "segments": 50,
+      "angleSpread": 3.4989840594846555
+    },
+    {
+      "level": -11.775996159585157,
+      "segments": 36,
+      "angleSpread": 41.616621825306765
+    },
+    {
+      "level": -11.069959731303552,
+      "segments": 68,
+      "angleSpread": 10.478736429879973
+    },
+    {
+      "level": -11.069959731303552,
+      "segments": 48,
+      "angleSpread": 46.68600547863355
+    }
+  ]
+}

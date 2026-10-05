@@ -1,0 +1,38 @@
+✔ coupled Fe/chromate agrees with independent raw-source nine-phase reference (14.8152ms)
+✔ candidate ordering is immaterial in independently evaluated source reference (53.6864ms)
+✔ more acidic exact physical recipe remains fully aqueous with zero solid amounts (2071.2098ms)
+✔ unchanged ordinary Fe(III) pH zero bridge uses the same bounded phase selector (60.7506ms)
+✔ aqueous-only contract retains the original solid-required refusal (1983.2142ms)
+✔ unreviewed phase class is explicitly refused (0.4836ms)
+✔ production candidate ordering and composition/capacity refusal are explicit (2147.1616ms)
+✔ persist compact phase evidence only after the focused scientific assertions (31.099ms)
+✔ all pinned source components carry source charge; unknown atoms remain absent (1228.7981ms)
+✔ nitrate and copper admit source conservation then retain numerical and phase refusals (23637.6936ms)
+✔ atomless lithium acetate closes component balances and mass action with the ordinary solver (6826.9767ms)
+✔ charge, negative amounts, special identities and stale source/revision still refuse (12608.6606ms)
+✔ seven component-system searches match independently executed pinned Java names exactly (453.2579ms)
+✔ water is implicit, electron expands vocabulary only through admitted redox products (163.6296ms)
+✔ general 76-source Fe/chromate closes all 21 candidates without subset enumeration (6050.925ms)
+✔ active policy solves two simultaneous solids above 64 and retains existing 128-product bound (25.424ms)
+✔ unified physical route retains independent acetate/borate values and has no derived Eh (16106.4831ms)
+✔ positive physical source base projects to signed proton equivalents without negative reagents (5418.2164ms)
+✔ unified physical redox preserves exact reviewed Fe peroxide source scope and reference (11976.7433ms)
+✔ non Fe Cr europium control uses the same physical contract and independent source reference (3946.5189ms)
+✔ all twelve independent Cr doses reproduce pH pe aqueous carriers solid inventory and closure (34914.262ms)
+✔ unknown metadata physical negatives conflicting constraints forged and stale preparations refuse (8103.9844ms)
+✔ gas and required excluded solids remain refusals after automatic routing (4256.6309ms)
+✔ ordinary reviewed chromium recipe feeds Wet Lab and elemental plots using exact accepted objects (15374.2878ms)
+✔ ionic chromium inventory equals reviewed bottle and supports dispense and N rows (3.5208ms)
+✔ authoritative two-row balance works in either order; unbalanced/unknown/forged metadata refuse (1.2524ms)
+✔ mixed reviewed and ionic contributions retain a single physical preparation (0.4923ms)
+✔ Cu source preparation is conditional without atom metadata; exclusions respected (9369.8428ms)
+✔ non-chromium sodium chloride uses identical generic preparation and compiler route (12488.1028ms)
+✔ ionic Cr titration matches all saved independent doses and existing shared analytical views (55984.6784ms)
+ℹ tests 30
+ℹ suites 0
+ℹ pass 30
+ℹ fail 0
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 241149.4317

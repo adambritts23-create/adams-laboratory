@@ -1,0 +1,1190 @@
+{
+  "version": "closed-component-metadata-v1",
+  "importedComponents": 168,
+  "sourceCompositionRecords": 0,
+  "before": 7,
+  "after": 12,
+  "counts": {
+    "SUPPORTED": 12,
+    "PARTIAL": 156,
+    "REQUIRES_REVIEW": 0
+  },
+  "coverage": [
+    {
+      "id": "component:e-",
+      "name": "e-",
+      "status": "SUPPORTED",
+      "canAllocate": true,
+      "reason": "Reviewed source-bound composition and charge; equilibrium scope requires separate network audit."
+    },
+    {
+      "id": "component:H%2B",
+      "name": "H+",
+      "status": "SUPPORTED",
+      "canAllocate": true,
+      "reason": "Reviewed source-bound composition and charge; equilibrium scope requires separate network audit."
+    },
+    {
+      "id": "component:H2O2",
+      "name": "H2O2",
+      "status": "SUPPORTED",
+      "canAllocate": true,
+      "reason": "Reviewed source-bound composition and charge; equilibrium scope requires separate network audit."
+    },
+    {
+      "id": "component:Li%2B",
+      "name": "Li+",
+      "status": "PARTIAL",
+      "canAllocate": false,
+      "reason": "Source element links aid discovery only; reviewed atom counts and charge allocation are missing."
+    },
+    {
+      "id": "component:Be%202%2B",
+      "name": "Be 2+",
+      "status": "PARTIAL",
+      "canAllocate": false,
+      "reason": "Source element links aid discovery only; reviewed atom counts and charge allocation are missing."
+    },
+    {
+      "id": "component:B(OH)3",
+      "name": "B(OH)3",
+      "status": "PARTIAL",
+      "canAllocate": false,
+      "reason": "Source element links aid discovery only; reviewed atom counts and charge allocation are missing."
+    },
+    {
+      "id": "component:CO3%202-",
+      "name": "CO3 2-",
+      "status": "PARTIAL",
+      "canAllocate": false,
+      "reason": "Source element links aid discovery only; reviewed atom counts and charge allocation are missing."
+    },
+    {
+      "id": "component:CN-",
+      "name": "CN-",
+      "status": "PARTIAL",
+      "canAllocate": false,
+      "reason": "Source element links aid discovery only; reviewed atom counts and charge allocation are missing."
+    },
+    {
+      "id": "component:OCN-",
+      "name": "OCN-",
+      "status": "PARTIAL",
+      "canAllocate": false,
+      "reason": "Source element links aid discovery only; reviewed atom counts and charge allocation are missing."
+    },
+    {
+      "id": "component:SCN-",
+      "name": "SCN-",
+      "status": "PARTIAL",
+      "canAllocate": false,
+      "reason": "Source element links aid discovery only; reviewed atom counts and charge allocation are missing."
+    },
+    {
+      "id": "component:HCOO-",
+      "name": "HCOO-",
+      "status": "PARTIAL",
+      "canAllocate": false,
+      "reason": "Source element links aid discovery only; reviewed atom counts and charge allocation are missing."
+    },
+    {
+      "id": "component:CH3COO-",
+      "name": "CH3COO-",
+      "status": "PARTIAL",
+      "canAllocate": false,
+      "reason": "Source element links aid discovery only; reviewed atom counts and charge allocation are missing."
+    },
+    {
+      "id": "component:ox%202-",
+      "name": "ox 2-",
+      "status": "PARTIAL",
+      "canAllocate": false,
+      "reason": "Source element links aid discovery only; reviewed atom counts and charge allocation are missing."
+    },
+    {
+      "id": "component:cit%203-",
+      "name": "cit 3-",
+      "status": "PARTIAL",
+      "canAllocate": false,
+      "reason": "Source element links aid discovery only; reviewed atom counts and charge allocation are missing."
+    },
+    {
+      "id": "component:NTA%203-",
+      "name": "NTA 3-",
+      "status": "PARTIAL",
+      "canAllocate": false,
+      "reason": "Source element links aid discovery only; reviewed atom counts and charge allocation are missing."
+    },
+    {
+      "id": "component:EDTA%204-",
+      "name": "EDTA 4-",
+      "status": "PARTIAL",
+      "canAllocate": false,
+      "reason": "Source element links aid discovery only; reviewed atom counts and charge allocation are missing."
+    },
+    {
+      "id": "component:gly-",
+      "name": "gly-",
+      "status": "PARTIAL",
+      "canAllocate": false,
+      "reason": "Source element links aid discovery only; reviewed atom counts and charge allocation are missing."
+    },
+    {
+      "id": "component:AcSal-",
+      "name": "AcSal-",
+      "status": "PARTIAL",
+      "canAllocate": false,
+      "reason": "Source element links aid discovery only; reviewed atom counts and charge allocation are missing."
+    },
+    {
+      "id": "component:NO3-",
+      "name": "NO3-",
+      "status": "PARTIAL",
+      "canAllocate": false,
+      "reason": "Source element links aid discovery only; reviewed atom counts and charge allocation are missing."
+    },
+    {
+      "id": "component:NO2-",
+      "name": "NO2-",
+      "status": "PARTIAL",
+      "canAllocate": false,
+      "reason": "Source element links aid discovery only; reviewed atom counts and charge allocation are missing."
+    },
+    {
+      "id": "component:NH3",
+      "name": "NH3",
+      "status": "PARTIAL",
+      "canAllocate": false,
+      "reason": "Source element links aid discovery only; reviewed atom counts and charge allocation are missing."
+    },
+    {
+      "id": "component:N3-",
+      "name": "N3-",
+      "status": "PARTIAL",
+      "canAllocate": false,
+      "reason": "Source element links aid discovery only; reviewed atom counts and charge allocation are missing."
+    },
+    {
+      "id": "component:F-",
+      "name": "F-",
+      "status": "PARTIAL",
+      "canAllocate": false,
+      "reason": "Source element links aid discovery only; reviewed atom counts and charge allocation are missing."
+    },
+    {
+      "id": "component:Na%2B",
+      "name": "Na+",
+      "status": "PARTIAL",
+      "canAllocate": false,
+      "reason": "Source element links aid discovery only; reviewed atom counts and charge allocation are missing."
+    },
+    {
+      "id": "component:Mg%202%2B",
+      "name": "Mg 2+",
+      "status": "PARTIAL",
+      "canAllocate": false,
+      "reason": "Source element links aid discovery only; reviewed atom counts and charge allocation are missing."
+    },
+    {
+      "id": "component:Al%203%2B",
+      "name": "Al 3+",
+      "status": "PARTIAL",
+      "canAllocate": false,
+      "reason": "Source element links aid discovery only; reviewed atom counts and charge allocation are missing."
+    },
+    {
+      "id": "component:Si(OH)4",
+      "name": "Si(OH)4",
+      "status": "PARTIAL",
+      "canAllocate": false,
+      "reason": "Source element links aid discovery only; reviewed atom counts and charge allocation are missing."
+    },
+    {
+      "id": "component:PO4%203-",
+      "name": "PO4 3-",
+      "status": "PARTIAL",
+      "canAllocate": false,
+      "reason": "Source element links aid discovery only; reviewed atom counts and charge allocation are missing."
+    },
+    {
+      "id": "component:HPO3%202-",
+      "name": "HPO3 2-",
+      "status": "PARTIAL",
+      "canAllocate": false,
+      "reason": "Source element links aid discovery only; reviewed atom counts and charge allocation are missing."
+    },
+    {
+      "id": "component:H2PO2-",
+      "name": "H2PO2-",
+      "status": "PARTIAL",
+      "canAllocate": false,
+      "reason": "Source element links aid discovery only; reviewed atom counts and charge allocation are missing."
+    },
+    {
+      "id": "component:P2O6%204-",
+      "name": "P2O6 4-",
+      "status": "PARTIAL",
+      "canAllocate": false,
+      "reason": "Source element links aid discovery only; reviewed atom counts and charge allocation are missing."
+    },
+    {
+      "id": "component:HP2O6%203-",
+      "name": "HP2O6 3-",
+      "status": "PARTIAL",
+      "canAllocate": false,
+      "reason": "Source element links aid discovery only; reviewed atom counts and charge allocation are missing."
+    },
+    {
+      "id": "component:P2O7%204-",
+      "name": "P2O7 4-",
+      "status": "PARTIAL",
+      "canAllocate": false,
+      "reason": "Source element links aid discovery only; reviewed atom counts and charge allocation are missing."
+    },
+    {
+      "id": "component:P3O9%203-",
+      "name": "P3O9 3-",
+      "status": "PARTIAL",
+      "canAllocate": false,
+      "reason": "Source element links aid discovery only; reviewed atom counts and charge allocation are missing."
+    },
+    {
+      "id": "component:P3O10%205-",
+      "name": "P3O10 5-",
+      "status": "PARTIAL",
+      "canAllocate": false,
+      "reason": "Source element links aid discovery only; reviewed atom counts and charge allocation are missing."
+    },
+    {
+      "id": "component:P4O12%204-",
+      "name": "P4O12 4-",
+      "status": "PARTIAL",
+      "canAllocate": false,
+      "reason": "Source element links aid discovery only; reviewed atom counts and charge allocation are missing."
+    },
+    {
+      "id": "component:SO4%202-",
+      "name": "SO4 2-",
+      "status": "PARTIAL",
+      "canAllocate": false,
+      "reason": "Source element links aid discovery only; reviewed atom counts and charge allocation are missing."
+    },
+    {
+      "id": "component:SO3%202-",
+      "name": "SO3 2-",
+      "status": "PARTIAL",
+      "canAllocate": false,
+      "reason": "Source element links aid discovery only; reviewed atom counts and charge allocation are missing."
+    },
+    {
+      "id": "component:S2O3%202-",
+      "name": "S2O3 2-",
+      "status": "PARTIAL",
+      "canAllocate": false,
+      "reason": "Source element links aid discovery only; reviewed atom counts and charge allocation are missing."
+    },
+    {
+      "id": "component:HS-",
+      "name": "HS-",
+      "status": "PARTIAL",
+      "canAllocate": false,
+      "reason": "Source element links aid discovery only; reviewed atom counts and charge allocation are missing."
+    },
+    {
+      "id": "component:Cl-",
+      "name": "Cl-",
+      "status": "SUPPORTED",
+      "canAllocate": true,
+      "reason": "Reviewed source-bound composition and charge; equilibrium scope requires separate network audit."
+    },
+    {
+      "id": "component:ClO3-",
+      "name": "ClO3-",
+      "status": "PARTIAL",
+      "canAllocate": false,
+      "reason": "Source element links aid discovery only; reviewed atom counts and charge allocation are missing."
+    },
+    {
+      "id": "component:K%2B",
+      "name": "K+",
+      "status": "SUPPORTED",
+      "canAllocate": true,
+      "reason": "Reviewed source-bound composition and charge; equilibrium scope requires separate network audit."
+    },
+    {
+      "id": "component:Ca%202%2B",
+      "name": "Ca 2+",
+      "status": "PARTIAL",
+      "canAllocate": false,
+      "reason": "Source element links aid discovery only; reviewed atom counts and charge allocation are missing."
+    },
+    {
+      "id": "component:Sc%203%2B",
+      "name": "Sc 3+",
+      "status": "PARTIAL",
+      "canAllocate": false,
+      "reason": "Source element links aid discovery only; reviewed atom counts and charge allocation are missing."
+    },
+    {
+      "id": "component:TiO%202%2B",
+      "name": "TiO 2+",
+      "status": "PARTIAL",
+      "canAllocate": false,
+      "reason": "Source element links aid discovery only; reviewed atom counts and charge allocation are missing."
+    },
+    {
+      "id": "component:Ti%203%2B",
+      "name": "Ti 3+",
+      "status": "PARTIAL",
+      "canAllocate": false,
+      "reason": "Source element links aid discovery only; reviewed atom counts and charge allocation are missing."
+    },
+    {
+      "id": "component:Ti%202%2B",
+      "name": "Ti 2+",
+      "status": "PARTIAL",
+      "canAllocate": false,
+      "reason": "Source element links aid discovery only; reviewed atom counts and charge allocation are missing."
+    },
+    {
+      "id": "component:V%202%2B",
+      "name": "V 2+",
+      "status": "PARTIAL",
+      "canAllocate": false,
+      "reason": "Source element links aid discovery only; reviewed atom counts and charge allocation are missing."
+    },
+    {
+      "id": "component:V%203%2B",
+      "name": "V 3+",
+      "status": "PARTIAL",
+      "canAllocate": false,
+      "reason": "Source element links aid discovery only; reviewed atom counts and charge allocation are missing."
+    },
+    {
+      "id": "component:VO%202%2B",
+      "name": "VO 2+",
+      "status": "PARTIAL",
+      "canAllocate": false,
+      "reason": "Source element links aid discovery only; reviewed atom counts and charge allocation are missing."
+    },
+    {
+      "id": "component:VO2%2B",
+      "name": "VO2+",
+      "status": "PARTIAL",
+      "canAllocate": false,
+      "reason": "Source element links aid discovery only; reviewed atom counts and charge allocation are missing."
+    },
+    {
+      "id": "component:Cr%203%2B",
+      "name": "Cr 3+",
+      "status": "SUPPORTED",
+      "canAllocate": true,
+      "reason": "Reviewed source-bound composition and charge; equilibrium scope requires separate network audit."
+    },
+    {
+      "id": "component:Cr%202%2B",
+      "name": "Cr 2+",
+      "status": "SUPPORTED",
+      "canAllocate": true,
+      "reason": "Reviewed source-bound composition and charge; equilibrium scope requires separate network audit."
+    },
+    {
+      "id": "component:CrO4%202-",
+      "name": "CrO4 2-",
+      "status": "SUPPORTED",
+      "canAllocate": true,
+      "reason": "Reviewed source-bound composition and charge; equilibrium scope requires separate network audit."
+    },
+    {
+      "id": "component:Mn%202%2B",
+      "name": "Mn 2+",
+      "status": "PARTIAL",
+      "canAllocate": false,
+      "reason": "Source element links aid discovery only; reviewed atom counts and charge allocation are missing."
+    },
+    {
+      "id": "component:Mn%203%2B",
+      "name": "Mn 3+",
+      "status": "PARTIAL",
+      "canAllocate": false,
+      "reason": "Source element links aid discovery only; reviewed atom counts and charge allocation are missing."
+    },
+    {
+      "id": "component:Fe%202%2B",
+      "name": "Fe 2+",
+      "status": "SUPPORTED",
+      "canAllocate": true,
+      "reason": "Reviewed source-bound composition and charge; equilibrium scope requires separate network audit."
+    },
+    {
+      "id": "component:Fe%203%2B",
+      "name": "Fe 3+",
+      "status": "SUPPORTED",
+      "canAllocate": true,
+      "reason": "Reviewed source-bound composition and charge; equilibrium scope requires separate network audit."
+    },
+    {
+      "id": "component:Co%202%2B",
+      "name": "Co 2+",
+      "status": "PARTIAL",
+      "canAllocate": false,
+      "reason": "Source element links aid discovery only; reviewed atom counts and charge allocation are missing."
+    },
+    {
+      "id": "component:Co%203%2B",
+      "name": "Co 3+",
+      "status": "PARTIAL",
+      "canAllocate": false,
+      "reason": "Source element links aid discovery only; reviewed atom counts and charge allocation are missing."
+    },
+    {
+      "id": "component:Ni%202%2B",
+      "name": "Ni 2+",
+      "status": "PARTIAL",
+      "canAllocate": false,
+      "reason": "Source element links aid discovery only; reviewed atom counts and charge allocation are missing."
+    },
+    {
+      "id": "component:Cu%202%2B",
+      "name": "Cu 2+",
+      "status": "PARTIAL",
+      "canAllocate": false,
+      "reason": "Source element links aid discovery only; reviewed atom counts and charge allocation are missing."
+    },
+    {
+      "id": "component:Cu%2B",
+      "name": "Cu+",
+      "status": "PARTIAL",
+      "canAllocate": false,
+      "reason": "Source element links aid discovery only; reviewed atom counts and charge allocation are missing."
+    },
+    {
+      "id": "component:Zn%202%2B",
+      "name": "Zn 2+",
+      "status": "PARTIAL",
+      "canAllocate": false,
+      "reason": "Source element links aid discovery only; reviewed atom counts and charge allocation are missing."
+    },
+    {
+      "id": "component:Ga%203%2B",
+      "name": "Ga 3+",
+      "status": "PARTIAL",
+      "canAllocate": false,
+      "reason": "Source element links aid discovery only; reviewed atom counts and charge allocation are missing."
+    },
+    {
+      "id": "component:Ge%202%2B",
+      "name": "Ge 2+",
+      "status": "PARTIAL",
+      "canAllocate": false,
+      "reason": "Source element links aid discovery only; reviewed atom counts and charge allocation are missing."
+    },
+    {
+      "id": "component:Ge(OH)4",
+      "name": "Ge(OH)4",
+      "status": "PARTIAL",
+      "canAllocate": false,
+      "reason": "Source element links aid discovery only; reviewed atom counts and charge allocation are missing."
+    },
+    {
+      "id": "component:H3AsO3",
+      "name": "H3AsO3",
+      "status": "PARTIAL",
+      "canAllocate": false,
+      "reason": "Source element links aid discovery only; reviewed atom counts and charge allocation are missing."
+    },
+    {
+      "id": "component:AsO4%203-",
+      "name": "AsO4 3-",
+      "status": "PARTIAL",
+      "canAllocate": false,
+      "reason": "Source element links aid discovery only; reviewed atom counts and charge allocation are missing."
+    },
+    {
+      "id": "component:SeO4%202-",
+      "name": "SeO4 2-",
+      "status": "PARTIAL",
+      "canAllocate": false,
+      "reason": "Source element links aid discovery only; reviewed atom counts and charge allocation are missing."
+    },
+    {
+      "id": "component:SeO3%202-",
+      "name": "SeO3 2-",
+      "status": "PARTIAL",
+      "canAllocate": false,
+      "reason": "Source element links aid discovery only; reviewed atom counts and charge allocation are missing."
+    },
+    {
+      "id": "component:H2Se",
+      "name": "H2Se",
+      "status": "PARTIAL",
+      "canAllocate": false,
+      "reason": "Source element links aid discovery only; reviewed atom counts and charge allocation are missing."
+    },
+    {
+      "id": "component:SeCN-",
+      "name": "SeCN-",
+      "status": "PARTIAL",
+      "canAllocate": false,
+      "reason": "Source element links aid discovery only; reviewed atom counts and charge allocation are missing."
+    },
+    {
+      "id": "component:Br-",
+      "name": "Br-",
+      "status": "PARTIAL",
+      "canAllocate": false,
+      "reason": "Source element links aid discovery only; reviewed atom counts and charge allocation are missing."
+    },
+    {
+      "id": "component:BrO-",
+      "name": "BrO-",
+      "status": "PARTIAL",
+      "canAllocate": false,
+      "reason": "Source element links aid discovery only; reviewed atom counts and charge allocation are missing."
+    },
+    {
+      "id": "component:BrO3-",
+      "name": "BrO3-",
+      "status": "PARTIAL",
+      "canAllocate": false,
+      "reason": "Source element links aid discovery only; reviewed atom counts and charge allocation are missing."
+    },
+    {
+      "id": "component:Rb%2B",
+      "name": "Rb+",
+      "status": "PARTIAL",
+      "canAllocate": false,
+      "reason": "Source element links aid discovery only; reviewed atom counts and charge allocation are missing."
+    },
+    {
+      "id": "component:Sr%202%2B",
+      "name": "Sr 2+",
+      "status": "PARTIAL",
+      "canAllocate": false,
+      "reason": "Source element links aid discovery only; reviewed atom counts and charge allocation are missing."
+    },
+    {
+      "id": "component:Y%203%2B",
+      "name": "Y 3+",
+      "status": "PARTIAL",
+      "canAllocate": false,
+      "reason": "Source element links aid discovery only; reviewed atom counts and charge allocation are missing."
+    },
+    {
+      "id": "component:Zr%204%2B",
+      "name": "Zr 4+",
+      "status": "PARTIAL",
+      "canAllocate": false,
+      "reason": "Source element links aid discovery only; reviewed atom counts and charge allocation are missing."
+    },
+    {
+      "id": "component:Nb(OH)5",
+      "name": "Nb(OH)5",
+      "status": "PARTIAL",
+      "canAllocate": false,
+      "reason": "Source element links aid discovery only; reviewed atom counts and charge allocation are missing."
+    },
+    {
+      "id": "component:MoO4%202-",
+      "name": "MoO4 2-",
+      "status": "PARTIAL",
+      "canAllocate": false,
+      "reason": "Source element links aid discovery only; reviewed atom counts and charge allocation are missing."
+    },
+    {
+      "id": "component:Mo2O4%202%2B",
+      "name": "Mo2O4 2+",
+      "status": "PARTIAL",
+      "canAllocate": false,
+      "reason": "Source element links aid discovery only; reviewed atom counts and charge allocation are missing."
+    },
+    {
+      "id": "component:Mo%203%2B",
+      "name": "Mo 3+",
+      "status": "PARTIAL",
+      "canAllocate": false,
+      "reason": "Source element links aid discovery only; reviewed atom counts and charge allocation are missing."
+    },
+    {
+      "id": "component:Tc%203%2B",
+      "name": "Tc 3+",
+      "status": "PARTIAL",
+      "canAllocate": false,
+      "reason": "Source element links aid discovery only; reviewed atom counts and charge allocation are missing."
+    },
+    {
+      "id": "component:TcO(OH)2",
+      "name": "TcO(OH)2",
+      "status": "PARTIAL",
+      "canAllocate": false,
+      "reason": "Source element links aid discovery only; reviewed atom counts and charge allocation are missing."
+    },
+    {
+      "id": "component:TcO4%203-",
+      "name": "TcO4 3-",
+      "status": "PARTIAL",
+      "canAllocate": false,
+      "reason": "Source element links aid discovery only; reviewed atom counts and charge allocation are missing."
+    },
+    {
+      "id": "component:TcO4%202-",
+      "name": "TcO4 2-",
+      "status": "PARTIAL",
+      "canAllocate": false,
+      "reason": "Source element links aid discovery only; reviewed atom counts and charge allocation are missing."
+    },
+    {
+      "id": "component:TcO4-",
+      "name": "TcO4-",
+      "status": "PARTIAL",
+      "canAllocate": false,
+      "reason": "Source element links aid discovery only; reviewed atom counts and charge allocation are missing."
+    },
+    {
+      "id": "component:Ru%202%2B",
+      "name": "Ru 2+",
+      "status": "PARTIAL",
+      "canAllocate": false,
+      "reason": "Source element links aid discovery only; reviewed atom counts and charge allocation are missing."
+    },
+    {
+      "id": "component:Ru%203%2B",
+      "name": "Ru 3+",
+      "status": "PARTIAL",
+      "canAllocate": false,
+      "reason": "Source element links aid discovery only; reviewed atom counts and charge allocation are missing."
+    },
+    {
+      "id": "component:Ru(OH)2%202%2B",
+      "name": "Ru(OH)2 2+",
+      "status": "PARTIAL",
+      "canAllocate": false,
+      "reason": "Source element links aid discovery only; reviewed atom counts and charge allocation are missing."
+    },
+    {
+      "id": "component:RuO4%202-",
+      "name": "RuO4 2-",
+      "status": "PARTIAL",
+      "canAllocate": false,
+      "reason": "Source element links aid discovery only; reviewed atom counts and charge allocation are missing."
+    },
+    {
+      "id": "component:RuO4",
+      "name": "RuO4",
+      "status": "PARTIAL",
+      "canAllocate": false,
+      "reason": "Source element links aid discovery only; reviewed atom counts and charge allocation are missing."
+    },
+    {
+      "id": "component:Rh%203%2B",
+      "name": "Rh 3+",
+      "status": "PARTIAL",
+      "canAllocate": false,
+      "reason": "Source element links aid discovery only; reviewed atom counts and charge allocation are missing."
+    },
+    {
+      "id": "component:Rh%202%2B",
+      "name": "Rh 2+",
+      "status": "PARTIAL",
+      "canAllocate": false,
+      "reason": "Source element links aid discovery only; reviewed atom counts and charge allocation are missing."
+    },
+    {
+      "id": "component:Pd%202%2B",
+      "name": "Pd 2+",
+      "status": "PARTIAL",
+      "canAllocate": false,
+      "reason": "Source element links aid discovery only; reviewed atom counts and charge allocation are missing."
+    },
+    {
+      "id": "component:Ag%2B",
+      "name": "Ag+",
+      "status": "PARTIAL",
+      "canAllocate": false,
+      "reason": "Source element links aid discovery only; reviewed atom counts and charge allocation are missing."
+    },
+    {
+      "id": "component:Cd%202%2B",
+      "name": "Cd 2+",
+      "status": "PARTIAL",
+      "canAllocate": false,
+      "reason": "Source element links aid discovery only; reviewed atom counts and charge allocation are missing."
+    },
+    {
+      "id": "component:In%203%2B",
+      "name": "In 3+",
+      "status": "PARTIAL",
+      "canAllocate": false,
+      "reason": "Source element links aid discovery only; reviewed atom counts and charge allocation are missing."
+    },
+    {
+      "id": "component:Sn%202%2B",
+      "name": "Sn 2+",
+      "status": "PARTIAL",
+      "canAllocate": false,
+      "reason": "Source element links aid discovery only; reviewed atom counts and charge allocation are missing."
+    },
+    {
+      "id": "component:Sn%204%2B",
+      "name": "Sn 4+",
+      "status": "PARTIAL",
+      "canAllocate": false,
+      "reason": "Source element links aid discovery only; reviewed atom counts and charge allocation are missing."
+    },
+    {
+      "id": "component:(CH3)2Sn%202%2B",
+      "name": "(CH3)2Sn 2+",
+      "status": "PARTIAL",
+      "canAllocate": false,
+      "reason": "Source element links aid discovery only; reviewed atom counts and charge allocation are missing."
+    },
+    {
+      "id": "component:Sb(OH)3",
+      "name": "Sb(OH)3",
+      "status": "PARTIAL",
+      "canAllocate": false,
+      "reason": "Source element links aid discovery only; reviewed atom counts and charge allocation are missing."
+    },
+    {
+      "id": "component:Sb(OH)6-",
+      "name": "Sb(OH)6-",
+      "status": "PARTIAL",
+      "canAllocate": false,
+      "reason": "Source element links aid discovery only; reviewed atom counts and charge allocation are missing."
+    },
+    {
+      "id": "component:HTe-",
+      "name": "HTe-",
+      "status": "PARTIAL",
+      "canAllocate": false,
+      "reason": "Source element links aid discovery only; reviewed atom counts and charge allocation are missing."
+    },
+    {
+      "id": "component:H2TeO3",
+      "name": "H2TeO3",
+      "status": "PARTIAL",
+      "canAllocate": false,
+      "reason": "Source element links aid discovery only; reviewed atom counts and charge allocation are missing."
+    },
+    {
+      "id": "component:H6TeO6",
+      "name": "H6TeO6",
+      "status": "PARTIAL",
+      "canAllocate": false,
+      "reason": "Source element links aid discovery only; reviewed atom counts and charge allocation are missing."
+    },
+    {
+      "id": "component:I-",
+      "name": "I-",
+      "status": "PARTIAL",
+      "canAllocate": false,
+      "reason": "Source element links aid discovery only; reviewed atom counts and charge allocation are missing."
+    },
+    {
+      "id": "component:IO3-",
+      "name": "IO3-",
+      "status": "PARTIAL",
+      "canAllocate": false,
+      "reason": "Source element links aid discovery only; reviewed atom counts and charge allocation are missing."
+    },
+    {
+      "id": "component:Cs%2B",
+      "name": "Cs+",
+      "status": "PARTIAL",
+      "canAllocate": false,
+      "reason": "Source element links aid discovery only; reviewed atom counts and charge allocation are missing."
+    },
+    {
+      "id": "component:Ba%202%2B",
+      "name": "Ba 2+",
+      "status": "PARTIAL",
+      "canAllocate": false,
+      "reason": "Source element links aid discovery only; reviewed atom counts and charge allocation are missing."
+    },
+    {
+      "id": "component:La%203%2B",
+      "name": "La 3+",
+      "status": "PARTIAL",
+      "canAllocate": false,
+      "reason": "Source element links aid discovery only; reviewed atom counts and charge allocation are missing."
+    },
+    {
+      "id": "component:Ce%203%2B",
+      "name": "Ce 3+",
+      "status": "PARTIAL",
+      "canAllocate": false,
+      "reason": "Source element links aid discovery only; reviewed atom counts and charge allocation are missing."
+    },
+    {
+      "id": "component:Ce%204%2B",
+      "name": "Ce 4+",
+      "status": "PARTIAL",
+      "canAllocate": false,
+      "reason": "Source element links aid discovery only; reviewed atom counts and charge allocation are missing."
+    },
+    {
+      "id": "component:Pr%203%2B",
+      "name": "Pr 3+",
+      "status": "PARTIAL",
+      "canAllocate": false,
+      "reason": "Source element links aid discovery only; reviewed atom counts and charge allocation are missing."
+    },
+    {
+      "id": "component:Nd%203%2B",
+      "name": "Nd 3+",
+      "status": "PARTIAL",
+      "canAllocate": false,
+      "reason": "Source element links aid discovery only; reviewed atom counts and charge allocation are missing."
+    },
+    {
+      "id": "component:Sm%203%2B",
+      "name": "Sm 3+",
+      "status": "PARTIAL",
+      "canAllocate": false,
+      "reason": "Source element links aid discovery only; reviewed atom counts and charge allocation are missing."
+    },
+    {
+      "id": "component:Eu%203%2B",
+      "name": "Eu 3+",
+      "status": "SUPPORTED",
+      "canAllocate": true,
+      "reason": "Reviewed source-bound composition and charge; equilibrium scope requires separate network audit."
+    },
+    {
+      "id": "component:Gd%203%2B",
+      "name": "Gd 3+",
+      "status": "PARTIAL",
+      "canAllocate": false,
+      "reason": "Source element links aid discovery only; reviewed atom counts and charge allocation are missing."
+    },
+    {
+      "id": "component:Tb%203%2B",
+      "name": "Tb 3+",
+      "status": "PARTIAL",
+      "canAllocate": false,
+      "reason": "Source element links aid discovery only; reviewed atom counts and charge allocation are missing."
+    },
+    {
+      "id": "component:Dy%203%2B",
+      "name": "Dy 3+",
+      "status": "PARTIAL",
+      "canAllocate": false,
+      "reason": "Source element links aid discovery only; reviewed atom counts and charge allocation are missing."
+    },
+    {
+      "id": "component:Ho%203%2B",
+      "name": "Ho 3+",
+      "status": "PARTIAL",
+      "canAllocate": false,
+      "reason": "Source element links aid discovery only; reviewed atom counts and charge allocation are missing."
+    },
+    {
+      "id": "component:Er%203%2B",
+      "name": "Er 3+",
+      "status": "PARTIAL",
+      "canAllocate": false,
+      "reason": "Source element links aid discovery only; reviewed atom counts and charge allocation are missing."
+    },
+    {
+      "id": "component:Tm%203%2B",
+      "name": "Tm 3+",
+      "status": "PARTIAL",
+      "canAllocate": false,
+      "reason": "Source element links aid discovery only; reviewed atom counts and charge allocation are missing."
+    },
+    {
+      "id": "component:Yb%203%2B",
+      "name": "Yb 3+",
+      "status": "PARTIAL",
+      "canAllocate": false,
+      "reason": "Source element links aid discovery only; reviewed atom counts and charge allocation are missing."
+    },
+    {
+      "id": "component:Lu%203%2B",
+      "name": "Lu 3+",
+      "status": "PARTIAL",
+      "canAllocate": false,
+      "reason": "Source element links aid discovery only; reviewed atom counts and charge allocation are missing."
+    },
+    {
+      "id": "component:Hf%204%2B",
+      "name": "Hf 4+",
+      "status": "PARTIAL",
+      "canAllocate": false,
+      "reason": "Source element links aid discovery only; reviewed atom counts and charge allocation are missing."
+    },
+    {
+      "id": "component:Ta(OH)5",
+      "name": "Ta(OH)5",
+      "status": "PARTIAL",
+      "canAllocate": false,
+      "reason": "Source element links aid discovery only; reviewed atom counts and charge allocation are missing."
+    },
+    {
+      "id": "component:WO4%202-",
+      "name": "WO4 2-",
+      "status": "PARTIAL",
+      "canAllocate": false,
+      "reason": "Source element links aid discovery only; reviewed atom counts and charge allocation are missing."
+    },
+    {
+      "id": "component:ReO4-",
+      "name": "ReO4-",
+      "status": "PARTIAL",
+      "canAllocate": false,
+      "reason": "Source element links aid discovery only; reviewed atom counts and charge allocation are missing."
+    },
+    {
+      "id": "component:Re(OH)4",
+      "name": "Re(OH)4",
+      "status": "PARTIAL",
+      "canAllocate": false,
+      "reason": "Source element links aid discovery only; reviewed atom counts and charge allocation are missing."
+    },
+    {
+      "id": "component:OsO4",
+      "name": "OsO4",
+      "status": "PARTIAL",
+      "canAllocate": false,
+      "reason": "Source element links aid discovery only; reviewed atom counts and charge allocation are missing."
+    },
+    {
+      "id": "component:Ir%203%2B",
+      "name": "Ir 3+",
+      "status": "PARTIAL",
+      "canAllocate": false,
+      "reason": "Source element links aid discovery only; reviewed atom counts and charge allocation are missing."
+    },
+    {
+      "id": "component:Pt%202%2B",
+      "name": "Pt 2+",
+      "status": "PARTIAL",
+      "canAllocate": false,
+      "reason": "Source element links aid discovery only; reviewed atom counts and charge allocation are missing."
+    },
+    {
+      "id": "component:Au%2B",
+      "name": "Au+",
+      "status": "PARTIAL",
+      "canAllocate": false,
+      "reason": "Source element links aid discovery only; reviewed atom counts and charge allocation are missing."
+    },
+    {
+      "id": "component:Au%203%2B",
+      "name": "Au 3+",
+      "status": "PARTIAL",
+      "canAllocate": false,
+      "reason": "Source element links aid discovery only; reviewed atom counts and charge allocation are missing."
+    },
+    {
+      "id": "component:Hg%202%2B",
+      "name": "Hg 2+",
+      "status": "PARTIAL",
+      "canAllocate": false,
+      "reason": "Source element links aid discovery only; reviewed atom counts and charge allocation are missing."
+    },
+    {
+      "id": "component:Hg2%202%2B",
+      "name": "Hg2 2+",
+      "status": "PARTIAL",
+      "canAllocate": false,
+      "reason": "Source element links aid discovery only; reviewed atom counts and charge allocation are missing."
+    },
+    {
+      "id": "component:CH3Hg%2B",
+      "name": "CH3Hg+",
+      "status": "PARTIAL",
+      "canAllocate": false,
+      "reason": "Source element links aid discovery only; reviewed atom counts and charge allocation are missing."
+    },
+    {
+      "id": "component:Tl%203%2B",
+      "name": "Tl 3+",
+      "status": "PARTIAL",
+      "canAllocate": false,
+      "reason": "Source element links aid discovery only; reviewed atom counts and charge allocation are missing."
+    },
+    {
+      "id": "component:Tl%2B",
+      "name": "Tl+",
+      "status": "PARTIAL",
+      "canAllocate": false,
+      "reason": "Source element links aid discovery only; reviewed atom counts and charge allocation are missing."
+    },
+    {
+      "id": "component:Pb%202%2B",
+      "name": "Pb 2+",
+      "status": "PARTIAL",
+      "canAllocate": false,
+      "reason": "Source element links aid discovery only; reviewed atom counts and charge allocation are missing."
+    },
+    {
+      "id": "component:Pb%204%2B",
+      "name": "Pb 4+",
+      "status": "PARTIAL",
+      "canAllocate": false,
+      "reason": "Source element links aid discovery only; reviewed atom counts and charge allocation are missing."
+    },
+    {
+      "id": "component:(CH3)2Pb%202%2B",
+      "name": "(CH3)2Pb 2+",
+      "status": "PARTIAL",
+      "canAllocate": false,
+      "reason": "Source element links aid discovery only; reviewed atom counts and charge allocation are missing."
+    },
+    {
+      "id": "component:Bi%203%2B",
+      "name": "Bi 3+",
+      "status": "PARTIAL",
+      "canAllocate": false,
+      "reason": "Source element links aid discovery only; reviewed atom counts and charge allocation are missing."
+    },
+    {
+      "id": "component:HPo-",
+      "name": "HPo-",
+      "status": "PARTIAL",
+      "canAllocate": false,
+      "reason": "Source element links aid discovery only; reviewed atom counts and charge allocation are missing."
+    },
+    {
+      "id": "component:Po%202%2B",
+      "name": "Po 2+",
+      "status": "PARTIAL",
+      "canAllocate": false,
+      "reason": "Source element links aid discovery only; reviewed atom counts and charge allocation are missing."
+    },
+    {
+      "id": "component:PoO%202%2B",
+      "name": "PoO 2+",
+      "status": "PARTIAL",
+      "canAllocate": false,
+      "reason": "Source element links aid discovery only; reviewed atom counts and charge allocation are missing."
+    },
+    {
+      "id": "component:Ra%202%2B",
+      "name": "Ra 2+",
+      "status": "PARTIAL",
+      "canAllocate": false,
+      "reason": "Source element links aid discovery only; reviewed atom counts and charge allocation are missing."
+    },
+    {
+      "id": "component:Th%204%2B",
+      "name": "Th 4+",
+      "status": "PARTIAL",
+      "canAllocate": false,
+      "reason": "Source element links aid discovery only; reviewed atom counts and charge allocation are missing."
+    },
+    {
+      "id": "component:U%204%2B",
+      "name": "U 4+",
+      "status": "PARTIAL",
+      "canAllocate": false,
+      "reason": "Source element links aid discovery only; reviewed atom counts and charge allocation are missing."
+    },
+    {
+      "id": "component:UO2%2B",
+      "name": "UO2+",
+      "status": "PARTIAL",
+      "canAllocate": false,
+      "reason": "Source element links aid discovery only; reviewed atom counts and charge allocation are missing."
+    },
+    {
+      "id": "component:UO2%202%2B",
+      "name": "UO2 2+",
+      "status": "PARTIAL",
+      "canAllocate": false,
+      "reason": "Source element links aid discovery only; reviewed atom counts and charge allocation are missing."
+    },
+    {
+      "id": "component:U%203%2B",
+      "name": "U 3+",
+      "status": "PARTIAL",
+      "canAllocate": false,
+      "reason": "Source element links aid discovery only; reviewed atom counts and charge allocation are missing."
+    },
+    {
+      "id": "component:Np%204%2B",
+      "name": "Np 4+",
+      "status": "PARTIAL",
+      "canAllocate": false,
+      "reason": "Source element links aid discovery only; reviewed atom counts and charge allocation are missing."
+    },
+    {
+      "id": "component:NpO2%2B",
+      "name": "NpO2+",
+      "status": "PARTIAL",
+      "canAllocate": false,
+      "reason": "Source element links aid discovery only; reviewed atom counts and charge allocation are missing."
+    },
+    {
+      "id": "component:NpO2%202%2B",
+      "name": "NpO2 2+",
+      "status": "PARTIAL",
+      "canAllocate": false,
+      "reason": "Source element links aid discovery only; reviewed atom counts and charge allocation are missing."
+    },
+    {
+      "id": "component:Np%203%2B",
+      "name": "Np 3+",
+      "status": "PARTIAL",
+      "canAllocate": false,
+      "reason": "Source element links aid discovery only; reviewed atom counts and charge allocation are missing."
+    },
+    {
+      "id": "component:Pu%203%2B",
+      "name": "Pu 3+",
+      "status": "PARTIAL",
+      "canAllocate": false,
+      "reason": "Source element links aid discovery only; reviewed atom counts and charge allocation are missing."
+    },
+    {
+      "id": "component:Pu%204%2B",
+      "name": "Pu 4+",
+      "status": "PARTIAL",
+      "canAllocate": false,
+      "reason": "Source element links aid discovery only; reviewed atom counts and charge allocation are missing."
+    },
+    {
+      "id": "component:PuO2%2B",
+      "name": "PuO2+",
+      "status": "PARTIAL",
+      "canAllocate": false,
+      "reason": "Source element links aid discovery only; reviewed atom counts and charge allocation are missing."
+    },
+    {
+      "id": "component:PuO2%202%2B",
+      "name": "PuO2 2+",
+      "status": "PARTIAL",
+      "canAllocate": false,
+      "reason": "Source element links aid discovery only; reviewed atom counts and charge allocation are missing."
+    },
+    {
+      "id": "component:Am%203%2B",
+      "name": "Am 3+",
+      "status": "PARTIAL",
+      "canAllocate": false,
+      "reason": "Source element links aid discovery only; reviewed atom counts and charge allocation are missing."
+    },
+    {
+      "id": "component:Am%204%2B",
+      "name": "Am 4+",
+      "status": "PARTIAL",
+      "canAllocate": false,
+      "reason": "Source element links aid discovery only; reviewed atom counts and charge allocation are missing."
+    },
+    {
+      "id": "component:AmO2%2B",
+      "name": "AmO2+",
+      "status": "PARTIAL",
+      "canAllocate": false,
+      "reason": "Source element links aid discovery only; reviewed atom counts and charge allocation are missing."
+    },
+    {
+      "id": "component:H2O",
+      "name": "H2O",
+      "status": "SUPPORTED",
+      "canAllocate": true,
+      "reason": "Reviewed source-bound composition and charge; equilibrium scope requires separate network audit."
+    }
+  ]
+}

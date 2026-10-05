@@ -1,0 +1,1352 @@
+{
+  "schemaVersion": 1,
+  "sourceRevision": "c94b0d8f33fd89eaadcec5a9f3fbf296b6b0e3f7",
+  "javaVersion": "openjdk version \"21.0.10\" 2026-01-20\r\nOpenJDK Runtime Environment JBR-21.0.10+1-1163.108-jcef (build 21.0.10+1-b1163.108)\r\nOpenJDK 64-Bit Server VM JBR-21.0.10+1-1163.108-jcef (build 21.0.10+1-b1163.108, mixed mode, sharing)\r\n",
+  "ecSourceSha256": "506e9831f96a14985d678639575f274b9124ac45416f7e83967d74e633705b37",
+  "probeSourceSha256": "ab0fb08563faf69f3494d0e37e08863725dc3c075658246ff2c5186d9101e993",
+  "librarySources": [
+    {
+      "path": "lib/Version.java",
+      "sha256": "7f5c56444478ec303e1cc23f5010b6b45da4f797fa18be10429af73bd77e890b"
+    },
+    {
+      "path": "lib/common/ClassLocator.java",
+      "sha256": "5aee9720b7231c75eee14153bccd31ab4c70c6ed628469e8a620999ae482eff2"
+    },
+    {
+      "path": "lib/common/MsgExceptn.java",
+      "sha256": "967a27ae7f424d29067d2f2545b851967d9247ee2b1051a540b50d0088cba9eb"
+    },
+    {
+      "path": "lib/common/Util.java",
+      "sha256": "f366b1de8ad2ca852ce92c0d3ee495ba0f75b6483ff12828244bb1ac0bb4cc55"
+    },
+    {
+      "path": "lib/huvud/Div.java",
+      "sha256": "71f3fe9a7c1f895030735b81bb2e13d3a23e978c34a66a7ac50b7e75be3e7832"
+    },
+    {
+      "path": "lib/huvud/JarClassLoader.java",
+      "sha256": "15e60e6c035a0c694114ad9efd41ff656b6e96c6741ce60ac2f7bc3c0b3f8e97"
+    },
+    {
+      "path": "lib/huvud/LicenseFrame.java",
+      "sha256": "86fdc59800297d150af5c0475cae53e277e383cb058ebd74970a0fbcf19a391d"
+    },
+    {
+      "path": "lib/huvud/ProgramConf.java",
+      "sha256": "472d8b4a1efea265bafee8a66ce99d3481c64b74a63b6e02033a1e5c24b48710"
+    },
+    {
+      "path": "lib/huvud/RedirectedFrame.java",
+      "sha256": "be4adffbd5bf49955694729436c513765042abd15730129b82b3d02fce6fc555"
+    },
+    {
+      "path": "lib/huvud/RunJar.java",
+      "sha256": "fb925c606f03d96c115832b6c0bac837b94ee071f271f570485268cc6887a277"
+    },
+    {
+      "path": "lib/huvud/RunProgr.java",
+      "sha256": "08b10cdd1b278dd105fab5a764093a7ef8052402ca04555e0d9a1ee4abb45fc1"
+    },
+    {
+      "path": "lib/huvud/SortedListModel.java",
+      "sha256": "ad7d72c6308d3800495ebc38199453245b61936dfc3e3532e905f54041471c90"
+    },
+    {
+      "path": "lib/huvud/SortedProperties.java",
+      "sha256": "91a0ebeac617e8517007ffc79e54bb23b52392f40dae94efbfd3cf0c8ace2e51"
+    },
+    {
+      "path": "lib/huvud/Splash.java",
+      "sha256": "1b1bf56ccf48c87e1a81b5f986803cb1e70f2f19036648de3a7fe6b434084843"
+    },
+    {
+      "path": "lib/kemi/chem/Chem.java",
+      "sha256": "275b1391f2ea0e2e7bf504e8daccba0dbab5e7472c7f69c508e3a604041632aa"
+    },
+    {
+      "path": "lib/kemi/graph_lib/DiagrPaintUtility.java",
+      "sha256": "8d5f42295e67329ac6057044ee6c450a54767ffab3e644965625d1e9bc18166d"
+    },
+    {
+      "path": "lib/kemi/graph_lib/GraphLib.java",
+      "sha256": "16af715fc632a8f324ab8516f9c0790d968e28d3c32476363bcae9b7e8c08f6a"
+    },
+    {
+      "path": "lib/kemi/H2O/Dielectric.java",
+      "sha256": "f1a413f2aacbbb7813fd988d749b29e3e137b9fd889c1787e09e3aaea4a0ea52"
+    },
+    {
+      "path": "lib/kemi/H2O/IAPWSF95.java",
+      "sha256": "266322db2899f2af725bd704e2d584c58fe3d10612248a562cb431c0a34ae457"
+    },
+    {
+      "path": "lib/kemi/haltaFall/Factor.java",
+      "sha256": "947dd8c180fe1d835680c6e648541daf5b47fe58dae2263dfd2f70d1c54412da"
+    },
+    {
+      "path": "lib/kemi/haltaFall/FactorInterface.java",
+      "sha256": "c231272359f661d5e3b5c4b2047998120a264526e04f7a9638189ec0e325b006"
+    },
+    {
+      "path": "lib/kemi/haltaFall/HaltaFall.java",
+      "sha256": "30736dac110453a8558c51fe2f9a4b9000aee5aedea04a98d4f5370e5fb0df95"
+    },
+    {
+      "path": "lib/kemi/interpolate/Interpolate.java",
+      "sha256": "2275bf1200aeb1160b4baf30c8963013b17fdc944c6fca053cdfe11dd13214d4"
+    },
+    {
+      "path": "lib/kemi/readDataLib/ReadDataLib.java",
+      "sha256": "d32be4b2fa1a0feeb511efc130330a542dbb6fd272135ae4d2b92603f4c00946"
+    },
+    {
+      "path": "lib/kemi/readWriteDataFiles/DefaultPlotAndConcs.java",
+      "sha256": "95158e1b73b390ca98dfd0712299103e990946201b1a2bdd65a23faa287460e5"
+    },
+    {
+      "path": "lib/kemi/readWriteDataFiles/ModifyChemSyst.java",
+      "sha256": "2a42488f58be73450fcd804c538827a0459b169852fbdce9346a4697416965e2"
+    },
+    {
+      "path": "lib/kemi/readWriteDataFiles/ReadChemSyst.java",
+      "sha256": "a4aa14aaebae11d2d7c81973ab48d22f77a5ef9dc7e4df9de1136a36aa0de063"
+    },
+    {
+      "path": "lib/kemi/readWriteDataFiles/WriteChemSyst.java",
+      "sha256": "d6af4373b37cb8c217888980ac5c0ea94e09300914cd5734912bb4deca86c7a5"
+    }
+  ],
+  "generatedAt": "2026-09-05T16:58:13.170Z",
+  "warning": "Official Java outputs for restricted benchmark systems; not Adam’s Laboratory results or full database predictions.",
+  "cases": [
+    {
+      "id": "acid-base",
+      "components": [
+        "H+",
+        "H2O"
+      ],
+      "species": [
+        "OH-"
+      ],
+      "conditions": [
+        "LA,-7",
+        "LA,0"
+      ],
+      "input": "2, 1, 0, 0\nH+\nH2O\nOH-, -14.0015, -1, 1\n1\nLA,-7\nLA,0\n",
+      "inputSha256": "8e753080a19498bd77f9778cdd34af72a7ad918a7c7186ebc7e250a6501bd022",
+      "javaCommand": {
+        "executable": "C:/Program Files/JetBrains/PyCharm 2025.3.3/jbr/bin/java.exe",
+        "args": [
+          "-Djava.awt.headless=true",
+          "-cp",
+          "C:\\Users\\adamb\\PycharmProjects\\PythonProject\\adams-laboratory\\.local\\phase4-reference\\classes",
+          "ec.EC",
+          "C:\\Users\\adamb\\PycharmProjects\\PythonProject\\adams-laboratory\\.local\\phase4-reference\\acid-base\\acid-base.dat",
+          "-m=-1",
+          "-t=25",
+          "-tol=1e-10",
+          "-d=3"
+        ]
+      },
+      "stdout": ".-----------------------------------------.\r\n| EQUILIBRIUM CALCULATIONS (Java)         |\r\n| Modified HaltaFall, vers. 2026-03-04    |\r\n|                 lib.vers. 2025-10-30    |\r\n| (by I.Puigdomenech)                     |\r\n+-----------------------------------------+\r\n\r\nInput, output and table files:\r\n    path: \"C:\\Users\\adamb\\PycharmProjects\\PythonProject\\adams-laboratory\\.local\\phase4-reference\\acid-base\"\r\n   input: acid-base.dat\r\n  output: acid-base.out\r\n   table: acid-base.csv\r\nDebug printout level: 3\r\nRelative tolerance in HaltaFall = 1.0E-10\r\nColumn separator in table file: \",\"\r\n\r\nThe calculations begin now!\rstarting calculations for point 1\r                                          \rCalculated 1 points, wall-clock time = 00:00:00.049\r\nAll Done\r\n",
+      "outputs": {
+        "acid-base.csv": "     pH    , logA(H2O) ,Tot(H+)    ,Sol(H+)    ,lgA(H+)    ,C(H+)      ,C(OH-)     ,\r\n     7.0000 ,   0.000000, 3.4479e-10, 3.4479e-10,  -7.000000, 1.0000e-07, 9.9655e-08,\r\n",
+        "acid-base.out": "EQUILIBRIUM CALCULATIONS (Java)                                     2026-09-05\r\nModified HaltaFall vers. 2026-03-04                                  18:58:09\r\n               lib.vers. 2025-10-30\r\n(by I.Puigdomenech)\r\n\r\nInput, output and table files:\r\n    path: \"C:\\Users\\adamb\\PycharmProjects\\PythonProject\\adams-laboratory\\.local\\phase4-reference\\acid-base\"\r\n   input: acid-base.dat\r\n  output: acid-base.out\r\n   table: acid-base.csv\r\nDebug printout level: 3\r\nRelative tolerance in HaltaFall = 1.0E-10\r\n\r\n- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -\r\n\r\n----------------------------------------\r\nChemical System:\r\n   nr components = 2\r\n   reaction products: soluble  = 1, solid = 0\r\nComponents, name and noll:\r\n  0                   H+, false\r\n  1                  H2O,  true\r\nReaction products: name, logBeta, noll, a[]=\r\n  2 (0)                  OH-,  -14.00150 false    -1.000    1.000\r\nComponents:\r\n  kh=[0, 0]\r\n tot=[0.0, 0.0]\r\nlogA=[0.0, 0.0]\r\n----------------------------------------\r\n- - - - - - - - - - - - - - - - - - -\r\n\"haltaFall.factor\" (activity coefficient calculations):\r\n    dataNotSupplied = false, activityCoeffsModel = -1\r\nActivity coefficient calculations will not be performed.\r\n- - - - - - - - - - - - - - - - - - -\r\n\r\n- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -\r\n\r\n*** POINT 1 ***\r\n--- haltaCalc(): Starting calculation with new concentrations.\r\n    debug level = 3  cont = false\r\nhaltaInit() in,  CONT=false\r\n--- HaltaFall - input data:\r\n----------------------------------------\r\nChemical System:\r\n   nr components = 2\r\n   reaction products: soluble  = 1, solid = 0\r\nComponents, name and noll:\r\n  0                   H+, false\r\n  1                  H2O,  true\r\nReaction products: name, logBeta, noll, a[]=\r\n  2 (0)                  OH-,  -14.00150 false    -1.000    1.000\r\nComponents:\r\n  kh=[2, 2]\r\n tot=[0.0, 0.0]\r\nlogA=[-7.0, 0.0]\r\n----------------------------------------\r\n--- HaltaFall - end of input data.\r\nfactorStart(3), activityCoeffsModel =-1\r\nhaltaGetIva() in at NYA\r\nhaltaGetIva() at PLAN\r\nhaltaGetIva() returns\r\nmono[]=   false   true\r\nnober[]=    0   0\r\nober[0][]=   false  false\r\nober[1][]=   false  false\r\n      nva = 0\r\n     iva[]=  -1\r\n  ivaBra[]=  -1  -1  -1\r\n  ivaNov[]=  -1  -1\r\nnoCalc[]=  false  false\r\n  kh[]=   2   2\r\n  Tot[]=   0.000000   0.000000\r\n logA[]=      -7.00000000000000       0.00000000000000\r\nhaltaInit() returns\r\n\r\n- - - - -  Tolerance loop: 1 (of 2) iterAC_MAX=100 activityCoeffsModel=-1 (preliminary calculation with higher tolerance)\r\n\r\nMax tolerance to solve mass-balance eqns. (log) = -2.0, max tolerance span (log) = 1\r\nMass-balance tolerances (relative):\r\n NaN NaN\r\nMass-balance tolerances (absolute):\r\n NaN NaN\r\nContinuation run: false, STEG0= 0.1, STEG0_CONT= 0.01, STEGBYT= 0.005\r\nComponents:\r\n  kh=[2, 2]\r\n tot=[0.0, 0.0]\r\nlogA=[-7.0, 0.0]\r\n----------------------------------------\r\n--- HaltaFall - Calculated equilibrium composition:\r\nComponents:        name      tot conc    solubility          conc      log act    log act coeff\r\n  0                   H+    3.4479e-10    3.4479e-10    1.0000e-07       -7.0000       0.00000\r\n  1                  H2O        0.0000        0.0000        0.0000        0.0000       0.00000\r\nReaction products: name          conc      log act    log act coeff\r\n  2                  OH-    9.9655e-08       -7.0015       0.00000 \r\nMax. relative tolerance:1.0E-10\r\nTolerances used (absolute):\r\n NaN NaN\r\nsolid combinations tested: 0  activity coefficient iterations: 0\r\n--- HaltaFall - End of equilibrium composition.\r\n----------------------------------------\r\nAll Done\r\n"
+      },
+      "probes": [
+        {
+          "tolerance": 1e-10,
+          "command": {
+            "executable": "C:/Program Files/JetBrains/PyCharm 2025.3.3/jbr/bin/java.exe",
+            "args": [
+              "-Djava.awt.headless=true",
+              "-cp",
+              "C:\\Users\\adamb\\PycharmProjects\\PythonProject\\adams-laboratory\\.local\\phase4-reference\\classes",
+              "ReferenceProbe",
+              "C:\\Users\\adamb\\PycharmProjects\\PythonProject\\adams-laboratory\\.local\\phase4-reference\\acid-base\\acid-base.dat",
+              "1e-10"
+            ]
+          },
+          "raw": "{\"errFlags\":0,\"concentration\":[9.999999999999994E-8, 0.0, 9.96552080134765E-8],\"logActivity\":[-7.0, 0.0, -7.001500000000001],\"total\":[3.4479198652344837E-10, 0.0],\"dissolved\":[3.4479198652344837E-10, 0.0],\"logActivityCoefficient\":[0.0, 0.0, 0.0]}\r\n",
+          "values": {
+            "errFlags": 0,
+            "concentration": [
+              9.999999999999994e-8,
+              0,
+              9.96552080134765e-8
+            ],
+            "logActivity": [
+              -7,
+              0,
+              -7.001500000000001
+            ],
+            "total": [
+              3.4479198652344837e-10,
+              0
+            ],
+            "dissolved": [
+              3.4479198652344837e-10,
+              0
+            ],
+            "logActivityCoefficient": [
+              0,
+              0,
+              0
+            ]
+          }
+        },
+        {
+          "tolerance": 1e-12,
+          "command": {
+            "executable": "C:/Program Files/JetBrains/PyCharm 2025.3.3/jbr/bin/java.exe",
+            "args": [
+              "-Djava.awt.headless=true",
+              "-cp",
+              "C:\\Users\\adamb\\PycharmProjects\\PythonProject\\adams-laboratory\\.local\\phase4-reference\\classes",
+              "ReferenceProbe",
+              "C:\\Users\\adamb\\PycharmProjects\\PythonProject\\adams-laboratory\\.local\\phase4-reference\\acid-base\\acid-base.dat",
+              "1e-12"
+            ]
+          },
+          "raw": "{\"errFlags\":0,\"concentration\":[9.999999999999994E-8, 0.0, 9.96552080134765E-8],\"logActivity\":[-7.0, 0.0, -7.001500000000001],\"total\":[3.4479198652344837E-10, 0.0],\"dissolved\":[3.4479198652344837E-10, 0.0],\"logActivityCoefficient\":[0.0, 0.0, 0.0]}\r\n",
+          "values": {
+            "errFlags": 0,
+            "concentration": [
+              9.999999999999994e-8,
+              0,
+              9.96552080134765e-8
+            ],
+            "logActivity": [
+              -7,
+              0,
+              -7.001500000000001
+            ],
+            "total": [
+              3.4479198652344837e-10,
+              0
+            ],
+            "dissolved": [
+              3.4479198652344837e-10,
+              0
+            ],
+            "logActivityCoefficient": [
+              0,
+              0,
+              0
+            ]
+          }
+        }
+      ],
+      "sourceRecords": [
+        {
+          "id": "spana:2ac52a30213c9288:250448",
+          "name": "OH-",
+          "logK": -14.0015,
+          "coefficients": {
+            "H+": -1,
+            "H2O": 1
+          },
+          "provenance": {
+            "kind": "imported",
+            "sourceDatabase": "spana:2ac52a30213c9288dd18fc6dd597411e5c3ca53173fa6d1fab5530b371c30a0a",
+            "sourceFile": "C:\\Users\\adamb\\OneDrive\\Desktop\\Eq-Diagr_Java.zip!Eq-Diagr/Reactions.db",
+            "sourceRecordId": "byte:250448",
+            "originalRecordId": null,
+            "originalSpeciesName": "OH-",
+            "originalReaction": {
+              "product": "OH-",
+              "components": [
+                {
+                  "name": "H+",
+                  "coefficient": -1
+                },
+                {
+                  "name": "H2O",
+                  "coefficient": 1
+                }
+              ],
+              "separateProtonCount": null
+            },
+            "originalLogK": -14.0015,
+            "originalReferenceCode": "Codata+88Sho/Hel",
+            "resolvedCitation": "Codata: Cox J D, Wagman D D, Medvedev V A, CODATA Key Values for Thermodynamics. Hemisphere Publ. Co., New York, 1989\n\n88Sho/Hel: Shock E L, Helgeson H C; Geochim. Cosmochim. Acta 52 (1988) 2009-2036; and \"ERRATA\", ibid, 53 (1989) p.215",
+            "referenceSourceFile": "C:\\Users\\adamb\\OneDrive\\Desktop\\Eq-Diagr_Java.zip!Eq-Diagr/References.txt",
+            "dbSha256": "2ac52a30213c9288dd18fc6dd597411e5c3ca53173fa6d1fab5530b371c30a0a",
+            "byteOffset": 250448,
+            "byteLength": 77,
+            "importDate": "2026-09-05T16:23:16.736Z",
+            "importerVersion": "spana-readonly-1.0.0",
+            "comments": [
+              "Element links describe source components, not product atom counts. Oxidation states are not supplied."
+            ],
+            "qualityFlags": [
+              "imported",
+              "not-solver-validated",
+              "composition-unknown"
+            ],
+            "original": {
+              "speciesName": "OH-",
+              "reaction": {
+                "product": "OH-",
+                "components": [
+                  {
+                    "name": "H+",
+                    "coefficient": -1
+                  },
+                  {
+                    "name": "H2O",
+                    "coefficient": 1
+                  }
+                ],
+                "separateProtonCount": null
+              },
+              "logK": -14.0015,
+              "citation": "Codata+88Sho/Hel",
+              "raw": {
+                "ordinal": 2824,
+                "byteOffset": 250448,
+                "byteLength": 77,
+                "name": "OH-",
+                "logK": -14.0015,
+                "thermal": {
+                  "kind": "deltaH-deltaCp",
+                  "deltaH": 55.82000000000001,
+                  "deltaCp": -212.99999999999997
+                },
+                "layout": "variable",
+                "componentToken": "2",
+                "components": [
+                  {
+                    "name": "H+",
+                    "coefficient": -1
+                  },
+                  {
+                    "name": "H2O",
+                    "coefficient": 1
+                  }
+                ],
+                "protonCount": null,
+                "reference": "Codata+88Sho/Hel",
+                "comment": "",
+                "rawBase64": "AANPSC3ALADEm6XjVEBL6PXCj1wqwGqf//////8AATIAAkgrv/AAAAAAAAAAA0gyTz/wAAAAAAAAABBDb2RhdGErODhTaG8vSGVsAAA="
+              }
+            }
+          }
+        }
+      ],
+      "assumptions": {
+        "temperatureC": 25,
+        "pressureBar": 1,
+        "activityModel": "ideal",
+        "ionicStrength": "not evaluated by ideal EC path",
+        "concentrationUnit": "mol/kg-H2O",
+        "chargeBalance": "not imposed; open fixed activities or omitted spectator ions as stated by constraints",
+        "restrictedSpeciesSet": true
+      }
+    },
+    {
+      "id": "complexation",
+      "components": [
+        "Ag+",
+        "Cl-"
+      ],
+      "species": [
+        "AgCl"
+      ],
+      "conditions": [
+        "T,0.00001",
+        "T,0.001"
+      ],
+      "input": "2, 1, 0, 0\nAg+\nCl-\nAgCl, 3.31, 1, 1\n1\nT,0.00001\nT,0.001\n",
+      "inputSha256": "e8ff3ba079ee48c0197059b0c473d90bf826acf1fc5c81508f6330153e9a0556",
+      "javaCommand": {
+        "executable": "C:/Program Files/JetBrains/PyCharm 2025.3.3/jbr/bin/java.exe",
+        "args": [
+          "-Djava.awt.headless=true",
+          "-cp",
+          "C:\\Users\\adamb\\PycharmProjects\\PythonProject\\adams-laboratory\\.local\\phase4-reference\\classes",
+          "ec.EC",
+          "C:\\Users\\adamb\\PycharmProjects\\PythonProject\\adams-laboratory\\.local\\phase4-reference\\complexation\\complexation.dat",
+          "-m=-1",
+          "-t=25",
+          "-tol=1e-10",
+          "-d=3"
+        ]
+      },
+      "stdout": ".-----------------------------------------.\r\n| EQUILIBRIUM CALCULATIONS (Java)         |\r\n| Modified HaltaFall, vers. 2026-03-04    |\r\n|                 lib.vers. 2025-10-30    |\r\n| (by I.Puigdomenech)                     |\r\n+-----------------------------------------+\r\n\r\nInput, output and table files:\r\n    path: \"C:\\Users\\adamb\\PycharmProjects\\PythonProject\\adams-laboratory\\.local\\phase4-reference\\complexation\"\r\n   input: complexation.dat\r\n  output: complexation.out\r\n   table: complexation.csv\r\nDebug printout level: 3\r\nRelative tolerance in HaltaFall = 1.0E-10\r\nColumn separator in table file: \",\"\r\n\r\nThe calculations begin now!\rstarting calculations for point 1\r                                          \rCalculated 1 points, wall-clock time = 00:00:00.035\r\nAll Done\r\n",
+      "outputs": {
+        "complexation.csv": "Tot(Ag+)   ,Sol(Ag+)   ,lgA(Ag+)   ,Tot(Cl-)   ,Sol(Cl-)   ,lgA(Cl-)   ,C(Ag+)     ,C(Cl-)     ,C(AgCl)    ,\r\n  1.0000e-05, 1.0000e-05,  -5.481165, 1.0000e-03, 1.0000e-03,  -3.002918, 3.3024e-06, 9.9330e-04, 6.6976e-06,\r\n",
+        "complexation.out": "EQUILIBRIUM CALCULATIONS (Java)                                     2026-09-05\r\nModified HaltaFall vers. 2026-03-04                                  18:58:10\r\n               lib.vers. 2025-10-30\r\n(by I.Puigdomenech)\r\n\r\nInput, output and table files:\r\n    path: \"C:\\Users\\adamb\\PycharmProjects\\PythonProject\\adams-laboratory\\.local\\phase4-reference\\complexation\"\r\n   input: complexation.dat\r\n  output: complexation.out\r\n   table: complexation.csv\r\nDebug printout level: 3\r\nRelative tolerance in HaltaFall = 1.0E-10\r\n\r\n- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -\r\n\r\n----------------------------------------\r\nChemical System:\r\n   nr components = 2\r\n   reaction products: soluble  = 1, solid = 0\r\nComponents, name and noll:\r\n  0                  Ag+, false\r\n  1                  Cl-, false\r\nReaction products: name, logBeta, noll, a[]=\r\n  2 (0)                 AgCl,    3.31000 false     1.000    1.000\r\nComponents:\r\n  kh=[0, 0]\r\n tot=[0.0, 0.0]\r\nlogA=[0.0, 0.0]\r\n----------------------------------------\r\n- - - - - - - - - - - - - - - - - - -\r\n\"haltaFall.factor\" (activity coefficient calculations):\r\n    dataNotSupplied = false, activityCoeffsModel = -1\r\nActivity coefficient calculations will not be performed.\r\n- - - - - - - - - - - - - - - - - - -\r\n\r\n- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -\r\n\r\n*** POINT 1 ***\r\n--- haltaCalc(): Starting calculation with new concentrations.\r\n    debug level = 3  cont = false\r\nhaltaInit() in,  CONT=false\r\n--- HaltaFall - input data:\r\n----------------------------------------\r\nChemical System:\r\n   nr components = 2\r\n   reaction products: soluble  = 1, solid = 0\r\nComponents, name and noll:\r\n  0                  Ag+, false\r\n  1                  Cl-, false\r\nReaction products: name, logBeta, noll, a[]=\r\n  2 (0)                 AgCl,    3.31000 false     1.000    1.000\r\nComponents:\r\n  kh=[1, 1]\r\n tot=[1.0E-5, 0.001]\r\nlogA=[-8.0, -6.0]\r\n----------------------------------------\r\n--- HaltaFall - end of input data.\r\nfactorStart(3), activityCoeffsModel =-1\r\nhaltaGetIva() in at NYA\r\nhaltaGetIva() at PLAN\r\nhaltaGetIva() returns\r\nmono[]=    true   true\r\nnober[]=    0   0\r\nober[0][]=   false  false\r\nober[1][]=   false  false\r\n      nva = 2\r\n     iva[]=   0   1  -1\r\n  ivaBra[]=   1  -1  -1\r\n  ivaNov[]=   0   0\r\nnoCalc[]=  false  false\r\n  kh[]=   1   1\r\n  Tot[]=   0.000010   0.001000\r\n logA[]=      -7.00000000000000      -5.00000000000000\r\nhaltaInit() returns\r\n\r\n- - - - -  Tolerance loop: 1 (of 2) iterAC_MAX=100 activityCoeffsModel=-1 (preliminary calculation with higher tolerance)\r\n\r\nMax tolerance to solve mass-balance eqns. (log) = -2.0, max tolerance span (log) = 1\r\nMass-balance tolerances (relative):\r\n 0.001 0.01\r\nMass-balance tolerances (absolute):\r\n 1.0E-8 1.0E-5\r\nContinuation run: false, STEG0= 0.1, STEG0_CONT= 0.01, STEGBYT= 0.005\r\nComponents:\r\n  kh=[1, 1]\r\n tot=[1.0E-5, 0.001]\r\nlogA=[-7.0, -5.0]\r\n\r\n- - - - -  Tolerance loop: 2 (of 2) iterAC_MAX=200 activityCoeffsModel=-1 (with user-requested tolerance)\r\n\r\nMax tolerance to solve mass-balance eqns. (log) = -10.0, max tolerance span (log) = 1\r\nMass-balance tolerances (relative):\r\n 1.0E-11 1.0E-10\r\nMass-balance tolerances (absolute):\r\n 2.0E-14 1.0E-13\r\nContinuation run: false, STEG0= 0.1, STEG0_CONT= 0.01, STEGBYT= 0.005\r\nComponents:\r\n  kh=[1, 1]\r\n tot=[1.0E-5, 0.001]\r\nlogA=[-5.481147829173292, -3.0029440563612493]\r\n---- haltaCalc returns;  cont = true, errFlags (1 to 7): 0000000\r\n   solid combinations tested = 0\r\n   activity coefficient iterations: 0\r\n\r\n----------------------------------------\r\n--- HaltaFall - Calculated equilibrium composition:\r\nComponents:        name      tot conc    solubility          conc      log act    log act coeff\r\n  0                  Ag+    1.0000e-05    1.0000e-05    3.3024e-06       -5.4812       0.00000\r\n  1                  Cl-     0.0010000     0.0010000    0.00099330       -3.0029       0.00000\r\nReaction products: name          conc      log act    log act coeff\r\n  2                 AgCl    6.6976e-06       -5.1741       0.00000 \r\nComponent nbrs. in the order they are iterated (starting with zero):\r\n 0 1 -1\r\nMax. relative tolerance:1.0E-10\r\nTolerances used (absolute):\r\n 2.0E-14 1.0E-13\r\nsolid combinations tested: 0  activity coefficient iterations: 0\r\n--- HaltaFall - End of equilibrium composition.\r\n----------------------------------------\r\n----------------------------------------\r\n--- HaltaFall - Calculated equilibrium composition:\r\nComponents:        name      tot conc    solubility          conc      log act    log act coeff\r\n  0                  Ag+    1.0000e-05    1.0000e-05    3.3024e-06       -5.4812       0.00000\r\n  1                  Cl-     0.0010000     0.0010000    0.00099330       -3.0029       0.00000\r\nReaction products: name          conc      log act    log act coeff\r\n  2                 AgCl    6.6976e-06       -5.1741       0.00000 \r\nComponent nbrs. in the order they are iterated (starting with zero):\r\n 0 1 -1\r\nMax. relative tolerance:1.0E-10\r\nTolerances used (absolute):\r\n 2.0E-14 1.0E-13\r\nsolid combinations tested: 0  activity coefficient iterations: 0\r\n--- HaltaFall - End of equilibrium composition.\r\n----------------------------------------\r\nAll Done\r\n"
+      },
+      "probes": [
+        {
+          "tolerance": 1e-10,
+          "command": {
+            "executable": "C:/Program Files/JetBrains/PyCharm 2025.3.3/jbr/bin/java.exe",
+            "args": [
+              "-Djava.awt.headless=true",
+              "-cp",
+              "C:\\Users\\adamb\\PycharmProjects\\PythonProject\\adams-laboratory\\.local\\phase4-reference\\classes",
+              "ReferenceProbe",
+              "C:\\Users\\adamb\\PycharmProjects\\PythonProject\\adams-laboratory\\.local\\phase4-reference\\complexation\\complexation.dat",
+              "1e-10"
+            ]
+          },
+          "raw": "{\"errFlags\":0,\"concentration\":[3.302440890341427E-6, 9.933024408824464E-4, 6.697559117554346E-6],\"logActivity\":[-5.481164946984679, -3.0029184973174816, -5.174083444302161],\"total\":[1.0E-5, 0.001],\"dissolved\":[1.0000000007895773E-5, 0.0010000000000000007],\"logActivityCoefficient\":[0.0, 0.0, 0.0]}\r\n",
+          "values": {
+            "errFlags": 0,
+            "concentration": [
+              0.000003302440890341427,
+              0.0009933024408824464,
+              0.000006697559117554346
+            ],
+            "logActivity": [
+              -5.481164946984679,
+              -3.0029184973174816,
+              -5.174083444302161
+            ],
+            "total": [
+              0.00001,
+              0.001
+            ],
+            "dissolved": [
+              0.000010000000007895773,
+              0.0010000000000000007
+            ],
+            "logActivityCoefficient": [
+              0,
+              0,
+              0
+            ]
+          }
+        },
+        {
+          "tolerance": 1e-12,
+          "command": {
+            "executable": "C:/Program Files/JetBrains/PyCharm 2025.3.3/jbr/bin/java.exe",
+            "args": [
+              "-Djava.awt.headless=true",
+              "-cp",
+              "C:\\Users\\adamb\\PycharmProjects\\PythonProject\\adams-laboratory\\.local\\phase4-reference\\classes",
+              "ReferenceProbe",
+              "C:\\Users\\adamb\\PycharmProjects\\PythonProject\\adams-laboratory\\.local\\phase4-reference\\complexation\\complexation.dat",
+              "1e-12"
+            ]
+          },
+          "raw": "{\"errFlags\":0,\"concentration\":[3.302440890341427E-6, 9.933024408824464E-4, 6.697559117554346E-6],\"logActivity\":[-5.481164946984679, -3.0029184973174816, -5.174083444302161],\"total\":[1.0E-5, 0.001],\"dissolved\":[1.0000000007895773E-5, 0.0010000000000000007],\"logActivityCoefficient\":[0.0, 0.0, 0.0]}\r\n",
+          "values": {
+            "errFlags": 0,
+            "concentration": [
+              0.000003302440890341427,
+              0.0009933024408824464,
+              0.000006697559117554346
+            ],
+            "logActivity": [
+              -5.481164946984679,
+              -3.0029184973174816,
+              -5.174083444302161
+            ],
+            "total": [
+              0.00001,
+              0.001
+            ],
+            "dissolved": [
+              0.000010000000007895773,
+              0.0010000000000000007
+            ],
+            "logActivityCoefficient": [
+              0,
+              0,
+              0
+            ]
+          }
+        }
+      ],
+      "sourceRecords": [
+        {
+          "id": "spana:2ac52a30213c9288:16684",
+          "name": "AgCl",
+          "logK": 3.31,
+          "coefficients": {
+            "Ag+": 1,
+            "Cl-": 1
+          },
+          "provenance": {
+            "kind": "imported",
+            "sourceDatabase": "spana:2ac52a30213c9288dd18fc6dd597411e5c3ca53173fa6d1fab5530b371c30a0a",
+            "sourceFile": "C:\\Users\\adamb\\OneDrive\\Desktop\\Eq-Diagr_Java.zip!Eq-Diagr/Reactions.db",
+            "sourceRecordId": "byte:16684",
+            "originalRecordId": null,
+            "originalSpeciesName": "AgCl",
+            "originalReaction": {
+              "product": "AgCl",
+              "components": [
+                {
+                  "name": "Ag+",
+                  "coefficient": 1
+                },
+                {
+                  "name": "Cl-",
+                  "coefficient": 1
+                }
+              ],
+              "separateProtonCount": null
+            },
+            "originalLogK": 3.31,
+            "originalReferenceCode": "SmithMart",
+            "resolvedCitation": "SmithMart: NIST Standard Reference Database 46 Version 8.\nNIST Critically Selected Stability Constants of Metal Complexes Database\nhttp://www.nist.gov/srd/nist46.cfm\nNational Institute of Standards and Technology, 100 Bureau Dr., Stop 2300, Gaithersburg, MD",
+            "referenceSourceFile": "C:\\Users\\adamb\\OneDrive\\Desktop\\Eq-Diagr_Java.zip!Eq-Diagr/References.txt",
+            "dbSha256": "2ac52a30213c9288dd18fc6dd597411e5c3ca53173fa6d1fab5530b371c30a0a",
+            "byteOffset": 16684,
+            "byteLength": 72,
+            "importDate": "2026-09-05T16:23:16.736Z",
+            "importerVersion": "spana-readonly-1.0.0",
+            "comments": [
+              "Element links describe source components, not product atom counts. Oxidation states are not supplied."
+            ],
+            "qualityFlags": [
+              "imported",
+              "not-solver-validated",
+              "composition-unknown"
+            ],
+            "original": {
+              "speciesName": "AgCl",
+              "reaction": {
+                "product": "AgCl",
+                "components": [
+                  {
+                    "name": "Ag+",
+                    "coefficient": 1
+                  },
+                  {
+                    "name": "Cl-",
+                    "coefficient": 1
+                  }
+                ],
+                "separateProtonCount": null
+              },
+              "logK": 3.31,
+              "citation": "SmithMart",
+              "raw": {
+                "ordinal": 174,
+                "byteOffset": 16684,
+                "byteLength": 72,
+                "name": "AgCl",
+                "logK": 3.31,
+                "thermal": {
+                  "kind": "deltaH-deltaCp",
+                  "deltaH": -12,
+                  "deltaCp": -999999.9
+                },
+                "layout": "variable",
+                "componentToken": "2",
+                "components": [
+                  {
+                    "name": "Ag+",
+                    "coefficient": 1
+                  },
+                  {
+                    "name": "Cl-",
+                    "coefficient": 1
+                  }
+                ],
+                "protonCount": null,
+                "reference": "SmithMart",
+                "comment": "",
+                "rawBase64": "AARBZ0NsQAp64UeuFHvAKAAAAAAAAMEuhH/MzMzNAAEyAANBZys/8AAAAAAAAAADQ2wtP/AAAAAAAAAACVNtaXRoTWFydAAA"
+              }
+            }
+          }
+        }
+      ],
+      "assumptions": {
+        "temperatureC": 25,
+        "pressureBar": 1,
+        "activityModel": "ideal",
+        "ionicStrength": "not evaluated by ideal EC path",
+        "concentrationUnit": "mol/kg-H2O",
+        "chargeBalance": "not imposed; open fixed activities or omitted spectator ions as stated by constraints",
+        "restrictedSpeciesSet": true
+      }
+    },
+    {
+      "id": "precipitation",
+      "components": [
+        "Ag+",
+        "Cl-"
+      ],
+      "species": [
+        "AgCl",
+        "AgCl(s)"
+      ],
+      "conditions": [
+        "T,0.001",
+        "T,0.001"
+      ],
+      "input": "2, 1, 1, 0\nAg+\nCl-\nAgCl, 3.31, 1, 1\nAgCl(s), 9.75, 1, 1\n1\nT,0.001\nT,0.001\n",
+      "inputSha256": "c149a076fe0e0bae7389a8f3f8f2af80a1873575a792485302c28cd22bfe0d2c",
+      "javaCommand": {
+        "executable": "C:/Program Files/JetBrains/PyCharm 2025.3.3/jbr/bin/java.exe",
+        "args": [
+          "-Djava.awt.headless=true",
+          "-cp",
+          "C:\\Users\\adamb\\PycharmProjects\\PythonProject\\adams-laboratory\\.local\\phase4-reference\\classes",
+          "ec.EC",
+          "C:\\Users\\adamb\\PycharmProjects\\PythonProject\\adams-laboratory\\.local\\phase4-reference\\precipitation\\precipitation.dat",
+          "-m=-1",
+          "-t=25",
+          "-tol=1e-10",
+          "-d=3"
+        ]
+      },
+      "stdout": ".-----------------------------------------.\r\n| EQUILIBRIUM CALCULATIONS (Java)         |\r\n| Modified HaltaFall, vers. 2026-03-04    |\r\n|                 lib.vers. 2025-10-30    |\r\n| (by I.Puigdomenech)                     |\r\n+-----------------------------------------+\r\n\r\nInput, output and table files:\r\n    path: \"C:\\Users\\adamb\\PycharmProjects\\PythonProject\\adams-laboratory\\.local\\phase4-reference\\precipitation\"\r\n   input: precipitation.dat\r\n  output: precipitation.out\r\n   table: precipitation.csv\r\nDebug printout level: 3\r\nRelative tolerance in HaltaFall = 1.0E-10\r\nColumn separator in table file: \",\"\r\n\r\nThe calculations begin now!\rstarting calculations for point 1\r                                          \rCalculated 1 points, wall-clock time = 00:00:00.035\r\nAll Done\r\n",
+      "outputs": {
+        "precipitation.csv": "Tot(Ag+)   ,Sol(Ag+)   ,lgA(Ag+)   ,Tot(Cl-)   ,Sol(Cl-)   ,lgA(Cl-)   ,C(Ag+)     ,C(Cl-)     ,C(AgCl)    ,C(AgCl(s)) ,lgA(AgCl(s)),\r\n  1.0000e-03, 1.3698e-05,  -4.875000, 1.0000e-03, 1.3698e-05,  -4.875000, 1.3335e-05, 1.3335e-05, 3.6308e-07, 9.8630e-04,   0.000000,\r\n",
+        "precipitation.out": "EQUILIBRIUM CALCULATIONS (Java)                                     2026-09-05\r\nModified HaltaFall vers. 2026-03-04                                  18:58:11\r\n               lib.vers. 2025-10-30\r\n(by I.Puigdomenech)\r\n\r\nInput, output and table files:\r\n    path: \"C:\\Users\\adamb\\PycharmProjects\\PythonProject\\adams-laboratory\\.local\\phase4-reference\\precipitation\"\r\n   input: precipitation.dat\r\n  output: precipitation.out\r\n   table: precipitation.csv\r\nDebug printout level: 3\r\nRelative tolerance in HaltaFall = 1.0E-10\r\n\r\n- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -\r\n\r\n----------------------------------------\r\nChemical System:\r\n   nr components = 2\r\n   reaction products: soluble  = 1, solid = 1\r\nComponents, name and noll:\r\n  0                  Ag+, false\r\n  1                  Cl-, false\r\nReaction products: name, logBeta, noll, a[]=\r\n  2 (0)                 AgCl,    3.31000 false     1.000    1.000\r\n  3 (0)              AgCl(s),    9.75000 false     1.000    1.000\r\nComponents:\r\n  kh=[0, 0]\r\n tot=[0.0, 0.0]\r\nlogA=[0.0, 0.0]\r\n----------------------------------------\r\n- - - - - - - - - - - - - - - - - - -\r\n\"haltaFall.factor\" (activity coefficient calculations):\r\n    dataNotSupplied = false, activityCoeffsModel = -1\r\nActivity coefficient calculations will not be performed.\r\n- - - - - - - - - - - - - - - - - - -\r\n\r\n- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -\r\n\r\n*** POINT 1 ***\r\n--- haltaCalc(): Starting calculation with new concentrations.\r\n    debug level = 3  cont = false\r\nhaltaInit() in,  CONT=false\r\n--- HaltaFall - input data:\r\n----------------------------------------\r\nChemical System:\r\n   nr components = 2\r\n   reaction products: soluble  = 1, solid = 1\r\nComponents, name and noll:\r\n  0                  Ag+, false\r\n  1                  Cl-, false\r\nReaction products: name, logBeta, noll, a[]=\r\n  2 (0)                 AgCl,    3.31000 false     1.000    1.000\r\n  3 (0)              AgCl(s),    9.75000 false     1.000    1.000\r\nComponents:\r\n  kh=[1, 1]\r\n tot=[0.001, 0.001]\r\nlogA=[-6.0, -6.0]\r\n----------------------------------------\r\n--- HaltaFall - end of input data.\r\nfactorStart(3), activityCoeffsModel =-1\r\nhaltaGetIva() in at NYA\r\nhaltaGetIva() at PLAN\r\nhaltaGetIva() returns\r\nmono[]=    true   true\r\nnober[]=    0   0\r\nober[0][]=   false  false\r\nober[1][]=   false  false\r\n      nva = 2\r\n     iva[]=   0   1  -1\r\n  ivaBra[]=   1  -1  -1\r\n  ivaNov[]=   0   0\r\nnoCalc[]=  false  false\r\n  kh[]=   1   1\r\n  Tot[]=   0.001000   0.001000\r\n logA[]=      -5.00000000000000      -5.00000000000000\r\nhaltaInit() returns\r\n\r\n- - - - -  Tolerance loop: 1 (of 2) iterAC_MAX=100 activityCoeffsModel=-1 (preliminary calculation with higher tolerance)\r\n\r\nMax tolerance to solve mass-balance eqns. (log) = -2.0, max tolerance span (log) = 1\r\nMass-balance tolerances (relative):\r\n 0.001 0.01\r\nMass-balance tolerances (absolute):\r\n 1.0E-6 1.0E-5\r\nContinuation run: false, STEG0= 0.1, STEG0_CONT= 0.01, STEGBYT= 0.005\r\nComponents:\r\n  kh=[1, 1]\r\n tot=[0.001, 0.001]\r\nlogA=[-5.0, -5.0]\r\n\r\n- - - - -  Tolerance loop: 2 (of 2) iterAC_MAX=200 activityCoeffsModel=-1 (with user-requested tolerance)\r\n\r\nMax tolerance to solve mass-balance eqns. (log) = -10.0, max tolerance span (log) = 1\r\nMass-balance tolerances (relative):\r\n 1.0E-11 1.0E-10\r\nMass-balance tolerances (absolute):\r\n 2.0E-14 1.0E-13\r\nContinuation run: false, STEG0= 0.1, STEG0_CONT= 0.01, STEGBYT= 0.005\r\nComponents:\r\n  kh=[1, 1]\r\n tot=[0.001, 0.001]\r\nlogA=[-4.749608559245336, -5.000391440754664]\r\n---- haltaCalc returns;  cont = true, errFlags (1 to 7): 0000000\r\n   solid combinations tested = 1\r\n   activity coefficient iterations: 0\r\n\r\n----------------------------------------\r\n--- HaltaFall - Calculated equilibrium composition:\r\nComponents:        name      tot conc    solubility          conc      log act    log act coeff\r\n  0                  Ag+     0.0010000    1.3698e-05    1.3335e-05       -4.8750       0.00000\r\n  1                  Cl-     0.0010000    1.3698e-05    1.3335e-05       -4.8750       0.00000\r\nReaction products: name          conc      log act    log act coeff\r\n  2                 AgCl    3.6308e-07       -6.4400       0.00000 \r\nSolid Phases:          name          conc      log act\r\n  3 (0)              AgCl(s)    0.00098630        0.0000 \r\nComponent nbrs. in the order they are iterated (starting with zero):\r\n 0 1 -1\r\nMax. relative tolerance:1.0E-10\r\nTolerances used (absolute):\r\n 2.0E-14 1.0E-13\r\nsolid combinations tested: 1  activity coefficient iterations: 0\r\n--- HaltaFall - End of equilibrium composition.\r\n----------------------------------------\r\n----------------------------------------\r\n--- HaltaFall - Calculated equilibrium composition:\r\nComponents:        name      tot conc    solubility          conc      log act    log act coeff\r\n  0                  Ag+     0.0010000    1.3698e-05    1.3335e-05       -4.8750       0.00000\r\n  1                  Cl-     0.0010000    1.3698e-05    1.3335e-05       -4.8750       0.00000\r\nReaction products: name          conc      log act    log act coeff\r\n  2                 AgCl    3.6308e-07       -6.4400       0.00000 \r\nSolid Phases:          name          conc      log act\r\n  3 (0)              AgCl(s)    0.00098630        0.0000 \r\nComponent nbrs. in the order they are iterated (starting with zero):\r\n 0 1 -1\r\nMax. relative tolerance:1.0E-10\r\nTolerances used (absolute):\r\n 2.0E-14 1.0E-13\r\nsolid combinations tested: 1  activity coefficient iterations: 0\r\n--- HaltaFall - End of equilibrium composition.\r\n----------------------------------------\r\nAll Done\r\n"
+      },
+      "probes": [
+        {
+          "tolerance": 1e-10,
+          "command": {
+            "executable": "C:/Program Files/JetBrains/PyCharm 2025.3.3/jbr/bin/java.exe",
+            "args": [
+              "-Djava.awt.headless=true",
+              "-cp",
+              "C:\\Users\\adamb\\PycharmProjects\\PythonProject\\adams-laboratory\\.local\\phase4-reference\\classes",
+              "ReferenceProbe",
+              "C:\\Users\\adamb\\PycharmProjects\\PythonProject\\adams-laboratory\\.local\\phase4-reference\\precipitation\\precipitation.dat",
+              "1e-10"
+            ]
+          },
+          "raw": "{\"errFlags\":0,\"concentration\":[1.3335214325129987E-5, 1.3335214318136455E-5, 3.6307805477010047E-7, 9.863017076200999E-4],\"logActivity\":[-4.8749999998861195, -4.875000000113881, -6.44, 0.0],\"total\":[0.001, 0.001],\"dissolved\":[1.3698292379900088E-5, 1.3698292372906555E-5],\"logActivityCoefficient\":[0.0, 0.0, 0.0, 0.0]}\r\n",
+          "values": {
+            "errFlags": 0,
+            "concentration": [
+              0.000013335214325129987,
+              0.000013335214318136455,
+              3.6307805477010047e-7,
+              0.0009863017076200999
+            ],
+            "logActivity": [
+              -4.8749999998861195,
+              -4.875000000113881,
+              -6.44,
+              0
+            ],
+            "total": [
+              0.001,
+              0.001
+            ],
+            "dissolved": [
+              0.000013698292379900088,
+              0.000013698292372906555
+            ],
+            "logActivityCoefficient": [
+              0,
+              0,
+              0,
+              0
+            ]
+          }
+        },
+        {
+          "tolerance": 1e-12,
+          "command": {
+            "executable": "C:/Program Files/JetBrains/PyCharm 2025.3.3/jbr/bin/java.exe",
+            "args": [
+              "-Djava.awt.headless=true",
+              "-cp",
+              "C:\\Users\\adamb\\PycharmProjects\\PythonProject\\adams-laboratory\\.local\\phase4-reference\\classes",
+              "ReferenceProbe",
+              "C:\\Users\\adamb\\PycharmProjects\\PythonProject\\adams-laboratory\\.local\\phase4-reference\\precipitation\\precipitation.dat",
+              "1e-12"
+            ]
+          },
+          "raw": "{\"errFlags\":0,\"concentration\":[1.3335214325129987E-5, 1.3335214318136455E-5, 3.6307805477010047E-7, 9.863017076200999E-4],\"logActivity\":[-4.8749999998861195, -4.875000000113881, -6.44, 0.0],\"total\":[0.001, 0.001],\"dissolved\":[1.3698292379900088E-5, 1.3698292372906555E-5],\"logActivityCoefficient\":[0.0, 0.0, 0.0, 0.0]}\r\n",
+          "values": {
+            "errFlags": 0,
+            "concentration": [
+              0.000013335214325129987,
+              0.000013335214318136455,
+              3.6307805477010047e-7,
+              0.0009863017076200999
+            ],
+            "logActivity": [
+              -4.8749999998861195,
+              -4.875000000113881,
+              -6.44,
+              0
+            ],
+            "total": [
+              0.001,
+              0.001
+            ],
+            "dissolved": [
+              0.000013698292379900088,
+              0.000013698292372906555
+            ],
+            "logActivityCoefficient": [
+              0,
+              0,
+              0,
+              0
+            ]
+          }
+        }
+      ],
+      "sourceRecords": [
+        {
+          "id": "spana:2ac52a30213c9288:16684",
+          "name": "AgCl",
+          "logK": 3.31,
+          "coefficients": {
+            "Ag+": 1,
+            "Cl-": 1
+          },
+          "provenance": {
+            "kind": "imported",
+            "sourceDatabase": "spana:2ac52a30213c9288dd18fc6dd597411e5c3ca53173fa6d1fab5530b371c30a0a",
+            "sourceFile": "C:\\Users\\adamb\\OneDrive\\Desktop\\Eq-Diagr_Java.zip!Eq-Diagr/Reactions.db",
+            "sourceRecordId": "byte:16684",
+            "originalRecordId": null,
+            "originalSpeciesName": "AgCl",
+            "originalReaction": {
+              "product": "AgCl",
+              "components": [
+                {
+                  "name": "Ag+",
+                  "coefficient": 1
+                },
+                {
+                  "name": "Cl-",
+                  "coefficient": 1
+                }
+              ],
+              "separateProtonCount": null
+            },
+            "originalLogK": 3.31,
+            "originalReferenceCode": "SmithMart",
+            "resolvedCitation": "SmithMart: NIST Standard Reference Database 46 Version 8.\nNIST Critically Selected Stability Constants of Metal Complexes Database\nhttp://www.nist.gov/srd/nist46.cfm\nNational Institute of Standards and Technology, 100 Bureau Dr., Stop 2300, Gaithersburg, MD",
+            "referenceSourceFile": "C:\\Users\\adamb\\OneDrive\\Desktop\\Eq-Diagr_Java.zip!Eq-Diagr/References.txt",
+            "dbSha256": "2ac52a30213c9288dd18fc6dd597411e5c3ca53173fa6d1fab5530b371c30a0a",
+            "byteOffset": 16684,
+            "byteLength": 72,
+            "importDate": "2026-09-05T16:23:16.736Z",
+            "importerVersion": "spana-readonly-1.0.0",
+            "comments": [
+              "Element links describe source components, not product atom counts. Oxidation states are not supplied."
+            ],
+            "qualityFlags": [
+              "imported",
+              "not-solver-validated",
+              "composition-unknown"
+            ],
+            "original": {
+              "speciesName": "AgCl",
+              "reaction": {
+                "product": "AgCl",
+                "components": [
+                  {
+                    "name": "Ag+",
+                    "coefficient": 1
+                  },
+                  {
+                    "name": "Cl-",
+                    "coefficient": 1
+                  }
+                ],
+                "separateProtonCount": null
+              },
+              "logK": 3.31,
+              "citation": "SmithMart",
+              "raw": {
+                "ordinal": 174,
+                "byteOffset": 16684,
+                "byteLength": 72,
+                "name": "AgCl",
+                "logK": 3.31,
+                "thermal": {
+                  "kind": "deltaH-deltaCp",
+                  "deltaH": -12,
+                  "deltaCp": -999999.9
+                },
+                "layout": "variable",
+                "componentToken": "2",
+                "components": [
+                  {
+                    "name": "Ag+",
+                    "coefficient": 1
+                  },
+                  {
+                    "name": "Cl-",
+                    "coefficient": 1
+                  }
+                ],
+                "protonCount": null,
+                "reference": "SmithMart",
+                "comment": "",
+                "rawBase64": "AARBZ0NsQAp64UeuFHvAKAAAAAAAAMEuhH/MzMzNAAEyAANBZys/8AAAAAAAAAADQ2wtP/AAAAAAAAAACVNtaXRoTWFydAAA"
+              }
+            }
+          }
+        },
+        {
+          "id": "spana:2ac52a30213c9288:16756",
+          "name": "AgCl(s)",
+          "logK": 9.75,
+          "coefficients": {
+            "Ag+": 1,
+            "Cl-": 1
+          },
+          "provenance": {
+            "kind": "imported",
+            "sourceDatabase": "spana:2ac52a30213c9288dd18fc6dd597411e5c3ca53173fa6d1fab5530b371c30a0a",
+            "sourceFile": "C:\\Users\\adamb\\OneDrive\\Desktop\\Eq-Diagr_Java.zip!Eq-Diagr/Reactions.db",
+            "sourceRecordId": "byte:16756",
+            "originalRecordId": null,
+            "originalSpeciesName": "AgCl(s)",
+            "originalReaction": {
+              "product": "AgCl(s)",
+              "components": [
+                {
+                  "name": "Ag+",
+                  "coefficient": 1
+                },
+                {
+                  "name": "Cl-",
+                  "coefficient": 1
+                }
+              ],
+              "separateProtonCount": null
+            },
+            "originalLogK": 9.75,
+            "originalReferenceCode": "SmithMart",
+            "resolvedCitation": "SmithMart: NIST Standard Reference Database 46 Version 8.\nNIST Critically Selected Stability Constants of Metal Complexes Database\nhttp://www.nist.gov/srd/nist46.cfm\nNational Institute of Standards and Technology, 100 Bureau Dr., Stop 2300, Gaithersburg, MD",
+            "referenceSourceFile": "C:\\Users\\adamb\\OneDrive\\Desktop\\Eq-Diagr_Java.zip!Eq-Diagr/References.txt",
+            "dbSha256": "2ac52a30213c9288dd18fc6dd597411e5c3ca53173fa6d1fab5530b371c30a0a",
+            "byteOffset": 16756,
+            "byteLength": 75,
+            "importDate": "2026-09-05T16:23:16.736Z",
+            "importerVersion": "spana-readonly-1.0.0",
+            "comments": [
+              "Element links describe source components, not product atom counts. Oxidation states are not supplied."
+            ],
+            "qualityFlags": [
+              "imported",
+              "not-solver-validated",
+              "composition-unknown"
+            ],
+            "original": {
+              "speciesName": "AgCl(s)",
+              "reaction": {
+                "product": "AgCl(s)",
+                "components": [
+                  {
+                    "name": "Ag+",
+                    "coefficient": 1
+                  },
+                  {
+                    "name": "Cl-",
+                    "coefficient": 1
+                  }
+                ],
+                "separateProtonCount": null
+              },
+              "logK": 9.75,
+              "citation": "SmithMart",
+              "raw": {
+                "ordinal": 175,
+                "byteOffset": 16756,
+                "byteLength": 75,
+                "name": "AgCl(s)",
+                "logK": 9.75,
+                "thermal": {
+                  "kind": "deltaH-deltaCp",
+                  "deltaH": -65.2,
+                  "deltaCp": -999999.9
+                },
+                "layout": "variable",
+                "componentToken": "2",
+                "components": [
+                  {
+                    "name": "Ag+",
+                    "coefficient": 1
+                  },
+                  {
+                    "name": "Cl-",
+                    "coefficient": 1
+                  }
+                ],
+                "protonCount": null,
+                "reference": "SmithMart",
+                "comment": "",
+                "rawBase64": "AAdBZ0NsKHMpQCOAAAAAAADAUEzMzMzMzcEuhH/MzMzNAAEyAANBZys/8AAAAAAAAAADQ2wtP/AAAAAAAAAACVNtaXRoTWFydAAA"
+              }
+            }
+          }
+        }
+      ],
+      "assumptions": {
+        "temperatureC": 25,
+        "pressureBar": 1,
+        "activityModel": "ideal",
+        "ionicStrength": "not evaluated by ideal EC path",
+        "concentrationUnit": "mol/kg-H2O",
+        "chargeBalance": "not imposed; open fixed activities or omitted spectator ions as stated by constraints",
+        "restrictedSpeciesSet": true
+      }
+    },
+    {
+      "id": "redox",
+      "components": [
+        "Fe 2+",
+        "e-"
+      ],
+      "species": [
+        "Fe 3+"
+      ],
+      "conditions": [
+        "T,0.00001",
+        "LA,-13"
+      ],
+      "input": "2, 1, 0, 0\nFe 2+\ne-\nFe 3+, -13.051, 1, -1\n1\nT,0.00001\nLA,-13\n",
+      "inputSha256": "4428799f39cca9a3880872363ff0d487f27a795e3dd5253e9a1d94aa39b311d9",
+      "javaCommand": {
+        "executable": "C:/Program Files/JetBrains/PyCharm 2025.3.3/jbr/bin/java.exe",
+        "args": [
+          "-Djava.awt.headless=true",
+          "-cp",
+          "C:\\Users\\adamb\\PycharmProjects\\PythonProject\\adams-laboratory\\.local\\phase4-reference\\classes",
+          "ec.EC",
+          "C:\\Users\\adamb\\PycharmProjects\\PythonProject\\adams-laboratory\\.local\\phase4-reference\\redox\\redox.dat",
+          "-m=-1",
+          "-t=25",
+          "-tol=1e-10",
+          "-d=3"
+        ]
+      },
+      "stdout": ".-----------------------------------------.\r\n| EQUILIBRIUM CALCULATIONS (Java)         |\r\n| Modified HaltaFall, vers. 2026-03-04    |\r\n|                 lib.vers. 2025-10-30    |\r\n| (by I.Puigdomenech)                     |\r\n+-----------------------------------------+\r\n\r\nInput, output and table files:\r\n    path: \"C:\\Users\\adamb\\PycharmProjects\\PythonProject\\adams-laboratory\\.local\\phase4-reference\\redox\"\r\n   input: redox.dat\r\n  output: redox.out\r\n   table: redox.csv\r\nDebug printout level: 3\r\nRelative tolerance in HaltaFall = 1.0E-10\r\nColumn separator in table file: \",\"\r\n\r\nThe calculations begin now!\rstarting calculations for point 1\r                                          \rCalculated 1 points, wall-clock time = 00:00:00.034\r\nAll Done\r\n",
+      "outputs": {
+        "redox.csv": "     pe    ,    Eh_mV  ,Tot(Fe 2+) ,Sol(Fe 2+) ,lgA(Fe 2+) ,Tot(e-)    ,Sol(e-)    ,lgA(e-)    ,C(Fe 2+)   ,C(Fe 3+)   ,\r\n    13.0000 ,    769.07 , 1.0000e-05, 1.0000e-05,  -5.276278,-4.7068e-06,-4.7068e-06, -13.000000, 5.2932e-06, 4.7068e-06,\r\n",
+        "redox.out": "EQUILIBRIUM CALCULATIONS (Java)                                     2026-09-05\r\nModified HaltaFall vers. 2026-03-04                                  18:58:11\r\n               lib.vers. 2025-10-30\r\n(by I.Puigdomenech)\r\n\r\nInput, output and table files:\r\n    path: \"C:\\Users\\adamb\\PycharmProjects\\PythonProject\\adams-laboratory\\.local\\phase4-reference\\redox\"\r\n   input: redox.dat\r\n  output: redox.out\r\n   table: redox.csv\r\nDebug printout level: 3\r\nRelative tolerance in HaltaFall = 1.0E-10\r\n\r\n- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -\r\n\r\n----------------------------------------\r\nChemical System:\r\n   nr components = 2\r\n   reaction products: soluble  = 1, solid = 0\r\nComponents, name and noll:\r\n  0                Fe 2+, false\r\n  1                   e-,  true\r\nReaction products: name, logBeta, noll, a[]=\r\n  2 (0)                Fe 3+,  -13.05100 false     1.000   -1.000\r\nComponents:\r\n  kh=[0, 0]\r\n tot=[0.0, 0.0]\r\nlogA=[0.0, 0.0]\r\n----------------------------------------\r\n- - - - - - - - - - - - - - - - - - -\r\n\"haltaFall.factor\" (activity coefficient calculations):\r\n    dataNotSupplied = false, activityCoeffsModel = -1\r\nActivity coefficient calculations will not be performed.\r\n- - - - - - - - - - - - - - - - - - -\r\n\r\n- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -\r\n\r\n*** POINT 1 ***\r\n--- haltaCalc(): Starting calculation with new concentrations.\r\n    debug level = 3  cont = false\r\nhaltaInit() in,  CONT=false\r\n--- HaltaFall - input data:\r\n----------------------------------------\r\nChemical System:\r\n   nr components = 2\r\n   reaction products: soluble  = 1, solid = 0\r\nComponents, name and noll:\r\n  0                Fe 2+, false\r\n  1                   e-,  true\r\nReaction products: name, logBeta, noll, a[]=\r\n  2 (0)                Fe 3+,  -13.05100 false     1.000   -1.000\r\nComponents:\r\n  kh=[1, 2]\r\n tot=[1.0E-5, 0.0]\r\nlogA=[-8.0, -13.0]\r\n----------------------------------------\r\n--- HaltaFall - end of input data.\r\nfactorStart(3), activityCoeffsModel =-1\r\nhaltaGetIva() in at NYA\r\nhaltaGetIva() at PLAN\r\nhaltaGetIva() returns\r\nmono[]=    true  false\r\nnober[]=    0   0\r\nober[0][]=   false  false\r\nober[1][]=   false  false\r\n      nva = 1\r\n     iva[]=   0  -1\r\n  ivaBra[]=  -1  -1  -1\r\n  ivaNov[]=   0  -1\r\nnoCalc[]=  false  false\r\n  kh[]=   1   2\r\n  Tot[]=   0.000010   0.000000\r\n logA[]=      -7.00000000000000     -13.00000000000000\r\nhaltaInit() returns\r\n\r\n- - - - -  Tolerance loop: 1 (of 2) iterAC_MAX=100 activityCoeffsModel=-1 (preliminary calculation with higher tolerance)\r\n\r\nMax tolerance to solve mass-balance eqns. (log) = -2.0, max tolerance span (log) = 1\r\nMass-balance tolerances (relative):\r\n 0.01 NaN\r\nMass-balance tolerances (absolute):\r\n 1.0E-7 NaN\r\nContinuation run: false, STEG0= 0.1, STEG0_CONT= 0.01, STEGBYT= 0.005\r\nComponents:\r\n  kh=[1, 2]\r\n tot=[1.0E-5, 0.0]\r\nlogA=[-7.0, -13.0]\r\n\r\n- - - - -  Tolerance loop: 2 (of 2) iterAC_MAX=200 activityCoeffsModel=-1 (with user-requested tolerance)\r\n\r\nMax tolerance to solve mass-balance eqns. (log) = -10.0, max tolerance span (log) = 1\r\nMass-balance tolerances (relative):\r\n 1.0E-10 NaN\r\nMass-balance tolerances (absolute):\r\n 2.0E-14 NaN\r\nContinuation run: false, STEG0= 0.1, STEG0_CONT= 0.01, STEGBYT= 0.005\r\nComponents:\r\n  kh=[1, 2]\r\n tot=[1.0E-5, -4.7067573137272015E-6]\r\nlogA=[-5.276278193880838, -13.0]\r\n---- haltaCalc returns;  cont = true, errFlags (1 to 7): 0000000\r\n   solid combinations tested = 0\r\n   activity coefficient iterations: 0\r\n\r\n----------------------------------------\r\n--- HaltaFall - Calculated equilibrium composition:\r\nComponents:        name      tot conc    solubility          conc      log act    log act coeff\r\n  0                Fe 2+    1.0000e-05    1.0000e-05    5.2932e-06       -5.2763       0.00000\r\n  1                   e-   -4.7068e-06   -4.7068e-06        0.0000       -13.000       0.00000\r\nReaction products: name          conc      log act    log act coeff\r\n  2                Fe 3+    4.7068e-06       -5.3273       0.00000 \r\nComponent nbrs. in the order they are iterated (starting with zero):\r\n 0 -1\r\nMax. relative tolerance:1.0E-10\r\nTolerances used (absolute):\r\n 2.0E-14 NaN\r\nRedox potential: Eh =    769.07 mV,  pe =  13.0000\r\nsolid combinations tested: 0  activity coefficient iterations: 0\r\n--- HaltaFall - End of equilibrium composition.\r\n----------------------------------------\r\n----------------------------------------\r\n--- HaltaFall - Calculated equilibrium composition:\r\nComponents:        name      tot conc    solubility          conc      log act    log act coeff\r\n  0                Fe 2+    1.0000e-05    1.0000e-05    5.2932e-06       -5.2763       0.00000\r\n  1                   e-   -4.7068e-06   -4.7068e-06        0.0000       -13.000       0.00000\r\nReaction products: name          conc      log act    log act coeff\r\n  2                Fe 3+    4.7068e-06       -5.3273       0.00000 \r\nComponent nbrs. in the order they are iterated (starting with zero):\r\n 0 -1\r\nMax. relative tolerance:1.0E-10\r\nTolerances used (absolute):\r\n 2.0E-14 NaN\r\nRedox potential: Eh =    769.07 mV,  pe =  13.0000\r\nsolid combinations tested: 0  activity coefficient iterations: 0\r\n--- HaltaFall - End of equilibrium composition.\r\n----------------------------------------\r\nAll Done\r\n"
+      },
+      "probes": [
+        {
+          "tolerance": 1e-10,
+          "command": {
+            "executable": "C:/Program Files/JetBrains/PyCharm 2025.3.3/jbr/bin/java.exe",
+            "args": [
+              "-Djava.awt.headless=true",
+              "-cp",
+              "C:\\Users\\adamb\\PycharmProjects\\PythonProject\\adams-laboratory\\.local\\phase4-reference\\classes",
+              "ReferenceProbe",
+              "C:\\Users\\adamb\\PycharmProjects\\PythonProject\\adams-laboratory\\.local\\phase4-reference\\redox\\redox.dat",
+              "1e-10"
+            ]
+          },
+          "raw": "{\"errFlags\":0,\"concentration\":[5.293242686272831E-6, 0.0, 4.70675731372721E-6],\"logActivity\":[-5.276278193880838, -13.0, -5.327278193880838],\"total\":[1.0E-5, -4.70675731372721E-6],\"dissolved\":[1.000000000000004E-5, -4.70675731372721E-6],\"logActivityCoefficient\":[0.0, 0.0, 0.0]}\r\n",
+          "values": {
+            "errFlags": 0,
+            "concentration": [
+              0.000005293242686272831,
+              0,
+              0.00000470675731372721
+            ],
+            "logActivity": [
+              -5.276278193880838,
+              -13,
+              -5.327278193880838
+            ],
+            "total": [
+              0.00001,
+              -0.00000470675731372721
+            ],
+            "dissolved": [
+              0.00001000000000000004,
+              -0.00000470675731372721
+            ],
+            "logActivityCoefficient": [
+              0,
+              0,
+              0
+            ]
+          }
+        },
+        {
+          "tolerance": 1e-12,
+          "command": {
+            "executable": "C:/Program Files/JetBrains/PyCharm 2025.3.3/jbr/bin/java.exe",
+            "args": [
+              "-Djava.awt.headless=true",
+              "-cp",
+              "C:\\Users\\adamb\\PycharmProjects\\PythonProject\\adams-laboratory\\.local\\phase4-reference\\classes",
+              "ReferenceProbe",
+              "C:\\Users\\adamb\\PycharmProjects\\PythonProject\\adams-laboratory\\.local\\phase4-reference\\redox\\redox.dat",
+              "1e-12"
+            ]
+          },
+          "raw": "{\"errFlags\":0,\"concentration\":[5.293242686272831E-6, 0.0, 4.70675731372721E-6],\"logActivity\":[-5.276278193880838, -13.0, -5.327278193880838],\"total\":[1.0E-5, -4.70675731372721E-6],\"dissolved\":[1.000000000000004E-5, -4.70675731372721E-6],\"logActivityCoefficient\":[0.0, 0.0, 0.0]}\r\n",
+          "values": {
+            "errFlags": 0,
+            "concentration": [
+              0.000005293242686272831,
+              0,
+              0.00000470675731372721
+            ],
+            "logActivity": [
+              -5.276278193880838,
+              -13,
+              -5.327278193880838
+            ],
+            "total": [
+              0.00001,
+              -0.00000470675731372721
+            ],
+            "dissolved": [
+              0.00001000000000000004,
+              -0.00000470675731372721
+            ],
+            "logActivityCoefficient": [
+              0,
+              0,
+              0
+            ]
+          }
+        }
+      ],
+      "sourceRecords": [
+        {
+          "id": "spana:2ac52a30213c9288:126584",
+          "name": "Fe 3+",
+          "logK": -13.051,
+          "coefficients": {
+            "Fe 2+": 1,
+            "e-": -1
+          },
+          "provenance": {
+            "kind": "imported",
+            "sourceDatabase": "spana:2ac52a30213c9288dd18fc6dd597411e5c3ca53173fa6d1fab5530b371c30a0a",
+            "sourceFile": "C:\\Users\\adamb\\OneDrive\\Desktop\\Eq-Diagr_Java.zip!Eq-Diagr/Reactions.db",
+            "sourceRecordId": "byte:126584",
+            "originalRecordId": null,
+            "originalSpeciesName": "Fe 3+",
+            "originalReaction": {
+              "product": "Fe 3+",
+              "components": [
+                {
+                  "name": "Fe 2+",
+                  "coefficient": 1
+                },
+                {
+                  "name": "e-",
+                  "coefficient": -1
+                }
+              ],
+              "separateProtonCount": null
+            },
+            "originalLogK": -13.051,
+            "originalReferenceCode": "NEA-Fe",
+            "resolvedCitation": "NEA-Fe: Lemire R J, Berner U, Musikas C, Palmer D A, Taylor P, Tochiyama O, Chemical Thermodynamics of Iron. Part 1. Paris: OECD Nuclear Energy Agency (NEA), 2013",
+            "referenceSourceFile": "C:\\Users\\adamb\\OneDrive\\Desktop\\Eq-Diagr_Java.zip!Eq-Diagr/References.txt",
+            "dbSha256": "2ac52a30213c9288dd18fc6dd597411e5c3ca53173fa6d1fab5530b371c30a0a",
+            "byteOffset": 126584,
+            "byteLength": 71,
+            "importDate": "2026-09-05T16:23:16.736Z",
+            "importerVersion": "spana-readonly-1.0.0",
+            "comments": [
+              "Element links describe source components, not product atom counts. Oxidation states are not supplied."
+            ],
+            "qualityFlags": [
+              "imported",
+              "not-solver-validated",
+              "composition-unknown"
+            ],
+            "original": {
+              "speciesName": "Fe 3+",
+              "reaction": {
+                "product": "Fe 3+",
+                "components": [
+                  {
+                    "name": "Fe 2+",
+                    "coefficient": 1
+                  },
+                  {
+                    "name": "e-",
+                    "coefficient": -1
+                  }
+                ],
+                "separateProtonCount": null
+              },
+              "logK": -13.051,
+              "citation": "NEA-Fe",
+              "raw": {
+                "ordinal": 1416,
+                "byteOffset": 126584,
+                "byteLength": 71,
+                "name": "Fe 3+",
+                "logK": -13.051,
+                "thermal": {
+                  "kind": "deltaH-deltaCp",
+                  "deltaH": 40.19999999999999,
+                  "deltaCp": -71
+                },
+                "layout": "variable",
+                "componentToken": "2",
+                "components": [
+                  {
+                    "name": "Fe 2+",
+                    "coefficient": 1
+                  },
+                  {
+                    "name": "e-",
+                    "coefficient": -1
+                  }
+                ],
+                "protonCount": null,
+                "reference": "NEA-Fe",
+                "comment": "",
+                "rawBase64": "AAVGZSAzK8AqGhysCDEnQEQZmZmZmZjAUcAAAAAAAAABMgAFRmUgMis/8AAAAAAAAAACZS2/8AAAAAAAAAAGTkVBLUZlAAA="
+              }
+            }
+          }
+        }
+      ],
+      "assumptions": {
+        "temperatureC": 25,
+        "pressureBar": 1,
+        "activityModel": "ideal",
+        "ionicStrength": "not evaluated by ideal EC path",
+        "concentrationUnit": "mol/kg-H2O",
+        "chargeBalance": "not imposed; open fixed activities or omitted spectator ions as stated by constraints",
+        "restrictedSpeciesSet": true
+      }
+    },
+    {
+      "id": "fixed-activity",
+      "components": [
+        "Ag+",
+        "Cl-"
+      ],
+      "species": [
+        "AgCl"
+      ],
+      "conditions": [
+        "LA,-6",
+        "LA,-3"
+      ],
+      "input": "2, 1, 0, 0\nAg+\nCl-\nAgCl, 3.31, 1, 1\n1\nLA,-6\nLA,-3\n",
+      "inputSha256": "f0bed8e132674713099dc322478f428e87a4d839f8c179499ab85e15e6af96b6",
+      "javaCommand": {
+        "executable": "C:/Program Files/JetBrains/PyCharm 2025.3.3/jbr/bin/java.exe",
+        "args": [
+          "-Djava.awt.headless=true",
+          "-cp",
+          "C:\\Users\\adamb\\PycharmProjects\\PythonProject\\adams-laboratory\\.local\\phase4-reference\\classes",
+          "ec.EC",
+          "C:\\Users\\adamb\\PycharmProjects\\PythonProject\\adams-laboratory\\.local\\phase4-reference\\fixed-activity\\fixed-activity.dat",
+          "-m=-1",
+          "-t=25",
+          "-tol=1e-10",
+          "-d=3"
+        ]
+      },
+      "stdout": ".-----------------------------------------.\r\n| EQUILIBRIUM CALCULATIONS (Java)         |\r\n| Modified HaltaFall, vers. 2026-03-04    |\r\n|                 lib.vers. 2025-10-30    |\r\n| (by I.Puigdomenech)                     |\r\n+-----------------------------------------+\r\n\r\nInput, output and table files:\r\n    path: \"C:\\Users\\adamb\\PycharmProjects\\PythonProject\\adams-laboratory\\.local\\phase4-reference\\fixed-activity\"\r\n   input: fixed-activity.dat\r\n  output: fixed-activity.out\r\n   table: fixed-activity.csv\r\nDebug printout level: 3\r\nRelative tolerance in HaltaFall = 1.0E-10\r\nColumn separator in table file: \",\"\r\n\r\nThe calculations begin now!\rstarting calculations for point 1\r                                          \rCalculated 1 points, wall-clock time = 00:00:00.026\r\nAll Done\r\n",
+      "outputs": {
+        "fixed-activity.csv": "Tot(Ag+)   ,Sol(Ag+)   ,lgA(Ag+)   ,Tot(Cl-)   ,Sol(Cl-)   ,lgA(Cl-)   ,C(Ag+)     ,C(Cl-)     ,C(AgCl)    ,\r\n  3.0417e-06, 3.0417e-06,  -6.000000, 1.0020e-03, 1.0020e-03,  -3.000000, 1.0000e-06, 1.0000e-03, 2.0417e-06,\r\n",
+        "fixed-activity.out": "EQUILIBRIUM CALCULATIONS (Java)                                     2026-09-05\r\nModified HaltaFall vers. 2026-03-04                                  18:58:12\r\n               lib.vers. 2025-10-30\r\n(by I.Puigdomenech)\r\n\r\nInput, output and table files:\r\n    path: \"C:\\Users\\adamb\\PycharmProjects\\PythonProject\\adams-laboratory\\.local\\phase4-reference\\fixed-activity\"\r\n   input: fixed-activity.dat\r\n  output: fixed-activity.out\r\n   table: fixed-activity.csv\r\nDebug printout level: 3\r\nRelative tolerance in HaltaFall = 1.0E-10\r\n\r\n- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -\r\n\r\n----------------------------------------\r\nChemical System:\r\n   nr components = 2\r\n   reaction products: soluble  = 1, solid = 0\r\nComponents, name and noll:\r\n  0                  Ag+, false\r\n  1                  Cl-, false\r\nReaction products: name, logBeta, noll, a[]=\r\n  2 (0)                 AgCl,    3.31000 false     1.000    1.000\r\nComponents:\r\n  kh=[0, 0]\r\n tot=[0.0, 0.0]\r\nlogA=[0.0, 0.0]\r\n----------------------------------------\r\n- - - - - - - - - - - - - - - - - - -\r\n\"haltaFall.factor\" (activity coefficient calculations):\r\n    dataNotSupplied = false, activityCoeffsModel = -1\r\nActivity coefficient calculations will not be performed.\r\n- - - - - - - - - - - - - - - - - - -\r\n\r\n- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -\r\n\r\n*** POINT 1 ***\r\n--- haltaCalc(): Starting calculation with new concentrations.\r\n    debug level = 3  cont = false\r\nhaltaInit() in,  CONT=false\r\n--- HaltaFall - input data:\r\n----------------------------------------\r\nChemical System:\r\n   nr components = 2\r\n   reaction products: soluble  = 1, solid = 0\r\nComponents, name and noll:\r\n  0                  Ag+, false\r\n  1                  Cl-, false\r\nReaction products: name, logBeta, noll, a[]=\r\n  2 (0)                 AgCl,    3.31000 false     1.000    1.000\r\nComponents:\r\n  kh=[2, 2]\r\n tot=[0.0, 0.0]\r\nlogA=[-6.0, -3.0]\r\n----------------------------------------\r\n--- HaltaFall - end of input data.\r\nfactorStart(3), activityCoeffsModel =-1\r\nhaltaGetIva() in at NYA\r\nhaltaGetIva() at PLAN\r\nhaltaGetIva() returns\r\nmono[]=    true   true\r\nnober[]=    0   0\r\nober[0][]=   false  false\r\nober[1][]=   false  false\r\n      nva = 0\r\n     iva[]=  -1\r\n  ivaBra[]=  -1  -1  -1\r\n  ivaNov[]=  -1  -1\r\nnoCalc[]=  false  false\r\n  kh[]=   2   2\r\n  Tot[]=   0.000000   0.000000\r\n logA[]=      -6.00000000000000      -3.00000000000000\r\nhaltaInit() returns\r\n\r\n- - - - -  Tolerance loop: 1 (of 2) iterAC_MAX=100 activityCoeffsModel=-1 (preliminary calculation with higher tolerance)\r\n\r\nMax tolerance to solve mass-balance eqns. (log) = -2.0, max tolerance span (log) = 1\r\nMass-balance tolerances (relative):\r\n NaN NaN\r\nMass-balance tolerances (absolute):\r\n NaN NaN\r\nContinuation run: false, STEG0= 0.1, STEG0_CONT= 0.01, STEGBYT= 0.005\r\nComponents:\r\n  kh=[2, 2]\r\n tot=[0.0, 0.0]\r\nlogA=[-6.0, -3.0]\r\n----------------------------------------\r\n--- HaltaFall - Calculated equilibrium composition:\r\nComponents:        name      tot conc    solubility          conc      log act    log act coeff\r\n  0                  Ag+    3.0417e-06    3.0417e-06    1.0000e-06       -6.0000       0.00000\r\n  1                  Cl-     0.0010020     0.0010020     0.0010000       -3.0000       0.00000\r\nReaction products: name          conc      log act    log act coeff\r\n  2                 AgCl    2.0417e-06       -5.6900       0.00000 \r\nMax. relative tolerance:1.0E-10\r\nTolerances used (absolute):\r\n NaN NaN\r\nsolid combinations tested: 0  activity coefficient iterations: 0\r\n--- HaltaFall - End of equilibrium composition.\r\n----------------------------------------\r\nAll Done\r\n"
+      },
+      "probes": [
+        {
+          "tolerance": 1e-10,
+          "command": {
+            "executable": "C:/Program Files/JetBrains/PyCharm 2025.3.3/jbr/bin/java.exe",
+            "args": [
+              "-Djava.awt.headless=true",
+              "-cp",
+              "C:\\Users\\adamb\\PycharmProjects\\PythonProject\\adams-laboratory\\.local\\phase4-reference\\classes",
+              "ReferenceProbe",
+              "C:\\Users\\adamb\\PycharmProjects\\PythonProject\\adams-laboratory\\.local\\phase4-reference\\fixed-activity\\fixed-activity.dat",
+              "1e-10"
+            ]
+          },
+          "raw": "{\"errFlags\":0,\"concentration\":[9.999999999999987E-7, 9.999999999999994E-4, 2.0417379446695277E-6],\"logActivity\":[-6.0, -3.0, -5.6899999999999995],\"total\":[3.0417379446695266E-6, 0.0010020417379446689],\"dissolved\":[3.0417379446695266E-6, 0.0010020417379446689],\"logActivityCoefficient\":[0.0, 0.0, 0.0]}\r\n",
+          "values": {
+            "errFlags": 0,
+            "concentration": [
+              9.999999999999987e-7,
+              0.0009999999999999994,
+              0.0000020417379446695277
+            ],
+            "logActivity": [
+              -6,
+              -3,
+              -5.6899999999999995
+            ],
+            "total": [
+              0.0000030417379446695266,
+              0.0010020417379446689
+            ],
+            "dissolved": [
+              0.0000030417379446695266,
+              0.0010020417379446689
+            ],
+            "logActivityCoefficient": [
+              0,
+              0,
+              0
+            ]
+          }
+        },
+        {
+          "tolerance": 1e-12,
+          "command": {
+            "executable": "C:/Program Files/JetBrains/PyCharm 2025.3.3/jbr/bin/java.exe",
+            "args": [
+              "-Djava.awt.headless=true",
+              "-cp",
+              "C:\\Users\\adamb\\PycharmProjects\\PythonProject\\adams-laboratory\\.local\\phase4-reference\\classes",
+              "ReferenceProbe",
+              "C:\\Users\\adamb\\PycharmProjects\\PythonProject\\adams-laboratory\\.local\\phase4-reference\\fixed-activity\\fixed-activity.dat",
+              "1e-12"
+            ]
+          },
+          "raw": "{\"errFlags\":0,\"concentration\":[9.999999999999987E-7, 9.999999999999994E-4, 2.0417379446695277E-6],\"logActivity\":[-6.0, -3.0, -5.6899999999999995],\"total\":[3.0417379446695266E-6, 0.0010020417379446689],\"dissolved\":[3.0417379446695266E-6, 0.0010020417379446689],\"logActivityCoefficient\":[0.0, 0.0, 0.0]}\r\n",
+          "values": {
+            "errFlags": 0,
+            "concentration": [
+              9.999999999999987e-7,
+              0.0009999999999999994,
+              0.0000020417379446695277
+            ],
+            "logActivity": [
+              -6,
+              -3,
+              -5.6899999999999995
+            ],
+            "total": [
+              0.0000030417379446695266,
+              0.0010020417379446689
+            ],
+            "dissolved": [
+              0.0000030417379446695266,
+              0.0010020417379446689
+            ],
+            "logActivityCoefficient": [
+              0,
+              0,
+              0
+            ]
+          }
+        }
+      ],
+      "sourceRecords": [
+        {
+          "id": "spana:2ac52a30213c9288:16684",
+          "name": "AgCl",
+          "logK": 3.31,
+          "coefficients": {
+            "Ag+": 1,
+            "Cl-": 1
+          },
+          "provenance": {
+            "kind": "imported",
+            "sourceDatabase": "spana:2ac52a30213c9288dd18fc6dd597411e5c3ca53173fa6d1fab5530b371c30a0a",
+            "sourceFile": "C:\\Users\\adamb\\OneDrive\\Desktop\\Eq-Diagr_Java.zip!Eq-Diagr/Reactions.db",
+            "sourceRecordId": "byte:16684",
+            "originalRecordId": null,
+            "originalSpeciesName": "AgCl",
+            "originalReaction": {
+              "product": "AgCl",
+              "components": [
+                {
+                  "name": "Ag+",
+                  "coefficient": 1
+                },
+                {
+                  "name": "Cl-",
+                  "coefficient": 1
+                }
+              ],
+              "separateProtonCount": null
+            },
+            "originalLogK": 3.31,
+            "originalReferenceCode": "SmithMart",
+            "resolvedCitation": "SmithMart: NIST Standard Reference Database 46 Version 8.\nNIST Critically Selected Stability Constants of Metal Complexes Database\nhttp://www.nist.gov/srd/nist46.cfm\nNational Institute of Standards and Technology, 100 Bureau Dr., Stop 2300, Gaithersburg, MD",
+            "referenceSourceFile": "C:\\Users\\adamb\\OneDrive\\Desktop\\Eq-Diagr_Java.zip!Eq-Diagr/References.txt",
+            "dbSha256": "2ac52a30213c9288dd18fc6dd597411e5c3ca53173fa6d1fab5530b371c30a0a",
+            "byteOffset": 16684,
+            "byteLength": 72,
+            "importDate": "2026-09-05T16:23:16.736Z",
+            "importerVersion": "spana-readonly-1.0.0",
+            "comments": [
+              "Element links describe source components, not product atom counts. Oxidation states are not supplied."
+            ],
+            "qualityFlags": [
+              "imported",
+              "not-solver-validated",
+              "composition-unknown"
+            ],
+            "original": {
+              "speciesName": "AgCl",
+              "reaction": {
+                "product": "AgCl",
+                "components": [
+                  {
+                    "name": "Ag+",
+                    "coefficient": 1
+                  },
+                  {
+                    "name": "Cl-",
+                    "coefficient": 1
+                  }
+                ],
+                "separateProtonCount": null
+              },
+              "logK": 3.31,
+              "citation": "SmithMart",
+              "raw": {
+                "ordinal": 174,
+                "byteOffset": 16684,
+                "byteLength": 72,
+                "name": "AgCl",
+                "logK": 3.31,
+                "thermal": {
+                  "kind": "deltaH-deltaCp",
+                  "deltaH": -12,
+                  "deltaCp": -999999.9
+                },
+                "layout": "variable",
+                "componentToken": "2",
+                "components": [
+                  {
+                    "name": "Ag+",
+                    "coefficient": 1
+                  },
+                  {
+                    "name": "Cl-",
+                    "coefficient": 1
+                  }
+                ],
+                "protonCount": null,
+                "reference": "SmithMart",
+                "comment": "",
+                "rawBase64": "AARBZ0NsQAp64UeuFHvAKAAAAAAAAMEuhH/MzMzNAAEyAANBZys/8AAAAAAAAAADQ2wtP/AAAAAAAAAACVNtaXRoTWFydAAA"
+              }
+            }
+          }
+        }
+      ],
+      "assumptions": {
+        "temperatureC": 25,
+        "pressureBar": 1,
+        "activityModel": "ideal",
+        "ionicStrength": "not evaluated by ideal EC path",
+        "concentrationUnit": "mol/kg-H2O",
+        "chargeBalance": "not imposed; open fixed activities or omitted spectator ions as stated by constraints",
+        "restrictedSpeciesSet": true
+      }
+    }
+  ]
+}

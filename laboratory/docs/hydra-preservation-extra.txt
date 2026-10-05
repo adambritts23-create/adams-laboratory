@@ -1,0 +1,55 @@
+✔ general source discovery finds peroxide-only graph without a pair scope and retains gas candidates (4.558ms)
+✔ generic unbuffered peroxide agrees with independent raw-law scalar expectation (0.2633ms)
+✔ excluded gases remain conditional at low dose and require unsupported inventory at high dose (33.0234ms)
+✔ reviewed Fe network, exclusions, input/result identity, algebra and explanation are exact (860.2477ms)
+✔ unrestricted Fe chloride network includes counterion redox within audited expanded capacity (717.8818ms)
+✖ missing source-bound composition and selected electron refuse before solving (722.6204ms)
+✔ source drift, forged audit, mismatched repository and reviewed-profile misuse cannot calculate (1260.5652ms)
+✔ source row order preserves independent generic equilibrium (1479.9611ms)
+✔ conflicting reservoirs, unsupported conditions, nonphysical or unbalanced recipes fail closed (632.6677ms)
+✔ general point setup preserves ordinary settings and never turns fixed pH into supplied acid (0.5688ms)
+✔ coverage distinguishes discovery associations from reviewed conservation metadata (0.1667ms)
+✔ component provenance drift cannot retain reviewed recipe identity (4.1572ms)
+✔ bare charged components report exact countercharge and never receive invented ions (0.2149ms)
+✔ neutral physical reagents and solvent-mass mixing conserve introduced atom and charge inventories (4.0086ms)
+✔ stock contract refuses volume assumptions, missing counterion metadata, invalid amounts and electron inventory (0.1661ms)
+✔ new metal uses complete general graph and matches all independent raw-law concentrations (1.206ms)
+✔ source charge-label collisions retain separate exact carriers and inspection formulas (0.1575ms)
+✔ reviewed example is explicit; identical bare selections use untruncated general chemistry (905.3242ms)
+✔ larger Fe Eu network solves without concentration pruning (1019.0377ms)
+✔ Fe chromate counterions expose excluded precipitation rather than falsely accepting a converged aqueous state (1064.2248ms)
+✔ capacity extension is bounded and does not widen ordinary basis limits (13.5008ms)
+✔ reviewed recipes activate intrinsic chemistry without manual System counterion selection (2263.8759ms)
+✔ source drift cannot create physical recipe availability (11.0778ms)
+✔ editable sample and burette inputs move accepted equivalence through inventories alone (15313.5893ms)
+✔ reverse orientation is the same validated physical/point path (2823.1781ms)
+✔ loaded volume controls capacity and sampling; insufficient titrant remains an honest partial experiment (2826.7515ms)
+✔ all editable numeric fields refuse invalid values and arbitrary recipes (2.1997ms)
+✔ sampling retains dense region at moved equivalence and never determines pH (0.4381ms)
+ℹ tests 28
+ℹ suites 0
+ℹ pass 27
+ℹ fail 1
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 37173.1464
+
+✖ failing tests:
+
+test at tests\generalClosedReagents.test.js:41:1
+✖ missing source-bound composition and selected electron refuse before solving (722.6204ms)
+  AssertionError [ERR_ASSERTION]: Expected values to be strictly equal:
+  
+  true !== false
+  
+      at TestContext.<anonymous> (file:///C:/Users/adamb/PycharmProjects/PythonProject/adams-laboratory/tests/generalClosedReagents.test.js:42:248)
+      at async Test.run (node:internal/test_runner/test:1208:7)
+      at async Test.processPendingSubtests (node:internal/test_runner/test:831:7) {
+    generatedMessage: true,
+    code: 'ERR_ASSERTION',
+    actual: true,
+    expected: false,
+    operator: 'strictEqual',
+    diff: 'simple'
+  }

@@ -1,0 +1,65 @@
+eu true 24 {
+  pHError: -4.440892098500626e-16,
+  peError: -5.329070518200751e-15,
+  maximumCarrierLogError: 5.684710415331999e-14,
+  reference: undefined
+} undefined
+mixed true 42 {
+  pHError: 0,
+  peError: 4.440892098500626e-16,
+  maximumCarrierLogError: 2.84476602633229e-14,
+  reference: undefined
+} undefined
+fe true 24 {
+  pHError: -2.6645352591003757e-15,
+  peError: -7.105427357601002e-15,
+  maximumCarrierLogError: 3.423362506264304e-14,
+  reference: undefined
+} undefined
+fe true 24 {
+  pHError: -1.3322676295501878e-15,
+  peError: 7.958078640513122e-13,
+  maximumCarrierLogError: 4.796179087622945e-12,
+  reference: undefined
+} undefined
+fe true 24 {
+  pHError: 1.3322676295501878e-15,
+  peError: 0,
+  maximumCarrierLogError: 2.131163701082712e-14,
+  reference: undefined
+} undefined
+acid true 2 {
+  reference: undefined,
+  pHError: 1.7763568394002505e-15,
+  maximumCarrierLogError: 2.2661695464002305e-15
+} undefined
+acid true 2 {
+  reference: undefined,
+  pHError: -1.7763568394002505e-15,
+  maximumCarrierLogError: 2.2179531730725544e-15
+} undefined
+acid true 2 {
+  reference: undefined,
+  pHError: -8.881784197001252e-16,
+  maximumCarrierLogError: 8.678947198979575e-16
+} undefined
+acid true 2 {
+  reference: undefined,
+  pHError: -4.884981308350689e-15,
+  maximumCarrierLogError: 5.4002338126984414e-15
+} undefined
+acid true 2 {
+  reference: undefined,
+  pHError: 2.7755575615628914e-16,
+  maximumCarrierLogError: 9.643274665532861e-16
+} undefined
+limited false 51 undefined [
+  {
+    code: 'relevant-solid-or-unresolved-phase',
+    message: 'An excluded phase requires a broader inventory/phase model.',
+    ids: [
+      'spana:2ac52a30213c9288:133739',
+      'spana:2ac52a30213c9288:139276'
+    ]
+  }
+]

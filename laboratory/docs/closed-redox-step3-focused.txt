@@ -1,0 +1,38 @@
+✔ closed original: independent concentrations, inventories, charge and simultaneous half laws (3.2034ms)
+✔ closed unequal: independent concentrations, inventories, charge and simultaneous half laws (0.3021ms)
+✔ closed three: independent concentrations, inventories, charge and simultaneous half laws (0.189ms)
+✔ unequal two/three electron stoichiometry cancels exactly at six with transformed log K (2.3532ms)
+✔ all controls preserve equilibrium across preparations and supported bases, not preparation provenance (1.2064ms)
+✔ three simultaneous couples are invariant to reaction order, reversal and scaling (7.1544ms)
+✔ reservoir or electron-total inputs cannot enter closed mode (0.9476ms)
+✔ missing counterions, source metadata or invalid composition fail before solving (1.3577ms)
+✔ rank gates reject underdetermined/disconnected families and contradictory reaction cycles (0.8779ms)
+✔ forged preparations cannot solve and inspection branding cannot be copied (0.9876ms)
+✔ real V/Eu raw-source expected solution is independently analytic before production calculation (1.1879ms)
+✔ real two-family closed chemistry closes atoms, charge and electrons with common derived potential (5.6627ms)
+✔ real closed chemistry is preparation-history, reaction-order and supported-basis invariant (34.6667ms)
+✔ same five-ion chemistry through generic imposed-Eh sweep agrees at exact independent equilibrium potential (13.33ms)
+✔ real fixture cannot silently admit unbalanced preparation, imposed closed potential or edited source constants (4.2127ms)
+✔ closed two-couple synthetic equilibrium agrees with independent analytic extent without electron input (0.2757ms)
+✔ both half reactions give common derived pe and satisfy net K=100 (0.1327ms)
+✔ three chemical bases and two equivalent preparation histories preserve the same final state (0.2884ms)
+✔ charge is independently audited; generic additional electroneutrality remains explicitly unsupported (0.149ms)
+✔ disconnected state-total constraints preserve inappropriate preparation memory (1.5293ms)
+✔ an unconstrained explicit electron basis is rejected rather than silently prescribing Eh (0.4719ms)
+✔ imposed Fe control: 17 independent accepted equilibria exactly match fixed-Eh solves (68.1382ms)
+✔ total partition closes and dissolved speciation uses the unchanged normalization at every Eh (12.5301ms)
+✔ accepted saturation keeps 13 defined solubilities and four genuine gaps; mixed overlay stays pH-only (1.8121ms)
+✔ sample endpoints, hover and keyboard index navigation share exact Beaker equilibrium identities (0.8818ms)
+✔ all four compatible view switches reuse the same branded sweep without scientific revision changes (1.5752ms)
+✔ invalid ranges, samples and conditions fail the existing sweep rules (342.9911ms)
+✔ fixed pH, Eh range, phase scope, forged results and stale requests cannot reuse inspection (60.6323ms)
+✔ electron tile selection is a special-condition route, not an element or conserved inventory (12.4708ms)
+✔ fixed imposed Eh configuration varies pH using the same fixed-electron preparation (64.5575ms)
+ℹ tests 30
+ℹ suites 0
+ℹ pass 30
+ℹ fail 0
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 2754.959

@@ -1,0 +1,15 @@
+✔ reviewed recipes activate intrinsic chemistry without manual System counterion selection (2121.5065ms)
+✔ source drift cannot create physical recipe availability (2.3777ms)
+✔ editable sample and burette inputs move accepted equivalence through inventories alone (12975.6732ms)
+✔ reverse orientation is the same validated physical/point path (2579.3339ms)
+✔ loaded volume controls capacity and sampling; insufficient titrant remains an honest partial experiment (2628.9096ms)
+✔ all editable numeric fields refuse invalid values and arbitrary recipes (1.8522ms)
+✔ sampling retains dense region at moved equivalence and never determines pH (0.4854ms)
+ℹ tests 7
+ℹ suites 0
+ℹ pass 7
+ℹ fail 0
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 20897.6663

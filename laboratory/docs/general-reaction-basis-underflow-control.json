@@ -1,0 +1,315 @@
+{
+  "ok": false,
+  "status": "failed",
+  "diagnostics": [
+    {
+      "code": "no-consistent-solid-assemblage",
+      "message": "No scientifically accepted point state was found. Inspect the per-assemblage diagnostics.",
+      "path": null
+    }
+  ],
+  "attempts": [
+    {
+      "active": false,
+      "activeIds": [],
+      "ok": false,
+      "code": "underflow",
+      "message": "Initial mass action exceeds floating-point range.",
+      "initializationRetry": {
+        "policy": "single-positive-total-mass-action-seed-v1",
+        "originalFailure": {
+          "ok": false,
+          "code": "underflow",
+          "message": "Initial mass action exceeds floating-point range."
+        },
+        "initialLogActivities": [
+          0,
+          33.80700026499754,
+          -107.3364497163709,
+          0
+        ],
+        "retryFailure": {
+          "ok": false,
+          "code": "underflow",
+          "message": "Initial mass action exceeds floating-point range."
+        }
+      }
+    },
+    {
+      "active": true,
+      "activeIds": [
+        "spana:2ac52a30213c9288:346635"
+      ],
+      "ok": false,
+      "code": "underflow",
+      "message": "Initial mass action exceeds floating-point range.",
+      "initializationRetry": {
+        "policy": "single-positive-total-mass-action-seed-v1",
+        "originalFailure": {
+          "ok": false,
+          "code": "underflow",
+          "message": "Initial mass action exceeds floating-point range."
+        },
+        "initialLogActivities": [
+          0,
+          33.80700026499754,
+          -119.05000158998524,
+          0
+        ],
+        "retryFailure": {
+          "ok": false,
+          "code": "underflow",
+          "message": "Initial mass action exceeds floating-point range."
+        }
+      }
+    },
+    {
+      "active": true,
+      "activeIds": [
+        "spana:2ac52a30213c9288:348584"
+      ],
+      "ok": false,
+      "code": "underflow",
+      "message": "Initial mass action exceeds floating-point range.",
+      "initializationRetry": {
+        "policy": "single-positive-total-mass-action-seed-v1",
+        "originalFailure": {
+          "ok": false,
+          "code": "underflow",
+          "message": "Initial mass action exceeds floating-point range."
+        },
+        "initialLogActivities": [
+          0,
+          33.80700026499754,
+          -53.47987345332122,
+          0
+        ],
+        "retryFailure": {
+          "ok": false,
+          "code": "underflow",
+          "message": "Initial mass action exceeds floating-point range."
+        }
+      }
+    },
+    {
+      "active": true,
+      "activeIds": [
+        "spana:2ac52a30213c9288:348696"
+      ],
+      "ok": false,
+      "code": "underflow",
+      "message": "Initial mass action exceeds floating-point range.",
+      "initializationRetry": {
+        "policy": "single-positive-total-mass-action-seed-v1",
+        "originalFailure": {
+          "ok": false,
+          "code": "underflow",
+          "message": "Initial mass action exceeds floating-point range."
+        },
+        "initialLogActivities": [
+          0,
+          33.80700026499754,
+          -24.727127076673867,
+          0
+        ],
+        "retryFailure": {
+          "ok": false,
+          "code": "underflow",
+          "message": "Initial mass action exceeds floating-point range."
+        }
+      }
+    },
+    {
+      "active": true,
+      "activeIds": [
+        "spana:2ac52a30213c9288:349004"
+      ],
+      "ok": false,
+      "code": "underflow",
+      "message": "Initial mass action exceeds floating-point range.",
+      "initializationRetry": {
+        "policy": "single-positive-total-mass-action-seed-v1",
+        "originalFailure": {
+          "ok": false,
+          "code": "underflow",
+          "message": "Initial mass action exceeds floating-point range."
+        },
+        "initialLogActivities": [
+          0,
+          33.80700026499754,
+          -60.74750039749631,
+          0
+        ],
+        "retryFailure": {
+          "ok": false,
+          "code": "underflow",
+          "message": "Initial mass action exceeds floating-point range."
+        }
+      }
+    },
+    {
+      "active": true,
+      "activeIds": [
+        "spana:2ac52a30213c9288:350096"
+      ],
+      "ok": false,
+      "code": "underflow",
+      "message": "Initial mass action exceeds floating-point range.",
+      "initializationRetry": {
+        "policy": "single-positive-total-mass-action-seed-v1",
+        "originalFailure": {
+          "ok": false,
+          "code": "underflow",
+          "message": "Initial mass action exceeds floating-point range."
+        },
+        "initialLogActivities": [
+          0,
+          33.80700026499754,
+          -233.20100238497787,
+          0
+        ],
+        "retryFailure": {
+          "ok": false,
+          "code": "underflow",
+          "message": "Initial mass action exceeds floating-point range."
+        }
+      }
+    },
+    {
+      "active": true,
+      "activeIds": [
+        "spana:2ac52a30213c9288:350530"
+      ],
+      "ok": false,
+      "code": "underflow",
+      "message": "Initial mass action exceeds floating-point range.",
+      "initializationRetry": {
+        "policy": "single-positive-total-mass-action-seed-v1",
+        "originalFailure": {
+          "ok": false,
+          "code": "underflow",
+          "message": "Initial mass action exceeds floating-point range."
+        },
+        "initialLogActivities": [
+          0,
+          33.80700026499754,
+          -75.14800052999509,
+          0
+        ],
+        "retryFailure": {
+          "ok": false,
+          "code": "underflow",
+          "message": "Initial mass action exceeds floating-point range."
+        }
+      }
+    },
+    {
+      "active": true,
+      "activeIds": [
+        "spana:2ac52a30213c9288:351365"
+      ],
+      "ok": false,
+      "code": "underflow",
+      "message": "Initial mass action exceeds floating-point range.",
+      "initializationRetry": {
+        "policy": "single-positive-total-mass-action-seed-v1",
+        "originalFailure": {
+          "ok": false,
+          "code": "underflow",
+          "message": "Initial mass action exceeds floating-point range."
+        },
+        "initialLogActivities": [
+          0,
+          33.80700026499754,
+          -81.50200052999509,
+          0
+        ],
+        "retryFailure": {
+          "ok": false,
+          "code": "underflow",
+          "message": "Initial mass action exceeds floating-point range."
+        }
+      }
+    },
+    {
+      "active": true,
+      "activeIds": [
+        "spana:2ac52a30213c9288:353430"
+      ],
+      "ok": false,
+      "code": "underflow",
+      "message": "Initial mass action exceeds floating-point range.",
+      "initializationRetry": {
+        "policy": "single-positive-total-mass-action-seed-v1",
+        "originalFailure": {
+          "ok": false,
+          "code": "underflow",
+          "message": "Initial mass action exceeds floating-point range."
+        },
+        "initialLogActivities": [
+          0,
+          33.80700026499754,
+          4.93,
+          0
+        ],
+        "retryFailure": {
+          "ok": false,
+          "code": "underflow",
+          "message": "Initial mass action exceeds floating-point range."
+        }
+      }
+    },
+    {
+      "active": true,
+      "activeIds": [
+        "spana:2ac52a30213c9288:358594"
+      ],
+      "ok": false,
+      "code": "underflow",
+      "message": "Initial mass action exceeds floating-point range.",
+      "initializationRetry": {
+        "policy": "single-positive-total-mass-action-seed-v1",
+        "originalFailure": {
+          "ok": false,
+          "code": "underflow",
+          "message": "Initial mass action exceeds floating-point range."
+        },
+        "initialLogActivities": [
+          0,
+          33.80700026499754,
+          4.81,
+          0
+        ],
+        "retryFailure": {
+          "ok": false,
+          "code": "underflow",
+          "message": "Initial mass action exceeds floating-point range."
+        }
+      }
+    }
+  ],
+  "assemblageSelection": {
+    "policy": "bounded-multisolid-v1",
+    "candidateSolidIds": [
+      "spana:2ac52a30213c9288:346635",
+      "spana:2ac52a30213c9288:348584",
+      "spana:2ac52a30213c9288:348696",
+      "spana:2ac52a30213c9288:349004",
+      "spana:2ac52a30213c9288:350096",
+      "spana:2ac52a30213c9288:350530",
+      "spana:2ac52a30213c9288:351365",
+      "spana:2ac52a30213c9288:353430",
+      "spana:2ac52a30213c9288:358594"
+    ],
+    "maximumActive": 1,
+    "subsetLimit": 1024
+  },
+  "method": {
+    "name": "scaled-log-Newton-with-bounded-pure-solid-assemblages",
+    "version": "1.0.0"
+  },
+  "systemId": "5036e86576791308b33aef8acb4d49593699fdadc3f0811113d8d5a2163041ae",
+  "inputId": "dd5ebc94a907be3ff3fd43d9e8bb1417e5344aa3dcbc4ba75d723cb0c8925b87",
+  "revision": 0,
+  "result": null
+}

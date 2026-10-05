@@ -1,0 +1,9 @@
+{
+  "protectedUnchanged": true,
+  "changed": [
+    "src\\components\\GeneralClosedPanel.jsx",
+    "src\\components\\InteractiveBeaker.css",
+    "src\\components\\InteractiveBeaker.jsx"
+  ],
+  "checked": 335
+}

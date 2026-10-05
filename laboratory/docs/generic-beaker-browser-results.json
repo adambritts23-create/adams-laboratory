@@ -1,0 +1,39 @@
+[
+  {
+    "case": "Ca-only calculation and Beaker",
+    "text": "Aqueous only\nTotal dissolved Ca²⁺\n0.1 mol/kg H₂O\nLargest weighted contributor: Ca²⁺\nActive solid inventory\n\nNo positive solid amount.\n\nWhy does the beaker change?"
+  },
+  {
+    "case": "Ca pH 3",
+    "text": "Aqueous only\nTotal dissolved Ca²⁺\n0.1 mol/kg H₂O\nLargest weighted contributor: Ca²⁺\nActive solid inventory\n\nNo positive solid amount.\n\nWhy does the beaker change?"
+  },
+  {
+    "case": "Ca pH 11.234",
+    "text": "Aqueous only\nTotal dissolved Ca²⁺\n0.1 mol/kg H₂O\nLargest weighted contributor: Ca²⁺\nActive solid inventory\n\nNo positive solid amount.\n\nWhy does the beaker change?"
+  },
+  {
+    "case": "exact browser export",
+    "pH": 11.234,
+    "inputId": "d3cb9287357f1ffcdf79487142264bf6321bc134d78250db73ba2cbcf42cd453"
+  },
+  {
+    "case": "explicit mixed example",
+    "text": "2 solid phases\nTotal dissolved Ca²⁺\n8.16e-5 mol/kg H₂O\nLargest weighted contributor: Ca²⁺\nTotal dissolved CO₃²⁻\n8.16e-5 mol/kg H₂O\nLargest weighted contributor: CO₃²⁻\nTotal dissolved Mg²⁺\n8.15e-5 mol/kg H₂O\nLargest weighted contributor: Mg²⁺\nActive solid inventory\nMg(OH)₂(cr)\n0.000918 mol/kg H₂O\nCaCO₃(cr)\n0.0999 mol/kg H₂O\nWhy does the beaker change?"
+  },
+  {
+    "case": "Mg removal and recalculation",
+    "text": "1 solid phase\nTotal dissolved Ca²⁺\n8.03e-5 mol/kg H₂O\nLargest weighted contributor: Ca²⁺\nTotal dissolved CO₃²⁻\n8.03e-5 mol/kg H₂O\nLargest weighted contributor: CO₃²⁻\nActive solid inventory\nCaCO₃(cr)\n0.0999 mol/kg H₂O\nWhy does the beaker change?"
+  },
+  {
+    "case": "Mg aqueous second chemistry",
+    "text": "Aqueous only\nTotal dissolved Mg²⁺\n0.1 mol/kg H₂O\nLargest weighted contributor: Mg²⁺\nActive solid inventory\n\nNo positive solid amount.\n\nWhy does the beaker change?"
+  },
+  {
+    "case": "unsupported scientific reason",
+    "text": "beaker-preparation-failed: This system cannot currently be evaluated in Interactive Beaker. Select ideal activities explicitly; all nonideal models remain unsupported.\n\nLoad validated Ca–carbonate–Mg beaker example"
+  },
+  {
+    "case": "390px setup / calculate / edit / Beaker",
+    "passed": true
+  }
+]

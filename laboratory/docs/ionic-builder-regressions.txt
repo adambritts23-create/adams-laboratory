@@ -1,0 +1,32 @@
+✔ 18 independent acid/water/base controls agree without a production titration formula (1.7957ms)
+✔ volume and counterion moles are conserved before/at/after equivalence (0.2315ms)
+✔ curve, selected point and Beaker retain the same exact equilibrium object (0.2358ms)
+✔ each dose is independently reproducible, including reordered and duplicate totals (20.9207ms)
+✔ dispensing returns conserved aliquot and finite remainder without mutating the stock (0.6193ms)
+✔ mix two entire beakers uses the same physical and equilibrium preparation (0.7705ms)
+✔ invalid concentrations, volumes, conventions and arbitrary recipes are refused (0.4037ms)
+✔ forged preparations, mismatched selections and stale runs cannot provide a current result (1.7033ms)
+✔ changed thermodynamic provenance fails preparation instead of silently reusing benchmark evidence (0.9963ms)
+✔ fractional additions and changed analytical quantities are not snapped to nominal equivalence (2.4965ms)
+✔ preview is transient, click selects exact state and pointer traversal never solves (1628.2091ms)
+✔ analytical views preserve original identities and cache without solver calls in both orientations (3293.519ms)
+✔ fractions reuse unchanged ordinary-component contracts with no proton denominator (1607.5262ms)
+✔ log series retains actual admitted carriers, retained logs and absent-carrier gaps (1666.6766ms)
+✔ adapter and preview refuse forged, foreign and stale points even after caching (3305.6034ms)
+✔ custom experiment coordinates and nearest-X selection do not assume default equivalence (1674.3703ms)
+✔ repeated hover/view inspection reuses derived cache and performs zero new solve runs (1682.4701ms)
+ℹ 1000 cached preview/view operations: 27.01 ms; solveRuns=1
+✔ Wet Lab precomputes 107 accepted samples with dense equivalence coordinates (1663.1656ms)
+✔ cached curve selections share exact engine state and never solve inspection independently (1647.8594ms)
+✔ arbitrary total and increment controls calculate once then cache; reset restores exact initial object (1696.7031ms)
+✔ invalid values, forged points and old experiment points are refused without replacing selection (3276.4954ms)
+✔ newer selection cancels pending custom-volume state before it can replace the view (1661.3781ms)
+✔ Wet Lab navigation leaves ordinary chemistry and scientific revision unchanged (2.249ms)
+ℹ tests 23
+ℹ suites 0
+ℹ pass 23
+ℹ fail 0
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 26843.539

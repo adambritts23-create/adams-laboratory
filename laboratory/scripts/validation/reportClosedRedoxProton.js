@@ -1,0 +1,18 @@
+import fs from 'node:fs'
+import crypto from 'node:crypto'
+import {createRepository} from '../../src/thermodynamics/repository.js'
+import {protonRequest,runProton,controls,amounts,expected,target,ids} from './closedRedoxProton.js'
+const data=JSON.parse(fs.readFileSync('public/data/thermodynamic-default.json')),repo=createRepository(data),runs=[]
+for(const alternate of [false,true])for(const history of [0,1])for(const reverse of [false,true]){
+ const c=await runProton(repo,{alternate,history,reverse})
+ runs.push({alternate,history,reverse,basisIds:c.prepared.network.basisIds,preparation:c.request.preparation,inventories:c.prepared.inventories,input:c.prepared.input,initialLogActivities:c.prepared.initialLogActivities,amounts:amounts(c.solved.result),inspection:c.solved.inspection,residuals:c.solved.result.residuals,cancellations:c.prepared.network.cancellations})
+}
+const c=await controls(repo),compare=r=>({amounts:amounts(r),residuals:r.residuals,maximumDifference:Math.max(...Object.entries(target()).map(([id,n])=>Math.abs(amounts(r)[id]-n)))})
+const rawInventory=r=>{const n=amounts(r);return {charge:3*n[ids.Vo]+2*n[ids.Vr]+3*n[ids.Euo]+2*n[ids.Eur]+2*n[ids.VH]+n[ids.H]-n[ids.OH]-n[ids.Cl],acid:n[ids.H]-n[ids.OH]-n[ids.VH]}}
+const wrongPH=await c.fixedPH(expected.pH+.2),wrongEh=await c.fixedEh(expected.exactEh+.02)
+const out={scope:'Conditional eight-solute real V/Eu hydrolysis network; ideal fixed solvent water; not chemically complete aqueous redox',expected,runs,crossChecks:{fixedPH:{...compare(c.atPH),...rawInventory(c.atPH)},fixedEh:{...compare(c.atEh),...rawInventory(c.atEh)},fixedBoth:{...compare(c.atBoth),...rawInventory(c.atBoth)},differentPH:{pH:expected.pH+.2,...rawInventory(wrongPH)},differentEh:{Eh:expected.exactEh+.02,...rawInventory(wrongEh)}},maximumCompositionDifference:Math.max(...runs.flatMap(r=>Object.entries(target()).map(([id,n])=>Math.abs(r.amounts[id]-n)))),maximumInventoryResidual:Math.max(...runs.flatMap(r=>r.inspection.inventories.map(i=>Math.abs(i.residual)))),maximumOrdinaryLogResidual:Math.max(...runs.flatMap(r=>r.inspection.nonRedoxReactions.map(i=>Math.abs(i.residual)))),maximumNetLogResidual:Math.max(...runs.flatMap(r=>r.inspection.netReactions.map(i=>Math.abs(i.residual)))),maximumPotentialDisagreement:Math.max(...runs.flatMap(r=>r.inspection.potentials.map(i=>Math.abs(i.difference))))}
+fs.writeFileSync('docs/closed-redox-step4-evidence.json',JSON.stringify(out,null,2))
+fs.writeFileSync('docs/closed-redox-step4-sources.json',JSON.stringify({admittedRequest:protonRequest(repo),sourceRecords:[ids.Vr,ids.Eur,ids.VH,ids.OH].map(id=>repo.getSpeciesById(id)),alternativeEuHydrolysis:repo.getSpeciesById('spana:2ac52a30213c9288:125602'),excludedScope:'Other hydrolysis products, chloride complexes, other V/Eu states, solids, gases, nonideal activities; no completeness claim'},null,2))
+const before=JSON.parse(fs.readFileSync('docs/closed-redox-step4-before-hashes.json')),changes=Object.entries(before).filter(([p,h])=>crypto.createHash('sha256').update(fs.readFileSync(p)).digest('hex')!==h).map(([p,before])=>({path:p,before,after:crypto.createHash('sha256').update(fs.readFileSync(p)).digest('hex')}))
+fs.writeFileSync('docs/closed-redox-step4-hashes.json',JSON.stringify({checked:Object.keys(before).length,changes},null,2))
+console.log(JSON.stringify({maximumCompositionDifference:out.maximumCompositionDifference,maximumInventoryResidual:out.maximumInventoryResidual,maximumOrdinaryLogResidual:out.maximumOrdinaryLogResidual,maximumNetLogResidual:out.maximumNetLogResidual,maximumPotentialDisagreement:out.maximumPotentialDisagreement,crossChecks:out.crossChecks,changed:changes.map(c=>c.path)},null,2))

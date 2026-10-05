@@ -1,0 +1,196 @@
+{
+  "ok": true,
+  "protectedCount": 33,
+  "checks": [
+    {
+      "path": "src/solver/assemblages.js",
+      "before": "5a0dcc85767c11df1a05b07a4ece6d866bf28370b58be3af5d6b5a00f0650a5c",
+      "after": "5a0dcc85767c11df1a05b07a4ece6d866bf28370b58be3af5d6b5a00f0650a5c"
+    },
+    {
+      "path": "src/solver/closedRedox.js",
+      "before": "c3d9aa2df3a79630a271e68f6cf22af25640f6cbcf0c8e7b1dcebccb6a7c0904",
+      "after": "c3d9aa2df3a79630a271e68f6cf22af25640f6cbcf0c8e7b1dcebccb6a7c0904"
+    },
+    {
+      "path": "src/solver/contract.js",
+      "before": "8d035ccb7c9637ff734fb3cd5d14aec7ddc01ee61243cdd9fe4bd4372b8099bf",
+      "after": "8d035ccb7c9637ff734fb3cd5d14aec7ddc01ee61243cdd9fe4bd4372b8099bf"
+    },
+    {
+      "path": "src/solver/linear.js",
+      "before": "85bc2b1dd9792cf050bf64014ae76c0e66c6602c208c18607e97f05f71ba2f79",
+      "after": "85bc2b1dd9792cf050bf64014ae76c0e66c6602c208c18607e97f05f71ba2f79"
+    },
+    {
+      "path": "src/solver/logConcentration.js",
+      "before": "0838a65475c47eb86ff0807f4247010d69e9c4c7ee6bb7555c90af47b2228079",
+      "after": "0838a65475c47eb86ff0807f4247010d69e9c4c7ee6bb7555c90af47b2228079"
+    },
+    {
+      "path": "src/solver/models.js",
+      "before": "e140d8345640ed75c99242d50be7d07625f99a1fed60d99bcae5d9adc5779ee6",
+      "after": "e140d8345640ed75c99242d50be7d07625f99a1fed60d99bcae5d9adc5779ee6"
+    },
+    {
+      "path": "src/solver/point.js",
+      "before": "b2504008062ed7a453077b15485b6a9d758407484343e207c3992295b20b795d",
+      "after": "b2504008062ed7a453077b15485b6a9d758407484343e207c3992295b20b795d"
+    },
+    {
+      "path": "src/solver/prepareCanonicalRedox.js",
+      "before": "d5666d86b7e3a5730f09ccaaf6d330f590149a54317647a94aeb24e41db19085",
+      "after": "d5666d86b7e3a5730f09ccaaf6d330f590149a54317647a94aeb24e41db19085"
+    },
+    {
+      "path": "src/solver/prepareSession.js",
+      "before": "6eb8bf7d6b11d14508f3f05c3bb8d0c8099e0c5eb30f0df262cd6c59767b2164",
+      "after": "6eb8bf7d6b11d14508f3f05c3bb8d0c8099e0c5eb30f0df262cd6c59767b2164"
+    },
+    {
+      "path": "src/solver/redox.js",
+      "before": "80b9f117b93a313e7172476ee38633bb7156d8886839bdeaf6c9d7cc9a9d6074",
+      "after": "80b9f117b93a313e7172476ee38633bb7156d8886839bdeaf6c9d7cc9a9d6074"
+    },
+    {
+      "path": "src/solver/validationContract.js",
+      "before": "1eec965214cb5aaf583b55280c0203d4f58396264fa44e1cc69b0e7e6a3317db",
+      "after": "1eec965214cb5aaf583b55280c0203d4f58396264fa44e1cc69b0e7e6a3317db"
+    },
+    {
+      "path": "src/thermodynamics/canonicalRedox.js",
+      "before": "1627b21369186cd78e405faa127b4ca9921d165ae69aa4eecfb44c7487ff5754",
+      "after": "1627b21369186cd78e405faa127b4ca9921d165ae69aa4eecfb44c7487ff5754"
+    },
+    {
+      "path": "src/thermodynamics/closedReagents.js",
+      "before": "73ea9605a807e9ef37c8badaf5f6c67fa623ab50970cb8c36e86a1d05b3da7b8",
+      "after": "73ea9605a807e9ef37c8badaf5f6c67fa623ab50970cb8c36e86a1d05b3da7b8"
+    },
+    {
+      "path": "src/thermodynamics/closedRedoxNetwork.js",
+      "before": "dd03a80758e66c8e7107027c8fc68d8ca78fe895c0bdb54c5d0bedd05bce5e3f",
+      "after": "dd03a80758e66c8e7107027c8fc68d8ca78fe895c0bdb54c5d0bedd05bce5e3f"
+    },
+    {
+      "path": "src/thermodynamics/equilibriumNetwork.js",
+      "before": "77195602370168fe5fd80587dc53e30f1b6411d9e94f3504583eda670c266612",
+      "after": "77195602370168fe5fd80587dc53e30f1b6411d9e94f3504583eda670c266612"
+    },
+    {
+      "path": "src/thermodynamics/generalClosedReagents.js",
+      "before": "f43d4866f45a7f58d3934e86942b5efda4fd8743832f567f624e917d1336e7c2",
+      "after": "f43d4866f45a7f58d3934e86942b5efda4fd8743832f567f624e917d1336e7c2"
+    },
+    {
+      "path": "src/thermodynamics/reactionBasis.js",
+      "before": "4d8a09264ce5fbe8c722bfc99442d1429fb65ea9f2299af3c4365fa917efac46",
+      "after": "4d8a09264ce5fbe8c722bfc99442d1429fb65ea9f2299af3c4365fa917efac46"
+    },
+    {
+      "path": "src/thermodynamics/sourceConservation.js",
+      "before": "3710f89b839ea648dea04b2b235d1ab2c6169c0b515c6653200f4dcc7bc150a6",
+      "after": "3710f89b839ea648dea04b2b235d1ab2c6169c0b515c6653200f4dcc7bc150a6"
+    },
+    {
+      "path": "tests/fixtures/eq-diagr/references.json",
+      "before": "aefc0949b585ef290595088c8ed852a1eb591be25dff24563a44a2cf98d40960",
+      "after": "aefc0949b585ef290595088c8ed852a1eb591be25dff24563a44a2cf98d40960"
+    },
+    {
+      "path": "public/data/thermodynamic-default.json",
+      "before": "9fa7db6f4a13a88073a0ca214c412690846674f6b3f442e336baf1586c45d245",
+      "after": "9fa7db6f4a13a88073a0ca214c412690846674f6b3f442e336baf1586c45d245"
+    },
+    {
+      "path": "docs/closed-redox-step4-independent.json",
+      "before": "aeb6a8293f21efba89ecd14a95f548897ee94c1efb61d400b4c7ad3a143e9f4f",
+      "after": "aeb6a8293f21efba89ecd14a95f548897ee94c1efb61d400b4c7ad3a143e9f4f"
+    },
+    {
+      "path": "docs/closed-redox-step5-independent-points.json",
+      "before": "ffd53dd564094ed8d873c79dbba6d1062ae34f31b66b232d035831ff95d3c47a",
+      "after": "ffd53dd564094ed8d873c79dbba6d1062ae34f31b66b232d035831ff95d3c47a"
+    },
+    {
+      "path": "docs/closed-redox-step5-independent.json",
+      "before": "94fc83ba16596aa9bccd8bd0780f27b5336e8f49f6dd1c64b7bf6af2795f231e",
+      "after": "94fc83ba16596aa9bccd8bd0780f27b5336e8f49f6dd1c64b7bf6af2795f231e"
+    },
+    {
+      "path": "docs/closed-redox-step5-rejected-1mM-independent.json",
+      "before": "63e432861ab2d9f008f819f97e541177d87d82463d94595357e3d6a63a2874d0",
+      "after": "63e432861ab2d9f008f819f97e541177d87d82463d94595357e3d6a63a2874d0"
+    },
+    {
+      "path": "docs/closed-solids-independent.json",
+      "before": "5d2046440afa7a289e1c40ca699f76dafd8f9ac6cda1e1c36a779b71a5a71306",
+      "after": "5d2046440afa7a289e1c40ca699f76dafd8f9ac6cda1e1c36a779b71a5a71306"
+    },
+    {
+      "path": "docs/cr-reagent-independent-reference.json",
+      "before": "223a41ee2d40b48c8b9c692b0b9e562d276830c47719e2db58cbd1e4017f10f4",
+      "after": "223a41ee2d40b48c8b9c692b0b9e562d276830c47719e2db58cbd1e4017f10f4"
+    },
+    {
+      "path": "docs/cu-haltafall-reference.json.gz",
+      "before": "9ced7c210e85de291fa36eaf5109ef4a5b402326c30ac65d41db9411833888c4",
+      "after": "9ced7c210e85de291fa36eaf5109ef4a5b402326c30ac65d41db9411833888c4"
+    },
+    {
+      "path": "docs/general-closed-independent.json",
+      "before": "77b12369bb38feba9da70251940accefba16e254435c8a9e3088b41d31c9882d",
+      "after": "77b12369bb38feba9da70251940accefba16e254435c8a9e3088b41d31c9882d"
+    },
+    {
+      "path": "docs/independent-surface-carbonate.json.gz",
+      "before": "49135c954a34e50889bd8cf96bf63c20325e96d6780b827eb75b2bb7653dedbd",
+      "after": "49135c954a34e50889bd8cf96bf63c20325e96d6780b827eb75b2bb7653dedbd"
+    },
+    {
+      "path": "docs/independent-surface-mixed.json.gz",
+      "before": "851a1f333daefe53ed73ea50c94640605086debf1ab7b8826337d3c927a1b0b4",
+      "after": "851a1f333daefe53ed73ea50c94640605086debf1ab7b8826337d3c927a1b0b4"
+    },
+    {
+      "path": "docs/open-closed-independent.json",
+      "before": "d9729a72e47238c7ba6a99369084c18d1e43f508111339c056b3a6ce28e72e73",
+      "after": "d9729a72e47238c7ba6a99369084c18d1e43f508111339c056b3a6ce28e72e73"
+    },
+    {
+      "path": "docs/reaction-basis-UV-haltafall-reference.ndjson.gz",
+      "before": "6b183f0c080d4f87afff525b615109ef3447f14146b8dd6be2b0922013627336",
+      "after": "6b183f0c080d4f87afff525b615109ef3447f14146b8dd6be2b0922013627336"
+    },
+    {
+      "path": "docs/reaction-basis-UVI-haltafall-reference.ndjson.gz",
+      "before": "699756df3850ba6be319c5acb0402b9022dfce4bc05befb789402fcaf02d5e58",
+      "after": "699756df3850ba6be319c5acb0402b9022dfce4bc05befb789402fcaf02d5e58"
+    }
+  ],
+  "unchangedPublic": true,
+  "changed": [
+    "src/calculations/diagramSetup.js",
+    "src/calculations/grid.js",
+    "src/calculations/userPourbaix.js",
+    "src/components/CalculationWorkspace.jsx",
+    "src/components/DiagramSwitcher.jsx",
+    "tests/diagramSetup.test.js",
+    "tests/fastDiagramUx.test.js",
+    "docs/closed-solids-benchmark.json"
+  ],
+  "newFiles": [
+    "src/calculations/predominanceArea.js",
+    "src/components/PredominanceArea.css",
+    "src/components/PredominanceArea.jsx",
+    "tests/predominanceArea.test.js"
+  ],
+  "build": {
+    "index": true,
+    "assets": [
+      "index-C-HiS4Y5.css",
+      "index-DG4_aGwe.js"
+    ],
+    "dataHash": "9fa7db6f4a13a88073a0ca214c412690846674f6b3f442e336baf1586c45d245"
+  }
+}

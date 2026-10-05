@@ -1,0 +1,39 @@
+✔ beaker consumes branded accepted equilibrium points, never lookalike or archived objects (74.3999ms)
+✔ all pH control samples map exactly to the existing proton activity input (1.3209ms)
+✔ accepted aqueous-only points have no precipitate and retain unavailable saturation solubility (1.1808ms)
+✔ one-solid beaker state identifies calcite from the solver assemblage (0.3721ms)
+✔ multi-solid beaker states show all two- and three-phase inventories without layers (0.2542ms)
+✔ display inventory preserves every exact solid amount and agrees with prior multi-solid evidence (0.8898ms)
+✔ dissolved totals and all weighted contributors reuse existing calculated output (1.2209ms)
+✔ synchronized marker uses exactly the beaker pH, input identity and original solubility samples (0.4793ms)
+✔ unsupported and uncalculated states remain explicit and never produce a visual equilibrium (107.6237ms)
+✔ stale revision and late invalidated runs cannot masquerade as the current beaker state (33.0418ms)
+✔ generic Ca-only aqueous Beaker exactly matches direct point solves and never introduces other components (613.593ms)
+✔ second ordinary aqueous chemistry is generic, with exact component weighting (51.4905ms)
+✔ generic single-solid and explicit multi-solid states reuse accepted inventories (277.7873ms)
+✔ unsupported requests and uncontrolled axes return scientific diagnostics, never substitute an example (42.4814ms)
+✔ fixed pH control uses the current basis and no fixture constraints (27.9265ms)
+✔ compact total and axis edits preserve exact values, advanced options and unrelated controls (30.8304ms)
+✔ 1D selected result is the exact Calculation input/result object, with exact dissolved totals (2.0469ms)
+✔ aqueous, calcite, two-solid and three-solid Beaker states come only from accepted amounts (1.2711ms)
+✔ hover, pin and leave use one selection; invalid/noninteger mesh coordinates cannot select chemistry (0.3218ms)
+✔ stale, unrun, failed, forged and wrong-chemistry states cannot become a Beaker equilibrium (124.5557ms)
+✔ 2D grid and 3D exact sampled vertex resolve to the same stored equilibrium, without new solves (1130.8367ms)
+✔ single point stores its original prepared context and immediately supplies the Beaker (33.6993ms)
+✔ production Beaker presentation has no solver, pH controller or example dependency; navigation is Calculation only (1.977ms)
+✔ ordinary UI element toggle removes forms, incompatible phases and downstream component selections (567.0281ms)
+✔ required solvent elements cannot be removed and have explicit explanations (45.4733ms)
+✔ tabs change only view state and explicit example load synchronizes authoritative chemistry (48.499ms)
+✔ unsupported current Ca/carbonate chemistry never substitutes a beaker example (130.5928ms)
+✔ New and Reset isolate prior examples without resurrecting metals or ligands (133.7532ms)
+✔ explicit shared beaker session preserves every one of the 29 accepted exact pH states (3083.2271ms)
+✔ Ca/carbonate recalculation and exact numerical export contain no removed Mg component or species (185.6742ms)
+✔ Mn development control is dev-gated inside collapsed diagnostics, outside ordinary header (0.9647ms)
+ℹ tests 31
+ℹ suites 0
+ℹ pass 31
+ℹ fail 0
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 5866.7315

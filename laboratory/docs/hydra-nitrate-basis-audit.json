@@ -1,0 +1,1580 @@
+{
+  "original": {
+    "ok": false,
+    "mode": "closed-redox",
+    "diagnostics": [
+      {
+        "code": "closed-equilibrium-failed",
+        "message": "Unchanged point solver did not accept this network."
+      }
+    ],
+    "result": {
+      "ok": false,
+      "status": "failed",
+      "diagnostics": [
+        {
+          "code": "singular-or-ill-conditioned",
+          "message": "No scientifically accepted point state was found. Inspect the per-assemblage diagnostics.",
+          "path": null
+        }
+      ],
+      "attempts": [
+        {
+          "active": false,
+          "activeIds": [],
+          "ok": false,
+          "code": "singular-or-ill-conditioned",
+          "message": "Scaled Newton Jacobian is singular or fails the pivot threshold.",
+          "iteration": 0
+        }
+      ],
+      "method": {
+        "name": "scaled-log-Newton-with-single-solid-active-set",
+        "version": "1.0.1"
+      },
+      "systemId": "272144de93d984067ff635892e9212cf2e5529ac25c2a5daf2b46281eca6a9be",
+      "inputId": "fa1eb08abff66f7bde49f363fc4ca239e87967f02c7ae6397df258f459bbcd9b",
+      "revision": 0,
+      "result": null
+    },
+    "discovery": {
+      "version": "source-closed-discovery-v2",
+      "status": "conditional-source-closure",
+      "scope": "Complete discovered aqueous source graph; explicitly excluded phases require diagnostic review. Oxidation-state coloring is not inferred.",
+      "inputReagentIds": [
+        "component:NO3-",
+        "component:Na%2B",
+        "component:H2O2",
+        "component:NH3",
+        "component:NO2-"
+      ],
+      "electronSelected": false,
+      "internalElectronId": "component:e-",
+      "included": [
+        {
+          "id": "spana:2ac52a30213c9288:9455",
+          "name": "*N2",
+          "phase": "aqueous",
+          "reference": "85Bar/Par: Bard A J, Parsons R, Jordan J, (eds.); Standard Potentials in Aqueous Solution. New York: Marcel Dekker, Inc., IUPAC (Int. Union Pure Appl. Chem.), 1985"
+        },
+        {
+          "id": "spana:2ac52a30213c9288:9551",
+          "name": "*N2O",
+          "phase": "aqueous",
+          "reference": "85Bar/Par: Bard A J, Parsons R, Jordan J, (eds.); Standard Potentials in Aqueous Solution. New York: Marcel Dekker, Inc., IUPAC (Int. Union Pure Appl. Chem.), 1985\n\n2015Sander: Sander R, Atmos. Chem. Phys., 15 (2015) 4399-4981"
+        },
+        {
+          "id": "spana:2ac52a30213c9288:9659",
+          "name": "*N2O4",
+          "phase": "aqueous",
+          "reference": "85Bar/Par: Bard A J, Parsons R, Jordan J, (eds.); Standard Potentials in Aqueous Solution. New York: Marcel Dekker, Inc., IUPAC (Int. Union Pure Appl. Chem.), 1985\n\n2015Sander: Sander R, Atmos. Chem. Phys., 15 (2015) 4399-4981"
+        },
+        {
+          "id": "spana:2ac52a30213c9288:9768",
+          "name": "*NO",
+          "phase": "aqueous",
+          "reference": "85Bar/Par: Bard A J, Parsons R, Jordan J, (eds.); Standard Potentials in Aqueous Solution. New York: Marcel Dekker, Inc., IUPAC (Int. Union Pure Appl. Chem.), 1985\n\n2015Sander: Sander R, Atmos. Chem. Phys., 15 (2015) 4399-4981"
+        },
+        {
+          "id": "spana:2ac52a30213c9288:9875",
+          "name": "*NO2",
+          "phase": "aqueous",
+          "reference": "85Bar/Par: Bard A J, Parsons R, Jordan J, (eds.); Standard Potentials in Aqueous Solution. New York: Marcel Dekker, Inc., IUPAC (Int. Union Pure Appl. Chem.), 1985\n\n2015Sander: Sander R, Atmos. Chem. Phys., 15 (2015) 4399-4981"
+        },
+        {
+          "id": "spana:2ac52a30213c9288:151381",
+          "name": "H2",
+          "phase": "aqueous",
+          "reference": "82NBS: Wagman D D, Evans W H, Parker V B, Schumm R H, Halow I, Bailey S M, Churney K L, Nuttall R L; The NBS tables of chemical thermodynamic properties: Selected values for inorganic and C1 and C2 organic substances in SI units. J. Phys. Chem. Ref. Data 11, Suppl. No.2, 1982\n\n89Sho/Hel: Shock E L, Helgeson H C, Sverjensky D A; Geochim. Cosmochim. Acta 53 (1989) 2157-2183"
+        },
+        {
+          "id": "spana:2ac52a30213c9288:152477",
+          "name": "H2N2O2",
+          "phase": "aqueous",
+          "reference": "85Bar/Par: Bard A J, Parsons R, Jordan J, (eds.); Standard Potentials in Aqueous Solution. New York: Marcel Dekker, Inc., IUPAC (Int. Union Pure Appl. Chem.), 1985"
+        },
+        {
+          "id": "spana:2ac52a30213c9288:152743",
+          "name": "H2O2",
+          "phase": "aqueous",
+          "reference": "82NBS: Wagman D D, Evans W H, Parker V B, Schumm R H, Halow I, Bailey S M, Churney K L, Nuttall R L; The NBS tables of chemical thermodynamic properties: Selected values for inorganic and C1 and C2 organic substances in SI units. J. Phys. Chem. Ref. Data 11, Suppl. No.2, 1982\n\n1962GC: Giguere P A, Carmichael J L; J.Chem.Eng.Data 7 (1962) 526-527"
+        },
+        {
+          "id": "spana:2ac52a30213c9288:173109",
+          "name": "HNO2",
+          "phase": "aqueous",
+          "reference": "SmithMart: NIST Standard Reference Database 46 Version 8.\nNIST Critically Selected Stability Constants of Metal Complexes Database\nhttp://www.nist.gov/srd/nist46.cfm\nNational Institute of Standards and Technology, 100 Bureau Dr., Stop 2300, Gaithersburg, MD"
+        },
+        {
+          "id": "spana:2ac52a30213c9288:173181",
+          "name": "HNO3",
+          "phase": "aqueous",
+          "reference": "1997SSWS: Shock E L, Sassani D C, Willis M, Sverjensky D A; Geochim. Cosmochim. Acta, 61 (1997) 907-950"
+        },
+        {
+          "id": "spana:2ac52a30213c9288:175307",
+          "name": "HO2-",
+          "phase": "aqueous",
+          "reference": "SmithMart: NIST Standard Reference Database 46 Version 8.\nNIST Critically Selected Stability Constants of Metal Complexes Database\nhttp://www.nist.gov/srd/nist46.cfm\nNational Institute of Standards and Technology, 100 Bureau Dr., Stop 2300, Gaithersburg, MD\n\n88Sho/Hel: Shock E L, Helgeson H C; Geochim. Cosmochim. Acta 52 (1988) 2009-2036; and \"ERRATA\", ibid, 53 (1989) p.215"
+        },
+        {
+          "id": "spana:2ac52a30213c9288:219667",
+          "name": "N2H4",
+          "phase": "aqueous",
+          "reference": "85Bar/Par: Bard A J, Parsons R, Jordan J, (eds.); Standard Potentials in Aqueous Solution. New York: Marcel Dekker, Inc., IUPAC (Int. Union Pure Appl. Chem.), 1985"
+        },
+        {
+          "id": "spana:2ac52a30213c9288:219750",
+          "name": "N2H5+",
+          "phase": "aqueous",
+          "reference": "85Bar/Par: Bard A J, Parsons R, Jordan J, (eds.); Standard Potentials in Aqueous Solution. New York: Marcel Dekker, Inc., IUPAC (Int. Union Pure Appl. Chem.), 1985"
+        },
+        {
+          "id": "spana:2ac52a30213c9288:219933",
+          "name": "N2O2-2",
+          "phase": "aqueous",
+          "reference": "85Bar/Par: Bard A J, Parsons R, Jordan J, (eds.); Standard Potentials in Aqueous Solution. New York: Marcel Dekker, Inc., IUPAC (Int. Union Pure Appl. Chem.), 1985"
+        },
+        {
+          "id": "spana:2ac52a30213c9288:224689",
+          "name": "NaOH",
+          "phase": "aqueous",
+          "reference": "2016BE: Brown P L, Ekberg C; Hydrolysis of Metal Ions. Weinheim, Germany: Wiley-VCH Verlag GmbH & Co. KGaA, 2016\n\n1997SSWS: Shock E L, Sassani D C, Willis M, Sverjensky D A; Geochim. Cosmochim. Acta, 61 (1997) 907-950"
+        },
+        {
+          "id": "spana:2ac52a30213c9288:230906",
+          "name": "NH2OH(aq)",
+          "phase": "aqueous",
+          "reference": "85Bar/Par: Bard A J, Parsons R, Jordan J, (eds.); Standard Potentials in Aqueous Solution. New York: Marcel Dekker, Inc., IUPAC (Int. Union Pure Appl. Chem.), 1985"
+        },
+        {
+          "id": "spana:2ac52a30213c9288:231007",
+          "name": "NH3",
+          "phase": "aqueous",
+          "reference": "Codata: Cox J D, Wagman D D, Medvedev V A, CODATA Key Values for Thermodynamics. Hemisphere Publ. Co., New York, 1989\n\nNEA-U: Grenthe I, Fuger J, Konings R J M, Lemire R J, Muller A B, Nguyen-Trung C, Wanner H, Chemical Thermodynamics of Uranium. North-Holland, Elsevier Sci. Publ. B.V., Amsterdam, 1992"
+        },
+        {
+          "id": "spana:2ac52a30213c9288:231170",
+          "name": "NH3OH+",
+          "phase": "aqueous",
+          "reference": "85Bar/Par: Bard A J, Parsons R, Jordan J, (eds.); Standard Potentials in Aqueous Solution. New York: Marcel Dekker, Inc., IUPAC (Int. Union Pure Appl. Chem.), 1985"
+        },
+        {
+          "id": "spana:2ac52a30213c9288:231362",
+          "name": "NH4+",
+          "phase": "aqueous",
+          "reference": "Codata: Cox J D, Wagman D D, Medvedev V A, CODATA Key Values for Thermodynamics. Hemisphere Publ. Co., New York, 1989\n\nNEA-U: Grenthe I, Fuger J, Konings R J M, Lemire R J, Muller A B, Nguyen-Trung C, Wanner H, Chemical Thermodynamics of Uranium. North-Holland, Elsevier Sci. Publ. B.V., Amsterdam, 1992"
+        },
+        {
+          "id": "spana:2ac52a30213c9288:241198",
+          "name": "NO2-",
+          "phase": "aqueous",
+          "reference": "1997SSWS: Shock E L, Sassani D C, Willis M, Sverjensky D A; Geochim. Cosmochim. Acta, 61 (1997) 907-950"
+        },
+        {
+          "id": "spana:2ac52a30213c9288:241294",
+          "name": "NO3-",
+          "phase": "aqueous",
+          "reference": "Codata: Cox J D, Wagman D D, Medvedev V A, CODATA Key Values for Thermodynamics. Hemisphere Publ. Co., New York, 1989\n\nNEA-U: Grenthe I, Fuger J, Konings R J M, Lemire R J, Muller A B, Nguyen-Trung C, Wanner H, Chemical Thermodynamics of Uranium. North-Holland, Elsevier Sci. Publ. B.V., Amsterdam, 1992"
+        },
+        {
+          "id": "spana:2ac52a30213c9288:241393",
+          "name": "NO3-",
+          "phase": "aqueous",
+          "reference": "1997SSWS: Shock E L, Sassani D C, Willis M, Sverjensky D A; Geochim. Cosmochim. Acta, 61 (1997) 907-950"
+        },
+        {
+          "id": "spana:2ac52a30213c9288:249989",
+          "name": "O2",
+          "phase": "aqueous",
+          "reference": "89Sho/Hel: Shock E L, Helgeson H C, Sverjensky D A; Geochim. Cosmochim. Acta 53 (1989) 2157-2183"
+        },
+        {
+          "id": "spana:2ac52a30213c9288:250161",
+          "name": "O3",
+          "phase": "aqueous",
+          "reference": "82NBS: Wagman D D, Evans W H, Parker V B, Schumm R H, Halow I, Bailey S M, Churney K L, Nuttall R L; The NBS tables of chemical thermodynamic properties: Selected values for inorganic and C1 and C2 organic substances in SI units. J. Phys. Chem. Ref. Data 11, Suppl. No.2, 1982"
+        },
+        {
+          "id": "spana:2ac52a30213c9288:250448",
+          "name": "OH-",
+          "phase": "aqueous",
+          "reference": "Codata: Cox J D, Wagman D D, Medvedev V A, CODATA Key Values for Thermodynamics. Hemisphere Publ. Co., New York, 1989\n\n88Sho/Hel: Shock E L, Helgeson H C; Geochim. Cosmochim. Acta 52 (1988) 2009-2036; and \"ERRATA\", ibid, 53 (1989) p.215"
+        }
+      ],
+      "excluded": [
+        {
+          "id": "spana:2ac52a30213c9288:151531",
+          "name": "H2(g)",
+          "phase": "gas",
+          "reason": "phase-not-admitted"
+        },
+        {
+          "id": "spana:2ac52a30213c9288:219569",
+          "name": "N2(g)",
+          "phase": "gas",
+          "reason": "phase-not-admitted"
+        },
+        {
+          "id": "spana:2ac52a30213c9288:219834",
+          "name": "N2O(g)",
+          "phase": "gas",
+          "reason": "phase-not-admitted"
+        },
+        {
+          "id": "spana:2ac52a30213c9288:220032",
+          "name": "N2O4(g)",
+          "phase": "gas",
+          "reason": "phase-not-admitted"
+        },
+        {
+          "id": "spana:2ac52a30213c9288:220295",
+          "name": "Na(cr)",
+          "phase": "solid",
+          "reason": "phase-not-admitted"
+        },
+        {
+          "id": "spana:2ac52a30213c9288:231106",
+          "name": "NH3(g)",
+          "phase": "gas",
+          "reason": "phase-not-admitted"
+        },
+        {
+          "id": "spana:2ac52a30213c9288:241001",
+          "name": "NO(g)",
+          "phase": "gas",
+          "reason": "phase-not-admitted"
+        },
+        {
+          "id": "spana:2ac52a30213c9288:241099",
+          "name": "NO2(g)",
+          "phase": "gas",
+          "reason": "phase-not-admitted"
+        },
+        {
+          "id": "spana:2ac52a30213c9288:250070",
+          "name": "O2(g)",
+          "phase": "gas",
+          "reason": "phase-not-admitted"
+        },
+        {
+          "id": "spana:2ac52a30213c9288:250265",
+          "name": "O3(g)",
+          "phase": "gas",
+          "reason": "phase-not-admitted"
+        }
+      ]
+    },
+    "compilerVersion": "source-equilibrium-network-v1",
+    "timing": {
+      "compileMs": 3355.9665000000005,
+      "prepareMs": 187.88739999999962,
+      "solveMs": 4.718600000000151
+    }
+  },
+  "network": {
+    "species": 28,
+    "reactions": 25,
+    "rank": 23,
+    "conservation": 4
+  },
+  "policy": "Deterministic exhaustive one-column basis exchanges; unchanged default initialization and solver. Research diagnostics only; no production fallback.",
+  "outputs": [
+    {
+      "basisId": "spana:2ac52a30213c9288:9875",
+      "name": "original",
+      "prepared": true,
+      "acceptedClosed": false,
+      "initialRank": 2,
+      "first": {
+        "iteration": 0,
+        "jacobian": [
+          [
+            23.02585092994046,
+            0,
+            -18.420680743952364,
+            -18.420680743952364
+          ],
+          [
+            0,
+            2.302585092994046,
+            0,
+            -9.166755998370072e-8
+          ],
+          [
+            -23.02585092994046,
+            0,
+            18.420680743952367,
+            18.420680743952367
+          ],
+          [
+            -23.02585092994046,
+            -1.6185484406972888e-108,
+            18.420680743952364,
+            18.420680743952367
+          ]
+        ],
+        "logA": [
+          -7,
+          -2,
+          -2,
+          -7,
+          0
+        ]
+      },
+      "attempts": [
+        {
+          "active": false,
+          "activeIds": [],
+          "ok": false,
+          "code": "singular-or-ill-conditioned",
+          "message": "Scaled Newton Jacobian is singular or fails the pivot threshold.",
+          "iteration": 0
+        }
+      ],
+      "diagnostics": [
+        {
+          "code": "closed-equilibrium-failed",
+          "message": "Unchanged point solver did not accept this network."
+        }
+      ]
+    },
+    {
+      "basisId": "component:H2O2",
+      "name": "H2O2",
+      "prepared": true,
+      "acceptedClosed": true,
+      "initialRank": 4,
+      "first": {
+        "iteration": 0,
+        "jacobian": [
+          [
+            4.605170185988092,
+            0,
+            -2.317107703571307e-44,
+            -1.9510548415098565e-31
+          ],
+          [
+            0,
+            2.302585092994046,
+            0,
+            -9.166755998370072e-8
+          ],
+          [
+            -7.90635325334718e-23,
+            0,
+            2.302585092994046,
+            1.154026247165263e-8
+          ],
+          [
+            -0.00003326898876239799,
+            -0.004580952793126572,
+            0.0005767077881496585,
+            2.3025825901946733
+          ]
+        ],
+        "logA": [
+          -7,
+          -2,
+          -2,
+          -7,
+          0
+        ]
+      },
+      "attempts": [
+        {
+          "active": false,
+          "activeIds": [],
+          "iteration": 64,
+          "accepted": true,
+          "diagnostics": []
+        }
+      ],
+      "pH": 7.089258956203146,
+      "pe": 12.58627094398108,
+      "inventoryChecks": [
+        {
+          "key": "charge",
+          "total": 0,
+          "actual": 2.465659969898065e-19,
+          "residual": 2.465659969898065e-19,
+          "limit": 2.048421709430404e-12,
+          "ok": true
+        },
+        {
+          "key": "source-coordinate-1",
+          "total": 0.01,
+          "actual": 0.010000000000000002,
+          "residual": 1.734723475976807e-18,
+          "limit": 1.028421709430404e-12,
+          "ok": true
+        },
+        {
+          "key": "source-coordinate-2",
+          "total": -0.005,
+          "actual": -0.005000000000000001,
+          "residual": -8.673617379884035e-19,
+          "limit": 5.48421709430404e-13,
+          "ok": true
+        },
+        {
+          "key": "source-coordinate-3",
+          "total": 0.015,
+          "actual": 0.015000000000000005,
+          "residual": 5.204170427930421e-18,
+          "limit": 1.548421709430404e-12,
+          "ok": true
+        }
+      ]
+    },
+    {
+      "basisId": "component:NH3",
+      "name": "NH3",
+      "prepared": true,
+      "acceptedClosed": false,
+      "initialRank": 2,
+      "first": {
+        "iteration": 0,
+        "jacobian": [
+          [
+            2.8782313662425576,
+            0,
+            1.7269388197455346,
+            1.7269388197455333
+          ],
+          [
+            0,
+            2.302585092994046,
+            0,
+            -9.166755998370072e-8
+          ],
+          [
+            2.8782313662425576,
+            0,
+            1.7269388197455349,
+            1.7269388197455338
+          ],
+          [
+            2.8782313662425576,
+            -5.154118808250018e-64,
+            1.7269388197455346,
+            1.7269388197455333
+          ]
+        ],
+        "logA": [
+          -7,
+          -2,
+          -2,
+          -7,
+          0
+        ]
+      },
+      "attempts": [
+        {
+          "active": false,
+          "activeIds": [],
+          "ok": false,
+          "code": "singular-or-ill-conditioned",
+          "message": "Scaled Newton Jacobian is singular or fails the pivot threshold.",
+          "iteration": 0
+        }
+      ],
+      "diagnostics": [
+        {
+          "code": "closed-equilibrium-failed",
+          "message": "Unchanged point solver did not accept this network."
+        }
+      ]
+    },
+    {
+      "basisId": "component:NO2-",
+      "name": "NO2-",
+      "prepared": true,
+      "acceptedClosed": false,
+      "initialRank": 2,
+      "first": {
+        "iteration": 0,
+        "jacobian": [
+          [
+            11.51292546497023,
+            0,
+            -6.907755278982138,
+            4.605170185988091
+          ],
+          [
+            0,
+            2.302585092994046,
+            0,
+            -9.166755998370072e-8
+          ],
+          [
+            -11.51292546497023,
+            0,
+            6.907755278982138,
+            -4.60517018598809
+          ],
+          [
+            11.51292546497023,
+            -1.6262439467713713e-35,
+            -6.907755278982137,
+            4.605170185988091
+          ]
+        ],
+        "logA": [
+          -7,
+          -2,
+          -2,
+          -7,
+          0
+        ]
+      },
+      "attempts": [
+        {
+          "active": false,
+          "activeIds": [],
+          "ok": false,
+          "code": "singular-or-ill-conditioned",
+          "message": "Scaled Newton Jacobian is singular or fails the pivot threshold.",
+          "iteration": 0
+        }
+      ],
+      "diagnostics": [
+        {
+          "code": "closed-equilibrium-failed",
+          "message": "Unchanged point solver did not accept this network."
+        }
+      ]
+    },
+    {
+      "basisId": "spana:2ac52a30213c9288:151381",
+      "name": "H2",
+      "prepared": true,
+      "acceptedClosed": false,
+      "initialRank": 2,
+      "first": {
+        "iteration": 0,
+        "jacobian": [
+          [
+            11.51292546497023,
+            0,
+            4.605170185988092,
+            4.60517018598809
+          ],
+          [
+            0,
+            2.302585092994046,
+            0,
+            -9.166755998370072e-8
+          ],
+          [
+            11.51292546497023,
+            0,
+            4.605170185988092,
+            4.60517018598809
+          ],
+          [
+            11.512925464970227,
+            -9.912556894705884e-180,
+            4.605170185988091,
+            4.60517018598809
+          ]
+        ],
+        "logA": [
+          -7,
+          -2,
+          -2,
+          -7,
+          0
+        ]
+      },
+      "attempts": [
+        {
+          "active": false,
+          "activeIds": [],
+          "ok": false,
+          "code": "singular-or-ill-conditioned",
+          "message": "Scaled Newton Jacobian is singular or fails the pivot threshold.",
+          "iteration": 0
+        }
+      ],
+      "diagnostics": [
+        {
+          "code": "closed-equilibrium-failed",
+          "message": "Unchanged point solver did not accept this network."
+        }
+      ]
+    },
+    {
+      "basisId": "spana:2ac52a30213c9288:152477",
+      "name": "H2N2O2",
+      "prepared": true,
+      "acceptedClosed": false,
+      "initialRank": 2,
+      "first": {
+        "iteration": 0,
+        "jacobian": [
+          [
+            2.8782313662425576,
+            0,
+            -1.1512925464970227,
+            -1.151292546497024
+          ],
+          [
+            0,
+            2.302585092994046,
+            0,
+            -9.166755998370072e-8
+          ],
+          [
+            -2.8782313662425576,
+            0,
+            1.1512925464970227,
+            1.151292546497024
+          ],
+          [
+            -2.8782313662425576,
+            -2.743125544301491e-63,
+            1.1512925464970227,
+            1.151292546497024
+          ]
+        ],
+        "logA": [
+          -7,
+          -2,
+          -2,
+          -7,
+          0
+        ]
+      },
+      "attempts": [
+        {
+          "active": false,
+          "activeIds": [],
+          "ok": false,
+          "code": "singular-or-ill-conditioned",
+          "message": "Scaled Newton Jacobian is singular or fails the pivot threshold.",
+          "iteration": 0
+        }
+      ],
+      "diagnostics": [
+        {
+          "code": "closed-equilibrium-failed",
+          "message": "Unchanged point solver did not accept this network."
+        }
+      ]
+    },
+    {
+      "basisId": "spana:2ac52a30213c9288:173109",
+      "name": "HNO2",
+      "prepared": true,
+      "acceptedClosed": false,
+      "initialRank": 2,
+      "first": {
+        "iteration": 0,
+        "jacobian": [
+          [
+            11.51292546497023,
+            0,
+            -6.907755278982138,
+            -6.9077552789821395
+          ],
+          [
+            0,
+            2.302585092994046,
+            0,
+            -9.166755998370072e-8
+          ],
+          [
+            -11.51292546497023,
+            0,
+            6.907755278982138,
+            6.9077552789821395
+          ],
+          [
+            -11.51292546497023,
+            -6.096694507401108e-55,
+            6.907755278982139,
+            6.9077552789821395
+          ]
+        ],
+        "logA": [
+          -7,
+          -2,
+          -2,
+          -7,
+          0
+        ]
+      },
+      "attempts": [
+        {
+          "active": false,
+          "activeIds": [],
+          "ok": false,
+          "code": "singular-or-ill-conditioned",
+          "message": "Scaled Newton Jacobian is singular or fails the pivot threshold.",
+          "iteration": 0
+        }
+      ],
+      "diagnostics": [
+        {
+          "code": "closed-equilibrium-failed",
+          "message": "Unchanged point solver did not accept this network."
+        }
+      ]
+    },
+    {
+      "basisId": "spana:2ac52a30213c9288:175307",
+      "name": "HO2-",
+      "prepared": true,
+      "acceptedClosed": false,
+      "initialRank": 3,
+      "first": {
+        "iteration": 0,
+        "jacobian": [
+          [
+            4.60517018599252,
+            0,
+            -5.472228034308365e-56,
+            4.60517018599252
+          ],
+          [
+            0,
+            2.302585092994046,
+            0,
+            -9.166755998370072e-8
+          ],
+          [
+            -3.7255824589150686e-25,
+            0,
+            2.302585092994046,
+            1.1540262471652471e-8
+          ],
+          [
+            4.60517018599252,
+            -1.3464359320113606e-38,
+            1.695062410161864e-39,
+            4.60517018599252
+          ]
+        ],
+        "logA": [
+          -7,
+          -2,
+          -2,
+          -7,
+          0
+        ]
+      },
+      "attempts": [
+        {
+          "active": false,
+          "activeIds": [],
+          "ok": false,
+          "code": "singular-or-ill-conditioned",
+          "message": "Scaled Newton Jacobian is singular or fails the pivot threshold.",
+          "iteration": 0
+        }
+      ],
+      "diagnostics": [
+        {
+          "code": "closed-equilibrium-failed",
+          "message": "Unchanged point solver did not accept this network."
+        }
+      ]
+    },
+    {
+      "basisId": "spana:2ac52a30213c9288:219667",
+      "name": "N2H4",
+      "prepared": true,
+      "acceptedClosed": false,
+      "initialRank": 2,
+      "first": {
+        "iteration": 0,
+        "jacobian": [
+          [
+            1.6447036378528896,
+            0,
+            1.3157629102823123,
+            1.315762910282313
+          ],
+          [
+            0,
+            2.302585092994046,
+            0,
+            -9.166755998370072e-8
+          ],
+          [
+            1.6447036378528894,
+            0,
+            1.315762910282312,
+            1.315762910282313
+          ],
+          [
+            1.6447036378528896,
+            -2.627480198111693e-72,
+            1.3157629102823123,
+            1.315762910282313
+          ]
+        ],
+        "logA": [
+          -7,
+          -2,
+          -2,
+          -7,
+          0
+        ]
+      },
+      "attempts": [
+        {
+          "active": false,
+          "activeIds": [],
+          "ok": false,
+          "code": "singular-or-ill-conditioned",
+          "message": "Scaled Newton Jacobian is singular or fails the pivot threshold.",
+          "iteration": 0
+        }
+      ],
+      "diagnostics": [
+        {
+          "code": "closed-equilibrium-failed",
+          "message": "Unchanged point solver did not accept this network."
+        }
+      ]
+    },
+    {
+      "basisId": "spana:2ac52a30213c9288:219750",
+      "name": "N2H5+",
+      "prepared": true,
+      "acceptedClosed": false,
+      "initialRank": 2,
+      "first": {
+        "iteration": 0,
+        "jacobian": [
+          [
+            1.6447036378528896,
+            0,
+            1.3157629102823123,
+            -0.3289407275705768
+          ],
+          [
+            0,
+            2.302585092994046,
+            0,
+            -9.166755998370072e-8
+          ],
+          [
+            1.6447036378528894,
+            0,
+            1.315762910282312,
+            -0.3289407275705768
+          ],
+          [
+            -1.6447036378528899,
+            -5.354788230227843e-71,
+            -1.3157629102823127,
+            0.3289407275705769
+          ]
+        ],
+        "logA": [
+          -7,
+          -2,
+          -2,
+          -7,
+          0
+        ]
+      },
+      "attempts": [
+        {
+          "active": false,
+          "activeIds": [],
+          "ok": false,
+          "code": "singular-or-ill-conditioned",
+          "message": "Scaled Newton Jacobian is singular or fails the pivot threshold.",
+          "iteration": 0
+        }
+      ],
+      "diagnostics": [
+        {
+          "code": "closed-equilibrium-failed",
+          "message": "Unchanged point solver did not accept this network."
+        }
+      ]
+    },
+    {
+      "basisId": "spana:2ac52a30213c9288:219933",
+      "name": "N2O2-2",
+      "prepared": true,
+      "acceptedClosed": false,
+      "initialRank": 2,
+      "first": {
+        "iteration": 0,
+        "jacobian": [
+          [
+            2.8782313662425576,
+            0,
+            -1.1512925464970227,
+            4.605170185988091
+          ],
+          [
+            0,
+            2.302585092994046,
+            0,
+            -9.166755998370072e-8
+          ],
+          [
+            -2.8782313662425576,
+            0,
+            1.1512925464970227,
+            -4.605170185988091
+          ],
+          [
+            2.8782313662425576,
+            -5.938622139656984e-69,
+            -1.1512925464970227,
+            4.605170185988091
+          ]
+        ],
+        "logA": [
+          -7,
+          -2,
+          -2,
+          -7,
+          0
+        ]
+      },
+      "attempts": [
+        {
+          "active": false,
+          "activeIds": [],
+          "ok": false,
+          "code": "singular-or-ill-conditioned",
+          "message": "Scaled Newton Jacobian is singular or fails the pivot threshold.",
+          "iteration": 0
+        }
+      ],
+      "diagnostics": [
+        {
+          "code": "closed-equilibrium-failed",
+          "message": "Unchanged point solver did not accept this network."
+        }
+      ]
+    },
+    {
+      "basisId": "spana:2ac52a30213c9288:230906",
+      "name": "NH2OH(aq)",
+      "prepared": true,
+      "acceptedClosed": false,
+      "initialRank": 2,
+      "first": {
+        "iteration": 0,
+        "jacobian": [
+          [
+            3.8376418216567427,
+            0,
+            0.7675283643313491,
+            0.76752836433135
+          ],
+          [
+            0,
+            2.302585092994046,
+            0,
+            -9.166755998370072e-8
+          ],
+          [
+            3.837641821656743,
+            0,
+            0.767528364331349,
+            0.76752836433135
+          ],
+          [
+            3.8376418216567427,
+            -1.5464537763114816e-102,
+            0.767528364331349,
+            0.76752836433135
+          ]
+        ],
+        "logA": [
+          -7,
+          -2,
+          -2,
+          -7,
+          0
+        ]
+      },
+      "attempts": [
+        {
+          "active": false,
+          "activeIds": [],
+          "ok": false,
+          "code": "singular-or-ill-conditioned",
+          "message": "Scaled Newton Jacobian is singular or fails the pivot threshold.",
+          "iteration": 0
+        }
+      ],
+      "diagnostics": [
+        {
+          "code": "closed-equilibrium-failed",
+          "message": "Unchanged point solver did not accept this network."
+        }
+      ]
+    },
+    {
+      "basisId": "spana:2ac52a30213c9288:231170",
+      "name": "NH3OH+",
+      "prepared": true,
+      "acceptedClosed": false,
+      "initialRank": 2,
+      "first": {
+        "iteration": 0,
+        "jacobian": [
+          [
+            3.8376418216567427,
+            0,
+            0.7675283643313487,
+            -3.0701134573253928
+          ],
+          [
+            0,
+            2.302585092994046,
+            0,
+            -9.166755998370072e-8
+          ],
+          [
+            3.8376418216567427,
+            0,
+            0.7675283643313487,
+            -3.0701134573253923
+          ],
+          [
+            -3.837641821656743,
+            -1.9376572252049543e-91,
+            -0.7675283643313487,
+            3.0701134573253923
+          ]
+        ],
+        "logA": [
+          -7,
+          -2,
+          -2,
+          -7,
+          0
+        ]
+      },
+      "attempts": [
+        {
+          "active": false,
+          "activeIds": [],
+          "ok": false,
+          "code": "singular-or-ill-conditioned",
+          "message": "Scaled Newton Jacobian is singular or fails the pivot threshold.",
+          "iteration": 0
+        }
+      ],
+      "diagnostics": [
+        {
+          "code": "closed-equilibrium-failed",
+          "message": "Unchanged point solver did not accept this network."
+        }
+      ]
+    },
+    {
+      "basisId": "spana:2ac52a30213c9288:231362",
+      "name": "NH4+",
+      "prepared": true,
+      "acceptedClosed": false,
+      "initialRank": 2,
+      "first": {
+        "iteration": 0,
+        "jacobian": [
+          [
+            2.8782313662425576,
+            0,
+            1.7269388197455346,
+            -1.1512925464970223
+          ],
+          [
+            0,
+            2.302585092994046,
+            0,
+            -9.166755998370072e-8
+          ],
+          [
+            2.8782313662425576,
+            0,
+            1.7269388197455349,
+            -1.1512925464970223
+          ],
+          [
+            -2.8782313662425576,
+            -4.836104585828133e-61,
+            -1.7269388197455344,
+            1.1512925464970218
+          ]
+        ],
+        "logA": [
+          -7,
+          -2,
+          -2,
+          -7,
+          0
+        ]
+      },
+      "attempts": [
+        {
+          "active": false,
+          "activeIds": [],
+          "ok": false,
+          "code": "singular-or-ill-conditioned",
+          "message": "Scaled Newton Jacobian is singular or fails the pivot threshold.",
+          "iteration": 0
+        }
+      ],
+      "diagnostics": [
+        {
+          "code": "closed-equilibrium-failed",
+          "message": "Unchanged point solver did not accept this network."
+        }
+      ]
+    },
+    {
+      "basisId": "spana:2ac52a30213c9288:249989",
+      "name": "O2",
+      "prepared": true,
+      "acceptedClosed": true,
+      "initialRank": 4,
+      "first": {
+        "iteration": 0,
+        "jacobian": [
+          [
+            2.7547609855729607,
+            0,
+            -0.6029014978504251,
+            -0.6029013132442474
+          ],
+          [
+            0,
+            2.302585092994046,
+            0,
+            -9.166755998370072e-8
+          ],
+          [
+            -0.000006937217332317665,
+            0,
+            2.302587867880129,
+            0.000005561312415913805
+          ],
+          [
+            -0.32698903370078647,
+            -0.004320790242453202,
+            0.2621351822625873,
+            2.433380706466021
+          ]
+        ],
+        "logA": [
+          -7,
+          -2,
+          -2,
+          -7,
+          0
+        ]
+      },
+      "attempts": [
+        {
+          "active": false,
+          "activeIds": [],
+          "iteration": 5,
+          "accepted": true,
+          "diagnostics": []
+        }
+      ],
+      "pH": 7.089258956203147,
+      "pe": 12.586270943981088,
+      "inventoryChecks": [
+        {
+          "key": "charge",
+          "total": 0,
+          "actual": 2.4614248051617934e-19,
+          "residual": 2.4614248051617934e-19,
+          "limit": 2.048421709430404e-12,
+          "ok": true
+        },
+        {
+          "key": "source-coordinate-1",
+          "total": 0.01,
+          "actual": 0.010000000000000002,
+          "residual": 1.734723475976807e-18,
+          "limit": 1.028421709430404e-12,
+          "ok": true
+        },
+        {
+          "key": "source-coordinate-2",
+          "total": -0.005,
+          "actual": -0.005000000000000001,
+          "residual": -8.673617379884035e-19,
+          "limit": 5.68421709430404e-13,
+          "ok": true
+        },
+        {
+          "key": "source-coordinate-3",
+          "total": 0.015,
+          "actual": 0.015000000000000005,
+          "residual": 5.204170427930421e-18,
+          "limit": 1.5684217094304041e-12,
+          "ok": true
+        }
+      ]
+    },
+    {
+      "basisId": "spana:2ac52a30213c9288:250161",
+      "name": "O3",
+      "prepared": true,
+      "acceptedClosed": true,
+      "initialRank": 4,
+      "first": {
+        "iteration": 0,
+        "jacobian": [
+          [
+            1.5350567286626973,
+            0,
+            -3.209482120129379e-36,
+            1.0225531945600022e-15
+          ],
+          [
+            0,
+            2.302585092994046,
+            0,
+            -9.166755998370072e-8
+          ],
+          [
+            -1.2657376522167101e-21,
+            0,
+            2.302585092994046,
+            1.1540262471658961e-8
+          ],
+          [
+            1.5349398121978521,
+            -3.489091739336487e-7,
+            4.392506254734281e-8,
+            0.00017537469669085475
+          ]
+        ],
+        "logA": [
+          -7,
+          -2,
+          -2,
+          -7,
+          0
+        ]
+      },
+      "attempts": [
+        {
+          "active": false,
+          "activeIds": [],
+          "iteration": 50,
+          "accepted": true,
+          "diagnostics": []
+        }
+      ],
+      "pH": 7.089258956203147,
+      "pe": 12.586270943981084,
+      "inventoryChecks": [
+        {
+          "key": "charge",
+          "total": 0,
+          "actual": 2.4614248051617934e-19,
+          "residual": 2.4614248051617934e-19,
+          "limit": 2.048421709430404e-12,
+          "ok": true
+        },
+        {
+          "key": "source-coordinate-1",
+          "total": 0.01,
+          "actual": 0.010000000000000002,
+          "residual": 1.734723475976807e-18,
+          "limit": 1.028421709430404e-12,
+          "ok": true
+        },
+        {
+          "key": "source-coordinate-2",
+          "total": -0.005,
+          "actual": -0.005000000000000001,
+          "residual": -8.673617379884035e-19,
+          "limit": 5.88421709430404e-13,
+          "ok": true
+        },
+        {
+          "key": "source-coordinate-3",
+          "total": 0.015,
+          "actual": 0.015000000000000005,
+          "residual": 5.204170427930421e-18,
+          "limit": 1.588421709430404e-12,
+          "ok": true
+        }
+      ]
+    },
+    {
+      "basisId": "spana:2ac52a30213c9288:9455",
+      "name": "*N2",
+      "prepared": true,
+      "acceptedClosed": true,
+      "initialRank": 4,
+      "first": {
+        "iteration": 0,
+        "jacobian": [
+          [
+            2.1436077149436703,
+            0,
+            -0.21196961756882796,
+            -0.21196974944119315
+          ],
+          [
+            0,
+            2.302585092994046,
+            0,
+            -9.166755998370072e-8
+          ],
+          [
+            -0.0000023953245917852674,
+            0,
+            2.302583895329514,
+            0.000004802189417263972
+          ],
+          [
+            -0.10593639208319423,
+            -0.004054105923845023,
+            0.21238303410590756,
+            2.2496168310257887
+          ]
+        ],
+        "logA": [
+          -7,
+          -2,
+          -2,
+          -7,
+          0
+        ]
+      },
+      "attempts": [
+        {
+          "active": false,
+          "activeIds": [],
+          "iteration": 6,
+          "accepted": true,
+          "diagnostics": []
+        }
+      ],
+      "pH": 7.089258956203147,
+      "pe": 12.586270943981088,
+      "inventoryChecks": [
+        {
+          "key": "charge",
+          "total": 0,
+          "actual": 2.4614248051617934e-19,
+          "residual": 2.4614248051617934e-19,
+          "limit": 2.048421709430404e-12,
+          "ok": true
+        },
+        {
+          "key": "source-coordinate-1",
+          "total": 0.01,
+          "actual": 0.010000000000000002,
+          "residual": 1.734723475976807e-18,
+          "limit": 1.028421709430404e-12,
+          "ok": true
+        },
+        {
+          "key": "source-coordinate-2",
+          "total": -0.005,
+          "actual": -0.005000000000000001,
+          "residual": -8.673617379884035e-19,
+          "limit": 6.08421709430404e-13,
+          "ok": true
+        },
+        {
+          "key": "source-coordinate-3",
+          "total": 0.015,
+          "actual": 0.015000000000000005,
+          "residual": 5.204170427930421e-18,
+          "limit": 1.5684217094304041e-12,
+          "ok": true
+        }
+      ]
+    },
+    {
+      "basisId": "spana:2ac52a30213c9288:9551",
+      "name": "*N2O",
+      "prepared": true,
+      "acceptedClosed": false,
+      "initialRank": 2,
+      "first": {
+        "iteration": 0,
+        "jacobian": [
+          [
+            2.8782313662425576,
+            0,
+            -1.1512925464970227,
+            -1.151292546497024
+          ],
+          [
+            0,
+            2.302585092994046,
+            0,
+            -9.166755998370072e-8
+          ],
+          [
+            -2.8782313662425576,
+            0,
+            1.1512925464970227,
+            1.151292546497024
+          ],
+          [
+            -2.8782313662425576,
+            -2.6652974535284967e-28,
+            1.1512925464970227,
+            1.151292546497024
+          ]
+        ],
+        "logA": [
+          -7,
+          -2,
+          -2,
+          -7,
+          0
+        ]
+      },
+      "attempts": [
+        {
+          "active": false,
+          "activeIds": [],
+          "ok": false,
+          "code": "singular-or-ill-conditioned",
+          "message": "Scaled Newton Jacobian is singular or fails the pivot threshold.",
+          "iteration": 0
+        }
+      ],
+      "diagnostics": [
+        {
+          "code": "closed-equilibrium-failed",
+          "message": "Unchanged point solver did not accept this network."
+        }
+      ]
+    },
+    {
+      "basisId": "spana:2ac52a30213c9288:9659",
+      "name": "*N2O4",
+      "prepared": true,
+      "acceptedClosed": false,
+      "initialRank": 2,
+      "first": {
+        "iteration": 0,
+        "jacobian": [
+          [
+            11.51292546497023,
+            0,
+            -18.420680743952364,
+            -18.420680743952364
+          ],
+          [
+            0,
+            2.302585092994046,
+            0,
+            -9.166755998370072e-8
+          ],
+          [
+            -11.51292546497023,
+            0,
+            18.420680743952367,
+            18.420680743952367
+          ],
+          [
+            -11.51292546497023,
+            -2.878231366242405e-119,
+            18.420680743952364,
+            18.420680743952367
+          ]
+        ],
+        "logA": [
+          -7,
+          -2,
+          -2,
+          -7,
+          0
+        ]
+      },
+      "attempts": [
+        {
+          "active": false,
+          "activeIds": [],
+          "ok": false,
+          "code": "singular-or-ill-conditioned",
+          "message": "Scaled Newton Jacobian is singular or fails the pivot threshold.",
+          "iteration": 0
+        }
+      ],
+      "diagnostics": [
+        {
+          "code": "closed-equilibrium-failed",
+          "message": "Unchanged point solver did not accept this network."
+        }
+      ]
+    },
+    {
+      "basisId": "spana:2ac52a30213c9288:9768",
+      "name": "*NO",
+      "prepared": true,
+      "acceptedClosed": false,
+      "initialRank": 2,
+      "first": {
+        "iteration": 0,
+        "jacobian": [
+          [
+            7.6752836433134854,
+            0,
+            -3.0701134573253936,
+            -3.070113457325396
+          ],
+          [
+            0,
+            2.302585092994046,
+            0,
+            -9.166755998370072e-8
+          ],
+          [
+            -7.6752836433134854,
+            0,
+            3.0701134573253945,
+            3.070113457325396
+          ],
+          [
+            -7.6752836433134854,
+            -5.25545456006785e-56,
+            3.0701134573253936,
+            3.0701134573253954
+          ]
+        ],
+        "logA": [
+          -7,
+          -2,
+          -2,
+          -7,
+          0
+        ]
+      },
+      "attempts": [
+        {
+          "active": false,
+          "activeIds": [],
+          "ok": false,
+          "code": "singular-or-ill-conditioned",
+          "message": "Scaled Newton Jacobian is singular or fails the pivot threshold.",
+          "iteration": 0
+        }
+      ],
+      "diagnostics": [
+        {
+          "code": "closed-equilibrium-failed",
+          "message": "Unchanged point solver did not accept this network."
+        }
+      ]
+    }
+  ]
+}

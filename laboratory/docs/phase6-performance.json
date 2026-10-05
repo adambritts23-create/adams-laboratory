@@ -1,0 +1,655 @@
+{
+  "generatedAt": "2026-09-05T22:32:07.130Z",
+  "runtime": "v24.15.0",
+  "note": "Node local timings, not browser latency guarantees. Preparation is numerical preparation from retained fixture records, excluding full repository loading. One prepared system reused per case; default 20-point chunks. New sweep coordinates are invariant-checked, not new Java golden references.",
+  "measurements": [
+    {
+      "case": "acid-base",
+      "points": 51,
+      "preparationMs": 6.586599999999997,
+      "definitionMs": 1.0238999999999976,
+      "nonScientific": true,
+      "elapsedMs": 25.6866,
+      "inputPreparationMs": 6.263499999999958,
+      "solvingMs": 3.6704000000000008,
+      "counts": {
+        "requested": 51,
+        "converged": 51,
+        "failed": 0,
+        "notRun": 0
+      },
+      "first": {
+        "coordinate": -7.5,
+        "concentrations": [
+          3.162277660168379e-8,
+          0,
+          3.1513743802045063e-7
+        ]
+      },
+      "last": {
+        "coordinate": -6.5,
+        "concentrations": [
+          3.162277660168379e-7,
+          0,
+          3.151374380204506e-8
+        ]
+      }
+    },
+    {
+      "case": "acid-base",
+      "points": 101,
+      "preparationMs": 6.586599999999997,
+      "definitionMs": 0.33099999999998886,
+      "nonScientific": true,
+      "elapsedMs": 76.05199999999999,
+      "inputPreparationMs": 13.639699999999934,
+      "solvingMs": 4.623299999999929,
+      "counts": {
+        "requested": 101,
+        "converged": 101,
+        "failed": 0,
+        "notRun": 0
+      },
+      "first": {
+        "coordinate": -7.5,
+        "concentrations": [
+          3.162277660168379e-8,
+          0,
+          3.1513743802045063e-7
+        ]
+      },
+      "last": {
+        "coordinate": -6.5,
+        "concentrations": [
+          3.162277660168379e-7,
+          0,
+          3.151374380204506e-8
+        ]
+      }
+    },
+    {
+      "case": "acid-base",
+      "points": 501,
+      "preparationMs": 6.586599999999997,
+      "definitionMs": 1.065100000000001,
+      "nonScientific": true,
+      "elapsedMs": 387.65700000000004,
+      "inputPreparationMs": 61.79139999999995,
+      "solvingMs": 19.751600000000224,
+      "counts": {
+        "requested": 501,
+        "converged": 501,
+        "failed": 0,
+        "notRun": 0
+      },
+      "first": {
+        "coordinate": -7.5,
+        "concentrations": [
+          3.162277660168379e-8,
+          0,
+          3.1513743802045063e-7
+        ]
+      },
+      "last": {
+        "coordinate": -6.5,
+        "concentrations": [
+          3.162277660168379e-7,
+          0,
+          3.151374380204506e-8
+        ]
+      }
+    },
+    {
+      "case": "acid-base",
+      "points": 1001,
+      "preparationMs": 6.586599999999997,
+      "definitionMs": 0.4940000000000282,
+      "nonScientific": true,
+      "elapsedMs": 749.4678000000001,
+      "inputPreparationMs": 112.47049999999751,
+      "solvingMs": 33.246699999997645,
+      "counts": {
+        "requested": 1001,
+        "converged": 1001,
+        "failed": 0,
+        "notRun": 0
+      },
+      "first": {
+        "coordinate": -7.5,
+        "concentrations": [
+          3.162277660168379e-8,
+          0,
+          3.1513743802045063e-7
+        ]
+      },
+      "last": {
+        "coordinate": -6.5,
+        "concentrations": [
+          3.162277660168379e-7,
+          0,
+          3.151374380204506e-8
+        ]
+      }
+    },
+    {
+      "case": "complexation",
+      "points": 51,
+      "preparationMs": 0.8986999999999625,
+      "definitionMs": 0.6498000000001412,
+      "nonScientific": true,
+      "elapsedMs": 40.2335999999998,
+      "inputPreparationMs": 6.077799999999797,
+      "solvingMs": 6.949500000000626,
+      "counts": {
+        "requested": 51,
+        "converged": 51,
+        "failed": 0,
+        "notRun": 0
+      },
+      "first": {
+        "coordinate": -5.5,
+        "concentrations": [
+          0.0000010411109143169242,
+          0.0009978788332541482,
+          0.0000021211667458514495
+        ]
+      },
+      "last": {
+        "coordinate": -4.5,
+        "concentrations": [
+          0.00001054548247072893,
+          0.0009789227058690452,
+          0.000021077294130954833
+        ]
+      }
+    },
+    {
+      "case": "complexation",
+      "points": 101,
+      "preparationMs": 0.8986999999999625,
+      "definitionMs": 0.44049999999992906,
+      "nonScientific": true,
+      "elapsedMs": 59.22160000000008,
+      "inputPreparationMs": 9.854400000000851,
+      "solvingMs": 10.1974999999984,
+      "counts": {
+        "requested": 101,
+        "converged": 101,
+        "failed": 0,
+        "notRun": 0
+      },
+      "first": {
+        "coordinate": -5.5,
+        "concentrations": [
+          0.0000010411109143169242,
+          0.0009978788332541482,
+          0.0000021211667458514495
+        ]
+      },
+      "last": {
+        "coordinate": -4.5,
+        "concentrations": [
+          0.00001054548247072893,
+          0.0009789227058690452,
+          0.000021077294130954833
+        ]
+      }
+    },
+    {
+      "case": "complexation",
+      "points": 501,
+      "preparationMs": 0.8986999999999625,
+      "definitionMs": 0.6802000000000135,
+      "nonScientific": true,
+      "elapsedMs": 375.3980999999999,
+      "inputPreparationMs": 55.97730000000183,
+      "solvingMs": 45.334599999999455,
+      "counts": {
+        "requested": 501,
+        "converged": 501,
+        "failed": 0,
+        "notRun": 0
+      },
+      "first": {
+        "coordinate": -5.5,
+        "concentrations": [
+          0.0000010411109143169242,
+          0.0009978788332541482,
+          0.0000021211667458514495
+        ]
+      },
+      "last": {
+        "coordinate": -4.5,
+        "concentrations": [
+          0.00001054548247072893,
+          0.0009789227058690452,
+          0.000021077294130954833
+        ]
+      }
+    },
+    {
+      "case": "complexation",
+      "points": 1001,
+      "preparationMs": 0.8986999999999625,
+      "definitionMs": 1.2968000000000757,
+      "nonScientific": true,
+      "elapsedMs": 764.4868000000001,
+      "inputPreparationMs": 106.37950000000228,
+      "solvingMs": 83.92870000000221,
+      "counts": {
+        "requested": 1001,
+        "converged": 1001,
+        "failed": 0,
+        "notRun": 0
+      },
+      "first": {
+        "coordinate": -5.5,
+        "concentrations": [
+          0.0000010411109143169242,
+          0.0009978788332541482,
+          0.0000021211667458514495
+        ]
+      },
+      "last": {
+        "coordinate": -4.5,
+        "concentrations": [
+          0.00001054548247072893,
+          0.0009789227058690452,
+          0.000021077294130954833
+        ]
+      }
+    },
+    {
+      "case": "precipitation",
+      "points": 51,
+      "preparationMs": 0.7921000000001186,
+      "definitionMs": 0.3409999999998945,
+      "nonScientific": true,
+      "elapsedMs": 37.39449999999988,
+      "inputPreparationMs": 6.187199999999848,
+      "solvingMs": 10.187100000000555,
+      "counts": {
+        "requested": 51,
+        "converged": 51,
+        "failed": 0,
+        "notRun": 0
+      },
+      "first": {
+        "coordinate": -3.5,
+        "concentrations": [
+          2.5997012996552217e-7,
+          0.0006840322041131273,
+          3.6307805477010174e-7,
+          0.00031560471783210234
+        ]
+      },
+      "last": {
+        "coordinate": -2.5,
+        "concentrations": [
+          0.002162359898070302,
+          8.223790182318252e-8,
+          3.6307805477010174e-7,
+          0.0009995546840434067
+        ]
+      }
+    },
+    {
+      "case": "precipitation",
+      "points": 101,
+      "preparationMs": 0.7921000000001186,
+      "definitionMs": 0.29750000000012733,
+      "nonScientific": true,
+      "elapsedMs": 71.54220000000032,
+      "inputPreparationMs": 11.740999999999985,
+      "solvingMs": 15.447999999999865,
+      "counts": {
+        "requested": 101,
+        "converged": 101,
+        "failed": 0,
+        "notRun": 0
+      },
+      "first": {
+        "coordinate": -3.5,
+        "concentrations": [
+          2.5997012996552217e-7,
+          0.0006840322041131273,
+          3.6307805477010174e-7,
+          0.00031560471783210234
+        ]
+      },
+      "last": {
+        "coordinate": -2.5,
+        "concentrations": [
+          0.002162359898070302,
+          8.223790182318252e-8,
+          3.6307805477010174e-7,
+          0.0009995546840434067
+        ]
+      }
+    },
+    {
+      "case": "precipitation",
+      "points": 501,
+      "preparationMs": 0.7921000000001186,
+      "definitionMs": 0.30769999999984066,
+      "nonScientific": true,
+      "elapsedMs": 374.74850000000015,
+      "inputPreparationMs": 63.22800000000234,
+      "solvingMs": 77.62290000000303,
+      "counts": {
+        "requested": 501,
+        "converged": 501,
+        "failed": 0,
+        "notRun": 0
+      },
+      "first": {
+        "coordinate": -3.5,
+        "concentrations": [
+          2.5997012996552217e-7,
+          0.0006840322041131273,
+          3.6307805477010174e-7,
+          0.00031560471783210234
+        ]
+      },
+      "last": {
+        "coordinate": -2.5,
+        "concentrations": [
+          0.002162359898070302,
+          8.223790182318252e-8,
+          3.6307805477010174e-7,
+          0.0009995546840434067
+        ]
+      }
+    },
+    {
+      "case": "precipitation",
+      "points": 1001,
+      "preparationMs": 0.7921000000001186,
+      "definitionMs": 2.0372999999999593,
+      "nonScientific": true,
+      "elapsedMs": 788.6873999999998,
+      "inputPreparationMs": 214.99189999999908,
+      "solvingMs": 271.83290000000125,
+      "counts": {
+        "requested": 1001,
+        "converged": 1001,
+        "failed": 0,
+        "notRun": 0
+      },
+      "first": {
+        "coordinate": -3.5,
+        "concentrations": [
+          2.5997012996552217e-7,
+          0.0006840322041131273,
+          3.6307805477010174e-7,
+          0.00031560471783210234
+        ]
+      },
+      "last": {
+        "coordinate": -2.5,
+        "concentrations": [
+          0.002162359898070302,
+          8.223790182318252e-8,
+          3.6307805477010174e-7,
+          0.0009995546840434067
+        ]
+      }
+    },
+    {
+      "case": "redox",
+      "points": 51,
+      "preparationMs": 1.1024999999999636,
+      "definitionMs": 0.35950000000002547,
+      "nonScientific": true,
+      "elapsedMs": 26.636299999999665,
+      "inputPreparationMs": 8.966299999999592,
+      "solvingMs": 5.302800000003572,
+      "counts": {
+        "requested": 51,
+        "converged": 51,
+        "failed": 0,
+        "notRun": 0
+      },
+      "first": {
+        "coordinate": -13.5,
+        "concentrations": [
+          0.0000026233631054230324,
+          0,
+          0.000007376636894576965
+        ]
+      },
+      "last": {
+        "coordinate": -12.5,
+        "concentrations": [
+          0.000007805243056731223,
+          0,
+          0.000002194756943268808
+        ]
+      }
+    },
+    {
+      "case": "redox",
+      "points": 101,
+      "preparationMs": 1.1024999999999636,
+      "definitionMs": 0.6626999999998588,
+      "nonScientific": true,
+      "elapsedMs": 74.98649999999998,
+      "inputPreparationMs": 18.864000000000033,
+      "solvingMs": 11.85119999999688,
+      "counts": {
+        "requested": 101,
+        "converged": 101,
+        "failed": 0,
+        "notRun": 0
+      },
+      "first": {
+        "coordinate": -13.5,
+        "concentrations": [
+          0.0000026233631054230324,
+          0,
+          0.000007376636894576965
+        ]
+      },
+      "last": {
+        "coordinate": -12.5,
+        "concentrations": [
+          0.000007805243056731223,
+          0,
+          0.000002194756943268808
+        ]
+      }
+    },
+    {
+      "case": "redox",
+      "points": 501,
+      "preparationMs": 1.1024999999999636,
+      "definitionMs": 0.7082000000000335,
+      "nonScientific": true,
+      "elapsedMs": 371.38020000000006,
+      "inputPreparationMs": 87.64420000000791,
+      "solvingMs": 44.11860000002207,
+      "counts": {
+        "requested": 501,
+        "converged": 501,
+        "failed": 0,
+        "notRun": 0
+      },
+      "first": {
+        "coordinate": -13.5,
+        "concentrations": [
+          0.0000026233631054230324,
+          0,
+          0.000007376636894576965
+        ]
+      },
+      "last": {
+        "coordinate": -12.5,
+        "concentrations": [
+          0.000007805243056731223,
+          0,
+          0.000002194756943268808
+        ]
+      }
+    },
+    {
+      "case": "redox",
+      "points": 1001,
+      "preparationMs": 1.1024999999999636,
+      "definitionMs": 0.9409999999998035,
+      "nonScientific": true,
+      "elapsedMs": 769.9036000000006,
+      "inputPreparationMs": 161.05399999998826,
+      "solvingMs": 77.98719999999685,
+      "counts": {
+        "requested": 1001,
+        "converged": 1001,
+        "failed": 0,
+        "notRun": 0
+      },
+      "first": {
+        "coordinate": -13.5,
+        "concentrations": [
+          0.0000026233631054230324,
+          0,
+          0.000007376636894576965
+        ]
+      },
+      "last": {
+        "coordinate": -12.5,
+        "concentrations": [
+          0.000007805243056731223,
+          0,
+          0.000002194756943268808
+        ]
+      }
+    },
+    {
+      "case": "fixed-activity",
+      "points": 51,
+      "preparationMs": 0.9938000000001921,
+      "definitionMs": 0.4580000000005384,
+      "nonScientific": true,
+      "elapsedMs": 29.645700000000033,
+      "inputPreparationMs": 10.933099999998376,
+      "solvingMs": 2.7582000000002154,
+      "counts": {
+        "requested": 51,
+        "converged": 51,
+        "failed": 0,
+        "notRun": 0
+      },
+      "first": {
+        "coordinate": -6.5,
+        "concentrations": [
+          3.162277660168379e-7,
+          0.001,
+          6.456542290346562e-7
+        ]
+      },
+      "last": {
+        "coordinate": -5.5,
+        "concentrations": [
+          0.000003162277660168379,
+          0.001,
+          0.0000064565422903465625
+        ]
+      }
+    },
+    {
+      "case": "fixed-activity",
+      "points": 101,
+      "preparationMs": 0.9938000000001921,
+      "definitionMs": 0.35819999999966967,
+      "nonScientific": true,
+      "elapsedMs": 74.21489999999994,
+      "inputPreparationMs": 16.68880000000445,
+      "solvingMs": 5.554699999993318,
+      "counts": {
+        "requested": 101,
+        "converged": 101,
+        "failed": 0,
+        "notRun": 0
+      },
+      "first": {
+        "coordinate": -6.5,
+        "concentrations": [
+          3.162277660168379e-7,
+          0.001,
+          6.456542290346562e-7
+        ]
+      },
+      "last": {
+        "coordinate": -5.5,
+        "concentrations": [
+          0.000003162277660168379,
+          0.001,
+          0.0000064565422903465625
+        ]
+      }
+    },
+    {
+      "case": "fixed-activity",
+      "points": 501,
+      "preparationMs": 0.9938000000001921,
+      "definitionMs": 0.6487999999999374,
+      "nonScientific": true,
+      "elapsedMs": 390.71609999999964,
+      "inputPreparationMs": 83.43570000000454,
+      "solvingMs": 26.708499999987907,
+      "counts": {
+        "requested": 501,
+        "converged": 501,
+        "failed": 0,
+        "notRun": 0
+      },
+      "first": {
+        "coordinate": -6.5,
+        "concentrations": [
+          3.162277660168379e-7,
+          0.001,
+          6.456542290346562e-7
+        ]
+      },
+      "last": {
+        "coordinate": -5.5,
+        "concentrations": [
+          0.000003162277660168379,
+          0.001,
+          0.0000064565422903465625
+        ]
+      }
+    },
+    {
+      "case": "fixed-activity",
+      "points": 1001,
+      "preparationMs": 0.9938000000001921,
+      "definitionMs": 0.966099999999642,
+      "nonScientific": true,
+      "elapsedMs": 766.5996000000005,
+      "inputPreparationMs": 165.47619999999824,
+      "solvingMs": 46.54100000000744,
+      "counts": {
+        "requested": 1001,
+        "converged": 1001,
+        "failed": 0,
+        "notRun": 0
+      },
+      "first": {
+        "coordinate": -6.5,
+        "concentrations": [
+          3.162277660168379e-7,
+          0.001,
+          6.456542290346562e-7
+        ]
+      },
+      "last": {
+        "coordinate": -5.5,
+        "concentrations": [
+          0.000003162277660168379,
+          0.001,
+          0.0000064565422903465625
+        ]
+      }
+    }
+  ]
+}

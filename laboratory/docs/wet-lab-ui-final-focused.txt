@@ -1,0 +1,29 @@
+✔ axis grouping: fieldset labels retain variable, range, samples and native unit controls together (1.526ms)
+✔ axis grouping: dimensionality controls fieldset count and surface response heading without fake bounds (0.243ms)
+✔ axis grouping: editing Y retains X and the fixed inventory while changing only selected bounds (335.1188ms)
+✔ axis grouping: 2D/3D view and workspace navigation retain the scientific definition (24.0924ms)
+✔ axis grouping: navigation semantics and component identities stay separate from display labels (0.4307ms)
+✔ 18 independent acid/water/base controls agree without a production titration formula (0.3904ms)
+✔ volume and counterion moles are conserved before/at/after equivalence (0.4052ms)
+✔ curve, selected point and Beaker retain the same exact equilibrium object (0.1998ms)
+✔ each dose is independently reproducible, including reordered and duplicate totals (8.7868ms)
+✔ dispensing returns conserved aliquot and finite remainder without mutating the stock (1.0313ms)
+✔ mix two entire beakers uses the same physical and equilibrium preparation (0.6879ms)
+✔ invalid concentrations, volumes, conventions and arbitrary recipes are refused (0.3914ms)
+✔ forged preparations, mismatched selections and stale runs cannot provide a current result (1.2237ms)
+✔ changed thermodynamic provenance fails preparation instead of silently reusing benchmark evidence (0.5916ms)
+✔ fractional additions and changed analytical quantities are not snapped to nominal equivalence (1.9733ms)
+✔ Wet Lab precomputes 107 accepted samples with dense equivalence coordinates (71.5097ms)
+✔ cached curve selections share exact engine state and never solve inspection independently (69.3944ms)
+✔ arbitrary total and increment controls calculate once then cache; reset restores exact initial object (77.215ms)
+✔ invalid values, forged points and old experiment points are refused without replacing selection (118.2264ms)
+✔ newer selection cancels pending custom-volume state before it can replace the view (50.5055ms)
+✔ Wet Lab navigation leaves ordinary chemistry and scientific revision unchanged (289.801ms)
+ℹ tests 21
+ℹ suites 0
+ℹ pass 21
+ℹ fail 0
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 2379.859

@@ -1,0 +1,17 @@
+{
+  "source": "adams-laboratory-game/scripts/apartment_5c.gd",
+  "meshCount": 903,
+  "scope": "Original apartment only, including kitchen, bathroom, hall, furnishings and French balcony. No NeighborApartments purchase extensions.",
+  "adaptations": [
+    "Entrance door removed to connect to laboratory exit",
+    "Godot viewport shaders replaced with browser materials; exterior world not exported",
+    "Game scripts and weapon interactions not included"
+  ],
+  "sourceHashes": {
+    "apartment_5c.gd": "573dc72f500331ae76db1745176a936c7da4d83cea910542b16944b665a61fdb",
+    "apartment_balcony.gd": "c3bc58f0b564f27ccf42e6ffc923d0e5f247079ccd4a066c8b1cb86bcfb11293",
+    "apartment_kitchen.gd": "c2de9ddc4cd36b8af0354742d94bbf521b387f3fea088eb3b4daffe97ad586cc",
+    "apartment_mirrors.gd": "91cc739eae6c0c18248d754eb15582b89fda9bf8498fab6c05bc49da87f41d41",
+    "apartment_soft_details.gd": "17ac744b94897145824c984c3a901e4af27454df980188a05d6477ca6999bdfe"
+  }
+}

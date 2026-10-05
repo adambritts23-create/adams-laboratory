@@ -1,0 +1,2462 @@
+{
+  "status": "passed",
+  "date": "2026-09-10",
+  "baseline": {
+    "tests": 440,
+    "pass": 440,
+    "fail": 0,
+    "cancelled": 0,
+    "skipped": 0,
+    "todo": 0,
+    "officialGoldens": [
+      "acid-base",
+      "complexation",
+      "precipitation",
+      "redox",
+      "fixed-activity"
+    ],
+    "log": ".local/metadata-phase/baseline-tests.txt",
+    "logSha256": "806721f158266846bf9cede3a31e77492f9388ea3be99025ffe52ef45ccd2161"
+  },
+  "final": {
+    "tests": 452,
+    "pass": 452,
+    "fail": 0,
+    "cancelled": 0,
+    "skipped": 0,
+    "todo": 0,
+    "officialGoldens": [
+      "acid-base",
+      "complexation",
+      "precipitation",
+      "redox",
+      "fixed-activity"
+    ],
+    "log": ".local/metadata-phase/final-tests.txt",
+    "logSha256": "65f0740074db58bf7e23ee11f43fc3d867ad0d33a8566bab4e941a36ebc964c4"
+  },
+  "build": "passed; existing bundle-size advisory retained",
+  "lint": "passed; zero errors and one pre-existing ExpandedPlot react-hooks warning",
+  "artifactAudit": "passed",
+  "protectedFileCount": 472,
+  "changedProtectedFiles": [],
+  "protectedFiles": [
+    {
+      "path": "src\\analysis\\gridDiagnostics.js",
+      "sha256": "ba092891559fae54619874952a477eb1f7303f9c84f247361bd373d584dbf95f",
+      "afterSha256": "ba092891559fae54619874952a477eb1f7303f9c84f247361bd373d584dbf95f"
+    },
+    {
+      "path": "src\\analysis\\mnDiagnostic.js",
+      "sha256": "b2e3ea03ab079ac0c165951e869477ec960a900c116f6f52074b47a683719de2",
+      "afterSha256": "b2e3ea03ab079ac0c165951e869477ec960a900c116f6f52074b47a683719de2"
+    },
+    {
+      "path": "src\\analysis\\oxidationInventory.js",
+      "sha256": "e9b0e5c87843b4c3670038e5a7a9e37d8c8f0eb518854788096f6a2a309ae8d4",
+      "afterSha256": "e9b0e5c87843b4c3670038e5a7a9e37d8c8f0eb518854788096f6a2a309ae8d4"
+    },
+    {
+      "path": "src\\analysis\\pointTrace.js",
+      "sha256": "2194407bfed084b98694cb57598322a3a2368b479c79beb2dfebbafa9e75fa4b",
+      "afterSha256": "2194407bfed084b98694cb57598322a3a2368b479c79beb2dfebbafa9e75fa4b"
+    },
+    {
+      "path": "src\\analysis\\samples.js",
+      "sha256": "cd7da40ef5df879fb01de328105e4c5bf54a2e3ec30f3a54a1efe8ab025aaf7d",
+      "afterSha256": "cd7da40ef5df879fb01de328105e4c5bf54a2e3ec30f3a54a1efe8ab025aaf7d"
+    },
+    {
+      "path": "src\\analysis\\slices.js",
+      "sha256": "0c1703a24ffcd750fabefc354b7398a6d0ce85bcabd5a0e099ecd1396506f303",
+      "afterSha256": "0c1703a24ffcd750fabefc354b7398a6d0ce85bcabd5a0e099ecd1396506f303"
+    },
+    {
+      "path": "src\\analysis\\summary.js",
+      "sha256": "cdbf9190bab85d49870c5f08731bfcdc4166ad30528ec67b79c7ed0da1c83da1",
+      "afterSha256": "cdbf9190bab85d49870c5f08731bfcdc4166ad30528ec67b79c7ed0da1c83da1"
+    },
+    {
+      "path": "src\\analysis\\waterReferences.js",
+      "sha256": "3ed8d762c0967680c8783c34d6eba897bcf30e36e602c8c614e8932533c8bfa9",
+      "afterSha256": "3ed8d762c0967680c8783c34d6eba897bcf30e36e602c8c614e8932533c8bfa9"
+    },
+    {
+      "path": "src\\App.css",
+      "sha256": "2fa9e6604b534c696c5b4a7216936223200e8ea465646643e6f55718ec25b8ad",
+      "afterSha256": "2fa9e6604b534c696c5b4a7216936223200e8ea465646643e6f55718ec25b8ad"
+    },
+    {
+      "path": "src\\App.jsx",
+      "sha256": "c86d6f453e633b0bbedb04b0fe9f6fac5dfda450b0d975e49c0d20e120f60aad",
+      "afterSha256": "c86d6f453e633b0bbedb04b0fe9f6fac5dfda450b0d975e49c0d20e120f60aad"
+    },
+    {
+      "path": "src\\assets\\hero.png",
+      "sha256": "881ffbcaafc212e49addad08846a5b82761355fa20624253af3477ba33262c5c",
+      "afterSha256": "881ffbcaafc212e49addad08846a5b82761355fa20624253af3477ba33262c5c"
+    },
+    {
+      "path": "src\\assets\\react.svg",
+      "sha256": "35ef61ed53b323ae94a16a8ec659b3d0af3880698791133f23b084085ab1c2e5",
+      "afterSha256": "35ef61ed53b323ae94a16a8ec659b3d0af3880698791133f23b084085ab1c2e5"
+    },
+    {
+      "path": "src\\assets\\vite.svg",
+      "sha256": "5be21acd42eb7b896e517f4e0f0f11eb5c5d9e54fbbcebe9453f033008fcca6f",
+      "afterSha256": "5be21acd42eb7b896e517f4e0f0f11eb5c5d9e54fbbcebe9453f033008fcca6f"
+    },
+    {
+      "path": "src\\beaker\\acceptedState.js",
+      "sha256": "68a2ce45da078df91dda035d7dafa86a0830f679c5c53b42ae9c6a55900bdb7a",
+      "afterSha256": "68a2ce45da078df91dda035d7dafa86a0830f679c5c53b42ae9c6a55900bdb7a"
+    },
+    {
+      "path": "src\\beaker\\componentPartition.js",
+      "sha256": "214f684c9ee580490ea0570bfd97cdb9435adaafefd732191e10b6fa744f08f8",
+      "afterSha256": "214f684c9ee580490ea0570bfd97cdb9435adaafefd732191e10b6fa744f08f8"
+    },
+    {
+      "path": "src\\beaker\\currentPoint.js",
+      "sha256": "1aa4c2c14c63ca1221c0edae9c6defa851a9b213a0a58e77dc933455fb6c354a",
+      "afterSha256": "1aa4c2c14c63ca1221c0edae9c6defa851a9b213a0a58e77dc933455fb6c354a"
+    },
+    {
+      "path": "src\\beaker\\equilibriumBeaker.js",
+      "sha256": "9d563c8fb66f2d9375698a1c6baa288ef93dca78a6f889b1cae173e5f88daac9",
+      "afterSha256": "9d563c8fb66f2d9375698a1c6baa288ef93dca78a6f889b1cae173e5f88daac9"
+    },
+    {
+      "path": "src\\beaker\\phaseLabel.js",
+      "sha256": "9c7a10232190350d2b13550e5e4ff63143e47acaffb7e6ffd14c4f8a8b110790",
+      "afterSha256": "9c7a10232190350d2b13550e5e4ff63143e47acaffb7e6ffd14c4f8a8b110790"
+    },
+    {
+      "path": "src\\beaker\\scene.js",
+      "sha256": "f3f1c2a76f49a4779ade677997bdb42ed014711e8de9c41c72fa07e46b172502",
+      "afterSha256": "f3f1c2a76f49a4779ade677997bdb42ed014711e8de9c41c72fa07e46b172502"
+    },
+    {
+      "path": "src\\beaker\\solutionSummary.js",
+      "sha256": "04520a8a9ccb374f8f9c9e8286a6cf9bb80e1eb852333a9087c9c3db689d86cc",
+      "afterSha256": "04520a8a9ccb374f8f9c9e8286a6cf9bb80e1eb852333a9087c9c3db689d86cc"
+    },
+    {
+      "path": "src\\beaker\\visual.js",
+      "sha256": "b07baf5f21fef66b146ac3a55afa2286d5ad7224f9f08038b0077e4de4a4800c",
+      "afterSha256": "b07baf5f21fef66b146ac3a55afa2286d5ad7224f9f08038b0077e4de4a4800c"
+    },
+    {
+      "path": "src\\calculations\\aqueousFractions.js",
+      "sha256": "66fec20c46b95f6a074dd310b7dfd58a6657dff9e991148c60d37f59c5b9d8aa",
+      "afterSha256": "66fec20c46b95f6a074dd310b7dfd58a6657dff9e991148c60d37f59c5b9d8aa"
+    },
+    {
+      "path": "src\\calculations\\definition.js",
+      "sha256": "0e7a5e26be53a10e69d731872fbba84bcb40c71de2de748901d18da4ab626f83",
+      "afterSha256": "0e7a5e26be53a10e69d731872fbba84bcb40c71de2de748901d18da4ab626f83"
+    },
+    {
+      "path": "src\\calculations\\definition.test.js",
+      "sha256": "3b1cf7dd3fadfce2ffaafe3a963ae534ee6fb07f0ba2ac86c2ac44251187cbce",
+      "afterSha256": "3b1cf7dd3fadfce2ffaafe3a963ae534ee6fb07f0ba2ac86c2ac44251187cbce"
+    },
+    {
+      "path": "src\\calculations\\diagramSetup.js",
+      "sha256": "18066245ac0ece3a9126dd3e523a72c9472a60683fedba2805f8b64ee3e4ebc3",
+      "afterSha256": "18066245ac0ece3a9126dd3e523a72c9472a60683fedba2805f8b64ee3e4ebc3"
+    },
+    {
+      "path": "src\\calculations\\grid.js",
+      "sha256": "d2f61163f254a2e53367885038f66e5ac3f9fb068e39c36523f911db9c7c3b29",
+      "afterSha256": "d2f61163f254a2e53367885038f66e5ac3f9fb068e39c36523f911db9c7c3b29"
+    },
+    {
+      "path": "src\\calculations\\independentSolubility.js",
+      "sha256": "e85ca53cd827bda43d614151351e9abdb06a40dc91933ba76bb01c3c8caeba3c",
+      "afterSha256": "e85ca53cd827bda43d614151351e9abdb06a40dc91933ba76bb01c3c8caeba3c"
+    },
+    {
+      "path": "src\\calculations\\liveRun.js",
+      "sha256": "4e666e1f6fff68af32626aad9a1779797d756c730ca478bafa7291e16b2800c4",
+      "afterSha256": "4e666e1f6fff68af32626aad9a1779797d756c730ca478bafa7291e16b2800c4"
+    },
+    {
+      "path": "src\\calculations\\massConcentration.js",
+      "sha256": "b6fa9774a5c40feab797f3e9712d526f8cdececa38c135c0ab20ad5d3ad90856",
+      "afterSha256": "b6fa9774a5c40feab797f3e9712d526f8cdececa38c135c0ab20ad5d3ad90856"
+    },
+    {
+      "path": "src\\calculations\\outputDescriptors.js",
+      "sha256": "1da00fb5dc01f7a5cf75d172847a6ba216393fd7e8e6676702c611d738323245",
+      "afterSha256": "1da00fb5dc01f7a5cf75d172847a6ba216393fd7e8e6676702c611d738323245"
+    },
+    {
+      "path": "src\\calculations\\outputs.js",
+      "sha256": "bedec7f23fb86a613c1fdbb5b3d8c7f43a42dcdd269c8e9d0720bfaa0e8b8ee8",
+      "afterSha256": "bedec7f23fb86a613c1fdbb5b3d8c7f43a42dcdd269c8e9d0720bfaa0e8b8ee8"
+    },
+    {
+      "path": "src\\calculations\\predominance.js",
+      "sha256": "1194b93695ac2ba58cabb910260c6cc0c504a452b54d6165997533f85d2c0272",
+      "afterSha256": "1194b93695ac2ba58cabb910260c6cc0c504a452b54d6165997533f85d2c0272"
+    },
+    {
+      "path": "src\\calculations\\setupEditing.js",
+      "sha256": "594a878ba725eab5509608bc5ffa861bc7331a413bfc9358cc1d1623f9baa85f",
+      "afterSha256": "594a878ba725eab5509608bc5ffa861bc7331a413bfc9358cc1d1623f9baa85f"
+    },
+    {
+      "path": "src\\calculations\\solubility.js",
+      "sha256": "e8f10a70304500387cda26d2bda09fbaa491ef75e7d71c51ec2ef30678407488",
+      "afterSha256": "e8f10a70304500387cda26d2bda09fbaa491ef75e7d71c51ec2ef30678407488"
+    },
+    {
+      "path": "src\\calculations\\surfaceResponses.js",
+      "sha256": "9e77a4cecc8cf09400301eeefc2cd5e24c4a2289c5b7f847821bd9d9217e2eff",
+      "afterSha256": "9e77a4cecc8cf09400301eeefc2cd5e24c4a2289c5b7f847821bd9d9217e2eff"
+    },
+    {
+      "path": "src\\calculations\\sweep.js",
+      "sha256": "38fc739f567378b7188a1bdc3c880e999489af937af96844233703c4d5321ad6",
+      "afterSha256": "38fc739f567378b7188a1bdc3c880e999489af937af96844233703c4d5321ad6"
+    },
+    {
+      "path": "src\\calculations\\units.js",
+      "sha256": "2e787ad389f97e94dc6df98a6fc0843a77a582558f70cb0c472764121b9407f3",
+      "afterSha256": "2e787ad389f97e94dc6df98a6fc0843a77a582558f70cb0c472764121b9407f3"
+    },
+    {
+      "path": "src\\chemistry\\components.js",
+      "sha256": "c0104d378b6827ab628f3530d860e961c84d6f2f79768cad84d63198089923ca",
+      "afterSha256": "c0104d378b6827ab628f3530d860e961c84d6f2f79768cad84d63198089923ca"
+    },
+    {
+      "path": "src\\chemistry\\elementInteraction.js",
+      "sha256": "d782d644c41f9ec542a4418fdec93765e6afae64d8b3863f5accb48e88ec6a87",
+      "afterSha256": "d782d644c41f9ec542a4418fdec93765e6afae64d8b3863f5accb48e88ec6a87"
+    },
+    {
+      "path": "src\\chemistry\\format.js",
+      "sha256": "93f940d20851c2d8a49e2ab921ed8d12e2839e3eba6592bcd1ee92d643827cfd",
+      "afterSha256": "93f940d20851c2d8a49e2ab921ed8d12e2839e3eba6592bcd1ee92d643827cfd"
+    },
+    {
+      "path": "src\\chemistry\\system.js",
+      "sha256": "4b87922472b593f09d19131de5dab92f579464400a5fe6dce8d7c6e0c23444a9",
+      "afterSha256": "4b87922472b593f09d19131de5dab92f579464400a5fe6dce8d7c6e0c23444a9"
+    },
+    {
+      "path": "src\\chemistry\\system.test.js",
+      "sha256": "0af1d9c158f275bd77937bd993a173d4e077611d175e670c2f880de7d4493a7f",
+      "afterSha256": "0af1d9c158f275bd77937bd993a173d4e077611d175e670c2f880de7d4493a7f"
+    },
+    {
+      "path": "src\\chemistry\\validation.js",
+      "sha256": "a0cebe2baa134a8612e55ba32d57520edcbd7c64536edea295ce4b6e01bf62dc",
+      "afterSha256": "a0cebe2baa134a8612e55ba32d57520edcbd7c64536edea295ce4b6e01bf62dc"
+    },
+    {
+      "path": "src\\components\\AdamMedia.jsx",
+      "sha256": "1fb54fcee6a1e0da2aa046ef04d367bcb756c1b7ad9648636c02325c12867963",
+      "afterSha256": "1fb54fcee6a1e0da2aa046ef04d367bcb756c1b7ad9648636c02325c12867963"
+    },
+    {
+      "path": "src\\components\\AmountUnitSelect.jsx",
+      "sha256": "eee02191dada5c7904923ea203912aaa98babd05afa2641072c346b9be890cfe",
+      "afterSha256": "eee02191dada5c7904923ea203912aaa98babd05afa2641072c346b9be890cfe"
+    },
+    {
+      "path": "src\\components\\AnalysisPanel.jsx",
+      "sha256": "9f5f0c620f24bdc7e880488478f4feb72ef89402c729a21a698f6d936ab9da5a",
+      "afterSha256": "9f5f0c620f24bdc7e880488478f4feb72ef89402c729a21a698f6d936ab9da5a"
+    },
+    {
+      "path": "src\\components\\AqueousFractionInspection.jsx",
+      "sha256": "abcd18d0705d777f7361b540e4c643c3a7c5bda60695306b912c6845d5a20dd3",
+      "afterSha256": "abcd18d0705d777f7361b540e4c643c3a7c5bda60695306b912c6845d5a20dd3"
+    },
+    {
+      "path": "src\\components\\AvailableSpecies.jsx",
+      "sha256": "583857b6b2b20a87efc9b1cfc1da0309e021389f6d887eef5aae2189c983853f",
+      "afterSha256": "583857b6b2b20a87efc9b1cfc1da0309e021389f6d887eef5aae2189c983853f"
+    },
+    {
+      "path": "src\\components\\AxisControls.jsx",
+      "sha256": "2aeccc592999b88ca0c55a9434d79508a1fc07bad443b51d588c0f0b072e7b25",
+      "afterSha256": "2aeccc592999b88ca0c55a9434d79508a1fc07bad443b51d588c0f0b072e7b25"
+    },
+    {
+      "path": "src\\components\\BeakerDrawing.jsx",
+      "sha256": "6f5982aa1e6dc8154fc7e7acbc4a2824a186686c3cf83b9861a1dce2a71a7cb9",
+      "afterSha256": "6f5982aa1e6dc8154fc7e7acbc4a2824a186686c3cf83b9861a1dce2a71a7cb9"
+    },
+    {
+      "path": "src\\components\\CalculationWorkspace.jsx",
+      "sha256": "0928495c985e3306fbcaa8aea4a2c1964ee7f5c4e8a660e40fcfa7b5daee846f",
+      "afterSha256": "0928495c985e3306fbcaa8aea4a2c1964ee7f5c4e8a660e40fcfa7b5daee846f"
+    },
+    {
+      "path": "src\\components\\CellDiagnostic.jsx",
+      "sha256": "43841b4e301709a593522575c368ea7c6efc52687533cfb13b5e6b7c63733888",
+      "afterSha256": "43841b4e301709a593522575c368ea7c6efc52687533cfb13b5e6b7c63733888"
+    },
+    {
+      "path": "src\\components\\ComponentPartition.jsx",
+      "sha256": "128f00a9ef4d8a901bb071b186addb410f403a6329c052cdb14f3b4cc0a97454",
+      "afterSha256": "128f00a9ef4d8a901bb071b186addb410f403a6329c052cdb14f3b4cc0a97454"
+    },
+    {
+      "path": "src\\components\\ComponentSelector.jsx",
+      "sha256": "3ece805f5fd38955d5bde447745cf8e217523fe63e84bf6bf59ed298f4e11ac7",
+      "afterSha256": "3ece805f5fd38955d5bde447745cf8e217523fe63e84bf6bf59ed298f4e11ac7"
+    },
+    {
+      "path": "src\\components\\databaseLoading.js",
+      "sha256": "8737378ff32d39e83a81741ed8fd6b79e1af028afc2e91665ff3a3a14d932025",
+      "afterSha256": "8737378ff32d39e83a81741ed8fd6b79e1af028afc2e91665ff3a3a14d932025"
+    },
+    {
+      "path": "src\\components\\DatabaseSource.jsx",
+      "sha256": "e067d58734efa39db23993af896953b24333237261eb9341f62a481cc57cb75f",
+      "afterSha256": "e067d58734efa39db23993af896953b24333237261eb9341f62a481cc57cb75f"
+    },
+    {
+      "path": "src\\components\\defaultSource.js",
+      "sha256": "01eba6a1fed088a55abca8feef6650ad185b79d188c544d16b6f404b050b5c0e",
+      "afterSha256": "01eba6a1fed088a55abca8feef6650ad185b79d188c544d16b6f404b050b5c0e"
+    },
+    {
+      "path": "src\\components\\DiagramSwitcher.jsx",
+      "sha256": "f0dd18220a36db9c307c74573c24bf4324bcef7cc24e87014babe78c124ff56c",
+      "afterSha256": "f0dd18220a36db9c307c74573c24bf4324bcef7cc24e87014babe78c124ff56c"
+    },
+    {
+      "path": "src\\components\\ElementSelector.jsx",
+      "sha256": "5087863f0e35af1063f9dcc95d92853ef75a503b42026be8abcd1c83abe01e80",
+      "afterSha256": "5087863f0e35af1063f9dcc95d92853ef75a503b42026be8abcd1c83abe01e80"
+    },
+    {
+      "path": "src\\components\\ExpandedPlot.jsx",
+      "sha256": "40a23040bb421781c58e2f4dc523656965c8ef8173c5626961e2289f2ca9cbb3",
+      "afterSha256": "40a23040bb421781c58e2f4dc523656965c8ef8173c5626961e2289f2ca9cbb3"
+    },
+    {
+      "path": "src\\components\\ExportPanel.jsx",
+      "sha256": "5d2f8e5a5ebcb89a17c8616543d1ab5de93e0e12bbe85ca86f04f5ae36566521",
+      "afterSha256": "5d2f8e5a5ebcb89a17c8616543d1ab5de93e0e12bbe85ca86f04f5ae36566521"
+    },
+    {
+      "path": "src\\components\\FixedCondition.jsx",
+      "sha256": "56af4b8ca2ba72a86de8adfa957da862b5da664c4c6508e225c50c5d3171b59c",
+      "afterSha256": "56af4b8ca2ba72a86de8adfa957da862b5da664c4c6508e225c50c5d3171b59c"
+    },
+    {
+      "path": "src\\components\\GridDiagnostics.jsx",
+      "sha256": "42e832f415c3ac0d75bf564643f63f56246801d465cace4c1f3d773a6fbc387f",
+      "afterSha256": "42e832f415c3ac0d75bf564643f63f56246801d465cace4c1f3d773a6fbc387f"
+    },
+    {
+      "path": "src\\components\\GridPlot.jsx",
+      "sha256": "c82698d677fa820679335336e5d96fbf079d9d4c8c16cbd3f7347334de1cd339",
+      "afterSha256": "c82698d677fa820679335336e5d96fbf079d9d4c8c16cbd3f7347334de1cd339"
+    },
+    {
+      "path": "src\\components\\GridWorkspace.jsx",
+      "sha256": "c177dbf5fa21e870bff897c89b445a5b0b657a276dae4837b6f3d095bb7d4d5b",
+      "afterSha256": "c177dbf5fa21e870bff897c89b445a5b0b657a276dae4837b6f3d095bb7d4d5b"
+    },
+    {
+      "path": "src\\components\\IndependentSolubilityPlot.jsx",
+      "sha256": "f89a365529b11af7b17645e8bcc8c8a477a0903c87210fb5d473cb8de2126d69",
+      "afterSha256": "f89a365529b11af7b17645e8bcc8c8a477a0903c87210fb5d473cb8de2126d69"
+    },
+    {
+      "path": "src\\components\\IndependentSolubilitySetup.jsx",
+      "sha256": "e781791593775ee52f0af172a8246e3df2fcfd819fe0c95d356485f217e919f2",
+      "afterSha256": "e781791593775ee52f0af172a8246e3df2fcfd819fe0c95d356485f217e919f2"
+    },
+    {
+      "path": "src\\components\\InteractiveBeaker.css",
+      "sha256": "305aad2ea4f6e0453c160612057f489d092739e612ebf71338b97c28bf76458e",
+      "afterSha256": "305aad2ea4f6e0453c160612057f489d092739e612ebf71338b97c28bf76458e"
+    },
+    {
+      "path": "src\\components\\InteractiveBeaker.jsx",
+      "sha256": "2910dd5a014fc3b5357c0e69392c7726a7b64d512ac51e9458a82256fbe473fb",
+      "afterSha256": "2910dd5a014fc3b5357c0e69392c7726a7b64d512ac51e9458a82256fbe473fb"
+    },
+    {
+      "path": "src\\components\\JsonDetails.jsx",
+      "sha256": "07f6f3a484b68e41a4763d99e9933338cdaed1f03dea369d65515ee41acb6ebf",
+      "afterSha256": "07f6f3a484b68e41a4763d99e9933338cdaed1f03dea369d65515ee41acb6ebf"
+    },
+    {
+      "path": "src\\components\\MapOutput.jsx",
+      "sha256": "da1e3b7e2f6950255adeab3099c788fb51363dd639786c81f431913de758a248",
+      "afterSha256": "da1e3b7e2f6950255adeab3099c788fb51363dd639786c81f431913de758a248"
+    },
+    {
+      "path": "src\\components\\MassInput.jsx",
+      "sha256": "abd6a4b86806e749d91a711fcf9d7bdc6e2704d157a0292f6fa21224a8deead5",
+      "afterSha256": "abd6a4b86806e749d91a711fcf9d7bdc6e2704d157a0292f6fa21224a8deead5"
+    },
+    {
+      "path": "src\\components\\MnDiagnostic.css",
+      "sha256": "000b91f7cb0d98ddc1ac5be9521af20f7a4e3472701e8cbedebc9f229775e31f",
+      "afterSha256": "000b91f7cb0d98ddc1ac5be9521af20f7a4e3472701e8cbedebc9f229775e31f"
+    },
+    {
+      "path": "src\\components\\MnDiagnostic.jsx",
+      "sha256": "8d7b1e71291ba6a88debe5367965f5b78544945d3f7674da36bd5a98031e7aa3",
+      "afterSha256": "8d7b1e71291ba6a88debe5367965f5b78544945d3f7674da36bd5a98031e7aa3"
+    },
+    {
+      "path": "src\\components\\NumberField.jsx",
+      "sha256": "3a5814134d06b260adb59d5e7ac2fe799c92f68b47fe5deb4d0b616594062798",
+      "afterSha256": "3a5814134d06b260adb59d5e7ac2fe799c92f68b47fe5deb4d0b616594062798"
+    },
+    {
+      "path": "src\\components\\ObserverPortrait.jsx",
+      "sha256": "d8a92bda576a37d023f63e8071aeac4376c44235ca225a6a82d8e9b0a7e19dfd",
+      "afterSha256": "d8a92bda576a37d023f63e8071aeac4376c44235ca225a6a82d8e9b0a7e19dfd"
+    },
+    {
+      "path": "src\\components\\OutputControls.jsx",
+      "sha256": "1b772d7bcffb04582875e746a9aadbbce8ccacfe83008f1cf365074b82047c28",
+      "afterSha256": "1b772d7bcffb04582875e746a9aadbbce8ccacfe83008f1cf365074b82047c28"
+    },
+    {
+      "path": "src\\components\\PlotExport.jsx",
+      "sha256": "41841417425781739ab12b8164a4da58c13b8fd9266177fdf4aef1716139db83",
+      "afterSha256": "41841417425781739ab12b8164a4da58c13b8fd9266177fdf4aef1716139db83"
+    },
+    {
+      "path": "src\\components\\PlotWorkspace.jsx",
+      "sha256": "95e7f0cbad4191aeeeeba7eb519ea2cffc902912a5f96ab52e46f95a19c87ff1",
+      "afterSha256": "95e7f0cbad4191aeeeeba7eb519ea2cffc902912a5f96ab52e46f95a19c87ff1"
+    },
+    {
+      "path": "src\\components\\PointResult.jsx",
+      "sha256": "b86ced861c724e652dde2563beb90cdd98a8762c4b40ef6282af7da1509df218",
+      "afterSha256": "b86ced861c724e652dde2563beb90cdd98a8762c4b40ef6282af7da1509df218"
+    },
+    {
+      "path": "src\\components\\ReactionReview.jsx",
+      "sha256": "7fcbd8131b6f8eed6c4fb0c4ca39f56fdb96480beb1deee5e80eb6fbcec76ebe",
+      "afterSha256": "7fcbd8131b6f8eed6c4fb0c4ca39f56fdb96480beb1deee5e80eb6fbcec76ebe"
+    },
+    {
+      "path": "src\\components\\RedoxControls.jsx",
+      "sha256": "d96ad45cd5f9938d724057cf489e25ebe489d840d9bdd824623090ca66ee16ff",
+      "afterSha256": "d96ad45cd5f9938d724057cf489e25ebe489d840d9bdd824623090ca66ee16ff"
+    },
+    {
+      "path": "src\\components\\ResultSelectionContext.js",
+      "sha256": "8187bda4e1e8f417ae4df24a7490bd00301c8661536074ee9d375e34d63cf462",
+      "afterSha256": "8187bda4e1e8f417ae4df24a7490bd00301c8661536074ee9d375e34d63cf462"
+    },
+    {
+      "path": "src\\components\\ScientificPlot.jsx",
+      "sha256": "f7df84ec8b0f209bce41fc96a1e524dab4a18465c2b2bbc35e9eb4f0ebf3ea80",
+      "afterSha256": "f7df84ec8b0f209bce41fc96a1e524dab4a18465c2b2bbc35e9eb4f0ebf3ea80"
+    },
+    {
+      "path": "src\\components\\ScientificTrace.jsx",
+      "sha256": "012b1e07170ed57228322f3e9ea5dfffe52c1f6243a51b24a4b2110d4c560bc2",
+      "afterSha256": "012b1e07170ed57228322f3e9ea5dfffe52c1f6243a51b24a4b2110d4c560bc2"
+    },
+    {
+      "path": "src\\components\\SelectedSystem.jsx",
+      "sha256": "5e1273988c4375e967d392fde7e0301b4baacb234e996b529e1d2b539604e059",
+      "afterSha256": "5e1273988c4375e967d392fde7e0301b4baacb234e996b529e1d2b539604e059"
+    },
+    {
+      "path": "src\\components\\SliceView.jsx",
+      "sha256": "352c3cf636b7aa9e46b24b8b3dc8a6a44128a01465a2fb50359d99daff756e6b",
+      "afterSha256": "352c3cf636b7aa9e46b24b8b3dc8a6a44128a01465a2fb50359d99daff756e6b"
+    },
+    {
+      "path": "src\\components\\SolutionSummary.jsx",
+      "sha256": "180ea16220d39de931798486259f273bfa5ce681c7ee186c51165b4e8ba5e379",
+      "afterSha256": "180ea16220d39de931798486259f273bfa5ce681c7ee186c51165b4e8ba5e379"
+    },
+    {
+      "path": "src\\components\\SpeciesDetails.jsx",
+      "sha256": "a55085b1b759883baf86bef0175bd9385498a07fdcbbb544c9574e736e83542a",
+      "afterSha256": "a55085b1b759883baf86bef0175bd9385498a07fdcbbb544c9574e736e83542a"
+    },
+    {
+      "path": "src\\components\\Surface3D.jsx",
+      "sha256": "714ddac895f7a6f16e1d51b33459b6da163ee2cf9a3507aa69f44ac65972a599",
+      "afterSha256": "714ddac895f7a6f16e1d51b33459b6da163ee2cf9a3507aa69f44ac65972a599"
+    },
+    {
+      "path": "src\\components\\SurfaceControls.jsx",
+      "sha256": "310566bbb87d8ee7d094c2aff7c316cea3eae19cf56a5ea0b360838db01ca22d",
+      "afterSha256": "310566bbb87d8ee7d094c2aff7c316cea3eae19cf56a5ea0b360838db01ca22d"
+    },
+    {
+      "path": "src\\components\\SurfaceResponseControls.jsx",
+      "sha256": "39e2ffc85cd831c0e90cf929a818e49b58065b6faf79870906ad7fbcc2793502",
+      "afterSha256": "39e2ffc85cd831c0e90cf929a818e49b58065b6faf79870906ad7fbcc2793502"
+    },
+    {
+      "path": "src\\components\\SweepResult.jsx",
+      "sha256": "d98e1d57d747e241018e35eb3b1e530e5bbf085ae3592ec525ccb1b01f3574d0",
+      "afterSha256": "d98e1d57d747e241018e35eb3b1e530e5bbf085ae3592ec525ccb1b01f3574d0"
+    },
+    {
+      "path": "src\\components\\SystemDefinition.jsx",
+      "sha256": "7e3d866ddd586e9273ede5e31b01d1ed74ef40841cdccccddd30d5fc4eee341b",
+      "afterSha256": "7e3d866ddd586e9273ede5e31b01d1ed74ef40841cdccccddd30d5fc4eee341b"
+    },
+    {
+      "path": "src\\components\\SystemReadiness.jsx",
+      "sha256": "0ddaabad42b74672fdca188643c996269ab559521efa561ec87c45931c43eff7",
+      "afterSha256": "0ddaabad42b74672fdca188643c996269ab559521efa561ec87c45931c43eff7"
+    },
+    {
+      "path": "src\\components\\usePlotBox.js",
+      "sha256": "faf34c52c8524b015e91ef9f83287cdfd1d6581c885f9d19f6a480b54a720c7d",
+      "afterSha256": "faf34c52c8524b015e91ef9f83287cdfd1d6581c885f9d19f6a480b54a720c7d"
+    },
+    {
+      "path": "src\\components\\usePlotGestures.js",
+      "sha256": "71f8c6ce01564ce1573bd35cc857532737a6d0a8b7f0c44d722e9d68b8fd9a74",
+      "afterSha256": "71f8c6ce01564ce1573bd35cc857532737a6d0a8b7f0c44d722e9d68b8fd9a74"
+    },
+    {
+      "path": "src\\components\\UserChemistry.jsx",
+      "sha256": "31918bfaec8be936460dd40098ee68c5f214dbdf6bf8b556faa5221175bfb15e",
+      "afterSha256": "31918bfaec8be936460dd40098ee68c5f214dbdf6bf8b556faa5221175bfb15e"
+    },
+    {
+      "path": "src\\components\\UserComponents.jsx",
+      "sha256": "329acf77cee35a159b3d7dc55d5cdf3cc321d3cab8316efca3bdcf5b90c05a35",
+      "afterSha256": "329acf77cee35a159b3d7dc55d5cdf3cc321d3cab8316efca3bdcf5b90c05a35"
+    },
+    {
+      "path": "src\\components\\UserEquilibria.jsx",
+      "sha256": "9ec474f45ecc12e0df99bf94eb64685558a665c3f707d3d1241765812f0da290",
+      "afterSha256": "9ec474f45ecc12e0df99bf94eb64685558a665c3f707d3d1241765812f0da290"
+    },
+    {
+      "path": "src\\data\\atomicWeights.js",
+      "sha256": "a780e9ab2db32b5a7775fac4233195f301df3049f31592734917f0a0d52ec102",
+      "afterSha256": "a780e9ab2db32b5a7775fac4233195f301df3049f31592734917f0a0d52ec102"
+    },
+    {
+      "path": "src\\data\\elementIdentities.js",
+      "sha256": "3f860e65dbe648462020e1b8740e3ea0301f3d783845471cd1dda3d6233ecc31",
+      "afterSha256": "3f860e65dbe648462020e1b8740e3ea0301f3d783845471cd1dda3d6233ecc31"
+    },
+    {
+      "path": "src\\data\\elements.js",
+      "sha256": "39c9a29ec3551c668478a08c3a6a623321b0b3a61bf7ffda3e74e2e93b0a6e71",
+      "afterSha256": "39c9a29ec3551c668478a08c3a6a623321b0b3a61bf7ffda3e74e2e93b0a6e71"
+    },
+    {
+      "path": "src\\data\\metalLigandSurfaceExample.js",
+      "sha256": "c78196b8ced9210d81dfa866fd845009847d21ba094f6f09cc1ae90a8af385d6",
+      "afterSha256": "c78196b8ced9210d81dfa866fd845009847d21ba094f6f09cc1ae90a8af385d6"
+    },
+    {
+      "path": "src\\data\\mnDiagnosticIdentity.js",
+      "sha256": "d3e1f0e1c7a02115fe997746f9b42e2bc527cdb4132f057522bd866c60e5037e",
+      "afterSha256": "d3e1f0e1c7a02115fe997746f9b42e2bc527cdb4132f057522bd866c60e5037e"
+    },
+    {
+      "path": "src\\data\\mnRegionIdentity.js",
+      "sha256": "6ddbfb8d185c3621550fe5ce8481c270b7228fa056666c65fa871481efcafee8",
+      "afterSha256": "6ddbfb8d185c3621550fe5ce8481c270b7228fa056666c65fa871481efcafee8"
+    },
+    {
+      "path": "src\\data\\mnTopologyIdentity.js",
+      "sha256": "1ab2be160924a6750a88e1211f2d02063228ab01048f7078137813538a66c838",
+      "afterSha256": "1ab2be160924a6750a88e1211f2d02063228ab01048f7078137813538a66c838"
+    },
+    {
+      "path": "src\\data\\periodicTable.js",
+      "sha256": "452fc318523a2474f08e192d87fb16210d3b8018d1b0f8f4215fc29d7d18092c",
+      "afterSha256": "452fc318523a2474f08e192d87fb16210d3b8018d1b0f8f4215fc29d7d18092c"
+    },
+    {
+      "path": "src\\data\\solubilityExample.js",
+      "sha256": "abeabb38a9c5303725dafa2a4b0550f6258fe46027a8e6f83f6e8258aad50a48",
+      "afterSha256": "abeabb38a9c5303725dafa2a4b0550f6258fe46027a8e6f83f6e8258aad50a48"
+    },
+    {
+      "path": "src\\data\\species.js",
+      "sha256": "fde79ea678f2e808b5c29faebb924ca280a6ea6a19e3a5e22f3941cccbf05b4f",
+      "afterSha256": "fde79ea678f2e808b5c29faebb924ca280a6ea6a19e3a5e22f3941cccbf05b4f"
+    },
+    {
+      "path": "src\\data\\surfaceExamples.js",
+      "sha256": "1ccf58179e4667e8ce4e7d0c1648cc85d643c563760692ac076d4e8aedaa4408",
+      "afterSha256": "1ccf58179e4667e8ce4e7d0c1648cc85d643c563760692ac076d4e8aedaa4408"
+    },
+    {
+      "path": "src\\index.css",
+      "sha256": "65fd7cb7c06db8e80e06ddfa170f59b0082aa370e893fd4918ba89d44e12583b",
+      "afterSha256": "65fd7cb7c06db8e80e06ddfa170f59b0082aa370e893fd4918ba89d44e12583b"
+    },
+    {
+      "path": "src\\main.jsx",
+      "sha256": "4b4b864dbe45253425d0c925337180ec07e204295179f80f59551216f466f618",
+      "afterSha256": "4b4b864dbe45253425d0c925337180ec07e204295179f80f59551216f466f618"
+    },
+    {
+      "path": "src\\MVP2Adam'sLab.jsx",
+      "sha256": "799bf39c9ba8322bd71617ab309324bb4e7ca5057fe8291494a5a40cfcfb7069",
+      "afterSha256": "799bf39c9ba8322bd71617ab309324bb4e7ca5057fe8291494a5a40cfcfb7069"
+    },
+    {
+      "path": "src\\plots\\diagramIdentity.js",
+      "sha256": "3a488778590931134be24091154a687f6b2558045e118a36f313bd9eee73cf2b",
+      "afterSha256": "3a488778590931134be24091154a687f6b2558045e118a36f313bd9eee73cf2b"
+    },
+    {
+      "path": "src\\plots\\export.js",
+      "sha256": "3903b07ec6171703c4cb90015a8ad03ca4229bda82dcde8c5fcd4bd700368a61",
+      "afterSha256": "3903b07ec6171703c4cb90015a8ad03ca4229bda82dcde8c5fcd4bd700368a61"
+    },
+    {
+      "path": "src\\plots\\formatNumber.js",
+      "sha256": "bfe69098dc03982cafab8e8035b4bd2d3a5ca5df30073c4a2026e2845e37f7fe",
+      "afterSha256": "bfe69098dc03982cafab8e8035b4bd2d3a5ca5df30073c4a2026e2845e37f7fe"
+    },
+    {
+      "path": "src\\plots\\geometry.js",
+      "sha256": "98c991db807f66ad220fb977edf9a3a81a7645d1593609ead98f36a2ab2de642",
+      "afterSha256": "98c991db807f66ad220fb977edf9a3a81a7645d1593609ead98f36a2ab2de642"
+    },
+    {
+      "path": "src\\plots\\gridView.js",
+      "sha256": "e3371915f85de119f9b029d195e56941657836dd03ef5b1bb39b324846aacb5b",
+      "afterSha256": "e3371915f85de119f9b029d195e56941657836dd03ef5b1bb39b324846aacb5b"
+    },
+    {
+      "path": "src\\plots\\labels.js",
+      "sha256": "ec976133de1ad3da5af8c2802377342890a16573bc5d48703e195125d1ace848",
+      "afterSha256": "ec976133de1ad3da5af8c2802377342890a16573bc5d48703e195125d1ace848"
+    },
+    {
+      "path": "src\\plots\\legendReadout.js",
+      "sha256": "7111e67886a23c44d5b83ac72d658b7c007f681374e277ce23418d7e19eb7329",
+      "afterSha256": "7111e67886a23c44d5b83ac72d658b7c007f681374e277ce23418d7e19eb7329"
+    },
+    {
+      "path": "src\\plots\\logLandmarks.js",
+      "sha256": "ea4b9ef6a9751211a78009419179e7dfb4367cd177525c7cf49ff220b960ca12",
+      "afterSha256": "ea4b9ef6a9751211a78009419179e7dfb4367cd177525c7cf49ff220b960ca12"
+    },
+    {
+      "path": "src\\plots\\mnDiagnostic.js",
+      "sha256": "5f40d0876e11fe629602f81d8a942c15c966d13bf8ce3e9cddd1cd2718966738",
+      "afterSha256": "5f40d0876e11fe629602f81d8a942c15c966d13bf8ce3e9cddd1cd2718966738"
+    },
+    {
+      "path": "src\\plots\\mnRegions.js",
+      "sha256": "34888569a69cac113952d78da0a485b6c110716067f2d9b5968b3cd590bae76c",
+      "afterSha256": "34888569a69cac113952d78da0a485b6c110716067f2d9b5968b3cd590bae76c"
+    },
+    {
+      "path": "src\\plots\\mnTopology.js",
+      "sha256": "ba132815a2db4d7731985bcb8d94690b3be65c00858950e54683fc1f68efe8f5",
+      "afterSha256": "ba132815a2db4d7731985bcb8d94690b3be65c00858950e54683fc1f68efe8f5"
+    },
+    {
+      "path": "src\\plots\\navigation.js",
+      "sha256": "5fc229234f38a4a02b8c516189ffac4a8b7244963c17bd82adbed0460a2416f3",
+      "afterSha256": "5fc229234f38a4a02b8c516189ffac4a8b7244963c17bd82adbed0460a2416f3"
+    },
+    {
+      "path": "src\\plots\\parameterScale.js",
+      "sha256": "c52715950f1925071a719eb8793fd1b30cbbcc5a162fd9c2d8c61e1efa9493f3",
+      "afterSha256": "c52715950f1925071a719eb8793fd1b30cbbcc5a162fd9c2d8c61e1efa9493f3"
+    },
+    {
+      "path": "src\\plots\\presentation.js",
+      "sha256": "66a0c13431e0608293323c084d3e03b7d27edea86d885b8ea42df0f537742ccb",
+      "afterSha256": "66a0c13431e0608293323c084d3e03b7d27edea86d885b8ea42df0f537742ccb"
+    },
+    {
+      "path": "src\\plots\\responseSurface.js",
+      "sha256": "da3c5f1569be895103284ef635ed9ec6520e4691bc8b9764618cb4d52aa7dd50",
+      "afterSha256": "da3c5f1569be895103284ef635ed9ec6520e4691bc8b9764618cb4d52aa7dd50"
+    },
+    {
+      "path": "src\\plots\\resultSelection.js",
+      "sha256": "334886112dff839a97e2fa6fc0d1273df71ab40fdc4050d55f28627d24aeb925",
+      "afterSha256": "334886112dff839a97e2fa6fc0d1273df71ab40fdc4050d55f28627d24aeb925"
+    },
+    {
+      "path": "src\\plots\\scalarMap.js",
+      "sha256": "a213ee08c9b5e1fdf9e805d47d1cbd675eeed29bb665ee38292a4d61f9e6e67f",
+      "afterSha256": "a213ee08c9b5e1fdf9e805d47d1cbd675eeed29bb665ee38292a4d61f9e6e67f"
+    },
+    {
+      "path": "src\\plots\\statusText.js",
+      "sha256": "456c6155717e0bb82ae5c76254c1c474fd85a2fc3c8fec50a63b1049ecd995c2",
+      "afterSha256": "456c6155717e0bb82ae5c76254c1c474fd85a2fc3c8fec50a63b1049ecd995c2"
+    },
+    {
+      "path": "src\\plots\\surface3d.js",
+      "sha256": "66320f6f64b110f522b94bd4e4e750b61f6ecb2b741a8faa6edac06d4da07408",
+      "afterSha256": "66320f6f64b110f522b94bd4e4e750b61f6ecb2b741a8faa6edac06d4da07408"
+    },
+    {
+      "path": "src\\plots\\surfaceFigure.js",
+      "sha256": "0ca2174d2c9ab6559421be6b2db1e46f5357b40c25508a540341a8c446ea4b36",
+      "afterSha256": "0ca2174d2c9ab6559421be6b2db1e46f5357b40c25508a540341a8c446ea4b36"
+    },
+    {
+      "path": "src\\plots\\surfaceLifecycle.js",
+      "sha256": "f3b5d55e28336ce7d759effd904850e19403261fc849a6c3e906e0928095f9e0",
+      "afterSha256": "f3b5d55e28336ce7d759effd904850e19403261fc849a6c3e906e0928095f9e0"
+    },
+    {
+      "path": "src\\plots\\threeSurfaceRenderer.js",
+      "sha256": "9d094fc28ffe0475e78544ee2419251967e08c5f34bac44b966a3271841b3f79",
+      "afterSha256": "9d094fc28ffe0475e78544ee2419251967e08c5f34bac44b966a3271841b3f79"
+    },
+    {
+      "path": "src\\plots\\workspaceView.js",
+      "sha256": "41fd9c5b92ac5237819032f6a4a441f6ebc3dbda2f9881609b2c285c4794cf19",
+      "afterSha256": "41fd9c5b92ac5237819032f6a4a441f6ebc3dbda2f9881609b2c285c4794cf19"
+    },
+    {
+      "path": "src\\session\\diagramNavigation.js",
+      "sha256": "0275fbbbe44a638f8d136fa651532b07f0eb285c22c045495ecea5f691c2d0f7",
+      "afterSha256": "0275fbbbe44a638f8d136fa651532b07f0eb285c22c045495ecea5f691c2d0f7"
+    },
+    {
+      "path": "src\\session\\laboratorySession.js",
+      "sha256": "7845eac35e6fd6bce02f70834b65310ddf482111d25b0f200947b272fd5785e3",
+      "afterSha256": "7845eac35e6fd6bce02f70834b65310ddf482111d25b0f200947b272fd5785e3"
+    },
+    {
+      "path": "src\\session\\workspaceDefaults.js",
+      "sha256": "db4eea8c01908e198a704842b74502c0fa3e56bdb3ddb5f396015ee11f550d76",
+      "afterSha256": "db4eea8c01908e198a704842b74502c0fa3e56bdb3ddb5f396015ee11f550d76"
+    },
+    {
+      "path": "src\\solver\\assemblages.js",
+      "sha256": "e25b0801841e7fa90f2bfba44488807e2c0f417dc5e0ee7c0bf98b7745650dc4",
+      "afterSha256": "e25b0801841e7fa90f2bfba44488807e2c0f417dc5e0ee7c0bf98b7745650dc4"
+    },
+    {
+      "path": "src\\solver\\contract.js",
+      "sha256": "8d035ccb7c9637ff734fb3cd5d14aec7ddc01ee61243cdd9fe4bd4372b8099bf",
+      "afterSha256": "8d035ccb7c9637ff734fb3cd5d14aec7ddc01ee61243cdd9fe4bd4372b8099bf"
+    },
+    {
+      "path": "src\\solver\\linear.js",
+      "sha256": "85bc2b1dd9792cf050bf64014ae76c0e66c6602c208c18607e97f05f71ba2f79",
+      "afterSha256": "85bc2b1dd9792cf050bf64014ae76c0e66c6602c208c18607e97f05f71ba2f79"
+    },
+    {
+      "path": "src\\solver\\models.js",
+      "sha256": "6627e609bcb575037aafeee9610e5a408ddad505eb17ee30eeee93ee45535bb5",
+      "afterSha256": "6627e609bcb575037aafeee9610e5a408ddad505eb17ee30eeee93ee45535bb5"
+    },
+    {
+      "path": "src\\solver\\point.js",
+      "sha256": "5ae9b017b3ea3cb8c6b7e23ac4bb57f7935da42af93c60050fb9b92f6d4b5809",
+      "afterSha256": "5ae9b017b3ea3cb8c6b7e23ac4bb57f7935da42af93c60050fb9b92f6d4b5809"
+    },
+    {
+      "path": "src\\solver\\prepareCanonicalRedox.js",
+      "sha256": "d5666d86b7e3a5730f09ccaaf6d330f590149a54317647a94aeb24e41db19085",
+      "afterSha256": "d5666d86b7e3a5730f09ccaaf6d330f590149a54317647a94aeb24e41db19085"
+    },
+    {
+      "path": "src\\solver\\prepareSession.js",
+      "sha256": "6eb8bf7d6b11d14508f3f05c3bb8d0c8099e0c5eb30f0df262cd6c59767b2164",
+      "afterSha256": "6eb8bf7d6b11d14508f3f05c3bb8d0c8099e0c5eb30f0df262cd6c59767b2164"
+    },
+    {
+      "path": "src\\solver\\redox.js",
+      "sha256": "80b9f117b93a313e7172476ee38633bb7156d8886839bdeaf6c9d7cc9a9d6074",
+      "afterSha256": "80b9f117b93a313e7172476ee38633bb7156d8886839bdeaf6c9d7cc9a9d6074"
+    },
+    {
+      "path": "src\\solver\\validationContract.js",
+      "sha256": "1eec965214cb5aaf583b55280c0203d4f58396264fa44e1cc69b0e7e6a3317db",
+      "afterSha256": "1eec965214cb5aaf583b55280c0203d4f58396264fa44e1cc69b0e7e6a3317db"
+    },
+    {
+      "path": "src\\thermodynamics\\canonicalRedox.js",
+      "sha256": "1627b21369186cd78e405faa127b4ca9921d165ae69aa4eecfb44c7487ff5754",
+      "afterSha256": "1627b21369186cd78e405faa127b4ca9921d165ae69aa4eecfb44c7487ff5754"
+    },
+    {
+      "path": "src\\thermodynamics\\compatibility.js",
+      "sha256": "65bec87e1351d660cb0c453c18b57f0a58f8fd041ef0a48714b226a46e942603",
+      "afterSha256": "65bec87e1351d660cb0c453c18b57f0a58f8fd041ef0a48714b226a46e942603"
+    },
+    {
+      "path": "src\\thermodynamics\\formationSupport.js",
+      "sha256": "7e3d39500b13e63f21865af5aaa5dda090687971fce50e4ee7e030bf510eaca2",
+      "afterSha256": "7e3d39500b13e63f21865af5aaa5dda090687971fce50e4ee7e030bf510eaca2"
+    },
+    {
+      "path": "src\\thermodynamics\\importers\\pipeline.js",
+      "sha256": "8d041a97bea3957ce4e7785acfad29cc7f547758c8cbcc666b4a3447e149d909",
+      "afterSha256": "8d041a97bea3957ce4e7785acfad29cc7f547758c8cbcc666b4a3447e149d909"
+    },
+    {
+      "path": "src\\thermodynamics\\importers\\pipeline.test.js",
+      "sha256": "93740acc37618fc625769b656b64478e610557f0a7db1f867dc4c5933b845ce4",
+      "afterSha256": "93740acc37618fc625769b656b64478e610557f0a7db1f867dc4c5933b845ce4"
+    },
+    {
+      "path": "src\\thermodynamics\\importers\\spana\\binary.js",
+      "sha256": "889017b231430c00de0c7107e135517f3f137e145d69f759f58efddcde642356",
+      "afterSha256": "889017b231430c00de0c7107e135517f3f137e145d69f759f58efddcde642356"
+    },
+    {
+      "path": "src\\thermodynamics\\importers\\spana\\components.js",
+      "sha256": "5ba6cf65a05dfeb506fd70f70ed8998122eab1b6dd524ebdd3d42872840bd765",
+      "afterSha256": "5ba6cf65a05dfeb506fd70f70ed8998122eab1b6dd524ebdd3d42872840bd765"
+    },
+    {
+      "path": "src\\thermodynamics\\importers\\spana\\convert.js",
+      "sha256": "3a1e6e05c1c25d743991cc4b95b7fa7b7f993d1f6831c9e4a72d4cf1919aa776",
+      "afterSha256": "3a1e6e05c1c25d743991cc4b95b7fa7b7f993d1f6831c9e4a72d4cf1919aa776"
+    },
+    {
+      "path": "src\\thermodynamics\\importers\\spana\\names.js",
+      "sha256": "2e3c89d92ab2f663e29f26a2978064c3a3d91aacf373dc450e241f18552bf61f",
+      "afterSha256": "2e3c89d92ab2f663e29f26a2978064c3a3d91aacf373dc450e241f18552bf61f"
+    },
+    {
+      "path": "src\\thermodynamics\\importers\\spana\\normalize.js",
+      "sha256": "1524a967ec6cbf9cbd92f8831ca186631143b838c594f1fea53ee1193b343a18",
+      "afterSha256": "1524a967ec6cbf9cbd92f8831ca186631143b838c594f1fea53ee1193b343a18"
+    },
+    {
+      "path": "src\\thermodynamics\\importers\\spana\\references.js",
+      "sha256": "75b47f05838d8d8608b11064a78154b555002f99616e032f133c4999843d3b5c",
+      "afterSha256": "75b47f05838d8d8608b11064a78154b555002f99616e032f133c4999843d3b5c"
+    },
+    {
+      "path": "src\\thermodynamics\\importers\\spana\\spana.test.js",
+      "sha256": "1ef6f3420f058047061d376d07238e3d02cbbbfcfb027c4c50cede1f9f32087f",
+      "afterSha256": "1ef6f3420f058047061d376d07238e3d02cbbbfcfb027c4c50cede1f9f32087f"
+    },
+    {
+      "path": "src\\thermodynamics\\index.js",
+      "sha256": "54f32bdf2c6731b37494cad1ff939269b5b3740249447315cd823cb9639f5c47",
+      "afterSha256": "54f32bdf2c6731b37494cad1ff939269b5b3740249447315cd823cb9639f5c47"
+    },
+    {
+      "path": "src\\thermodynamics\\repository.js",
+      "sha256": "fa5727992267e38947edded8bfcc0228a3ebca564d42e8e6e464cf08268d6f63",
+      "afterSha256": "fa5727992267e38947edded8bfcc0228a3ebca564d42e8e6e464cf08268d6f63"
+    },
+    {
+      "path": "src\\thermodynamics\\repository.test.js",
+      "sha256": "47fad4e831d87de3e01da033e674e894838c1f4a9d1ef291d9b91c3f28de5d92",
+      "afterSha256": "47fad4e831d87de3e01da033e674e894838c1f4a9d1ef291d9b91c3f28de5d92"
+    },
+    {
+      "path": "src\\thermodynamics\\schema.js",
+      "sha256": "b9ad007ae1d96ca7a693fa1d7debbd505ab205045844c2c99a503208e08737a2",
+      "afterSha256": "b9ad007ae1d96ca7a693fa1d7debbd505ab205045844c2c99a503208e08737a2"
+    },
+    {
+      "path": "src\\thermodynamics\\snapshot.js",
+      "sha256": "8c8fd7076f005858cded6a6dd1340179018ba71c1af2aec3beaff9427a9d7acc",
+      "afterSha256": "8c8fd7076f005858cded6a6dd1340179018ba71c1af2aec3beaff9427a9d7acc"
+    },
+    {
+      "path": "src\\thermodynamics\\userComponents.js",
+      "sha256": "9b48067be2ec303218ae9ee1daed3e98ed2e8d71e7b7541a5523ead89777c725",
+      "afterSha256": "9b48067be2ec303218ae9ee1daed3e98ed2e8d71e7b7541a5523ead89777c725"
+    },
+    {
+      "path": "src\\thermodynamics\\userEquilibria.js",
+      "sha256": "5c1aabb37aec7131d57d48006341fb9da5824043ad147e8f3c6ffc98fd0bc9a8",
+      "afterSha256": "5c1aabb37aec7131d57d48006341fb9da5824043ad147e8f3c6ffc98fd0bc9a8"
+    },
+    {
+      "path": "src\\thermodynamics\\validation.js",
+      "sha256": "6e094cc718006f0300ce4f335fbcda6349629250518570b005551fc70f87405f",
+      "afterSha256": "6e094cc718006f0300ce4f335fbcda6349629250518570b005551fc70f87405f"
+    },
+    {
+      "path": "src\\thermodynamics\\validation.test.js",
+      "sha256": "d4c58a21beb0d9b36268f4995b355bc577fbb12af30630a752c8ecee3a5e259b",
+      "afterSha256": "d4c58a21beb0d9b36268f4995b355bc577fbb12af30630a752c8ecee3a5e259b"
+    },
+    {
+      "path": "public\\artwork\\adam-laboratory.png",
+      "sha256": "c88de996a7e8019a2fb09bbdb60beb8f10416f4e678b23f24cc641709cc934d6",
+      "afterSha256": "c88de996a7e8019a2fb09bbdb60beb8f10416f4e678b23f24cc641709cc934d6"
+    },
+    {
+      "path": "public\\artwork\\adam-observer.png",
+      "sha256": "0389cc3730a6cae0f643a7f07559c87063ed3bfce27b1d3d0e2d780d36c5a16d",
+      "afterSha256": "0389cc3730a6cae0f643a7f07559c87063ed3bfce27b1d3d0e2d780d36c5a16d"
+    },
+    {
+      "path": "public\\artwork\\adam-portrait.png",
+      "sha256": "cc814a5f3fc7bc7e0d56caa168e756e8d7aaf2a8c9bb013c6f5b82a829ad32f0",
+      "afterSha256": "cc814a5f3fc7bc7e0d56caa168e756e8d7aaf2a8c9bb013c6f5b82a829ad32f0"
+    },
+    {
+      "path": "public\\artwork\\adam-studio.png",
+      "sha256": "8340fd8a6958d78c986bf53d5c7d42c7733316ca992c3c89c526c8aa96c095b4",
+      "afterSha256": "8340fd8a6958d78c986bf53d5c7d42c7733316ca992c3c89c526c8aa96c095b4"
+    },
+    {
+      "path": "public\\artwork\\adam-workspace.png",
+      "sha256": "1cf49efeaae32267b7d814251fd351792ebfaee12ef4b02158bd7e22fe2c6820",
+      "afterSha256": "1cf49efeaae32267b7d814251fd351792ebfaee12ef4b02158bd7e22fe2c6820"
+    },
+    {
+      "path": "public\\data\\thermodynamic-default.json",
+      "sha256": "9fa7db6f4a13a88073a0ca214c412690846674f6b3f442e336baf1586c45d245",
+      "afterSha256": "9fa7db6f4a13a88073a0ca214c412690846674f6b3f442e336baf1586c45d245"
+    },
+    {
+      "path": "public\\favicon.svg",
+      "sha256": "61bc9a161de58248288e6905425d7180f0624c2865007b97d763fdac12043a66",
+      "afterSha256": "61bc9a161de58248288e6905425d7180f0624c2865007b97d763fdac12043a66"
+    },
+    {
+      "path": "public\\icons.svg",
+      "sha256": "b45fa506195cfcdef406ba9f0c77b36ddc1a7c224040926ec70abc2fdea7b93a",
+      "afterSha256": "b45fa506195cfcdef406ba9f0c77b36ddc1a7c224040926ec70abc2fdea7b93a"
+    },
+    {
+      "path": "tests\\aqueousFractions.test.js",
+      "sha256": "9c8029220a41af363bca6f2d6f0458c7cf4eeec87e736cf84870e62443f9105a",
+      "afterSha256": "9c8029220a41af363bca6f2d6f0458c7cf4eeec87e736cf84870e62443f9105a"
+    },
+    {
+      "path": "tests\\automaticSolids.test.js",
+      "sha256": "69822589b4bfbd25097c8d9f4bb78a47f61cba3cec7e8b7dd3a5cbac401a0d9c",
+      "afterSha256": "69822589b4bfbd25097c8d9f4bb78a47f61cba3cec7e8b7dd3a5cbac401a0d9c"
+    },
+    {
+      "path": "tests\\axisGrouping.test.js",
+      "sha256": "71f8128ec8eb69a0f7688698ee3118bdda043f73af2203cce417bfe52f87fdf5",
+      "afterSha256": "71f8128ec8eb69a0f7688698ee3118bdda043f73af2203cce417bfe52f87fdf5"
+    },
+    {
+      "path": "tests\\beakerPresentation.test.js",
+      "sha256": "b5da8cf6a1eb24fe855a6ab1112baab81043800ce75f1672dc713497489ac2ea",
+      "afterSha256": "b5da8cf6a1eb24fe855a6ab1112baab81043800ce75f1672dc713497489ac2ea"
+    },
+    {
+      "path": "tests\\canonicalRedox.test.js",
+      "sha256": "fb561f4ae8f7ed804cd79c7480134bd49a79f8fcfe0f35e21509e815f20b8d2f",
+      "afterSha256": "fb561f4ae8f7ed804cd79c7480134bd49a79f8fcfe0f35e21509e815f20b8d2f"
+    },
+    {
+      "path": "tests\\correctivePhase.test.js",
+      "sha256": "4c6d6fe25a032223cc05a395908497a1d96ee5db7504a5ae996958b6912a0991",
+      "afterSha256": "4c6d6fe25a032223cc05a395908497a1d96ee5db7504a5ae996958b6912a0991"
+    },
+    {
+      "path": "tests\\diagramSetup.test.js",
+      "sha256": "a7f7693670a237762a85fda12ceed30c8910bc05ed0d46a7e7923314a7f95271",
+      "afterSha256": "a7f7693670a237762a85fda12ceed30c8910bc05ed0d46a7e7923314a7f95271"
+    },
+    {
+      "path": "tests\\displayFormatting.test.js",
+      "sha256": "1bce8d7ad59271f63b3ae28ccacd0271f4045894c648e5333c4f91c832c31314",
+      "afterSha256": "1bce8d7ad59271f63b3ae28ccacd0271f4045894c648e5333c4f91c832c31314"
+    },
+    {
+      "path": "tests\\equilibriumBeaker.test.js",
+      "sha256": "2be6ae6f3c27589e1500242c7cb552627808161f6296c077abdc77cb50935657",
+      "afterSha256": "2be6ae6f3c27589e1500242c7cb552627808161f6296c077abdc77cb50935657"
+    },
+    {
+      "path": "tests\\fastDiagramUx.test.js",
+      "sha256": "68a85f0f7e0250d98a4383a40852c8392bc16a722390da64782e6858884ae582",
+      "afterSha256": "68a85f0f7e0250d98a4383a40852c8392bc16a722390da64782e6858884ae582"
+    },
+    {
+      "path": "tests\\fixtures\\eq-diagr\\references.json",
+      "sha256": "aefc0949b585ef290595088c8ed852a1eb591be25dff24563a44a2cf98d40960",
+      "afterSha256": "aefc0949b585ef290595088c8ed852a1eb591be25dff24563a44a2cf98d40960"
+    },
+    {
+      "path": "tests\\fractionReadout.test.js",
+      "sha256": "4c5039cac363f05ecbcb8ce8f984fde32ed957908c823415730b2e7a299e0914",
+      "afterSha256": "4c5039cac363f05ecbcb8ce8f984fde32ed957908c823415730b2e7a299e0914"
+    },
+    {
+      "path": "tests\\genericBeaker.test.js",
+      "sha256": "32ae40fa0720bdb6ae5b7c9c528e05eae3c60b91ddf6c7fbe30df59c4be553d6",
+      "afterSha256": "32ae40fa0720bdb6ae5b7c9c528e05eae3c60b91ddf6c7fbe30df59c4be553d6"
+    },
+    {
+      "path": "tests\\graphFirstWorkspace.test.js",
+      "sha256": "1e09562e8e74635715b7f36b6fd1d3e3ad990395b49aba0f2092459b29e4a29c",
+      "afterSha256": "1e09562e8e74635715b7f36b6fd1d3e3ad990395b49aba0f2092459b29e4a29c"
+    },
+    {
+      "path": "tests\\grid.test.js",
+      "sha256": "748c9756360255ceedaad1ab4a89e89c1f34955a08fb1c85321b4d5a72f85a0e",
+      "afterSha256": "748c9756360255ceedaad1ab4a89e89c1f34955a08fb1c85321b4d5a72f85a0e"
+    },
+    {
+      "path": "tests\\independentSolubility.test.js",
+      "sha256": "cfea9dd148d1877a3a58c29e6e04135b9aeefc66c2453f2633dc978ea5197d3a",
+      "afterSha256": "cfea9dd148d1877a3a58c29e6e04135b9aeefc66c2453f2633dc978ea5197d3a"
+    },
+    {
+      "path": "tests\\independentSurfaces.test.js",
+      "sha256": "021d14c3f1314eaa013473da3a26bccb7c05f178d4e54be6152f21ed243dfa41",
+      "afterSha256": "021d14c3f1314eaa013473da3a26bccb7c05f178d4e54be6152f21ed243dfa41"
+    },
+    {
+      "path": "tests\\initializationRetry.test.js",
+      "sha256": "287bae7f6bdb58b2fdc79f735ddfebee9bd2623d9295dfd3b46a6f0f75823d3e",
+      "afterSha256": "287bae7f6bdb58b2fdc79f735ddfebee9bd2623d9295dfd3b46a6f0f75823d3e"
+    },
+    {
+      "path": "tests\\liveRun.test.js",
+      "sha256": "e2042f5abed9a01fc367dfd002db8199853c78c962f5dc87ef78da50515bf91b",
+      "afterSha256": "e2042f5abed9a01fc367dfd002db8199853c78c962f5dc87ef78da50515bf91b"
+    },
+    {
+      "path": "tests\\metalLigandSurface.test.js",
+      "sha256": "547fe256669a61adb1270f78fc096178545896cf53dd6ff8c6f91a336ec4cf26",
+      "afterSha256": "547fe256669a61adb1270f78fc096178545896cf53dd6ff8c6f91a336ec4cf26"
+    },
+    {
+      "path": "tests\\mixedCarbonateAudit.js",
+      "sha256": "4ec12d4d568230caafbd7027e84807d509a66efdf4dc07d408580f0c1c298c7a",
+      "afterSha256": "4ec12d4d568230caafbd7027e84807d509a66efdf4dc07d408580f0c1c298c7a"
+    },
+    {
+      "path": "tests\\mixedCarbonateCapability.test.js",
+      "sha256": "7db8c340845f55372c2880f9e89b97fec77df90ca4a9650ff1c94742287b7166",
+      "afterSha256": "7db8c340845f55372c2880f9e89b97fec77df90ca4a9650ff1c94742287b7166"
+    },
+    {
+      "path": "tests\\mixedSolubilityIntegration.test.js",
+      "sha256": "537241d289638f89d5cacd20ccab523a2c34bc6844412c28edf76cbe5ebe8444",
+      "afterSha256": "537241d289638f89d5cacd20ccab523a2c34bc6844412c28edf76cbe5ebe8444"
+    },
+    {
+      "path": "tests\\mnAudit.test.js",
+      "sha256": "3f1d03b99e90ff1a9bd3e7a9b8ce15dcfbfc6103583a6aad01fb938d396e4191",
+      "afterSha256": "3f1d03b99e90ff1a9bd3e7a9b8ce15dcfbfc6103583a6aad01fb938d396e4191"
+    },
+    {
+      "path": "tests\\mnBoundaries.test.js",
+      "sha256": "d886e01d0b3e7b2850a514b84b16a6cb1f92a15e76f5a842466079c4ed45abdf",
+      "afterSha256": "d886e01d0b3e7b2850a514b84b16a6cb1f92a15e76f5a842466079c4ed45abdf"
+    },
+    {
+      "path": "tests\\mnClassification.test.js",
+      "sha256": "3a252f2fdf619e9fadc9e08778fc879dd518611bcc78359b71e44785dedeecd1",
+      "afterSha256": "3a252f2fdf619e9fadc9e08778fc879dd518611bcc78359b71e44785dedeecd1"
+    },
+    {
+      "path": "tests\\mnTopology.test.js",
+      "sha256": "85f0aa14bc54d5f8a10b01d0e71024870ae06eac32b150ddd439d9c3419288eb",
+      "afterSha256": "85f0aa14bc54d5f8a10b01d0e71024870ae06eac32b150ddd439d9c3419288eb"
+    },
+    {
+      "path": "tests\\multisolid.test.js",
+      "sha256": "aa45b4bd97233dc31da58af8d20b4f540df21a1d9dee578e62e2e646b45b7ef8",
+      "afterSha256": "aa45b4bd97233dc31da58af8d20b4f540df21a1d9dee578e62e2e646b45b7ef8"
+    },
+    {
+      "path": "tests\\outputs.test.js",
+      "sha256": "4f565ff481e9be981283b16822325d6c41b7023db0b8a0e470fccf296964e275",
+      "afterSha256": "4f565ff481e9be981283b16822325d6c41b7023db0b8a0e470fccf296964e275"
+    },
+    {
+      "path": "tests\\oxidationGrid.test.js",
+      "sha256": "5e7745f6f2bcb45b64e5f4a188cc218f8c69ca32a409acba64a94800077ca079",
+      "afterSha256": "5e7745f6f2bcb45b64e5f4a188cc218f8c69ca32a409acba64a94800077ca079"
+    },
+    {
+      "path": "tests\\oxidationInventory.test.js",
+      "sha256": "198ffa94c37469211046616c5fa001715c2bd83792afe434de076437dad56c6b",
+      "afterSha256": "198ffa94c37469211046616c5fa001715c2bd83792afe434de076437dad56c6b"
+    },
+    {
+      "path": "tests\\phase10.test.js",
+      "sha256": "902b5a35f4f0dc8c430a05535f7861e247ba041c7c6f4622a765f2729c8808d0",
+      "afterSha256": "902b5a35f4f0dc8c430a05535f7861e247ba041c7c6f4622a765f2729c8808d0"
+    },
+    {
+      "path": "tests\\phase11-1.test.js",
+      "sha256": "9c6afb82f0850b7bc2c59a1a93d8edf1fb60775063056f0e0a7d0408b9b0422b",
+      "afterSha256": "9c6afb82f0850b7bc2c59a1a93d8edf1fb60775063056f0e0a7d0408b9b0422b"
+    },
+    {
+      "path": "tests\\phase11.test.js",
+      "sha256": "dc5a92b9f24d02ad184eb535df39c034c5ac67ac9e0b803f8157296020bf883c",
+      "afterSha256": "dc5a92b9f24d02ad184eb535df39c034c5ac67ac9e0b803f8157296020bf883c"
+    },
+    {
+      "path": "tests\\phase6Helpers.js",
+      "sha256": "cca2a80ed6d03852f27fd3f065525574b8445253d289ff0fc0b894bafaf35956",
+      "afterSha256": "cca2a80ed6d03852f27fd3f065525574b8445253d289ff0fc0b894bafaf35956"
+    },
+    {
+      "path": "tests\\phase82.test.js",
+      "sha256": "c16f2d5afe0858d8db1984c2d6d8ba3260724cd9572c3ecb6c720693d97989e2",
+      "afterSha256": "c16f2d5afe0858d8db1984c2d6d8ba3260724cd9572c3ecb6c720693d97989e2"
+    },
+    {
+      "path": "tests\\phase82Helpers.js",
+      "sha256": "af80838841acd596e464bab14253501af7b42823ee25380f95d920ebc0ad2fb7",
+      "afterSha256": "af80838841acd596e464bab14253501af7b42823ee25380f95d920ebc0ad2fb7"
+    },
+    {
+      "path": "tests\\phase83.test.js",
+      "sha256": "7fd9de553c574838f7f365ae5cac17c5427cd9436da8ef5ca9939a453b282c8b",
+      "afterSha256": "7fd9de553c574838f7f365ae5cac17c5427cd9436da8ef5ca9939a453b282c8b"
+    },
+    {
+      "path": "tests\\phase8Helpers.js",
+      "sha256": "e2b5322c97c20b9e5e9efb373b0609d723a23284f9204fc207e5f23482167b80",
+      "afterSha256": "e2b5322c97c20b9e5e9efb373b0609d723a23284f9204fc207e5f23482167b80"
+    },
+    {
+      "path": "tests\\phase9.test.js",
+      "sha256": "009d7d750523aab038acb9d13a70b69774d941253877c70b037fcdcc0ea79647",
+      "afterSha256": "009d7d750523aab038acb9d13a70b69774d941253877c70b037fcdcc0ea79647"
+    },
+    {
+      "path": "tests\\phase9Helpers.js",
+      "sha256": "e53aa0cba4c3c8e69fbb9fb8435643343ecbd21891cc63bcdb6c37c21c0d14ba",
+      "afterSha256": "e53aa0cba4c3c8e69fbb9fb8435643343ecbd21891cc63bcdb6c37c21c0d14ba"
+    },
+    {
+      "path": "tests\\pHSolubility.test.js",
+      "sha256": "f21ce87912fe04162ee3dd903636f57a777a3fa969c559691bbb28a5991d32f4",
+      "afterSha256": "f21ce87912fe04162ee3dd903636f57a777a3fa969c559691bbb28a5991d32f4"
+    },
+    {
+      "path": "tests\\plotInspection.test.js",
+      "sha256": "798c0e3369334a374f4747799c6daaf685ca8da9d488675f61d60d8bb373b404",
+      "afterSha256": "798c0e3369334a374f4747799c6daaf685ca8da9d488675f61d60d8bb373b404"
+    },
+    {
+      "path": "tests\\pointHardening.test.js",
+      "sha256": "5b58c92d46596c039cbb44954589a722c5531df6ac87bdc45029083f7d6c2455",
+      "afterSha256": "5b58c92d46596c039cbb44954589a722c5531df6ac87bdc45029083f7d6c2455"
+    },
+    {
+      "path": "tests\\pointHelpers.js",
+      "sha256": "62bb7217eafbb4341c303aeb259b0f51666e2a4bec92340547f54b330aa80cb1",
+      "afterSha256": "62bb7217eafbb4341c303aeb259b0f51666e2a4bec92340547f54b330aa80cb1"
+    },
+    {
+      "path": "tests\\pointSession.test.js",
+      "sha256": "637a5d1ca5f1ae8960ca4e891e0694fa00fa3da209410597a8add651d9fa420b",
+      "afterSha256": "637a5d1ca5f1ae8960ca4e891e0694fa00fa3da209410597a8add651d9fa420b"
+    },
+    {
+      "path": "tests\\pointSolver.test.js",
+      "sha256": "f05a7f050eda6c94f2b96fec18a68f75e0fc95210b6d25ebf91ac4dc7c9b6853",
+      "afterSha256": "f05a7f050eda6c94f2b96fec18a68f75e0fc95210b6d25ebf91ac4dc7c9b6853"
+    },
+    {
+      "path": "tests\\pourbaixAudit.test.js",
+      "sha256": "6d39c5548ab21f2f62c0e6eba1a6db66c5a70f80f2846d8e391333abe49b0ae7",
+      "afterSha256": "6d39c5548ab21f2f62c0e6eba1a6db66c5a70f80f2846d8e391333abe49b0ae7"
+    },
+    {
+      "path": "tests\\predominance.test.js",
+      "sha256": "042f89d239c9e105d5c9935a6354ad312fc51d961453ce83147f5014610ba2ac",
+      "afterSha256": "042f89d239c9e105d5c9935a6354ad312fc51d961453ce83147f5014610ba2ac"
+    },
+    {
+      "path": "tests\\presentation.test.js",
+      "sha256": "69e36e75e5578fbec62c2bf63c7653dc4dffa2b5ae604f82d1d8649d0937a753",
+      "afterSha256": "69e36e75e5578fbec62c2bf63c7653dc4dffa2b5ae604f82d1d8649d0937a753"
+    },
+    {
+      "path": "tests\\publicRelease.test.js",
+      "sha256": "b23b6ad7f3534e490cd8299ae8bf2c78a9e2ff4a8e4f2e8e115d5c9b8ccbcf06",
+      "afterSha256": "b23b6ad7f3534e490cd8299ae8bf2c78a9e2ff4a8e4f2e8e115d5c9b8ccbcf06"
+    },
+    {
+      "path": "tests\\redoxFoundation.test.js",
+      "sha256": "9c3b4f549c02c085c426cf39894f2535685814de7e868a858af00dc5de5c6c9b",
+      "afterSha256": "9c3b4f549c02c085c426cf39894f2535685814de7e868a858af00dc5de5c6c9b"
+    },
+    {
+      "path": "tests\\redoxHelpers.js",
+      "sha256": "d4bc4f5d7bf5c7f6c9b2aaae208338f07120c9ba7887f673d3d822769055c5b8",
+      "afterSha256": "d4bc4f5d7bf5c7f6c9b2aaae208338f07120c9ba7887f673d3d822769055c5b8"
+    },
+    {
+      "path": "tests\\referenceIntegrity.test.js",
+      "sha256": "2202d26e7e4cd05575557619580077ee2629722807af35c6be8304dd3d004427",
+      "afterSha256": "2202d26e7e4cd05575557619580077ee2629722807af35c6be8304dd3d004427"
+    },
+    {
+      "path": "tests\\responseAudit.test.js",
+      "sha256": "e1cc8efecc9820993ad38771cfa4c6d4c4e036d6aa6a32bae83a93b38a117e0d",
+      "afterSha256": "e1cc8efecc9820993ad38771cfa4c6d4c4e036d6aa6a32bae83a93b38a117e0d"
+    },
+    {
+      "path": "tests\\resultBeaker.test.js",
+      "sha256": "684a777f4ca29ab1328daf6c9117decc465ab020584dd9e422c18a57468ed7fa",
+      "afterSha256": "684a777f4ca29ab1328daf6c9117decc465ab020584dd9e422c18a57468ed7fa"
+    },
+    {
+      "path": "tests\\scientificWorkspace.test.js",
+      "sha256": "6ce7f7ba18fc92fe536e7a1fc1cf09b7964963e252c2aa7dafed6dd5232e52cb",
+      "afterSha256": "6ce7f7ba18fc92fe536e7a1fc1cf09b7964963e252c2aa7dafed6dd5232e52cb"
+    },
+    {
+      "path": "tests\\semanticPresentation.test.js",
+      "sha256": "2d061c02e37162c103abf5b8e5de9e7518d91d321790ad4c3ae28b0c5228a64f",
+      "afterSha256": "2d061c02e37162c103abf5b8e5de9e7518d91d321790ad4c3ae28b0c5228a64f"
+    },
+    {
+      "path": "tests\\solutionSummary.test.js",
+      "sha256": "4dabcd2e6a209cb6864ec762014735b37eea74712d841659c8766eac1a6c45c2",
+      "afterSha256": "4dabcd2e6a209cb6864ec762014735b37eea74712d841659c8766eac1a6c45c2"
+    },
+    {
+      "path": "tests\\sweep.test.js",
+      "sha256": "88d6f27892680e6b9370ebbcea354247f2a51e28f9023d1c74b8d25f5e638c5d",
+      "afterSha256": "88d6f27892680e6b9370ebbcea354247f2a51e28f9023d1c74b8d25f5e638c5d"
+    },
+    {
+      "path": "tests\\units.test.js",
+      "sha256": "4bb1e2378676c03a08b0536156d439d9efd85c74c3ca6a840c54b75690efb6f2",
+      "afterSha256": "4bb1e2378676c03a08b0536156d439d9efd85c74c3ca6a840c54b75690efb6f2"
+    },
+    {
+      "path": "tests\\userEquilibria.test.js",
+      "sha256": "36eb7246341bf1648d4bb462a692178662068e8c6785220d63ff8a40e9f19ea9",
+      "afterSha256": "36eb7246341bf1648d4bb462a692178662068e8c6785220d63ff8a40e9f19ea9"
+    },
+    {
+      "path": "tests\\workspaceOwnership.test.js",
+      "sha256": "33b9e0f7b1e1aa6f5b97ffd86243efcc76270fb784601c2fd98f29ba1908d06e",
+      "afterSha256": "33b9e0f7b1e1aa6f5b97ffd86243efcc76270fb784601c2fd98f29ba1908d06e"
+    },
+    {
+      "path": "tests\\workspaceUx.test.js",
+      "sha256": "9fdb1c3c1ee1c391b9263da5e5c5bcc5db7b0972eea0345f16787a6b708a2784",
+      "afterSha256": "9fdb1c3c1ee1c391b9263da5e5c5bcc5db7b0972eea0345f16787a6b708a2784"
+    },
+    {
+      "path": "scripts\\audit-phase6-underdetermined.js",
+      "sha256": "0f62b6bc3a1ef2d83527d373640a86e8cf981c411f6c63eb5df5b870829446d7",
+      "afterSha256": "0f62b6bc3a1ef2d83527d373640a86e8cf981c411f6c63eb5df5b870829446d7"
+    },
+    {
+      "path": "scripts\\audit-pourbaix.js",
+      "sha256": "76172a3c0ac107c9b1f0c51b1ea16d800bacc155e5ae53edf6f84ccdb96edeed",
+      "afterSha256": "76172a3c0ac107c9b1f0c51b1ea16d800bacc155e5ae53edf6f84ccdb96edeed"
+    },
+    {
+      "path": "scripts\\audit-production-boundary.js",
+      "sha256": "e45387535ae5af5337204689411cddc8e2e2b4dd1f80d7df7b05227d3c00266e",
+      "afterSha256": "e45387535ae5af5337204689411cddc8e2e2b4dd1f80d7df7b05227d3c00266e"
+    },
+    {
+      "path": "scripts\\audit-response-surfaces.js",
+      "sha256": "9d6be19fdd5a994031e2ae53c1f5e2afa7963069e87e2aeb69a39fb12268aaa9",
+      "afterSha256": "9d6be19fdd5a994031e2ae53c1f5e2afa7963069e87e2aeb69a39fb12268aaa9"
+    },
+    {
+      "path": "scripts\\development-source.js",
+      "sha256": "c2254034fbb7ce008df285deaffb5bf6d36933f47009345387200c9229823f63",
+      "afterSha256": "c2254034fbb7ce008df285deaffb5bf6d36933f47009345387200c9229823f63"
+    },
+    {
+      "path": "scripts\\generic-beaker-browser.cjs",
+      "sha256": "8e0f882dada46e47a58dbbf7a04b7ebffd959f2d82569fe45dda921e0e0a5188",
+      "afterSha256": "8e0f882dada46e47a58dbbf7a04b7ebffd959f2d82569fe45dda921e0e0a5188"
+    },
+    {
+      "path": "scripts\\import-spana.js",
+      "sha256": "55b63040e2697eaa5bf562d9922c86f9ac67ef46ddb823b541db2175c5ae93af",
+      "afterSha256": "55b63040e2697eaa5bf562d9922c86f9ac67ef46ddb823b541db2175c5ae93af"
+    },
+    {
+      "path": "scripts\\measure-phase82.js",
+      "sha256": "a97f0d7d1c3189d20db5e9a90bda94628c9bf160451488a368188cafe384474d",
+      "afterSha256": "a97f0d7d1c3189d20db5e9a90bda94628c9bf160451488a368188cafe384474d"
+    },
+    {
+      "path": "scripts\\prepare-java-references.ps1",
+      "sha256": "66887ed64d3495a41b5c9709a3d955453853b3e0c6383fd95d9583ea3c67eadc",
+      "afterSha256": "66887ed64d3495a41b5c9709a3d955453853b3e0c6383fd95d9583ea3c67eadc"
+    },
+    {
+      "path": "scripts\\prepare-public-data.js",
+      "sha256": "f912169b95f80057966a9ab118a43f4b09ea4e9e2c0943081b4bbdabad2d1333",
+      "afterSha256": "f912169b95f80057966a9ab118a43f4b09ea4e9e2c0943081b4bbdabad2d1333"
+    },
+    {
+      "path": "scripts\\production-artifacts.js",
+      "sha256": "65880d71d54d85a2e3bab57ad5c775c81b8ccd5e5009faf7662b41789dcdca38",
+      "afterSha256": "65880d71d54d85a2e3bab57ad5c775c81b8ccd5e5009faf7662b41789dcdca38"
+    },
+    {
+      "path": "scripts\\public-adam-media-manifest.json",
+      "sha256": "a8c875aabb0c8249f14a93dad3f5ee143e420e55390c60ee156cbbc253eed1da",
+      "afterSha256": "a8c875aabb0c8249f14a93dad3f5ee143e420e55390c60ee156cbbc253eed1da"
+    },
+    {
+      "path": "scripts\\public-adam-observer-manifest.json",
+      "sha256": "7e90974b3e5760dcb44eb5cea56dee71d4fab3dde04528d05b0f4511ec6efdf0",
+      "afterSha256": "7e90974b3e5760dcb44eb5cea56dee71d4fab3dde04528d05b0f4511ec6efdf0"
+    },
+    {
+      "path": "scripts\\public-adam-portrait-manifest.json",
+      "sha256": "a70feaad5ed09040231020995c63c54b847cc6ed35c626f407bca1900a1738a1",
+      "afterSha256": "a70feaad5ed09040231020995c63c54b847cc6ed35c626f407bca1900a1738a1"
+    },
+    {
+      "path": "scripts\\public-adam-studio-manifest.json",
+      "sha256": "b2fc8d7e78547c6a5ed273095b5df94647ab0caf04867a6dea5d12e601be807c",
+      "afterSha256": "b2fc8d7e78547c6a5ed273095b5df94647ab0caf04867a6dea5d12e601be807c"
+    },
+    {
+      "path": "scripts\\public-artwork-manifest.json",
+      "sha256": "2158d1c218eb06d642afaf0ea24dbd17641bf889ebebfcc32f00ab810962fa17",
+      "afterSha256": "2158d1c218eb06d642afaf0ea24dbd17641bf889ebebfcc32f00ab810962fa17"
+    },
+    {
+      "path": "scripts\\public-data-manifest.json",
+      "sha256": "ce4a15faee95637f2c97cc35d8a0f96263e9132a06dda6f77c4eea2ca9e36489",
+      "afterSha256": "ce4a15faee95637f2c97cc35d8a0f96263e9132a06dda6f77c4eea2ca9e36489"
+    },
+    {
+      "path": "scripts\\ReferenceProbe.java",
+      "sha256": "ab0fb08563faf69f3494d0e37e08863725dc3c075658246ff2c5186d9101e993",
+      "afterSha256": "ab0fb08563faf69f3494d0e37e08863725dc3c075658246ff2c5186d9101e993"
+    },
+    {
+      "path": "scripts\\render-oxidation-png.ps1",
+      "sha256": "81e3a92a7c7790eecd92d44db18a361f2b34722a36c2698e499ac14cbb7599ba",
+      "afterSha256": "81e3a92a7c7790eecd92d44db18a361f2b34722a36c2698e499ac14cbb7599ba"
+    },
+    {
+      "path": "scripts\\render-oxidation-prototype.js",
+      "sha256": "cb4f4216e7de14f42fda6325830781c3aad9fbf4afb9898c247de615a81b0eee",
+      "afterSha256": "cb4f4216e7de14f42fda6325830781c3aad9fbf4afb9898c247de615a81b0eee"
+    },
+    {
+      "path": "scripts\\report-phase10-performance.js",
+      "sha256": "06a67918e7f1d208ac25a98ff88472abc8194678a5229cb71d8ee25a5e27d6d8",
+      "afterSha256": "06a67918e7f1d208ac25a98ff88472abc8194678a5229cb71d8ee25a5e27d6d8"
+    },
+    {
+      "path": "scripts\\report-phase11-1-performance.js",
+      "sha256": "1dffdb3fd6ee36ae7203df977918037fd3a02fe4eea33dfaef573c4866d94353",
+      "afterSha256": "1dffdb3fd6ee36ae7203df977918037fd3a02fe4eea33dfaef573c4866d94353"
+    },
+    {
+      "path": "scripts\\report-phase11-performance.js",
+      "sha256": "b6e6ee088942fc9f9f410fd174f9c1515ebcdac4cdaf0352e1ba4486188793f3",
+      "afterSha256": "b6e6ee088942fc9f9f410fd174f9c1515ebcdac4cdaf0352e1ba4486188793f3"
+    },
+    {
+      "path": "scripts\\report-phase6-sweeps.js",
+      "sha256": "8b7f512d17ba5c1cfe40671c69b7e53857c1566ae766a96a192ac0335185f54d",
+      "afterSha256": "8b7f512d17ba5c1cfe40671c69b7e53857c1566ae766a96a192ac0335185f54d"
+    },
+    {
+      "path": "scripts\\report-phase7-performance.js",
+      "sha256": "382064be20c87774cb278a38e603c0645c6225064af6c6e953ae74c6dd86712f",
+      "afterSha256": "382064be20c87774cb278a38e603c0645c6225064af6c6e953ae74c6dd86712f"
+    },
+    {
+      "path": "scripts\\report-phase8-performance.js",
+      "sha256": "504844f0d667b5e0a44dfd8caf378b9ecbb5620a7f0e4110dd7fe75152735d7e",
+      "afterSha256": "504844f0d667b5e0a44dfd8caf378b9ecbb5620a7f0e4110dd7fe75152735d7e"
+    },
+    {
+      "path": "scripts\\report-phase9-performance.js",
+      "sha256": "8bf105256957910bd13b9857f39f7ab7cc2f90776d34b6c0d817dfe053fbcbff",
+      "afterSha256": "8bf105256957910bd13b9857f39f7ab7cc2f90776d34b6c0d817dfe053fbcbff"
+    },
+    {
+      "path": "scripts\\report-point-benchmarks.js",
+      "sha256": "0d8a92d6af62d099b81f71c7503ea2065d05f478ccd72731744c2fb0eb00d3d0",
+      "afterSha256": "0d8a92d6af62d099b81f71c7503ea2065d05f478ccd72731744c2fb0eb00d3d0"
+    },
+    {
+      "path": "scripts\\result-beaker-browser.cjs",
+      "sha256": "90741d5e88778b8b5a7e6d204475a063de575b47f2d9fe027e7d080cb43252a8",
+      "afterSha256": "90741d5e88778b8b5a7e6d204475a063de575b47f2d9fe027e7d080cb43252a8"
+    },
+    {
+      "path": "scripts\\run-java-references.js",
+      "sha256": "04995a69ab9527e6f32b5db6d3ba48dd070abe152c3cddfb0dd142656c86832b",
+      "afterSha256": "04995a69ab9527e6f32b5db6d3ba48dd070abe152c3cddfb0dd142656c86832b"
+    },
+    {
+      "path": "scripts\\spana-source.js",
+      "sha256": "3f7752604aeb755abccd81948cfc0e36d2dc3b203211f5bc66eff66c2d2d41f8",
+      "afterSha256": "3f7752604aeb755abccd81948cfc0e36d2dc3b203211f5bc66eff66c2d2d41f8"
+    },
+    {
+      "path": "scripts\\validate-canonical-redox.js",
+      "sha256": "02f0f34e69c2dc796a3aab4bac9d10eab899c05d5a952429cefce66b04cb110f",
+      "afterSha256": "02f0f34e69c2dc796a3aab4bac9d10eab899c05d5a952429cefce66b04cb110f"
+    },
+    {
+      "path": "scripts\\validate-independent-surfaces.js",
+      "sha256": "b56fbaaeda92188fd1ee53c7dd7d17231f3b66da81b84a7db97fba3e6af08a00",
+      "afterSha256": "b56fbaaeda92188fd1ee53c7dd7d17231f3b66da81b84a7db97fba3e6af08a00"
+    },
+    {
+      "path": "scripts\\validate-mn-boundaries.js",
+      "sha256": "e9543afe6293c98e4269fa98977a5ebfd59e2c352e1de411284af54b67e9b178",
+      "afterSha256": "e9543afe6293c98e4269fa98977a5ebfd59e2c352e1de411284af54b67e9b178"
+    },
+    {
+      "path": "scripts\\validate-mn-classification.js",
+      "sha256": "f89ecf77ae27c192e0fc9823be9653c229b1c8e90835a9a9899955f098a40256",
+      "afterSha256": "f89ecf77ae27c192e0fc9823be9653c229b1c8e90835a9a9899955f098a40256"
+    },
+    {
+      "path": "scripts\\validate-mn-grid.js",
+      "sha256": "a064a5456bbba9f3be515839869b0da802b109fc4e2543d7cb573dcd150366a9",
+      "afterSha256": "a064a5456bbba9f3be515839869b0da802b109fc4e2543d7cb573dcd150366a9"
+    },
+    {
+      "path": "scripts\\validate-mn-retry.js",
+      "sha256": "6c09a19bdfcb2a443f36f1b9324fb478ffca3636f30e2c41e8abde032dddefaf",
+      "afterSha256": "6c09a19bdfcb2a443f36f1b9324fb478ffca3636f30e2c41e8abde032dddefaf"
+    },
+    {
+      "path": "scripts\\validate-mn-topology.js",
+      "sha256": "153363f07acac4dbe5d4c7a036361d0ada633b52a83437afe6a30fc3995bc15d",
+      "afterSha256": "153363f07acac4dbe5d4c7a036361d0ada633b52a83437afe6a30fc3995bc15d"
+    },
+    {
+      "path": "scripts\\validate-multisolid.js",
+      "sha256": "f179f90bb966c14a91b518fb15d2e97abe3c8826aff50c6d171cd54a3516d316",
+      "afterSha256": "f179f90bb966c14a91b518fb15d2e97abe3c8826aff50c6d171cd54a3516d316"
+    },
+    {
+      "path": "scripts\\validate-oxidation-grid.js",
+      "sha256": "ea78849f6daa56c407ece14236c51747fe54f116c6f18aa358a9cbbc35f234d0",
+      "afterSha256": "ea78849f6daa56c407ece14236c51747fe54f116c6f18aa358a9cbbc35f234d0"
+    },
+    {
+      "path": "scripts\\validate-redox-foundation.js",
+      "sha256": "c8905642c07cdb196053f2afcac905d71bbc26447f9f20437532c659a648b2f1",
+      "afterSha256": "c8905642c07cdb196053f2afcac905d71bbc26447f9f20437532c659a648b2f1"
+    },
+    {
+      "path": "scripts\\validation\\automaticSolidsAudit.js",
+      "sha256": "2a85fd6885eae7d80a5b34e58b61e743edae0e7fb9713426d5bb44b33c57f82a",
+      "afterSha256": "2a85fd6885eae7d80a5b34e58b61e743edae0e7fb9713426d5bb44b33c57f82a"
+    },
+    {
+      "path": "scripts\\validation\\fractionBeakerAudit.js",
+      "sha256": "6f62f3ebb4faa2817a47fa12b95ff5b72dfe0d43429a98b132704daa53fa7430",
+      "afterSha256": "6f62f3ebb4faa2817a47fa12b95ff5b72dfe0d43429a98b132704daa53fa7430"
+    },
+    {
+      "path": "scripts\\validation\\independentSurfaces.js",
+      "sha256": "a57494f3596c91eec0a027ba93ded298dab547b5a764e247647ed2f68d328e97",
+      "afterSha256": "a57494f3596c91eec0a027ba93ded298dab547b5a764e247647ed2f68d328e97"
+    },
+    {
+      "path": "scripts\\validation\\metalLigandSurface.js",
+      "sha256": "6a8411028a09d5fcd71eaf5146fb5c9809c92a9c8fde1ea450bb91525a734e21",
+      "afterSha256": "6a8411028a09d5fcd71eaf5146fb5c9809c92a9c8fde1ea450bb91525a734e21"
+    },
+    {
+      "path": "scripts\\validation\\mnAudit.js",
+      "sha256": "c72e3855500cbbc6cbda06b034fc6ae90af77887c7fb1da6f66d962c1f4b9024",
+      "afterSha256": "c72e3855500cbbc6cbda06b034fc6ae90af77887c7fb1da6f66d962c1f4b9024"
+    },
+    {
+      "path": "scripts\\validation\\mnBoundaries.js",
+      "sha256": "c336eb1f352cd8cd8797586fdd2a9b82b0ac9e1d43d54f9297f6ccdd6cf3d6f7",
+      "afterSha256": "c336eb1f352cd8cd8797586fdd2a9b82b0ac9e1d43d54f9297f6ccdd6cf3d6f7"
+    },
+    {
+      "path": "scripts\\validation\\mnRegionCertificates.js",
+      "sha256": "017a83f3064062e3ecbe9ddbe857a1388618412646f8589712421680f02cebea",
+      "afterSha256": "017a83f3064062e3ecbe9ddbe857a1388618412646f8589712421680f02cebea"
+    },
+    {
+      "path": "scripts\\validation\\mnTopology.js",
+      "sha256": "821b880d65f095c33e6dec5ac3e7ef9d439d5407a66a806891c10936fa45d9a7",
+      "afterSha256": "821b880d65f095c33e6dec5ac3e7ef9d439d5407a66a806891c10936fa45d9a7"
+    },
+    {
+      "path": "scripts\\validation\\oxidationFixtures.js",
+      "sha256": "c5a71e3d95bd6d06173b583dcff0ae269f104b21d40e90ce6771d46d3f2ffe3e",
+      "afterSha256": "c5a71e3d95bd6d06173b583dcff0ae269f104b21d40e90ce6771d46d3f2ffe3e"
+    },
+    {
+      "path": "scripts\\validation\\responseAudit.js",
+      "sha256": "c6e33d6a3622bcec3d4fdad7a525c06868ec3c4194c0c964d5b7345e29ed064c",
+      "afterSha256": "c6e33d6a3622bcec3d4fdad7a525c06868ec3c4194c0c964d5b7345e29ed064c"
+    },
+    {
+      "path": "docs\\aqueous-fractions-report.md",
+      "sha256": "782eb517f24bea34c70fbd0274c54aa46ef38e6de0ed24c882497b62bf94cc55",
+      "afterSha256": "782eb517f24bea34c70fbd0274c54aa46ef38e6de0ed24c882497b62bf94cc55"
+    },
+    {
+      "path": "docs\\automatic-solids-evidence.json",
+      "sha256": "0c011fb45cb5bae3c3b0d81e89aac89c5e996c385bb77186fd86d82adafa234b",
+      "afterSha256": "0c011fb45cb5bae3c3b0d81e89aac89c5e996c385bb77186fd86d82adafa234b"
+    },
+    {
+      "path": "docs\\automatic-solids-report.md",
+      "sha256": "d9162868685ecc5c1af1ac764337ee534a9e16111074dc4907511204602d68b9",
+      "afterSha256": "d9162868685ecc5c1af1ac764337ee534a9e16111074dc4907511204602d68b9"
+    },
+    {
+      "path": "docs\\axis-grouping-evidence.json",
+      "sha256": "a50a4ee0ea31ea1a9af2b61ed4f3f53e834e95645acb2fa773deb3e1ae78056b",
+      "afterSha256": "a50a4ee0ea31ea1a9af2b61ed4f3f53e834e95645acb2fa773deb3e1ae78056b"
+    },
+    {
+      "path": "docs\\axis-grouping-report.md",
+      "sha256": "9faa7dff4660d23fb2f29696cb75d178680a4c21b6328b731f6e15b500474caf",
+      "afterSha256": "9faa7dff4660d23fb2f29696cb75d178680a4c21b6328b731f6e15b500474caf"
+    },
+    {
+      "path": "docs\\beaker-browser-states.json",
+      "sha256": "c62dfae4897118735211e90a23d7f25ff649256d5b089ab3e80dfee8961d061b",
+      "afterSha256": "c62dfae4897118735211e90a23d7f25ff649256d5b089ab3e80dfee8961d061b"
+    },
+    {
+      "path": "docs\\beaker-build.txt",
+      "sha256": "bc45dd4ef3c619bc34d0f349188b32e03cd58c367366be5e364d39116ba33b3e",
+      "afterSha256": "bc45dd4ef3c619bc34d0f349188b32e03cd58c367366be5e364d39116ba33b3e"
+    },
+    {
+      "path": "docs\\beaker-focused-tests.txt",
+      "sha256": "05cb0c5d2e9685728475edf5d68f5b58c131458b1443f6c2cce5a8982b087bc0",
+      "afterSha256": "05cb0c5d2e9685728475edf5d68f5b58c131458b1443f6c2cce5a8982b087bc0"
+    },
+    {
+      "path": "docs\\beaker-lint.txt",
+      "sha256": "ccfed2e35c115009b462a04cc39d68f307a29db01030a5072722e4500def6729",
+      "afterSha256": "ccfed2e35c115009b462a04cc39d68f307a29db01030a5072722e4500def6729"
+    },
+    {
+      "path": "docs\\beaker-mobile-light.png",
+      "sha256": "6ef23dd3959bbc17b095502610565f5d7d2ecd6f84d02898a03a0d368effad96",
+      "afterSha256": "6ef23dd3959bbc17b095502610565f5d7d2ecd6f84d02898a03a0d368effad96"
+    },
+    {
+      "path": "docs\\beaker-mvp-desktop.png",
+      "sha256": "039d0ee874fe5bb0a29e045d6a994eccabe041602e20f848b02a0baeb34cd4c7",
+      "afterSha256": "039d0ee874fe5bb0a29e045d6a994eccabe041602e20f848b02a0baeb34cd4c7"
+    },
+    {
+      "path": "docs\\beaker-ph-0.png",
+      "sha256": "2e1787653ddfbfac179a4cce9b90eb59b04b7da4314052d43531ff2c6328061e",
+      "afterSha256": "2e1787653ddfbfac179a4cce9b90eb59b04b7da4314052d43531ff2c6328061e"
+    },
+    {
+      "path": "docs\\beaker-ph-10.5.png",
+      "sha256": "d0198c7e850cb286b663c5e9dd69fa34aa0ea15d0b9e948b0c1f310521021e77",
+      "afterSha256": "d0198c7e850cb286b663c5e9dd69fa34aa0ea15d0b9e948b0c1f310521021e77"
+    },
+    {
+      "path": "docs\\beaker-ph-14.png",
+      "sha256": "9739722d561269ee3f97f27e8e66abef8383d9b0e7a8a50725a1fcf66511699e",
+      "afterSha256": "9739722d561269ee3f97f27e8e66abef8383d9b0e7a8a50725a1fcf66511699e"
+    },
+    {
+      "path": "docs\\beaker-ph-7.png",
+      "sha256": "ae6db8df488884c280cb7cf638ba204d36a83565aadaea0cae50ddeed086915f",
+      "afterSha256": "ae6db8df488884c280cb7cf638ba204d36a83565aadaea0cae50ddeed086915f"
+    },
+    {
+      "path": "docs\\beaker-phase-colors.md",
+      "sha256": "4de0b6bc421c92e19fbfc244be917dd25129fea3c63bfb87190b54b803cfd3c8",
+      "afterSha256": "4de0b6bc421c92e19fbfc244be917dd25129fea3c63bfb87190b54b803cfd3c8"
+    },
+    {
+      "path": "docs\\beaker-presentation-evidence.json",
+      "sha256": "a547a0f05fe5785b719ba10a535518a0c21411fee38502c6470dcf365e4a507b",
+      "afterSha256": "a547a0f05fe5785b719ba10a535518a0c21411fee38502c6470dcf365e4a507b"
+    },
+    {
+      "path": "docs\\beaker-presentation-report.md",
+      "sha256": "b0b1cead5a29544468469d23a337dadc8496faaaade47e5f0eec4a678d07fcfc",
+      "afterSha256": "b0b1cead5a29544468469d23a337dadc8496faaaade47e5f0eec4a678d07fcfc"
+    },
+    {
+      "path": "docs\\beaker-production-audit.txt",
+      "sha256": "ff60b38544f935902e5acea4ed2147860742df02853ac4e72cee3e04e5610a5c",
+      "afterSha256": "ff60b38544f935902e5acea4ed2147860742df02853ac4e72cee3e04e5610a5c"
+    },
+    {
+      "path": "docs\\beaker-report.md",
+      "sha256": "8b3dbbc1f39357f6a169b236d5f249d87f63a3df8587bad0cc35766a44be2dc8",
+      "afterSha256": "8b3dbbc1f39357f6a169b236d5f249d87f63a3df8587bad0cc35766a44be2dc8"
+    },
+    {
+      "path": "docs\\beaker-tests.txt",
+      "sha256": "b0bccc9b757ae961269e8d84365dbe5476a27457c677104c0183a126a616b838",
+      "afterSha256": "b0bccc9b757ae961269e8d84365dbe5476a27457c677104c0183a126a616b838"
+    },
+    {
+      "path": "docs\\beaker-toolbar-polish.md",
+      "sha256": "00cd94349a1e0f717fc4dff20b4f29908fe64254afd625c69c2496699870c9c7",
+      "afterSha256": "00cd94349a1e0f717fc4dff20b4f29908fe64254afd625c69c2496699870c9c7"
+    },
+    {
+      "path": "docs\\beaker-validation.json",
+      "sha256": "e74ef746ed24a3a92a63d6488ca24ed40b8664360b4f1ce1ef07802fc5f4477c",
+      "afterSha256": "e74ef746ed24a3a92a63d6488ca24ed40b8664360b4f1ce1ef07802fc5f4477c"
+    },
+    {
+      "path": "docs\\bicarbonate-expanded-review.png",
+      "sha256": "129ddb211a02e5f0341725c4e6908d1c802a910e1ae366fe7a957f0cb183e07d",
+      "afterSha256": "129ddb211a02e5f0341725c4e6908d1c802a910e1ae366fe7a957f0cb183e07d"
+    },
+    {
+      "path": "docs\\calculation-setup-ux.md",
+      "sha256": "125d72a12d54bb5946813efdb6f61dad666d900ead869ad54c9371df5657f79a",
+      "afterSha256": "125d72a12d54bb5946813efdb6f61dad666d900ead869ad54c9371df5657f79a"
+    },
+    {
+      "path": "docs\\canonical-redox-report.md",
+      "sha256": "81b81b98ca5ff68f91eaa003d5be169088b0957a297c47795a7ab99fd42936b7",
+      "afterSha256": "81b81b98ca5ff68f91eaa003d5be169088b0957a297c47795a7ab99fd42936b7"
+    },
+    {
+      "path": "docs\\canonical-redox-validation.json",
+      "sha256": "2bfa494a3a740927c736231ea7215d05aa55d72caa5ad99910d37c9296717451",
+      "afterSha256": "2bfa494a3a740927c736231ea7215d05aa55d72caa5ad99910d37c9296717451"
+    },
+    {
+      "path": "docs\\corrective-fraction-beaker-evidence.json",
+      "sha256": "c73c71051546edb9ef1b97eacfe9c6ee63fbab2fc2eb430902e85604d7ff32c6",
+      "afterSha256": "c73c71051546edb9ef1b97eacfe9c6ee63fbab2fc2eb430902e85604d7ff32c6"
+    },
+    {
+      "path": "docs\\corrective-phase-report.md",
+      "sha256": "db89d1d2215b2a831b2d80f6901107b089da0c066fe722b23fe4bd0643cd3496",
+      "afterSha256": "db89d1d2215b2a831b2d80f6901107b089da0c066fe722b23fe4bd0643cd3496"
+    },
+    {
+      "path": "docs\\fast-diagram-evidence.json",
+      "sha256": "ad5fde084b0679bc49d7d0f4be7cff531550f40dfc3d974c56d115047da5f1a7",
+      "afterSha256": "ad5fde084b0679bc49d7d0f4be7cff531550f40dfc3d974c56d115047da5f1a7"
+    },
+    {
+      "path": "docs\\fast-diagram-report.md",
+      "sha256": "22ebc9cd46056d5ff6138aa06eb645afcde11f082192c3b4697db6d65497c31c",
+      "afterSha256": "22ebc9cd46056d5ff6138aa06eb645afcde11f082192c3b4697db6d65497c31c"
+    },
+    {
+      "path": "docs\\generic-beaker-browser-failure.png",
+      "sha256": "ddbd8701bb3da5e9f5f6da593aecd9674947a401c45d3f15c8d067729c34e164",
+      "afterSha256": "ddbd8701bb3da5e9f5f6da593aecd9674947a401c45d3f15c8d067729c34e164"
+    },
+    {
+      "path": "docs\\generic-beaker-browser-initial.txt",
+      "sha256": "c445f72ae682ae8ce98f8c47d23791e3dc0132acbf1c50b0528a25034b4f81a4",
+      "afterSha256": "c445f72ae682ae8ce98f8c47d23791e3dc0132acbf1c50b0528a25034b4f81a4"
+    },
+    {
+      "path": "docs\\generic-beaker-browser-point.json",
+      "sha256": "99b7dd08d54a901d1b44d2d312b2031719befe80f01af350140e160d939a0bc9",
+      "afterSha256": "99b7dd08d54a901d1b44d2d312b2031719befe80f01af350140e160d939a0bc9"
+    },
+    {
+      "path": "docs\\generic-beaker-browser-results.json",
+      "sha256": "baaf856bd15d897cf54793e25d1fcf64697de4c592828a31bc9fc79d1e51d35c",
+      "afterSha256": "baaf856bd15d897cf54793e25d1fcf64697de4c592828a31bc9fc79d1e51d35c"
+    },
+    {
+      "path": "docs\\generic-beaker-browser.txt",
+      "sha256": "76fd3b071547c800150d09706f26581851b9d2f47c61c92870a28cc51b78b519",
+      "afterSha256": "76fd3b071547c800150d09706f26581851b9d2f47c61c92870a28cc51b78b519"
+    },
+    {
+      "path": "docs\\generic-beaker-build.txt",
+      "sha256": "35887ddf4df837a3533a740473190693c25568a5d485efb6b23e690321a05cd7",
+      "afterSha256": "35887ddf4df837a3533a740473190693c25568a5d485efb6b23e690321a05cd7"
+    },
+    {
+      "path": "docs\\generic-beaker-ca-desktop.png",
+      "sha256": "741d187e39e9dca12a7adb277c9bdb6a9154ef9d713c5c29f971df39beea1125",
+      "afterSha256": "741d187e39e9dca12a7adb277c9bdb6a9154ef9d713c5c29f971df39beea1125"
+    },
+    {
+      "path": "docs\\generic-beaker-focused.txt",
+      "sha256": "d32b93e8a10d581fc650c7a1c3f605a5b7dab11033f5d8a97ea2c521189276ec",
+      "afterSha256": "d32b93e8a10d581fc650c7a1c3f605a5b7dab11033f5d8a97ea2c521189276ec"
+    },
+    {
+      "path": "docs\\generic-beaker-initial.png",
+      "sha256": "5a6c0e7a29414ca0b875ce64977da3edfed9951d1e2e680463a00698f3751835",
+      "afterSha256": "5a6c0e7a29414ca0b875ce64977da3edfed9951d1e2e680463a00698f3751835"
+    },
+    {
+      "path": "docs\\generic-beaker-lint.txt",
+      "sha256": "ccfed2e35c115009b462a04cc39d68f307a29db01030a5072722e4500def6729",
+      "afterSha256": "ccfed2e35c115009b462a04cc39d68f307a29db01030a5072722e4500def6729"
+    },
+    {
+      "path": "docs\\generic-beaker-mixed.png",
+      "sha256": "a1e7514d5649f70a7862d928b055244c476f87119024c943f41ec1a40b545055",
+      "afterSha256": "a1e7514d5649f70a7862d928b055244c476f87119024c943f41ec1a40b545055"
+    },
+    {
+      "path": "docs\\generic-beaker-mobile.png",
+      "sha256": "4b6f4281dc9acaae361fbf17c7c3e258a37bcd81b8c7598d6e89ef9df0d7c33f",
+      "afterSha256": "4b6f4281dc9acaae361fbf17c7c3e258a37bcd81b8c7598d6e89ef9df0d7c33f"
+    },
+    {
+      "path": "docs\\generic-beaker-production-audit.txt",
+      "sha256": "108acb271f2fb16682e88112422534784154939d21caea624ca44a239510f14f",
+      "afterSha256": "108acb271f2fb16682e88112422534784154939d21caea624ca44a239510f14f"
+    },
+    {
+      "path": "docs\\generic-beaker-report.md",
+      "sha256": "391e3fd80f67adf12f9d2521f2b1be9f2e8f48d7b2484895c50889150bcc2cf6",
+      "afterSha256": "391e3fd80f67adf12f9d2521f2b1be9f2e8f48d7b2484895c50889150bcc2cf6"
+    },
+    {
+      "path": "docs\\generic-beaker-tests.txt",
+      "sha256": "9a7ad289baf877a74d8b98a946d224bf9440e2f8ec7b3c73089d2e3e3918cba9",
+      "afterSha256": "9a7ad289baf877a74d8b98a946d224bf9440e2f8ec7b3c73089d2e3e3918cba9"
+    },
+    {
+      "path": "docs\\generic-setup-desktop.png",
+      "sha256": "6e73cb17960b32375d32b22a0b3587bb167f0098a53d68f3818ced4d6b832975",
+      "afterSha256": "6e73cb17960b32375d32b22a0b3587bb167f0098a53d68f3818ced4d6b832975"
+    },
+    {
+      "path": "docs\\generic-setup-mobile.png",
+      "sha256": "f97d348b1ba2f71aba21aa60db16ea8651b13a61b074e79bc33fe75e7133f701",
+      "afterSha256": "f97d348b1ba2f71aba21aa60db16ea8651b13a61b074e79bc33fe75e7133f701"
+    },
+    {
+      "path": "docs\\graph-first-workspace-report.md",
+      "sha256": "e70be2f19a2326a424c59d1e37dfbccf865a53a011dd9862f0ab6150d442a617",
+      "afterSha256": "e70be2f19a2326a424c59d1e37dfbccf865a53a011dd9862f0ab6150d442a617"
+    },
+    {
+      "path": "docs\\importers.md",
+      "sha256": "91aee02b64e2277ad92a92bc173b4a8b67d864be9378458ee3f7c634f918bfd7",
+      "afterSha256": "91aee02b64e2277ad92a92bc173b4a8b67d864be9378458ee3f7c634f918bfd7"
+    },
+    {
+      "path": "docs\\independent-solubility-report.md",
+      "sha256": "17913d5142f938aaecb9b6f71bb85a9cfa3d7fcc1de929d3e5f6868789ca1e0a",
+      "afterSha256": "17913d5142f938aaecb9b6f71bb85a9cfa3d7fcc1de929d3e5f6868789ca1e0a"
+    },
+    {
+      "path": "docs\\independent-surface-carbonate.json.gz",
+      "sha256": "49135c954a34e50889bd8cf96bf63c20325e96d6780b827eb75b2bb7653dedbd",
+      "afterSha256": "49135c954a34e50889bd8cf96bf63c20325e96d6780b827eb75b2bb7653dedbd"
+    },
+    {
+      "path": "docs\\independent-surface-mixed.json.gz",
+      "sha256": "851a1f333daefe53ed73ea50c94640605086debf1ab7b8826337d3c927a1b0b4",
+      "afterSha256": "851a1f333daefe53ed73ea50c94640605086debf1ab7b8826337d3c927a1b0b4"
+    },
+    {
+      "path": "docs\\independent-surface-mixed.png",
+      "sha256": "01defa6b9b0dbc7136a220d3281e5c21e005b303df2af42b6ae1e9d2a30ddc96",
+      "afterSha256": "01defa6b9b0dbc7136a220d3281e5c21e005b303df2af42b6ae1e9d2a30ddc96"
+    },
+    {
+      "path": "docs\\independent-surfaces-build.txt",
+      "sha256": "7f2388ff5de7ab37d844080e57482eae4072ad16b7c4398979cea9e5c5ba3b9a",
+      "afterSha256": "7f2388ff5de7ab37d844080e57482eae4072ad16b7c4398979cea9e5c5ba3b9a"
+    },
+    {
+      "path": "docs\\independent-surfaces-lint.txt",
+      "sha256": "ccfed2e35c115009b462a04cc39d68f307a29db01030a5072722e4500def6729",
+      "afterSha256": "ccfed2e35c115009b462a04cc39d68f307a29db01030a5072722e4500def6729"
+    },
+    {
+      "path": "docs\\independent-surfaces-production-audit.txt",
+      "sha256": "2cc4dc712f4a89609083aa12a28f00a75e2c099cc9f720525ef157acc1556e1f",
+      "afterSha256": "2cc4dc712f4a89609083aa12a28f00a75e2c099cc9f720525ef157acc1556e1f"
+    },
+    {
+      "path": "docs\\independent-surfaces-report.md",
+      "sha256": "1f5232c691b21764adc6ed2a46c5f956791cb58809d3439ca78dec84c053fbe7",
+      "afterSha256": "1f5232c691b21764adc6ed2a46c5f956791cb58809d3439ca78dec84c053fbe7"
+    },
+    {
+      "path": "docs\\independent-surfaces-tests.txt",
+      "sha256": "de24703c5a492d0c4b873770f147ab46f47809b9d12eda204ae864a04b123a62",
+      "afterSha256": "de24703c5a492d0c4b873770f147ab46f47809b9d12eda204ae864a04b123a62"
+    },
+    {
+      "path": "docs\\metal-ligand-build.txt",
+      "sha256": "8df6bd77daa679419950cee03e203f45cfc4fa228d9e77869effeec969eed241",
+      "afterSha256": "8df6bd77daa679419950cee03e203f45cfc4fa228d9e77869effeec969eed241"
+    },
+    {
+      "path": "docs\\metal-ligand-expanded.png",
+      "sha256": "877f9023c038a7d0c9675632fe19063607c7ccb6f7c4b5e2fdb8b494e5421789",
+      "afterSha256": "877f9023c038a7d0c9675632fe19063607c7ccb6f7c4b5e2fdb8b494e5421789"
+    },
+    {
+      "path": "docs\\metal-ligand-lint.txt",
+      "sha256": "ccfed2e35c115009b462a04cc39d68f307a29db01030a5072722e4500def6729",
+      "afterSha256": "ccfed2e35c115009b462a04cc39d68f307a29db01030a5072722e4500def6729"
+    },
+    {
+      "path": "docs\\metal-ligand-production-audit.txt",
+      "sha256": "b56f5c8af2a3f8b11e691935c8b0b7c3d30e323a114692bcd7df553aa60ae352",
+      "afterSha256": "b56f5c8af2a3f8b11e691935c8b0b7c3d30e323a114692bcd7df553aa60ae352"
+    },
+    {
+      "path": "docs\\metal-ligand-report.md",
+      "sha256": "7679b7d304c1f7e819eb425d60fdb4a330e8ac52ccfc14b7aa75c98cd4c14f55",
+      "afterSha256": "7679b7d304c1f7e819eb425d60fdb4a330e8ac52ccfc14b7aa75c98cd4c14f55"
+    },
+    {
+      "path": "docs\\metal-ligand-review-summary.json",
+      "sha256": "38c041fd85440b68d9f457dc8eff3fd3023368a2e09ce615d93c484ed147db31",
+      "afterSha256": "38c041fd85440b68d9f457dc8eff3fd3023368a2e09ce615d93c484ed147db31"
+    },
+    {
+      "path": "docs\\metal-ligand-rotated.png",
+      "sha256": "ef1cb72f8000678c0bed8c2053210756ec8f37152520412e2e900080ccd2b6a8",
+      "afterSha256": "ef1cb72f8000678c0bed8c2053210756ec8f37152520412e2e900080ccd2b6a8"
+    },
+    {
+      "path": "docs\\metal-ligand-screen-initial.json",
+      "sha256": "93de1283106724cfaaf7045d483af58019e3968ed56741a811f7ca1881830f53",
+      "afterSha256": "93de1283106724cfaaf7045d483af58019e3968ed56741a811f7ca1881830f53"
+    },
+    {
+      "path": "docs\\metal-ligand-screen.json",
+      "sha256": "538216b1492604f8a61db5468e09ef1f15d84360fe7d3016b49f4e9198a1c0b8",
+      "afterSha256": "538216b1492604f8a61db5468e09ef1f15d84360fe7d3016b49f4e9198a1c0b8"
+    },
+    {
+      "path": "docs\\metal-ligand-tests.txt",
+      "sha256": "4199b5e8f7682ffed8e515a19366c7095ac99f7d380fc99fac98087e3dad26dc",
+      "afterSha256": "4199b5e8f7682ffed8e515a19366c7095ac99f7d380fc99fac98087e3dad26dc"
+    },
+    {
+      "path": "docs\\metal-ligand-validation.json.gz",
+      "sha256": "2992a85505d1bc30f76f2d7acd579958f25f69d9864f915e24a3a2a0cc7f11ef",
+      "afterSha256": "2992a85505d1bc30f76f2d7acd579958f25f69d9864f915e24a3a2a0cc7f11ef"
+    },
+    {
+      "path": "docs\\mixed-carbonate-audit.json",
+      "sha256": "8ebb91b3109202466b79610b53d1303071a6b25917e7b578877e1525f4aa2760",
+      "afterSha256": "8ebb91b3109202466b79610b53d1303071a6b25917e7b578877e1525f4aa2760"
+    },
+    {
+      "path": "docs\\mixed-carbonate-report.md",
+      "sha256": "66db240be741340358d8b710ff1175c8027d8770a2e7184fa0e1c3e903927ed0",
+      "afterSha256": "66db240be741340358d8b710ff1175c8027d8770a2e7184fa0e1c3e903927ed0"
+    },
+    {
+      "path": "docs\\mixed-solubility-integration-report.md",
+      "sha256": "12e577799b5a3661417ef190545b6417ae6e2cb0abfba2e308557d2b4b377136",
+      "afterSha256": "12e577799b5a3661417ef190545b6417ae6e2cb0abfba2e308557d2b4b377136"
+    },
+    {
+      "path": "docs\\mn-boundary-report.md",
+      "sha256": "3d326b0af16b8fcc833d6b04396f9cacae8f77e5b5e670dd8eb3829cbd685bf6",
+      "afterSha256": "3d326b0af16b8fcc833d6b04396f9cacae8f77e5b5e670dd8eb3829cbd685bf6"
+    },
+    {
+      "path": "docs\\mn-boundary-validation.json",
+      "sha256": "a18810aec7d2e5ea926e10721ffa1b544a9068ae932d3643b41bcd126c5ed1e8",
+      "afterSha256": "a18810aec7d2e5ea926e10721ffa1b544a9068ae932d3643b41bcd126c5ed1e8"
+    },
+    {
+      "path": "docs\\mn-classification-validation.json",
+      "sha256": "949ab77de7dc892cc6aefd3809999ac054d00141b0f93f1713211525e3b22fc5",
+      "afterSha256": "949ab77de7dc892cc6aefd3809999ac054d00141b0f93f1713211525e3b22fc5"
+    },
+    {
+      "path": "docs\\mn-diagnostic-browser.png",
+      "sha256": "1ab125f2506e6a83970c17293affd8eaf368615348c3a799fcfdf26679657292",
+      "afterSha256": "1ab125f2506e6a83970c17293affd8eaf368615348c3a799fcfdf26679657292"
+    },
+    {
+      "path": "docs\\mn-diagnostic-inventory.json",
+      "sha256": "8ebdc27472db7a563665ced498a27cfe50b1b71d118966083da82bc6069966ef",
+      "afterSha256": "8ebdc27472db7a563665ced498a27cfe50b1b71d118966083da82bc6069966ef"
+    },
+    {
+      "path": "docs\\mn-diagnostic-report.md",
+      "sha256": "664df71b5b28ead134d83a24b77715c5113aff101fe6cfe32b696aaba88d669a",
+      "afterSha256": "664df71b5b28ead134d83a24b77715c5113aff101fe6cfe32b696aaba88d669a"
+    },
+    {
+      "path": "docs\\mn-diagnostic.svg",
+      "sha256": "5adf8bbc9cae6f9d3cad94ccca32b66eab2657e425172c1b5ef090ef2dddb325",
+      "afterSha256": "5adf8bbc9cae6f9d3cad94ccca32b66eab2657e425172c1b5ef090ef2dddb325"
+    },
+    {
+      "path": "docs\\mn-grid-report.md",
+      "sha256": "506c74435c598d7cf47175dda4931bb0e283aa318ed27c4b69daf2a233fdbd90",
+      "afterSha256": "506c74435c598d7cf47175dda4931bb0e283aa318ed27c4b69daf2a233fdbd90"
+    },
+    {
+      "path": "docs\\mn-grid-validation.json",
+      "sha256": "69de084db431b709f2844846fdb8e2b7e0f4bde6e3736671bad8c332844ea511",
+      "afterSha256": "69de084db431b709f2844846fdb8e2b7e0f4bde6e3736671bad8c332844ea511"
+    },
+    {
+      "path": "docs\\mn-refined-regions-browser.png",
+      "sha256": "4d5f3cd5458719c482f3efc9b1625f6e8baf3880308409ef94fb15dd29b150d2",
+      "afterSha256": "4d5f3cd5458719c482f3efc9b1625f6e8baf3880308409ef94fb15dd29b150d2"
+    },
+    {
+      "path": "docs\\mn-refined-regions.svg",
+      "sha256": "e26d82a24feeed18a28eb8a77f27222558743cecea092cf647d3a96612a31981",
+      "afterSha256": "e26d82a24feeed18a28eb8a77f27222558743cecea092cf647d3a96612a31981"
+    },
+    {
+      "path": "docs\\mn-region-enclosures.json",
+      "sha256": "b3ecfb756f60b46f3388f680b972de7e8b050f6e84f19a067a1d8d35de711b12",
+      "afterSha256": "b3ecfb756f60b46f3388f680b972de7e8b050f6e84f19a067a1d8d35de711b12"
+    },
+    {
+      "path": "docs\\mn-retry-report.md",
+      "sha256": "43aa5c98ce788bae9db9378ff6382ab7709abf46d92b797640f814f9f6256e47",
+      "afterSha256": "43aa5c98ce788bae9db9378ff6382ab7709abf46d92b797640f814f9f6256e47"
+    },
+    {
+      "path": "docs\\mn-retry-validation.json",
+      "sha256": "54e9077a3cb44245bd867bcc2ecddd693e5588aa47afa4a41e2e3e21e4c72b78",
+      "afterSha256": "54e9077a3cb44245bd867bcc2ecddd693e5588aa47afa4a41e2e3e21e4c72b78"
+    },
+    {
+      "path": "docs\\mn-topology-browser.png",
+      "sha256": "6fa25129b65f935132cdc02543911215354c476131d18e2040400ef38233e3bc",
+      "afterSha256": "6fa25129b65f935132cdc02543911215354c476131d18e2040400ef38233e3bc"
+    },
+    {
+      "path": "docs\\mn-topology-report.md",
+      "sha256": "faa8b282c9f903ca1bcf65a74b694ce2253160f36aff609b9b7e0983ce570ad7",
+      "afterSha256": "faa8b282c9f903ca1bcf65a74b694ce2253160f36aff609b9b7e0983ce570ad7"
+    },
+    {
+      "path": "docs\\mn-topology-validation.json.gz",
+      "sha256": "323391a8c197994bfa6b77786abec47e57ff453a823c964731d894b0cc4ec788",
+      "afterSha256": "323391a8c197994bfa6b77786abec47e57ff453a823c964731d894b0cc4ec788"
+    },
+    {
+      "path": "docs\\mn-topology-view.json",
+      "sha256": "0fafe0465b534426d339d84db25f49dbd06ae01b29438dab8f0103e2dc4547ca",
+      "afterSha256": "0fafe0465b534426d339d84db25f49dbd06ae01b29438dab8f0103e2dc4547ca"
+    },
+    {
+      "path": "docs\\mn-topology.svg",
+      "sha256": "10cef014a3c03e6f4a7e9386ee892a525fff324fc125c7f7a813e3f1697d817a",
+      "afterSha256": "10cef014a3c03e6f4a7e9386ee892a525fff324fc125c7f7a813e3f1697d817a"
+    },
+    {
+      "path": "docs\\mn-validation-map.png",
+      "sha256": "8e5598d6d007f047beda0b3186324d26c3757c46a858f0d4e22628b1c4cad01c",
+      "afterSha256": "8e5598d6d007f047beda0b3186324d26c3757c46a858f0d4e22628b1c4cad01c"
+    },
+    {
+      "path": "docs\\mn-validation-map.svg",
+      "sha256": "dac3d25da5ee29c5575cfa1a74019de9e7217a30b267ec71618ef97ec5c11eec",
+      "afterSha256": "dac3d25da5ee29c5575cfa1a74019de9e7217a30b267ec71618ef97ec5c11eec"
+    },
+    {
+      "path": "docs\\multisolid-design.md",
+      "sha256": "3b7372703001f6af4518d4b55afbb9d1e58b275dce7c445ff6fea3bc9c6ad8dc",
+      "afterSha256": "3b7372703001f6af4518d4b55afbb9d1e58b275dce7c445ff6fea3bc9c6ad8dc"
+    },
+    {
+      "path": "docs\\multisolid-report.md",
+      "sha256": "abc4f26f3f6f5309db9c4c882fa1a3af779739622a916a3ae9e53b61281dc70a",
+      "afterSha256": "abc4f26f3f6f5309db9c4c882fa1a3af779739622a916a3ae9e53b61281dc70a"
+    },
+    {
+      "path": "docs\\multisolid-validation.json",
+      "sha256": "e901ace5a7c61b2b11f863254b4ecf92559e27734243afcba0b49f284690caf2",
+      "afterSha256": "e901ace5a7c61b2b11f863254b4ecf92559e27734243afcba0b49f284690caf2"
+    },
+    {
+      "path": "docs\\oxidation-state-fe-map.png",
+      "sha256": "9b00399a6e27ca585db7ebcb4363b172b657e13b655caf108b3ce91a1d3fa495",
+      "afterSha256": "9b00399a6e27ca585db7ebcb4363b172b657e13b655caf108b3ce91a1d3fa495"
+    },
+    {
+      "path": "docs\\oxidation-state-fe-map.svg",
+      "sha256": "05c9a2cba2616b92b148edb73386ca705d714a5d535f6a43b3e12a7a7274804a",
+      "afterSha256": "05c9a2cba2616b92b148edb73386ca705d714a5d535f6a43b3e12a7a7274804a"
+    },
+    {
+      "path": "docs\\oxidation-state-fe-prototype.html",
+      "sha256": "bef10ac9da7243475ea2756e92060367122508593cfe8efe05c2bd453a5025d0",
+      "afterSha256": "bef10ac9da7243475ea2756e92060367122508593cfe8efe05c2bd453a5025d0"
+    },
+    {
+      "path": "docs\\oxidation-state-fe-validation.json.gz",
+      "sha256": "5d21b07f65f9988179d81e1301743a0406a9d443581bf8c02a2dbd41000c86c0",
+      "afterSha256": "5d21b07f65f9988179d81e1301743a0406a9d443581bf8c02a2dbd41000c86c0"
+    },
+    {
+      "path": "docs\\oxidation-state-fe-view.json",
+      "sha256": "d13f90f5645fa4fb76b8ec767b1640a9aa0e6f86792fb941eeaf656e8d5caab6",
+      "afterSha256": "d13f90f5645fa4fb76b8ec767b1640a9aa0e6f86792fb941eeaf656e8d5caab6"
+    },
+    {
+      "path": "docs\\oxidation-state-prototype-report.md",
+      "sha256": "fae9189e6ea104d8a737e25e58cefc9e8b52a1987109e681120736266da115e6",
+      "afterSha256": "fae9189e6ea104d8a737e25e58cefc9e8b52a1987109e681120736266da115e6"
+    },
+    {
+      "path": "docs\\oxidation-validation-summary.json",
+      "sha256": "bbf3453989d5ce76123b7848be55786961e7ef835e0ccb9bb6a59f421724e1f7",
+      "afterSha256": "bbf3453989d5ce76123b7848be55786961e7ef835e0ccb9bb6a59f421724e1f7"
+    },
+    {
+      "path": "docs\\pH-solubility-report.md",
+      "sha256": "acceb8c5d4e031eb2c2e2b694102923a2a0f940e95df42849addcbd7cbcb387a",
+      "afterSha256": "acceb8c5d4e031eb2c2e2b694102923a2a0f940e95df42849addcbd7cbcb387a"
+    },
+    {
+      "path": "docs\\phase-2-report.md",
+      "sha256": "fb8bce087fcd6a63c26ffbb79f8a2a73754ef69efa4add32e8138949dec39e9b",
+      "afterSha256": "fb8bce087fcd6a63c26ffbb79f8a2a73754ef69efa4add32e8138949dec39e9b"
+    },
+    {
+      "path": "docs\\phase10-performance.json",
+      "sha256": "f6b0efbac609765c46bd7f09550f835a4e3060009a93a9c21e39d8d3c716617c",
+      "afterSha256": "f6b0efbac609765c46bd7f09550f835a4e3060009a93a9c21e39d8d3c716617c"
+    },
+    {
+      "path": "docs\\phase10-report.md",
+      "sha256": "5a2e18664bf78d6b3d112fd925314882db7a2f9966df84b3625e71feea4bed7e",
+      "afterSha256": "5a2e18664bf78d6b3d112fd925314882db7a2f9966df84b3625e71feea4bed7e"
+    },
+    {
+      "path": "docs\\phase11-1-performance.json",
+      "sha256": "0898352de5e8187630fba8a7e32cef1ef86246e6a8f0ea2a0df7b10d5585e86a",
+      "afterSha256": "0898352de5e8187630fba8a7e32cef1ef86246e6a8f0ea2a0df7b10d5585e86a"
+    },
+    {
+      "path": "docs\\phase11-1-report.md",
+      "sha256": "1e04c5ad8bd792f97ba23dcd6d3ca185d4b2a91e5b49b5d4bbe9d587177c7d2c",
+      "afterSha256": "1e04c5ad8bd792f97ba23dcd6d3ca185d4b2a91e5b49b5d4bbe9d587177c7d2c"
+    },
+    {
+      "path": "docs\\phase11-performance.json",
+      "sha256": "35393bc88fbeedc0c963c5117c4c2454df45bd11cf7d3842804c777e3fd4da21",
+      "afterSha256": "35393bc88fbeedc0c963c5117c4c2454df45bd11cf7d3842804c777e3fd4da21"
+    },
+    {
+      "path": "docs\\phase11-report.md",
+      "sha256": "e65eb5d3bcd89391041596e8d9dbf42223a528cb51e7cea2076291ef7d3d8fdb",
+      "afterSha256": "e65eb5d3bcd89391041596e8d9dbf42223a528cb51e7cea2076291ef7d3d8fdb"
+    },
+    {
+      "path": "docs\\phase3-report.md",
+      "sha256": "9e478b32cdd733af32ed40c249cf3b3ac884c6b17cfb38ed2fbe38511f71d254",
+      "afterSha256": "9e478b32cdd733af32ed40c249cf3b3ac884c6b17cfb38ed2fbe38511f71d254"
+    },
+    {
+      "path": "docs\\phase4-report.md",
+      "sha256": "22c30e268a3a3ae8b217ed22a46b12467453fc53d2159ca07f83d4c44ad3983c",
+      "afterSha256": "22c30e268a3a3ae8b217ed22a46b12467453fc53d2159ca07f83d4c44ad3983c"
+    },
+    {
+      "path": "docs\\phase5-benchmarks.json",
+      "sha256": "5723cf70af3223929777b7193209517f0beac853cbb845493060a7493263b6e6",
+      "afterSha256": "5723cf70af3223929777b7193209517f0beac853cbb845493060a7493263b6e6"
+    },
+    {
+      "path": "docs\\phase5-benchmarks.md",
+      "sha256": "46c09271f73418f9cb6ec7a1012304aa92efa5d2d44561805c20f0754d1e5800",
+      "afterSha256": "46c09271f73418f9cb6ec7a1012304aa92efa5d2d44561805c20f0754d1e5800"
+    },
+    {
+      "path": "docs\\phase5-report.md",
+      "sha256": "aae3ea94dea1c46abccdec621aeab4d1115628cb67e597839be5061ec5652808",
+      "afterSha256": "aae3ea94dea1c46abccdec621aeab4d1115628cb67e597839be5061ec5652808"
+    },
+    {
+      "path": "docs\\phase6-performance.json",
+      "sha256": "1895aae3db6f5e560876ba3a8dda2be80cfe95d117bd60959628531c39b14f3c",
+      "afterSha256": "1895aae3db6f5e560876ba3a8dda2be80cfe95d117bd60959628531c39b14f3c"
+    },
+    {
+      "path": "docs\\phase6-report.md",
+      "sha256": "b57c070bc5a21f1c263907e78467a2baba4521d14c9d7a2c4d5f9547d672110a",
+      "afterSha256": "b57c070bc5a21f1c263907e78467a2baba4521d14c9d7a2c4d5f9547d672110a"
+    },
+    {
+      "path": "docs\\phase7-performance.json",
+      "sha256": "3bfb592e64819a5f47b3a71ae64f33ad988299f27d2470354765024cb202624f",
+      "afterSha256": "3bfb592e64819a5f47b3a71ae64f33ad988299f27d2470354765024cb202624f"
+    },
+    {
+      "path": "docs\\phase7-report.md",
+      "sha256": "ae8161f13fb5ab2a85354b50a2ccb2090986685ffd21606188379c6442437d50",
+      "afterSha256": "ae8161f13fb5ab2a85354b50a2ccb2090986685ffd21606188379c6442437d50"
+    },
+    {
+      "path": "docs\\phase8-1-report.md",
+      "sha256": "8dd91274ce4c53adfec48bce1f2a23eb0e6a93a26127802cb2e377f024cda88e",
+      "afterSha256": "8dd91274ce4c53adfec48bce1f2a23eb0e6a93a26127802cb2e377f024cda88e"
+    },
+    {
+      "path": "docs\\phase8-2-performance.json",
+      "sha256": "56c7f7e3f299db5d8bd917ca981e342e0400793c872a2f72e8f3d3cfa2ff473f",
+      "afterSha256": "56c7f7e3f299db5d8bd917ca981e342e0400793c872a2f72e8f3d3cfa2ff473f"
+    },
+    {
+      "path": "docs\\phase8-2-report.md",
+      "sha256": "15c345b2952ddafd2ceed1c39248aff521b1c0d77d63484e7ebe6f2a970e8f72",
+      "afterSha256": "15c345b2952ddafd2ceed1c39248aff521b1c0d77d63484e7ebe6f2a970e8f72"
+    },
+    {
+      "path": "docs\\phase8-3-report.md",
+      "sha256": "aeace424f89642ba7c1c0abbc5e78855f4cd462ba417cd8846c56b32afd1aeec",
+      "afterSha256": "aeace424f89642ba7c1c0abbc5e78855f4cd462ba417cd8846c56b32afd1aeec"
+    },
+    {
+      "path": "docs\\phase8-performance.json",
+      "sha256": "6a315bbcc3cd0b0a5d35726e72bf4abd082d2d3d5c0f3cb9fc409c4de71679c4",
+      "afterSha256": "6a315bbcc3cd0b0a5d35726e72bf4abd082d2d3d5c0f3cb9fc409c4de71679c4"
+    },
+    {
+      "path": "docs\\phase8-report.md",
+      "sha256": "ea4a82f27264efc9a453cc15d81da473253ce36def48461cfa50cea827c635ad",
+      "afterSha256": "ea4a82f27264efc9a453cc15d81da473253ce36def48461cfa50cea827c635ad"
+    },
+    {
+      "path": "docs\\phase9-performance.json",
+      "sha256": "83765ec306ae482f3a2b96af368378afcaa8de6003ec14dcaddce86846677598",
+      "afterSha256": "83765ec306ae482f3a2b96af368378afcaa8de6003ec14dcaddce86846677598"
+    },
+    {
+      "path": "docs\\phase9-report.md",
+      "sha256": "aeede7535507e048d3de6a961c96f6f6e16d6b314be81366b64cfc23146f8017",
+      "afterSha256": "aeede7535507e048d3de6a961c96f6f6e16d6b314be81366b64cfc23146f8017"
+    },
+    {
+      "path": "docs\\pourbaix-audit-evidence.json",
+      "sha256": "eba427313a8b25f0a4c74b78eb3a721300a1ca7b18e369fb94f31658eac92694",
+      "afterSha256": "eba427313a8b25f0a4c74b78eb3a721300a1ca7b18e369fb94f31658eac92694"
+    },
+    {
+      "path": "docs\\pourbaix-redox-gap-report.md",
+      "sha256": "7beae9de5e0f7bcccfc3f4ef6a6245cc197875305ed50475429589e0af44feca",
+      "afterSha256": "7beae9de5e0f7bcccfc3f4ef6a6245cc197875305ed50475429589e0af44feca"
+    },
+    {
+      "path": "docs\\public-release-report.md",
+      "sha256": "c749bf9edf4a56ea778a0f1ee93d5934018b08eab2324beaec73a691847282aa",
+      "afterSha256": "c749bf9edf4a56ea778a0f1ee93d5934018b08eab2324beaec73a691847282aa"
+    },
+    {
+      "path": "docs\\redox-foundation-design.md",
+      "sha256": "f04f723390f78ac0205a0489cd1315427ee003736fdcdb44c160a4a2b1e9285d",
+      "afterSha256": "f04f723390f78ac0205a0489cd1315427ee003736fdcdb44c160a4a2b1e9285d"
+    },
+    {
+      "path": "docs\\redox-foundation-report.md",
+      "sha256": "653f40706cfd6d11e0c29bb58f697dc03373a7fdc1b2b35c0ef1cc36234ec3b4",
+      "afterSha256": "653f40706cfd6d11e0c29bb58f697dc03373a7fdc1b2b35c0ef1cc36234ec3b4"
+    },
+    {
+      "path": "docs\\redox-foundation-validation.json",
+      "sha256": "fdec6ca8f6fca4eb077e739bc23d80f84c9093b3c329150aecbf0e853e37b4db",
+      "afterSha256": "fdec6ca8f6fca4eb077e739bc23d80f84c9093b3c329150aecbf0e853e37b4db"
+    },
+    {
+      "path": "docs\\response-audit-carbonate.json.gz",
+      "sha256": "fdb68b223a391d790776846d393385307eca469c8d1bd2222fea778fe4ff4bab",
+      "afterSha256": "fdb68b223a391d790776846d393385307eca469c8d1bd2222fea778fe4ff4bab"
+    },
+    {
+      "path": "docs\\response-audit-log.txt",
+      "sha256": "5313e963b80b00a672066023cb8958d31cc25415f6cc01bbea7b6f7b22961038",
+      "afterSha256": "5313e963b80b00a672066023cb8958d31cc25415f6cc01bbea7b6f7b22961038"
+    },
+    {
+      "path": "docs\\response-audit-mixed.json.gz",
+      "sha256": "69d990a3de4250c2626bcbbfac12be89c02e092d78803c665184dd299399e1e6",
+      "afterSha256": "69d990a3de4250c2626bcbbfac12be89c02e092d78803c665184dd299399e1e6"
+    },
+    {
+      "path": "docs\\response-build.txt",
+      "sha256": "7c86ee3f367e63d749d5ccc7a47b37cb838b4c615087a7195c15c46eb0097a68",
+      "afterSha256": "7c86ee3f367e63d749d5ccc7a47b37cb838b4c615087a7195c15c46eb0097a68"
+    },
+    {
+      "path": "docs\\response-lint.txt",
+      "sha256": "ccfed2e35c115009b462a04cc39d68f307a29db01030a5072722e4500def6729",
+      "afterSha256": "ccfed2e35c115009b462a04cc39d68f307a29db01030a5072722e4500def6729"
+    },
+    {
+      "path": "docs\\response-matrix-carbonate.json",
+      "sha256": "abb1b1964440e6e4671b6b865a80f215444205c6dfac244eadfb468583531921",
+      "afterSha256": "abb1b1964440e6e4671b6b865a80f215444205c6dfac244eadfb468583531921"
+    },
+    {
+      "path": "docs\\response-matrix-mixed.json",
+      "sha256": "ece59ad17c670ffd848d3015dc31b048c0fa04a3e9aef251ff69fb26829439ad",
+      "afterSha256": "ece59ad17c670ffd848d3015dc31b048c0fa04a3e9aef251ff69fb26829439ad"
+    },
+    {
+      "path": "docs\\response-production-audit.txt",
+      "sha256": "9db7e5e8a90f59fa158d530d5776b0e98fb5b8eb00b509c655bd8f2a79122dc8",
+      "afterSha256": "9db7e5e8a90f59fa158d530d5776b0e98fb5b8eb00b509c655bd8f2a79122dc8"
+    },
+    {
+      "path": "docs\\response-renderer-tests.txt",
+      "sha256": "b128032210ffdfbbbcc6fe42e28c5b9f5d8c5ddda75e1172aeb7122081b93d6f",
+      "afterSha256": "b128032210ffdfbbbcc6fe42e28c5b9f5d8c5ddda75e1172aeb7122081b93d6f"
+    },
+    {
+      "path": "docs\\response-surface-carbonate.png",
+      "sha256": "1391c9b3c765602bce30f08e95f5242972d1e97333a518782c95f752444f65a7",
+      "afterSha256": "1391c9b3c765602bce30f08e95f5242972d1e97333a518782c95f752444f65a7"
+    },
+    {
+      "path": "docs\\response-surface-mixed.png",
+      "sha256": "7b6ad41fbcbb121f19ba0c5cf55707c39e19ae24c467bc202d3a5dd9d5d82380",
+      "afterSha256": "7b6ad41fbcbb121f19ba0c5cf55707c39e19ae24c467bc202d3a5dd9d5d82380"
+    },
+    {
+      "path": "docs\\response-surface-report.md",
+      "sha256": "6a8e9d06ebe48351b9e798a56c4367b25556b85f9f1c798f9990424eaacc27e9",
+      "afterSha256": "6a8e9d06ebe48351b9e798a56c4367b25556b85f9f1c798f9990424eaacc27e9"
+    },
+    {
+      "path": "docs\\response-tests.txt",
+      "sha256": "4ff326771bda386816ba34b619efc899756269b4f5f42c0e181d85a5117327c4",
+      "afterSha256": "4ff326771bda386816ba34b619efc899756269b4f5f42c0e181d85a5117327c4"
+    },
+    {
+      "path": "docs\\result-beaker-1d.json",
+      "sha256": "670c68092ed48f7be5cf9ce785c014b118a4b61c9c0321f46a85bfdadf2b8ef3",
+      "afterSha256": "670c68092ed48f7be5cf9ce785c014b118a4b61c9c0321f46a85bfdadf2b8ef3"
+    },
+    {
+      "path": "docs\\result-beaker-3d.png",
+      "sha256": "0f1dc6e4acb317836e2a91ffec6167e850a4e3837b6303d5fdfde0a830a53fbd",
+      "afterSha256": "0f1dc6e4acb317836e2a91ffec6167e850a4e3837b6303d5fdfde0a830a53fbd"
+    },
+    {
+      "path": "docs\\result-beaker-audit.txt",
+      "sha256": "b538eecd6b3318996c26311ff644b70c85811013027561b1b178e36d055d811a",
+      "afterSha256": "b538eecd6b3318996c26311ff644b70c85811013027561b1b178e36d055d811a"
+    },
+    {
+      "path": "docs\\result-beaker-browser-failure.png",
+      "sha256": "e1a92faf6b284d0f64ab7e6d62a4de687ac4cc9cb7afe6347d35b8dd2b622656",
+      "afterSha256": "e1a92faf6b284d0f64ab7e6d62a4de687ac4cc9cb7afe6347d35b8dd2b622656"
+    },
+    {
+      "path": "docs\\result-beaker-browser-partial.json",
+      "sha256": "45eef218060845b06476b687244e7e0736c4a61879061de3a17278d5ba45c3d3",
+      "afterSha256": "45eef218060845b06476b687244e7e0736c4a61879061de3a17278d5ba45c3d3"
+    },
+    {
+      "path": "docs\\result-beaker-browser-results.json",
+      "sha256": "00f58af4a96622a767b0aa0c4c1e62d5d3fc57b96f256dd8900a3692b2d296c6",
+      "afterSha256": "00f58af4a96622a767b0aa0c4c1e62d5d3fc57b96f256dd8900a3692b2d296c6"
+    },
+    {
+      "path": "docs\\result-beaker-browser.txt",
+      "sha256": "f3e60303d5eb85ecc93f90a88875bed73abc4ef201c50ade072c2dbc38e3320f",
+      "afterSha256": "f3e60303d5eb85ecc93f90a88875bed73abc4ef201c50ade072c2dbc38e3320f"
+    },
+    {
+      "path": "docs\\result-beaker-build.txt",
+      "sha256": "14a6bcbac99041747baae090690e364ad8561185e3a32ca1897a8276fcaba2fe",
+      "afterSha256": "14a6bcbac99041747baae090690e364ad8561185e3a32ca1897a8276fcaba2fe"
+    },
+    {
+      "path": "docs\\result-beaker-focused.txt",
+      "sha256": "39f6abb1561435b75fa1e23a002d4cacb04f7d87d8304a754239482466a36f8e",
+      "afterSha256": "39f6abb1561435b75fa1e23a002d4cacb04f7d87d8304a754239482466a36f8e"
+    },
+    {
+      "path": "docs\\result-beaker-grid.json",
+      "sha256": "37f3908dbb39d9b462b6035b77a6b4125408f1586e1c92a2b250f3dccac076f5",
+      "afterSha256": "37f3908dbb39d9b462b6035b77a6b4125408f1586e1c92a2b250f3dccac076f5"
+    },
+    {
+      "path": "docs\\result-beaker-lint.txt",
+      "sha256": "ccfed2e35c115009b462a04cc39d68f307a29db01030a5072722e4500def6729",
+      "afterSha256": "ccfed2e35c115009b462a04cc39d68f307a29db01030a5072722e4500def6729"
+    },
+    {
+      "path": "docs\\result-beaker-mobile.png",
+      "sha256": "f6040aaf400e9cf5a8a35e3c5cb0c00b1fe5d580f98b482255f19a9a77bbc739",
+      "afterSha256": "f6040aaf400e9cf5a8a35e3c5cb0c00b1fe5d580f98b482255f19a9a77bbc739"
+    },
+    {
+      "path": "docs\\result-beaker-report.md",
+      "sha256": "aade994a5c0e908a41921a7e6819365c6aa2b7a54e366c5ca0f66c459410809a",
+      "afterSha256": "aade994a5c0e908a41921a7e6819365c6aa2b7a54e366c5ca0f66c459410809a"
+    },
+    {
+      "path": "docs\\result-beaker-split.png",
+      "sha256": "5940b81069fc1de5ffe431c8964e30e5e8e6ea7914bbc46d4e3b020051643ff8",
+      "afterSha256": "5940b81069fc1de5ffe431c8964e30e5e8e6ea7914bbc46d4e3b020051643ff8"
+    },
+    {
+      "path": "docs\\result-beaker-tests.txt",
+      "sha256": "9dd8a80efe976c5deaa9f1db8ccae197a408b597f831b8b39a163b1d3fc2f400",
+      "afterSha256": "9dd8a80efe976c5deaa9f1db8ccae197a408b597f831b8b39a163b1d3fc2f400"
+    },
+    {
+      "path": "docs\\scientific-architecture.md",
+      "sha256": "e336b77aa781f6d0c42d488cd4070aa7db0c64b57f3038a952f2e284de654ef0",
+      "afterSha256": "e336b77aa781f6d0c42d488cd4070aa7db0c64b57f3038a952f2e284de654ef0"
+    },
+    {
+      "path": "docs\\scientific-workspace-report.md",
+      "sha256": "99341a7473a14e2fda1c1d308634fe636ed2b8819c13b6a3b7f7ca2256e90d54",
+      "afterSha256": "99341a7473a14e2fda1c1d308634fe636ed2b8819c13b6a3b7f7ca2256e90d54"
+    },
+    {
+      "path": "docs\\spana-reader-trace.md",
+      "sha256": "41769bf09923742696f639ff410053d3a77010ca05c5b4be4e05a80d24b98fe0",
+      "afterSha256": "41769bf09923742696f639ff410053d3a77010ca05c5b4be4e05a80d24b98fe0"
+    },
+    {
+      "path": "docs\\workspace-format-audit.txt",
+      "sha256": "5a00142fcc0e561373cd6c1de365d925419beeb5e9a30e8e88d0b47114458b9e",
+      "afterSha256": "5a00142fcc0e561373cd6c1de365d925419beeb5e9a30e8e88d0b47114458b9e"
+    },
+    {
+      "path": "docs\\workspace-ownership-build-final.txt",
+      "sha256": "fcf93ecb965bdb5e05dea8ef3da66520d0043caffd010e8e9242b18b578a3d37",
+      "afterSha256": "fcf93ecb965bdb5e05dea8ef3da66520d0043caffd010e8e9242b18b578a3d37"
+    },
+    {
+      "path": "docs\\workspace-ownership-focused-final.txt",
+      "sha256": "994dda7e7cff79387bb1afa4f7b8fc39b69d64bebdb2f8b7cde671f645e57048",
+      "afterSha256": "994dda7e7cff79387bb1afa4f7b8fc39b69d64bebdb2f8b7cde671f645e57048"
+    },
+    {
+      "path": "docs\\workspace-ownership-focused.txt",
+      "sha256": "44fa9bd5ec136a720c32c813d0ae5830a601c9051e32d1ab6c800b915dd2aff3",
+      "afterSha256": "44fa9bd5ec136a720c32c813d0ae5830a601c9051e32d1ab6c800b915dd2aff3"
+    },
+    {
+      "path": "docs\\workspace-ownership-lint-final.txt",
+      "sha256": "ccfed2e35c115009b462a04cc39d68f307a29db01030a5072722e4500def6729",
+      "afterSha256": "ccfed2e35c115009b462a04cc39d68f307a29db01030a5072722e4500def6729"
+    },
+    {
+      "path": "docs\\workspace-ownership-lint.txt",
+      "sha256": "ccfed2e35c115009b462a04cc39d68f307a29db01030a5072722e4500def6729",
+      "afterSha256": "ccfed2e35c115009b462a04cc39d68f307a29db01030a5072722e4500def6729"
+    },
+    {
+      "path": "docs\\workspace-ownership-new-tests.txt",
+      "sha256": "1f8deb875869a986bb2cdecc61bafcb22e67e3ef6067b89be8b5da503c9a3248",
+      "afterSha256": "1f8deb875869a986bb2cdecc61bafcb22e67e3ef6067b89be8b5da503c9a3248"
+    },
+    {
+      "path": "docs\\workspace-ownership-production-audit.txt",
+      "sha256": "2506b9cd56f2e31b20a70fc36a22a20d85bdae89c8947fe197f568f8056bbf98",
+      "afterSha256": "2506b9cd56f2e31b20a70fc36a22a20d85bdae89c8947fe197f568f8056bbf98"
+    },
+    {
+      "path": "docs\\workspace-ownership-report.md",
+      "sha256": "5bc0460a5ec3d6e4af9fc87c1030506f483fe0fb13dd5130a55e2e0a7532ead6",
+      "afterSha256": "5bc0460a5ec3d6e4af9fc87c1030506f483fe0fb13dd5130a55e2e0a7532ead6"
+    },
+    {
+      "path": "docs\\workspace-ownership-tests-final.txt",
+      "sha256": "f125c23917cd3aa74ee419385ceec4514cef14ef98b97035e33a267c37b810d1",
+      "afterSha256": "f125c23917cd3aa74ee419385ceec4514cef14ef98b97035e33a267c37b810d1"
+    },
+    {
+      "path": "docs\\workspace-ownership-tests.txt",
+      "sha256": "3f922f81c3e19d68acc69a04c71250af54f7059205be5d0792de8130c851b2c7",
+      "afterSha256": "3f922f81c3e19d68acc69a04c71250af54f7059205be5d0792de8130c851b2c7"
+    },
+    {
+      "path": "docs\\workspace-ux-evidence.json",
+      "sha256": "619964ce0eaa9c5cda45d4381f1c8f670504836e6a92df87d83ac91ba5cbef38",
+      "afterSha256": "619964ce0eaa9c5cda45d4381f1c8f670504836e6a92df87d83ac91ba5cbef38"
+    },
+    {
+      "path": "docs\\workspace-ux-report.md",
+      "sha256": "782d06d7ac866c274203a9aed4572d5f626264f9ba18c8abaa1e9269c037766e",
+      "afterSha256": "782d06d7ac866c274203a9aed4572d5f626264f9ba18c8abaa1e9269c037766e"
+    }
+  ],
+  "artifacts": [
+    {
+      "path": "src/analysis/feOxidationMetadata.js",
+      "sha256": "068bce4e6c17889a7ba081f74f46dd664b3e14769c0d2f99a46c93eb4a19f6bd"
+    },
+    {
+      "path": "src/analysis/registeredOxidation.js",
+      "sha256": "b4474e6709c39099db1a5185c832788a6708b9cb0d726a98aa2b3c0da9f0b4df"
+    },
+    {
+      "path": "src/analysis/fePourbaixContract.js",
+      "sha256": "fa1a03fb9603e6005a751dd55721dd84d3b0ade320157613ec6d2e0088c28b70"
+    },
+    {
+      "path": "src/analysis/feWaterContext.js",
+      "sha256": "8bf5cbcbdda386deb4f3e81f78362ab1ab0c69a3eccc8f6f09f239bc836b4753"
+    },
+    {
+      "path": "src/analysis/prepareFeCandidate.js",
+      "sha256": "46fd520fb1cec495c9a8dea150d2b5bbe94f8a2a8e560f43b66793831bd5564b"
+    },
+    {
+      "path": "scripts/validate-fe-metadata.js",
+      "sha256": "ddffe1345b59352c24a5ea57c037f5026dbf02dac9ec2c9af5c5743eb5b0af61"
+    },
+    {
+      "path": "tests/feMetadata.test.js",
+      "sha256": "047df66c47e93c8b40a175a3659283719dc26ea2ed41b87064596196f39fbb68"
+    },
+    {
+      "path": "docs/fe-metadata-validation.json",
+      "sha256": "7c87690df2d9418a93cbaec63492f333e3007190ab83f3a80a7bb19b1ace3c24"
+    },
+    {
+      "path": "docs/fe-metadata-samples.json.gz",
+      "sha256": "ca4a37e7426ee0c76bb236eac424a5cbcf103fbedd8b2cf07002d4ec06f8a29e"
+    },
+    {
+      "path": "docs/fe-metadata-carriers.md",
+      "sha256": "d53090dd5adc0e6a8005b83fa392430390daa2fc279cb0e75ab0ddc29c0a983a"
+    },
+    {
+      "path": "docs/fe-metadata-support-contract.md",
+      "sha256": "1cada402b22a3ca4828e6e5ab072b7d5f5111c70d45341dd71d5625a814ab709"
+    }
+  ],
+  "commands": {
+    "tests": "node --test --experimental-test-isolation=none src/chemistry/*.test.js src/thermodynamics/*.test.js src/thermodynamics/importers/*.test.js src/thermodynamics/importers/spana/*.test.js src/calculations/*.test.js tests/*.test.js",
+    "build": "npm run build -- --configLoader native",
+    "lint": "npm run lint",
+    "artifactAudit": "node scripts/audit-production-boundary.js",
+    "scientificValidation": "node scripts/validate-fe-metadata.js"
+  },
+  "publicEnabled": false,
+  "deployed": false,
+  "pushed": false,
+  "recommendation": "Ready for next-phase implementation of the exact fixed Fe candidate contract; no broader support claim."
+}

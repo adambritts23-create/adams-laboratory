@@ -1,0 +1,96 @@
+✔ six independent physical mixtures reproduce all saved source-law carriers and derived pH (8.7026ms)
+✔ nonnegative physical NaOH remains distinct from signed internal proton coordinates (0.5995ms)
+✔ one cross-family complex and 2/3/4-boron oligomers retain exact shared stoichiometry (1.2678ms)
+✔ ordinary phases/gas retain conditional diagnostics; electron-dependent phases are explicit and unevaluated (0.7034ms)
+✔ physical and boundary errors fail without repairing inputs or accepting caller-imposed coordinates (625.5438ms)
+✔ redox-active Fe/peroxide preparation is refused, while original reviewed redox route remains valid (2217.8031ms)
+✔ simple acetic acid physical control agrees with established independent acid/base reference (634.8754ms)
+✔ supersaturated solid or gas requirement withholds accepted aqueous physical result (1211.4517ms)
+✔ physical provenance/revision affect identity, while reordered contributions preserve equilibrium (1309.7225ms)
+✔ 18 independent acid/water/base controls agree without a production titration formula (3.211ms)
+✔ volume and counterion moles are conserved before/at/after equivalence (1.1725ms)
+✔ curve, selected point and Beaker retain the same exact equilibrium object (0.6539ms)
+✔ each dose is independently reproducible, including reordered and duplicate totals (25.566ms)
+✔ dispensing returns conserved aliquot and finite remainder without mutating the stock (1.5742ms)
+✔ mix two entire beakers uses the same physical and equilibrium preparation (1.6201ms)
+✔ invalid concentrations, volumes, conventions and arbitrary recipes are refused (1.0021ms)
+✔ forged preparations, mismatched selections and stale runs cannot provide a current result (26.1855ms)
+✔ changed thermodynamic provenance fails preparation instead of silently reusing benchmark evidence (1.8909ms)
+✔ fractional additions and changed analytical quantities are not snapped to nominal equivalence (6.9859ms)
+✔ preview is transient, click selects exact state and pointer traversal never solves (1592.4323ms)
+✔ analytical views preserve original identities and cache without solver calls in both orientations (3349.1578ms)
+✔ fractions reuse unchanged ordinary-component contracts with no proton denominator (1623.8994ms)
+✔ log series retains actual admitted carriers, retained logs and absent-carrier gaps (1653.9465ms)
+✔ adapter and preview refuse forged, foreign and stale points even after caching (3276.7764ms)
+✔ custom experiment coordinates and nearest-X selection do not assume default equivalence (1666.1831ms)
+✔ repeated hover/view inspection reuses derived cache and performs zero new solve runs (1717.5876ms)
+ℹ 1000 cached preview/view operations: 63.02 ms; solveRuns=1
+✔ Wet Lab precomputes 107 accepted samples with dense equivalence coordinates (1637.8151ms)
+✔ cached curve selections share exact engine state and never solve inspection independently (1645.9388ms)
+✔ arbitrary total and increment controls calculate once then cache; reset restores exact initial object (1664.5587ms)
+✔ invalid values, forged points and old experiment points are refused without replacing selection (3287.8487ms)
+✔ newer selection cancels pending custom-volume state before it can replace the view (1670.2755ms)
+✔ Wet Lab navigation leaves ordinary chemistry and scientific revision unchanged (3.3512ms)
+✖ N physical contributions occupy one final volume and retain immutable source provenance (7.3676ms)
+✔ invalid, duplicate and forged rows cannot define recipes or source identities (1.3751ms)
+✖ mixed Wet Lab reproduces saved independent carriers and all six pH controls; views/hover preserve identities (51580.9153ms)
+✔ scope checks respect exclusions, refuse stale/forged stocks and do not fall back for chloride/borate (1000.2405ms)
+✔ required phase closure stays an unavailable Wet Lab sample, never accepted aqueous fallback (1017.562ms)
+✔ reviewed recipes activate intrinsic chemistry without manual System counterion selection (1723.2393ms)
+✔ source drift cannot create physical recipe availability (8.7896ms)
+✔ editable sample and burette inputs move accepted equivalence through inventories alone (8190.9832ms)
+✔ reverse orientation is the same validated physical/point path (1649.1783ms)
+✔ loaded volume controls capacity and sampling; insufficient titrant remains an honest partial experiment (1553.7911ms)
+✔ all editable numeric fields refuse invalid values and arbitrary recipes (1.8785ms)
+✔ sampling retains dense region at moved equivalence and never determines pH (0.4004ms)
+ℹ tests 44
+ℹ suites 0
+ℹ pass 42
+ℹ fail 2
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 107481.8196
+
+✖ failing tests:
+
+test at tests\wetLabMixed.test.js:19:1
+✖ N physical contributions occupy one final volume and retain immutable source provenance (7.3676ms)
+  AssertionError [ERR_ASSERTION]: Expected values to be strictly equal:
+  + actual - expected
+  
+  + 0.0005000000000000001
+  - 0.0005
+          ^
+  
+      at TestContext.<anonymous> (file:///C:/Users/adamb/PycharmProjects/PythonProject/adams-laboratory/tests/wetLabMixed.test.js:30:41)
+      at Test.runInAsyncScope (node:async_hooks:227:14)
+      at Test.run (node:internal/test_runner/test:1201:25)
+      at Test.processPendingSubtests (node:internal/test_runner/test:831:18)
+      at Test.postRun (node:internal/test_runner/test:1330:19)
+      at Test.run (node:internal/test_runner/test:1258:12)
+      at async Test.processPendingSubtests (node:internal/test_runner/test:831:7) {
+    generatedMessage: true,
+    code: 'ERR_ASSERTION',
+    actual: 0.0005000000000000001,
+    expected: 0.0005,
+    operator: 'strictEqual',
+    diff: 'simple'
+  }
+
+test at tests\wetLabMixed.test.js:42:1
+✖ mixed Wet Lab reproduces saved independent carriers and all six pH controls; views/hover preserve identities (51580.9153ms)
+  AssertionError [ERR_ASSERTION]: Expected values to be strictly equal:
+  
+  9 !== 6
+  
+      at TestContext.<anonymous> (file:///C:/Users/adamb/PycharmProjects/PythonProject/adams-laboratory/tests/wetLabMixed.test.js:65:9)
+      at async Test.run (node:internal/test_runner/test:1208:7)
+      at async Test.processPendingSubtests (node:internal/test_runner/test:831:7) {
+    generatedMessage: true,
+    code: 'ERR_ASSERTION',
+    actual: 9,
+    expected: 6,
+    operator: 'strictEqual',
+    diff: 'simple'
+  }

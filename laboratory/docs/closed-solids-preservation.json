@@ -1,0 +1,40 @@
+{
+  "checked": 338,
+  "unchanged": 332,
+  "changed": [
+    {
+      "path": "src/App.css",
+      "before": "2168115256b56c3d9dc53718fdb7ccc33e10a98e9d52183508e5c9ec001e9bfd",
+      "after": "2ec5058d9058ae2009830eeacaebca8bc5fc28881fa4d968040320b5d3c3bc0d"
+    },
+    {
+      "path": "src/components/GeneralClosedPanel.jsx",
+      "before": "209e5190adc8778d46d4ed7bace09d0b2170cc34cabd095bf4f95eae592d41ac",
+      "after": "586ad64acee0d12511b5631f05a41ede881040c9caafc23f8652f0fd00afc9aa"
+    },
+    {
+      "path": "src/solver/closedRedox.js",
+      "before": "ec0036815de2741d0f4a4e751148f9a815ed114774bd69d8cce14fa8bcc78847",
+      "after": "d6907456dcc9b8030041c88b89c57922e0ec51a9f6bb1a9be78c19e8f00ad268"
+    },
+    {
+      "path": "src/solver/point.js",
+      "before": "8ac2c2fa7caa074c5769a7bfc377bc07f15836042fcc4503e0c9acb9aa8744e3",
+      "after": "1c721f78dae772de8e443973e11e9fb105cc9faa14d21d086640b15f6c588ab8"
+    },
+    {
+      "path": "src/thermodynamics/closedReagents.js",
+      "before": "59d897e0e494a53b7318800e03789c5353cc75420b4f73cf7d9367e06a866555",
+      "after": "ec18673ba915060f21477baac2c7e4ddb5dcfc0451f9afb15fe57c68f6c28d81"
+    },
+    {
+      "path": "src/thermodynamics/equilibriumNetwork.js",
+      "before": "15be2f5ac064c1b3b39d69dad6a69b684a3b6ad30a120b89f268b3beb8401dc6",
+      "after": "71c053e1325d3f45dd0cdb572a7dd9a17a7c98c3387aaa6e65676d004c506c1a"
+    }
+  ],
+  "unexpected": [],
+  "sourceDataUnchanged": true,
+  "existingTestsUnchanged": true,
+  "status": "passed"
+}

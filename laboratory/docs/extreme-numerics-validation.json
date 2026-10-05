@@ -1,0 +1,174 @@
+{
+  "baseline": {
+    "tests": 491,
+    "passed": 491,
+    "durationMs": 345774.2447,
+    "build": "passed",
+    "lint": "0 errors, existing ExpandedPlot warning",
+    "artifactAudit": "passed"
+  },
+  "final": {
+    "tests": 500,
+    "passed": 500,
+    "failed": 0,
+    "cancelled": 0,
+    "skipped": 0,
+    "todo": 0,
+    "durationMs": 366285.2744,
+    "build": "passed",
+    "lint": "0 errors, existing ExpandedPlot warning",
+    "artifactAudit": "passed",
+    "goldens": "all five unchanged",
+    "FeCu": "exact identities and fractions unchanged",
+    "reactionBasis": "all exact controls unchanged"
+  },
+  "binary64": {
+    "minimumNormal": 2.2250738585072014e-308,
+    "minimumPositive": 5e-324,
+    "logMinimumNormal": -307.6526555685888,
+    "logMinimumPositive": -323.3062153431158,
+    "largestTestedZeroExponent": -323.6072453387798,
+    "smallestTestedPositiveExponent": -323.60724533877976
+  },
+  "uranium": {
+    "UVI": {
+      "points": 1025,
+      "failed": [],
+      "maxBalanceResidual": 1.3738874404464751e-18,
+      "maxReferenceAmountDifference": 1.105565868074563e-14,
+      "labelDisagreements": 0,
+      "solidDisagreements": 0,
+      "maxImplicitWaterDifference": 0,
+      "comparisonAbsoluteTolerance": 4e-14,
+      "counts": {
+        "UH3(cr)": 244,
+        "UO2(cr)": 275,
+        "U 3+": 3,
+        "U 4+": 8,
+        "U4O9(cr)": 16,
+        "UO2(OH)3-": 86,
+        "U3O8(cr)": 7,
+        "UO3·2H2O(cr)": 189,
+        "UO2 2+": 197
+      }
+    },
+    "UV": {
+      "points": 1025,
+      "failed": [],
+      "maxBalanceResidual": 1.8058742435461683e-18,
+      "maxReferenceAmountDifference": 1.1870858435776219e-14,
+      "labelDisagreements": 0,
+      "solidDisagreements": 0,
+      "maxImplicitWaterDifference": 0,
+      "comparisonAbsoluteTolerance": 4e-14,
+      "counts": {
+        "UH3(cr)": 244,
+        "UO2(cr)": 275,
+        "U 3+": 3,
+        "U 4+": 8,
+        "U4O9(cr)": 16,
+        "UO2(OH)3-": 86,
+        "U3O8(cr)": 7,
+        "UO3·2H2O(cr)": 189,
+        "UO2 2+": 197
+      }
+    },
+    "crossBasis": {
+      "maxAmountDifference": 1.395910297075087e-18,
+      "labelDisagreements": 0
+    }
+  },
+  "exactPreparedReference": {
+    "UVI": {
+      "points": 1025,
+      "accepted": 1025,
+      "referenceFailures": 0,
+      "labelDisagreements": 0,
+      "solidDisagreements": 0,
+      "maxCarrierAmountDifference": 1.105565868074563e-14,
+      "maxLogActivityDifference": 1.953807782228978e-9,
+      "maxInventoryDifference": 1.124709490308868e-14,
+      "maxDissolvedDifference": 1.124709490308868e-14
+    },
+    "UV": {
+      "points": 1025,
+      "accepted": 1025,
+      "referenceFailures": 0,
+      "labelDisagreements": 0,
+      "solidDisagreements": 0,
+      "maxCarrierAmountDifference": 1.1870858435776219e-14,
+      "maxLogActivityDifference": 2.2558950263373845e-9,
+      "maxInventoryDifference": 1.3458796184191539e-14,
+      "maxDissolvedDifference": 1.3458796184191539e-14
+    }
+  },
+  "performance": {
+    "before": {
+      "Fe": {
+        "elapsedMs": 10748.9839,
+        "accepted": 2565,
+        "systemId": "8ead3d660c3c240620da3c69fa3a4b55810695c1dce8216e166f9579043386a1"
+      },
+      "Cu": {
+        "elapsedMs": 6056.836199999998,
+        "accepted": 2565,
+        "systemId": "fa745a9d951a38cac972a421932facd4634655ad14203aec20dd7feb9ed47a05"
+      },
+      "UVI": {
+        "solveMs": 5999.481400000001,
+        "accepted": 836
+      },
+      "UV": {
+        "solveMs": 4217.452999999998,
+        "accepted": 836
+      },
+      "ordinary": {
+        "points": 1000,
+        "solveMs": 50.97699999999895
+      }
+    },
+    "after": {
+      "Fe": {
+        "elapsedMs": 10325.149300000001,
+        "accepted": 2565,
+        "systemId": "8ead3d660c3c240620da3c69fa3a4b55810695c1dce8216e166f9579043386a1"
+      },
+      "Cu": {
+        "elapsedMs": 5601.504800000001,
+        "accepted": 2565,
+        "systemId": "fa745a9d951a38cac972a421932facd4634655ad14203aec20dd7feb9ed47a05"
+      },
+      "UVI": {
+        "solveMs": 5551.3462,
+        "accepted": 1025
+      },
+      "UV": {
+        "solveMs": 4008.001799999998,
+        "accepted": 1025
+      },
+      "ordinary": {
+        "points": 1000,
+        "solveMs": 38.95890000000145
+      }
+    },
+    "interpretation": "Single fresh-process runs; informative, not a speedup guarantee."
+  },
+  "changedExistingFiles": [
+    "src/analysis/pointTrace.js",
+    "src/calculations/outputs.js",
+    "src/calculations/solubility.js",
+    "src/components/InteractiveBeaker.jsx",
+    "src/components/PointResult.jsx",
+    "src/plots/formatNumber.js",
+    "src/solver/point.js",
+    "tests/generalBasisEquilibrium.test.js",
+    "tests/pointHardening.test.js",
+    "tests/pointSolver.test.js"
+  ],
+  "unchangedProtectedFiles": 556,
+  "newImplementationFiles": [
+    "src/solver/logConcentration.js",
+    "tests/logConcentration.test.js"
+  ],
+  "recommendation": "A. GENERAL NUMERICAL DOMAIN HARDENING VALIDATED; READY FOR BOUNDED URANIUM OXIDATION-STATE SUPPORT"
+}

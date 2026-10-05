@@ -1,0 +1,126 @@
+{
+  "note": "Ordinary conserved source components; derived inventories from the identical admitted matrices. Symmetric 1e-8 fraction margin excludes ambiguous carrier ties from label comparison; not a production tolerance. Solubility logs compared only with positive accepted solid inventory above reporting floor 1e-12.",
+  "cases": [
+    {
+      "name": "acetate-pH",
+      "compared": 101,
+      "maxDissolvedDifference": 7.671641100159832e-14,
+      "maxFractionDifference": 3.3306690738754696e-16,
+      "maxPH": 0,
+      "maxPe": 0,
+      "carrierDisagreements": 0,
+      "saturatedSamples": 0,
+      "maxSaturatedLogSolubilityDifference": 0
+    },
+    {
+      "name": "acetate-total",
+      "compared": 51,
+      "maxDissolvedDifference": 4.50195436485501e-12,
+      "maxFractionDifference": 4.191658131702525e-11,
+      "maxPH": 3.75483200087956e-10,
+      "maxPe": 0,
+      "carrierDisagreements": 0,
+      "saturatedSamples": 0,
+      "maxSaturatedLogSolubilityDifference": 0
+    },
+    {
+      "name": "Cr-area",
+      "compared": 2565,
+      "maxDissolvedDifference": 9.884085737377202e-14,
+      "maxFractionDifference": 5.753342247061255e-12,
+      "maxPH": 0,
+      "maxPe": 0,
+      "carrierDisagreements": 0,
+      "saturatedSamples": 1253,
+      "maxSaturatedLogSolubilityDifference": 1.7319479184152442e-14
+    },
+    {
+      "name": "Cu-area",
+      "compared": 2565,
+      "maxDissolvedDifference": 1.9056560799854405e-14,
+      "maxFractionDifference": 2.5277631550413293e-14,
+      "maxPH": 0,
+      "maxPe": 0,
+      "carrierDisagreements": 0,
+      "saturatedSamples": 2037,
+      "maxSaturatedLogSolubilityDifference": 1.0658141036401503e-14
+    },
+    {
+      "name": "Fe-area",
+      "compared": 2565,
+      "maxDissolvedDifference": 9.762416569580878e-14,
+      "maxFractionDifference": 3.272382365082649e-14,
+      "maxPH": 0,
+      "maxPe": 0,
+      "carrierDisagreements": 0,
+      "saturatedSamples": 1928,
+      "maxSaturatedLogSolubilityDifference": 2.220446049250313e-14
+    },
+    {
+      "name": "Fe-derived-pH",
+      "compared": 51,
+      "maxDissolvedDifference": 1.1278297902799633e-14,
+      "maxFractionDifference": 1.046100983614906e-10,
+      "maxPH": 5.728282737038626e-9,
+      "maxPe": 0,
+      "carrierDisagreements": 0,
+      "saturatedSamples": 0,
+      "maxSaturatedLogSolubilityDifference": 0
+    },
+    {
+      "name": "Fe-Eh-101",
+      "compared": 101,
+      "maxDissolvedDifference": 3.811360949068643e-14,
+      "maxFractionDifference": 1.887379141862766e-15,
+      "maxPH": 0,
+      "maxPe": 0,
+      "carrierDisagreements": 0,
+      "saturatedSamples": 37,
+      "maxSaturatedLogSolubilityDifference": 1.4210854715202004e-14
+    },
+    {
+      "name": "fe-hydrolysis",
+      "compared": 51,
+      "maxDissolvedDifference": 1.2641797331180982e-16,
+      "maxFractionDifference": 6.661338147750939e-16,
+      "maxPH": 0,
+      "maxPe": 0,
+      "carrierDisagreements": 0,
+      "saturatedSamples": 23,
+      "maxSaturatedLogSolubilityDifference": 7.105427357601002e-15
+    },
+    {
+      "name": "Fe-material-area",
+      "compared": 121,
+      "maxDissolvedDifference": 1.5231576850488482e-14,
+      "maxFractionDifference": 6.827871601444713e-15,
+      "maxPH": 0,
+      "maxPe": 0,
+      "carrierDisagreements": 0,
+      "saturatedSamples": 64,
+      "maxSaturatedLogSolubilityDifference": 7.105427357601002e-15
+    },
+    {
+      "name": "fe-peroxide-analytical",
+      "compared": 50,
+      "maxDissolvedDifference": 3.3306690738754696e-16,
+      "maxFractionDifference": 6.209246170615218e-15,
+      "maxPH": 9.57882662078191e-11,
+      "maxPe": 0,
+      "carrierDisagreements": 0,
+      "saturatedSamples": 0,
+      "maxSaturatedLogSolubilityDifference": 0
+    },
+    {
+      "name": "two-material-area",
+      "compared": 121,
+      "maxDissolvedDifference": 7.426576714708588e-13,
+      "maxFractionDifference": 3.8624659026709196e-13,
+      "maxPH": 0,
+      "maxPe": 0,
+      "carrierDisagreements": 0,
+      "saturatedSamples": 0,
+      "maxSaturatedLogSolubilityDifference": 0
+    }
+  ]
+}

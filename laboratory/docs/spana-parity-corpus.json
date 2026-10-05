@@ -1,0 +1,4235 @@
+{
+  "convention": "Identical admitted source laws/kh constraints; no physical charge requirement. Java tolerance 1e-10; Adam tolerances unchanged. Phase comparison floor 1e-12 is reporting only.",
+  "cases": [
+    {
+      "name": "acetate-pH",
+      "selectedComponents": [
+        "H+",
+        "H2O",
+        "CH3COO-"
+      ],
+      "products": [
+        {
+          "id": "spana:2ac52a30213c9288:79298",
+          "name": "CH3COOH",
+          "phase": "aqueous"
+        },
+        {
+          "id": "spana:2ac52a30213c9288:250448",
+          "name": "OH-",
+          "phase": "aqueous"
+        }
+      ],
+      "adamTiming": {
+        "nonScientific": true,
+        "elapsedMs": 75.31629999999996,
+        "inputPreparationMs": 16.26709999999821,
+        "solvingMs": 14.42819999999847
+      },
+      "variants": [
+        {
+          "reuse": false,
+          "points": 101,
+          "haltafallAccepted": 101,
+          "adamAccepted": 101,
+          "compared": 101,
+          "statusDisagreements": 0,
+          "phaseDisagreementsAbove1e_12": 0,
+          "maxConcentrationDifference": 6.428191312579656e-14,
+          "maxLogActivityDifference": 6.655787032627813e-14,
+          "maxComponentFractionDifference": 1.2856382625159313e-13,
+          "maxTotalDifference": 0,
+          "haltafallSolveMs": 2.3773999999999997
+        },
+        {
+          "reuse": true,
+          "points": 101,
+          "haltafallAccepted": 101,
+          "adamAccepted": 101,
+          "compared": 101,
+          "statusDisagreements": 0,
+          "phaseDisagreementsAbove1e_12": 0,
+          "maxConcentrationDifference": 6.428191312579656e-14,
+          "maxLogActivityDifference": 6.655787032627813e-14,
+          "maxComponentFractionDifference": 1.2856382625159313e-13,
+          "maxTotalDifference": 0,
+          "haltafallSolveMs": 2.4300999999999986
+        }
+      ],
+      "definition": {
+        "schemaVersion": 1,
+        "output": {
+          "type": "log-concentration",
+          "speciesIds": [
+            "spana:2ac52a30213c9288:79298",
+            "spana:2ac52a30213c9288:250448"
+          ],
+          "componentId": null,
+          "referenceSpeciesId": null,
+          "redoxQuantity": "pe"
+        },
+        "componentConditions": [
+          {
+            "componentId": "component:H2O",
+            "mode": "LA",
+            "quantity": "log-activity",
+            "unit": "dimensionless",
+            "value": 0
+          },
+          {
+            "componentId": "component:CH3COO-",
+            "mode": "T",
+            "quantity": "total",
+            "unit": "mol/kg-H2O",
+            "value": 0.5
+          }
+        ],
+        "independentVariables": [
+          {
+            "componentId": "component:H%2B",
+            "mode": "LAV",
+            "quantity": "pH",
+            "unit": "dimensionless",
+            "range": {
+              "min": 0,
+              "max": 14
+            },
+            "points": 101
+          }
+        ],
+        "temperature": {
+          "value": 25,
+          "unit": "C"
+        },
+        "pressure": {
+          "value": 1,
+          "unit": "bar"
+        },
+        "ionicStrength": {
+          "mode": "automatic",
+          "value": null,
+          "unit": "mol/kg-H2O"
+        },
+        "activityModel": "ideal",
+        "enabledPhases": [
+          "aqueous",
+          "solid",
+          "liquid"
+        ],
+        "sampling": {
+          "strategy": "cartesian",
+          "maxPoints": 10000
+        }
+      },
+      "admittedConstraints": [
+        {
+          "componentId": "component:H%2B",
+          "hur": 5,
+          "kh": 2,
+          "field": "logA",
+          "value": 0
+        },
+        {
+          "componentId": "component:H2O",
+          "hur": 4,
+          "kh": 2,
+          "field": "logA",
+          "value": 0
+        },
+        {
+          "componentId": "component:CH3COO-",
+          "hur": 1,
+          "kh": 1,
+          "field": "tot",
+          "value": 0.5
+        }
+      ],
+      "evidenceScope": "production admitted",
+      "classification": "equivalent admitted-model numerical control",
+      "actualConstraintDomains": [
+        {
+          "componentId": "component:H%2B",
+          "name": "H+",
+          "kh": [
+            2
+          ],
+          "values": [
+            -14,
+            -13.86,
+            -13.719999999999999,
+            -13.58,
+            -13.44,
+            -13.299999999999999,
+            -13.16,
+            -13.020000000000001,
+            -12.88,
+            -12.74,
+            -12.6,
+            -12.46,
+            -12.32,
+            -12.18,
+            -12.04,
+            -11.9,
+            -11.76,
+            -11.62,
+            -11.479999999999999,
+            -11.34,
+            -11.200000000000001,
+            -11.06,
+            -10.92,
+            -10.780000000000001,
+            -10.64,
+            -10.5,
+            -10.36,
+            -10.219999999999999,
+            -10.08,
+            -9.94,
+            -9.799999999999999,
+            -9.66,
+            -9.520000000000001,
+            -9.38,
+            -9.24,
+            -9.1,
+            -8.96,
+            -8.82,
+            -8.68,
+            -8.54,
+            -8.4,
+            -8.26,
+            -8.12,
+            -7.9799999999999995,
+            -7.840000000000001,
+            -7.700000000000001,
+            -7.5600000000000005,
+            -7.42,
+            -7.28,
+            -7.140000000000001,
+            -7,
+            -6.859999999999999,
+            -6.72,
+            -6.58,
+            -6.44,
+            -6.3,
+            -6.16,
+            -6.02,
+            -5.88,
+            -5.739999999999999,
+            -5.6000000000000005,
+            -5.46,
+            -5.32,
+            -5.18,
+            -5.04,
+            -4.8999999999999995,
+            -4.760000000000001,
+            -4.62,
+            -4.48,
+            -4.34,
+            -4.2,
+            -4.06,
+            -3.9200000000000004,
+            -3.7800000000000002,
+            -3.64,
+            -3.5,
+            -3.36,
+            -3.22,
+            -3.08,
+            -2.94,
+            -2.8000000000000003,
+            -2.66,
+            -2.52,
+            -2.3800000000000003,
+            -2.24,
+            -2.1,
+            -1.9600000000000002,
+            -1.82,
+            -1.68,
+            -1.54,
+            -1.4000000000000001,
+            -1.26,
+            -1.12,
+            -0.9800000000000001,
+            -0.84,
+            -0.7000000000000001,
+            -0.56,
+            -0.42,
+            -0.28,
+            -0.14,
+            0
+          ],
+          "varied": true
+        },
+        {
+          "componentId": "component:H2O",
+          "name": "H2O",
+          "kh": [
+            2
+          ],
+          "values": [
+            0
+          ],
+          "varied": false
+        },
+        {
+          "componentId": "component:CH3COO-",
+          "name": "CH3COO-",
+          "kh": [
+            1
+          ],
+          "values": [
+            0.5
+          ],
+          "varied": false
+        }
+      ],
+      "definitionNote": "Session setup is retained for provenance; actualConstraintDomains and raw per-point CSV are authoritative for the executed constraints, including the derived Fe 101-point sweep."
+    },
+    {
+      "name": "acetate-total",
+      "selectedComponents": [
+        "H+",
+        "H2O",
+        "CH3COO-"
+      ],
+      "products": [
+        {
+          "id": "spana:2ac52a30213c9288:79298",
+          "name": "CH3COOH",
+          "phase": "aqueous"
+        },
+        {
+          "id": "spana:2ac52a30213c9288:250448",
+          "name": "OH-",
+          "phase": "aqueous"
+        }
+      ],
+      "adamTiming": {
+        "nonScientific": true,
+        "elapsedMs": 49.26089999999999,
+        "inputPreparationMs": 9.141700000000128,
+        "solvingMs": 18.485300000000507
+      },
+      "variants": [
+        {
+          "reuse": false,
+          "points": 51,
+          "haltafallAccepted": 51,
+          "adamAccepted": 51,
+          "compared": 51,
+          "statusDisagreements": 0,
+          "phaseDisagreementsAbove1e_12": 0,
+          "maxConcentrationDifference": 6.553280140764173e-11,
+          "maxLogActivityDifference": 3.75483200087956e-10,
+          "maxComponentFractionDifference": 5.821793664435086e-11,
+          "maxTotalDifference": 0,
+          "haltafallSolveMs": 3.275000000000001
+        },
+        {
+          "reuse": true,
+          "points": 51,
+          "haltafallAccepted": 51,
+          "adamAccepted": 51,
+          "compared": 51,
+          "statusDisagreements": 0,
+          "phaseDisagreementsAbove1e_12": 0,
+          "maxConcentrationDifference": 6.688727349768442e-11,
+          "maxLogActivityDifference": 2.2621393647170862e-10,
+          "maxComponentFractionDifference": 3.869349285423596e-11,
+          "maxTotalDifference": 0,
+          "haltafallSolveMs": 2.4137000000000004
+        }
+      ],
+      "definition": {
+        "schemaVersion": 1,
+        "output": {
+          "type": "log-concentration",
+          "speciesIds": [
+            "spana:2ac52a30213c9288:79298",
+            "spana:2ac52a30213c9288:250448"
+          ],
+          "componentId": null,
+          "referenceSpeciesId": null,
+          "redoxQuantity": "pe"
+        },
+        "componentConditions": [
+          {
+            "componentId": "component:H2O",
+            "mode": "LA",
+            "quantity": "log-activity",
+            "unit": "dimensionless",
+            "value": 0
+          },
+          {
+            "componentId": "component:CH3COO-",
+            "mode": "T",
+            "quantity": "total",
+            "unit": "mol/kg-H2O",
+            "value": 0.5
+          }
+        ],
+        "independentVariables": [
+          {
+            "componentId": "component:H%2B",
+            "mode": "TV",
+            "quantity": "total",
+            "unit": "mol/kg-H2O",
+            "range": {
+              "min": -1,
+              "max": 1
+            },
+            "points": 51
+          }
+        ],
+        "temperature": {
+          "value": 25,
+          "unit": "C"
+        },
+        "pressure": {
+          "value": 1,
+          "unit": "bar"
+        },
+        "ionicStrength": {
+          "mode": "automatic",
+          "value": null,
+          "unit": "mol/kg-H2O"
+        },
+        "activityModel": "ideal",
+        "enabledPhases": [
+          "aqueous",
+          "solid",
+          "liquid"
+        ],
+        "sampling": {
+          "strategy": "cartesian",
+          "maxPoints": 10000
+        }
+      },
+      "admittedConstraints": [
+        {
+          "componentId": "component:H%2B",
+          "hur": 2,
+          "kh": 1,
+          "field": "tot",
+          "value": -1
+        },
+        {
+          "componentId": "component:H2O",
+          "hur": 4,
+          "kh": 2,
+          "field": "logA",
+          "value": 0
+        },
+        {
+          "componentId": "component:CH3COO-",
+          "hur": 1,
+          "kh": 1,
+          "field": "tot",
+          "value": 0.5
+        }
+      ],
+      "evidenceScope": "production admitted",
+      "classification": "equivalent admitted-model numerical control",
+      "actualConstraintDomains": [
+        {
+          "componentId": "component:H%2B",
+          "name": "H+",
+          "kh": [
+            1
+          ],
+          "values": [
+            -1,
+            -0.96,
+            -0.9199999999999999,
+            -0.8799999999999999,
+            -0.8400000000000001,
+            -0.8,
+            -0.76,
+            -0.72,
+            -0.6799999999999999,
+            -0.6400000000000001,
+            -0.6000000000000001,
+            -0.56,
+            -0.52,
+            -0.48,
+            -0.43999999999999995,
+            -0.39999999999999997,
+            -0.35999999999999993,
+            -0.3199999999999999,
+            -0.28,
+            -0.24,
+            -0.19999999999999996,
+            -0.1600000000000001,
+            -0.12000000000000005,
+            -0.08000000000000002,
+            -0.040000000000000036,
+            0,
+            0.040000000000000036,
+            0.08000000000000007,
+            0.1200000000000001,
+            0.15999999999999992,
+            0.19999999999999996,
+            0.24,
+            0.28,
+            0.32000000000000006,
+            0.3600000000000001,
+            0.3999999999999999,
+            0.43999999999999995,
+            0.48,
+            0.52,
+            0.56,
+            0.6000000000000001,
+            0.6399999999999999,
+            0.6799999999999999,
+            0.72,
+            0.76,
+            0.8,
+            0.8400000000000001,
+            0.8799999999999999,
+            0.9199999999999999,
+            0.96,
+            1
+          ],
+          "varied": true
+        },
+        {
+          "componentId": "component:H2O",
+          "name": "H2O",
+          "kh": [
+            2
+          ],
+          "values": [
+            0
+          ],
+          "varied": false
+        },
+        {
+          "componentId": "component:CH3COO-",
+          "name": "CH3COO-",
+          "kh": [
+            1
+          ],
+          "values": [
+            0.5
+          ],
+          "varied": false
+        }
+      ],
+      "definitionNote": "Session setup is retained for provenance; actualConstraintDomains and raw per-point CSV are authoritative for the executed constraints, including the derived Fe 101-point sweep."
+    },
+    {
+      "name": "Cr-area",
+      "selectedComponents": [
+        "Cr 2+",
+        "H+",
+        "e-",
+        "H2O"
+      ],
+      "products": [
+        {
+          "id": "spana:2ac52a30213c9288:151977",
+          "name": "H2CrO4",
+          "phase": "aqueous"
+        },
+        {
+          "id": "spana:2ac52a30213c9288:152743",
+          "name": "H2O2",
+          "phase": "aqueous"
+        },
+        {
+          "id": "spana:2ac52a30213c9288:159826",
+          "name": "HCrO4-",
+          "phase": "aqueous"
+        },
+        {
+          "id": "spana:2ac52a30213c9288:91532",
+          "name": "Cr 3+",
+          "phase": "aqueous"
+        },
+        {
+          "id": "spana:2ac52a30213c9288:93605",
+          "name": "Cr(OH)2+",
+          "phase": "aqueous"
+        },
+        {
+          "id": "spana:2ac52a30213c9288:93695",
+          "name": "Cr(OH)3",
+          "phase": "aqueous"
+        },
+        {
+          "id": "spana:2ac52a30213c9288:93970",
+          "name": "Cr(OH)4-",
+          "phase": "aqueous"
+        },
+        {
+          "id": "spana:2ac52a30213c9288:94615",
+          "name": "Cr2(OH)2+4",
+          "phase": "aqueous"
+        },
+        {
+          "id": "spana:2ac52a30213c9288:94892",
+          "name": "Cr2O7-2",
+          "phase": "aqueous"
+        },
+        {
+          "id": "spana:2ac52a30213c9288:94983",
+          "name": "Cr3(OH)4+5",
+          "phase": "aqueous"
+        },
+        {
+          "id": "spana:2ac52a30213c9288:96141",
+          "name": "CrO4 2-",
+          "phase": "aqueous"
+        },
+        {
+          "id": "spana:2ac52a30213c9288:96242",
+          "name": "CrOH+",
+          "phase": "aqueous"
+        },
+        {
+          "id": "spana:2ac52a30213c9288:96329",
+          "name": "CrOH+2",
+          "phase": "aqueous"
+        },
+        {
+          "id": "spana:2ac52a30213c9288:92135",
+          "name": "Cr(cr)",
+          "phase": "solid"
+        },
+        {
+          "id": "spana:2ac52a30213c9288:93513",
+          "name": "Cr(OH)2(s)",
+          "phase": "solid"
+        },
+        {
+          "id": "spana:2ac52a30213c9288:93784",
+          "name": "Cr(OH)3(am)",
+          "phase": "solid"
+        },
+        {
+          "id": "spana:2ac52a30213c9288:93877",
+          "name": "Cr(OH)3(cr)",
+          "phase": "solid"
+        },
+        {
+          "id": "spana:2ac52a30213c9288:94801",
+          "name": "Cr2O3(cr)",
+          "phase": "solid"
+        },
+        {
+          "id": "spana:2ac52a30213c9288:95613",
+          "name": "CrH(s)",
+          "phase": "solid"
+        },
+        {
+          "id": "spana:2ac52a30213c9288:95947",
+          "name": "CrO2(cr)",
+          "phase": "solid"
+        },
+        {
+          "id": "spana:2ac52a30213c9288:96049",
+          "name": "CrO3(cr)",
+          "phase": "solid"
+        }
+      ],
+      "adamTiming": {
+        "nonScientific": true,
+        "solvingMs": 13794.724799999993,
+        "inputPreparationMs": 1336.5008000001253,
+        "elapsedMs": 16082.775899999997
+      },
+      "variants": [
+        {
+          "reuse": false,
+          "points": 2565,
+          "haltafallAccepted": 2565,
+          "adamAccepted": 2565,
+          "compared": 2565,
+          "statusDisagreements": 0,
+          "phaseDisagreementsAbove1e_12": 0,
+          "maxConcentrationDifference": 0.0000035762786865234375,
+          "maxLogActivityDifference": 4.292033395358885e-11,
+          "maxComponentFractionDifference": 9.732297433229231e-11,
+          "maxTotalDifference": 0,
+          "haltafallSolveMs": 58.776199999999946
+        },
+        {
+          "reuse": true,
+          "points": 2565,
+          "haltafallAccepted": 2565,
+          "adamAccepted": 2565,
+          "compared": 2565,
+          "statusDisagreements": 0,
+          "phaseDisagreementsAbove1e_12": 0,
+          "maxConcentrationDifference": 0.0000035762786865234375,
+          "maxLogActivityDifference": 4.1744829815115736e-11,
+          "maxComponentFractionDifference": 9.606226404612617e-11,
+          "maxTotalDifference": 0,
+          "haltafallSolveMs": 44.585199999999894
+        }
+      ],
+      "definition": {
+        "schemaVersion": 1,
+        "output": {
+          "type": "log-concentration",
+          "speciesIds": [],
+          "componentId": null,
+          "referenceSpeciesId": null,
+          "redoxQuantity": "pe"
+        },
+        "componentConditions": [
+          {
+            "componentId": "component:Cr%202%2B",
+            "mode": "T",
+            "quantity": "total",
+            "unit": "mol/kg-H2O",
+            "value": 0.001
+          },
+          {
+            "componentId": "component:H2O",
+            "mode": "LA",
+            "quantity": "log-activity",
+            "unit": "dimensionless",
+            "value": 0
+          }
+        ],
+        "independentVariables": [
+          {
+            "componentId": "component:H%2B",
+            "mode": "LAV",
+            "quantity": "pH",
+            "unit": "dimensionless",
+            "range": {
+              "min": 0,
+              "max": 14
+            },
+            "points": 57
+          },
+          {
+            "componentId": "component:e-",
+            "mode": "LAV",
+            "quantity": "Eh",
+            "unit": "V-SHE",
+            "range": {
+              "min": -1,
+              "max": 1.2
+            },
+            "points": 45
+          }
+        ],
+        "temperature": {
+          "value": 25,
+          "unit": "C"
+        },
+        "pressure": {
+          "value": 1,
+          "unit": "bar"
+        },
+        "ionicStrength": {
+          "mode": "automatic",
+          "value": null,
+          "unit": "mol/kg-H2O"
+        },
+        "activityModel": "ideal",
+        "enabledPhases": [
+          "aqueous",
+          "solid",
+          "liquid"
+        ],
+        "sampling": {
+          "strategy": "cartesian",
+          "maxPoints": 10000
+        },
+        "dimensions": 2,
+        "predominanceArea": {
+          "componentId": "component:Cr%202%2B",
+          "interpretation": "auto"
+        }
+      },
+      "admittedConstraints": [
+        {
+          "componentId": "component:Cr%202%2B",
+          "hur": 1,
+          "kh": 1,
+          "field": "tot",
+          "value": 0.001
+        },
+        {
+          "componentId": "component:H%2B",
+          "hur": 5,
+          "kh": 2,
+          "field": "logA",
+          "value": 0
+        },
+        {
+          "componentId": "component:e-",
+          "hur": 5,
+          "kh": 2,
+          "field": "logA",
+          "value": 16.90349886075965
+        },
+        {
+          "componentId": "component:H2O",
+          "hur": 4,
+          "kh": 2,
+          "field": "logA",
+          "value": 0
+        }
+      ],
+      "evidenceScope": "production admitted",
+      "classification": "equivalent admitted-model numerical control",
+      "actualConstraintDomains": [
+        {
+          "componentId": "component:Cr%202%2B",
+          "name": "Cr 2+",
+          "kh": [
+            1
+          ],
+          "values": [
+            0.001
+          ],
+          "varied": false
+        },
+        {
+          "componentId": "component:H%2B",
+          "name": "H+",
+          "kh": [
+            2
+          ],
+          "values": [
+            -14,
+            -13.75,
+            -13.5,
+            -13.25,
+            -13,
+            -12.75,
+            -12.5,
+            -12.25,
+            -12,
+            -11.75,
+            -11.5,
+            -11.25,
+            -11,
+            -10.75,
+            -10.5,
+            -10.25,
+            -10,
+            -9.75,
+            -9.5,
+            -9.25,
+            -9,
+            -8.75,
+            -8.5,
+            -8.25,
+            -8,
+            -7.75,
+            -7.5,
+            -7.250000000000001,
+            -7,
+            -6.75,
+            -6.5,
+            -6.25,
+            -6,
+            -5.75,
+            -5.5,
+            -5.25,
+            -5,
+            -4.75,
+            -4.5,
+            -4.25,
+            -4,
+            -3.75,
+            -3.5,
+            -3.25,
+            -3,
+            -2.75,
+            -2.5,
+            -2.25,
+            -2,
+            -1.75,
+            -1.5,
+            -1.25,
+            -1,
+            -0.75,
+            -0.5,
+            -0.25,
+            0
+          ],
+          "varied": true
+        },
+        {
+          "componentId": "component:e-",
+          "name": "e-",
+          "kh": [
+            2
+          ],
+          "values": [
+            -20.28419863291158,
+            -19.439023689873597,
+            -18.59384874683562,
+            -17.74867380379763,
+            -16.903498860759647,
+            -16.058323917721665,
+            -15.213148974683685,
+            -14.367974031645703,
+            -13.522799088607721,
+            -12.677624145569736,
+            -11.832449202531755,
+            -10.987274259493772,
+            -10.14209931645579,
+            -9.29692437341781,
+            -8.451749430379824,
+            -7.606574487341842,
+            -6.761399544303859,
+            -5.916224601265878,
+            -5.071049658227896,
+            -4.2258747151899145,
+            -3.3806997721519276,
+            -2.535524829113946,
+            -1.6903498860759647,
+            -0.8451749430379832,
+            0,
+            0.8451749430379815,
+            1.6903498860759638,
+            2.535524829113948,
+            3.3806997721519303,
+            4.2258747151899145,
+            5.0710496582278966,
+            5.916224601265879,
+            6.7613995443038615,
+            7.606574487341843,
+            8.451749430379826,
+            9.296924373417808,
+            10.14209931645579,
+            10.987274259493773,
+            11.832449202531757,
+            12.677624145569737,
+            13.52279908860772,
+            14.367974031645705,
+            15.213148974683685,
+            16.05832391772167,
+            16.90349886075965
+          ],
+          "varied": true
+        },
+        {
+          "componentId": "component:H2O",
+          "name": "H2O",
+          "kh": [
+            2
+          ],
+          "values": [
+            0
+          ],
+          "varied": false
+        }
+      ],
+      "definitionNote": "Session setup is retained for provenance; actualConstraintDomains and raw per-point CSV are authoritative for the executed constraints, including the derived Fe 101-point sweep."
+    },
+    {
+      "name": "Cu-area",
+      "selectedComponents": [
+        "Cu 2+",
+        "H+",
+        "e-",
+        "H2O"
+      ],
+      "products": [
+        {
+          "id": "canonical-state:component:Cu%2B",
+          "name": "Cu+",
+          "phase": "aqueous"
+        },
+        {
+          "id": "spana:2ac52a30213c9288:102305",
+          "name": "Cu(OH)2",
+          "phase": "aqueous"
+        },
+        {
+          "id": "spana:2ac52a30213c9288:102484",
+          "name": "Cu(OH)2-",
+          "phase": "aqueous"
+        },
+        {
+          "id": "spana:2ac52a30213c9288:102572",
+          "name": "Cu(OH)3-",
+          "phase": "aqueous"
+        },
+        {
+          "id": "spana:2ac52a30213c9288:102662",
+          "name": "Cu(OH)4-2",
+          "phase": "aqueous"
+        },
+        {
+          "id": "spana:2ac52a30213c9288:104107",
+          "name": "Cu2(OH)2+2",
+          "phase": "aqueous"
+        },
+        {
+          "id": "spana:2ac52a30213c9288:105296",
+          "name": "Cu3(OH)4+2",
+          "phase": "aqueous"
+        },
+        {
+          "id": "spana:2ac52a30213c9288:110864",
+          "name": "CuOH",
+          "phase": "aqueous"
+        },
+        {
+          "id": "spana:2ac52a30213c9288:110948",
+          "name": "CuOH+",
+          "phase": "aqueous"
+        },
+        {
+          "id": "spana:2ac52a30213c9288:102394",
+          "name": "Cu(OH)2(cr)",
+          "phase": "solid"
+        },
+        {
+          "id": "spana:2ac52a30213c9288:104641",
+          "name": "Cu2O(cr)",
+          "phase": "solid"
+        },
+        {
+          "id": "spana:2ac52a30213c9288:110778",
+          "name": "CuO(cr)",
+          "phase": "solid"
+        },
+        {
+          "id": "spana:2ac52a30213c9288:98874",
+          "name": "Cu(cr)",
+          "phase": "solid"
+        }
+      ],
+      "adamTiming": {
+        "nonScientific": true,
+        "solvingMs": 5202.766300000012,
+        "inputPreparationMs": 898.4120999998704,
+        "elapsedMs": 7174.094300000001
+      },
+      "variants": [
+        {
+          "reuse": false,
+          "points": 2565,
+          "haltafallAccepted": 2565,
+          "adamAccepted": 2565,
+          "compared": 2565,
+          "statusDisagreements": 0,
+          "phaseDisagreementsAbove1e_12": 0,
+          "maxConcentrationDifference": 1.9056411722055688e-14,
+          "maxLogActivityDifference": 8.276046514765767e-11,
+          "maxComponentFractionDifference": 1.9056411722055688e-10,
+          "maxTotalDifference": 0,
+          "haltafallSolveMs": 44.60679999999988
+        },
+        {
+          "reuse": true,
+          "points": 2565,
+          "haltafallAccepted": 2565,
+          "adamAccepted": 2565,
+          "compared": 2565,
+          "statusDisagreements": 0,
+          "phaseDisagreementsAbove1e_12": 0,
+          "maxConcentrationDifference": 1.8927283243312665e-14,
+          "maxLogActivityDifference": 8.2291506942056e-11,
+          "maxComponentFractionDifference": 1.8893578108275522e-10,
+          "maxTotalDifference": 0,
+          "haltafallSolveMs": 25.768099999999755
+        }
+      ],
+      "definition": {
+        "schemaVersion": 1,
+        "output": {
+          "type": "log-concentration",
+          "speciesIds": [],
+          "componentId": null,
+          "referenceSpeciesId": null,
+          "redoxQuantity": "pe"
+        },
+        "componentConditions": [
+          {
+            "componentId": "component:Cu%202%2B",
+            "mode": "T",
+            "quantity": "total",
+            "unit": "mol/kg-H2O",
+            "value": 0.0001
+          },
+          {
+            "componentId": "component:H2O",
+            "mode": "LA",
+            "quantity": "log-activity",
+            "unit": "dimensionless",
+            "value": 0
+          }
+        ],
+        "independentVariables": [
+          {
+            "componentId": "component:H%2B",
+            "mode": "LAV",
+            "quantity": "pH",
+            "unit": "dimensionless",
+            "range": {
+              "min": 0,
+              "max": 14
+            },
+            "points": 57
+          },
+          {
+            "componentId": "component:e-",
+            "mode": "LAV",
+            "quantity": "Eh",
+            "unit": "V-SHE",
+            "range": {
+              "min": -1,
+              "max": 1.2
+            },
+            "points": 45
+          }
+        ],
+        "temperature": {
+          "value": 25,
+          "unit": "C"
+        },
+        "pressure": {
+          "value": 1,
+          "unit": "bar"
+        },
+        "ionicStrength": {
+          "mode": "automatic",
+          "value": null,
+          "unit": "mol/kg-H2O"
+        },
+        "activityModel": "ideal",
+        "enabledPhases": [
+          "aqueous",
+          "solid",
+          "liquid"
+        ],
+        "sampling": {
+          "strategy": "cartesian",
+          "maxPoints": 10000
+        },
+        "dimensions": 2,
+        "predominanceArea": {
+          "componentId": "component:Cu%202%2B",
+          "interpretation": "auto"
+        }
+      },
+      "admittedConstraints": [
+        {
+          "componentId": "component:Cu%202%2B",
+          "hur": 1,
+          "kh": 1,
+          "field": "tot",
+          "value": 0.0001
+        },
+        {
+          "componentId": "component:H%2B",
+          "hur": 5,
+          "kh": 2,
+          "field": "logA",
+          "value": 0
+        },
+        {
+          "componentId": "component:e-",
+          "hur": 5,
+          "kh": 2,
+          "field": "logA",
+          "value": 16.90349886075965
+        },
+        {
+          "componentId": "component:H2O",
+          "hur": 4,
+          "kh": 2,
+          "field": "logA",
+          "value": 0
+        }
+      ],
+      "evidenceScope": "production admitted",
+      "classification": "equivalent admitted-model numerical control",
+      "actualConstraintDomains": [
+        {
+          "componentId": "component:Cu%202%2B",
+          "name": "Cu 2+",
+          "kh": [
+            1
+          ],
+          "values": [
+            0.0001
+          ],
+          "varied": false
+        },
+        {
+          "componentId": "component:H%2B",
+          "name": "H+",
+          "kh": [
+            2
+          ],
+          "values": [
+            -14,
+            -13.75,
+            -13.5,
+            -13.25,
+            -13,
+            -12.75,
+            -12.5,
+            -12.25,
+            -12,
+            -11.75,
+            -11.5,
+            -11.25,
+            -11,
+            -10.75,
+            -10.5,
+            -10.25,
+            -10,
+            -9.75,
+            -9.5,
+            -9.25,
+            -9,
+            -8.75,
+            -8.5,
+            -8.25,
+            -8,
+            -7.75,
+            -7.5,
+            -7.250000000000001,
+            -7,
+            -6.75,
+            -6.5,
+            -6.25,
+            -6,
+            -5.75,
+            -5.5,
+            -5.25,
+            -5,
+            -4.75,
+            -4.5,
+            -4.25,
+            -4,
+            -3.75,
+            -3.5,
+            -3.25,
+            -3,
+            -2.75,
+            -2.5,
+            -2.25,
+            -2,
+            -1.75,
+            -1.5,
+            -1.25,
+            -1,
+            -0.75,
+            -0.5,
+            -0.25,
+            0
+          ],
+          "varied": true
+        },
+        {
+          "componentId": "component:e-",
+          "name": "e-",
+          "kh": [
+            2
+          ],
+          "values": [
+            -20.28419863291158,
+            -19.439023689873597,
+            -18.59384874683562,
+            -17.74867380379763,
+            -16.903498860759647,
+            -16.058323917721665,
+            -15.213148974683685,
+            -14.367974031645703,
+            -13.522799088607721,
+            -12.677624145569736,
+            -11.832449202531755,
+            -10.987274259493772,
+            -10.14209931645579,
+            -9.29692437341781,
+            -8.451749430379824,
+            -7.606574487341842,
+            -6.761399544303859,
+            -5.916224601265878,
+            -5.071049658227896,
+            -4.2258747151899145,
+            -3.3806997721519276,
+            -2.535524829113946,
+            -1.6903498860759647,
+            -0.8451749430379832,
+            0,
+            0.8451749430379815,
+            1.6903498860759638,
+            2.535524829113948,
+            3.3806997721519303,
+            4.2258747151899145,
+            5.0710496582278966,
+            5.916224601265879,
+            6.7613995443038615,
+            7.606574487341843,
+            8.451749430379826,
+            9.296924373417808,
+            10.14209931645579,
+            10.987274259493773,
+            11.832449202531757,
+            12.677624145569737,
+            13.52279908860772,
+            14.367974031645705,
+            15.213148974683685,
+            16.05832391772167,
+            16.90349886075965
+          ],
+          "varied": true
+        },
+        {
+          "componentId": "component:H2O",
+          "name": "H2O",
+          "kh": [
+            2
+          ],
+          "values": [
+            0
+          ],
+          "varied": false
+        }
+      ],
+      "definitionNote": "Session setup is retained for provenance; actualConstraintDomains and raw per-point CSV are authoritative for the executed constraints, including the derived Fe 101-point sweep."
+    },
+    {
+      "name": "Fe-area",
+      "selectedComponents": [
+        "Fe 2+",
+        "H+",
+        "e-",
+        "H2O"
+      ],
+      "products": [
+        {
+          "id": "canonical-state:component:Fe%203%2B",
+          "name": "Fe 3+",
+          "phase": "aqueous"
+        },
+        {
+          "id": "spana:2ac52a30213c9288:130813",
+          "name": "Fe(OH)2",
+          "phase": "aqueous"
+        },
+        {
+          "id": "spana:2ac52a30213c9288:131002",
+          "name": "Fe(OH)2+",
+          "phase": "aqueous"
+        },
+        {
+          "id": "spana:2ac52a30213c9288:131099",
+          "name": "Fe(OH)3",
+          "phase": "aqueous"
+        },
+        {
+          "id": "spana:2ac52a30213c9288:131406",
+          "name": "Fe(OH)3-",
+          "phase": "aqueous"
+        },
+        {
+          "id": "spana:2ac52a30213c9288:131496",
+          "name": "Fe(OH)4-",
+          "phase": "aqueous"
+        },
+        {
+          "id": "spana:2ac52a30213c9288:131586",
+          "name": "Fe(OH)4-2",
+          "phase": "aqueous"
+        },
+        {
+          "id": "spana:2ac52a30213c9288:133463",
+          "name": "Fe2(OH)2+4",
+          "phase": "aqueous"
+        },
+        {
+          "id": "spana:2ac52a30213c9288:138672",
+          "name": "FeO4-2",
+          "phase": "aqueous"
+        },
+        {
+          "id": "spana:2ac52a30213c9288:138873",
+          "name": "FeOH 2+",
+          "phase": "aqueous"
+        },
+        {
+          "id": "spana:2ac52a30213c9288:138969",
+          "name": "FeOH+",
+          "phase": "aqueous"
+        },
+        {
+          "id": "spana:2ac52a30213c9288:127500",
+          "name": "Fe(cr)",
+          "phase": "solid"
+        },
+        {
+          "id": "spana:2ac52a30213c9288:130902",
+          "name": "Fe(OH)2(cr)",
+          "phase": "solid"
+        },
+        {
+          "id": "spana:2ac52a30213c9288:131188",
+          "name": "Fe(OH)3(am)",
+          "phase": "solid"
+        },
+        {
+          "id": "spana:2ac52a30213c9288:131294",
+          "name": "Fe(OH)3(s)",
+          "phase": "solid"
+        },
+        {
+          "id": "spana:2ac52a30213c9288:133739",
+          "name": "Fe2O3(cr)",
+          "phase": "solid"
+        },
+        {
+          "id": "spana:2ac52a30213c9288:134486",
+          "name": "Fe3O4(cr)",
+          "phase": "solid"
+        },
+        {
+          "id": "spana:2ac52a30213c9288:139276",
+          "name": "FeOOH(cr)",
+          "phase": "solid"
+        }
+      ],
+      "adamTiming": {
+        "nonScientific": true,
+        "solvingMs": 10696.669199999958,
+        "inputPreparationMs": 1249.6726000000021,
+        "elapsedMs": 13025.4133
+      },
+      "variants": [
+        {
+          "reuse": false,
+          "points": 2565,
+          "haltafallAccepted": 2565,
+          "adamAccepted": 2565,
+          "compared": 2565,
+          "statusDisagreements": 0,
+          "phaseDisagreementsAbove1e_12": 0,
+          "maxConcentrationDifference": 9.762416569580878e-14,
+          "maxLogActivityDifference": 4.239097961544758e-11,
+          "maxComponentFractionDifference": 9.762416569580878e-11,
+          "maxTotalDifference": 0,
+          "haltafallSolveMs": 44.7394
+        },
+        {
+          "reuse": true,
+          "points": 2565,
+          "haltafallAccepted": 2565,
+          "adamAccepted": 2565,
+          "compared": 2565,
+          "statusDisagreements": 0,
+          "phaseDisagreementsAbove1e_12": 0,
+          "maxConcentrationDifference": 9.495507678758397e-14,
+          "maxLogActivityDifference": 4.2010395162606073e-11,
+          "maxComponentFractionDifference": 9.495507678758397e-11,
+          "maxTotalDifference": 0,
+          "haltafallSolveMs": 27.961199999999938
+        }
+      ],
+      "definition": {
+        "schemaVersion": 1,
+        "output": {
+          "type": "log-concentration",
+          "speciesIds": [],
+          "componentId": null,
+          "referenceSpeciesId": null,
+          "redoxQuantity": "pe"
+        },
+        "componentConditions": [
+          {
+            "componentId": "component:Fe%202%2B",
+            "mode": "T",
+            "quantity": "total",
+            "unit": "mol/kg-H2O",
+            "value": 0.001
+          },
+          {
+            "componentId": "component:H2O",
+            "mode": "LA",
+            "quantity": "log-activity",
+            "unit": "dimensionless",
+            "value": 0
+          }
+        ],
+        "independentVariables": [
+          {
+            "componentId": "component:H%2B",
+            "mode": "LAV",
+            "quantity": "pH",
+            "unit": "dimensionless",
+            "range": {
+              "min": 0,
+              "max": 14
+            },
+            "points": 57
+          },
+          {
+            "componentId": "component:e-",
+            "mode": "LAV",
+            "quantity": "Eh",
+            "unit": "V-SHE",
+            "range": {
+              "min": -1,
+              "max": 1.2
+            },
+            "points": 45
+          }
+        ],
+        "temperature": {
+          "value": 25,
+          "unit": "C"
+        },
+        "pressure": {
+          "value": 1,
+          "unit": "bar"
+        },
+        "ionicStrength": {
+          "mode": "automatic",
+          "value": null,
+          "unit": "mol/kg-H2O"
+        },
+        "activityModel": "ideal",
+        "enabledPhases": [
+          "aqueous",
+          "solid",
+          "liquid"
+        ],
+        "sampling": {
+          "strategy": "cartesian",
+          "maxPoints": 10000
+        },
+        "dimensions": 2,
+        "predominanceArea": {
+          "componentId": "component:Fe%202%2B",
+          "interpretation": "auto"
+        }
+      },
+      "admittedConstraints": [
+        {
+          "componentId": "component:Fe%202%2B",
+          "hur": 1,
+          "kh": 1,
+          "field": "tot",
+          "value": 0.001
+        },
+        {
+          "componentId": "component:H%2B",
+          "hur": 5,
+          "kh": 2,
+          "field": "logA",
+          "value": 0
+        },
+        {
+          "componentId": "component:e-",
+          "hur": 5,
+          "kh": 2,
+          "field": "logA",
+          "value": 16.90349886075965
+        },
+        {
+          "componentId": "component:H2O",
+          "hur": 4,
+          "kh": 2,
+          "field": "logA",
+          "value": 0
+        }
+      ],
+      "evidenceScope": "production admitted",
+      "classification": "equivalent admitted-model numerical control",
+      "actualConstraintDomains": [
+        {
+          "componentId": "component:Fe%202%2B",
+          "name": "Fe 2+",
+          "kh": [
+            1
+          ],
+          "values": [
+            0.001
+          ],
+          "varied": false
+        },
+        {
+          "componentId": "component:H%2B",
+          "name": "H+",
+          "kh": [
+            2
+          ],
+          "values": [
+            -14,
+            -13.75,
+            -13.5,
+            -13.25,
+            -13,
+            -12.75,
+            -12.5,
+            -12.25,
+            -12,
+            -11.75,
+            -11.5,
+            -11.25,
+            -11,
+            -10.75,
+            -10.5,
+            -10.25,
+            -10,
+            -9.75,
+            -9.5,
+            -9.25,
+            -9,
+            -8.75,
+            -8.5,
+            -8.25,
+            -8,
+            -7.75,
+            -7.5,
+            -7.250000000000001,
+            -7,
+            -6.75,
+            -6.5,
+            -6.25,
+            -6,
+            -5.75,
+            -5.5,
+            -5.25,
+            -5,
+            -4.75,
+            -4.5,
+            -4.25,
+            -4,
+            -3.75,
+            -3.5,
+            -3.25,
+            -3,
+            -2.75,
+            -2.5,
+            -2.25,
+            -2,
+            -1.75,
+            -1.5,
+            -1.25,
+            -1,
+            -0.75,
+            -0.5,
+            -0.25,
+            0
+          ],
+          "varied": true
+        },
+        {
+          "componentId": "component:e-",
+          "name": "e-",
+          "kh": [
+            2
+          ],
+          "values": [
+            -20.28419863291158,
+            -19.439023689873597,
+            -18.59384874683562,
+            -17.74867380379763,
+            -16.903498860759647,
+            -16.058323917721665,
+            -15.213148974683685,
+            -14.367974031645703,
+            -13.522799088607721,
+            -12.677624145569736,
+            -11.832449202531755,
+            -10.987274259493772,
+            -10.14209931645579,
+            -9.29692437341781,
+            -8.451749430379824,
+            -7.606574487341842,
+            -6.761399544303859,
+            -5.916224601265878,
+            -5.071049658227896,
+            -4.2258747151899145,
+            -3.3806997721519276,
+            -2.535524829113946,
+            -1.6903498860759647,
+            -0.8451749430379832,
+            0,
+            0.8451749430379815,
+            1.6903498860759638,
+            2.535524829113948,
+            3.3806997721519303,
+            4.2258747151899145,
+            5.0710496582278966,
+            5.916224601265879,
+            6.7613995443038615,
+            7.606574487341843,
+            8.451749430379826,
+            9.296924373417808,
+            10.14209931645579,
+            10.987274259493773,
+            11.832449202531757,
+            12.677624145569737,
+            13.52279908860772,
+            14.367974031645705,
+            15.213148974683685,
+            16.05832391772167,
+            16.90349886075965
+          ],
+          "varied": true
+        },
+        {
+          "componentId": "component:H2O",
+          "name": "H2O",
+          "kh": [
+            2
+          ],
+          "values": [
+            0
+          ],
+          "varied": false
+        }
+      ],
+      "definitionNote": "Session setup is retained for provenance; actualConstraintDomains and raw per-point CSV are authoritative for the executed constraints, including the derived Fe 101-point sweep."
+    },
+    {
+      "name": "Fe-derived-both",
+      "selectedComponents": [
+        "Fe 2+",
+        "H+",
+        "e-",
+        "H2O"
+      ],
+      "products": [
+        {
+          "id": "canonical-state:component:Fe%203%2B",
+          "name": "Fe 3+",
+          "phase": "aqueous"
+        },
+        {
+          "id": "spana:2ac52a30213c9288:130813",
+          "name": "Fe(OH)2",
+          "phase": "aqueous"
+        },
+        {
+          "id": "spana:2ac52a30213c9288:131002",
+          "name": "Fe(OH)2+",
+          "phase": "aqueous"
+        },
+        {
+          "id": "spana:2ac52a30213c9288:131099",
+          "name": "Fe(OH)3",
+          "phase": "aqueous"
+        },
+        {
+          "id": "spana:2ac52a30213c9288:131406",
+          "name": "Fe(OH)3-",
+          "phase": "aqueous"
+        },
+        {
+          "id": "spana:2ac52a30213c9288:131496",
+          "name": "Fe(OH)4-",
+          "phase": "aqueous"
+        },
+        {
+          "id": "spana:2ac52a30213c9288:131586",
+          "name": "Fe(OH)4-2",
+          "phase": "aqueous"
+        },
+        {
+          "id": "spana:2ac52a30213c9288:133463",
+          "name": "Fe2(OH)2+4",
+          "phase": "aqueous"
+        },
+        {
+          "id": "spana:2ac52a30213c9288:138672",
+          "name": "FeO4-2",
+          "phase": "aqueous"
+        },
+        {
+          "id": "spana:2ac52a30213c9288:138873",
+          "name": "FeOH 2+",
+          "phase": "aqueous"
+        },
+        {
+          "id": "spana:2ac52a30213c9288:138969",
+          "name": "FeOH+",
+          "phase": "aqueous"
+        },
+        {
+          "id": "spana:2ac52a30213c9288:127500",
+          "name": "Fe(cr)",
+          "phase": "solid"
+        },
+        {
+          "id": "spana:2ac52a30213c9288:130902",
+          "name": "Fe(OH)2(cr)",
+          "phase": "solid"
+        },
+        {
+          "id": "spana:2ac52a30213c9288:131188",
+          "name": "Fe(OH)3(am)",
+          "phase": "solid"
+        },
+        {
+          "id": "spana:2ac52a30213c9288:131294",
+          "name": "Fe(OH)3(s)",
+          "phase": "solid"
+        },
+        {
+          "id": "spana:2ac52a30213c9288:133739",
+          "name": "Fe2O3(cr)",
+          "phase": "solid"
+        },
+        {
+          "id": "spana:2ac52a30213c9288:134486",
+          "name": "Fe3O4(cr)",
+          "phase": "solid"
+        },
+        {
+          "id": "spana:2ac52a30213c9288:139276",
+          "name": "FeOOH(cr)",
+          "phase": "solid"
+        }
+      ],
+      "adamTiming": {
+        "nonScientific": true,
+        "elapsedMs": 1611.1545,
+        "inputPreparationMs": 39.32129999999688,
+        "solvingMs": 1565.2580999999986
+      },
+      "variants": [
+        {
+          "reuse": false,
+          "points": 51,
+          "haltafallAccepted": 46,
+          "adamAccepted": 8,
+          "compared": 8,
+          "statusDisagreements": 38,
+          "phaseDisagreementsAbove1e_12": 0,
+          "maxConcentrationDifference": 0.00024144164945806562,
+          "maxLogActivityDifference": 399907.1164094634,
+          "maxComponentFractionDifference": 1.00000000004177,
+          "maxTotalDifference": 0,
+          "haltafallSolveMs": 22.719599999999996
+        },
+        {
+          "reuse": true,
+          "points": 51,
+          "haltafallAccepted": 46,
+          "adamAccepted": 8,
+          "compared": 8,
+          "statusDisagreements": 38,
+          "phaseDisagreementsAbove1e_12": 0,
+          "maxConcentrationDifference": 0.00024144164945806047,
+          "maxLogActivityDifference": 399907.1164094634,
+          "maxComponentFractionDifference": 1.0000000000557514,
+          "maxTotalDifference": 0,
+          "haltafallSolveMs": 8.865200000000003
+        }
+      ],
+      "definition": {
+        "schemaVersion": 1,
+        "output": {
+          "type": "log-concentration",
+          "speciesIds": [],
+          "componentId": null,
+          "referenceSpeciesId": null,
+          "redoxQuantity": "pe"
+        },
+        "componentConditions": [
+          {
+            "componentId": "component:H2O",
+            "mode": "LA",
+            "quantity": "log-activity",
+            "unit": "dimensionless",
+            "value": 0
+          },
+          {
+            "componentId": "component:H%2B",
+            "mode": "T",
+            "quantity": "total",
+            "unit": "mol/kg-H2O",
+            "value": 0
+          },
+          {
+            "componentId": "component:e-",
+            "mode": "T",
+            "quantity": "total",
+            "unit": "mol/kg-H2O",
+            "value": 0
+          }
+        ],
+        "independentVariables": [
+          {
+            "componentId": "component:Fe%202%2B",
+            "mode": "LTV",
+            "quantity": "total",
+            "unit": "mol/kg-H2O",
+            "range": {
+              "min": -5,
+              "max": -3
+            },
+            "points": 51
+          }
+        ],
+        "temperature": {
+          "value": 25,
+          "unit": "C"
+        },
+        "pressure": {
+          "value": 1,
+          "unit": "bar"
+        },
+        "ionicStrength": {
+          "mode": "automatic",
+          "value": null,
+          "unit": "mol/kg-H2O"
+        },
+        "activityModel": "ideal",
+        "enabledPhases": [
+          "aqueous",
+          "solid",
+          "liquid"
+        ],
+        "sampling": {
+          "strategy": "cartesian",
+          "maxPoints": 10000
+        },
+        "dimensions": 1,
+        "predominanceArea": {
+          "componentId": "component:Fe%202%2B",
+          "interpretation": "auto"
+        },
+        "automaticBoundaries": true
+      },
+      "admittedConstraints": [
+        {
+          "componentId": "component:Fe%202%2B",
+          "hur": 3,
+          "kh": 1,
+          "field": "tot",
+          "value": 0.00001
+        },
+        {
+          "componentId": "component:H%2B",
+          "hur": 1,
+          "kh": 1,
+          "field": "tot",
+          "value": 0
+        },
+        {
+          "componentId": "component:e-",
+          "hur": 1,
+          "kh": 1,
+          "field": "tot",
+          "value": 0
+        },
+        {
+          "componentId": "component:H2O",
+          "hur": 4,
+          "kh": 2,
+          "field": "logA",
+          "value": 0
+        }
+      ],
+      "evidenceScope": "research-only; final production rejects this request",
+      "classification": "B: missing reliable calculated-electron support",
+      "actualConstraintDomains": [
+        {
+          "componentId": "component:Fe%202%2B",
+          "name": "Fe 2+",
+          "kh": [
+            1
+          ],
+          "values": [
+            0.00001,
+            0.000010964781961431852,
+            0.000012022644346174132,
+            0.000013182567385564101,
+            0.00001445439770745925,
+            0.00001584893192461114,
+            0.000017378008287493727,
+            0.000019054607179632484,
+            0.00002089296130854041,
+            0.0000229086765276777,
+            0.000025118864315095822,
+            0.000027542287033381633,
+            0.000030199517204020192,
+            0.000033113112148259076,
+            0.000036307805477010174,
+            0.000039810717055349695,
+            0.000043651583224016654,
+            0.000047863009232263804,
+            0.00005248074602497723,
+            0.000057543993733715664,
+            0.00006309573444801929,
+            0.00006918309709189363,
+            0.00007585775750291836,
+            0.00008317637711026709,
+            0.00009120108393559096,
+            0.0001,
+            0.00010964781961431851,
+            0.00012022644346174131,
+            0.00013182567385564074,
+            0.0001445439770745928,
+            0.00015848931924611142,
+            0.00017378008287493763,
+            0.00019054607179632481,
+            0.0002089296130854041,
+            0.00022908676527677748,
+            0.0002511886431509582,
+            0.00027542287033381635,
+            0.0003019951720402019,
+            0.0003311311214825908,
+            0.0003630780547701018,
+            0.0003981071705534969,
+            0.0004365158322401656,
+            0.00047863009232263805,
+            0.0005248074602497723,
+            0.0005754399373371566,
+            0.000630957344480193,
+            0.0006918309709189362,
+            0.0007585775750291835,
+            0.0008317637711026709,
+            0.0009120108393559096,
+            0.001
+          ],
+          "varied": true
+        },
+        {
+          "componentId": "component:H%2B",
+          "name": "H+",
+          "kh": [
+            1
+          ],
+          "values": [
+            0
+          ],
+          "varied": false
+        },
+        {
+          "componentId": "component:e-",
+          "name": "e-",
+          "kh": [
+            1
+          ],
+          "values": [
+            0
+          ],
+          "varied": false
+        },
+        {
+          "componentId": "component:H2O",
+          "name": "H2O",
+          "kh": [
+            2
+          ],
+          "values": [
+            0
+          ],
+          "varied": false
+        }
+      ],
+      "definitionNote": "Session setup is retained for provenance; actualConstraintDomains and raw per-point CSV are authoritative for the executed constraints, including the derived Fe 101-point sweep."
+    },
+    {
+      "name": "Fe-derived-Eh",
+      "selectedComponents": [
+        "Fe 2+",
+        "H+",
+        "e-",
+        "H2O"
+      ],
+      "products": [
+        {
+          "id": "canonical-state:component:Fe%203%2B",
+          "name": "Fe 3+",
+          "phase": "aqueous"
+        },
+        {
+          "id": "spana:2ac52a30213c9288:130813",
+          "name": "Fe(OH)2",
+          "phase": "aqueous"
+        },
+        {
+          "id": "spana:2ac52a30213c9288:131002",
+          "name": "Fe(OH)2+",
+          "phase": "aqueous"
+        },
+        {
+          "id": "spana:2ac52a30213c9288:131099",
+          "name": "Fe(OH)3",
+          "phase": "aqueous"
+        },
+        {
+          "id": "spana:2ac52a30213c9288:131406",
+          "name": "Fe(OH)3-",
+          "phase": "aqueous"
+        },
+        {
+          "id": "spana:2ac52a30213c9288:131496",
+          "name": "Fe(OH)4-",
+          "phase": "aqueous"
+        },
+        {
+          "id": "spana:2ac52a30213c9288:131586",
+          "name": "Fe(OH)4-2",
+          "phase": "aqueous"
+        },
+        {
+          "id": "spana:2ac52a30213c9288:133463",
+          "name": "Fe2(OH)2+4",
+          "phase": "aqueous"
+        },
+        {
+          "id": "spana:2ac52a30213c9288:138672",
+          "name": "FeO4-2",
+          "phase": "aqueous"
+        },
+        {
+          "id": "spana:2ac52a30213c9288:138873",
+          "name": "FeOH 2+",
+          "phase": "aqueous"
+        },
+        {
+          "id": "spana:2ac52a30213c9288:138969",
+          "name": "FeOH+",
+          "phase": "aqueous"
+        },
+        {
+          "id": "spana:2ac52a30213c9288:127500",
+          "name": "Fe(cr)",
+          "phase": "solid"
+        },
+        {
+          "id": "spana:2ac52a30213c9288:130902",
+          "name": "Fe(OH)2(cr)",
+          "phase": "solid"
+        },
+        {
+          "id": "spana:2ac52a30213c9288:131188",
+          "name": "Fe(OH)3(am)",
+          "phase": "solid"
+        },
+        {
+          "id": "spana:2ac52a30213c9288:131294",
+          "name": "Fe(OH)3(s)",
+          "phase": "solid"
+        },
+        {
+          "id": "spana:2ac52a30213c9288:133739",
+          "name": "Fe2O3(cr)",
+          "phase": "solid"
+        },
+        {
+          "id": "spana:2ac52a30213c9288:134486",
+          "name": "Fe3O4(cr)",
+          "phase": "solid"
+        },
+        {
+          "id": "spana:2ac52a30213c9288:139276",
+          "name": "FeOOH(cr)",
+          "phase": "solid"
+        }
+      ],
+      "adamTiming": {
+        "nonScientific": true,
+        "elapsedMs": 780.4350999999997,
+        "inputPreparationMs": 23.053099999997812,
+        "solvingMs": 748.5971999999997
+      },
+      "variants": [
+        {
+          "reuse": false,
+          "points": 51,
+          "haltafallAccepted": 51,
+          "adamAccepted": 0,
+          "compared": 0,
+          "statusDisagreements": 51,
+          "phaseDisagreementsAbove1e_12": 0,
+          "maxConcentrationDifference": 0,
+          "maxLogActivityDifference": 0,
+          "maxComponentFractionDifference": 0,
+          "maxTotalDifference": 0,
+          "haltafallSolveMs": 5.604000000000001
+        },
+        {
+          "reuse": true,
+          "points": 51,
+          "haltafallAccepted": 51,
+          "adamAccepted": 0,
+          "compared": 0,
+          "statusDisagreements": 51,
+          "phaseDisagreementsAbove1e_12": 0,
+          "maxConcentrationDifference": 0,
+          "maxLogActivityDifference": 0,
+          "maxComponentFractionDifference": 0,
+          "maxTotalDifference": 0,
+          "haltafallSolveMs": 3.4338
+        }
+      ],
+      "definition": {
+        "schemaVersion": 1,
+        "output": {
+          "type": "log-concentration",
+          "speciesIds": [],
+          "componentId": null,
+          "referenceSpeciesId": null,
+          "redoxQuantity": "pe"
+        },
+        "componentConditions": [
+          {
+            "componentId": "component:H2O",
+            "mode": "LA",
+            "quantity": "log-activity",
+            "unit": "dimensionless",
+            "value": 0
+          },
+          {
+            "componentId": "component:H%2B",
+            "mode": "LA",
+            "quantity": "pH",
+            "unit": "dimensionless",
+            "value": 3
+          },
+          {
+            "componentId": "component:e-",
+            "mode": "T",
+            "quantity": "total",
+            "unit": "mol/kg-H2O",
+            "value": 0
+          }
+        ],
+        "independentVariables": [
+          {
+            "componentId": "component:Fe%202%2B",
+            "mode": "LTV",
+            "quantity": "total",
+            "unit": "mol/kg-H2O",
+            "range": {
+              "min": -5,
+              "max": -3
+            },
+            "points": 51
+          }
+        ],
+        "temperature": {
+          "value": 25,
+          "unit": "C"
+        },
+        "pressure": {
+          "value": 1,
+          "unit": "bar"
+        },
+        "ionicStrength": {
+          "mode": "automatic",
+          "value": null,
+          "unit": "mol/kg-H2O"
+        },
+        "activityModel": "ideal",
+        "enabledPhases": [
+          "aqueous",
+          "solid",
+          "liquid"
+        ],
+        "sampling": {
+          "strategy": "cartesian",
+          "maxPoints": 10000
+        },
+        "dimensions": 1,
+        "predominanceArea": {
+          "componentId": "component:Fe%202%2B",
+          "interpretation": "auto"
+        },
+        "automaticBoundaries": true
+      },
+      "admittedConstraints": [
+        {
+          "componentId": "component:Fe%202%2B",
+          "hur": 3,
+          "kh": 1,
+          "field": "tot",
+          "value": 0.00001
+        },
+        {
+          "componentId": "component:H%2B",
+          "hur": 4,
+          "kh": 2,
+          "field": "logA",
+          "value": -3
+        },
+        {
+          "componentId": "component:e-",
+          "hur": 1,
+          "kh": 1,
+          "field": "tot",
+          "value": 0
+        },
+        {
+          "componentId": "component:H2O",
+          "hur": 4,
+          "kh": 2,
+          "field": "logA",
+          "value": 0
+        }
+      ],
+      "evidenceScope": "research-only; final production rejects this request",
+      "classification": "B: missing reliable calculated-electron support",
+      "actualConstraintDomains": [
+        {
+          "componentId": "component:Fe%202%2B",
+          "name": "Fe 2+",
+          "kh": [
+            1
+          ],
+          "values": [
+            0.00001,
+            0.000010964781961431852,
+            0.000012022644346174132,
+            0.000013182567385564101,
+            0.00001445439770745925,
+            0.00001584893192461114,
+            0.000017378008287493727,
+            0.000019054607179632484,
+            0.00002089296130854041,
+            0.0000229086765276777,
+            0.000025118864315095822,
+            0.000027542287033381633,
+            0.000030199517204020192,
+            0.000033113112148259076,
+            0.000036307805477010174,
+            0.000039810717055349695,
+            0.000043651583224016654,
+            0.000047863009232263804,
+            0.00005248074602497723,
+            0.000057543993733715664,
+            0.00006309573444801929,
+            0.00006918309709189363,
+            0.00007585775750291836,
+            0.00008317637711026709,
+            0.00009120108393559096,
+            0.0001,
+            0.00010964781961431851,
+            0.00012022644346174131,
+            0.00013182567385564074,
+            0.0001445439770745928,
+            0.00015848931924611142,
+            0.00017378008287493763,
+            0.00019054607179632481,
+            0.0002089296130854041,
+            0.00022908676527677748,
+            0.0002511886431509582,
+            0.00027542287033381635,
+            0.0003019951720402019,
+            0.0003311311214825908,
+            0.0003630780547701018,
+            0.0003981071705534969,
+            0.0004365158322401656,
+            0.00047863009232263805,
+            0.0005248074602497723,
+            0.0005754399373371566,
+            0.000630957344480193,
+            0.0006918309709189362,
+            0.0007585775750291835,
+            0.0008317637711026709,
+            0.0009120108393559096,
+            0.001
+          ],
+          "varied": true
+        },
+        {
+          "componentId": "component:H%2B",
+          "name": "H+",
+          "kh": [
+            2
+          ],
+          "values": [
+            -3
+          ],
+          "varied": false
+        },
+        {
+          "componentId": "component:e-",
+          "name": "e-",
+          "kh": [
+            1
+          ],
+          "values": [
+            0
+          ],
+          "varied": false
+        },
+        {
+          "componentId": "component:H2O",
+          "name": "H2O",
+          "kh": [
+            2
+          ],
+          "values": [
+            0
+          ],
+          "varied": false
+        }
+      ],
+      "definitionNote": "Session setup is retained for provenance; actualConstraintDomains and raw per-point CSV are authoritative for the executed constraints, including the derived Fe 101-point sweep."
+    },
+    {
+      "name": "Fe-derived-pH",
+      "selectedComponents": [
+        "Fe 2+",
+        "H+",
+        "e-",
+        "H2O"
+      ],
+      "products": [
+        {
+          "id": "canonical-state:component:Fe%203%2B",
+          "name": "Fe 3+",
+          "phase": "aqueous"
+        },
+        {
+          "id": "spana:2ac52a30213c9288:130813",
+          "name": "Fe(OH)2",
+          "phase": "aqueous"
+        },
+        {
+          "id": "spana:2ac52a30213c9288:131002",
+          "name": "Fe(OH)2+",
+          "phase": "aqueous"
+        },
+        {
+          "id": "spana:2ac52a30213c9288:131099",
+          "name": "Fe(OH)3",
+          "phase": "aqueous"
+        },
+        {
+          "id": "spana:2ac52a30213c9288:131406",
+          "name": "Fe(OH)3-",
+          "phase": "aqueous"
+        },
+        {
+          "id": "spana:2ac52a30213c9288:131496",
+          "name": "Fe(OH)4-",
+          "phase": "aqueous"
+        },
+        {
+          "id": "spana:2ac52a30213c9288:131586",
+          "name": "Fe(OH)4-2",
+          "phase": "aqueous"
+        },
+        {
+          "id": "spana:2ac52a30213c9288:133463",
+          "name": "Fe2(OH)2+4",
+          "phase": "aqueous"
+        },
+        {
+          "id": "spana:2ac52a30213c9288:138672",
+          "name": "FeO4-2",
+          "phase": "aqueous"
+        },
+        {
+          "id": "spana:2ac52a30213c9288:138873",
+          "name": "FeOH 2+",
+          "phase": "aqueous"
+        },
+        {
+          "id": "spana:2ac52a30213c9288:138969",
+          "name": "FeOH+",
+          "phase": "aqueous"
+        },
+        {
+          "id": "spana:2ac52a30213c9288:127500",
+          "name": "Fe(cr)",
+          "phase": "solid"
+        },
+        {
+          "id": "spana:2ac52a30213c9288:130902",
+          "name": "Fe(OH)2(cr)",
+          "phase": "solid"
+        },
+        {
+          "id": "spana:2ac52a30213c9288:131188",
+          "name": "Fe(OH)3(am)",
+          "phase": "solid"
+        },
+        {
+          "id": "spana:2ac52a30213c9288:131294",
+          "name": "Fe(OH)3(s)",
+          "phase": "solid"
+        },
+        {
+          "id": "spana:2ac52a30213c9288:133739",
+          "name": "Fe2O3(cr)",
+          "phase": "solid"
+        },
+        {
+          "id": "spana:2ac52a30213c9288:134486",
+          "name": "Fe3O4(cr)",
+          "phase": "solid"
+        },
+        {
+          "id": "spana:2ac52a30213c9288:139276",
+          "name": "FeOOH(cr)",
+          "phase": "solid"
+        }
+      ],
+      "adamTiming": {
+        "nonScientific": true,
+        "elapsedMs": 627.0149000000001,
+        "inputPreparationMs": 33.786599999999225,
+        "solvingMs": 571.6824999999997
+      },
+      "variants": [
+        {
+          "reuse": false,
+          "points": 51,
+          "haltafallAccepted": 51,
+          "adamAccepted": 51,
+          "compared": 51,
+          "statusDisagreements": 0,
+          "phaseDisagreementsAbove1e_12": 0,
+          "maxConcentrationDifference": 1.1367126247978192e-14,
+          "maxLogActivityDifference": 5.728282737038626e-9,
+          "maxComponentFractionDifference": 1.0459652920665425e-10,
+          "maxTotalDifference": 0,
+          "haltafallSolveMs": 10.131799999999997
+        },
+        {
+          "reuse": true,
+          "points": 51,
+          "haltafallAccepted": 51,
+          "adamAccepted": 51,
+          "compared": 51,
+          "statusDisagreements": 0,
+          "phaseDisagreementsAbove1e_12": 0,
+          "maxConcentrationDifference": 1.0554663812265553e-15,
+          "maxLogActivityDifference": 5.165841088228262e-9,
+          "maxComponentFractionDifference": 1.0459652920665425e-10,
+          "maxTotalDifference": 0,
+          "haltafallSolveMs": 6.1523
+        }
+      ],
+      "definition": {
+        "schemaVersion": 1,
+        "output": {
+          "type": "log-concentration",
+          "speciesIds": [],
+          "componentId": null,
+          "referenceSpeciesId": null,
+          "redoxQuantity": "pe"
+        },
+        "componentConditions": [
+          {
+            "componentId": "component:H2O",
+            "mode": "LA",
+            "quantity": "log-activity",
+            "unit": "dimensionless",
+            "value": 0
+          },
+          {
+            "componentId": "component:H%2B",
+            "mode": "T",
+            "quantity": "total",
+            "unit": "mol/kg-H2O",
+            "value": 0
+          },
+          {
+            "componentId": "component:e-",
+            "mode": "LA",
+            "quantity": "Eh",
+            "unit": "V-SHE",
+            "value": -0.2
+          }
+        ],
+        "independentVariables": [
+          {
+            "componentId": "component:Fe%202%2B",
+            "mode": "LTV",
+            "quantity": "total",
+            "unit": "mol/kg-H2O",
+            "range": {
+              "min": -5,
+              "max": -3
+            },
+            "points": 51
+          }
+        ],
+        "temperature": {
+          "value": 25,
+          "unit": "C"
+        },
+        "pressure": {
+          "value": 1,
+          "unit": "bar"
+        },
+        "ionicStrength": {
+          "mode": "automatic",
+          "value": null,
+          "unit": "mol/kg-H2O"
+        },
+        "activityModel": "ideal",
+        "enabledPhases": [
+          "aqueous",
+          "solid",
+          "liquid"
+        ],
+        "sampling": {
+          "strategy": "cartesian",
+          "maxPoints": 10000
+        },
+        "dimensions": 1,
+        "predominanceArea": {
+          "componentId": "component:Fe%202%2B",
+          "interpretation": "auto"
+        },
+        "automaticBoundaries": true
+      },
+      "admittedConstraints": [
+        {
+          "componentId": "component:Fe%202%2B",
+          "hur": 3,
+          "kh": 1,
+          "field": "tot",
+          "value": 0.00001
+        },
+        {
+          "componentId": "component:H%2B",
+          "hur": 1,
+          "kh": 1,
+          "field": "tot",
+          "value": 0
+        },
+        {
+          "componentId": "component:e-",
+          "hur": 4,
+          "kh": 2,
+          "field": "logA",
+          "value": 3.3806997721519303
+        },
+        {
+          "componentId": "component:H2O",
+          "hur": 4,
+          "kh": 2,
+          "field": "logA",
+          "value": 0
+        }
+      ],
+      "evidenceScope": "production admitted",
+      "classification": "equivalent admitted-model numerical control",
+      "actualConstraintDomains": [
+        {
+          "componentId": "component:Fe%202%2B",
+          "name": "Fe 2+",
+          "kh": [
+            1
+          ],
+          "values": [
+            0.00001,
+            0.000010964781961431852,
+            0.000012022644346174132,
+            0.000013182567385564101,
+            0.00001445439770745925,
+            0.00001584893192461114,
+            0.000017378008287493727,
+            0.000019054607179632484,
+            0.00002089296130854041,
+            0.0000229086765276777,
+            0.000025118864315095822,
+            0.000027542287033381633,
+            0.000030199517204020192,
+            0.000033113112148259076,
+            0.000036307805477010174,
+            0.000039810717055349695,
+            0.000043651583224016654,
+            0.000047863009232263804,
+            0.00005248074602497723,
+            0.000057543993733715664,
+            0.00006309573444801929,
+            0.00006918309709189363,
+            0.00007585775750291836,
+            0.00008317637711026709,
+            0.00009120108393559096,
+            0.0001,
+            0.00010964781961431851,
+            0.00012022644346174131,
+            0.00013182567385564074,
+            0.0001445439770745928,
+            0.00015848931924611142,
+            0.00017378008287493763,
+            0.00019054607179632481,
+            0.0002089296130854041,
+            0.00022908676527677748,
+            0.0002511886431509582,
+            0.00027542287033381635,
+            0.0003019951720402019,
+            0.0003311311214825908,
+            0.0003630780547701018,
+            0.0003981071705534969,
+            0.0004365158322401656,
+            0.00047863009232263805,
+            0.0005248074602497723,
+            0.0005754399373371566,
+            0.000630957344480193,
+            0.0006918309709189362,
+            0.0007585775750291835,
+            0.0008317637711026709,
+            0.0009120108393559096,
+            0.001
+          ],
+          "varied": true
+        },
+        {
+          "componentId": "component:H%2B",
+          "name": "H+",
+          "kh": [
+            1
+          ],
+          "values": [
+            0
+          ],
+          "varied": false
+        },
+        {
+          "componentId": "component:e-",
+          "name": "e-",
+          "kh": [
+            2
+          ],
+          "values": [
+            3.3806997721519303
+          ],
+          "varied": false
+        },
+        {
+          "componentId": "component:H2O",
+          "name": "H2O",
+          "kh": [
+            2
+          ],
+          "values": [
+            0
+          ],
+          "varied": false
+        }
+      ],
+      "definitionNote": "Session setup is retained for provenance; actualConstraintDomains and raw per-point CSV are authoritative for the executed constraints, including the derived Fe 101-point sweep."
+    },
+    {
+      "name": "Fe-Eh-101",
+      "selectedComponents": [
+        "Fe 2+",
+        "H+",
+        "e-",
+        "H2O"
+      ],
+      "products": [
+        {
+          "id": "canonical-state:component:Fe%203%2B",
+          "name": "Fe 3+",
+          "phase": "aqueous"
+        },
+        {
+          "id": "spana:2ac52a30213c9288:130813",
+          "name": "Fe(OH)2",
+          "phase": "aqueous"
+        },
+        {
+          "id": "spana:2ac52a30213c9288:131002",
+          "name": "Fe(OH)2+",
+          "phase": "aqueous"
+        },
+        {
+          "id": "spana:2ac52a30213c9288:131099",
+          "name": "Fe(OH)3",
+          "phase": "aqueous"
+        },
+        {
+          "id": "spana:2ac52a30213c9288:131406",
+          "name": "Fe(OH)3-",
+          "phase": "aqueous"
+        },
+        {
+          "id": "spana:2ac52a30213c9288:131496",
+          "name": "Fe(OH)4-",
+          "phase": "aqueous"
+        },
+        {
+          "id": "spana:2ac52a30213c9288:131586",
+          "name": "Fe(OH)4-2",
+          "phase": "aqueous"
+        },
+        {
+          "id": "spana:2ac52a30213c9288:133463",
+          "name": "Fe2(OH)2+4",
+          "phase": "aqueous"
+        },
+        {
+          "id": "spana:2ac52a30213c9288:138672",
+          "name": "FeO4-2",
+          "phase": "aqueous"
+        },
+        {
+          "id": "spana:2ac52a30213c9288:138873",
+          "name": "FeOH 2+",
+          "phase": "aqueous"
+        },
+        {
+          "id": "spana:2ac52a30213c9288:138969",
+          "name": "FeOH+",
+          "phase": "aqueous"
+        },
+        {
+          "id": "spana:2ac52a30213c9288:127500",
+          "name": "Fe(cr)",
+          "phase": "solid"
+        },
+        {
+          "id": "spana:2ac52a30213c9288:130902",
+          "name": "Fe(OH)2(cr)",
+          "phase": "solid"
+        },
+        {
+          "id": "spana:2ac52a30213c9288:131188",
+          "name": "Fe(OH)3(am)",
+          "phase": "solid"
+        },
+        {
+          "id": "spana:2ac52a30213c9288:131294",
+          "name": "Fe(OH)3(s)",
+          "phase": "solid"
+        },
+        {
+          "id": "spana:2ac52a30213c9288:133739",
+          "name": "Fe2O3(cr)",
+          "phase": "solid"
+        },
+        {
+          "id": "spana:2ac52a30213c9288:134486",
+          "name": "Fe3O4(cr)",
+          "phase": "solid"
+        },
+        {
+          "id": "spana:2ac52a30213c9288:139276",
+          "name": "FeOOH(cr)",
+          "phase": "solid"
+        }
+      ],
+      "adamTiming": {
+        "nonScientific": true,
+        "elapsedMs": 465.39829999999984,
+        "inputPreparationMs": 48.16100000000074,
+        "solvingMs": 383.63480000000254
+      },
+      "variants": [
+        {
+          "reuse": false,
+          "points": 101,
+          "haltafallAccepted": 101,
+          "adamAccepted": 101,
+          "compared": 101,
+          "statusDisagreements": 0,
+          "phaseDisagreementsAbove1e_12": 0,
+          "maxConcentrationDifference": 3.7844727351910024e-14,
+          "maxLogActivityDifference": 1.6555645743210334e-11,
+          "maxComponentFractionDifference": 3.7844727351910024e-11,
+          "maxTotalDifference": 0,
+          "haltafallSolveMs": 6.5846
+        },
+        {
+          "reuse": true,
+          "points": 101,
+          "haltafallAccepted": 101,
+          "adamAccepted": 101,
+          "compared": 101,
+          "statusDisagreements": 0,
+          "phaseDisagreementsAbove1e_12": 0,
+          "maxConcentrationDifference": 4.4971188231657244e-14,
+          "maxLogActivityDifference": 1.9531043449205754e-11,
+          "maxComponentFractionDifference": 2.841997470692803e-11,
+          "maxTotalDifference": 0,
+          "haltafallSolveMs": 5.374800000000001
+        }
+      ],
+      "definition": {
+        "schemaVersion": 1,
+        "output": {
+          "type": "log-concentration",
+          "speciesIds": [],
+          "componentId": null,
+          "referenceSpeciesId": null,
+          "redoxQuantity": "pe"
+        },
+        "componentConditions": [
+          {
+            "componentId": "component:Fe%202%2B",
+            "mode": "T",
+            "quantity": "total",
+            "unit": "mol/kg-H2O",
+            "value": 0.001
+          },
+          {
+            "componentId": "component:H2O",
+            "mode": "LA",
+            "quantity": "log-activity",
+            "unit": "dimensionless",
+            "value": 0
+          }
+        ],
+        "independentVariables": [
+          {
+            "componentId": "component:H%2B",
+            "mode": "LAV",
+            "quantity": "pH",
+            "unit": "dimensionless",
+            "range": {
+              "min": 0,
+              "max": 14
+            },
+            "points": 57
+          },
+          {
+            "componentId": "component:e-",
+            "mode": "LAV",
+            "quantity": "Eh",
+            "unit": "V-SHE",
+            "range": {
+              "min": -1,
+              "max": 1.2
+            },
+            "points": 45
+          }
+        ],
+        "temperature": {
+          "value": 25,
+          "unit": "C"
+        },
+        "pressure": {
+          "value": 1,
+          "unit": "bar"
+        },
+        "ionicStrength": {
+          "mode": "automatic",
+          "value": null,
+          "unit": "mol/kg-H2O"
+        },
+        "activityModel": "ideal",
+        "enabledPhases": [
+          "aqueous",
+          "solid",
+          "liquid"
+        ],
+        "sampling": {
+          "strategy": "cartesian",
+          "maxPoints": 10000
+        },
+        "dimensions": 2,
+        "predominanceArea": {
+          "componentId": "component:Fe%202%2B",
+          "interpretation": "auto"
+        }
+      },
+      "admittedConstraints": [
+        {
+          "componentId": "component:Fe%202%2B",
+          "hur": 1,
+          "kh": 1,
+          "field": "tot",
+          "value": 0.001
+        },
+        {
+          "componentId": "component:H%2B",
+          "hur": 4,
+          "kh": 2,
+          "field": "logA",
+          "value": 0
+        },
+        {
+          "componentId": "component:e-",
+          "hur": 5,
+          "kh": 2,
+          "field": "logA",
+          "value": 33.8069977215193
+        },
+        {
+          "componentId": "component:H2O",
+          "hur": 4,
+          "kh": 2,
+          "field": "logA",
+          "value": 0
+        }
+      ],
+      "evidenceScope": "production admitted",
+      "classification": "equivalent admitted-model numerical control",
+      "actualConstraintDomains": [
+        {
+          "componentId": "component:Fe%202%2B",
+          "name": "Fe 2+",
+          "kh": [
+            1
+          ],
+          "values": [
+            0.001
+          ],
+          "varied": false
+        },
+        {
+          "componentId": "component:H%2B",
+          "name": "H+",
+          "kh": [
+            2
+          ],
+          "values": [
+            0
+          ],
+          "varied": false
+        },
+        {
+          "componentId": "component:e-",
+          "name": "e-",
+          "kh": [
+            2
+          ],
+          "values": [
+            -33.8069977215193,
+            -33.13085776708891,
+            -32.45471781265853,
+            -31.778577858228143,
+            -31.102437903797753,
+            -30.426297949367367,
+            -29.75015799493698,
+            -29.0740180405066,
+            -28.397878086076215,
+            -27.72173813164583,
+            -27.045598177215442,
+            -26.369458222785056,
+            -25.69331826835467,
+            -25.017178313924283,
+            -24.341038359493897,
+            -23.66489840506351,
+            -22.988758450633124,
+            -22.312618496202735,
+            -21.636478541772348,
+            -20.96033858734197,
+            -20.284198632911583,
+            -19.608058678481196,
+            -18.93191872405081,
+            -18.255778769620424,
+            -17.579638815190037,
+            -16.90349886075965,
+            -16.227358906329265,
+            -15.551218951898877,
+            -14.87507899746849,
+            -14.198939043038104,
+            -13.522799088607718,
+            -12.846659134177331,
+            -12.170519179746952,
+            -11.494379225316566,
+            -10.81823927088618,
+            -10.142099316455791,
+            -9.465959362025405,
+            -8.789819407595019,
+            -8.113679453164632,
+            -7.437539498734245,
+            -6.761399544303859,
+            -6.0852595898734725,
+            -5.409119635443085,
+            -4.732979681012699,
+            -4.05683972658232,
+            -3.380699772151933,
+            -2.7045598177215466,
+            -2.02841986329116,
+            -1.3522799088607733,
+            -0.6761399544303867,
+            0,
+            0.6761399544303867,
+            1.3522799088607733,
+            2.02841986329116,
+            2.704559817721545,
+            3.380699772151931,
+            4.056839726582318,
+            4.732979681012704,
+            5.4091196354430915,
+            6.085259589873478,
+            6.761399544303859,
+            7.437539498734245,
+            8.113679453164632,
+            8.789819407595019,
+            9.465959362025405,
+            10.142099316455791,
+            10.818239270886172,
+            11.49437922531656,
+            12.170519179746947,
+            12.846659134177333,
+            13.52279908860772,
+            14.198939043038106,
+            14.87507899746849,
+            15.551218951898877,
+            16.227358906329265,
+            16.90349886075965,
+            17.579638815190037,
+            18.255778769620424,
+            18.93191872405081,
+            19.608058678481196,
+            20.284198632911583,
+            20.96033858734197,
+            21.63647854177236,
+            22.312618496202735,
+            22.988758450633124,
+            23.66489840506351,
+            24.341038359493897,
+            25.017178313924283,
+            25.69331826835467,
+            26.369458222785056,
+            27.045598177215442,
+            27.72173813164583,
+            28.397878086076215,
+            29.074018040506594,
+            29.75015799493698,
+            30.426297949367367,
+            31.102437903797753,
+            31.778577858228143,
+            32.45471781265853,
+            33.13085776708891,
+            33.8069977215193
+          ],
+          "varied": true
+        },
+        {
+          "componentId": "component:H2O",
+          "name": "H2O",
+          "kh": [
+            2
+          ],
+          "values": [
+            0
+          ],
+          "varied": false
+        }
+      ],
+      "definitionNote": "Session setup is retained for provenance; actualConstraintDomains and raw per-point CSV are authoritative for the executed constraints, including the derived Fe 101-point sweep."
+    },
+    {
+      "name": "fe-hydrolysis",
+      "selectedComponents": [
+        "H+",
+        "H2O",
+        "Fe 2+"
+      ],
+      "products": [
+        {
+          "id": "spana:2ac52a30213c9288:130813",
+          "name": "Fe(OH)2",
+          "phase": "aqueous"
+        },
+        {
+          "id": "spana:2ac52a30213c9288:131406",
+          "name": "Fe(OH)3-",
+          "phase": "aqueous"
+        },
+        {
+          "id": "spana:2ac52a30213c9288:131586",
+          "name": "Fe(OH)4-2",
+          "phase": "aqueous"
+        },
+        {
+          "id": "spana:2ac52a30213c9288:138969",
+          "name": "FeOH+",
+          "phase": "aqueous"
+        },
+        {
+          "id": "spana:2ac52a30213c9288:250448",
+          "name": "OH-",
+          "phase": "aqueous"
+        },
+        {
+          "id": "spana:2ac52a30213c9288:130902",
+          "name": "Fe(OH)2(cr)",
+          "phase": "solid"
+        }
+      ],
+      "adamTiming": {
+        "nonScientific": true,
+        "elapsedMs": 37.83719999999994,
+        "inputPreparationMs": 12.59750000000031,
+        "solvingMs": 14.89009999999962
+      },
+      "variants": [
+        {
+          "reuse": false,
+          "points": 51,
+          "haltafallAccepted": 51,
+          "adamAccepted": 51,
+          "compared": 51,
+          "statusDisagreements": 0,
+          "phaseDisagreementsAbove1e_12": 0,
+          "maxConcentrationDifference": 2.7755575615628914e-15,
+          "maxLogActivityDifference": 5.46229728115577e-14,
+          "maxComponentFractionDifference": 1.0842021724855044e-15,
+          "maxTotalDifference": 0,
+          "haltafallSolveMs": 1.9281999999999997
+        },
+        {
+          "reuse": true,
+          "points": 51,
+          "haltafallAccepted": 51,
+          "adamAccepted": 51,
+          "compared": 51,
+          "statusDisagreements": 0,
+          "phaseDisagreementsAbove1e_12": 0,
+          "maxConcentrationDifference": 2.7755575615628914e-15,
+          "maxLogActivityDifference": 5.417888360170764e-14,
+          "maxComponentFractionDifference": 1.0842021724855044e-15,
+          "maxTotalDifference": 0,
+          "haltafallSolveMs": 1.7878
+        }
+      ],
+      "definition": {
+        "schemaVersion": 1,
+        "output": {
+          "type": "log-concentration",
+          "speciesIds": [
+            "spana:2ac52a30213c9288:130813",
+            "spana:2ac52a30213c9288:130902",
+            "spana:2ac52a30213c9288:131406",
+            "spana:2ac52a30213c9288:131586",
+            "spana:2ac52a30213c9288:138969",
+            "spana:2ac52a30213c9288:250448"
+          ],
+          "componentId": null,
+          "referenceSpeciesId": null,
+          "redoxQuantity": "pe"
+        },
+        "componentConditions": [
+          {
+            "componentId": "component:H2O",
+            "mode": "LA",
+            "quantity": "log-activity",
+            "unit": "dimensionless",
+            "value": 0
+          },
+          {
+            "componentId": "component:Fe%202%2B",
+            "mode": "T",
+            "quantity": "total",
+            "unit": "mol/kg-H2O",
+            "value": 0.001
+          }
+        ],
+        "independentVariables": [
+          {
+            "componentId": "component:H%2B",
+            "mode": "LAV",
+            "quantity": "pH",
+            "unit": "dimensionless",
+            "range": {
+              "min": 0,
+              "max": 14
+            },
+            "points": 51
+          }
+        ],
+        "temperature": {
+          "value": 25,
+          "unit": "C"
+        },
+        "pressure": {
+          "value": 1,
+          "unit": "bar"
+        },
+        "ionicStrength": {
+          "mode": "automatic",
+          "value": null,
+          "unit": "mol/kg-H2O"
+        },
+        "activityModel": "ideal",
+        "enabledPhases": [
+          "aqueous",
+          "solid",
+          "liquid"
+        ],
+        "sampling": {
+          "strategy": "cartesian",
+          "maxPoints": 10000
+        }
+      },
+      "admittedConstraints": [
+        {
+          "componentId": "component:H%2B",
+          "hur": 5,
+          "kh": 2,
+          "field": "logA",
+          "value": 0
+        },
+        {
+          "componentId": "component:H2O",
+          "hur": 4,
+          "kh": 2,
+          "field": "logA",
+          "value": 0
+        },
+        {
+          "componentId": "component:Fe%202%2B",
+          "hur": 1,
+          "kh": 1,
+          "field": "tot",
+          "value": 0.001
+        }
+      ],
+      "evidenceScope": "production admitted",
+      "classification": "equivalent admitted-model numerical control",
+      "actualConstraintDomains": [
+        {
+          "componentId": "component:H%2B",
+          "name": "H+",
+          "kh": [
+            2
+          ],
+          "values": [
+            -14,
+            -13.719999999999999,
+            -13.44,
+            -13.16,
+            -12.88,
+            -12.6,
+            -12.32,
+            -12.04,
+            -11.76,
+            -11.479999999999999,
+            -11.200000000000001,
+            -10.92,
+            -10.64,
+            -10.36,
+            -10.08,
+            -9.799999999999999,
+            -9.520000000000001,
+            -9.24,
+            -8.96,
+            -8.68,
+            -8.4,
+            -8.12,
+            -7.840000000000001,
+            -7.5600000000000005,
+            -7.28,
+            -7,
+            -6.72,
+            -6.44,
+            -6.16,
+            -5.88,
+            -5.6000000000000005,
+            -5.32,
+            -5.04,
+            -4.760000000000001,
+            -4.48,
+            -4.2,
+            -3.9200000000000004,
+            -3.64,
+            -3.36,
+            -3.08,
+            -2.8000000000000003,
+            -2.52,
+            -2.24,
+            -1.9600000000000002,
+            -1.68,
+            -1.4000000000000001,
+            -1.12,
+            -0.84,
+            -0.56,
+            -0.28,
+            0
+          ],
+          "varied": true
+        },
+        {
+          "componentId": "component:H2O",
+          "name": "H2O",
+          "kh": [
+            2
+          ],
+          "values": [
+            0
+          ],
+          "varied": false
+        },
+        {
+          "componentId": "component:Fe%202%2B",
+          "name": "Fe 2+",
+          "kh": [
+            1
+          ],
+          "values": [
+            0.001
+          ],
+          "varied": false
+        }
+      ],
+      "definitionNote": "Session setup is retained for provenance; actualConstraintDomains and raw per-point CSV are authoritative for the executed constraints, including the derived Fe 101-point sweep."
+    },
+    {
+      "name": "Fe-material-area",
+      "selectedComponents": [
+        "Fe 2+",
+        "H+",
+        "e-",
+        "H2O"
+      ],
+      "products": [
+        {
+          "id": "canonical-state:component:Fe%203%2B",
+          "name": "Fe 3+",
+          "phase": "aqueous"
+        },
+        {
+          "id": "spana:2ac52a30213c9288:130813",
+          "name": "Fe(OH)2",
+          "phase": "aqueous"
+        },
+        {
+          "id": "spana:2ac52a30213c9288:131002",
+          "name": "Fe(OH)2+",
+          "phase": "aqueous"
+        },
+        {
+          "id": "spana:2ac52a30213c9288:131099",
+          "name": "Fe(OH)3",
+          "phase": "aqueous"
+        },
+        {
+          "id": "spana:2ac52a30213c9288:131406",
+          "name": "Fe(OH)3-",
+          "phase": "aqueous"
+        },
+        {
+          "id": "spana:2ac52a30213c9288:131496",
+          "name": "Fe(OH)4-",
+          "phase": "aqueous"
+        },
+        {
+          "id": "spana:2ac52a30213c9288:131586",
+          "name": "Fe(OH)4-2",
+          "phase": "aqueous"
+        },
+        {
+          "id": "spana:2ac52a30213c9288:133463",
+          "name": "Fe2(OH)2+4",
+          "phase": "aqueous"
+        },
+        {
+          "id": "spana:2ac52a30213c9288:138672",
+          "name": "FeO4-2",
+          "phase": "aqueous"
+        },
+        {
+          "id": "spana:2ac52a30213c9288:138873",
+          "name": "FeOH 2+",
+          "phase": "aqueous"
+        },
+        {
+          "id": "spana:2ac52a30213c9288:138969",
+          "name": "FeOH+",
+          "phase": "aqueous"
+        },
+        {
+          "id": "spana:2ac52a30213c9288:127500",
+          "name": "Fe(cr)",
+          "phase": "solid"
+        },
+        {
+          "id": "spana:2ac52a30213c9288:130902",
+          "name": "Fe(OH)2(cr)",
+          "phase": "solid"
+        },
+        {
+          "id": "spana:2ac52a30213c9288:131188",
+          "name": "Fe(OH)3(am)",
+          "phase": "solid"
+        },
+        {
+          "id": "spana:2ac52a30213c9288:131294",
+          "name": "Fe(OH)3(s)",
+          "phase": "solid"
+        },
+        {
+          "id": "spana:2ac52a30213c9288:133739",
+          "name": "Fe2O3(cr)",
+          "phase": "solid"
+        },
+        {
+          "id": "spana:2ac52a30213c9288:134486",
+          "name": "Fe3O4(cr)",
+          "phase": "solid"
+        },
+        {
+          "id": "spana:2ac52a30213c9288:139276",
+          "name": "FeOOH(cr)",
+          "phase": "solid"
+        }
+      ],
+      "adamTiming": {
+        "nonScientific": true,
+        "solvingMs": 618.1203999999989,
+        "inputPreparationMs": 74.20040000000154,
+        "elapsedMs": 731.6341000000002
+      },
+      "variants": [
+        {
+          "reuse": false,
+          "points": 121,
+          "haltafallAccepted": 121,
+          "adamAccepted": 121,
+          "compared": 121,
+          "statusDisagreements": 0,
+          "phaseDisagreementsAbove1e_12": 0,
+          "maxConcentrationDifference": 1.5231387115108297e-14,
+          "maxLogActivityDifference": 3.6577230133616467e-10,
+          "maxComponentFractionDifference": 5.667882394639782e-12,
+          "maxTotalDifference": 0,
+          "haltafallSolveMs": 10.000999999999998
+        },
+        {
+          "reuse": true,
+          "points": 121,
+          "haltafallAccepted": 121,
+          "adamAccepted": 121,
+          "compared": 121,
+          "statusDisagreements": 0,
+          "phaseDisagreementsAbove1e_12": 0,
+          "maxConcentrationDifference": 1.276266893275417e-14,
+          "maxLogActivityDifference": 2.58908450234685e-10,
+          "maxComponentFractionDifference": 4.0031183382767855e-12,
+          "maxTotalDifference": 0,
+          "haltafallSolveMs": 6.430699999999999
+        }
+      ],
+      "definition": {
+        "schemaVersion": 1,
+        "output": {
+          "type": "log-concentration",
+          "speciesIds": [],
+          "componentId": null,
+          "referenceSpeciesId": null,
+          "redoxQuantity": "pe"
+        },
+        "componentConditions": [
+          {
+            "componentId": "component:H2O",
+            "mode": "LA",
+            "quantity": "log-activity",
+            "unit": "dimensionless",
+            "value": 0
+          },
+          {
+            "componentId": "component:e-",
+            "mode": "LA",
+            "quantity": "Eh",
+            "unit": "V-SHE",
+            "value": -0.2
+          }
+        ],
+        "independentVariables": [
+          {
+            "componentId": "component:Fe%202%2B",
+            "mode": "LTV",
+            "quantity": "total",
+            "unit": "mol/kg-H2O",
+            "range": {
+              "min": -5,
+              "max": -3
+            },
+            "points": 11
+          },
+          {
+            "componentId": "component:H%2B",
+            "mode": "LAV",
+            "quantity": "pH",
+            "unit": "dimensionless",
+            "range": {
+              "min": 0,
+              "max": 14
+            },
+            "points": 11
+          }
+        ],
+        "temperature": {
+          "value": 25,
+          "unit": "C"
+        },
+        "pressure": {
+          "value": 1,
+          "unit": "bar"
+        },
+        "ionicStrength": {
+          "mode": "automatic",
+          "value": null,
+          "unit": "mol/kg-H2O"
+        },
+        "activityModel": "ideal",
+        "enabledPhases": [
+          "aqueous",
+          "solid",
+          "liquid"
+        ],
+        "sampling": {
+          "strategy": "cartesian",
+          "maxPoints": 10000
+        },
+        "dimensions": 2,
+        "predominanceArea": {
+          "componentId": "component:Fe%202%2B",
+          "interpretation": "auto"
+        },
+        "automaticBoundaries": true
+      },
+      "admittedConstraints": [
+        {
+          "componentId": "component:Fe%202%2B",
+          "hur": 3,
+          "kh": 1,
+          "field": "tot",
+          "value": 0.00001
+        },
+        {
+          "componentId": "component:H%2B",
+          "hur": 5,
+          "kh": 2,
+          "field": "logA",
+          "value": 0
+        },
+        {
+          "componentId": "component:e-",
+          "hur": 4,
+          "kh": 2,
+          "field": "logA",
+          "value": 3.3806997721519303
+        },
+        {
+          "componentId": "component:H2O",
+          "hur": 4,
+          "kh": 2,
+          "field": "logA",
+          "value": 0
+        }
+      ],
+      "evidenceScope": "production admitted",
+      "classification": "equivalent admitted-model numerical control",
+      "actualConstraintDomains": [
+        {
+          "componentId": "component:Fe%202%2B",
+          "name": "Fe 2+",
+          "kh": [
+            1
+          ],
+          "values": [
+            0.00001,
+            0.00001584893192461114,
+            0.000025118864315095822,
+            0.000039810717055349695,
+            0.00006309573444801929,
+            0.0001,
+            0.00015848931924611142,
+            0.0002511886431509582,
+            0.0003981071705534969,
+            0.000630957344480193,
+            0.001
+          ],
+          "varied": true
+        },
+        {
+          "componentId": "component:H%2B",
+          "name": "H+",
+          "kh": [
+            2
+          ],
+          "values": [
+            -14,
+            -12.6,
+            -11.200000000000001,
+            -9.799999999999999,
+            -8.4,
+            -7,
+            -5.6000000000000005,
+            -4.2,
+            -2.8000000000000003,
+            -1.4000000000000001,
+            0
+          ],
+          "varied": true
+        },
+        {
+          "componentId": "component:e-",
+          "name": "e-",
+          "kh": [
+            2
+          ],
+          "values": [
+            3.3806997721519303
+          ],
+          "varied": false
+        },
+        {
+          "componentId": "component:H2O",
+          "name": "H2O",
+          "kh": [
+            2
+          ],
+          "values": [
+            0
+          ],
+          "varied": false
+        }
+      ],
+      "definitionNote": "Session setup is retained for provenance; actualConstraintDomains and raw per-point CSV are authoritative for the executed constraints, including the derived Fe 101-point sweep."
+    },
+    {
+      "name": "fe-peroxide-analytical",
+      "selectedComponents": [
+        "H+",
+        "H2O",
+        "Fe 2+",
+        "H2O2"
+      ],
+      "products": [
+        {
+          "id": "spana:2ac52a30213c9288:130813",
+          "name": "Fe(OH)2",
+          "phase": "aqueous"
+        },
+        {
+          "id": "spana:2ac52a30213c9288:131406",
+          "name": "Fe(OH)3-",
+          "phase": "aqueous"
+        },
+        {
+          "id": "spana:2ac52a30213c9288:131586",
+          "name": "Fe(OH)4-2",
+          "phase": "aqueous"
+        },
+        {
+          "id": "spana:2ac52a30213c9288:138969",
+          "name": "FeOH+",
+          "phase": "aqueous"
+        },
+        {
+          "id": "spana:2ac52a30213c9288:175307",
+          "name": "HO2-",
+          "phase": "aqueous"
+        },
+        {
+          "id": "spana:2ac52a30213c9288:250448",
+          "name": "OH-",
+          "phase": "aqueous"
+        },
+        {
+          "id": "spana:2ac52a30213c9288:130902",
+          "name": "Fe(OH)2(cr)",
+          "phase": "solid"
+        }
+      ],
+      "adamTiming": {
+        "nonScientific": true,
+        "elapsedMs": 33.95720000000006,
+        "inputPreparationMs": 6.976900000001024,
+        "solvingMs": 12.542900000000145
+      },
+      "variants": [
+        {
+          "reuse": false,
+          "points": 51,
+          "haltafallAccepted": 51,
+          "adamAccepted": 50,
+          "compared": 50,
+          "statusDisagreements": 1,
+          "phaseDisagreementsAbove1e_12": 0,
+          "maxConcentrationDifference": 6.222896953593168e-15,
+          "maxLogActivityDifference": 9.57882662078191e-11,
+          "maxComponentFractionDifference": 6.209249558747007e-15,
+          "maxTotalDifference": 0,
+          "haltafallSolveMs": 5.159100000000001
+        },
+        {
+          "reuse": true,
+          "points": 51,
+          "haltafallAccepted": 51,
+          "adamAccepted": 50,
+          "compared": 50,
+          "statusDisagreements": 1,
+          "phaseDisagreementsAbove1e_12": 0,
+          "maxConcentrationDifference": 1.309638297331342e-15,
+          "maxLogActivityDifference": 2.0179413695586845e-11,
+          "maxComponentFractionDifference": 1.309451950082946e-15,
+          "maxTotalDifference": 0,
+          "haltafallSolveMs": 3.4010000000000002
+        }
+      ],
+      "definition": {
+        "schemaVersion": 1,
+        "output": {
+          "type": "log-concentration",
+          "speciesIds": [
+            "spana:2ac52a30213c9288:130813",
+            "spana:2ac52a30213c9288:130902",
+            "spana:2ac52a30213c9288:131406",
+            "spana:2ac52a30213c9288:131586",
+            "spana:2ac52a30213c9288:138969",
+            "spana:2ac52a30213c9288:175307",
+            "spana:2ac52a30213c9288:250448"
+          ],
+          "componentId": null,
+          "referenceSpeciesId": null,
+          "redoxQuantity": "pe"
+        },
+        "componentConditions": [
+          {
+            "componentId": "component:H%2B",
+            "mode": "T",
+            "quantity": "total",
+            "unit": "mol/kg-H2O",
+            "value": 0
+          },
+          {
+            "componentId": "component:H2O",
+            "mode": "LA",
+            "quantity": "log-activity",
+            "unit": "dimensionless",
+            "value": 0
+          },
+          {
+            "componentId": "component:Fe%202%2B",
+            "mode": "T",
+            "quantity": "total",
+            "unit": "mol/kg-H2O",
+            "value": 1
+          }
+        ],
+        "independentVariables": [
+          {
+            "componentId": "component:H2O2",
+            "mode": "TV",
+            "quantity": "total",
+            "unit": "mol/kg-H2O",
+            "range": {
+              "min": 0,
+              "max": 1
+            },
+            "points": 51
+          }
+        ],
+        "temperature": {
+          "value": 25,
+          "unit": "C"
+        },
+        "pressure": {
+          "value": 1,
+          "unit": "bar"
+        },
+        "ionicStrength": {
+          "mode": "automatic",
+          "value": null,
+          "unit": "mol/kg-H2O"
+        },
+        "activityModel": "ideal",
+        "enabledPhases": [
+          "aqueous",
+          "solid",
+          "liquid"
+        ],
+        "sampling": {
+          "strategy": "cartesian",
+          "maxPoints": 10000
+        }
+      },
+      "admittedConstraints": [
+        {
+          "componentId": "component:H%2B",
+          "hur": 1,
+          "kh": 1,
+          "field": "tot",
+          "value": 0
+        },
+        {
+          "componentId": "component:H2O",
+          "hur": 4,
+          "kh": 2,
+          "field": "logA",
+          "value": 0
+        },
+        {
+          "componentId": "component:Fe%202%2B",
+          "hur": 1,
+          "kh": 1,
+          "field": "tot",
+          "value": 1
+        },
+        {
+          "componentId": "component:H2O2",
+          "hur": 2,
+          "kh": 1,
+          "field": "tot",
+          "value": 0
+        }
+      ],
+      "evidenceScope": "production admitted",
+      "classification": "B: exact zero-activity boundary reduction unsupported; 50 accepted overlap samples agree",
+      "actualConstraintDomains": [
+        {
+          "componentId": "component:H%2B",
+          "name": "H+",
+          "kh": [
+            1
+          ],
+          "values": [
+            0
+          ],
+          "varied": false
+        },
+        {
+          "componentId": "component:H2O",
+          "name": "H2O",
+          "kh": [
+            2
+          ],
+          "values": [
+            0
+          ],
+          "varied": false
+        },
+        {
+          "componentId": "component:Fe%202%2B",
+          "name": "Fe 2+",
+          "kh": [
+            1
+          ],
+          "values": [
+            1
+          ],
+          "varied": false
+        },
+        {
+          "componentId": "component:H2O2",
+          "name": "H2O2",
+          "kh": [
+            1
+          ],
+          "values": [
+            0,
+            0.02,
+            0.04,
+            0.06,
+            0.08,
+            0.1,
+            0.12,
+            0.14,
+            0.16,
+            0.18,
+            0.2,
+            0.22,
+            0.24,
+            0.26,
+            0.28,
+            0.3,
+            0.32,
+            0.34,
+            0.36,
+            0.38,
+            0.4,
+            0.42,
+            0.44,
+            0.46,
+            0.48,
+            0.5,
+            0.52,
+            0.54,
+            0.56,
+            0.58,
+            0.6,
+            0.62,
+            0.64,
+            0.66,
+            0.68,
+            0.7,
+            0.72,
+            0.74,
+            0.76,
+            0.78,
+            0.8,
+            0.82,
+            0.84,
+            0.86,
+            0.88,
+            0.9,
+            0.92,
+            0.94,
+            0.96,
+            0.98,
+            1
+          ],
+          "varied": true
+        }
+      ],
+      "definitionNote": "Session setup is retained for provenance; actualConstraintDomains and raw per-point CSV are authoritative for the executed constraints, including the derived Fe 101-point sweep."
+    },
+    {
+      "name": "two-material-area",
+      "selectedComponents": [
+        "Ca 2+",
+        "Cl-",
+        "H+",
+        "H2O"
+      ],
+      "products": [
+        {
+          "id": "spana:2ac52a30213c9288:159033",
+          "name": "HCl",
+          "phase": "aqueous"
+        },
+        {
+          "id": "spana:2ac52a30213c9288:250448",
+          "name": "OH-",
+          "phase": "aqueous"
+        },
+        {
+          "id": "spana:2ac52a30213c9288:60377",
+          "name": "CaCl+",
+          "phase": "aqueous"
+        },
+        {
+          "id": "spana:2ac52a30213c9288:60450",
+          "name": "CaCl2",
+          "phase": "aqueous"
+        },
+        {
+          "id": "spana:2ac52a30213c9288:63057",
+          "name": "CaOH+",
+          "phase": "aqueous"
+        },
+        {
+          "id": "spana:2ac52a30213c9288:56505",
+          "name": "Ca(OH)2(cr)",
+          "phase": "solid"
+        },
+        {
+          "id": "spana:2ac52a30213c9288:62870",
+          "name": "CaO(cr)",
+          "phase": "solid"
+        }
+      ],
+      "adamTiming": {
+        "nonScientific": true,
+        "solvingMs": 243.10939999999937,
+        "inputPreparationMs": 50.544699999999466,
+        "elapsedMs": 356.3279000000002
+      },
+      "variants": [
+        {
+          "reuse": false,
+          "points": 121,
+          "haltafallAccepted": 121,
+          "adamAccepted": 121,
+          "compared": 121,
+          "statusDisagreements": 0,
+          "phaseDisagreementsAbove1e_12": 0,
+          "maxConcentrationDifference": 7.414364261437711e-13,
+          "maxLogActivityDifference": 3.292610628591319e-11,
+          "maxComponentFractionDifference": 3.9448126850217063e-13,
+          "maxTotalDifference": 0,
+          "haltafallSolveMs": 7.515299999999998
+        },
+        {
+          "reuse": true,
+          "points": 121,
+          "haltafallAccepted": 121,
+          "adamAccepted": 121,
+          "compared": 121,
+          "statusDisagreements": 0,
+          "phaseDisagreementsAbove1e_12": 0,
+          "maxConcentrationDifference": 9.72636901575008e-13,
+          "maxLogActivityDifference": 4.2725822879674524e-11,
+          "maxComponentFractionDifference": 5.093431259051629e-13,
+          "maxTotalDifference": 0,
+          "haltafallSolveMs": 5.258500000000004
+        }
+      ],
+      "definition": {
+        "schemaVersion": 1,
+        "output": {
+          "type": "log-concentration",
+          "speciesIds": [
+            "spana:2ac52a30213c9288:56505",
+            "spana:2ac52a30213c9288:60377",
+            "spana:2ac52a30213c9288:60450",
+            "spana:2ac52a30213c9288:62870",
+            "spana:2ac52a30213c9288:63057",
+            "spana:2ac52a30213c9288:159033",
+            "spana:2ac52a30213c9288:250448"
+          ],
+          "componentId": null,
+          "referenceSpeciesId": null,
+          "redoxQuantity": "pe"
+        },
+        "componentConditions": [
+          {
+            "componentId": "component:H%2B",
+            "mode": "LA",
+            "quantity": "pH",
+            "unit": "dimensionless",
+            "value": 7
+          },
+          {
+            "componentId": "component:H2O",
+            "mode": "LA",
+            "quantity": "log-activity",
+            "unit": "dimensionless",
+            "value": 0
+          }
+        ],
+        "independentVariables": [
+          {
+            "componentId": "component:Ca%202%2B",
+            "mode": "LTV",
+            "quantity": "total",
+            "unit": "mol/kg-H2O",
+            "range": {
+              "min": -3,
+              "max": -2
+            },
+            "points": 11
+          },
+          {
+            "componentId": "component:Cl-",
+            "mode": "LTV",
+            "quantity": "total",
+            "unit": "mol/kg-H2O",
+            "range": {
+              "min": -3,
+              "max": -2
+            },
+            "points": 11
+          }
+        ],
+        "temperature": {
+          "value": 25,
+          "unit": "C"
+        },
+        "pressure": {
+          "value": 1,
+          "unit": "bar"
+        },
+        "ionicStrength": {
+          "mode": "automatic",
+          "value": null,
+          "unit": "mol/kg-H2O"
+        },
+        "activityModel": "ideal",
+        "enabledPhases": [
+          "aqueous",
+          "solid",
+          "liquid"
+        ],
+        "sampling": {
+          "strategy": "cartesian",
+          "maxPoints": 10000
+        },
+        "predominanceArea": {
+          "componentId": "component:Ca%202%2B",
+          "interpretation": "carrier"
+        },
+        "dimensions": 2
+      },
+      "admittedConstraints": [
+        {
+          "componentId": "component:Ca%202%2B",
+          "hur": 3,
+          "kh": 1,
+          "field": "tot",
+          "value": 0.001
+        },
+        {
+          "componentId": "component:Cl-",
+          "hur": 3,
+          "kh": 1,
+          "field": "tot",
+          "value": 0.001
+        },
+        {
+          "componentId": "component:H%2B",
+          "hur": 4,
+          "kh": 2,
+          "field": "logA",
+          "value": -7
+        },
+        {
+          "componentId": "component:H2O",
+          "hur": 4,
+          "kh": 2,
+          "field": "logA",
+          "value": 0
+        }
+      ],
+      "evidenceScope": "production admitted",
+      "classification": "equivalent admitted-model numerical control",
+      "actualConstraintDomains": [
+        {
+          "componentId": "component:Ca%202%2B",
+          "name": "Ca 2+",
+          "kh": [
+            1
+          ],
+          "values": [
+            0.001,
+            0.0012589254117941662,
+            0.0015848931924611126,
+            0.0019952623149688807,
+            0.002511886431509582,
+            0.0031622776601683794,
+            0.003981071705534969,
+            0.005011872336272725,
+            0.00630957344480193,
+            0.007943282347242814,
+            0.01
+          ],
+          "varied": true
+        },
+        {
+          "componentId": "component:Cl-",
+          "name": "Cl-",
+          "kh": [
+            1
+          ],
+          "values": [
+            0.001,
+            0.0012589254117941662,
+            0.0015848931924611126,
+            0.0019952623149688807,
+            0.002511886431509582,
+            0.0031622776601683794,
+            0.003981071705534969,
+            0.005011872336272725,
+            0.00630957344480193,
+            0.007943282347242814,
+            0.01
+          ],
+          "varied": true
+        },
+        {
+          "componentId": "component:H%2B",
+          "name": "H+",
+          "kh": [
+            2
+          ],
+          "values": [
+            -7
+          ],
+          "varied": false
+        },
+        {
+          "componentId": "component:H2O",
+          "name": "H2O",
+          "kh": [
+            2
+          ],
+          "values": [
+            0
+          ],
+          "varied": false
+        }
+      ],
+      "definitionNote": "Session setup is retained for provenance; actualConstraintDomains and raw per-point CSV are authoritative for the executed constraints, including the derived Fe 101-point sweep."
+    }
+  ],
+  "outputComparison": "spana-parity-output-comparison.json"
+}

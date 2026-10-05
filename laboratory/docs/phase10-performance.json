@@ -1,0 +1,60 @@
+{
+  "date": "2026-09-06T11:30:51.777Z",
+  "scope": "Local Node carbonate calculation and separate derivation/analysis timings. Analysis and two slices measured five times on the same immutable result; medians reported. No solver calls from analysis.",
+  "measurements": [
+    {
+      "shape": [
+        21,
+        21
+      ],
+      "counts": {
+        "requested": 441,
+        "converged": 441,
+        "failed": 0,
+        "notRun": 0
+      },
+      "calculationMs": 327.73019999999997,
+      "deriveMs": 1.5167999999998756,
+      "summaryMedianMs": 0.5742000000000189,
+      "twoSlicesMedianMs": 0.022200000000111686,
+      "validRegions": 1,
+      "brackets": 32
+    },
+    {
+      "shape": [
+        51,
+        51
+      ],
+      "counts": {
+        "requested": 2601,
+        "converged": 2601,
+        "failed": 0,
+        "notRun": 0
+      },
+      "calculationMs": 2004.0123999999998,
+      "deriveMs": 3.6075000000000728,
+      "summaryMedianMs": 2.095100000000002,
+      "twoSlicesMedianMs": 0.052000000000134605,
+      "validRegions": 1,
+      "brackets": 65
+    },
+    {
+      "shape": [
+        81,
+        61
+      ],
+      "counts": {
+        "requested": 4941,
+        "converged": 4941,
+        "failed": 0,
+        "notRun": 0
+      },
+      "calculationMs": 3818.7427,
+      "deriveMs": 5.357700000000477,
+      "summaryMedianMs": 4.044700000000375,
+      "twoSlicesMedianMs": 0.05640000000039436,
+      "validRegions": 1,
+      "brackets": 98
+    }
+  ]
+}

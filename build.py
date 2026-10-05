@@ -5,6 +5,9 @@ import os, shutil, subprocess
 root = Path(__file__).resolve().parent
 godot = os.environ.get('GODOT', 'godot')
 dist = root / 'dist'
+# Only remove this project's generated export before rebuilding.
+assert dist.resolve() == root.resolve() / 'dist'
+if dist.exists(): shutil.rmtree(dist)
 dist.mkdir(exist_ok=True)
 for args in [ ['--editor', '--import', '--quit'], ['--export-release', 'Web'] ]:
     subprocess.run([godot, '--headless', '--path', str(root/'game'), *args], check=True)

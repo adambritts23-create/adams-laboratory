@@ -1,0 +1,77 @@
+{
+  "recordedAt": "2026-09-06T10:51:36.808Z",
+  "runtime": "v24.15.0",
+  "platform": "win32",
+  "scope": "Local Node run; carbonate automatic aqueous system, ideal 25 C, cold independent points, default chunk 20. Wall time includes result assembly. Presentation is model/SVG string construction, not browser paint. No thermodynamic source records included.",
+  "measurements": [
+    {
+      "shape": [
+        21,
+        21
+      ],
+      "requested": 441,
+      "converged": 441,
+      "failed": 0,
+      "notRun": 0,
+      "elapsedMs": 350.3673,
+      "pointsPerSecond": 1258.6791061837107,
+      "presentationMs": 4.618200000000002,
+      "svgBytes": 75301,
+      "cancellation": {
+        "requestedAfterMs": 50,
+        "responseMs": 2.248399999999947,
+        "status": "cancelled",
+        "requested": 441,
+        "converged": 81,
+        "failed": 0,
+        "notRun": 360
+      }
+    },
+    {
+      "shape": [
+        51,
+        51
+      ],
+      "requested": 2601,
+      "converged": 2601,
+      "failed": 0,
+      "notRun": 0,
+      "elapsedMs": 2001.0992999999999,
+      "pointsPerSecond": 1299.7855728598777,
+      "presentationMs": 32.8742000000002,
+      "svgBytes": 458190,
+      "cancellation": {
+        "requestedAfterMs": 50,
+        "responseMs": 6.548999999999978,
+        "status": "cancelled",
+        "requested": 2601,
+        "converged": 61,
+        "failed": 0,
+        "notRun": 2540
+      }
+    },
+    {
+      "shape": [
+        81,
+        61
+      ],
+      "requested": 4941,
+      "converged": 4941,
+      "failed": 0,
+      "notRun": 0,
+      "elapsedMs": 3844.6831,
+      "pointsPerSecond": 1285.1514341975285,
+      "presentationMs": 64.98459999999977,
+      "svgBytes": 855074,
+      "cancellation": {
+        "requestedAfterMs": 50,
+        "responseMs": 11.468299999999545,
+        "status": "cancelled",
+        "requested": 4941,
+        "converged": 61,
+        "failed": 0,
+        "notRun": 4880
+      }
+    }
+  ]
+}

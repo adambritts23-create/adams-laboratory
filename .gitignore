@@ -13,3 +13,12 @@ __pycache__/
 .DS_Store
 Thumbs.db
 *.tmp
+
+laboratory/node_modules/
+laboratory/dist/
+laboratory/.env*
+laboratory/.local/
+laboratory/public/game/
+
+site/
+/laboratory/docs/closed-redox-step5-sweep-probe.json

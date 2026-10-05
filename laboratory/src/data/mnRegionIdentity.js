@@ -1,0 +1,1 @@
+export const mnRegionSha256 = 'b3ecfb756f60b46f3388f680b972de7e8b050f6e84f19a067a1d8d35de711b12'

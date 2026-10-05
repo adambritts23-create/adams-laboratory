@@ -1,0 +1,7349 @@
+{
+  "transformations": {
+    "UVI": {
+      "basis": [
+        "H+",
+        "e-",
+        "UO2 2+",
+        "H2O"
+      ],
+      "layers": [
+        [
+          {
+            "name": "H2O2",
+            "sourceId": 152743
+          },
+          {
+            "name": "U 4+",
+            "sourceId": 346284
+          },
+          {
+            "name": "UO2+",
+            "sourceId": 354522
+          }
+        ],
+        [
+          {
+            "name": "U 3+",
+            "sourceId": 346107
+          }
+        ]
+      ],
+      "bindings": [
+        {
+          "name": "H2O2",
+          "constant": -59.61,
+          "logK25": -59.61,
+          "terms": [
+            {
+              "name": "H+",
+              "coefficient": -2
+            },
+            {
+              "name": "e-",
+              "coefficient": -2
+            },
+            {
+              "name": "H2O",
+              "coefficient": 2
+            }
+          ],
+          "reference": "82NBS+1962GC",
+          "comment": "",
+          "redox": true,
+          "id": 152743
+        },
+        {
+          "name": "U 4+",
+          "constant": 9.038,
+          "logK25": 9.038,
+          "terms": [
+            {
+              "name": "H+",
+              "coefficient": 4
+            },
+            {
+              "name": "e-",
+              "coefficient": 2
+            },
+            {
+              "name": "H2O",
+              "coefficient": -2
+            },
+            {
+              "name": "UO2 2+",
+              "coefficient": 1
+            }
+          ],
+          "reference": "NEA-U+NEA-Upd",
+          "comment": "",
+          "redox": true,
+          "id": 346284
+        },
+        {
+          "name": "UO2+",
+          "constant": 1.484,
+          "logK25": 1.484,
+          "terms": [
+            {
+              "name": "e-",
+              "coefficient": 1
+            },
+            {
+              "name": "UO2 2+",
+              "coefficient": 1
+            }
+          ],
+          "reference": "NEA-U+NEA-Upd",
+          "comment": "",
+          "redox": true,
+          "id": 354522
+        },
+        {
+          "name": "U 3+",
+          "constant": -9.353,
+          "logK25": -9.353,
+          "terms": [
+            {
+              "name": "U 4+",
+              "coefficient": 1
+            },
+            {
+              "name": "e-",
+              "coefficient": 1
+            }
+          ],
+          "reference": "NEA-U+NEA-Upd",
+          "comment": "",
+          "redox": true,
+          "id": 346107
+        }
+      ],
+      "transformed": [
+        {
+          "name": "(UO2)2(OH)2 2+",
+          "source": {
+            "name": "(UO2)2(OH)2 2+",
+            "constant": -5.62,
+            "logK25": -5.62,
+            "terms": [
+              {
+                "name": "UO2 2+",
+                "coefficient": 2
+              },
+              {
+                "name": "H+",
+                "coefficient": -2
+              },
+              {
+                "name": "H2O",
+                "coefficient": 2
+              }
+            ],
+            "reference": "NEA-U+NEA-Upd",
+            "comment": "",
+            "redox": false,
+            "id": 6790
+          },
+          "terms": [
+            {
+              "name": "H+",
+              "coefficient": -2
+            },
+            {
+              "name": "e-",
+              "coefficient": 0
+            },
+            {
+              "name": "UO2 2+",
+              "coefficient": 2
+            },
+            {
+              "name": "H2O",
+              "coefficient": 2
+            }
+          ],
+          "constant": -5.62,
+          "multipliers": [
+            {
+              "sourceId": 6790,
+              "factor": 1
+            }
+          ]
+        },
+        {
+          "name": "(UO2)2OH+3",
+          "source": {
+            "name": "(UO2)2OH+3",
+            "constant": -2.7,
+            "logK25": -2.7,
+            "terms": [
+              {
+                "name": "UO2 2+",
+                "coefficient": 2
+              },
+              {
+                "name": "H+",
+                "coefficient": -1
+              },
+              {
+                "name": "H2O",
+                "coefficient": 1
+              }
+            ],
+            "reference": "NEA-U+NEA-Upd",
+            "comment": "",
+            "redox": false,
+            "id": 7227
+          },
+          "terms": [
+            {
+              "name": "H+",
+              "coefficient": -1
+            },
+            {
+              "name": "e-",
+              "coefficient": 0
+            },
+            {
+              "name": "UO2 2+",
+              "coefficient": 2
+            },
+            {
+              "name": "H2O",
+              "coefficient": 1
+            }
+          ],
+          "constant": -2.7,
+          "multipliers": [
+            {
+              "sourceId": 7227,
+              "factor": 1
+            }
+          ]
+        },
+        {
+          "name": "(UO2)3(OH)4 2+",
+          "source": {
+            "name": "(UO2)3(OH)4 2+",
+            "constant": -11.9,
+            "logK25": -11.9,
+            "terms": [
+              {
+                "name": "UO2 2+",
+                "coefficient": 3
+              },
+              {
+                "name": "H+",
+                "coefficient": -4
+              },
+              {
+                "name": "H2O",
+                "coefficient": 4
+              }
+            ],
+            "reference": "NEA-U+NEA-Upd",
+            "comment": "",
+            "redox": false,
+            "id": 7752
+          },
+          "terms": [
+            {
+              "name": "H+",
+              "coefficient": -4
+            },
+            {
+              "name": "e-",
+              "coefficient": 0
+            },
+            {
+              "name": "UO2 2+",
+              "coefficient": 3
+            },
+            {
+              "name": "H2O",
+              "coefficient": 4
+            }
+          ],
+          "constant": -11.9,
+          "multipliers": [
+            {
+              "sourceId": 7752,
+              "factor": 1
+            }
+          ]
+        },
+        {
+          "name": "(UO2)3(OH)5+",
+          "source": {
+            "name": "(UO2)3(OH)5+",
+            "constant": -15.55,
+            "logK25": -15.55,
+            "terms": [
+              {
+                "name": "UO2 2+",
+                "coefficient": 3
+              },
+              {
+                "name": "H+",
+                "coefficient": -5
+              },
+              {
+                "name": "H2O",
+                "coefficient": 5
+              }
+            ],
+            "reference": "NEA-U+NEA-Upd",
+            "comment": "",
+            "redox": false,
+            "id": 7853
+          },
+          "terms": [
+            {
+              "name": "H+",
+              "coefficient": -5
+            },
+            {
+              "name": "e-",
+              "coefficient": 0
+            },
+            {
+              "name": "UO2 2+",
+              "coefficient": 3
+            },
+            {
+              "name": "H2O",
+              "coefficient": 5
+            }
+          ],
+          "constant": -15.55,
+          "multipliers": [
+            {
+              "sourceId": 7853,
+              "factor": 1
+            }
+          ]
+        },
+        {
+          "name": "(UO2)3(OH)7-",
+          "source": {
+            "name": "(UO2)3(OH)7-",
+            "constant": -32.2,
+            "logK25": -32.2,
+            "terms": [
+              {
+                "name": "UO2 2+",
+                "coefficient": 3
+              },
+              {
+                "name": "H+",
+                "coefficient": -7
+              },
+              {
+                "name": "H2O",
+                "coefficient": 7
+              }
+            ],
+            "reference": "NEA-U+NEA-Upd",
+            "comment": "",
+            "redox": false,
+            "id": 7952
+          },
+          "terms": [
+            {
+              "name": "H+",
+              "coefficient": -7
+            },
+            {
+              "name": "e-",
+              "coefficient": 0
+            },
+            {
+              "name": "UO2 2+",
+              "coefficient": 3
+            },
+            {
+              "name": "H2O",
+              "coefficient": 7
+            }
+          ],
+          "constant": -32.2,
+          "multipliers": [
+            {
+              "sourceId": 7952,
+              "factor": 1
+            }
+          ]
+        },
+        {
+          "name": "(UO2)4(OH)7+",
+          "source": {
+            "name": "(UO2)4(OH)7+",
+            "constant": -21.9,
+            "logK25": -21.9,
+            "terms": [
+              {
+                "name": "UO2 2+",
+                "coefficient": 4
+              },
+              {
+                "name": "H+",
+                "coefficient": -7
+              },
+              {
+                "name": "H2O",
+                "coefficient": 7
+              }
+            ],
+            "reference": "NEA-U+NEA-Upd",
+            "comment": "",
+            "redox": false,
+            "id": 8611
+          },
+          "terms": [
+            {
+              "name": "H+",
+              "coefficient": -7
+            },
+            {
+              "name": "e-",
+              "coefficient": 0
+            },
+            {
+              "name": "UO2 2+",
+              "coefficient": 4
+            },
+            {
+              "name": "H2O",
+              "coefficient": 7
+            }
+          ],
+          "constant": -21.9,
+          "multipliers": [
+            {
+              "sourceId": 8611,
+              "factor": 1
+            }
+          ]
+        },
+        {
+          "name": "H2",
+          "source": {
+            "name": "H2",
+            "constant": -3.083,
+            "logK25": -3.083,
+            "terms": [
+              {
+                "name": "H+",
+                "coefficient": 2
+              },
+              {
+                "name": "e-",
+                "coefficient": 2
+              }
+            ],
+            "reference": "82NBS,89Sho/Hel",
+            "comment": "",
+            "redox": true,
+            "id": 151381
+          },
+          "terms": [
+            {
+              "name": "H+",
+              "coefficient": 2
+            },
+            {
+              "name": "e-",
+              "coefficient": 2
+            },
+            {
+              "name": "UO2 2+",
+              "coefficient": 0
+            },
+            {
+              "name": "H2O",
+              "coefficient": 0
+            }
+          ],
+          "constant": -3.083,
+          "multipliers": [
+            {
+              "sourceId": 151381,
+              "factor": 1
+            }
+          ]
+        },
+        {
+          "name": "H2(g)",
+          "source": {
+            "name": "H2(g)",
+            "constant": 0,
+            "logK25": 0,
+            "terms": [
+              {
+                "name": "H+",
+                "coefficient": 2
+              },
+              {
+                "name": "e-",
+                "coefficient": 2
+              }
+            ],
+            "reference": "82NBS",
+            "comment": "",
+            "redox": true,
+            "id": 151531
+          },
+          "terms": [
+            {
+              "name": "H+",
+              "coefficient": 2
+            },
+            {
+              "name": "e-",
+              "coefficient": 2
+            },
+            {
+              "name": "UO2 2+",
+              "coefficient": 0
+            },
+            {
+              "name": "H2O",
+              "coefficient": 0
+            }
+          ],
+          "constant": 0,
+          "multipliers": [
+            {
+              "sourceId": 151531,
+              "factor": 1
+            }
+          ]
+        },
+        {
+          "name": "H2O2",
+          "source": {
+            "name": "H2O2",
+            "constant": -59.61,
+            "logK25": -59.61,
+            "terms": [
+              {
+                "name": "H+",
+                "coefficient": -2
+              },
+              {
+                "name": "e-",
+                "coefficient": -2
+              },
+              {
+                "name": "H2O",
+                "coefficient": 2
+              }
+            ],
+            "reference": "82NBS+1962GC",
+            "comment": "",
+            "redox": true,
+            "id": 152743
+          },
+          "terms": [
+            {
+              "name": "H+",
+              "coefficient": -2
+            },
+            {
+              "name": "e-",
+              "coefficient": -2
+            },
+            {
+              "name": "UO2 2+",
+              "coefficient": 0
+            },
+            {
+              "name": "H2O",
+              "coefficient": 2
+            }
+          ],
+          "constant": -59.61,
+          "multipliers": [
+            {
+              "sourceId": 152743,
+              "factor": 1
+            }
+          ]
+        },
+        {
+          "name": "O2",
+          "source": {
+            "name": "O2",
+            "constant": -85.988,
+            "logK25": -85.988,
+            "terms": [
+              {
+                "name": "H+",
+                "coefficient": -4
+              },
+              {
+                "name": "e-",
+                "coefficient": -4
+              },
+              {
+                "name": "H2O",
+                "coefficient": 2
+              }
+            ],
+            "reference": "89Sho/Hel",
+            "comment": "",
+            "redox": true,
+            "id": 249989
+          },
+          "terms": [
+            {
+              "name": "H+",
+              "coefficient": -4
+            },
+            {
+              "name": "e-",
+              "coefficient": -4
+            },
+            {
+              "name": "UO2 2+",
+              "coefficient": 0
+            },
+            {
+              "name": "H2O",
+              "coefficient": 2
+            }
+          ],
+          "constant": -85.988,
+          "multipliers": [
+            {
+              "sourceId": 249989,
+              "factor": 1
+            }
+          ]
+        },
+        {
+          "name": "O2(g)",
+          "source": {
+            "name": "O2(g)",
+            "constant": -83.09,
+            "logK25": -83.09,
+            "terms": [
+              {
+                "name": "H+",
+                "coefficient": -4
+              },
+              {
+                "name": "e-",
+                "coefficient": -4
+              },
+              {
+                "name": "H2O",
+                "coefficient": 2
+              }
+            ],
+            "reference": "Codata+95Rob/Hem",
+            "comment": "",
+            "redox": true,
+            "id": 250070
+          },
+          "terms": [
+            {
+              "name": "H+",
+              "coefficient": -4
+            },
+            {
+              "name": "e-",
+              "coefficient": -4
+            },
+            {
+              "name": "UO2 2+",
+              "coefficient": 0
+            },
+            {
+              "name": "H2O",
+              "coefficient": 2
+            }
+          ],
+          "constant": -83.09,
+          "multipliers": [
+            {
+              "sourceId": 250070,
+              "factor": 1
+            }
+          ]
+        },
+        {
+          "name": "O3",
+          "source": {
+            "name": "O3",
+            "constant": -155.14,
+            "logK25": -155.14,
+            "terms": [
+              {
+                "name": "H+",
+                "coefficient": -6
+              },
+              {
+                "name": "e-",
+                "coefficient": -6
+              },
+              {
+                "name": "H2O",
+                "coefficient": 3
+              }
+            ],
+            "reference": "82NBS",
+            "comment": "Cp(O3(aq)) = 1.5xCp(O2(aq))",
+            "redox": true,
+            "id": 250161
+          },
+          "terms": [
+            {
+              "name": "H+",
+              "coefficient": -6
+            },
+            {
+              "name": "e-",
+              "coefficient": -6
+            },
+            {
+              "name": "UO2 2+",
+              "coefficient": 0
+            },
+            {
+              "name": "H2O",
+              "coefficient": 3
+            }
+          ],
+          "constant": -155.14,
+          "multipliers": [
+            {
+              "sourceId": 250161,
+              "factor": 1
+            }
+          ]
+        },
+        {
+          "name": "O3(g)",
+          "source": {
+            "name": "O3(g)",
+            "constant": -153.23,
+            "logK25": -153.23,
+            "terms": [
+              {
+                "name": "H+",
+                "coefficient": -6
+              },
+              {
+                "name": "e-",
+                "coefficient": -6
+              },
+              {
+                "name": "H2O",
+                "coefficient": 3
+              }
+            ],
+            "reference": "82NBS",
+            "comment": "",
+            "redox": true,
+            "id": 250265
+          },
+          "terms": [
+            {
+              "name": "H+",
+              "coefficient": -6
+            },
+            {
+              "name": "e-",
+              "coefficient": -6
+            },
+            {
+              "name": "UO2 2+",
+              "coefficient": 0
+            },
+            {
+              "name": "H2O",
+              "coefficient": 3
+            }
+          ],
+          "constant": -153.23,
+          "multipliers": [
+            {
+              "sourceId": 250265,
+              "factor": 1
+            }
+          ]
+        },
+        {
+          "name": "OH-",
+          "source": {
+            "name": "OH-",
+            "constant": -14.0015,
+            "logK25": -14.0015,
+            "terms": [
+              {
+                "name": "H+",
+                "coefficient": -1
+              },
+              {
+                "name": "H2O",
+                "coefficient": 1
+              }
+            ],
+            "reference": "Codata+88Sho/Hel",
+            "comment": "",
+            "redox": false,
+            "id": 250448
+          },
+          "terms": [
+            {
+              "name": "H+",
+              "coefficient": -1
+            },
+            {
+              "name": "e-",
+              "coefficient": 0
+            },
+            {
+              "name": "UO2 2+",
+              "coefficient": 0
+            },
+            {
+              "name": "H2O",
+              "coefficient": 1
+            }
+          ],
+          "constant": -14.0015,
+          "multipliers": [
+            {
+              "sourceId": 250448,
+              "factor": 1
+            }
+          ]
+        },
+        {
+          "name": "U 4+",
+          "source": {
+            "name": "U 4+",
+            "constant": 9.038,
+            "logK25": 9.038,
+            "terms": [
+              {
+                "name": "H+",
+                "coefficient": 4
+              },
+              {
+                "name": "e-",
+                "coefficient": 2
+              },
+              {
+                "name": "H2O",
+                "coefficient": -2
+              },
+              {
+                "name": "UO2 2+",
+                "coefficient": 1
+              }
+            ],
+            "reference": "NEA-U+NEA-Upd",
+            "comment": "",
+            "redox": true,
+            "id": 346284
+          },
+          "terms": [
+            {
+              "name": "H+",
+              "coefficient": 4
+            },
+            {
+              "name": "e-",
+              "coefficient": 2
+            },
+            {
+              "name": "UO2 2+",
+              "coefficient": 1
+            },
+            {
+              "name": "H2O",
+              "coefficient": -2
+            }
+          ],
+          "constant": 9.038,
+          "multipliers": [
+            {
+              "sourceId": 346284,
+              "factor": 1
+            }
+          ]
+        },
+        {
+          "name": "UO2(OH)2",
+          "source": {
+            "name": "UO2(OH)2",
+            "constant": -12.15,
+            "logK25": -12.15,
+            "terms": [
+              {
+                "name": "UO2 2+",
+                "coefficient": 1
+              },
+              {
+                "name": "H+",
+                "coefficient": -2
+              },
+              {
+                "name": "H2O",
+                "coefficient": 2
+              }
+            ],
+            "reference": "NEA-U+NEA-Upd",
+            "comment": "",
+            "redox": false,
+            "id": 353335
+          },
+          "terms": [
+            {
+              "name": "H+",
+              "coefficient": -2
+            },
+            {
+              "name": "e-",
+              "coefficient": 0
+            },
+            {
+              "name": "UO2 2+",
+              "coefficient": 1
+            },
+            {
+              "name": "H2O",
+              "coefficient": 2
+            }
+          ],
+          "constant": -12.15,
+          "multipliers": [
+            {
+              "sourceId": 353335,
+              "factor": 1
+            }
+          ]
+        },
+        {
+          "name": "UO2(OH)2(cr)",
+          "source": {
+            "name": "UO2(OH)2(cr)",
+            "constant": -4.93,
+            "logK25": -4.93,
+            "terms": [
+              {
+                "name": "UO2 2+",
+                "coefficient": 1
+              },
+              {
+                "name": "H+",
+                "coefficient": -2
+              },
+              {
+                "name": "H2O",
+                "coefficient": 2
+              }
+            ],
+            "reference": "NEA-U+NEA-Upd",
+            "comment": "beta",
+            "redox": false,
+            "id": 353430
+          },
+          "terms": [
+            {
+              "name": "H+",
+              "coefficient": -2
+            },
+            {
+              "name": "e-",
+              "coefficient": 0
+            },
+            {
+              "name": "UO2 2+",
+              "coefficient": 1
+            },
+            {
+              "name": "H2O",
+              "coefficient": 2
+            }
+          ],
+          "constant": -4.93,
+          "multipliers": [
+            {
+              "sourceId": 353430,
+              "factor": 1
+            }
+          ]
+        },
+        {
+          "name": "UO2(OH)3-",
+          "source": {
+            "name": "UO2(OH)3-",
+            "constant": -20.25,
+            "logK25": -20.25,
+            "terms": [
+              {
+                "name": "UO2 2+",
+                "coefficient": 1
+              },
+              {
+                "name": "H+",
+                "coefficient": -3
+              },
+              {
+                "name": "H2O",
+                "coefficient": 3
+              }
+            ],
+            "reference": "NEA-U+NEA-Upd",
+            "comment": "",
+            "redox": false,
+            "id": 353533
+          },
+          "terms": [
+            {
+              "name": "H+",
+              "coefficient": -3
+            },
+            {
+              "name": "e-",
+              "coefficient": 0
+            },
+            {
+              "name": "UO2 2+",
+              "coefficient": 1
+            },
+            {
+              "name": "H2O",
+              "coefficient": 3
+            }
+          ],
+          "constant": -20.25,
+          "multipliers": [
+            {
+              "sourceId": 353533,
+              "factor": 1
+            }
+          ]
+        },
+        {
+          "name": "UO2(OH)4 2-",
+          "source": {
+            "name": "UO2(OH)4 2-",
+            "constant": -32.4,
+            "logK25": -32.4,
+            "terms": [
+              {
+                "name": "UO2 2+",
+                "coefficient": 1
+              },
+              {
+                "name": "H+",
+                "coefficient": -4
+              },
+              {
+                "name": "H2O",
+                "coefficient": 4
+              }
+            ],
+            "reference": "NEA-U+NEA-Upd",
+            "comment": "",
+            "redox": false,
+            "id": 353629
+          },
+          "terms": [
+            {
+              "name": "H+",
+              "coefficient": -4
+            },
+            {
+              "name": "e-",
+              "coefficient": 0
+            },
+            {
+              "name": "UO2 2+",
+              "coefficient": 1
+            },
+            {
+              "name": "H2O",
+              "coefficient": 4
+            }
+          ],
+          "constant": -32.4,
+          "multipliers": [
+            {
+              "sourceId": 353629,
+              "factor": 1
+            }
+          ]
+        },
+        {
+          "name": "UO2+",
+          "source": {
+            "name": "UO2+",
+            "constant": 1.484,
+            "logK25": 1.484,
+            "terms": [
+              {
+                "name": "e-",
+                "coefficient": 1
+              },
+              {
+                "name": "UO2 2+",
+                "coefficient": 1
+              }
+            ],
+            "reference": "NEA-U+NEA-Upd",
+            "comment": "",
+            "redox": true,
+            "id": 354522
+          },
+          "terms": [
+            {
+              "name": "H+",
+              "coefficient": 0
+            },
+            {
+              "name": "e-",
+              "coefficient": 1
+            },
+            {
+              "name": "UO2 2+",
+              "coefficient": 1
+            },
+            {
+              "name": "H2O",
+              "coefficient": 0
+            }
+          ],
+          "constant": 1.484,
+          "multipliers": [
+            {
+              "sourceId": 354522,
+              "factor": 1
+            }
+          ]
+        },
+        {
+          "name": "UO2OH+",
+          "source": {
+            "name": "UO2OH+",
+            "constant": -5.25,
+            "logK25": -5.25,
+            "terms": [
+              {
+                "name": "UO2 2+",
+                "coefficient": 1
+              },
+              {
+                "name": "H+",
+                "coefficient": -1
+              },
+              {
+                "name": "H2O",
+                "coefficient": 1
+              }
+            ],
+            "reference": "NEA-U+NEA-Upd",
+            "comment": "",
+            "redox": false,
+            "id": 357296
+          },
+          "terms": [
+            {
+              "name": "H+",
+              "coefficient": -1
+            },
+            {
+              "name": "e-",
+              "coefficient": 0
+            },
+            {
+              "name": "UO2 2+",
+              "coefficient": 1
+            },
+            {
+              "name": "H2O",
+              "coefficient": 1
+            }
+          ],
+          "constant": -5.25,
+          "multipliers": [
+            {
+              "sourceId": 357296,
+              "factor": 1
+            }
+          ]
+        },
+        {
+          "name": "UO3·2H2O(cr)",
+          "source": {
+            "name": "UO3·2H2O(cr)",
+            "constant": -4.81,
+            "logK25": -4.81,
+            "terms": [
+              {
+                "name": "UO2 2+",
+                "coefficient": 1
+              },
+              {
+                "name": "H+",
+                "coefficient": -2
+              },
+              {
+                "name": "H2O",
+                "coefficient": 3
+              }
+            ],
+            "reference": "NEA-U+NEA-Upd",
+            "comment": "schoepite",
+            "redox": false,
+            "id": 358594
+          },
+          "terms": [
+            {
+              "name": "H+",
+              "coefficient": -2
+            },
+            {
+              "name": "e-",
+              "coefficient": 0
+            },
+            {
+              "name": "UO2 2+",
+              "coefficient": 1
+            },
+            {
+              "name": "H2O",
+              "coefficient": 3
+            }
+          ],
+          "constant": -4.81,
+          "multipliers": [
+            {
+              "sourceId": 358594,
+              "factor": 1
+            }
+          ]
+        },
+        {
+          "name": "HO2-",
+          "source": {
+            "name": "HO2-",
+            "constant": -11.65,
+            "logK25": -11.65,
+            "terms": [
+              {
+                "name": "H2O2",
+                "coefficient": 1
+              },
+              {
+                "name": "H+",
+                "coefficient": -1
+              }
+            ],
+            "reference": "SmithMart+88Sho/Hel",
+            "comment": "",
+            "redox": false,
+            "id": 175307
+          },
+          "terms": [
+            {
+              "name": "H+",
+              "coefficient": -3
+            },
+            {
+              "name": "e-",
+              "coefficient": -2
+            },
+            {
+              "name": "UO2 2+",
+              "coefficient": 0
+            },
+            {
+              "name": "H2O",
+              "coefficient": 2
+            }
+          ],
+          "constant": -71.26,
+          "multipliers": [
+            {
+              "sourceId": 175307,
+              "factor": 1
+            },
+            {
+              "sourceId": 152743,
+              "factor": 1
+            }
+          ]
+        },
+        {
+          "name": "U 3+",
+          "source": {
+            "name": "U 3+",
+            "constant": -9.353,
+            "logK25": -9.353,
+            "terms": [
+              {
+                "name": "U 4+",
+                "coefficient": 1
+              },
+              {
+                "name": "e-",
+                "coefficient": 1
+              }
+            ],
+            "reference": "NEA-U+NEA-Upd",
+            "comment": "",
+            "redox": true,
+            "id": 346107
+          },
+          "terms": [
+            {
+              "name": "H+",
+              "coefficient": 4
+            },
+            {
+              "name": "e-",
+              "coefficient": 3
+            },
+            {
+              "name": "UO2 2+",
+              "coefficient": 1
+            },
+            {
+              "name": "H2O",
+              "coefficient": -2
+            }
+          ],
+          "constant": -0.3149999999999995,
+          "multipliers": [
+            {
+              "sourceId": 346107,
+              "factor": 1
+            },
+            {
+              "sourceId": 346284,
+              "factor": 1
+            }
+          ]
+        },
+        {
+          "name": "U(cr)",
+          "source": {
+            "name": "U(cr)",
+            "constant": -92.83,
+            "logK25": -92.83,
+            "terms": [
+              {
+                "name": "U 4+",
+                "coefficient": 1
+              },
+              {
+                "name": "e-",
+                "coefficient": 4
+              }
+            ],
+            "reference": "NEA-U+NEA-Upd",
+            "comment": "",
+            "redox": true,
+            "id": 346635
+          },
+          "terms": [
+            {
+              "name": "H+",
+              "coefficient": 4
+            },
+            {
+              "name": "e-",
+              "coefficient": 6
+            },
+            {
+              "name": "UO2 2+",
+              "coefficient": 1
+            },
+            {
+              "name": "H2O",
+              "coefficient": -2
+            }
+          ],
+          "constant": -83.792,
+          "multipliers": [
+            {
+              "sourceId": 346635,
+              "factor": 1
+            },
+            {
+              "sourceId": 346284,
+              "factor": 1
+            }
+          ]
+        },
+        {
+          "name": "U(OH)4",
+          "source": {
+            "name": "U(OH)4",
+            "constant": -10.004,
+            "logK25": -10.004,
+            "terms": [
+              {
+                "name": "U 4+",
+                "coefficient": 1
+              },
+              {
+                "name": "H+",
+                "coefficient": -4
+              },
+              {
+                "name": "H2O",
+                "coefficient": 4
+              }
+            ],
+            "reference": "NEA-U+NEA-Upd",
+            "comment": "",
+            "redox": false,
+            "id": 347201
+          },
+          "terms": [
+            {
+              "name": "H+",
+              "coefficient": 0
+            },
+            {
+              "name": "e-",
+              "coefficient": 2
+            },
+            {
+              "name": "UO2 2+",
+              "coefficient": 1
+            },
+            {
+              "name": "H2O",
+              "coefficient": 2
+            }
+          ],
+          "constant": -0.9659999999999993,
+          "multipliers": [
+            {
+              "sourceId": 347201,
+              "factor": 1
+            },
+            {
+              "sourceId": 346284,
+              "factor": 1
+            }
+          ]
+        },
+        {
+          "name": "U(OH)5-",
+          "source": {
+            "name": "U(OH)5-",
+            "constant": -23,
+            "logK25": -23,
+            "terms": [
+              {
+                "name": "U 4+",
+                "coefficient": 1
+              },
+              {
+                "name": "H+",
+                "coefficient": -5
+              },
+              {
+                "name": "H2O",
+                "coefficient": 5
+              }
+            ],
+            "reference": "NEA-U",
+            "comment": "p.127: dominates at pH>12",
+            "redox": false,
+            "id": 347292
+          },
+          "terms": [
+            {
+              "name": "H+",
+              "coefficient": -1
+            },
+            {
+              "name": "e-",
+              "coefficient": 2
+            },
+            {
+              "name": "UO2 2+",
+              "coefficient": 1
+            },
+            {
+              "name": "H2O",
+              "coefficient": 3
+            }
+          ],
+          "constant": -13.962,
+          "multipliers": [
+            {
+              "sourceId": 347292,
+              "factor": 1
+            },
+            {
+              "sourceId": 346284,
+              "factor": 1
+            }
+          ]
+        },
+        {
+          "name": "U3O7(cr)",
+          "source": {
+            "name": "U3O7(cr)",
+            "constant": -0.633,
+            "logK25": -0.633,
+            "terms": [
+              {
+                "name": "U 4+",
+                "coefficient": 1
+              },
+              {
+                "name": "H+",
+                "coefficient": -4.6667
+              },
+              {
+                "name": "e-",
+                "coefficient": -0.6667
+              },
+              {
+                "name": "H2O",
+                "coefficient": 2.3333
+              }
+            ],
+            "reference": "NEA-U+NEA-Upd",
+            "comment": "UO2.333",
+            "redox": true,
+            "id": 348584
+          },
+          "terms": [
+            {
+              "name": "H+",
+              "coefficient": -0.6666999999999996
+            },
+            {
+              "name": "e-",
+              "coefficient": 1.3333
+            },
+            {
+              "name": "UO2 2+",
+              "coefficient": 1
+            },
+            {
+              "name": "H2O",
+              "coefficient": 0.33329999999999993
+            }
+          ],
+          "constant": 8.405000000000001,
+          "multipliers": [
+            {
+              "sourceId": 348584,
+              "factor": 1
+            },
+            {
+              "sourceId": 346284,
+              "factor": 1
+            }
+          ]
+        },
+        {
+          "name": "U3O8(cr)",
+          "source": {
+            "name": "U3O8(cr)",
+            "constant": -6.85,
+            "logK25": -6.85,
+            "terms": [
+              {
+                "name": "U 4+",
+                "coefficient": 1
+              },
+              {
+                "name": "H+",
+                "coefficient": -5.3333
+              },
+              {
+                "name": "e-",
+                "coefficient": -1.3333
+              },
+              {
+                "name": "H2O",
+                "coefficient": 2.6667
+              }
+            ],
+            "reference": "NEA-U+NEA-Upd",
+            "comment": "UO2.667",
+            "redox": true,
+            "id": 348696
+          },
+          "terms": [
+            {
+              "name": "H+",
+              "coefficient": -1.3333000000000004
+            },
+            {
+              "name": "e-",
+              "coefficient": 0.6667000000000001
+            },
+            {
+              "name": "UO2 2+",
+              "coefficient": 1
+            },
+            {
+              "name": "H2O",
+              "coefficient": 0.6667000000000001
+            }
+          ],
+          "constant": 2.1880000000000006,
+          "multipliers": [
+            {
+              "sourceId": 348696,
+              "factor": 1
+            },
+            {
+              "sourceId": 346284,
+              "factor": 1
+            }
+          ]
+        },
+        {
+          "name": "U4O9(cr)",
+          "source": {
+            "name": "U4O9(cr)",
+            "constant": 0.999,
+            "logK25": 0.999,
+            "terms": [
+              {
+                "name": "U 4+",
+                "coefficient": 1
+              },
+              {
+                "name": "H+",
+                "coefficient": -4.5
+              },
+              {
+                "name": "e-",
+                "coefficient": -0.5
+              },
+              {
+                "name": "H2O",
+                "coefficient": 2.25
+              }
+            ],
+            "reference": "NEA-U+NEA-Upd",
+            "comment": "UO2.25",
+            "redox": true,
+            "id": 349004
+          },
+          "terms": [
+            {
+              "name": "H+",
+              "coefficient": -0.5
+            },
+            {
+              "name": "e-",
+              "coefficient": 1.5
+            },
+            {
+              "name": "UO2 2+",
+              "coefficient": 1
+            },
+            {
+              "name": "H2O",
+              "coefficient": 0.25
+            }
+          ],
+          "constant": 10.037,
+          "multipliers": [
+            {
+              "sourceId": 349004,
+              "factor": 1
+            },
+            {
+              "sourceId": 346284,
+              "factor": 1
+            }
+          ]
+        },
+        {
+          "name": "UH3(cr)",
+          "source": {
+            "name": "UH3(cr)",
+            "constant": -80.1,
+            "logK25": -80.1,
+            "terms": [
+              {
+                "name": "U 4+",
+                "coefficient": 1
+              },
+              {
+                "name": "H+",
+                "coefficient": 3
+              },
+              {
+                "name": "e-",
+                "coefficient": 7
+              }
+            ],
+            "reference": "NEA-U+NEA-Upd",
+            "comment": "beta",
+            "redox": true,
+            "id": 350096
+          },
+          "terms": [
+            {
+              "name": "H+",
+              "coefficient": 7
+            },
+            {
+              "name": "e-",
+              "coefficient": 9
+            },
+            {
+              "name": "UO2 2+",
+              "coefficient": 1
+            },
+            {
+              "name": "H2O",
+              "coefficient": -2
+            }
+          ],
+          "constant": -71.062,
+          "multipliers": [
+            {
+              "sourceId": 350096,
+              "factor": 1
+            },
+            {
+              "sourceId": 346284,
+              "factor": 1
+            }
+          ]
+        },
+        {
+          "name": "UO2(am)",
+          "source": {
+            "name": "UO2(am)",
+            "constant": -1.504,
+            "logK25": -1.504,
+            "terms": [
+              {
+                "name": "U 4+",
+                "coefficient": 1
+              },
+              {
+                "name": "H+",
+                "coefficient": -4
+              },
+              {
+                "name": "H2O",
+                "coefficient": 2
+              }
+            ],
+            "reference": "NEA-U+NEA-Upd",
+            "comment": "p.186 in NEA-Upd",
+            "redox": false,
+            "id": 350530
+          },
+          "terms": [
+            {
+              "name": "H+",
+              "coefficient": 0
+            },
+            {
+              "name": "e-",
+              "coefficient": 2
+            },
+            {
+              "name": "UO2 2+",
+              "coefficient": 1
+            },
+            {
+              "name": "H2O",
+              "coefficient": 0
+            }
+          ],
+          "constant": 7.534000000000001,
+          "multipliers": [
+            {
+              "sourceId": 350530,
+              "factor": 1
+            },
+            {
+              "sourceId": 346284,
+              "factor": 1
+            }
+          ]
+        },
+        {
+          "name": "UO2(cr)",
+          "source": {
+            "name": "UO2(cr)",
+            "constant": 4.85,
+            "logK25": 4.85,
+            "terms": [
+              {
+                "name": "U 4+",
+                "coefficient": 1
+              },
+              {
+                "name": "H+",
+                "coefficient": -4
+              },
+              {
+                "name": "H2O",
+                "coefficient": 2
+              }
+            ],
+            "reference": "NEA-U+NEA-Upd",
+            "comment": "uraninite",
+            "redox": false,
+            "id": 351365
+          },
+          "terms": [
+            {
+              "name": "H+",
+              "coefficient": 0
+            },
+            {
+              "name": "e-",
+              "coefficient": 2
+            },
+            {
+              "name": "UO2 2+",
+              "coefficient": 1
+            },
+            {
+              "name": "H2O",
+              "coefficient": 0
+            }
+          ],
+          "constant": 13.888,
+          "multipliers": [
+            {
+              "sourceId": 351365,
+              "factor": 1
+            },
+            {
+              "sourceId": 346284,
+              "factor": 1
+            }
+          ]
+        },
+        {
+          "name": "UOH 3+",
+          "source": {
+            "name": "UOH 3+",
+            "constant": -0.54,
+            "logK25": -0.54,
+            "terms": [
+              {
+                "name": "U 4+",
+                "coefficient": 1
+              },
+              {
+                "name": "H+",
+                "coefficient": -1
+              },
+              {
+                "name": "H2O",
+                "coefficient": 1
+              }
+            ],
+            "reference": "NEA-U+NEA-Upd",
+            "comment": "",
+            "redox": false,
+            "id": 359769
+          },
+          "terms": [
+            {
+              "name": "H+",
+              "coefficient": 3
+            },
+            {
+              "name": "e-",
+              "coefficient": 2
+            },
+            {
+              "name": "UO2 2+",
+              "coefficient": 1
+            },
+            {
+              "name": "H2O",
+              "coefficient": -1
+            }
+          ],
+          "constant": 8.498000000000001,
+          "multipliers": [
+            {
+              "sourceId": 359769,
+              "factor": 1
+            },
+            {
+              "sourceId": 346284,
+              "factor": 1
+            }
+          ]
+        }
+      ],
+      "differences": [
+        {
+          "name": "(UO2)2(OH)2 2+",
+          "maxCoefficientDifference": 0,
+          "logKDifference": 0,
+          "logK25Difference": 0
+        },
+        {
+          "name": "(UO2)2OH+3",
+          "maxCoefficientDifference": 0,
+          "logKDifference": 0,
+          "logK25Difference": 0
+        },
+        {
+          "name": "(UO2)3(OH)4 2+",
+          "maxCoefficientDifference": 0,
+          "logKDifference": 0,
+          "logK25Difference": 0
+        },
+        {
+          "name": "(UO2)3(OH)5+",
+          "maxCoefficientDifference": 0,
+          "logKDifference": 0,
+          "logK25Difference": 0
+        },
+        {
+          "name": "(UO2)3(OH)7-",
+          "maxCoefficientDifference": 0,
+          "logKDifference": 0,
+          "logK25Difference": 0
+        },
+        {
+          "name": "(UO2)4(OH)7+",
+          "maxCoefficientDifference": 0,
+          "logKDifference": 0,
+          "logK25Difference": 0
+        },
+        {
+          "name": "H2",
+          "maxCoefficientDifference": 0,
+          "logKDifference": 0,
+          "logK25Difference": 0
+        },
+        {
+          "name": "H2(g)",
+          "maxCoefficientDifference": 0,
+          "logKDifference": 0,
+          "logK25Difference": 0
+        },
+        {
+          "name": "H2O2",
+          "maxCoefficientDifference": 0,
+          "logKDifference": 0,
+          "logK25Difference": 0
+        },
+        {
+          "name": "O2",
+          "maxCoefficientDifference": 0,
+          "logKDifference": 0,
+          "logK25Difference": 0
+        },
+        {
+          "name": "O2(g)",
+          "maxCoefficientDifference": 0,
+          "logKDifference": 0,
+          "logK25Difference": 0
+        },
+        {
+          "name": "O3",
+          "maxCoefficientDifference": 0,
+          "logKDifference": 0,
+          "logK25Difference": 0
+        },
+        {
+          "name": "O3(g)",
+          "maxCoefficientDifference": 0,
+          "logKDifference": 0,
+          "logK25Difference": 0
+        },
+        {
+          "name": "OH-",
+          "maxCoefficientDifference": 0,
+          "logKDifference": 0,
+          "logK25Difference": 0
+        },
+        {
+          "name": "U 4+",
+          "maxCoefficientDifference": 0,
+          "logKDifference": 0,
+          "logK25Difference": 0
+        },
+        {
+          "name": "UO2(OH)2",
+          "maxCoefficientDifference": 0,
+          "logKDifference": 0,
+          "logK25Difference": 0
+        },
+        {
+          "name": "UO2(OH)3-",
+          "maxCoefficientDifference": 0,
+          "logKDifference": 0,
+          "logK25Difference": 0
+        },
+        {
+          "name": "UO2(OH)4 2-",
+          "maxCoefficientDifference": 0,
+          "logKDifference": 0,
+          "logK25Difference": 0
+        },
+        {
+          "name": "UO2+",
+          "maxCoefficientDifference": 0,
+          "logKDifference": 0,
+          "logK25Difference": 0
+        },
+        {
+          "name": "UO2OH+",
+          "maxCoefficientDifference": 0,
+          "logKDifference": 0,
+          "logK25Difference": 0
+        },
+        {
+          "name": "HO2-",
+          "maxCoefficientDifference": 0,
+          "logKDifference": 0,
+          "logK25Difference": 0
+        },
+        {
+          "name": "U 3+",
+          "maxCoefficientDifference": 0,
+          "logKDifference": 0,
+          "logK25Difference": 0
+        },
+        {
+          "name": "U(OH)4",
+          "maxCoefficientDifference": 0,
+          "logKDifference": 0,
+          "logK25Difference": 0
+        },
+        {
+          "name": "U(OH)5-",
+          "maxCoefficientDifference": 0,
+          "logKDifference": 0,
+          "logK25Difference": 0
+        },
+        {
+          "name": "UOH 3+",
+          "maxCoefficientDifference": 0,
+          "logKDifference": 0,
+          "logK25Difference": 0
+        },
+        {
+          "name": "UO2(OH)2(cr)",
+          "maxCoefficientDifference": 0,
+          "logKDifference": 0,
+          "logK25Difference": 0
+        },
+        {
+          "name": "UO3·2H2O(cr)",
+          "maxCoefficientDifference": 0,
+          "logKDifference": 0,
+          "logK25Difference": 0
+        },
+        {
+          "name": "U(cr)",
+          "maxCoefficientDifference": 0,
+          "logKDifference": 0,
+          "logK25Difference": 0
+        },
+        {
+          "name": "U3O7(cr)",
+          "maxCoefficientDifference": 0,
+          "logKDifference": 0,
+          "logK25Difference": 0
+        },
+        {
+          "name": "U3O8(cr)",
+          "maxCoefficientDifference": 0,
+          "logKDifference": 0,
+          "logK25Difference": 0
+        },
+        {
+          "name": "U4O9(cr)",
+          "maxCoefficientDifference": 0,
+          "logKDifference": 0,
+          "logK25Difference": 0
+        },
+        {
+          "name": "UH3(cr)",
+          "maxCoefficientDifference": 0,
+          "logKDifference": 0,
+          "logK25Difference": 0
+        },
+        {
+          "name": "UO2(am)",
+          "maxCoefficientDifference": 0,
+          "logKDifference": 0,
+          "logK25Difference": 0
+        },
+        {
+          "name": "UO2(cr)",
+          "maxCoefficientDifference": 0,
+          "logKDifference": 0,
+          "logK25Difference": 0
+        }
+      ]
+    },
+    "UV": {
+      "basis": [
+        "H+",
+        "e-",
+        "UO2+",
+        "H2O"
+      ],
+      "layers": [
+        [
+          {
+            "name": "H2O2",
+            "sourceId": 152743
+          },
+          {
+            "name": "U 4+",
+            "sourceId": 346183
+          },
+          {
+            "name": "UO2 2+",
+            "sourceId": 350349
+          }
+        ],
+        [
+          {
+            "name": "U 3+",
+            "sourceId": 346107
+          }
+        ]
+      ],
+      "bindings": [
+        {
+          "name": "H2O2",
+          "constant": -59.61,
+          "logK25": -59.61,
+          "terms": [
+            {
+              "name": "H+",
+              "coefficient": -2
+            },
+            {
+              "name": "e-",
+              "coefficient": -2
+            },
+            {
+              "name": "H2O",
+              "coefficient": 2
+            }
+          ],
+          "reference": "82NBS+1962GC",
+          "comment": "",
+          "redox": true,
+          "id": 152743
+        },
+        {
+          "name": "U 4+",
+          "constant": 7.554,
+          "logK25": 7.554,
+          "terms": [
+            {
+              "name": "H+",
+              "coefficient": 4
+            },
+            {
+              "name": "e-",
+              "coefficient": 1
+            },
+            {
+              "name": "H2O",
+              "coefficient": -2
+            },
+            {
+              "name": "UO2+",
+              "coefficient": 1
+            }
+          ],
+          "reference": "NEA-U+NEA-Upd",
+          "comment": "",
+          "redox": true,
+          "id": 346183
+        },
+        {
+          "name": "UO2 2+",
+          "constant": -1.484,
+          "logK25": -1.484,
+          "terms": [
+            {
+              "name": "e-",
+              "coefficient": -1
+            },
+            {
+              "name": "UO2+",
+              "coefficient": 1
+            }
+          ],
+          "reference": "NEA-U+NEA-Upd",
+          "comment": "",
+          "redox": true,
+          "id": 350349
+        },
+        {
+          "name": "U 3+",
+          "constant": -9.353,
+          "logK25": -9.353,
+          "terms": [
+            {
+              "name": "U 4+",
+              "coefficient": 1
+            },
+            {
+              "name": "e-",
+              "coefficient": 1
+            }
+          ],
+          "reference": "NEA-U+NEA-Upd",
+          "comment": "",
+          "redox": true,
+          "id": 346107
+        }
+      ],
+      "transformed": [
+        {
+          "name": "H2",
+          "source": {
+            "name": "H2",
+            "constant": -3.083,
+            "logK25": -3.083,
+            "terms": [
+              {
+                "name": "H+",
+                "coefficient": 2
+              },
+              {
+                "name": "e-",
+                "coefficient": 2
+              }
+            ],
+            "reference": "82NBS,89Sho/Hel",
+            "comment": "",
+            "redox": true,
+            "id": 151381
+          },
+          "terms": [
+            {
+              "name": "H+",
+              "coefficient": 2
+            },
+            {
+              "name": "e-",
+              "coefficient": 2
+            },
+            {
+              "name": "UO2+",
+              "coefficient": 0
+            },
+            {
+              "name": "H2O",
+              "coefficient": 0
+            }
+          ],
+          "constant": -3.083,
+          "multipliers": [
+            {
+              "sourceId": 151381,
+              "factor": 1
+            }
+          ]
+        },
+        {
+          "name": "H2(g)",
+          "source": {
+            "name": "H2(g)",
+            "constant": 0,
+            "logK25": 0,
+            "terms": [
+              {
+                "name": "H+",
+                "coefficient": 2
+              },
+              {
+                "name": "e-",
+                "coefficient": 2
+              }
+            ],
+            "reference": "82NBS",
+            "comment": "",
+            "redox": true,
+            "id": 151531
+          },
+          "terms": [
+            {
+              "name": "H+",
+              "coefficient": 2
+            },
+            {
+              "name": "e-",
+              "coefficient": 2
+            },
+            {
+              "name": "UO2+",
+              "coefficient": 0
+            },
+            {
+              "name": "H2O",
+              "coefficient": 0
+            }
+          ],
+          "constant": 0,
+          "multipliers": [
+            {
+              "sourceId": 151531,
+              "factor": 1
+            }
+          ]
+        },
+        {
+          "name": "H2O2",
+          "source": {
+            "name": "H2O2",
+            "constant": -59.61,
+            "logK25": -59.61,
+            "terms": [
+              {
+                "name": "H+",
+                "coefficient": -2
+              },
+              {
+                "name": "e-",
+                "coefficient": -2
+              },
+              {
+                "name": "H2O",
+                "coefficient": 2
+              }
+            ],
+            "reference": "82NBS+1962GC",
+            "comment": "",
+            "redox": true,
+            "id": 152743
+          },
+          "terms": [
+            {
+              "name": "H+",
+              "coefficient": -2
+            },
+            {
+              "name": "e-",
+              "coefficient": -2
+            },
+            {
+              "name": "UO2+",
+              "coefficient": 0
+            },
+            {
+              "name": "H2O",
+              "coefficient": 2
+            }
+          ],
+          "constant": -59.61,
+          "multipliers": [
+            {
+              "sourceId": 152743,
+              "factor": 1
+            }
+          ]
+        },
+        {
+          "name": "O2",
+          "source": {
+            "name": "O2",
+            "constant": -85.988,
+            "logK25": -85.988,
+            "terms": [
+              {
+                "name": "H+",
+                "coefficient": -4
+              },
+              {
+                "name": "e-",
+                "coefficient": -4
+              },
+              {
+                "name": "H2O",
+                "coefficient": 2
+              }
+            ],
+            "reference": "89Sho/Hel",
+            "comment": "",
+            "redox": true,
+            "id": 249989
+          },
+          "terms": [
+            {
+              "name": "H+",
+              "coefficient": -4
+            },
+            {
+              "name": "e-",
+              "coefficient": -4
+            },
+            {
+              "name": "UO2+",
+              "coefficient": 0
+            },
+            {
+              "name": "H2O",
+              "coefficient": 2
+            }
+          ],
+          "constant": -85.988,
+          "multipliers": [
+            {
+              "sourceId": 249989,
+              "factor": 1
+            }
+          ]
+        },
+        {
+          "name": "O2(g)",
+          "source": {
+            "name": "O2(g)",
+            "constant": -83.09,
+            "logK25": -83.09,
+            "terms": [
+              {
+                "name": "H+",
+                "coefficient": -4
+              },
+              {
+                "name": "e-",
+                "coefficient": -4
+              },
+              {
+                "name": "H2O",
+                "coefficient": 2
+              }
+            ],
+            "reference": "Codata+95Rob/Hem",
+            "comment": "",
+            "redox": true,
+            "id": 250070
+          },
+          "terms": [
+            {
+              "name": "H+",
+              "coefficient": -4
+            },
+            {
+              "name": "e-",
+              "coefficient": -4
+            },
+            {
+              "name": "UO2+",
+              "coefficient": 0
+            },
+            {
+              "name": "H2O",
+              "coefficient": 2
+            }
+          ],
+          "constant": -83.09,
+          "multipliers": [
+            {
+              "sourceId": 250070,
+              "factor": 1
+            }
+          ]
+        },
+        {
+          "name": "O3",
+          "source": {
+            "name": "O3",
+            "constant": -155.14,
+            "logK25": -155.14,
+            "terms": [
+              {
+                "name": "H+",
+                "coefficient": -6
+              },
+              {
+                "name": "e-",
+                "coefficient": -6
+              },
+              {
+                "name": "H2O",
+                "coefficient": 3
+              }
+            ],
+            "reference": "82NBS",
+            "comment": "Cp(O3(aq)) = 1.5xCp(O2(aq))",
+            "redox": true,
+            "id": 250161
+          },
+          "terms": [
+            {
+              "name": "H+",
+              "coefficient": -6
+            },
+            {
+              "name": "e-",
+              "coefficient": -6
+            },
+            {
+              "name": "UO2+",
+              "coefficient": 0
+            },
+            {
+              "name": "H2O",
+              "coefficient": 3
+            }
+          ],
+          "constant": -155.14,
+          "multipliers": [
+            {
+              "sourceId": 250161,
+              "factor": 1
+            }
+          ]
+        },
+        {
+          "name": "O3(g)",
+          "source": {
+            "name": "O3(g)",
+            "constant": -153.23,
+            "logK25": -153.23,
+            "terms": [
+              {
+                "name": "H+",
+                "coefficient": -6
+              },
+              {
+                "name": "e-",
+                "coefficient": -6
+              },
+              {
+                "name": "H2O",
+                "coefficient": 3
+              }
+            ],
+            "reference": "82NBS",
+            "comment": "",
+            "redox": true,
+            "id": 250265
+          },
+          "terms": [
+            {
+              "name": "H+",
+              "coefficient": -6
+            },
+            {
+              "name": "e-",
+              "coefficient": -6
+            },
+            {
+              "name": "UO2+",
+              "coefficient": 0
+            },
+            {
+              "name": "H2O",
+              "coefficient": 3
+            }
+          ],
+          "constant": -153.23,
+          "multipliers": [
+            {
+              "sourceId": 250265,
+              "factor": 1
+            }
+          ]
+        },
+        {
+          "name": "OH-",
+          "source": {
+            "name": "OH-",
+            "constant": -14.0015,
+            "logK25": -14.0015,
+            "terms": [
+              {
+                "name": "H+",
+                "coefficient": -1
+              },
+              {
+                "name": "H2O",
+                "coefficient": 1
+              }
+            ],
+            "reference": "Codata+88Sho/Hel",
+            "comment": "",
+            "redox": false,
+            "id": 250448
+          },
+          "terms": [
+            {
+              "name": "H+",
+              "coefficient": -1
+            },
+            {
+              "name": "e-",
+              "coefficient": 0
+            },
+            {
+              "name": "UO2+",
+              "coefficient": 0
+            },
+            {
+              "name": "H2O",
+              "coefficient": 1
+            }
+          ],
+          "constant": -14.0015,
+          "multipliers": [
+            {
+              "sourceId": 250448,
+              "factor": 1
+            }
+          ]
+        },
+        {
+          "name": "U 4+",
+          "source": {
+            "name": "U 4+",
+            "constant": 7.554,
+            "logK25": 7.554,
+            "terms": [
+              {
+                "name": "H+",
+                "coefficient": 4
+              },
+              {
+                "name": "e-",
+                "coefficient": 1
+              },
+              {
+                "name": "H2O",
+                "coefficient": -2
+              },
+              {
+                "name": "UO2+",
+                "coefficient": 1
+              }
+            ],
+            "reference": "NEA-U+NEA-Upd",
+            "comment": "",
+            "redox": true,
+            "id": 346183
+          },
+          "terms": [
+            {
+              "name": "H+",
+              "coefficient": 4
+            },
+            {
+              "name": "e-",
+              "coefficient": 1
+            },
+            {
+              "name": "UO2+",
+              "coefficient": 1
+            },
+            {
+              "name": "H2O",
+              "coefficient": -2
+            }
+          ],
+          "constant": 7.554,
+          "multipliers": [
+            {
+              "sourceId": 346183,
+              "factor": 1
+            }
+          ]
+        },
+        {
+          "name": "UO2 2+",
+          "source": {
+            "name": "UO2 2+",
+            "constant": -1.484,
+            "logK25": -1.484,
+            "terms": [
+              {
+                "name": "e-",
+                "coefficient": -1
+              },
+              {
+                "name": "UO2+",
+                "coefficient": 1
+              }
+            ],
+            "reference": "NEA-U+NEA-Upd",
+            "comment": "",
+            "redox": true,
+            "id": 350349
+          },
+          "terms": [
+            {
+              "name": "H+",
+              "coefficient": 0
+            },
+            {
+              "name": "e-",
+              "coefficient": -1
+            },
+            {
+              "name": "UO2+",
+              "coefficient": 1
+            },
+            {
+              "name": "H2O",
+              "coefficient": 0
+            }
+          ],
+          "constant": -1.484,
+          "multipliers": [
+            {
+              "sourceId": 350349,
+              "factor": 1
+            }
+          ]
+        },
+        {
+          "name": "(UO2)2(OH)2 2+",
+          "source": {
+            "name": "(UO2)2(OH)2 2+",
+            "constant": -5.62,
+            "logK25": -5.62,
+            "terms": [
+              {
+                "name": "UO2 2+",
+                "coefficient": 2
+              },
+              {
+                "name": "H+",
+                "coefficient": -2
+              },
+              {
+                "name": "H2O",
+                "coefficient": 2
+              }
+            ],
+            "reference": "NEA-U+NEA-Upd",
+            "comment": "",
+            "redox": false,
+            "id": 6790
+          },
+          "terms": [
+            {
+              "name": "H+",
+              "coefficient": -2
+            },
+            {
+              "name": "e-",
+              "coefficient": -2
+            },
+            {
+              "name": "UO2+",
+              "coefficient": 2
+            },
+            {
+              "name": "H2O",
+              "coefficient": 2
+            }
+          ],
+          "constant": -8.588000000000001,
+          "multipliers": [
+            {
+              "sourceId": 6790,
+              "factor": 1
+            },
+            {
+              "sourceId": 350349,
+              "factor": 2
+            }
+          ]
+        },
+        {
+          "name": "(UO2)2OH+3",
+          "source": {
+            "name": "(UO2)2OH+3",
+            "constant": -2.7,
+            "logK25": -2.7,
+            "terms": [
+              {
+                "name": "UO2 2+",
+                "coefficient": 2
+              },
+              {
+                "name": "H+",
+                "coefficient": -1
+              },
+              {
+                "name": "H2O",
+                "coefficient": 1
+              }
+            ],
+            "reference": "NEA-U+NEA-Upd",
+            "comment": "",
+            "redox": false,
+            "id": 7227
+          },
+          "terms": [
+            {
+              "name": "H+",
+              "coefficient": -1
+            },
+            {
+              "name": "e-",
+              "coefficient": -2
+            },
+            {
+              "name": "UO2+",
+              "coefficient": 2
+            },
+            {
+              "name": "H2O",
+              "coefficient": 1
+            }
+          ],
+          "constant": -5.668,
+          "multipliers": [
+            {
+              "sourceId": 7227,
+              "factor": 1
+            },
+            {
+              "sourceId": 350349,
+              "factor": 2
+            }
+          ]
+        },
+        {
+          "name": "(UO2)3(OH)4 2+",
+          "source": {
+            "name": "(UO2)3(OH)4 2+",
+            "constant": -11.9,
+            "logK25": -11.9,
+            "terms": [
+              {
+                "name": "UO2 2+",
+                "coefficient": 3
+              },
+              {
+                "name": "H+",
+                "coefficient": -4
+              },
+              {
+                "name": "H2O",
+                "coefficient": 4
+              }
+            ],
+            "reference": "NEA-U+NEA-Upd",
+            "comment": "",
+            "redox": false,
+            "id": 7752
+          },
+          "terms": [
+            {
+              "name": "H+",
+              "coefficient": -4
+            },
+            {
+              "name": "e-",
+              "coefficient": -3
+            },
+            {
+              "name": "UO2+",
+              "coefficient": 3
+            },
+            {
+              "name": "H2O",
+              "coefficient": 4
+            }
+          ],
+          "constant": -16.352,
+          "multipliers": [
+            {
+              "sourceId": 7752,
+              "factor": 1
+            },
+            {
+              "sourceId": 350349,
+              "factor": 3
+            }
+          ]
+        },
+        {
+          "name": "(UO2)3(OH)5+",
+          "source": {
+            "name": "(UO2)3(OH)5+",
+            "constant": -15.55,
+            "logK25": -15.55,
+            "terms": [
+              {
+                "name": "UO2 2+",
+                "coefficient": 3
+              },
+              {
+                "name": "H+",
+                "coefficient": -5
+              },
+              {
+                "name": "H2O",
+                "coefficient": 5
+              }
+            ],
+            "reference": "NEA-U+NEA-Upd",
+            "comment": "",
+            "redox": false,
+            "id": 7853
+          },
+          "terms": [
+            {
+              "name": "H+",
+              "coefficient": -5
+            },
+            {
+              "name": "e-",
+              "coefficient": -3
+            },
+            {
+              "name": "UO2+",
+              "coefficient": 3
+            },
+            {
+              "name": "H2O",
+              "coefficient": 5
+            }
+          ],
+          "constant": -20.002000000000002,
+          "multipliers": [
+            {
+              "sourceId": 7853,
+              "factor": 1
+            },
+            {
+              "sourceId": 350349,
+              "factor": 3
+            }
+          ]
+        },
+        {
+          "name": "(UO2)3(OH)7-",
+          "source": {
+            "name": "(UO2)3(OH)7-",
+            "constant": -32.2,
+            "logK25": -32.2,
+            "terms": [
+              {
+                "name": "UO2 2+",
+                "coefficient": 3
+              },
+              {
+                "name": "H+",
+                "coefficient": -7
+              },
+              {
+                "name": "H2O",
+                "coefficient": 7
+              }
+            ],
+            "reference": "NEA-U+NEA-Upd",
+            "comment": "",
+            "redox": false,
+            "id": 7952
+          },
+          "terms": [
+            {
+              "name": "H+",
+              "coefficient": -7
+            },
+            {
+              "name": "e-",
+              "coefficient": -3
+            },
+            {
+              "name": "UO2+",
+              "coefficient": 3
+            },
+            {
+              "name": "H2O",
+              "coefficient": 7
+            }
+          ],
+          "constant": -36.652,
+          "multipliers": [
+            {
+              "sourceId": 7952,
+              "factor": 1
+            },
+            {
+              "sourceId": 350349,
+              "factor": 3
+            }
+          ]
+        },
+        {
+          "name": "(UO2)4(OH)7+",
+          "source": {
+            "name": "(UO2)4(OH)7+",
+            "constant": -21.9,
+            "logK25": -21.9,
+            "terms": [
+              {
+                "name": "UO2 2+",
+                "coefficient": 4
+              },
+              {
+                "name": "H+",
+                "coefficient": -7
+              },
+              {
+                "name": "H2O",
+                "coefficient": 7
+              }
+            ],
+            "reference": "NEA-U+NEA-Upd",
+            "comment": "",
+            "redox": false,
+            "id": 8611
+          },
+          "terms": [
+            {
+              "name": "H+",
+              "coefficient": -7
+            },
+            {
+              "name": "e-",
+              "coefficient": -4
+            },
+            {
+              "name": "UO2+",
+              "coefficient": 4
+            },
+            {
+              "name": "H2O",
+              "coefficient": 7
+            }
+          ],
+          "constant": -27.836,
+          "multipliers": [
+            {
+              "sourceId": 8611,
+              "factor": 1
+            },
+            {
+              "sourceId": 350349,
+              "factor": 4
+            }
+          ]
+        },
+        {
+          "name": "HO2-",
+          "source": {
+            "name": "HO2-",
+            "constant": -11.65,
+            "logK25": -11.65,
+            "terms": [
+              {
+                "name": "H2O2",
+                "coefficient": 1
+              },
+              {
+                "name": "H+",
+                "coefficient": -1
+              }
+            ],
+            "reference": "SmithMart+88Sho/Hel",
+            "comment": "",
+            "redox": false,
+            "id": 175307
+          },
+          "terms": [
+            {
+              "name": "H+",
+              "coefficient": -3
+            },
+            {
+              "name": "e-",
+              "coefficient": -2
+            },
+            {
+              "name": "UO2+",
+              "coefficient": 0
+            },
+            {
+              "name": "H2O",
+              "coefficient": 2
+            }
+          ],
+          "constant": -71.26,
+          "multipliers": [
+            {
+              "sourceId": 175307,
+              "factor": 1
+            },
+            {
+              "sourceId": 152743,
+              "factor": 1
+            }
+          ]
+        },
+        {
+          "name": "U 3+",
+          "source": {
+            "name": "U 3+",
+            "constant": -9.353,
+            "logK25": -9.353,
+            "terms": [
+              {
+                "name": "U 4+",
+                "coefficient": 1
+              },
+              {
+                "name": "e-",
+                "coefficient": 1
+              }
+            ],
+            "reference": "NEA-U+NEA-Upd",
+            "comment": "",
+            "redox": true,
+            "id": 346107
+          },
+          "terms": [
+            {
+              "name": "H+",
+              "coefficient": 4
+            },
+            {
+              "name": "e-",
+              "coefficient": 2
+            },
+            {
+              "name": "UO2+",
+              "coefficient": 1
+            },
+            {
+              "name": "H2O",
+              "coefficient": -2
+            }
+          ],
+          "constant": -1.7989999999999995,
+          "multipliers": [
+            {
+              "sourceId": 346107,
+              "factor": 1
+            },
+            {
+              "sourceId": 346183,
+              "factor": 1
+            }
+          ]
+        },
+        {
+          "name": "U(cr)",
+          "source": {
+            "name": "U(cr)",
+            "constant": -92.83,
+            "logK25": -92.83,
+            "terms": [
+              {
+                "name": "U 4+",
+                "coefficient": 1
+              },
+              {
+                "name": "e-",
+                "coefficient": 4
+              }
+            ],
+            "reference": "NEA-U+NEA-Upd",
+            "comment": "",
+            "redox": true,
+            "id": 346635
+          },
+          "terms": [
+            {
+              "name": "H+",
+              "coefficient": 4
+            },
+            {
+              "name": "e-",
+              "coefficient": 5
+            },
+            {
+              "name": "UO2+",
+              "coefficient": 1
+            },
+            {
+              "name": "H2O",
+              "coefficient": -2
+            }
+          ],
+          "constant": -85.276,
+          "multipliers": [
+            {
+              "sourceId": 346635,
+              "factor": 1
+            },
+            {
+              "sourceId": 346183,
+              "factor": 1
+            }
+          ]
+        },
+        {
+          "name": "U(OH)4",
+          "source": {
+            "name": "U(OH)4",
+            "constant": -10.004,
+            "logK25": -10.004,
+            "terms": [
+              {
+                "name": "U 4+",
+                "coefficient": 1
+              },
+              {
+                "name": "H+",
+                "coefficient": -4
+              },
+              {
+                "name": "H2O",
+                "coefficient": 4
+              }
+            ],
+            "reference": "NEA-U+NEA-Upd",
+            "comment": "",
+            "redox": false,
+            "id": 347201
+          },
+          "terms": [
+            {
+              "name": "H+",
+              "coefficient": 0
+            },
+            {
+              "name": "e-",
+              "coefficient": 1
+            },
+            {
+              "name": "UO2+",
+              "coefficient": 1
+            },
+            {
+              "name": "H2O",
+              "coefficient": 2
+            }
+          ],
+          "constant": -2.4499999999999993,
+          "multipliers": [
+            {
+              "sourceId": 347201,
+              "factor": 1
+            },
+            {
+              "sourceId": 346183,
+              "factor": 1
+            }
+          ]
+        },
+        {
+          "name": "U(OH)5-",
+          "source": {
+            "name": "U(OH)5-",
+            "constant": -23,
+            "logK25": -23,
+            "terms": [
+              {
+                "name": "U 4+",
+                "coefficient": 1
+              },
+              {
+                "name": "H+",
+                "coefficient": -5
+              },
+              {
+                "name": "H2O",
+                "coefficient": 5
+              }
+            ],
+            "reference": "NEA-U",
+            "comment": "p.127: dominates at pH>12",
+            "redox": false,
+            "id": 347292
+          },
+          "terms": [
+            {
+              "name": "H+",
+              "coefficient": -1
+            },
+            {
+              "name": "e-",
+              "coefficient": 1
+            },
+            {
+              "name": "UO2+",
+              "coefficient": 1
+            },
+            {
+              "name": "H2O",
+              "coefficient": 3
+            }
+          ],
+          "constant": -15.446,
+          "multipliers": [
+            {
+              "sourceId": 347292,
+              "factor": 1
+            },
+            {
+              "sourceId": 346183,
+              "factor": 1
+            }
+          ]
+        },
+        {
+          "name": "U3O7(cr)",
+          "source": {
+            "name": "U3O7(cr)",
+            "constant": -0.633,
+            "logK25": -0.633,
+            "terms": [
+              {
+                "name": "U 4+",
+                "coefficient": 1
+              },
+              {
+                "name": "H+",
+                "coefficient": -4.6667
+              },
+              {
+                "name": "e-",
+                "coefficient": -0.6667
+              },
+              {
+                "name": "H2O",
+                "coefficient": 2.3333
+              }
+            ],
+            "reference": "NEA-U+NEA-Upd",
+            "comment": "UO2.333",
+            "redox": true,
+            "id": 348584
+          },
+          "terms": [
+            {
+              "name": "H+",
+              "coefficient": -0.6666999999999996
+            },
+            {
+              "name": "e-",
+              "coefficient": 0.33330000000000004
+            },
+            {
+              "name": "UO2+",
+              "coefficient": 1
+            },
+            {
+              "name": "H2O",
+              "coefficient": 0.33329999999999993
+            }
+          ],
+          "constant": 6.921,
+          "multipliers": [
+            {
+              "sourceId": 348584,
+              "factor": 1
+            },
+            {
+              "sourceId": 346183,
+              "factor": 1
+            }
+          ]
+        },
+        {
+          "name": "U3O8(cr)",
+          "source": {
+            "name": "U3O8(cr)",
+            "constant": -6.85,
+            "logK25": -6.85,
+            "terms": [
+              {
+                "name": "U 4+",
+                "coefficient": 1
+              },
+              {
+                "name": "H+",
+                "coefficient": -5.3333
+              },
+              {
+                "name": "e-",
+                "coefficient": -1.3333
+              },
+              {
+                "name": "H2O",
+                "coefficient": 2.6667
+              }
+            ],
+            "reference": "NEA-U+NEA-Upd",
+            "comment": "UO2.667",
+            "redox": true,
+            "id": 348696
+          },
+          "terms": [
+            {
+              "name": "H+",
+              "coefficient": -1.3333000000000004
+            },
+            {
+              "name": "e-",
+              "coefficient": -0.33329999999999993
+            },
+            {
+              "name": "UO2+",
+              "coefficient": 1
+            },
+            {
+              "name": "H2O",
+              "coefficient": 0.6667000000000001
+            }
+          ],
+          "constant": 0.7040000000000006,
+          "multipliers": [
+            {
+              "sourceId": 348696,
+              "factor": 1
+            },
+            {
+              "sourceId": 346183,
+              "factor": 1
+            }
+          ]
+        },
+        {
+          "name": "U4O9(cr)",
+          "source": {
+            "name": "U4O9(cr)",
+            "constant": 0.999,
+            "logK25": 0.999,
+            "terms": [
+              {
+                "name": "U 4+",
+                "coefficient": 1
+              },
+              {
+                "name": "H+",
+                "coefficient": -4.5
+              },
+              {
+                "name": "e-",
+                "coefficient": -0.5
+              },
+              {
+                "name": "H2O",
+                "coefficient": 2.25
+              }
+            ],
+            "reference": "NEA-U+NEA-Upd",
+            "comment": "UO2.25",
+            "redox": true,
+            "id": 349004
+          },
+          "terms": [
+            {
+              "name": "H+",
+              "coefficient": -0.5
+            },
+            {
+              "name": "e-",
+              "coefficient": 0.5
+            },
+            {
+              "name": "UO2+",
+              "coefficient": 1
+            },
+            {
+              "name": "H2O",
+              "coefficient": 0.25
+            }
+          ],
+          "constant": 8.553,
+          "multipliers": [
+            {
+              "sourceId": 349004,
+              "factor": 1
+            },
+            {
+              "sourceId": 346183,
+              "factor": 1
+            }
+          ]
+        },
+        {
+          "name": "UH3(cr)",
+          "source": {
+            "name": "UH3(cr)",
+            "constant": -80.1,
+            "logK25": -80.1,
+            "terms": [
+              {
+                "name": "U 4+",
+                "coefficient": 1
+              },
+              {
+                "name": "H+",
+                "coefficient": 3
+              },
+              {
+                "name": "e-",
+                "coefficient": 7
+              }
+            ],
+            "reference": "NEA-U+NEA-Upd",
+            "comment": "beta",
+            "redox": true,
+            "id": 350096
+          },
+          "terms": [
+            {
+              "name": "H+",
+              "coefficient": 7
+            },
+            {
+              "name": "e-",
+              "coefficient": 8
+            },
+            {
+              "name": "UO2+",
+              "coefficient": 1
+            },
+            {
+              "name": "H2O",
+              "coefficient": -2
+            }
+          ],
+          "constant": -72.54599999999999,
+          "multipliers": [
+            {
+              "sourceId": 350096,
+              "factor": 1
+            },
+            {
+              "sourceId": 346183,
+              "factor": 1
+            }
+          ]
+        },
+        {
+          "name": "UO2(am)",
+          "source": {
+            "name": "UO2(am)",
+            "constant": -1.504,
+            "logK25": -1.504,
+            "terms": [
+              {
+                "name": "U 4+",
+                "coefficient": 1
+              },
+              {
+                "name": "H+",
+                "coefficient": -4
+              },
+              {
+                "name": "H2O",
+                "coefficient": 2
+              }
+            ],
+            "reference": "NEA-U+NEA-Upd",
+            "comment": "p.186 in NEA-Upd",
+            "redox": false,
+            "id": 350530
+          },
+          "terms": [
+            {
+              "name": "H+",
+              "coefficient": 0
+            },
+            {
+              "name": "e-",
+              "coefficient": 1
+            },
+            {
+              "name": "UO2+",
+              "coefficient": 1
+            },
+            {
+              "name": "H2O",
+              "coefficient": 0
+            }
+          ],
+          "constant": 6.050000000000001,
+          "multipliers": [
+            {
+              "sourceId": 350530,
+              "factor": 1
+            },
+            {
+              "sourceId": 346183,
+              "factor": 1
+            }
+          ]
+        },
+        {
+          "name": "UO2(cr)",
+          "source": {
+            "name": "UO2(cr)",
+            "constant": 4.85,
+            "logK25": 4.85,
+            "terms": [
+              {
+                "name": "U 4+",
+                "coefficient": 1
+              },
+              {
+                "name": "H+",
+                "coefficient": -4
+              },
+              {
+                "name": "H2O",
+                "coefficient": 2
+              }
+            ],
+            "reference": "NEA-U+NEA-Upd",
+            "comment": "uraninite",
+            "redox": false,
+            "id": 351365
+          },
+          "terms": [
+            {
+              "name": "H+",
+              "coefficient": 0
+            },
+            {
+              "name": "e-",
+              "coefficient": 1
+            },
+            {
+              "name": "UO2+",
+              "coefficient": 1
+            },
+            {
+              "name": "H2O",
+              "coefficient": 0
+            }
+          ],
+          "constant": 12.404,
+          "multipliers": [
+            {
+              "sourceId": 351365,
+              "factor": 1
+            },
+            {
+              "sourceId": 346183,
+              "factor": 1
+            }
+          ]
+        },
+        {
+          "name": "UO2(OH)2",
+          "source": {
+            "name": "UO2(OH)2",
+            "constant": -12.15,
+            "logK25": -12.15,
+            "terms": [
+              {
+                "name": "UO2 2+",
+                "coefficient": 1
+              },
+              {
+                "name": "H+",
+                "coefficient": -2
+              },
+              {
+                "name": "H2O",
+                "coefficient": 2
+              }
+            ],
+            "reference": "NEA-U+NEA-Upd",
+            "comment": "",
+            "redox": false,
+            "id": 353335
+          },
+          "terms": [
+            {
+              "name": "H+",
+              "coefficient": -2
+            },
+            {
+              "name": "e-",
+              "coefficient": -1
+            },
+            {
+              "name": "UO2+",
+              "coefficient": 1
+            },
+            {
+              "name": "H2O",
+              "coefficient": 2
+            }
+          ],
+          "constant": -13.634,
+          "multipliers": [
+            {
+              "sourceId": 353335,
+              "factor": 1
+            },
+            {
+              "sourceId": 350349,
+              "factor": 1
+            }
+          ]
+        },
+        {
+          "name": "UO2(OH)2(cr)",
+          "source": {
+            "name": "UO2(OH)2(cr)",
+            "constant": -4.93,
+            "logK25": -4.93,
+            "terms": [
+              {
+                "name": "UO2 2+",
+                "coefficient": 1
+              },
+              {
+                "name": "H+",
+                "coefficient": -2
+              },
+              {
+                "name": "H2O",
+                "coefficient": 2
+              }
+            ],
+            "reference": "NEA-U+NEA-Upd",
+            "comment": "beta",
+            "redox": false,
+            "id": 353430
+          },
+          "terms": [
+            {
+              "name": "H+",
+              "coefficient": -2
+            },
+            {
+              "name": "e-",
+              "coefficient": -1
+            },
+            {
+              "name": "UO2+",
+              "coefficient": 1
+            },
+            {
+              "name": "H2O",
+              "coefficient": 2
+            }
+          ],
+          "constant": -6.414,
+          "multipliers": [
+            {
+              "sourceId": 353430,
+              "factor": 1
+            },
+            {
+              "sourceId": 350349,
+              "factor": 1
+            }
+          ]
+        },
+        {
+          "name": "UO2(OH)3-",
+          "source": {
+            "name": "UO2(OH)3-",
+            "constant": -20.25,
+            "logK25": -20.25,
+            "terms": [
+              {
+                "name": "UO2 2+",
+                "coefficient": 1
+              },
+              {
+                "name": "H+",
+                "coefficient": -3
+              },
+              {
+                "name": "H2O",
+                "coefficient": 3
+              }
+            ],
+            "reference": "NEA-U+NEA-Upd",
+            "comment": "",
+            "redox": false,
+            "id": 353533
+          },
+          "terms": [
+            {
+              "name": "H+",
+              "coefficient": -3
+            },
+            {
+              "name": "e-",
+              "coefficient": -1
+            },
+            {
+              "name": "UO2+",
+              "coefficient": 1
+            },
+            {
+              "name": "H2O",
+              "coefficient": 3
+            }
+          ],
+          "constant": -21.734,
+          "multipliers": [
+            {
+              "sourceId": 353533,
+              "factor": 1
+            },
+            {
+              "sourceId": 350349,
+              "factor": 1
+            }
+          ]
+        },
+        {
+          "name": "UO2(OH)4 2-",
+          "source": {
+            "name": "UO2(OH)4 2-",
+            "constant": -32.4,
+            "logK25": -32.4,
+            "terms": [
+              {
+                "name": "UO2 2+",
+                "coefficient": 1
+              },
+              {
+                "name": "H+",
+                "coefficient": -4
+              },
+              {
+                "name": "H2O",
+                "coefficient": 4
+              }
+            ],
+            "reference": "NEA-U+NEA-Upd",
+            "comment": "",
+            "redox": false,
+            "id": 353629
+          },
+          "terms": [
+            {
+              "name": "H+",
+              "coefficient": -4
+            },
+            {
+              "name": "e-",
+              "coefficient": -1
+            },
+            {
+              "name": "UO2+",
+              "coefficient": 1
+            },
+            {
+              "name": "H2O",
+              "coefficient": 4
+            }
+          ],
+          "constant": -33.884,
+          "multipliers": [
+            {
+              "sourceId": 353629,
+              "factor": 1
+            },
+            {
+              "sourceId": 350349,
+              "factor": 1
+            }
+          ]
+        },
+        {
+          "name": "UO2OH+",
+          "source": {
+            "name": "UO2OH+",
+            "constant": -5.25,
+            "logK25": -5.25,
+            "terms": [
+              {
+                "name": "UO2 2+",
+                "coefficient": 1
+              },
+              {
+                "name": "H+",
+                "coefficient": -1
+              },
+              {
+                "name": "H2O",
+                "coefficient": 1
+              }
+            ],
+            "reference": "NEA-U+NEA-Upd",
+            "comment": "",
+            "redox": false,
+            "id": 357296
+          },
+          "terms": [
+            {
+              "name": "H+",
+              "coefficient": -1
+            },
+            {
+              "name": "e-",
+              "coefficient": -1
+            },
+            {
+              "name": "UO2+",
+              "coefficient": 1
+            },
+            {
+              "name": "H2O",
+              "coefficient": 1
+            }
+          ],
+          "constant": -6.734,
+          "multipliers": [
+            {
+              "sourceId": 357296,
+              "factor": 1
+            },
+            {
+              "sourceId": 350349,
+              "factor": 1
+            }
+          ]
+        },
+        {
+          "name": "UO3·2H2O(cr)",
+          "source": {
+            "name": "UO3·2H2O(cr)",
+            "constant": -4.81,
+            "logK25": -4.81,
+            "terms": [
+              {
+                "name": "UO2 2+",
+                "coefficient": 1
+              },
+              {
+                "name": "H+",
+                "coefficient": -2
+              },
+              {
+                "name": "H2O",
+                "coefficient": 3
+              }
+            ],
+            "reference": "NEA-U+NEA-Upd",
+            "comment": "schoepite",
+            "redox": false,
+            "id": 358594
+          },
+          "terms": [
+            {
+              "name": "H+",
+              "coefficient": -2
+            },
+            {
+              "name": "e-",
+              "coefficient": -1
+            },
+            {
+              "name": "UO2+",
+              "coefficient": 1
+            },
+            {
+              "name": "H2O",
+              "coefficient": 3
+            }
+          ],
+          "constant": -6.294,
+          "multipliers": [
+            {
+              "sourceId": 358594,
+              "factor": 1
+            },
+            {
+              "sourceId": 350349,
+              "factor": 1
+            }
+          ]
+        },
+        {
+          "name": "UOH 3+",
+          "source": {
+            "name": "UOH 3+",
+            "constant": -0.54,
+            "logK25": -0.54,
+            "terms": [
+              {
+                "name": "U 4+",
+                "coefficient": 1
+              },
+              {
+                "name": "H+",
+                "coefficient": -1
+              },
+              {
+                "name": "H2O",
+                "coefficient": 1
+              }
+            ],
+            "reference": "NEA-U+NEA-Upd",
+            "comment": "",
+            "redox": false,
+            "id": 359769
+          },
+          "terms": [
+            {
+              "name": "H+",
+              "coefficient": 3
+            },
+            {
+              "name": "e-",
+              "coefficient": 1
+            },
+            {
+              "name": "UO2+",
+              "coefficient": 1
+            },
+            {
+              "name": "H2O",
+              "coefficient": -1
+            }
+          ],
+          "constant": 7.014,
+          "multipliers": [
+            {
+              "sourceId": 359769,
+              "factor": 1
+            },
+            {
+              "sourceId": 346183,
+              "factor": 1
+            }
+          ]
+        }
+      ],
+      "differences": [
+        {
+          "name": "H2",
+          "maxCoefficientDifference": 0,
+          "logKDifference": 0,
+          "logK25Difference": 0
+        },
+        {
+          "name": "H2(g)",
+          "maxCoefficientDifference": 0,
+          "logKDifference": 0,
+          "logK25Difference": 0
+        },
+        {
+          "name": "H2O2",
+          "maxCoefficientDifference": 0,
+          "logKDifference": 0,
+          "logK25Difference": 0
+        },
+        {
+          "name": "O2",
+          "maxCoefficientDifference": 0,
+          "logKDifference": 0,
+          "logK25Difference": 0
+        },
+        {
+          "name": "O2(g)",
+          "maxCoefficientDifference": 0,
+          "logKDifference": 0,
+          "logK25Difference": 0
+        },
+        {
+          "name": "O3",
+          "maxCoefficientDifference": 0,
+          "logKDifference": 0,
+          "logK25Difference": 0
+        },
+        {
+          "name": "O3(g)",
+          "maxCoefficientDifference": 0,
+          "logKDifference": 0,
+          "logK25Difference": 0
+        },
+        {
+          "name": "OH-",
+          "maxCoefficientDifference": 0,
+          "logKDifference": 0,
+          "logK25Difference": 0
+        },
+        {
+          "name": "U 4+",
+          "maxCoefficientDifference": 0,
+          "logKDifference": 0,
+          "logK25Difference": 0
+        },
+        {
+          "name": "UO2 2+",
+          "maxCoefficientDifference": 0,
+          "logKDifference": 0,
+          "logK25Difference": 0
+        },
+        {
+          "name": "(UO2)2(OH)2 2+",
+          "maxCoefficientDifference": 0,
+          "logKDifference": 0,
+          "logK25Difference": 0
+        },
+        {
+          "name": "(UO2)2OH+3",
+          "maxCoefficientDifference": 0,
+          "logKDifference": 0,
+          "logK25Difference": 0
+        },
+        {
+          "name": "(UO2)3(OH)4 2+",
+          "maxCoefficientDifference": 0,
+          "logKDifference": 0,
+          "logK25Difference": 0
+        },
+        {
+          "name": "(UO2)3(OH)5+",
+          "maxCoefficientDifference": 0,
+          "logKDifference": 0,
+          "logK25Difference": 0
+        },
+        {
+          "name": "(UO2)3(OH)7-",
+          "maxCoefficientDifference": 0,
+          "logKDifference": 0,
+          "logK25Difference": 0
+        },
+        {
+          "name": "(UO2)4(OH)7+",
+          "maxCoefficientDifference": 0,
+          "logKDifference": 0,
+          "logK25Difference": 0
+        },
+        {
+          "name": "HO2-",
+          "maxCoefficientDifference": 0,
+          "logKDifference": 0,
+          "logK25Difference": 0
+        },
+        {
+          "name": "U 3+",
+          "maxCoefficientDifference": 0,
+          "logKDifference": 0,
+          "logK25Difference": 0
+        },
+        {
+          "name": "U(OH)4",
+          "maxCoefficientDifference": 0,
+          "logKDifference": 0,
+          "logK25Difference": 0
+        },
+        {
+          "name": "U(OH)5-",
+          "maxCoefficientDifference": 0,
+          "logKDifference": 0,
+          "logK25Difference": 0
+        },
+        {
+          "name": "UO2(OH)2",
+          "maxCoefficientDifference": 0,
+          "logKDifference": 0,
+          "logK25Difference": 0
+        },
+        {
+          "name": "UO2(OH)3-",
+          "maxCoefficientDifference": 0,
+          "logKDifference": 0,
+          "logK25Difference": 0
+        },
+        {
+          "name": "UO2(OH)4 2-",
+          "maxCoefficientDifference": 0,
+          "logKDifference": 0,
+          "logK25Difference": 0
+        },
+        {
+          "name": "UO2OH+",
+          "maxCoefficientDifference": 0,
+          "logKDifference": 0,
+          "logK25Difference": 0
+        },
+        {
+          "name": "UOH 3+",
+          "maxCoefficientDifference": 0,
+          "logKDifference": 0,
+          "logK25Difference": 0
+        },
+        {
+          "name": "U(cr)",
+          "maxCoefficientDifference": 0,
+          "logKDifference": 0,
+          "logK25Difference": 0
+        },
+        {
+          "name": "U3O7(cr)",
+          "maxCoefficientDifference": 0,
+          "logKDifference": 0,
+          "logK25Difference": 0
+        },
+        {
+          "name": "U3O8(cr)",
+          "maxCoefficientDifference": 0,
+          "logKDifference": 0,
+          "logK25Difference": 0
+        },
+        {
+          "name": "U4O9(cr)",
+          "maxCoefficientDifference": 0,
+          "logKDifference": 0,
+          "logK25Difference": 0
+        },
+        {
+          "name": "UH3(cr)",
+          "maxCoefficientDifference": 0,
+          "logKDifference": 0,
+          "logK25Difference": 0
+        },
+        {
+          "name": "UO2(am)",
+          "maxCoefficientDifference": 0,
+          "logKDifference": 0,
+          "logK25Difference": 0
+        },
+        {
+          "name": "UO2(cr)",
+          "maxCoefficientDifference": 0,
+          "logKDifference": 0,
+          "logK25Difference": 0
+        },
+        {
+          "name": "UO2(OH)2(cr)",
+          "maxCoefficientDifference": 0,
+          "logKDifference": 0,
+          "logK25Difference": 0
+        },
+        {
+          "name": "UO3·2H2O(cr)",
+          "maxCoefficientDifference": 0,
+          "logKDifference": 0,
+          "logK25Difference": 0
+        }
+      ]
+    },
+    "Fe": {
+      "basis": [
+        "H+",
+        "e-",
+        "Fe 2+",
+        "H2O"
+      ],
+      "layers": [
+        [
+          {
+            "name": "Fe 3+",
+            "sourceId": 126584
+          },
+          {
+            "name": "H2O2",
+            "sourceId": 152743
+          }
+        ]
+      ],
+      "bindings": [
+        {
+          "name": "Fe 3+",
+          "constant": -13.051,
+          "logK25": -13.051,
+          "terms": [
+            {
+              "name": "Fe 2+",
+              "coefficient": 1
+            },
+            {
+              "name": "e-",
+              "coefficient": -1
+            }
+          ],
+          "reference": "NEA-Fe",
+          "comment": "",
+          "redox": true,
+          "id": 126584
+        },
+        {
+          "name": "H2O2",
+          "constant": -59.61,
+          "logK25": -59.61,
+          "terms": [
+            {
+              "name": "H+",
+              "coefficient": -2
+            },
+            {
+              "name": "e-",
+              "coefficient": -2
+            },
+            {
+              "name": "H2O",
+              "coefficient": 2
+            }
+          ],
+          "reference": "82NBS+1962GC",
+          "comment": "",
+          "redox": true,
+          "id": 152743
+        }
+      ],
+      "transformed": [
+        {
+          "name": "Fe 3+",
+          "source": {
+            "name": "Fe 3+",
+            "constant": -13.051,
+            "logK25": -13.051,
+            "terms": [
+              {
+                "name": "Fe 2+",
+                "coefficient": 1
+              },
+              {
+                "name": "e-",
+                "coefficient": -1
+              }
+            ],
+            "reference": "NEA-Fe",
+            "comment": "",
+            "redox": true,
+            "id": 126584
+          },
+          "terms": [
+            {
+              "name": "H+",
+              "coefficient": 0
+            },
+            {
+              "name": "e-",
+              "coefficient": -1
+            },
+            {
+              "name": "Fe 2+",
+              "coefficient": 1
+            },
+            {
+              "name": "H2O",
+              "coefficient": 0
+            }
+          ],
+          "constant": -13.051,
+          "multipliers": [
+            {
+              "sourceId": 126584,
+              "factor": 1
+            }
+          ]
+        },
+        {
+          "name": "Fe(cr)",
+          "source": {
+            "name": "Fe(cr)",
+            "constant": -15.89,
+            "logK25": -15.89,
+            "terms": [
+              {
+                "name": "Fe 2+",
+                "coefficient": 1
+              },
+              {
+                "name": "e-",
+                "coefficient": 2
+              }
+            ],
+            "reference": "NEA-Fe",
+            "comment": "",
+            "redox": true,
+            "id": 127500
+          },
+          "terms": [
+            {
+              "name": "H+",
+              "coefficient": 0
+            },
+            {
+              "name": "e-",
+              "coefficient": 2
+            },
+            {
+              "name": "Fe 2+",
+              "coefficient": 1
+            },
+            {
+              "name": "H2O",
+              "coefficient": 0
+            }
+          ],
+          "constant": -15.89,
+          "multipliers": [
+            {
+              "sourceId": 127500,
+              "factor": 1
+            }
+          ]
+        },
+        {
+          "name": "Fe(OH)2",
+          "source": {
+            "name": "Fe(OH)2",
+            "constant": -20.6,
+            "logK25": -20.6,
+            "terms": [
+              {
+                "name": "Fe 2+",
+                "coefficient": 1
+              },
+              {
+                "name": "H+",
+                "coefficient": -2
+              },
+              {
+                "name": "H2O",
+                "coefficient": 2
+              }
+            ],
+            "reference": "1996BP-Fe",
+            "comment": "",
+            "redox": false,
+            "id": 130813
+          },
+          "terms": [
+            {
+              "name": "H+",
+              "coefficient": -2
+            },
+            {
+              "name": "e-",
+              "coefficient": 0
+            },
+            {
+              "name": "Fe 2+",
+              "coefficient": 1
+            },
+            {
+              "name": "H2O",
+              "coefficient": 2
+            }
+          ],
+          "constant": -20.6,
+          "multipliers": [
+            {
+              "sourceId": 130813,
+              "factor": 1
+            }
+          ]
+        },
+        {
+          "name": "Fe(OH)2(cr)",
+          "source": {
+            "name": "Fe(OH)2(cr)",
+            "constant": -12.3,
+            "logK25": -12.3,
+            "terms": [
+              {
+                "name": "Fe 2+",
+                "coefficient": 1
+              },
+              {
+                "name": "H+",
+                "coefficient": -2
+              },
+              {
+                "name": "H2O",
+                "coefficient": 2
+              }
+            ],
+            "reference": "2016BE,91Kna/Kub",
+            "comment": "",
+            "redox": false,
+            "id": 130902
+          },
+          "terms": [
+            {
+              "name": "H+",
+              "coefficient": -2
+            },
+            {
+              "name": "e-",
+              "coefficient": 0
+            },
+            {
+              "name": "Fe 2+",
+              "coefficient": 1
+            },
+            {
+              "name": "H2O",
+              "coefficient": 2
+            }
+          ],
+          "constant": -12.3,
+          "multipliers": [
+            {
+              "sourceId": 130902,
+              "factor": 1
+            }
+          ]
+        },
+        {
+          "name": "Fe(OH)3-",
+          "source": {
+            "name": "Fe(OH)3-",
+            "constant": -34.2,
+            "logK25": -34.2,
+            "terms": [
+              {
+                "name": "Fe 2+",
+                "coefficient": 1
+              },
+              {
+                "name": "H+",
+                "coefficient": -3
+              },
+              {
+                "name": "H2O",
+                "coefficient": 3
+              }
+            ],
+            "reference": "1996BP-Fe",
+            "comment": "",
+            "redox": false,
+            "id": 131406
+          },
+          "terms": [
+            {
+              "name": "H+",
+              "coefficient": -3
+            },
+            {
+              "name": "e-",
+              "coefficient": 0
+            },
+            {
+              "name": "Fe 2+",
+              "coefficient": 1
+            },
+            {
+              "name": "H2O",
+              "coefficient": 3
+            }
+          ],
+          "constant": -34.2,
+          "multipliers": [
+            {
+              "sourceId": 131406,
+              "factor": 1
+            }
+          ]
+        },
+        {
+          "name": "Fe(OH)4-2",
+          "source": {
+            "name": "Fe(OH)4-2",
+            "constant": -46,
+            "logK25": -46,
+            "terms": [
+              {
+                "name": "Fe 2+",
+                "coefficient": 1
+              },
+              {
+                "name": "H+",
+                "coefficient": -4
+              },
+              {
+                "name": "H2O",
+                "coefficient": 4
+              }
+            ],
+            "reference": "1996BP-Fe",
+            "comment": "",
+            "redox": false,
+            "id": 131586
+          },
+          "terms": [
+            {
+              "name": "H+",
+              "coefficient": -4
+            },
+            {
+              "name": "e-",
+              "coefficient": 0
+            },
+            {
+              "name": "Fe 2+",
+              "coefficient": 1
+            },
+            {
+              "name": "H2O",
+              "coefficient": 4
+            }
+          ],
+          "constant": -46,
+          "multipliers": [
+            {
+              "sourceId": 131586,
+              "factor": 1
+            }
+          ]
+        },
+        {
+          "name": "Fe0.932O(cr)",
+          "source": {
+            "name": "Fe0.932O(cr)",
+            "constant": -13.507,
+            "logK25": -13.507,
+            "terms": [
+              {
+                "name": "Fe 2+",
+                "coefficient": 0.932
+              },
+              {
+                "name": "H+",
+                "coefficient": -2
+              },
+              {
+                "name": "e-",
+                "coefficient": -0.136
+              },
+              {
+                "name": "H2O",
+                "coefficient": 1
+              }
+            ],
+            "reference": "NEA-Fe",
+            "comment": "wüstite",
+            "redox": true,
+            "id": 132744
+          },
+          "terms": [
+            {
+              "name": "H+",
+              "coefficient": -2
+            },
+            {
+              "name": "e-",
+              "coefficient": -0.136
+            },
+            {
+              "name": "Fe 2+",
+              "coefficient": 0.932
+            },
+            {
+              "name": "H2O",
+              "coefficient": 1
+            }
+          ],
+          "constant": -13.507,
+          "multipliers": [
+            {
+              "sourceId": 132744,
+              "factor": 1
+            }
+          ]
+        },
+        {
+          "name": "FeOH+",
+          "source": {
+            "name": "FeOH+",
+            "constant": -9.1,
+            "logK25": -9.1,
+            "terms": [
+              {
+                "name": "Fe 2+",
+                "coefficient": 1
+              },
+              {
+                "name": "H+",
+                "coefficient": -1
+              },
+              {
+                "name": "H2O",
+                "coefficient": 1
+              }
+            ],
+            "reference": "NEA-Fe,1996BP-Fe",
+            "comment": "",
+            "redox": false,
+            "id": 138969
+          },
+          "terms": [
+            {
+              "name": "H+",
+              "coefficient": -1
+            },
+            {
+              "name": "e-",
+              "coefficient": 0
+            },
+            {
+              "name": "Fe 2+",
+              "coefficient": 1
+            },
+            {
+              "name": "H2O",
+              "coefficient": 1
+            }
+          ],
+          "constant": -9.1,
+          "multipliers": [
+            {
+              "sourceId": 138969,
+              "factor": 1
+            }
+          ]
+        },
+        {
+          "name": "H2",
+          "source": {
+            "name": "H2",
+            "constant": -3.083,
+            "logK25": -3.083,
+            "terms": [
+              {
+                "name": "H+",
+                "coefficient": 2
+              },
+              {
+                "name": "e-",
+                "coefficient": 2
+              }
+            ],
+            "reference": "82NBS,89Sho/Hel",
+            "comment": "",
+            "redox": true,
+            "id": 151381
+          },
+          "terms": [
+            {
+              "name": "H+",
+              "coefficient": 2
+            },
+            {
+              "name": "e-",
+              "coefficient": 2
+            },
+            {
+              "name": "Fe 2+",
+              "coefficient": 0
+            },
+            {
+              "name": "H2O",
+              "coefficient": 0
+            }
+          ],
+          "constant": -3.083,
+          "multipliers": [
+            {
+              "sourceId": 151381,
+              "factor": 1
+            }
+          ]
+        },
+        {
+          "name": "H2(g)",
+          "source": {
+            "name": "H2(g)",
+            "constant": 0,
+            "logK25": 0,
+            "terms": [
+              {
+                "name": "H+",
+                "coefficient": 2
+              },
+              {
+                "name": "e-",
+                "coefficient": 2
+              }
+            ],
+            "reference": "82NBS",
+            "comment": "",
+            "redox": true,
+            "id": 151531
+          },
+          "terms": [
+            {
+              "name": "H+",
+              "coefficient": 2
+            },
+            {
+              "name": "e-",
+              "coefficient": 2
+            },
+            {
+              "name": "Fe 2+",
+              "coefficient": 0
+            },
+            {
+              "name": "H2O",
+              "coefficient": 0
+            }
+          ],
+          "constant": 0,
+          "multipliers": [
+            {
+              "sourceId": 151531,
+              "factor": 1
+            }
+          ]
+        },
+        {
+          "name": "H2O2",
+          "source": {
+            "name": "H2O2",
+            "constant": -59.61,
+            "logK25": -59.61,
+            "terms": [
+              {
+                "name": "H+",
+                "coefficient": -2
+              },
+              {
+                "name": "e-",
+                "coefficient": -2
+              },
+              {
+                "name": "H2O",
+                "coefficient": 2
+              }
+            ],
+            "reference": "82NBS+1962GC",
+            "comment": "",
+            "redox": true,
+            "id": 152743
+          },
+          "terms": [
+            {
+              "name": "H+",
+              "coefficient": -2
+            },
+            {
+              "name": "e-",
+              "coefficient": -2
+            },
+            {
+              "name": "Fe 2+",
+              "coefficient": 0
+            },
+            {
+              "name": "H2O",
+              "coefficient": 2
+            }
+          ],
+          "constant": -59.61,
+          "multipliers": [
+            {
+              "sourceId": 152743,
+              "factor": 1
+            }
+          ]
+        },
+        {
+          "name": "O2",
+          "source": {
+            "name": "O2",
+            "constant": -85.988,
+            "logK25": -85.988,
+            "terms": [
+              {
+                "name": "H+",
+                "coefficient": -4
+              },
+              {
+                "name": "e-",
+                "coefficient": -4
+              },
+              {
+                "name": "H2O",
+                "coefficient": 2
+              }
+            ],
+            "reference": "89Sho/Hel",
+            "comment": "",
+            "redox": true,
+            "id": 249989
+          },
+          "terms": [
+            {
+              "name": "H+",
+              "coefficient": -4
+            },
+            {
+              "name": "e-",
+              "coefficient": -4
+            },
+            {
+              "name": "Fe 2+",
+              "coefficient": 0
+            },
+            {
+              "name": "H2O",
+              "coefficient": 2
+            }
+          ],
+          "constant": -85.988,
+          "multipliers": [
+            {
+              "sourceId": 249989,
+              "factor": 1
+            }
+          ]
+        },
+        {
+          "name": "O2(g)",
+          "source": {
+            "name": "O2(g)",
+            "constant": -83.09,
+            "logK25": -83.09,
+            "terms": [
+              {
+                "name": "H+",
+                "coefficient": -4
+              },
+              {
+                "name": "e-",
+                "coefficient": -4
+              },
+              {
+                "name": "H2O",
+                "coefficient": 2
+              }
+            ],
+            "reference": "Codata+95Rob/Hem",
+            "comment": "",
+            "redox": true,
+            "id": 250070
+          },
+          "terms": [
+            {
+              "name": "H+",
+              "coefficient": -4
+            },
+            {
+              "name": "e-",
+              "coefficient": -4
+            },
+            {
+              "name": "Fe 2+",
+              "coefficient": 0
+            },
+            {
+              "name": "H2O",
+              "coefficient": 2
+            }
+          ],
+          "constant": -83.09,
+          "multipliers": [
+            {
+              "sourceId": 250070,
+              "factor": 1
+            }
+          ]
+        },
+        {
+          "name": "O3",
+          "source": {
+            "name": "O3",
+            "constant": -155.14,
+            "logK25": -155.14,
+            "terms": [
+              {
+                "name": "H+",
+                "coefficient": -6
+              },
+              {
+                "name": "e-",
+                "coefficient": -6
+              },
+              {
+                "name": "H2O",
+                "coefficient": 3
+              }
+            ],
+            "reference": "82NBS",
+            "comment": "Cp(O3(aq)) = 1.5xCp(O2(aq))",
+            "redox": true,
+            "id": 250161
+          },
+          "terms": [
+            {
+              "name": "H+",
+              "coefficient": -6
+            },
+            {
+              "name": "e-",
+              "coefficient": -6
+            },
+            {
+              "name": "Fe 2+",
+              "coefficient": 0
+            },
+            {
+              "name": "H2O",
+              "coefficient": 3
+            }
+          ],
+          "constant": -155.14,
+          "multipliers": [
+            {
+              "sourceId": 250161,
+              "factor": 1
+            }
+          ]
+        },
+        {
+          "name": "O3(g)",
+          "source": {
+            "name": "O3(g)",
+            "constant": -153.23,
+            "logK25": -153.23,
+            "terms": [
+              {
+                "name": "H+",
+                "coefficient": -6
+              },
+              {
+                "name": "e-",
+                "coefficient": -6
+              },
+              {
+                "name": "H2O",
+                "coefficient": 3
+              }
+            ],
+            "reference": "82NBS",
+            "comment": "",
+            "redox": true,
+            "id": 250265
+          },
+          "terms": [
+            {
+              "name": "H+",
+              "coefficient": -6
+            },
+            {
+              "name": "e-",
+              "coefficient": -6
+            },
+            {
+              "name": "Fe 2+",
+              "coefficient": 0
+            },
+            {
+              "name": "H2O",
+              "coefficient": 3
+            }
+          ],
+          "constant": -153.23,
+          "multipliers": [
+            {
+              "sourceId": 250265,
+              "factor": 1
+            }
+          ]
+        },
+        {
+          "name": "OH-",
+          "source": {
+            "name": "OH-",
+            "constant": -14.0015,
+            "logK25": -14.0015,
+            "terms": [
+              {
+                "name": "H+",
+                "coefficient": -1
+              },
+              {
+                "name": "H2O",
+                "coefficient": 1
+              }
+            ],
+            "reference": "Codata+88Sho/Hel",
+            "comment": "",
+            "redox": false,
+            "id": 250448
+          },
+          "terms": [
+            {
+              "name": "H+",
+              "coefficient": -1
+            },
+            {
+              "name": "e-",
+              "coefficient": 0
+            },
+            {
+              "name": "Fe 2+",
+              "coefficient": 0
+            },
+            {
+              "name": "H2O",
+              "coefficient": 1
+            }
+          ],
+          "constant": -14.0015,
+          "multipliers": [
+            {
+              "sourceId": 250448,
+              "factor": 1
+            }
+          ]
+        },
+        {
+          "name": "Fe(OH)2+",
+          "source": {
+            "name": "Fe(OH)2+",
+            "constant": -4.8,
+            "logK25": -4.8,
+            "terms": [
+              {
+                "name": "Fe 3+",
+                "coefficient": 1
+              },
+              {
+                "name": "H+",
+                "coefficient": -2
+              },
+              {
+                "name": "H2O",
+                "coefficient": 2
+              }
+            ],
+            "reference": "NEA-Fe,1996BP-Fe",
+            "comment": "",
+            "redox": false,
+            "id": 131002
+          },
+          "terms": [
+            {
+              "name": "H+",
+              "coefficient": -2
+            },
+            {
+              "name": "e-",
+              "coefficient": -1
+            },
+            {
+              "name": "Fe 2+",
+              "coefficient": 1
+            },
+            {
+              "name": "H2O",
+              "coefficient": 2
+            }
+          ],
+          "constant": -17.851,
+          "multipliers": [
+            {
+              "sourceId": 131002,
+              "factor": 1
+            },
+            {
+              "sourceId": 126584,
+              "factor": 1
+            }
+          ]
+        },
+        {
+          "name": "Fe(OH)3",
+          "source": {
+            "name": "Fe(OH)3",
+            "constant": -12,
+            "logK25": -12,
+            "terms": [
+              {
+                "name": "Fe 3+",
+                "coefficient": 1
+              },
+              {
+                "name": "H+",
+                "coefficient": -3
+              },
+              {
+                "name": "H2O",
+                "coefficient": 3
+              }
+            ],
+            "reference": "1996BP-Fe",
+            "comment": "",
+            "redox": false,
+            "id": 131099
+          },
+          "terms": [
+            {
+              "name": "H+",
+              "coefficient": -3
+            },
+            {
+              "name": "e-",
+              "coefficient": -1
+            },
+            {
+              "name": "Fe 2+",
+              "coefficient": 1
+            },
+            {
+              "name": "H2O",
+              "coefficient": 3
+            }
+          ],
+          "constant": -25.051000000000002,
+          "multipliers": [
+            {
+              "sourceId": 131099,
+              "factor": 1
+            },
+            {
+              "sourceId": 126584,
+              "factor": 1
+            }
+          ]
+        },
+        {
+          "name": "Fe(OH)3(am)",
+          "source": {
+            "name": "Fe(OH)3(am)",
+            "constant": -4.9,
+            "logK25": -4.9,
+            "terms": [
+              {
+                "name": "Fe 3+",
+                "coefficient": 1
+              },
+              {
+                "name": "H+",
+                "coefficient": -3
+              },
+              {
+                "name": "H2O",
+                "coefficient": 3
+              }
+            ],
+            "reference": "1990NP+NEA-Fe",
+            "comment": "amorphous",
+            "redox": false,
+            "id": 131188
+          },
+          "terms": [
+            {
+              "name": "H+",
+              "coefficient": -3
+            },
+            {
+              "name": "e-",
+              "coefficient": -1
+            },
+            {
+              "name": "Fe 2+",
+              "coefficient": 1
+            },
+            {
+              "name": "H2O",
+              "coefficient": 3
+            }
+          ],
+          "constant": -17.951,
+          "multipliers": [
+            {
+              "sourceId": 131188,
+              "factor": 1
+            },
+            {
+              "sourceId": 126584,
+              "factor": 1
+            }
+          ]
+        },
+        {
+          "name": "Fe(OH)3(s)",
+          "source": {
+            "name": "Fe(OH)3(s)",
+            "constant": -3.43,
+            "logK25": -3.43,
+            "terms": [
+              {
+                "name": "Fe 3+",
+                "coefficient": 1
+              },
+              {
+                "name": "H+",
+                "coefficient": -3
+              },
+              {
+                "name": "H2O",
+                "coefficient": 3
+              }
+            ],
+            "reference": "NEA-Fe",
+            "comment": "ferrihydrite pp.227-228",
+            "redox": false,
+            "id": 131294
+          },
+          "terms": [
+            {
+              "name": "H+",
+              "coefficient": -3
+            },
+            {
+              "name": "e-",
+              "coefficient": -1
+            },
+            {
+              "name": "Fe 2+",
+              "coefficient": 1
+            },
+            {
+              "name": "H2O",
+              "coefficient": 3
+            }
+          ],
+          "constant": -16.481,
+          "multipliers": [
+            {
+              "sourceId": 131294,
+              "factor": 1
+            },
+            {
+              "sourceId": 126584,
+              "factor": 1
+            }
+          ]
+        },
+        {
+          "name": "Fe(OH)4-",
+          "source": {
+            "name": "Fe(OH)4-",
+            "constant": -21.6,
+            "logK25": -21.6,
+            "terms": [
+              {
+                "name": "Fe 3+",
+                "coefficient": 1
+              },
+              {
+                "name": "H+",
+                "coefficient": -4
+              },
+              {
+                "name": "H2O",
+                "coefficient": 4
+              }
+            ],
+            "reference": "1996BP-Fe",
+            "comment": "",
+            "redox": false,
+            "id": 131496
+          },
+          "terms": [
+            {
+              "name": "H+",
+              "coefficient": -4
+            },
+            {
+              "name": "e-",
+              "coefficient": -1
+            },
+            {
+              "name": "Fe 2+",
+              "coefficient": 1
+            },
+            {
+              "name": "H2O",
+              "coefficient": 4
+            }
+          ],
+          "constant": -34.651,
+          "multipliers": [
+            {
+              "sourceId": 131496,
+              "factor": 1
+            },
+            {
+              "sourceId": 126584,
+              "factor": 1
+            }
+          ]
+        },
+        {
+          "name": "Fe2(OH)2+4",
+          "source": {
+            "name": "Fe2(OH)2+4",
+            "constant": -2.82,
+            "logK25": -2.82,
+            "terms": [
+              {
+                "name": "Fe 3+",
+                "coefficient": 2
+              },
+              {
+                "name": "H+",
+                "coefficient": -2
+              },
+              {
+                "name": "H2O",
+                "coefficient": 2
+              }
+            ],
+            "reference": "NEA-Fe",
+            "comment": "",
+            "redox": false,
+            "id": 133463
+          },
+          "terms": [
+            {
+              "name": "H+",
+              "coefficient": -2
+            },
+            {
+              "name": "e-",
+              "coefficient": -2
+            },
+            {
+              "name": "Fe 2+",
+              "coefficient": 2
+            },
+            {
+              "name": "H2O",
+              "coefficient": 2
+            }
+          ],
+          "constant": -28.922,
+          "multipliers": [
+            {
+              "sourceId": 133463,
+              "factor": 1
+            },
+            {
+              "sourceId": 126584,
+              "factor": 2
+            }
+          ]
+        },
+        {
+          "name": "Fe2O3(cr)",
+          "source": {
+            "name": "Fe2O3(cr)",
+            "constant": 0.101,
+            "logK25": 0.101,
+            "terms": [
+              {
+                "name": "Fe 3+",
+                "coefficient": 2
+              },
+              {
+                "name": "H+",
+                "coefficient": -6
+              },
+              {
+                "name": "H2O",
+                "coefficient": 3
+              }
+            ],
+            "reference": "NEA-Fe",
+            "comment": "haematite",
+            "redox": false,
+            "id": 133739
+          },
+          "terms": [
+            {
+              "name": "H+",
+              "coefficient": -6
+            },
+            {
+              "name": "e-",
+              "coefficient": -2
+            },
+            {
+              "name": "Fe 2+",
+              "coefficient": 2
+            },
+            {
+              "name": "H2O",
+              "coefficient": 3
+            }
+          ],
+          "constant": -26.001,
+          "multipliers": [
+            {
+              "sourceId": 133739,
+              "factor": 1
+            },
+            {
+              "sourceId": 126584,
+              "factor": 2
+            }
+          ]
+        },
+        {
+          "name": "Fe3O4(cr)",
+          "source": {
+            "name": "Fe3O4(cr)",
+            "constant": 2.712,
+            "logK25": 2.712,
+            "terms": [
+              {
+                "name": "Fe 3+",
+                "coefficient": 3
+              },
+              {
+                "name": "H+",
+                "coefficient": -8
+              },
+              {
+                "name": "e-",
+                "coefficient": 1
+              },
+              {
+                "name": "H2O",
+                "coefficient": 4
+              }
+            ],
+            "reference": "NEA-Fe",
+            "comment": "magnetite",
+            "redox": true,
+            "id": 134486
+          },
+          "terms": [
+            {
+              "name": "H+",
+              "coefficient": -8
+            },
+            {
+              "name": "e-",
+              "coefficient": -2
+            },
+            {
+              "name": "Fe 2+",
+              "coefficient": 3
+            },
+            {
+              "name": "H2O",
+              "coefficient": 4
+            }
+          ],
+          "constant": -36.440999999999995,
+          "multipliers": [
+            {
+              "sourceId": 134486,
+              "factor": 1
+            },
+            {
+              "sourceId": 126584,
+              "factor": 3
+            }
+          ]
+        },
+        {
+          "name": "FeO4-2",
+          "source": {
+            "name": "FeO4-2",
+            "constant": -112.6,
+            "logK25": -112.6,
+            "terms": [
+              {
+                "name": "Fe 3+",
+                "coefficient": 1
+              },
+              {
+                "name": "H+",
+                "coefficient": -8
+              },
+              {
+                "name": "e-",
+                "coefficient": -3
+              },
+              {
+                "name": "H2O",
+                "coefficient": 4
+              }
+            ],
+            "reference": "1996BP-Fe",
+            "comment": "",
+            "redox": true,
+            "id": 138672
+          },
+          "terms": [
+            {
+              "name": "H+",
+              "coefficient": -8
+            },
+            {
+              "name": "e-",
+              "coefficient": -4
+            },
+            {
+              "name": "Fe 2+",
+              "coefficient": 1
+            },
+            {
+              "name": "H2O",
+              "coefficient": 4
+            }
+          ],
+          "constant": -125.651,
+          "multipliers": [
+            {
+              "sourceId": 138672,
+              "factor": 1
+            },
+            {
+              "sourceId": 126584,
+              "factor": 1
+            }
+          ]
+        },
+        {
+          "name": "FeOH 2+",
+          "source": {
+            "name": "FeOH 2+",
+            "constant": -2.15,
+            "logK25": -2.15,
+            "terms": [
+              {
+                "name": "Fe 3+",
+                "coefficient": 1
+              },
+              {
+                "name": "H+",
+                "coefficient": -1
+              },
+              {
+                "name": "H2O",
+                "coefficient": 1
+              }
+            ],
+            "reference": "NEA-Fe,1996BP-Fe",
+            "comment": "",
+            "redox": false,
+            "id": 138873
+          },
+          "terms": [
+            {
+              "name": "H+",
+              "coefficient": -1
+            },
+            {
+              "name": "e-",
+              "coefficient": -1
+            },
+            {
+              "name": "Fe 2+",
+              "coefficient": 1
+            },
+            {
+              "name": "H2O",
+              "coefficient": 1
+            }
+          ],
+          "constant": -15.201,
+          "multipliers": [
+            {
+              "sourceId": 138873,
+              "factor": 1
+            },
+            {
+              "sourceId": 126584,
+              "factor": 1
+            }
+          ]
+        },
+        {
+          "name": "FeOOH(cr)",
+          "source": {
+            "name": "FeOOH(cr)",
+            "constant": -0.17,
+            "logK25": -0.17,
+            "terms": [
+              {
+                "name": "Fe 3+",
+                "coefficient": 1
+              },
+              {
+                "name": "H+",
+                "coefficient": -3
+              },
+              {
+                "name": "H2O",
+                "coefficient": 2
+              }
+            ],
+            "reference": "NEA-Fe",
+            "comment": "goethite",
+            "redox": false,
+            "id": 139276
+          },
+          "terms": [
+            {
+              "name": "H+",
+              "coefficient": -3
+            },
+            {
+              "name": "e-",
+              "coefficient": -1
+            },
+            {
+              "name": "Fe 2+",
+              "coefficient": 1
+            },
+            {
+              "name": "H2O",
+              "coefficient": 2
+            }
+          ],
+          "constant": -13.221,
+          "multipliers": [
+            {
+              "sourceId": 139276,
+              "factor": 1
+            },
+            {
+              "sourceId": 126584,
+              "factor": 1
+            }
+          ]
+        },
+        {
+          "name": "HO2-",
+          "source": {
+            "name": "HO2-",
+            "constant": -11.65,
+            "logK25": -11.65,
+            "terms": [
+              {
+                "name": "H2O2",
+                "coefficient": 1
+              },
+              {
+                "name": "H+",
+                "coefficient": -1
+              }
+            ],
+            "reference": "SmithMart+88Sho/Hel",
+            "comment": "",
+            "redox": false,
+            "id": 175307
+          },
+          "terms": [
+            {
+              "name": "H+",
+              "coefficient": -3
+            },
+            {
+              "name": "e-",
+              "coefficient": -2
+            },
+            {
+              "name": "Fe 2+",
+              "coefficient": 0
+            },
+            {
+              "name": "H2O",
+              "coefficient": 2
+            }
+          ],
+          "constant": -71.26,
+          "multipliers": [
+            {
+              "sourceId": 175307,
+              "factor": 1
+            },
+            {
+              "sourceId": 152743,
+              "factor": 1
+            }
+          ]
+        }
+      ],
+      "differences": [
+        {
+          "name": "Fe 3+",
+          "maxCoefficientDifference": 0,
+          "logKDifference": 0,
+          "logK25Difference": 0
+        },
+        {
+          "name": "Fe(OH)2",
+          "maxCoefficientDifference": 0,
+          "logKDifference": 0,
+          "logK25Difference": 0
+        },
+        {
+          "name": "Fe(OH)3-",
+          "maxCoefficientDifference": 0,
+          "logKDifference": 0,
+          "logK25Difference": 0
+        },
+        {
+          "name": "Fe(OH)4-2",
+          "maxCoefficientDifference": 0,
+          "logKDifference": 0,
+          "logK25Difference": 0
+        },
+        {
+          "name": "FeOH+",
+          "maxCoefficientDifference": 0,
+          "logKDifference": 0,
+          "logK25Difference": 0
+        },
+        {
+          "name": "H2",
+          "maxCoefficientDifference": 0,
+          "logKDifference": 0,
+          "logK25Difference": 0
+        },
+        {
+          "name": "H2(g)",
+          "maxCoefficientDifference": 0,
+          "logKDifference": 0,
+          "logK25Difference": 0
+        },
+        {
+          "name": "H2O2",
+          "maxCoefficientDifference": 0,
+          "logKDifference": 0,
+          "logK25Difference": 0
+        },
+        {
+          "name": "O2",
+          "maxCoefficientDifference": 0,
+          "logKDifference": 0,
+          "logK25Difference": 0
+        },
+        {
+          "name": "O2(g)",
+          "maxCoefficientDifference": 0,
+          "logKDifference": 0,
+          "logK25Difference": 0
+        },
+        {
+          "name": "O3",
+          "maxCoefficientDifference": 0,
+          "logKDifference": 0,
+          "logK25Difference": 0
+        },
+        {
+          "name": "O3(g)",
+          "maxCoefficientDifference": 0,
+          "logKDifference": 0,
+          "logK25Difference": 0
+        },
+        {
+          "name": "OH-",
+          "maxCoefficientDifference": 0,
+          "logKDifference": 0,
+          "logK25Difference": 0
+        },
+        {
+          "name": "Fe(OH)2+",
+          "maxCoefficientDifference": 0,
+          "logKDifference": 0,
+          "logK25Difference": 0
+        },
+        {
+          "name": "Fe(OH)3",
+          "maxCoefficientDifference": 0,
+          "logKDifference": 0,
+          "logK25Difference": 0
+        },
+        {
+          "name": "Fe(OH)4-",
+          "maxCoefficientDifference": 0,
+          "logKDifference": 0,
+          "logK25Difference": 0
+        },
+        {
+          "name": "Fe2(OH)2+4",
+          "maxCoefficientDifference": 0,
+          "logKDifference": 0,
+          "logK25Difference": 0
+        },
+        {
+          "name": "FeO4-2",
+          "maxCoefficientDifference": 0,
+          "logKDifference": 0,
+          "logK25Difference": 0
+        },
+        {
+          "name": "FeOH 2+",
+          "maxCoefficientDifference": 0,
+          "logKDifference": 0,
+          "logK25Difference": 0
+        },
+        {
+          "name": "HO2-",
+          "maxCoefficientDifference": 0,
+          "logKDifference": 0,
+          "logK25Difference": 0
+        },
+        {
+          "name": "Fe(cr)",
+          "maxCoefficientDifference": 0,
+          "logKDifference": 0,
+          "logK25Difference": 0
+        },
+        {
+          "name": "Fe(OH)2(cr)",
+          "maxCoefficientDifference": 0,
+          "logKDifference": 0,
+          "logK25Difference": 0
+        },
+        {
+          "name": "Fe0.932O(cr)",
+          "maxCoefficientDifference": 0,
+          "logKDifference": 0,
+          "logK25Difference": 0
+        },
+        {
+          "name": "Fe(OH)3(am)",
+          "maxCoefficientDifference": 0,
+          "logKDifference": 0,
+          "logK25Difference": 0
+        },
+        {
+          "name": "Fe(OH)3(s)",
+          "maxCoefficientDifference": 0,
+          "logKDifference": 0,
+          "logK25Difference": 0
+        },
+        {
+          "name": "Fe2O3(cr)",
+          "maxCoefficientDifference": 0,
+          "logKDifference": 0,
+          "logK25Difference": 0
+        },
+        {
+          "name": "Fe3O4(cr)",
+          "maxCoefficientDifference": 0,
+          "logKDifference": 0,
+          "logK25Difference": 0
+        },
+        {
+          "name": "FeOOH(cr)",
+          "maxCoefficientDifference": 0,
+          "logKDifference": 0,
+          "logK25Difference": 0
+        }
+      ]
+    },
+    "Cu": {
+      "basis": [
+        "H+",
+        "e-",
+        "Cu+",
+        "H2O"
+      ],
+      "layers": [
+        [
+          {
+            "name": "Cu 2+",
+            "sourceId": 97858
+          },
+          {
+            "name": "H2O2",
+            "sourceId": 152743
+          }
+        ]
+      ],
+      "bindings": [
+        {
+          "name": "Cu 2+",
+          "constant": -2.833,
+          "logK25": -2.833,
+          "terms": [
+            {
+              "name": "Cu+",
+              "coefficient": 1
+            },
+            {
+              "name": "e-",
+              "coefficient": -1
+            }
+          ],
+          "reference": "1997BP-Cu",
+          "comment": "",
+          "redox": true,
+          "id": 97858
+        },
+        {
+          "name": "H2O2",
+          "constant": -59.61,
+          "logK25": -59.61,
+          "terms": [
+            {
+              "name": "H+",
+              "coefficient": -2
+            },
+            {
+              "name": "e-",
+              "coefficient": -2
+            },
+            {
+              "name": "H2O",
+              "coefficient": 2
+            }
+          ],
+          "reference": "82NBS+1962GC",
+          "comment": "",
+          "redox": true,
+          "id": 152743
+        }
+      ],
+      "transformed": [
+        {
+          "name": "Cu 2+",
+          "source": {
+            "name": "Cu 2+",
+            "constant": -2.833,
+            "logK25": -2.833,
+            "terms": [
+              {
+                "name": "Cu+",
+                "coefficient": 1
+              },
+              {
+                "name": "e-",
+                "coefficient": -1
+              }
+            ],
+            "reference": "1997BP-Cu",
+            "comment": "",
+            "redox": true,
+            "id": 97858
+          },
+          "terms": [
+            {
+              "name": "H+",
+              "coefficient": 0
+            },
+            {
+              "name": "e-",
+              "coefficient": -1
+            },
+            {
+              "name": "Cu+",
+              "coefficient": 1
+            },
+            {
+              "name": "H2O",
+              "coefficient": 0
+            }
+          ],
+          "constant": -2.833,
+          "multipliers": [
+            {
+              "sourceId": 97858,
+              "factor": 1
+            }
+          ]
+        },
+        {
+          "name": "Cu(cr)",
+          "source": {
+            "name": "Cu(cr)",
+            "constant": 8.562,
+            "logK25": 8.562,
+            "terms": [
+              {
+                "name": "Cu+",
+                "coefficient": 1
+              },
+              {
+                "name": "e-",
+                "coefficient": 1
+              }
+            ],
+            "reference": "2000PT",
+            "comment": "",
+            "redox": true,
+            "id": 98874
+          },
+          "terms": [
+            {
+              "name": "H+",
+              "coefficient": 0
+            },
+            {
+              "name": "e-",
+              "coefficient": 1
+            },
+            {
+              "name": "Cu+",
+              "coefficient": 1
+            },
+            {
+              "name": "H2O",
+              "coefficient": 0
+            }
+          ],
+          "constant": 8.562,
+          "multipliers": [
+            {
+              "sourceId": 98874,
+              "factor": 1
+            }
+          ]
+        },
+        {
+          "name": "Cu(OH)2-",
+          "source": {
+            "name": "Cu(OH)2-",
+            "constant": -16.181,
+            "logK25": -16.181,
+            "terms": [
+              {
+                "name": "Cu+",
+                "coefficient": 1
+              },
+              {
+                "name": "H+",
+                "coefficient": -2
+              },
+              {
+                "name": "H2O",
+                "coefficient": 2
+              }
+            ],
+            "reference": "1997BP-Cu",
+            "comment": "",
+            "redox": false,
+            "id": 102484
+          },
+          "terms": [
+            {
+              "name": "H+",
+              "coefficient": -2
+            },
+            {
+              "name": "e-",
+              "coefficient": 0
+            },
+            {
+              "name": "Cu+",
+              "coefficient": 1
+            },
+            {
+              "name": "H2O",
+              "coefficient": 2
+            }
+          ],
+          "constant": -16.181,
+          "multipliers": [
+            {
+              "sourceId": 102484,
+              "factor": 1
+            }
+          ]
+        },
+        {
+          "name": "Cu2O(cr)",
+          "source": {
+            "name": "Cu2O(cr)",
+            "constant": 1.489,
+            "logK25": 1.489,
+            "terms": [
+              {
+                "name": "Cu+",
+                "coefficient": 2
+              },
+              {
+                "name": "H+",
+                "coefficient": -2
+              },
+              {
+                "name": "H2O",
+                "coefficient": 1
+              }
+            ],
+            "reference": "2000PT",
+            "comment": "cuprite",
+            "redox": false,
+            "id": 104641
+          },
+          "terms": [
+            {
+              "name": "H+",
+              "coefficient": -2
+            },
+            {
+              "name": "e-",
+              "coefficient": 0
+            },
+            {
+              "name": "Cu+",
+              "coefficient": 2
+            },
+            {
+              "name": "H2O",
+              "coefficient": 1
+            }
+          ],
+          "constant": 1.489,
+          "multipliers": [
+            {
+              "sourceId": 104641,
+              "factor": 1
+            }
+          ]
+        },
+        {
+          "name": "CuOH",
+          "source": {
+            "name": "CuOH",
+            "constant": -11.554,
+            "logK25": -11.554,
+            "terms": [
+              {
+                "name": "Cu+",
+                "coefficient": 1
+              },
+              {
+                "name": "H+",
+                "coefficient": -1
+              },
+              {
+                "name": "H2O",
+                "coefficient": 1
+              }
+            ],
+            "reference": "1997BP-Cu",
+            "comment": "",
+            "redox": false,
+            "id": 110864
+          },
+          "terms": [
+            {
+              "name": "H+",
+              "coefficient": -1
+            },
+            {
+              "name": "e-",
+              "coefficient": 0
+            },
+            {
+              "name": "Cu+",
+              "coefficient": 1
+            },
+            {
+              "name": "H2O",
+              "coefficient": 1
+            }
+          ],
+          "constant": -11.554,
+          "multipliers": [
+            {
+              "sourceId": 110864,
+              "factor": 1
+            }
+          ]
+        },
+        {
+          "name": "H2",
+          "source": {
+            "name": "H2",
+            "constant": -3.083,
+            "logK25": -3.083,
+            "terms": [
+              {
+                "name": "H+",
+                "coefficient": 2
+              },
+              {
+                "name": "e-",
+                "coefficient": 2
+              }
+            ],
+            "reference": "82NBS,89Sho/Hel",
+            "comment": "",
+            "redox": true,
+            "id": 151381
+          },
+          "terms": [
+            {
+              "name": "H+",
+              "coefficient": 2
+            },
+            {
+              "name": "e-",
+              "coefficient": 2
+            },
+            {
+              "name": "Cu+",
+              "coefficient": 0
+            },
+            {
+              "name": "H2O",
+              "coefficient": 0
+            }
+          ],
+          "constant": -3.083,
+          "multipliers": [
+            {
+              "sourceId": 151381,
+              "factor": 1
+            }
+          ]
+        },
+        {
+          "name": "H2(g)",
+          "source": {
+            "name": "H2(g)",
+            "constant": 0,
+            "logK25": 0,
+            "terms": [
+              {
+                "name": "H+",
+                "coefficient": 2
+              },
+              {
+                "name": "e-",
+                "coefficient": 2
+              }
+            ],
+            "reference": "82NBS",
+            "comment": "",
+            "redox": true,
+            "id": 151531
+          },
+          "terms": [
+            {
+              "name": "H+",
+              "coefficient": 2
+            },
+            {
+              "name": "e-",
+              "coefficient": 2
+            },
+            {
+              "name": "Cu+",
+              "coefficient": 0
+            },
+            {
+              "name": "H2O",
+              "coefficient": 0
+            }
+          ],
+          "constant": 0,
+          "multipliers": [
+            {
+              "sourceId": 151531,
+              "factor": 1
+            }
+          ]
+        },
+        {
+          "name": "H2O2",
+          "source": {
+            "name": "H2O2",
+            "constant": -59.61,
+            "logK25": -59.61,
+            "terms": [
+              {
+                "name": "H+",
+                "coefficient": -2
+              },
+              {
+                "name": "e-",
+                "coefficient": -2
+              },
+              {
+                "name": "H2O",
+                "coefficient": 2
+              }
+            ],
+            "reference": "82NBS+1962GC",
+            "comment": "",
+            "redox": true,
+            "id": 152743
+          },
+          "terms": [
+            {
+              "name": "H+",
+              "coefficient": -2
+            },
+            {
+              "name": "e-",
+              "coefficient": -2
+            },
+            {
+              "name": "Cu+",
+              "coefficient": 0
+            },
+            {
+              "name": "H2O",
+              "coefficient": 2
+            }
+          ],
+          "constant": -59.61,
+          "multipliers": [
+            {
+              "sourceId": 152743,
+              "factor": 1
+            }
+          ]
+        },
+        {
+          "name": "O2",
+          "source": {
+            "name": "O2",
+            "constant": -85.988,
+            "logK25": -85.988,
+            "terms": [
+              {
+                "name": "H+",
+                "coefficient": -4
+              },
+              {
+                "name": "e-",
+                "coefficient": -4
+              },
+              {
+                "name": "H2O",
+                "coefficient": 2
+              }
+            ],
+            "reference": "89Sho/Hel",
+            "comment": "",
+            "redox": true,
+            "id": 249989
+          },
+          "terms": [
+            {
+              "name": "H+",
+              "coefficient": -4
+            },
+            {
+              "name": "e-",
+              "coefficient": -4
+            },
+            {
+              "name": "Cu+",
+              "coefficient": 0
+            },
+            {
+              "name": "H2O",
+              "coefficient": 2
+            }
+          ],
+          "constant": -85.988,
+          "multipliers": [
+            {
+              "sourceId": 249989,
+              "factor": 1
+            }
+          ]
+        },
+        {
+          "name": "O2(g)",
+          "source": {
+            "name": "O2(g)",
+            "constant": -83.09,
+            "logK25": -83.09,
+            "terms": [
+              {
+                "name": "H+",
+                "coefficient": -4
+              },
+              {
+                "name": "e-",
+                "coefficient": -4
+              },
+              {
+                "name": "H2O",
+                "coefficient": 2
+              }
+            ],
+            "reference": "Codata+95Rob/Hem",
+            "comment": "",
+            "redox": true,
+            "id": 250070
+          },
+          "terms": [
+            {
+              "name": "H+",
+              "coefficient": -4
+            },
+            {
+              "name": "e-",
+              "coefficient": -4
+            },
+            {
+              "name": "Cu+",
+              "coefficient": 0
+            },
+            {
+              "name": "H2O",
+              "coefficient": 2
+            }
+          ],
+          "constant": -83.09,
+          "multipliers": [
+            {
+              "sourceId": 250070,
+              "factor": 1
+            }
+          ]
+        },
+        {
+          "name": "O3",
+          "source": {
+            "name": "O3",
+            "constant": -155.14,
+            "logK25": -155.14,
+            "terms": [
+              {
+                "name": "H+",
+                "coefficient": -6
+              },
+              {
+                "name": "e-",
+                "coefficient": -6
+              },
+              {
+                "name": "H2O",
+                "coefficient": 3
+              }
+            ],
+            "reference": "82NBS",
+            "comment": "Cp(O3(aq)) = 1.5xCp(O2(aq))",
+            "redox": true,
+            "id": 250161
+          },
+          "terms": [
+            {
+              "name": "H+",
+              "coefficient": -6
+            },
+            {
+              "name": "e-",
+              "coefficient": -6
+            },
+            {
+              "name": "Cu+",
+              "coefficient": 0
+            },
+            {
+              "name": "H2O",
+              "coefficient": 3
+            }
+          ],
+          "constant": -155.14,
+          "multipliers": [
+            {
+              "sourceId": 250161,
+              "factor": 1
+            }
+          ]
+        },
+        {
+          "name": "O3(g)",
+          "source": {
+            "name": "O3(g)",
+            "constant": -153.23,
+            "logK25": -153.23,
+            "terms": [
+              {
+                "name": "H+",
+                "coefficient": -6
+              },
+              {
+                "name": "e-",
+                "coefficient": -6
+              },
+              {
+                "name": "H2O",
+                "coefficient": 3
+              }
+            ],
+            "reference": "82NBS",
+            "comment": "",
+            "redox": true,
+            "id": 250265
+          },
+          "terms": [
+            {
+              "name": "H+",
+              "coefficient": -6
+            },
+            {
+              "name": "e-",
+              "coefficient": -6
+            },
+            {
+              "name": "Cu+",
+              "coefficient": 0
+            },
+            {
+              "name": "H2O",
+              "coefficient": 3
+            }
+          ],
+          "constant": -153.23,
+          "multipliers": [
+            {
+              "sourceId": 250265,
+              "factor": 1
+            }
+          ]
+        },
+        {
+          "name": "OH-",
+          "source": {
+            "name": "OH-",
+            "constant": -14.0015,
+            "logK25": -14.0015,
+            "terms": [
+              {
+                "name": "H+",
+                "coefficient": -1
+              },
+              {
+                "name": "H2O",
+                "coefficient": 1
+              }
+            ],
+            "reference": "Codata+88Sho/Hel",
+            "comment": "",
+            "redox": false,
+            "id": 250448
+          },
+          "terms": [
+            {
+              "name": "H+",
+              "coefficient": -1
+            },
+            {
+              "name": "e-",
+              "coefficient": 0
+            },
+            {
+              "name": "Cu+",
+              "coefficient": 0
+            },
+            {
+              "name": "H2O",
+              "coefficient": 1
+            }
+          ],
+          "constant": -14.0015,
+          "multipliers": [
+            {
+              "sourceId": 250448,
+              "factor": 1
+            }
+          ]
+        },
+        {
+          "name": "Cu(OH)2",
+          "source": {
+            "name": "Cu(OH)2",
+            "constant": -16.24,
+            "logK25": -16.24,
+            "terms": [
+              {
+                "name": "Cu 2+",
+                "coefficient": 1
+              },
+              {
+                "name": "H+",
+                "coefficient": -2
+              },
+              {
+                "name": "H2O",
+                "coefficient": 2
+              }
+            ],
+            "reference": "1997BP-Cu",
+            "comment": "",
+            "redox": false,
+            "id": 102305
+          },
+          "terms": [
+            {
+              "name": "H+",
+              "coefficient": -2
+            },
+            {
+              "name": "e-",
+              "coefficient": -1
+            },
+            {
+              "name": "Cu+",
+              "coefficient": 1
+            },
+            {
+              "name": "H2O",
+              "coefficient": 2
+            }
+          ],
+          "constant": -19.073,
+          "multipliers": [
+            {
+              "sourceId": 102305,
+              "factor": 1
+            },
+            {
+              "sourceId": 97858,
+              "factor": 1
+            }
+          ]
+        },
+        {
+          "name": "Cu(OH)2(cr)",
+          "source": {
+            "name": "Cu(OH)2(cr)",
+            "constant": -8.641,
+            "logK25": -8.641,
+            "terms": [
+              {
+                "name": "Cu 2+",
+                "coefficient": 1
+              },
+              {
+                "name": "H+",
+                "coefficient": -2
+              },
+              {
+                "name": "H2O",
+                "coefficient": 2
+              }
+            ],
+            "reference": "2000PT",
+            "comment": "",
+            "redox": false,
+            "id": 102394
+          },
+          "terms": [
+            {
+              "name": "H+",
+              "coefficient": -2
+            },
+            {
+              "name": "e-",
+              "coefficient": -1
+            },
+            {
+              "name": "Cu+",
+              "coefficient": 1
+            },
+            {
+              "name": "H2O",
+              "coefficient": 2
+            }
+          ],
+          "constant": -11.474,
+          "multipliers": [
+            {
+              "sourceId": 102394,
+              "factor": 1
+            },
+            {
+              "sourceId": 97858,
+              "factor": 1
+            }
+          ]
+        },
+        {
+          "name": "Cu(OH)3-",
+          "source": {
+            "name": "Cu(OH)3-",
+            "constant": -26.7,
+            "logK25": -26.7,
+            "terms": [
+              {
+                "name": "Cu 2+",
+                "coefficient": 1
+              },
+              {
+                "name": "H+",
+                "coefficient": -3
+              },
+              {
+                "name": "H2O",
+                "coefficient": 3
+              }
+            ],
+            "reference": "1997BP-Cu",
+            "comment": "",
+            "redox": false,
+            "id": 102572
+          },
+          "terms": [
+            {
+              "name": "H+",
+              "coefficient": -3
+            },
+            {
+              "name": "e-",
+              "coefficient": -1
+            },
+            {
+              "name": "Cu+",
+              "coefficient": 1
+            },
+            {
+              "name": "H2O",
+              "coefficient": 3
+            }
+          ],
+          "constant": -29.533,
+          "multipliers": [
+            {
+              "sourceId": 102572,
+              "factor": 1
+            },
+            {
+              "sourceId": 97858,
+              "factor": 1
+            }
+          ]
+        },
+        {
+          "name": "Cu(OH)4-2",
+          "source": {
+            "name": "Cu(OH)4-2",
+            "constant": -39.6,
+            "logK25": -39.6,
+            "terms": [
+              {
+                "name": "Cu 2+",
+                "coefficient": 1
+              },
+              {
+                "name": "H+",
+                "coefficient": -4
+              },
+              {
+                "name": "H2O",
+                "coefficient": 4
+              }
+            ],
+            "reference": "1997BP-Cu",
+            "comment": "",
+            "redox": false,
+            "id": 102662
+          },
+          "terms": [
+            {
+              "name": "H+",
+              "coefficient": -4
+            },
+            {
+              "name": "e-",
+              "coefficient": -1
+            },
+            {
+              "name": "Cu+",
+              "coefficient": 1
+            },
+            {
+              "name": "H2O",
+              "coefficient": 4
+            }
+          ],
+          "constant": -42.433,
+          "multipliers": [
+            {
+              "sourceId": 102662,
+              "factor": 1
+            },
+            {
+              "sourceId": 97858,
+              "factor": 1
+            }
+          ]
+        },
+        {
+          "name": "Cu2(OH)2+2",
+          "source": {
+            "name": "Cu2(OH)2+2",
+            "constant": -10.354,
+            "logK25": -10.354,
+            "terms": [
+              {
+                "name": "Cu 2+",
+                "coefficient": 2
+              },
+              {
+                "name": "H+",
+                "coefficient": -2
+              },
+              {
+                "name": "H2O",
+                "coefficient": 2
+              }
+            ],
+            "reference": "1997BP-Cu",
+            "comment": "",
+            "redox": false,
+            "id": 104107
+          },
+          "terms": [
+            {
+              "name": "H+",
+              "coefficient": -2
+            },
+            {
+              "name": "e-",
+              "coefficient": -2
+            },
+            {
+              "name": "Cu+",
+              "coefficient": 2
+            },
+            {
+              "name": "H2O",
+              "coefficient": 2
+            }
+          ],
+          "constant": -16.02,
+          "multipliers": [
+            {
+              "sourceId": 104107,
+              "factor": 1
+            },
+            {
+              "sourceId": 97858,
+              "factor": 2
+            }
+          ]
+        },
+        {
+          "name": "Cu3(OH)4+2",
+          "source": {
+            "name": "Cu3(OH)4+2",
+            "constant": -21.1,
+            "logK25": -21.1,
+            "terms": [
+              {
+                "name": "Cu 2+",
+                "coefficient": 3
+              },
+              {
+                "name": "H+",
+                "coefficient": -4
+              },
+              {
+                "name": "H2O",
+                "coefficient": 4
+              }
+            ],
+            "reference": "1997BP-Cu",
+            "comment": "",
+            "redox": false,
+            "id": 105296
+          },
+          "terms": [
+            {
+              "name": "H+",
+              "coefficient": -4
+            },
+            {
+              "name": "e-",
+              "coefficient": -3
+            },
+            {
+              "name": "Cu+",
+              "coefficient": 3
+            },
+            {
+              "name": "H2O",
+              "coefficient": 4
+            }
+          ],
+          "constant": -29.599000000000004,
+          "multipliers": [
+            {
+              "sourceId": 105296,
+              "factor": 1
+            },
+            {
+              "sourceId": 97858,
+              "factor": 3
+            }
+          ]
+        },
+        {
+          "name": "CuO(cr)",
+          "source": {
+            "name": "CuO(cr)",
+            "constant": -7.675,
+            "logK25": -7.675,
+            "terms": [
+              {
+                "name": "Cu 2+",
+                "coefficient": 1
+              },
+              {
+                "name": "H+",
+                "coefficient": -2
+              },
+              {
+                "name": "H2O",
+                "coefficient": 1
+              }
+            ],
+            "reference": "2000PT",
+            "comment": "",
+            "redox": false,
+            "id": 110778
+          },
+          "terms": [
+            {
+              "name": "H+",
+              "coefficient": -2
+            },
+            {
+              "name": "e-",
+              "coefficient": -1
+            },
+            {
+              "name": "Cu+",
+              "coefficient": 1
+            },
+            {
+              "name": "H2O",
+              "coefficient": 1
+            }
+          ],
+          "constant": -10.508,
+          "multipliers": [
+            {
+              "sourceId": 110778,
+              "factor": 1
+            },
+            {
+              "sourceId": 97858,
+              "factor": 1
+            }
+          ]
+        },
+        {
+          "name": "CuOH+",
+          "source": {
+            "name": "CuOH+",
+            "constant": -7.961,
+            "logK25": -7.961,
+            "terms": [
+              {
+                "name": "Cu 2+",
+                "coefficient": 1
+              },
+              {
+                "name": "H+",
+                "coefficient": -1
+              },
+              {
+                "name": "H2O",
+                "coefficient": 1
+              }
+            ],
+            "reference": "1997BP-Cu",
+            "comment": "",
+            "redox": false,
+            "id": 110948
+          },
+          "terms": [
+            {
+              "name": "H+",
+              "coefficient": -1
+            },
+            {
+              "name": "e-",
+              "coefficient": -1
+            },
+            {
+              "name": "Cu+",
+              "coefficient": 1
+            },
+            {
+              "name": "H2O",
+              "coefficient": 1
+            }
+          ],
+          "constant": -10.794,
+          "multipliers": [
+            {
+              "sourceId": 110948,
+              "factor": 1
+            },
+            {
+              "sourceId": 97858,
+              "factor": 1
+            }
+          ]
+        },
+        {
+          "name": "HO2-",
+          "source": {
+            "name": "HO2-",
+            "constant": -11.65,
+            "logK25": -11.65,
+            "terms": [
+              {
+                "name": "H2O2",
+                "coefficient": 1
+              },
+              {
+                "name": "H+",
+                "coefficient": -1
+              }
+            ],
+            "reference": "SmithMart+88Sho/Hel",
+            "comment": "",
+            "redox": false,
+            "id": 175307
+          },
+          "terms": [
+            {
+              "name": "H+",
+              "coefficient": -3
+            },
+            {
+              "name": "e-",
+              "coefficient": -2
+            },
+            {
+              "name": "Cu+",
+              "coefficient": 0
+            },
+            {
+              "name": "H2O",
+              "coefficient": 2
+            }
+          ],
+          "constant": -71.26,
+          "multipliers": [
+            {
+              "sourceId": 175307,
+              "factor": 1
+            },
+            {
+              "sourceId": 152743,
+              "factor": 1
+            }
+          ]
+        }
+      ],
+      "differences": [
+        {
+          "name": "Cu 2+",
+          "maxCoefficientDifference": 0,
+          "logKDifference": 0,
+          "logK25Difference": 0
+        },
+        {
+          "name": "Cu(OH)2-",
+          "maxCoefficientDifference": 0,
+          "logKDifference": 0,
+          "logK25Difference": 0
+        },
+        {
+          "name": "CuOH",
+          "maxCoefficientDifference": 0,
+          "logKDifference": 0,
+          "logK25Difference": 0
+        },
+        {
+          "name": "H2",
+          "maxCoefficientDifference": 0,
+          "logKDifference": 0,
+          "logK25Difference": 0
+        },
+        {
+          "name": "H2(g)",
+          "maxCoefficientDifference": 0,
+          "logKDifference": 0,
+          "logK25Difference": 0
+        },
+        {
+          "name": "H2O2",
+          "maxCoefficientDifference": 0,
+          "logKDifference": 0,
+          "logK25Difference": 0
+        },
+        {
+          "name": "O2",
+          "maxCoefficientDifference": 0,
+          "logKDifference": 0,
+          "logK25Difference": 0
+        },
+        {
+          "name": "O2(g)",
+          "maxCoefficientDifference": 0,
+          "logKDifference": 0,
+          "logK25Difference": 0
+        },
+        {
+          "name": "O3",
+          "maxCoefficientDifference": 0,
+          "logKDifference": 0,
+          "logK25Difference": 0
+        },
+        {
+          "name": "O3(g)",
+          "maxCoefficientDifference": 0,
+          "logKDifference": 0,
+          "logK25Difference": 0
+        },
+        {
+          "name": "OH-",
+          "maxCoefficientDifference": 0,
+          "logKDifference": 0,
+          "logK25Difference": 0
+        },
+        {
+          "name": "Cu(OH)2",
+          "maxCoefficientDifference": 0,
+          "logKDifference": 0,
+          "logK25Difference": 0
+        },
+        {
+          "name": "Cu(OH)3-",
+          "maxCoefficientDifference": 0,
+          "logKDifference": 0,
+          "logK25Difference": 0
+        },
+        {
+          "name": "Cu(OH)4-2",
+          "maxCoefficientDifference": 0,
+          "logKDifference": 0,
+          "logK25Difference": 0
+        },
+        {
+          "name": "Cu2(OH)2+2",
+          "maxCoefficientDifference": 0,
+          "logKDifference": 0,
+          "logK25Difference": 0
+        },
+        {
+          "name": "Cu3(OH)4+2",
+          "maxCoefficientDifference": 0,
+          "logKDifference": 0,
+          "logK25Difference": 0
+        },
+        {
+          "name": "CuOH+",
+          "maxCoefficientDifference": 0,
+          "logKDifference": 0,
+          "logK25Difference": 0
+        },
+        {
+          "name": "HO2-",
+          "maxCoefficientDifference": 0,
+          "logKDifference": 0,
+          "logK25Difference": 0
+        },
+        {
+          "name": "Cu(cr)",
+          "maxCoefficientDifference": 0,
+          "logKDifference": 0,
+          "logK25Difference": 0
+        },
+        {
+          "name": "Cu2O(cr)",
+          "maxCoefficientDifference": 0,
+          "logKDifference": 0,
+          "logK25Difference": 0
+        },
+        {
+          "name": "Cu(OH)2(cr)",
+          "maxCoefficientDifference": 0,
+          "logKDifference": 0,
+          "logK25Difference": 0
+        },
+        {
+          "name": "CuO(cr)",
+          "maxCoefficientDifference": 0,
+          "logKDifference": 0,
+          "logK25Difference": 0
+        }
+      ]
+    }
+  },
+  "haltafall": {
+    "UVI": {
+      "points": 1025,
+      "flags": [
+        0
+      ],
+      "maxInventoryResidual": 1.1247006811662165e-14,
+      "maxOfficialIndependentAmountDifference": 0,
+      "carrierCounts": {
+        "UH3(cr)": 244,
+        "UO2(cr)": 275,
+        "U 3+": 3,
+        "U 4+": 8,
+        "U4O9(cr)": 16,
+        "UO2(OH)3-": 86,
+        "U3O8(cr)": 7,
+        "UO3·2H2O(cr)": 189,
+        "UO2 2+": 197
+      }
+    },
+    "UV": {
+      "points": 1025,
+      "flags": [
+        0
+      ],
+      "maxInventoryResidual": 1.3458711480896814e-14,
+      "maxOfficialIndependentAmountDifference": 0,
+      "carrierCounts": {
+        "UH3(cr)": 244,
+        "UO2(cr)": 275,
+        "U 3+": 3,
+        "U 4+": 8,
+        "U4O9(cr)": 16,
+        "UO2(OH)3-": 86,
+        "U3O8(cr)": 7,
+        "UO3·2H2O(cr)": 189,
+        "UO2 2+": 197
+      }
+    },
+    "crossBasis": {
+      "maxAmountDifference": 1.1624156701756615e-14,
+      "carrierLabelDisagreements": 0
+    },
+    "conditions": {
+      "total": 0.00001,
+      "pH": [
+        0,
+        12,
+        0.5
+      ],
+      "Eh": [
+        -2,
+        2,
+        0.1
+      ],
+      "temperatureC": 25,
+      "pressureBar": 1,
+      "activity": "ideal",
+      "aH2O": 1,
+      "EhFactor": 0.05915934523391366,
+      "EhConvention": "pinned Spana MainFrame/Select_Diagram input conversion"
+    },
+    "explicitExchange": {
+      "maxCoefficientDifference": 1.1102230246251565e-16,
+      "maxLogKDifference": 8.881784197001252e-16
+    }
+  }
+}

@@ -1,0 +1,71 @@
+{
+  "unchanged": 204,
+  "changed": [
+    {
+      "path": "src/App.jsx",
+      "before": "aa56f3e1c0c564cfe2f4dd3d399d5be20a8a8adc1918acfc305ec94bc197227a",
+      "after": "8f2a18df4ffbbb0b8fb244a970d1cc302794b79d626c986b29c497da18f3deee"
+    },
+    {
+      "path": "src/calculations/diagramSetup.js",
+      "before": "f0b260c74190514a583e563f75a50a152a02fee4756199c50090d74f7a4c1ff3",
+      "after": "6b49819820a0563ce22653a9d51c705e5baf4e7825af88f2baeba9bb6dda4e9c"
+    },
+    {
+      "path": "src/calculations/outputDescriptors.js",
+      "before": "3763f566d190daf76641aff93afea61a6ee2217680c50af6c077048b0cedda96",
+      "after": "f899574a4b15ba58a31b051198d905fe85fcced230befc9951fb923c9549630d"
+    },
+    {
+      "path": "src/calculations/outputs.js",
+      "before": "caeca73d44451f285bed5d96d58fd31623b0be7b4ddddfc509417fd336e5e9fa",
+      "after": "6c2624fc2e43beaaeaa6e5124b8b9de983f4092e7027f2ce73d0648b1e38632a"
+    },
+    {
+      "path": "src/calculations/userPourbaix.js",
+      "before": "cdb53343e496c80718716309eccae7b5a3ec9057f8477f7a8d5849e345395a2f",
+      "after": "bc4c06a7bfc780206e29bb6c1474b2b9518f83b52fe2e12482c439c192c0758d"
+    },
+    {
+      "path": "src/components/CalculationWorkspace.jsx",
+      "before": "dbe308111c14756a380dd5172398088c7a9d65401756acc2dc27f7ae2b8b9a6d",
+      "after": "9f529f84cd04ab1e2714600e99279c38617df2a0211c7e2fb763cb15d8e92d42"
+    },
+    {
+      "path": "src/components/ComponentSelector.jsx",
+      "before": "3ece805f5fd38955d5bde447745cf8e217523fe63e84bf6bf59ed298f4e11ac7",
+      "after": "82bac8e79f9255185f81a3a3bb8685fdd242908698bc240d24e7f73440ad765f"
+    },
+    {
+      "path": "src/components/ElementSelector.jsx",
+      "before": "5087863f0e35af1063f9dcc95d92853ef75a503b42026be8abcd1c83abe01e80",
+      "after": "f631d4ec43c9dd4893d0251c2b78e1c3886c8a7137f4351fde0769e0c991af63"
+    },
+    {
+      "path": "src/components/InteractiveBeaker.jsx",
+      "before": "af4968f424293f497f81cd6c6ea732cf1f2a815e06f207ff7d5a285e45a95aaa",
+      "after": "0d04bf9a3b7eac71ec1a305eecd2e961c252418d1bbc217677eb7054d5849598"
+    },
+    {
+      "path": "src/components/PlotWorkspace.jsx",
+      "before": "fde3be38a371457758b8b5e65e277d56512f39f0c3ca650d7f3bdd820323bb7c",
+      "after": "becd1814e96f2d4c66379816710a076b1bcc8931f6b0205494823e5a9f2b54d9"
+    },
+    {
+      "path": "src/plots/resultSelection.js",
+      "before": "a79c42735ec59d067c1e21393b5960677922244a6765623b5b9e77962efc3b14",
+      "after": "a3676583c6371d5c7edb310819a6b5be46806a2fcdd53d5462fc3fd1f45496d0"
+    },
+    {
+      "path": "src/session/diagramNavigation.js",
+      "before": "1c6220ecd0e23a90996e9e5f66b6fc14a04059bd33240749b9b985b7b982cc6e",
+      "after": "511e3439a4f3a12f8c7085ac1e4a68e878a57d5c47b3868534d6a2027333ece3"
+    },
+    {
+      "path": "src/session/laboratorySession.js",
+      "before": "bef161922836748b73d85e915ffb5fe122fe6ab6f8b802a803562e0135e70c43",
+      "after": "fe4421ceb03031faa4d6372d694a8b90589ed0d1218e9c734df4b3e5bf27bd4e"
+    }
+  ],
+  "scientificProtectedChanged": []
+}

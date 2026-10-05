@@ -1,0 +1,9 @@
+{"name":"HCl","prepareMs":7.076000000000022,"totalMs":64.952,"structuralCompiles":0,"compileMs":0,"solveMs":0,"accepted":101}
+{"name":"Acetate","prepareMs":1495.6508,"totalMs":3755.1564,"structuralCompiles":0,"compileMs":2934.3298000000086,"solveMs":62.61470000000281,"accepted":101}
+{"name":"Cr","prepareMs":1482.1665000000003,"totalMs":19154.339200000002,"structuralCompiles":4,"compileMs":17357.057600000004,"solveMs":1403.7036999999727,"accepted":101}
+{"name":"Mixed","prepareMs":111.66229999999996,"totalMs":4534.7019,"structuralCompiles":0,"compileMs":3409.0369999999966,"solveMs":151.1043000000027,"accepted":101}
+{"name":"HCl","prepareMs":2.006200000003446,"totalMs":110.40680000000066,"structuralCompiles":0,"compileMs":0,"solveMs":0,"accepted":101}
+{"name":"Acetate","prepareMs":49.533299999999144,"totalMs":3459.4354999999996,"structuralCompiles":0,"compileMs":2658.70559999999,"solveMs":53.55759999998554,"accepted":101}
+{"name":"Cr","prepareMs":221.89540000000125,"totalMs":19710.355199999998,"structuralCompiles":0,"compileMs":17949.364799999952,"solveMs":1396.9919999999765,"accepted":101}
+{"name":"Mixed","prepareMs":57.63489999999729,"totalMs":3973.538099999998,"structuralCompiles":0,"compileMs":3019.7914000000383,"solveMs":142.84740000000602,"accepted":101}
+Exact cold and warm parity: 404 points each

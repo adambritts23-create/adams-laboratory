@@ -1,0 +1,279 @@
+{
+  "ok": true,
+  "result": {
+    "carriers": [
+      {
+        "id": "component:Cl-",
+        "name": "Cl-",
+        "amount": 0.009983101849465886
+      },
+      {
+        "id": "component:Eu%203%2B",
+        "name": "Eu 3+",
+        "amount": 9.812455949976638e-7
+      },
+      {
+        "id": "component:ClO3-",
+        "name": "ClO3-",
+        "amount": 6.271604356579013e-61
+      },
+      {
+        "id": "component:H2O2",
+        "name": "H2O2",
+        "amount": 5.445499431994544e-31
+      },
+      {
+        "id": "component:H%2B",
+        "name": "H+",
+        "amount": 0.009980120692736657
+      },
+      {
+        "id": "spana:2ac52a30213c9288:82605",
+        "name": "ClO2-",
+        "amount": 6.185017546689524e-52
+      },
+      {
+        "id": "spana:2ac52a30213c9288:82236",
+        "name": "Cl2",
+        "amount": 1.4218058854216782e-26
+      },
+      {
+        "id": "spana:2ac52a30213c9288:82394",
+        "name": "ClO-",
+        "amount": 2.5781205402446193e-31
+      },
+      {
+        "id": "spana:2ac52a30213c9288:82497",
+        "name": "ClO2(aq)",
+        "amount": 1.8344065311251034e-58
+      },
+      {
+        "id": "spana:2ac52a30213c9288:120483",
+        "name": "Eu 2+",
+        "amount": 1.6581471477595334e-25
+      },
+      {
+        "id": "spana:2ac52a30213c9288:122043",
+        "name": "Eu(OH)2+",
+        "amount": 4.106824397380758e-19
+      },
+      {
+        "id": "spana:2ac52a30213c9288:122131",
+        "name": "Eu(OH)3",
+        "amount": 3.752928928473168e-26
+      },
+      {
+        "id": "spana:2ac52a30213c9288:122414",
+        "name": "Eu(OH)4-",
+        "amount": 2.919003035464174e-33
+      },
+      {
+        "id": "spana:2ac52a30213c9288:123073",
+        "name": "Eu2(OH)2+4",
+        "amount": 3.200986580782159e-23
+      },
+      {
+        "id": "spana:2ac52a30213c9288:123678",
+        "name": "EuCl 2+",
+        "amount": 1.8665654466000346e-8
+      },
+      {
+        "id": "spana:2ac52a30213c9288:123763",
+        "name": "EuCl2+",
+        "amount": 8.715829459090308e-11
+      },
+      {
+        "id": "spana:2ac52a30213c9288:123837",
+        "name": "EuCl3",
+        "amount": 3.544657072644873e-13
+      },
+      {
+        "id": "spana:2ac52a30213c9288:123910",
+        "name": "EuClO3+2",
+        "amount": 2.4499452169749895e-66
+      },
+      {
+        "id": "spana:2ac52a30213c9288:125602",
+        "name": "EuOH 2+",
+        "amount": 1.2377756269547765e-12
+      },
+      {
+        "id": "spana:2ac52a30213c9288:151381",
+        "name": "H2",
+        "amount": 3.723593666373019e-33
+      },
+      {
+        "id": "spana:2ac52a30213c9288:159033",
+        "name": "HCl",
+        "amount": 0.00001987930949966049
+      },
+      {
+        "id": "spana:2ac52a30213c9288:159101",
+        "name": "HClO",
+        "amount": 6.767667483911113e-26
+      },
+      {
+        "id": "spana:2ac52a30213c9288:159212",
+        "name": "HClO2",
+        "amount": 6.032213849630362e-52
+      },
+      {
+        "id": "spana:2ac52a30213c9288:175307",
+        "name": "HO2-",
+        "amount": 1.2215237734890504e-40
+      },
+      {
+        "id": "spana:2ac52a30213c9288:249989",
+        "name": "O2",
+        "amount": 5.059125281227635e-28
+      },
+      {
+        "id": "spana:2ac52a30213c9288:250161",
+        "name": "O3",
+        "amount": 7.908846585231867e-68
+      },
+      {
+        "id": "spana:2ac52a30213c9288:250448",
+        "name": "OH-",
+        "amount": 9.985371027226574e-13
+      }
+    ],
+    "sourceMassActionResiduals": [
+      {
+        "id": "spana:2ac52a30213c9288:120483",
+        "residual": 0
+      },
+      {
+        "id": "spana:2ac52a30213c9288:151381",
+        "residual": -7.105427357601002e-15
+      },
+      {
+        "id": "spana:2ac52a30213c9288:152743",
+        "residual": 3.552713678800501e-15
+      },
+      {
+        "id": "spana:2ac52a30213c9288:159101",
+        "residual": 7.105427357601002e-15
+      },
+      {
+        "id": "spana:2ac52a30213c9288:159212",
+        "residual": 7.105427357601002e-15
+      },
+      {
+        "id": "spana:2ac52a30213c9288:249989",
+        "residual": 7.105427357601002e-15
+      },
+      {
+        "id": "spana:2ac52a30213c9288:250161",
+        "residual": -1.4210854715202004e-14
+      },
+      {
+        "id": "spana:2ac52a30213c9288:82236",
+        "residual": 3.552713678800501e-15
+      },
+      {
+        "id": "spana:2ac52a30213c9288:82394",
+        "residual": 3.552713678800501e-15
+      },
+      {
+        "id": "spana:2ac52a30213c9288:82497",
+        "residual": 2.842170943040401e-14
+      },
+      {
+        "id": "spana:2ac52a30213c9288:82605",
+        "residual": 7.105427357601002e-15
+      },
+      {
+        "id": "spana:2ac52a30213c9288:82715",
+        "residual": -2.842170943040401e-14
+      },
+      {
+        "id": "spana:2ac52a30213c9288:122043",
+        "residual": 8.881784197001252e-16
+      },
+      {
+        "id": "spana:2ac52a30213c9288:122131",
+        "residual": -1.7763568394002505e-15
+      },
+      {
+        "id": "spana:2ac52a30213c9288:122414",
+        "residual": -8.881784197001252e-16
+      },
+      {
+        "id": "spana:2ac52a30213c9288:123073",
+        "residual": 0
+      },
+      {
+        "id": "spana:2ac52a30213c9288:123678",
+        "residual": 1.7763568394002505e-15
+      },
+      {
+        "id": "spana:2ac52a30213c9288:123763",
+        "residual": 0
+      },
+      {
+        "id": "spana:2ac52a30213c9288:123837",
+        "residual": 0
+      },
+      {
+        "id": "spana:2ac52a30213c9288:123910",
+        "residual": 0
+      },
+      {
+        "id": "spana:2ac52a30213c9288:125602",
+        "residual": 0
+      },
+      {
+        "id": "spana:2ac52a30213c9288:159033",
+        "residual": 0
+      },
+      {
+        "id": "spana:2ac52a30213c9288:175307",
+        "residual": -1.0658141036401503e-14
+      },
+      {
+        "id": "spana:2ac52a30213c9288:250448",
+        "residual": 8.881784197001252e-16
+      }
+    ],
+    "pH": 2.000864206621187,
+    "pe": 12.672154651918053,
+    "variant": 0,
+    "maxLogRatio": 0,
+    "pHDifference": 0,
+    "peDifference": 0,
+    "dimension": 4,
+    "maxNullResidual": 0,
+    "maxCarrierDifference": 0,
+    "maxTargetDifference": 0,
+    "closure": [
+      {
+        "key": "charge",
+        "total": 0,
+        "residual": 4.176450493704504e-18,
+        "limit": 2.108721709430404e-12
+      },
+      {
+        "key": "source-coordinate-1",
+        "total": 0.000001,
+        "residual": -2.117582368135751e-22,
+        "limit": 4.842170943040401e-14
+      },
+      {
+        "key": "source-coordinate-2",
+        "total": 0.010003,
+        "residual": 0,
+        "limit": 1.048721709430404e-12
+      },
+      {
+        "key": "source-coordinate-3",
+        "total": -0.0066686666666666665,
+        "residual": 0,
+        "limit": 6.952883760970707e-13
+      }
+    ],
+    "solids": [],
+    "elementalSpanMatches": true
+  },
+  "maxSavedLogRatio": 5.684710415331999e-14
+}

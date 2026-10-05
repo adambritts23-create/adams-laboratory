@@ -1,0 +1,1 @@
+React render checks pass: generic conditional point form, enabled calculation, derived outputs, gas inspection, and explicit unsupported metadata reason. Interactive browser not attached.

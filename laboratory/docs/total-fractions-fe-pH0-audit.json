@@ -1,0 +1,356 @@
+[
+  {
+    "mode": "automatic",
+    "systemId": "11e5a7ae708c78f3c887e7de8d6ec3f895c5e385a66efd834ee9742ff5d62902",
+    "input": {
+      "schemaVersion": 1,
+      "systemId": "11e5a7ae708c78f3c887e7de8d6ec3f895c5e385a66efd834ee9742ff5d62902",
+      "revision": 0,
+      "constraints": [
+        {
+          "componentId": "component:Fe%203%2B",
+          "hur": 1,
+          "kh": 1,
+          "field": "tot",
+          "value": 1
+        },
+        {
+          "componentId": "component:H%2B",
+          "hur": 5,
+          "kh": 2,
+          "field": "logA",
+          "value": 0
+        },
+        {
+          "componentId": "component:H2O",
+          "hur": 4,
+          "kh": 2,
+          "field": "logA",
+          "value": 0
+        }
+      ],
+      "unit": "mol/kg-H2O",
+      "temperatureC": 25,
+      "pressureBar": 1,
+      "activityModel": "ideal",
+      "electroneutrality": "not-imposed",
+      "id": "7abee9f68bf3611d1ab341c53da1ff999bcbb919844bd52c0419f36d2205c0d2"
+    },
+    "status": "converged",
+    "total": [
+      0.9999999999999999,
+      0.6880930472854019,
+      0
+    ],
+    "dissolved": [
+      0.8989408591996729,
+      0.9912704696863829,
+      0
+    ],
+    "solids": [
+      {
+        "id": "spana:2ac52a30213c9288:131188",
+        "name": "Fe(OH)3(am)",
+        "amount": 0,
+        "logSaturation": -4.950500000000001,
+        "status": "absent",
+        "activity": null
+      },
+      {
+        "id": "spana:2ac52a30213c9288:131294",
+        "name": "Fe(OH)3(s)",
+        "amount": 0,
+        "logSaturation": -3.4805,
+        "status": "absent",
+        "activity": null
+      },
+      {
+        "id": "spana:2ac52a30213c9288:133739",
+        "name": "Fe2O3(cr)",
+        "amount": 0.0505295704001635,
+        "logSaturation": 0,
+        "status": "present",
+        "activity": 1
+      },
+      {
+        "id": "spana:2ac52a30213c9288:139276",
+        "name": "FeOOH(cr)",
+        "amount": 0,
+        "logSaturation": -0.22050000000000003,
+        "status": "absent",
+        "activity": null
+      }
+    ],
+    "saturationTolerance": 1e-12,
+    "residuals": {
+      "componentBalance": [
+        -1.1102230246251565e-16,
+        null,
+        null
+      ],
+      "componentBalanceLimits": [
+        1e-10,
+        null,
+        null
+      ],
+      "massActionLog": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        null,
+        null,
+        null,
+        null
+      ],
+      "scaledBalance": [
+        -1.1102230246251565e-16,
+        null,
+        null
+      ]
+    },
+    "plot": {
+      "output": {
+        "label": "Log solubility: Fe 3+ · saturated Fe(OH)3(am) / Fe(OH)3(s) / Fe2O3(cr) / FeOOH(cr)",
+        "unit": "log10(m / (mol/kg-H2O))",
+        "formula": "log10 of free component plus coefficient-weighted aqueous species molalities at equilibrium with the one relevant saturated pure solid; excludes solid inventory; absent/unsaturated or failed states unavailable",
+        "applicability": {
+          "ok": true,
+          "index": 0,
+          "solidId": "spana:2ac52a30213c9288:131188",
+          "solidName": "Fe(OH)3(am) / Fe(OH)3(s) / Fe2O3(cr) / FeOOH(cr)",
+          "solidIds": [
+            "spana:2ac52a30213c9288:131188",
+            "spana:2ac52a30213c9288:131294",
+            "spana:2ac52a30213c9288:133739",
+            "spana:2ac52a30213c9288:139276"
+          ],
+          "contributors": [
+            {
+              "id": "component:Fe%203%2B",
+              "name": "Fe 3+",
+              "coefficient": 1
+            },
+            {
+              "id": "spana:2ac52a30213c9288:131002",
+              "name": "Fe(OH)2+",
+              "coefficient": 1
+            },
+            {
+              "id": "spana:2ac52a30213c9288:131099",
+              "name": "Fe(OH)3",
+              "coefficient": 1
+            },
+            {
+              "id": "spana:2ac52a30213c9288:131496",
+              "name": "Fe(OH)4-",
+              "coefficient": 1
+            },
+            {
+              "id": "spana:2ac52a30213c9288:133463",
+              "name": "Fe2(OH)2+4",
+              "coefficient": 2
+            },
+            {
+              "id": "spana:2ac52a30213c9288:138873",
+              "name": "FeOH 2+",
+              "coefficient": 1
+            }
+          ]
+        },
+        "type": "saturated-log-solubility",
+        "componentId": "component:Fe%203%2B",
+        "redoxQuantity": null
+      },
+      "point": {
+        "index": 0,
+        "x": 0,
+        "pointStatus": "converged",
+        "diagnostic": null,
+        "revision": 0,
+        "runDisposition": null,
+        "value": -0.046268879310268275,
+        "linearValue": 0.8989408591996729,
+        "reason": null,
+        "solidId": "spana:2ac52a30213c9288:133739",
+        "linearUnit": "mol/kg-H2O"
+      }
+    },
+    "beaker": {
+      "solids": [
+        {
+          "id": "spana:2ac52a30213c9288:133739",
+          "name": "Fe2O3(cr)",
+          "amount": 0.0505295704001635,
+          "logSaturation": 0,
+          "status": "present",
+          "activity": 1
+        }
+      ],
+      "visual": {
+        "inventory": 0.0505295704001635,
+        "bedHeight": 34.115891759581004,
+        "mapping": "Schematic bed height = 12 + 44 S/(S + 0.05) drawing units for positive S; otherwise zero. S is the summed solid amount in mol/kg H₂O. The 0.05 scale and drawing units are visual choices, not thermodynamic data or calibrated volume. Fixed liquid level is decorative."
+      }
+    }
+  },
+  {
+    "mode": "Fe(OH)3(am)-only",
+    "systemId": "0f69de7e101cd30a73e37773bdf01fb2919be204067761d4b796cb46ae7daf7b",
+    "input": {
+      "schemaVersion": 1,
+      "systemId": "0f69de7e101cd30a73e37773bdf01fb2919be204067761d4b796cb46ae7daf7b",
+      "revision": 0,
+      "constraints": [
+        {
+          "componentId": "component:Fe%203%2B",
+          "hur": 1,
+          "kh": 1,
+          "field": "tot",
+          "value": 1
+        },
+        {
+          "componentId": "component:H%2B",
+          "hur": 5,
+          "kh": 2,
+          "field": "logA",
+          "value": 0
+        },
+        {
+          "componentId": "component:H2O",
+          "hur": 4,
+          "kh": 2,
+          "field": "logA",
+          "value": 0
+        }
+      ],
+      "unit": "mol/kg-H2O",
+      "temperatureC": 25,
+      "pressureBar": 1,
+      "activityModel": "ideal",
+      "electroneutrality": "not-imposed",
+      "id": "815f67c4b09925b4fcde1ebaf32497bd737c31248cd727a3d8d9160a45788e45"
+    },
+    "status": "converged",
+    "total": [
+      1,
+      0.9899929597259398,
+      0
+    ],
+    "dissolved": [
+      1,
+      0.9899929597259398,
+      0
+    ],
+    "solids": [
+      {
+        "id": "spana:2ac52a30213c9288:131188",
+        "name": "Fe(OH)3(am)",
+        "amount": 0,
+        "logSaturation": -4.9043610106908755,
+        "status": "absent",
+        "activity": null
+      }
+    ],
+    "saturationTolerance": 1e-12,
+    "residuals": {
+      "componentBalance": [
+        0,
+        null,
+        null
+      ],
+      "componentBalanceLimits": [
+        1e-10,
+        null,
+        null
+      ],
+      "massActionLog": [
+        0,
+        0,
+        null,
+        0,
+        0,
+        0,
+        0
+      ],
+      "scaledBalance": [
+        0,
+        null,
+        null
+      ]
+    },
+    "plot": {
+      "output": {
+        "label": "Log solubility: Fe 3+ · saturated Fe(OH)3(am)",
+        "unit": "log10(m / (mol/kg-H2O))",
+        "formula": "log10 of free component plus coefficient-weighted aqueous species molalities at equilibrium with the one relevant saturated pure solid; excludes solid inventory; absent/unsaturated or failed states unavailable",
+        "applicability": {
+          "ok": true,
+          "index": 0,
+          "solidId": "spana:2ac52a30213c9288:131188",
+          "solidName": "Fe(OH)3(am)",
+          "solidIds": [
+            "spana:2ac52a30213c9288:131188"
+          ],
+          "contributors": [
+            {
+              "id": "component:Fe%203%2B",
+              "name": "Fe 3+",
+              "coefficient": 1
+            },
+            {
+              "id": "spana:2ac52a30213c9288:131002",
+              "name": "Fe(OH)2+",
+              "coefficient": 1
+            },
+            {
+              "id": "spana:2ac52a30213c9288:131099",
+              "name": "Fe(OH)3",
+              "coefficient": 1
+            },
+            {
+              "id": "spana:2ac52a30213c9288:131496",
+              "name": "Fe(OH)4-",
+              "coefficient": 1
+            },
+            {
+              "id": "spana:2ac52a30213c9288:133463",
+              "name": "Fe2(OH)2+4",
+              "coefficient": 2
+            },
+            {
+              "id": "spana:2ac52a30213c9288:138873",
+              "name": "FeOH 2+",
+              "coefficient": 1
+            }
+          ]
+        },
+        "type": "saturated-log-solubility",
+        "componentId": "component:Fe%203%2B",
+        "redoxQuantity": null
+      },
+      "point": {
+        "index": 0,
+        "x": 0,
+        "pointStatus": "converged",
+        "diagnostic": null,
+        "revision": 0,
+        "runDisposition": null,
+        "value": null,
+        "linearValue": null,
+        "reason": "relevant-solid-not-saturated",
+        "linearUnit": null
+      }
+    },
+    "beaker": {
+      "solids": [],
+      "visual": {
+        "inventory": 0,
+        "bedHeight": 0,
+        "mapping": "Schematic bed height = 12 + 44 S/(S + 0.05) drawing units for positive S; otherwise zero. S is the summed solid amount in mol/kg H₂O. The 0.05 scale and drawing units are visual choices, not thermodynamic data or calibrated volume. Fixed liquid level is decorative."
+      }
+    }
+  }
+]

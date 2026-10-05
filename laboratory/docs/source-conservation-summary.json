@@ -1,0 +1,40 @@
+{
+  "status": "STOPPED_CR_PARITY_FAILURE",
+  "doseMl": 10,
+  "derivedConservationDimension": 5,
+  "elementalSpanMatches": true,
+  "maxNullResidual": 8.881784197001252e-16,
+  "pH": {
+    "experimental": 3.633028194538201,
+    "reference": 3.633028194538202,
+    "difference": -8.881784197001252e-16
+  },
+  "pe": {
+    "experimental": 6.592695684343284,
+    "reference": 9.191787475602922,
+    "difference": -2.599091791259638
+  },
+  "Eh": {
+    "experimental": 0.39001958935541975,
+    "reference": 0.5437801694973959,
+    "difference": -0.1537605801419762
+  },
+  "maxAbsoluteCarrierDifference": 1.1591113855085454e-17,
+  "projectedZeroCoordinate": {
+    "id": "spana:2ac52a30213c9288:96242",
+    "original": 0,
+    "experimental": 1.214306433183765e-17
+  },
+  "productionChanged": false,
+  "notRun": [
+    "remaining chromium doses",
+    "basis invariance",
+    "Fe/peroxide",
+    "Eu",
+    "nitrate",
+    "copper",
+    "full regression",
+    "build",
+    "browser campaign"
+  ]
+}

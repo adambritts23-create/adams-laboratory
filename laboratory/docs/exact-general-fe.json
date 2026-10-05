@@ -1,0 +1,827 @@
+{
+  "ok": true,
+  "results": [
+    {
+      "peroxideSupplied": 2.5e-7,
+      "result": {
+        "carriers": [
+          {
+            "id": "component:Fe%202%2B",
+            "name": "Fe 2+",
+            "amount": 4.975109774568595e-7
+          },
+          {
+            "id": "component:H2O2",
+            "name": "H2O2",
+            "amount": 6.4136494180820145e-31
+          },
+          {
+            "id": "component:H%2B",
+            "name": "H+",
+            "amount": 0.009979855248619609
+          },
+          {
+            "id": "component:Cl-",
+            "name": "Cl-",
+            "amount": 0.009982038783309957
+          },
+          {
+            "id": "component:Fe%203%2B",
+            "name": "Fe 3+",
+            "amount": 2.2567295642610187e-7
+          },
+          {
+            "id": "spana:2ac52a30213c9288:130813",
+            "name": "Fe(OH)2",
+            "amount": 1.2547412721174429e-23
+          },
+          {
+            "id": "spana:2ac52a30213c9288:131002",
+            "name": "Fe(OH)2+",
+            "amount": 3.5911292315341516e-8
+          },
+          {
+            "id": "spana:2ac52a30213c9288:131099",
+            "name": "Fe(OH)3",
+            "amount": 2.2704230744502784e-13
+          },
+          {
+            "id": "spana:2ac52a30213c9288:131406",
+            "name": "Fe(OH)3-",
+            "amount": 3.1581295499479507e-35
+          },
+          {
+            "id": "spana:2ac52a30213c9288:131496",
+            "name": "Fe(OH)4-",
+            "amount": 5.7145567469896665e-21
+          },
+          {
+            "id": "spana:2ac52a30213c9288:131586",
+            "name": "Fe(OH)4-2",
+            "amount": 5.015401426103006e-45
+          },
+          {
+            "id": "spana:2ac52a30213c9288:133463",
+            "name": "Fe2(OH)2+4",
+            "amount": 7.739458083699524e-13
+          },
+          {
+            "id": "spana:2ac52a30213c9288:135482",
+            "name": "FeCl+",
+            "amount": 2.488982944668242e-9
+          },
+          {
+            "id": "spana:2ac52a30213c9288:135557",
+            "name": "FeCl+2",
+            "amount": 7.459311975655405e-8
+          },
+          {
+            "id": "spana:2ac52a30213c9288:135630",
+            "name": "FeCl2+",
+            "amount": 3.731797111547317e-9
+          },
+          {
+            "id": "spana:2ac52a30213c9288:135711",
+            "name": "FeCl3",
+            "amount": 2.35037563894537e-12
+          },
+          {
+            "id": "spana:2ac52a30213c9288:135791",
+            "name": "FeCl4-",
+            "amount": 2.346154078329939e-16
+          },
+          {
+            "id": "spana:2ac52a30213c9288:138672",
+            "name": "FeO4-2",
+            "amount": 7.647440961648396e-66
+          },
+          {
+            "id": "spana:2ac52a30213c9288:138873",
+            "name": "FeOH 2+",
+            "amount": 1.6008670884626638e-7
+          },
+          {
+            "id": "spana:2ac52a30213c9288:138969",
+            "name": "FeOH+",
+            "amount": 3.9598471784840883e-14
+          },
+          {
+            "id": "spana:2ac52a30213c9288:151381",
+            "name": "H2",
+            "amount": 3.16151162519835e-33
+          },
+          {
+            "id": "spana:2ac52a30213c9288:159033",
+            "name": "HCl",
+            "amount": 0.000019876663941050455
+          },
+          {
+            "id": "spana:2ac52a30213c9288:175307",
+            "name": "HO2-",
+            "amount": 1.4387355497578831e-40
+          },
+          {
+            "id": "spana:2ac52a30213c9288:249989",
+            "name": "O2",
+            "amount": 7.017952651516718e-28
+          },
+          {
+            "id": "spana:2ac52a30213c9288:250161",
+            "name": "O3",
+            "amount": 1.2921580892036965e-67
+          },
+          {
+            "id": "spana:2ac52a30213c9288:250448",
+            "name": "OH-",
+            "amount": 9.98563661805223e-13
+          }
+        ],
+        "sourceMassActionResiduals": [
+          {
+            "id": "spana:2ac52a30213c9288:126513",
+            "residual": 0
+          },
+          {
+            "id": "spana:2ac52a30213c9288:126584",
+            "residual": 8.881784197001252e-16
+          },
+          {
+            "id": "spana:2ac52a30213c9288:138672",
+            "residual": 1.4210854715202004e-14
+          },
+          {
+            "id": "spana:2ac52a30213c9288:151381",
+            "residual": -1.0658141036401503e-14
+          },
+          {
+            "id": "spana:2ac52a30213c9288:152743",
+            "residual": 1.0658141036401503e-14
+          },
+          {
+            "id": "spana:2ac52a30213c9288:249989",
+            "residual": 2.1316282072803006e-14
+          },
+          {
+            "id": "spana:2ac52a30213c9288:250161",
+            "residual": 2.842170943040401e-14
+          },
+          {
+            "id": "spana:2ac52a30213c9288:130813",
+            "residual": -1.7763568394002505e-15
+          },
+          {
+            "id": "spana:2ac52a30213c9288:131002",
+            "residual": 5.329070518200751e-15
+          },
+          {
+            "id": "spana:2ac52a30213c9288:131099",
+            "residual": 1.7763568394002505e-15
+          },
+          {
+            "id": "spana:2ac52a30213c9288:131406",
+            "residual": -8.881784197001252e-16
+          },
+          {
+            "id": "spana:2ac52a30213c9288:131496",
+            "residual": 5.329070518200751e-15
+          },
+          {
+            "id": "spana:2ac52a30213c9288:131586",
+            "residual": 8.881784197001252e-16
+          },
+          {
+            "id": "spana:2ac52a30213c9288:133463",
+            "residual": 7.105427357601002e-15
+          },
+          {
+            "id": "spana:2ac52a30213c9288:135482",
+            "residual": 0
+          },
+          {
+            "id": "spana:2ac52a30213c9288:135557",
+            "residual": 5.329070518200751e-15
+          },
+          {
+            "id": "spana:2ac52a30213c9288:135630",
+            "residual": 5.329070518200751e-15
+          },
+          {
+            "id": "spana:2ac52a30213c9288:135711",
+            "residual": 7.105427357601002e-15
+          },
+          {
+            "id": "spana:2ac52a30213c9288:135791",
+            "residual": 3.552713678800501e-15
+          },
+          {
+            "id": "spana:2ac52a30213c9288:138873",
+            "residual": 3.552713678800501e-15
+          },
+          {
+            "id": "spana:2ac52a30213c9288:138969",
+            "residual": 0
+          },
+          {
+            "id": "spana:2ac52a30213c9288:159033",
+            "residual": 0
+          },
+          {
+            "id": "spana:2ac52a30213c9288:175307",
+            "residual": 0
+          },
+          {
+            "id": "spana:2ac52a30213c9288:250448",
+            "residual": -4.440892098500626e-16
+          }
+        ],
+        "pH": 2.0008757578290273,
+        "pe": 12.70767685062249,
+        "variant": 0,
+        "maxLogRatio": 0,
+        "pHDifference": 0,
+        "peDifference": 0,
+        "dimension": 4,
+        "maxNullResidual": 0,
+        "maxCarrierDifference": 0,
+        "maxTargetDifference": 0,
+        "closure": [
+          {
+            "key": "charge",
+            "total": 0,
+            "residual": 4.029581163623739e-18,
+            "limit": 2.068621709430404e-12
+          },
+          {
+            "key": "source-coordinate-1",
+            "total": 0.000001,
+            "residual": -4.870439446712227e-21,
+            "limit": 4.842170943040401e-14
+          },
+          {
+            "key": "source-coordinate-2",
+            "total": 0.010002,
+            "residual": -1.734723475976807e-18,
+            "limit": 1.0286217094304041e-12
+          },
+          {
+            "key": "source-coordinate-3",
+            "total": 8.333333333333333e-8,
+            "residual": -7.676236084492097e-22,
+            "limit": 3.508837609707067e-14
+          }
+        ],
+        "solids": [],
+        "elementalSpanMatches": true
+      },
+      "maxSavedLogRatio": 3.423362506264304e-14
+    },
+    {
+      "peroxideSupplied": 5e-7,
+      "result": {
+        "carriers": [
+          {
+            "id": "component:Fe%202%2B",
+            "name": "Fe 2+",
+            "amount": 7.717278434020677e-11
+          },
+          {
+            "id": "component:H2O2",
+            "name": "H2O2",
+            "amount": 1.0660700655533887e-22
+          },
+          {
+            "id": "component:H%2B",
+            "name": "H+",
+            "amount": 0.00997958790396647
+          },
+          {
+            "id": "component:Cl-",
+            "name": "Cl-",
+            "amount": 0.009981959914127618
+          },
+          {
+            "id": "component:Fe%203%2B",
+            "name": "Fe 3+",
+            "amount": 4.513044875491449e-7
+          },
+          {
+            "id": "spana:2ac52a30213c9288:130813",
+            "name": "Fe(OH)2",
+            "amount": 1.946430735001916e-27
+          },
+          {
+            "id": "spana:2ac52a30213c9288:131002",
+            "name": "Fe(OH)2+",
+            "amount": 7.181984046050127e-8
+          },
+          {
+            "id": "spana:2ac52a30213c9288:131099",
+            "name": "Fe(OH)3",
+            "amount": 4.5407942947161075e-13
+          },
+          {
+            "id": "spana:2ac52a30213c9288:131406",
+            "name": "Fe(OH)3-",
+            "amount": 4.89921327430886e-39
+          },
+          {
+            "id": "spana:2ac52a30213c9288:131496",
+            "name": "Fe(OH)4-",
+            "amount": 1.1429289151949948e-20
+          },
+          {
+            "id": "spana:2ac52a30213c9288:131586",
+            "name": "Fe(OH)4-2",
+            "amount": 7.780611626038363e-49
+          },
+          {
+            "id": "spana:2ac52a30213c9288:133463",
+            "name": "Fe2(OH)2+4",
+            "amount": 3.0953808255175785e-12
+          },
+          {
+            "id": "spana:2ac52a30213c9288:135482",
+            "name": "FeCl+",
+            "amount": 3.860823882485713e-13
+          },
+          {
+            "id": "spana:2ac52a30213c9288:135557",
+            "name": "FeCl+2",
+            "amount": 1.491713683151799e-7
+          },
+          {
+            "id": "spana:2ac52a30213c9288:135630",
+            "name": "FeCl2+",
+            "amount": 7.462791271537216e-9
+          },
+          {
+            "id": "spana:2ac52a30213c9288:135711",
+            "name": "FeCl3",
+            "amount": 4.70020842251891e-12
+          },
+          {
+            "id": "spana:2ac52a30213c9288:135791",
+            "name": "FeCl4-",
+            "amount": 4.691729206162857e-16
+          },
+          {
+            "id": "spana:2ac52a30213c9288:138672",
+            "name": "FeO4-2",
+            "amount": 3.27782101661196e-53
+          },
+          {
+            "id": "spana:2ac52a30213c9288:138873",
+            "name": "FeOH 2+",
+            "amount": 3.201526080120765e-7
+          },
+          {
+            "id": "spana:2ac52a30213c9288:138969",
+            "name": "FeOH+",
+            "amount": 6.142590470028265e-18
+          },
+          {
+            "id": "spana:2ac52a30213c9288:151381",
+            "name": "H2",
+            "amount": 1.90201637306902e-41
+          },
+          {
+            "id": "spana:2ac52a30213c9288:159033",
+            "name": "HCl",
+            "amount": 0.000019875974432938044
+          },
+          {
+            "id": "spana:2ac52a30213c9288:175307",
+            "name": "HO2-",
+            "amount": 2.3915151746904523e-32
+          },
+          {
+            "id": "spana:2ac52a30213c9288:249989",
+            "name": "O2",
+            "amount": 1.9389718217910095e-11
+          },
+          {
+            "id": "spana:2ac52a30213c9288:250161",
+            "name": "O3",
+            "amount": 5.934132600606569e-43
+          },
+          {
+            "id": "spana:2ac52a30213c9288:250448",
+            "name": "OH-",
+            "amount": 9.985904124745253e-13
+          }
+        ],
+        "sourceMassActionResiduals": [
+          {
+            "id": "spana:2ac52a30213c9288:126513",
+            "residual": 0
+          },
+          {
+            "id": "spana:2ac52a30213c9288:126584",
+            "residual": 1.7763568394002505e-15
+          },
+          {
+            "id": "spana:2ac52a30213c9288:138672",
+            "residual": 7.105427357601002e-15
+          },
+          {
+            "id": "spana:2ac52a30213c9288:151381",
+            "residual": -7.105427357601002e-15
+          },
+          {
+            "id": "spana:2ac52a30213c9288:152743",
+            "residual": 7.105427357601002e-15
+          },
+          {
+            "id": "spana:2ac52a30213c9288:249989",
+            "residual": 1.4210854715202004e-14
+          },
+          {
+            "id": "spana:2ac52a30213c9288:250161",
+            "residual": 2.842170943040401e-14
+          },
+          {
+            "id": "spana:2ac52a30213c9288:130813",
+            "residual": 1.7763568394002505e-15
+          },
+          {
+            "id": "spana:2ac52a30213c9288:131002",
+            "residual": 4.440892098500626e-15
+          },
+          {
+            "id": "spana:2ac52a30213c9288:131099",
+            "residual": 2.6645352591003757e-15
+          },
+          {
+            "id": "spana:2ac52a30213c9288:131406",
+            "residual": -2.6645352591003757e-15
+          },
+          {
+            "id": "spana:2ac52a30213c9288:131496",
+            "residual": 3.552713678800501e-15
+          },
+          {
+            "id": "spana:2ac52a30213c9288:131586",
+            "residual": 0
+          },
+          {
+            "id": "spana:2ac52a30213c9288:133463",
+            "residual": 8.881784197001252e-15
+          },
+          {
+            "id": "spana:2ac52a30213c9288:135482",
+            "residual": 0
+          },
+          {
+            "id": "spana:2ac52a30213c9288:135557",
+            "residual": 3.552713678800501e-15
+          },
+          {
+            "id": "spana:2ac52a30213c9288:135630",
+            "residual": 1.7763568394002505e-15
+          },
+          {
+            "id": "spana:2ac52a30213c9288:135711",
+            "residual": 3.552713678800501e-15
+          },
+          {
+            "id": "spana:2ac52a30213c9288:135791",
+            "residual": 1.7763568394002505e-15
+          },
+          {
+            "id": "spana:2ac52a30213c9288:138873",
+            "residual": 4.440892098500626e-15
+          },
+          {
+            "id": "spana:2ac52a30213c9288:138969",
+            "residual": -1.7763568394002505e-15
+          },
+          {
+            "id": "spana:2ac52a30213c9288:159033",
+            "residual": 0
+          },
+          {
+            "id": "spana:2ac52a30213c9288:175307",
+            "residual": 0
+          },
+          {
+            "id": "spana:2ac52a30213c9288:250448",
+            "residual": -8.881784197001252e-16
+          }
+        ],
+        "pH": 2.000887392052161,
+        "pe": 16.81800548237718,
+        "variant": 0,
+        "maxLogRatio": 0,
+        "pHDifference": 0,
+        "peDifference": 0,
+        "dimension": 4,
+        "maxNullResidual": 0,
+        "maxCarrierDifference": 0,
+        "maxTargetDifference": 0,
+        "closure": [
+          {
+            "key": "charge",
+            "total": 0,
+            "residual": 7.084070836591098e-18,
+            "limit": 2.068621709430404e-12
+          },
+          {
+            "key": "source-coordinate-1",
+            "total": 0.000001,
+            "residual": -1.4823076576950256e-21,
+            "limit": 4.842170943040401e-14
+          },
+          {
+            "key": "source-coordinate-2",
+            "total": 0.010002,
+            "residual": -3.469446951953614e-18,
+            "limit": 1.0286217094304041e-12
+          },
+          {
+            "key": "source-coordinate-3",
+            "total": 1.6666666666666665e-7,
+            "residual": -1.5881867761018131e-22,
+            "limit": 3.508837609707067e-14
+          }
+        ],
+        "solids": [],
+        "elementalSpanMatches": true
+      },
+      "maxSavedLogRatio": 4.796179087622945e-12
+    },
+    {
+      "peroxideSupplied": 0.000001,
+      "result": {
+        "carriers": [
+          {
+            "id": "component:Fe%202%2B",
+            "name": "Fe 2+",
+            "amount": 7.242721331895231e-12
+          },
+          {
+            "id": "component:H2O2",
+            "name": "H2O2",
+            "amount": 1.2105189290010478e-20
+          },
+          {
+            "id": "component:H%2B",
+            "name": "H+",
+            "amount": 0.009979587866383607
+          },
+          {
+            "id": "component:Cl-",
+            "name": "Cl-",
+            "amount": 0.009981959903040315
+          },
+          {
+            "id": "component:Fe%203%2B",
+            "name": "Fe 3+",
+            "amount": 4.5133620674866264e-7
+          },
+          {
+            "id": "spana:2ac52a30213c9288:130813",
+            "name": "Fe(OH)2",
+            "amount": 1.8267392620550287e-28
+          },
+          {
+            "id": "spana:2ac52a30213c9288:131002",
+            "name": "Fe(OH)2+",
+            "amount": 7.182488874178147e-8
+          },
+          {
+            "id": "spana:2ac52a30213c9288:131099",
+            "name": "Fe(OH)3",
+            "amount": 4.541113488339074e-13
+          },
+          {
+            "id": "spana:2ac52a30213c9288:131406",
+            "name": "Fe(OH)3-",
+            "amount": 4.597946957026655e-40
+          },
+          {
+            "id": "spana:2ac52a30213c9288:131496",
+            "name": "Fe(OH)4-",
+            "amount": 1.143009261307062e-20
+          },
+          {
+            "id": "spana:2ac52a30213c9288:131586",
+            "name": "Fe(OH)4-2",
+            "amount": 7.302160098250188e-50
+          },
+          {
+            "id": "spana:2ac52a30213c9288:133463",
+            "name": "Fe2(OH)2+4",
+            "amount": 3.0958159717067437e-12
+          },
+          {
+            "id": "spana:2ac52a30213c9288:135482",
+            "name": "FeCl+",
+            "amount": 3.623410986189073e-14
+          },
+          {
+            "id": "spana:2ac52a30213c9288:135557",
+            "name": "FeCl+2",
+            "amount": 1.491818524156995e-7
+          },
+          {
+            "id": "spana:2ac52a30213c9288:135630",
+            "name": "FeCl2+",
+            "amount": 7.463315765065246e-9
+          },
+          {
+            "id": "spana:2ac52a30213c9288:135711",
+            "name": "FeCl3",
+            "amount": 4.700538753335471e-12
+          },
+          {
+            "id": "spana:2ac52a30213c9288:135791",
+            "name": "FeCl4-",
+            "amount": 4.692058935848138e-16
+          },
+          {
+            "id": "spana:2ac52a30213c9288:138672",
+            "name": "FeO4-2",
+            "amount": 3.966381834338715e-50
+          },
+          {
+            "id": "spana:2ac52a30213c9288:138873",
+            "name": "FeOH 2+",
+            "amount": 3.2017511062151137e-7
+          },
+          {
+            "id": "spana:2ac52a30213c9288:138969",
+            "name": "FeOH+",
+            "amount": 5.7648653703863595e-19
+          },
+          {
+            "id": "spana:2ac52a30213c9288:151381",
+            "name": "H2",
+            "amount": 1.6750524679482621e-43
+          },
+          {
+            "id": "spana:2ac52a30213c9288:159033",
+            "name": "HCl",
+            "amount": 0.00001987597433600873
+          },
+          {
+            "id": "spana:2ac52a30213c9288:175307",
+            "name": "HO2-",
+            "amount": 2.7155573469325904e-30
+          },
+          {
+            "id": "spana:2ac52a30213c9288:249989",
+            "name": "O2",
+            "amount": 2.500018197389993e-7
+          },
+          {
+            "id": "spana:2ac52a30213c9288:250161",
+            "name": "O3",
+            "amount": 8.687898827246906e-37
+          },
+          {
+            "id": "spana:2ac52a30213c9288:250448",
+            "name": "OH-",
+            "amount": 9.985904162351903e-13
+          }
+        ],
+        "sourceMassActionResiduals": [
+          {
+            "id": "spana:2ac52a30213c9288:126513",
+            "residual": 0
+          },
+          {
+            "id": "spana:2ac52a30213c9288:126584",
+            "residual": 0
+          },
+          {
+            "id": "spana:2ac52a30213c9288:138672",
+            "residual": 7.105427357601002e-15
+          },
+          {
+            "id": "spana:2ac52a30213c9288:151381",
+            "residual": -7.105427357601002e-15
+          },
+          {
+            "id": "spana:2ac52a30213c9288:152743",
+            "residual": 7.105427357601002e-15
+          },
+          {
+            "id": "spana:2ac52a30213c9288:249989",
+            "residual": 1.4210854715202004e-14
+          },
+          {
+            "id": "spana:2ac52a30213c9288:250161",
+            "residual": 0
+          },
+          {
+            "id": "spana:2ac52a30213c9288:130813",
+            "residual": 0
+          },
+          {
+            "id": "spana:2ac52a30213c9288:131002",
+            "residual": 4.440892098500626e-15
+          },
+          {
+            "id": "spana:2ac52a30213c9288:131099",
+            "residual": 2.6645352591003757e-15
+          },
+          {
+            "id": "spana:2ac52a30213c9288:131406",
+            "residual": 2.6645352591003757e-15
+          },
+          {
+            "id": "spana:2ac52a30213c9288:131496",
+            "residual": 3.552713678800501e-15
+          },
+          {
+            "id": "spana:2ac52a30213c9288:131586",
+            "residual": -1.7763568394002505e-15
+          },
+          {
+            "id": "spana:2ac52a30213c9288:133463",
+            "residual": 8.881784197001252e-15
+          },
+          {
+            "id": "spana:2ac52a30213c9288:135482",
+            "residual": 0
+          },
+          {
+            "id": "spana:2ac52a30213c9288:135557",
+            "residual": 5.329070518200751e-15
+          },
+          {
+            "id": "spana:2ac52a30213c9288:135630",
+            "residual": 1.7763568394002505e-15
+          },
+          {
+            "id": "spana:2ac52a30213c9288:135711",
+            "residual": 5.329070518200751e-15
+          },
+          {
+            "id": "spana:2ac52a30213c9288:135791",
+            "residual": 1.7763568394002505e-15
+          },
+          {
+            "id": "spana:2ac52a30213c9288:138873",
+            "residual": 4.440892098500626e-15
+          },
+          {
+            "id": "spana:2ac52a30213c9288:138969",
+            "residual": 1.7763568394002505e-15
+          },
+          {
+            "id": "spana:2ac52a30213c9288:159033",
+            "residual": 0
+          },
+          {
+            "id": "spana:2ac52a30213c9288:175307",
+            "residual": -3.552713678800501e-15
+          },
+          {
+            "id": "spana:2ac52a30213c9288:250448",
+            "residual": -8.881784197001252e-16
+          }
+        ],
+        "pH": 2.0008873936877025,
+        "pe": 17.845598398780034,
+        "variant": 0,
+        "maxLogRatio": 0,
+        "pHDifference": 0,
+        "peDifference": 0,
+        "dimension": 4,
+        "maxNullResidual": 0,
+        "maxCarrierDifference": 0,
+        "maxTargetDifference": 0,
+        "closure": [
+          {
+            "key": "charge",
+            "total": 0,
+            "residual": 8.869783411592796e-19,
+            "limit": 2.068621709430404e-12
+          },
+          {
+            "key": "source-coordinate-1",
+            "total": 0.000001,
+            "residual": 1.2705494208814505e-21,
+            "limit": 4.842170943040401e-14
+          },
+          {
+            "key": "source-coordinate-2",
+            "total": 0.010002,
+            "residual": -3.469446951953614e-18,
+            "limit": 1.0286217094304041e-12
+          },
+          {
+            "key": "source-coordinate-3",
+            "total": 3.333333333333333e-7,
+            "residual": 7.940933880509066e-22,
+            "limit": 3.508837609707067e-14
+          }
+        ],
+        "solids": [],
+        "elementalSpanMatches": true
+      },
+      "maxSavedLogRatio": 2.131163701082712e-14
+    }
+  ]
+}

@@ -1,0 +1,318 @@
+{
+  "checked": 52,
+  "unchanged": 52,
+  "files": [
+    {
+      "path": "src/solver/assemblages.js",
+      "expected": "e25b0801841e7fa90f2bfba44488807e2c0f417dc5e0ee7c0bf98b7745650dc4",
+      "actual": "e25b0801841e7fa90f2bfba44488807e2c0f417dc5e0ee7c0bf98b7745650dc4",
+      "unchanged": true
+    },
+    {
+      "path": "src/solver/closedRedox.js",
+      "expected": "d6907456dcc9b8030041c88b89c57922e0ec51a9f6bb1a9be78c19e8f00ad268",
+      "actual": "d6907456dcc9b8030041c88b89c57922e0ec51a9f6bb1a9be78c19e8f00ad268",
+      "unchanged": true
+    },
+    {
+      "path": "src/solver/contract.js",
+      "expected": "8d035ccb7c9637ff734fb3cd5d14aec7ddc01ee61243cdd9fe4bd4372b8099bf",
+      "actual": "8d035ccb7c9637ff734fb3cd5d14aec7ddc01ee61243cdd9fe4bd4372b8099bf",
+      "unchanged": true
+    },
+    {
+      "path": "src/solver/linear.js",
+      "expected": "85bc2b1dd9792cf050bf64014ae76c0e66c6602c208c18607e97f05f71ba2f79",
+      "actual": "85bc2b1dd9792cf050bf64014ae76c0e66c6602c208c18607e97f05f71ba2f79",
+      "unchanged": true
+    },
+    {
+      "path": "src/solver/logConcentration.js",
+      "expected": "0838a65475c47eb86ff0807f4247010d69e9c4c7ee6bb7555c90af47b2228079",
+      "actual": "0838a65475c47eb86ff0807f4247010d69e9c4c7ee6bb7555c90af47b2228079",
+      "unchanged": true
+    },
+    {
+      "path": "src/solver/models.js",
+      "expected": "6627e609bcb575037aafeee9610e5a408ddad505eb17ee30eeee93ee45535bb5",
+      "actual": "6627e609bcb575037aafeee9610e5a408ddad505eb17ee30eeee93ee45535bb5",
+      "unchanged": true
+    },
+    {
+      "path": "src/solver/point.js",
+      "expected": "1c721f78dae772de8e443973e11e9fb105cc9faa14d21d086640b15f6c588ab8",
+      "actual": "1c721f78dae772de8e443973e11e9fb105cc9faa14d21d086640b15f6c588ab8",
+      "unchanged": true
+    },
+    {
+      "path": "src/solver/prepareCanonicalRedox.js",
+      "expected": "d5666d86b7e3a5730f09ccaaf6d330f590149a54317647a94aeb24e41db19085",
+      "actual": "d5666d86b7e3a5730f09ccaaf6d330f590149a54317647a94aeb24e41db19085",
+      "unchanged": true
+    },
+    {
+      "path": "src/solver/prepareSession.js",
+      "expected": "6eb8bf7d6b11d14508f3f05c3bb8d0c8099e0c5eb30f0df262cd6c59767b2164",
+      "actual": "6eb8bf7d6b11d14508f3f05c3bb8d0c8099e0c5eb30f0df262cd6c59767b2164",
+      "unchanged": true
+    },
+    {
+      "path": "src/solver/redox.js",
+      "expected": "80b9f117b93a313e7172476ee38633bb7156d8886839bdeaf6c9d7cc9a9d6074",
+      "actual": "80b9f117b93a313e7172476ee38633bb7156d8886839bdeaf6c9d7cc9a9d6074",
+      "unchanged": true
+    },
+    {
+      "path": "src/solver/validationContract.js",
+      "expected": "1eec965214cb5aaf583b55280c0203d4f58396264fa44e1cc69b0e7e6a3317db",
+      "actual": "1eec965214cb5aaf583b55280c0203d4f58396264fa44e1cc69b0e7e6a3317db",
+      "unchanged": true
+    },
+    {
+      "path": "src/thermodynamics/canonicalRedox.js",
+      "expected": "1627b21369186cd78e405faa127b4ca9921d165ae69aa4eecfb44c7487ff5754",
+      "actual": "1627b21369186cd78e405faa127b4ca9921d165ae69aa4eecfb44c7487ff5754",
+      "unchanged": true
+    },
+    {
+      "path": "src/thermodynamics/closedPureSolids.js",
+      "expected": "3fc0f36c4d95aa7e32aea152724dfce11142c3868a6041245734be454033973f",
+      "actual": "3fc0f36c4d95aa7e32aea152724dfce11142c3868a6041245734be454033973f",
+      "unchanged": true
+    },
+    {
+      "path": "src/thermodynamics/closedReagents.js",
+      "expected": "ec18673ba915060f21477baac2c7e4ddb5dcfc0451f9afb15fe57c68f6c28d81",
+      "actual": "ec18673ba915060f21477baac2c7e4ddb5dcfc0451f9afb15fe57c68f6c28d81",
+      "unchanged": true
+    },
+    {
+      "path": "src/thermodynamics/closedRedoxNetwork.js",
+      "expected": "5cf62cd979e7e6f353edb356f7d832026efc4ade3eaddfb9da2d522723d50005",
+      "actual": "5cf62cd979e7e6f353edb356f7d832026efc4ade3eaddfb9da2d522723d50005",
+      "unchanged": true
+    },
+    {
+      "path": "src/thermodynamics/compatibility.js",
+      "expected": "65bec87e1351d660cb0c453c18b57f0a58f8fd041ef0a48714b226a46e942603",
+      "actual": "65bec87e1351d660cb0c453c18b57f0a58f8fd041ef0a48714b226a46e942603",
+      "unchanged": true
+    },
+    {
+      "path": "src/thermodynamics/componentMetadata.js",
+      "expected": "21edcff3e85be8e77456c3fb0e624878034140c7c65b3c4d5d83cbdfc56aa1e4",
+      "actual": "21edcff3e85be8e77456c3fb0e624878034140c7c65b3c4d5d83cbdfc56aa1e4",
+      "unchanged": true
+    },
+    {
+      "path": "src/thermodynamics/equilibriumNetwork.js",
+      "expected": "eca792f589fb14e1df097248e4bad81c9b46782a888d4459947dc00f82f30b16",
+      "actual": "eca792f589fb14e1df097248e4bad81c9b46782a888d4459947dc00f82f30b16",
+      "unchanged": true
+    },
+    {
+      "path": "src/thermodynamics/formationSupport.js",
+      "expected": "7e3d39500b13e63f21865af5aaa5dda090687971fce50e4ee7e030bf510eaca2",
+      "actual": "7e3d39500b13e63f21865af5aaa5dda090687971fce50e4ee7e030bf510eaca2",
+      "unchanged": true
+    },
+    {
+      "path": "src/thermodynamics/generalClosedReagents.js",
+      "expected": "8e29e1daebe6870c2c59a5526dc24601784d8755b55d2095143feae90d1fb873",
+      "actual": "8e29e1daebe6870c2c59a5526dc24601784d8755b55d2095143feae90d1fb873",
+      "unchanged": true
+    },
+    {
+      "path": "src/thermodynamics/index.js",
+      "expected": "54f32bdf2c6731b37494cad1ff939269b5b3740249447315cd823cb9639f5c47",
+      "actual": "54f32bdf2c6731b37494cad1ff939269b5b3740249447315cd823cb9639f5c47",
+      "unchanged": true
+    },
+    {
+      "path": "src/thermodynamics/networkComposition.js",
+      "expected": "44b012b4baaf11bfb2a3d9d4332b179c02f62b909b6af69ccef2bb13b4aa2e54",
+      "actual": "44b012b4baaf11bfb2a3d9d4332b179c02f62b909b6af69ccef2bb13b4aa2e54",
+      "unchanged": true
+    },
+    {
+      "path": "src/thermodynamics/nonRedoxPhysical.js",
+      "expected": "f7f7b7672c11d2d781a3e9c6dd27f1a9befabc2b3b66c95532694aff6fc6cdb6",
+      "actual": "f7f7b7672c11d2d781a3e9c6dd27f1a9befabc2b3b66c95532694aff6fc6cdb6",
+      "unchanged": true
+    },
+    {
+      "path": "src/thermodynamics/prepareReactionBasis.js",
+      "expected": "915448c3a68e1a8c81e660db128f7bbb3de1be4161cb471abc4d5484fac89ab3",
+      "actual": "915448c3a68e1a8c81e660db128f7bbb3de1be4161cb471abc4d5484fac89ab3",
+      "unchanged": true
+    },
+    {
+      "path": "src/thermodynamics/reactionBasis.js",
+      "expected": "4d8a09264ce5fbe8c722bfc99442d1429fb65ea9f2299af3c4365fa917efac46",
+      "actual": "4d8a09264ce5fbe8c722bfc99442d1429fb65ea9f2299af3c4365fa917efac46",
+      "unchanged": true
+    },
+    {
+      "path": "src/thermodynamics/reagentPreparation.js",
+      "expected": "9af732722029c4d1ddf1cdacf074d22342e0373da4d40bc090f3e34a4f6f22f1",
+      "actual": "9af732722029c4d1ddf1cdacf074d22342e0373da4d40bc090f3e34a4f6f22f1",
+      "unchanged": true
+    },
+    {
+      "path": "src/thermodynamics/repository.js",
+      "expected": "fa5727992267e38947edded8bfcc0228a3ebca564d42e8e6e464cf08268d6f63",
+      "actual": "fa5727992267e38947edded8bfcc0228a3ebca564d42e8e6e464cf08268d6f63",
+      "unchanged": true
+    },
+    {
+      "path": "src/thermodynamics/repository.test.js",
+      "expected": "47fad4e831d87de3e01da033e674e894838c1f4a9d1ef291d9b91c3f28de5d92",
+      "actual": "47fad4e831d87de3e01da033e674e894838c1f4a9d1ef291d9b91c3f28de5d92",
+      "unchanged": true
+    },
+    {
+      "path": "src/thermodynamics/schema.js",
+      "expected": "b9ad007ae1d96ca7a693fa1d7debbd505ab205045844c2c99a503208e08737a2",
+      "actual": "b9ad007ae1d96ca7a693fa1d7debbd505ab205045844c2c99a503208e08737a2",
+      "unchanged": true
+    },
+    {
+      "path": "src/thermodynamics/snapshot.js",
+      "expected": "8c8fd7076f005858cded6a6dd1340179018ba71c1af2aec3beaff9427a9d7acc",
+      "actual": "8c8fd7076f005858cded6a6dd1340179018ba71c1af2aec3beaff9427a9d7acc",
+      "unchanged": true
+    },
+    {
+      "path": "src/thermodynamics/sourceReactionBasis.js",
+      "expected": "354ed493fe41c4afafc3133726b4483bdaffb861ed100062aeb9033bca0e7083",
+      "actual": "354ed493fe41c4afafc3133726b4483bdaffb861ed100062aeb9033bca0e7083",
+      "unchanged": true
+    },
+    {
+      "path": "src/thermodynamics/userComponents.js",
+      "expected": "9b48067be2ec303218ae9ee1daed3e98ed2e8d71e7b7541a5523ead89777c725",
+      "actual": "9b48067be2ec303218ae9ee1daed3e98ed2e8d71e7b7541a5523ead89777c725",
+      "unchanged": true
+    },
+    {
+      "path": "src/thermodynamics/userEquilibria.js",
+      "expected": "5c1aabb37aec7131d57d48006341fb9da5824043ad147e8f3c6ffc98fd0bc9a8",
+      "actual": "5c1aabb37aec7131d57d48006341fb9da5824043ad147e8f3c6ffc98fd0bc9a8",
+      "unchanged": true
+    },
+    {
+      "path": "src/thermodynamics/validation.js",
+      "expected": "6e094cc718006f0300ce4f335fbcda6349629250518570b005551fc70f87405f",
+      "actual": "6e094cc718006f0300ce4f335fbcda6349629250518570b005551fc70f87405f",
+      "unchanged": true
+    },
+    {
+      "path": "src/thermodynamics/validation.test.js",
+      "expected": "d4c58a21beb0d9b36268f4995b355bc577fbb12af30630a752c8ecee3a5e259b",
+      "actual": "d4c58a21beb0d9b36268f4995b355bc577fbb12af30630a752c8ecee3a5e259b",
+      "unchanged": true
+    },
+    {
+      "path": "src/thermodynamics/importers/pipeline.js",
+      "expected": "8d041a97bea3957ce4e7785acfad29cc7f547758c8cbcc666b4a3447e149d909",
+      "actual": "8d041a97bea3957ce4e7785acfad29cc7f547758c8cbcc666b4a3447e149d909",
+      "unchanged": true
+    },
+    {
+      "path": "src/thermodynamics/importers/pipeline.test.js",
+      "expected": "93740acc37618fc625769b656b64478e610557f0a7db1f867dc4c5933b845ce4",
+      "actual": "93740acc37618fc625769b656b64478e610557f0a7db1f867dc4c5933b845ce4",
+      "unchanged": true
+    },
+    {
+      "path": "src/thermodynamics/scopes/fePeroxide.js",
+      "expected": "cbd362cf91319eeb36c1427b65b663bf2ed8e17ee1196c1aca3231d78407eb22",
+      "actual": "cbd362cf91319eeb36c1427b65b663bf2ed8e17ee1196c1aca3231d78407eb22",
+      "unchanged": true
+    },
+    {
+      "path": "src/thermodynamics/importers/spana/binary.js",
+      "expected": "889017b231430c00de0c7107e135517f3f137e145d69f759f58efddcde642356",
+      "actual": "889017b231430c00de0c7107e135517f3f137e145d69f759f58efddcde642356",
+      "unchanged": true
+    },
+    {
+      "path": "src/thermodynamics/importers/spana/components.js",
+      "expected": "5ba6cf65a05dfeb506fd70f70ed8998122eab1b6dd524ebdd3d42872840bd765",
+      "actual": "5ba6cf65a05dfeb506fd70f70ed8998122eab1b6dd524ebdd3d42872840bd765",
+      "unchanged": true
+    },
+    {
+      "path": "src/thermodynamics/importers/spana/convert.js",
+      "expected": "3a1e6e05c1c25d743991cc4b95b7fa7b7f993d1f6831c9e4a72d4cf1919aa776",
+      "actual": "3a1e6e05c1c25d743991cc4b95b7fa7b7f993d1f6831c9e4a72d4cf1919aa776",
+      "unchanged": true
+    },
+    {
+      "path": "src/thermodynamics/importers/spana/names.js",
+      "expected": "2e3c89d92ab2f663e29f26a2978064c3a3d91aacf373dc450e241f18552bf61f",
+      "actual": "2e3c89d92ab2f663e29f26a2978064c3a3d91aacf373dc450e241f18552bf61f",
+      "unchanged": true
+    },
+    {
+      "path": "src/thermodynamics/importers/spana/normalize.js",
+      "expected": "1524a967ec6cbf9cbd92f8831ca186631143b838c594f1fea53ee1193b343a18",
+      "actual": "1524a967ec6cbf9cbd92f8831ca186631143b838c594f1fea53ee1193b343a18",
+      "unchanged": true
+    },
+    {
+      "path": "src/thermodynamics/importers/spana/references.js",
+      "expected": "75b47f05838d8d8608b11064a78154b555002f99616e032f133c4999843d3b5c",
+      "actual": "75b47f05838d8d8608b11064a78154b555002f99616e032f133c4999843d3b5c",
+      "unchanged": true
+    },
+    {
+      "path": "src/thermodynamics/importers/spana/spana.test.js",
+      "expected": "1ef6f3420f058047061d376d07238e3d02cbbbfcfb027c4c50cede1f9f32087f",
+      "actual": "1ef6f3420f058047061d376d07238e3d02cbbbfcfb027c4c50cede1f9f32087f",
+      "unchanged": true
+    },
+    {
+      "path": "public/data/thermodynamic-default.json",
+      "expected": "9fa7db6f4a13a88073a0ca214c412690846674f6b3f442e336baf1586c45d245",
+      "actual": "9fa7db6f4a13a88073a0ca214c412690846674f6b3f442e336baf1586c45d245",
+      "unchanged": true
+    },
+    {
+      "path": "src/calculations/totalFractions.js",
+      "expected": "9cb919135bc4cf5902a4825569cdf575f8591f3584e757d9bd29a90cc0e3059f",
+      "actual": "9cb919135bc4cf5902a4825569cdf575f8591f3584e757d9bd29a90cc0e3059f",
+      "unchanged": true
+    },
+    {
+      "path": "src/calculations/aqueousFractions.js",
+      "expected": "66fec20c46b95f6a074dd310b7dfd58a6657dff9e991148c60d37f59c5b9d8aa",
+      "actual": "66fec20c46b95f6a074dd310b7dfd58a6657dff9e991148c60d37f59c5b9d8aa",
+      "unchanged": true
+    },
+    {
+      "path": "src/calculations/solubility.js",
+      "expected": "6913b9dd745b1f633b26dbf4ec6f15e2444177fa5c6b80a90de07937f0a28507",
+      "actual": "6913b9dd745b1f633b26dbf4ec6f15e2444177fa5c6b80a90de07937f0a28507",
+      "unchanged": true
+    },
+    {
+      "path": "src/calculations/imposedEh.js",
+      "expected": "dc1a593ea62ca8633e814eaf688ef20a19673a69dc1d5a7f2e526449569670a9",
+      "actual": "dc1a593ea62ca8633e814eaf688ef20a19673a69dc1d5a7f2e526449569670a9",
+      "unchanged": true
+    },
+    {
+      "path": "docs/mixed-solution-feasibility.json",
+      "expected": "eb5ebdbf02ed6107116036e16b2e97dbd483d2293dfc90078d6b58ccf0e8a2c2",
+      "actual": "eb5ebdbf02ed6107116036e16b2e97dbd483d2293dfc90078d6b58ccf0e8a2c2",
+      "unchanged": true
+    },
+    {
+      "path": "scripts/validation/mixedSolutionFeasibility.js",
+      "expected": "aeb9ef59ef7846ed65fb8acb52610acb338ab166170132e9966a30739f11d174",
+      "actual": "aeb9ef59ef7846ed65fb8acb52610acb338ab166170132e9966a30739f11d174",
+      "unchanged": true
+    }
+  ]
+}

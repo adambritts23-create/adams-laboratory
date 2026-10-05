@@ -1,0 +1,8 @@
+{
+  "points": 12,
+  "accepted": 12,
+  "maxPHError": 2.69384514695048e-12,
+  "maxPeError": 4.54081217071689e-12,
+  "maxAqueousCarrierAbsoluteError": 1.1861171766991419e-16,
+  "maxPositiveSolidAbsoluteError": 1.3010426069826053e-18
+}

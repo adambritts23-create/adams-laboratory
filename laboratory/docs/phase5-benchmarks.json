@@ -1,0 +1,1654 @@
+{
+  "schemaVersion": 1,
+  "goldenSha256": "aefc0949b585ef290595088c8ed852a1eb591be25dff24563a44a2cf98d40960",
+  "contract": {
+    "version": 1,
+    "scope": "phase4-restricted-ideal-benchmarks",
+    "sourceAbsoluteBalanceFloor": 2e-14,
+    "requestedRelativeBalanceTolerance": 1e-10,
+    "comparisonAbsoluteConcentrationTolerance": 4e-14,
+    "comparisonRelativeConcentrationTolerance": 2e-10,
+    "comparisonLogActivityTolerance": 1e-8,
+    "massActionLogResidualTolerance": 1e-10,
+    "saturatedSolidLogActivityTolerance": 1e-8,
+    "requiredErrorFlags": 0,
+    "nonidealAcceptance": "not-established",
+    "diagramTolerance": "not-applicable"
+  },
+  "cases": [
+    {
+      "id": "acid-base",
+      "input": {
+        "schemaVersion": 1,
+        "systemId": "c9bd5e1812ca1ef3ad9781717c5f17e80c882bf65674c04373e14f3426f0d678",
+        "revision": 0,
+        "constraints": [
+          {
+            "componentId": "H+",
+            "kh": 2,
+            "value": -7
+          },
+          {
+            "componentId": "H2O",
+            "kh": 2,
+            "value": 0
+          }
+        ],
+        "unit": "mol/kg-H2O",
+        "temperatureC": 25,
+        "pressureBar": 1,
+        "activityModel": "ideal",
+        "electroneutrality": "not-imposed",
+        "id": "0d6142a9e363c264f21caa249a6535b4fa76e61373a270d10bd6d15e64f7cec1"
+      },
+      "preparedSystemId": "c9bd5e1812ca1ef3ad9781717c5f17e80c882bf65674c04373e14f3426f0d678",
+      "sourceInput": "2, 1, 0, 0\nH+\nH2O\nOH-, -14.0015, -1, 1\n1\nLA,-7\nLA,0\n",
+      "official": {
+        "errFlags": 0,
+        "concentration": [
+          9.999999999999994e-8,
+          0,
+          9.96552080134765e-8
+        ],
+        "logActivity": [
+          -7,
+          0,
+          -7.001500000000001
+        ],
+        "total": [
+          3.4479198652344837e-10,
+          0
+        ],
+        "dissolved": [
+          3.4479198652344837e-10,
+          0
+        ],
+        "logActivityCoefficient": [
+          0,
+          0,
+          0
+        ]
+      },
+      "actual": {
+        "ok": true,
+        "status": "converged",
+        "scientificValidation": "passed",
+        "method": {
+          "name": "scaled-log-Newton-with-single-solid-active-set",
+          "version": "1.0.0"
+        },
+        "systemId": "c9bd5e1812ca1ef3ad9781717c5f17e80c882bf65674c04373e14f3426f0d678",
+        "inputId": "0d6142a9e363c264f21caa249a6535b4fa76e61373a270d10bd6d15e64f7cec1",
+        "revision": 0,
+        "sourceIdentity": {
+          "revision": "c94b0d8f33fd89eaadcec5a9f3fbf296b6b0e3f7",
+          "databaseHash": "2ac52a30213c9288dd18fc6dd597411e5c3ca53173fa6d1fab5530b371c30a0a",
+          "species": [
+            "spana:2ac52a30213c9288:250448"
+          ]
+        },
+        "componentIds": [
+          "H+",
+          "H2O"
+        ],
+        "speciesIds": [
+          "H+",
+          "H2O",
+          "spana:2ac52a30213c9288:250448"
+        ],
+        "componentNames": [
+          "H+",
+          "H2O"
+        ],
+        "speciesNames": [
+          "H+",
+          "H2O",
+          "OH-"
+        ],
+        "freeComponentConcentrations": [
+          1e-7,
+          0
+        ],
+        "freeComponentActivities": [
+          1e-7,
+          1
+        ],
+        "concentrations": [
+          1e-7,
+          0,
+          9.965520801347683e-8
+        ],
+        "logActivities": [
+          -7,
+          0,
+          -7.0015
+        ],
+        "componentTotals": [
+          3.4479198652317044e-10,
+          0
+        ],
+        "dissolvedComponentAmounts": [
+          3.4479198652317044e-10,
+          0
+        ],
+        "logActivityCoefficients": [
+          0,
+          0,
+          0
+        ],
+        "solids": [],
+        "residuals": {
+          "componentBalance": [
+            null,
+            null
+          ],
+          "componentBalanceLimits": [
+            null,
+            null
+          ],
+          "massActionLog": [
+            0
+          ],
+          "scaledBalance": [
+            null,
+            null
+          ]
+        },
+        "iterations": 0,
+        "diagnostics": [],
+        "attempts": [
+          {
+            "active": false,
+            "iteration": 0,
+            "accepted": true,
+            "diagnostics": []
+          }
+        ],
+        "minimumPivotRatio": 1,
+        "iterationTolerance": 2e-13,
+        "saturationTolerance": 1e-12,
+        "temperatureC": 25,
+        "pressureBar": 1,
+        "unit": "mol/kg-H2O",
+        "activityModel": "ideal",
+        "ionicStrength": null,
+        "electricBalance": null,
+        "waterOsmoticCoefficient": null,
+        "warnings": [
+          "Restricted species set and explicit direct basis; no completeness or general independence proof.",
+          "Source reference-pressure scalar unavailable; 1 bar is a declared calculation setting, not reconstructed source metadata.",
+          "Ideal activities only; ionic strength and electroneutrality are not calculated or imposed.",
+          "Absent-solid log activity is a hypothetical formation/saturation quantity, not an assigned phase activity."
+        ]
+      },
+      "comparisons": [
+        {
+          "quantity": "concentrations",
+          "index": 0,
+          "identity": "H+",
+          "official": 9.999999999999994e-8,
+          "actual": 1e-7,
+          "absoluteDifference": 5.293955920339377e-23,
+          "relativeDifference": 5.29395592033938e-16,
+          "limit": 4.002e-14,
+          "pass": true
+        },
+        {
+          "quantity": "concentrations",
+          "index": 1,
+          "identity": "H2O",
+          "official": 0,
+          "actual": 0,
+          "absoluteDifference": 0,
+          "relativeDifference": null,
+          "limit": 4e-14,
+          "pass": true
+        },
+        {
+          "quantity": "concentrations",
+          "index": 2,
+          "identity": "OH-",
+          "official": 9.96552080134765e-8,
+          "actual": 9.965520801347683e-8,
+          "absoluteDifference": 3.3087224502121107e-22,
+          "relativeDifference": 3.320170130761925e-15,
+          "limit": 4.0019931041602696e-14,
+          "pass": true
+        },
+        {
+          "quantity": "logActivities",
+          "index": 0,
+          "identity": "H+",
+          "official": -7,
+          "actual": -7,
+          "absoluteDifference": 0,
+          "relativeDifference": 0,
+          "limit": 1e-8,
+          "pass": true
+        },
+        {
+          "quantity": "logActivities",
+          "index": 1,
+          "identity": "H2O",
+          "official": 0,
+          "actual": 0,
+          "absoluteDifference": 0,
+          "relativeDifference": null,
+          "limit": 1e-8,
+          "pass": true
+        },
+        {
+          "quantity": "logActivities",
+          "index": 2,
+          "identity": "OH-",
+          "official": -7.001500000000001,
+          "actual": -7.0015,
+          "absoluteDifference": 8.881784197001252e-16,
+          "relativeDifference": 1.2685544807543028e-16,
+          "limit": 1e-8,
+          "pass": true
+        },
+        {
+          "quantity": "componentTotals",
+          "index": 0,
+          "identity": "H+",
+          "official": 3.4479198652344837e-10,
+          "actual": 3.4479198652317044e-10,
+          "absoluteDifference": 2.779326858178173e-22,
+          "relativeDifference": 8.06088008657695e-13,
+          "limit": 4.0000068958397306e-14,
+          "pass": true
+        },
+        {
+          "quantity": "componentTotals",
+          "index": 1,
+          "identity": "H2O",
+          "official": 0,
+          "actual": 0,
+          "absoluteDifference": 0,
+          "relativeDifference": null,
+          "limit": 4e-14,
+          "pass": true
+        },
+        {
+          "quantity": "dissolvedComponentAmounts",
+          "index": 0,
+          "identity": "H+",
+          "official": 3.4479198652344837e-10,
+          "actual": 3.4479198652317044e-10,
+          "absoluteDifference": 2.779326858178173e-22,
+          "relativeDifference": 8.06088008657695e-13,
+          "limit": 4.0000068958397306e-14,
+          "pass": true
+        },
+        {
+          "quantity": "dissolvedComponentAmounts",
+          "index": 1,
+          "identity": "H2O",
+          "official": 0,
+          "actual": 0,
+          "absoluteDifference": 0,
+          "relativeDifference": null,
+          "limit": 4e-14,
+          "pass": true
+        },
+        {
+          "quantity": "logActivityCoefficients",
+          "index": 0,
+          "identity": "H+",
+          "official": 0,
+          "actual": 0,
+          "absoluteDifference": 0,
+          "relativeDifference": null,
+          "limit": 1e-8,
+          "pass": true
+        },
+        {
+          "quantity": "logActivityCoefficients",
+          "index": 1,
+          "identity": "H2O",
+          "official": 0,
+          "actual": 0,
+          "absoluteDifference": 0,
+          "relativeDifference": null,
+          "limit": 1e-8,
+          "pass": true
+        },
+        {
+          "quantity": "logActivityCoefficients",
+          "index": 2,
+          "identity": "OH-",
+          "official": 0,
+          "actual": 0,
+          "absoluteDifference": 0,
+          "relativeDifference": null,
+          "limit": 1e-8,
+          "pass": true
+        }
+      ],
+      "pass": true,
+      "firstSolveMs": 0.9186999999999941,
+      "meanOf100SolveMs": 0.03988000000000007
+    },
+    {
+      "id": "complexation",
+      "input": {
+        "schemaVersion": 1,
+        "systemId": "4b1eaec290bb5692749a8697094bd479348915cca49d7bb3331e07fbd3d54d4f",
+        "revision": 0,
+        "constraints": [
+          {
+            "componentId": "Ag+",
+            "kh": 1,
+            "value": 0.00001
+          },
+          {
+            "componentId": "Cl-",
+            "kh": 1,
+            "value": 0.001
+          }
+        ],
+        "unit": "mol/kg-H2O",
+        "temperatureC": 25,
+        "pressureBar": 1,
+        "activityModel": "ideal",
+        "electroneutrality": "not-imposed",
+        "id": "baaf2a73ff0182b90ae7d2c98f32d75c79b30cd425bd434e653ec4ae675ba4e1"
+      },
+      "preparedSystemId": "4b1eaec290bb5692749a8697094bd479348915cca49d7bb3331e07fbd3d54d4f",
+      "sourceInput": "2, 1, 0, 0\nAg+\nCl-\nAgCl, 3.31, 1, 1\n1\nT,0.00001\nT,0.001\n",
+      "official": {
+        "errFlags": 0,
+        "concentration": [
+          0.000003302440890341427,
+          0.0009933024408824464,
+          0.000006697559117554346
+        ],
+        "logActivity": [
+          -5.481164946984679,
+          -3.0029184973174816,
+          -5.174083444302161
+        ],
+        "total": [
+          0.00001,
+          0.001
+        ],
+        "dissolved": [
+          0.000010000000007895773,
+          0.0010000000000000007
+        ],
+        "logActivityCoefficient": [
+          0,
+          0,
+          0
+        ]
+      },
+      "actual": {
+        "ok": true,
+        "status": "converged",
+        "scientificValidation": "passed",
+        "method": {
+          "name": "scaled-log-Newton-with-single-solid-active-set",
+          "version": "1.0.0"
+        },
+        "systemId": "4b1eaec290bb5692749a8697094bd479348915cca49d7bb3331e07fbd3d54d4f",
+        "inputId": "baaf2a73ff0182b90ae7d2c98f32d75c79b30cd425bd434e653ec4ae675ba4e1",
+        "revision": 0,
+        "sourceIdentity": {
+          "revision": "c94b0d8f33fd89eaadcec5a9f3fbf296b6b0e3f7",
+          "databaseHash": "2ac52a30213c9288dd18fc6dd597411e5c3ca53173fa6d1fab5530b371c30a0a",
+          "species": [
+            "spana:2ac52a30213c9288:16684"
+          ]
+        },
+        "componentIds": [
+          "Ag+",
+          "Cl-"
+        ],
+        "speciesIds": [
+          "Ag+",
+          "Cl-",
+          "spana:2ac52a30213c9288:16684"
+        ],
+        "componentNames": [
+          "Ag+",
+          "Cl-"
+        ],
+        "speciesNames": [
+          "Ag+",
+          "Cl-",
+          "AgCl"
+        ],
+        "freeComponentConcentrations": [
+          0.0000033024408877221423,
+          0.0009933024408877225
+        ],
+        "freeComponentActivities": [
+          0.0000033024408877221423,
+          0.0009933024408877225
+        ],
+        "concentrations": [
+          0.0000033024408877221423,
+          0.0009933024408877225,
+          0.000006697559112277852
+        ],
+        "logActivities": [
+          -5.481164947329134,
+          -3.002918497315175,
+          -5.1740834446443085
+        ],
+        "componentTotals": [
+          0.000009999999999999994,
+          0.0010000000000000005
+        ],
+        "dissolvedComponentAmounts": [
+          0.000009999999999999994,
+          0.0010000000000000005
+        ],
+        "logActivityCoefficients": [
+          0,
+          0,
+          0
+        ],
+        "solids": [],
+        "residuals": {
+          "componentBalance": [
+            -6.776263578034403e-21,
+            4.336808689942018e-19
+          ],
+          "componentBalanceLimits": [
+            2e-14,
+            1e-13
+          ],
+          "massActionLog": [
+            0
+          ],
+          "scaledBalance": [
+            -6.776263578034402e-16,
+            4.336808689942016e-16
+          ]
+        },
+        "iterations": 6,
+        "diagnostics": [],
+        "attempts": [
+          {
+            "active": false,
+            "iteration": 6,
+            "accepted": true,
+            "diagnostics": []
+          }
+        ],
+        "minimumPivotRatio": 0.986569247138883,
+        "iterationTolerance": 2e-13,
+        "saturationTolerance": 1e-12,
+        "temperatureC": 25,
+        "pressureBar": 1,
+        "unit": "mol/kg-H2O",
+        "activityModel": "ideal",
+        "ionicStrength": null,
+        "electricBalance": null,
+        "waterOsmoticCoefficient": null,
+        "warnings": [
+          "Restricted species set and explicit direct basis; no completeness or general independence proof.",
+          "Source reference-pressure scalar unavailable; 1 bar is a declared calculation setting, not reconstructed source metadata.",
+          "Ideal activities only; ionic strength and electroneutrality are not calculated or imposed.",
+          "Absent-solid log activity is a hypothetical formation/saturation quantity, not an assigned phase activity."
+        ]
+      },
+      "comparisons": [
+        {
+          "quantity": "concentrations",
+          "index": 0,
+          "identity": "Ag+",
+          "official": 0.000003302440890341427,
+          "actual": 0.0000033024408877221423,
+          "absoluteDifference": 2.619284641475683e-15,
+          "relativeDifference": 7.931359647151428e-10,
+          "limit": 4.0660488178068286e-14,
+          "pass": true
+        },
+        {
+          "quantity": "concentrations",
+          "index": 1,
+          "identity": "Cl-",
+          "official": 0.0009933024408824464,
+          "actual": 0.0009933024408877225,
+          "absoluteDifference": 5.276161452183459e-15,
+          "relativeDifference": 5.311737125599063e-12,
+          "limit": 2.386604881764893e-13,
+          "pass": true
+        },
+        {
+          "quantity": "concentrations",
+          "index": 2,
+          "identity": "AgCl",
+          "official": 0.000006697559117554346,
+          "actual": 0.000006697559112277852,
+          "absoluteDifference": 5.2764934890987825e-15,
+          "relativeDifference": 7.878233542230421e-10,
+          "limit": 4.1339511823510866e-14,
+          "pass": true
+        },
+        {
+          "quantity": "logActivities",
+          "index": 0,
+          "identity": "Ag+",
+          "official": -5.481164946984679,
+          "actual": -5.481164947329134,
+          "absoluteDifference": 3.4445513108494197e-10,
+          "relativeDifference": 6.284341639352325e-11,
+          "limit": 1e-8,
+          "pass": true
+        },
+        {
+          "quantity": "logActivities",
+          "index": 1,
+          "identity": "Cl-",
+          "official": -3.0029184973174816,
+          "actual": -3.002918497315175,
+          "absoluteDifference": 2.3065993559612252e-12,
+          "relativeDifference": 7.681192007114809e-13,
+          "limit": 1e-8,
+          "pass": true
+        },
+        {
+          "quantity": "logActivities",
+          "index": 2,
+          "identity": "AgCl",
+          "official": -5.174083444302161,
+          "actual": -5.1740834446443085,
+          "absoluteDifference": 3.4214764355056104e-10,
+          "relativeDifference": 6.612719861086569e-11,
+          "limit": 1e-8,
+          "pass": true
+        },
+        {
+          "quantity": "componentTotals",
+          "index": 0,
+          "identity": "Ag+",
+          "official": 0.00001,
+          "actual": 0.000009999999999999994,
+          "absoluteDifference": 6.776263578034403e-21,
+          "relativeDifference": 6.776263578034402e-16,
+          "limit": 4.2e-14,
+          "pass": true
+        },
+        {
+          "quantity": "componentTotals",
+          "index": 1,
+          "identity": "Cl-",
+          "official": 0.001,
+          "actual": 0.0010000000000000005,
+          "absoluteDifference": 4.336808689942018e-19,
+          "relativeDifference": 4.3368086899420177e-16,
+          "limit": 2.4e-13,
+          "pass": true
+        },
+        {
+          "quantity": "dissolvedComponentAmounts",
+          "index": 0,
+          "identity": "Ag+",
+          "official": 0.000010000000007895773,
+          "actual": 0.000009999999999999994,
+          "absoluteDifference": 7.895778554090939e-15,
+          "relativeDifference": 7.895778547856612e-10,
+          "limit": 4.200000000157915e-14,
+          "pass": true
+        },
+        {
+          "quantity": "dissolvedComponentAmounts",
+          "index": 1,
+          "identity": "Cl-",
+          "official": 0.0010000000000000007,
+          "actual": 0.0010000000000000005,
+          "absoluteDifference": 2.168404344971009e-19,
+          "relativeDifference": 2.1684043449710074e-16,
+          "limit": 2.4000000000000014e-13,
+          "pass": true
+        },
+        {
+          "quantity": "logActivityCoefficients",
+          "index": 0,
+          "identity": "Ag+",
+          "official": 0,
+          "actual": 0,
+          "absoluteDifference": 0,
+          "relativeDifference": null,
+          "limit": 1e-8,
+          "pass": true
+        },
+        {
+          "quantity": "logActivityCoefficients",
+          "index": 1,
+          "identity": "Cl-",
+          "official": 0,
+          "actual": 0,
+          "absoluteDifference": 0,
+          "relativeDifference": null,
+          "limit": 1e-8,
+          "pass": true
+        },
+        {
+          "quantity": "logActivityCoefficients",
+          "index": 2,
+          "identity": "AgCl",
+          "official": 0,
+          "actual": 0,
+          "absoluteDifference": 0,
+          "relativeDifference": null,
+          "limit": 1e-8,
+          "pass": true
+        }
+      ],
+      "pass": true,
+      "firstSolveMs": 1.1212000000000018,
+      "meanOf100SolveMs": 0.08099199999999997
+    },
+    {
+      "id": "precipitation",
+      "input": {
+        "schemaVersion": 1,
+        "systemId": "41bf8e8d9dd2051c2838957ce957d83d11ab882262d7fbdcecd62eaa7f4dfda6",
+        "revision": 0,
+        "constraints": [
+          {
+            "componentId": "Ag+",
+            "kh": 1,
+            "value": 0.001
+          },
+          {
+            "componentId": "Cl-",
+            "kh": 1,
+            "value": 0.001
+          }
+        ],
+        "unit": "mol/kg-H2O",
+        "temperatureC": 25,
+        "pressureBar": 1,
+        "activityModel": "ideal",
+        "electroneutrality": "not-imposed",
+        "id": "ee602b95ddbe93047e7912655a19fb4ca47ed90fa1c26ccc30739999110c29ff"
+      },
+      "preparedSystemId": "41bf8e8d9dd2051c2838957ce957d83d11ab882262d7fbdcecd62eaa7f4dfda6",
+      "sourceInput": "2, 1, 1, 0\nAg+\nCl-\nAgCl, 3.31, 1, 1\nAgCl(s), 9.75, 1, 1\n1\nT,0.001\nT,0.001\n",
+      "official": {
+        "errFlags": 0,
+        "concentration": [
+          0.000013335214325129987,
+          0.000013335214318136455,
+          3.6307805477010047e-7,
+          0.0009863017076200999
+        ],
+        "logActivity": [
+          -4.8749999998861195,
+          -4.875000000113881,
+          -6.44,
+          0
+        ],
+        "total": [
+          0.001,
+          0.001
+        ],
+        "dissolved": [
+          0.000013698292379900088,
+          0.000013698292372906555
+        ],
+        "logActivityCoefficient": [
+          0,
+          0,
+          0,
+          0
+        ]
+      },
+      "actual": {
+        "ok": true,
+        "status": "converged",
+        "scientificValidation": "passed",
+        "method": {
+          "name": "scaled-log-Newton-with-single-solid-active-set",
+          "version": "1.0.0"
+        },
+        "systemId": "41bf8e8d9dd2051c2838957ce957d83d11ab882262d7fbdcecd62eaa7f4dfda6",
+        "inputId": "ee602b95ddbe93047e7912655a19fb4ca47ed90fa1c26ccc30739999110c29ff",
+        "revision": 0,
+        "sourceIdentity": {
+          "revision": "c94b0d8f33fd89eaadcec5a9f3fbf296b6b0e3f7",
+          "databaseHash": "2ac52a30213c9288dd18fc6dd597411e5c3ca53173fa6d1fab5530b371c30a0a",
+          "species": [
+            "spana:2ac52a30213c9288:16684",
+            "spana:2ac52a30213c9288:16756"
+          ]
+        },
+        "componentIds": [
+          "Ag+",
+          "Cl-"
+        ],
+        "speciesIds": [
+          "Ag+",
+          "Cl-",
+          "spana:2ac52a30213c9288:16684",
+          "spana:2ac52a30213c9288:16756"
+        ],
+        "componentNames": [
+          "Ag+",
+          "Cl-"
+        ],
+        "speciesNames": [
+          "Ag+",
+          "Cl-",
+          "AgCl",
+          "AgCl(s)"
+        ],
+        "freeComponentConcentrations": [
+          0.000013335214321633268,
+          0.000013335214321633213
+        ],
+        "freeComponentActivities": [
+          0.000013335214321633268,
+          0.000013335214321633213
+        ],
+        "concentrations": [
+          0.000013335214321633268,
+          0.000013335214321633213,
+          3.6307805477010174e-7,
+          0.0009863017076235966
+        ],
+        "logActivities": [
+          -4.874999999999999,
+          -4.875000000000001,
+          -6.4399999999999995,
+          0
+        ],
+        "componentTotals": [
+          0.001,
+          0.001
+        ],
+        "dissolvedComponentAmounts": [
+          0.00001369829237640337,
+          0.000013698292376403316
+        ],
+        "logActivityCoefficients": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "solids": [
+          {
+            "id": "spana:2ac52a30213c9288:16756",
+            "name": "AgCl(s)",
+            "amount": 0.0009863017076235966,
+            "logSaturation": 0,
+            "status": "present",
+            "activity": 1
+          }
+        ],
+        "residuals": {
+          "componentBalance": [
+            0,
+            0
+          ],
+          "componentBalanceLimits": [
+            1e-13,
+            1e-13
+          ],
+          "massActionLog": [
+            0,
+            null
+          ],
+          "scaledBalance": [
+            0,
+            0
+          ]
+        },
+        "iterations": 3,
+        "diagnostics": [],
+        "attempts": [
+          {
+            "active": false,
+            "iteration": 6,
+            "accepted": false,
+            "diagnostics": [
+              {
+                "code": "solid-saturation",
+                "message": "The assemblage violates pure-solid saturation/complementarity.",
+                "path": null
+              }
+            ]
+          },
+          {
+            "active": true,
+            "iteration": 3,
+            "accepted": true,
+            "diagnostics": []
+          }
+        ],
+        "minimumPivotRatio": 0.015352732854436828,
+        "iterationTolerance": 2e-13,
+        "saturationTolerance": 1e-12,
+        "temperatureC": 25,
+        "pressureBar": 1,
+        "unit": "mol/kg-H2O",
+        "activityModel": "ideal",
+        "ionicStrength": null,
+        "electricBalance": null,
+        "waterOsmoticCoefficient": null,
+        "warnings": [
+          "Restricted species set and explicit direct basis; no completeness or general independence proof.",
+          "Source reference-pressure scalar unavailable; 1 bar is a declared calculation setting, not reconstructed source metadata.",
+          "Ideal activities only; ionic strength and electroneutrality are not calculated or imposed.",
+          "Absent-solid log activity is a hypothetical formation/saturation quantity, not an assigned phase activity."
+        ]
+      },
+      "comparisons": [
+        {
+          "quantity": "concentrations",
+          "index": 0,
+          "identity": "Ag+",
+          "official": 0.000013335214325129987,
+          "actual": 0.000013335214321633268,
+          "absoluteDifference": 3.496719718789308e-15,
+          "relativeDifference": 2.622169868091133e-10,
+          "limit": 4.2667042865026e-14,
+          "pass": true
+        },
+        {
+          "quantity": "concentrations",
+          "index": 1,
+          "identity": "Cl-",
+          "official": 0.000013335214318136455,
+          "actual": 0.000013335214321633213,
+          "absoluteDifference": 3.496758682304882e-15,
+          "relativeDifference": 2.622199087981018e-10,
+          "limit": 4.266704286362729e-14,
+          "pass": true
+        },
+        {
+          "quantity": "concentrations",
+          "index": 2,
+          "identity": "AgCl",
+          "official": 3.6307805477010047e-7,
+          "actual": 3.6307805477010174e-7,
+          "absoluteDifference": 1.2705494208814505e-21,
+          "relativeDifference": 3.4993836840013843e-15,
+          "limit": 4.007261561095402e-14,
+          "pass": true
+        },
+        {
+          "quantity": "concentrations",
+          "index": 3,
+          "identity": "AgCl(s)",
+          "official": 0.0009863017076200999,
+          "actual": 0.0009863017076235966,
+          "absoluteDifference": 3.496768846700249e-15,
+          "relativeDifference": 3.5453338665891488e-12,
+          "limit": 2.3726034152401995e-13,
+          "pass": true
+        },
+        {
+          "quantity": "logActivities",
+          "index": 0,
+          "identity": "Ag+",
+          "official": -4.8749999998861195,
+          "actual": -4.874999999999999,
+          "absoluteDifference": 1.1387957243869096e-10,
+          "relativeDifference": 2.3359912295661782e-11,
+          "limit": 1e-8,
+          "pass": true
+        },
+        {
+          "quantity": "logActivities",
+          "index": 1,
+          "identity": "Cl-",
+          "official": -4.875000000113881,
+          "actual": -4.875000000000001,
+          "absoluteDifference": 1.1388046061711066e-10,
+          "relativeDifference": 2.3360094485015462e-11,
+          "limit": 1e-8,
+          "pass": true
+        },
+        {
+          "quantity": "logActivities",
+          "index": 2,
+          "identity": "AgCl",
+          "official": -6.44,
+          "actual": -6.4399999999999995,
+          "absoluteDifference": 8.881784197001252e-16,
+          "relativeDifference": 1.3791590368014366e-16,
+          "limit": 1e-8,
+          "pass": true
+        },
+        {
+          "quantity": "logActivities",
+          "index": 3,
+          "identity": "AgCl(s)",
+          "official": 0,
+          "actual": 0,
+          "absoluteDifference": 0,
+          "relativeDifference": null,
+          "limit": 1e-8,
+          "pass": true
+        },
+        {
+          "quantity": "componentTotals",
+          "index": 0,
+          "identity": "Ag+",
+          "official": 0.001,
+          "actual": 0.001,
+          "absoluteDifference": 0,
+          "relativeDifference": 0,
+          "limit": 2.4e-13,
+          "pass": true
+        },
+        {
+          "quantity": "componentTotals",
+          "index": 1,
+          "identity": "Cl-",
+          "official": 0.001,
+          "actual": 0.001,
+          "absoluteDifference": 0,
+          "relativeDifference": 0,
+          "limit": 2.4e-13,
+          "pass": true
+        },
+        {
+          "quantity": "dissolvedComponentAmounts",
+          "index": 0,
+          "identity": "Ag+",
+          "official": 0.000013698292379900088,
+          "actual": 0.00001369829237640337,
+          "absoluteDifference": 3.4967180247234136e-15,
+          "relativeDifference": 2.5526670972903545e-10,
+          "limit": 4.2739658475980016e-14,
+          "pass": true
+        },
+        {
+          "quantity": "dissolvedComponentAmounts",
+          "index": 1,
+          "identity": "Cl-",
+          "official": 0.000013698292372906555,
+          "actual": 0.000013698292376403316,
+          "absoluteDifference": 3.4967603763707764e-15,
+          "relativeDifference": 2.552698016058494e-10,
+          "limit": 4.273965847458131e-14,
+          "pass": true
+        },
+        {
+          "quantity": "logActivityCoefficients",
+          "index": 0,
+          "identity": "Ag+",
+          "official": 0,
+          "actual": 0,
+          "absoluteDifference": 0,
+          "relativeDifference": null,
+          "limit": 1e-8,
+          "pass": true
+        },
+        {
+          "quantity": "logActivityCoefficients",
+          "index": 1,
+          "identity": "Cl-",
+          "official": 0,
+          "actual": 0,
+          "absoluteDifference": 0,
+          "relativeDifference": null,
+          "limit": 1e-8,
+          "pass": true
+        },
+        {
+          "quantity": "logActivityCoefficients",
+          "index": 2,
+          "identity": "AgCl",
+          "official": 0,
+          "actual": 0,
+          "absoluteDifference": 0,
+          "relativeDifference": null,
+          "limit": 1e-8,
+          "pass": true
+        },
+        {
+          "quantity": "logActivityCoefficients",
+          "index": 3,
+          "identity": "AgCl(s)",
+          "official": 0,
+          "actual": 0,
+          "absoluteDifference": 0,
+          "relativeDifference": null,
+          "limit": 1e-8,
+          "pass": true
+        }
+      ],
+      "pass": true,
+      "firstSolveMs": 0.6985000000000099,
+      "meanOf100SolveMs": 0.07232399999999999
+    },
+    {
+      "id": "redox",
+      "input": {
+        "schemaVersion": 1,
+        "systemId": "b9271cce7fa2df95a503ce523d310734b141b34ceee2b83dd55bef3812d67119",
+        "revision": 0,
+        "constraints": [
+          {
+            "componentId": "Fe 2+",
+            "kh": 1,
+            "value": 0.00001
+          },
+          {
+            "componentId": "e-",
+            "kh": 2,
+            "value": -13
+          }
+        ],
+        "unit": "mol/kg-H2O",
+        "temperatureC": 25,
+        "pressureBar": 1,
+        "activityModel": "ideal",
+        "electroneutrality": "not-imposed",
+        "id": "dca068307ddde1280c46570e37f68924e10b8c329216eb63fb0f66a272e0926e"
+      },
+      "preparedSystemId": "b9271cce7fa2df95a503ce523d310734b141b34ceee2b83dd55bef3812d67119",
+      "sourceInput": "2, 1, 0, 0\nFe 2+\ne-\nFe 3+, -13.051, 1, -1\n1\nT,0.00001\nLA,-13\n",
+      "official": {
+        "errFlags": 0,
+        "concentration": [
+          0.000005293242686272831,
+          0,
+          0.00000470675731372721
+        ],
+        "logActivity": [
+          -5.276278193880838,
+          -13,
+          -5.327278193880838
+        ],
+        "total": [
+          0.00001,
+          -0.00000470675731372721
+        ],
+        "dissolved": [
+          0.00001000000000000004,
+          -0.00000470675731372721
+        ],
+        "logActivityCoefficient": [
+          0,
+          0,
+          0
+        ]
+      },
+      "actual": {
+        "ok": true,
+        "status": "converged",
+        "scientificValidation": "passed",
+        "method": {
+          "name": "scaled-log-Newton-with-single-solid-active-set",
+          "version": "1.0.0"
+        },
+        "systemId": "b9271cce7fa2df95a503ce523d310734b141b34ceee2b83dd55bef3812d67119",
+        "inputId": "dca068307ddde1280c46570e37f68924e10b8c329216eb63fb0f66a272e0926e",
+        "revision": 0,
+        "sourceIdentity": {
+          "revision": "c94b0d8f33fd89eaadcec5a9f3fbf296b6b0e3f7",
+          "databaseHash": "2ac52a30213c9288dd18fc6dd597411e5c3ca53173fa6d1fab5530b371c30a0a",
+          "species": [
+            "spana:2ac52a30213c9288:126584"
+          ]
+        },
+        "componentIds": [
+          "Fe 2+",
+          "e-"
+        ],
+        "speciesIds": [
+          "Fe 2+",
+          "e-",
+          "spana:2ac52a30213c9288:126584"
+        ],
+        "componentNames": [
+          "Fe 2+",
+          "e-"
+        ],
+        "speciesNames": [
+          "Fe 2+",
+          "e-",
+          "Fe 3+"
+        ],
+        "freeComponentConcentrations": [
+          0.000005293242686272811,
+          0
+        ],
+        "freeComponentActivities": [
+          0.000005293242686272811,
+          1e-13
+        ],
+        "concentrations": [
+          0.000005293242686272811,
+          0,
+          0.000004706757313727191
+        ],
+        "logActivities": [
+          -5.27627819388084,
+          -13,
+          -5.32727819388084
+        ],
+        "componentTotals": [
+          0.000010000000000000003,
+          -0.000004706757313727191
+        ],
+        "dissolvedComponentAmounts": [
+          0.000010000000000000003,
+          -0.000004706757313727191
+        ],
+        "logActivityCoefficients": [
+          0,
+          0,
+          0
+        ],
+        "solids": [],
+        "residuals": {
+          "componentBalance": [
+            1.6940658945086007e-21,
+            null
+          ],
+          "componentBalanceLimits": [
+            2e-14,
+            null
+          ],
+          "massActionLog": [
+            0
+          ],
+          "scaledBalance": [
+            1.6940658945086002e-16,
+            null
+          ]
+        },
+        "iterations": 5,
+        "diagnostics": [],
+        "attempts": [
+          {
+            "active": false,
+            "iteration": 5,
+            "accepted": true,
+            "diagnostics": []
+          }
+        ],
+        "minimumPivotRatio": 1,
+        "iterationTolerance": 2e-13,
+        "saturationTolerance": 1e-12,
+        "temperatureC": 25,
+        "pressureBar": 1,
+        "unit": "mol/kg-H2O",
+        "activityModel": "ideal",
+        "ionicStrength": null,
+        "electricBalance": null,
+        "waterOsmoticCoefficient": null,
+        "warnings": [
+          "Restricted species set and explicit direct basis; no completeness or general independence proof.",
+          "Source reference-pressure scalar unavailable; 1 bar is a declared calculation setting, not reconstructed source metadata.",
+          "Ideal activities only; ionic strength and electroneutrality are not calculated or imposed.",
+          "Absent-solid log activity is a hypothetical formation/saturation quantity, not an assigned phase activity."
+        ]
+      },
+      "comparisons": [
+        {
+          "quantity": "concentrations",
+          "index": 0,
+          "identity": "Fe 2+",
+          "official": 0.000005293242686272831,
+          "actual": 0.000005293242686272811,
+          "absoluteDifference": 1.9481757786848908e-20,
+          "relativeDifference": 3.680495858875259e-15,
+          "limit": 4.1058648537254566e-14,
+          "pass": true
+        },
+        {
+          "quantity": "concentrations",
+          "index": 1,
+          "identity": "e-",
+          "official": 0,
+          "actual": 0,
+          "absoluteDifference": 0,
+          "relativeDifference": null,
+          "limit": 4e-14,
+          "pass": true
+        },
+        {
+          "quantity": "concentrations",
+          "index": 2,
+          "identity": "Fe 3+",
+          "official": 0.00000470675731372721,
+          "actual": 0.000004706757313727191,
+          "absoluteDifference": 1.8634724839594607e-20,
+          "relativeDifference": 3.959142908270758e-15,
+          "limit": 4.0941351462745444e-14,
+          "pass": true
+        },
+        {
+          "quantity": "logActivities",
+          "index": 0,
+          "identity": "Fe 2+",
+          "official": -5.276278193880838,
+          "actual": -5.27627819388084,
+          "absoluteDifference": 1.7763568394002505e-15,
+          "relativeDifference": 3.3666853303155615e-16,
+          "limit": 1e-8,
+          "pass": true
+        },
+        {
+          "quantity": "logActivities",
+          "index": 1,
+          "identity": "e-",
+          "official": -13,
+          "actual": -13,
+          "absoluteDifference": 0,
+          "relativeDifference": 0,
+          "limit": 1e-8,
+          "pass": true
+        },
+        {
+          "quantity": "logActivities",
+          "index": 2,
+          "identity": "Fe 3+",
+          "official": -5.327278193880838,
+          "actual": -5.32727819388084,
+          "absoluteDifference": 1.7763568394002505e-15,
+          "relativeDifference": 3.3344548092882726e-16,
+          "limit": 1e-8,
+          "pass": true
+        },
+        {
+          "quantity": "componentTotals",
+          "index": 0,
+          "identity": "Fe 2+",
+          "official": 0.00001,
+          "actual": 0.000010000000000000003,
+          "absoluteDifference": 1.6940658945086007e-21,
+          "relativeDifference": 1.6940658945086004e-16,
+          "limit": 4.2e-14,
+          "pass": true
+        },
+        {
+          "quantity": "componentTotals",
+          "index": 1,
+          "identity": "e-",
+          "official": -0.00000470675731372721,
+          "actual": -0.000004706757313727191,
+          "absoluteDifference": 1.8634724839594607e-20,
+          "relativeDifference": 3.959142908270758e-15,
+          "limit": 4.0941351462745444e-14,
+          "pass": true
+        },
+        {
+          "quantity": "dissolvedComponentAmounts",
+          "index": 0,
+          "identity": "Fe 2+",
+          "official": 0.00001000000000000004,
+          "actual": 0.000010000000000000003,
+          "absoluteDifference": 3.7269449679189215e-20,
+          "relativeDifference": 3.7269449679189065e-15,
+          "limit": 4.200000000000001e-14,
+          "pass": true
+        },
+        {
+          "quantity": "dissolvedComponentAmounts",
+          "index": 1,
+          "identity": "e-",
+          "official": -0.00000470675731372721,
+          "actual": -0.000004706757313727191,
+          "absoluteDifference": 1.8634724839594607e-20,
+          "relativeDifference": 3.959142908270758e-15,
+          "limit": 4.0941351462745444e-14,
+          "pass": true
+        },
+        {
+          "quantity": "logActivityCoefficients",
+          "index": 0,
+          "identity": "Fe 2+",
+          "official": 0,
+          "actual": 0,
+          "absoluteDifference": 0,
+          "relativeDifference": null,
+          "limit": 1e-8,
+          "pass": true
+        },
+        {
+          "quantity": "logActivityCoefficients",
+          "index": 1,
+          "identity": "e-",
+          "official": 0,
+          "actual": 0,
+          "absoluteDifference": 0,
+          "relativeDifference": null,
+          "limit": 1e-8,
+          "pass": true
+        },
+        {
+          "quantity": "logActivityCoefficients",
+          "index": 2,
+          "identity": "Fe 3+",
+          "official": 0,
+          "actual": 0,
+          "absoluteDifference": 0,
+          "relativeDifference": null,
+          "limit": 1e-8,
+          "pass": true
+        }
+      ],
+      "pass": true,
+      "firstSolveMs": 0.10210000000000719,
+      "meanOf100SolveMs": 0.034292999999999976
+    },
+    {
+      "id": "fixed-activity",
+      "input": {
+        "schemaVersion": 1,
+        "systemId": "4b1eaec290bb5692749a8697094bd479348915cca49d7bb3331e07fbd3d54d4f",
+        "revision": 0,
+        "constraints": [
+          {
+            "componentId": "Ag+",
+            "kh": 2,
+            "value": -6
+          },
+          {
+            "componentId": "Cl-",
+            "kh": 2,
+            "value": -3
+          }
+        ],
+        "unit": "mol/kg-H2O",
+        "temperatureC": 25,
+        "pressureBar": 1,
+        "activityModel": "ideal",
+        "electroneutrality": "not-imposed",
+        "id": "83fd2f421f588aa7d1ee6d2c03fc2a7a219594b437c2b808cf9485125b491afd"
+      },
+      "preparedSystemId": "4b1eaec290bb5692749a8697094bd479348915cca49d7bb3331e07fbd3d54d4f",
+      "sourceInput": "2, 1, 0, 0\nAg+\nCl-\nAgCl, 3.31, 1, 1\n1\nLA,-6\nLA,-3\n",
+      "official": {
+        "errFlags": 0,
+        "concentration": [
+          9.999999999999987e-7,
+          0.0009999999999999994,
+          0.0000020417379446695277
+        ],
+        "logActivity": [
+          -6,
+          -3,
+          -5.6899999999999995
+        ],
+        "total": [
+          0.0000030417379446695266,
+          0.0010020417379446689
+        ],
+        "dissolved": [
+          0.0000030417379446695266,
+          0.0010020417379446689
+        ],
+        "logActivityCoefficient": [
+          0,
+          0,
+          0
+        ]
+      },
+      "actual": {
+        "ok": true,
+        "status": "converged",
+        "scientificValidation": "passed",
+        "method": {
+          "name": "scaled-log-Newton-with-single-solid-active-set",
+          "version": "1.0.0"
+        },
+        "systemId": "4b1eaec290bb5692749a8697094bd479348915cca49d7bb3331e07fbd3d54d4f",
+        "inputId": "83fd2f421f588aa7d1ee6d2c03fc2a7a219594b437c2b808cf9485125b491afd",
+        "revision": 0,
+        "sourceIdentity": {
+          "revision": "c94b0d8f33fd89eaadcec5a9f3fbf296b6b0e3f7",
+          "databaseHash": "2ac52a30213c9288dd18fc6dd597411e5c3ca53173fa6d1fab5530b371c30a0a",
+          "species": [
+            "spana:2ac52a30213c9288:16684"
+          ]
+        },
+        "componentIds": [
+          "Ag+",
+          "Cl-"
+        ],
+        "speciesIds": [
+          "Ag+",
+          "Cl-",
+          "spana:2ac52a30213c9288:16684"
+        ],
+        "componentNames": [
+          "Ag+",
+          "Cl-"
+        ],
+        "speciesNames": [
+          "Ag+",
+          "Cl-",
+          "AgCl"
+        ],
+        "freeComponentConcentrations": [
+          0.000001,
+          0.001
+        ],
+        "freeComponentActivities": [
+          0.000001,
+          0.001
+        ],
+        "concentrations": [
+          0.000001,
+          0.001,
+          0.0000020417379446695316
+        ],
+        "logActivities": [
+          -6,
+          -3,
+          -5.6899999999999995
+        ],
+        "componentTotals": [
+          0.0000030417379446695317,
+          0.0010020417379446695
+        ],
+        "dissolvedComponentAmounts": [
+          0.0000030417379446695317,
+          0.0010020417379446695
+        ],
+        "logActivityCoefficients": [
+          0,
+          0,
+          0
+        ],
+        "solids": [],
+        "residuals": {
+          "componentBalance": [
+            null,
+            null
+          ],
+          "componentBalanceLimits": [
+            null,
+            null
+          ],
+          "massActionLog": [
+            0
+          ],
+          "scaledBalance": [
+            null,
+            null
+          ]
+        },
+        "iterations": 0,
+        "diagnostics": [],
+        "attempts": [
+          {
+            "active": false,
+            "iteration": 0,
+            "accepted": true,
+            "diagnostics": []
+          }
+        ],
+        "minimumPivotRatio": 1,
+        "iterationTolerance": 2e-13,
+        "saturationTolerance": 1e-12,
+        "temperatureC": 25,
+        "pressureBar": 1,
+        "unit": "mol/kg-H2O",
+        "activityModel": "ideal",
+        "ionicStrength": null,
+        "electricBalance": null,
+        "waterOsmoticCoefficient": null,
+        "warnings": [
+          "Restricted species set and explicit direct basis; no completeness or general independence proof.",
+          "Source reference-pressure scalar unavailable; 1 bar is a declared calculation setting, not reconstructed source metadata.",
+          "Ideal activities only; ionic strength and electroneutrality are not calculated or imposed.",
+          "Absent-solid log activity is a hypothetical formation/saturation quantity, not an assigned phase activity."
+        ]
+      },
+      "comparisons": [
+        {
+          "quantity": "concentrations",
+          "index": 0,
+          "identity": "Ag+",
+          "official": 9.999999999999987e-7,
+          "actual": 0.000001,
+          "absoluteDifference": 1.2705494208814505e-21,
+          "relativeDifference": 1.270549420881452e-15,
+          "limit": 4.02e-14,
+          "pass": true
+        },
+        {
+          "quantity": "concentrations",
+          "index": 1,
+          "identity": "Cl-",
+          "official": 0.0009999999999999994,
+          "actual": 0.001,
+          "absoluteDifference": 6.505213034913027e-19,
+          "relativeDifference": 6.505213034913031e-16,
+          "limit": 2.399999999999999e-13,
+          "pass": true
+        },
+        {
+          "quantity": "concentrations",
+          "index": 2,
+          "identity": "AgCl",
+          "official": 0.0000020417379446695277,
+          "actual": 0.0000020417379446695316,
+          "absoluteDifference": 3.8116482626443515e-21,
+          "relativeDifference": 1.866864585925741e-15,
+          "limit": 4.0408347588933906e-14,
+          "pass": true
+        },
+        {
+          "quantity": "logActivities",
+          "index": 0,
+          "identity": "Ag+",
+          "official": -6,
+          "actual": -6,
+          "absoluteDifference": 0,
+          "relativeDifference": 0,
+          "limit": 1e-8,
+          "pass": true
+        },
+        {
+          "quantity": "logActivities",
+          "index": 1,
+          "identity": "Cl-",
+          "official": -3,
+          "actual": -3,
+          "absoluteDifference": 0,
+          "relativeDifference": 0,
+          "limit": 1e-8,
+          "pass": true
+        },
+        {
+          "quantity": "logActivities",
+          "index": 2,
+          "identity": "AgCl",
+          "official": -5.6899999999999995,
+          "actual": -5.6899999999999995,
+          "absoluteDifference": 0,
+          "relativeDifference": 0,
+          "limit": 1e-8,
+          "pass": true
+        },
+        {
+          "quantity": "componentTotals",
+          "index": 0,
+          "identity": "Ag+",
+          "official": 0.0000030417379446695266,
+          "actual": 0.0000030417379446695317,
+          "absoluteDifference": 5.082197683525802e-21,
+          "relativeDifference": 1.6708203586150692e-15,
+          "limit": 4.060834758893391e-14,
+          "pass": true
+        },
+        {
+          "quantity": "componentTotals",
+          "index": 1,
+          "identity": "Cl-",
+          "official": 0.0010020417379446689,
+          "actual": 0.0010020417379446695,
+          "absoluteDifference": 6.505213034913027e-19,
+          "relativeDifference": 6.491958157607437e-16,
+          "limit": 2.404083475889338e-13,
+          "pass": true
+        },
+        {
+          "quantity": "dissolvedComponentAmounts",
+          "index": 0,
+          "identity": "Ag+",
+          "official": 0.0000030417379446695266,
+          "actual": 0.0000030417379446695317,
+          "absoluteDifference": 5.082197683525802e-21,
+          "relativeDifference": 1.6708203586150692e-15,
+          "limit": 4.060834758893391e-14,
+          "pass": true
+        },
+        {
+          "quantity": "dissolvedComponentAmounts",
+          "index": 1,
+          "identity": "Cl-",
+          "official": 0.0010020417379446689,
+          "actual": 0.0010020417379446695,
+          "absoluteDifference": 6.505213034913027e-19,
+          "relativeDifference": 6.491958157607437e-16,
+          "limit": 2.404083475889338e-13,
+          "pass": true
+        },
+        {
+          "quantity": "logActivityCoefficients",
+          "index": 0,
+          "identity": "Ag+",
+          "official": 0,
+          "actual": 0,
+          "absoluteDifference": 0,
+          "relativeDifference": null,
+          "limit": 1e-8,
+          "pass": true
+        },
+        {
+          "quantity": "logActivityCoefficients",
+          "index": 1,
+          "identity": "Cl-",
+          "official": 0,
+          "actual": 0,
+          "absoluteDifference": 0,
+          "relativeDifference": null,
+          "limit": 1e-8,
+          "pass": true
+        },
+        {
+          "quantity": "logActivityCoefficients",
+          "index": 2,
+          "identity": "AgCl",
+          "official": 0,
+          "actual": 0,
+          "absoluteDifference": 0,
+          "relativeDifference": null,
+          "limit": 1e-8,
+          "pass": true
+        }
+      ],
+      "pass": true,
+      "firstSolveMs": 0.1296999999999997,
+      "meanOf100SolveMs": 0.01172300000000007
+    }
+  ]
+}

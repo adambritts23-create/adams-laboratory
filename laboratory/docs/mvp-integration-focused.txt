@@ -1,0 +1,50 @@
+✔ local generic Cr carrier smoke: accepted full grid, exact source identities, no guessed oxidation states (15.3549ms)
+✔ metadata-pending public maps remain blocked and reviewed Fe/Cu cannot use the fallback (478.0013ms)
+✔ failed or forged equilibria yield gaps, never carrier winners (0.5266ms)
+✔ cancellation retains uncalculated gaps without manufacturing equilibria (112.0533ms)
+✔ imposed Fe control: 17 independent accepted equilibria exactly match fixed-Eh solves (89.3428ms)
+✔ total partition closes and dissolved speciation uses the unchanged normalization at every Eh (23.046ms)
+✔ accepted saturation keeps 13 defined solubilities and four genuine gaps; mixed overlay stays pH-only (2.5518ms)
+✔ sample endpoints, hover and keyboard index navigation share exact Beaker equilibrium identities (1.3714ms)
+✔ all four compatible view switches reuse the same branded sweep without scientific revision changes (1.3359ms)
+✔ invalid ranges, samples and conditions fail the existing sweep rules (635.6667ms)
+✔ fixed pH, Eh range, phase scope, forged results and stale requests cannot reuse inspection (121.7695ms)
+✔ electron tile selection is a special-condition route, not an element or conserved inventory (24.2481ms)
+✔ fixed imposed Eh configuration varies pH using the same fixed-electron preparation (144.2874ms)
+✔ Fe discovered full grid exactly preserves independently accepted fractions and topology (1097.7292ms)
+✔ Cu discovered full grid exactly preserves independently accepted fractions and topology (1000.9863ms)
+✔ element-only System selection discovers its family without manually selecting redox forms (249.4398ms)
+✔ source family closure is independent of starting form and explicit registry identity covers every included carrier (689.1515ms)
+✔ missing, ambiguous and changed metadata fail closed with no test-only fallback (257.2486ms)
+✔ user total and ranges change the actual grid and cannot inherit reference validation (248.9626ms)
+✔ phase suppression is disclosed and cannot retain the default reference claim (307.8833ms)
+✔ invalid totals, ranges, oversized grids, nonideal conditions and extra analytical components fail explicitly (75.9733ms)
+✔ uranium discovery resolves fractional reaction algebra but keeps unresolved allocations unavailable (115.9799ms)
+✔ stale, cancelled or forged results cannot enter the shared plot and beaker (979.8813ms)
+✔ generic map and numerical export retain actual element, source scope, total denominator and status (44.2263ms)
+✔ generic discovery contains no element-specific branches or oxidation-state name parsing (106.6912ms)
+✔ experience readiness distinguishes constructible metadata-pending chemistry from unsupported and checked results (140.1634ms)
+✔ carrier details preserve within-state chemistry and count mixed-valence atoms once per carrier (92.0937ms)
+✔ keyboard inspection reuses the same accepted input and result for plot and beaker (0.593ms)
+✔ preview is transient, click selects exact state and pointer traversal never solves (2777.2983ms)
+✔ analytical views preserve original identities and cache without solver calls in both orientations (3300.707ms)
+✔ fractions reuse unchanged ordinary-component contracts with no proton denominator (1660.5169ms)
+✔ log series retains actual admitted carriers, retained logs and absent-carrier gaps (1646.7768ms)
+✔ adapter and preview refuse forged, foreign and stale points even after caching (3308.3193ms)
+✔ custom experiment coordinates and nearest-X selection do not assume default equivalence (1649.4928ms)
+✔ repeated hover/view inspection reuses derived cache and performs zero new solve runs (1737.4574ms)
+ℹ 1000 cached preview/view operations: 55.45 ms; solveRuns=1
+✔ Wet Lab precomputes 107 accepted samples with dense equivalence coordinates (3093.9547ms)
+✔ cached curve selections share exact engine state and never solve inspection independently (1646.7567ms)
+✔ arbitrary total and increment controls calculate once then cache; reset restores exact initial object (1709.0875ms)
+✔ invalid values, forged points and old experiment points are refused without replacing selection (3354.8444ms)
+✔ newer selection cancels pending custom-volume state before it can replace the view (1673.3204ms)
+✔ Wet Lab navigation leaves ordinary chemistry and scientific revision unchanged (1.9936ms)
+ℹ tests 41
+ℹ suites 0
+ℹ pass 41
+ℹ fail 0
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 69639.3749

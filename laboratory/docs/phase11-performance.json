@@ -1,0 +1,51 @@
+{
+  "date": "2026-09-06T12:04:56.420Z",
+  "scope": "Local Node carbonate chemistry and separate surface preparation; five preparations of the same grid, median. Browser rendering timings are separately documented in phase11-report.md.",
+  "measurements": [
+    {
+      "shape": [
+        21,
+        21
+      ],
+      "counts": {
+        "requested": 441,
+        "converged": 441,
+        "failed": 0,
+        "notRun": 0
+      },
+      "calculationMs": 349.2355,
+      "preparationMedianMs": 0.4673999999999978,
+      "triangles": 800
+    },
+    {
+      "shape": [
+        51,
+        51
+      ],
+      "counts": {
+        "requested": 2601,
+        "converged": 2601,
+        "failed": 0,
+        "notRun": 0
+      },
+      "calculationMs": 2013.9559,
+      "preparationMedianMs": 7.8440999999997985,
+      "triangles": 5000
+    },
+    {
+      "shape": [
+        81,
+        61
+      ],
+      "counts": {
+        "requested": 4941,
+        "converged": 4941,
+        "failed": 0,
+        "notRun": 0
+      },
+      "calculationMs": 3876.5433,
+      "preparationMedianMs": 19.662099999999555,
+      "triangles": 9600
+    }
+  ]
+}

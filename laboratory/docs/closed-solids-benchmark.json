@@ -1,0 +1,4710 @@
+{
+  "timing": {
+    "compileMs": 2176.1503000000002,
+    "prepareMs": 553.3518999999997,
+    "solveMs": 48.50599999999986
+  },
+  "networkSpeciesCount": 64,
+  "scope": {
+    "version": "source-pure-solids-v2",
+    "selection": {
+      "kind": "explicit-source-ids",
+      "ids": [
+        "spana:2ac52a30213c9288:127500",
+        "spana:2ac52a30213c9288:130902",
+        "spana:2ac52a30213c9288:131188",
+        "spana:2ac52a30213c9288:131294",
+        "spana:2ac52a30213c9288:133739",
+        "spana:2ac52a30213c9288:134486",
+        "spana:2ac52a30213c9288:139276",
+        "spana:2ac52a30213c9288:93877",
+        "spana:2ac52a30213c9288:94801"
+      ]
+    },
+    "admitted": [
+      {
+        "id": "spana:2ac52a30213c9288:93877",
+        "name": "Cr(OH)3(cr)",
+        "phase": "solid",
+        "reference": "1997BP-Cr: Beverskog B, Puigdomenech I; Corrosion Science 39 (1997) 43-57",
+        "terms": [
+          {
+            "name": "Cr 3+",
+            "coefficient": 1
+          },
+          {
+            "name": "H+",
+            "coefficient": -3
+          },
+          {
+            "name": "H2O",
+            "coefficient": 3
+          }
+        ],
+        "logK": -9.33,
+        "classification": "admitted-pure-solid",
+        "reason": "Source-bound neutral integer pure-solid law; presence determined only by coupled equilibrium",
+        "elements": {
+          "Cr": 1,
+          "H": 3,
+          "O": 3
+        },
+        "charge": 0,
+        "coefficients": [
+          1,
+          0,
+          0,
+          0,
+          0,
+          -2,
+          2
+        ],
+        "logBeta": -5.770000000000005,
+        "role": "ordinary",
+        "sourceIdentity": {
+          "id": "spana:2ac52a30213c9288:93877",
+          "reference": "1997BP-Cr: Beverskog B, Puigdomenech I; Corrosion Science 39 (1997) 43-57",
+          "terms": [
+            {
+              "name": "Cr 3+",
+              "coefficient": 1
+            },
+            {
+              "name": "H+",
+              "coefficient": -3
+            },
+            {
+              "name": "H2O",
+              "coefficient": 3
+            }
+          ],
+          "logK": -9.33,
+          "scope": "source-pure-solids-v2"
+        }
+      },
+      {
+        "id": "spana:2ac52a30213c9288:94801",
+        "name": "Cr2O3(cr)",
+        "phase": "solid",
+        "reference": "1997BP-Cr: Beverskog B, Puigdomenech I; Corrosion Science 39 (1997) 43-57",
+        "terms": [
+          {
+            "name": "Cr 3+",
+            "coefficient": 2
+          },
+          {
+            "name": "H+",
+            "coefficient": -6
+          },
+          {
+            "name": "H2O",
+            "coefficient": 3
+          }
+        ],
+        "logK": -15.48,
+        "classification": "admitted-pure-solid",
+        "reason": "Source-bound neutral integer pure-solid law; presence determined only by coupled equilibrium",
+        "elements": {
+          "Cr": 2,
+          "O": 3
+        },
+        "charge": 0,
+        "coefficients": [
+          2,
+          0,
+          0,
+          0,
+          0,
+          -4,
+          1
+        ],
+        "logBeta": -8.36000000000001,
+        "role": "ordinary",
+        "sourceIdentity": {
+          "id": "spana:2ac52a30213c9288:94801",
+          "reference": "1997BP-Cr: Beverskog B, Puigdomenech I; Corrosion Science 39 (1997) 43-57",
+          "terms": [
+            {
+              "name": "Cr 3+",
+              "coefficient": 2
+            },
+            {
+              "name": "H+",
+              "coefficient": -6
+            },
+            {
+              "name": "H2O",
+              "coefficient": 3
+            }
+          ],
+          "logK": -15.48,
+          "scope": "source-pure-solids-v2"
+        }
+      },
+      {
+        "id": "spana:2ac52a30213c9288:127500",
+        "name": "Fe(cr)",
+        "phase": "solid",
+        "reference": "NEA-Fe: Lemire R J, Berner U, Musikas C, Palmer D A, Taylor P, Tochiyama O, Chemical Thermodynamics of Iron. Part 1. Paris: OECD Nuclear Energy Agency (NEA), 2013",
+        "terms": [
+          {
+            "name": "Fe 2+",
+            "coefficient": 1
+          },
+          {
+            "name": "e-",
+            "coefficient": 2
+          }
+        ],
+        "logK": -15.89,
+        "classification": "admitted-pure-solid",
+        "reason": "Source-bound neutral integer pure-solid law; presence determined only by coupled equilibrium",
+        "elements": {
+          "Fe": 1
+        },
+        "charge": 0,
+        "coefficients": [
+          0.6666666666666665,
+          0,
+          -0.6666666666666665,
+          1,
+          0,
+          -4.666666666666666,
+          2
+        ],
+        "logBeta": -64.41666666666667,
+        "role": "ordinary",
+        "sourceIdentity": {
+          "id": "spana:2ac52a30213c9288:127500",
+          "reference": "NEA-Fe: Lemire R J, Berner U, Musikas C, Palmer D A, Taylor P, Tochiyama O, Chemical Thermodynamics of Iron. Part 1. Paris: OECD Nuclear Energy Agency (NEA), 2013",
+          "terms": [
+            {
+              "name": "Fe 2+",
+              "coefficient": 1
+            },
+            {
+              "name": "e-",
+              "coefficient": 2
+            }
+          ],
+          "logK": -15.89,
+          "scope": "source-pure-solids-v2"
+        }
+      },
+      {
+        "id": "spana:2ac52a30213c9288:130902",
+        "name": "Fe(OH)2(cr)",
+        "phase": "solid",
+        "reference": "2016BE: Brown P L, Ekberg C; Hydrolysis of Metal Ions. Weinheim, Germany: Wiley-VCH Verlag GmbH & Co. KGaA, 2016\n\n91Kna/Kub: Knacke O, Kubaschewski O, Hesselmann K; Thermochemical Properties of Inorganic Substances. Springer-Verlag, Berlin, 1991, 2 ed.",
+        "terms": [
+          {
+            "name": "Fe 2+",
+            "coefficient": 1
+          },
+          {
+            "name": "H+",
+            "coefficient": -2
+          },
+          {
+            "name": "H2O",
+            "coefficient": 2
+          }
+        ],
+        "logK": -12.3,
+        "classification": "admitted-pure-solid",
+        "reason": "Source-bound neutral integer pure-solid law; presence determined only by coupled equilibrium",
+        "elements": {
+          "Fe": 1,
+          "H": 2,
+          "O": 2
+        },
+        "charge": 0,
+        "coefficients": [
+          0,
+          0,
+          0,
+          1,
+          0,
+          -2,
+          2
+        ],
+        "logBeta": -12.3,
+        "role": "ordinary",
+        "sourceIdentity": {
+          "id": "spana:2ac52a30213c9288:130902",
+          "reference": "2016BE: Brown P L, Ekberg C; Hydrolysis of Metal Ions. Weinheim, Germany: Wiley-VCH Verlag GmbH & Co. KGaA, 2016\n\n91Kna/Kub: Knacke O, Kubaschewski O, Hesselmann K; Thermochemical Properties of Inorganic Substances. Springer-Verlag, Berlin, 1991, 2 ed.",
+          "terms": [
+            {
+              "name": "Fe 2+",
+              "coefficient": 1
+            },
+            {
+              "name": "H+",
+              "coefficient": -2
+            },
+            {
+              "name": "H2O",
+              "coefficient": 2
+            }
+          ],
+          "logK": -12.3,
+          "scope": "source-pure-solids-v2"
+        }
+      },
+      {
+        "id": "spana:2ac52a30213c9288:131188",
+        "name": "Fe(OH)3(am)",
+        "phase": "solid",
+        "reference": "1990NP: Nordstrom D K, Plummer L N, Langmuir D, Busenberg E, May H M, Jones B F, Parkhurst D L; in \"Chemical Modeling Of Aqueous Systems II\" (D C Melchior and R L Basett, eds.). Washington, D.C.: A.C.S.Symp.Ser. 416, Amer.Chem.Soc., 1990, pp.398-413.\n\nNEA-Fe: Lemire R J, Berner U, Musikas C, Palmer D A, Taylor P, Tochiyama O, Chemical Thermodynamics of Iron. Part 1. Paris: OECD Nuclear Energy Agency (NEA), 2013",
+        "terms": [
+          {
+            "name": "Fe 3+",
+            "coefficient": 1
+          },
+          {
+            "name": "H+",
+            "coefficient": -3
+          },
+          {
+            "name": "H2O",
+            "coefficient": 3
+          }
+        ],
+        "logK": -4.9,
+        "classification": "admitted-pure-solid",
+        "reason": "Source-bound neutral integer pure-solid law; presence determined only by coupled equilibrium",
+        "elements": {
+          "Fe": 1,
+          "H": 3,
+          "O": 3
+        },
+        "charge": 0,
+        "coefficients": [
+          -0.3333333333333332,
+          0,
+          0.33333333333333315,
+          1,
+          0,
+          -0.6666666666666665,
+          2
+        ],
+        "logBeta": 6.312333333333326,
+        "role": "ordinary",
+        "sourceIdentity": {
+          "id": "spana:2ac52a30213c9288:131188",
+          "reference": "1990NP: Nordstrom D K, Plummer L N, Langmuir D, Busenberg E, May H M, Jones B F, Parkhurst D L; in \"Chemical Modeling Of Aqueous Systems II\" (D C Melchior and R L Basett, eds.). Washington, D.C.: A.C.S.Symp.Ser. 416, Amer.Chem.Soc., 1990, pp.398-413.\n\nNEA-Fe: Lemire R J, Berner U, Musikas C, Palmer D A, Taylor P, Tochiyama O, Chemical Thermodynamics of Iron. Part 1. Paris: OECD Nuclear Energy Agency (NEA), 2013",
+          "terms": [
+            {
+              "name": "Fe 3+",
+              "coefficient": 1
+            },
+            {
+              "name": "H+",
+              "coefficient": -3
+            },
+            {
+              "name": "H2O",
+              "coefficient": 3
+            }
+          ],
+          "logK": -4.9,
+          "scope": "source-pure-solids-v2"
+        }
+      },
+      {
+        "id": "spana:2ac52a30213c9288:131294",
+        "name": "Fe(OH)3(s)",
+        "phase": "solid",
+        "reference": "NEA-Fe: Lemire R J, Berner U, Musikas C, Palmer D A, Taylor P, Tochiyama O, Chemical Thermodynamics of Iron. Part 1. Paris: OECD Nuclear Energy Agency (NEA), 2013",
+        "terms": [
+          {
+            "name": "Fe 3+",
+            "coefficient": 1
+          },
+          {
+            "name": "H+",
+            "coefficient": -3
+          },
+          {
+            "name": "H2O",
+            "coefficient": 3
+          }
+        ],
+        "logK": -3.43,
+        "classification": "admitted-pure-solid",
+        "reason": "Source-bound neutral integer pure-solid law; presence determined only by coupled equilibrium",
+        "elements": {
+          "Fe": 1,
+          "H": 3,
+          "O": 3
+        },
+        "charge": 0,
+        "coefficients": [
+          -0.3333333333333332,
+          0,
+          0.33333333333333315,
+          1,
+          0,
+          -0.6666666666666665,
+          2
+        ],
+        "logBeta": 7.782333333333327,
+        "role": "ordinary",
+        "sourceIdentity": {
+          "id": "spana:2ac52a30213c9288:131294",
+          "reference": "NEA-Fe: Lemire R J, Berner U, Musikas C, Palmer D A, Taylor P, Tochiyama O, Chemical Thermodynamics of Iron. Part 1. Paris: OECD Nuclear Energy Agency (NEA), 2013",
+          "terms": [
+            {
+              "name": "Fe 3+",
+              "coefficient": 1
+            },
+            {
+              "name": "H+",
+              "coefficient": -3
+            },
+            {
+              "name": "H2O",
+              "coefficient": 3
+            }
+          ],
+          "logK": -3.43,
+          "scope": "source-pure-solids-v2"
+        }
+      },
+      {
+        "id": "spana:2ac52a30213c9288:133739",
+        "name": "Fe2O3(cr)",
+        "phase": "solid",
+        "reference": "NEA-Fe: Lemire R J, Berner U, Musikas C, Palmer D A, Taylor P, Tochiyama O, Chemical Thermodynamics of Iron. Part 1. Paris: OECD Nuclear Energy Agency (NEA), 2013",
+        "terms": [
+          {
+            "name": "Fe 3+",
+            "coefficient": 2
+          },
+          {
+            "name": "H+",
+            "coefficient": -6
+          },
+          {
+            "name": "H2O",
+            "coefficient": 3
+          }
+        ],
+        "logK": 0.101,
+        "classification": "admitted-pure-solid",
+        "reason": "Source-bound neutral integer pure-solid law; presence determined only by coupled equilibrium",
+        "elements": {
+          "Fe": 2,
+          "O": 3
+        },
+        "charge": 0,
+        "coefficients": [
+          -0.6666666666666664,
+          0,
+          0.6666666666666663,
+          2,
+          0,
+          -1.333333333333333,
+          1.0000000000000002
+        ],
+        "logBeta": 22.525666666666652,
+        "role": "ordinary",
+        "sourceIdentity": {
+          "id": "spana:2ac52a30213c9288:133739",
+          "reference": "NEA-Fe: Lemire R J, Berner U, Musikas C, Palmer D A, Taylor P, Tochiyama O, Chemical Thermodynamics of Iron. Part 1. Paris: OECD Nuclear Energy Agency (NEA), 2013",
+          "terms": [
+            {
+              "name": "Fe 3+",
+              "coefficient": 2
+            },
+            {
+              "name": "H+",
+              "coefficient": -6
+            },
+            {
+              "name": "H2O",
+              "coefficient": 3
+            }
+          ],
+          "logK": 0.101,
+          "scope": "source-pure-solids-v2"
+        }
+      },
+      {
+        "id": "spana:2ac52a30213c9288:134486",
+        "name": "Fe3O4(cr)",
+        "phase": "solid",
+        "reference": "NEA-Fe: Lemire R J, Berner U, Musikas C, Palmer D A, Taylor P, Tochiyama O, Chemical Thermodynamics of Iron. Part 1. Paris: OECD Nuclear Energy Agency (NEA), 2013",
+        "terms": [
+          {
+            "name": "Fe 3+",
+            "coefficient": 3
+          },
+          {
+            "name": "H+",
+            "coefficient": -8
+          },
+          {
+            "name": "e-",
+            "coefficient": 1
+          },
+          {
+            "name": "H2O",
+            "coefficient": 4
+          }
+        ],
+        "logK": 2.712,
+        "classification": "admitted-pure-solid",
+        "reason": "Source-bound neutral integer pure-solid law; presence determined only by coupled equilibrium",
+        "elements": {
+          "Fe": 3,
+          "O": 4
+        },
+        "charge": 0,
+        "coefficients": [
+          -0.6666666666666663,
+          0,
+          0.6666666666666662,
+          3,
+          0,
+          -3.333333333333333,
+          2.0000000000000004
+        ],
+        "logBeta": 12.085666666666647,
+        "role": "ordinary",
+        "sourceIdentity": {
+          "id": "spana:2ac52a30213c9288:134486",
+          "reference": "NEA-Fe: Lemire R J, Berner U, Musikas C, Palmer D A, Taylor P, Tochiyama O, Chemical Thermodynamics of Iron. Part 1. Paris: OECD Nuclear Energy Agency (NEA), 2013",
+          "terms": [
+            {
+              "name": "Fe 3+",
+              "coefficient": 3
+            },
+            {
+              "name": "H+",
+              "coefficient": -8
+            },
+            {
+              "name": "e-",
+              "coefficient": 1
+            },
+            {
+              "name": "H2O",
+              "coefficient": 4
+            }
+          ],
+          "logK": 2.712,
+          "scope": "source-pure-solids-v2"
+        }
+      },
+      {
+        "id": "spana:2ac52a30213c9288:139276",
+        "name": "FeOOH(cr)",
+        "phase": "solid",
+        "reference": "NEA-Fe: Lemire R J, Berner U, Musikas C, Palmer D A, Taylor P, Tochiyama O, Chemical Thermodynamics of Iron. Part 1. Paris: OECD Nuclear Energy Agency (NEA), 2013",
+        "terms": [
+          {
+            "name": "Fe 3+",
+            "coefficient": 1
+          },
+          {
+            "name": "H+",
+            "coefficient": -3
+          },
+          {
+            "name": "H2O",
+            "coefficient": 2
+          }
+        ],
+        "logK": -0.17,
+        "classification": "admitted-pure-solid",
+        "reason": "Source-bound neutral integer pure-solid law; presence determined only by coupled equilibrium",
+        "elements": {
+          "Fe": 1,
+          "H": 1,
+          "O": 2
+        },
+        "charge": 0,
+        "coefficients": [
+          -0.3333333333333332,
+          0,
+          0.33333333333333315,
+          1,
+          0,
+          -0.6666666666666665,
+          1
+        ],
+        "logBeta": 11.042333333333326,
+        "role": "ordinary",
+        "sourceIdentity": {
+          "id": "spana:2ac52a30213c9288:139276",
+          "reference": "NEA-Fe: Lemire R J, Berner U, Musikas C, Palmer D A, Taylor P, Tochiyama O, Chemical Thermodynamics of Iron. Part 1. Paris: OECD Nuclear Energy Agency (NEA), 2013",
+          "terms": [
+            {
+              "name": "Fe 3+",
+              "coefficient": 1
+            },
+            {
+              "name": "H+",
+              "coefficient": -3
+            },
+            {
+              "name": "H2O",
+              "coefficient": 2
+            }
+          ],
+          "logK": -0.17,
+          "scope": "source-pure-solids-v2"
+        }
+      }
+    ],
+    "excluded": [
+      {
+        "id": "spana:2ac52a30213c9288:92135",
+        "name": "Cr(cr)",
+        "phase": "solid",
+        "reference": "1997BP-Cr: Beverskog B, Puigdomenech I; Corrosion Science 39 (1997) 43-57",
+        "terms": [
+          {
+            "name": "Cr 3+",
+            "coefficient": 1
+          },
+          {
+            "name": "e-",
+            "coefficient": 3
+          }
+        ],
+        "logK": -37.67,
+        "classification": "excluded-conditionally",
+        "reason": "explicit-restricted-phase-scope"
+      },
+      {
+        "id": "spana:2ac52a30213c9288:93513",
+        "name": "Cr(OH)2(s)",
+        "phase": "solid",
+        "reference": "1997BP-Cr: Beverskog B, Puigdomenech I; Corrosion Science 39 (1997) 43-57",
+        "terms": [
+          {
+            "name": "Cr 2+",
+            "coefficient": 1
+          },
+          {
+            "name": "H+",
+            "coefficient": -2
+          },
+          {
+            "name": "H2O",
+            "coefficient": 2
+          }
+        ],
+        "logK": -10.99,
+        "classification": "excluded-conditionally",
+        "reason": "explicit-restricted-phase-scope"
+      },
+      {
+        "id": "spana:2ac52a30213c9288:93784",
+        "name": "Cr(OH)3(am)",
+        "phase": "solid",
+        "reference": "76Bae/Mes: Baes C. F., Jr., Mesmer R. E.,\nThe Hydrolysis of Cations. New York: J. Wiley & Sons, 1976",
+        "terms": [
+          {
+            "name": "Cr 3+",
+            "coefficient": 1
+          },
+          {
+            "name": "H+",
+            "coefficient": -3
+          },
+          {
+            "name": "H2O",
+            "coefficient": 3
+          }
+        ],
+        "logK": -12,
+        "classification": "excluded-conditionally",
+        "reason": "explicit-restricted-phase-scope"
+      },
+      {
+        "id": "spana:2ac52a30213c9288:95613",
+        "name": "CrH(s)",
+        "phase": "solid",
+        "reference": "1997BP-Cr: Beverskog B, Puigdomenech I; Corrosion Science 39 (1997) 43-57",
+        "terms": [
+          {
+            "name": "Cr 3+",
+            "coefficient": 1
+          },
+          {
+            "name": "H+",
+            "coefficient": 1
+          },
+          {
+            "name": "e-",
+            "coefficient": 4
+          }
+        ],
+        "logK": -39.2,
+        "classification": "excluded-conditionally",
+        "reason": "explicit-restricted-phase-scope"
+      },
+      {
+        "id": "spana:2ac52a30213c9288:95947",
+        "name": "CrO2(cr)",
+        "phase": "solid",
+        "reference": "1997BP-Cr: Beverskog B, Puigdomenech I; Corrosion Science 39 (1997) 43-57",
+        "terms": [
+          {
+            "name": "Cr 3+",
+            "coefficient": 1
+          },
+          {
+            "name": "H+",
+            "coefficient": -4
+          },
+          {
+            "name": "e-",
+            "coefficient": -1
+          },
+          {
+            "name": "H2O",
+            "coefficient": 2
+          }
+        ],
+        "logK": -24.75,
+        "classification": "excluded-conditionally",
+        "reason": "explicit-restricted-phase-scope"
+      },
+      {
+        "id": "spana:2ac52a30213c9288:96049",
+        "name": "CrO3(cr)",
+        "phase": "solid",
+        "reference": "1997BP-Cr: Beverskog B, Puigdomenech I; Corrosion Science 39 (1997) 43-57",
+        "terms": [
+          {
+            "name": "H+",
+            "coefficient": 2
+          },
+          {
+            "name": "CrO4 2-",
+            "coefficient": 1
+          },
+          {
+            "name": "H2O",
+            "coefficient": -1
+          }
+        ],
+        "logK": 3.4,
+        "classification": "excluded-conditionally",
+        "reason": "explicit-restricted-phase-scope"
+      },
+      {
+        "id": "spana:2ac52a30213c9288:132744",
+        "name": "Fe0.932O(cr)",
+        "phase": "solid",
+        "reference": "NEA-Fe: Lemire R J, Berner U, Musikas C, Palmer D A, Taylor P, Tochiyama O, Chemical Thermodynamics of Iron. Part 1. Paris: OECD Nuclear Energy Agency (NEA), 2013",
+        "terms": [
+          {
+            "name": "Fe 2+",
+            "coefficient": 0.932
+          },
+          {
+            "name": "H+",
+            "coefficient": -2
+          },
+          {
+            "name": "e-",
+            "coefficient": -0.136
+          },
+          {
+            "name": "H2O",
+            "coefficient": 1
+          }
+        ],
+        "logK": -13.507,
+        "classification": "excluded-conditionally",
+        "reason": "explicit-restricted-phase-scope"
+      },
+      {
+        "id": "spana:2ac52a30213c9288:136105",
+        "name": "FeCr2O4(cr)",
+        "phase": "solid",
+        "reference": "93Kub/Alc: Kubaschewski O, Alcock C B, Spencer P J; Materials Thermochemistry. Pergamon Press, Oxford, 1993, 6th ed.",
+        "terms": [
+          {
+            "name": "Cr 3+",
+            "coefficient": 2
+          },
+          {
+            "name": "Fe 2+",
+            "coefficient": 1
+          },
+          {
+            "name": "H2O",
+            "coefficient": 4
+          },
+          {
+            "name": "H+",
+            "coefficient": -8
+          }
+        ],
+        "logK": -21.8,
+        "classification": "excluded-conditionally",
+        "reason": "explicit-restricted-phase-scope"
+      },
+      {
+        "id": "spana:2ac52a30213c9288:138772",
+        "name": "FeOCl(cr)",
+        "phase": "solid",
+        "reference": "NEA-Fe: Lemire R J, Berner U, Musikas C, Palmer D A, Taylor P, Tochiyama O, Chemical Thermodynamics of Iron. Part 1. Paris: OECD Nuclear Energy Agency (NEA), 2013",
+        "terms": [
+          {
+            "name": "Fe 3+",
+            "coefficient": 1
+          },
+          {
+            "name": "H+",
+            "coefficient": -2
+          },
+          {
+            "name": "Cl-",
+            "coefficient": 1
+          },
+          {
+            "name": "H2O",
+            "coefficient": 1
+          }
+        ],
+        "logK": -4.55,
+        "classification": "excluded-conditionally",
+        "reason": "explicit-restricted-phase-scope"
+      },
+      {
+        "id": "spana:2ac52a30213c9288:139063",
+        "name": "FeOHCrO4(cr)",
+        "phase": "solid",
+        "reference": "1993ON: Olazabal M A, Nikolaidis N, Suib S, Madariaga J M; Study of the precipitation equilibrium and adsorption process in the Cr(VI)/Fe(III) system. In XX Annual Congress IV Spanish-Italian Congress on Thermodynamics of Metal Complexes, p. 18. Gruppo di Termodinamica dei Complessi, Proc. of a congress held in Rome, Italy, June, 1993.",
+        "terms": [
+          {
+            "name": "Fe 3+",
+            "coefficient": 1
+          },
+          {
+            "name": "H+",
+            "coefficient": -1
+          },
+          {
+            "name": "CrO4 2-",
+            "coefficient": 1
+          }
+        ],
+        "logK": -36.5,
+        "classification": "excluded-conditionally",
+        "reason": "explicit-restricted-phase-scope"
+      },
+      {
+        "id": "spana:2ac52a30213c9288:139158",
+        "name": "FeOHCrO4·2Fe(OH)3(cr)",
+        "phase": "solid",
+        "reference": "1993ON: Olazabal M A, Nikolaidis N, Suib S, Madariaga J M; Study of the precipitation equilibrium and adsorption process in the Cr(VI)/Fe(III) system. In XX Annual Congress IV Spanish-Italian Congress on Thermodynamics of Metal Complexes, p. 18. Gruppo di Termodinamica dei Complessi, Proc. of a congress held in Rome, Italy, June, 1993.",
+        "terms": [
+          {
+            "name": "Fe 3+",
+            "coefficient": 3
+          },
+          {
+            "name": "H+",
+            "coefficient": -7
+          },
+          {
+            "name": "CrO4 2-",
+            "coefficient": 1
+          },
+          {
+            "name": "H2O",
+            "coefficient": 7
+          }
+        ],
+        "logK": -197.8,
+        "classification": "excluded-conditionally",
+        "reason": "explicit-restricted-phase-scope"
+      },
+      {
+        "id": "spana:2ac52a30213c9288:187224",
+        "name": "K(cr)",
+        "phase": "solid",
+        "reference": "Codata: Cox J D, Wagman D D, Medvedev V A, CODATA Key Values for Thermodynamics. Hemisphere Publ. Co., New York, 1989",
+        "terms": [
+          {
+            "name": "K+",
+            "coefficient": 1
+          },
+          {
+            "name": "e-",
+            "coefficient": 1
+          }
+        ],
+        "logK": -49.49,
+        "classification": "excluded-conditionally",
+        "reason": "explicit-restricted-phase-scope"
+      },
+      {
+        "id": "spana:2ac52a30213c9288:188345",
+        "name": "KCl(s)",
+        "phase": "solid",
+        "reference": "SmithMart: NIST Standard Reference Database 46 Version 8.\nNIST Critically Selected Stability Constants of Metal Complexes Database\nhttp://www.nist.gov/srd/nist46.cfm\nNational Institute of Standards and Technology, 100 Bureau Dr., Stop 2300, Gaithersburg, MD",
+        "terms": [
+          {
+            "name": "K+",
+            "coefficient": 1
+          },
+          {
+            "name": "Cl-",
+            "coefficient": 1
+          }
+        ],
+        "logK": -0.9,
+        "classification": "excluded-conditionally",
+        "reason": "explicit-restricted-phase-scope"
+      },
+      {
+        "id": "spana:2ac52a30213c9288:188780",
+        "name": "KFe3(CrO4)2(OH)6(s)",
+        "phase": "solid",
+        "reference": "1996BPd: Baron D, Palmer C D; Geochim. Cosmochim. Acta 60 (1996) 3815-3824",
+        "terms": [
+          {
+            "name": "Fe 3+",
+            "coefficient": 3
+          },
+          {
+            "name": "H+",
+            "coefficient": -6
+          },
+          {
+            "name": "CrO4 2-",
+            "coefficient": 2
+          },
+          {
+            "name": "K+",
+            "coefficient": 1
+          },
+          {
+            "name": "H2O",
+            "coefficient": 6
+          }
+        ],
+        "logK": 18.4,
+        "classification": "excluded-conditionally",
+        "reason": "explicit-restricted-phase-scope"
+      }
+    ]
+  },
+  "phaseDiagnostics": [
+    {
+      "id": "spana:2ac52a30213c9288:82314",
+      "name": "Cl2(g)",
+      "phase": "gas",
+      "reference": "Codata: Cox J D, Wagman D D, Medvedev V A, CODATA Key Values for Thermodynamics. Hemisphere Publ. Co., New York, 1989\n\n88Sho/Hel: Shock E L, Helgeson H C; Geochim. Cosmochim. Acta 52 (1988) 2009-2036; and \"ERRATA\", ibid, 53 (1989) p.215",
+      "terms": [
+        {
+          "name": "Cl-",
+          "coefficient": 2
+        },
+        {
+          "name": "e-",
+          "coefficient": -2
+        }
+      ],
+      "logK": -45.98,
+      "classification": "excluded-conditionally",
+      "reason": "Aqueous-only model; no solid or gas inventory solver in this path",
+      "logActivity": -16.271809103799917
+    },
+    {
+      "id": "spana:2ac52a30213c9288:151531",
+      "name": "H2(g)",
+      "phase": "gas",
+      "reference": "82NBS: Wagman D D, Evans W H, Parker V B, Schumm R H, Halow I, Bailey S M, Churney K L, Nuttall R L; The NBS tables of chemical thermodynamic properties: Selected values for inorganic and C1 and C2 organic substances in SI units. J. Phys. Chem. Ref. Data 11, Suppl. No.2, 1982",
+      "terms": [
+        {
+          "name": "H+",
+          "coefficient": 2
+        },
+        {
+          "name": "e-",
+          "coefficient": 2
+        }
+      ],
+      "logK": 0,
+      "classification": "excluded-conditionally",
+      "reason": "Aqueous-only model; no solid or gas inventory solver in this path",
+      "logActivity": -37.7107163207707
+    },
+    {
+      "id": "spana:2ac52a30213c9288:250070",
+      "name": "O2(g)",
+      "phase": "gas",
+      "reference": "Codata: Cox J D, Wagman D D, Medvedev V A, CODATA Key Values for Thermodynamics. Hemisphere Publ. Co., New York, 1989\n\n95Rob/Hem: Robie R A, Hemingway B S; Thermodynamic properties of minerals and related substances at 298.15 K and 1 bar (10^5 pascals) pressure and at higher temperatures. U.S. Geological Survey Bulletin 2131. Washington, DC: U.S. Goverment Printing Office, 1995",
+      "terms": [
+        {
+          "name": "H+",
+          "coefficient": -4
+        },
+        {
+          "name": "e-",
+          "coefficient": -4
+        },
+        {
+          "name": "H2O",
+          "coefficient": 2
+        }
+      ],
+      "logK": -83.09,
+      "classification": "excluded-conditionally",
+      "reason": "Aqueous-only model; no solid or gas inventory solver in this path",
+      "logActivity": -7.668567358458603
+    },
+    {
+      "id": "spana:2ac52a30213c9288:250265",
+      "name": "O3(g)",
+      "phase": "gas",
+      "reference": "82NBS: Wagman D D, Evans W H, Parker V B, Schumm R H, Halow I, Bailey S M, Churney K L, Nuttall R L; The NBS tables of chemical thermodynamic properties: Selected values for inorganic and C1 and C2 organic substances in SI units. J. Phys. Chem. Ref. Data 11, Suppl. No.2, 1982",
+      "terms": [
+        {
+          "name": "H+",
+          "coefficient": -6
+        },
+        {
+          "name": "e-",
+          "coefficient": -6
+        },
+        {
+          "name": "H2O",
+          "coefficient": 3
+        }
+      ],
+      "logK": -153.23,
+      "classification": "excluded-conditionally",
+      "reason": "Aqueous-only model; no solid or gas inventory solver in this path",
+      "logActivity": -40.09785103768789
+    },
+    {
+      "id": "spana:2ac52a30213c9288:92135",
+      "name": "Cr(cr)",
+      "phase": "solid",
+      "reference": "1997BP-Cr: Beverskog B, Puigdomenech I; Corrosion Science 39 (1997) 43-57",
+      "terms": [
+        {
+          "name": "Cr 3+",
+          "coefficient": 1
+        },
+        {
+          "name": "e-",
+          "coefficient": 3
+        }
+      ],
+      "logK": -37.67,
+      "classification": "excluded-conditionally",
+      "reason": "explicit-restricted-phase-scope",
+      "logActivity": -93.94835927699638
+    },
+    {
+      "id": "spana:2ac52a30213c9288:93513",
+      "name": "Cr(OH)2(s)",
+      "phase": "solid",
+      "reference": "1997BP-Cr: Beverskog B, Puigdomenech I; Corrosion Science 39 (1997) 43-57",
+      "terms": [
+        {
+          "name": "Cr 2+",
+          "coefficient": 1
+        },
+        {
+          "name": "H+",
+          "coefficient": -2
+        },
+        {
+          "name": "H2O",
+          "coefficient": 2
+        }
+      ],
+      "logK": -10.99,
+      "classification": "excluded-conditionally",
+      "reason": "explicit-restricted-phase-scope",
+      "logActivity": -36.740642956225685
+    },
+    {
+      "id": "spana:2ac52a30213c9288:93784",
+      "name": "Cr(OH)3(am)",
+      "phase": "solid",
+      "reference": "76Bae/Mes: Baes C. F., Jr., Mesmer R. E.,\nThe Hydrolysis of Cations. New York: J. Wiley & Sons, 1976",
+      "terms": [
+        {
+          "name": "Cr 3+",
+          "coefficient": 1
+        },
+        {
+          "name": "H+",
+          "coefficient": -3
+        },
+        {
+          "name": "H2O",
+          "coefficient": 3
+        }
+      ],
+      "logK": -12,
+      "classification": "excluded-conditionally",
+      "reason": "explicit-restricted-phase-scope",
+      "logActivity": -11.712284795840333
+    },
+    {
+      "id": "spana:2ac52a30213c9288:95613",
+      "name": "CrH(s)",
+      "phase": "solid",
+      "reference": "1997BP-Cr: Beverskog B, Puigdomenech I; Corrosion Science 39 (1997) 43-57",
+      "terms": [
+        {
+          "name": "Cr 3+",
+          "coefficient": 1
+        },
+        {
+          "name": "H+",
+          "coefficient": 1
+        },
+        {
+          "name": "e-",
+          "coefficient": 4
+        }
+      ],
+      "logK": -39.2,
+      "classification": "excluded-conditionally",
+      "reason": "explicit-restricted-phase-scope",
+      "logActivity": -114.33371743738174
+    },
+    {
+      "id": "spana:2ac52a30213c9288:95947",
+      "name": "CrO2(cr)",
+      "phase": "solid",
+      "reference": "1997BP-Cr: Beverskog B, Puigdomenech I; Corrosion Science 39 (1997) 43-57",
+      "terms": [
+        {
+          "name": "Cr 3+",
+          "coefficient": 1
+        },
+        {
+          "name": "H+",
+          "coefficient": -4
+        },
+        {
+          "name": "e-",
+          "coefficient": -1
+        },
+        {
+          "name": "H2O",
+          "coefficient": 2
+        }
+      ],
+      "logK": -24.75,
+      "classification": "excluded-conditionally",
+      "reason": "explicit-restricted-phase-scope",
+      "logActivity": -5.6069266354549825
+    },
+    {
+      "id": "spana:2ac52a30213c9288:96049",
+      "name": "CrO3(cr)",
+      "phase": "solid",
+      "reference": "1997BP-Cr: Beverskog B, Puigdomenech I; Corrosion Science 39 (1997) 43-57",
+      "terms": [
+        {
+          "name": "H+",
+          "coefficient": 2
+        },
+        {
+          "name": "CrO4 2-",
+          "coefficient": 1
+        },
+        {
+          "name": "H2O",
+          "coefficient": -1
+        }
+      ],
+      "logK": 3.4,
+      "classification": "excluded-conditionally",
+      "reason": "explicit-restricted-phase-scope",
+      "logActivity": -16.09621031468426
+    },
+    {
+      "id": "spana:2ac52a30213c9288:132744",
+      "name": "Fe0.932O(cr)",
+      "phase": "solid",
+      "reference": "NEA-Fe: Lemire R J, Berner U, Musikas C, Palmer D A, Taylor P, Tochiyama O, Chemical Thermodynamics of Iron. Part 1. Paris: OECD Nuclear Energy Agency (NEA), 2013",
+      "terms": [
+        {
+          "name": "Fe 2+",
+          "coefficient": 0.932
+        },
+        {
+          "name": "H+",
+          "coefficient": -2
+        },
+        {
+          "name": "e-",
+          "coefficient": -0.136
+        },
+        {
+          "name": "H2O",
+          "coefficient": 1
+        }
+      ],
+      "logK": -13.507,
+      "classification": "excluded-conditionally",
+      "reason": "explicit-restricted-phase-scope",
+      "logActivity": -16.399399095666737
+    },
+    {
+      "id": "spana:2ac52a30213c9288:136105",
+      "name": "FeCr2O4(cr)",
+      "phase": "solid",
+      "reference": "93Kub/Alc: Kubaschewski O, Alcock C B, Spencer P J; Materials Thermochemistry. Pergamon Press, Oxford, 1993, 6th ed.",
+      "terms": [
+        {
+          "name": "Cr 3+",
+          "coefficient": 2
+        },
+        {
+          "name": "Fe 2+",
+          "coefficient": 1
+        },
+        {
+          "name": "H2O",
+          "coefficient": 4
+        },
+        {
+          "name": "H+",
+          "coefficient": -8
+        }
+      ],
+      "logK": -21.8,
+      "classification": "excluded-conditionally",
+      "reason": "explicit-restricted-phase-scope",
+      "logActivity": -27.079427752066014
+    },
+    {
+      "id": "spana:2ac52a30213c9288:138772",
+      "name": "FeOCl(cr)",
+      "phase": "solid",
+      "reference": "NEA-Fe: Lemire R J, Berner U, Musikas C, Palmer D A, Taylor P, Tochiyama O, Chemical Thermodynamics of Iron. Part 1. Paris: OECD Nuclear Energy Agency (NEA), 2013",
+      "terms": [
+        {
+          "name": "Fe 3+",
+          "coefficient": 1
+        },
+        {
+          "name": "H+",
+          "coefficient": -2
+        },
+        {
+          "name": "Cl-",
+          "coefficient": 1
+        },
+        {
+          "name": "H2O",
+          "coefficient": 1
+        }
+      ],
+      "logK": -4.55,
+      "classification": "excluded-conditionally",
+      "reason": "explicit-restricted-phase-scope",
+      "logActivity": -8.60176271228531
+    },
+    {
+      "id": "spana:2ac52a30213c9288:139063",
+      "name": "FeOHCrO4(cr)",
+      "phase": "solid",
+      "reference": "1993ON: Olazabal M A, Nikolaidis N, Suib S, Madariaga J M; Study of the precipitation equilibrium and adsorption process in the Cr(VI)/Fe(III) system. In XX Annual Congress IV Spanish-Italian Congress on Thermodynamics of Metal Complexes, p. 18. Gruppo di Termodinamica dei Complessi, Proc. of a congress held in Rome, Italy, June, 1993.",
+      "terms": [
+        {
+          "name": "Fe 3+",
+          "coefficient": 1
+        },
+        {
+          "name": "H+",
+          "coefficient": -1
+        },
+        {
+          "name": "CrO4 2-",
+          "coefficient": 1
+        }
+      ],
+      "logK": -36.5,
+      "classification": "excluded-conditionally",
+      "reason": "explicit-restricted-phase-scope",
+      "logActivity": -56.04671031468426
+    },
+    {
+      "id": "spana:2ac52a30213c9288:139158",
+      "name": "FeOHCrO4·2Fe(OH)3(cr)",
+      "phase": "solid",
+      "reference": "1993ON: Olazabal M A, Nikolaidis N, Suib S, Madariaga J M; Study of the precipitation equilibrium and adsorption process in the Cr(VI)/Fe(III) system. In XX Annual Congress IV Spanish-Italian Congress on Thermodynamics of Metal Complexes, p. 18. Gruppo di Termodinamica dei Complessi, Proc. of a congress held in Rome, Italy, June, 1993.",
+      "terms": [
+        {
+          "name": "Fe 3+",
+          "coefficient": 3
+        },
+        {
+          "name": "H+",
+          "coefficient": -7
+        },
+        {
+          "name": "CrO4 2-",
+          "coefficient": 1
+        },
+        {
+          "name": "H2O",
+          "coefficient": 7
+        }
+      ],
+      "logK": -197.8,
+      "classification": "excluded-conditionally",
+      "reason": "explicit-restricted-phase-scope",
+      "logActivity": -217.44771031468426
+    },
+    {
+      "id": "spana:2ac52a30213c9288:187224",
+      "name": "K(cr)",
+      "phase": "solid",
+      "reference": "Codata: Cox J D, Wagman D D, Medvedev V A, CODATA Key Values for Thermodynamics. Hemisphere Publ. Co., New York, 1989",
+      "terms": [
+        {
+          "name": "K+",
+          "coefficient": 1
+        },
+        {
+          "name": "e-",
+          "coefficient": 1
+        }
+      ],
+      "logK": -49.49,
+      "classification": "excluded-conditionally",
+      "reason": "explicit-restricted-phase-scope",
+      "logActivity": -72.04342328482636
+    },
+    {
+      "id": "spana:2ac52a30213c9288:188345",
+      "name": "KCl(s)",
+      "phase": "solid",
+      "reference": "SmithMart: NIST Standard Reference Database 46 Version 8.\nNIST Critically Selected Stability Constants of Metal Complexes Database\nhttp://www.nist.gov/srd/nist46.cfm\nNational Institute of Standards and Technology, 100 Bureau Dr., Stop 2300, Gaithersburg, MD",
+      "terms": [
+        {
+          "name": "K+",
+          "coefficient": 1
+        },
+        {
+          "name": "Cl-",
+          "coefficient": 1
+        }
+      ],
+      "logK": -0.9,
+      "classification": "excluded-conditionally",
+      "reason": "explicit-restricted-phase-scope",
+      "logActivity": -8.599327836726317
+    },
+    {
+      "id": "spana:2ac52a30213c9288:188780",
+      "name": "KFe3(CrO4)2(OH)6(s)",
+      "phase": "solid",
+      "reference": "1996BPd: Baron D, Palmer C D; Geochim. Cosmochim. Acta 60 (1996) 3815-3824",
+      "terms": [
+        {
+          "name": "Fe 3+",
+          "coefficient": 3
+        },
+        {
+          "name": "H+",
+          "coefficient": -6
+        },
+        {
+          "name": "CrO4 2-",
+          "coefficient": 2
+        },
+        {
+          "name": "K+",
+          "coefficient": 1
+        },
+        {
+          "name": "H2O",
+          "coefficient": 6
+        }
+      ],
+      "logK": 18.4,
+      "classification": "excluded-conditionally",
+      "reason": "explicit-restricted-phase-scope",
+      "logActivity": -24.44198575380952
+    }
+  ],
+  "gasFugacitySum": 2.1450264048081155e-8,
+  "inspection": {
+    "pH": 2.000904879895163,
+    "pe": 16.854453280490187,
+    "Eh": 0.9970984953663458,
+    "carriers": [
+      {
+        "id": "component:Fe%202%2B",
+        "name": "Fe 2+",
+        "phase": "aqueous",
+        "amount": 1.3910158538876777e-10,
+        "elements": {
+          "Fe": 1
+        },
+        "allocation": {
+          "element": "Fe",
+          "states": [
+            {
+              "oxidationState": 2,
+              "count": 1
+            }
+          ],
+          "provenance": {
+            "statement": "Explicit curated identity of this monatomic/elemental or oxide/hydroxide source carrier. H(+I) and O(-II) are redox-innocent within this specified composition; allocation is stored explicitly, not inferred at runtime.",
+            "references": [
+              "https://goldbook.iupac.org/terms/view/O04365"
+            ],
+            "sourceCitation": "NEA-Fe: Lemire R J, Berner U, Musikas C, Palmer D A, Taylor P, Tochiyama O, Chemical Thermodynamics of Iron. Part 1. Paris: OECD Nuclear Energy Agency (NEA), 2013",
+            "sourceReferenceCode": "NEA-Fe",
+            "curatedAt": "2026-09-10",
+            "method": "static-identity-specific-curation",
+            "scope": "Fe oxide/hydroxide and monatomic carriers; no redox-active ligands"
+          }
+        }
+      },
+      {
+        "id": "component:CrO4%202-",
+        "name": "CrO4 2-",
+        "phase": "aqueous",
+        "amount": 3.203313508006971e-16,
+        "elements": {
+          "Cr": 1,
+          "O": 4
+        },
+        "allocation": null
+      },
+      {
+        "id": "component:K%2B",
+        "name": "K+",
+        "phase": "aqueous",
+        "amount": 0.000001999999999999305,
+        "elements": {
+          "K": 1
+        },
+        "allocation": null
+      },
+      {
+        "id": "component:Cl-",
+        "name": "Cl-",
+        "phase": "aqueous",
+        "amount": 0.009991763998176237,
+        "elements": {
+          "Cl": 1
+        },
+        "allocation": null
+      },
+      {
+        "id": "component:ClO3-",
+        "name": "ClO3-",
+        "phase": "aqueous",
+        "amount": 7.794551483248189e-36,
+        "elements": {
+          "Cl": 1,
+          "O": 3
+        },
+        "allocation": null
+      },
+      {
+        "id": "component:Cr%203%2B",
+        "name": "Cr 3+",
+        "phase": "aqueous",
+        "amount": 0.0000019275274184927368,
+        "elements": {
+          "Cr": 1
+        },
+        "allocation": null
+      },
+      {
+        "id": "component:Fe%203%2B",
+        "name": "Fe 3+",
+        "phase": "aqueous",
+        "amount": 8.846782706405147e-7,
+        "elements": {
+          "Fe": 1
+        },
+        "allocation": null
+      },
+      {
+        "id": "component:H2O2",
+        "name": "H2O2",
+        "phase": "aqueous",
+        "amount": 1.261003583571708e-22,
+        "elements": {
+          "H": 2,
+          "O": 2
+        },
+        "allocation": null
+      },
+      {
+        "id": "component:Cr%202%2B",
+        "name": "Cr 2+",
+        "phase": "aqueous",
+        "amount": 1.7682647277779743e-30,
+        "elements": {
+          "Cr": 1
+        },
+        "allocation": null
+      },
+      {
+        "id": "component:H%2B",
+        "name": "H+",
+        "phase": "aqueous",
+        "amount": 0.00997918606152992,
+        "elements": {
+          "H": 1
+        },
+        "allocation": null
+      },
+      {
+        "id": "spana:2ac52a30213c9288:96329",
+        "name": "CrOH+2",
+        "phase": "aqueous",
+        "amount": 5.319924199980472e-8,
+        "elements": {
+          "Cr": 1,
+          "H": 1,
+          "O": 1
+        },
+        "allocation": null
+      },
+      {
+        "id": "spana:2ac52a30213c9288:82236",
+        "name": "Cl2",
+        "phase": "aqueous",
+        "amount": 3.2975462553667233e-18,
+        "elements": {
+          "Cl": 2
+        },
+        "allocation": null
+      },
+      {
+        "id": "spana:2ac52a30213c9288:82394",
+        "name": "ClO-",
+        "phase": "aqueous",
+        "amount": 5.975283128180648e-23,
+        "elements": {
+          "Cl": 1,
+          "O": 1
+        },
+        "allocation": null
+      },
+      {
+        "id": "spana:2ac52a30213c9288:82497",
+        "name": "ClO2(aq)",
+        "phase": "aqueous",
+        "amount": 1.4980561423697327e-37,
+        "elements": {
+          "Cl": 1,
+          "O": 2
+        },
+        "allocation": null
+      },
+      {
+        "id": "spana:2ac52a30213c9288:82605",
+        "name": "ClO2-",
+        "phase": "aqueous",
+        "amount": 3.319516327695825e-35,
+        "elements": {
+          "Cl": 1,
+          "O": 2
+        },
+        "allocation": null
+      },
+      {
+        "id": "spana:2ac52a30213c9288:93605",
+        "name": "Cr(OH)2+",
+        "phase": "aqueous",
+        "amount": 2.86292732899607e-12,
+        "elements": {
+          "Cr": 1,
+          "H": 2,
+          "O": 2
+        },
+        "allocation": null
+      },
+      {
+        "id": "spana:2ac52a30213c9288:93695",
+        "name": "Cr(OH)3",
+        "phase": "aqueous",
+        "amount": 1.3113396841597058e-16,
+        "elements": {
+          "Cr": 1,
+          "H": 3,
+          "O": 3
+        },
+        "allocation": null
+      },
+      {
+        "id": "spana:2ac52a30213c9288:93970",
+        "name": "Cr(OH)4-",
+        "phase": "aqueous",
+        "amount": 7.737846035461841e-26,
+        "elements": {
+          "Cr": 1,
+          "H": 4,
+          "O": 4
+        },
+        "allocation": null
+      },
+      {
+        "id": "spana:2ac52a30213c9288:94615",
+        "name": "Cr2(OH)2+4",
+        "phase": "aqueous",
+        "amount": 3.249457706373762e-13,
+        "elements": {
+          "Cr": 2,
+          "H": 2,
+          "O": 2
+        },
+        "allocation": null
+      },
+      {
+        "id": "spana:2ac52a30213c9288:94892",
+        "name": "Cr2O7-2",
+        "phase": "aqueous",
+        "amount": 3.543146669343226e-21,
+        "elements": {
+          "Cr": 2,
+          "O": 7
+        },
+        "allocation": null
+      },
+      {
+        "id": "spana:2ac52a30213c9288:94983",
+        "name": "Cr3(OH)4+5",
+        "phase": "aqueous",
+        "amount": 5.11235746687551e-18,
+        "elements": {
+          "Cr": 3,
+          "H": 4,
+          "O": 4
+        },
+        "allocation": null
+      },
+      {
+        "id": "spana:2ac52a30213c9288:95316",
+        "name": "CrCl+2",
+        "phase": "aqueous",
+        "amount": 1.9259399065593367e-8,
+        "elements": {
+          "Cr": 1,
+          "Cl": 1
+        },
+        "allocation": null
+      },
+      {
+        "id": "spana:2ac52a30213c9288:96242",
+        "name": "CrOH+",
+        "phase": "aqueous",
+        "amount": 1.8554624250425907e-33,
+        "elements": {
+          "Cr": 1,
+          "H": 1,
+          "O": 1
+        },
+        "allocation": null
+      },
+      {
+        "id": "spana:2ac52a30213c9288:130813",
+        "name": "Fe(OH)2",
+        "phase": "aqueous",
+        "amount": 3.508664474454412e-27,
+        "elements": {
+          "Fe": 1,
+          "H": 2,
+          "O": 2
+        },
+        "allocation": null
+      },
+      {
+        "id": "spana:2ac52a30213c9288:131002",
+        "name": "Fe(OH)2+",
+        "phase": "aqueous",
+        "amount": 1.4079755724104776e-7,
+        "elements": {
+          "Fe": 1,
+          "H": 2,
+          "O": 2
+        },
+        "allocation": null
+      },
+      {
+        "id": "spana:2ac52a30213c9288:131099",
+        "name": "Fe(OH)3",
+        "phase": "aqueous",
+        "amount": 8.902254380102191e-13,
+        "elements": {
+          "Fe": 1,
+          "H": 3,
+          "O": 3
+        },
+        "allocation": null
+      },
+      {
+        "id": "spana:2ac52a30213c9288:131406",
+        "name": "Fe(OH)3-",
+        "phase": "aqueous",
+        "amount": 8.831749034199732e-39,
+        "elements": {
+          "Fe": 1,
+          "H": 3,
+          "O": 3
+        },
+        "allocation": null
+      },
+      {
+        "id": "spana:2ac52a30213c9288:131496",
+        "name": "Fe(OH)4-",
+        "phase": "aqueous",
+        "amount": 2.240809205214606e-20,
+        "elements": {
+          "Fe": 1,
+          "H": 4,
+          "O": 4
+        },
+        "allocation": null
+      },
+      {
+        "id": "spana:2ac52a30213c9288:131586",
+        "name": "Fe(OH)4-2",
+        "phase": "aqueous",
+        "amount": 1.402657374611815e-48,
+        "elements": {
+          "Fe": 1,
+          "H": 4,
+          "O": 4
+        },
+        "allocation": null
+      },
+      {
+        "id": "spana:2ac52a30213c9288:133463",
+        "name": "Fe2(OH)2+4",
+        "phase": "aqueous",
+        "amount": 1.1895439168598254e-11,
+        "elements": {
+          "Fe": 2,
+          "H": 2,
+          "O": 2
+        },
+        "allocation": null
+      },
+      {
+        "id": "spana:2ac52a30213c9288:135482",
+        "name": "FeCl+",
+        "phase": "aqueous",
+        "amount": 6.96585207142752e-13,
+        "elements": {
+          "Fe": 1,
+          "Cl": 1
+        },
+        "allocation": null
+      },
+      {
+        "id": "spana:2ac52a30213c9288:135557",
+        "name": "FeCl+2",
+        "phase": "aqueous",
+        "amount": 2.927032387583351e-7,
+        "elements": {
+          "Fe": 1,
+          "Cl": 1
+        },
+        "allocation": null
+      },
+      {
+        "id": "spana:2ac52a30213c9288:135630",
+        "name": "FeCl2+",
+        "phase": "aqueous",
+        "amount": 1.4657830507968934e-8,
+        "elements": {
+          "Fe": 1,
+          "Cl": 2
+        },
+        "allocation": null
+      },
+      {
+        "id": "spana:2ac52a30213c9288:135711",
+        "name": "FeCl3",
+        "phase": "aqueous",
+        "amount": 9.240848775018285e-12,
+        "elements": {
+          "Fe": 1,
+          "Cl": 3
+        },
+        "allocation": null
+      },
+      {
+        "id": "spana:2ac52a30213c9288:135791",
+        "name": "FeCl4-",
+        "phase": "aqueous",
+        "amount": 9.233238010281858e-16,
+        "elements": {
+          "Fe": 1,
+          "Cl": 4
+        },
+        "allocation": null
+      },
+      {
+        "id": "spana:2ac52a30213c9288:135872",
+        "name": "FeClO3+2",
+        "phase": "aqueous",
+        "amount": 2.180602422575139e-41,
+        "elements": {
+          "Fe": 1,
+          "Cl": 1,
+          "O": 3
+        },
+        "allocation": null
+      },
+      {
+        "id": "spana:2ac52a30213c9288:136221",
+        "name": "FeCrO4+",
+        "phase": "aqueous",
+        "amount": 1.7880711886852068e-14,
+        "elements": {
+          "Fe": 1,
+          "Cr": 1,
+          "O": 4
+        },
+        "allocation": null
+      },
+      {
+        "id": "spana:2ac52a30213c9288:138672",
+        "name": "FeO4-2",
+        "phase": "aqueous",
+        "amount": 8.2676910796512345e-53,
+        "elements": {
+          "Fe": 1,
+          "O": 4
+        },
+        "allocation": null
+      },
+      {
+        "id": "spana:2ac52a30213c9288:138873",
+        "name": "FeOH 2+",
+        "phase": "aqueous",
+        "amount": 6.276105569878382e-7,
+        "elements": {
+          "Fe": 1,
+          "H": 1,
+          "O": 1
+        },
+        "allocation": null
+      },
+      {
+        "id": "spana:2ac52a30213c9288:138969",
+        "name": "FeOH+",
+        "phase": "aqueous",
+        "amount": 1.1072277447071592e-17,
+        "elements": {
+          "Fe": 1,
+          "H": 1,
+          "O": 1
+        },
+        "allocation": null
+      },
+      {
+        "id": "spana:2ac52a30213c9288:151381",
+        "name": "H2",
+        "phase": "aqueous",
+        "amount": 1.607991242798838e-41,
+        "elements": {
+          "H": 2
+        },
+        "allocation": null
+      },
+      {
+        "id": "spana:2ac52a30213c9288:151977",
+        "name": "H2CrO4",
+        "phase": "aqueous",
+        "amount": 6.513129080316366e-14,
+        "elements": {
+          "H": 2,
+          "Cr": 1,
+          "O": 4
+        },
+        "allocation": null
+      },
+      {
+        "id": "spana:2ac52a30213c9288:159033",
+        "name": "HCl",
+        "phase": "aqueous",
+        "amount": 0.000019894695102080285,
+        "elements": {
+          "H": 1,
+          "Cl": 1
+        },
+        "allocation": null
+      },
+      {
+        "id": "spana:2ac52a30213c9288:159101",
+        "name": "HClO",
+        "phase": "aqueous",
+        "amount": 1.5683883528450128e-17,
+        "elements": {
+          "H": 1,
+          "Cl": 1,
+          "O": 1
+        },
+        "allocation": null
+      },
+      {
+        "id": "spana:2ac52a30213c9288:159212",
+        "name": "HClO2",
+        "phase": "aqueous",
+        "amount": 3.237202963203284e-35,
+        "elements": {
+          "H": 1,
+          "Cl": 1,
+          "O": 2
+        },
+        "allocation": null
+      },
+      {
+        "id": "spana:2ac52a30213c9288:159826",
+        "name": "HCrO4-",
+        "phase": "aqueous",
+        "amount": 1.0344144179060808e-11,
+        "elements": {
+          "H": 1,
+          "Cr": 1,
+          "O": 4
+        },
+        "allocation": null
+      },
+      {
+        "id": "spana:2ac52a30213c9288:175307",
+        "name": "HO2-",
+        "phase": "aqueous",
+        "amount": 2.8289234822820754e-32,
+        "elements": {
+          "H": 1,
+          "O": 2
+        },
+        "allocation": null
+      },
+      {
+        "id": "spana:2ac52a30213c9288:188418",
+        "name": "KCr2O7-",
+        "phase": "aqueous",
+        "amount": 4.077736194765059e-26,
+        "elements": {
+          "K": 1,
+          "Cr": 2,
+          "O": 7
+        },
+        "allocation": null
+      },
+      {
+        "id": "spana:2ac52a30213c9288:188521",
+        "name": "KCrO4-",
+        "phase": "aqueous",
+        "amount": 2.3802876361340396e-21,
+        "elements": {
+          "K": 1,
+          "Cr": 1,
+          "O": 4
+        },
+        "allocation": null
+      },
+      {
+        "id": "spana:2ac52a30213c9288:189498",
+        "name": "KOH",
+        "phase": "aqueous",
+        "amount": 6.949201033320556e-19,
+        "elements": {
+          "K": 1,
+          "H": 1,
+          "O": 1
+        },
+        "allocation": null
+      },
+      {
+        "id": "spana:2ac52a30213c9288:249989",
+        "name": "O2",
+        "phase": "aqueous",
+        "amount": 2.712892853682524e-11,
+        "elements": {
+          "O": 2
+        },
+        "allocation": null
+      },
+      {
+        "id": "spana:2ac52a30213c9288:250161",
+        "name": "O3",
+        "phase": "aqueous",
+        "amount": 9.820847387499101e-43,
+        "elements": {
+          "O": 3
+        },
+        "allocation": null
+      },
+      {
+        "id": "spana:2ac52a30213c9288:250448",
+        "name": "OH-",
+        "phase": "aqueous",
+        "amount": 9.98630623770518e-13,
+        "elements": {
+          "H": 1,
+          "O": 1
+        },
+        "allocation": null
+      },
+      {
+        "id": "spana:2ac52a30213c9288:93877",
+        "name": "Cr(OH)3(cr)",
+        "phase": "solid",
+        "amount": 0,
+        "elements": {
+          "Cr": 1,
+          "H": 3,
+          "O": 3
+        },
+        "allocation": null
+      },
+      {
+        "id": "spana:2ac52a30213c9288:94801",
+        "name": "Cr2O3(cr)",
+        "phase": "solid",
+        "amount": 0,
+        "elements": {
+          "Cr": 2,
+          "O": 3
+        },
+        "allocation": null
+      },
+      {
+        "id": "spana:2ac52a30213c9288:127500",
+        "name": "Fe(cr)",
+        "phase": "solid",
+        "amount": 0,
+        "elements": {
+          "Fe": 1
+        },
+        "allocation": null
+      },
+      {
+        "id": "spana:2ac52a30213c9288:130902",
+        "name": "Fe(OH)2(cr)",
+        "phase": "solid",
+        "amount": 0,
+        "elements": {
+          "Fe": 1,
+          "H": 2,
+          "O": 2
+        },
+        "allocation": null
+      },
+      {
+        "id": "spana:2ac52a30213c9288:131188",
+        "name": "Fe(OH)3(am)",
+        "phase": "solid",
+        "amount": 0,
+        "elements": {
+          "Fe": 1,
+          "H": 3,
+          "O": 3
+        },
+        "allocation": null
+      },
+      {
+        "id": "spana:2ac52a30213c9288:131294",
+        "name": "Fe(OH)3(s)",
+        "phase": "solid",
+        "amount": 0,
+        "elements": {
+          "Fe": 1,
+          "H": 3,
+          "O": 3
+        },
+        "allocation": null
+      },
+      {
+        "id": "spana:2ac52a30213c9288:133739",
+        "name": "Fe2O3(cr)",
+        "phase": "solid",
+        "amount": 0.0000020196894034631827,
+        "elements": {
+          "Fe": 2,
+          "O": 3
+        },
+        "allocation": null
+      },
+      {
+        "id": "spana:2ac52a30213c9288:134486",
+        "name": "Fe3O4(cr)",
+        "phase": "solid",
+        "amount": 0,
+        "elements": {
+          "Fe": 3,
+          "O": 4
+        },
+        "allocation": null
+      },
+      {
+        "id": "spana:2ac52a30213c9288:139276",
+        "name": "FeOOH(cr)",
+        "phase": "solid",
+        "amount": 0,
+        "elements": {
+          "Fe": 1,
+          "H": 1,
+          "O": 2
+        },
+        "allocation": null
+      }
+    ],
+    "elements": {
+      "Fe": {
+        "total": 0.0000060000000000003474,
+        "dissolved": 0.0000019606211930739816,
+        "solidBound": 0.0000040393788069263654,
+        "states": {
+          "2": 1.3910158538876777e-10
+        },
+        "unresolved": 0.000005999860898414958
+      },
+      "Cr": {
+        "total": 0.000001999999999999999,
+        "dissolved": 0.000001999999999999999,
+        "solidBound": 0,
+        "states": {},
+        "unresolved": 0.000001999999999999999
+      },
+      "K": {
+        "total": 0.0000020000000000000025,
+        "dissolved": 0.0000020000000000000025,
+        "solidBound": 0,
+        "states": {},
+        "unresolved": 0.0000020000000000000025
+      },
+      "Cl": {
+        "total": 0.010012000000000004,
+        "dissolved": 0.010012000000000004,
+        "solidBound": 0,
+        "states": {},
+        "unresolved": 0.010012000000000004
+      }
+    },
+    "elementalMetadata": "available",
+    "acceptedSolids": [
+      {
+        "id": "spana:2ac52a30213c9288:133739",
+        "name": "Fe2O3(cr)",
+        "amount": 0.0000020196894034631827,
+        "logSaturation": 0,
+        "status": "present",
+        "activity": 1
+      }
+    ],
+    "redistribution": {
+      "status": "unavailable",
+      "reason": "Dependent reaction extents; no unique source-reaction basis decomposition."
+    },
+    "scientificStatus": "Conditional source scope; equilibrium only, no kinetics or radicals modeled."
+  },
+  "conservation": {
+    "nonRedoxReactions": [
+      {
+        "reactionId": "spana:2ac52a30213c9288:130813",
+        "residual": 1.7763568394002505e-15,
+        "limit": 1.0173126113169109e-10,
+        "ok": true
+      },
+      {
+        "reactionId": "spana:2ac52a30213c9288:131002",
+        "residual": 3.552713678800501e-15,
+        "limit": 1.006169338257499e-10,
+        "ok": true
+      },
+      {
+        "reactionId": "spana:2ac52a30213c9288:131099",
+        "residual": 3.552713678800501e-15,
+        "limit": 1.0102620644154771e-10,
+        "ok": true
+      },
+      {
+        "reactionId": "spana:2ac52a30213c9288:131406",
+        "residual": -1.7763568394002505e-15,
+        "limit": 1.0250433162819807e-10,
+        "ok": true
+      },
+      {
+        "reactionId": "spana:2ac52a30213c9288:131496",
+        "residual": 7.105427357601002e-15,
+        "limit": 1.0157190326261148e-10,
+        "ok": true
+      },
+      {
+        "reactionId": "spana:2ac52a30213c9288:131586",
+        "residual": 1.7763568394002505e-15,
+        "limit": 1.031750839707556e-10,
+        "ok": true
+      },
+      {
+        "reactionId": "spana:2ac52a30213c9288:133463",
+        "residual": 1.0658141036401503e-14,
+        "limit": 1.0084846927162352e-10,
+        "ok": true
+      },
+      {
+        "reactionId": "spana:2ac52a30213c9288:135482",
+        "residual": -4.440892098500626e-16,
+        "limit": 1.0069104690695474e-10,
+        "ok": true
+      },
+      {
+        "reactionId": "spana:2ac52a30213c9288:135557",
+        "residual": 3.1086244689504383e-15,
+        "limit": 1.0045779259335607e-10,
+        "ok": true
+      },
+      {
+        "reactionId": "spana:2ac52a30213c9288:135630",
+        "residual": 7.993605777301127e-15,
+        "limit": 1.0057149977149413e-10,
+        "ok": true
+      },
+      {
+        "reactionId": "spana:2ac52a30213c9288:135711",
+        "residual": 1.7763568394002505e-15,
+        "limit": 1.0068520694963218e-10,
+        "ok": true
+      },
+      {
+        "reactionId": "spana:2ac52a30213c9288:135791",
+        "residual": 1.7763568394002505e-15,
+        "limit": 1.0085462067825382e-10,
+        "ok": true
+      },
+      {
+        "reactionId": "spana:2ac52a30213c9288:135872",
+        "residual": 0,
+        "limit": 1.0233975603747261e-10,
+        "ok": true
+      },
+      {
+        "reactionId": "spana:2ac52a30213c9288:136221",
+        "residual": 3.552713678800501e-15,
+        "limit": 1.01224840115957e-10,
+        "ok": true
+      },
+      {
+        "reactionId": "spana:2ac52a30213c9288:138873",
+        "residual": 3.552713678800501e-15,
+        "limit": 1.0046629876576876e-10,
+        "ok": true
+      },
+      {
+        "reactionId": "spana:2ac52a30213c9288:138969",
+        "residual": 0,
+        "limit": 1.010775618147918e-10,
+        "ok": true
+      },
+      {
+        "reactionId": "spana:2ac52a30213c9288:151977",
+        "residual": 0,
+        "limit": 1.0110823124911601e-10,
+        "ok": true
+      },
+      {
+        "reactionId": "spana:2ac52a30213c9288:159033",
+        "residual": -4.440892098500626e-16,
+        "limit": 1.0026723584552914e-10,
+        "ok": true
+      },
+      {
+        "reactionId": "spana:2ac52a30213c9288:159826",
+        "residual": 0,
+        "limit": 1.0099449297492749e-10,
+        "ok": true
+      },
+      {
+        "reactionId": "spana:2ac52a30213c9288:175307",
+        "residual": -3.552713678800501e-15,
+        "limit": 1.0190705598465851e-10,
+        "ok": true
+      },
+      {
+        "reactionId": "spana:2ac52a30213c9288:188418",
+        "residual": 0,
+        "limit": 1.0231293488888664e-10,
+        "ok": true
+      },
+      {
+        "reactionId": "spana:2ac52a30213c9288:188521",
+        "residual": -1.7763568394002505e-15,
+        "limit": 1.0120470363977064e-10,
+        "ok": true
+      },
+      {
+        "reactionId": "spana:2ac52a30213c9288:189498",
+        "residual": -1.7763568394002505e-15,
+        "limit": 1.0114590477575895e-10,
+        "ok": true
+      },
+      {
+        "reactionId": "spana:2ac52a30213c9288:250448",
+        "residual": 0,
+        "limit": 1.0079589312917961e-10,
+        "ok": true
+      },
+      {
+        "reactionId": "spana:2ac52a30213c9288:93605",
+        "residual": 1.7763568394002505e-15,
+        "limit": 1.0088363091410462e-10,
+        "ok": true
+      },
+      {
+        "reactionId": "spana:2ac52a30213c9288:93695",
+        "residual": 1.7763568394002505e-15,
+        "limit": 1.0124401818968214e-10,
+        "ok": true
+      },
+      {
+        "reactionId": "spana:2ac52a30213c9288:93970",
+        "residual": 3.552713678800501e-15,
+        "limit": 1.0188236978348902e-10,
+        "ok": true
+      },
+      {
+        "reactionId": "spana:2ac52a30213c9288:94615",
+        "residual": 4.440892098500626e-15,
+        "limit": 1.0093734791284145e-10,
+        "ok": true
+      },
+      {
+        "reactionId": "spana:2ac52a30213c9288:94892",
+        "residual": 0,
+        "limit": 1.0198898594985498e-10,
+        "ok": true
+      },
+      {
+        "reactionId": "spana:2ac52a30213c9288:94983",
+        "residual": 1.5987211554602254e-14,
+        "limit": 1.0143785418382422e-10,
+        "ok": true
+      },
+      {
+        "reactionId": "spana:2ac52a30213c9288:95316",
+        "residual": 1.3322676295501878e-15,
+        "limit": 1.0043856728484093e-10,
+        "ok": true
+      },
+      {
+        "reactionId": "spana:2ac52a30213c9288:96242",
+        "residual": -3.552713678800501e-15,
+        "limit": 1.0197431135779971e-10,
+        "ok": true
+      },
+      {
+        "reactionId": "spana:2ac52a30213c9288:96329",
+        "residual": 5.773159728050814e-15,
+        "limit": 1.0052722267784736e-10,
+        "ok": true
+      }
+    ],
+    "waterBalance": {
+      "convention": "Unit solvent-water activity; conserved solute H-2O, no finite water inventory.",
+      "logActivity": 0,
+      "initialSoluteH": 0.010002,
+      "initialSoluteO": 0.000008,
+      "finalSoluteH": 0.010000043205856245,
+      "finalSoluteO": 0.000007021602927995314,
+      "waterToSolutes": -9.78397072004686e-7,
+      "residual": 2.542691263703739e-16,
+      "limit": 1.2086217094304042e-12,
+      "ok": true
+    },
+    "pH": 2.000904879895163,
+    "protonConvention": "Derived from closed solute inventories; no imposed proton activity.",
+    "inventories": [
+      {
+        "key": "Cl",
+        "total": 0.010012,
+        "actual": 0.010012000000000004,
+        "residual": 3.469446951953614e-18,
+        "limit": 1.029621709430404e-12,
+        "ok": true
+      },
+      {
+        "key": "Cr",
+        "total": 0.000002,
+        "actual": 0.000001999999999999999,
+        "residual": -8.470329472543003e-22,
+        "limit": 6.842170943040401e-14,
+        "ok": true
+      },
+      {
+        "key": "Fe",
+        "total": 0.000006,
+        "actual": 0.0000060000000000003474,
+        "residual": 3.4728350837426314e-19,
+        "limit": 4.842170943040401e-14,
+        "ok": true
+      },
+      {
+        "key": "K",
+        "total": 0.000002,
+        "actual": 0.0000020000000000000025,
+        "residual": 2.541098841762901e-21,
+        "limit": 4.842170943040401e-14,
+        "ok": true
+      },
+      {
+        "key": "H-2O",
+        "total": 0.009986,
+        "actual": 0.00998600000000026,
+        "residual": 2.6020852139652106e-16,
+        "limit": 1.2086217094304042e-12,
+        "ok": true
+      },
+      {
+        "key": "charge",
+        "total": 0,
+        "actual": 2.545711957094639e-16,
+        "residual": 2.545711957094639e-16,
+        "limit": 2.169821709430404e-12,
+        "ok": true
+      }
+    ],
+    "potentials": [
+      {
+        "reactionId": "spana:2ac52a30213c9288:126513",
+        "electronCoefficient": 1,
+        "pe": 16.854453280490187,
+        "Eh": 0.9970984953663458,
+        "peErrorBound": 1.0082311778896443e-10,
+        "difference": 0,
+        "agreementLimit": 2.0164623557792886e-10,
+        "ok": true
+      },
+      {
+        "reactionId": "spana:2ac52a30213c9288:126584",
+        "electronCoefficient": -1,
+        "pe": 16.854453280490187,
+        "Eh": 0.9970984953663458,
+        "peErrorBound": 1.0082311778896443e-10,
+        "difference": 0,
+        "agreementLimit": 2.0164623557792886e-10,
+        "ok": true
+      },
+      {
+        "reactionId": "spana:2ac52a30213c9288:138672",
+        "electronCoefficient": -3,
+        "pe": 16.85445328049019,
+        "Eh": 0.9970984953663459,
+        "peErrorBound": 3.5102519085901925e-11,
+        "difference": 3.552713678800501e-15,
+        "agreementLimit": 1.3592563687486636e-10,
+        "ok": true
+      },
+      {
+        "reactionId": "spana:2ac52a30213c9288:151381",
+        "electronCoefficient": 2,
+        "pe": 16.854453280490194,
+        "Eh": 0.9970984953663461,
+        "peErrorBound": 5.068039477810887e-11,
+        "difference": 7.105427357601002e-15,
+        "agreementLimit": 1.515035125670733e-10,
+        "ok": true
+      },
+      {
+        "reactionId": "spana:2ac52a30213c9288:152743",
+        "electronCoefficient": -2,
+        "pe": 16.85445328049019,
+        "Eh": 0.9970984953663459,
+        "peErrorBound": 5.121518572539997e-11,
+        "difference": 3.552713678800501e-15,
+        "agreementLimit": 1.520383035143644e-10,
+        "ok": true
+      },
+      {
+        "reactionId": "spana:2ac52a30213c9288:159101",
+        "electronCoefficient": -2,
+        "pe": 16.854453280490194,
+        "Eh": 0.9970984953663461,
+        "peErrorBound": 5.101351544549004e-11,
+        "difference": 7.105427357601002e-15,
+        "agreementLimit": 1.5183663323445447e-10,
+        "ok": true
+      },
+      {
+        "reactionId": "spana:2ac52a30213c9288:159212",
+        "electronCoefficient": -4,
+        "pe": 16.85445328049019,
+        "Eh": 0.9970984953663459,
+        "peErrorBound": 2.6054466043675145e-11,
+        "difference": 3.552713678800501e-15,
+        "agreementLimit": 1.2687758383263958e-10,
+        "ok": true
+      },
+      {
+        "reactionId": "spana:2ac52a30213c9288:249989",
+        "electronCoefficient": -4,
+        "pe": 16.85445328049019,
+        "Eh": 0.9970984953663459,
+        "peErrorBound": 2.5742930601504378e-11,
+        "difference": 3.552713678800501e-15,
+        "agreementLimit": 1.265660483904688e-10,
+        "ok": true
+      },
+      {
+        "reactionId": "spana:2ac52a30213c9288:250161",
+        "electronCoefficient": -6,
+        "pe": 16.85445328049019,
+        "Eh": 0.9970984953663459,
+        "peErrorBound": 1.765741562659788e-11,
+        "difference": 3.552713678800501e-15,
+        "agreementLimit": 1.184805334155623e-10,
+        "ok": true
+      },
+      {
+        "reactionId": "spana:2ac52a30213c9288:82236",
+        "electronCoefficient": -2,
+        "pe": 16.854453280490194,
+        "Eh": 0.9970984953663461,
+        "peErrorBound": 5.097589527241241e-11,
+        "difference": 7.105427357601002e-15,
+        "agreementLimit": 1.5179901306137685e-10,
+        "ok": true
+      },
+      {
+        "reactionId": "spana:2ac52a30213c9288:82394",
+        "electronCoefficient": -2,
+        "pe": 16.85445328049019,
+        "Eh": 0.9970984953663459,
+        "peErrorBound": 5.122440452946364e-11,
+        "difference": 3.552713678800501e-15,
+        "agreementLimit": 1.5204752231842807e-10,
+        "ok": true
+      },
+      {
+        "reactionId": "spana:2ac52a30213c9288:82497",
+        "electronCoefficient": -5,
+        "pe": 16.854453280490194,
+        "Eh": 0.9970984953663461,
+        "peErrorBound": 2.0988668769322938e-11,
+        "difference": 7.105427357601002e-15,
+        "agreementLimit": 1.2181178655828736e-10,
+        "ok": true
+      },
+      {
+        "reactionId": "spana:2ac52a30213c9288:82605",
+        "electronCoefficient": -4,
+        "pe": 16.85445328049019,
+        "Eh": 0.9970984953663459,
+        "peErrorBound": 2.6082745644558398e-11,
+        "difference": 3.552713678800501e-15,
+        "agreementLimit": 1.2690586343352283e-10,
+        "ok": true
+      },
+      {
+        "reactionId": "spana:2ac52a30213c9288:82715",
+        "electronCoefficient": -6,
+        "pe": 16.854453280490194,
+        "Eh": 0.9970984953663461,
+        "peErrorBound": 1.7592049084977357e-11,
+        "difference": 7.105427357601002e-15,
+        "agreementLimit": 1.1841516687394178e-10,
+        "ok": true
+      },
+      {
+        "reactionId": "spana:2ac52a30213c9288:91458",
+        "electronCoefficient": 1,
+        "pe": 16.85445328049019,
+        "Eh": 0.9970984953663459,
+        "peErrorBound": 1.0121219875812647e-10,
+        "difference": 3.552713678800501e-15,
+        "agreementLimit": 2.0203531654709092e-10,
+        "ok": true
+      },
+      {
+        "reactionId": "spana:2ac52a30213c9288:91532",
+        "electronCoefficient": -1,
+        "pe": 16.85445328049019,
+        "Eh": 0.9970984953663459,
+        "peErrorBound": 1.0121219875812647e-10,
+        "difference": 3.552713678800501e-15,
+        "agreementLimit": 2.0203531654709092e-10,
+        "ok": true
+      },
+      {
+        "reactionId": "spana:2ac52a30213c9288:91606",
+        "electronCoefficient": 3,
+        "pe": 16.854453280490194,
+        "Eh": 0.9970984953663461,
+        "peErrorBound": 3.440925267182878e-11,
+        "difference": 7.105427357601002e-15,
+        "agreementLimit": 1.352323704607932e-10,
+        "ok": true
+      },
+      {
+        "reactionId": "spana:2ac52a30213c9288:96141",
+        "electronCoefficient": -3,
+        "pe": 16.854453280490194,
+        "Eh": 0.9970984953663461,
+        "peErrorBound": 3.440925267182878e-11,
+        "difference": 7.105427357601002e-15,
+        "agreementLimit": 1.352323704607932e-10,
+        "ok": true
+      }
+    ],
+    "netReactions": [
+      {
+        "sourceIds": [
+          "spana:2ac52a30213c9288:126513",
+          "spana:2ac52a30213c9288:126584"
+        ],
+        "residual": 0,
+        "limit": 2.000284217094304e-10,
+        "ok": true
+      },
+      {
+        "sourceIds": [
+          "spana:2ac52a30213c9288:126513",
+          "spana:2ac52a30213c9288:138672"
+        ],
+        "residual": 1.4210854715202004e-14,
+        "limit": 4.020874892925349e-10,
+        "ok": true
+      },
+      {
+        "sourceIds": [
+          "spana:2ac52a30213c9288:126513",
+          "spana:2ac52a30213c9288:151381"
+        ],
+        "residual": 1.0658141036401503e-14,
+        "limit": 3.008294875897263e-10,
+        "ok": true
+      },
+      {
+        "sourceIds": [
+          "spana:2ac52a30213c9288:126513",
+          "spana:2ac52a30213c9288:152743"
+        ],
+        "residual": 0,
+        "limit": 3.0095235463959397e-10,
+        "ok": true
+      },
+      {
+        "sourceIds": [
+          "spana:2ac52a30213c9288:126513",
+          "spana:2ac52a30213c9288:159101"
+        ],
+        "residual": 1.0658141036401503e-14,
+        "limit": 3.0069383077061503e-10,
+        "ok": true
+      },
+      {
+        "sourceIds": [
+          "spana:2ac52a30213c9288:126513",
+          "spana:2ac52a30213c9288:159212"
+        ],
+        "residual": 2.1316282072803006e-14,
+        "limit": 5.015264163266693e-10,
+        "ok": true
+      },
+      {
+        "sourceIds": [
+          "spana:2ac52a30213c9288:126513",
+          "spana:2ac52a30213c9288:249989"
+        ],
+        "residual": 2.1316282072803006e-14,
+        "limit": 5.009601990313968e-10,
+        "ok": true
+      },
+      {
+        "sourceIds": [
+          "spana:2ac52a30213c9288:126513",
+          "spana:2ac52a30213c9288:250161"
+        ],
+        "residual": 2.842170943040401e-14,
+        "limit": 7.021837536223757e-10,
+        "ok": true
+      },
+      {
+        "sourceIds": [
+          "spana:2ac52a30213c9288:126513",
+          "spana:2ac52a30213c9288:82236"
+        ],
+        "residual": 1.4210854715202004e-14,
+        "limit": 3.0059935700846835e-10,
+        "ok": true
+      },
+      {
+        "sourceIds": [
+          "spana:2ac52a30213c9288:126513",
+          "spana:2ac52a30213c9288:82394"
+        ],
+        "residual": 1.0658141036401503e-14,
+        "limit": 3.0090471985458863e-10,
+        "ok": true
+      },
+      {
+        "sourceIds": [
+          "spana:2ac52a30213c9288:126513",
+          "spana:2ac52a30213c9288:82497"
+        ],
+        "residual": 2.842170943040401e-14,
+        "limit": 6.017577406197234e-10,
+        "ok": true
+      },
+      {
+        "sourceIds": [
+          "spana:2ac52a30213c9288:126513",
+          "spana:2ac52a30213c9288:82605"
+        ],
+        "residual": 1.4210854715202004e-14,
+        "limit": 5.015829755284358e-10,
+        "ok": true
+      },
+      {
+        "sourceIds": [
+          "spana:2ac52a30213c9288:126513",
+          "spana:2ac52a30213c9288:82715"
+        ],
+        "residual": 2.842170943040401e-14,
+        "limit": 7.019308004084452e-10,
+        "ok": true
+      },
+      {
+        "sourceIds": [
+          "spana:2ac52a30213c9288:126513",
+          "spana:2ac52a30213c9288:91458"
+        ],
+        "residual": 0,
+        "limit": 2.005750848686148e-10,
+        "ok": true
+      },
+      {
+        "sourceIds": [
+          "spana:2ac52a30213c9288:126513",
+          "spana:2ac52a30213c9288:91532"
+        ],
+        "residual": 0,
+        "limit": 2.005750848686148e-10,
+        "ok": true
+      },
+      {
+        "sourceIds": [
+          "spana:2ac52a30213c9288:126513",
+          "spana:2ac52a30213c9288:91606"
+        ],
+        "residual": 2.1316282072803006e-14,
+        "limit": 4.0105720232568276e-10,
+        "ok": true
+      },
+      {
+        "sourceIds": [
+          "spana:2ac52a30213c9288:126513",
+          "spana:2ac52a30213c9288:96141"
+        ],
+        "residual": 2.1316282072803006e-14,
+        "limit": 4.0105720232568276e-10,
+        "ok": true
+      }
+    ],
+    "pe": 16.854453280490187,
+    "Eh": 0.9970984953663458,
+    "potentialConvention": "Derived from supplied half-reaction standard states; not an imposed reservoir.",
+    "chargePolicy": "Explicit electroneutral reagent preparation; physical charge residual independently checked."
+  },
+  "solids": [
+    {
+      "id": "spana:2ac52a30213c9288:127500",
+      "name": "Fe(cr)",
+      "amount": 0,
+      "logSaturation": -59.45557448115607,
+      "status": "absent",
+      "activity": null
+    },
+    {
+      "id": "spana:2ac52a30213c9288:130902",
+      "name": "Fe(OH)2(cr)",
+      "amount": 0,
+      "logSaturation": -18.154858160385352,
+      "status": "absent",
+      "activity": null
+    },
+    {
+      "id": "spana:2ac52a30213c9288:131188",
+      "name": "Fe(OH)3(am)",
+      "amount": 0,
+      "logSaturation": -4.9505,
+      "status": "absent",
+      "activity": null
+    },
+    {
+      "id": "spana:2ac52a30213c9288:131294",
+      "name": "Fe(OH)3(s)",
+      "amount": 0,
+      "logSaturation": -3.4804999999999993,
+      "status": "absent",
+      "activity": null
+    },
+    {
+      "id": "spana:2ac52a30213c9288:133739",
+      "name": "Fe2O3(cr)",
+      "amount": 0.0000020196894034631827,
+      "logSaturation": 0,
+      "status": "present",
+      "activity": 1
+    },
+    {
+      "id": "spana:2ac52a30213c9288:134486",
+      "name": "Fe3O4(cr)",
+      "amount": 0,
+      "logSaturation": -16.294858160385353,
+      "status": "absent",
+      "activity": null
+    },
+    {
+      "id": "spana:2ac52a30213c9288:139276",
+      "name": "FeOOH(cr)",
+      "amount": 0,
+      "logSaturation": -0.22049999999999947,
+      "status": "absent",
+      "activity": null
+    },
+    {
+      "id": "spana:2ac52a30213c9288:93877",
+      "name": "Cr(OH)3(cr)",
+      "amount": 0,
+      "logSaturation": -9.042284795840331,
+      "status": "absent",
+      "activity": null
+    },
+    {
+      "id": "spana:2ac52a30213c9288:94801",
+      "name": "Cr2O3(cr)",
+      "amount": 0,
+      "logSaturation": -14.904569591680664,
+      "status": "absent",
+      "activity": null
+    }
+  ],
+  "phaseSelection": {
+    "policy": "closed-pure-solid-active-set-v1",
+    "limit": 24,
+    "history": [
+      {
+        "activeIds": [],
+        "action": "admit-supersaturated",
+        "changedId": "spana:2ac52a30213c9288:133739"
+      },
+      {
+        "activeIds": [
+          "spana:2ac52a30213c9288:133739"
+        ],
+        "action": "check-complete",
+        "changedId": null
+      }
+    ]
+  },
+  "reference": {
+    "method": "Independent raw-source-coordinate Newton and bounded active-phase changes; no production imports",
+    "names": [
+      "Fe 2+",
+      "CrO4 2-",
+      "K+",
+      "Cl-",
+      "H+",
+      "e-"
+    ],
+    "total": [
+      0.000006,
+      0.000002,
+      0.000002,
+      0.010012,
+      0.010002,
+      0
+    ],
+    "logs": [
+      -9.85666792017284,
+      -15.494400554902455,
+      -5.698970004336171,
+      -2.0003578323901468,
+      -2.000904879895163,
+      -16.854453280487352
+    ],
+    "pH": 2.000904879895163,
+    "pe": 16.854453280487352,
+    "iterations": 9,
+    "history": [
+      {
+        "activeIds": [],
+        "maximumScaledResidual": 1.0587911840678754e-14,
+        "phases": [
+          {
+            "id": "spana:2ac52a30213c9288:82314",
+            "amount": 0,
+            "logSaturation": -16.07032712792158
+          },
+          {
+            "id": "spana:2ac52a30213c9288:92135",
+            "amount": 0,
+            "logSaturation": -94.25067977022961
+          },
+          {
+            "id": "spana:2ac52a30213c9288:93513",
+            "amount": 0,
+            "logSaturation": -36.84053568441367
+          },
+          {
+            "id": "spana:2ac52a30213c9288:93784",
+            "amount": 0,
+            "logSaturation": -11.710963641505714
+          },
+          {
+            "id": "spana:2ac52a30213c9288:93877",
+            "amount": 0,
+            "logSaturation": -9.040963641505712
+          },
+          {
+            "id": "spana:2ac52a30213c9288:94801",
+            "amount": 0,
+            "logSaturation": -14.901927283011418
+          },
+          {
+            "id": "spana:2ac52a30213c9288:95613",
+            "amount": 0,
+            "logSaturation": -114.73725181313758
+          },
+          {
+            "id": "spana:2ac52a30213c9288:95947",
+            "amount": 0,
+            "logSaturation": -5.504391598597742
+          },
+          {
+            "id": "spana:2ac52a30213c9288:96049",
+            "amount": 0,
+            "logSaturation": -15.791247512781796
+          },
+          {
+            "id": "spana:2ac52a30213c9288:127500",
+            "amount": 0,
+            "logSaturation": -59.27232987004631
+          },
+          {
+            "id": "spana:2ac52a30213c9288:130902",
+            "amount": 0,
+            "logSaturation": -17.769185784230377
+          },
+          {
+            "id": "spana:2ac52a30213c9288:131188",
+            "amount": 0,
+            "logSaturation": -4.463613741322408
+          },
+          {
+            "id": "spana:2ac52a30213c9288:131294",
+            "amount": 0,
+            "logSaturation": -2.9936137413224095
+          },
+          {
+            "id": "spana:2ac52a30213c9288:132744",
+            "amount": 0,
+            "logSaturation": -16.026187353067225
+          },
+          {
+            "id": "spana:2ac52a30213c9288:133739",
+            "amount": 0,
+            "logSaturation": 0.973772517355183
+          },
+          {
+            "id": "spana:2ac52a30213c9288:134486",
+            "amount": 0,
+            "logSaturation": -14.935413266875187
+          },
+          {
+            "id": "spana:2ac52a30213c9288:136105",
+            "amount": 0,
+            "logSaturation": -26.691113067241815
+          },
+          {
+            "id": "spana:2ac52a30213c9288:138772",
+            "amount": 0,
+            "logSaturation": -8.115349348191167
+          },
+          {
+            "id": "spana:2ac52a30213c9288:139063",
+            "amount": 0,
+            "logSaturation": -55.254861254104206
+          },
+          {
+            "id": "spana:2ac52a30213c9288:139158",
+            "amount": 0,
+            "logSaturation": -215.68208873674902
+          },
+          {
+            "id": "spana:2ac52a30213c9288:139276",
+            "amount": 0,
+            "logSaturation": 0.266386258677592
+          },
+          {
+            "id": "spana:2ac52a30213c9288:151531",
+            "amount": 0,
+            "logSaturation": -37.91314408581594
+          },
+          {
+            "id": "spana:2ac52a30213c9288:187224",
+            "amount": 0,
+            "logSaturation": -72.14419214830795
+          },
+          {
+            "id": "spana:2ac52a30213c9288:188345",
+            "amount": 0,
+            "logSaturation": -8.599355712268736
+          },
+          {
+            "id": "spana:2ac52a30213c9288:188780",
+            "amount": 0,
+            "logSaturation": -22.37095635493079
+          },
+          {
+            "id": "spana:2ac52a30213c9288:250070",
+            "amount": 0,
+            "logSaturation": -7.26371182836813
+          },
+          {
+            "id": "spana:2ac52a30213c9288:250265",
+            "amount": 0,
+            "logSaturation": -39.49056774255217
+          }
+        ]
+      },
+      {
+        "activeIds": [
+          "spana:2ac52a30213c9288:133739"
+        ],
+        "maximumScaledResidual": 5.872761767629471e-14,
+        "phases": [
+          {
+            "id": "spana:2ac52a30213c9288:82314",
+            "amount": 0,
+            "logSaturation": -16.271809103805587
+          },
+          {
+            "id": "spana:2ac52a30213c9288:92135",
+            "amount": 0,
+            "logSaturation": -93.94835927698789
+          },
+          {
+            "id": "spana:2ac52a30213c9288:93513",
+            "amount": 0,
+            "logSaturation": -36.740642956222835
+          },
+          {
+            "id": "spana:2ac52a30213c9288:93784",
+            "amount": 0,
+            "logSaturation": -11.712284795840333
+          },
+          {
+            "id": "spana:2ac52a30213c9288:93877",
+            "amount": 0,
+            "logSaturation": -9.042284795840331
+          },
+          {
+            "id": "spana:2ac52a30213c9288:94801",
+            "amount": 0,
+            "logSaturation": -14.904569591680655
+          },
+          {
+            "id": "spana:2ac52a30213c9288:95613",
+            "amount": 0,
+            "logSaturation": -114.3337174373704
+          },
+          {
+            "id": "spana:2ac52a30213c9288:95947",
+            "amount": 0,
+            "logSaturation": -5.6069266354578176
+          },
+          {
+            "id": "spana:2ac52a30213c9288:96049",
+            "amount": 0,
+            "logSaturation": -16.096210314692783
+          },
+          {
+            "id": "spana:2ac52a30213c9288:127500",
+            "amount": 0,
+            "logSaturation": -59.45557448114754
+          },
+          {
+            "id": "spana:2ac52a30213c9288:130902",
+            "amount": 0,
+            "logSaturation": -18.154858160382517
+          },
+          {
+            "id": "spana:2ac52a30213c9288:131188",
+            "amount": 0,
+            "logSaturation": -4.9505
+          },
+          {
+            "id": "spana:2ac52a30213c9288:131294",
+            "amount": 0,
+            "logSaturation": -3.480500000000001
+          },
+          {
+            "id": "spana:2ac52a30213c9288:132744",
+            "amount": 0,
+            "logSaturation": -16.39939909566448
+          },
+          {
+            "id": "spana:2ac52a30213c9288:133739",
+            "amount": 0.000002019689403463189,
+            "logSaturation": 0
+          },
+          {
+            "id": "spana:2ac52a30213c9288:134486",
+            "amount": 0,
+            "logSaturation": -16.29485816038251
+          },
+          {
+            "id": "spana:2ac52a30213c9288:136105",
+            "amount": 0,
+            "logSaturation": -27.079427752063197
+          },
+          {
+            "id": "spana:2ac52a30213c9288:138772",
+            "amount": 0,
+            "logSaturation": -8.601762712285309
+          },
+          {
+            "id": "spana:2ac52a30213c9288:139063",
+            "amount": 0,
+            "logSaturation": -56.04671031469278
+          },
+          {
+            "id": "spana:2ac52a30213c9288:139158",
+            "amount": 0,
+            "logSaturation": -217.44771031469278
+          },
+          {
+            "id": "spana:2ac52a30213c9288:139276",
+            "amount": 0,
+            "logSaturation": -0.22049999999999947
+          },
+          {
+            "id": "spana:2ac52a30213c9288:151531",
+            "amount": 0,
+            "logSaturation": -37.71071632076503
+          },
+          {
+            "id": "spana:2ac52a30213c9288:187224",
+            "amount": 0,
+            "logSaturation": -72.04342328482352
+          },
+          {
+            "id": "spana:2ac52a30213c9288:188345",
+            "amount": 0,
+            "logSaturation": -8.599327836726317
+          },
+          {
+            "id": "spana:2ac52a30213c9288:188780",
+            "amount": 0,
+            "logSaturation": -24.441985753826565
+          },
+          {
+            "id": "spana:2ac52a30213c9288:250070",
+            "amount": 0,
+            "logSaturation": -7.668567358469943
+          },
+          {
+            "id": "spana:2ac52a30213c9288:250265",
+            "amount": 0,
+            "logSaturation": -40.097851037704885
+          }
+        ]
+      }
+    ],
+    "phases": [
+      {
+        "id": "spana:2ac52a30213c9288:82314",
+        "name": "Cl2(g)",
+        "k": -45.98,
+        "v": [
+          0,
+          0,
+          0,
+          2,
+          0,
+          -2
+        ],
+        "phase": "gas",
+        "terms": [
+          {
+            "name": "Cl-",
+            "coefficient": 2
+          },
+          {
+            "name": "e-",
+            "coefficient": -2
+          }
+        ],
+        "logK": -45.98,
+        "reference": "Codata: Cox J D, Wagman D D, Medvedev V A, CODATA Key Values for Thermodynamics. Hemisphere Publ. Co., New York, 1989\n\n88Sho/Hel: Shock E L, Helgeson H C; Geochim. Cosmochim. Acta 52 (1988) 2009-2036; and \"ERRATA\", ibid, 53 (1989) p.215",
+        "amount": 0,
+        "logSaturation": -16.271809103805587
+      },
+      {
+        "id": "spana:2ac52a30213c9288:92135",
+        "name": "Cr(cr)",
+        "k": 38.67999999999999,
+        "v": [
+          0,
+          1,
+          0,
+          0,
+          8,
+          6
+        ],
+        "phase": "solid",
+        "terms": [
+          {
+            "name": "Cr 3+",
+            "coefficient": 1
+          },
+          {
+            "name": "e-",
+            "coefficient": 3
+          }
+        ],
+        "logK": -37.67,
+        "reference": "1997BP-Cr: Beverskog B, Puigdomenech I; Corrosion Science 39 (1997) 43-57",
+        "amount": 0,
+        "logSaturation": -93.94835927698789
+      },
+      {
+        "id": "spana:2ac52a30213c9288:93513",
+        "name": "Cr(OH)2(s)",
+        "k": 58.177,
+        "v": [
+          0,
+          1,
+          0,
+          0,
+          6,
+          4
+        ],
+        "phase": "solid",
+        "terms": [
+          {
+            "name": "Cr 2+",
+            "coefficient": 1
+          },
+          {
+            "name": "H+",
+            "coefficient": -2
+          },
+          {
+            "name": "H2O",
+            "coefficient": 2
+          }
+        ],
+        "logK": -10.99,
+        "reference": "1997BP-Cr: Beverskog B, Puigdomenech I; Corrosion Science 39 (1997) 43-57",
+        "amount": 0,
+        "logSaturation": -36.740642956222835
+      },
+      {
+        "id": "spana:2ac52a30213c9288:93784",
+        "name": "Cr(OH)3(am)",
+        "k": 64.35,
+        "v": [
+          0,
+          1,
+          0,
+          0,
+          5,
+          3
+        ],
+        "phase": "solid",
+        "terms": [
+          {
+            "name": "Cr 3+",
+            "coefficient": 1
+          },
+          {
+            "name": "H+",
+            "coefficient": -3
+          },
+          {
+            "name": "H2O",
+            "coefficient": 3
+          }
+        ],
+        "logK": -12,
+        "reference": "76Bae/Mes: Baes C. F., Jr., Mesmer R. E.,\nThe Hydrolysis of Cations. New York: J. Wiley & Sons, 1976",
+        "amount": 0,
+        "logSaturation": -11.712284795840333
+      },
+      {
+        "id": "spana:2ac52a30213c9288:93877",
+        "name": "Cr(OH)3(cr)",
+        "k": 67.02,
+        "v": [
+          0,
+          1,
+          0,
+          0,
+          5,
+          3
+        ],
+        "phase": "solid",
+        "terms": [
+          {
+            "name": "Cr 3+",
+            "coefficient": 1
+          },
+          {
+            "name": "H+",
+            "coefficient": -3
+          },
+          {
+            "name": "H2O",
+            "coefficient": 3
+          }
+        ],
+        "logK": -9.33,
+        "reference": "1997BP-Cr: Beverskog B, Puigdomenech I; Corrosion Science 39 (1997) 43-57",
+        "amount": 0,
+        "logSaturation": -9.042284795840331
+      },
+      {
+        "id": "spana:2ac52a30213c9288:94801",
+        "name": "Cr2O3(cr)",
+        "k": 137.22,
+        "v": [
+          0,
+          2,
+          0,
+          0,
+          10,
+          6
+        ],
+        "phase": "solid",
+        "terms": [
+          {
+            "name": "Cr 3+",
+            "coefficient": 2
+          },
+          {
+            "name": "H+",
+            "coefficient": -6
+          },
+          {
+            "name": "H2O",
+            "coefficient": 3
+          }
+        ],
+        "logK": -15.48,
+        "reference": "1997BP-Cr: Beverskog B, Puigdomenech I; Corrosion Science 39 (1997) 43-57",
+        "amount": 0,
+        "logSaturation": -14.904569591680655
+      },
+      {
+        "id": "spana:2ac52a30213c9288:95613",
+        "name": "CrH(s)",
+        "k": 37.14999999999999,
+        "v": [
+          0,
+          1,
+          0,
+          0,
+          9,
+          7
+        ],
+        "phase": "solid",
+        "terms": [
+          {
+            "name": "Cr 3+",
+            "coefficient": 1
+          },
+          {
+            "name": "H+",
+            "coefficient": 1
+          },
+          {
+            "name": "e-",
+            "coefficient": 4
+          }
+        ],
+        "logK": -39.2,
+        "reference": "1997BP-Cr: Beverskog B, Puigdomenech I; Corrosion Science 39 (1997) 43-57",
+        "amount": 0,
+        "logSaturation": -114.3337174373704
+      },
+      {
+        "id": "spana:2ac52a30213c9288:95947",
+        "name": "CrO2(cr)",
+        "k": 51.599999999999994,
+        "v": [
+          0,
+          1,
+          0,
+          0,
+          4,
+          2
+        ],
+        "phase": "solid",
+        "terms": [
+          {
+            "name": "Cr 3+",
+            "coefficient": 1
+          },
+          {
+            "name": "H+",
+            "coefficient": -4
+          },
+          {
+            "name": "e-",
+            "coefficient": -1
+          },
+          {
+            "name": "H2O",
+            "coefficient": 2
+          }
+        ],
+        "logK": -24.75,
+        "reference": "1997BP-Cr: Beverskog B, Puigdomenech I; Corrosion Science 39 (1997) 43-57",
+        "amount": 0,
+        "logSaturation": -5.6069266354578176
+      },
+      {
+        "id": "spana:2ac52a30213c9288:96049",
+        "name": "CrO3(cr)",
+        "k": 3.4,
+        "v": [
+          0,
+          1,
+          0,
+          0,
+          2,
+          0
+        ],
+        "phase": "solid",
+        "terms": [
+          {
+            "name": "H+",
+            "coefficient": 2
+          },
+          {
+            "name": "CrO4 2-",
+            "coefficient": 1
+          },
+          {
+            "name": "H2O",
+            "coefficient": -1
+          }
+        ],
+        "logK": 3.4,
+        "reference": "1997BP-Cr: Beverskog B, Puigdomenech I; Corrosion Science 39 (1997) 43-57",
+        "amount": 0,
+        "logSaturation": -16.096210314692783
+      },
+      {
+        "id": "spana:2ac52a30213c9288:127500",
+        "name": "Fe(cr)",
+        "k": -15.89,
+        "v": [
+          1,
+          0,
+          0,
+          0,
+          0,
+          2
+        ],
+        "phase": "solid",
+        "terms": [
+          {
+            "name": "Fe 2+",
+            "coefficient": 1
+          },
+          {
+            "name": "e-",
+            "coefficient": 2
+          }
+        ],
+        "logK": -15.89,
+        "reference": "NEA-Fe: Lemire R J, Berner U, Musikas C, Palmer D A, Taylor P, Tochiyama O, Chemical Thermodynamics of Iron. Part 1. Paris: OECD Nuclear Energy Agency (NEA), 2013",
+        "amount": 0,
+        "logSaturation": -59.45557448114754
+      },
+      {
+        "id": "spana:2ac52a30213c9288:130902",
+        "name": "Fe(OH)2(cr)",
+        "k": -12.3,
+        "v": [
+          1,
+          0,
+          0,
+          0,
+          -2,
+          0
+        ],
+        "phase": "solid",
+        "terms": [
+          {
+            "name": "Fe 2+",
+            "coefficient": 1
+          },
+          {
+            "name": "H+",
+            "coefficient": -2
+          },
+          {
+            "name": "H2O",
+            "coefficient": 2
+          }
+        ],
+        "logK": -12.3,
+        "reference": "2016BE: Brown P L, Ekberg C; Hydrolysis of Metal Ions. Weinheim, Germany: Wiley-VCH Verlag GmbH & Co. KGaA, 2016\n\n91Kna/Kub: Knacke O, Kubaschewski O, Hesselmann K; Thermochemical Properties of Inorganic Substances. Springer-Verlag, Berlin, 1991, 2 ed.",
+        "amount": 0,
+        "logSaturation": -18.154858160382517
+      },
+      {
+        "id": "spana:2ac52a30213c9288:131188",
+        "name": "Fe(OH)3(am)",
+        "k": -17.951,
+        "v": [
+          1,
+          0,
+          0,
+          0,
+          -3,
+          -1
+        ],
+        "phase": "solid",
+        "terms": [
+          {
+            "name": "Fe 3+",
+            "coefficient": 1
+          },
+          {
+            "name": "H+",
+            "coefficient": -3
+          },
+          {
+            "name": "H2O",
+            "coefficient": 3
+          }
+        ],
+        "logK": -4.9,
+        "reference": "1990NP: Nordstrom D K, Plummer L N, Langmuir D, Busenberg E, May H M, Jones B F, Parkhurst D L; in \"Chemical Modeling Of Aqueous Systems II\" (D C Melchior and R L Basett, eds.). Washington, D.C.: A.C.S.Symp.Ser. 416, Amer.Chem.Soc., 1990, pp.398-413.\n\nNEA-Fe: Lemire R J, Berner U, Musikas C, Palmer D A, Taylor P, Tochiyama O, Chemical Thermodynamics of Iron. Part 1. Paris: OECD Nuclear Energy Agency (NEA), 2013",
+        "amount": 0,
+        "logSaturation": -4.9505
+      },
+      {
+        "id": "spana:2ac52a30213c9288:131294",
+        "name": "Fe(OH)3(s)",
+        "k": -16.481,
+        "v": [
+          1,
+          0,
+          0,
+          0,
+          -3,
+          -1
+        ],
+        "phase": "solid",
+        "terms": [
+          {
+            "name": "Fe 3+",
+            "coefficient": 1
+          },
+          {
+            "name": "H+",
+            "coefficient": -3
+          },
+          {
+            "name": "H2O",
+            "coefficient": 3
+          }
+        ],
+        "logK": -3.43,
+        "reference": "NEA-Fe: Lemire R J, Berner U, Musikas C, Palmer D A, Taylor P, Tochiyama O, Chemical Thermodynamics of Iron. Part 1. Paris: OECD Nuclear Energy Agency (NEA), 2013",
+        "amount": 0,
+        "logSaturation": -3.480500000000001
+      },
+      {
+        "id": "spana:2ac52a30213c9288:132744",
+        "name": "Fe0.932O(cr)",
+        "k": -13.507,
+        "v": [
+          0.932,
+          0,
+          0,
+          0,
+          -2,
+          -0.136
+        ],
+        "phase": "solid",
+        "terms": [
+          {
+            "name": "Fe 2+",
+            "coefficient": 0.932
+          },
+          {
+            "name": "H+",
+            "coefficient": -2
+          },
+          {
+            "name": "e-",
+            "coefficient": -0.136
+          },
+          {
+            "name": "H2O",
+            "coefficient": 1
+          }
+        ],
+        "logK": -13.507,
+        "reference": "NEA-Fe: Lemire R J, Berner U, Musikas C, Palmer D A, Taylor P, Tochiyama O, Chemical Thermodynamics of Iron. Part 1. Paris: OECD Nuclear Energy Agency (NEA), 2013",
+        "amount": 0,
+        "logSaturation": -16.39939909566448
+      },
+      {
+        "id": "spana:2ac52a30213c9288:133739",
+        "name": "Fe2O3(cr)",
+        "k": -26.001,
+        "v": [
+          2,
+          0,
+          0,
+          0,
+          -6,
+          -2
+        ],
+        "phase": "solid",
+        "terms": [
+          {
+            "name": "Fe 3+",
+            "coefficient": 2
+          },
+          {
+            "name": "H+",
+            "coefficient": -6
+          },
+          {
+            "name": "H2O",
+            "coefficient": 3
+          }
+        ],
+        "logK": 0.101,
+        "reference": "NEA-Fe: Lemire R J, Berner U, Musikas C, Palmer D A, Taylor P, Tochiyama O, Chemical Thermodynamics of Iron. Part 1. Paris: OECD Nuclear Energy Agency (NEA), 2013",
+        "amount": 0.000002019689403463189,
+        "logSaturation": 0
+      },
+      {
+        "id": "spana:2ac52a30213c9288:134486",
+        "name": "Fe3O4(cr)",
+        "k": -36.440999999999995,
+        "v": [
+          3,
+          0,
+          0,
+          0,
+          -8,
+          -2
+        ],
+        "phase": "solid",
+        "terms": [
+          {
+            "name": "Fe 3+",
+            "coefficient": 3
+          },
+          {
+            "name": "H+",
+            "coefficient": -8
+          },
+          {
+            "name": "e-",
+            "coefficient": 1
+          },
+          {
+            "name": "H2O",
+            "coefficient": 4
+          }
+        ],
+        "logK": 2.712,
+        "reference": "NEA-Fe: Lemire R J, Berner U, Musikas C, Palmer D A, Taylor P, Tochiyama O, Chemical Thermodynamics of Iron. Part 1. Paris: OECD Nuclear Energy Agency (NEA), 2013",
+        "amount": 0,
+        "logSaturation": -16.29485816038251
+      },
+      {
+        "id": "spana:2ac52a30213c9288:136105",
+        "name": "FeCr2O4(cr)",
+        "k": 130.89999999999998,
+        "v": [
+          1,
+          2,
+          0,
+          0,
+          8,
+          6
+        ],
+        "phase": "solid",
+        "terms": [
+          {
+            "name": "Cr 3+",
+            "coefficient": 2
+          },
+          {
+            "name": "Fe 2+",
+            "coefficient": 1
+          },
+          {
+            "name": "H2O",
+            "coefficient": 4
+          },
+          {
+            "name": "H+",
+            "coefficient": -8
+          }
+        ],
+        "logK": -21.8,
+        "reference": "93Kub/Alc: Kubaschewski O, Alcock C B, Spencer P J; Materials Thermochemistry. Pergamon Press, Oxford, 1993, 6th ed.",
+        "amount": 0,
+        "logSaturation": -27.079427752063197
+      },
+      {
+        "id": "spana:2ac52a30213c9288:138772",
+        "name": "FeOCl(cr)",
+        "k": -17.601,
+        "v": [
+          1,
+          0,
+          0,
+          1,
+          -2,
+          -1
+        ],
+        "phase": "solid",
+        "terms": [
+          {
+            "name": "Fe 3+",
+            "coefficient": 1
+          },
+          {
+            "name": "H+",
+            "coefficient": -2
+          },
+          {
+            "name": "Cl-",
+            "coefficient": 1
+          },
+          {
+            "name": "H2O",
+            "coefficient": 1
+          }
+        ],
+        "logK": -4.55,
+        "reference": "NEA-Fe: Lemire R J, Berner U, Musikas C, Palmer D A, Taylor P, Tochiyama O, Chemical Thermodynamics of Iron. Part 1. Paris: OECD Nuclear Energy Agency (NEA), 2013",
+        "amount": 0,
+        "logSaturation": -8.601762712285309
+      },
+      {
+        "id": "spana:2ac52a30213c9288:139063",
+        "name": "FeOHCrO4(cr)",
+        "k": -49.551,
+        "v": [
+          1,
+          1,
+          0,
+          0,
+          -1,
+          -1
+        ],
+        "phase": "solid",
+        "terms": [
+          {
+            "name": "Fe 3+",
+            "coefficient": 1
+          },
+          {
+            "name": "H+",
+            "coefficient": -1
+          },
+          {
+            "name": "CrO4 2-",
+            "coefficient": 1
+          }
+        ],
+        "logK": -36.5,
+        "reference": "1993ON: Olazabal M A, Nikolaidis N, Suib S, Madariaga J M; Study of the precipitation equilibrium and adsorption process in the Cr(VI)/Fe(III) system. In XX Annual Congress IV Spanish-Italian Congress on Thermodynamics of Metal Complexes, p. 18. Gruppo di Termodinamica dei Complessi, Proc. of a congress held in Rome, Italy, June, 1993.",
+        "amount": 0,
+        "logSaturation": -56.04671031469278
+      },
+      {
+        "id": "spana:2ac52a30213c9288:139158",
+        "name": "FeOHCrO4·2Fe(OH)3(cr)",
+        "k": -236.953,
+        "v": [
+          3,
+          1,
+          0,
+          0,
+          -7,
+          -3
+        ],
+        "phase": "solid",
+        "terms": [
+          {
+            "name": "Fe 3+",
+            "coefficient": 3
+          },
+          {
+            "name": "H+",
+            "coefficient": -7
+          },
+          {
+            "name": "CrO4 2-",
+            "coefficient": 1
+          },
+          {
+            "name": "H2O",
+            "coefficient": 7
+          }
+        ],
+        "logK": -197.8,
+        "reference": "1993ON: Olazabal M A, Nikolaidis N, Suib S, Madariaga J M; Study of the precipitation equilibrium and adsorption process in the Cr(VI)/Fe(III) system. In XX Annual Congress IV Spanish-Italian Congress on Thermodynamics of Metal Complexes, p. 18. Gruppo di Termodinamica dei Complessi, Proc. of a congress held in Rome, Italy, June, 1993.",
+        "amount": 0,
+        "logSaturation": -217.44771031469278
+      },
+      {
+        "id": "spana:2ac52a30213c9288:139276",
+        "name": "FeOOH(cr)",
+        "k": -13.221,
+        "v": [
+          1,
+          0,
+          0,
+          0,
+          -3,
+          -1
+        ],
+        "phase": "solid",
+        "terms": [
+          {
+            "name": "Fe 3+",
+            "coefficient": 1
+          },
+          {
+            "name": "H+",
+            "coefficient": -3
+          },
+          {
+            "name": "H2O",
+            "coefficient": 2
+          }
+        ],
+        "logK": -0.17,
+        "reference": "NEA-Fe: Lemire R J, Berner U, Musikas C, Palmer D A, Taylor P, Tochiyama O, Chemical Thermodynamics of Iron. Part 1. Paris: OECD Nuclear Energy Agency (NEA), 2013",
+        "amount": 0,
+        "logSaturation": -0.22049999999999947
+      },
+      {
+        "id": "spana:2ac52a30213c9288:151531",
+        "name": "H2(g)",
+        "k": 0,
+        "v": [
+          0,
+          0,
+          0,
+          0,
+          2,
+          2
+        ],
+        "phase": "gas",
+        "terms": [
+          {
+            "name": "H+",
+            "coefficient": 2
+          },
+          {
+            "name": "e-",
+            "coefficient": 2
+          }
+        ],
+        "logK": 0,
+        "reference": "82NBS: Wagman D D, Evans W H, Parker V B, Schumm R H, Halow I, Bailey S M, Churney K L, Nuttall R L; The NBS tables of chemical thermodynamic properties: Selected values for inorganic and C1 and C2 organic substances in SI units. J. Phys. Chem. Ref. Data 11, Suppl. No.2, 1982",
+        "amount": 0,
+        "logSaturation": -37.71071632076503
+      },
+      {
+        "id": "spana:2ac52a30213c9288:187224",
+        "name": "K(cr)",
+        "k": -49.49,
+        "v": [
+          0,
+          0,
+          1,
+          0,
+          0,
+          1
+        ],
+        "phase": "solid",
+        "terms": [
+          {
+            "name": "K+",
+            "coefficient": 1
+          },
+          {
+            "name": "e-",
+            "coefficient": 1
+          }
+        ],
+        "logK": -49.49,
+        "reference": "Codata: Cox J D, Wagman D D, Medvedev V A, CODATA Key Values for Thermodynamics. Hemisphere Publ. Co., New York, 1989",
+        "amount": 0,
+        "logSaturation": -72.04342328482352
+      },
+      {
+        "id": "spana:2ac52a30213c9288:188345",
+        "name": "KCl(s)",
+        "k": -0.9,
+        "v": [
+          0,
+          0,
+          1,
+          1,
+          0,
+          0
+        ],
+        "phase": "solid",
+        "terms": [
+          {
+            "name": "K+",
+            "coefficient": 1
+          },
+          {
+            "name": "Cl-",
+            "coefficient": 1
+          }
+        ],
+        "logK": -0.9,
+        "reference": "SmithMart: NIST Standard Reference Database 46 Version 8.\nNIST Critically Selected Stability Constants of Metal Complexes Database\nhttp://www.nist.gov/srd/nist46.cfm\nNational Institute of Standards and Technology, 100 Bureau Dr., Stop 2300, Gaithersburg, MD",
+        "amount": 0,
+        "logSaturation": -8.599327836726317
+      },
+      {
+        "id": "spana:2ac52a30213c9288:188780",
+        "name": "KFe3(CrO4)2(OH)6(s)",
+        "k": -20.753,
+        "v": [
+          3,
+          2,
+          1,
+          0,
+          -6,
+          -3
+        ],
+        "phase": "solid",
+        "terms": [
+          {
+            "name": "Fe 3+",
+            "coefficient": 3
+          },
+          {
+            "name": "H+",
+            "coefficient": -6
+          },
+          {
+            "name": "CrO4 2-",
+            "coefficient": 2
+          },
+          {
+            "name": "K+",
+            "coefficient": 1
+          },
+          {
+            "name": "H2O",
+            "coefficient": 6
+          }
+        ],
+        "logK": 18.4,
+        "reference": "1996BPd: Baron D, Palmer C D; Geochim. Cosmochim. Acta 60 (1996) 3815-3824",
+        "amount": 0,
+        "logSaturation": -24.441985753826565
+      },
+      {
+        "id": "spana:2ac52a30213c9288:250070",
+        "name": "O2(g)",
+        "k": -83.09,
+        "v": [
+          0,
+          0,
+          0,
+          0,
+          -4,
+          -4
+        ],
+        "phase": "gas",
+        "terms": [
+          {
+            "name": "H+",
+            "coefficient": -4
+          },
+          {
+            "name": "e-",
+            "coefficient": -4
+          },
+          {
+            "name": "H2O",
+            "coefficient": 2
+          }
+        ],
+        "logK": -83.09,
+        "reference": "Codata: Cox J D, Wagman D D, Medvedev V A, CODATA Key Values for Thermodynamics. Hemisphere Publ. Co., New York, 1989\n\n95Rob/Hem: Robie R A, Hemingway B S; Thermodynamic properties of minerals and related substances at 298.15 K and 1 bar (10^5 pascals) pressure and at higher temperatures. U.S. Geological Survey Bulletin 2131. Washington, DC: U.S. Goverment Printing Office, 1995",
+        "amount": 0,
+        "logSaturation": -7.668567358469943
+      },
+      {
+        "id": "spana:2ac52a30213c9288:250265",
+        "name": "O3(g)",
+        "k": -153.23,
+        "v": [
+          0,
+          0,
+          0,
+          0,
+          -6,
+          -6
+        ],
+        "phase": "gas",
+        "terms": [
+          {
+            "name": "H+",
+            "coefficient": -6
+          },
+          {
+            "name": "e-",
+            "coefficient": -6
+          },
+          {
+            "name": "H2O",
+            "coefficient": 3
+          }
+        ],
+        "logK": -153.23,
+        "reference": "82NBS: Wagman D D, Evans W H, Parker V B, Schumm R H, Halow I, Bailey S M, Churney K L, Nuttall R L; The NBS tables of chemical thermodynamic properties: Selected values for inorganic and C1 and C2 organic substances in SI units. J. Phys. Chem. Ref. Data 11, Suppl. No.2, 1982",
+        "amount": 0,
+        "logSaturation": -40.097851037704885
+      }
+    ],
+    "carriers": [
+      {
+        "id": "Fe 2+",
+        "name": "Fe 2+",
+        "amount": 1.3910158538967584e-10,
+        "coefficients": [
+          1,
+          0,
+          0,
+          0,
+          0,
+          0
+        ]
+      },
+      {
+        "id": "CrO4 2-",
+        "name": "CrO4 2-",
+        "amount": 3.2033135079441066e-16,
+        "coefficients": [
+          0,
+          1,
+          0,
+          0,
+          0,
+          0
+        ]
+      },
+      {
+        "id": "K+",
+        "name": "K+",
+        "amount": 0.0000019999999999993007,
+        "coefficients": [
+          0,
+          0,
+          1,
+          0,
+          0,
+          0
+        ]
+      },
+      {
+        "id": "Cl-",
+        "name": "Cl-",
+        "amount": 0.009991763998176237,
+        "coefficients": [
+          0,
+          0,
+          0,
+          1,
+          0,
+          0
+        ]
+      },
+      {
+        "id": "H+",
+        "name": "H+",
+        "amount": 0.00997918606152992,
+        "coefficients": [
+          0,
+          0,
+          0,
+          0,
+          1,
+          0
+        ]
+      },
+      {
+        "id": "spana:2ac52a30213c9288:82236",
+        "name": "Cl2",
+        "amount": 3.2975462553235625e-18,
+        "coefficients": [
+          0,
+          0,
+          0,
+          2,
+          0,
+          -2
+        ]
+      },
+      {
+        "id": "spana:2ac52a30213c9288:82394",
+        "name": "ClO-",
+        "amount": 5.975283128102537e-23,
+        "coefficients": [
+          0,
+          0,
+          0,
+          1,
+          -2,
+          -2
+        ]
+      },
+      {
+        "id": "spana:2ac52a30213c9288:82497",
+        "name": "ClO2(aq)",
+        "amount": 1.4980561423207138e-37,
+        "coefficients": [
+          0,
+          0,
+          0,
+          1,
+          -4,
+          -5
+        ]
+      },
+      {
+        "id": "spana:2ac52a30213c9288:82605",
+        "name": "ClO2-",
+        "amount": 3.319516327608983e-35,
+        "coefficients": [
+          0,
+          0,
+          0,
+          1,
+          -4,
+          -4
+        ]
+      },
+      {
+        "id": "spana:2ac52a30213c9288:82715",
+        "name": "ClO3-",
+        "amount": 7.794551482942637e-36,
+        "coefficients": [
+          0,
+          0,
+          0,
+          1,
+          -6,
+          -6
+        ]
+      },
+      {
+        "id": "spana:2ac52a30213c9288:91606",
+        "name": "Cr 3+",
+        "amount": 0.000001927527418492721,
+        "coefficients": [
+          0,
+          1,
+          0,
+          0,
+          8,
+          3
+        ]
+      },
+      {
+        "id": "spana:2ac52a30213c9288:93605",
+        "name": "Cr(OH)2+",
+        "amount": 2.8629273289960933e-12,
+        "coefficients": [
+          0,
+          1,
+          0,
+          0,
+          6,
+          3
+        ]
+      },
+      {
+        "id": "spana:2ac52a30213c9288:93695",
+        "name": "Cr(OH)3",
+        "amount": 1.3113396841597006e-16,
+        "coefficients": [
+          0,
+          1,
+          0,
+          0,
+          5,
+          3
+        ]
+      },
+      {
+        "id": "spana:2ac52a30213c9288:93970",
+        "name": "Cr(OH)4-",
+        "amount": 7.737846035461714e-26,
+        "coefficients": [
+          0,
+          1,
+          0,
+          0,
+          4,
+          3
+        ]
+      },
+      {
+        "id": "spana:2ac52a30213c9288:94615",
+        "name": "Cr2(OH)2+4",
+        "amount": 3.2494577063736027e-13,
+        "coefficients": [
+          0,
+          2,
+          0,
+          0,
+          14,
+          6
+        ]
+      },
+      {
+        "id": "spana:2ac52a30213c9288:94892",
+        "name": "Cr2O7-2",
+        "amount": 3.5431466692041586e-21,
+        "coefficients": [
+          0,
+          2,
+          0,
+          0,
+          2,
+          0
+        ]
+      },
+      {
+        "id": "spana:2ac52a30213c9288:94983",
+        "name": "Cr3(OH)4+5",
+        "amount": 5.1123574668754685e-18,
+        "coefficients": [
+          0,
+          3,
+          0,
+          0,
+          20,
+          9
+        ]
+      },
+      {
+        "id": "spana:2ac52a30213c9288:95316",
+        "name": "CrCl+2",
+        "amount": 1.9259399065592973e-8,
+        "coefficients": [
+          0,
+          1,
+          0,
+          1,
+          8,
+          3
+        ]
+      },
+      {
+        "id": "spana:2ac52a30213c9288:96329",
+        "name": "CrOH+2",
+        "amount": 5.3199241999802876e-8,
+        "coefficients": [
+          0,
+          1,
+          0,
+          0,
+          7,
+          3
+        ]
+      },
+      {
+        "id": "spana:2ac52a30213c9288:126584",
+        "name": "Fe 3+",
+        "amount": 8.846782706405147e-7,
+        "coefficients": [
+          1,
+          0,
+          0,
+          0,
+          0,
+          -1
+        ]
+      },
+      {
+        "id": "spana:2ac52a30213c9288:130813",
+        "name": "Fe(OH)2",
+        "amount": 3.508664474477317e-27,
+        "coefficients": [
+          1,
+          0,
+          0,
+          0,
+          -2,
+          0
+        ]
+      },
+      {
+        "id": "spana:2ac52a30213c9288:131002",
+        "name": "Fe(OH)2+",
+        "amount": 1.4079755724104688e-7,
+        "coefficients": [
+          1,
+          0,
+          0,
+          0,
+          -2,
+          -1
+        ]
+      },
+      {
+        "id": "spana:2ac52a30213c9288:131099",
+        "name": "Fe(OH)3",
+        "amount": 8.902254380102081e-13,
+        "coefficients": [
+          1,
+          0,
+          0,
+          0,
+          -3,
+          -1
+        ]
+      },
+      {
+        "id": "spana:2ac52a30213c9288:131406",
+        "name": "Fe(OH)3-",
+        "amount": 8.831749034257384e-39,
+        "coefficients": [
+          1,
+          0,
+          0,
+          0,
+          -3,
+          0
+        ]
+      },
+      {
+        "id": "spana:2ac52a30213c9288:131496",
+        "name": "Fe(OH)4-",
+        "amount": 2.2408092052145508e-20,
+        "coefficients": [
+          1,
+          0,
+          0,
+          0,
+          -4,
+          -1
+        ]
+      },
+      {
+        "id": "spana:2ac52a30213c9288:131586",
+        "name": "Fe(OH)4-2",
+        "amount": 1.4026573746209713e-48,
+        "coefficients": [
+          1,
+          0,
+          0,
+          0,
+          -4,
+          0
+        ]
+      },
+      {
+        "id": "spana:2ac52a30213c9288:133463",
+        "name": "Fe2(OH)2+4",
+        "amount": 1.1895439168597962e-11,
+        "coefficients": [
+          2,
+          0,
+          0,
+          0,
+          -2,
+          -2
+        ]
+      },
+      {
+        "id": "spana:2ac52a30213c9288:135482",
+        "name": "FeCl+",
+        "amount": 6.965852071472993e-13,
+        "coefficients": [
+          1,
+          0,
+          0,
+          1,
+          0,
+          0
+        ]
+      },
+      {
+        "id": "spana:2ac52a30213c9288:135557",
+        "name": "FeCl+2",
+        "amount": 2.9270323875833273e-7,
+        "coefficients": [
+          1,
+          0,
+          0,
+          1,
+          0,
+          -1
+        ]
+      },
+      {
+        "id": "spana:2ac52a30213c9288:135630",
+        "name": "FeCl2+",
+        "amount": 1.4657830507968694e-8,
+        "coefficients": [
+          1,
+          0,
+          0,
+          2,
+          0,
+          -1
+        ]
+      },
+      {
+        "id": "spana:2ac52a30213c9288:135711",
+        "name": "FeCl3",
+        "amount": 9.240848775018246e-12,
+        "coefficients": [
+          1,
+          0,
+          0,
+          3,
+          0,
+          -1
+        ]
+      },
+      {
+        "id": "spana:2ac52a30213c9288:135791",
+        "name": "FeCl4-",
+        "amount": 9.23323801028182e-16,
+        "coefficients": [
+          1,
+          0,
+          0,
+          4,
+          0,
+          -1
+        ]
+      },
+      {
+        "id": "spana:2ac52a30213c9288:135872",
+        "name": "FeClO3+2",
+        "amount": 2.1806024224897293e-41,
+        "coefficients": [
+          1,
+          0,
+          0,
+          1,
+          -6,
+          -7
+        ]
+      },
+      {
+        "id": "spana:2ac52a30213c9288:136221",
+        "name": "FeCrO4+",
+        "amount": 1.7880711886501015e-14,
+        "coefficients": [
+          1,
+          1,
+          0,
+          0,
+          0,
+          -1
+        ]
+      },
+      {
+        "id": "spana:2ac52a30213c9288:138672",
+        "name": "FeO4-2",
+        "amount": 8.267691079489186e-53,
+        "coefficients": [
+          1,
+          0,
+          0,
+          0,
+          -8,
+          -4
+        ]
+      },
+      {
+        "id": "spana:2ac52a30213c9288:138873",
+        "name": "FeOH 2+",
+        "amount": 6.27610556987833e-7,
+        "coefficients": [
+          1,
+          0,
+          0,
+          0,
+          -1,
+          -1
+        ]
+      },
+      {
+        "id": "spana:2ac52a30213c9288:138969",
+        "name": "FeOH+",
+        "amount": 1.1072277447143871e-17,
+        "coefficients": [
+          1,
+          0,
+          0,
+          0,
+          -1,
+          0
+        ]
+      },
+      {
+        "id": "spana:2ac52a30213c9288:151381",
+        "name": "H2",
+        "amount": 1.6079912428198843e-41,
+        "coefficients": [
+          0,
+          0,
+          0,
+          0,
+          2,
+          2
+        ]
+      },
+      {
+        "id": "spana:2ac52a30213c9288:151977",
+        "name": "H2CrO4",
+        "amount": 6.513129080188547e-14,
+        "coefficients": [
+          0,
+          1,
+          0,
+          0,
+          2,
+          0
+        ]
+      },
+      {
+        "id": "spana:2ac52a30213c9288:152743",
+        "name": "H2O2",
+        "amount": 1.2610035835552238e-22,
+        "coefficients": [
+          0,
+          0,
+          0,
+          0,
+          -2,
+          -2
+        ]
+      },
+      {
+        "id": "spana:2ac52a30213c9288:159033",
+        "name": "HCl",
+        "amount": 0.000019894695102080285,
+        "coefficients": [
+          0,
+          0,
+          0,
+          1,
+          1,
+          0
+        ]
+      },
+      {
+        "id": "spana:2ac52a30213c9288:159101",
+        "name": "HClO",
+        "amount": 1.5683883528244975e-17,
+        "coefficients": [
+          0,
+          0,
+          0,
+          1,
+          -1,
+          -2
+        ]
+      },
+      {
+        "id": "spana:2ac52a30213c9288:159212",
+        "name": "HClO2",
+        "amount": 3.237202963118595e-35,
+        "coefficients": [
+          0,
+          0,
+          0,
+          1,
+          -3,
+          -4
+        ]
+      },
+      {
+        "id": "spana:2ac52a30213c9288:159826",
+        "name": "HCrO4-",
+        "amount": 1.0344144178857806e-11,
+        "coefficients": [
+          0,
+          1,
+          0,
+          0,
+          1,
+          0
+        ]
+      },
+      {
+        "id": "spana:2ac52a30213c9288:175307",
+        "name": "HO2-",
+        "amount": 2.8289234822450483e-32,
+        "coefficients": [
+          0,
+          0,
+          0,
+          0,
+          -3,
+          -2
+        ]
+      },
+      {
+        "id": "spana:2ac52a30213c9288:188418",
+        "name": "KCr2O7-",
+        "amount": 4.077736194605009e-26,
+        "coefficients": [
+          0,
+          2,
+          1,
+          0,
+          2,
+          0
+        ]
+      },
+      {
+        "id": "spana:2ac52a30213c9288:188521",
+        "name": "KCrO4-",
+        "amount": 2.3802876360873267e-21,
+        "coefficients": [
+          0,
+          1,
+          1,
+          0,
+          0,
+          0
+        ]
+      },
+      {
+        "id": "spana:2ac52a30213c9288:189498",
+        "name": "KOH",
+        "amount": 6.949201033320556e-19,
+        "coefficients": [
+          0,
+          0,
+          1,
+          0,
+          -1,
+          0
+        ]
+      },
+      {
+        "id": "spana:2ac52a30213c9288:249989",
+        "name": "O2",
+        "amount": 2.7128928536115742e-11,
+        "coefficients": [
+          0,
+          0,
+          0,
+          0,
+          -4,
+          -4
+        ]
+      },
+      {
+        "id": "spana:2ac52a30213c9288:250161",
+        "name": "O3",
+        "amount": 9.820847387114118e-43,
+        "coefficients": [
+          0,
+          0,
+          0,
+          0,
+          -6,
+          -6
+        ]
+      },
+      {
+        "id": "spana:2ac52a30213c9288:250448",
+        "name": "OH-",
+        "amount": 9.98630623770518e-13,
+        "coefficients": [
+          0,
+          0,
+          0,
+          0,
+          -1,
+          0
+        ]
+      },
+      {
+        "id": "spana:2ac52a30213c9288:91458",
+        "name": "Cr 2+",
+        "amount": 1.768264727789561e-30,
+        "coefficients": [
+          0,
+          1,
+          0,
+          0,
+          8,
+          4
+        ]
+      },
+      {
+        "id": "spana:2ac52a30213c9288:96242",
+        "name": "CrOH+",
+        "amount": 1.8554624250547337e-33,
+        "coefficients": [
+          0,
+          1,
+          0,
+          0,
+          7,
+          4
+        ]
+      }
+    ],
+    "balance": [
+      3.5236570605778894e-19,
+      -1.9058241313221758e-20,
+      -1.6940658945086007e-21,
+      3.469446951953614e-18,
+      2.5673907444456745e-16,
+      -4.1589317710186147e-19
+    ],
+    "maximumScaledResidual": 5.872761767629471e-14,
+    "maximumMassActionResidual": 2.3092638912203256e-14,
+    "charge": 2.5478950969514e-16
+  }
+}

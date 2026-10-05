@@ -1,0 +1,24 @@
+✔ 18 independent acid/water/base controls agree without a production titration formula (2.2869ms)
+✔ volume and counterion moles are conserved before/at/after equivalence (0.2065ms)
+✔ curve, selected point and Beaker retain the same exact equilibrium object (0.1979ms)
+✔ each dose is independently reproducible, including reordered and duplicate totals (24.5037ms)
+✔ dispensing returns conserved aliquot and finite remainder without mutating the stock (0.4578ms)
+✔ mix two entire beakers uses the same physical and equilibrium preparation (0.6859ms)
+✔ invalid concentrations, volumes, conventions and arbitrary recipes are refused (0.3226ms)
+✔ forged preparations, mismatched selections and stale runs cannot provide a current result (1.4984ms)
+✔ changed thermodynamic provenance fails preparation instead of silently reusing benchmark evidence (1.2649ms)
+✔ fractional additions and changed analytical quantities are not snapped to nominal equivalence (2.5025ms)
+✔ Wet Lab precomputes 107 accepted samples with dense equivalence coordinates (80.5339ms)
+✔ cached curve selections share exact engine state and never solve inspection independently (60.4215ms)
+✔ arbitrary total and increment controls calculate once then cache; reset restores exact initial object (56.7443ms)
+✔ invalid values, forged points and old experiment points are refused without replacing selection (117.2917ms)
+✔ newer selection cancels pending custom-volume state before it can replace the view (67.4696ms)
+✔ Wet Lab navigation leaves ordinary chemistry and scientific revision unchanged (334.5695ms)
+ℹ tests 16
+ℹ suites 0
+ℹ pass 16
+ℹ fail 0
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 1650.9671

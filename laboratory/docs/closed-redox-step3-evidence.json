@@ -1,0 +1,2196 @@
+{
+  "scope": "Five-ion V(III/II)/Eu(III/II)/chloride ideal aqueous reaction-restricted benchmark; not a complete aqueous chemistry validation",
+  "expected": {
+    "total": 0.001,
+    "extent": 0.0005770924758253289,
+    "remaining": 0.00042290752417467115,
+    "netLogK": 0.27,
+    "pe": -5.965,
+    "Eh": -0.3528855208697266
+  },
+  "controls": [
+    {
+      "alternate": false,
+      "history": 0,
+      "reverse": false,
+      "amounts": {
+        "component:V%203%2B": 0.00042290752417467115,
+        "component:Eu%203%2B": 0.0005770924758253289,
+        "spana:2ac52a30213c9288:360928": 0.0005770924758253289,
+        "component:Cl-": 0.004999999999999999,
+        "spana:2ac52a30213c9288:120483": 0.00042290752417467115
+      },
+      "preparedInventories": [
+        {
+          "key": "Cl",
+          "weights": [
+            0,
+            0,
+            0,
+            0,
+            1
+          ],
+          "basisWeights": [
+            0,
+            0,
+            0,
+            1
+          ],
+          "total": 0.005
+        },
+        {
+          "key": "Eu",
+          "weights": [
+            0,
+            0,
+            1,
+            1,
+            0
+          ],
+          "basisWeights": [
+            0,
+            1,
+            0,
+            0
+          ],
+          "total": 0.001
+        },
+        {
+          "key": "V",
+          "weights": [
+            1,
+            1,
+            0,
+            0,
+            0
+          ],
+          "basisWeights": [
+            1,
+            0,
+            1,
+            0
+          ],
+          "total": 0.001
+        },
+        {
+          "key": "charge",
+          "weights": [
+            3,
+            2,
+            3,
+            2,
+            -1
+          ],
+          "basisWeights": [
+            3,
+            3,
+            2,
+            -1
+          ],
+          "total": 0
+        }
+      ],
+      "cancellations": [
+        {
+          "sourceIds": [
+            "spana:2ac52a30213c9288:120483",
+            "spana:2ac52a30213c9288:360928"
+          ],
+          "multipliers": [
+            1,
+            -1
+          ],
+          "electronMultiple": 1,
+          "electronResidual": 0,
+          "coefficients": {
+            "component:V%203%2B": 1,
+            "spana:2ac52a30213c9288:360928": -1,
+            "component:Eu%203%2B": -1,
+            "spana:2ac52a30213c9288:120483": 1,
+            "component:Cl-": 0,
+            "component:e-": 0
+          },
+          "logK": -0.2699999999999996
+        }
+      ],
+      "expressions": {
+        "component:V%203%2B": {
+          "coefficients": [
+            1,
+            0,
+            0,
+            0
+          ],
+          "logK": 0
+        },
+        "component:Eu%203%2B": {
+          "coefficients": [
+            0,
+            1,
+            0,
+            0
+          ],
+          "logK": 0
+        },
+        "spana:2ac52a30213c9288:360928": {
+          "coefficients": [
+            0,
+            0,
+            1,
+            0
+          ],
+          "logK": 0
+        },
+        "component:Cl-": {
+          "coefficients": [
+            0,
+            0,
+            0,
+            1
+          ],
+          "logK": 0
+        },
+        "component:e-": {
+          "coefficients": [
+            -1,
+            0,
+            1,
+            0
+          ],
+          "logK": 5.83
+        },
+        "spana:2ac52a30213c9288:120483": {
+          "coefficients": [
+            -1,
+            1,
+            1,
+            0
+          ],
+          "logK": -0.2699999999999996
+        }
+      },
+      "inspection": {
+        "inventories": [
+          {
+            "key": "Cl",
+            "total": 0.005,
+            "actual": 0.004999999999999999,
+            "residual": -8.673617379884035e-19,
+            "limit": 5.28421709430404e-13,
+            "ok": true
+          },
+          {
+            "key": "Eu",
+            "total": 0.001,
+            "actual": 0.001,
+            "residual": 0,
+            "limit": 1.28421709430404e-13,
+            "ok": true
+          },
+          {
+            "key": "V",
+            "total": 0.001,
+            "actual": 0.001,
+            "residual": 0,
+            "limit": 1.48421709430404e-13,
+            "ok": true
+          },
+          {
+            "key": "charge",
+            "total": 0,
+            "actual": 8.673617379884035e-19,
+            "residual": 8.673617379884035e-19,
+            "limit": 1.088421709430404e-12,
+            "ok": true
+          }
+        ],
+        "potentials": [
+          {
+            "reactionId": "spana:2ac52a30213c9288:120483",
+            "electronCoefficient": 1,
+            "pe": -5.965,
+            "Eh": -0.35288552086972663,
+            "peErrorBound": 1.0036131124193265e-10,
+            "difference": 0,
+            "agreementLimit": 2.007226224838653e-10,
+            "ok": true
+          },
+          {
+            "reactionId": "spana:2ac52a30213c9288:360928",
+            "electronCoefficient": 1,
+            "pe": -5.965,
+            "Eh": -0.35288552086972663,
+            "peErrorBound": 1.0035363738038644e-10,
+            "difference": 0,
+            "agreementLimit": 2.007149486223191e-10,
+            "ok": true
+          }
+        ],
+        "netReactions": [
+          {
+            "sourceIds": [
+              "spana:2ac52a30213c9288:120483",
+              "spana:2ac52a30213c9288:360928"
+            ],
+            "residual": 0,
+            "limit": 2.000284217094304e-10,
+            "ok": true
+          }
+        ],
+        "pe": -5.965,
+        "Eh": -0.35288552086972663,
+        "potentialConvention": "Derived from supplied half-reaction standard states; not an imposed reservoir.",
+        "chargePolicy": "Explicit electroneutral reagent preparation; physical charge residual independently checked."
+      },
+      "residuals": {
+        "componentBalance": [
+          0,
+          0,
+          0,
+          -8.673617379884035e-19
+        ],
+        "componentBalanceLimits": [
+          2e-14,
+          1e-13,
+          1e-13,
+          5e-13
+        ],
+        "massActionLog": [
+          0
+        ],
+        "scaledBalance": [
+          0,
+          0,
+          0,
+          -1.734723475976807e-16
+        ]
+      },
+      "preparationId": "7f56dcccdec481c74e9ef7886bc8fe77f3836efa17d976f28959f588d3e88466",
+      "equilibriumId": "fd2d0e005c5edde1c4089a85a8873663cd85fb6e777b500fe416ea6b6b7f4263"
+    },
+    {
+      "alternate": false,
+      "history": 0,
+      "reverse": true,
+      "amounts": {
+        "component:V%203%2B": 0.00042290752417467115,
+        "component:Eu%203%2B": 0.0005770924758253289,
+        "spana:2ac52a30213c9288:360928": 0.0005770924758253289,
+        "component:Cl-": 0.004999999999999999,
+        "spana:2ac52a30213c9288:120483": 0.00042290752417467115
+      },
+      "preparedInventories": [
+        {
+          "key": "Cl",
+          "weights": [
+            0,
+            0,
+            0,
+            0,
+            1
+          ],
+          "basisWeights": [
+            0,
+            0,
+            0,
+            1
+          ],
+          "total": 0.005
+        },
+        {
+          "key": "Eu",
+          "weights": [
+            0,
+            0,
+            1,
+            1,
+            0
+          ],
+          "basisWeights": [
+            0,
+            1,
+            0,
+            0
+          ],
+          "total": 0.001
+        },
+        {
+          "key": "V",
+          "weights": [
+            1,
+            1,
+            0,
+            0,
+            0
+          ],
+          "basisWeights": [
+            1,
+            0,
+            1,
+            0
+          ],
+          "total": 0.001
+        },
+        {
+          "key": "charge",
+          "weights": [
+            3,
+            2,
+            3,
+            2,
+            -1
+          ],
+          "basisWeights": [
+            3,
+            3,
+            2,
+            -1
+          ],
+          "total": 0
+        }
+      ],
+      "cancellations": [
+        {
+          "sourceIds": [
+            "spana:2ac52a30213c9288:120483",
+            "spana:2ac52a30213c9288:360928"
+          ],
+          "multipliers": [
+            1,
+            -1
+          ],
+          "electronMultiple": 1,
+          "electronResidual": 0,
+          "coefficients": {
+            "component:V%203%2B": 1,
+            "spana:2ac52a30213c9288:360928": -1,
+            "component:Eu%203%2B": -1,
+            "spana:2ac52a30213c9288:120483": 1,
+            "component:Cl-": 0,
+            "component:e-": 0
+          },
+          "logK": -0.2699999999999996
+        }
+      ],
+      "expressions": {
+        "component:V%203%2B": {
+          "coefficients": [
+            1,
+            0,
+            0,
+            0
+          ],
+          "logK": 0
+        },
+        "component:Eu%203%2B": {
+          "coefficients": [
+            0,
+            1,
+            0,
+            0
+          ],
+          "logK": 0
+        },
+        "spana:2ac52a30213c9288:360928": {
+          "coefficients": [
+            0,
+            0,
+            1,
+            0
+          ],
+          "logK": 0
+        },
+        "component:Cl-": {
+          "coefficients": [
+            0,
+            0,
+            0,
+            1
+          ],
+          "logK": 0
+        },
+        "component:e-": {
+          "coefficients": [
+            -1,
+            0,
+            1,
+            0
+          ],
+          "logK": 5.83
+        },
+        "spana:2ac52a30213c9288:120483": {
+          "coefficients": [
+            -1,
+            1,
+            1,
+            0
+          ],
+          "logK": -0.2699999999999996
+        }
+      },
+      "inspection": {
+        "inventories": [
+          {
+            "key": "Cl",
+            "total": 0.005,
+            "actual": 0.004999999999999999,
+            "residual": -8.673617379884035e-19,
+            "limit": 5.28421709430404e-13,
+            "ok": true
+          },
+          {
+            "key": "Eu",
+            "total": 0.001,
+            "actual": 0.001,
+            "residual": 0,
+            "limit": 1.28421709430404e-13,
+            "ok": true
+          },
+          {
+            "key": "V",
+            "total": 0.001,
+            "actual": 0.001,
+            "residual": 0,
+            "limit": 1.48421709430404e-13,
+            "ok": true
+          },
+          {
+            "key": "charge",
+            "total": 0,
+            "actual": 8.673617379884035e-19,
+            "residual": 8.673617379884035e-19,
+            "limit": 1.088421709430404e-12,
+            "ok": true
+          }
+        ],
+        "potentials": [
+          {
+            "reactionId": "spana:2ac52a30213c9288:120483",
+            "electronCoefficient": 1,
+            "pe": -5.965,
+            "Eh": -0.35288552086972663,
+            "peErrorBound": 1.0036131124193265e-10,
+            "difference": 0,
+            "agreementLimit": 2.007226224838653e-10,
+            "ok": true
+          },
+          {
+            "reactionId": "spana:2ac52a30213c9288:360928",
+            "electronCoefficient": 1,
+            "pe": -5.965,
+            "Eh": -0.35288552086972663,
+            "peErrorBound": 1.0035363738038644e-10,
+            "difference": 0,
+            "agreementLimit": 2.007149486223191e-10,
+            "ok": true
+          }
+        ],
+        "netReactions": [
+          {
+            "sourceIds": [
+              "spana:2ac52a30213c9288:120483",
+              "spana:2ac52a30213c9288:360928"
+            ],
+            "residual": 0,
+            "limit": 2.000284217094304e-10,
+            "ok": true
+          }
+        ],
+        "pe": -5.965,
+        "Eh": -0.35288552086972663,
+        "potentialConvention": "Derived from supplied half-reaction standard states; not an imposed reservoir.",
+        "chargePolicy": "Explicit electroneutral reagent preparation; physical charge residual independently checked."
+      },
+      "residuals": {
+        "componentBalance": [
+          0,
+          0,
+          0,
+          -8.673617379884035e-19
+        ],
+        "componentBalanceLimits": [
+          2e-14,
+          1e-13,
+          1e-13,
+          5e-13
+        ],
+        "massActionLog": [
+          0
+        ],
+        "scaledBalance": [
+          0,
+          0,
+          0,
+          -1.734723475976807e-16
+        ]
+      },
+      "preparationId": "7f56dcccdec481c74e9ef7886bc8fe77f3836efa17d976f28959f588d3e88466",
+      "equilibriumId": "fd2d0e005c5edde1c4089a85a8873663cd85fb6e777b500fe416ea6b6b7f4263"
+    },
+    {
+      "alternate": false,
+      "history": 1,
+      "reverse": false,
+      "amounts": {
+        "component:V%203%2B": 0.00042290752417467115,
+        "component:Eu%203%2B": 0.0005770924758253289,
+        "spana:2ac52a30213c9288:360928": 0.0005770924758253289,
+        "component:Cl-": 0.004999999999999999,
+        "spana:2ac52a30213c9288:120483": 0.00042290752417467115
+      },
+      "preparedInventories": [
+        {
+          "key": "Cl",
+          "weights": [
+            0,
+            0,
+            0,
+            0,
+            1
+          ],
+          "basisWeights": [
+            0,
+            0,
+            0,
+            1
+          ],
+          "total": 0.005
+        },
+        {
+          "key": "Eu",
+          "weights": [
+            0,
+            0,
+            1,
+            1,
+            0
+          ],
+          "basisWeights": [
+            0,
+            1,
+            0,
+            0
+          ],
+          "total": 0.001
+        },
+        {
+          "key": "V",
+          "weights": [
+            1,
+            1,
+            0,
+            0,
+            0
+          ],
+          "basisWeights": [
+            1,
+            0,
+            1,
+            0
+          ],
+          "total": 0.001
+        },
+        {
+          "key": "charge",
+          "weights": [
+            3,
+            2,
+            3,
+            2,
+            -1
+          ],
+          "basisWeights": [
+            3,
+            3,
+            2,
+            -1
+          ],
+          "total": 0
+        }
+      ],
+      "cancellations": [
+        {
+          "sourceIds": [
+            "spana:2ac52a30213c9288:120483",
+            "spana:2ac52a30213c9288:360928"
+          ],
+          "multipliers": [
+            1,
+            -1
+          ],
+          "electronMultiple": 1,
+          "electronResidual": 0,
+          "coefficients": {
+            "component:V%203%2B": 1,
+            "spana:2ac52a30213c9288:360928": -1,
+            "component:Eu%203%2B": -1,
+            "spana:2ac52a30213c9288:120483": 1,
+            "component:Cl-": 0,
+            "component:e-": 0
+          },
+          "logK": -0.2699999999999996
+        }
+      ],
+      "expressions": {
+        "component:V%203%2B": {
+          "coefficients": [
+            1,
+            0,
+            0,
+            0
+          ],
+          "logK": 0
+        },
+        "component:Eu%203%2B": {
+          "coefficients": [
+            0,
+            1,
+            0,
+            0
+          ],
+          "logK": 0
+        },
+        "spana:2ac52a30213c9288:360928": {
+          "coefficients": [
+            0,
+            0,
+            1,
+            0
+          ],
+          "logK": 0
+        },
+        "component:Cl-": {
+          "coefficients": [
+            0,
+            0,
+            0,
+            1
+          ],
+          "logK": 0
+        },
+        "component:e-": {
+          "coefficients": [
+            -1,
+            0,
+            1,
+            0
+          ],
+          "logK": 5.83
+        },
+        "spana:2ac52a30213c9288:120483": {
+          "coefficients": [
+            -1,
+            1,
+            1,
+            0
+          ],
+          "logK": -0.2699999999999996
+        }
+      },
+      "inspection": {
+        "inventories": [
+          {
+            "key": "Cl",
+            "total": 0.005,
+            "actual": 0.004999999999999999,
+            "residual": -8.673617379884035e-19,
+            "limit": 5.28421709430404e-13,
+            "ok": true
+          },
+          {
+            "key": "Eu",
+            "total": 0.001,
+            "actual": 0.001,
+            "residual": 0,
+            "limit": 1.28421709430404e-13,
+            "ok": true
+          },
+          {
+            "key": "V",
+            "total": 0.001,
+            "actual": 0.001,
+            "residual": 0,
+            "limit": 1.48421709430404e-13,
+            "ok": true
+          },
+          {
+            "key": "charge",
+            "total": 0,
+            "actual": 8.673617379884035e-19,
+            "residual": 8.673617379884035e-19,
+            "limit": 1.088421709430404e-12,
+            "ok": true
+          }
+        ],
+        "potentials": [
+          {
+            "reactionId": "spana:2ac52a30213c9288:120483",
+            "electronCoefficient": 1,
+            "pe": -5.965,
+            "Eh": -0.35288552086972663,
+            "peErrorBound": 1.0036131124193265e-10,
+            "difference": 0,
+            "agreementLimit": 2.007226224838653e-10,
+            "ok": true
+          },
+          {
+            "reactionId": "spana:2ac52a30213c9288:360928",
+            "electronCoefficient": 1,
+            "pe": -5.965,
+            "Eh": -0.35288552086972663,
+            "peErrorBound": 1.0035363738038644e-10,
+            "difference": 0,
+            "agreementLimit": 2.007149486223191e-10,
+            "ok": true
+          }
+        ],
+        "netReactions": [
+          {
+            "sourceIds": [
+              "spana:2ac52a30213c9288:120483",
+              "spana:2ac52a30213c9288:360928"
+            ],
+            "residual": 0,
+            "limit": 2.000284217094304e-10,
+            "ok": true
+          }
+        ],
+        "pe": -5.965,
+        "Eh": -0.35288552086972663,
+        "potentialConvention": "Derived from supplied half-reaction standard states; not an imposed reservoir.",
+        "chargePolicy": "Explicit electroneutral reagent preparation; physical charge residual independently checked."
+      },
+      "residuals": {
+        "componentBalance": [
+          0,
+          0,
+          0,
+          -8.673617379884035e-19
+        ],
+        "componentBalanceLimits": [
+          2e-14,
+          1e-13,
+          1e-13,
+          5e-13
+        ],
+        "massActionLog": [
+          0
+        ],
+        "scaledBalance": [
+          0,
+          0,
+          0,
+          -1.734723475976807e-16
+        ]
+      },
+      "preparationId": "f70d8e2c5cf34c839154ab5ec6e60aaa7c22a8dba91f6b526705e96c9a002249",
+      "equilibriumId": "fd2d0e005c5edde1c4089a85a8873663cd85fb6e777b500fe416ea6b6b7f4263"
+    },
+    {
+      "alternate": false,
+      "history": 1,
+      "reverse": true,
+      "amounts": {
+        "component:V%203%2B": 0.00042290752417467115,
+        "component:Eu%203%2B": 0.0005770924758253289,
+        "spana:2ac52a30213c9288:360928": 0.0005770924758253289,
+        "component:Cl-": 0.004999999999999999,
+        "spana:2ac52a30213c9288:120483": 0.00042290752417467115
+      },
+      "preparedInventories": [
+        {
+          "key": "Cl",
+          "weights": [
+            0,
+            0,
+            0,
+            0,
+            1
+          ],
+          "basisWeights": [
+            0,
+            0,
+            0,
+            1
+          ],
+          "total": 0.005
+        },
+        {
+          "key": "Eu",
+          "weights": [
+            0,
+            0,
+            1,
+            1,
+            0
+          ],
+          "basisWeights": [
+            0,
+            1,
+            0,
+            0
+          ],
+          "total": 0.001
+        },
+        {
+          "key": "V",
+          "weights": [
+            1,
+            1,
+            0,
+            0,
+            0
+          ],
+          "basisWeights": [
+            1,
+            0,
+            1,
+            0
+          ],
+          "total": 0.001
+        },
+        {
+          "key": "charge",
+          "weights": [
+            3,
+            2,
+            3,
+            2,
+            -1
+          ],
+          "basisWeights": [
+            3,
+            3,
+            2,
+            -1
+          ],
+          "total": 0
+        }
+      ],
+      "cancellations": [
+        {
+          "sourceIds": [
+            "spana:2ac52a30213c9288:120483",
+            "spana:2ac52a30213c9288:360928"
+          ],
+          "multipliers": [
+            1,
+            -1
+          ],
+          "electronMultiple": 1,
+          "electronResidual": 0,
+          "coefficients": {
+            "component:V%203%2B": 1,
+            "spana:2ac52a30213c9288:360928": -1,
+            "component:Eu%203%2B": -1,
+            "spana:2ac52a30213c9288:120483": 1,
+            "component:Cl-": 0,
+            "component:e-": 0
+          },
+          "logK": -0.2699999999999996
+        }
+      ],
+      "expressions": {
+        "component:V%203%2B": {
+          "coefficients": [
+            1,
+            0,
+            0,
+            0
+          ],
+          "logK": 0
+        },
+        "component:Eu%203%2B": {
+          "coefficients": [
+            0,
+            1,
+            0,
+            0
+          ],
+          "logK": 0
+        },
+        "spana:2ac52a30213c9288:360928": {
+          "coefficients": [
+            0,
+            0,
+            1,
+            0
+          ],
+          "logK": 0
+        },
+        "component:Cl-": {
+          "coefficients": [
+            0,
+            0,
+            0,
+            1
+          ],
+          "logK": 0
+        },
+        "component:e-": {
+          "coefficients": [
+            -1,
+            0,
+            1,
+            0
+          ],
+          "logK": 5.83
+        },
+        "spana:2ac52a30213c9288:120483": {
+          "coefficients": [
+            -1,
+            1,
+            1,
+            0
+          ],
+          "logK": -0.2699999999999996
+        }
+      },
+      "inspection": {
+        "inventories": [
+          {
+            "key": "Cl",
+            "total": 0.005,
+            "actual": 0.004999999999999999,
+            "residual": -8.673617379884035e-19,
+            "limit": 5.28421709430404e-13,
+            "ok": true
+          },
+          {
+            "key": "Eu",
+            "total": 0.001,
+            "actual": 0.001,
+            "residual": 0,
+            "limit": 1.28421709430404e-13,
+            "ok": true
+          },
+          {
+            "key": "V",
+            "total": 0.001,
+            "actual": 0.001,
+            "residual": 0,
+            "limit": 1.48421709430404e-13,
+            "ok": true
+          },
+          {
+            "key": "charge",
+            "total": 0,
+            "actual": 8.673617379884035e-19,
+            "residual": 8.673617379884035e-19,
+            "limit": 1.088421709430404e-12,
+            "ok": true
+          }
+        ],
+        "potentials": [
+          {
+            "reactionId": "spana:2ac52a30213c9288:120483",
+            "electronCoefficient": 1,
+            "pe": -5.965,
+            "Eh": -0.35288552086972663,
+            "peErrorBound": 1.0036131124193265e-10,
+            "difference": 0,
+            "agreementLimit": 2.007226224838653e-10,
+            "ok": true
+          },
+          {
+            "reactionId": "spana:2ac52a30213c9288:360928",
+            "electronCoefficient": 1,
+            "pe": -5.965,
+            "Eh": -0.35288552086972663,
+            "peErrorBound": 1.0035363738038644e-10,
+            "difference": 0,
+            "agreementLimit": 2.007149486223191e-10,
+            "ok": true
+          }
+        ],
+        "netReactions": [
+          {
+            "sourceIds": [
+              "spana:2ac52a30213c9288:120483",
+              "spana:2ac52a30213c9288:360928"
+            ],
+            "residual": 0,
+            "limit": 2.000284217094304e-10,
+            "ok": true
+          }
+        ],
+        "pe": -5.965,
+        "Eh": -0.35288552086972663,
+        "potentialConvention": "Derived from supplied half-reaction standard states; not an imposed reservoir.",
+        "chargePolicy": "Explicit electroneutral reagent preparation; physical charge residual independently checked."
+      },
+      "residuals": {
+        "componentBalance": [
+          0,
+          0,
+          0,
+          -8.673617379884035e-19
+        ],
+        "componentBalanceLimits": [
+          2e-14,
+          1e-13,
+          1e-13,
+          5e-13
+        ],
+        "massActionLog": [
+          0
+        ],
+        "scaledBalance": [
+          0,
+          0,
+          0,
+          -1.734723475976807e-16
+        ]
+      },
+      "preparationId": "f70d8e2c5cf34c839154ab5ec6e60aaa7c22a8dba91f6b526705e96c9a002249",
+      "equilibriumId": "fd2d0e005c5edde1c4089a85a8873663cd85fb6e777b500fe416ea6b6b7f4263"
+    },
+    {
+      "alternate": true,
+      "history": 0,
+      "reverse": false,
+      "amounts": {
+        "spana:2ac52a30213c9288:360928": 0.0005770924758253289,
+        "spana:2ac52a30213c9288:120483": 0.00042290752417467115,
+        "component:V%203%2B": 0.00042290752417467115,
+        "component:Cl-": 0.004999999999999999,
+        "component:Eu%203%2B": 0.0005770924758253289
+      },
+      "preparedInventories": [
+        {
+          "key": "Cl",
+          "weights": [
+            0,
+            0,
+            0,
+            0,
+            1
+          ],
+          "basisWeights": [
+            0,
+            0,
+            0,
+            1
+          ],
+          "total": 0.005
+        },
+        {
+          "key": "Eu",
+          "weights": [
+            0,
+            0,
+            1,
+            1,
+            0
+          ],
+          "basisWeights": [
+            0,
+            1,
+            0,
+            0
+          ],
+          "total": 0.001
+        },
+        {
+          "key": "V",
+          "weights": [
+            1,
+            1,
+            0,
+            0,
+            0
+          ],
+          "basisWeights": [
+            1,
+            0,
+            1,
+            0
+          ],
+          "total": 0.001
+        },
+        {
+          "key": "charge",
+          "weights": [
+            3,
+            2,
+            3,
+            2,
+            -1
+          ],
+          "basisWeights": [
+            2,
+            2,
+            3,
+            -1
+          ],
+          "total": 0
+        }
+      ],
+      "cancellations": [
+        {
+          "sourceIds": [
+            "spana:2ac52a30213c9288:120483",
+            "spana:2ac52a30213c9288:360928"
+          ],
+          "multipliers": [
+            1,
+            -1
+          ],
+          "electronMultiple": 1,
+          "electronResidual": 0,
+          "coefficients": {
+            "component:V%203%2B": 1,
+            "spana:2ac52a30213c9288:360928": -1,
+            "component:Eu%203%2B": -1,
+            "spana:2ac52a30213c9288:120483": 1,
+            "component:Cl-": 0,
+            "component:e-": 0
+          },
+          "logK": -0.2699999999999996
+        }
+      ],
+      "expressions": {
+        "spana:2ac52a30213c9288:360928": {
+          "coefficients": [
+            1,
+            0,
+            0,
+            0
+          ],
+          "logK": 0
+        },
+        "spana:2ac52a30213c9288:120483": {
+          "coefficients": [
+            0,
+            1,
+            0,
+            0
+          ],
+          "logK": 0
+        },
+        "component:V%203%2B": {
+          "coefficients": [
+            0,
+            0,
+            1,
+            0
+          ],
+          "logK": 0
+        },
+        "component:Cl-": {
+          "coefficients": [
+            0,
+            0,
+            0,
+            1
+          ],
+          "logK": 0
+        },
+        "component:Eu%203%2B": {
+          "coefficients": [
+            -1,
+            1,
+            1,
+            0
+          ],
+          "logK": 0.2699999999999996
+        },
+        "component:e-": {
+          "coefficients": [
+            1,
+            0,
+            -1,
+            0
+          ],
+          "logK": 5.83
+        }
+      },
+      "inspection": {
+        "inventories": [
+          {
+            "key": "Cl",
+            "total": 0.005,
+            "actual": 0.004999999999999999,
+            "residual": -8.673617379884035e-19,
+            "limit": 5.28421709430404e-13,
+            "ok": true
+          },
+          {
+            "key": "Eu",
+            "total": 0.001,
+            "actual": 0.001,
+            "residual": 0,
+            "limit": 1.28421709430404e-13,
+            "ok": true
+          },
+          {
+            "key": "V",
+            "total": 0.001,
+            "actual": 0.001,
+            "residual": 0,
+            "limit": 1.48421709430404e-13,
+            "ok": true
+          },
+          {
+            "key": "charge",
+            "total": 0,
+            "actual": 8.673617379884035e-19,
+            "residual": 8.673617379884035e-19,
+            "limit": 1.068421709430404e-12,
+            "ok": true
+          }
+        ],
+        "potentials": [
+          {
+            "reactionId": "spana:2ac52a30213c9288:120483",
+            "electronCoefficient": 1,
+            "pe": -5.965,
+            "Eh": -0.35288552086972663,
+            "peErrorBound": 1.0036131124193265e-10,
+            "difference": 0,
+            "agreementLimit": 2.007226224838653e-10,
+            "ok": true
+          },
+          {
+            "reactionId": "spana:2ac52a30213c9288:360928",
+            "electronCoefficient": 1,
+            "pe": -5.965,
+            "Eh": -0.35288552086972663,
+            "peErrorBound": 1.0035363738038644e-10,
+            "difference": 0,
+            "agreementLimit": 2.007149486223191e-10,
+            "ok": true
+          }
+        ],
+        "netReactions": [
+          {
+            "sourceIds": [
+              "spana:2ac52a30213c9288:120483",
+              "spana:2ac52a30213c9288:360928"
+            ],
+            "residual": 0,
+            "limit": 2.000284217094304e-10,
+            "ok": true
+          }
+        ],
+        "pe": -5.965,
+        "Eh": -0.35288552086972663,
+        "potentialConvention": "Derived from supplied half-reaction standard states; not an imposed reservoir.",
+        "chargePolicy": "Explicit electroneutral reagent preparation; physical charge residual independently checked."
+      },
+      "residuals": {
+        "componentBalance": [
+          0,
+          0,
+          0,
+          -8.673617379884035e-19
+        ],
+        "componentBalanceLimits": [
+          2e-14,
+          1e-13,
+          1e-13,
+          5e-13
+        ],
+        "massActionLog": [
+          0
+        ],
+        "scaledBalance": [
+          0,
+          0,
+          0,
+          -1.734723475976807e-16
+        ]
+      },
+      "preparationId": "7f56dcccdec481c74e9ef7886bc8fe77f3836efa17d976f28959f588d3e88466",
+      "equilibriumId": "b61956180cb8afba4f73e0328cc1c3d95617b7727650acd60650a71c5dc80abc"
+    },
+    {
+      "alternate": true,
+      "history": 0,
+      "reverse": true,
+      "amounts": {
+        "spana:2ac52a30213c9288:360928": 0.0005770924758253289,
+        "spana:2ac52a30213c9288:120483": 0.00042290752417467115,
+        "component:V%203%2B": 0.00042290752417467115,
+        "component:Cl-": 0.004999999999999999,
+        "component:Eu%203%2B": 0.0005770924758253289
+      },
+      "preparedInventories": [
+        {
+          "key": "Cl",
+          "weights": [
+            0,
+            0,
+            0,
+            0,
+            1
+          ],
+          "basisWeights": [
+            0,
+            0,
+            0,
+            1
+          ],
+          "total": 0.005
+        },
+        {
+          "key": "Eu",
+          "weights": [
+            0,
+            0,
+            1,
+            1,
+            0
+          ],
+          "basisWeights": [
+            0,
+            1,
+            0,
+            0
+          ],
+          "total": 0.001
+        },
+        {
+          "key": "V",
+          "weights": [
+            1,
+            1,
+            0,
+            0,
+            0
+          ],
+          "basisWeights": [
+            1,
+            0,
+            1,
+            0
+          ],
+          "total": 0.001
+        },
+        {
+          "key": "charge",
+          "weights": [
+            3,
+            2,
+            3,
+            2,
+            -1
+          ],
+          "basisWeights": [
+            2,
+            2,
+            3,
+            -1
+          ],
+          "total": 0
+        }
+      ],
+      "cancellations": [
+        {
+          "sourceIds": [
+            "spana:2ac52a30213c9288:120483",
+            "spana:2ac52a30213c9288:360928"
+          ],
+          "multipliers": [
+            1,
+            -1
+          ],
+          "electronMultiple": 1,
+          "electronResidual": 0,
+          "coefficients": {
+            "component:V%203%2B": 1,
+            "spana:2ac52a30213c9288:360928": -1,
+            "component:Eu%203%2B": -1,
+            "spana:2ac52a30213c9288:120483": 1,
+            "component:Cl-": 0,
+            "component:e-": 0
+          },
+          "logK": -0.2699999999999996
+        }
+      ],
+      "expressions": {
+        "spana:2ac52a30213c9288:360928": {
+          "coefficients": [
+            1,
+            0,
+            0,
+            0
+          ],
+          "logK": 0
+        },
+        "spana:2ac52a30213c9288:120483": {
+          "coefficients": [
+            0,
+            1,
+            0,
+            0
+          ],
+          "logK": 0
+        },
+        "component:V%203%2B": {
+          "coefficients": [
+            0,
+            0,
+            1,
+            0
+          ],
+          "logK": 0
+        },
+        "component:Cl-": {
+          "coefficients": [
+            0,
+            0,
+            0,
+            1
+          ],
+          "logK": 0
+        },
+        "component:Eu%203%2B": {
+          "coefficients": [
+            -1,
+            1,
+            1,
+            0
+          ],
+          "logK": 0.2699999999999996
+        },
+        "component:e-": {
+          "coefficients": [
+            1,
+            0,
+            -1,
+            0
+          ],
+          "logK": 5.83
+        }
+      },
+      "inspection": {
+        "inventories": [
+          {
+            "key": "Cl",
+            "total": 0.005,
+            "actual": 0.004999999999999999,
+            "residual": -8.673617379884035e-19,
+            "limit": 5.28421709430404e-13,
+            "ok": true
+          },
+          {
+            "key": "Eu",
+            "total": 0.001,
+            "actual": 0.001,
+            "residual": 0,
+            "limit": 1.28421709430404e-13,
+            "ok": true
+          },
+          {
+            "key": "V",
+            "total": 0.001,
+            "actual": 0.001,
+            "residual": 0,
+            "limit": 1.48421709430404e-13,
+            "ok": true
+          },
+          {
+            "key": "charge",
+            "total": 0,
+            "actual": 8.673617379884035e-19,
+            "residual": 8.673617379884035e-19,
+            "limit": 1.068421709430404e-12,
+            "ok": true
+          }
+        ],
+        "potentials": [
+          {
+            "reactionId": "spana:2ac52a30213c9288:120483",
+            "electronCoefficient": 1,
+            "pe": -5.965,
+            "Eh": -0.35288552086972663,
+            "peErrorBound": 1.0036131124193265e-10,
+            "difference": 0,
+            "agreementLimit": 2.007226224838653e-10,
+            "ok": true
+          },
+          {
+            "reactionId": "spana:2ac52a30213c9288:360928",
+            "electronCoefficient": 1,
+            "pe": -5.965,
+            "Eh": -0.35288552086972663,
+            "peErrorBound": 1.0035363738038644e-10,
+            "difference": 0,
+            "agreementLimit": 2.007149486223191e-10,
+            "ok": true
+          }
+        ],
+        "netReactions": [
+          {
+            "sourceIds": [
+              "spana:2ac52a30213c9288:120483",
+              "spana:2ac52a30213c9288:360928"
+            ],
+            "residual": 0,
+            "limit": 2.000284217094304e-10,
+            "ok": true
+          }
+        ],
+        "pe": -5.965,
+        "Eh": -0.35288552086972663,
+        "potentialConvention": "Derived from supplied half-reaction standard states; not an imposed reservoir.",
+        "chargePolicy": "Explicit electroneutral reagent preparation; physical charge residual independently checked."
+      },
+      "residuals": {
+        "componentBalance": [
+          0,
+          0,
+          0,
+          -8.673617379884035e-19
+        ],
+        "componentBalanceLimits": [
+          2e-14,
+          1e-13,
+          1e-13,
+          5e-13
+        ],
+        "massActionLog": [
+          0
+        ],
+        "scaledBalance": [
+          0,
+          0,
+          0,
+          -1.734723475976807e-16
+        ]
+      },
+      "preparationId": "7f56dcccdec481c74e9ef7886bc8fe77f3836efa17d976f28959f588d3e88466",
+      "equilibriumId": "b61956180cb8afba4f73e0328cc1c3d95617b7727650acd60650a71c5dc80abc"
+    },
+    {
+      "alternate": true,
+      "history": 1,
+      "reverse": false,
+      "amounts": {
+        "spana:2ac52a30213c9288:360928": 0.0005770924758253289,
+        "spana:2ac52a30213c9288:120483": 0.00042290752417467115,
+        "component:V%203%2B": 0.00042290752417467115,
+        "component:Cl-": 0.004999999999999999,
+        "component:Eu%203%2B": 0.0005770924758253289
+      },
+      "preparedInventories": [
+        {
+          "key": "Cl",
+          "weights": [
+            0,
+            0,
+            0,
+            0,
+            1
+          ],
+          "basisWeights": [
+            0,
+            0,
+            0,
+            1
+          ],
+          "total": 0.005
+        },
+        {
+          "key": "Eu",
+          "weights": [
+            0,
+            0,
+            1,
+            1,
+            0
+          ],
+          "basisWeights": [
+            0,
+            1,
+            0,
+            0
+          ],
+          "total": 0.001
+        },
+        {
+          "key": "V",
+          "weights": [
+            1,
+            1,
+            0,
+            0,
+            0
+          ],
+          "basisWeights": [
+            1,
+            0,
+            1,
+            0
+          ],
+          "total": 0.001
+        },
+        {
+          "key": "charge",
+          "weights": [
+            3,
+            2,
+            3,
+            2,
+            -1
+          ],
+          "basisWeights": [
+            2,
+            2,
+            3,
+            -1
+          ],
+          "total": 0
+        }
+      ],
+      "cancellations": [
+        {
+          "sourceIds": [
+            "spana:2ac52a30213c9288:120483",
+            "spana:2ac52a30213c9288:360928"
+          ],
+          "multipliers": [
+            1,
+            -1
+          ],
+          "electronMultiple": 1,
+          "electronResidual": 0,
+          "coefficients": {
+            "component:V%203%2B": 1,
+            "spana:2ac52a30213c9288:360928": -1,
+            "component:Eu%203%2B": -1,
+            "spana:2ac52a30213c9288:120483": 1,
+            "component:Cl-": 0,
+            "component:e-": 0
+          },
+          "logK": -0.2699999999999996
+        }
+      ],
+      "expressions": {
+        "spana:2ac52a30213c9288:360928": {
+          "coefficients": [
+            1,
+            0,
+            0,
+            0
+          ],
+          "logK": 0
+        },
+        "spana:2ac52a30213c9288:120483": {
+          "coefficients": [
+            0,
+            1,
+            0,
+            0
+          ],
+          "logK": 0
+        },
+        "component:V%203%2B": {
+          "coefficients": [
+            0,
+            0,
+            1,
+            0
+          ],
+          "logK": 0
+        },
+        "component:Cl-": {
+          "coefficients": [
+            0,
+            0,
+            0,
+            1
+          ],
+          "logK": 0
+        },
+        "component:Eu%203%2B": {
+          "coefficients": [
+            -1,
+            1,
+            1,
+            0
+          ],
+          "logK": 0.2699999999999996
+        },
+        "component:e-": {
+          "coefficients": [
+            1,
+            0,
+            -1,
+            0
+          ],
+          "logK": 5.83
+        }
+      },
+      "inspection": {
+        "inventories": [
+          {
+            "key": "Cl",
+            "total": 0.005,
+            "actual": 0.004999999999999999,
+            "residual": -8.673617379884035e-19,
+            "limit": 5.28421709430404e-13,
+            "ok": true
+          },
+          {
+            "key": "Eu",
+            "total": 0.001,
+            "actual": 0.001,
+            "residual": 0,
+            "limit": 1.28421709430404e-13,
+            "ok": true
+          },
+          {
+            "key": "V",
+            "total": 0.001,
+            "actual": 0.001,
+            "residual": 0,
+            "limit": 1.48421709430404e-13,
+            "ok": true
+          },
+          {
+            "key": "charge",
+            "total": 0,
+            "actual": 8.673617379884035e-19,
+            "residual": 8.673617379884035e-19,
+            "limit": 1.068421709430404e-12,
+            "ok": true
+          }
+        ],
+        "potentials": [
+          {
+            "reactionId": "spana:2ac52a30213c9288:120483",
+            "electronCoefficient": 1,
+            "pe": -5.965,
+            "Eh": -0.35288552086972663,
+            "peErrorBound": 1.0036131124193265e-10,
+            "difference": 0,
+            "agreementLimit": 2.007226224838653e-10,
+            "ok": true
+          },
+          {
+            "reactionId": "spana:2ac52a30213c9288:360928",
+            "electronCoefficient": 1,
+            "pe": -5.965,
+            "Eh": -0.35288552086972663,
+            "peErrorBound": 1.0035363738038644e-10,
+            "difference": 0,
+            "agreementLimit": 2.007149486223191e-10,
+            "ok": true
+          }
+        ],
+        "netReactions": [
+          {
+            "sourceIds": [
+              "spana:2ac52a30213c9288:120483",
+              "spana:2ac52a30213c9288:360928"
+            ],
+            "residual": 0,
+            "limit": 2.000284217094304e-10,
+            "ok": true
+          }
+        ],
+        "pe": -5.965,
+        "Eh": -0.35288552086972663,
+        "potentialConvention": "Derived from supplied half-reaction standard states; not an imposed reservoir.",
+        "chargePolicy": "Explicit electroneutral reagent preparation; physical charge residual independently checked."
+      },
+      "residuals": {
+        "componentBalance": [
+          0,
+          0,
+          0,
+          -8.673617379884035e-19
+        ],
+        "componentBalanceLimits": [
+          2e-14,
+          1e-13,
+          1e-13,
+          5e-13
+        ],
+        "massActionLog": [
+          0
+        ],
+        "scaledBalance": [
+          0,
+          0,
+          0,
+          -1.734723475976807e-16
+        ]
+      },
+      "preparationId": "f70d8e2c5cf34c839154ab5ec6e60aaa7c22a8dba91f6b526705e96c9a002249",
+      "equilibriumId": "b61956180cb8afba4f73e0328cc1c3d95617b7727650acd60650a71c5dc80abc"
+    },
+    {
+      "alternate": true,
+      "history": 1,
+      "reverse": true,
+      "amounts": {
+        "spana:2ac52a30213c9288:360928": 0.0005770924758253289,
+        "spana:2ac52a30213c9288:120483": 0.00042290752417467115,
+        "component:V%203%2B": 0.00042290752417467115,
+        "component:Cl-": 0.004999999999999999,
+        "component:Eu%203%2B": 0.0005770924758253289
+      },
+      "preparedInventories": [
+        {
+          "key": "Cl",
+          "weights": [
+            0,
+            0,
+            0,
+            0,
+            1
+          ],
+          "basisWeights": [
+            0,
+            0,
+            0,
+            1
+          ],
+          "total": 0.005
+        },
+        {
+          "key": "Eu",
+          "weights": [
+            0,
+            0,
+            1,
+            1,
+            0
+          ],
+          "basisWeights": [
+            0,
+            1,
+            0,
+            0
+          ],
+          "total": 0.001
+        },
+        {
+          "key": "V",
+          "weights": [
+            1,
+            1,
+            0,
+            0,
+            0
+          ],
+          "basisWeights": [
+            1,
+            0,
+            1,
+            0
+          ],
+          "total": 0.001
+        },
+        {
+          "key": "charge",
+          "weights": [
+            3,
+            2,
+            3,
+            2,
+            -1
+          ],
+          "basisWeights": [
+            2,
+            2,
+            3,
+            -1
+          ],
+          "total": 0
+        }
+      ],
+      "cancellations": [
+        {
+          "sourceIds": [
+            "spana:2ac52a30213c9288:120483",
+            "spana:2ac52a30213c9288:360928"
+          ],
+          "multipliers": [
+            1,
+            -1
+          ],
+          "electronMultiple": 1,
+          "electronResidual": 0,
+          "coefficients": {
+            "component:V%203%2B": 1,
+            "spana:2ac52a30213c9288:360928": -1,
+            "component:Eu%203%2B": -1,
+            "spana:2ac52a30213c9288:120483": 1,
+            "component:Cl-": 0,
+            "component:e-": 0
+          },
+          "logK": -0.2699999999999996
+        }
+      ],
+      "expressions": {
+        "spana:2ac52a30213c9288:360928": {
+          "coefficients": [
+            1,
+            0,
+            0,
+            0
+          ],
+          "logK": 0
+        },
+        "spana:2ac52a30213c9288:120483": {
+          "coefficients": [
+            0,
+            1,
+            0,
+            0
+          ],
+          "logK": 0
+        },
+        "component:V%203%2B": {
+          "coefficients": [
+            0,
+            0,
+            1,
+            0
+          ],
+          "logK": 0
+        },
+        "component:Cl-": {
+          "coefficients": [
+            0,
+            0,
+            0,
+            1
+          ],
+          "logK": 0
+        },
+        "component:Eu%203%2B": {
+          "coefficients": [
+            -1,
+            1,
+            1,
+            0
+          ],
+          "logK": 0.2699999999999996
+        },
+        "component:e-": {
+          "coefficients": [
+            1,
+            0,
+            -1,
+            0
+          ],
+          "logK": 5.83
+        }
+      },
+      "inspection": {
+        "inventories": [
+          {
+            "key": "Cl",
+            "total": 0.005,
+            "actual": 0.004999999999999999,
+            "residual": -8.673617379884035e-19,
+            "limit": 5.28421709430404e-13,
+            "ok": true
+          },
+          {
+            "key": "Eu",
+            "total": 0.001,
+            "actual": 0.001,
+            "residual": 0,
+            "limit": 1.28421709430404e-13,
+            "ok": true
+          },
+          {
+            "key": "V",
+            "total": 0.001,
+            "actual": 0.001,
+            "residual": 0,
+            "limit": 1.48421709430404e-13,
+            "ok": true
+          },
+          {
+            "key": "charge",
+            "total": 0,
+            "actual": 8.673617379884035e-19,
+            "residual": 8.673617379884035e-19,
+            "limit": 1.068421709430404e-12,
+            "ok": true
+          }
+        ],
+        "potentials": [
+          {
+            "reactionId": "spana:2ac52a30213c9288:120483",
+            "electronCoefficient": 1,
+            "pe": -5.965,
+            "Eh": -0.35288552086972663,
+            "peErrorBound": 1.0036131124193265e-10,
+            "difference": 0,
+            "agreementLimit": 2.007226224838653e-10,
+            "ok": true
+          },
+          {
+            "reactionId": "spana:2ac52a30213c9288:360928",
+            "electronCoefficient": 1,
+            "pe": -5.965,
+            "Eh": -0.35288552086972663,
+            "peErrorBound": 1.0035363738038644e-10,
+            "difference": 0,
+            "agreementLimit": 2.007149486223191e-10,
+            "ok": true
+          }
+        ],
+        "netReactions": [
+          {
+            "sourceIds": [
+              "spana:2ac52a30213c9288:120483",
+              "spana:2ac52a30213c9288:360928"
+            ],
+            "residual": 0,
+            "limit": 2.000284217094304e-10,
+            "ok": true
+          }
+        ],
+        "pe": -5.965,
+        "Eh": -0.35288552086972663,
+        "potentialConvention": "Derived from supplied half-reaction standard states; not an imposed reservoir.",
+        "chargePolicy": "Explicit electroneutral reagent preparation; physical charge residual independently checked."
+      },
+      "residuals": {
+        "componentBalance": [
+          0,
+          0,
+          0,
+          -8.673617379884035e-19
+        ],
+        "componentBalanceLimits": [
+          2e-14,
+          1e-13,
+          1e-13,
+          5e-13
+        ],
+        "massActionLog": [
+          0
+        ],
+        "scaledBalance": [
+          0,
+          0,
+          0,
+          -1.734723475976807e-16
+        ]
+      },
+      "preparationId": "f70d8e2c5cf34c839154ab5ec6e60aaa7c22a8dba91f6b526705e96c9a002249",
+      "equilibriumId": "b61956180cb8afba4f73e0328cc1c3d95617b7727650acd60650a71c5dc80abc"
+    }
+  ],
+  "fixedEh": {
+    "Eh": -0.3528855208697266,
+    "amounts": {
+      "component:V%203%2B": 0.00042290752417468194,
+      "component:Eu%203%2B": 0.0005770924758253294,
+      "component:Cl-": 0.004999999999999999,
+      "component:e-": 0,
+      "spana:2ac52a30213c9288:360928": 0.0005770924758253424,
+      "spana:2ac52a30213c9288:120483": 0.0004229075241746707
+    },
+    "charge": 6.093216209368535e-17,
+    "residuals": {
+      "componentBalance": [
+        2.42861286636753e-17,
+        0,
+        -8.673617379884035e-19,
+        null
+      ],
+      "componentBalanceLimits": [
+        1e-13,
+        1e-13,
+        5e-13,
+        null
+      ],
+      "massActionLog": [
+        0,
+        0
+      ],
+      "scaledBalance": [
+        2.428612866367471e-14,
+        0,
+        -1.734723475976807e-16,
+        null
+      ]
+    }
+  },
+  "sweep": {
+    "counts": {
+      "requested": 5,
+      "converged": 5,
+      "failed": 0,
+      "notRun": 0
+    },
+    "points": [
+      {
+        "Eh": -0.40288552086972657,
+        "accepted": "passed",
+        "amounts": {
+          "component:V%203%2B": 0.00009475283844681422,
+          "component:Eu%203%2B": 0.00016311403827492065,
+          "component:Cl-": 0.004999999999999999,
+          "component:e-": 0,
+          "spana:2ac52a30213c9288:360928": 0.0009052471615531852,
+          "spana:2ac52a30213c9288:120483": 0.0008368859617250793
+        },
+        "physicalCharge": -0.0007421331232782653
+      },
+      {
+        "Eh": -0.37788552086972654,
+        "accepted": "passed",
+        "amounts": {
+          "component:V%203%2B": 0.0002168883454914899,
+          "component:Eu%203%2B": 0.0003402467919646226,
+          "component:Cl-": 0.004999999999999999,
+          "component:e-": 0,
+          "spana:2ac52a30213c9288:360928": 0.0007831116545085103,
+          "spana:2ac52a30213c9288:120483": 0.0006597532080353771
+        },
+        "physicalCharge": -0.00044286486254388707
+      },
+      {
+        "Eh": -0.3528855208697266,
+        "accepted": "passed",
+        "amounts": {
+          "component:V%203%2B": 0.00042290752417468194,
+          "component:Eu%203%2B": 0.0005770924758253294,
+          "component:Cl-": 0.004999999999999999,
+          "component:e-": 0,
+          "spana:2ac52a30213c9288:360928": 0.0005770924758253424,
+          "spana:2ac52a30213c9288:120483": 0.0004229075241746707
+        },
+        "physicalCharge": 6.093216209368535e-17
+      },
+      {
+        "Eh": -0.3278855208697266,
+        "accepted": "passed",
+        "amounts": {
+          "component:V%203%2B": 0.0006597532080353778,
+          "component:Eu%203%2B": 0.0007831116545085103,
+          "component:Cl-": 0.004999999999999999,
+          "component:e-": 0,
+          "spana:2ac52a30213c9288:360928": 0.0003402467919646223,
+          "spana:2ac52a30213c9288:120483": 0.00021688834549148946
+        },
+        "physicalCharge": 0.00044286486254388794
+      },
+      {
+        "Eh": -0.3028855208697266,
+        "accepted": "passed",
+        "amounts": {
+          "component:V%203%2B": 0.0008368859617250793,
+          "component:Eu%203%2B": 0.0009052471615531861,
+          "component:Cl-": 0.004999999999999999,
+          "component:e-": 0,
+          "spana:2ac52a30213c9288:360928": 0.00016311403827492033,
+          "spana:2ac52a30213c9288:120483": 0.00009475283844681422
+        },
+        "physicalCharge": 0.000742133123278266
+      }
+    ]
+  }
+}

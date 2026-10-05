@@ -1,0 +1,913 @@
+{
+  "originalTargets": [
+    0,
+    0.025,
+    0.008333333333333333,
+    0.016666666666666666,
+    -0.016666666666666666,
+    0
+  ],
+  "baseline": {
+    "pH": 3.633028194538202,
+    "pe": 9.191787475602922,
+    "Eh": 0.5437801694973959,
+    "solids": [
+      {
+        "id": "spana:2ac52a30213c9288:93877",
+        "name": "Cr(OH)3(cr)",
+        "amount": 0,
+        "logSaturation": -1.589999999999999,
+        "status": "absent",
+        "activity": null
+      },
+      {
+        "id": "spana:2ac52a30213c9288:94801",
+        "name": "Cr2O3(cr)",
+        "amount": 0.002118169947586859,
+        "logSaturation": 1.7763568394002505e-15,
+        "status": "present",
+        "activity": 1
+      }
+    ],
+    "componentResiduals": {
+      "componentBalance": [
+        1.0135421224812533e-33,
+        -3.469446951953614e-18,
+        -6.938893903907228e-18,
+        0,
+        1.0408340855860843e-17,
+        null
+      ],
+      "componentBalanceLimits": [
+        2e-14,
+        2.5000000000000003e-12,
+        8.333333333333334e-13,
+        1.6666666666666668e-12,
+        1.6666666666666668e-12,
+        null
+      ],
+      "massActionLog": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        null,
+        null
+      ],
+      "scaledBalance": [
+        1.6579655819639244e-14,
+        -1.3877787807814457e-16,
+        -8.326672684688674e-16,
+        0,
+        6.074469114995254e-16,
+        null
+      ]
+    }
+  },
+  "failed": {
+    "targets": [
+      1.214306433183765e-17,
+      0.025,
+      0.008333333333333323,
+      0.016666666666666666,
+      -0.016666666666666646,
+      0
+    ],
+    "pH": 3.633028194538201,
+    "pe": 6.592695684343284,
+    "Eh": 0.39001958935541975,
+    "pHDifference": -8.881784197001252e-16,
+    "peDifference": -2.599091791259638,
+    "EhDifference": -0.1537605801419762,
+    "carriers": [
+      {
+        "id": "component:Cl-",
+        "name": "Cl-",
+        "phase": "aqueous",
+        "amount": 0.024909737316681942,
+        "expected": 0.024909737316681942,
+        "difference": 0,
+        "logRatio": 0
+      },
+      {
+        "id": "component:Cr%203%2B",
+        "name": "Cr 3+",
+        "phase": "aqueous",
+        "amount": 0.0006932907668845027,
+        "expected": 0.0006932907668844999,
+        "difference": 2.8189256484623115e-18,
+        "logRatio": 1.7357894397959133e-15
+      },
+      {
+        "id": "component:Na%2B",
+        "name": "Na+",
+        "phase": "aqueous",
+        "amount": 0.016594830694183965,
+        "expected": 0.016594830694183965,
+        "difference": 0,
+        "logRatio": 0
+      },
+      {
+        "id": "component:ClO3-",
+        "name": "ClO3-",
+        "phase": "aqueous",
+        "amount": 3.241249188446422e-87,
+        "expected": 1.2742750170999835e-71,
+        "difference": -1.274275017099983e-71,
+        "logRatio": -15.594550747557832
+      },
+      {
+        "id": "component:Cr%202%2B",
+        "name": "Cr 2+",
+        "phase": "aqueous",
+        "amount": 1.1620363994526092e-17,
+        "expected": 2.925013944063744e-20,
+        "difference": 1.1591113855085454e-17,
+        "logRatio": 2.5990917912596387
+      },
+      {
+        "id": "component:CrO4%202-",
+        "name": "CrO4 2-",
+        "phase": "aqueous",
+        "amount": 2.1539123466026767e-31,
+        "expected": 1.3505273992525806e-23,
+        "difference": -1.3505273777134572e-23,
+        "logRatio": -7.797275373778916
+      },
+      {
+        "id": "component:H2O2",
+        "name": "H2O2",
+        "phase": "aqueous",
+        "amount": 6.9414109693469374e-40,
+        "expected": 1.0955478232294492e-34,
+        "difference": -1.0955408818184798e-34,
+        "logRatio": -5.1981835825192775
+      },
+      {
+        "id": "spana:2ac52a30213c9288:224689",
+        "name": "NaOH",
+        "phase": "aqueous",
+        "amount": 2.837925696912124e-13,
+        "expected": 2.8379256969121356e-13,
+        "difference": -1.1612032524853294e-27,
+        "logRatio": -1.784005813123585e-15
+      },
+      {
+        "id": "spana:2ac52a30213c9288:96242",
+        "name": "CrOH+",
+        "phase": "aqueous",
+        "amount": 5.226944955207131e-19,
+        "expected": 1.315697760073308e-21,
+        "difference": 5.2137879776063975e-19,
+        "logRatio": 2.5990917912596387
+      },
+      {
+        "id": "component:H%2B",
+        "name": "H+",
+        "phase": "aqueous",
+        "amount": 0.0002327940122133673,
+        "expected": 0.0002327940122133668,
+        "difference": 4.87890977618477e-19,
+        "logRatio": 8.678947198979575e-16
+      },
+      {
+        "id": "spana:2ac52a30213c9288:82236",
+        "name": "Cl2",
+        "phase": "aqueous",
+        "amount": 6.139452790358064e-38,
+        "expected": 9.689765049207909e-33,
+        "difference": -9.689703654680006e-33,
+        "logRatio": -5.19818358251927
+      },
+      {
+        "id": "spana:2ac52a30213c9288:82394",
+        "name": "ClO-",
+        "phase": "aqueous",
+        "amount": 8.200057646913096e-40,
+        "expected": 1.29419729578075e-34,
+        "difference": -1.2941890957231032e-34,
+        "logRatio": -5.1981835825192775
+      },
+      {
+        "id": "spana:2ac52a30213c9288:82497",
+        "name": "ClO2(aq)",
+        "phase": "aqueous",
+        "amount": 6.19384520839967e-82,
+        "expected": 6.129418910805523e-69,
+        "difference": -6.129418910804903e-69,
+        "logRatio": -12.995458956298194
+      },
+      {
+        "id": "spana:2ac52a30213c9288:82605",
+        "name": "ClO2-",
+        "phase": "aqueous",
+        "amount": 2.5076369658009793e-69,
+        "expected": 6.246429293115793e-59,
+        "difference": -6.246429292865029e-59,
+        "logRatio": -10.396367165038555
+      },
+      {
+        "id": "spana:2ac52a30213c9288:93605",
+        "name": "Cr(OH)2+",
+        "phase": "aqueous",
+        "amount": 0.00000189222077107303,
+        "expected": 0.00000189222077107303,
+        "difference": 0,
+        "logRatio": 0
+      },
+      {
+        "id": "spana:2ac52a30213c9288:93695",
+        "name": "Cr(OH)3",
+        "phase": "aqueous",
+        "amount": 3.7153522909716974e-9,
+        "expected": 3.715352290971728e-9,
+        "difference": -3.0605682664462024e-23,
+        "logRatio": -3.568011626247176e-15
+      },
+      {
+        "id": "spana:2ac52a30213c9288:93970",
+        "name": "Cr(OH)4-",
+        "phase": "aqueous",
+        "amount": 9.397843196861799e-17,
+        "expected": 9.397843196861877e-17,
+        "difference": -7.765349535769335e-31,
+        "logRatio": -3.568011626247176e-15
+      },
+      {
+        "id": "spana:2ac52a30213c9288:94615",
+        "name": "Cr2(OH)2+4",
+        "phase": "aqueous",
+        "amount": 0.0000772479960452294,
+        "expected": 0.00007724799604522907,
+        "difference": 3.2526065174565133e-19,
+        "logRatio": 1.8322221864512418e-15
+      },
+      {
+        "id": "spana:2ac52a30213c9288:94892",
+        "name": "Cr2O7-2",
+        "phase": "aqueous",
+        "amount": 8.717654688626845e-55,
+        "expected": 3.427286497137939e-39,
+        "difference": -3.427286497137938e-39,
+        "logRatio": -15.594550747557832
+      },
+      {
+        "id": "spana:2ac52a30213c9288:94983",
+        "name": "Cr3(OH)4+5",
+        "phase": "aqueous",
+        "amount": 0.0008032653386348656,
+        "expected": 0.000803265338634859,
+        "difference": 6.613633252161577e-18,
+        "logRatio": 3.568011626247148e-15
+      },
+      {
+        "id": "spana:2ac52a30213c9288:95316",
+        "name": "CrCl+2",
+        "phase": "aqueous",
+        "amount": 0.000017269690887173938,
+        "expected": 0.000017269690887173867,
+        "difference": 7.115076756936123e-20,
+        "logRatio": 1.8322221864512418e-15
+      },
+      {
+        "id": "spana:2ac52a30213c9288:96329",
+        "name": "CrOH+2",
+        "phase": "aqueous",
+        "amount": 0.0008202450362694433,
+        "expected": 0.0008202450362694416,
+        "difference": 1.734723475976807e-18,
+        "logRatio": 9.643274665532861e-16
+      },
+      {
+        "id": "spana:2ac52a30213c9288:151381",
+        "name": "H2",
+        "phase": "aqueous",
+        "amount": 2.9211391293145517e-24,
+        "expected": 1.8508390747781947e-29,
+        "difference": 2.921120620923804e-24,
+        "logRatio": 5.1981835825192775
+      },
+      {
+        "id": "spana:2ac52a30213c9288:151977",
+        "name": "H2CrO4",
+        "phase": "aqueous",
+        "amount": 2.383261167092361e-32,
+        "expected": 1.4943317033349313e-24,
+        "difference": -1.4943316795023197e-24,
+        "logRatio": -7.797275373778916
+      },
+      {
+        "id": "spana:2ac52a30213c9288:159033",
+        "name": "HCl",
+        "phase": "aqueous",
+        "amount": 0.0000011570202319726203,
+        "expected": 0.000001157020231972618,
+        "difference": 2.329340604949326e-21,
+        "logRatio": 8.678947198979575e-16
+      },
+      {
+        "id": "spana:2ac52a30213c9288:159101",
+        "name": "HClO",
+        "phase": "aqueous",
+        "amount": 5.020982537861971e-36,
+        "expected": 7.924507732100579e-31,
+        "difference": -7.9244575222752e-31,
+        "logRatio": -5.1981835825192775
+      },
+      {
+        "id": "spana:2ac52a30213c9288:159212",
+        "name": "HClO2",
+        "phase": "aqueous",
+        "amount": 5.704748052092759e-71,
+        "expected": 1.4210312668227594e-60,
+        "difference": -1.421031266765712e-60,
+        "logRatio": -10.396367165038555
+      },
+      {
+        "id": "spana:2ac52a30213c9288:159826",
+        "name": "HCrO4-",
+        "phase": "aqueous",
+        "amount": 1.6225565097952281e-28,
+        "expected": 1.0173612806344693e-20,
+        "difference": -1.0173612644089042e-20,
+        "logRatio": -7.797275373778916
+      },
+      {
+        "id": "spana:2ac52a30213c9288:175307",
+        "name": "HO2-",
+        "phase": "aqueous",
+        "amount": 6.675379371151639e-48,
+        "expected": 1.0535606336508252e-42,
+        "difference": -1.053553958271454e-42,
+        "logRatio": -5.1981835825192775
+      },
+      {
+        "id": "spana:2ac52a30213c9288:223384",
+        "name": "NaCl",
+        "phase": "aqueous",
+        "amount": 0.00007183597219890792,
+        "expected": 0.00007183597219890792,
+        "difference": 0,
+        "logRatio": 0
+      },
+      {
+        "id": "spana:2ac52a30213c9288:249989",
+        "name": "O2",
+        "phase": "aqueous",
+        "amount": 8.22044854992885e-46,
+        "expected": 2.0476827916127523e-35,
+        "difference": -2.047682791530548e-35,
+        "logRatio": -10.396367165038555
+      },
+      {
+        "id": "spana:2ac52a30213c9288:250161",
+        "name": "O3",
+        "phase": "aqueous",
+        "amount": 1.6381107987678775e-94,
+        "expected": 6.440120906322935e-79,
+        "difference": -6.440120906322933e-79,
+        "logRatio": -15.594550747557832
+      },
+      {
+        "id": "spana:2ac52a30213c9288:250448",
+        "name": "OH-",
+        "phase": "aqueous",
+        "amount": 4.280832099845338e-11,
+        "expected": 4.280832099845338e-11,
+        "difference": 0,
+        "logRatio": 0
+      },
+      {
+        "id": "spana:2ac52a30213c9288:93877",
+        "name": "Cr(OH)3(cr)",
+        "phase": "solid",
+        "amount": 0,
+        "expected": 0,
+        "difference": 0,
+        "logRatio": null
+      },
+      {
+        "id": "spana:2ac52a30213c9288:94801",
+        "name": "Cr2O3(cr)",
+        "phase": "solid",
+        "amount": 0.0021181699475868606,
+        "expected": 0.002118169947586859,
+        "difference": 1.734723475976807e-18,
+        "logRatio": 3.857309866213147e-16
+      }
+    ],
+    "solids": [
+      {
+        "id": "spana:2ac52a30213c9288:93877",
+        "name": "Cr(OH)3(cr)",
+        "amount": 0,
+        "logSaturation": -1.5900000000000007,
+        "status": "absent",
+        "activity": null
+      },
+      {
+        "id": "spana:2ac52a30213c9288:94801",
+        "name": "Cr2O3(cr)",
+        "amount": 0.0021181699475868606,
+        "logSaturation": -1.7763568394002505e-15,
+        "status": "present",
+        "activity": 1
+      }
+    ],
+    "chargeResidual": 6.279245374507212e-17,
+    "componentResiduals": {
+      "componentBalance": [
+        -6.933347799794049e-32,
+        -3.469446951953614e-18,
+        3.2959746043559335e-17,
+        0,
+        -3.8163916471489756e-17,
+        null
+      ],
+      "componentBalanceLimits": [
+        2e-14,
+        2.5000000000000003e-12,
+        8.333333333333323e-13,
+        1.6666666666666668e-12,
+        1.6666666666666645e-12,
+        null
+      ],
+      "massActionLog": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        null,
+        null
+      ],
+      "scaledBalance": [
+        -5.709718411899546e-15,
+        -1.3877787807814457e-16,
+        3.955169525227111e-15,
+        0,
+        -2.2273053421649194e-15,
+        null
+      ]
+    },
+    "scientificValidation": "passed"
+  },
+  "oneZero": {
+    "targets": [
+      0,
+      0.025,
+      0.008333333333333323,
+      0.016666666666666666,
+      -0.016666666666666646,
+      0
+    ],
+    "pH": 3.6330281945382015,
+    "pe": 9.19178747560293,
+    "Eh": 0.5437801694973964,
+    "pHDifference": -4.440892098500626e-16,
+    "peDifference": 7.105427357601002e-15,
+    "EhDifference": 4.440892098500626e-16,
+    "carriers": [
+      {
+        "id": "component:Cl-",
+        "name": "Cl-",
+        "phase": "aqueous",
+        "amount": 0.024909737316681942,
+        "expected": 0.024909737316681942,
+        "difference": 0,
+        "logRatio": 0
+      },
+      {
+        "id": "component:Cr%203%2B",
+        "name": "Cr 3+",
+        "phase": "aqueous",
+        "amount": 0.0006932907668845005,
+        "expected": 0.0006932907668844999,
+        "difference": 6.505213034913027e-19,
+        "logRatio": 3.857309866213147e-16
+      },
+      {
+        "id": "component:Na%2B",
+        "name": "Na+",
+        "phase": "aqueous",
+        "amount": 0.016594830694183965,
+        "expected": 0.016594830694183965,
+        "difference": 0,
+        "logRatio": 0
+      },
+      {
+        "id": "component:ClO3-",
+        "name": "ClO3-",
+        "phase": "aqueous",
+        "amount": 1.274275017100067e-71,
+        "expected": 1.2742750170999835e-71,
+        "difference": 8.344673436051688e-85,
+        "logRatio": 2.844766026332104e-14
+      },
+      {
+        "id": "component:Cr%202%2B",
+        "name": "Cr 2+",
+        "phase": "aqueous",
+        "amount": 2.925013944063696e-20,
+        "expected": 2.925013944063744e-20,
+        "difference": -4.81482486096809e-34,
+        "logRatio": -7.136023252494383e-15
+      },
+      {
+        "id": "component:CrO4%202-",
+        "name": "CrO4 2-",
+        "phase": "aqueous",
+        "amount": 1.350527399252669e-23,
+        "expected": 1.3505273992525806e-23,
+        "difference": 8.845594989937713e-37,
+        "logRatio": 2.844766026332104e-14
+      },
+      {
+        "id": "component:H2O2",
+        "name": "H2O2",
+        "phase": "aqueous",
+        "amount": 1.095547823229485e-34,
+        "expected": 1.0955478232294492e-34,
+        "difference": 3.592195770363911e-48,
+        "logRatio": 1.4272046504988412e-14
+      },
+      {
+        "id": "spana:2ac52a30213c9288:224689",
+        "name": "NaOH",
+        "phase": "aqueous",
+        "amount": 2.837925696912124e-13,
+        "expected": 2.8379256969121356e-13,
+        "difference": -1.1612032524853294e-27,
+        "logRatio": -1.784005813123585e-15
+      },
+      {
+        "id": "spana:2ac52a30213c9288:96242",
+        "name": "CrOH+",
+        "phase": "aqueous",
+        "amount": 1.3156977600732865e-21,
+        "expected": 1.315697760073308e-21,
+        "difference": -2.1441016958998524e-35,
+        "logRatio": -7.087806879166718e-15
+      },
+      {
+        "id": "component:H%2B",
+        "name": "H+",
+        "phase": "aqueous",
+        "amount": 0.00023279401221336704,
+        "expected": 0.0002327940122133668,
+        "difference": 2.439454888092385e-19,
+        "logRatio": 4.821637332766433e-16
+      },
+      {
+        "id": "spana:2ac52a30213c9288:82236",
+        "name": "Cl2",
+        "phase": "aqueous",
+        "amount": 9.689765049208226e-33,
+        "expected": 9.689765049207909e-33,
+        "difference": 3.1748168332359137e-46,
+        "logRatio": 1.4272046504988412e-14
+      },
+      {
+        "id": "spana:2ac52a30213c9288:82394",
+        "name": "ClO-",
+        "phase": "aqueous",
+        "amount": 1.2941972957807924e-34,
+        "expected": 1.29419729578075e-34,
+        "difference": 4.233659300786038e-48,
+        "logRatio": 1.417561375833309e-14
+      },
+      {
+        "id": "spana:2ac52a30213c9288:82497",
+        "name": "ClO2(aq)",
+        "phase": "aqueous",
+        "amount": 6.129418910805924e-69,
+        "expected": 6.129418910805523e-69,
+        "difference": 4.0150949197850626e-82,
+        "logRatio": 2.844766026332104e-14
+      },
+      {
+        "id": "spana:2ac52a30213c9288:82605",
+        "name": "ClO2-",
+        "phase": "aqueous",
+        "amount": 6.246429293116201e-59,
+        "expected": 6.246429293115793e-59,
+        "difference": 4.0856677093925206e-72,
+        "logRatio": 2.844766026332104e-14
+      },
+      {
+        "id": "spana:2ac52a30213c9288:93605",
+        "name": "Cr(OH)2+",
+        "phase": "aqueous",
+        "amount": 0.00000189222077107303,
+        "expected": 0.00000189222077107303,
+        "difference": 0,
+        "logRatio": 0
+      },
+      {
+        "id": "spana:2ac52a30213c9288:93695",
+        "name": "Cr(OH)3",
+        "phase": "aqueous",
+        "amount": 3.7153522909717127e-9,
+        "expected": 3.715352290971728e-9,
+        "difference": -1.5302841332231012e-23,
+        "logRatio": -1.784005813123585e-15
+      },
+      {
+        "id": "spana:2ac52a30213c9288:93970",
+        "name": "Cr(OH)4-",
+        "phase": "aqueous",
+        "amount": 9.397843196861799e-17,
+        "expected": 9.397843196861877e-17,
+        "difference": -7.765349535769335e-31,
+        "logRatio": -3.568011626247176e-15
+      },
+      {
+        "id": "spana:2ac52a30213c9288:94615",
+        "name": "Cr2(OH)2+4",
+        "phase": "aqueous",
+        "amount": 0.00007724799604522907,
+        "expected": 0.00007724799604522907,
+        "difference": 0,
+        "logRatio": 0
+      },
+      {
+        "id": "spana:2ac52a30213c9288:94892",
+        "name": "Cr2O7-2",
+        "phase": "aqueous",
+        "amount": 3.427286497138163e-39,
+        "expected": 3.427286497137939e-39,
+        "difference": 2.2447047369914924e-52,
+        "logRatio": 2.844766026332104e-14
+      },
+      {
+        "id": "spana:2ac52a30213c9288:94983",
+        "name": "Cr3(OH)4+5",
+        "phase": "aqueous",
+        "amount": 0.000803265338634859,
+        "expected": 0.000803265338634859,
+        "difference": 0,
+        "logRatio": 0
+      },
+      {
+        "id": "spana:2ac52a30213c9288:95316",
+        "name": "CrCl+2",
+        "phase": "aqueous",
+        "amount": 0.0000172696908871739,
+        "expected": 0.000017269690887173867,
+        "difference": 3.3881317890172014e-20,
+        "logRatio": 8.678947198979575e-16
+      },
+      {
+        "id": "spana:2ac52a30213c9288:96329",
+        "name": "CrOH+2",
+        "phase": "aqueous",
+        "amount": 0.0008202450362694416,
+        "expected": 0.0008202450362694416,
+        "difference": 0,
+        "logRatio": 0
+      },
+      {
+        "id": "spana:2ac52a30213c9288:151381",
+        "name": "H2",
+        "phase": "aqueous",
+        "amount": 1.8508390747781342e-29,
+        "expected": 1.8508390747781947e-29,
+        "difference": -6.05360936588321e-43,
+        "logRatio": -1.4223830131661216e-14
+      },
+      {
+        "id": "spana:2ac52a30213c9288:151977",
+        "name": "H2CrO4",
+        "phase": "aqueous",
+        "amount": 1.4943317033349802e-24,
+        "expected": 1.4943317033349313e-24,
+        "difference": 4.885648395605132e-38,
+        "logRatio": 1.417561375833309e-14
+      },
+      {
+        "id": "spana:2ac52a30213c9288:159033",
+        "name": "HCl",
+        "phase": "aqueous",
+        "amount": 0.000001157020231972618,
+        "expected": 0.000001157020231972618,
+        "difference": 0,
+        "logRatio": 0
+      },
+      {
+        "id": "spana:2ac52a30213c9288:159101",
+        "name": "HClO",
+        "phase": "aqueous",
+        "amount": 7.924507732100838e-31,
+        "expected": 7.924507732100579e-31,
+        "difference": 2.5924021590009116e-44,
+        "logRatio": 1.417561375833309e-14
+      },
+      {
+        "id": "spana:2ac52a30213c9288:159212",
+        "name": "HClO2",
+        "phase": "aqueous",
+        "amount": 1.4210312668228526e-60,
+        "expected": 1.4210312668227594e-60,
+        "difference": 9.313244169813849e-74,
+        "logRatio": 2.844766026332104e-14
+      },
+      {
+        "id": "spana:2ac52a30213c9288:159826",
+        "name": "HCrO4-",
+        "phase": "aqueous",
+        "amount": 1.0173612806345026e-20,
+        "expected": 1.0173612806344693e-20,
+        "difference": 3.325238419606087e-34,
+        "logRatio": 1.417561375833309e-14
+      },
+      {
+        "id": "spana:2ac52a30213c9288:175307",
+        "name": "HO2-",
+        "phase": "aqueous",
+        "amount": 1.0535606336508596e-42,
+        "expected": 1.0535606336508252e-42,
+        "difference": 3.441078528046097e-56,
+        "logRatio": 1.417561375833309e-14
+      },
+      {
+        "id": "spana:2ac52a30213c9288:223384",
+        "name": "NaCl",
+        "phase": "aqueous",
+        "amount": 0.00007183597219890792,
+        "expected": 0.00007183597219890792,
+        "difference": 0,
+        "logRatio": 0
+      },
+      {
+        "id": "spana:2ac52a30213c9288:249989",
+        "name": "O2",
+        "phase": "aqueous",
+        "amount": 2.0476827916128865e-35,
+        "expected": 2.0476827916127523e-35,
+        "difference": 1.3417278844662822e-48,
+        "logRatio": 2.844766026332104e-14
+      },
+      {
+        "id": "spana:2ac52a30213c9288:250161",
+        "name": "O3",
+        "phase": "aqueous",
+        "amount": 6.440120906323356e-79,
+        "expected": 6.440120906322935e-79,
+        "difference": 4.218752196740234e-92,
+        "logRatio": 2.844766026332104e-14
+      },
+      {
+        "id": "spana:2ac52a30213c9288:250448",
+        "name": "OH-",
+        "phase": "aqueous",
+        "amount": 4.280832099845338e-11,
+        "expected": 4.280832099845338e-11,
+        "difference": 0,
+        "logRatio": 0
+      },
+      {
+        "id": "spana:2ac52a30213c9288:93877",
+        "name": "Cr(OH)3(cr)",
+        "phase": "solid",
+        "amount": 0,
+        "expected": 0,
+        "difference": 0,
+        "logRatio": null
+      },
+      {
+        "id": "spana:2ac52a30213c9288:94801",
+        "name": "Cr2O3(cr)",
+        "phase": "solid",
+        "amount": 0.002118169947586857,
+        "expected": 0.002118169947586859,
+        "difference": -1.734723475976807e-18,
+        "logRatio": -3.375146132936506e-16
+      }
+    ],
+    "solids": [
+      {
+        "id": "spana:2ac52a30213c9288:93877",
+        "name": "Cr(OH)3(cr)",
+        "amount": 0,
+        "logSaturation": -1.5899999999999999,
+        "status": "absent",
+        "activity": null
+      },
+      {
+        "id": "spana:2ac52a30213c9288:94801",
+        "name": "Cr2O3(cr)",
+        "amount": 0.002118169947586857,
+        "logSaturation": 0,
+        "status": "present",
+        "activity": 1
+      }
+    ],
+    "chargeResidual": -6.60665890467623e-18,
+    "componentResiduals": {
+      "componentBalance": [
+        -4.850721154957134e-34,
+        -3.469446951953614e-18,
+        1.734723475976807e-18,
+        0,
+        0,
+        null
+      ],
+      "componentBalanceLimits": [
+        2e-14,
+        2.5000000000000003e-12,
+        8.333333333333323e-13,
+        1.6666666666666668e-12,
+        1.6666666666666645e-12,
+        null
+      ],
+      "massActionLog": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        null,
+        null
+      ],
+      "scaledBalance": [
+        -7.934873691223338e-15,
+        -1.3877787807814457e-16,
+        2.0816681711721707e-16,
+        0,
+        0,
+        null
+      ]
+    },
+    "scientificValidation": "passed"
+  }
+}

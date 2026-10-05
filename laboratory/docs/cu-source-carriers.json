@@ -1,0 +1,1870 @@
+{
+  "sourceDatabaseSha256": "2ac52a30213c9288dd18fc6dd597411e5c3ca53173fa6d1fab5530b371c30a0a",
+  "scope": "cu-oxide-hydroxide-source-snapshot-v1",
+  "reactionDiscovery": "All source reactions involving either connected Cu source component; compatible terms restricted to these components, H+, e- and H2O. This is source-family discovery, not oxidation-state inference.",
+  "relevantSourceRows": 167,
+  "compatibleSourceRows": 14,
+  "excluded": [
+    {
+      "id": "spana:2ac52a30213c9288:97930",
+      "name": "Cu(AcSal)+",
+      "phase": "aqueous",
+      "otherComponents": [
+        "AcSal-"
+      ],
+      "reason": "outside-Cu-H-O-ligand-scope"
+    },
+    {
+      "id": "spana:2ac52a30213c9288:98013",
+      "name": "Cu(AcSal)OH",
+      "phase": "aqueous",
+      "otherComponents": [
+        "AcSal-"
+      ],
+      "reason": "outside-Cu-H-O-ligand-scope"
+    },
+    {
+      "id": "spana:2ac52a30213c9288:98122",
+      "name": "Cu(B(OH)4)2",
+      "phase": "aqueous",
+      "otherComponents": [
+        "B(OH)3"
+      ],
+      "reason": "outside-Cu-H-O-ligand-scope"
+    },
+    {
+      "id": "spana:2ac52a30213c9288:98231",
+      "name": "Cu(CH3COO)+",
+      "phase": "aqueous",
+      "otherComponents": [
+        "CH3COO-"
+      ],
+      "reason": "outside-Cu-H-O-ligand-scope"
+    },
+    {
+      "id": "spana:2ac52a30213c9288:98316",
+      "name": "Cu(CH3COO)2",
+      "phase": "aqueous",
+      "otherComponents": [
+        "CH3COO-"
+      ],
+      "reason": "outside-Cu-H-O-ligand-scope"
+    },
+    {
+      "id": "spana:2ac52a30213c9288:98401",
+      "name": "Cu(CH3COO)3-",
+      "phase": "aqueous",
+      "otherComponents": [
+        "CH3COO-"
+      ],
+      "reason": "outside-Cu-H-O-ligand-scope"
+    },
+    {
+      "id": "spana:2ac52a30213c9288:98487",
+      "name": "Cu(CN)2-",
+      "phase": "aqueous",
+      "otherComponents": [
+        "CN-"
+      ],
+      "reason": "outside-Cu-H-O-ligand-scope"
+    },
+    {
+      "id": "spana:2ac52a30213c9288:98563",
+      "name": "Cu(CN)3-2",
+      "phase": "aqueous",
+      "otherComponents": [
+        "CN-"
+      ],
+      "reason": "outside-Cu-H-O-ligand-scope"
+    },
+    {
+      "id": "spana:2ac52a30213c9288:98640",
+      "name": "Cu(CN)4-2",
+      "phase": "aqueous",
+      "otherComponents": [
+        "CN-"
+      ],
+      "reason": "outside-Cu-H-O-ligand-scope"
+    },
+    {
+      "id": "spana:2ac52a30213c9288:98717",
+      "name": "Cu(CN)4-3",
+      "phase": "aqueous",
+      "otherComponents": [
+        "CN-"
+      ],
+      "reason": "outside-Cu-H-O-ligand-scope"
+    },
+    {
+      "id": "spana:2ac52a30213c9288:98794",
+      "name": "Cu(CO3)2-2",
+      "phase": "aqueous",
+      "otherComponents": [
+        "CO3 2-"
+      ],
+      "reason": "outside-Cu-H-O-ligand-scope"
+    },
+    {
+      "id": "spana:2ac52a30213c9288:98944",
+      "name": "Cu(EDTA) 2-",
+      "phase": "aqueous",
+      "otherComponents": [
+        "EDTA 4-"
+      ],
+      "reason": "outside-Cu-H-O-ligand-scope"
+    },
+    {
+      "id": "spana:2ac52a30213c9288:99029",
+      "name": "Cu(EDTA)OH 3-",
+      "phase": "aqueous",
+      "otherComponents": [
+        "EDTA 4-"
+      ],
+      "reason": "outside-Cu-H-O-ligand-scope"
+    },
+    {
+      "id": "spana:2ac52a30213c9288:99141",
+      "name": "Cu(gly)+",
+      "phase": "aqueous",
+      "otherComponents": [
+        "gly-"
+      ],
+      "reason": "outside-Cu-H-O-ligand-scope"
+    },
+    {
+      "id": "spana:2ac52a30213c9288:99220",
+      "name": "Cu(gly)2",
+      "phase": "aqueous",
+      "otherComponents": [
+        "gly-"
+      ],
+      "reason": "outside-Cu-H-O-ligand-scope"
+    },
+    {
+      "id": "spana:2ac52a30213c9288:99299",
+      "name": "Cu(gly)2-",
+      "phase": "aqueous",
+      "otherComponents": [
+        "gly-"
+      ],
+      "reason": "outside-Cu-H-O-ligand-scope"
+    },
+    {
+      "id": "spana:2ac52a30213c9288:99377",
+      "name": "Cu(H2EDTA)",
+      "phase": "aqueous",
+      "otherComponents": [
+        "EDTA 4-"
+      ],
+      "reason": "outside-Cu-H-O-ligand-scope"
+    },
+    {
+      "id": "spana:2ac52a30213c9288:99473",
+      "name": "Cu(H2PO4)2",
+      "phase": "aqueous",
+      "otherComponents": [
+        "PO4 3-"
+      ],
+      "reason": "outside-Cu-H-O-ligand-scope"
+    },
+    {
+      "id": "spana:2ac52a30213c9288:99565",
+      "name": "Cu(H2PO4)2-",
+      "phase": "aqueous",
+      "otherComponents": [
+        "PO4 3-"
+      ],
+      "reason": "outside-Cu-H-O-ligand-scope"
+    },
+    {
+      "id": "spana:2ac52a30213c9288:99656",
+      "name": "Cu(Hcit)",
+      "phase": "aqueous",
+      "otherComponents": [
+        "cit 3-"
+      ],
+      "reason": "outside-Cu-H-O-ligand-scope"
+    },
+    {
+      "id": "spana:2ac52a30213c9288:99749",
+      "name": "Cu(HCOO)+",
+      "phase": "aqueous",
+      "otherComponents": [
+        "HCOO-"
+      ],
+      "reason": "outside-Cu-H-O-ligand-scope"
+    },
+    {
+      "id": "spana:2ac52a30213c9288:99830",
+      "name": "Cu(HCOO)2",
+      "phase": "aqueous",
+      "otherComponents": [
+        "HCOO-"
+      ],
+      "reason": "outside-Cu-H-O-ligand-scope"
+    },
+    {
+      "id": "spana:2ac52a30213c9288:99911",
+      "name": "Cu(HCOO)3-",
+      "phase": "aqueous",
+      "otherComponents": [
+        "HCOO-"
+      ],
+      "reason": "outside-Cu-H-O-ligand-scope"
+    },
+    {
+      "id": "spana:2ac52a30213c9288:99993",
+      "name": "Cu(HEDTA)-",
+      "phase": "aqueous",
+      "otherComponents": [
+        "EDTA 4-"
+      ],
+      "reason": "outside-Cu-H-O-ligand-scope"
+    },
+    {
+      "id": "spana:2ac52a30213c9288:100089",
+      "name": "Cu(HP2O7)(P2O7)-5",
+      "phase": "aqueous",
+      "otherComponents": [
+        "P2O7 4-"
+      ],
+      "reason": "outside-Cu-H-O-ligand-scope"
+    },
+    {
+      "id": "spana:2ac52a30213c9288:100192",
+      "name": "Cu(HP2O7)2-4",
+      "phase": "aqueous",
+      "otherComponents": [
+        "P2O7 4-"
+      ],
+      "reason": "outside-Cu-H-O-ligand-scope"
+    },
+    {
+      "id": "spana:2ac52a30213c9288:100290",
+      "name": "Cu(HPO3)2-2",
+      "phase": "aqueous",
+      "otherComponents": [
+        "HPO3 2-"
+      ],
+      "reason": "outside-Cu-H-O-ligand-scope"
+    },
+    {
+      "id": "spana:2ac52a30213c9288:100375",
+      "name": "Cu(HPO4)(H2PO4)-",
+      "phase": "aqueous",
+      "otherComponents": [
+        "PO4 3-"
+      ],
+      "reason": "outside-Cu-H-O-ligand-scope"
+    },
+    {
+      "id": "spana:2ac52a30213c9288:100473",
+      "name": "Cu(HPO4)(H2PO4)-2",
+      "phase": "aqueous",
+      "otherComponents": [
+        "PO4 3-"
+      ],
+      "reason": "outside-Cu-H-O-ligand-scope"
+    },
+    {
+      "id": "spana:2ac52a30213c9288:100570",
+      "name": "Cu(HPO4)2-2",
+      "phase": "aqueous",
+      "otherComponents": [
+        "PO4 3-"
+      ],
+      "reason": "outside-Cu-H-O-ligand-scope"
+    },
+    {
+      "id": "spana:2ac52a30213c9288:100663",
+      "name": "Cu(HS)2-",
+      "phase": "aqueous",
+      "otherComponents": [
+        "HS-"
+      ],
+      "reason": "outside-Cu-H-O-ligand-scope"
+    },
+    {
+      "id": "spana:2ac52a30213c9288:100736",
+      "name": "Cu(IO3)2·H2O(s)",
+      "phase": "solid",
+      "otherComponents": [
+        "IO3-"
+      ],
+      "reason": "outside-Cu-H-O-ligand-scope"
+    },
+    {
+      "id": "spana:2ac52a30213c9288:100836",
+      "name": "Cu(N3)2",
+      "phase": "aqueous",
+      "otherComponents": [
+        "N3-"
+      ],
+      "reason": "outside-Cu-H-O-ligand-scope"
+    },
+    {
+      "id": "spana:2ac52a30213c9288:100913",
+      "name": "Cu(N3)2(s)",
+      "phase": "solid",
+      "otherComponents": [
+        "N3-"
+      ],
+      "reason": "outside-Cu-H-O-ligand-scope"
+    },
+    {
+      "id": "spana:2ac52a30213c9288:100993",
+      "name": "Cu(N3)3-",
+      "phase": "aqueous",
+      "otherComponents": [
+        "N3-"
+      ],
+      "reason": "outside-Cu-H-O-ligand-scope"
+    },
+    {
+      "id": "spana:2ac52a30213c9288:101071",
+      "name": "Cu(N3)3-2",
+      "phase": "aqueous",
+      "otherComponents": [
+        "N3-"
+      ],
+      "reason": "outside-Cu-H-O-ligand-scope"
+    },
+    {
+      "id": "spana:2ac52a30213c9288:101148",
+      "name": "Cu(N3)4-2",
+      "phase": "aqueous",
+      "otherComponents": [
+        "N3-"
+      ],
+      "reason": "outside-Cu-H-O-ligand-scope"
+    },
+    {
+      "id": "spana:2ac52a30213c9288:101227",
+      "name": "Cu(NH3)2(OH)2",
+      "phase": "aqueous",
+      "otherComponents": [
+        "NH3"
+      ],
+      "reason": "outside-Cu-H-O-ligand-scope"
+    },
+    {
+      "id": "spana:2ac52a30213c9288:101332",
+      "name": "Cu(NH3)2+",
+      "phase": "aqueous",
+      "otherComponents": [
+        "NH3"
+      ],
+      "reason": "outside-Cu-H-O-ligand-scope"
+    },
+    {
+      "id": "spana:2ac52a30213c9288:101406",
+      "name": "Cu(NH3)2+2",
+      "phase": "aqueous",
+      "otherComponents": [
+        "NH3"
+      ],
+      "reason": "outside-Cu-H-O-ligand-scope"
+    },
+    {
+      "id": "spana:2ac52a30213c9288:101483",
+      "name": "Cu(NH3)3+2",
+      "phase": "aqueous",
+      "otherComponents": [
+        "NH3"
+      ],
+      "reason": "outside-Cu-H-O-ligand-scope"
+    },
+    {
+      "id": "spana:2ac52a30213c9288:101560",
+      "name": "Cu(NH3)3OH+",
+      "phase": "aqueous",
+      "otherComponents": [
+        "NH3"
+      ],
+      "reason": "outside-Cu-H-O-ligand-scope"
+    },
+    {
+      "id": "spana:2ac52a30213c9288:101663",
+      "name": "Cu(NH3)4+2",
+      "phase": "aqueous",
+      "otherComponents": [
+        "NH3"
+      ],
+      "reason": "outside-Cu-H-O-ligand-scope"
+    },
+    {
+      "id": "spana:2ac52a30213c9288:101740",
+      "name": "Cu(NH3)4OH+",
+      "phase": "aqueous",
+      "otherComponents": [
+        "NH3"
+      ],
+      "reason": "outside-Cu-H-O-ligand-scope"
+    },
+    {
+      "id": "spana:2ac52a30213c9288:101844",
+      "name": "Cu(NO2)2",
+      "phase": "aqueous",
+      "otherComponents": [
+        "NO2-"
+      ],
+      "reason": "outside-Cu-H-O-ligand-scope"
+    },
+    {
+      "id": "spana:2ac52a30213c9288:101920",
+      "name": "Cu(NO3)2",
+      "phase": "aqueous",
+      "otherComponents": [
+        "NO3-"
+      ],
+      "reason": "outside-Cu-H-O-ligand-scope"
+    },
+    {
+      "id": "spana:2ac52a30213c9288:101996",
+      "name": "Cu(NO3)2·3Cu(OH)2(cr)",
+      "phase": "solid",
+      "otherComponents": [
+        "NO3-"
+      ],
+      "reason": "outside-Cu-H-O-ligand-scope"
+    },
+    {
+      "id": "spana:2ac52a30213c9288:102111",
+      "name": "Cu(NTA)2 4-",
+      "phase": "aqueous",
+      "otherComponents": [
+        "NTA 3-"
+      ],
+      "reason": "outside-Cu-H-O-ligand-scope"
+    },
+    {
+      "id": "spana:2ac52a30213c9288:102195",
+      "name": "Cu(NTA)OH 2-",
+      "phase": "aqueous",
+      "otherComponents": [
+        "NTA 3-"
+      ],
+      "reason": "outside-Cu-H-O-ligand-scope"
+    },
+    {
+      "id": "spana:2ac52a30213c9288:102753",
+      "name": "Cu(ox)",
+      "phase": "aqueous",
+      "otherComponents": [
+        "ox 2-"
+      ],
+      "reason": "outside-Cu-H-O-ligand-scope"
+    },
+    {
+      "id": "spana:2ac52a30213c9288:102831",
+      "name": "Cu(ox)2 2-",
+      "phase": "aqueous",
+      "otherComponents": [
+        "ox 2-"
+      ],
+      "reason": "outside-Cu-H-O-ligand-scope"
+    },
+    {
+      "id": "spana:2ac52a30213c9288:102913",
+      "name": "Cu(P2O7)2-6",
+      "phase": "aqueous",
+      "otherComponents": [
+        "P2O7 4-"
+      ],
+      "reason": "outside-Cu-H-O-ligand-scope"
+    },
+    {
+      "id": "spana:2ac52a30213c9288:102998",
+      "name": "Cu(P3O9)2-4",
+      "phase": "aqueous",
+      "otherComponents": [
+        "P3O9 3-"
+      ],
+      "reason": "outside-Cu-H-O-ligand-scope"
+    },
+    {
+      "id": "spana:2ac52a30213c9288:103083",
+      "name": "Cu(SCN)2",
+      "phase": "aqueous",
+      "otherComponents": [
+        "SCN-"
+      ],
+      "reason": "outside-Cu-H-O-ligand-scope"
+    },
+    {
+      "id": "spana:2ac52a30213c9288:103162",
+      "name": "Cu(SCN)3-2",
+      "phase": "aqueous",
+      "otherComponents": [
+        "SCN-"
+      ],
+      "reason": "outside-Cu-H-O-ligand-scope"
+    },
+    {
+      "id": "spana:2ac52a30213c9288:103241",
+      "name": "Cu(SCN)4-3",
+      "phase": "aqueous",
+      "otherComponents": [
+        "SCN-"
+      ],
+      "reason": "outside-Cu-H-O-ligand-scope"
+    },
+    {
+      "id": "spana:2ac52a30213c9288:103320",
+      "name": "Cu(SO3)2-3",
+      "phase": "aqueous",
+      "otherComponents": [
+        "SO3 2-"
+      ],
+      "reason": "outside-Cu-H-O-ligand-scope"
+    },
+    {
+      "id": "spana:2ac52a30213c9288:103470",
+      "name": "Cu1.75S(cr)",
+      "phase": "solid",
+      "otherComponents": [
+        "HS-"
+      ],
+      "reason": "outside-Cu-H-O-ligand-scope"
+    },
+    {
+      "id": "spana:2ac52a30213c9288:103577",
+      "name": "Cu1.934S(cr)",
+      "phase": "solid",
+      "otherComponents": [
+        "HS-"
+      ],
+      "reason": "outside-Cu-H-O-ligand-scope"
+    },
+    {
+      "id": "spana:2ac52a30213c9288:103687",
+      "name": "Cu2(cit)2 2-",
+      "phase": "aqueous",
+      "otherComponents": [
+        "cit 3-"
+      ],
+      "reason": "outside-Cu-H-O-ligand-scope"
+    },
+    {
+      "id": "spana:2ac52a30213c9288:103772",
+      "name": "Cu2(cit)2(OH)2 4-",
+      "phase": "aqueous",
+      "otherComponents": [
+        "cit 3-"
+      ],
+      "reason": "outside-Cu-H-O-ligand-scope"
+    },
+    {
+      "id": "spana:2ac52a30213c9288:103887",
+      "name": "Cu2(cit)2OH 3-",
+      "phase": "aqueous",
+      "otherComponents": [
+        "cit 3-"
+      ],
+      "reason": "outside-Cu-H-O-ligand-scope"
+    },
+    {
+      "id": "spana:2ac52a30213c9288:103999",
+      "name": "Cu2(cit)OH",
+      "phase": "aqueous",
+      "otherComponents": [
+        "cit 3-"
+      ],
+      "reason": "outside-Cu-H-O-ligand-scope"
+    },
+    {
+      "id": "spana:2ac52a30213c9288:104199",
+      "name": "Cu2(SCN)6-4",
+      "phase": "aqueous",
+      "otherComponents": [
+        "SCN-"
+      ],
+      "reason": "outside-Cu-H-O-ligand-scope"
+    },
+    {
+      "id": "spana:2ac52a30213c9288:104279",
+      "name": "Cu2Cl4-2",
+      "phase": "aqueous",
+      "otherComponents": [
+        "Cl-"
+      ],
+      "reason": "outside-Cu-H-O-ligand-scope"
+    },
+    {
+      "id": "spana:2ac52a30213c9288:104352",
+      "name": "Cu2CO3(OH)2(cr)",
+      "phase": "solid",
+      "otherComponents": [
+        "CO3 2-"
+      ],
+      "reason": "outside-Cu-H-O-ligand-scope"
+    },
+    {
+      "id": "spana:2ac52a30213c9288:104471",
+      "name": "Cu2Fe(CN)6(s)",
+      "phase": "solid",
+      "otherComponents": [
+        "Fe 2+",
+        "CN-"
+      ],
+      "reason": "outside-Cu-H-O-ligand-scope"
+    },
+    {
+      "id": "spana:2ac52a30213c9288:104567",
+      "name": "Cu2I6-4",
+      "phase": "aqueous",
+      "otherComponents": [
+        "I-"
+      ],
+      "reason": "outside-Cu-H-O-ligand-scope"
+    },
+    {
+      "id": "spana:2ac52a30213c9288:104733",
+      "name": "Cu2P4O12",
+      "phase": "aqueous",
+      "otherComponents": [
+        "P4O12 4-"
+      ],
+      "reason": "outside-Cu-H-O-ligand-scope"
+    },
+    {
+      "id": "spana:2ac52a30213c9288:104816",
+      "name": "Cu2S(cr)",
+      "phase": "solid",
+      "otherComponents": [
+        "HS-"
+      ],
+      "reason": "outside-Cu-H-O-ligand-scope"
+    },
+    {
+      "id": "spana:2ac52a30213c9288:104911",
+      "name": "Cu2S(HS)2-2",
+      "phase": "aqueous",
+      "otherComponents": [
+        "HS-"
+      ],
+      "reason": "outside-Cu-H-O-ligand-scope"
+    },
+    {
+      "id": "spana:2ac52a30213c9288:104999",
+      "name": "Cu2SO4(cr)",
+      "phase": "solid",
+      "otherComponents": [
+        "SO4 2-"
+      ],
+      "reason": "outside-Cu-H-O-ligand-scope"
+    },
+    {
+      "id": "spana:2ac52a30213c9288:105077",
+      "name": "Cu3(CO3)2(OH)2(cr)",
+      "phase": "solid",
+      "otherComponents": [
+        "CO3 2-"
+      ],
+      "reason": "outside-Cu-H-O-ligand-scope"
+    },
+    {
+      "id": "spana:2ac52a30213c9288:105197",
+      "name": "Cu3(Fe(CN)6)2(s)",
+      "phase": "solid",
+      "otherComponents": [
+        "Fe 3+",
+        "CN-"
+      ],
+      "reason": "outside-Cu-H-O-ligand-scope"
+    },
+    {
+      "id": "spana:2ac52a30213c9288:105388",
+      "name": "Cu3(PO4)2(cr)",
+      "phase": "solid",
+      "otherComponents": [
+        "PO4 3-"
+      ],
+      "reason": "outside-Cu-H-O-ligand-scope"
+    },
+    {
+      "id": "spana:2ac52a30213c9288:105471",
+      "name": "Cu3(PO4)2·3H2O(cr)",
+      "phase": "solid",
+      "otherComponents": [
+        "PO4 3-"
+      ],
+      "reason": "outside-Cu-H-O-ligand-scope"
+    },
+    {
+      "id": "spana:2ac52a30213c9288:105573",
+      "name": "Cu37Cl8(SO4)2(OH)62·8H2O(cr)",
+      "phase": "solid",
+      "otherComponents": [
+        "Cl-",
+        "SO4 2-"
+      ],
+      "reason": "outside-Cu-H-O-ligand-scope"
+    },
+    {
+      "id": "spana:2ac52a30213c9288:105720",
+      "name": "Cu3Cl6-3",
+      "phase": "aqueous",
+      "otherComponents": [
+        "Cl-"
+      ],
+      "reason": "outside-Cu-H-O-ligand-scope"
+    },
+    {
+      "id": "spana:2ac52a30213c9288:105793",
+      "name": "Cu3SO4(OH)4(cr)",
+      "phase": "solid",
+      "otherComponents": [
+        "SO4 2-"
+      ],
+      "reason": "outside-Cu-H-O-ligand-scope"
+    },
+    {
+      "id": "spana:2ac52a30213c9288:105912",
+      "name": "Cu4(OH)6SO4(cr)",
+      "phase": "solid",
+      "otherComponents": [
+        "SO4 2-"
+      ],
+      "reason": "outside-Cu-H-O-ligand-scope"
+    },
+    {
+      "id": "spana:2ac52a30213c9288:106033",
+      "name": "Cu4(OH)6SO4·H2O(cr)",
+      "phase": "solid",
+      "otherComponents": [
+        "SO4 2-"
+      ],
+      "reason": "outside-Cu-H-O-ligand-scope"
+    },
+    {
+      "id": "spana:2ac52a30213c9288:106155",
+      "name": "Cu5FeS4(cr)",
+      "phase": "solid",
+      "otherComponents": [
+        "HS-",
+        "Fe 2+"
+      ],
+      "reason": "outside-Cu-H-O-ligand-scope"
+    },
+    {
+      "id": "spana:2ac52a30213c9288:106278",
+      "name": "CuB(OH)4+",
+      "phase": "aqueous",
+      "otherComponents": [
+        "B(OH)3"
+      ],
+      "reason": "outside-Cu-H-O-ligand-scope"
+    },
+    {
+      "id": "spana:2ac52a30213c9288:106385",
+      "name": "CuBr",
+      "phase": "aqueous",
+      "otherComponents": [
+        "Br-"
+      ],
+      "reason": "outside-Cu-H-O-ligand-scope"
+    },
+    {
+      "id": "spana:2ac52a30213c9288:106457",
+      "name": "CuBr(s)",
+      "phase": "solid",
+      "otherComponents": [
+        "Br-"
+      ],
+      "reason": "outside-Cu-H-O-ligand-scope"
+    },
+    {
+      "id": "spana:2ac52a30213c9288:106532",
+      "name": "CuBr+",
+      "phase": "aqueous",
+      "otherComponents": [
+        "Br-"
+      ],
+      "reason": "outside-Cu-H-O-ligand-scope"
+    },
+    {
+      "id": "spana:2ac52a30213c9288:106607",
+      "name": "CuBr2-",
+      "phase": "aqueous",
+      "otherComponents": [
+        "Br-"
+      ],
+      "reason": "outside-Cu-H-O-ligand-scope"
+    },
+    {
+      "id": "spana:2ac52a30213c9288:106681",
+      "name": "CuBr3-2",
+      "phase": "aqueous",
+      "otherComponents": [
+        "Br-"
+      ],
+      "reason": "outside-Cu-H-O-ligand-scope"
+    },
+    {
+      "id": "spana:2ac52a30213c9288:106756",
+      "name": "CuCl",
+      "phase": "aqueous",
+      "otherComponents": [
+        "Cl-"
+      ],
+      "reason": "outside-Cu-H-O-ligand-scope"
+    },
+    {
+      "id": "spana:2ac52a30213c9288:106825",
+      "name": "CuCl(cr)",
+      "phase": "solid",
+      "otherComponents": [
+        "Cl-"
+      ],
+      "reason": "outside-Cu-H-O-ligand-scope"
+    },
+    {
+      "id": "spana:2ac52a30213c9288:106907",
+      "name": "CuCl+",
+      "phase": "aqueous",
+      "otherComponents": [
+        "Cl-"
+      ],
+      "reason": "outside-Cu-H-O-ligand-scope"
+    },
+    {
+      "id": "spana:2ac52a30213c9288:106979",
+      "name": "CuCl2",
+      "phase": "aqueous",
+      "otherComponents": [
+        "Cl-"
+      ],
+      "reason": "outside-Cu-H-O-ligand-scope"
+    },
+    {
+      "id": "spana:2ac52a30213c9288:107051",
+      "name": "CuCl2(cr)",
+      "phase": "solid",
+      "otherComponents": [
+        "Cl-"
+      ],
+      "reason": "outside-Cu-H-O-ligand-scope"
+    },
+    {
+      "id": "spana:2ac52a30213c9288:107141",
+      "name": "CuCl2-",
+      "phase": "aqueous",
+      "otherComponents": [
+        "Cl-"
+      ],
+      "reason": "outside-Cu-H-O-ligand-scope"
+    },
+    {
+      "id": "spana:2ac52a30213c9288:107212",
+      "name": "CuCl2·3Cu(OH)2(cr)",
+      "phase": "solid",
+      "otherComponents": [
+        "Cl-"
+      ],
+      "reason": "outside-Cu-H-O-ligand-scope"
+    },
+    {
+      "id": "spana:2ac52a30213c9288:107332",
+      "name": "CuCl3-",
+      "phase": "aqueous",
+      "otherComponents": [
+        "Cl-"
+      ],
+      "reason": "outside-Cu-H-O-ligand-scope"
+    },
+    {
+      "id": "spana:2ac52a30213c9288:107405",
+      "name": "CuCl3-2",
+      "phase": "aqueous",
+      "otherComponents": [
+        "Cl-"
+      ],
+      "reason": "outside-Cu-H-O-ligand-scope"
+    },
+    {
+      "id": "spana:2ac52a30213c9288:107477",
+      "name": "CuCl4-2",
+      "phase": "aqueous",
+      "otherComponents": [
+        "Cl-"
+      ],
+      "reason": "outside-Cu-H-O-ligand-scope"
+    },
+    {
+      "id": "spana:2ac52a30213c9288:107551",
+      "name": "CuClO3+",
+      "phase": "aqueous",
+      "otherComponents": [
+        "ClO3-"
+      ],
+      "reason": "outside-Cu-H-O-ligand-scope"
+    },
+    {
+      "id": "spana:2ac52a30213c9288:107627",
+      "name": "CuClOH-",
+      "phase": "aqueous",
+      "otherComponents": [
+        "Cl-"
+      ],
+      "reason": "outside-Cu-H-O-ligand-scope"
+    },
+    {
+      "id": "spana:2ac52a30213c9288:107724",
+      "name": "CuCN(s)",
+      "phase": "solid",
+      "otherComponents": [
+        "CN-"
+      ],
+      "reason": "outside-Cu-H-O-ligand-scope"
+    },
+    {
+      "id": "spana:2ac52a30213c9288:107799",
+      "name": "CuCO3",
+      "phase": "aqueous",
+      "otherComponents": [
+        "CO3 2-"
+      ],
+      "reason": "outside-Cu-H-O-ligand-scope"
+    },
+    {
+      "id": "spana:2ac52a30213c9288:107874",
+      "name": "CuCO3(cr)",
+      "phase": "solid",
+      "otherComponents": [
+        "CO3 2-"
+      ],
+      "reason": "outside-Cu-H-O-ligand-scope"
+    },
+    {
+      "id": "spana:2ac52a30213c9288:107953",
+      "name": "CuCrO4",
+      "phase": "aqueous",
+      "otherComponents": [
+        "CrO4 2-"
+      ],
+      "reason": "outside-Cu-H-O-ligand-scope"
+    },
+    {
+      "id": "spana:2ac52a30213c9288:108033",
+      "name": "CuCrO4(s)",
+      "phase": "solid",
+      "otherComponents": [
+        "CrO4 2-"
+      ],
+      "reason": "outside-Cu-H-O-ligand-scope"
+    },
+    {
+      "id": "spana:2ac52a30213c9288:108116",
+      "name": "CuCrO4·2Cu(OH)2(cr)",
+      "phase": "solid",
+      "otherComponents": [
+        "CrO4 2-"
+      ],
+      "reason": "outside-Cu-H-O-ligand-scope"
+    },
+    {
+      "id": "spana:2ac52a30213c9288:108232",
+      "name": "CuF(cr)",
+      "phase": "solid",
+      "otherComponents": [
+        "F-"
+      ],
+      "reason": "outside-Cu-H-O-ligand-scope"
+    },
+    {
+      "id": "spana:2ac52a30213c9288:108303",
+      "name": "CuF+",
+      "phase": "aqueous",
+      "otherComponents": [
+        "F-"
+      ],
+      "reason": "outside-Cu-H-O-ligand-scope"
+    },
+    {
+      "id": "spana:2ac52a30213c9288:108373",
+      "name": "CuF2(cr)",
+      "phase": "solid",
+      "otherComponents": [
+        "F-"
+      ],
+      "reason": "outside-Cu-H-O-ligand-scope"
+    },
+    {
+      "id": "spana:2ac52a30213c9288:108447",
+      "name": "CuF2·2H2O(cr)",
+      "phase": "solid",
+      "otherComponents": [
+        "F-"
+      ],
+      "reason": "outside-Cu-H-O-ligand-scope"
+    },
+    {
+      "id": "spana:2ac52a30213c9288:108540",
+      "name": "CuFe2O4(cr)",
+      "phase": "solid",
+      "otherComponents": [
+        "Fe 3+"
+      ],
+      "reason": "outside-Cu-H-O-ligand-scope"
+    },
+    {
+      "id": "spana:2ac52a30213c9288:108648",
+      "name": "CuFeO2(cr)",
+      "phase": "solid",
+      "otherComponents": [
+        "Fe 3+"
+      ],
+      "reason": "outside-Cu-H-O-ligand-scope"
+    },
+    {
+      "id": "spana:2ac52a30213c9288:108753",
+      "name": "CuFeS2(cr)",
+      "phase": "solid",
+      "otherComponents": [
+        "HS-",
+        "Fe 2+"
+      ],
+      "reason": "outside-Cu-H-O-ligand-scope"
+    },
+    {
+      "id": "spana:2ac52a30213c9288:108870",
+      "name": "CuH2P2O7",
+      "phase": "aqueous",
+      "otherComponents": [
+        "P2O7 4-"
+      ],
+      "reason": "outside-Cu-H-O-ligand-scope"
+    },
+    {
+      "id": "spana:2ac52a30213c9288:108964",
+      "name": "CuH2PO4",
+      "phase": "aqueous",
+      "otherComponents": [
+        "PO4 3-"
+      ],
+      "reason": "outside-Cu-H-O-ligand-scope"
+    },
+    {
+      "id": "spana:2ac52a30213c9288:109051",
+      "name": "CuH2PO4+",
+      "phase": "aqueous",
+      "otherComponents": [
+        "PO4 3-"
+      ],
+      "reason": "outside-Cu-H-O-ligand-scope"
+    },
+    {
+      "id": "spana:2ac52a30213c9288:109141",
+      "name": "CuHCO3+",
+      "phase": "aqueous",
+      "otherComponents": [
+        "CO3 2-"
+      ],
+      "reason": "outside-Cu-H-O-ligand-scope"
+    },
+    {
+      "id": "spana:2ac52a30213c9288:109230",
+      "name": "CuHNTA",
+      "phase": "aqueous",
+      "otherComponents": [
+        "NTA 3-"
+      ],
+      "reason": "outside-Cu-H-O-ligand-scope"
+    },
+    {
+      "id": "spana:2ac52a30213c9288:109321",
+      "name": "CuHP2O7-",
+      "phase": "aqueous",
+      "otherComponents": [
+        "P2O7 4-"
+      ],
+      "reason": "outside-Cu-H-O-ligand-scope"
+    },
+    {
+      "id": "spana:2ac52a30213c9288:109415",
+      "name": "CuHP3O10-2",
+      "phase": "aqueous",
+      "otherComponents": [
+        "P3O10 5-"
+      ],
+      "reason": "outside-Cu-H-O-ligand-scope"
+    },
+    {
+      "id": "spana:2ac52a30213c9288:109512",
+      "name": "CuHPO3(s)",
+      "phase": "solid",
+      "otherComponents": [
+        "HPO3 2-"
+      ],
+      "reason": "outside-Cu-H-O-ligand-scope"
+    },
+    {
+      "id": "spana:2ac52a30213c9288:109595",
+      "name": "CuHPO4",
+      "phase": "aqueous",
+      "otherComponents": [
+        "PO4 3-"
+      ],
+      "reason": "outside-Cu-H-O-ligand-scope"
+    },
+    {
+      "id": "spana:2ac52a30213c9288:109683",
+      "name": "CuHS",
+      "phase": "aqueous",
+      "otherComponents": [
+        "HS-"
+      ],
+      "reason": "outside-Cu-H-O-ligand-scope"
+    },
+    {
+      "id": "spana:2ac52a30213c9288:109752",
+      "name": "CuI",
+      "phase": "aqueous",
+      "otherComponents": [
+        "I-"
+      ],
+      "reason": "outside-Cu-H-O-ligand-scope"
+    },
+    {
+      "id": "spana:2ac52a30213c9288:109822",
+      "name": "CuI(s)",
+      "phase": "solid",
+      "otherComponents": [
+        "I-"
+      ],
+      "reason": "outside-Cu-H-O-ligand-scope"
+    },
+    {
+      "id": "spana:2ac52a30213c9288:109895",
+      "name": "CuI2-",
+      "phase": "aqueous",
+      "otherComponents": [
+        "I-"
+      ],
+      "reason": "outside-Cu-H-O-ligand-scope"
+    },
+    {
+      "id": "spana:2ac52a30213c9288:109967",
+      "name": "CuI3-2",
+      "phase": "aqueous",
+      "otherComponents": [
+        "I-"
+      ],
+      "reason": "outside-Cu-H-O-ligand-scope"
+    },
+    {
+      "id": "spana:2ac52a30213c9288:110040",
+      "name": "CuMoO4(s)",
+      "phase": "solid",
+      "otherComponents": [
+        "MoO4 2-"
+      ],
+      "reason": "outside-Cu-H-O-ligand-scope"
+    },
+    {
+      "id": "spana:2ac52a30213c9288:110123",
+      "name": "CuN3(s)",
+      "phase": "solid",
+      "otherComponents": [
+        "N3-"
+      ],
+      "reason": "outside-Cu-H-O-ligand-scope"
+    },
+    {
+      "id": "spana:2ac52a30213c9288:110198",
+      "name": "CuN3+",
+      "phase": "aqueous",
+      "otherComponents": [
+        "N3-"
+      ],
+      "reason": "outside-Cu-H-O-ligand-scope"
+    },
+    {
+      "id": "spana:2ac52a30213c9288:110273",
+      "name": "CuNH3(OH)3-",
+      "phase": "aqueous",
+      "otherComponents": [
+        "NH3"
+      ],
+      "reason": "outside-Cu-H-O-ligand-scope"
+    },
+    {
+      "id": "spana:2ac52a30213c9288:110377",
+      "name": "CuNH3+2",
+      "phase": "aqueous",
+      "otherComponents": [
+        "NH3"
+      ],
+      "reason": "outside-Cu-H-O-ligand-scope"
+    },
+    {
+      "id": "spana:2ac52a30213c9288:110451",
+      "name": "CuNH3OH+",
+      "phase": "aqueous",
+      "otherComponents": [
+        "NH3"
+      ],
+      "reason": "outside-Cu-H-O-ligand-scope"
+    },
+    {
+      "id": "spana:2ac52a30213c9288:110551",
+      "name": "CuNO2+",
+      "phase": "aqueous",
+      "otherComponents": [
+        "NO2-"
+      ],
+      "reason": "outside-Cu-H-O-ligand-scope"
+    },
+    {
+      "id": "spana:2ac52a30213c9288:110625",
+      "name": "CuNO3+",
+      "phase": "aqueous",
+      "otherComponents": [
+        "NO3-"
+      ],
+      "reason": "outside-Cu-H-O-ligand-scope"
+    },
+    {
+      "id": "spana:2ac52a30213c9288:110699",
+      "name": "CuNTA-",
+      "phase": "aqueous",
+      "otherComponents": [
+        "NTA 3-"
+      ],
+      "reason": "outside-Cu-H-O-ligand-scope"
+    },
+    {
+      "id": "spana:2ac52a30213c9288:111035",
+      "name": "CuO·CuSO4(cr)",
+      "phase": "solid",
+      "otherComponents": [
+        "SO4 2-"
+      ],
+      "reason": "outside-Cu-H-O-ligand-scope"
+    },
+    {
+      "id": "spana:2ac52a30213c9288:111144",
+      "name": "CuP2O7-2",
+      "phase": "aqueous",
+      "otherComponents": [
+        "P2O7 4-"
+      ],
+      "reason": "outside-Cu-H-O-ligand-scope"
+    },
+    {
+      "id": "spana:2ac52a30213c9288:111226",
+      "name": "CuP3O10-3",
+      "phase": "aqueous",
+      "otherComponents": [
+        "P3O10 5-"
+      ],
+      "reason": "outside-Cu-H-O-ligand-scope"
+    },
+    {
+      "id": "spana:2ac52a30213c9288:111310",
+      "name": "CuP3O9-",
+      "phase": "aqueous",
+      "otherComponents": [
+        "P3O9 3-"
+      ],
+      "reason": "outside-Cu-H-O-ligand-scope"
+    },
+    {
+      "id": "spana:2ac52a30213c9288:111391",
+      "name": "CuP4O12-2",
+      "phase": "aqueous",
+      "otherComponents": [
+        "P4O12 4-"
+      ],
+      "reason": "outside-Cu-H-O-ligand-scope"
+    },
+    {
+      "id": "spana:2ac52a30213c9288:111475",
+      "name": "CuS(cr)",
+      "phase": "solid",
+      "otherComponents": [
+        "HS-"
+      ],
+      "reason": "outside-Cu-H-O-ligand-scope"
+    },
+    {
+      "id": "spana:2ac52a30213c9288:111570",
+      "name": "CuS2O3-",
+      "phase": "aqueous",
+      "otherComponents": [
+        "S2O3 2-"
+      ],
+      "reason": "outside-Cu-H-O-ligand-scope"
+    },
+    {
+      "id": "spana:2ac52a30213c9288:111646",
+      "name": "CuSCN(s)",
+      "phase": "solid",
+      "otherComponents": [
+        "SCN-"
+      ],
+      "reason": "outside-Cu-H-O-ligand-scope"
+    },
+    {
+      "id": "spana:2ac52a30213c9288:111723",
+      "name": "CuSCN+",
+      "phase": "aqueous",
+      "otherComponents": [
+        "SCN-"
+      ],
+      "reason": "outside-Cu-H-O-ligand-scope"
+    },
+    {
+      "id": "spana:2ac52a30213c9288:111800",
+      "name": "CuSe(cr)",
+      "phase": "solid",
+      "otherComponents": [
+        "H2Se"
+      ],
+      "reason": "outside-Cu-H-O-ligand-scope"
+    },
+    {
+      "id": "spana:2ac52a30213c9288:111893",
+      "name": "CuSeO3·2H2O(cr)",
+      "phase": "solid",
+      "otherComponents": [
+        "SeO3 2-"
+      ],
+      "reason": "outside-Cu-H-O-ligand-scope"
+    },
+    {
+      "id": "spana:2ac52a30213c9288:111993",
+      "name": "CuSeO4·5H2O(cr)",
+      "phase": "solid",
+      "otherComponents": [
+        "SeO4 2-"
+      ],
+      "reason": "outside-Cu-H-O-ligand-scope"
+    },
+    {
+      "id": "spana:2ac52a30213c9288:112093",
+      "name": "CuSO3-",
+      "phase": "aqueous",
+      "otherComponents": [
+        "SO3 2-"
+      ],
+      "reason": "outside-Cu-H-O-ligand-scope"
+    },
+    {
+      "id": "spana:2ac52a30213c9288:112167",
+      "name": "CuSO4",
+      "phase": "aqueous",
+      "otherComponents": [
+        "SO4 2-"
+      ],
+      "reason": "outside-Cu-H-O-ligand-scope"
+    },
+    {
+      "id": "spana:2ac52a30213c9288:112242",
+      "name": "CuSO4(cr)",
+      "phase": "solid",
+      "otherComponents": [
+        "SO4 2-"
+      ],
+      "reason": "outside-Cu-H-O-ligand-scope"
+    },
+    {
+      "id": "spana:2ac52a30213c9288:112334",
+      "name": "CuSO4·5H2O(cr)",
+      "phase": "solid",
+      "otherComponents": [
+        "SO4 2-"
+      ],
+      "reason": "outside-Cu-H-O-ligand-scope"
+    },
+    {
+      "id": "spana:2ac52a30213c9288:112444",
+      "name": "CuWO4(s)",
+      "phase": "solid",
+      "otherComponents": [
+        "WO4 2-"
+      ],
+      "reason": "outside-Cu-H-O-ligand-scope"
+    }
+  ],
+  "carriers": [
+    {
+      "id": "component:Cu%202%2B",
+      "sourceSpeciesId": "spana:2ac52a30213c9288:97858",
+      "sourceReactionId": "spana:2ac52a30213c9288:97858",
+      "sourceDatabaseSha256": "2ac52a30213c9288dd18fc6dd597411e5c3ca53173fa6d1fab5530b371c30a0a",
+      "displayIdentity": "Cu 2+",
+      "phase": "aqueous",
+      "conservedComponent": "component:Cu%202%2B",
+      "componentCount": 1,
+      "independentAtoms": {
+        "Cu": 1,
+        "H": 0,
+        "O": 0
+      },
+      "allocation": [
+        {
+          "oxidationState": 2,
+          "count": 1
+        }
+      ],
+      "bindingSha256": "1c903b4c5ebc015aa623a6a6f646a33e81a8629d0cb5dfc1aeef4253cd487061",
+      "provenance": {
+        "statement": "Identity-specific curated monatomic, elemental or oxide/hydroxide carrier. Explicit Cu allocation; H(+I) and O(-II) are redox-innocent within this bounded composition. No ligand redox or mixed valence asserted. Stored allocation is checked against source electron balance; never inferred from a runtime name.",
+        "references": [
+          "https://goldbook.iupac.org/terms/view/O04365",
+          "https://www.skb.se/publikation/18994/TR-01-23.pdf"
+        ],
+        "sourceCitation": "1997BP-Cu: Beverskog B, Puigdomenech I; J. Electrochem. Soc., 144 (1997) 3476-3483",
+        "sourceReferenceCode": "1997BP-Cu",
+        "curatedAt": "2026-09-10",
+        "method": "static-identity-specific-curation",
+        "scope": "cu-oxide-hydroxide-source-snapshot-v1"
+      }
+    },
+    {
+      "id": "canonical-state:component:Cu%2B",
+      "sourceSpeciesId": "spana:2ac52a30213c9288:103398",
+      "sourceReactionId": "spana:2ac52a30213c9288:103398",
+      "sourceDatabaseSha256": "2ac52a30213c9288dd18fc6dd597411e5c3ca53173fa6d1fab5530b371c30a0a",
+      "displayIdentity": "Cu+",
+      "phase": "aqueous",
+      "conservedComponent": "component:Cu%202%2B",
+      "componentCount": 1,
+      "independentAtoms": {
+        "Cu": 1,
+        "H": 0,
+        "O": 0
+      },
+      "allocation": [
+        {
+          "oxidationState": 1,
+          "count": 1
+        }
+      ],
+      "bindingSha256": "71f6d6645399ae25b5e89c226d3f7afd0a875705b439684638d6eb06ad9b960a",
+      "provenance": {
+        "statement": "Identity-specific curated monatomic, elemental or oxide/hydroxide carrier. Explicit Cu allocation; H(+I) and O(-II) are redox-innocent within this bounded composition. No ligand redox or mixed valence asserted. Stored allocation is checked against source electron balance; never inferred from a runtime name.",
+        "references": [
+          "https://goldbook.iupac.org/terms/view/O04365",
+          "https://www.skb.se/publikation/18994/TR-01-23.pdf"
+        ],
+        "sourceCitation": "1997BP-Cu: Beverskog B, Puigdomenech I; J. Electrochem. Soc., 144 (1997) 3476-3483",
+        "sourceReferenceCode": "1997BP-Cu",
+        "curatedAt": "2026-09-10",
+        "method": "static-identity-specific-curation",
+        "scope": "cu-oxide-hydroxide-source-snapshot-v1"
+      }
+    },
+    {
+      "id": "spana:2ac52a30213c9288:98874",
+      "sourceSpeciesId": "spana:2ac52a30213c9288:98874",
+      "sourceReactionId": "spana:2ac52a30213c9288:98874",
+      "sourceDatabaseSha256": "2ac52a30213c9288dd18fc6dd597411e5c3ca53173fa6d1fab5530b371c30a0a",
+      "displayIdentity": "Cu(cr)",
+      "phase": "solid",
+      "conservedComponent": "component:Cu%202%2B",
+      "componentCount": 1,
+      "independentAtoms": {
+        "Cu": 1,
+        "H": 0,
+        "O": 0
+      },
+      "allocation": [
+        {
+          "oxidationState": 0,
+          "count": 1
+        }
+      ],
+      "bindingSha256": "666699718bd6b2ab88609359e58cb7d129b31a1a722355068f3c526301db7c08",
+      "provenance": {
+        "statement": "Identity-specific curated monatomic, elemental or oxide/hydroxide carrier. Explicit Cu allocation; H(+I) and O(-II) are redox-innocent within this bounded composition. No ligand redox or mixed valence asserted. Stored allocation is checked against source electron balance; never inferred from a runtime name.",
+        "references": [
+          "https://goldbook.iupac.org/terms/view/O04365",
+          "https://www.skb.se/publikation/18994/TR-01-23.pdf"
+        ],
+        "sourceCitation": "2000PT: Puigdomenech I, Taxén C; Thermodynamic data for copper. Implications for the corrosion of copper under repository conditions. Report SKB-TR-00-13. Stockholm, Sweden: Swedish Nuclear Fuel and Waste Management Co. (SKB), 2000",
+        "sourceReferenceCode": "2000PT",
+        "curatedAt": "2026-09-10",
+        "method": "static-identity-specific-curation",
+        "scope": "cu-oxide-hydroxide-source-snapshot-v1"
+      }
+    },
+    {
+      "id": "spana:2ac52a30213c9288:102305",
+      "sourceSpeciesId": "spana:2ac52a30213c9288:102305",
+      "sourceReactionId": "spana:2ac52a30213c9288:102305",
+      "sourceDatabaseSha256": "2ac52a30213c9288dd18fc6dd597411e5c3ca53173fa6d1fab5530b371c30a0a",
+      "displayIdentity": "Cu(OH)2",
+      "phase": "aqueous",
+      "conservedComponent": "component:Cu%202%2B",
+      "componentCount": 1,
+      "independentAtoms": {
+        "Cu": 1,
+        "H": 2,
+        "O": 2
+      },
+      "allocation": [
+        {
+          "oxidationState": 2,
+          "count": 1
+        }
+      ],
+      "bindingSha256": "d8354f7d233f6382c6d2ba0bfce7b0127394838d0302b4dd35b2d47d2b9a61dc",
+      "provenance": {
+        "statement": "Identity-specific curated monatomic, elemental or oxide/hydroxide carrier. Explicit Cu allocation; H(+I) and O(-II) are redox-innocent within this bounded composition. No ligand redox or mixed valence asserted. Stored allocation is checked against source electron balance; never inferred from a runtime name.",
+        "references": [
+          "https://goldbook.iupac.org/terms/view/O04365",
+          "https://www.skb.se/publikation/18994/TR-01-23.pdf"
+        ],
+        "sourceCitation": "1997BP-Cu: Beverskog B, Puigdomenech I; J. Electrochem. Soc., 144 (1997) 3476-3483",
+        "sourceReferenceCode": "1997BP-Cu",
+        "curatedAt": "2026-09-10",
+        "method": "static-identity-specific-curation",
+        "scope": "cu-oxide-hydroxide-source-snapshot-v1"
+      }
+    },
+    {
+      "id": "spana:2ac52a30213c9288:102394",
+      "sourceSpeciesId": "spana:2ac52a30213c9288:102394",
+      "sourceReactionId": "spana:2ac52a30213c9288:102394",
+      "sourceDatabaseSha256": "2ac52a30213c9288dd18fc6dd597411e5c3ca53173fa6d1fab5530b371c30a0a",
+      "displayIdentity": "Cu(OH)2(cr)",
+      "phase": "solid",
+      "conservedComponent": "component:Cu%202%2B",
+      "componentCount": 1,
+      "independentAtoms": {
+        "Cu": 1,
+        "H": 2,
+        "O": 2
+      },
+      "allocation": [
+        {
+          "oxidationState": 2,
+          "count": 1
+        }
+      ],
+      "bindingSha256": "57a00fb20247436dbee44cd7189b4bab49647d8e3d998eeb695b539de5bed45a",
+      "provenance": {
+        "statement": "Identity-specific curated monatomic, elemental or oxide/hydroxide carrier. Explicit Cu allocation; H(+I) and O(-II) are redox-innocent within this bounded composition. No ligand redox or mixed valence asserted. Stored allocation is checked against source electron balance; never inferred from a runtime name.",
+        "references": [
+          "https://goldbook.iupac.org/terms/view/O04365",
+          "https://www.skb.se/publikation/18994/TR-01-23.pdf"
+        ],
+        "sourceCitation": "2000PT: Puigdomenech I, Taxén C; Thermodynamic data for copper. Implications for the corrosion of copper under repository conditions. Report SKB-TR-00-13. Stockholm, Sweden: Swedish Nuclear Fuel and Waste Management Co. (SKB), 2000",
+        "sourceReferenceCode": "2000PT",
+        "curatedAt": "2026-09-10",
+        "method": "static-identity-specific-curation",
+        "scope": "cu-oxide-hydroxide-source-snapshot-v1"
+      }
+    },
+    {
+      "id": "spana:2ac52a30213c9288:102484",
+      "sourceSpeciesId": "spana:2ac52a30213c9288:102484",
+      "sourceReactionId": "spana:2ac52a30213c9288:102484",
+      "sourceDatabaseSha256": "2ac52a30213c9288dd18fc6dd597411e5c3ca53173fa6d1fab5530b371c30a0a",
+      "displayIdentity": "Cu(OH)2-",
+      "phase": "aqueous",
+      "conservedComponent": "component:Cu%202%2B",
+      "componentCount": 1,
+      "independentAtoms": {
+        "Cu": 1,
+        "H": 2,
+        "O": 2
+      },
+      "allocation": [
+        {
+          "oxidationState": 1,
+          "count": 1
+        }
+      ],
+      "bindingSha256": "b6113f90437301ecee0aa78268f1ca748e5c6b26737f752f75b3a203a1e281d6",
+      "provenance": {
+        "statement": "Identity-specific curated monatomic, elemental or oxide/hydroxide carrier. Explicit Cu allocation; H(+I) and O(-II) are redox-innocent within this bounded composition. No ligand redox or mixed valence asserted. Stored allocation is checked against source electron balance; never inferred from a runtime name.",
+        "references": [
+          "https://goldbook.iupac.org/terms/view/O04365",
+          "https://www.skb.se/publikation/18994/TR-01-23.pdf"
+        ],
+        "sourceCitation": "1997BP-Cu: Beverskog B, Puigdomenech I; J. Electrochem. Soc., 144 (1997) 3476-3483",
+        "sourceReferenceCode": "1997BP-Cu",
+        "curatedAt": "2026-09-10",
+        "method": "static-identity-specific-curation",
+        "scope": "cu-oxide-hydroxide-source-snapshot-v1"
+      }
+    },
+    {
+      "id": "spana:2ac52a30213c9288:102572",
+      "sourceSpeciesId": "spana:2ac52a30213c9288:102572",
+      "sourceReactionId": "spana:2ac52a30213c9288:102572",
+      "sourceDatabaseSha256": "2ac52a30213c9288dd18fc6dd597411e5c3ca53173fa6d1fab5530b371c30a0a",
+      "displayIdentity": "Cu(OH)3-",
+      "phase": "aqueous",
+      "conservedComponent": "component:Cu%202%2B",
+      "componentCount": 1,
+      "independentAtoms": {
+        "Cu": 1,
+        "H": 3,
+        "O": 3
+      },
+      "allocation": [
+        {
+          "oxidationState": 2,
+          "count": 1
+        }
+      ],
+      "bindingSha256": "64c6f55e02f09e874e13f90c7b3cea29be197fcc032b0e9b20689667bd779371",
+      "provenance": {
+        "statement": "Identity-specific curated monatomic, elemental or oxide/hydroxide carrier. Explicit Cu allocation; H(+I) and O(-II) are redox-innocent within this bounded composition. No ligand redox or mixed valence asserted. Stored allocation is checked against source electron balance; never inferred from a runtime name.",
+        "references": [
+          "https://goldbook.iupac.org/terms/view/O04365",
+          "https://www.skb.se/publikation/18994/TR-01-23.pdf"
+        ],
+        "sourceCitation": "1997BP-Cu: Beverskog B, Puigdomenech I; J. Electrochem. Soc., 144 (1997) 3476-3483",
+        "sourceReferenceCode": "1997BP-Cu",
+        "curatedAt": "2026-09-10",
+        "method": "static-identity-specific-curation",
+        "scope": "cu-oxide-hydroxide-source-snapshot-v1"
+      }
+    },
+    {
+      "id": "spana:2ac52a30213c9288:102662",
+      "sourceSpeciesId": "spana:2ac52a30213c9288:102662",
+      "sourceReactionId": "spana:2ac52a30213c9288:102662",
+      "sourceDatabaseSha256": "2ac52a30213c9288dd18fc6dd597411e5c3ca53173fa6d1fab5530b371c30a0a",
+      "displayIdentity": "Cu(OH)4-2",
+      "phase": "aqueous",
+      "conservedComponent": "component:Cu%202%2B",
+      "componentCount": 1,
+      "independentAtoms": {
+        "Cu": 1,
+        "H": 4,
+        "O": 4
+      },
+      "allocation": [
+        {
+          "oxidationState": 2,
+          "count": 1
+        }
+      ],
+      "bindingSha256": "73047eeb092a42453fa1d8b7e6d1fdc2332af9eb55cb545fdad5e7221092a272",
+      "provenance": {
+        "statement": "Identity-specific curated monatomic, elemental or oxide/hydroxide carrier. Explicit Cu allocation; H(+I) and O(-II) are redox-innocent within this bounded composition. No ligand redox or mixed valence asserted. Stored allocation is checked against source electron balance; never inferred from a runtime name.",
+        "references": [
+          "https://goldbook.iupac.org/terms/view/O04365",
+          "https://www.skb.se/publikation/18994/TR-01-23.pdf"
+        ],
+        "sourceCitation": "1997BP-Cu: Beverskog B, Puigdomenech I; J. Electrochem. Soc., 144 (1997) 3476-3483",
+        "sourceReferenceCode": "1997BP-Cu",
+        "curatedAt": "2026-09-10",
+        "method": "static-identity-specific-curation",
+        "scope": "cu-oxide-hydroxide-source-snapshot-v1"
+      }
+    },
+    {
+      "id": "spana:2ac52a30213c9288:104107",
+      "sourceSpeciesId": "spana:2ac52a30213c9288:104107",
+      "sourceReactionId": "spana:2ac52a30213c9288:104107",
+      "sourceDatabaseSha256": "2ac52a30213c9288dd18fc6dd597411e5c3ca53173fa6d1fab5530b371c30a0a",
+      "displayIdentity": "Cu2(OH)2+2",
+      "phase": "aqueous",
+      "conservedComponent": "component:Cu%202%2B",
+      "componentCount": 2,
+      "independentAtoms": {
+        "Cu": 2,
+        "H": 2,
+        "O": 2
+      },
+      "allocation": [
+        {
+          "oxidationState": 2,
+          "count": 2
+        }
+      ],
+      "bindingSha256": "db318a84de9790e93fc1c221d7382a68479629eccb25a2d985954d6339744ca0",
+      "provenance": {
+        "statement": "Identity-specific curated monatomic, elemental or oxide/hydroxide carrier. Explicit Cu allocation; H(+I) and O(-II) are redox-innocent within this bounded composition. No ligand redox or mixed valence asserted. Stored allocation is checked against source electron balance; never inferred from a runtime name.",
+        "references": [
+          "https://goldbook.iupac.org/terms/view/O04365",
+          "https://www.skb.se/publikation/18994/TR-01-23.pdf"
+        ],
+        "sourceCitation": "1997BP-Cu: Beverskog B, Puigdomenech I; J. Electrochem. Soc., 144 (1997) 3476-3483",
+        "sourceReferenceCode": "1997BP-Cu",
+        "curatedAt": "2026-09-10",
+        "method": "static-identity-specific-curation",
+        "scope": "cu-oxide-hydroxide-source-snapshot-v1"
+      }
+    },
+    {
+      "id": "spana:2ac52a30213c9288:104641",
+      "sourceSpeciesId": "spana:2ac52a30213c9288:104641",
+      "sourceReactionId": "spana:2ac52a30213c9288:104641",
+      "sourceDatabaseSha256": "2ac52a30213c9288dd18fc6dd597411e5c3ca53173fa6d1fab5530b371c30a0a",
+      "displayIdentity": "Cu2O(cr)",
+      "phase": "solid",
+      "conservedComponent": "component:Cu%202%2B",
+      "componentCount": 2,
+      "independentAtoms": {
+        "Cu": 2,
+        "H": 0,
+        "O": 1
+      },
+      "allocation": [
+        {
+          "oxidationState": 1,
+          "count": 2
+        }
+      ],
+      "bindingSha256": "7ddf829f31cf1f2683c438337d900d743396a96b9bc6fe639097195b18d9aecf",
+      "provenance": {
+        "statement": "Identity-specific curated monatomic, elemental or oxide/hydroxide carrier. Explicit Cu allocation; H(+I) and O(-II) are redox-innocent within this bounded composition. No ligand redox or mixed valence asserted. Stored allocation is checked against source electron balance; never inferred from a runtime name.",
+        "references": [
+          "https://goldbook.iupac.org/terms/view/O04365",
+          "https://www.skb.se/publikation/18994/TR-01-23.pdf"
+        ],
+        "sourceCitation": "2000PT: Puigdomenech I, Taxén C; Thermodynamic data for copper. Implications for the corrosion of copper under repository conditions. Report SKB-TR-00-13. Stockholm, Sweden: Swedish Nuclear Fuel and Waste Management Co. (SKB), 2000",
+        "sourceReferenceCode": "2000PT",
+        "curatedAt": "2026-09-10",
+        "method": "static-identity-specific-curation",
+        "scope": "cu-oxide-hydroxide-source-snapshot-v1"
+      }
+    },
+    {
+      "id": "spana:2ac52a30213c9288:105296",
+      "sourceSpeciesId": "spana:2ac52a30213c9288:105296",
+      "sourceReactionId": "spana:2ac52a30213c9288:105296",
+      "sourceDatabaseSha256": "2ac52a30213c9288dd18fc6dd597411e5c3ca53173fa6d1fab5530b371c30a0a",
+      "displayIdentity": "Cu3(OH)4+2",
+      "phase": "aqueous",
+      "conservedComponent": "component:Cu%202%2B",
+      "componentCount": 3,
+      "independentAtoms": {
+        "Cu": 3,
+        "H": 4,
+        "O": 4
+      },
+      "allocation": [
+        {
+          "oxidationState": 2,
+          "count": 3
+        }
+      ],
+      "bindingSha256": "cc371d32237d02b45590de0b1393e1b8f13505a7a42de2468c4b48a02559ffcd",
+      "provenance": {
+        "statement": "Identity-specific curated monatomic, elemental or oxide/hydroxide carrier. Explicit Cu allocation; H(+I) and O(-II) are redox-innocent within this bounded composition. No ligand redox or mixed valence asserted. Stored allocation is checked against source electron balance; never inferred from a runtime name.",
+        "references": [
+          "https://goldbook.iupac.org/terms/view/O04365",
+          "https://www.skb.se/publikation/18994/TR-01-23.pdf"
+        ],
+        "sourceCitation": "1997BP-Cu: Beverskog B, Puigdomenech I; J. Electrochem. Soc., 144 (1997) 3476-3483",
+        "sourceReferenceCode": "1997BP-Cu",
+        "curatedAt": "2026-09-10",
+        "method": "static-identity-specific-curation",
+        "scope": "cu-oxide-hydroxide-source-snapshot-v1"
+      }
+    },
+    {
+      "id": "spana:2ac52a30213c9288:110778",
+      "sourceSpeciesId": "spana:2ac52a30213c9288:110778",
+      "sourceReactionId": "spana:2ac52a30213c9288:110778",
+      "sourceDatabaseSha256": "2ac52a30213c9288dd18fc6dd597411e5c3ca53173fa6d1fab5530b371c30a0a",
+      "displayIdentity": "CuO(cr)",
+      "phase": "solid",
+      "conservedComponent": "component:Cu%202%2B",
+      "componentCount": 1,
+      "independentAtoms": {
+        "Cu": 1,
+        "H": 0,
+        "O": 1
+      },
+      "allocation": [
+        {
+          "oxidationState": 2,
+          "count": 1
+        }
+      ],
+      "bindingSha256": "be36e1f28cadf352c84127842aec2d5e3522889997b6a62d66ef401d6a8de43e",
+      "provenance": {
+        "statement": "Identity-specific curated monatomic, elemental or oxide/hydroxide carrier. Explicit Cu allocation; H(+I) and O(-II) are redox-innocent within this bounded composition. No ligand redox or mixed valence asserted. Stored allocation is checked against source electron balance; never inferred from a runtime name.",
+        "references": [
+          "https://goldbook.iupac.org/terms/view/O04365",
+          "https://www.skb.se/publikation/18994/TR-01-23.pdf",
+          "https://www.ebi.ac.uk/chebi/CHEBI:75955"
+        ],
+        "sourceCitation": "2000PT: Puigdomenech I, Taxén C; Thermodynamic data for copper. Implications for the corrosion of copper under repository conditions. Report SKB-TR-00-13. Stockholm, Sweden: Swedish Nuclear Fuel and Waste Management Co. (SKB), 2000",
+        "sourceReferenceCode": "2000PT",
+        "curatedAt": "2026-09-10",
+        "method": "static-identity-specific-curation",
+        "scope": "cu-oxide-hydroxide-source-snapshot-v1"
+      }
+    },
+    {
+      "id": "spana:2ac52a30213c9288:110864",
+      "sourceSpeciesId": "spana:2ac52a30213c9288:110864",
+      "sourceReactionId": "spana:2ac52a30213c9288:110864",
+      "sourceDatabaseSha256": "2ac52a30213c9288dd18fc6dd597411e5c3ca53173fa6d1fab5530b371c30a0a",
+      "displayIdentity": "CuOH",
+      "phase": "aqueous",
+      "conservedComponent": "component:Cu%202%2B",
+      "componentCount": 1,
+      "independentAtoms": {
+        "Cu": 1,
+        "H": 1,
+        "O": 1
+      },
+      "allocation": [
+        {
+          "oxidationState": 1,
+          "count": 1
+        }
+      ],
+      "bindingSha256": "763f85fb0f94b6949ac882f8283f391fd91b31a1827c5ed826ea400f1333de81",
+      "provenance": {
+        "statement": "Identity-specific curated monatomic, elemental or oxide/hydroxide carrier. Explicit Cu allocation; H(+I) and O(-II) are redox-innocent within this bounded composition. No ligand redox or mixed valence asserted. Stored allocation is checked against source electron balance; never inferred from a runtime name.",
+        "references": [
+          "https://goldbook.iupac.org/terms/view/O04365",
+          "https://www.skb.se/publikation/18994/TR-01-23.pdf"
+        ],
+        "sourceCitation": "1997BP-Cu: Beverskog B, Puigdomenech I; J. Electrochem. Soc., 144 (1997) 3476-3483",
+        "sourceReferenceCode": "1997BP-Cu",
+        "curatedAt": "2026-09-10",
+        "method": "static-identity-specific-curation",
+        "scope": "cu-oxide-hydroxide-source-snapshot-v1"
+      }
+    },
+    {
+      "id": "spana:2ac52a30213c9288:110948",
+      "sourceSpeciesId": "spana:2ac52a30213c9288:110948",
+      "sourceReactionId": "spana:2ac52a30213c9288:110948",
+      "sourceDatabaseSha256": "2ac52a30213c9288dd18fc6dd597411e5c3ca53173fa6d1fab5530b371c30a0a",
+      "displayIdentity": "CuOH+",
+      "phase": "aqueous",
+      "conservedComponent": "component:Cu%202%2B",
+      "componentCount": 1,
+      "independentAtoms": {
+        "Cu": 1,
+        "H": 1,
+        "O": 1
+      },
+      "allocation": [
+        {
+          "oxidationState": 2,
+          "count": 1
+        }
+      ],
+      "bindingSha256": "0a439ddf5b0eda50741d7e41cb34b4831b0aba2d24f3b80a1242973976dd584c",
+      "provenance": {
+        "statement": "Identity-specific curated monatomic, elemental or oxide/hydroxide carrier. Explicit Cu allocation; H(+I) and O(-II) are redox-innocent within this bounded composition. No ligand redox or mixed valence asserted. Stored allocation is checked against source electron balance; never inferred from a runtime name.",
+        "references": [
+          "https://goldbook.iupac.org/terms/view/O04365",
+          "https://www.skb.se/publikation/18994/TR-01-23.pdf"
+        ],
+        "sourceCitation": "1997BP-Cu: Beverskog B, Puigdomenech I; J. Electrochem. Soc., 144 (1997) 3476-3483",
+        "sourceReferenceCode": "1997BP-Cu",
+        "curatedAt": "2026-09-10",
+        "method": "static-identity-specific-curation",
+        "scope": "cu-oxide-hydroxide-source-snapshot-v1"
+      }
+    }
+  ]
+}

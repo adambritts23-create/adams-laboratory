@@ -1,0 +1,76 @@
+✔ coupled Fe/chromate agrees with independent raw-source nine-phase reference (8.2136ms)
+✔ candidate ordering is immaterial in independently evaluated source reference (42.7074ms)
+✔ more acidic exact physical recipe remains fully aqueous with zero solid amounts (632.0191ms)
+✔ unchanged ordinary Fe(III) pH zero bridge uses the same bounded phase selector (43.7293ms)
+✔ aqueous-only contract retains the original solid-required refusal (496.5926ms)
+✔ unreviewed phase class is explicitly refused (0.467ms)
+✔ production candidate ordering and composition/capacity refusal are explicit (555.0155ms)
+✔ persist compact phase evidence only after the focused scientific assertions (15.5454ms)
+✔ general source discovery finds peroxide-only graph without a pair scope and retains gas candidates (1.3911ms)
+✔ generic unbuffered peroxide agrees with independent raw-law scalar expectation (0.6344ms)
+✔ excluded gases remain conditional at low dose and require unsupported inventory at high dose (27.9997ms)
+✔ reviewed Fe network, exclusions, input/result identity, algebra and explanation are exact (359.462ms)
+✔ unrestricted Fe chloride network includes counterion redox within audited expanded capacity (120.3234ms)
+✔ missing source-bound composition and selected electron refuse before solving (77.2674ms)
+✔ source drift, forged audit, mismatched repository and reviewed-profile misuse cannot calculate (874.1262ms)
+✔ source row order preserves independent generic equilibrium (1331.537ms)
+✔ conflicting reservoirs, unsupported conditions, nonphysical or unbalanced recipes fail closed (67.1066ms)
+✔ general point setup preserves ordinary settings and never turns fixed pH into supplied acid (0.6455ms)
+✔ six independent physical mixtures reproduce all saved source-law carriers and derived pH (0.6038ms)
+✔ nonnegative physical NaOH remains distinct from signed internal proton coordinates (0.1975ms)
+✔ one cross-family complex and 2/3/4-boron oligomers retain exact shared stoichiometry (0.3839ms)
+✔ ordinary phases/gas retain conditional diagnostics; electron-dependent phases are explicit and unevaluated (0.2282ms)
+✔ physical and boundary errors fail without repairing inputs or accepting caller-imposed coordinates (468.1406ms)
+✔ redox-active Fe/peroxide preparation is refused, while original reviewed redox route remains valid (1348.6752ms)
+✔ simple acetic acid physical control agrees with established independent acid/base reference (392.6508ms)
+✔ supersaturated solid or gas requirement withholds accepted aqueous physical result (709.1641ms)
+✔ physical provenance/revision affect identity, while reordered contributions preserve equilibrium (780.5847ms)
+✔ preview is transient, click selects exact state and pointer traversal never solves (1645.2991ms)
+✔ analytical views preserve original identities and cache without solver calls in both orientations (3366.4167ms)
+✔ fractions reuse unchanged ordinary-component contracts with no proton denominator (1663.3728ms)
+✔ log series retains actual admitted carriers, retained logs and absent-carrier gaps (1647.6657ms)
+✔ adapter and preview refuse forged, foreign and stale points even after caching (3296.5115ms)
+✔ custom experiment coordinates and nearest-X selection do not assume default equivalence (1574.7696ms)
+✔ repeated hover/view inspection reuses derived cache and performs zero new solve runs (1697.9859ms)
+ℹ 1000 cached preview/view operations: 49.39 ms; solveRuns=1
+✖ reviewed recipes activate intrinsic chemistry without manual System counterion selection (18.8467ms)
+✔ source drift cannot create physical recipe availability (6.4791ms)
+✔ editable sample and burette inputs move accepted equivalence through inventories alone (8243.2817ms)
+✔ reverse orientation is the same validated physical/point path (1661.6768ms)
+✔ loaded volume controls capacity and sampling; insufficient titrant remains an honest partial experiment (1545.2131ms)
+✔ all editable numeric fields refuse invalid values and arbitrary recipes (1.4437ms)
+✔ sampling retains dense region at moved equivalence and never determines pH (0.2568ms)
+ℹ tests 41
+ℹ suites 0
+ℹ pass 40
+ℹ fail 1
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 46529.0974
+
+✖ failing tests:
+
+test at tests\wetLabSetup.test.js:11:1
+✖ reviewed recipes activate intrinsic chemistry without manual System counterion selection (18.8467ms)
+  AssertionError [ERR_ASSERTION]: Expected values to be strictly deep-equal:
+  + actual - expected
+  
+    [
+  +   'CrCl3',
+      'HCl',
+      'NaOH',
+      'CH3COOH',
+      'B(OH)3'
+    ]
+  
+      at TestContext.<anonymous> (file:///C:/Users/adamb/PycharmProjects/PythonProject/adams-laboratory/tests/wetLabSetup.test.js:13:9)
+      at async Test.run (node:internal/test_runner/test:1208:7)
+      at async Test.processPendingSubtests (node:internal/test_runner/test:831:7) {
+    generatedMessage: true,
+    code: 'ERR_ASSERTION',
+    actual: [Array],
+    expected: [Array],
+    operator: 'deepStrictEqual',
+    diff: 'simple'
+  }

@@ -1,0 +1,16 @@
+{
+  "tests": 540,
+  "passed": 540,
+  "failed": 0,
+  "cancelled": 0,
+  "skipped": 0,
+  "todo": 0,
+  "build": "passed",
+  "artifactAudit": "passed",
+  "lint": "0 errors; existing ExpandedPlot hook warning",
+  "unchangedExistingFiles": 204,
+  "protectedScientificChanges": [],
+  "productionBuild": "dist",
+  "deployed": false,
+  "pushed": false
+}

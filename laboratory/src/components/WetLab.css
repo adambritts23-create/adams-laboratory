@@ -1,0 +1,131 @@
+.wet-lab{padding:24px 0;color:#dbe9ed}.wet-heading{display:flex;justify-content:space-between;align-items:center;gap:20px;margin-bottom:24px}.wet-heading h2{font-size:30px;margin:8px 0}.wet-heading p{color:#a9c0ca}.wet-eyebrow{color:#7be4c6;font-size:12px;letter-spacing:2px}.wet-layout{display:grid;grid-template-columns:minmax(260px,.65fr) minmax(0,1.6fr);gap:24px}.wet-bench,.wet-chart,.wet-readout{border:1px solid #365461;border-radius:16px;background:#10212a}.wet-bench{padding:20px;background:radial-gradient(ellipse at center,#19343e,#0c1b23);align-self:start}.wet-apparatus-top,.wet-beaker-label{display:flex;flex-direction:column;gap:6px}.wet-apparatus-top small,.wet-beaker-label span{color:#a9c0ca}.wet-beaker-label{text-align:center}.wet-apparatus{display:block;width:100%;max-height:490px}.wet-apparatus text,.wet-curve text{fill:#bed1da;font-size:12px;font-family:inherit}.wet-apparatus .wet-svg-small{font-size:11px}.wet-work{min-width:0}.wet-readout{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));padding:20px;gap:14px}.wet-readout span{display:block;font-size:12px;color:#a9c0ca;margin-bottom:8px}.wet-readout strong{font-size:clamp(19px,2vw,28px);font-variant-numeric:tabular-nums;white-space:nowrap}.wet-readout strong small{font-size:12px}.wet-ph strong{color:#80e9c7}.wet-controls{padding:18px 0}.wet-increments,.wet-controls form{display:flex;gap:8px;flex-wrap:wrap;align-items:end}.wet-controls form{margin-top:12px}.wet-controls label{display:flex;flex-direction:column;gap:6px}.wet-controls input{width:130px}.wet-lab button{min-height:42px}.wet-chart{padding:18px}.wet-chart h3{margin:0}.wet-curve{width:100%;display:block;cursor:crosshair}.wet-curve:focus-visible{outline:2px solid #f2cd83}.wet-chart label{display:flex;gap:12px;align-items:center;flex-wrap:wrap}.wet-chart small{display:block;margin-top:12px;color:#a9c0ca}.wet-chart select{max-width:100%}.wet-details{margin-top:16px;padding:16px;border:1px solid #365461;border-radius:10px}.wet-details summary{cursor:pointer}.wet-details table{width:100%;text-align:left;border-collapse:collapse}.wet-details td,.wet-details th{padding:8px;border-bottom:1px solid #365461}.wet-details code{overflow-wrap:anywhere}.wet-details pre{max-height:280px;overflow:auto}.wet-lab [role=alert]{color:#ffcbab}.wet-lab input,.wet-lab select{min-height:42px}@media(max-width:850px){.wet-layout{grid-template-columns:minmax(200px,.7fr) minmax(0,1fr)}.wet-readout{grid-template-columns:repeat(2,minmax(0,1fr))}}@media(max-width:620px){.wet-heading{align-items:start;flex-direction:column}.wet-layout{grid-template-columns:1fr}.wet-apparatus{max-height:300px}.wet-bench{padding:12px}.wet-readout{padding:16px}.wet-chart{padding:10px}.wet-controls form button{flex-grow:1}}
+
+
+
+.wet-setup{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:20px}.wet-preparation{padding:18px;border:1px solid #365461;border-radius:12px;background:#10212a}.wet-preparation legend{padding:0 8px}.wet-preparation label{display:flex;gap:6px;flex-wrap:wrap;align-items:center;margin:12px 0}.wet-preparation input,.wet-preparation select{width:100%;min-width:0}.wet-preparation small{display:block;color:#a9c0ca}@media(max-width:620px){.wet-setup{grid-template-columns:1fr;gap:0}}
+
+.wet-preview{min-height:1.5em;color:#f2cd83;font-variant-numeric:tabular-nums}.wet-legend{display:flex;flex-wrap:wrap;gap:6px;margin:10px 0}.wet-legend button{min-width:100px;text-align:left;max-width:100%}.wet-legend button[aria-pressed=true]{border-color:#f2cd83}.wet-legend small{margin:2px 0;font-size:11px}.wet-formula{white-space:nowrap;overflow-wrap:normal;word-break:normal}.wet-chart>label{margin-bottom:10px}
+
+.wet-lab{padding:8px 0}.wet-heading{margin-bottom:8px}.wet-heading h2{font-size:22px;margin:2px 0}.wet-setup{gap:12px;margin:8px 0}.wet-preparation{padding:8px 12px}.wet-preparation label{margin:4px 0}.wet-preparation .wet-volume input{width:100px}.wet-contribution,.wet-contribution-head{display:grid;grid-template-columns:minmax(130px,1.5fr) minmax(95px,1fr) 34px;gap:6px;align-items:center;margin:5px 0}.wet-contribution-head{font-size:12px;color:#a9c0ca}.wet-contribution button{padding:2px;min-width:0}.wet-lab input,.wet-lab select,.wet-lab button{min-height:34px}.wet-preparation small{margin-top:5px}.wet-details{padding:8px 12px;margin-top:8px}.wet-prepared-summary{margin:8px 0;font-size:13px;color:#b9ccd3}.wet-preview{margin:6px 0}.wet-layout{grid-template-columns:minmax(220px,.55fr) minmax(0,1.6fr);gap:12px}.wet-bench{padding:12px}.wet-apparatus{max-height:360px}.wet-readout{padding:10px;gap:8px}.wet-readout span{margin-bottom:3px}.wet-controls{padding:8px 0}.wet-controls form{margin-top:6px}.wet-chart{padding:10px}.wet-chart small{margin-top:5px}.wet-details td:first-child{white-space:nowrap;word-break:normal;overflow-wrap:normal}@media(max-width:620px){.wet-layout,.wet-setup{grid-template-columns:1fr}.wet-contribution{grid-template-columns:minmax(110px,1fr) minmax(80px,.7fr) 30px}.wet-apparatus{max-height:240px}}
+
+
+
+.wet-ion-picker{width:min(1100px,95vw);max-height:90vh;overflow:auto;background:#101e25;color:#dbeaf0;border:1px solid #5e98a4;border-radius:8px}.wet-ion-picker::backdrop{background:#000a}.wet-ion-picker .component-options{max-height:220px;overflow:auto}.wet-ion-name{white-space:nowrap;word-break:normal}.wet-contribution label{font-size:.75rem}.wet-ionic{margin-top:.4rem}.wet-ionic small{display:block}.wet-ionic p{font-size:.8rem;margin:.3rem 0}.wet-add-options{display:inline-flex;gap:.3rem}
+
+
+
+/* Titration is an experiment within Wet Lab. Inputs share the apparatus bench. */
+
+.wet-experiments{display:flex;gap:8px;margin:8px 0 12px;border-bottom:1px solid #365461;padding-bottom:8px}.wet-experiments [aria-current=page]{background:#205249;border-color:#80d8c0}
+
+.wet-experiment-layout{display:grid;grid-template-columns:minmax(460px,.95fr) minmax(0,1.3fr);gap:16px;align-items:start}.wet-results{min-width:0}.wet-apparatus-editor{display:grid;grid-template-columns:minmax(140px,.7fr) minmax(260px,1.3fr);grid-template-rows:minmax(190px,auto) auto;gap:10px;align-items:start}.wet-apparatus-drawing{grid-column:1;grid-row:1 / 3;align-self:stretch;display:flex;flex-direction:column;justify-content:center}.wet-apparatus-drawing .wet-apparatus{max-height:540px;min-height:320px;height:100%}.wet-titrant-editor{grid-column:2;grid-row:1}.wet-sample-editor{grid-column:2;grid-row:2}.wet-apparatus-editor .wet-preparation{min-width:0;margin:0;padding:8px}.wet-apparatus-editor .wet-contribution{grid-template-columns:minmax(0,1fr) 28px}.wet-apparatus-editor .wet-contribution>select,.wet-apparatus-editor .wet-ion-name{grid-column:1 / -1}.wet-apparatus-editor .wet-contribution>label{grid-column:1}.wet-apparatus-editor .wet-contribution>button:last-child{grid-column:2}.wet-bench>.wet-increments{margin-top:12px}.wet-results-empty{border:1px dashed #365461;border-radius:12px;padding:30px 24px;min-height:360px;color:#adc5cf}.wet-results-empty h3{color:#dbe9ed}.wet-bench p{font-size:13px}.wet-readout{grid-template-columns:repeat(2,minmax(0,1fr))}
+
+@media(min-width:1500px){.wet-experiment-layout{grid-template-columns:minmax(540px,.85fr) minmax(0,1.3fr)}.wet-apparatus-editor .wet-contribution{grid-template-columns:minmax(110px,1fr) minmax(95px,.8fr) 28px}.wet-apparatus-editor .wet-contribution>select,.wet-apparatus-editor .wet-ion-name{grid-column:1}.wet-apparatus-editor .wet-contribution>label{grid-column:2}.wet-apparatus-editor .wet-contribution>button:last-child{grid-column:3}}
+
+@media(max-width:1000px){.wet-experiment-layout{grid-template-columns:1fr}.wet-apparatus-editor{grid-template-columns:minmax(150px,.5fr) minmax(0,1fr)}.wet-results-empty{min-height:180px}}
+
+@media(max-width:520px){.wet-apparatus-editor{grid-template-columns:95px minmax(0,1fr);gap:4px}.wet-apparatus-drawing .wet-apparatus{min-height:220px}.wet-bench{padding:6px}.wet-apparatus-editor .wet-preparation{padding:6px}.wet-heading .badge{white-space:normal}}
+
+/* Align the useful readout with the preparation bench, then keep the curve close. */
+
+.wet-results>.wet-preview{margin:0 0 4px;font-size:12px;min-height:0}.wet-results .wet-readout{grid-template-columns:repeat(4,minmax(0,1fr));padding:8px;gap:6px}.wet-results .wet-readout strong{font-size:clamp(17px,1.5vw,23px)}.wet-results .wet-readout span{font-size:11px}.wet-results .wet-controls{display:flex;flex-wrap:wrap;gap:6px;padding:6px 0}.wet-results .wet-controls form{margin:0;gap:6px;align-items:end}.wet-results .wet-controls label{font-size:12px;gap:3px}.wet-results .wet-controls input{width:100px}.wet-results .wet-controls button{font-size:12px;padding:4px 8px}.wet-results .wet-chart>label:first-child{display:grid;grid-template-columns:auto minmax(0,1fr);gap:8px;margin-bottom:4px}.wet-results .wet-chart{padding:8px}.wet-results .wet-curve{min-width:0}.wet-results{align-self:start}.wet-results .wet-details{font-size:12px}
+
+@media(max-width:650px){.wet-results .wet-readout{grid-template-columns:repeat(2,minmax(0,1fr))}.wet-results .wet-controls{display:block}.wet-results .wet-controls form{margin-top:6px}.wet-apparatus-editor{grid-template-columns:1fr}.wet-apparatus-drawing{grid-column:1;grid-row:1;align-items:center}.wet-apparatus-drawing .wet-apparatus{height:220px;min-height:0;width:auto;max-width:100%}.wet-titrant-editor{grid-column:1;grid-row:2}.wet-sample-editor{grid-column:1;grid-row:3}.wet-apparatus-editor .wet-preparation{width:100%;box-sizing:border-box}}
+
+
+
+/* Primary setup action stays with the editable preparation. */
+
+.wet-setup-header{position:sticky;top:74px;z-index:3;display:grid;grid-template-columns:minmax(0,1fr) auto;gap:6px 12px;background:#122d35;border:1px solid #56877f;border-radius:8px;padding:12px;margin:-8px -8px 14px;box-shadow:0 4px 12px #0005}
+
+.wet-setup-header h3{font-size:17px;margin:0 0 3px}.wet-setup-status{font-size:12px;color:#b8e8d8}.wet-setup-header p{grid-column:1/-1;margin:0;line-height:1.4;color:#c7dce3;overflow-wrap:anywhere}
+
+.wet-lab .wet-prepare-primary{background:#80e5be;color:#082c25;border:2px solid #adffdd;font-weight:750;padding:10px 15px;box-shadow:0 2px 6px #0004}.wet-lab .wet-prepare-primary:hover:not(:disabled){background:#a9f5d5}.wet-lab .wet-prepare-primary:disabled{background:#34494c;color:#c0cbcd;border-color:#73898d;opacity:1}
+
+.wet-presets{margin:14px 0}.wet-presets summary,.wet-bench>.wet-details summary{cursor:pointer;font-size:13px}.wet-presets .wet-increments{padding:8px 0}.wet-results{scroll-margin-top:80px}.wet-results-ready{border-top:2px solid #80e5be;padding-top:8px}.wet-results:focus{outline:2px solid #80e5be;outline-offset:4px}
+
+@media(max-width:650px){.wet-setup-header{position:static;margin:0 0 12px;padding:10px;grid-template-columns:1fr}.wet-setup-header .wet-prepare-primary{width:100%}.wet-results{scroll-margin-top:180px}}
+
+@media(prefers-reduced-motion:reduce){.wet-results{scroll-behavior:auto}}
+
+.analytical-picker { width: min(620px, calc(100vw - 32px)); max-height: 85dvh; overflow: auto; color: var(--text, #d4e9ef); background: #12262e; border: 1px solid #628594; border-radius: 12px; padding: 18px; }
+
+.analytical-picker::backdrop { background: #0009; }
+
+.analytical-picker input { display: block; width: 100%; box-sizing: border-box; margin: 8px 0; }
+
+.analytical-candidates { display: grid; gap: 6px; margin: 12px 0; }
+
+.analytical-candidates button { text-align: left; display: grid; gap: 4px; padding: 10px 12px; min-height: 48px; }
+
+.analytical-candidates strong { white-space: nowrap; }
+
+.analytical-candidates small { font-size: .8rem; }
+
+.analytical-picker button:focus-visible { outline: 3px solid #83e4c7; outline-offset: 2px; }
+
+/* Permanent apparatus beside setup; cached graphs occupy the result workspace. */
+
+.wet-experiment-layout{grid-template-columns:minmax(520px,1fr) minmax(0,1.1fr)}
+
+.wet-apparatus-editor{display:grid;grid-template-columns:minmax(200px,.9fr) minmax(0,1fr);gap:10px}.wet-apparatus-editor>div{width:100%;min-width:0}.wet-apparatus-editor .wet-apparatus-drawing{display:block;align-self:start;position:sticky;top:210px}
+
+.wet-result-views{display:flex;flex-wrap:wrap;gap:5px;margin:8px 0}.wet-result-views [aria-pressed=true]{background:#235a50;border-color:#81dec5;color:#eafff7}
+
+.wet-vessel-scene{border:1px solid #41626e;border-radius:12px;overflow:hidden;}
+
+.wet-vessel-caption,.wet-vessel-footer{display:grid;gap:5px;padding:12px 16px;color:#b8d0d8;font-size:13px}.wet-vessel-caption strong,.wet-vessel-footer strong{color:#e1f1ef}.wet-vessel-scene>details{padding:8px 16px;font-size:12px;background:#071c22bb}.wet-experiment-vessel{display:block;width:100%;height:clamp(360px,45vw,580px)}.wet-experiment-vessel text{font-family:inherit;font-size:14px;fill:#c7dfe4}.wet-experiment-vessel .beaker-drawing{max-width:none}.wet-experiment-vessel .beaker-drawing text{font-size:11px}.wet-vessel-scene:focus-visible{outline:2px solid #85e4c6;outline-offset:3px}
+
+.wet-sample-navigation{display:flex;gap:6px;margin:5px 0}.wet-stock-ph{margin:10px 0;padding:8px;border-left:2px solid #6baba2}.wet-stock-ph input{max-width:110px}.wet-stock-ph summary{font-size:12px;cursor:pointer}.wet-solid-view{padding:12px;border:1px solid #41626e;border-radius:12px}.wet-solid-view p,.wet-solid-view small,.wet-details p{overflow-wrap:anywhere}.wet-bench,.wet-preparation,.wet-chart{min-width:0}.wet-ion-name{max-width:100%;overflow:hidden;text-overflow:ellipsis}.wet-details table{display:block;max-width:100%;overflow:auto}.wet-lab .wet-stock-ph p{font-size:12px}
+
+@media(max-width:1000px){.wet-experiment-layout{grid-template-columns:minmax(0,1fr)}}
+
+@media(max-width:650px){.wet-experiment-vessel{height:390px}.wet-lab,.wet-results,.wet-bench{max-width:100%;box-sizing:border-box}.wet-result-views button{flex:1 0 auto}.wet-controls form{max-width:100%}.wet-controls form label{max-width:100%}.wet-chart select{width:100%;min-width:0}.wet-vessel-caption,.wet-vessel-footer{padding:10px}.wet-preparation{width:100%}}
+
+@media(max-width:650px){.wet-curve text{font-size:18px}}
+
+
+
+.wet-results-illustration{margin:0;border:1px solid #41626e;border-radius:12px;overflow:hidden;background:#0b171c}.wet-results-illustration img{display:block;width:100%;height:auto}.wet-results-illustration figcaption{padding:10px 14px;font-size:13px;color:#b8d0d8}.wet-apparatus-drawing .wet-experiment-vessel{height:auto;aspect-ratio:560/620}.wet-apparatus-drawing .wet-vessel-caption,.wet-apparatus-drawing .wet-vessel-footer{padding:10px;font-size:12px}.wet-apparatus-drawing .wet-vessel-scene>details{padding:8px 10px}.wet-vessel-footer{overflow-wrap:anywhere}
+
+@media(max-width:650px){.wet-apparatus-editor{grid-template-columns:minmax(0,1fr)}.wet-apparatus-editor .wet-apparatus-drawing{position:static}.wet-apparatus-drawing .wet-experiment-vessel{height:360px;aspect-ratio:auto}}
+
+
+
+/* Dense stock forms: retain readable type and 34px input targets. */
+
+.wet-apparatus-editor .wet-preparation{padding:6px 8px;line-height:1.3}.wet-preparation legend{font-weight:650}.wet-preparation .wet-stock-definition{display:grid;grid-template-columns:auto minmax(0,1fr);gap:6px}.wet-stock-definition select{font-size:inherit}.wet-preparation .wet-volume{display:grid;grid-template-columns:minmax(0,1fr) 82px auto;margin:6px 0}.wet-preparation .wet-volume input{width:82px}.wet-preparation .wet-stock-ph{margin:6px 0;padding:0;border:0}.wet-stock-ph label{display:grid;grid-template-columns:minmax(0,1fr) 82px;gap:6px}.wet-stock-ph input{width:82px;max-width:100%}.wet-preparation .wet-stock-ph small{margin:2px 0}.wet-preparation details{font-size:12px;margin:3px 0}.wet-preparation details summary{cursor:pointer}.wet-preparation details p{margin:5px 0}.wet-apparatus-editor .wet-contribution{grid-template-columns:minmax(0,1fr) minmax(72px,.8fr) 28px;gap:5px;margin:6px 0;align-items:start}.wet-apparatus-editor .wet-contribution>select,.wet-apparatus-editor .wet-ion-name{grid-column:1}.wet-apparatus-editor .wet-contribution>label{grid-column:2;margin:0;gap:2px}.wet-apparatus-editor .wet-contribution>button:last-child{grid-column:3}.wet-preparation>small{margin-top:4px;line-height:1.3}.wet-preparation .wet-contribution input{margin:0}.wet-apparatus-editor .wet-preparation>button{padding:4px 8px}.wet-definition-help{color:#b8d0d8}
+
+@media(min-width:1001px){.wet-apparatus-editor{grid-template-columns:minmax(165px,.65fr) minmax(0,1fr)}}
+
+@media(max-width:650px){.wet-preparation .wet-stock-definition{grid-template-columns:1fr}.wet-apparatus-editor .wet-contribution{grid-template-columns:minmax(0,1fr) minmax(80px,.8fr) 28px}}
+
+
+
+.wet-apparatus-editor .wet-preparation legend{margin-bottom:2px}.wet-preparation details summary{padding:2px 0}.wet-preparation .wet-stock-ph{margin:4px 0}.wet-apparatus-editor .wet-preparation :is(input,select){padding:5px 7px;min-height:34px;height:34px;box-sizing:border-box}.wet-apparatus-editor .wet-contribution>label{display:grid;grid-template-columns:minmax(0,1fr) auto;align-items:center;font-size:12px}.wet-preparation .wet-contribution input{min-width:0}.wet-preparation .wet-stock-definition{grid-template-columns:96px minmax(0,1fr)}.wet-preparation .wet-volume{margin:4px 0}.wet-preparation .wet-stock-ph details{margin:0}
+
+
+
+/* Beaker-first workspace; the live plot remains in the right column. */
+
+@media(min-width:1001px){.wet-experiment-layout{grid-template-columns:minmax(590px,1.25fr) minmax(0,1fr)}.wet-apparatus-editor{grid-template-columns:minmax(290px,1.25fr) minmax(230px,1fr)}}
+
+.wet-apparatus-editor .wet-apparatus-drawing{top:100px}
+
+.wet-apparatus-drawing .wet-3d-canvas{height:clamp(440px,58vh,700px)}
+
+.wet-apparatus-options>summary{padding:12px;cursor:pointer}
+
+.wet-lab .wet-prepare-primary{font-size:1.15rem;min-height:62px;padding:14px 24px}
+
+.wet-setup-header{position:sticky;top:70px;z-index:5}
+
+.wet-ion-picker input[type=search]{width:100%;box-sizing:border-box;margin:8px 0}
+
+.wet-ion-picker .analytical-candidates{max-height:34vh;overflow:auto;grid-template-columns:repeat(auto-fit,minmax(180px,1fr))}
+
+
+/* Keep preparation beside the stock editors; secondary view controls follow the apparatus. */
+.wet-apparatus-drawing>.wet-setup-header{position:static;align-self:stretch;grid-template-columns:1fr;margin:0 0 10px;padding:12px;box-shadow:none}
+.wet-apparatus-drawing>.wet-setup-header .wet-prepare-primary{width:100%}
+.wet-apparatus-drawing .wet-apparatus-options{margin-top:12px;border-top:1px solid #365461}

@@ -1,0 +1,16 @@
+{
+  "checked": 417,
+  "changed": [
+    "src\\calculations\\outputDescriptors.js",
+    "src\\calculations\\outputs.js",
+    "src\\calculations\\wetLabExperience.js",
+    "src\\calculations\\wetLabSetup.js",
+    "src\\calculations\\wetLabSolutions.js",
+    "src\\calculations\\wetLabTitration.js",
+    "src\\components\\AxisControls.jsx",
+    "src\\components\\WetLab.jsx",
+    "src\\plots\\export.js",
+    "tests\\fastDiagramUx.test.js"
+  ],
+  "protectedUnchanged": true
+}

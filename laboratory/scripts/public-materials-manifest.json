@@ -1,0 +1,14 @@
+[
+  {
+    "file": "materials/brushed_concrete_rough_1k.jpg",
+    "bytes": 701983,
+    "sha256": "24da5e4c3d17b7db1b4764b3cd1fd5c5680c27ef2c86e0d6a312f74d2d0599bd",
+    "purpose": "Public wet-lab bench texture and its attribution; see materials/LICENSE.txt"
+  },
+  {
+    "file": "materials/LICENSE.txt",
+    "bytes": 391,
+    "sha256": "0ce05a87f4421e20e9d5f30516b1f7b4567d9248e929e4d6cd4f54ad3c912708",
+    "purpose": "Public wet-lab bench texture and its attribution; see materials/LICENSE.txt"
+  }
+]

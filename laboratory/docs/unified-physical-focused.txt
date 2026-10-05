@@ -1,0 +1,16 @@
+✔ unified physical route retains independent acetate/borate values and has no derived Eh (5202.8308ms)
+✔ positive physical source base projects to signed proton equivalents without negative reagents (1737.4175ms)
+✔ unified physical redox preserves exact reviewed Fe peroxide source scope and reference (1931.4549ms)
+✔ non Fe Cr europium control uses the same physical contract and independent source reference (694.8586ms)
+✔ all twelve independent Cr doses reproduce pH pe aqueous carriers solid inventory and closure (8853.8729ms)
+✔ unknown metadata physical negatives conflicting constraints forged and stale preparations refuse (2496.3635ms)
+✔ gas and required excluded solids remain refusals after automatic routing (1210.0361ms)
+✔ ordinary reviewed chromium recipe feeds Wet Lab and elemental plots using exact accepted objects (4462.4768ms)
+ℹ tests 8
+ℹ suites 0
+ℹ pass 8
+ℹ fail 0
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 27535.1169

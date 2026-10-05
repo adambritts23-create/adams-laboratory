@@ -1,0 +1,14 @@
+{
+  "src/solver/assemblages.js": "e25b0801841e7fa90f2bfba44488807e2c0f417dc5e0ee7c0bf98b7745650dc4",
+  "src/solver/closedRedox.js": "d6907456dcc9b8030041c88b89c57922e0ec51a9f6bb1a9be78c19e8f00ad268",
+  "src/solver/contract.js": "8d035ccb7c9637ff734fb3cd5d14aec7ddc01ee61243cdd9fe4bd4372b8099bf",
+  "src/solver/linear.js": "85bc2b1dd9792cf050bf64014ae76c0e66c6602c208c18607e97f05f71ba2f79",
+  "src/solver/logConcentration.js": "0838a65475c47eb86ff0807f4247010d69e9c4c7ee6bb7555c90af47b2228079",
+  "src/solver/models.js": "6627e609bcb575037aafeee9610e5a408ddad505eb17ee30eeee93ee45535bb5",
+  "src/solver/point.js": "1c721f78dae772de8e443973e11e9fb105cc9faa14d21d086640b15f6c588ab8",
+  "src/solver/prepareCanonicalRedox.js": "d5666d86b7e3a5730f09ccaaf6d330f590149a54317647a94aeb24e41db19085",
+  "src/solver/prepareSession.js": "6eb8bf7d6b11d14508f3f05c3bb8d0c8099e0c5eb30f0df262cd6c59767b2164",
+  "src/solver/redox.js": "80b9f117b93a313e7172476ee38633bb7156d8886839bdeaf6c9d7cc9a9d6074",
+  "src/solver/validationContract.js": "1eec965214cb5aaf583b55280c0203d4f58396264fa44e1cc69b0e7e6a3317db",
+  "public/data/thermodynamic-default.json": "9fa7db6f4a13a88073a0ca214c412690846674f6b3f442e336baf1586c45d245"
+}

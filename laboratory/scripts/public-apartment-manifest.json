@@ -1,0 +1,14 @@
+[
+  {
+    "file": "models/apartment5c/apartment.glb",
+    "bytes": 3511920,
+    "sha256": "91df62f93b07f789327eedd61588437cf4515071d862fa643e017872110d2933",
+    "purpose": "Original user-requested Godot apartment geometry and provenance; no game code, saves or neighboring rooms."
+  },
+  {
+    "file": "models/apartment5c/provenance.json",
+    "bytes": 982,
+    "sha256": "a2c1ccddfd8204381e17485c43c5da61e8334a2f96f58acb35f3e6aef9fa3fd8",
+    "purpose": "Original user-requested Godot apartment geometry and provenance; no game code, saves or neighboring rooms."
+  }
+]

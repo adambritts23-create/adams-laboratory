@@ -1,0 +1,20 @@
+{
+  "checked": 223,
+  "changes": [
+    {
+      "path": "src/solver/closedRedox.js",
+      "before": "67bbc2e8dd156524e3382f3fd7c0497c6a058e419c346da2ec7460ac855998aa",
+      "after": "56517cd2426d1d96c9f6b1742952bfb33d94fadd14dd32a45cbe62ac09862e1e"
+    },
+    {
+      "path": "src/solver/point.js",
+      "before": "aa86983f63ee081a01e270be61271eff53b2284cf5d6bc1fcc6a348f2eb68d38",
+      "after": "8ac2c2fa7caa074c5769a7bfc377bc07f15836042fcc4503e0c9acb9aa8744e3"
+    },
+    {
+      "path": "src/thermodynamics/closedRedoxNetwork.js",
+      "before": "1cf688fd686aab991b10ba10b6e151dd67038fc8f83c91377d1cf5c8072f1cec",
+      "after": "3d909b2ffc4711d2faa75394fa87b0ceaa5a28b3040114fb0fbf4dbdd69e3fa9"
+    }
+  ]
+}

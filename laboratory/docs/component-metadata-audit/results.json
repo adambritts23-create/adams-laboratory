@@ -1,0 +1,1194 @@
+{
+  "decision": "AUDIT STOP: authoritative charge grammar found; no general authoritative elemental composition mechanism established. No production edits.",
+  "sourceHashes": {
+    "Reactions.elb": "aebefcdc660d09937aa4d3416cee9dedb159ab7b060769b542627f98ca299592",
+    "Reactions.db": "2ac52a30213c9288dd18fc6dd597411e5c3ca53173fa6d1fab5530b371c30a0a"
+  },
+  "coverage": {
+    "activeSourceComponents": 168,
+    "rawUniqueElbNames": 168,
+    "elbBlocks": 86,
+    "dbRecords": 4444,
+    "officialCharges": 168,
+    "newAtomVectorsFromSourceSchema": 0,
+    "existingReviewedVectors": 15,
+    "ordinaryReviewedVectors": 12,
+    "physicalMetadataAvailable": 13,
+    "specialComponents": 3,
+    "missingReviewedAtoms": 153,
+    "newlyUnlockedPhysicalForms": 0
+  },
+  "chargeMismatches": [],
+  "pins": [
+    {
+      "id": "component:Fe%202%2B",
+      "name": "Fe 2+",
+      "reviewedCharge": 2,
+      "officialCharge": 2,
+      "reviewedAtoms": {
+        "Fe": 1
+      },
+      "atomComparison": "Not independently recoverable from ELB/DB schema; existing reviewed vector retained."
+    },
+    {
+      "id": "component:Fe%203%2B",
+      "name": "Fe 3+",
+      "reviewedCharge": 3,
+      "officialCharge": 3,
+      "reviewedAtoms": {
+        "Fe": 1
+      },
+      "atomComparison": "Not independently recoverable from ELB/DB schema; existing reviewed vector retained."
+    },
+    {
+      "id": "component:H2O2",
+      "name": "H2O2",
+      "reviewedCharge": 0,
+      "officialCharge": 0,
+      "reviewedAtoms": {
+        "H": 2,
+        "O": 2
+      },
+      "atomComparison": "Not independently recoverable from ELB/DB schema; existing reviewed vector retained."
+    },
+    {
+      "id": "component:H%2B",
+      "name": "H+",
+      "reviewedCharge": 1,
+      "officialCharge": 1,
+      "reviewedAtoms": {
+        "H": 1
+      },
+      "atomComparison": "Not independently recoverable from ELB/DB schema; existing reviewed vector retained."
+    },
+    {
+      "id": "component:H2O",
+      "name": "H2O",
+      "reviewedCharge": 0,
+      "officialCharge": 0,
+      "reviewedAtoms": {
+        "H": 2,
+        "O": 1
+      },
+      "atomComparison": "Not independently recoverable from ELB/DB schema; existing reviewed vector retained."
+    },
+    {
+      "id": "component:Cl-",
+      "name": "Cl-",
+      "reviewedCharge": -1,
+      "officialCharge": -1,
+      "reviewedAtoms": {
+        "Cl": 1
+      },
+      "atomComparison": "Not independently recoverable from ELB/DB schema; existing reviewed vector retained."
+    },
+    {
+      "id": "component:e-",
+      "name": "e-",
+      "reviewedCharge": -1,
+      "officialCharge": -1,
+      "reviewedAtoms": {},
+      "atomComparison": "Not independently recoverable from ELB/DB schema; existing reviewed vector retained."
+    },
+    {
+      "id": "component:Eu%203%2B",
+      "name": "Eu 3+",
+      "reviewedCharge": 3,
+      "officialCharge": 3,
+      "reviewedAtoms": {
+        "Eu": 1
+      },
+      "atomComparison": "Not independently recoverable from ELB/DB schema; existing reviewed vector retained."
+    },
+    {
+      "id": "component:K%2B",
+      "name": "K+",
+      "reviewedCharge": 1,
+      "officialCharge": 1,
+      "reviewedAtoms": {
+        "K": 1
+      },
+      "atomComparison": "Not independently recoverable from ELB/DB schema; existing reviewed vector retained."
+    },
+    {
+      "id": "component:CrO4%202-",
+      "name": "CrO4 2-",
+      "reviewedCharge": -2,
+      "officialCharge": -2,
+      "reviewedAtoms": {
+        "Cr": 1,
+        "O": 4
+      },
+      "atomComparison": "Not independently recoverable from ELB/DB schema; existing reviewed vector retained."
+    },
+    {
+      "id": "component:Cr%203%2B",
+      "name": "Cr 3+",
+      "reviewedCharge": 3,
+      "officialCharge": 3,
+      "reviewedAtoms": {
+        "Cr": 1
+      },
+      "atomComparison": "Not independently recoverable from ELB/DB schema; existing reviewed vector retained."
+    },
+    {
+      "id": "component:Cr%202%2B",
+      "name": "Cr 2+",
+      "reviewedCharge": 2,
+      "officialCharge": 2,
+      "reviewedAtoms": {
+        "Cr": 1
+      },
+      "atomComparison": "Not independently recoverable from ELB/DB schema; existing reviewed vector retained."
+    },
+    {
+      "id": "component:CH3COO-",
+      "name": "CH3COO-",
+      "reviewedCharge": -1,
+      "officialCharge": -1,
+      "reviewedAtoms": {
+        "C": 2,
+        "H": 3,
+        "O": 2
+      },
+      "atomComparison": "Not independently recoverable from ELB/DB schema; existing reviewed vector retained."
+    },
+    {
+      "id": "component:Na%2B",
+      "name": "Na+",
+      "reviewedCharge": 1,
+      "officialCharge": 1,
+      "reviewedAtoms": {
+        "Na": 1
+      },
+      "atomComparison": "Not independently recoverable from ELB/DB schema; existing reviewed vector retained."
+    },
+    {
+      "id": "component:B(OH)3",
+      "name": "B(OH)3",
+      "reviewedCharge": 0,
+      "officialCharge": 0,
+      "reviewedAtoms": {
+        "B": 1,
+        "O": 3,
+        "H": 3
+      },
+      "atomComparison": "Not independently recoverable from ELB/DB schema; existing reviewed vector retained."
+    }
+  ],
+  "controls": [
+    {
+      "id": "component:H%2B",
+      "name": "H+",
+      "role": "proton",
+      "officialCharge": 1,
+      "associations": [
+        {
+          "element": "H",
+          "description": "hydrogen ion"
+        }
+      ],
+      "reviewedAtoms": {
+        "H": 1
+      },
+      "physicalMetadataAvailable": true
+    },
+    {
+      "id": "component:e-",
+      "name": "e-",
+      "role": "electron",
+      "officialCharge": -1,
+      "associations": [
+        {
+          "element": "e-",
+          "description": "electron (= redox potential)"
+        }
+      ],
+      "reviewedAtoms": {},
+      "physicalMetadataAvailable": false
+    },
+    {
+      "id": "component:H2O",
+      "name": "H2O",
+      "role": "solvent",
+      "officialCharge": 0,
+      "associations": [
+        {
+          "element": "XX",
+          "description": "water"
+        }
+      ],
+      "reviewedAtoms": {
+        "H": 2,
+        "O": 1
+      },
+      "physicalMetadataAvailable": false
+    },
+    {
+      "id": "component:Na%2B",
+      "name": "Na+",
+      "role": "basis-choice",
+      "officialCharge": 1,
+      "associations": [
+        {
+          "element": "Na",
+          "description": ""
+        }
+      ],
+      "reviewedAtoms": {
+        "Na": 1
+      },
+      "physicalMetadataAvailable": true
+    },
+    {
+      "id": "component:Cl-",
+      "name": "Cl-",
+      "role": "basis-choice",
+      "officialCharge": -1,
+      "associations": [
+        {
+          "element": "Cl",
+          "description": "chloride"
+        }
+      ],
+      "reviewedAtoms": {
+        "Cl": 1
+      },
+      "physicalMetadataAvailable": true
+    },
+    {
+      "id": "component:Cr%203%2B",
+      "name": "Cr 3+",
+      "role": "basis-choice",
+      "officialCharge": 3,
+      "associations": [
+        {
+          "element": "Cr",
+          "description": "chromic"
+        }
+      ],
+      "reviewedAtoms": {
+        "Cr": 1
+      },
+      "physicalMetadataAvailable": true
+    },
+    {
+      "id": "component:Cu%202%2B",
+      "name": "Cu 2+",
+      "role": "basis-choice",
+      "officialCharge": 2,
+      "associations": [
+        {
+          "element": "Cu",
+          "description": "cupric"
+        }
+      ],
+      "reviewedAtoms": null,
+      "physicalMetadataAvailable": false
+    },
+    {
+      "id": "component:NO3-",
+      "name": "NO3-",
+      "role": "basis-choice",
+      "officialCharge": -1,
+      "associations": [
+        {
+          "element": "N",
+          "description": "nitrate"
+        }
+      ],
+      "reviewedAtoms": null,
+      "physicalMetadataAvailable": false
+    },
+    {
+      "id": "component:SO4%202-",
+      "name": "SO4 2-",
+      "role": "basis-choice",
+      "officialCharge": -2,
+      "associations": [
+        {
+          "element": "S",
+          "description": "sulfate"
+        }
+      ],
+      "reviewedAtoms": null,
+      "physicalMetadataAvailable": false
+    },
+    {
+      "id": "component:CO3%202-",
+      "name": "CO3 2-",
+      "role": "basis-choice",
+      "officialCharge": -2,
+      "associations": [
+        {
+          "element": "C",
+          "description": "carbonate"
+        }
+      ],
+      "reviewedAtoms": null,
+      "physicalMetadataAvailable": false
+    },
+    {
+      "id": "component:CH3COO-",
+      "name": "CH3COO-",
+      "role": "basis-choice",
+      "officialCharge": -1,
+      "associations": [
+        {
+          "element": "C",
+          "description": "acetate (ethanoic acid)"
+        }
+      ],
+      "reviewedAtoms": {
+        "C": 2,
+        "H": 3,
+        "O": 2
+      },
+      "physicalMetadataAvailable": true
+    }
+  ],
+  "products": [
+    {
+      "id": "spana:2ac52a30213c9288:79298",
+      "name": "CH3COOH",
+      "sourceTerms": {
+        "H+": 1,
+        "CH3COO-": 1
+      },
+      "elements": {
+        "H": 4,
+        "C": 2,
+        "O": 2
+      },
+      "charge": 0,
+      "passed": true
+    },
+    {
+      "id": "spana:2ac52a30213c9288:135557",
+      "name": "FeCl+2",
+      "sourceTerms": {
+        "Fe 3+": 1,
+        "Cl-": 1
+      },
+      "elements": {
+        "Fe": 1,
+        "Cl": 1
+      },
+      "charge": 2,
+      "passed": true
+    },
+    {
+      "id": "spana:2ac52a30213c9288:133739",
+      "name": "Fe2O3(cr)",
+      "sourceTerms": {
+        "Fe 3+": 2,
+        "H+": -6,
+        "H2O": 3
+      },
+      "elements": {
+        "Fe": 2,
+        "O": 3
+      },
+      "charge": 0,
+      "passed": true
+    },
+    {
+      "id": "spana:2ac52a30213c9288:126584",
+      "name": "Fe 3+",
+      "sourceTerms": {
+        "Fe 2+": 1,
+        "e-": -1
+      },
+      "elements": {
+        "Fe": 1
+      },
+      "charge": 3,
+      "passed": true
+    }
+  ],
+  "preflights": [
+    {
+      "name": "CuCl2",
+      "status": "UNAVAILABLE",
+      "reason": "Missing authoritative composition/charge metadata for Cu 2+. Selection is allowed; physical preparation is unavailable."
+    },
+    {
+      "name": "NaNO3",
+      "status": "UNAVAILABLE",
+      "reason": "Missing authoritative composition/charge metadata for NO3-. Selection is allowed; physical preparation is unavailable."
+    }
+  ],
+  "chargeDemo": {
+    "balanced": true,
+    "unbalanced": false,
+    "upstreamTolerance": 0.001,
+    "upstreamSkipCoefficientMagnitudeBelow": 0.0001
+  },
+  "unresolved": [
+    {
+      "id": "component:Li%2B",
+      "name": "Li+",
+      "reason": "Source links/descriptions do not establish atom counts; no reviewed composition vector."
+    },
+    {
+      "id": "component:Be%202%2B",
+      "name": "Be 2+",
+      "reason": "Source links/descriptions do not establish atom counts; no reviewed composition vector."
+    },
+    {
+      "id": "component:CO3%202-",
+      "name": "CO3 2-",
+      "reason": "Source links/descriptions do not establish atom counts; no reviewed composition vector."
+    },
+    {
+      "id": "component:CN-",
+      "name": "CN-",
+      "reason": "Source links/descriptions do not establish atom counts; no reviewed composition vector."
+    },
+    {
+      "id": "component:OCN-",
+      "name": "OCN-",
+      "reason": "Source links/descriptions do not establish atom counts; no reviewed composition vector."
+    },
+    {
+      "id": "component:SCN-",
+      "name": "SCN-",
+      "reason": "Source links/descriptions do not establish atom counts; no reviewed composition vector."
+    },
+    {
+      "id": "component:HCOO-",
+      "name": "HCOO-",
+      "reason": "Source links/descriptions do not establish atom counts; no reviewed composition vector."
+    },
+    {
+      "id": "component:ox%202-",
+      "name": "ox 2-",
+      "reason": "Source links/descriptions do not establish atom counts; no reviewed composition vector."
+    },
+    {
+      "id": "component:cit%203-",
+      "name": "cit 3-",
+      "reason": "Source links/descriptions do not establish atom counts; no reviewed composition vector."
+    },
+    {
+      "id": "component:NTA%203-",
+      "name": "NTA 3-",
+      "reason": "Source links/descriptions do not establish atom counts; no reviewed composition vector."
+    },
+    {
+      "id": "component:EDTA%204-",
+      "name": "EDTA 4-",
+      "reason": "Source links/descriptions do not establish atom counts; no reviewed composition vector."
+    },
+    {
+      "id": "component:gly-",
+      "name": "gly-",
+      "reason": "Source links/descriptions do not establish atom counts; no reviewed composition vector."
+    },
+    {
+      "id": "component:AcSal-",
+      "name": "AcSal-",
+      "reason": "Source links/descriptions do not establish atom counts; no reviewed composition vector."
+    },
+    {
+      "id": "component:NO3-",
+      "name": "NO3-",
+      "reason": "Source links/descriptions do not establish atom counts; no reviewed composition vector."
+    },
+    {
+      "id": "component:NO2-",
+      "name": "NO2-",
+      "reason": "Source links/descriptions do not establish atom counts; no reviewed composition vector."
+    },
+    {
+      "id": "component:NH3",
+      "name": "NH3",
+      "reason": "Source links/descriptions do not establish atom counts; no reviewed composition vector."
+    },
+    {
+      "id": "component:N3-",
+      "name": "N3-",
+      "reason": "Source links/descriptions do not establish atom counts; no reviewed composition vector."
+    },
+    {
+      "id": "component:F-",
+      "name": "F-",
+      "reason": "Source links/descriptions do not establish atom counts; no reviewed composition vector."
+    },
+    {
+      "id": "component:Mg%202%2B",
+      "name": "Mg 2+",
+      "reason": "Source links/descriptions do not establish atom counts; no reviewed composition vector."
+    },
+    {
+      "id": "component:Al%203%2B",
+      "name": "Al 3+",
+      "reason": "Source links/descriptions do not establish atom counts; no reviewed composition vector."
+    },
+    {
+      "id": "component:Si(OH)4",
+      "name": "Si(OH)4",
+      "reason": "Source links/descriptions do not establish atom counts; no reviewed composition vector."
+    },
+    {
+      "id": "component:PO4%203-",
+      "name": "PO4 3-",
+      "reason": "Source links/descriptions do not establish atom counts; no reviewed composition vector."
+    },
+    {
+      "id": "component:HPO3%202-",
+      "name": "HPO3 2-",
+      "reason": "Source links/descriptions do not establish atom counts; no reviewed composition vector."
+    },
+    {
+      "id": "component:H2PO2-",
+      "name": "H2PO2-",
+      "reason": "Source links/descriptions do not establish atom counts; no reviewed composition vector."
+    },
+    {
+      "id": "component:P2O6%204-",
+      "name": "P2O6 4-",
+      "reason": "Source links/descriptions do not establish atom counts; no reviewed composition vector."
+    },
+    {
+      "id": "component:HP2O6%203-",
+      "name": "HP2O6 3-",
+      "reason": "Source links/descriptions do not establish atom counts; no reviewed composition vector."
+    },
+    {
+      "id": "component:P2O7%204-",
+      "name": "P2O7 4-",
+      "reason": "Source links/descriptions do not establish atom counts; no reviewed composition vector."
+    },
+    {
+      "id": "component:P3O9%203-",
+      "name": "P3O9 3-",
+      "reason": "Source links/descriptions do not establish atom counts; no reviewed composition vector."
+    },
+    {
+      "id": "component:P3O10%205-",
+      "name": "P3O10 5-",
+      "reason": "Source links/descriptions do not establish atom counts; no reviewed composition vector."
+    },
+    {
+      "id": "component:P4O12%204-",
+      "name": "P4O12 4-",
+      "reason": "Source links/descriptions do not establish atom counts; no reviewed composition vector."
+    },
+    {
+      "id": "component:SO4%202-",
+      "name": "SO4 2-",
+      "reason": "Source links/descriptions do not establish atom counts; no reviewed composition vector."
+    },
+    {
+      "id": "component:SO3%202-",
+      "name": "SO3 2-",
+      "reason": "Source links/descriptions do not establish atom counts; no reviewed composition vector."
+    },
+    {
+      "id": "component:S2O3%202-",
+      "name": "S2O3 2-",
+      "reason": "Source links/descriptions do not establish atom counts; no reviewed composition vector."
+    },
+    {
+      "id": "component:HS-",
+      "name": "HS-",
+      "reason": "Source links/descriptions do not establish atom counts; no reviewed composition vector."
+    },
+    {
+      "id": "component:ClO3-",
+      "name": "ClO3-",
+      "reason": "Source links/descriptions do not establish atom counts; no reviewed composition vector."
+    },
+    {
+      "id": "component:Ca%202%2B",
+      "name": "Ca 2+",
+      "reason": "Source links/descriptions do not establish atom counts; no reviewed composition vector."
+    },
+    {
+      "id": "component:Sc%203%2B",
+      "name": "Sc 3+",
+      "reason": "Source links/descriptions do not establish atom counts; no reviewed composition vector."
+    },
+    {
+      "id": "component:TiO%202%2B",
+      "name": "TiO 2+",
+      "reason": "Source links/descriptions do not establish atom counts; no reviewed composition vector."
+    },
+    {
+      "id": "component:Ti%203%2B",
+      "name": "Ti 3+",
+      "reason": "Source links/descriptions do not establish atom counts; no reviewed composition vector."
+    },
+    {
+      "id": "component:Ti%202%2B",
+      "name": "Ti 2+",
+      "reason": "Source links/descriptions do not establish atom counts; no reviewed composition vector."
+    },
+    {
+      "id": "component:V%202%2B",
+      "name": "V 2+",
+      "reason": "Source links/descriptions do not establish atom counts; no reviewed composition vector."
+    },
+    {
+      "id": "component:V%203%2B",
+      "name": "V 3+",
+      "reason": "Source links/descriptions do not establish atom counts; no reviewed composition vector."
+    },
+    {
+      "id": "component:VO%202%2B",
+      "name": "VO 2+",
+      "reason": "Source links/descriptions do not establish atom counts; no reviewed composition vector."
+    },
+    {
+      "id": "component:VO2%2B",
+      "name": "VO2+",
+      "reason": "Source links/descriptions do not establish atom counts; no reviewed composition vector."
+    },
+    {
+      "id": "component:Mn%202%2B",
+      "name": "Mn 2+",
+      "reason": "Source links/descriptions do not establish atom counts; no reviewed composition vector."
+    },
+    {
+      "id": "component:Mn%203%2B",
+      "name": "Mn 3+",
+      "reason": "Source links/descriptions do not establish atom counts; no reviewed composition vector."
+    },
+    {
+      "id": "component:Co%202%2B",
+      "name": "Co 2+",
+      "reason": "Source links/descriptions do not establish atom counts; no reviewed composition vector."
+    },
+    {
+      "id": "component:Co%203%2B",
+      "name": "Co 3+",
+      "reason": "Source links/descriptions do not establish atom counts; no reviewed composition vector."
+    },
+    {
+      "id": "component:Ni%202%2B",
+      "name": "Ni 2+",
+      "reason": "Source links/descriptions do not establish atom counts; no reviewed composition vector."
+    },
+    {
+      "id": "component:Cu%202%2B",
+      "name": "Cu 2+",
+      "reason": "Source links/descriptions do not establish atom counts; no reviewed composition vector."
+    },
+    {
+      "id": "component:Cu%2B",
+      "name": "Cu+",
+      "reason": "Source links/descriptions do not establish atom counts; no reviewed composition vector."
+    },
+    {
+      "id": "component:Zn%202%2B",
+      "name": "Zn 2+",
+      "reason": "Source links/descriptions do not establish atom counts; no reviewed composition vector."
+    },
+    {
+      "id": "component:Ga%203%2B",
+      "name": "Ga 3+",
+      "reason": "Source links/descriptions do not establish atom counts; no reviewed composition vector."
+    },
+    {
+      "id": "component:Ge%202%2B",
+      "name": "Ge 2+",
+      "reason": "Source links/descriptions do not establish atom counts; no reviewed composition vector."
+    },
+    {
+      "id": "component:Ge(OH)4",
+      "name": "Ge(OH)4",
+      "reason": "Source links/descriptions do not establish atom counts; no reviewed composition vector."
+    },
+    {
+      "id": "component:H3AsO3",
+      "name": "H3AsO3",
+      "reason": "Source links/descriptions do not establish atom counts; no reviewed composition vector."
+    },
+    {
+      "id": "component:AsO4%203-",
+      "name": "AsO4 3-",
+      "reason": "Source links/descriptions do not establish atom counts; no reviewed composition vector."
+    },
+    {
+      "id": "component:SeO4%202-",
+      "name": "SeO4 2-",
+      "reason": "Source links/descriptions do not establish atom counts; no reviewed composition vector."
+    },
+    {
+      "id": "component:SeO3%202-",
+      "name": "SeO3 2-",
+      "reason": "Source links/descriptions do not establish atom counts; no reviewed composition vector."
+    },
+    {
+      "id": "component:H2Se",
+      "name": "H2Se",
+      "reason": "Source links/descriptions do not establish atom counts; no reviewed composition vector."
+    },
+    {
+      "id": "component:SeCN-",
+      "name": "SeCN-",
+      "reason": "Source links/descriptions do not establish atom counts; no reviewed composition vector."
+    },
+    {
+      "id": "component:Br-",
+      "name": "Br-",
+      "reason": "Source links/descriptions do not establish atom counts; no reviewed composition vector."
+    },
+    {
+      "id": "component:BrO-",
+      "name": "BrO-",
+      "reason": "Source links/descriptions do not establish atom counts; no reviewed composition vector."
+    },
+    {
+      "id": "component:BrO3-",
+      "name": "BrO3-",
+      "reason": "Source links/descriptions do not establish atom counts; no reviewed composition vector."
+    },
+    {
+      "id": "component:Rb%2B",
+      "name": "Rb+",
+      "reason": "Source links/descriptions do not establish atom counts; no reviewed composition vector."
+    },
+    {
+      "id": "component:Sr%202%2B",
+      "name": "Sr 2+",
+      "reason": "Source links/descriptions do not establish atom counts; no reviewed composition vector."
+    },
+    {
+      "id": "component:Y%203%2B",
+      "name": "Y 3+",
+      "reason": "Source links/descriptions do not establish atom counts; no reviewed composition vector."
+    },
+    {
+      "id": "component:Zr%204%2B",
+      "name": "Zr 4+",
+      "reason": "Source links/descriptions do not establish atom counts; no reviewed composition vector."
+    },
+    {
+      "id": "component:Nb(OH)5",
+      "name": "Nb(OH)5",
+      "reason": "Source links/descriptions do not establish atom counts; no reviewed composition vector."
+    },
+    {
+      "id": "component:MoO4%202-",
+      "name": "MoO4 2-",
+      "reason": "Source links/descriptions do not establish atom counts; no reviewed composition vector."
+    },
+    {
+      "id": "component:Mo2O4%202%2B",
+      "name": "Mo2O4 2+",
+      "reason": "Source links/descriptions do not establish atom counts; no reviewed composition vector."
+    },
+    {
+      "id": "component:Mo%203%2B",
+      "name": "Mo 3+",
+      "reason": "Source links/descriptions do not establish atom counts; no reviewed composition vector."
+    },
+    {
+      "id": "component:Tc%203%2B",
+      "name": "Tc 3+",
+      "reason": "Source links/descriptions do not establish atom counts; no reviewed composition vector."
+    },
+    {
+      "id": "component:TcO(OH)2",
+      "name": "TcO(OH)2",
+      "reason": "Source links/descriptions do not establish atom counts; no reviewed composition vector."
+    },
+    {
+      "id": "component:TcO4%203-",
+      "name": "TcO4 3-",
+      "reason": "Source links/descriptions do not establish atom counts; no reviewed composition vector."
+    },
+    {
+      "id": "component:TcO4%202-",
+      "name": "TcO4 2-",
+      "reason": "Source links/descriptions do not establish atom counts; no reviewed composition vector."
+    },
+    {
+      "id": "component:TcO4-",
+      "name": "TcO4-",
+      "reason": "Source links/descriptions do not establish atom counts; no reviewed composition vector."
+    },
+    {
+      "id": "component:Ru%202%2B",
+      "name": "Ru 2+",
+      "reason": "Source links/descriptions do not establish atom counts; no reviewed composition vector."
+    },
+    {
+      "id": "component:Ru%203%2B",
+      "name": "Ru 3+",
+      "reason": "Source links/descriptions do not establish atom counts; no reviewed composition vector."
+    },
+    {
+      "id": "component:Ru(OH)2%202%2B",
+      "name": "Ru(OH)2 2+",
+      "reason": "Source links/descriptions do not establish atom counts; no reviewed composition vector."
+    },
+    {
+      "id": "component:RuO4%202-",
+      "name": "RuO4 2-",
+      "reason": "Source links/descriptions do not establish atom counts; no reviewed composition vector."
+    },
+    {
+      "id": "component:RuO4",
+      "name": "RuO4",
+      "reason": "Source links/descriptions do not establish atom counts; no reviewed composition vector."
+    },
+    {
+      "id": "component:Rh%203%2B",
+      "name": "Rh 3+",
+      "reason": "Source links/descriptions do not establish atom counts; no reviewed composition vector."
+    },
+    {
+      "id": "component:Rh%202%2B",
+      "name": "Rh 2+",
+      "reason": "Source links/descriptions do not establish atom counts; no reviewed composition vector."
+    },
+    {
+      "id": "component:Pd%202%2B",
+      "name": "Pd 2+",
+      "reason": "Source links/descriptions do not establish atom counts; no reviewed composition vector."
+    },
+    {
+      "id": "component:Ag%2B",
+      "name": "Ag+",
+      "reason": "Source links/descriptions do not establish atom counts; no reviewed composition vector."
+    },
+    {
+      "id": "component:Cd%202%2B",
+      "name": "Cd 2+",
+      "reason": "Source links/descriptions do not establish atom counts; no reviewed composition vector."
+    },
+    {
+      "id": "component:In%203%2B",
+      "name": "In 3+",
+      "reason": "Source links/descriptions do not establish atom counts; no reviewed composition vector."
+    },
+    {
+      "id": "component:Sn%202%2B",
+      "name": "Sn 2+",
+      "reason": "Source links/descriptions do not establish atom counts; no reviewed composition vector."
+    },
+    {
+      "id": "component:Sn%204%2B",
+      "name": "Sn 4+",
+      "reason": "Source links/descriptions do not establish atom counts; no reviewed composition vector."
+    },
+    {
+      "id": "component:(CH3)2Sn%202%2B",
+      "name": "(CH3)2Sn 2+",
+      "reason": "Source links/descriptions do not establish atom counts; no reviewed composition vector."
+    },
+    {
+      "id": "component:Sb(OH)3",
+      "name": "Sb(OH)3",
+      "reason": "Source links/descriptions do not establish atom counts; no reviewed composition vector."
+    },
+    {
+      "id": "component:Sb(OH)6-",
+      "name": "Sb(OH)6-",
+      "reason": "Source links/descriptions do not establish atom counts; no reviewed composition vector."
+    },
+    {
+      "id": "component:HTe-",
+      "name": "HTe-",
+      "reason": "Source links/descriptions do not establish atom counts; no reviewed composition vector."
+    },
+    {
+      "id": "component:H2TeO3",
+      "name": "H2TeO3",
+      "reason": "Source links/descriptions do not establish atom counts; no reviewed composition vector."
+    },
+    {
+      "id": "component:H6TeO6",
+      "name": "H6TeO6",
+      "reason": "Source links/descriptions do not establish atom counts; no reviewed composition vector."
+    },
+    {
+      "id": "component:I-",
+      "name": "I-",
+      "reason": "Source links/descriptions do not establish atom counts; no reviewed composition vector."
+    },
+    {
+      "id": "component:IO3-",
+      "name": "IO3-",
+      "reason": "Source links/descriptions do not establish atom counts; no reviewed composition vector."
+    },
+    {
+      "id": "component:Cs%2B",
+      "name": "Cs+",
+      "reason": "Source links/descriptions do not establish atom counts; no reviewed composition vector."
+    },
+    {
+      "id": "component:Ba%202%2B",
+      "name": "Ba 2+",
+      "reason": "Source links/descriptions do not establish atom counts; no reviewed composition vector."
+    },
+    {
+      "id": "component:La%203%2B",
+      "name": "La 3+",
+      "reason": "Source links/descriptions do not establish atom counts; no reviewed composition vector."
+    },
+    {
+      "id": "component:Ce%203%2B",
+      "name": "Ce 3+",
+      "reason": "Source links/descriptions do not establish atom counts; no reviewed composition vector."
+    },
+    {
+      "id": "component:Ce%204%2B",
+      "name": "Ce 4+",
+      "reason": "Source links/descriptions do not establish atom counts; no reviewed composition vector."
+    },
+    {
+      "id": "component:Pr%203%2B",
+      "name": "Pr 3+",
+      "reason": "Source links/descriptions do not establish atom counts; no reviewed composition vector."
+    },
+    {
+      "id": "component:Nd%203%2B",
+      "name": "Nd 3+",
+      "reason": "Source links/descriptions do not establish atom counts; no reviewed composition vector."
+    },
+    {
+      "id": "component:Sm%203%2B",
+      "name": "Sm 3+",
+      "reason": "Source links/descriptions do not establish atom counts; no reviewed composition vector."
+    },
+    {
+      "id": "component:Gd%203%2B",
+      "name": "Gd 3+",
+      "reason": "Source links/descriptions do not establish atom counts; no reviewed composition vector."
+    },
+    {
+      "id": "component:Tb%203%2B",
+      "name": "Tb 3+",
+      "reason": "Source links/descriptions do not establish atom counts; no reviewed composition vector."
+    },
+    {
+      "id": "component:Dy%203%2B",
+      "name": "Dy 3+",
+      "reason": "Source links/descriptions do not establish atom counts; no reviewed composition vector."
+    },
+    {
+      "id": "component:Ho%203%2B",
+      "name": "Ho 3+",
+      "reason": "Source links/descriptions do not establish atom counts; no reviewed composition vector."
+    },
+    {
+      "id": "component:Er%203%2B",
+      "name": "Er 3+",
+      "reason": "Source links/descriptions do not establish atom counts; no reviewed composition vector."
+    },
+    {
+      "id": "component:Tm%203%2B",
+      "name": "Tm 3+",
+      "reason": "Source links/descriptions do not establish atom counts; no reviewed composition vector."
+    },
+    {
+      "id": "component:Yb%203%2B",
+      "name": "Yb 3+",
+      "reason": "Source links/descriptions do not establish atom counts; no reviewed composition vector."
+    },
+    {
+      "id": "component:Lu%203%2B",
+      "name": "Lu 3+",
+      "reason": "Source links/descriptions do not establish atom counts; no reviewed composition vector."
+    },
+    {
+      "id": "component:Hf%204%2B",
+      "name": "Hf 4+",
+      "reason": "Source links/descriptions do not establish atom counts; no reviewed composition vector."
+    },
+    {
+      "id": "component:Ta(OH)5",
+      "name": "Ta(OH)5",
+      "reason": "Source links/descriptions do not establish atom counts; no reviewed composition vector."
+    },
+    {
+      "id": "component:WO4%202-",
+      "name": "WO4 2-",
+      "reason": "Source links/descriptions do not establish atom counts; no reviewed composition vector."
+    },
+    {
+      "id": "component:ReO4-",
+      "name": "ReO4-",
+      "reason": "Source links/descriptions do not establish atom counts; no reviewed composition vector."
+    },
+    {
+      "id": "component:Re(OH)4",
+      "name": "Re(OH)4",
+      "reason": "Source links/descriptions do not establish atom counts; no reviewed composition vector."
+    },
+    {
+      "id": "component:OsO4",
+      "name": "OsO4",
+      "reason": "Source links/descriptions do not establish atom counts; no reviewed composition vector."
+    },
+    {
+      "id": "component:Ir%203%2B",
+      "name": "Ir 3+",
+      "reason": "Source links/descriptions do not establish atom counts; no reviewed composition vector."
+    },
+    {
+      "id": "component:Pt%202%2B",
+      "name": "Pt 2+",
+      "reason": "Source links/descriptions do not establish atom counts; no reviewed composition vector."
+    },
+    {
+      "id": "component:Au%2B",
+      "name": "Au+",
+      "reason": "Source links/descriptions do not establish atom counts; no reviewed composition vector."
+    },
+    {
+      "id": "component:Au%203%2B",
+      "name": "Au 3+",
+      "reason": "Source links/descriptions do not establish atom counts; no reviewed composition vector."
+    },
+    {
+      "id": "component:Hg%202%2B",
+      "name": "Hg 2+",
+      "reason": "Source links/descriptions do not establish atom counts; no reviewed composition vector."
+    },
+    {
+      "id": "component:Hg2%202%2B",
+      "name": "Hg2 2+",
+      "reason": "Source links/descriptions do not establish atom counts; no reviewed composition vector."
+    },
+    {
+      "id": "component:CH3Hg%2B",
+      "name": "CH3Hg+",
+      "reason": "Source links/descriptions do not establish atom counts; no reviewed composition vector."
+    },
+    {
+      "id": "component:Tl%203%2B",
+      "name": "Tl 3+",
+      "reason": "Source links/descriptions do not establish atom counts; no reviewed composition vector."
+    },
+    {
+      "id": "component:Tl%2B",
+      "name": "Tl+",
+      "reason": "Source links/descriptions do not establish atom counts; no reviewed composition vector."
+    },
+    {
+      "id": "component:Pb%202%2B",
+      "name": "Pb 2+",
+      "reason": "Source links/descriptions do not establish atom counts; no reviewed composition vector."
+    },
+    {
+      "id": "component:Pb%204%2B",
+      "name": "Pb 4+",
+      "reason": "Source links/descriptions do not establish atom counts; no reviewed composition vector."
+    },
+    {
+      "id": "component:(CH3)2Pb%202%2B",
+      "name": "(CH3)2Pb 2+",
+      "reason": "Source links/descriptions do not establish atom counts; no reviewed composition vector."
+    },
+    {
+      "id": "component:Bi%203%2B",
+      "name": "Bi 3+",
+      "reason": "Source links/descriptions do not establish atom counts; no reviewed composition vector."
+    },
+    {
+      "id": "component:HPo-",
+      "name": "HPo-",
+      "reason": "Source links/descriptions do not establish atom counts; no reviewed composition vector."
+    },
+    {
+      "id": "component:Po%202%2B",
+      "name": "Po 2+",
+      "reason": "Source links/descriptions do not establish atom counts; no reviewed composition vector."
+    },
+    {
+      "id": "component:PoO%202%2B",
+      "name": "PoO 2+",
+      "reason": "Source links/descriptions do not establish atom counts; no reviewed composition vector."
+    },
+    {
+      "id": "component:Ra%202%2B",
+      "name": "Ra 2+",
+      "reason": "Source links/descriptions do not establish atom counts; no reviewed composition vector."
+    },
+    {
+      "id": "component:Th%204%2B",
+      "name": "Th 4+",
+      "reason": "Source links/descriptions do not establish atom counts; no reviewed composition vector."
+    },
+    {
+      "id": "component:U%204%2B",
+      "name": "U 4+",
+      "reason": "Source links/descriptions do not establish atom counts; no reviewed composition vector."
+    },
+    {
+      "id": "component:UO2%2B",
+      "name": "UO2+",
+      "reason": "Source links/descriptions do not establish atom counts; no reviewed composition vector."
+    },
+    {
+      "id": "component:UO2%202%2B",
+      "name": "UO2 2+",
+      "reason": "Source links/descriptions do not establish atom counts; no reviewed composition vector."
+    },
+    {
+      "id": "component:U%203%2B",
+      "name": "U 3+",
+      "reason": "Source links/descriptions do not establish atom counts; no reviewed composition vector."
+    },
+    {
+      "id": "component:Np%204%2B",
+      "name": "Np 4+",
+      "reason": "Source links/descriptions do not establish atom counts; no reviewed composition vector."
+    },
+    {
+      "id": "component:NpO2%2B",
+      "name": "NpO2+",
+      "reason": "Source links/descriptions do not establish atom counts; no reviewed composition vector."
+    },
+    {
+      "id": "component:NpO2%202%2B",
+      "name": "NpO2 2+",
+      "reason": "Source links/descriptions do not establish atom counts; no reviewed composition vector."
+    },
+    {
+      "id": "component:Np%203%2B",
+      "name": "Np 3+",
+      "reason": "Source links/descriptions do not establish atom counts; no reviewed composition vector."
+    },
+    {
+      "id": "component:Pu%203%2B",
+      "name": "Pu 3+",
+      "reason": "Source links/descriptions do not establish atom counts; no reviewed composition vector."
+    },
+    {
+      "id": "component:Pu%204%2B",
+      "name": "Pu 4+",
+      "reason": "Source links/descriptions do not establish atom counts; no reviewed composition vector."
+    },
+    {
+      "id": "component:PuO2%2B",
+      "name": "PuO2+",
+      "reason": "Source links/descriptions do not establish atom counts; no reviewed composition vector."
+    },
+    {
+      "id": "component:PuO2%202%2B",
+      "name": "PuO2 2+",
+      "reason": "Source links/descriptions do not establish atom counts; no reviewed composition vector."
+    },
+    {
+      "id": "component:Am%203%2B",
+      "name": "Am 3+",
+      "reason": "Source links/descriptions do not establish atom counts; no reviewed composition vector."
+    },
+    {
+      "id": "component:Am%204%2B",
+      "name": "Am 4+",
+      "reason": "Source links/descriptions do not establish atom counts; no reviewed composition vector."
+    },
+    {
+      "id": "component:AmO2%2B",
+      "name": "AmO2+",
+      "reason": "Source links/descriptions do not establish atom counts; no reviewed composition vector."
+    }
+  ]
+}

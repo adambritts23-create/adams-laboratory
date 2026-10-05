@@ -1,0 +1,2712 @@
+{
+  "scope": "synthetic only; no production support",
+  "expected": {
+    "Ao": 0.9090909090909091,
+    "Ar": 0.09090909090909091,
+    "Bo": 0.09090909090909091,
+    "Br": 0.9090909090909091,
+    "X": 1,
+    "pe": 1,
+    "Eh": 0.05915934968681184
+  },
+  "runs": [
+    {
+      "basisIds": [
+        "Ao",
+        "Ar",
+        "Bo",
+        "X"
+      ],
+      "preparation": "reduced A + oxidized B",
+      "constraints": [
+        {
+          "componentId": "Ao",
+          "kh": 1,
+          "value": 0
+        },
+        {
+          "componentId": "Ar",
+          "kh": 1,
+          "value": 1
+        },
+        {
+          "componentId": "Bo",
+          "kh": 1,
+          "value": 1
+        },
+        {
+          "componentId": "X",
+          "kh": 1,
+          "value": 1
+        }
+      ],
+      "concentrations": {
+        "Ao": 0.9090909090909091,
+        "Ar": 0.09090909090909088,
+        "Bo": 0.09090909090909094,
+        "X": 1,
+        "Br": 0.9090909090909094
+      },
+      "checks": {
+        "A": 1,
+        "B": 1.0000000000000004,
+        "charge": 0,
+        "electronTransfer": -3.3306690738754696e-16,
+        "massActionA": 0,
+        "massActionB": 0,
+        "netLogK": 2,
+        "peA": 1,
+        "peB": 1,
+        "Eh": 0.059159349684782335
+      },
+      "result": {
+        "ok": true,
+        "status": "converged",
+        "scientificValidation": "passed",
+        "method": {
+          "name": "scaled-log-Newton-with-single-solid-active-set",
+          "version": "1.0.1"
+        },
+        "systemId": "1bb47df99bbfaaa99a3341650d91f59ce33e02a17bcc819474f483dc92551066",
+        "inputId": "05d657fb7d2f0daac4504e9dbff911562ea75090c408a9850f3daddcc59b1927",
+        "revision": 0,
+        "sourceIdentity": {
+          "kind": "closed-redox-synthetic-only"
+        },
+        "componentIds": [
+          "Ao",
+          "Ar",
+          "Bo",
+          "X"
+        ],
+        "speciesIds": [
+          "Ao",
+          "Ar",
+          "Bo",
+          "X",
+          "Br"
+        ],
+        "componentNames": [
+          "Ao",
+          "Ar",
+          "Bo",
+          "X"
+        ],
+        "speciesNames": [
+          "Ao",
+          "Ar",
+          "Bo",
+          "X",
+          "Br"
+        ],
+        "freeComponentConcentrations": [
+          0.9090909090909091,
+          0.09090909090909088,
+          0.09090909090909094,
+          1
+        ],
+        "freeComponentActivities": [
+          0.9090909090909091,
+          0.09090909090909088,
+          0.09090909090909094,
+          1
+        ],
+        "concentrations": [
+          0.9090909090909091,
+          0.09090909090909088,
+          0.09090909090909094,
+          1,
+          0.9090909090909094
+        ],
+        "logActivities": [
+          -0.041392685158225036,
+          -1.0413926851582251,
+          -1.041392685158225,
+          0,
+          -0.04139268515822492
+        ],
+        "componentTotals": [
+          -3.3306690738754696e-16,
+          1.0000000000000002,
+          1.0000000000000004,
+          1
+        ],
+        "dissolvedComponentAmounts": [
+          -3.3306690738754696e-16,
+          1.0000000000000002,
+          1.0000000000000004,
+          1
+        ],
+        "logActivityCoefficients": [
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "solids": [],
+        "residuals": {
+          "componentBalance": [
+            -3.3306690738754696e-16,
+            2.220446049250313e-16,
+            4.440892098500626e-16,
+            0
+          ],
+          "componentBalanceLimits": [
+            2e-14,
+            1e-10,
+            1e-10,
+            1e-10
+          ],
+          "massActionLog": [
+            2.0816681711721685e-17
+          ],
+          "scaledBalance": [
+            -1.8318679906315082e-16,
+            2.2204460492503126e-16,
+            4.440892098500624e-16,
+            0
+          ]
+        },
+        "iterations": 26,
+        "diagnostics": [],
+        "attempts": [
+          {
+            "active": false,
+            "activeIds": [],
+            "iteration": 26,
+            "accepted": true,
+            "diagnostics": []
+          }
+        ],
+        "minimumPivotRatio": 1.0000002539269756e-9,
+        "iterationTolerance": 2e-13,
+        "saturationTolerance": 1e-12,
+        "temperatureC": 25,
+        "pressureBar": 1,
+        "unit": "mol/kg-H2O",
+        "activityModel": "ideal",
+        "ionicStrength": null,
+        "electricBalance": null,
+        "waterOsmoticCoefficient": null,
+        "warnings": [
+          "Restricted species set and explicit direct basis; no completeness or general independence proof.",
+          "Source reference-pressure scalar unavailable; 1 bar is a declared calculation setting, not reconstructed source metadata.",
+          "Ideal activities only; ionic strength and electroneutrality are not calculated or imposed.",
+          "Absent-solid log activity is a hypothetical formation/saturation quantity, not an assigned phase activity."
+        ]
+      },
+      "chargeRequest": {
+        "ok": false,
+        "diagnostics": [
+          {
+            "code": "unsupported-constraint",
+            "message": "An additional electroneutrality equation is not implemented; no spectator ions are inserted.",
+            "path": null
+          }
+        ]
+      },
+      "algebra": {
+        "ok": true,
+        "version": "reaction-basis-v1",
+        "basisIds": [
+          "Ao",
+          "Ar",
+          "Bo",
+          "X"
+        ],
+        "dependentIds": [
+          "Br",
+          "E"
+        ],
+        "rank": 2,
+        "cycleChecks": [],
+        "expressions": [
+          {
+            "version": "reaction-basis-v1",
+            "productId": "Ar",
+            "basisIds": [
+              "Ao",
+              "Ar",
+              "Bo",
+              "X"
+            ],
+            "coefficients": [
+              0,
+              1,
+              0,
+              0
+            ],
+            "logK": 0,
+            "eliminatedComponentIds": [
+              "Br",
+              "E"
+            ],
+            "sourceReactions": [],
+            "unit": {
+              "kind": "synthetic-ideal-molal-standard",
+              "productCoefficient": 1,
+              "normalizationFactor": 1
+            },
+            "phase": "aqueous",
+            "temperatureModel": {
+              "kind": "linear-combination-of-source-models",
+              "terms": [],
+              "evaluation": "stored-reference-temperature-only"
+            },
+            "validity": {
+              "kind": "intersection-of-source-domains",
+              "sources": [],
+              "unknownDomainsRemainUnknown": true
+            },
+            "sourceReactionId": "A reduction",
+            "checks": {
+              "charge": {
+                "status": "passed",
+                "residuals": {
+                  "charge": 0
+                },
+                "sourceBound": 0,
+                "arithmeticBound": 5.684341886080802e-14
+              },
+              "inventory": {
+                "status": "metadata-unavailable"
+              },
+              "elements": {
+                "status": "passed",
+                "residuals": {
+                  "A": 0,
+                  "B": 0,
+                  "X": 0
+                },
+                "sourceBound": 0,
+                "arithmeticBound": 5.684341886080802e-14
+              }
+            }
+          },
+          {
+            "version": "reaction-basis-v1",
+            "productId": "Br",
+            "basisIds": [
+              "Ao",
+              "Ar",
+              "Bo",
+              "X"
+            ],
+            "coefficients": [
+              -1,
+              1,
+              1,
+              0
+            ],
+            "logK": 2,
+            "eliminatedComponentIds": [
+              "Br",
+              "E"
+            ],
+            "sourceReactions": [
+              {
+                "id": "A reduction",
+                "multiplier": -1,
+                "originalLogK": 0,
+                "originalProductCoefficient": 1,
+                "originalTerms": [
+                  {
+                    "id": "Ao",
+                    "coefficient": 1
+                  },
+                  {
+                    "id": "E",
+                    "coefficient": 1
+                  }
+                ],
+                "sourcePrecision": {
+                  "kind": "stored-binary64",
+                  "logK": 0,
+                  "coefficients": {}
+                },
+                "unit": {
+                  "kind": "synthetic-ideal-molal-standard"
+                },
+                "provenance": {
+                  "kind": "deliberate-synthetic-control"
+                },
+                "temperatureModel": null,
+                "validity": null
+              },
+              {
+                "id": "B reduction",
+                "multiplier": 1,
+                "originalLogK": 2,
+                "originalProductCoefficient": 1,
+                "originalTerms": [
+                  {
+                    "id": "Bo",
+                    "coefficient": 1
+                  },
+                  {
+                    "id": "E",
+                    "coefficient": 1
+                  }
+                ],
+                "sourcePrecision": {
+                  "kind": "stored-binary64",
+                  "logK": 0,
+                  "coefficients": {}
+                },
+                "unit": {
+                  "kind": "synthetic-ideal-molal-standard"
+                },
+                "provenance": {
+                  "kind": "deliberate-synthetic-control"
+                },
+                "temperatureModel": null,
+                "validity": null
+              }
+            ],
+            "unit": {
+              "kind": "synthetic-ideal-molal-standard",
+              "productCoefficient": 1,
+              "normalizationFactor": 1
+            },
+            "phase": "aqueous",
+            "temperatureModel": {
+              "kind": "linear-combination-of-source-models",
+              "terms": [
+                {
+                  "sourceId": "A reduction",
+                  "multiplier": -1,
+                  "model": null
+                },
+                {
+                  "sourceId": "B reduction",
+                  "multiplier": 1,
+                  "model": null
+                }
+              ],
+              "evaluation": "stored-reference-temperature-only"
+            },
+            "validity": {
+              "kind": "intersection-of-source-domains",
+              "sources": [
+                {
+                  "id": "A reduction",
+                  "domain": null
+                },
+                {
+                  "id": "B reduction",
+                  "domain": null
+                }
+              ],
+              "unknownDomainsRemainUnknown": true
+            },
+            "sourceReactionId": "B reduction",
+            "checks": {
+              "charge": {
+                "status": "passed",
+                "residuals": {
+                  "charge": 0
+                },
+                "sourceBound": 0,
+                "arithmeticBound": 1.7053025658242404e-13
+              },
+              "inventory": {
+                "status": "metadata-unavailable"
+              },
+              "elements": {
+                "status": "passed",
+                "residuals": {
+                  "B": 0,
+                  "A": 0,
+                  "X": 0
+                },
+                "sourceBound": 0,
+                "arithmeticBound": 1.7053025658242404e-13
+              }
+            }
+          }
+        ],
+        "componentExpressions": {
+          "Ao": {
+            "coefficients": [
+              1,
+              0,
+              0,
+              0
+            ],
+            "logK": 0
+          },
+          "Ar": {
+            "coefficients": [
+              0,
+              1,
+              0,
+              0
+            ],
+            "logK": 0
+          },
+          "Bo": {
+            "coefficients": [
+              0,
+              0,
+              1,
+              0
+            ],
+            "logK": 0
+          },
+          "X": {
+            "coefficients": [
+              0,
+              0,
+              0,
+              1
+            ],
+            "logK": 0
+          },
+          "Br": {
+            "coefficients": [
+              -1,
+              1,
+              1,
+              0
+            ],
+            "logK": 2
+          },
+          "E": {
+            "coefficients": [
+              -1,
+              1,
+              0,
+              0
+            ],
+            "logK": 0
+          }
+        },
+        "exclusions": [],
+        "diagnostics": []
+      }
+    },
+    {
+      "basisIds": [
+        "Ao",
+        "Ar",
+        "Bo",
+        "X"
+      ],
+      "preparation": "partially redistributed mixture",
+      "constraints": [
+        {
+          "componentId": "Ao",
+          "kh": 1,
+          "value": 0
+        },
+        {
+          "componentId": "Ar",
+          "kh": 1,
+          "value": 1
+        },
+        {
+          "componentId": "Bo",
+          "kh": 1,
+          "value": 1
+        },
+        {
+          "componentId": "X",
+          "kh": 1,
+          "value": 1
+        }
+      ],
+      "concentrations": {
+        "Ao": 0.9090909090909091,
+        "Ar": 0.09090909090909088,
+        "Bo": 0.09090909090909094,
+        "X": 1,
+        "Br": 0.9090909090909094
+      },
+      "checks": {
+        "A": 1,
+        "B": 1.0000000000000004,
+        "charge": 0,
+        "electronTransfer": -3.3306690738754696e-16,
+        "massActionA": 0,
+        "massActionB": 0,
+        "netLogK": 2,
+        "peA": 1,
+        "peB": 1,
+        "Eh": 0.059159349684782335
+      },
+      "result": {
+        "ok": true,
+        "status": "converged",
+        "scientificValidation": "passed",
+        "method": {
+          "name": "scaled-log-Newton-with-single-solid-active-set",
+          "version": "1.0.1"
+        },
+        "systemId": "1bb47df99bbfaaa99a3341650d91f59ce33e02a17bcc819474f483dc92551066",
+        "inputId": "05d657fb7d2f0daac4504e9dbff911562ea75090c408a9850f3daddcc59b1927",
+        "revision": 0,
+        "sourceIdentity": {
+          "kind": "closed-redox-synthetic-only"
+        },
+        "componentIds": [
+          "Ao",
+          "Ar",
+          "Bo",
+          "X"
+        ],
+        "speciesIds": [
+          "Ao",
+          "Ar",
+          "Bo",
+          "X",
+          "Br"
+        ],
+        "componentNames": [
+          "Ao",
+          "Ar",
+          "Bo",
+          "X"
+        ],
+        "speciesNames": [
+          "Ao",
+          "Ar",
+          "Bo",
+          "X",
+          "Br"
+        ],
+        "freeComponentConcentrations": [
+          0.9090909090909091,
+          0.09090909090909088,
+          0.09090909090909094,
+          1
+        ],
+        "freeComponentActivities": [
+          0.9090909090909091,
+          0.09090909090909088,
+          0.09090909090909094,
+          1
+        ],
+        "concentrations": [
+          0.9090909090909091,
+          0.09090909090909088,
+          0.09090909090909094,
+          1,
+          0.9090909090909094
+        ],
+        "logActivities": [
+          -0.041392685158225036,
+          -1.0413926851582251,
+          -1.041392685158225,
+          0,
+          -0.04139268515822492
+        ],
+        "componentTotals": [
+          -3.3306690738754696e-16,
+          1.0000000000000002,
+          1.0000000000000004,
+          1
+        ],
+        "dissolvedComponentAmounts": [
+          -3.3306690738754696e-16,
+          1.0000000000000002,
+          1.0000000000000004,
+          1
+        ],
+        "logActivityCoefficients": [
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "solids": [],
+        "residuals": {
+          "componentBalance": [
+            -3.3306690738754696e-16,
+            2.220446049250313e-16,
+            4.440892098500626e-16,
+            0
+          ],
+          "componentBalanceLimits": [
+            2e-14,
+            1e-10,
+            1e-10,
+            1e-10
+          ],
+          "massActionLog": [
+            2.0816681711721685e-17
+          ],
+          "scaledBalance": [
+            -1.8318679906315082e-16,
+            2.2204460492503126e-16,
+            4.440892098500624e-16,
+            0
+          ]
+        },
+        "iterations": 26,
+        "diagnostics": [],
+        "attempts": [
+          {
+            "active": false,
+            "activeIds": [],
+            "iteration": 26,
+            "accepted": true,
+            "diagnostics": []
+          }
+        ],
+        "minimumPivotRatio": 1.0000002539269756e-9,
+        "iterationTolerance": 2e-13,
+        "saturationTolerance": 1e-12,
+        "temperatureC": 25,
+        "pressureBar": 1,
+        "unit": "mol/kg-H2O",
+        "activityModel": "ideal",
+        "ionicStrength": null,
+        "electricBalance": null,
+        "waterOsmoticCoefficient": null,
+        "warnings": [
+          "Restricted species set and explicit direct basis; no completeness or general independence proof.",
+          "Source reference-pressure scalar unavailable; 1 bar is a declared calculation setting, not reconstructed source metadata.",
+          "Ideal activities only; ionic strength and electroneutrality are not calculated or imposed.",
+          "Absent-solid log activity is a hypothetical formation/saturation quantity, not an assigned phase activity."
+        ]
+      },
+      "chargeRequest": {
+        "ok": false,
+        "diagnostics": [
+          {
+            "code": "unsupported-constraint",
+            "message": "An additional electroneutrality equation is not implemented; no spectator ions are inserted.",
+            "path": null
+          }
+        ]
+      },
+      "algebra": {
+        "ok": true,
+        "version": "reaction-basis-v1",
+        "basisIds": [
+          "Ao",
+          "Ar",
+          "Bo",
+          "X"
+        ],
+        "dependentIds": [
+          "Br",
+          "E"
+        ],
+        "rank": 2,
+        "cycleChecks": [],
+        "expressions": [
+          {
+            "version": "reaction-basis-v1",
+            "productId": "Ar",
+            "basisIds": [
+              "Ao",
+              "Ar",
+              "Bo",
+              "X"
+            ],
+            "coefficients": [
+              0,
+              1,
+              0,
+              0
+            ],
+            "logK": 0,
+            "eliminatedComponentIds": [
+              "Br",
+              "E"
+            ],
+            "sourceReactions": [],
+            "unit": {
+              "kind": "synthetic-ideal-molal-standard",
+              "productCoefficient": 1,
+              "normalizationFactor": 1
+            },
+            "phase": "aqueous",
+            "temperatureModel": {
+              "kind": "linear-combination-of-source-models",
+              "terms": [],
+              "evaluation": "stored-reference-temperature-only"
+            },
+            "validity": {
+              "kind": "intersection-of-source-domains",
+              "sources": [],
+              "unknownDomainsRemainUnknown": true
+            },
+            "sourceReactionId": "A reduction",
+            "checks": {
+              "charge": {
+                "status": "passed",
+                "residuals": {
+                  "charge": 0
+                },
+                "sourceBound": 0,
+                "arithmeticBound": 5.684341886080802e-14
+              },
+              "inventory": {
+                "status": "metadata-unavailable"
+              },
+              "elements": {
+                "status": "passed",
+                "residuals": {
+                  "A": 0,
+                  "B": 0,
+                  "X": 0
+                },
+                "sourceBound": 0,
+                "arithmeticBound": 5.684341886080802e-14
+              }
+            }
+          },
+          {
+            "version": "reaction-basis-v1",
+            "productId": "Br",
+            "basisIds": [
+              "Ao",
+              "Ar",
+              "Bo",
+              "X"
+            ],
+            "coefficients": [
+              -1,
+              1,
+              1,
+              0
+            ],
+            "logK": 2,
+            "eliminatedComponentIds": [
+              "Br",
+              "E"
+            ],
+            "sourceReactions": [
+              {
+                "id": "A reduction",
+                "multiplier": -1,
+                "originalLogK": 0,
+                "originalProductCoefficient": 1,
+                "originalTerms": [
+                  {
+                    "id": "Ao",
+                    "coefficient": 1
+                  },
+                  {
+                    "id": "E",
+                    "coefficient": 1
+                  }
+                ],
+                "sourcePrecision": {
+                  "kind": "stored-binary64",
+                  "logK": 0,
+                  "coefficients": {}
+                },
+                "unit": {
+                  "kind": "synthetic-ideal-molal-standard"
+                },
+                "provenance": {
+                  "kind": "deliberate-synthetic-control"
+                },
+                "temperatureModel": null,
+                "validity": null
+              },
+              {
+                "id": "B reduction",
+                "multiplier": 1,
+                "originalLogK": 2,
+                "originalProductCoefficient": 1,
+                "originalTerms": [
+                  {
+                    "id": "Bo",
+                    "coefficient": 1
+                  },
+                  {
+                    "id": "E",
+                    "coefficient": 1
+                  }
+                ],
+                "sourcePrecision": {
+                  "kind": "stored-binary64",
+                  "logK": 0,
+                  "coefficients": {}
+                },
+                "unit": {
+                  "kind": "synthetic-ideal-molal-standard"
+                },
+                "provenance": {
+                  "kind": "deliberate-synthetic-control"
+                },
+                "temperatureModel": null,
+                "validity": null
+              }
+            ],
+            "unit": {
+              "kind": "synthetic-ideal-molal-standard",
+              "productCoefficient": 1,
+              "normalizationFactor": 1
+            },
+            "phase": "aqueous",
+            "temperatureModel": {
+              "kind": "linear-combination-of-source-models",
+              "terms": [
+                {
+                  "sourceId": "A reduction",
+                  "multiplier": -1,
+                  "model": null
+                },
+                {
+                  "sourceId": "B reduction",
+                  "multiplier": 1,
+                  "model": null
+                }
+              ],
+              "evaluation": "stored-reference-temperature-only"
+            },
+            "validity": {
+              "kind": "intersection-of-source-domains",
+              "sources": [
+                {
+                  "id": "A reduction",
+                  "domain": null
+                },
+                {
+                  "id": "B reduction",
+                  "domain": null
+                }
+              ],
+              "unknownDomainsRemainUnknown": true
+            },
+            "sourceReactionId": "B reduction",
+            "checks": {
+              "charge": {
+                "status": "passed",
+                "residuals": {
+                  "charge": 0
+                },
+                "sourceBound": 0,
+                "arithmeticBound": 1.7053025658242404e-13
+              },
+              "inventory": {
+                "status": "metadata-unavailable"
+              },
+              "elements": {
+                "status": "passed",
+                "residuals": {
+                  "B": 0,
+                  "A": 0,
+                  "X": 0
+                },
+                "sourceBound": 0,
+                "arithmeticBound": 1.7053025658242404e-13
+              }
+            }
+          }
+        ],
+        "componentExpressions": {
+          "Ao": {
+            "coefficients": [
+              1,
+              0,
+              0,
+              0
+            ],
+            "logK": 0
+          },
+          "Ar": {
+            "coefficients": [
+              0,
+              1,
+              0,
+              0
+            ],
+            "logK": 0
+          },
+          "Bo": {
+            "coefficients": [
+              0,
+              0,
+              1,
+              0
+            ],
+            "logK": 0
+          },
+          "X": {
+            "coefficients": [
+              0,
+              0,
+              0,
+              1
+            ],
+            "logK": 0
+          },
+          "Br": {
+            "coefficients": [
+              -1,
+              1,
+              1,
+              0
+            ],
+            "logK": 2
+          },
+          "E": {
+            "coefficients": [
+              -1,
+              1,
+              0,
+              0
+            ],
+            "logK": 0
+          }
+        },
+        "exclusions": [],
+        "diagnostics": []
+      }
+    },
+    {
+      "basisIds": [
+        "Ao",
+        "Bo",
+        "Br",
+        "X"
+      ],
+      "preparation": "reduced A + oxidized B",
+      "constraints": [
+        {
+          "componentId": "Ao",
+          "kh": 1,
+          "value": 1
+        },
+        {
+          "componentId": "Bo",
+          "kh": 1,
+          "value": 0
+        },
+        {
+          "componentId": "Br",
+          "kh": 1,
+          "value": 1
+        },
+        {
+          "componentId": "X",
+          "kh": 1,
+          "value": 1
+        }
+      ],
+      "concentrations": {
+        "Ao": 0.9090909090909091,
+        "Bo": 0.09090909090909088,
+        "Br": 0.9090909090909092,
+        "X": 1,
+        "Ar": 0.09090909090909094
+      },
+      "checks": {
+        "A": 1,
+        "B": 1,
+        "charge": 0,
+        "electronTransfer": -1.1102230246251565e-16,
+        "massActionA": -1.1102230246251565e-16,
+        "massActionB": 0,
+        "netLogK": 2,
+        "peA": 0.9999999999999998,
+        "peB": 0.9999999999999998,
+        "Eh": 0.05915934968478232
+      },
+      "result": {
+        "ok": true,
+        "status": "converged",
+        "scientificValidation": "passed",
+        "method": {
+          "name": "scaled-log-Newton-with-single-solid-active-set",
+          "version": "1.0.1"
+        },
+        "systemId": "f0471a16d7191debc6410611031b6e56120cbc0b91c27a4097bc1c6fa56e8d5b",
+        "inputId": "7499db4bfc4ed658e064dba755c5fa32ec45ad46b9fed2e4f8e80c95bb393875",
+        "revision": 0,
+        "sourceIdentity": {
+          "kind": "closed-redox-synthetic-only"
+        },
+        "componentIds": [
+          "Ao",
+          "Bo",
+          "Br",
+          "X"
+        ],
+        "speciesIds": [
+          "Ao",
+          "Bo",
+          "Br",
+          "X",
+          "Ar"
+        ],
+        "componentNames": [
+          "Ao",
+          "Bo",
+          "Br",
+          "X"
+        ],
+        "speciesNames": [
+          "Ao",
+          "Bo",
+          "Br",
+          "X",
+          "Ar"
+        ],
+        "freeComponentConcentrations": [
+          0.9090909090909091,
+          0.09090909090909088,
+          0.9090909090909092,
+          1
+        ],
+        "freeComponentActivities": [
+          0.9090909090909091,
+          0.09090909090909088,
+          0.9090909090909092,
+          1
+        ],
+        "concentrations": [
+          0.9090909090909091,
+          0.09090909090909088,
+          0.9090909090909092,
+          1,
+          0.09090909090909094
+        ],
+        "logActivities": [
+          -0.04139268515822506,
+          -1.0413926851582251,
+          -0.041392685158225,
+          0,
+          -1.041392685158225
+        ],
+        "componentTotals": [
+          1,
+          -5.551115123125783e-17,
+          1,
+          1
+        ],
+        "dissolvedComponentAmounts": [
+          1,
+          -5.551115123125783e-17,
+          1,
+          1
+        ],
+        "logActivityCoefficients": [
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "solids": [],
+        "residuals": {
+          "componentBalance": [
+            0,
+            -5.551115123125783e-17,
+            0,
+            0
+          ],
+          "componentBalanceLimits": [
+            1e-10,
+            2e-14,
+            1e-10,
+            1e-10
+          ],
+          "massActionLog": [
+            0
+          ],
+          "scaledBalance": [
+            0,
+            -3.0531133177191805e-16,
+            0,
+            0
+          ]
+        },
+        "iterations": 18,
+        "diagnostics": [],
+        "attempts": [
+          {
+            "active": false,
+            "activeIds": [],
+            "iteration": 18,
+            "accepted": true,
+            "diagnostics": []
+          }
+        ],
+        "minimumPivotRatio": 0.000009999901000978033,
+        "iterationTolerance": 2e-13,
+        "saturationTolerance": 1e-12,
+        "temperatureC": 25,
+        "pressureBar": 1,
+        "unit": "mol/kg-H2O",
+        "activityModel": "ideal",
+        "ionicStrength": null,
+        "electricBalance": null,
+        "waterOsmoticCoefficient": null,
+        "warnings": [
+          "Restricted species set and explicit direct basis; no completeness or general independence proof.",
+          "Source reference-pressure scalar unavailable; 1 bar is a declared calculation setting, not reconstructed source metadata.",
+          "Ideal activities only; ionic strength and electroneutrality are not calculated or imposed.",
+          "Absent-solid log activity is a hypothetical formation/saturation quantity, not an assigned phase activity."
+        ]
+      },
+      "chargeRequest": {
+        "ok": false,
+        "diagnostics": [
+          {
+            "code": "unsupported-constraint",
+            "message": "An additional electroneutrality equation is not implemented; no spectator ions are inserted.",
+            "path": null
+          }
+        ]
+      },
+      "algebra": {
+        "ok": true,
+        "version": "reaction-basis-v1",
+        "basisIds": [
+          "Ao",
+          "Bo",
+          "Br",
+          "X"
+        ],
+        "dependentIds": [
+          "Ar",
+          "E"
+        ],
+        "rank": 2,
+        "cycleChecks": [],
+        "expressions": [
+          {
+            "version": "reaction-basis-v1",
+            "productId": "Ar",
+            "basisIds": [
+              "Ao",
+              "Bo",
+              "Br",
+              "X"
+            ],
+            "coefficients": [
+              1,
+              -1,
+              1,
+              0
+            ],
+            "logK": -2,
+            "eliminatedComponentIds": [
+              "Ar",
+              "E"
+            ],
+            "sourceReactions": [
+              {
+                "id": "A reduction",
+                "multiplier": 1,
+                "originalLogK": 0,
+                "originalProductCoefficient": 1,
+                "originalTerms": [
+                  {
+                    "id": "Ao",
+                    "coefficient": 1
+                  },
+                  {
+                    "id": "E",
+                    "coefficient": 1
+                  }
+                ],
+                "sourcePrecision": {
+                  "kind": "stored-binary64",
+                  "logK": 0,
+                  "coefficients": {}
+                },
+                "unit": {
+                  "kind": "synthetic-ideal-molal-standard"
+                },
+                "provenance": {
+                  "kind": "deliberate-synthetic-control"
+                },
+                "temperatureModel": null,
+                "validity": null
+              },
+              {
+                "id": "B reduction",
+                "multiplier": -1,
+                "originalLogK": 2,
+                "originalProductCoefficient": 1,
+                "originalTerms": [
+                  {
+                    "id": "Bo",
+                    "coefficient": 1
+                  },
+                  {
+                    "id": "E",
+                    "coefficient": 1
+                  }
+                ],
+                "sourcePrecision": {
+                  "kind": "stored-binary64",
+                  "logK": 0,
+                  "coefficients": {}
+                },
+                "unit": {
+                  "kind": "synthetic-ideal-molal-standard"
+                },
+                "provenance": {
+                  "kind": "deliberate-synthetic-control"
+                },
+                "temperatureModel": null,
+                "validity": null
+              }
+            ],
+            "unit": {
+              "kind": "synthetic-ideal-molal-standard",
+              "productCoefficient": 1,
+              "normalizationFactor": 1
+            },
+            "phase": "aqueous",
+            "temperatureModel": {
+              "kind": "linear-combination-of-source-models",
+              "terms": [
+                {
+                  "sourceId": "A reduction",
+                  "multiplier": 1,
+                  "model": null
+                },
+                {
+                  "sourceId": "B reduction",
+                  "multiplier": -1,
+                  "model": null
+                }
+              ],
+              "evaluation": "stored-reference-temperature-only"
+            },
+            "validity": {
+              "kind": "intersection-of-source-domains",
+              "sources": [
+                {
+                  "id": "A reduction",
+                  "domain": null
+                },
+                {
+                  "id": "B reduction",
+                  "domain": null
+                }
+              ],
+              "unknownDomainsRemainUnknown": true
+            },
+            "sourceReactionId": "A reduction",
+            "checks": {
+              "charge": {
+                "status": "passed",
+                "residuals": {
+                  "charge": 0
+                },
+                "sourceBound": 0,
+                "arithmeticBound": 1.7053025658242404e-13
+              },
+              "inventory": {
+                "status": "metadata-unavailable"
+              },
+              "elements": {
+                "status": "passed",
+                "residuals": {
+                  "A": 0,
+                  "B": 0,
+                  "X": 0
+                },
+                "sourceBound": 0,
+                "arithmeticBound": 1.7053025658242404e-13
+              }
+            }
+          },
+          {
+            "version": "reaction-basis-v1",
+            "productId": "Br",
+            "basisIds": [
+              "Ao",
+              "Bo",
+              "Br",
+              "X"
+            ],
+            "coefficients": [
+              0,
+              0,
+              1,
+              0
+            ],
+            "logK": 0,
+            "eliminatedComponentIds": [
+              "Ar",
+              "E"
+            ],
+            "sourceReactions": [],
+            "unit": {
+              "kind": "synthetic-ideal-molal-standard",
+              "productCoefficient": 1,
+              "normalizationFactor": 1
+            },
+            "phase": "aqueous",
+            "temperatureModel": {
+              "kind": "linear-combination-of-source-models",
+              "terms": [],
+              "evaluation": "stored-reference-temperature-only"
+            },
+            "validity": {
+              "kind": "intersection-of-source-domains",
+              "sources": [],
+              "unknownDomainsRemainUnknown": true
+            },
+            "sourceReactionId": "B reduction",
+            "checks": {
+              "charge": {
+                "status": "passed",
+                "residuals": {
+                  "charge": 0
+                },
+                "sourceBound": 0,
+                "arithmeticBound": 5.684341886080802e-14
+              },
+              "inventory": {
+                "status": "metadata-unavailable"
+              },
+              "elements": {
+                "status": "passed",
+                "residuals": {
+                  "B": 0,
+                  "A": 0,
+                  "X": 0
+                },
+                "sourceBound": 0,
+                "arithmeticBound": 5.684341886080802e-14
+              }
+            }
+          }
+        ],
+        "componentExpressions": {
+          "Ao": {
+            "coefficients": [
+              1,
+              0,
+              0,
+              0
+            ],
+            "logK": 0
+          },
+          "Bo": {
+            "coefficients": [
+              0,
+              1,
+              0,
+              0
+            ],
+            "logK": 0
+          },
+          "Br": {
+            "coefficients": [
+              0,
+              0,
+              1,
+              0
+            ],
+            "logK": 0
+          },
+          "X": {
+            "coefficients": [
+              0,
+              0,
+              0,
+              1
+            ],
+            "logK": 0
+          },
+          "Ar": {
+            "coefficients": [
+              1,
+              -1,
+              1,
+              0
+            ],
+            "logK": -2
+          },
+          "E": {
+            "coefficients": [
+              0,
+              -1,
+              1,
+              0
+            ],
+            "logK": -2
+          }
+        },
+        "exclusions": [],
+        "diagnostics": []
+      }
+    },
+    {
+      "basisIds": [
+        "Ao",
+        "Bo",
+        "Br",
+        "X"
+      ],
+      "preparation": "partially redistributed mixture",
+      "constraints": [
+        {
+          "componentId": "Ao",
+          "kh": 1,
+          "value": 1
+        },
+        {
+          "componentId": "Bo",
+          "kh": 1,
+          "value": 0
+        },
+        {
+          "componentId": "Br",
+          "kh": 1,
+          "value": 1
+        },
+        {
+          "componentId": "X",
+          "kh": 1,
+          "value": 1
+        }
+      ],
+      "concentrations": {
+        "Ao": 0.9090909090909091,
+        "Bo": 0.09090909090909088,
+        "Br": 0.9090909090909092,
+        "X": 1,
+        "Ar": 0.09090909090909094
+      },
+      "checks": {
+        "A": 1,
+        "B": 1,
+        "charge": 0,
+        "electronTransfer": -1.1102230246251565e-16,
+        "massActionA": -1.1102230246251565e-16,
+        "massActionB": 0,
+        "netLogK": 2,
+        "peA": 0.9999999999999998,
+        "peB": 0.9999999999999998,
+        "Eh": 0.05915934968478232
+      },
+      "result": {
+        "ok": true,
+        "status": "converged",
+        "scientificValidation": "passed",
+        "method": {
+          "name": "scaled-log-Newton-with-single-solid-active-set",
+          "version": "1.0.1"
+        },
+        "systemId": "f0471a16d7191debc6410611031b6e56120cbc0b91c27a4097bc1c6fa56e8d5b",
+        "inputId": "7499db4bfc4ed658e064dba755c5fa32ec45ad46b9fed2e4f8e80c95bb393875",
+        "revision": 0,
+        "sourceIdentity": {
+          "kind": "closed-redox-synthetic-only"
+        },
+        "componentIds": [
+          "Ao",
+          "Bo",
+          "Br",
+          "X"
+        ],
+        "speciesIds": [
+          "Ao",
+          "Bo",
+          "Br",
+          "X",
+          "Ar"
+        ],
+        "componentNames": [
+          "Ao",
+          "Bo",
+          "Br",
+          "X"
+        ],
+        "speciesNames": [
+          "Ao",
+          "Bo",
+          "Br",
+          "X",
+          "Ar"
+        ],
+        "freeComponentConcentrations": [
+          0.9090909090909091,
+          0.09090909090909088,
+          0.9090909090909092,
+          1
+        ],
+        "freeComponentActivities": [
+          0.9090909090909091,
+          0.09090909090909088,
+          0.9090909090909092,
+          1
+        ],
+        "concentrations": [
+          0.9090909090909091,
+          0.09090909090909088,
+          0.9090909090909092,
+          1,
+          0.09090909090909094
+        ],
+        "logActivities": [
+          -0.04139268515822506,
+          -1.0413926851582251,
+          -0.041392685158225,
+          0,
+          -1.041392685158225
+        ],
+        "componentTotals": [
+          1,
+          -5.551115123125783e-17,
+          1,
+          1
+        ],
+        "dissolvedComponentAmounts": [
+          1,
+          -5.551115123125783e-17,
+          1,
+          1
+        ],
+        "logActivityCoefficients": [
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "solids": [],
+        "residuals": {
+          "componentBalance": [
+            0,
+            -5.551115123125783e-17,
+            0,
+            0
+          ],
+          "componentBalanceLimits": [
+            1e-10,
+            2e-14,
+            1e-10,
+            1e-10
+          ],
+          "massActionLog": [
+            0
+          ],
+          "scaledBalance": [
+            0,
+            -3.0531133177191805e-16,
+            0,
+            0
+          ]
+        },
+        "iterations": 18,
+        "diagnostics": [],
+        "attempts": [
+          {
+            "active": false,
+            "activeIds": [],
+            "iteration": 18,
+            "accepted": true,
+            "diagnostics": []
+          }
+        ],
+        "minimumPivotRatio": 0.000009999901000978033,
+        "iterationTolerance": 2e-13,
+        "saturationTolerance": 1e-12,
+        "temperatureC": 25,
+        "pressureBar": 1,
+        "unit": "mol/kg-H2O",
+        "activityModel": "ideal",
+        "ionicStrength": null,
+        "electricBalance": null,
+        "waterOsmoticCoefficient": null,
+        "warnings": [
+          "Restricted species set and explicit direct basis; no completeness or general independence proof.",
+          "Source reference-pressure scalar unavailable; 1 bar is a declared calculation setting, not reconstructed source metadata.",
+          "Ideal activities only; ionic strength and electroneutrality are not calculated or imposed.",
+          "Absent-solid log activity is a hypothetical formation/saturation quantity, not an assigned phase activity."
+        ]
+      },
+      "chargeRequest": {
+        "ok": false,
+        "diagnostics": [
+          {
+            "code": "unsupported-constraint",
+            "message": "An additional electroneutrality equation is not implemented; no spectator ions are inserted.",
+            "path": null
+          }
+        ]
+      },
+      "algebra": {
+        "ok": true,
+        "version": "reaction-basis-v1",
+        "basisIds": [
+          "Ao",
+          "Bo",
+          "Br",
+          "X"
+        ],
+        "dependentIds": [
+          "Ar",
+          "E"
+        ],
+        "rank": 2,
+        "cycleChecks": [],
+        "expressions": [
+          {
+            "version": "reaction-basis-v1",
+            "productId": "Ar",
+            "basisIds": [
+              "Ao",
+              "Bo",
+              "Br",
+              "X"
+            ],
+            "coefficients": [
+              1,
+              -1,
+              1,
+              0
+            ],
+            "logK": -2,
+            "eliminatedComponentIds": [
+              "Ar",
+              "E"
+            ],
+            "sourceReactions": [
+              {
+                "id": "A reduction",
+                "multiplier": 1,
+                "originalLogK": 0,
+                "originalProductCoefficient": 1,
+                "originalTerms": [
+                  {
+                    "id": "Ao",
+                    "coefficient": 1
+                  },
+                  {
+                    "id": "E",
+                    "coefficient": 1
+                  }
+                ],
+                "sourcePrecision": {
+                  "kind": "stored-binary64",
+                  "logK": 0,
+                  "coefficients": {}
+                },
+                "unit": {
+                  "kind": "synthetic-ideal-molal-standard"
+                },
+                "provenance": {
+                  "kind": "deliberate-synthetic-control"
+                },
+                "temperatureModel": null,
+                "validity": null
+              },
+              {
+                "id": "B reduction",
+                "multiplier": -1,
+                "originalLogK": 2,
+                "originalProductCoefficient": 1,
+                "originalTerms": [
+                  {
+                    "id": "Bo",
+                    "coefficient": 1
+                  },
+                  {
+                    "id": "E",
+                    "coefficient": 1
+                  }
+                ],
+                "sourcePrecision": {
+                  "kind": "stored-binary64",
+                  "logK": 0,
+                  "coefficients": {}
+                },
+                "unit": {
+                  "kind": "synthetic-ideal-molal-standard"
+                },
+                "provenance": {
+                  "kind": "deliberate-synthetic-control"
+                },
+                "temperatureModel": null,
+                "validity": null
+              }
+            ],
+            "unit": {
+              "kind": "synthetic-ideal-molal-standard",
+              "productCoefficient": 1,
+              "normalizationFactor": 1
+            },
+            "phase": "aqueous",
+            "temperatureModel": {
+              "kind": "linear-combination-of-source-models",
+              "terms": [
+                {
+                  "sourceId": "A reduction",
+                  "multiplier": 1,
+                  "model": null
+                },
+                {
+                  "sourceId": "B reduction",
+                  "multiplier": -1,
+                  "model": null
+                }
+              ],
+              "evaluation": "stored-reference-temperature-only"
+            },
+            "validity": {
+              "kind": "intersection-of-source-domains",
+              "sources": [
+                {
+                  "id": "A reduction",
+                  "domain": null
+                },
+                {
+                  "id": "B reduction",
+                  "domain": null
+                }
+              ],
+              "unknownDomainsRemainUnknown": true
+            },
+            "sourceReactionId": "A reduction",
+            "checks": {
+              "charge": {
+                "status": "passed",
+                "residuals": {
+                  "charge": 0
+                },
+                "sourceBound": 0,
+                "arithmeticBound": 1.7053025658242404e-13
+              },
+              "inventory": {
+                "status": "metadata-unavailable"
+              },
+              "elements": {
+                "status": "passed",
+                "residuals": {
+                  "A": 0,
+                  "B": 0,
+                  "X": 0
+                },
+                "sourceBound": 0,
+                "arithmeticBound": 1.7053025658242404e-13
+              }
+            }
+          },
+          {
+            "version": "reaction-basis-v1",
+            "productId": "Br",
+            "basisIds": [
+              "Ao",
+              "Bo",
+              "Br",
+              "X"
+            ],
+            "coefficients": [
+              0,
+              0,
+              1,
+              0
+            ],
+            "logK": 0,
+            "eliminatedComponentIds": [
+              "Ar",
+              "E"
+            ],
+            "sourceReactions": [],
+            "unit": {
+              "kind": "synthetic-ideal-molal-standard",
+              "productCoefficient": 1,
+              "normalizationFactor": 1
+            },
+            "phase": "aqueous",
+            "temperatureModel": {
+              "kind": "linear-combination-of-source-models",
+              "terms": [],
+              "evaluation": "stored-reference-temperature-only"
+            },
+            "validity": {
+              "kind": "intersection-of-source-domains",
+              "sources": [],
+              "unknownDomainsRemainUnknown": true
+            },
+            "sourceReactionId": "B reduction",
+            "checks": {
+              "charge": {
+                "status": "passed",
+                "residuals": {
+                  "charge": 0
+                },
+                "sourceBound": 0,
+                "arithmeticBound": 5.684341886080802e-14
+              },
+              "inventory": {
+                "status": "metadata-unavailable"
+              },
+              "elements": {
+                "status": "passed",
+                "residuals": {
+                  "B": 0,
+                  "A": 0,
+                  "X": 0
+                },
+                "sourceBound": 0,
+                "arithmeticBound": 5.684341886080802e-14
+              }
+            }
+          }
+        ],
+        "componentExpressions": {
+          "Ao": {
+            "coefficients": [
+              1,
+              0,
+              0,
+              0
+            ],
+            "logK": 0
+          },
+          "Bo": {
+            "coefficients": [
+              0,
+              1,
+              0,
+              0
+            ],
+            "logK": 0
+          },
+          "Br": {
+            "coefficients": [
+              0,
+              0,
+              1,
+              0
+            ],
+            "logK": 0
+          },
+          "X": {
+            "coefficients": [
+              0,
+              0,
+              0,
+              1
+            ],
+            "logK": 0
+          },
+          "Ar": {
+            "coefficients": [
+              1,
+              -1,
+              1,
+              0
+            ],
+            "logK": -2
+          },
+          "E": {
+            "coefficients": [
+              0,
+              -1,
+              1,
+              0
+            ],
+            "logK": -2
+          }
+        },
+        "exclusions": [],
+        "diagnostics": []
+      }
+    },
+    {
+      "basisIds": [
+        "Ar",
+        "Bo",
+        "Br",
+        "X"
+      ],
+      "preparation": "reduced A + oxidized B",
+      "constraints": [
+        {
+          "componentId": "Ar",
+          "kh": 1,
+          "value": 1
+        },
+        {
+          "componentId": "Bo",
+          "kh": 1,
+          "value": 1
+        },
+        {
+          "componentId": "Br",
+          "kh": 1,
+          "value": 0
+        },
+        {
+          "componentId": "X",
+          "kh": 1,
+          "value": 1
+        }
+      ],
+      "concentrations": {
+        "Ar": 0.09090909090909088,
+        "Bo": 0.09090909090909094,
+        "Br": 0.9090909090909091,
+        "X": 1,
+        "Ao": 0.9090909090909094
+      },
+      "checks": {
+        "A": 1.0000000000000002,
+        "B": 1,
+        "charge": 4.440892098500626e-16,
+        "electronTransfer": 3.3306690738754696e-16,
+        "massActionA": 0,
+        "massActionB": 0,
+        "netLogK": 2,
+        "peA": 1.0000000000000002,
+        "peB": 1,
+        "Eh": 0.05915934968478235
+      },
+      "result": {
+        "ok": true,
+        "status": "converged",
+        "scientificValidation": "passed",
+        "method": {
+          "name": "scaled-log-Newton-with-single-solid-active-set",
+          "version": "1.0.1"
+        },
+        "systemId": "2894d37a2e45dd1a331974fedfd4804f14292ba556cbc4ff101eb334efff249f",
+        "inputId": "6170f48012a817e07052df6ecfaa526d3e90710a8fb85f6b15826e3ff814a50d",
+        "revision": 0,
+        "sourceIdentity": {
+          "kind": "closed-redox-synthetic-only"
+        },
+        "componentIds": [
+          "Ar",
+          "Bo",
+          "Br",
+          "X"
+        ],
+        "speciesIds": [
+          "Ar",
+          "Bo",
+          "Br",
+          "X",
+          "Ao"
+        ],
+        "componentNames": [
+          "Ar",
+          "Bo",
+          "Br",
+          "X"
+        ],
+        "speciesNames": [
+          "Ar",
+          "Bo",
+          "Br",
+          "X",
+          "Ao"
+        ],
+        "freeComponentConcentrations": [
+          0.09090909090909088,
+          0.09090909090909094,
+          0.9090909090909091,
+          1
+        ],
+        "freeComponentActivities": [
+          0.09090909090909088,
+          0.09090909090909094,
+          0.9090909090909091,
+          1
+        ],
+        "concentrations": [
+          0.09090909090909088,
+          0.09090909090909094,
+          0.9090909090909091,
+          1,
+          0.9090909090909094
+        ],
+        "logActivities": [
+          -1.0413926851582251,
+          -1.041392685158225,
+          -0.04139268515822504,
+          0,
+          -0.04139268515822492
+        ],
+        "componentTotals": [
+          1.0000000000000002,
+          1.0000000000000004,
+          -3.3306690738754696e-16,
+          1
+        ],
+        "dissolvedComponentAmounts": [
+          1.0000000000000002,
+          1.0000000000000004,
+          -3.3306690738754696e-16,
+          1
+        ],
+        "logActivityCoefficients": [
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "solids": [],
+        "residuals": {
+          "componentBalance": [
+            2.220446049250313e-16,
+            4.440892098500626e-16,
+            -3.3306690738754696e-16,
+            0
+          ],
+          "componentBalanceLimits": [
+            1e-10,
+            1e-10,
+            2e-14,
+            1e-10
+          ],
+          "massActionLog": [
+            2.0816681711721685e-17
+          ],
+          "scaledBalance": [
+            2.2204460492503126e-16,
+            4.440892098500624e-16,
+            -1.8318679906315082e-16,
+            0
+          ]
+        },
+        "iterations": 26,
+        "diagnostics": [],
+        "attempts": [
+          {
+            "active": false,
+            "activeIds": [],
+            "iteration": 26,
+            "accepted": true,
+            "diagnostics": []
+          }
+        ],
+        "minimumPivotRatio": 5.00000223396253e-10,
+        "iterationTolerance": 2e-13,
+        "saturationTolerance": 1e-12,
+        "temperatureC": 25,
+        "pressureBar": 1,
+        "unit": "mol/kg-H2O",
+        "activityModel": "ideal",
+        "ionicStrength": null,
+        "electricBalance": null,
+        "waterOsmoticCoefficient": null,
+        "warnings": [
+          "Restricted species set and explicit direct basis; no completeness or general independence proof.",
+          "Source reference-pressure scalar unavailable; 1 bar is a declared calculation setting, not reconstructed source metadata.",
+          "Ideal activities only; ionic strength and electroneutrality are not calculated or imposed.",
+          "Absent-solid log activity is a hypothetical formation/saturation quantity, not an assigned phase activity."
+        ]
+      },
+      "chargeRequest": {
+        "ok": false,
+        "diagnostics": [
+          {
+            "code": "unsupported-constraint",
+            "message": "An additional electroneutrality equation is not implemented; no spectator ions are inserted.",
+            "path": null
+          }
+        ]
+      },
+      "algebra": {
+        "ok": true,
+        "version": "reaction-basis-v1",
+        "basisIds": [
+          "Ar",
+          "Bo",
+          "Br",
+          "X"
+        ],
+        "dependentIds": [
+          "Ao",
+          "E"
+        ],
+        "rank": 2,
+        "cycleChecks": [],
+        "expressions": [
+          {
+            "version": "reaction-basis-v1",
+            "productId": "Ar",
+            "basisIds": [
+              "Ar",
+              "Bo",
+              "Br",
+              "X"
+            ],
+            "coefficients": [
+              1,
+              0,
+              0,
+              0
+            ],
+            "logK": 0,
+            "eliminatedComponentIds": [
+              "Ao",
+              "E"
+            ],
+            "sourceReactions": [],
+            "unit": {
+              "kind": "synthetic-ideal-molal-standard",
+              "productCoefficient": 1,
+              "normalizationFactor": 1
+            },
+            "phase": "aqueous",
+            "temperatureModel": {
+              "kind": "linear-combination-of-source-models",
+              "terms": [],
+              "evaluation": "stored-reference-temperature-only"
+            },
+            "validity": {
+              "kind": "intersection-of-source-domains",
+              "sources": [],
+              "unknownDomainsRemainUnknown": true
+            },
+            "sourceReactionId": "A reduction",
+            "checks": {
+              "charge": {
+                "status": "passed",
+                "residuals": {
+                  "charge": 0
+                },
+                "sourceBound": 0,
+                "arithmeticBound": 5.684341886080802e-14
+              },
+              "inventory": {
+                "status": "metadata-unavailable"
+              },
+              "elements": {
+                "status": "passed",
+                "residuals": {
+                  "A": 0,
+                  "B": 0,
+                  "X": 0
+                },
+                "sourceBound": 0,
+                "arithmeticBound": 5.684341886080802e-14
+              }
+            }
+          },
+          {
+            "version": "reaction-basis-v1",
+            "productId": "Br",
+            "basisIds": [
+              "Ar",
+              "Bo",
+              "Br",
+              "X"
+            ],
+            "coefficients": [
+              0,
+              0,
+              1,
+              0
+            ],
+            "logK": 0,
+            "eliminatedComponentIds": [
+              "Ao",
+              "E"
+            ],
+            "sourceReactions": [],
+            "unit": {
+              "kind": "synthetic-ideal-molal-standard",
+              "productCoefficient": 1,
+              "normalizationFactor": 1
+            },
+            "phase": "aqueous",
+            "temperatureModel": {
+              "kind": "linear-combination-of-source-models",
+              "terms": [],
+              "evaluation": "stored-reference-temperature-only"
+            },
+            "validity": {
+              "kind": "intersection-of-source-domains",
+              "sources": [],
+              "unknownDomainsRemainUnknown": true
+            },
+            "sourceReactionId": "B reduction",
+            "checks": {
+              "charge": {
+                "status": "passed",
+                "residuals": {
+                  "charge": 0
+                },
+                "sourceBound": 0,
+                "arithmeticBound": 5.684341886080802e-14
+              },
+              "inventory": {
+                "status": "metadata-unavailable"
+              },
+              "elements": {
+                "status": "passed",
+                "residuals": {
+                  "B": 0,
+                  "A": 0,
+                  "X": 0
+                },
+                "sourceBound": 0,
+                "arithmeticBound": 5.684341886080802e-14
+              }
+            }
+          }
+        ],
+        "componentExpressions": {
+          "Ar": {
+            "coefficients": [
+              1,
+              0,
+              0,
+              0
+            ],
+            "logK": 0
+          },
+          "Bo": {
+            "coefficients": [
+              0,
+              1,
+              0,
+              0
+            ],
+            "logK": 0
+          },
+          "Br": {
+            "coefficients": [
+              0,
+              0,
+              1,
+              0
+            ],
+            "logK": 0
+          },
+          "X": {
+            "coefficients": [
+              0,
+              0,
+              0,
+              1
+            ],
+            "logK": 0
+          },
+          "Ao": {
+            "coefficients": [
+              1,
+              1,
+              -1,
+              0
+            ],
+            "logK": 2
+          },
+          "E": {
+            "coefficients": [
+              0,
+              -1,
+              1,
+              0
+            ],
+            "logK": -2
+          }
+        },
+        "exclusions": [],
+        "diagnostics": []
+      }
+    },
+    {
+      "basisIds": [
+        "Ar",
+        "Bo",
+        "Br",
+        "X"
+      ],
+      "preparation": "partially redistributed mixture",
+      "constraints": [
+        {
+          "componentId": "Ar",
+          "kh": 1,
+          "value": 1
+        },
+        {
+          "componentId": "Bo",
+          "kh": 1,
+          "value": 1
+        },
+        {
+          "componentId": "Br",
+          "kh": 1,
+          "value": 0
+        },
+        {
+          "componentId": "X",
+          "kh": 1,
+          "value": 1
+        }
+      ],
+      "concentrations": {
+        "Ar": 0.09090909090909088,
+        "Bo": 0.09090909090909094,
+        "Br": 0.9090909090909091,
+        "X": 1,
+        "Ao": 0.9090909090909094
+      },
+      "checks": {
+        "A": 1.0000000000000002,
+        "B": 1,
+        "charge": 4.440892098500626e-16,
+        "electronTransfer": 3.3306690738754696e-16,
+        "massActionA": 0,
+        "massActionB": 0,
+        "netLogK": 2,
+        "peA": 1.0000000000000002,
+        "peB": 1,
+        "Eh": 0.05915934968478235
+      },
+      "result": {
+        "ok": true,
+        "status": "converged",
+        "scientificValidation": "passed",
+        "method": {
+          "name": "scaled-log-Newton-with-single-solid-active-set",
+          "version": "1.0.1"
+        },
+        "systemId": "2894d37a2e45dd1a331974fedfd4804f14292ba556cbc4ff101eb334efff249f",
+        "inputId": "6170f48012a817e07052df6ecfaa526d3e90710a8fb85f6b15826e3ff814a50d",
+        "revision": 0,
+        "sourceIdentity": {
+          "kind": "closed-redox-synthetic-only"
+        },
+        "componentIds": [
+          "Ar",
+          "Bo",
+          "Br",
+          "X"
+        ],
+        "speciesIds": [
+          "Ar",
+          "Bo",
+          "Br",
+          "X",
+          "Ao"
+        ],
+        "componentNames": [
+          "Ar",
+          "Bo",
+          "Br",
+          "X"
+        ],
+        "speciesNames": [
+          "Ar",
+          "Bo",
+          "Br",
+          "X",
+          "Ao"
+        ],
+        "freeComponentConcentrations": [
+          0.09090909090909088,
+          0.09090909090909094,
+          0.9090909090909091,
+          1
+        ],
+        "freeComponentActivities": [
+          0.09090909090909088,
+          0.09090909090909094,
+          0.9090909090909091,
+          1
+        ],
+        "concentrations": [
+          0.09090909090909088,
+          0.09090909090909094,
+          0.9090909090909091,
+          1,
+          0.9090909090909094
+        ],
+        "logActivities": [
+          -1.0413926851582251,
+          -1.041392685158225,
+          -0.04139268515822504,
+          0,
+          -0.04139268515822492
+        ],
+        "componentTotals": [
+          1.0000000000000002,
+          1.0000000000000004,
+          -3.3306690738754696e-16,
+          1
+        ],
+        "dissolvedComponentAmounts": [
+          1.0000000000000002,
+          1.0000000000000004,
+          -3.3306690738754696e-16,
+          1
+        ],
+        "logActivityCoefficients": [
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "solids": [],
+        "residuals": {
+          "componentBalance": [
+            2.220446049250313e-16,
+            4.440892098500626e-16,
+            -3.3306690738754696e-16,
+            0
+          ],
+          "componentBalanceLimits": [
+            1e-10,
+            1e-10,
+            2e-14,
+            1e-10
+          ],
+          "massActionLog": [
+            2.0816681711721685e-17
+          ],
+          "scaledBalance": [
+            2.2204460492503126e-16,
+            4.440892098500624e-16,
+            -1.8318679906315082e-16,
+            0
+          ]
+        },
+        "iterations": 26,
+        "diagnostics": [],
+        "attempts": [
+          {
+            "active": false,
+            "activeIds": [],
+            "iteration": 26,
+            "accepted": true,
+            "diagnostics": []
+          }
+        ],
+        "minimumPivotRatio": 5.00000223396253e-10,
+        "iterationTolerance": 2e-13,
+        "saturationTolerance": 1e-12,
+        "temperatureC": 25,
+        "pressureBar": 1,
+        "unit": "mol/kg-H2O",
+        "activityModel": "ideal",
+        "ionicStrength": null,
+        "electricBalance": null,
+        "waterOsmoticCoefficient": null,
+        "warnings": [
+          "Restricted species set and explicit direct basis; no completeness or general independence proof.",
+          "Source reference-pressure scalar unavailable; 1 bar is a declared calculation setting, not reconstructed source metadata.",
+          "Ideal activities only; ionic strength and electroneutrality are not calculated or imposed.",
+          "Absent-solid log activity is a hypothetical formation/saturation quantity, not an assigned phase activity."
+        ]
+      },
+      "chargeRequest": {
+        "ok": false,
+        "diagnostics": [
+          {
+            "code": "unsupported-constraint",
+            "message": "An additional electroneutrality equation is not implemented; no spectator ions are inserted.",
+            "path": null
+          }
+        ]
+      },
+      "algebra": {
+        "ok": true,
+        "version": "reaction-basis-v1",
+        "basisIds": [
+          "Ar",
+          "Bo",
+          "Br",
+          "X"
+        ],
+        "dependentIds": [
+          "Ao",
+          "E"
+        ],
+        "rank": 2,
+        "cycleChecks": [],
+        "expressions": [
+          {
+            "version": "reaction-basis-v1",
+            "productId": "Ar",
+            "basisIds": [
+              "Ar",
+              "Bo",
+              "Br",
+              "X"
+            ],
+            "coefficients": [
+              1,
+              0,
+              0,
+              0
+            ],
+            "logK": 0,
+            "eliminatedComponentIds": [
+              "Ao",
+              "E"
+            ],
+            "sourceReactions": [],
+            "unit": {
+              "kind": "synthetic-ideal-molal-standard",
+              "productCoefficient": 1,
+              "normalizationFactor": 1
+            },
+            "phase": "aqueous",
+            "temperatureModel": {
+              "kind": "linear-combination-of-source-models",
+              "terms": [],
+              "evaluation": "stored-reference-temperature-only"
+            },
+            "validity": {
+              "kind": "intersection-of-source-domains",
+              "sources": [],
+              "unknownDomainsRemainUnknown": true
+            },
+            "sourceReactionId": "A reduction",
+            "checks": {
+              "charge": {
+                "status": "passed",
+                "residuals": {
+                  "charge": 0
+                },
+                "sourceBound": 0,
+                "arithmeticBound": 5.684341886080802e-14
+              },
+              "inventory": {
+                "status": "metadata-unavailable"
+              },
+              "elements": {
+                "status": "passed",
+                "residuals": {
+                  "A": 0,
+                  "B": 0,
+                  "X": 0
+                },
+                "sourceBound": 0,
+                "arithmeticBound": 5.684341886080802e-14
+              }
+            }
+          },
+          {
+            "version": "reaction-basis-v1",
+            "productId": "Br",
+            "basisIds": [
+              "Ar",
+              "Bo",
+              "Br",
+              "X"
+            ],
+            "coefficients": [
+              0,
+              0,
+              1,
+              0
+            ],
+            "logK": 0,
+            "eliminatedComponentIds": [
+              "Ao",
+              "E"
+            ],
+            "sourceReactions": [],
+            "unit": {
+              "kind": "synthetic-ideal-molal-standard",
+              "productCoefficient": 1,
+              "normalizationFactor": 1
+            },
+            "phase": "aqueous",
+            "temperatureModel": {
+              "kind": "linear-combination-of-source-models",
+              "terms": [],
+              "evaluation": "stored-reference-temperature-only"
+            },
+            "validity": {
+              "kind": "intersection-of-source-domains",
+              "sources": [],
+              "unknownDomainsRemainUnknown": true
+            },
+            "sourceReactionId": "B reduction",
+            "checks": {
+              "charge": {
+                "status": "passed",
+                "residuals": {
+                  "charge": 0
+                },
+                "sourceBound": 0,
+                "arithmeticBound": 5.684341886080802e-14
+              },
+              "inventory": {
+                "status": "metadata-unavailable"
+              },
+              "elements": {
+                "status": "passed",
+                "residuals": {
+                  "B": 0,
+                  "A": 0,
+                  "X": 0
+                },
+                "sourceBound": 0,
+                "arithmeticBound": 5.684341886080802e-14
+              }
+            }
+          }
+        ],
+        "componentExpressions": {
+          "Ar": {
+            "coefficients": [
+              1,
+              0,
+              0,
+              0
+            ],
+            "logK": 0
+          },
+          "Bo": {
+            "coefficients": [
+              0,
+              1,
+              0,
+              0
+            ],
+            "logK": 0
+          },
+          "Br": {
+            "coefficients": [
+              0,
+              0,
+              1,
+              0
+            ],
+            "logK": 0
+          },
+          "X": {
+            "coefficients": [
+              0,
+              0,
+              0,
+              1
+            ],
+            "logK": 0
+          },
+          "Ao": {
+            "coefficients": [
+              1,
+              1,
+              -1,
+              0
+            ],
+            "logK": 2
+          },
+          "E": {
+            "coefficients": [
+              0,
+              -1,
+              1,
+              0
+            ],
+            "logK": -2
+          }
+        },
+        "exclusions": [],
+        "diagnostics": []
+      }
+    }
+  ]
+}

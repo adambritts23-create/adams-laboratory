@@ -1,0 +1,610 @@
+[
+  {
+    "name": "Fe",
+    "selected": [
+      "component:H%2B",
+      "component:Fe%202%2B"
+    ],
+    "officialCount": 6,
+    "oracleCount": 6,
+    "officialOnly": [],
+    "oracleOnly": [],
+    "aqueous": 5,
+    "solids": [
+      {
+        "id": "spana:2ac52a30213c9288:130902",
+        "name": "Fe(OH)2(cr)"
+      }
+    ],
+    "gases": 0,
+    "expansions": [],
+    "adamCount": 29,
+    "adamOnly": [
+      {
+        "id": "spana:2ac52a30213c9288:126513",
+        "name": "Fe 2+"
+      },
+      {
+        "id": "spana:2ac52a30213c9288:126584",
+        "name": "Fe 3+"
+      },
+      {
+        "id": "spana:2ac52a30213c9288:131002",
+        "name": "Fe(OH)2+"
+      },
+      {
+        "id": "spana:2ac52a30213c9288:131099",
+        "name": "Fe(OH)3"
+      },
+      {
+        "id": "spana:2ac52a30213c9288:131496",
+        "name": "Fe(OH)4-"
+      },
+      {
+        "id": "spana:2ac52a30213c9288:133463",
+        "name": "Fe2(OH)2+4"
+      },
+      {
+        "id": "spana:2ac52a30213c9288:138672",
+        "name": "FeO4-2"
+      },
+      {
+        "id": "spana:2ac52a30213c9288:138873",
+        "name": "FeOH 2+"
+      },
+      {
+        "id": "spana:2ac52a30213c9288:151381",
+        "name": "H2"
+      },
+      {
+        "id": "spana:2ac52a30213c9288:152743",
+        "name": "H2O2"
+      },
+      {
+        "id": "spana:2ac52a30213c9288:175307",
+        "name": "HO2-"
+      },
+      {
+        "id": "spana:2ac52a30213c9288:249989",
+        "name": "O2"
+      },
+      {
+        "id": "spana:2ac52a30213c9288:250161",
+        "name": "O3"
+      },
+      {
+        "id": "spana:2ac52a30213c9288:127500",
+        "name": "Fe(cr)"
+      },
+      {
+        "id": "spana:2ac52a30213c9288:131188",
+        "name": "Fe(OH)3(am)"
+      },
+      {
+        "id": "spana:2ac52a30213c9288:131294",
+        "name": "Fe(OH)3(s)"
+      },
+      {
+        "id": "spana:2ac52a30213c9288:132744",
+        "name": "Fe0.932O(cr)"
+      },
+      {
+        "id": "spana:2ac52a30213c9288:133739",
+        "name": "Fe2O3(cr)"
+      },
+      {
+        "id": "spana:2ac52a30213c9288:134486",
+        "name": "Fe3O4(cr)"
+      },
+      {
+        "id": "spana:2ac52a30213c9288:139276",
+        "name": "FeOOH(cr)"
+      },
+      {
+        "id": "spana:2ac52a30213c9288:151531",
+        "name": "H2(g)"
+      },
+      {
+        "id": "spana:2ac52a30213c9288:250070",
+        "name": "O2(g)"
+      },
+      {
+        "id": "spana:2ac52a30213c9288:250265",
+        "name": "O3(g)"
+      }
+    ],
+    "hydraOnly": [],
+    "adamStatus": "CONDITIONAL"
+  },
+  {
+    "name": "FeElectron",
+    "selected": [
+      "component:H%2B",
+      "component:Fe%202%2B",
+      "component:e-"
+    ],
+    "officialCount": 28,
+    "oracleCount": 28,
+    "officialOnly": [],
+    "oracleOnly": [],
+    "aqueous": 17,
+    "solids": [
+      {
+        "id": "spana:2ac52a30213c9288:127500",
+        "name": "Fe(cr)"
+      },
+      {
+        "id": "spana:2ac52a30213c9288:130902",
+        "name": "Fe(OH)2(cr)"
+      },
+      {
+        "id": "spana:2ac52a30213c9288:132744",
+        "name": "Fe0.932O(cr)"
+      },
+      {
+        "id": "spana:2ac52a30213c9288:131188",
+        "name": "Fe(OH)3(am)"
+      },
+      {
+        "id": "spana:2ac52a30213c9288:131294",
+        "name": "Fe(OH)3(s)"
+      },
+      {
+        "id": "spana:2ac52a30213c9288:133739",
+        "name": "Fe2O3(cr)"
+      },
+      {
+        "id": "spana:2ac52a30213c9288:134486",
+        "name": "Fe3O4(cr)"
+      },
+      {
+        "id": "spana:2ac52a30213c9288:139276",
+        "name": "FeOOH(cr)"
+      }
+    ],
+    "gases": 3,
+    "expansions": [
+      {
+        "componentId": "component:Fe%203%2B",
+        "sourceId": "spana:2ac52a30213c9288:126584",
+        "pass": 0
+      },
+      {
+        "componentId": "component:H2O2",
+        "sourceId": "spana:2ac52a30213c9288:152743",
+        "pass": 0
+      }
+    ],
+    "adamCount": 29,
+    "adamOnly": [
+      {
+        "id": "spana:2ac52a30213c9288:126513",
+        "name": "Fe 2+"
+      }
+    ],
+    "hydraOnly": [],
+    "adamStatus": "CONDITIONAL"
+  },
+  {
+    "name": "Acetate",
+    "selected": [
+      "component:H%2B",
+      "component:CH3COO-"
+    ],
+    "officialCount": 3,
+    "oracleCount": 3,
+    "officialOnly": [],
+    "oracleOnly": [],
+    "aqueous": 2,
+    "solids": [],
+    "gases": 1,
+    "expansions": [],
+    "adamCount": 11,
+    "adamOnly": [
+      {
+        "id": "spana:2ac52a30213c9288:151381",
+        "name": "H2"
+      },
+      {
+        "id": "spana:2ac52a30213c9288:152743",
+        "name": "H2O2"
+      },
+      {
+        "id": "spana:2ac52a30213c9288:175307",
+        "name": "HO2-"
+      },
+      {
+        "id": "spana:2ac52a30213c9288:249989",
+        "name": "O2"
+      },
+      {
+        "id": "spana:2ac52a30213c9288:250161",
+        "name": "O3"
+      },
+      {
+        "id": "spana:2ac52a30213c9288:151531",
+        "name": "H2(g)"
+      },
+      {
+        "id": "spana:2ac52a30213c9288:250070",
+        "name": "O2(g)"
+      },
+      {
+        "id": "spana:2ac52a30213c9288:250265",
+        "name": "O3(g)"
+      }
+    ],
+    "hydraOnly": [],
+    "adamStatus": "UNSUPPORTED"
+  },
+  {
+    "name": "Cr",
+    "selected": [
+      "component:H%2B",
+      "component:e-",
+      "component:Cr%203%2B",
+      "component:Cl-",
+      "component:Na%2B"
+    ],
+    "officialCount": 44,
+    "oracleCount": 44,
+    "officialOnly": [],
+    "oracleOnly": [],
+    "aqueous": 29,
+    "solids": [
+      {
+        "id": "spana:2ac52a30213c9288:92135",
+        "name": "Cr(cr)"
+      },
+      {
+        "id": "spana:2ac52a30213c9288:93784",
+        "name": "Cr(OH)3(am)"
+      },
+      {
+        "id": "spana:2ac52a30213c9288:93877",
+        "name": "Cr(OH)3(cr)"
+      },
+      {
+        "id": "spana:2ac52a30213c9288:94801",
+        "name": "Cr2O3(cr)"
+      },
+      {
+        "id": "spana:2ac52a30213c9288:95613",
+        "name": "CrH(s)"
+      },
+      {
+        "id": "spana:2ac52a30213c9288:95947",
+        "name": "CrO2(cr)"
+      },
+      {
+        "id": "spana:2ac52a30213c9288:220295",
+        "name": "Na(cr)"
+      },
+      {
+        "id": "spana:2ac52a30213c9288:223454",
+        "name": "NaCl(s)"
+      },
+      {
+        "id": "spana:2ac52a30213c9288:93513",
+        "name": "Cr(OH)2(s)"
+      },
+      {
+        "id": "spana:2ac52a30213c9288:96049",
+        "name": "CrO3(cr)"
+      },
+      {
+        "id": "spana:2ac52a30213c9288:223604",
+        "name": "NaCr2O7·2H2O(s)"
+      }
+    ],
+    "gases": 4,
+    "expansions": [
+      {
+        "componentId": "component:ClO3-",
+        "sourceId": "spana:2ac52a30213c9288:82715",
+        "pass": 0
+      },
+      {
+        "componentId": "component:Cr%202%2B",
+        "sourceId": "spana:2ac52a30213c9288:91458",
+        "pass": 0
+      },
+      {
+        "componentId": "component:CrO4%202-",
+        "sourceId": "spana:2ac52a30213c9288:96141",
+        "pass": 0
+      },
+      {
+        "componentId": "component:H2O2",
+        "sourceId": "spana:2ac52a30213c9288:152743",
+        "pass": 0
+      }
+    ],
+    "adamCount": 46,
+    "adamOnly": [
+      {
+        "id": "spana:2ac52a30213c9288:91532",
+        "name": "Cr 3+"
+      },
+      {
+        "id": "spana:2ac52a30213c9288:91606",
+        "name": "Cr 3+"
+      }
+    ],
+    "hydraOnly": [],
+    "adamStatus": "CONDITIONAL"
+  },
+  {
+    "name": "FeCr",
+    "selected": [
+      "component:H%2B",
+      "component:e-",
+      "component:Fe%202%2B",
+      "component:CrO4%202-",
+      "component:K%2B",
+      "component:Cl-"
+    ],
+    "officialCount": 75,
+    "oracleCount": 75,
+    "officialOnly": [],
+    "oracleOnly": [],
+    "aqueous": 48,
+    "solids": [
+      {
+        "id": "spana:2ac52a30213c9288:96049",
+        "name": "CrO3(cr)"
+      },
+      {
+        "id": "spana:2ac52a30213c9288:127500",
+        "name": "Fe(cr)"
+      },
+      {
+        "id": "spana:2ac52a30213c9288:130902",
+        "name": "Fe(OH)2(cr)"
+      },
+      {
+        "id": "spana:2ac52a30213c9288:132744",
+        "name": "Fe0.932O(cr)"
+      },
+      {
+        "id": "spana:2ac52a30213c9288:187224",
+        "name": "K(cr)"
+      },
+      {
+        "id": "spana:2ac52a30213c9288:188345",
+        "name": "KCl(s)"
+      },
+      {
+        "id": "spana:2ac52a30213c9288:92135",
+        "name": "Cr(cr)"
+      },
+      {
+        "id": "spana:2ac52a30213c9288:93784",
+        "name": "Cr(OH)3(am)"
+      },
+      {
+        "id": "spana:2ac52a30213c9288:93877",
+        "name": "Cr(OH)3(cr)"
+      },
+      {
+        "id": "spana:2ac52a30213c9288:94801",
+        "name": "Cr2O3(cr)"
+      },
+      {
+        "id": "spana:2ac52a30213c9288:95613",
+        "name": "CrH(s)"
+      },
+      {
+        "id": "spana:2ac52a30213c9288:95947",
+        "name": "CrO2(cr)"
+      },
+      {
+        "id": "spana:2ac52a30213c9288:131188",
+        "name": "Fe(OH)3(am)"
+      },
+      {
+        "id": "spana:2ac52a30213c9288:131294",
+        "name": "Fe(OH)3(s)"
+      },
+      {
+        "id": "spana:2ac52a30213c9288:133739",
+        "name": "Fe2O3(cr)"
+      },
+      {
+        "id": "spana:2ac52a30213c9288:134486",
+        "name": "Fe3O4(cr)"
+      },
+      {
+        "id": "spana:2ac52a30213c9288:136105",
+        "name": "FeCr2O4(cr)"
+      },
+      {
+        "id": "spana:2ac52a30213c9288:138772",
+        "name": "FeOCl(cr)"
+      },
+      {
+        "id": "spana:2ac52a30213c9288:139063",
+        "name": "FeOHCrO4(cr)"
+      },
+      {
+        "id": "spana:2ac52a30213c9288:139158",
+        "name": "FeOHCrO4·2Fe(OH)3(cr)"
+      },
+      {
+        "id": "spana:2ac52a30213c9288:139276",
+        "name": "FeOOH(cr)"
+      },
+      {
+        "id": "spana:2ac52a30213c9288:188780",
+        "name": "KFe3(CrO4)2(OH)6(s)"
+      },
+      {
+        "id": "spana:2ac52a30213c9288:93513",
+        "name": "Cr(OH)2(s)"
+      }
+    ],
+    "gases": 4,
+    "expansions": [
+      {
+        "componentId": "component:ClO3-",
+        "sourceId": "spana:2ac52a30213c9288:82715",
+        "pass": 0
+      },
+      {
+        "componentId": "component:Cr%203%2B",
+        "sourceId": "spana:2ac52a30213c9288:91606",
+        "pass": 0
+      },
+      {
+        "componentId": "component:Fe%203%2B",
+        "sourceId": "spana:2ac52a30213c9288:126584",
+        "pass": 0
+      },
+      {
+        "componentId": "component:H2O2",
+        "sourceId": "spana:2ac52a30213c9288:152743",
+        "pass": 0
+      },
+      {
+        "componentId": "component:Cr%202%2B",
+        "sourceId": "spana:2ac52a30213c9288:91458",
+        "pass": 1
+      }
+    ],
+    "adamCount": 78,
+    "adamOnly": [
+      {
+        "id": "spana:2ac52a30213c9288:96141",
+        "name": "CrO4 2-"
+      },
+      {
+        "id": "spana:2ac52a30213c9288:126513",
+        "name": "Fe 2+"
+      }
+    ],
+    "hydraOnly": [],
+    "adamStatus": "CONDITIONAL"
+  },
+  {
+    "name": "Cu",
+    "selected": [
+      "component:H%2B",
+      "component:e-",
+      "component:Cu%202%2B",
+      "component:Cl-"
+    ],
+    "officialCount": 45,
+    "oracleCount": 45,
+    "officialOnly": [],
+    "oracleOnly": [],
+    "aqueous": 34,
+    "solids": [
+      {
+        "id": "spana:2ac52a30213c9288:102394",
+        "name": "Cu(OH)2(cr)"
+      },
+      {
+        "id": "spana:2ac52a30213c9288:107051",
+        "name": "CuCl2(cr)"
+      },
+      {
+        "id": "spana:2ac52a30213c9288:107212",
+        "name": "CuCl2·3Cu(OH)2(cr)"
+      },
+      {
+        "id": "spana:2ac52a30213c9288:110778",
+        "name": "CuO(cr)"
+      },
+      {
+        "id": "spana:2ac52a30213c9288:98874",
+        "name": "Cu(cr)"
+      },
+      {
+        "id": "spana:2ac52a30213c9288:104641",
+        "name": "Cu2O(cr)"
+      },
+      {
+        "id": "spana:2ac52a30213c9288:106825",
+        "name": "CuCl(cr)"
+      }
+    ],
+    "gases": 4,
+    "expansions": [
+      {
+        "componentId": "component:ClO3-",
+        "sourceId": "spana:2ac52a30213c9288:82715",
+        "pass": 0
+      },
+      {
+        "componentId": "component:Cu%2B",
+        "sourceId": "spana:2ac52a30213c9288:103398",
+        "pass": 0
+      },
+      {
+        "componentId": "component:H2O2",
+        "sourceId": "spana:2ac52a30213c9288:152743",
+        "pass": 0
+      }
+    ],
+    "adamCount": 46,
+    "adamOnly": [
+      {
+        "id": "spana:2ac52a30213c9288:97858",
+        "name": "Cu 2+"
+      }
+    ],
+    "hydraOnly": [],
+    "adamStatus": "CONDITIONAL"
+  },
+  {
+    "name": "Nitrate",
+    "selected": [
+      "component:H%2B",
+      "component:e-",
+      "component:Na%2B",
+      "component:NO3-"
+    ],
+    "officialCount": 33,
+    "oracleCount": 33,
+    "officialOnly": [],
+    "oracleOnly": [],
+    "aqueous": 23,
+    "solids": [
+      {
+        "id": "spana:2ac52a30213c9288:220295",
+        "name": "Na(cr)"
+      }
+    ],
+    "gases": 9,
+    "expansions": [
+      {
+        "componentId": "component:H2O2",
+        "sourceId": "spana:2ac52a30213c9288:152743",
+        "pass": 0
+      },
+      {
+        "componentId": "component:NH3",
+        "sourceId": "spana:2ac52a30213c9288:231007",
+        "pass": 0
+      },
+      {
+        "componentId": "component:NO2-",
+        "sourceId": "spana:2ac52a30213c9288:241198",
+        "pass": 0
+      }
+    ],
+    "adamCount": 35,
+    "adamOnly": [
+      {
+        "id": "spana:2ac52a30213c9288:241294",
+        "name": "NO3-"
+      },
+      {
+        "id": "spana:2ac52a30213c9288:241393",
+        "name": "NO3-"
+      }
+    ],
+    "hydraOnly": [],
+    "adamStatus": "CONDITIONAL"
+  }
+]

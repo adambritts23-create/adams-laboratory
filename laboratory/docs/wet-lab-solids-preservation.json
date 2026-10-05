@@ -1,0 +1,13 @@
+{
+  "filesChecked": 52,
+  "changed": [
+    "src/thermodynamics/equilibriumNetwork.js"
+  ],
+  "ok": true,
+  "expectedChanges": [
+    "src/thermodynamics/equilibriumNetwork.js"
+  ],
+  "unexpectedChanges": [],
+  "unchanged": 51,
+  "note": "The inherited previous-phase preservation list includes equilibriumNetwork.js, the explicitly requested compiler edit for this phase. All other protected files are unchanged."
+}

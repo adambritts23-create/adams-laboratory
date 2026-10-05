@@ -1,0 +1,465 @@
+{
+  "convention": {
+    "id": "dilute-ideal-aqueous-volume-v0",
+    "temperatureC": 25,
+    "activityModel": "ideal",
+    "volumeRule": "additive delivered solution volumes",
+    "modelKgPerL": 1,
+    "solventCoordinate": "1 model kg H2O per L solution; benchmark coordinate, NOT measured solvent mass or density",
+    "waterActivity": 1,
+    "scope": "HCl/NaOH strong-electrolyte benchmark; no ion pairing, solids, gases or redox"
+  },
+  "sourceWaterLogK": -14.0015,
+  "points": [
+    {
+      "addedMl": 0,
+      "totalVolumeMl": 50,
+      "remainingMl": 100,
+      "analyticalMoles": {
+        "protonEquivalent": 0.005000000000000001,
+        "Na": 0,
+        "Cl": 0.005000000000000001
+      },
+      "pH": 0.9999999999995671,
+      "status": "accepted-v0",
+      "inputId": "9028b6035e3ca06c0fdcf5deb40455ffce85849c72e6e6ea915a64b2e4d8511e",
+      "reference": {
+        "pH": 0.9999999999995671,
+        "h": 0.10000000000009968,
+        "oh": 9.96552080133775e-14,
+        "acidMoles": 0.005000000000000001,
+        "baseMoles": 0,
+        "excess": 0.10000000000000002,
+        "volumeMl": 50,
+        "regime": "acid"
+      },
+      "maximumBalanceResidual": 0
+    },
+    {
+      "addedMl": 10,
+      "totalVolumeMl": 60,
+      "remainingMl": 90,
+      "analyticalMoles": {
+        "protonEquivalent": 0.004000000000000001,
+        "Na": 0.0010000000000000002,
+        "Cl": 0.005000000000000001
+      },
+      "pH": 1.1760912590547075,
+      "status": "accepted-v0",
+      "inputId": "581b18fa871c3218c44352b6343e3bba0c3fba54d7b84870c892c993adaed37e",
+      "reference": {
+        "pH": 1.1760912590547075,
+        "h": 0.06666666666681616,
+        "oh": 1.4948281201988006e-13,
+        "acidMoles": 0.005000000000000001,
+        "baseMoles": 0.001,
+        "excess": 0.06666666666666668,
+        "volumeMl": 60,
+        "regime": "acid"
+      },
+      "maximumBalanceResidual": 1.3877787807814457e-17
+    },
+    {
+      "addedMl": 25,
+      "totalVolumeMl": 75,
+      "remainingMl": 75,
+      "analyticalMoles": {
+        "protonEquivalent": 0.0025000000000000005,
+        "Na": 0.0025000000000000005,
+        "Cl": 0.005000000000000001
+      },
+      "pH": 1.4771212547157673,
+      "status": "accepted-v0",
+      "inputId": "b0a9f258f4f8d38efe4d78d82f8aa34d7096c6dca0180b4120457927c0489afa",
+      "reference": {
+        "pH": 1.477121254715767,
+        "h": 0.03333333333363231,
+        "oh": 2.9896562403774897e-13,
+        "acidMoles": 0.005000000000000001,
+        "baseMoles": 0.0025000000000000005,
+        "excess": 0.03333333333333334,
+        "volumeMl": 75,
+        "regime": "acid"
+      },
+      "maximumBalanceResidual": 6.938893903907228e-18
+    },
+    {
+      "addedMl": 40,
+      "totalVolumeMl": 90,
+      "remainingMl": 60,
+      "analyticalMoles": {
+        "protonEquivalent": 0.001,
+        "Na": 0.004000000000000001,
+        "Cl": 0.005000000000000001
+      },
+      "pH": 1.9542425094042684,
+      "status": "accepted-v0",
+      "inputId": "089e4403295514a359743717962a304aa74d0a9c6e69eb5cb73c1798085337c7",
+      "reference": {
+        "pH": 1.954242509404268,
+        "h": 0.011111111112008017,
+        "oh": 8.968968720488926e-13,
+        "acidMoles": 0.005000000000000001,
+        "baseMoles": 0.004,
+        "excess": 0.011111111111111122,
+        "volumeMl": 90,
+        "regime": "acid"
+      },
+      "maximumBalanceResidual": 6.938893903907228e-18
+    },
+    {
+      "addedMl": 45,
+      "totalVolumeMl": 95,
+      "remainingMl": 55,
+      "analyticalMoles": {
+        "protonEquivalent": 0.0004999999999999996,
+        "Na": 0.004500000000000001,
+        "Cl": 0.005000000000000001
+      },
+      "pH": 2.2787536007965894,
+      "status": "accepted-v0",
+      "inputId": "9f75495d9105778b243fab9e24c79bd893434d6b2fc57ac2807e9211b1c94444",
+      "reference": {
+        "pH": 2.278753600796588,
+        "h": 0.005263157896630304,
+        "oh": 1.8934489515748767e-12,
+        "acidMoles": 0.005000000000000001,
+        "baseMoles": 0.0045,
+        "excess": 0.005263157894736856,
+        "volumeMl": 95,
+        "regime": "acid"
+      },
+      "maximumBalanceResidual": 6.938893903907228e-18
+    },
+    {
+      "addedMl": 49,
+      "totalVolumeMl": 99,
+      "remainingMl": 51,
+      "analyticalMoles": {
+        "protonEquivalent": 0.00010000000000000026,
+        "Na": 0.004900000000000001,
+        "Cl": 0.005000000000000001
+      },
+      "pH": 2.9956351903557046,
+      "status": "accepted-v0",
+      "inputId": "1e359bc9e1d1ddf40bb78cdc86dd85810f4f6801163960563a52e7763aad77f8",
+      "reference": {
+        "pH": 2.9956351903557046,
+        "h": 0.0010101010199668782,
+        "oh": 9.865865496972231e-12,
+        "acidMoles": 0.005000000000000001,
+        "baseMoles": 0.004900000000000001,
+        "excess": 0.0010101010101010127,
+        "volumeMl": 99,
+        "regime": "acid"
+      },
+      "maximumBalanceResidual": 1.3877787807814457e-17
+    },
+    {
+      "addedMl": 49.5,
+      "totalVolumeMl": 99.5,
+      "remainingMl": 50.5,
+      "analyticalMoles": {
+        "protonEquivalent": 0.0000499999999999997,
+        "Na": 0.004950000000000001,
+        "Cl": 0.005000000000000001
+      },
+      "pH": 3.298853059270513,
+      "status": "accepted-v0",
+      "inputId": "9c0d1bb508415f37d02220f37180351979f62e8008dc70e8abc036e2803c15cd",
+      "reference": {
+        "pH": 3.298853059270506,
+        "h": 0.0005025125826454617,
+        "oh": 1.983138561204679e-11,
+        "acidMoles": 0.005000000000000001,
+        "baseMoles": 0.00495,
+        "excess": 0.000502512562814076,
+        "volumeMl": 99.5,
+        "regime": "acid"
+      },
+      "maximumBalanceResidual": 6.938893903907228e-18
+    },
+    {
+      "addedMl": 49.9,
+      "totalVolumeMl": 99.9,
+      "remainingMl": 50.1,
+      "analyticalMoles": {
+        "protonEquivalent": 0.000009999999999999593,
+        "Na": 0.004990000000000001,
+        "Cl": 0.005000000000000001
+      },
+      "pH": 3.9995650562947365,
+      "status": "accepted-v0",
+      "inputId": "db289004b5eeb95f7cc12173627b4ae0e8258fc33f3a73c696137c1d1e9a5469",
+      "reference": {
+        "pH": 3.9995650562946987,
+        "h": 0.00010010019965555849,
+        "oh": 9.955545379168786e-11,
+        "acidMoles": 0.005000000000000001,
+        "baseMoles": 0.0049900000000000005,
+        "excess": 0.0001001001001001047,
+        "volumeMl": 99.9,
+        "regime": "acid"
+      },
+      "maximumBalanceResidual": 6.938893903907228e-18
+    },
+    {
+      "addedMl": 49.99,
+      "totalVolumeMl": 99.99000000000001,
+      "remainingMl": 50.01,
+      "analyticalMoles": {
+        "protonEquivalent": 0.0000010000000000001327,
+        "Na": 0.004999000000000001,
+        "Cl": 0.005000000000000001
+      },
+      "pH": 4.999913303794264,
+      "status": "accepted-v0",
+      "inputId": "309e4eabb7a9996bdcc4b698cc624e9a3673f05f1393f4ad869b7d0572b12c46",
+      "reference": {
+        "pH": 4.999913303793887,
+        "h": 0.000010001996453182892,
+        "oh": 9.963531628904346e-10,
+        "acidMoles": 0.005000000000000001,
+        "baseMoles": 0.004999,
+        "excess": 0.000010001000100020001,
+        "volumeMl": 99.99000000000001,
+        "regime": "acid"
+      },
+      "maximumBalanceResidual": 6.938893903907228e-18
+    },
+    {
+      "addedMl": 50,
+      "totalVolumeMl": 100,
+      "remainingMl": 50,
+      "analyticalMoles": {
+        "protonEquivalent": 0,
+        "Na": 0.005000000000000001,
+        "Cl": 0.005000000000000001
+      },
+      "pH": 7.00075,
+      "status": "accepted-v0",
+      "inputId": "20ea5ca5ee6b7251f692f2e5cabbca886f26c5675ff1466b859624cc2ba7a1e8",
+      "reference": {
+        "pH": 7.00075,
+        "h": 9.982745514810884e-8,
+        "oh": 9.982745514810885e-8,
+        "acidMoles": 0.005000000000000001,
+        "baseMoles": 0.005000000000000001,
+        "excess": 0,
+        "volumeMl": 100,
+        "regime": "equivalence"
+      },
+      "maximumBalanceResidual": 6.938893903907228e-18
+    },
+    {
+      "addedMl": 50.01,
+      "totalVolumeMl": 100.00999999999999,
+      "remainingMl": 49.99,
+      "analyticalMoles": {
+        "protonEquivalent": -0.0000010000000000001327,
+        "Na": 0.005001000000000001,
+        "Cl": 0.005000000000000001
+      },
+      "pH": 9.001499854615775,
+      "status": "accepted-v0",
+      "inputId": "f963f2e2ac8669d3130981f4ace673719d995308b9b61b0e30984c5cea829aa9",
+      "reference": {
+        "pH": 9.001499854615398,
+        "h": 9.965524137410135e-10,
+        "oh": 0.000009999996652396395,
+        "acidMoles": 0.005000000000000001,
+        "baseMoles": 0.005001,
+        "excess": -0.000009999000099982656,
+        "volumeMl": 100.00999999999999,
+        "regime": "base"
+      },
+      "maximumBalanceResidual": 1.3877787807814457e-17
+    },
+    {
+      "addedMl": 50.1,
+      "totalVolumeMl": 100.1,
+      "remainingMl": 49.9,
+      "analyticalMoles": {
+        "protonEquivalent": -0.000009999999999999593,
+        "Na": 0.0050100000000000006,
+        "Cl": 0.005000000000000001
+      },
+      "pH": 10.001066356183111,
+      "status": "accepted-v0",
+      "inputId": "8ec757491384bf22ae47f14757199fe0160283d29f17c785708bfd7c358b5be3",
+      "reference": {
+        "pH": 10.001066356183111,
+        "h": 9.97547636118556e-11,
+        "oh": 0.00009990019965485945,
+        "acidMoles": 0.005000000000000001,
+        "baseMoles": 0.0050100000000000006,
+        "excess": -0.00009990009990009583,
+        "volumeMl": 100.1,
+        "regime": "base"
+      },
+      "maximumBalanceResidual": 1.3877787807814457e-17
+    },
+    {
+      "addedMl": 50.5,
+      "totalVolumeMl": 100.5,
+      "remainingMl": 49.5,
+      "analyticalMoles": {
+        "protonEquivalent": -0.0000499999999999997,
+        "Na": 0.005050000000000001,
+        "Cl": 0.005000000000000001
+      },
+      "pH": 10.698303960064942,
+      "status": "accepted-v0",
+      "inputId": "5f86ab52137f2bc956d457f4970f16f7becd67f5548878dc9d563598ef2e934b",
+      "reference": {
+        "pH": 10.698303960064942,
+        "h": 2.0030696004239115e-11,
+        "oh": 0.0004975124578416382,
+        "acidMoles": 0.005000000000000001,
+        "baseMoles": 0.005050000000000001,
+        "excess": -0.0004975124378109422,
+        "volumeMl": 100.5,
+        "regime": "base"
+      },
+      "maximumBalanceResidual": 6.938893903907228e-18
+    },
+    {
+      "addedMl": 51,
+      "totalVolumeMl": 101,
+      "remainingMl": 49,
+      "analyticalMoles": {
+        "protonEquivalent": -0.00010000000000000026,
+        "Na": 0.005100000000000001,
+        "Cl": 0.005000000000000001
+      },
+      "pH": 10.997178630632321,
+      "status": "accepted-v0",
+      "inputId": "5585615c4bc43dd69ed180101b7979e9ef31ae1e02131d4a6d2e508134dff72e",
+      "reference": {
+        "pH": 10.997178630632318,
+        "h": 1.0065175907040376e-11,
+        "oh": 0.0009900990199661602,
+        "acidMoles": 0.005000000000000001,
+        "baseMoles": 0.0051,
+        "excess": -0.000990099009900984,
+        "volumeMl": 101,
+        "regime": "base"
+      },
+      "maximumBalanceResidual": 2.168404344971009e-19
+    },
+    {
+      "addedMl": 55,
+      "totalVolumeMl": 105,
+      "remainingMl": 45,
+      "analyticalMoles": {
+        "protonEquivalent": -0.0005000000000000004,
+        "Na": 0.005500000000000001,
+        "Cl": 0.005000000000000001
+      },
+      "pH": 11.679280705456945,
+      "status": "accepted-v0",
+      "inputId": "199193d44c40a9b79b1dde27656773bd1f539a631538e59bbef08b39f3effe2c",
+      "reference": {
+        "pH": 11.679280705456943,
+        "h": 2.0927593673632906e-12,
+        "oh": 0.004761904763997517,
+        "acidMoles": 0.005000000000000001,
+        "baseMoles": 0.0055000000000000005,
+        "excess": -0.004761904761904758,
+        "volumeMl": 105,
+        "regime": "base"
+      },
+      "maximumBalanceResidual": 6.938893903907228e-18
+    },
+    {
+      "addedMl": 60,
+      "totalVolumeMl": 110,
+      "remainingMl": 40,
+      "analyticalMoles": {
+        "protonEquivalent": -0.001,
+        "Na": 0.006000000000000001,
+        "Cl": 0.005000000000000001
+      },
+      "pH": 11.960107314894143,
+      "status": "accepted-v0",
+      "inputId": "1544a169e4364e40695d220e0f4ef70046b2a85bf5a8d20c98bb4d2ecbbd81dd",
+      "reference": {
+        "pH": 11.960107314894143,
+        "h": 1.0962072880160624e-12,
+        "oh": 0.00909090909200529,
+        "acidMoles": 0.005000000000000001,
+        "baseMoles": 0.006,
+        "excess": -0.009090909090909084,
+        "volumeMl": 110,
+        "regime": "base"
+      },
+      "maximumBalanceResidual": 6.938893903907228e-18
+    },
+    {
+      "addedMl": 75,
+      "totalVolumeMl": 125,
+      "remainingMl": 25,
+      "analyticalMoles": {
+        "protonEquivalent": -0.0025000000000000005,
+        "Na": 0.0075000000000000015,
+        "Cl": 0.005000000000000001
+      },
+      "pH": 12.302529995674801,
+      "status": "accepted-v0",
+      "inputId": "a13b88d12928ec2d3153f2f9cfac6e0bc6716115dbcca7c24b136d0087777e4f",
+      "reference": {
+        "pH": 12.302529995674801,
+        "h": 4.982760400549705e-13,
+        "oh": 0.020000000000498265,
+        "acidMoles": 0.005000000000000001,
+        "baseMoles": 0.0075,
+        "excess": -0.01999999999999999,
+        "volumeMl": 125,
+        "regime": "base"
+      },
+      "maximumBalanceResidual": 1.3877787807814457e-17
+    },
+    {
+      "addedMl": 100,
+      "totalVolumeMl": 150,
+      "remainingMl": 0,
+      "analyticalMoles": {
+        "protonEquivalent": -0.005000000000000001,
+        "Na": 0.010000000000000002,
+        "Cl": 0.005000000000000001
+      },
+      "pH": 12.524378745284233,
+      "status": "accepted-v0",
+      "inputId": "aa931a4831b5abe4686d6e1471561f9111c8f44720c698f001855e99009c0f01",
+      "reference": {
+        "pH": 12.524378745284233,
+        "h": 2.9896562403774897e-13,
+        "oh": 0.03333333333363231,
+        "acidMoles": 0.005000000000000001,
+        "baseMoles": 0.010000000000000002,
+        "excess": -0.03333333333333334,
+        "volumeMl": 150,
+        "regime": "base"
+      },
+      "maximumBalanceResidual": 1.3877787807814457e-17
+    }
+  ],
+  "maximumPHError": 3.765876499528531e-13,
+  "performance": [
+    {
+      "points": 18,
+      "accepted": 18,
+      "elapsedMs": 10.052099999999996
+    },
+    {
+      "points": 101,
+      "accepted": 101,
+      "elapsedMs": 46.7946
+    },
+    {
+      "points": 501,
+      "accepted": 501,
+      "elapsedMs": 201.0706
+    }
+  ]
+}

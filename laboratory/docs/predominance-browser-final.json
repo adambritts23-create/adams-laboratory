@@ -1,0 +1,13 @@
+{
+ "method":"Local browser, full grid then compact for each element; shared preparation and SVG renderer, two animation frames; initial module/data download excluded; single observations, order/JIT/load effects not controlled",
+ "rows":[
+ {"element":"Fe","route":"full-grid","preparationMs":228.9,"solvingMs":9979.5,"totalPlotMs":12535.7,"inspectionMs":0,"retainedGridBytes":45385955},
+ {"element":"Fe","route":"compact","preparationMs":190.7,"solvingMs":9526,"totalPlotMs":10622.9,"inspectionMs":4.3,"retainedGridBytes":1406212},
+ {"element":"Cu","route":"full-grid","preparationMs":173.2,"solvingMs":5168.3,"totalPlotMs":7541.6,"inspectionMs":0.2,"retainedGridBytes":29863877},
+ {"element":"Cu","route":"compact","preparationMs":174.2,"solvingMs":5055.1,"totalPlotMs":5958.3,"inspectionMs":1.8,"retainedGridBytes":1221251},
+ {"element":"Cr","route":"full-grid","preparationMs":152.1,"solvingMs":12471.8,"totalPlotMs":14771.9,"inspectionMs":0.1,"retainedGridBytes":41368772},
+ {"element":"Cr","route":"compact","preparationMs":191.1,"solvingMs":6144.8,"totalPlotMs":6718.5,"inspectionMs":2.2,"retainedGridBytes":594942}
+ ],
+ "eachRoute":{"fullEquilibriumSolves":2565,"regionEvaluations":2565,"analyticalBoundaryEvaluations":0},
+ "caveat":"Cr solve time changed substantially despite identical solver calls. JIT/runtime/load effects can explain this; no claim that scheduling halves chemical solve cost. Zero inspection time means below clock resolution, not zero work. Serialization size is not a heap-memory measurement."
+}

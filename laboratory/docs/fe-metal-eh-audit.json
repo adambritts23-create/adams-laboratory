@@ -1,0 +1,376 @@
+[
+  {
+    "total": 0.001,
+    "pH": 0,
+    "temperatureC": 25,
+    "pressureBarDeclared": 1,
+    "activity": "ideal",
+    "standardPotential": -0.47002103324559563,
+    "nernstSlope": 0.05915934968478233,
+    "expectedDisappearance": -0.5587600577829732,
+    "calculatedDisappearance": {
+      "lower": -0.5587600577839045,
+      "upper": -0.5587600577829732,
+      "midpoint": -0.5587600577834388
+    },
+    "expectedHalfPartition": -0.5676644271725204,
+    "calculatedHalfPartition": -0.5676644271720548,
+    "atMinus2": {
+      "total": 0.001,
+      "dissolved": 1.8880111609992823e-52,
+      "solids": [
+        {
+          "id": "spana:2ac52a30213c9288:127500",
+          "name": "Fe(cr)",
+          "amount": 0.001,
+          "logSaturation": 0,
+          "status": "present",
+          "activity": 1
+        },
+        {
+          "id": "spana:2ac52a30213c9288:130902",
+          "name": "Fe(OH)2(cr)",
+          "amount": 0,
+          "logSaturation": -64.0239954430386,
+          "status": "absent",
+          "activity": null
+        },
+        {
+          "id": "spana:2ac52a30213c9288:131188",
+          "name": "Fe(OH)3(am)",
+          "amount": 0,
+          "logSaturation": -103.4819931645579,
+          "status": "absent",
+          "activity": null
+        },
+        {
+          "id": "spana:2ac52a30213c9288:131294",
+          "name": "Fe(OH)3(s)",
+          "amount": 0,
+          "logSaturation": -102.01199316455791,
+          "status": "absent",
+          "activity": null
+        },
+        {
+          "id": "spana:2ac52a30213c9288:133739",
+          "name": "Fe2O3(cr)",
+          "amount": 0,
+          "logSaturation": -197.06298632911583,
+          "status": "absent",
+          "activity": null
+        },
+        {
+          "id": "spana:2ac52a30213c9288:134486",
+          "name": "Fe3O4(cr)",
+          "amount": 0,
+          "logSaturation": -259.2269817721544,
+          "status": "absent",
+          "activity": null
+        },
+        {
+          "id": "spana:2ac52a30213c9288:139276",
+          "name": "FeOOH(cr)",
+          "amount": 0,
+          "logSaturation": -98.75199316455792,
+          "status": "absent",
+          "activity": null
+        }
+      ],
+      "metalAmount": 0.001,
+      "metalFraction": 1,
+      "balanceResidual": 0,
+      "balanceTolerance": 1e-13
+    },
+    "source": {
+      "id": "spana:2ac52a30213c9288:127500",
+      "reaction": {
+        "product": "Fe(cr)",
+        "components": [
+          {
+            "name": "Fe 2+",
+            "coefficient": 1
+          },
+          {
+            "name": "e-",
+            "coefficient": 2
+          }
+        ]
+      },
+      "logK": -15.89,
+      "citation": "NEA-Fe: Lemire R J, Berner U, Musikas C, Palmer D A, Taylor P, Tochiyama O, Chemical Thermodynamics of Iron. Part 1. Paris: OECD Nuclear Energy Agency (NEA), 2013",
+      "provenance": {
+        "kind": "imported",
+        "sourceDatabase": "spana:2ac52a30213c9288dd18fc6dd597411e5c3ca53173fa6d1fab5530b371c30a0a",
+        "sourceFile": "Eq-Diagr/Reactions.db",
+        "sourceRecordId": "byte:127500",
+        "originalRecordId": null,
+        "originalSpeciesName": "Fe(cr)",
+        "originalReaction": {
+          "product": "Fe(cr)",
+          "components": [
+            {
+              "name": "Fe 2+",
+              "coefficient": 1
+            },
+            {
+              "name": "e-",
+              "coefficient": 2
+            }
+          ],
+          "separateProtonCount": null
+        },
+        "originalLogK": -15.89,
+        "originalReferenceCode": "NEA-Fe",
+        "resolvedCitation": "NEA-Fe: Lemire R J, Berner U, Musikas C, Palmer D A, Taylor P, Tochiyama O, Chemical Thermodynamics of Iron. Part 1. Paris: OECD Nuclear Energy Agency (NEA), 2013",
+        "referenceSourceFile": "Eq-Diagr/References.txt",
+        "dbSha256": "2ac52a30213c9288dd18fc6dd597411e5c3ca53173fa6d1fab5530b371c30a0a",
+        "byteOffset": 127500,
+        "byteLength": 72,
+        "importDate": "2026-09-05T16:23:16.736Z",
+        "importerVersion": "spana-readonly-1.0.0",
+        "comments": [
+          "Element links describe source components, not product atom counts. Oxidation states are not supplied."
+        ],
+        "qualityFlags": [
+          "imported",
+          "not-solver-validated",
+          "composition-unknown"
+        ],
+        "original": {
+          "speciesName": "Fe(cr)",
+          "reaction": {
+            "product": "Fe(cr)",
+            "components": [
+              {
+                "name": "Fe 2+",
+                "coefficient": 1
+              },
+              {
+                "name": "e-",
+                "coefficient": 2
+              }
+            ],
+            "separateProtonCount": null
+          },
+          "logK": -15.89,
+          "citation": "NEA-Fe",
+          "raw": {
+            "ordinal": 1427,
+            "byteOffset": 127500,
+            "byteLength": 72,
+            "name": "Fe(cr)",
+            "logK": -15.89,
+            "thermal": {
+              "kind": "deltaH-deltaCp",
+              "deltaH": 90.3,
+              "deltaCp": 19
+            },
+            "layout": "variable",
+            "componentToken": "2",
+            "components": [
+              {
+                "name": "Fe 2+",
+                "coefficient": 1
+              },
+              {
+                "name": "e-",
+                "coefficient": 2
+              }
+            ],
+            "protonCount": null,
+            "reference": "NEA-Fe",
+            "comment": "",
+            "rawBase64": "AAZGZShjcinAL8euFHrhSEBWkzMzMzMzQDMAAAAAAAAAATIABUZlIDIrP/AAAAAAAAAAAmUtQAAAAAAAAAAABk5FQS1GZQAA"
+          }
+        }
+      }
+    }
+  },
+  {
+    "total": 1,
+    "pH": 0,
+    "temperatureC": 25,
+    "pressureBarDeclared": 1,
+    "activity": "ideal",
+    "standardPotential": -0.47002103324559563,
+    "nernstSlope": 0.05915934968478233,
+    "expectedDisappearance": -0.4700210332557998,
+    "calculatedDisappearance": {
+      "lower": -0.4700210332567311,
+      "upper": -0.4700210332557998,
+      "midpoint": -0.47002103325626543
+    },
+    "expectedHalfPartition": -0.4789254026453468,
+    "calculatedHalfPartition": -0.4789254026458124,
+    "atMinus2": {
+      "total": 1,
+      "dissolved": 1.8880111609992823e-52,
+      "solids": [
+        {
+          "id": "spana:2ac52a30213c9288:127500",
+          "name": "Fe(cr)",
+          "amount": 1,
+          "logSaturation": 0,
+          "status": "present",
+          "activity": 1
+        },
+        {
+          "id": "spana:2ac52a30213c9288:130902",
+          "name": "Fe(OH)2(cr)",
+          "amount": 0,
+          "logSaturation": -64.0239954430386,
+          "status": "absent",
+          "activity": null
+        },
+        {
+          "id": "spana:2ac52a30213c9288:131188",
+          "name": "Fe(OH)3(am)",
+          "amount": 0,
+          "logSaturation": -103.4819931645579,
+          "status": "absent",
+          "activity": null
+        },
+        {
+          "id": "spana:2ac52a30213c9288:131294",
+          "name": "Fe(OH)3(s)",
+          "amount": 0,
+          "logSaturation": -102.01199316455791,
+          "status": "absent",
+          "activity": null
+        },
+        {
+          "id": "spana:2ac52a30213c9288:133739",
+          "name": "Fe2O3(cr)",
+          "amount": 0,
+          "logSaturation": -197.06298632911583,
+          "status": "absent",
+          "activity": null
+        },
+        {
+          "id": "spana:2ac52a30213c9288:134486",
+          "name": "Fe3O4(cr)",
+          "amount": 0,
+          "logSaturation": -259.2269817721544,
+          "status": "absent",
+          "activity": null
+        },
+        {
+          "id": "spana:2ac52a30213c9288:139276",
+          "name": "FeOOH(cr)",
+          "amount": 0,
+          "logSaturation": -98.75199316455792,
+          "status": "absent",
+          "activity": null
+        }
+      ],
+      "metalAmount": 1,
+      "metalFraction": 1,
+      "balanceResidual": 0,
+      "balanceTolerance": 1e-10
+    },
+    "source": {
+      "id": "spana:2ac52a30213c9288:127500",
+      "reaction": {
+        "product": "Fe(cr)",
+        "components": [
+          {
+            "name": "Fe 2+",
+            "coefficient": 1
+          },
+          {
+            "name": "e-",
+            "coefficient": 2
+          }
+        ]
+      },
+      "logK": -15.89,
+      "citation": "NEA-Fe: Lemire R J, Berner U, Musikas C, Palmer D A, Taylor P, Tochiyama O, Chemical Thermodynamics of Iron. Part 1. Paris: OECD Nuclear Energy Agency (NEA), 2013",
+      "provenance": {
+        "kind": "imported",
+        "sourceDatabase": "spana:2ac52a30213c9288dd18fc6dd597411e5c3ca53173fa6d1fab5530b371c30a0a",
+        "sourceFile": "Eq-Diagr/Reactions.db",
+        "sourceRecordId": "byte:127500",
+        "originalRecordId": null,
+        "originalSpeciesName": "Fe(cr)",
+        "originalReaction": {
+          "product": "Fe(cr)",
+          "components": [
+            {
+              "name": "Fe 2+",
+              "coefficient": 1
+            },
+            {
+              "name": "e-",
+              "coefficient": 2
+            }
+          ],
+          "separateProtonCount": null
+        },
+        "originalLogK": -15.89,
+        "originalReferenceCode": "NEA-Fe",
+        "resolvedCitation": "NEA-Fe: Lemire R J, Berner U, Musikas C, Palmer D A, Taylor P, Tochiyama O, Chemical Thermodynamics of Iron. Part 1. Paris: OECD Nuclear Energy Agency (NEA), 2013",
+        "referenceSourceFile": "Eq-Diagr/References.txt",
+        "dbSha256": "2ac52a30213c9288dd18fc6dd597411e5c3ca53173fa6d1fab5530b371c30a0a",
+        "byteOffset": 127500,
+        "byteLength": 72,
+        "importDate": "2026-09-05T16:23:16.736Z",
+        "importerVersion": "spana-readonly-1.0.0",
+        "comments": [
+          "Element links describe source components, not product atom counts. Oxidation states are not supplied."
+        ],
+        "qualityFlags": [
+          "imported",
+          "not-solver-validated",
+          "composition-unknown"
+        ],
+        "original": {
+          "speciesName": "Fe(cr)",
+          "reaction": {
+            "product": "Fe(cr)",
+            "components": [
+              {
+                "name": "Fe 2+",
+                "coefficient": 1
+              },
+              {
+                "name": "e-",
+                "coefficient": 2
+              }
+            ],
+            "separateProtonCount": null
+          },
+          "logK": -15.89,
+          "citation": "NEA-Fe",
+          "raw": {
+            "ordinal": 1427,
+            "byteOffset": 127500,
+            "byteLength": 72,
+            "name": "Fe(cr)",
+            "logK": -15.89,
+            "thermal": {
+              "kind": "deltaH-deltaCp",
+              "deltaH": 90.3,
+              "deltaCp": 19
+            },
+            "layout": "variable",
+            "componentToken": "2",
+            "components": [
+              {
+                "name": "Fe 2+",
+                "coefficient": 1
+              },
+              {
+                "name": "e-",
+                "coefficient": 2
+              }
+            ],
+            "protonCount": null,
+            "reference": "NEA-Fe",
+            "comment": "",
+            "rawBase64": "AAZGZShjcinAL8euFHrhSEBWkzMzMzMzQDMAAAAAAAAAATIABUZlIDIrP/AAAAAAAAAAAmUtQAAAAAAAAAAABk5FQS1GZQAA"
+          }
+        }
+      }
+    }
+  }
+]

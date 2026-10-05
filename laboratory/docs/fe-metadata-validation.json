@@ -1,0 +1,574 @@
+{
+  "contract": {
+    "version": "fe-pourbaix-candidate-v1",
+    "publicEnabled": false,
+    "tieTolerance": 1e-8,
+    "majorityRule": "strictly greater than 0.5; independent of predominance",
+    "metadataVersion": "oxidation-state-metadata-v1",
+    "metadataSha256": "933fe048793b76fed9f2ddce64760829bee7efc0b55ace4bffd6a7d6d9dafa78",
+    "systemId": "8ead3d660c3c240620da3c69fa3a4b55810695c1dce8216e166f9579043386a1",
+    "phaseScopeVersion": "fe-seven-solids-v1",
+    "total": 0.001,
+    "unit": "mol/kg-H2O",
+    "temperatureC": 25,
+    "pressureBar": 1,
+    "pressureMeaning": "declared",
+    "activityModel": "ideal",
+    "pH": {
+      "min": 0,
+      "max": 14,
+      "step": 0.25,
+      "points": 57
+    },
+    "Eh": {
+      "min": -1,
+      "max": 1.2,
+      "step": 0.05,
+      "points": 45,
+      "reference": "SHE"
+    },
+    "includedSolids": [
+      "spana:2ac52a30213c9288:127500",
+      "spana:2ac52a30213c9288:130902",
+      "spana:2ac52a30213c9288:131188",
+      "spana:2ac52a30213c9288:131294",
+      "spana:2ac52a30213c9288:133739",
+      "spana:2ac52a30213c9288:134486",
+      "spana:2ac52a30213c9288:139276"
+    ],
+    "excluded": [
+      {
+        "id": "spana:2ac52a30213c9288:132744",
+        "name": "Fe0.932O(cr)",
+        "reason": "unsupported-fractional-canonical-stoichiometry"
+      }
+    ],
+    "reservoirs": [
+      "fixed H+ activity",
+      "fixed electron activity",
+      "a(H2O)=1"
+    ],
+    "gasTreatment": "H2/O2 reference overlays only; no analytical gas inventory is solved.",
+    "phaseSuppression": "Modified thermodynamic scope; default validation claim invalidated. No kinetic claim.",
+    "otherTotals": "Internal exploration only; independent validation is restricted to 0.001 mol/kg H2O."
+  },
+  "metadataSha256": "933fe048793b76fed9f2ddce64760829bee7efc0b55ace4bffd6a7d6d9dafa78",
+  "previousEvidenceSha256": "5d21b07f65f9988179d81e1301743a0406a9d443581bf8c02a2dbd41000c86c0",
+  "totals": [
+    {
+      "total": 0.001,
+      "solverCounts": {
+        "requested": 2565,
+        "converged": 2565,
+        "failed": 0,
+        "notRun": 0
+      },
+      "counts": {
+        "0": 422,
+        "2": 581,
+        "3": 1473,
+        "6": 89
+      },
+      "assessment": {
+        "eligible": true,
+        "publicEnabled": false,
+        "contractVersion": "fe-pourbaix-candidate-v1",
+        "metadataVersion": "oxidation-state-metadata-v1",
+        "metadataSha256": "933fe048793b76fed9f2ddce64760829bee7efc0b55ace4bffd6a7d6d9dafa78",
+        "phaseScopeVersion": "fe-seven-solids-v1",
+        "claim": "Candidate for next-phase public implementation; fixed cross-validated scope only."
+      },
+      "maximumClosureResidual": 1.9949319973733282e-16,
+      "unresolvedSamples": [],
+      "candidateIds": [
+        "canonical-state:component:Fe%203%2B",
+        "spana:2ac52a30213c9288:130813",
+        "spana:2ac52a30213c9288:131002",
+        "spana:2ac52a30213c9288:131099",
+        "spana:2ac52a30213c9288:131406",
+        "spana:2ac52a30213c9288:131496",
+        "spana:2ac52a30213c9288:131586",
+        "spana:2ac52a30213c9288:133463",
+        "spana:2ac52a30213c9288:138672",
+        "spana:2ac52a30213c9288:138873",
+        "spana:2ac52a30213c9288:138969",
+        "spana:2ac52a30213c9288:127500",
+        "spana:2ac52a30213c9288:130902",
+        "spana:2ac52a30213c9288:131188",
+        "spana:2ac52a30213c9288:131294",
+        "spana:2ac52a30213c9288:133739",
+        "spana:2ac52a30213c9288:134486",
+        "spana:2ac52a30213c9288:139276"
+      ],
+      "acceptedSolidSampleCounts": {
+        "spana:2ac52a30213c9288:127500": 422,
+        "spana:2ac52a30213c9288:130902": 49,
+        "spana:2ac52a30213c9288:131188": 0,
+        "spana:2ac52a30213c9288:131294": 0,
+        "spana:2ac52a30213c9288:133739": 1365,
+        "spana:2ac52a30213c9288:134486": 92,
+        "spana:2ac52a30213c9288:139276": 0
+      },
+      "maximumFractionDifference": 0,
+      "ferrateWaterContexts": [
+        "above-O2-reference"
+      ]
+    },
+    {
+      "total": 0.0001,
+      "solverCounts": {
+        "requested": 2565,
+        "converged": 2565,
+        "failed": 0,
+        "notRun": 0
+      },
+      "counts": {
+        "0": 422,
+        "2": 617,
+        "3": 1435,
+        "6": 91
+      },
+      "assessment": {
+        "eligible": false,
+        "publicEnabled": false,
+        "reason": "unvalidated-coordinate-or-total"
+      },
+      "maximumClosureResidual": 1.9949319973733282e-17,
+      "unresolvedSamples": [],
+      "candidateIds": [
+        "canonical-state:component:Fe%203%2B",
+        "spana:2ac52a30213c9288:130813",
+        "spana:2ac52a30213c9288:131002",
+        "spana:2ac52a30213c9288:131099",
+        "spana:2ac52a30213c9288:131406",
+        "spana:2ac52a30213c9288:131496",
+        "spana:2ac52a30213c9288:131586",
+        "spana:2ac52a30213c9288:133463",
+        "spana:2ac52a30213c9288:138672",
+        "spana:2ac52a30213c9288:138873",
+        "spana:2ac52a30213c9288:138969",
+        "spana:2ac52a30213c9288:127500",
+        "spana:2ac52a30213c9288:130902",
+        "spana:2ac52a30213c9288:131188",
+        "spana:2ac52a30213c9288:131294",
+        "spana:2ac52a30213c9288:133739",
+        "spana:2ac52a30213c9288:134486",
+        "spana:2ac52a30213c9288:139276"
+      ],
+      "acceptedSolidSampleCounts": {
+        "spana:2ac52a30213c9288:127500": 422,
+        "spana:2ac52a30213c9288:130902": 45,
+        "spana:2ac52a30213c9288:131188": 0,
+        "spana:2ac52a30213c9288:131294": 0,
+        "spana:2ac52a30213c9288:133739": 1309,
+        "spana:2ac52a30213c9288:134486": 84,
+        "spana:2ac52a30213c9288:139276": 0
+      }
+    },
+    {
+      "total": 0.01,
+      "solverCounts": {
+        "requested": 2565,
+        "converged": 2565,
+        "failed": 0,
+        "notRun": 0
+      },
+      "counts": {
+        "0": 453,
+        "2": 517,
+        "3": 1514,
+        "6": 81
+      },
+      "assessment": {
+        "eligible": false,
+        "publicEnabled": false,
+        "reason": "unvalidated-coordinate-or-total"
+      },
+      "maximumClosureResidual": 1.994931997373328e-15,
+      "unresolvedSamples": [],
+      "candidateIds": [
+        "canonical-state:component:Fe%203%2B",
+        "spana:2ac52a30213c9288:130813",
+        "spana:2ac52a30213c9288:131002",
+        "spana:2ac52a30213c9288:131099",
+        "spana:2ac52a30213c9288:131406",
+        "spana:2ac52a30213c9288:131496",
+        "spana:2ac52a30213c9288:131586",
+        "spana:2ac52a30213c9288:133463",
+        "spana:2ac52a30213c9288:138672",
+        "spana:2ac52a30213c9288:138873",
+        "spana:2ac52a30213c9288:138969",
+        "spana:2ac52a30213c9288:127500",
+        "spana:2ac52a30213c9288:130902",
+        "spana:2ac52a30213c9288:131188",
+        "spana:2ac52a30213c9288:131294",
+        "spana:2ac52a30213c9288:133739",
+        "spana:2ac52a30213c9288:134486",
+        "spana:2ac52a30213c9288:139276"
+      ],
+      "acceptedSolidSampleCounts": {
+        "spana:2ac52a30213c9288:127500": 453,
+        "spana:2ac52a30213c9288:130902": 52,
+        "spana:2ac52a30213c9288:131188": 0,
+        "spana:2ac52a30213c9288:131294": 0,
+        "spana:2ac52a30213c9288:133739": 1403,
+        "spana:2ac52a30213c9288:134486": 98,
+        "spana:2ac52a30213c9288:139276": 0
+      }
+    }
+  ],
+  "boundarySummary": {
+    "additionalSolvedPoints": 1620,
+    "subdivisions": 10,
+    "interpretation": "Finite sampled bracket midpoints; not exact boundary roots or a global error bound.",
+    "rows": [
+      {
+        "pair": "0/2",
+        "direction": "pH",
+        "coarseEdges": 7,
+        "resolvedBrackets": 7,
+        "maximumObservedDisplacement": 0.11250000000000071,
+        "denseBracketWidth": 0.025,
+        "exceptions": 0
+      },
+      {
+        "pair": "0/2",
+        "direction": "Eh",
+        "coarseEdges": 57,
+        "resolvedBrackets": 57,
+        "maximumObservedDisplacement": 0.022500000000000187,
+        "denseBracketWidth": 0.005,
+        "exceptions": 0
+      },
+      {
+        "pair": "2/3",
+        "direction": "pH",
+        "coarseEdges": 32,
+        "resolvedBrackets": 32,
+        "maximumObservedDisplacement": 0.11250000000000071,
+        "denseBracketWidth": 0.025,
+        "exceptions": 0
+      },
+      {
+        "pair": "2/3",
+        "direction": "Eh",
+        "coarseEdges": 57,
+        "resolvedBrackets": 57,
+        "maximumObservedDisplacement": 0.022500000000000075,
+        "denseBracketWidth": 0.005,
+        "exceptions": 0
+      },
+      {
+        "pair": "3/6",
+        "direction": "pH",
+        "coarseEdges": 9,
+        "resolvedBrackets": 9,
+        "maximumObservedDisplacement": 0.11250000000000071,
+        "denseBracketWidth": 0.025,
+        "exceptions": 0
+      },
+      {
+        "pair": "3/6",
+        "direction": "Eh",
+        "coarseEdges": 18,
+        "resolvedBrackets": 18,
+        "maximumObservedDisplacement": 0.022500000000000187,
+        "denseBracketWidth": 0.005,
+        "exceptions": 0
+      }
+    ]
+  },
+  "magnetiteControls": [
+    {
+      "pH": 10,
+      "Eh": -0.6,
+      "fractions": [
+        {
+          "oxidationState": 0,
+          "amount": 0,
+          "fraction": 0
+        },
+        {
+          "oxidationState": 2,
+          "amount": 0.0003334402808885099,
+          "fraction": 0.33344028088850985
+        },
+        {
+          "oxidationState": 3,
+          "amount": 0.0006665597191114904,
+          "fraction": 0.6665597191114904
+        },
+        {
+          "oxidationState": 6,
+          "amount": 1.0527751175945054e-94,
+          "fraction": 1.0527751175945054e-91
+        }
+      ],
+      "predominant": 3,
+      "carriers": [
+        {
+          "id": "spana:2ac52a30213c9288:134486",
+          "name": "Fe3O4(cr)",
+          "phase": "solid",
+          "oxidationState": 3,
+          "componentAmount": 0.0006665597187185108,
+          "formulaAmount": 0.0003332798593592554
+        }
+      ],
+      "acceptedSolids": [
+        {
+          "id": "spana:2ac52a30213c9288:134486",
+          "name": "Fe3O4(cr)",
+          "amount": 0.0003332798593592554,
+          "logSaturation": -7.105427357601002e-15,
+          "status": "present",
+          "activity": 1,
+          "componentAmount": 0.0009998395780777662
+        }
+      ]
+    },
+    {
+      "pH": 7.75,
+      "Eh": -0.44999999999999996,
+      "fractions": [
+        {
+          "oxidationState": 0,
+          "amount": 0,
+          "fraction": 0
+        },
+        {
+          "oxidationState": 2,
+          "amount": 0.0005812315917334421,
+          "fraction": 0.5812315917334421
+        },
+        {
+          "oxidationState": 3,
+          "amount": 0.0004187684082665581,
+          "fraction": 0.4187684082665581
+        },
+        {
+          "oxidationState": 6,
+          "amount": 2.979099730355077e-98,
+          "fraction": 2.9790997303550768e-95
+        }
+      ],
+      "predominant": 2,
+      "carriers": [
+        {
+          "id": "component:Fe%202%2B",
+          "name": "Fe 2+",
+          "phase": "aqueous",
+          "oxidationState": 2,
+          "componentAmount": 0.0003559450777216354,
+          "formulaAmount": 0.0003559450777216354
+        }
+      ],
+      "acceptedSolids": [
+        {
+          "id": "spana:2ac52a30213c9288:134486",
+          "name": "Fe3O4(cr)",
+          "amount": 0.00020938420404304465,
+          "logSaturation": 0,
+          "status": "present",
+          "activity": 1,
+          "componentAmount": 0.0006281526121291339
+        }
+      ]
+    },
+    {
+      "pH": 7.5,
+      "Eh": -0.4000000000000001,
+      "fractions": [
+        {
+          "oxidationState": 0,
+          "amount": 0,
+          "fraction": 0
+        },
+        {
+          "oxidationState": 2,
+          "amount": 0.0006418536203182033,
+          "fraction": 0.6418536203182034
+        },
+        {
+          "oxidationState": 3,
+          "amount": 0.00035814637968179685,
+          "fraction": 0.35814637968179686
+        },
+        {
+          "oxidationState": 6,
+          "amount": 9.07823705374216e-97,
+          "fraction": 9.078237053742159e-94
+        }
+      ],
+      "predominant": 2,
+      "carriers": [
+        {
+          "id": "component:Fe%202%2B",
+          "name": "Fe 2+",
+          "phase": "aqueous",
+          "oxidationState": 2,
+          "componentAmount": 0.0004514396454760366,
+          "formulaAmount": 0.0004514396454760366
+        }
+      ],
+      "acceptedSolids": [
+        {
+          "id": "spana:2ac52a30213c9288:134486",
+          "name": "Fe3O4(cr)",
+          "amount": 0.00017907318967497833,
+          "logSaturation": -7.105427357601002e-15,
+          "status": "present",
+          "activity": 1,
+          "componentAmount": 0.000537219569024935
+        }
+      ]
+    },
+    {
+      "pH": 7.250000000000001,
+      "Eh": -0.35000000000000003,
+      "fractions": [
+        {
+          "oxidationState": 0,
+          "amount": 0,
+          "fraction": 0
+        },
+        {
+          "oxidationState": 2,
+          "amount": 0.0007204279498756213,
+          "fraction": 0.7204279498756213
+        },
+        {
+          "oxidationState": 3,
+          "amount": 0.0002795720501243786,
+          "fraction": 0.27957205012437863
+        },
+        {
+          "oxidationState": 6,
+          "amount": 2.7664192361266438e-95,
+          "fraction": 2.7664192361266436e-92
+        }
+      ],
+      "predominant": 2,
+      "carriers": [
+        {
+          "id": "component:Fe%202%2B",
+          "name": "Fe 2+",
+          "phase": "aqueous",
+          "oxidationState": 2,
+          "componentAmount": 0.0005725539311064924,
+          "formulaAmount": 0.0005725539311064924
+        }
+      ],
+      "acceptedSolids": [
+        {
+          "id": "spana:2ac52a30213c9288:134486",
+          "name": "Fe3O4(cr)",
+          "amount": 0.00013978602473307966,
+          "logSaturation": 0,
+          "status": "present",
+          "activity": 1,
+          "componentAmount": 0.000419358074199239
+        }
+      ]
+    },
+    {
+      "pH": 7,
+      "Eh": -0.3000000000000001,
+      "fractions": [
+        {
+          "oxidationState": 0,
+          "amount": 0,
+          "fraction": 0
+        },
+        {
+          "oxidationState": 2,
+          "amount": 0.00082128639686417,
+          "fraction": 0.8212863968641699
+        },
+        {
+          "oxidationState": 3,
+          "amount": 0.00017871360313583,
+          "fraction": 0.17871360313583
+        },
+        {
+          "oxidationState": 6,
+          "amount": 8.430133895717762e-94,
+          "fraction": 8.430133895717762e-91
+        }
+      ],
+      "predominant": 2,
+      "carriers": [
+        {
+          "id": "component:Fe%202%2B",
+          "name": "Fe 2+",
+          "phase": "aqueous",
+          "oxidationState": 2,
+          "componentAmount": 0.0007261613092926795,
+          "formulaAmount": 0.0007261613092926795
+        }
+      ],
+      "acceptedSolids": [
+        {
+          "id": "spana:2ac52a30213c9288:134486",
+          "name": "Fe3O4(cr)",
+          "amount": 0.00008935680085861533,
+          "logSaturation": 0,
+          "status": "present",
+          "activity": 1,
+          "componentAmount": 0.000268070402575846
+        }
+      ]
+    },
+    {
+      "pH": 6.75,
+      "Eh": -0.2500000000000001,
+      "fractions": [
+        {
+          "oxidationState": 0,
+          "amount": 0,
+          "fraction": 0
+        },
+        {
+          "oxidationState": 2,
+          "amount": 0.0009500620729097669,
+          "fraction": 0.9500620729097669
+        },
+        {
+          "oxidationState": 3,
+          "amount": 0.000049937927090233006,
+          "fraction": 0.049937927090233
+        },
+        {
+          "oxidationState": 6,
+          "amount": 2.5689221854614137e-92,
+          "fraction": 2.5689221854614138e-89
+        }
+      ],
+      "predominant": 2,
+      "carriers": [
+        {
+          "id": "component:Fe%202%2B",
+          "name": "Fe 2+",
+          "phase": "aqueous",
+          "oxidationState": 2,
+          "componentAmount": 0.0009209791750003347,
+          "formulaAmount": 0.0009209791750003347
+        }
+      ],
+      "acceptedSolids": [
+        {
+          "id": "spana:2ac52a30213c9288:134486",
+          "name": "Fe3O4(cr)",
+          "amount": 0.0000249689618915919,
+          "logSaturation": 0,
+          "status": "present",
+          "activity": 1,
+          "componentAmount": 0.0000749068856747757
+        }
+      ]
+    }
+  ],
+  "sampleCount": 2565,
+  "boundaryEdgeCount": 180,
+  "sampleArtifact": "fe-metadata-samples.json.gz"
+}

@@ -1,0 +1,18 @@
+{
+  "ok": true,
+  "protectedCount": 33,
+  "changed": [
+    "src/App.jsx",
+    "src/analysis/prepareElementCandidate.js",
+    "src/analysis/redoxDiscovery.js",
+    "src/calculations/imposedEh.js",
+    "src/calculations/userPourbaix.js",
+    "src/calculations/wetLabTitration.js",
+    "src/components/CalculationWorkspace.jsx",
+    "src/components/ComponentSearch.jsx",
+    "src/components/GeneralClosedPanel.jsx",
+    "src/components/PourbaixSetup.jsx",
+    "src/experimental/carrierPourbaix.js",
+    "src/thermodynamics/nonRedoxPhysical.js"
+  ]
+}

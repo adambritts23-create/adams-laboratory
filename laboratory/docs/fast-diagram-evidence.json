@@ -1,0 +1,266 @@
+{
+  "protectedFiles": [
+    {
+      "file": "src/solver/assemblages.js",
+      "sha256": "e25b0801841e7fa90f2bfba44488807e2c0f417dc5e0ee7c0bf98b7745650dc4",
+      "unchanged": true
+    },
+    {
+      "file": "src/solver/contract.js",
+      "sha256": "8d035ccb7c9637ff734fb3cd5d14aec7ddc01ee61243cdd9fe4bd4372b8099bf",
+      "unchanged": true
+    },
+    {
+      "file": "src/solver/linear.js",
+      "sha256": "85bc2b1dd9792cf050bf64014ae76c0e66c6602c208c18607e97f05f71ba2f79",
+      "unchanged": true
+    },
+    {
+      "file": "src/solver/models.js",
+      "sha256": "6627e609bcb575037aafeee9610e5a408ddad505eb17ee30eeee93ee45535bb5",
+      "unchanged": true
+    },
+    {
+      "file": "src/solver/point.js",
+      "sha256": "5ae9b017b3ea3cb8c6b7e23ac4bb57f7935da42af93c60050fb9b92f6d4b5809",
+      "unchanged": true
+    },
+    {
+      "file": "src/solver/prepareSession.js",
+      "sha256": "6eb8bf7d6b11d14508f3f05c3bb8d0c8099e0c5eb30f0df262cd6c59767b2164",
+      "unchanged": true
+    },
+    {
+      "file": "src/solver/redox.js",
+      "sha256": "80b9f117b93a313e7172476ee38633bb7156d8886839bdeaf6c9d7cc9a9d6074",
+      "unchanged": true
+    },
+    {
+      "file": "src/solver/validationContract.js",
+      "sha256": "1eec965214cb5aaf583b55280c0203d4f58396264fa44e1cc69b0e7e6a3317db",
+      "unchanged": true
+    },
+    {
+      "file": "src/thermodynamics/compatibility.js",
+      "sha256": "65bec87e1351d660cb0c453c18b57f0a58f8fd041ef0a48714b226a46e942603",
+      "unchanged": true
+    },
+    {
+      "file": "src/thermodynamics/formationSupport.js",
+      "sha256": "7e3d39500b13e63f21865af5aaa5dda090687971fce50e4ee7e030bf510eaca2",
+      "unchanged": true
+    },
+    {
+      "file": "src/thermodynamics/importers/pipeline.js",
+      "sha256": "8d041a97bea3957ce4e7785acfad29cc7f547758c8cbcc666b4a3447e149d909",
+      "unchanged": true
+    },
+    {
+      "file": "src/thermodynamics/importers/pipeline.test.js",
+      "sha256": "93740acc37618fc625769b656b64478e610557f0a7db1f867dc4c5933b845ce4",
+      "unchanged": true
+    },
+    {
+      "file": "src/thermodynamics/importers/spana/binary.js",
+      "sha256": "889017b231430c00de0c7107e135517f3f137e145d69f759f58efddcde642356",
+      "unchanged": true
+    },
+    {
+      "file": "src/thermodynamics/importers/spana/components.js",
+      "sha256": "5ba6cf65a05dfeb506fd70f70ed8998122eab1b6dd524ebdd3d42872840bd765",
+      "unchanged": true
+    },
+    {
+      "file": "src/thermodynamics/importers/spana/convert.js",
+      "sha256": "3a1e6e05c1c25d743991cc4b95b7fa7b7f993d1f6831c9e4a72d4cf1919aa776",
+      "unchanged": true
+    },
+    {
+      "file": "src/thermodynamics/importers/spana/names.js",
+      "sha256": "2e3c89d92ab2f663e29f26a2978064c3a3d91aacf373dc450e241f18552bf61f",
+      "unchanged": true
+    },
+    {
+      "file": "src/thermodynamics/importers/spana/normalize.js",
+      "sha256": "1524a967ec6cbf9cbd92f8831ca186631143b838c594f1fea53ee1193b343a18",
+      "unchanged": true
+    },
+    {
+      "file": "src/thermodynamics/importers/spana/references.js",
+      "sha256": "75b47f05838d8d8608b11064a78154b555002f99616e032f133c4999843d3b5c",
+      "unchanged": true
+    },
+    {
+      "file": "src/thermodynamics/importers/spana/spana.test.js",
+      "sha256": "1ef6f3420f058047061d376d07238e3d02cbbbfcfb027c4c50cede1f9f32087f",
+      "unchanged": true
+    },
+    {
+      "file": "src/thermodynamics/index.js",
+      "sha256": "54f32bdf2c6731b37494cad1ff939269b5b3740249447315cd823cb9639f5c47",
+      "unchanged": true
+    },
+    {
+      "file": "src/thermodynamics/repository.js",
+      "sha256": "fa5727992267e38947edded8bfcc0228a3ebca564d42e8e6e464cf08268d6f63",
+      "unchanged": true
+    },
+    {
+      "file": "src/thermodynamics/repository.test.js",
+      "sha256": "47fad4e831d87de3e01da033e674e894838c1f4a9d1ef291d9b91c3f28de5d92",
+      "unchanged": true
+    },
+    {
+      "file": "src/thermodynamics/schema.js",
+      "sha256": "b9ad007ae1d96ca7a693fa1d7debbd505ab205045844c2c99a503208e08737a2",
+      "unchanged": true
+    },
+    {
+      "file": "src/thermodynamics/snapshot.js",
+      "sha256": "8c8fd7076f005858cded6a6dd1340179018ba71c1af2aec3beaff9427a9d7acc",
+      "unchanged": true
+    },
+    {
+      "file": "src/thermodynamics/userComponents.js",
+      "sha256": "9b48067be2ec303218ae9ee1daed3e98ed2e8d71e7b7541a5523ead89777c725",
+      "unchanged": true
+    },
+    {
+      "file": "src/thermodynamics/userEquilibria.js",
+      "sha256": "5c1aabb37aec7131d57d48006341fb9da5824043ad147e8f3c6ffc98fd0bc9a8",
+      "unchanged": true
+    },
+    {
+      "file": "src/thermodynamics/validation.js",
+      "sha256": "6e094cc718006f0300ce4f335fbcda6349629250518570b005551fc70f87405f",
+      "unchanged": true
+    },
+    {
+      "file": "src/thermodynamics/validation.test.js",
+      "sha256": "d4c58a21beb0d9b36268f4995b355bc577fbb12af30630a752c8ecee3a5e259b",
+      "unchanged": true
+    },
+    {
+      "file": "src/calculations/aqueousFractions.js",
+      "sha256": "66fec20c46b95f6a074dd310b7dfd58a6657dff9e991148c60d37f59c5b9d8aa",
+      "unchanged": true
+    },
+    {
+      "file": "src/calculations/outputs.js",
+      "sha256": "bedec7f23fb86a613c1fdbb5b3d8c7f43a42dcdd269c8e9d0720bfaa0e8b8ee8",
+      "unchanged": true
+    },
+    {
+      "file": "src/calculations/grid.js",
+      "sha256": "d2f61163f254a2e53367885038f66e5ac3f9fb068e39c36523f911db9c7c3b29",
+      "unchanged": true
+    },
+    {
+      "file": "src/calculations/sweep.js",
+      "sha256": "38fc739f567378b7188a1bdc3c880e999489af937af96844233703c4d5321ad6",
+      "unchanged": true
+    },
+    {
+      "file": "src/chemistry/system.js",
+      "sha256": "4b87922472b593f09d19131de5dab92f579464400a5fe6dce8d7c6e0c23444a9",
+      "unchanged": true
+    },
+    {
+      "file": "tests/fixtures/eq-diagr/references.json",
+      "sha256": "aefc0949b585ef290595088c8ed852a1eb591be25dff24563a44a2cf98d40960",
+      "unchanged": true
+    },
+    {
+      "file": "public/data/thermodynamic-default.json",
+      "sha256": "9fa7db6f4a13a88073a0ca214c412690846674f6b3f442e336baf1586c45d245",
+      "unchanged": true
+    },
+    {
+      "file": "src/calculations/diagramSetup.js",
+      "sha256": "18066245ac0ece3a9126dd3e523a72c9472a60683fedba2805f8b64ee3e4ebc3",
+      "unchanged": true
+    },
+    {
+      "file": "src/calculations/solubility.js",
+      "sha256": "e8f10a70304500387cda26d2bda09fbaa491ef75e7d71c51ec2ef30678407488",
+      "unchanged": true
+    },
+    {
+      "file": "src/calculations/outputDescriptors.js",
+      "sha256": "1da00fb5dc01f7a5cf75d172847a6ba216393fd7e8e6676702c611d738323245",
+      "unchanged": true
+    },
+    {
+      "file": "src/beaker/componentPartition.js",
+      "sha256": "214f684c9ee580490ea0570bfd97cdb9435adaafefd732191e10b6fa744f08f8",
+      "unchanged": true
+    },
+    {
+      "file": "src/plots/export.js",
+      "sha256": "3903b07ec6171703c4cb90015a8ad03ca4229bda82dcde8c5fcd4bd700368a61",
+      "unchanged": true
+    },
+    {
+      "file": "src/plots/resultSelection.js",
+      "sha256": "334886112dff839a97e2fa6fc0d1273df71ab40fdc4050d55f28627d24aeb925",
+      "unchanged": true
+    },
+    {
+      "file": "src/components/usePlotGestures.js",
+      "sha256": "71f8c6ce01564ce1573bd35cc857532737a6d0a8b7f0c44d722e9d68b8fd9a74",
+      "unchanged": true
+    },
+    {
+      "file": "public/artwork/adam-laboratory.png",
+      "sha256": "c88de996a7e8019a2fb09bbdb60beb8f10416f4e678b23f24cc641709cc934d6",
+      "unchanged": true
+    }
+  ],
+  "assets": [
+    {
+      "file": "artwork/adam-workspace.png",
+      "bytes": 2669102,
+      "sha256": "1cf49efeaae32267b7d814251fd351792ebfaee12ef4b02158bd7e22fe2c6820"
+    },
+    {
+      "file": "artwork/adam-portrait.png",
+      "bytes": 1817170,
+      "sha256": "cc814a5f3fc7bc7e0d56caa168e756e8d7aaf2a8c9bb013c6f5b82a829ad32f0"
+    },
+    {
+      "file": "artwork/adam-studio.png",
+      "bytes": 1181073,
+      "sha256": "8340fd8a6958d78c986bf53d5c7d42c7733316ca992c3c89c526c8aa96c095b4"
+    }
+  ],
+  "browser": {
+    "system": "Ni total 1 mol/kg H2O; pH 0–14, 51 samples",
+    "selectedPH": 8.96,
+    "solidFraction": 0.9999998357827817,
+    "reusedInputId": "ee312dfdf9ef3d71aaf598936e99ecf388f43ab8ca8c1cebcbf21dfcbf505ead",
+    "sameIdAcrossThreeViews": true,
+    "solubilityAvailable": 31,
+    "solubilityRequested": 51,
+    "mobileViewport": [
+      390,
+      844
+    ],
+    "mobileDocumentWidth": 375,
+    "headerHeight": 118,
+    "thumbnailsContained": true,
+    "portraitEscapeReturnsFocus": true,
+    "errors": [],
+    "finalMediaCount": 3,
+    "finalMobileHeaderHeight": 131,
+    "cleanStudioPortraitVerified": true
+  },
+  "tests": {
+    "passed": 382,
+    "failed": 0,
+    "cancelled": 0,
+    "skipped": 0,
+    "todo": 0,
+    "durationMs": 247904.31,
+    "focusedPassed": 20
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "changed": [
+    "src/calculations/imposedEh.js",
+    "src/components/ComponentPartition.jsx",
+    "src/components/InteractiveBeaker.jsx",
+    "src/components/PlotWorkspace.jsx",
+    "src/components/ScientificPlot.jsx",
+    "src/components/SolutionSummary.jsx",
+    "src/plots/legendReadout.js",
+    "src/plots/resultSelection.js"
+  ],
+  "unchanged": 213
+}

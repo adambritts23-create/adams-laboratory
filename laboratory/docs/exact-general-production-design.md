@@ -1,0 +1,14 @@
+# Smallest production integration design
+
+The continuation demonstrates general source-derived conservation in isolated validation. Promotion is deliberately not included: the validated arithmetic and source-only probe do not yet constitute the complete branded production preparation/inspection contract. Existing reviewed closed redox stays authoritative. Nitrate and copper failures are legitimate downstream outcomes, not reasons to require atoms again.
+
+1. Move exact structural algebra behind a versioned compiler API with bounded dimensions, source-coefficient admission, BigInt growth limits, explicit arithmetic failure types and final finite-Number conversion. Do not add it to the numerical solver.
+2. Separate source identity/charge/connectivity discovery from optional element transport. Keep both forward and inverse source closure, full fingerprint checks, historical reviewed-scope exclusions and candidate phase/gas disclosure. Never infer elements or oxidation state from names.
+3. Derive electron-free material invariants with zero solvent weight; retain charge as an explicit invariant. Project supplied inventories exactly. Exact source targets become the input to the existing point preparation/solver; material electron inventory remains forbidden.
+4. Where reviewed metadata exists, require conserved-space agreement and parity with the reviewed route during initial integration. A discrepancy produces a typed refusal; there must be no convenient silent choice. Retain the reviewed route and its reference tests.
+5. Extend source-coordinate weights through existing transformed pure-solid laws. Keep source scope, coupled active-set solve and complementarity unchanged. The atomless aqueous probe in this phase refuses a required solid rather than bypassing that extension.
+6. Replace obligatory element-based inspection with source-coordinate closure and an explicit optional semantic layer. Element totals, oxidation-state groups and H/O-labelled exchange remain unavailable without reviewed interpretation. Source water exchange must have its own validated representation before replacing the current H/O diagnostic and reaction-redistribution consumers.
+7. Bind the compiled object and accepted output to source fingerprint, preparation revision, exact-conservation version, phase scope and existing brand checks. A copied/forged object must not calculate. The isolated probe does not yet expose this full public result contract.
+8. Wire the unified physical-preparation entry once, so Wet Lab reuses generic discovery and preparation. No nitrate/copper/reagent branch and no UI restructuring.
+
+These are integration tasks still required, rather than claims that code has been promoted. Only after that integration and focused contract tests should the requested single repository-wide regression, build, artifact audit and lint run occur.

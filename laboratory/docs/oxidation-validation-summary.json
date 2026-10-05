@@ -1,0 +1,31 @@
+{
+  "gridCounts": {
+    "0": 422,
+    "2": 581,
+    "3": 1473,
+    "6": 89
+  },
+  "solverCounts": {
+    "requested": 2565,
+    "converged": 2565,
+    "failed": 0,
+    "notRun": 0
+  },
+  "durationMs": 8865.1223,
+  "maxResidual": 1.9949319973733282e-16,
+  "noMajority": 0,
+  "solidCarriers": {
+    "Fe(cr)": 422,
+    "Fe(OH)2(cr)": 49,
+    "Fe3O4(cr)": 92,
+    "Fe2O3(cr)": 1365
+  },
+  "protectedFiles": 178,
+  "changed": [],
+  "sourceHashes": {
+    "database": "9fa7db6f4a13a88073a0ca214c412690846674f6b3f442e336baf1586c45d245",
+    "goldens": "aefc0949b585ef290595088c8ed852a1eb591be25dff24563a44a2cf98d40960"
+  },
+  "finalTests": 440,
+  "focusedTests": 14
+}

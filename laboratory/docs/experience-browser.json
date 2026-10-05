@@ -1,0 +1,43 @@
+{
+  "samples": {
+    "FeSolid": {
+      "inspection": "Fe(III) · sample 454\nFe(III)\nFe₂O₃(cr) solid\n\n99.9981852% of total Fe carried by this species\n\nDissolved: 0.001814799279% of total Fe\n\nREFERENCE VALIDATED · Exact selected equilibrium shared with Beaker\nMap sample\n\npH 13.75 · Eh -0.65 V vs SHE · pe -10.98727426\nTotal Fe: 0.001 mol/kg H₂O\n\nOxidation-state inventory · denominator is total Fe\nFe(0)\t0% of total Fe\nFe(II)\t0.0005572334022% of total Fe\nFe(III)\t99.99944277% of total Fe\nFe(VI)\t1.373021132e-72% of total Fe\n\nPredominant: Fe(III) · Majority (>50%): yes · Tie: no\n\nDominant thermodynamic carrier: Fe₂O₃(cr) (solid)\n\nDissolved Fe: 1.814799279e-8 mol/kg H₂O\nAccepted solids: Fe₂O₃(cr): 0.000499990926 mol/kg H₂O\nWater context: inside water reference window\nSolver: converged · Unresolved Fe inventory: 0 mol/kg H₂O\n\nAqueous / acid-base forms and solid carriers\nExact fractions, carriers and provenance",
+      "inputId": "f4686977e4f079f93c0d6cbf9c4dde201f10ddf957573345bff07c654b2259b9",
+      "beakerInputId": "f4686977e4f079f93c0d6cbf9c4dde201f10ddf957573345bff07c654b2259b9"
+    },
+    "FeAqueous": {
+      "inspection": "Fe(III) · sample 2052\nFe(III)\nFe³⁺ aqueous\n\n74.37482728% of total Fe carried by this species\n\nDissolved: 100% of total Fe\n\nREFERENCE VALIDATED · Exact selected equilibrium shared with Beaker\nMap sample\n\npH 0 · Eh 0.8 V vs SHE · pe 13.52279909\nTotal Fe: 0.001 mol/kg H₂O\n\nOxidation-state inventory · denominator is total Fe\nFe(0)\t0% of total Fe\nFe(II)\t25.09729306% of total Fe\nFe(III)\t74.90270694% of total Fe\nFe(VI)\t6.915494432e-71% of total Fe\n\nPredominant: Fe(III) · Majority (>50%): yes · Tie: no\n\nDominant thermodynamic carrier: Fe³⁺ (aqueous)\n\nDissolved Fe: 0.001 mol/kg H₂O\nAccepted solids: none\nWater context: inside water reference window\nSolver: converged · Unresolved Fe inventory: 0 mol/kg H₂O\n\nAqueous / acid-base forms and solid carriers\nExact fractions, carriers and provenance",
+      "inputId": "99051fba6766e59484989596c5fdf1475462e65efa436879814781e97891b006",
+      "beakerInputId": "99051fba6766e59484989596c5fdf1475462e65efa436879814781e97891b006"
+    },
+    "CuReference": {
+      "inspection": "Cu(0) · sample 0\nCu(0)\nCu(cr) solid\n\n100% of total Cu carried by this species\n\nDissolved: 3.423742857e-20% of total Cu\n\nREFERENCE VALIDATED · Exact selected equilibrium shared with Beaker\nMap sample\n\npH 0 · Eh -1 V vs SHE · pe -16.90349886\nTotal Cu: 0.0001 mol/kg H₂O\n\nOxidation-state inventory · denominator is total Cu\nCu(0)\t100% of total Cu\nCu(I)\t3.423742857e-20% of total Cu\nCu(II)\t6.280616607e-40% of total Cu\n\nPredominant: Cu(0) · Majority (>50%): yes · Tie: no\n\nDominant thermodynamic carrier: Cu(cr) (solid)\n\nDissolved Cu: 3.423742857e-26 mol/kg H₂O\nAccepted solids: Cu(cr): 0.0001 mol/kg H₂O\nWater context: below H2 reference\nSolver: converged · Unresolved Cu inventory: 0 mol/kg H₂O\n\nAqueous / acid-base forms and solid carriers\nExact fractions, carriers and provenance",
+      "inputId": "5d8d59433eb215f8b9962a577ff465485570ffc3e529a3770f5428cd947cbf43",
+      "beakerInputId": "5d8d59433eb215f8b9962a577ff465485570ffc3e529a3770f5428cd947cbf43"
+    },
+    "CuChanged": {
+      "inspection": "Cu(0) · sample 0\nCu(0)\nCu(cr) solid\n\n100% of total Cu carried by this species\n\nDissolved: 1.37046405e-21% of total Cu\n\nCALCULATED / INTERNALLY VERIFIED · Exact selected equilibrium shared with Beaker\nMap sample\n\npH 2 · Eh -1.005715 V vs SHE · pe -17.00010236\nTotal Cu: 0.002 mol/kg H₂O\n\nOxidation-state inventory · denominator is total Cu\nCu(0)\t100% of total Cu\nCu(I)\t1.37046405e-21% of total Cu\nCu(II)\t2.012638453e-41% of total Cu\n\nPredominant: Cu(0) · Majority (>50%): yes · Tie: no\n\nDominant thermodynamic carrier: Cu(cr) (solid)\n\nDissolved Cu: 2.740928101e-26 mol/kg H₂O\nAccepted solids: Cu(cr): 0.002 mol/kg H₂O\nWater context: below H2 reference\nSolver: converged · Unresolved Cu inventory: 0 mol/kg H₂O\n\nAqueous / acid-base forms and solid carriers\nExact fractions, carriers and provenance",
+      "inputId": "2539b1222444698eb063142ff8964cf6ca08e5cc87cb377e977ad66b1abb2189",
+      "beakerInputId": "2539b1222444698eb063142ff8964cf6ca08e5cc87cb377e977ad66b1abb2189"
+    }
+  },
+  "layouts": [
+    {
+      "scrollWidth": 375,
+      "width": 390
+    },
+    {
+      "scrollWidth": 1085,
+      "width": 1100
+    },
+    {
+      "beakerTop": 2879.3984375,
+      "plotBottom": 2863.3984375,
+      "scrollWidth": 375,
+      "width": 390
+    }
+  ],
+  "keyboardIndex": "2053",
+  "uranium": "Redox component\nChoose a selected element\nU\nTotal U\nmol/kg H₂O · one total across all oxidation states\nX · pH\nMinimum\nMaximum\nSamples\nY · Eh vs SHE (V)\nMinimum\nMaximum\nSamples\n\nTemperature: 25 °C · Pressure: 1 bar declared · Activity: ideal. Fixed H⁺ / electron activities and a(H₂O)=1. H₂/O₂ reference overlays only; no gas inventory is solved.\n\nCHEMISTRY CONSTRUCTIBLE · METADATA PENDING\n\nThe equilibrium system can be constructed with its acid-base and carrier chemistry. Oxidation-state predominance is unavailable until authoritative allocation metadata and its support scope are reviewed.\n\n30 discovered carriers lack authoritative oxidation-state allocations.\nRedox system details / scientific scope\n\n4 source-connected redox forms share one analytical inventory. Separate oxidation-state totals are not imposed.\n\nCanonical basis: established · Oxidation-state inventory: unresolved\n\nIncluded solid candidates: U(cr), U3O7(cr), U3O8(cr), U4O9(cr), UH3(cr), UO2(am), UO2(cr), UO2(OH)2(cr), UO3·2H2O(cr). Included means eligible for equilibrium, not necessarily stable.\n\nExcluded candidates: none.\n\nUnsupported candidates: none.\n\nUnresolved carrier allocations: 30. (UO2)2(OH)2 2+, (UO2)2OH+3, (UO2)3(OH)4 2+, (UO2)3(OH)5+, (UO2)3(OH)7-, (UO2)4(OH)7+, U 3+, U 4+, U 4+, U 4+, U(cr), U(OH)4, U(OH)5-, U3O7(cr), U3O8(cr), U4O9(cr), UH3(cr), UO2 2+, UO2 2+, UO2(am), UO2(cr), UO2(OH)2, UO2(OH)2(cr), UO2(OH)3-, UO2(OH)4 2-, UO2+, UO2+, UO2OH+, UO3·2H2O(cr), UOH 3+\n\n184 source reactions require components outside this selected family.\n\nExact source identities, bridges and exclusions\n\nAn oxidation-state map requires complete, reviewed carrier allocations and supported conditions. The readiness disclosure does not enable an unsupported calculation.",
+  "errors": []
+}

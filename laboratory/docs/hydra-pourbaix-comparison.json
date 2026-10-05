@@ -1,0 +1,329 @@
+[
+  {
+    "name": "Fe 2+",
+    "prepared": true,
+    "systemId": "8ead3d660c3c240620da3c69fa3a4b55810695c1dce8216e166f9579043386a1",
+    "included": [
+      {
+        "id": "spana:2ac52a30213c9288:126513",
+        "name": "Fe 2+",
+        "phase": "aqueous",
+        "sourceReference": "NEA-Fe: Lemire R J, Berner U, Musikas C, Palmer D A, Taylor P, Tochiyama O, Chemical Thermodynamics of Iron. Part 1. Paris: OECD Nuclear Energy Agency (NEA), 2013"
+      },
+      {
+        "id": "spana:2ac52a30213c9288:126584",
+        "name": "Fe 3+",
+        "phase": "aqueous",
+        "sourceReference": "NEA-Fe: Lemire R J, Berner U, Musikas C, Palmer D A, Taylor P, Tochiyama O, Chemical Thermodynamics of Iron. Part 1. Paris: OECD Nuclear Energy Agency (NEA), 2013"
+      },
+      {
+        "id": "spana:2ac52a30213c9288:127500",
+        "name": "Fe(cr)",
+        "phase": "solid",
+        "sourceReference": "NEA-Fe: Lemire R J, Berner U, Musikas C, Palmer D A, Taylor P, Tochiyama O, Chemical Thermodynamics of Iron. Part 1. Paris: OECD Nuclear Energy Agency (NEA), 2013"
+      },
+      {
+        "id": "spana:2ac52a30213c9288:130813",
+        "name": "Fe(OH)2",
+        "phase": "aqueous",
+        "sourceReference": "1996BP-Fe: Beverskog B, Puigdomenech I; Corros. Sci. 38 (1996) 2121-2135"
+      },
+      {
+        "id": "spana:2ac52a30213c9288:130902",
+        "name": "Fe(OH)2(cr)",
+        "phase": "solid",
+        "sourceReference": "2016BE: Brown P L, Ekberg C; Hydrolysis of Metal Ions. Weinheim, Germany: Wiley-VCH Verlag GmbH & Co. KGaA, 2016\n\n91Kna/Kub: Knacke O, Kubaschewski O, Hesselmann K; Thermochemical Properties of Inorganic Substances. Springer-Verlag, Berlin, 1991, 2 ed."
+      },
+      {
+        "id": "spana:2ac52a30213c9288:131002",
+        "name": "Fe(OH)2+",
+        "phase": "aqueous",
+        "sourceReference": "NEA-Fe: Lemire R J, Berner U, Musikas C, Palmer D A, Taylor P, Tochiyama O, Chemical Thermodynamics of Iron. Part 1. Paris: OECD Nuclear Energy Agency (NEA), 2013\n\n1996BP-Fe: Beverskog B, Puigdomenech I; Corros. Sci. 38 (1996) 2121-2135"
+      },
+      {
+        "id": "spana:2ac52a30213c9288:131099",
+        "name": "Fe(OH)3",
+        "phase": "aqueous",
+        "sourceReference": "1996BP-Fe: Beverskog B, Puigdomenech I; Corros. Sci. 38 (1996) 2121-2135"
+      },
+      {
+        "id": "spana:2ac52a30213c9288:131188",
+        "name": "Fe(OH)3(am)",
+        "phase": "solid",
+        "sourceReference": "1990NP: Nordstrom D K, Plummer L N, Langmuir D, Busenberg E, May H M, Jones B F, Parkhurst D L; in \"Chemical Modeling Of Aqueous Systems II\" (D C Melchior and R L Basett, eds.). Washington, D.C.: A.C.S.Symp.Ser. 416, Amer.Chem.Soc., 1990, pp.398-413.\n\nNEA-Fe: Lemire R J, Berner U, Musikas C, Palmer D A, Taylor P, Tochiyama O, Chemical Thermodynamics of Iron. Part 1. Paris: OECD Nuclear Energy Agency (NEA), 2013"
+      },
+      {
+        "id": "spana:2ac52a30213c9288:131294",
+        "name": "Fe(OH)3(s)",
+        "phase": "solid",
+        "sourceReference": "NEA-Fe: Lemire R J, Berner U, Musikas C, Palmer D A, Taylor P, Tochiyama O, Chemical Thermodynamics of Iron. Part 1. Paris: OECD Nuclear Energy Agency (NEA), 2013"
+      },
+      {
+        "id": "spana:2ac52a30213c9288:131406",
+        "name": "Fe(OH)3-",
+        "phase": "aqueous",
+        "sourceReference": "1996BP-Fe: Beverskog B, Puigdomenech I; Corros. Sci. 38 (1996) 2121-2135"
+      },
+      {
+        "id": "spana:2ac52a30213c9288:131496",
+        "name": "Fe(OH)4-",
+        "phase": "aqueous",
+        "sourceReference": "1996BP-Fe: Beverskog B, Puigdomenech I; Corros. Sci. 38 (1996) 2121-2135"
+      },
+      {
+        "id": "spana:2ac52a30213c9288:131586",
+        "name": "Fe(OH)4-2",
+        "phase": "aqueous",
+        "sourceReference": "1996BP-Fe: Beverskog B, Puigdomenech I; Corros. Sci. 38 (1996) 2121-2135"
+      },
+      {
+        "id": "spana:2ac52a30213c9288:133463",
+        "name": "Fe2(OH)2+4",
+        "phase": "aqueous",
+        "sourceReference": "NEA-Fe: Lemire R J, Berner U, Musikas C, Palmer D A, Taylor P, Tochiyama O, Chemical Thermodynamics of Iron. Part 1. Paris: OECD Nuclear Energy Agency (NEA), 2013"
+      },
+      {
+        "id": "spana:2ac52a30213c9288:133739",
+        "name": "Fe2O3(cr)",
+        "phase": "solid",
+        "sourceReference": "NEA-Fe: Lemire R J, Berner U, Musikas C, Palmer D A, Taylor P, Tochiyama O, Chemical Thermodynamics of Iron. Part 1. Paris: OECD Nuclear Energy Agency (NEA), 2013"
+      },
+      {
+        "id": "spana:2ac52a30213c9288:134486",
+        "name": "Fe3O4(cr)",
+        "phase": "solid",
+        "sourceReference": "NEA-Fe: Lemire R J, Berner U, Musikas C, Palmer D A, Taylor P, Tochiyama O, Chemical Thermodynamics of Iron. Part 1. Paris: OECD Nuclear Energy Agency (NEA), 2013"
+      },
+      {
+        "id": "spana:2ac52a30213c9288:138672",
+        "name": "FeO4-2",
+        "phase": "aqueous",
+        "sourceReference": "1996BP-Fe: Beverskog B, Puigdomenech I; Corros. Sci. 38 (1996) 2121-2135"
+      },
+      {
+        "id": "spana:2ac52a30213c9288:138873",
+        "name": "FeOH 2+",
+        "phase": "aqueous",
+        "sourceReference": "NEA-Fe: Lemire R J, Berner U, Musikas C, Palmer D A, Taylor P, Tochiyama O, Chemical Thermodynamics of Iron. Part 1. Paris: OECD Nuclear Energy Agency (NEA), 2013\n\n1996BP-Fe: Beverskog B, Puigdomenech I; Corros. Sci. 38 (1996) 2121-2135"
+      },
+      {
+        "id": "spana:2ac52a30213c9288:138969",
+        "name": "FeOH+",
+        "phase": "aqueous",
+        "sourceReference": "NEA-Fe: Lemire R J, Berner U, Musikas C, Palmer D A, Taylor P, Tochiyama O, Chemical Thermodynamics of Iron. Part 1. Paris: OECD Nuclear Energy Agency (NEA), 2013\n\n1996BP-Fe: Beverskog B, Puigdomenech I; Corros. Sci. 38 (1996) 2121-2135"
+      },
+      {
+        "id": "spana:2ac52a30213c9288:139276",
+        "name": "FeOOH(cr)",
+        "phase": "solid",
+        "sourceReference": "NEA-Fe: Lemire R J, Berner U, Musikas C, Palmer D A, Taylor P, Tochiyama O, Chemical Thermodynamics of Iron. Part 1. Paris: OECD Nuclear Energy Agency (NEA), 2013"
+      }
+    ],
+    "missingFromSearch": [
+      {
+        "id": "spana:2ac52a30213c9288:126513",
+        "name": "Fe 2+",
+        "phase": "aqueous",
+        "sourceReference": "NEA-Fe: Lemire R J, Berner U, Musikas C, Palmer D A, Taylor P, Tochiyama O, Chemical Thermodynamics of Iron. Part 1. Paris: OECD Nuclear Energy Agency (NEA), 2013"
+      }
+    ],
+    "additionalSearch": [
+      {
+        "id": "spana:2ac52a30213c9288:132744",
+        "name": "Fe0.932O(cr)",
+        "phase": "solid"
+      },
+      {
+        "id": "spana:2ac52a30213c9288:151381",
+        "name": "H2",
+        "phase": "aqueous"
+      },
+      {
+        "id": "spana:2ac52a30213c9288:151531",
+        "name": "H2(g)",
+        "phase": "gas"
+      },
+      {
+        "id": "spana:2ac52a30213c9288:152743",
+        "name": "H2O2",
+        "phase": "aqueous"
+      },
+      {
+        "id": "spana:2ac52a30213c9288:249989",
+        "name": "O2",
+        "phase": "aqueous"
+      },
+      {
+        "id": "spana:2ac52a30213c9288:250070",
+        "name": "O2(g)",
+        "phase": "gas"
+      },
+      {
+        "id": "spana:2ac52a30213c9288:250161",
+        "name": "O3",
+        "phase": "aqueous"
+      },
+      {
+        "id": "spana:2ac52a30213c9288:250265",
+        "name": "O3(g)",
+        "phase": "gas"
+      },
+      {
+        "id": "spana:2ac52a30213c9288:250448",
+        "name": "OH-",
+        "phase": "aqueous"
+      },
+      {
+        "id": "spana:2ac52a30213c9288:175307",
+        "name": "HO2-",
+        "phase": "aqueous"
+      }
+    ]
+  },
+  {
+    "name": "Cu+",
+    "prepared": true,
+    "systemId": "fa745a9d951a38cac972a421932facd4634655ad14203aec20dd7feb9ed47a05",
+    "included": [
+      {
+        "id": "spana:2ac52a30213c9288:97858",
+        "name": "Cu 2+",
+        "phase": "aqueous",
+        "sourceReference": "1997BP-Cu: Beverskog B, Puigdomenech I; J. Electrochem. Soc., 144 (1997) 3476-3483"
+      },
+      {
+        "id": "spana:2ac52a30213c9288:98874",
+        "name": "Cu(cr)",
+        "phase": "solid",
+        "sourceReference": "2000PT: Puigdomenech I, Taxén C; Thermodynamic data for copper. Implications for the corrosion of copper under repository conditions. Report SKB-TR-00-13. Stockholm, Sweden: Swedish Nuclear Fuel and Waste Management Co. (SKB), 2000"
+      },
+      {
+        "id": "spana:2ac52a30213c9288:102305",
+        "name": "Cu(OH)2",
+        "phase": "aqueous",
+        "sourceReference": "1997BP-Cu: Beverskog B, Puigdomenech I; J. Electrochem. Soc., 144 (1997) 3476-3483"
+      },
+      {
+        "id": "spana:2ac52a30213c9288:102394",
+        "name": "Cu(OH)2(cr)",
+        "phase": "solid",
+        "sourceReference": "2000PT: Puigdomenech I, Taxén C; Thermodynamic data for copper. Implications for the corrosion of copper under repository conditions. Report SKB-TR-00-13. Stockholm, Sweden: Swedish Nuclear Fuel and Waste Management Co. (SKB), 2000"
+      },
+      {
+        "id": "spana:2ac52a30213c9288:102484",
+        "name": "Cu(OH)2-",
+        "phase": "aqueous",
+        "sourceReference": "1997BP-Cu: Beverskog B, Puigdomenech I; J. Electrochem. Soc., 144 (1997) 3476-3483"
+      },
+      {
+        "id": "spana:2ac52a30213c9288:102572",
+        "name": "Cu(OH)3-",
+        "phase": "aqueous",
+        "sourceReference": "1997BP-Cu: Beverskog B, Puigdomenech I; J. Electrochem. Soc., 144 (1997) 3476-3483"
+      },
+      {
+        "id": "spana:2ac52a30213c9288:102662",
+        "name": "Cu(OH)4-2",
+        "phase": "aqueous",
+        "sourceReference": "1997BP-Cu: Beverskog B, Puigdomenech I; J. Electrochem. Soc., 144 (1997) 3476-3483"
+      },
+      {
+        "id": "spana:2ac52a30213c9288:103398",
+        "name": "Cu+",
+        "phase": "aqueous",
+        "sourceReference": "1997BP-Cu: Beverskog B, Puigdomenech I; J. Electrochem. Soc., 144 (1997) 3476-3483"
+      },
+      {
+        "id": "spana:2ac52a30213c9288:104107",
+        "name": "Cu2(OH)2+2",
+        "phase": "aqueous",
+        "sourceReference": "1997BP-Cu: Beverskog B, Puigdomenech I; J. Electrochem. Soc., 144 (1997) 3476-3483"
+      },
+      {
+        "id": "spana:2ac52a30213c9288:104641",
+        "name": "Cu2O(cr)",
+        "phase": "solid",
+        "sourceReference": "2000PT: Puigdomenech I, Taxén C; Thermodynamic data for copper. Implications for the corrosion of copper under repository conditions. Report SKB-TR-00-13. Stockholm, Sweden: Swedish Nuclear Fuel and Waste Management Co. (SKB), 2000"
+      },
+      {
+        "id": "spana:2ac52a30213c9288:105296",
+        "name": "Cu3(OH)4+2",
+        "phase": "aqueous",
+        "sourceReference": "1997BP-Cu: Beverskog B, Puigdomenech I; J. Electrochem. Soc., 144 (1997) 3476-3483"
+      },
+      {
+        "id": "spana:2ac52a30213c9288:110778",
+        "name": "CuO(cr)",
+        "phase": "solid",
+        "sourceReference": "2000PT: Puigdomenech I, Taxén C; Thermodynamic data for copper. Implications for the corrosion of copper under repository conditions. Report SKB-TR-00-13. Stockholm, Sweden: Swedish Nuclear Fuel and Waste Management Co. (SKB), 2000"
+      },
+      {
+        "id": "spana:2ac52a30213c9288:110864",
+        "name": "CuOH",
+        "phase": "aqueous",
+        "sourceReference": "1997BP-Cu: Beverskog B, Puigdomenech I; J. Electrochem. Soc., 144 (1997) 3476-3483"
+      },
+      {
+        "id": "spana:2ac52a30213c9288:110948",
+        "name": "CuOH+",
+        "phase": "aqueous",
+        "sourceReference": "1997BP-Cu: Beverskog B, Puigdomenech I; J. Electrochem. Soc., 144 (1997) 3476-3483"
+      }
+    ],
+    "missingFromSearch": [
+      {
+        "id": "spana:2ac52a30213c9288:103398",
+        "name": "Cu+",
+        "phase": "aqueous",
+        "sourceReference": "1997BP-Cu: Beverskog B, Puigdomenech I; J. Electrochem. Soc., 144 (1997) 3476-3483"
+      }
+    ],
+    "additionalSearch": [
+      {
+        "id": "spana:2ac52a30213c9288:151381",
+        "name": "H2",
+        "phase": "aqueous"
+      },
+      {
+        "id": "spana:2ac52a30213c9288:151531",
+        "name": "H2(g)",
+        "phase": "gas"
+      },
+      {
+        "id": "spana:2ac52a30213c9288:152743",
+        "name": "H2O2",
+        "phase": "aqueous"
+      },
+      {
+        "id": "spana:2ac52a30213c9288:249989",
+        "name": "O2",
+        "phase": "aqueous"
+      },
+      {
+        "id": "spana:2ac52a30213c9288:250070",
+        "name": "O2(g)",
+        "phase": "gas"
+      },
+      {
+        "id": "spana:2ac52a30213c9288:250161",
+        "name": "O3",
+        "phase": "aqueous"
+      },
+      {
+        "id": "spana:2ac52a30213c9288:250265",
+        "name": "O3(g)",
+        "phase": "gas"
+      },
+      {
+        "id": "spana:2ac52a30213c9288:250448",
+        "name": "OH-",
+        "phase": "aqueous"
+      },
+      {
+        "id": "spana:2ac52a30213c9288:175307",
+        "name": "HO2-",
+        "phase": "aqueous"
+      }
+    ]
+  }
+]

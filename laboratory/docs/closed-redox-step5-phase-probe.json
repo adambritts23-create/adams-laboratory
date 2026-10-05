@@ -1,0 +1,122 @@
+[
+  {
+    "id": "spana:2ac52a30213c9288:82236",
+    "name": "Cl2",
+    "phase": "aqueous",
+    "logQ": -25.776207792951315
+  },
+  {
+    "id": "spana:2ac52a30213c9288:82314",
+    "name": "Cl2(g)",
+    "phase": "gas",
+    "logQ": -24.566207792951314
+  },
+  {
+    "id": "spana:2ac52a30213c9288:82394",
+    "name": "ClO-",
+    "phase": "aqueous",
+    "logQ": -30.51767553019511
+  },
+  {
+    "id": "spana:2ac52a30213c9288:82497",
+    "name": "ClO2(aq)",
+    "phase": "aqueous",
+    "logQ": -57.55889346266957
+  },
+  {
+    "id": "spana:2ac52a30213c9288:82605",
+    "name": "ClO2-",
+    "phase": "aqueous",
+    "logQ": -51.06657031329208
+  },
+  {
+    "id": "spana:2ac52a30213c9288:82715",
+    "name": "ClO3-",
+    "phase": "aqueous",
+    "logQ": -59.989465096389054
+  },
+  {
+    "id": "spana:2ac52a30213c9288:127500",
+    "name": "Fe(cr)",
+    "phase": "solid",
+    "logQ": -47.60855103345702
+  },
+  {
+    "id": "spana:2ac52a30213c9288:130902",
+    "name": "Fe(OH)2(cr)",
+    "phase": "solid",
+    "logQ": -14.601445816553985
+  },
+  {
+    "id": "spana:2ac52a30213c9288:131188",
+    "name": "Fe(OH)3(am)",
+    "phase": "solid",
+    "logQ": -5.543893208102466
+  },
+  {
+    "id": "spana:2ac52a30213c9288:131294",
+    "name": "Fe(OH)3(s)",
+    "phase": "solid",
+    "logQ": -4.073893208102465
+  },
+  {
+    "id": "spana:2ac52a30213c9288:132744",
+    "name": "Fe0.932O(cr)",
+    "phase": "solid",
+    "logQ": -13.651584346278907
+  },
+  {
+    "id": "spana:2ac52a30213c9288:133739",
+    "name": "Fe2O3(cr)",
+    "phase": "solid",
+    "logQ": -1.1867864162049306
+  },
+  {
+    "id": "spana:2ac52a30213c9288:134486",
+    "name": "Fe3O4(cr)",
+    "phase": "solid",
+    "logQ": -13.928232232758916
+  },
+  {
+    "id": "spana:2ac52a30213c9288:138772",
+    "name": "FeOCl(cr)",
+    "phase": "solid",
+    "logQ": -9.195549713029642
+  },
+  {
+    "id": "spana:2ac52a30213c9288:139276",
+    "name": "FeOOH(cr)",
+    "phase": "solid",
+    "logQ": -0.8138932081024653
+  },
+  {
+    "id": "spana:2ac52a30213c9288:151531",
+    "name": "H2(g)",
+    "phase": "gas",
+    "logQ": -29.417105216903035
+  },
+  {
+    "id": "spana:2ac52a30213c9288:159101",
+    "name": "HClO",
+    "phase": "aqueous",
+    "logQ": -25.098551288024144
+  },
+  {
+    "id": "spana:2ac52a30213c9288:159212",
+    "name": "HClO2",
+    "phase": "aqueous",
+    "logQ": -51.0774460711211
+  },
+  {
+    "id": "spana:2ac52a30213c9288:250070",
+    "name": "O2(g)",
+    "phase": "gas",
+    "logQ": -24.255789566193933
+  },
+  {
+    "id": "spana:2ac52a30213c9288:250265",
+    "name": "O3(g)",
+    "phase": "gas",
+    "logQ": -64.97868434929089
+  }
+]

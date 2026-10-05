@@ -1,0 +1,1369 @@
+{
+  "request": {
+    "revision": 0,
+    "temperatureC": 25,
+    "pressureBar": 1,
+    "activityModel": "ideal",
+    "unit": "mol/kg-H2O",
+    "sourceFingerprint": "5fece8b93a3a1fa9a845c73a775c21d0a323dd3853aebb8cb5efdd664943f68c",
+    "phases": [
+      "aqueous",
+      "pure-solids"
+    ],
+    "solvent": "unit-water-activity",
+    "boundary": "closed-physical",
+    "selectedIds": [
+      "component:Fe%202%2B",
+      "component:CrO4%202-",
+      "component:K%2B",
+      "component:Cl-",
+      "component:H%2B",
+      "component:H2O"
+    ],
+    "amounts": {
+      "component:Fe%202%2B": 0.000006,
+      "component:CrO4%202-": 0.000002,
+      "component:K%2B": 0.000002,
+      "component:Cl-": 0.010012,
+      "component:H%2B": 0.010002
+    }
+  },
+  "diagnostics": [
+    {
+      "code": "solid-network-capacity-exceeded",
+      "message": "The existing candidate/species/reaction bounds cannot be exceeded."
+    }
+  ],
+  "captured": {
+    "sourceSpecies": 55,
+    "sourceReactions": 51,
+    "solids": [
+      {
+        "id": "spana:2ac52a30213c9288:92135",
+        "name": "Cr(cr)",
+        "phase": "solid",
+        "reference": "1997BP-Cr: Beverskog B, Puigdomenech I; Corrosion Science 39 (1997) 43-57",
+        "terms": [
+          {
+            "name": "Cr 3+",
+            "coefficient": 1
+          },
+          {
+            "name": "e-",
+            "coefficient": 3
+          }
+        ],
+        "logK": -37.67,
+        "classification": "admitted-pure-solid",
+        "reason": "Source-bound neutral integer pure-solid law; presence determined only by coupled equilibrium",
+        "elements": {
+          "Cr": 1
+        },
+        "charge": 0,
+        "coefficients": [
+          1.9999999999999998,
+          0,
+          -0.9999999999999998,
+          0,
+          0,
+          -5.999999999999999,
+          2
+        ],
+        "logBeta": -106.9,
+        "role": "ordinary",
+        "sourceIdentity": {
+          "id": "spana:2ac52a30213c9288:92135",
+          "reference": "1997BP-Cr: Beverskog B, Puigdomenech I; Corrosion Science 39 (1997) 43-57",
+          "terms": [
+            {
+              "name": "Cr 3+",
+              "coefficient": 1
+            },
+            {
+              "name": "e-",
+              "coefficient": 3
+            }
+          ],
+          "logK": -37.67,
+          "scope": "source-pure-solids-v2"
+        }
+      },
+      {
+        "id": "spana:2ac52a30213c9288:93513",
+        "name": "Cr(OH)2(s)",
+        "phase": "solid",
+        "reference": "1997BP-Cr: Beverskog B, Puigdomenech I; Corrosion Science 39 (1997) 43-57",
+        "terms": [
+          {
+            "name": "Cr 2+",
+            "coefficient": 1
+          },
+          {
+            "name": "H+",
+            "coefficient": -2
+          },
+          {
+            "name": "H2O",
+            "coefficient": 2
+          }
+        ],
+        "logK": -10.99,
+        "classification": "admitted-pure-solid",
+        "reason": "Source-bound neutral integer pure-solid law; presence determined only by coupled equilibrium",
+        "elements": {
+          "Cr": 1,
+          "H": 2,
+          "O": 2
+        },
+        "charge": 0,
+        "coefficients": [
+          1.3333333333333333,
+          0,
+          -0.33333333333333326,
+          0,
+          0,
+          -3.333333333333333,
+          2
+        ],
+        "logBeta": -38.876333333333335,
+        "role": "ordinary",
+        "sourceIdentity": {
+          "id": "spana:2ac52a30213c9288:93513",
+          "reference": "1997BP-Cr: Beverskog B, Puigdomenech I; Corrosion Science 39 (1997) 43-57",
+          "terms": [
+            {
+              "name": "Cr 2+",
+              "coefficient": 1
+            },
+            {
+              "name": "H+",
+              "coefficient": -2
+            },
+            {
+              "name": "H2O",
+              "coefficient": 2
+            }
+          ],
+          "logK": -10.99,
+          "scope": "source-pure-solids-v2"
+        }
+      },
+      {
+        "id": "spana:2ac52a30213c9288:93784",
+        "name": "Cr(OH)3(am)",
+        "phase": "solid",
+        "reference": "76Bae/Mes: Baes C. F., Jr., Mesmer R. E.,\nThe Hydrolysis of Cations. New York: J. Wiley & Sons, 1976",
+        "terms": [
+          {
+            "name": "Cr 3+",
+            "coefficient": 1
+          },
+          {
+            "name": "H+",
+            "coefficient": -3
+          },
+          {
+            "name": "H2O",
+            "coefficient": 3
+          }
+        ],
+        "logK": -12,
+        "classification": "admitted-pure-solid",
+        "reason": "Source-bound neutral integer pure-solid law; presence determined only by coupled equilibrium",
+        "elements": {
+          "Cr": 1,
+          "H": 3,
+          "O": 3
+        },
+        "charge": 0,
+        "coefficients": [
+          1,
+          0,
+          0,
+          0,
+          0,
+          -2,
+          2
+        ],
+        "logBeta": -8.440000000000005,
+        "role": "ordinary",
+        "sourceIdentity": {
+          "id": "spana:2ac52a30213c9288:93784",
+          "reference": "76Bae/Mes: Baes C. F., Jr., Mesmer R. E.,\nThe Hydrolysis of Cations. New York: J. Wiley & Sons, 1976",
+          "terms": [
+            {
+              "name": "Cr 3+",
+              "coefficient": 1
+            },
+            {
+              "name": "H+",
+              "coefficient": -3
+            },
+            {
+              "name": "H2O",
+              "coefficient": 3
+            }
+          ],
+          "logK": -12,
+          "scope": "source-pure-solids-v2"
+        }
+      },
+      {
+        "id": "spana:2ac52a30213c9288:93877",
+        "name": "Cr(OH)3(cr)",
+        "phase": "solid",
+        "reference": "1997BP-Cr: Beverskog B, Puigdomenech I; Corrosion Science 39 (1997) 43-57",
+        "terms": [
+          {
+            "name": "Cr 3+",
+            "coefficient": 1
+          },
+          {
+            "name": "H+",
+            "coefficient": -3
+          },
+          {
+            "name": "H2O",
+            "coefficient": 3
+          }
+        ],
+        "logK": -9.33,
+        "classification": "admitted-pure-solid",
+        "reason": "Source-bound neutral integer pure-solid law; presence determined only by coupled equilibrium",
+        "elements": {
+          "Cr": 1,
+          "H": 3,
+          "O": 3
+        },
+        "charge": 0,
+        "coefficients": [
+          1,
+          0,
+          0,
+          0,
+          0,
+          -2,
+          2
+        ],
+        "logBeta": -5.770000000000005,
+        "role": "ordinary",
+        "sourceIdentity": {
+          "id": "spana:2ac52a30213c9288:93877",
+          "reference": "1997BP-Cr: Beverskog B, Puigdomenech I; Corrosion Science 39 (1997) 43-57",
+          "terms": [
+            {
+              "name": "Cr 3+",
+              "coefficient": 1
+            },
+            {
+              "name": "H+",
+              "coefficient": -3
+            },
+            {
+              "name": "H2O",
+              "coefficient": 3
+            }
+          ],
+          "logK": -9.33,
+          "scope": "source-pure-solids-v2"
+        }
+      },
+      {
+        "id": "spana:2ac52a30213c9288:94801",
+        "name": "Cr2O3(cr)",
+        "phase": "solid",
+        "reference": "1997BP-Cr: Beverskog B, Puigdomenech I; Corrosion Science 39 (1997) 43-57",
+        "terms": [
+          {
+            "name": "Cr 3+",
+            "coefficient": 2
+          },
+          {
+            "name": "H+",
+            "coefficient": -6
+          },
+          {
+            "name": "H2O",
+            "coefficient": 3
+          }
+        ],
+        "logK": -15.48,
+        "classification": "admitted-pure-solid",
+        "reason": "Source-bound neutral integer pure-solid law; presence determined only by coupled equilibrium",
+        "elements": {
+          "Cr": 2,
+          "O": 3
+        },
+        "charge": 0,
+        "coefficients": [
+          2,
+          0,
+          0,
+          0,
+          0,
+          -4,
+          1
+        ],
+        "logBeta": -8.36000000000001,
+        "role": "ordinary",
+        "sourceIdentity": {
+          "id": "spana:2ac52a30213c9288:94801",
+          "reference": "1997BP-Cr: Beverskog B, Puigdomenech I; Corrosion Science 39 (1997) 43-57",
+          "terms": [
+            {
+              "name": "Cr 3+",
+              "coefficient": 2
+            },
+            {
+              "name": "H+",
+              "coefficient": -6
+            },
+            {
+              "name": "H2O",
+              "coefficient": 3
+            }
+          ],
+          "logK": -15.48,
+          "scope": "source-pure-solids-v2"
+        }
+      },
+      {
+        "id": "spana:2ac52a30213c9288:95613",
+        "name": "CrH(s)",
+        "phase": "solid",
+        "reference": "1997BP-Cr: Beverskog B, Puigdomenech I; Corrosion Science 39 (1997) 43-57",
+        "terms": [
+          {
+            "name": "Cr 3+",
+            "coefficient": 1
+          },
+          {
+            "name": "H+",
+            "coefficient": 1
+          },
+          {
+            "name": "e-",
+            "coefficient": 4
+          }
+        ],
+        "logK": -39.2,
+        "classification": "admitted-pure-solid",
+        "reason": "Source-bound neutral integer pure-solid law; presence determined only by coupled equilibrium",
+        "elements": {
+          "Cr": 1,
+          "H": 1
+        },
+        "charge": 0,
+        "coefficients": [
+          2.333333333333333,
+          0,
+          -1.333333333333333,
+          0,
+          0,
+          -7.333333333333332,
+          3
+        ],
+        "logBeta": -132.69333333333336,
+        "role": "ordinary",
+        "sourceIdentity": {
+          "id": "spana:2ac52a30213c9288:95613",
+          "reference": "1997BP-Cr: Beverskog B, Puigdomenech I; Corrosion Science 39 (1997) 43-57",
+          "terms": [
+            {
+              "name": "Cr 3+",
+              "coefficient": 1
+            },
+            {
+              "name": "H+",
+              "coefficient": 1
+            },
+            {
+              "name": "e-",
+              "coefficient": 4
+            }
+          ],
+          "logK": -39.2,
+          "scope": "source-pure-solids-v2"
+        }
+      },
+      {
+        "id": "spana:2ac52a30213c9288:95947",
+        "name": "CrO2(cr)",
+        "phase": "solid",
+        "reference": "1997BP-Cr: Beverskog B, Puigdomenech I; Corrosion Science 39 (1997) 43-57",
+        "terms": [
+          {
+            "name": "Cr 3+",
+            "coefficient": 1
+          },
+          {
+            "name": "H+",
+            "coefficient": -4
+          },
+          {
+            "name": "e-",
+            "coefficient": -1
+          },
+          {
+            "name": "H2O",
+            "coefficient": 2
+          }
+        ],
+        "logK": -24.75,
+        "classification": "admitted-pure-solid",
+        "reason": "Source-bound neutral integer pure-solid law; presence determined only by coupled equilibrium",
+        "elements": {
+          "Cr": 1,
+          "O": 2
+        },
+        "charge": 0,
+        "coefficients": [
+          0.6666666666666667,
+          0,
+          0.33333333333333326,
+          0,
+          0,
+          -0.666666666666667,
+          0
+        ],
+        "logBeta": 3.0733333333333306,
+        "role": "ordinary",
+        "sourceIdentity": {
+          "id": "spana:2ac52a30213c9288:95947",
+          "reference": "1997BP-Cr: Beverskog B, Puigdomenech I; Corrosion Science 39 (1997) 43-57",
+          "terms": [
+            {
+              "name": "Cr 3+",
+              "coefficient": 1
+            },
+            {
+              "name": "H+",
+              "coefficient": -4
+            },
+            {
+              "name": "e-",
+              "coefficient": -1
+            },
+            {
+              "name": "H2O",
+              "coefficient": 2
+            }
+          ],
+          "logK": -24.75,
+          "scope": "source-pure-solids-v2"
+        }
+      },
+      {
+        "id": "spana:2ac52a30213c9288:96049",
+        "name": "CrO3(cr)",
+        "phase": "solid",
+        "reference": "1997BP-Cr: Beverskog B, Puigdomenech I; Corrosion Science 39 (1997) 43-57",
+        "terms": [
+          {
+            "name": "H+",
+            "coefficient": 2
+          },
+          {
+            "name": "CrO4 2-",
+            "coefficient": 1
+          },
+          {
+            "name": "H2O",
+            "coefficient": -1
+          }
+        ],
+        "logK": 3.4,
+        "classification": "admitted-pure-solid",
+        "reason": "Source-bound neutral integer pure-solid law; presence determined only by coupled equilibrium",
+        "elements": {
+          "Cr": 1,
+          "O": 3
+        },
+        "charge": 0,
+        "coefficients": [
+          0,
+          0,
+          1,
+          0,
+          0,
+          2,
+          -1
+        ],
+        "logBeta": 3.4,
+        "role": "ordinary",
+        "sourceIdentity": {
+          "id": "spana:2ac52a30213c9288:96049",
+          "reference": "1997BP-Cr: Beverskog B, Puigdomenech I; Corrosion Science 39 (1997) 43-57",
+          "terms": [
+            {
+              "name": "H+",
+              "coefficient": 2
+            },
+            {
+              "name": "CrO4 2-",
+              "coefficient": 1
+            },
+            {
+              "name": "H2O",
+              "coefficient": -1
+            }
+          ],
+          "logK": 3.4,
+          "scope": "source-pure-solids-v2"
+        }
+      },
+      {
+        "id": "spana:2ac52a30213c9288:127500",
+        "name": "Fe(cr)",
+        "phase": "solid",
+        "reference": "NEA-Fe: Lemire R J, Berner U, Musikas C, Palmer D A, Taylor P, Tochiyama O, Chemical Thermodynamics of Iron. Part 1. Paris: OECD Nuclear Energy Agency (NEA), 2013",
+        "terms": [
+          {
+            "name": "Fe 2+",
+            "coefficient": 1
+          },
+          {
+            "name": "e-",
+            "coefficient": 2
+          }
+        ],
+        "logK": -15.89,
+        "classification": "admitted-pure-solid",
+        "reason": "Source-bound neutral integer pure-solid law; presence determined only by coupled equilibrium",
+        "elements": {
+          "Fe": 1
+        },
+        "charge": 0,
+        "coefficients": [
+          0.6666666666666665,
+          0,
+          -0.6666666666666665,
+          1,
+          0,
+          -4.666666666666666,
+          2
+        ],
+        "logBeta": -64.41666666666667,
+        "role": "ordinary",
+        "sourceIdentity": {
+          "id": "spana:2ac52a30213c9288:127500",
+          "reference": "NEA-Fe: Lemire R J, Berner U, Musikas C, Palmer D A, Taylor P, Tochiyama O, Chemical Thermodynamics of Iron. Part 1. Paris: OECD Nuclear Energy Agency (NEA), 2013",
+          "terms": [
+            {
+              "name": "Fe 2+",
+              "coefficient": 1
+            },
+            {
+              "name": "e-",
+              "coefficient": 2
+            }
+          ],
+          "logK": -15.89,
+          "scope": "source-pure-solids-v2"
+        }
+      },
+      {
+        "id": "spana:2ac52a30213c9288:130902",
+        "name": "Fe(OH)2(cr)",
+        "phase": "solid",
+        "reference": "2016BE: Brown P L, Ekberg C; Hydrolysis of Metal Ions. Weinheim, Germany: Wiley-VCH Verlag GmbH & Co. KGaA, 2016\n\n91Kna/Kub: Knacke O, Kubaschewski O, Hesselmann K; Thermochemical Properties of Inorganic Substances. Springer-Verlag, Berlin, 1991, 2 ed.",
+        "terms": [
+          {
+            "name": "Fe 2+",
+            "coefficient": 1
+          },
+          {
+            "name": "H+",
+            "coefficient": -2
+          },
+          {
+            "name": "H2O",
+            "coefficient": 2
+          }
+        ],
+        "logK": -12.3,
+        "classification": "admitted-pure-solid",
+        "reason": "Source-bound neutral integer pure-solid law; presence determined only by coupled equilibrium",
+        "elements": {
+          "Fe": 1,
+          "H": 2,
+          "O": 2
+        },
+        "charge": 0,
+        "coefficients": [
+          0,
+          0,
+          0,
+          1,
+          0,
+          -2,
+          2
+        ],
+        "logBeta": -12.3,
+        "role": "ordinary",
+        "sourceIdentity": {
+          "id": "spana:2ac52a30213c9288:130902",
+          "reference": "2016BE: Brown P L, Ekberg C; Hydrolysis of Metal Ions. Weinheim, Germany: Wiley-VCH Verlag GmbH & Co. KGaA, 2016\n\n91Kna/Kub: Knacke O, Kubaschewski O, Hesselmann K; Thermochemical Properties of Inorganic Substances. Springer-Verlag, Berlin, 1991, 2 ed.",
+          "terms": [
+            {
+              "name": "Fe 2+",
+              "coefficient": 1
+            },
+            {
+              "name": "H+",
+              "coefficient": -2
+            },
+            {
+              "name": "H2O",
+              "coefficient": 2
+            }
+          ],
+          "logK": -12.3,
+          "scope": "source-pure-solids-v2"
+        }
+      },
+      {
+        "id": "spana:2ac52a30213c9288:131188",
+        "name": "Fe(OH)3(am)",
+        "phase": "solid",
+        "reference": "1990NP: Nordstrom D K, Plummer L N, Langmuir D, Busenberg E, May H M, Jones B F, Parkhurst D L; in \"Chemical Modeling Of Aqueous Systems II\" (D C Melchior and R L Basett, eds.). Washington, D.C.: A.C.S.Symp.Ser. 416, Amer.Chem.Soc., 1990, pp.398-413.\n\nNEA-Fe: Lemire R J, Berner U, Musikas C, Palmer D A, Taylor P, Tochiyama O, Chemical Thermodynamics of Iron. Part 1. Paris: OECD Nuclear Energy Agency (NEA), 2013",
+        "terms": [
+          {
+            "name": "Fe 3+",
+            "coefficient": 1
+          },
+          {
+            "name": "H+",
+            "coefficient": -3
+          },
+          {
+            "name": "H2O",
+            "coefficient": 3
+          }
+        ],
+        "logK": -4.9,
+        "classification": "admitted-pure-solid",
+        "reason": "Source-bound neutral integer pure-solid law; presence determined only by coupled equilibrium",
+        "elements": {
+          "Fe": 1,
+          "H": 3,
+          "O": 3
+        },
+        "charge": 0,
+        "coefficients": [
+          -0.3333333333333332,
+          0,
+          0.33333333333333315,
+          1,
+          0,
+          -0.6666666666666665,
+          2
+        ],
+        "logBeta": 6.312333333333326,
+        "role": "ordinary",
+        "sourceIdentity": {
+          "id": "spana:2ac52a30213c9288:131188",
+          "reference": "1990NP: Nordstrom D K, Plummer L N, Langmuir D, Busenberg E, May H M, Jones B F, Parkhurst D L; in \"Chemical Modeling Of Aqueous Systems II\" (D C Melchior and R L Basett, eds.). Washington, D.C.: A.C.S.Symp.Ser. 416, Amer.Chem.Soc., 1990, pp.398-413.\n\nNEA-Fe: Lemire R J, Berner U, Musikas C, Palmer D A, Taylor P, Tochiyama O, Chemical Thermodynamics of Iron. Part 1. Paris: OECD Nuclear Energy Agency (NEA), 2013",
+          "terms": [
+            {
+              "name": "Fe 3+",
+              "coefficient": 1
+            },
+            {
+              "name": "H+",
+              "coefficient": -3
+            },
+            {
+              "name": "H2O",
+              "coefficient": 3
+            }
+          ],
+          "logK": -4.9,
+          "scope": "source-pure-solids-v2"
+        }
+      },
+      {
+        "id": "spana:2ac52a30213c9288:131294",
+        "name": "Fe(OH)3(s)",
+        "phase": "solid",
+        "reference": "NEA-Fe: Lemire R J, Berner U, Musikas C, Palmer D A, Taylor P, Tochiyama O, Chemical Thermodynamics of Iron. Part 1. Paris: OECD Nuclear Energy Agency (NEA), 2013",
+        "terms": [
+          {
+            "name": "Fe 3+",
+            "coefficient": 1
+          },
+          {
+            "name": "H+",
+            "coefficient": -3
+          },
+          {
+            "name": "H2O",
+            "coefficient": 3
+          }
+        ],
+        "logK": -3.43,
+        "classification": "admitted-pure-solid",
+        "reason": "Source-bound neutral integer pure-solid law; presence determined only by coupled equilibrium",
+        "elements": {
+          "Fe": 1,
+          "H": 3,
+          "O": 3
+        },
+        "charge": 0,
+        "coefficients": [
+          -0.3333333333333332,
+          0,
+          0.33333333333333315,
+          1,
+          0,
+          -0.6666666666666665,
+          2
+        ],
+        "logBeta": 7.782333333333327,
+        "role": "ordinary",
+        "sourceIdentity": {
+          "id": "spana:2ac52a30213c9288:131294",
+          "reference": "NEA-Fe: Lemire R J, Berner U, Musikas C, Palmer D A, Taylor P, Tochiyama O, Chemical Thermodynamics of Iron. Part 1. Paris: OECD Nuclear Energy Agency (NEA), 2013",
+          "terms": [
+            {
+              "name": "Fe 3+",
+              "coefficient": 1
+            },
+            {
+              "name": "H+",
+              "coefficient": -3
+            },
+            {
+              "name": "H2O",
+              "coefficient": 3
+            }
+          ],
+          "logK": -3.43,
+          "scope": "source-pure-solids-v2"
+        }
+      },
+      {
+        "id": "spana:2ac52a30213c9288:133739",
+        "name": "Fe2O3(cr)",
+        "phase": "solid",
+        "reference": "NEA-Fe: Lemire R J, Berner U, Musikas C, Palmer D A, Taylor P, Tochiyama O, Chemical Thermodynamics of Iron. Part 1. Paris: OECD Nuclear Energy Agency (NEA), 2013",
+        "terms": [
+          {
+            "name": "Fe 3+",
+            "coefficient": 2
+          },
+          {
+            "name": "H+",
+            "coefficient": -6
+          },
+          {
+            "name": "H2O",
+            "coefficient": 3
+          }
+        ],
+        "logK": 0.101,
+        "classification": "admitted-pure-solid",
+        "reason": "Source-bound neutral integer pure-solid law; presence determined only by coupled equilibrium",
+        "elements": {
+          "Fe": 2,
+          "O": 3
+        },
+        "charge": 0,
+        "coefficients": [
+          -0.6666666666666664,
+          0,
+          0.6666666666666663,
+          2,
+          0,
+          -1.333333333333333,
+          1.0000000000000002
+        ],
+        "logBeta": 22.525666666666652,
+        "role": "ordinary",
+        "sourceIdentity": {
+          "id": "spana:2ac52a30213c9288:133739",
+          "reference": "NEA-Fe: Lemire R J, Berner U, Musikas C, Palmer D A, Taylor P, Tochiyama O, Chemical Thermodynamics of Iron. Part 1. Paris: OECD Nuclear Energy Agency (NEA), 2013",
+          "terms": [
+            {
+              "name": "Fe 3+",
+              "coefficient": 2
+            },
+            {
+              "name": "H+",
+              "coefficient": -6
+            },
+            {
+              "name": "H2O",
+              "coefficient": 3
+            }
+          ],
+          "logK": 0.101,
+          "scope": "source-pure-solids-v2"
+        }
+      },
+      {
+        "id": "spana:2ac52a30213c9288:134486",
+        "name": "Fe3O4(cr)",
+        "phase": "solid",
+        "reference": "NEA-Fe: Lemire R J, Berner U, Musikas C, Palmer D A, Taylor P, Tochiyama O, Chemical Thermodynamics of Iron. Part 1. Paris: OECD Nuclear Energy Agency (NEA), 2013",
+        "terms": [
+          {
+            "name": "Fe 3+",
+            "coefficient": 3
+          },
+          {
+            "name": "H+",
+            "coefficient": -8
+          },
+          {
+            "name": "e-",
+            "coefficient": 1
+          },
+          {
+            "name": "H2O",
+            "coefficient": 4
+          }
+        ],
+        "logK": 2.712,
+        "classification": "admitted-pure-solid",
+        "reason": "Source-bound neutral integer pure-solid law; presence determined only by coupled equilibrium",
+        "elements": {
+          "Fe": 3,
+          "O": 4
+        },
+        "charge": 0,
+        "coefficients": [
+          -0.6666666666666663,
+          0,
+          0.6666666666666662,
+          3,
+          0,
+          -3.333333333333333,
+          2.0000000000000004
+        ],
+        "logBeta": 12.085666666666647,
+        "role": "ordinary",
+        "sourceIdentity": {
+          "id": "spana:2ac52a30213c9288:134486",
+          "reference": "NEA-Fe: Lemire R J, Berner U, Musikas C, Palmer D A, Taylor P, Tochiyama O, Chemical Thermodynamics of Iron. Part 1. Paris: OECD Nuclear Energy Agency (NEA), 2013",
+          "terms": [
+            {
+              "name": "Fe 3+",
+              "coefficient": 3
+            },
+            {
+              "name": "H+",
+              "coefficient": -8
+            },
+            {
+              "name": "e-",
+              "coefficient": 1
+            },
+            {
+              "name": "H2O",
+              "coefficient": 4
+            }
+          ],
+          "logK": 2.712,
+          "scope": "source-pure-solids-v2"
+        }
+      },
+      {
+        "id": "spana:2ac52a30213c9288:136105",
+        "name": "FeCr2O4(cr)",
+        "phase": "solid",
+        "reference": "93Kub/Alc: Kubaschewski O, Alcock C B, Spencer P J; Materials Thermochemistry. Pergamon Press, Oxford, 1993, 6th ed.",
+        "terms": [
+          {
+            "name": "Cr 3+",
+            "coefficient": 2
+          },
+          {
+            "name": "Fe 2+",
+            "coefficient": 1
+          },
+          {
+            "name": "H2O",
+            "coefficient": 4
+          },
+          {
+            "name": "H+",
+            "coefficient": -8
+          }
+        ],
+        "logK": -21.8,
+        "classification": "admitted-pure-solid",
+        "reason": "Source-bound neutral integer pure-solid law; presence determined only by coupled equilibrium",
+        "elements": {
+          "Cr": 2,
+          "Fe": 1,
+          "O": 4
+        },
+        "charge": 0,
+        "coefficients": [
+          2,
+          0,
+          0,
+          1,
+          0,
+          -6,
+          2
+        ],
+        "logBeta": -14.68000000000001,
+        "role": "ordinary",
+        "sourceIdentity": {
+          "id": "spana:2ac52a30213c9288:136105",
+          "reference": "93Kub/Alc: Kubaschewski O, Alcock C B, Spencer P J; Materials Thermochemistry. Pergamon Press, Oxford, 1993, 6th ed.",
+          "terms": [
+            {
+              "name": "Cr 3+",
+              "coefficient": 2
+            },
+            {
+              "name": "Fe 2+",
+              "coefficient": 1
+            },
+            {
+              "name": "H2O",
+              "coefficient": 4
+            },
+            {
+              "name": "H+",
+              "coefficient": -8
+            }
+          ],
+          "logK": -21.8,
+          "scope": "source-pure-solids-v2"
+        }
+      },
+      {
+        "id": "spana:2ac52a30213c9288:138772",
+        "name": "FeOCl(cr)",
+        "phase": "solid",
+        "reference": "NEA-Fe: Lemire R J, Berner U, Musikas C, Palmer D A, Taylor P, Tochiyama O, Chemical Thermodynamics of Iron. Part 1. Paris: OECD Nuclear Energy Agency (NEA), 2013",
+        "terms": [
+          {
+            "name": "Fe 3+",
+            "coefficient": 1
+          },
+          {
+            "name": "H+",
+            "coefficient": -2
+          },
+          {
+            "name": "Cl-",
+            "coefficient": 1
+          },
+          {
+            "name": "H2O",
+            "coefficient": 1
+          }
+        ],
+        "logK": -4.55,
+        "classification": "admitted-pure-solid",
+        "reason": "Source-bound neutral integer pure-solid law; presence determined only by coupled equilibrium",
+        "elements": {
+          "Fe": 1,
+          "Cl": 1,
+          "O": 1
+        },
+        "charge": 0,
+        "coefficients": [
+          -0.3333333333333332,
+          1,
+          0.33333333333333315,
+          1,
+          0,
+          0.3333333333333335,
+          1.1102230246251565e-16
+        ],
+        "logBeta": 6.662333333333327,
+        "role": "ordinary",
+        "sourceIdentity": {
+          "id": "spana:2ac52a30213c9288:138772",
+          "reference": "NEA-Fe: Lemire R J, Berner U, Musikas C, Palmer D A, Taylor P, Tochiyama O, Chemical Thermodynamics of Iron. Part 1. Paris: OECD Nuclear Energy Agency (NEA), 2013",
+          "terms": [
+            {
+              "name": "Fe 3+",
+              "coefficient": 1
+            },
+            {
+              "name": "H+",
+              "coefficient": -2
+            },
+            {
+              "name": "Cl-",
+              "coefficient": 1
+            },
+            {
+              "name": "H2O",
+              "coefficient": 1
+            }
+          ],
+          "logK": -4.55,
+          "scope": "source-pure-solids-v2"
+        }
+      },
+      {
+        "id": "spana:2ac52a30213c9288:139158",
+        "name": "FeOHCrO4·2Fe(OH)3(cr)",
+        "phase": "solid",
+        "reference": "1993ON: Olazabal M A, Nikolaidis N, Suib S, Madariaga J M; Study of the precipitation equilibrium and adsorption process in the Cr(VI)/Fe(III) system. In XX Annual Congress IV Spanish-Italian Congress on Thermodynamics of Metal Complexes, p. 18. Gruppo di Termodinamica dei Complessi, Proc. of a congress held in Rome, Italy, June, 1993.",
+        "terms": [
+          {
+            "name": "Fe 3+",
+            "coefficient": 3
+          },
+          {
+            "name": "H+",
+            "coefficient": -7
+          },
+          {
+            "name": "CrO4 2-",
+            "coefficient": 1
+          },
+          {
+            "name": "H2O",
+            "coefficient": 7
+          }
+        ],
+        "logK": -197.8,
+        "classification": "admitted-pure-solid",
+        "reason": "Source-bound neutral integer pure-solid law; presence determined only by coupled equilibrium",
+        "elements": {
+          "Fe": 3,
+          "H": 7,
+          "Cr": 1,
+          "O": 11
+        },
+        "charge": 0,
+        "coefficients": [
+          -0.9999999999999996,
+          0,
+          1.9999999999999996,
+          3,
+          0,
+          0,
+          4
+        ],
+        "logBeta": -164.16300000000004,
+        "role": "ordinary",
+        "sourceIdentity": {
+          "id": "spana:2ac52a30213c9288:139158",
+          "reference": "1993ON: Olazabal M A, Nikolaidis N, Suib S, Madariaga J M; Study of the precipitation equilibrium and adsorption process in the Cr(VI)/Fe(III) system. In XX Annual Congress IV Spanish-Italian Congress on Thermodynamics of Metal Complexes, p. 18. Gruppo di Termodinamica dei Complessi, Proc. of a congress held in Rome, Italy, June, 1993.",
+          "terms": [
+            {
+              "name": "Fe 3+",
+              "coefficient": 3
+            },
+            {
+              "name": "H+",
+              "coefficient": -7
+            },
+            {
+              "name": "CrO4 2-",
+              "coefficient": 1
+            },
+            {
+              "name": "H2O",
+              "coefficient": 7
+            }
+          ],
+          "logK": -197.8,
+          "scope": "source-pure-solids-v2"
+        }
+      },
+      {
+        "id": "spana:2ac52a30213c9288:139276",
+        "name": "FeOOH(cr)",
+        "phase": "solid",
+        "reference": "NEA-Fe: Lemire R J, Berner U, Musikas C, Palmer D A, Taylor P, Tochiyama O, Chemical Thermodynamics of Iron. Part 1. Paris: OECD Nuclear Energy Agency (NEA), 2013",
+        "terms": [
+          {
+            "name": "Fe 3+",
+            "coefficient": 1
+          },
+          {
+            "name": "H+",
+            "coefficient": -3
+          },
+          {
+            "name": "H2O",
+            "coefficient": 2
+          }
+        ],
+        "logK": -0.17,
+        "classification": "admitted-pure-solid",
+        "reason": "Source-bound neutral integer pure-solid law; presence determined only by coupled equilibrium",
+        "elements": {
+          "Fe": 1,
+          "H": 1,
+          "O": 2
+        },
+        "charge": 0,
+        "coefficients": [
+          -0.3333333333333332,
+          0,
+          0.33333333333333315,
+          1,
+          0,
+          -0.6666666666666665,
+          1
+        ],
+        "logBeta": 11.042333333333326,
+        "role": "ordinary",
+        "sourceIdentity": {
+          "id": "spana:2ac52a30213c9288:139276",
+          "reference": "NEA-Fe: Lemire R J, Berner U, Musikas C, Palmer D A, Taylor P, Tochiyama O, Chemical Thermodynamics of Iron. Part 1. Paris: OECD Nuclear Energy Agency (NEA), 2013",
+          "terms": [
+            {
+              "name": "Fe 3+",
+              "coefficient": 1
+            },
+            {
+              "name": "H+",
+              "coefficient": -3
+            },
+            {
+              "name": "H2O",
+              "coefficient": 2
+            }
+          ],
+          "logK": -0.17,
+          "scope": "source-pure-solids-v2"
+        }
+      },
+      {
+        "id": "spana:2ac52a30213c9288:187224",
+        "name": "K(cr)",
+        "phase": "solid",
+        "reference": "Codata: Cox J D, Wagman D D, Medvedev V A, CODATA Key Values for Thermodynamics. Hemisphere Publ. Co., New York, 1989",
+        "terms": [
+          {
+            "name": "K+",
+            "coefficient": 1
+          },
+          {
+            "name": "e-",
+            "coefficient": 1
+          }
+        ],
+        "logK": -49.49,
+        "classification": "admitted-pure-solid",
+        "reason": "Source-bound neutral integer pure-solid law; presence determined only by coupled equilibrium",
+        "elements": {
+          "K": 1
+        },
+        "charge": 0,
+        "coefficients": [
+          0.33333333333333326,
+          0,
+          -0.33333333333333326,
+          0,
+          1,
+          -2.333333333333333,
+          1
+        ],
+        "logBeta": -73.75333333333333,
+        "role": "ordinary",
+        "sourceIdentity": {
+          "id": "spana:2ac52a30213c9288:187224",
+          "reference": "Codata: Cox J D, Wagman D D, Medvedev V A, CODATA Key Values for Thermodynamics. Hemisphere Publ. Co., New York, 1989",
+          "terms": [
+            {
+              "name": "K+",
+              "coefficient": 1
+            },
+            {
+              "name": "e-",
+              "coefficient": 1
+            }
+          ],
+          "logK": -49.49,
+          "scope": "source-pure-solids-v2"
+        }
+      },
+      {
+        "id": "spana:2ac52a30213c9288:188345",
+        "name": "KCl(s)",
+        "phase": "solid",
+        "reference": "SmithMart: NIST Standard Reference Database 46 Version 8.\nNIST Critically Selected Stability Constants of Metal Complexes Database\nhttp://www.nist.gov/srd/nist46.cfm\nNational Institute of Standards and Technology, 100 Bureau Dr., Stop 2300, Gaithersburg, MD",
+        "terms": [
+          {
+            "name": "K+",
+            "coefficient": 1
+          },
+          {
+            "name": "Cl-",
+            "coefficient": 1
+          }
+        ],
+        "logK": -0.9,
+        "classification": "admitted-pure-solid",
+        "reason": "Source-bound neutral integer pure-solid law; presence determined only by coupled equilibrium",
+        "elements": {
+          "K": 1,
+          "Cl": 1
+        },
+        "charge": 0,
+        "coefficients": [
+          0,
+          1,
+          0,
+          0,
+          1,
+          0,
+          0
+        ],
+        "logBeta": -0.9,
+        "role": "ordinary",
+        "sourceIdentity": {
+          "id": "spana:2ac52a30213c9288:188345",
+          "reference": "SmithMart: NIST Standard Reference Database 46 Version 8.\nNIST Critically Selected Stability Constants of Metal Complexes Database\nhttp://www.nist.gov/srd/nist46.cfm\nNational Institute of Standards and Technology, 100 Bureau Dr., Stop 2300, Gaithersburg, MD",
+          "terms": [
+            {
+              "name": "K+",
+              "coefficient": 1
+            },
+            {
+              "name": "Cl-",
+              "coefficient": 1
+            }
+          ],
+          "logK": -0.9,
+          "scope": "source-pure-solids-v2"
+        }
+      },
+      {
+        "id": "spana:2ac52a30213c9288:188780",
+        "name": "KFe3(CrO4)2(OH)6(s)",
+        "phase": "solid",
+        "reference": "1996BPd: Baron D, Palmer C D; Geochim. Cosmochim. Acta 60 (1996) 3815-3824",
+        "terms": [
+          {
+            "name": "Fe 3+",
+            "coefficient": 3
+          },
+          {
+            "name": "H+",
+            "coefficient": -6
+          },
+          {
+            "name": "CrO4 2-",
+            "coefficient": 2
+          },
+          {
+            "name": "K+",
+            "coefficient": 1
+          },
+          {
+            "name": "H2O",
+            "coefficient": 6
+          }
+        ],
+        "logK": 18.4,
+        "classification": "admitted-pure-solid",
+        "reason": "Source-bound neutral integer pure-solid law; presence determined only by coupled equilibrium",
+        "elements": {
+          "Fe": 3,
+          "H": 6,
+          "Cr": 2,
+          "O": 14,
+          "K": 1
+        },
+        "charge": 0,
+        "coefficients": [
+          -0.9999999999999996,
+          0,
+          2.9999999999999996,
+          3,
+          1,
+          1,
+          3.0000000000000004
+        ],
+        "logBeta": 52.03699999999998,
+        "role": "ordinary",
+        "sourceIdentity": {
+          "id": "spana:2ac52a30213c9288:188780",
+          "reference": "1996BPd: Baron D, Palmer C D; Geochim. Cosmochim. Acta 60 (1996) 3815-3824",
+          "terms": [
+            {
+              "name": "Fe 3+",
+              "coefficient": 3
+            },
+            {
+              "name": "H+",
+              "coefficient": -6
+            },
+            {
+              "name": "CrO4 2-",
+              "coefficient": 2
+            },
+            {
+              "name": "K+",
+              "coefficient": 1
+            },
+            {
+              "name": "H2O",
+              "coefficient": 6
+            }
+          ],
+          "logK": 18.4,
+          "scope": "source-pure-solids-v2"
+        }
+      }
+    ],
+    "excluded": [
+      {
+        "id": "spana:2ac52a30213c9288:132744",
+        "name": "Fe0.932O(cr)",
+        "phase": "solid",
+        "reference": "NEA-Fe: Lemire R J, Berner U, Musikas C, Palmer D A, Taylor P, Tochiyama O, Chemical Thermodynamics of Iron. Part 1. Paris: OECD Nuclear Energy Agency (NEA), 2013",
+        "terms": [
+          {
+            "name": "Fe 2+",
+            "coefficient": 0.932
+          },
+          {
+            "name": "H+",
+            "coefficient": -2
+          },
+          {
+            "name": "e-",
+            "coefficient": -0.136
+          },
+          {
+            "name": "H2O",
+            "coefficient": 1
+          }
+        ],
+        "logK": -13.507,
+        "classification": "excluded-conditionally",
+        "reason": "missing-solid-composition: source transport does not establish neutral nonnegative integer composition"
+      },
+      {
+        "id": "spana:2ac52a30213c9288:139063",
+        "name": "FeOHCrO4(cr)",
+        "phase": "solid",
+        "reference": "1993ON: Olazabal M A, Nikolaidis N, Suib S, Madariaga J M; Study of the precipitation equilibrium and adsorption process in the Cr(VI)/Fe(III) system. In XX Annual Congress IV Spanish-Italian Congress on Thermodynamics of Metal Complexes, p. 18. Gruppo di Termodinamica dei Complessi, Proc. of a congress held in Rome, Italy, June, 1993.",
+        "terms": [
+          {
+            "name": "Fe 3+",
+            "coefficient": 1
+          },
+          {
+            "name": "H+",
+            "coefficient": -1
+          },
+          {
+            "name": "CrO4 2-",
+            "coefficient": 1
+          }
+        ],
+        "logK": -36.5,
+        "classification": "excluded-conditionally",
+        "reason": "missing-solid-composition: source transport does not establish neutral nonnegative integer composition"
+      }
+    ]
+  }
+}

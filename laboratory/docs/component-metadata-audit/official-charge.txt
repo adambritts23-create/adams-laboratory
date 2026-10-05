@@ -1,0 +1,170 @@
+e-	-1
+H+	1
+H2O2	0
+Li+	1
+Be 2+	2
+B(OH)3	0
+CO3 2-	-2
+CN-	-1
+OCN-	-1
+SCN-	-1
+HCOO-	-1
+CH3COO-	-1
+ox 2-	-2
+cit 3-	-3
+NTA 3-	-3
+EDTA 4-	-4
+gly-	-1
+AcSal-	-1
+NO3-	-1
+NO2-	-1
+NH3	0
+N3-	-1
+F-	-1
+Na+	1
+Mg 2+	2
+Al 3+	3
+Si(OH)4	0
+PO4 3-	-3
+HPO3 2-	-2
+H2PO2-	-1
+P2O6 4-	-4
+HP2O6 3-	-3
+P2O7 4-	-4
+P3O9 3-	-3
+P3O10 5-	-5
+P4O12 4-	-4
+SO4 2-	-2
+SO3 2-	-2
+S2O3 2-	-2
+HS-	-1
+Cl-	-1
+ClO3-	-1
+K+	1
+Ca 2+	2
+Sc 3+	3
+TiO 2+	2
+Ti 3+	3
+Ti 2+	2
+V 2+	2
+V 3+	3
+VO 2+	2
+VO2+	1
+Cr 3+	3
+Cr 2+	2
+CrO4 2-	-2
+Mn 2+	2
+Mn 3+	3
+Fe 2+	2
+Fe 3+	3
+Co 2+	2
+Co 3+	3
+Ni 2+	2
+Cu 2+	2
+Cu+	1
+Zn 2+	2
+Ga 3+	3
+Ge 2+	2
+Ge(OH)4	0
+H3AsO3	0
+AsO4 3-	-3
+SeO4 2-	-2
+SeO3 2-	-2
+H2Se	0
+SeCN-	-1
+Br-	-1
+BrO-	-1
+BrO3-	-1
+Rb+	1
+Sr 2+	2
+Y 3+	3
+Zr 4+	4
+Nb(OH)5	0
+MoO4 2-	-2
+Mo2O4 2+	2
+Mo 3+	3
+Tc 3+	3
+TcO(OH)2	0
+TcO4 3-	-3
+TcO4 2-	-2
+TcO4-	-1
+Ru 2+	2
+Ru 3+	3
+Ru(OH)2 2+	2
+RuO4 2-	-2
+RuO4	0
+Rh 3+	3
+Rh 2+	2
+Pd 2+	2
+Ag+	1
+Cd 2+	2
+In 3+	3
+Sn 2+	2
+Sn 4+	4
+(CH3)2Sn 2+	2
+Sb(OH)3	0
+Sb(OH)6-	-1
+HTe-	-1
+H2TeO3	0
+H6TeO6	0
+I-	-1
+IO3-	-1
+Cs+	1
+Ba 2+	2
+La 3+	3
+Ce 3+	3
+Ce 4+	4
+Pr 3+	3
+Nd 3+	3
+Sm 3+	3
+Eu 3+	3
+Gd 3+	3
+Tb 3+	3
+Dy 3+	3
+Ho 3+	3
+Er 3+	3
+Tm 3+	3
+Yb 3+	3
+Lu 3+	3
+Hf 4+	4
+Ta(OH)5	0
+WO4 2-	-2
+ReO4-	-1
+Re(OH)4	0
+OsO4	0
+Ir 3+	3
+Pt 2+	2
+Au+	1
+Au 3+	3
+Hg 2+	2
+Hg2 2+	2
+CH3Hg+	1
+Tl 3+	3
+Tl+	1
+Pb 2+	2
+Pb 4+	4
+(CH3)2Pb 2+	2
+Bi 3+	3
+HPo-	-1
+Po 2+	2
+PoO 2+	2
+Ra 2+	2
+Th 4+	4
+U 4+	4
+UO2+	1
+UO2 2+	2
+U 3+	3
+Np 4+	4
+NpO2+	1
+NpO2 2+	2
+Np 3+	3
+Pu 3+	3
+Pu 4+	4
+PuO2+	1
+PuO2 2+	2
+Am 3+	3
+Am 4+	4
+AmO2+	1
+H2O	0
+CHECK_balanced	true
+CHECK_unbalanced	false

@@ -1,0 +1,161 @@
+{
+  "expected": {
+    "T": 0.001,
+    "A": 0.001,
+    "K": 1.8620871366628675,
+    "kh": 0.005495408738576248,
+    "kw": 9.965520801347683e-15,
+    "h": 0.001483357280741126,
+    "x": 0.0003861717154064017,
+    "v3": 0.00013047101057069298,
+    "vh": 0.00048335727402290545,
+    "oh": 6.718220169026734e-12,
+    "residual": 2.168404344971009e-19,
+    "eu3": 0.0003861717154064017,
+    "eu2": 0.0006138282845935983,
+    "chloride": 0.006,
+    "pH": 2.8287542324062978,
+    "peV": -6.301266435080764,
+    "peEu": -6.3012664350807635,
+    "Eh": -0.3727788245027132
+  },
+  "actual": {
+    "component:V%203%2B": 0.00013047101057069295,
+    "component:Eu%203%2B": 0.0003861717154064014,
+    "spana:2ac52a30213c9288:360928": 0.0003861717154064014,
+    "component:Cl-": 0.006000000000000003,
+    "component:H%2B": 0.001483357280741125,
+    "spana:2ac52a30213c9288:120483": 0.0006138282845935981,
+    "spana:2ac52a30213c9288:369711": 0.0004833572740229056,
+    "spana:2ac52a30213c9288:250448": 6.718220169026744e-12
+  },
+  "inspection": {
+    "nonRedoxReactions": [
+      {
+        "reactionId": "spana:2ac52a30213c9288:250448",
+        "residual": 4.440892098500626e-16,
+        "limit": 1.0079589312917961e-10,
+        "ok": true
+      },
+      {
+        "reactionId": "spana:2ac52a30213c9288:369711",
+        "residual": 0,
+        "limit": 1.0034927358989019e-10,
+        "ok": true
+      }
+    ],
+    "waterBalance": {
+      "convention": "Unit solvent-water activity; conserved solute H-2O, no finite water inventory.",
+      "logActivity": 0,
+      "initialSoluteH": 0.001,
+      "initialSoluteO": 0,
+      "finalSoluteH": 0.001966714561482251,
+      "finalSoluteO": 0.0004833572807411258,
+      "waterToSolutes": 0.0004833572807411258,
+      "residual": -6.505213034913027e-19,
+      "limit": 1.28421709430404e-13,
+      "ok": true
+    },
+    "pH": 2.828754232406298,
+    "protonConvention": "Derived from closed solute inventories; no imposed proton activity.",
+    "inventories": [
+      {
+        "key": "Cl",
+        "total": 0.006,
+        "actual": 0.006000000000000003,
+        "residual": 2.6020852139652106e-18,
+        "limit": 6.284217094304041e-13,
+        "ok": true
+      },
+      {
+        "key": "Eu",
+        "total": 0.001,
+        "actual": 0.0009999999999999996,
+        "residual": -4.336808689942018e-19,
+        "limit": 1.28421709430404e-13,
+        "ok": true
+      },
+      {
+        "key": "V",
+        "total": 0.001,
+        "actual": 0.001,
+        "residual": 0,
+        "limit": 1.48421709430404e-13,
+        "ok": true
+      },
+      {
+        "key": "H-2O",
+        "total": 0.001,
+        "actual": 0.0009999999999999992,
+        "residual": -8.673617379884035e-19,
+        "limit": 1.28421709430404e-13,
+        "ok": true
+      },
+      {
+        "key": "charge",
+        "total": 0,
+        "actual": -4.124785912044378e-18,
+        "residual": -4.124785912044378e-18,
+        "limit": 1.288421709430404e-12,
+        "ok": true
+      }
+    ],
+    "potentials": [
+      {
+        "reactionId": "spana:2ac52a30213c9288:120483",
+        "electronCoefficient": 1,
+        "pe": -6.301266435080764,
+        "Eh": -0.3727788244899247,
+        "peErrorBound": 1.0036167115928993e-10,
+        "difference": 0,
+        "agreementLimit": 2.0072334231857986e-10,
+        "ok": true
+      },
+      {
+        "reactionId": "spana:2ac52a30213c9288:360928",
+        "electronCoefficient": 1,
+        "pe": -6.301266435080764,
+        "Eh": -0.3727788244899247,
+        "peErrorBound": 1.0037311183156184e-10,
+        "difference": 0,
+        "agreementLimit": 2.0073478299085176e-10,
+        "ok": true
+      }
+    ],
+    "netReactions": [
+      {
+        "sourceIds": [
+          "spana:2ac52a30213c9288:120483",
+          "spana:2ac52a30213c9288:360928"
+        ],
+        "residual": 0,
+        "limit": 2.000284217094304e-10,
+        "ok": true
+      }
+    ],
+    "pe": -6.301266435080764,
+    "Eh": -0.3727788244899247,
+    "potentialConvention": "Derived from supplied half-reaction standard states; not an imposed reservoir.",
+    "chargePolicy": "Explicit electroneutral reagent preparation; physical charge residual independently checked."
+  },
+  "fixedPH": {
+    "component:V%203%2B": 0.0001304710105706931,
+    "component:Eu%203%2B": 0.0003861717154064018,
+    "spana:2ac52a30213c9288:360928": 0.0003861717154064018,
+    "component:Cl-": 0.006000000000000003,
+    "component:H%2B": 0.0014833572807411266,
+    "spana:2ac52a30213c9288:120483": 0.0006138282845935988,
+    "spana:2ac52a30213c9288:369711": 0.0004833572740229056,
+    "spana:2ac52a30213c9288:250448": 6.718220169026717e-12
+  },
+  "fixedEh": {
+    "component:V%203%2B": 0.00013047101057069282,
+    "component:Eu%203%2B": 0.00038617171540640104,
+    "component:Cl-": 0.006000000000000003,
+    "component:H%2B": 0.001483357280741125,
+    "spana:2ac52a30213c9288:360928": 0.00038617171540640224,
+    "spana:2ac52a30213c9288:120483": 0.0006138282845935994,
+    "spana:2ac52a30213c9288:369711": 0.00048335727402290513,
+    "spana:2ac52a30213c9288:250448": 6.718220169026744e-12
+  }
+}

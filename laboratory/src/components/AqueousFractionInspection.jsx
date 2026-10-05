@@ -1,0 +1,10 @@
+import { displayNumber as formatNumber } from '../plots/formatNumber.js'
+export default function AqueousFractionInspection({trace,values,visibleIds}) {
+  if(!trace) return null
+  const displayed=values.filter(v=>visibleIds.includes(v.id)), displayedSum=displayed.length&&displayed.every(v=>v.value!==null)?displayed.reduce((n,v)=>n+v.value,0):null
+  return <section aria-label="Aqueous fraction trace"><h4>Dissolved component: {trace.component}</h4><p>Equilibrium: {trace.equilibriumStatus} · {trace.reason??'Accepted dissolved distribution'}</p><p>Normalization includes aqueous species only, never precipitated inventory.</p><p>Total dissolved: {formatNumber(trace.totalDissolved,'amount')} mol/kg H₂O · All contributing fractions: {formatNumber(trace.sumFractions)} · Displayed fractions: {formatNumber(displayedSum)}{displayed.length<values.length?' (some curves hidden; not renormalized)':''}</p>
+    <table><thead><tr><th>Aqueous species</th><th>Coefficient</th><th>Molality</th><th>Weighted contribution</th><th>Fraction of dissolved {trace.component}</th></tr></thead><tbody>{trace.contributors.map(c=><tr key={c.id}><td>{c.name}</td><td>{c.coefficient}</td><td>{formatNumber(c.molality,'concentration')}</td><td>{formatNumber(c.weightedMolality,'concentration')}</td><td>{formatNumber(c.fraction)}</td></tr>)}</tbody></table>
+    <details><summary>Separate solid inventory and equilibrium diagnostics</summary><p>Active solids: {trace.activeAssemblage?.join(', ')|| (trace.solids?'none':'unavailable')}</p>{trace.solids&&<table><thead><tr><th>Solid</th><th>Amount · mol/kg H₂O</th><th>Status</th><th>log saturation</th></tr></thead><tbody>{trace.solids.map(s=><tr key={s.id}><td>{s.name}</td><td>{formatNumber(s.amount,'amount')}</td><td>{s.status}</td><td>{formatNumber(s.logSaturation,'log')}</td></tr>)}</tbody></table>}<pre>{JSON.stringify({residuals:trace.residuals,selection:trace.selection,diagnostics:trace.diagnostics,attempts:trace.attempts},null,2)}</pre></details>
+    <details><summary>Exact aqueous fraction trace · original precision</summary><pre>{JSON.stringify(trace,null,2)}</pre></details>
+  </section>
+}

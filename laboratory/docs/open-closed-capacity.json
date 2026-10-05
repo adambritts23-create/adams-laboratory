@@ -1,0 +1,95 @@
+[
+  {
+    "name": "water-peroxide",
+    "species": 9,
+    "reactions": 6,
+    "discovery": "CONDITIONAL",
+    "reasons": [
+      {
+        "code": "excluded-phase-scope",
+        "message": "Only the explicitly disclosed aqueous conditional model may be calculated. Excluded phases are checked after equilibrium.",
+        "ids": []
+      }
+    ],
+    "solve": true,
+    "pH": 7.00075,
+    "pe": 12.920992501084005,
+    "milliseconds": 723.6055000000001
+  },
+  {
+    "name": "Eu chloride acid",
+    "species": 29,
+    "reactions": 24,
+    "discovery": "CONDITIONAL",
+    "reasons": [
+      {
+        "code": "excluded-phase-scope",
+        "message": "Only the explicitly disclosed aqueous conditional model may be calculated. Excluded phases are checked after equilibrium.",
+        "ids": []
+      }
+    ],
+    "solve": true,
+    "pH": 2.000864206621187,
+    "pe": 12.672154651918053,
+    "milliseconds": 126.77660000000014
+  },
+  {
+    "name": "Fe chloride peroxide",
+    "species": 36,
+    "reactions": 32,
+    "discovery": "CONDITIONAL",
+    "reasons": [
+      {
+        "code": "excluded-phase-scope",
+        "message": "Only the explicitly disclosed aqueous conditional model may be calculated. Excluded phases are checked after equilibrium.",
+        "ids": []
+      }
+    ],
+    "solve": true,
+    "pH": 2.0008757578290273,
+    "pe": 12.707676850622494,
+    "milliseconds": 149.65800000000013
+  },
+  {
+    "name": "Fe Eu chloride",
+    "species": 47,
+    "reactions": 42,
+    "discovery": "CONDITIONAL",
+    "reasons": [
+      {
+        "code": "excluded-phase-scope",
+        "message": "Only the explicitly disclosed aqueous conditional model may be calculated. Excluded phases are checked after equilibrium.",
+        "ids": []
+      }
+    ],
+    "solve": true,
+    "pH": 2.000864378806367,
+    "pe": 3.9810746947087594,
+    "milliseconds": 194.2428
+  },
+  {
+    "name": "Fe chromate K acid",
+    "species": 55,
+    "reactions": 51,
+    "discovery": "CONDITIONAL",
+    "reasons": [
+      {
+        "code": "excluded-phase-scope",
+        "message": "Only the explicitly disclosed aqueous conditional model may be calculated. Excluded phases are checked after equilibrium.",
+        "ids": []
+      }
+    ],
+    "solve": false,
+    "diagnostics": [
+      {
+        "code": "relevant-solid-or-unresolved-phase",
+        "message": "An excluded phase requires a broader inventory/phase model.",
+        "ids": [
+          "spana:2ac52a30213c9288:133739",
+          "spana:2ac52a30213c9288:139276"
+        ]
+      }
+    ],
+    "milliseconds": 245.4159000000002
+  }
+]

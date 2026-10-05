@@ -1,0 +1,46 @@
+{
+  "url": "http://127.0.0.1:5173/adambritts-site/laboratory/",
+  "demo": "50 mL 0.8 M boric acid / 50 mL loaded 1 M NaOH",
+  "initial": {
+    "mL": 0,
+    "pH": 3.79407,
+    "sediment": false
+  },
+  "committed": {
+    "mL": 10,
+    "beakerMl": 60,
+    "remainingMl": 40,
+    "pH": 7.91364,
+    "sediment": false,
+    "sampleIndex": 20
+  },
+  "preview": {
+    "mL": 20,
+    "beakerMl": 70,
+    "remainingMl": 30,
+    "pH": 9.23087,
+    "sediment": true,
+    "sampleIndex": 40,
+    "committedIndex": 20
+  },
+  "pointerLeave": {
+    "restoredIndex": 20,
+    "sediment": false,
+    "allPanelIdsEqual": true
+  },
+  "positiveInspection": {
+    "sourceId": "spana:2ac52a30213c9288:221010",
+    "amountMolPerKg": 0.02680213704552,
+    "molesInBeaker": 0.001876149593187,
+    "logSaturation": 0
+  },
+  "totalBoron": {
+    "solidPercent": 18.761,
+    "leadingAqueousPercent": 38.66
+  },
+  "aqueousSpeciation": {
+    "leadingAqueousPercent": 47.589,
+    "solidCarriers": false
+  },
+  "visualReview": "Cyan liquid, restrained green accepted sediment, phase-aware compact legends, exact expandable inspection. Shared state IDs verified through preview and restoration."
+}

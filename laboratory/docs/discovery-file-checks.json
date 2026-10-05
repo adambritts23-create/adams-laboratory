@@ -1,0 +1,428 @@
+{
+  "protectedFiles": [
+    {
+      "path": "src\\analysis\\cuOxidationMetadata.js",
+      "sha256": "255174cc7ec4f3413156d8ae10a1e1f47c4d9d0dbc3b7ec5fb29b16f05d7afc4",
+      "after": "255174cc7ec4f3413156d8ae10a1e1f47c4d9d0dbc3b7ec5fb29b16f05d7afc4",
+      "unchanged": true
+    },
+    {
+      "path": "src\\analysis\\cuPourbaixContract.js",
+      "sha256": "a462d56ac0b5cd580021134fc9cef1165ea5da16633ee15fd91d65a37417a7ae",
+      "after": "a462d56ac0b5cd580021134fc9cef1165ea5da16633ee15fd91d65a37417a7ae",
+      "unchanged": true
+    },
+    {
+      "path": "src\\analysis\\feOxidationMetadata.js",
+      "sha256": "068bce4e6c17889a7ba081f74f46dd664b3e14769c0d2f99a46c93eb4a19f6bd",
+      "after": "068bce4e6c17889a7ba081f74f46dd664b3e14769c0d2f99a46c93eb4a19f6bd",
+      "unchanged": true
+    },
+    {
+      "path": "src\\analysis\\fePourbaixContract.js",
+      "sha256": "1f4ee90d1ea0bc5541e01e067d86aee41e6d781c119ea69cddc6766d5a7c3d93",
+      "after": "1f4ee90d1ea0bc5541e01e067d86aee41e6d781c119ea69cddc6766d5a7c3d93",
+      "unchanged": true
+    },
+    {
+      "path": "src\\analysis\\oxidationInventory.js",
+      "sha256": "e9b0e5c87843b4c3670038e5a7a9e37d8c8f0eb518854788096f6a2a309ae8d4",
+      "after": "e9b0e5c87843b4c3670038e5a7a9e37d8c8f0eb518854788096f6a2a309ae8d4",
+      "unchanged": true
+    },
+    {
+      "path": "src\\solver\\assemblages.js",
+      "sha256": "e25b0801841e7fa90f2bfba44488807e2c0f417dc5e0ee7c0bf98b7745650dc4",
+      "after": "e25b0801841e7fa90f2bfba44488807e2c0f417dc5e0ee7c0bf98b7745650dc4",
+      "unchanged": true
+    },
+    {
+      "path": "src\\solver\\contract.js",
+      "sha256": "8d035ccb7c9637ff734fb3cd5d14aec7ddc01ee61243cdd9fe4bd4372b8099bf",
+      "after": "8d035ccb7c9637ff734fb3cd5d14aec7ddc01ee61243cdd9fe4bd4372b8099bf",
+      "unchanged": true
+    },
+    {
+      "path": "src\\solver\\linear.js",
+      "sha256": "85bc2b1dd9792cf050bf64014ae76c0e66c6602c208c18607e97f05f71ba2f79",
+      "after": "85bc2b1dd9792cf050bf64014ae76c0e66c6602c208c18607e97f05f71ba2f79",
+      "unchanged": true
+    },
+    {
+      "path": "src\\solver\\models.js",
+      "sha256": "6627e609bcb575037aafeee9610e5a408ddad505eb17ee30eeee93ee45535bb5",
+      "after": "6627e609bcb575037aafeee9610e5a408ddad505eb17ee30eeee93ee45535bb5",
+      "unchanged": true
+    },
+    {
+      "path": "src\\solver\\point.js",
+      "sha256": "5ae9b017b3ea3cb8c6b7e23ac4bb57f7935da42af93c60050fb9b92f6d4b5809",
+      "after": "5ae9b017b3ea3cb8c6b7e23ac4bb57f7935da42af93c60050fb9b92f6d4b5809",
+      "unchanged": true
+    },
+    {
+      "path": "src\\solver\\prepareCanonicalRedox.js",
+      "sha256": "d5666d86b7e3a5730f09ccaaf6d330f590149a54317647a94aeb24e41db19085",
+      "after": "d5666d86b7e3a5730f09ccaaf6d330f590149a54317647a94aeb24e41db19085",
+      "unchanged": true
+    },
+    {
+      "path": "src\\solver\\prepareSession.js",
+      "sha256": "6eb8bf7d6b11d14508f3f05c3bb8d0c8099e0c5eb30f0df262cd6c59767b2164",
+      "after": "6eb8bf7d6b11d14508f3f05c3bb8d0c8099e0c5eb30f0df262cd6c59767b2164",
+      "unchanged": true
+    },
+    {
+      "path": "src\\solver\\redox.js",
+      "sha256": "80b9f117b93a313e7172476ee38633bb7156d8886839bdeaf6c9d7cc9a9d6074",
+      "after": "80b9f117b93a313e7172476ee38633bb7156d8886839bdeaf6c9d7cc9a9d6074",
+      "unchanged": true
+    },
+    {
+      "path": "src\\solver\\validationContract.js",
+      "sha256": "1eec965214cb5aaf583b55280c0203d4f58396264fa44e1cc69b0e7e6a3317db",
+      "after": "1eec965214cb5aaf583b55280c0203d4f58396264fa44e1cc69b0e7e6a3317db",
+      "unchanged": true
+    },
+    {
+      "path": "src\\thermodynamics\\canonicalRedox.js",
+      "sha256": "1627b21369186cd78e405faa127b4ca9921d165ae69aa4eecfb44c7487ff5754",
+      "after": "1627b21369186cd78e405faa127b4ca9921d165ae69aa4eecfb44c7487ff5754",
+      "unchanged": true
+    },
+    {
+      "path": "src\\thermodynamics\\compatibility.js",
+      "sha256": "65bec87e1351d660cb0c453c18b57f0a58f8fd041ef0a48714b226a46e942603",
+      "after": "65bec87e1351d660cb0c453c18b57f0a58f8fd041ef0a48714b226a46e942603",
+      "unchanged": true
+    },
+    {
+      "path": "src\\thermodynamics\\formationSupport.js",
+      "sha256": "7e3d39500b13e63f21865af5aaa5dda090687971fce50e4ee7e030bf510eaca2",
+      "after": "7e3d39500b13e63f21865af5aaa5dda090687971fce50e4ee7e030bf510eaca2",
+      "unchanged": true
+    },
+    {
+      "path": "src\\thermodynamics\\index.js",
+      "sha256": "54f32bdf2c6731b37494cad1ff939269b5b3740249447315cd823cb9639f5c47",
+      "after": "54f32bdf2c6731b37494cad1ff939269b5b3740249447315cd823cb9639f5c47",
+      "unchanged": true
+    },
+    {
+      "path": "src\\thermodynamics\\repository.js",
+      "sha256": "fa5727992267e38947edded8bfcc0228a3ebca564d42e8e6e464cf08268d6f63",
+      "after": "fa5727992267e38947edded8bfcc0228a3ebca564d42e8e6e464cf08268d6f63",
+      "unchanged": true
+    },
+    {
+      "path": "src\\thermodynamics\\repository.test.js",
+      "sha256": "47fad4e831d87de3e01da033e674e894838c1f4a9d1ef291d9b91c3f28de5d92",
+      "after": "47fad4e831d87de3e01da033e674e894838c1f4a9d1ef291d9b91c3f28de5d92",
+      "unchanged": true
+    },
+    {
+      "path": "src\\thermodynamics\\schema.js",
+      "sha256": "b9ad007ae1d96ca7a693fa1d7debbd505ab205045844c2c99a503208e08737a2",
+      "after": "b9ad007ae1d96ca7a693fa1d7debbd505ab205045844c2c99a503208e08737a2",
+      "unchanged": true
+    },
+    {
+      "path": "src\\thermodynamics\\snapshot.js",
+      "sha256": "8c8fd7076f005858cded6a6dd1340179018ba71c1af2aec3beaff9427a9d7acc",
+      "after": "8c8fd7076f005858cded6a6dd1340179018ba71c1af2aec3beaff9427a9d7acc",
+      "unchanged": true
+    },
+    {
+      "path": "src\\thermodynamics\\userComponents.js",
+      "sha256": "9b48067be2ec303218ae9ee1daed3e98ed2e8d71e7b7541a5523ead89777c725",
+      "after": "9b48067be2ec303218ae9ee1daed3e98ed2e8d71e7b7541a5523ead89777c725",
+      "unchanged": true
+    },
+    {
+      "path": "src\\thermodynamics\\userEquilibria.js",
+      "sha256": "5c1aabb37aec7131d57d48006341fb9da5824043ad147e8f3c6ffc98fd0bc9a8",
+      "after": "5c1aabb37aec7131d57d48006341fb9da5824043ad147e8f3c6ffc98fd0bc9a8",
+      "unchanged": true
+    },
+    {
+      "path": "src\\thermodynamics\\validation.js",
+      "sha256": "6e094cc718006f0300ce4f335fbcda6349629250518570b005551fc70f87405f",
+      "after": "6e094cc718006f0300ce4f335fbcda6349629250518570b005551fc70f87405f",
+      "unchanged": true
+    },
+    {
+      "path": "src\\thermodynamics\\validation.test.js",
+      "sha256": "d4c58a21beb0d9b36268f4995b355bc577fbb12af30630a752c8ecee3a5e259b",
+      "after": "d4c58a21beb0d9b36268f4995b355bc577fbb12af30630a752c8ecee3a5e259b",
+      "unchanged": true
+    },
+    {
+      "path": "src\\thermodynamics\\importers\\pipeline.js",
+      "sha256": "8d041a97bea3957ce4e7785acfad29cc7f547758c8cbcc666b4a3447e149d909",
+      "after": "8d041a97bea3957ce4e7785acfad29cc7f547758c8cbcc666b4a3447e149d909",
+      "unchanged": true
+    },
+    {
+      "path": "src\\thermodynamics\\importers\\pipeline.test.js",
+      "sha256": "93740acc37618fc625769b656b64478e610557f0a7db1f867dc4c5933b845ce4",
+      "after": "93740acc37618fc625769b656b64478e610557f0a7db1f867dc4c5933b845ce4",
+      "unchanged": true
+    },
+    {
+      "path": "src\\thermodynamics\\importers\\spana\\binary.js",
+      "sha256": "889017b231430c00de0c7107e135517f3f137e145d69f759f58efddcde642356",
+      "after": "889017b231430c00de0c7107e135517f3f137e145d69f759f58efddcde642356",
+      "unchanged": true
+    },
+    {
+      "path": "src\\thermodynamics\\importers\\spana\\components.js",
+      "sha256": "5ba6cf65a05dfeb506fd70f70ed8998122eab1b6dd524ebdd3d42872840bd765",
+      "after": "5ba6cf65a05dfeb506fd70f70ed8998122eab1b6dd524ebdd3d42872840bd765",
+      "unchanged": true
+    },
+    {
+      "path": "src\\thermodynamics\\importers\\spana\\convert.js",
+      "sha256": "3a1e6e05c1c25d743991cc4b95b7fa7b7f993d1f6831c9e4a72d4cf1919aa776",
+      "after": "3a1e6e05c1c25d743991cc4b95b7fa7b7f993d1f6831c9e4a72d4cf1919aa776",
+      "unchanged": true
+    },
+    {
+      "path": "src\\thermodynamics\\importers\\spana\\names.js",
+      "sha256": "2e3c89d92ab2f663e29f26a2978064c3a3d91aacf373dc450e241f18552bf61f",
+      "after": "2e3c89d92ab2f663e29f26a2978064c3a3d91aacf373dc450e241f18552bf61f",
+      "unchanged": true
+    },
+    {
+      "path": "src\\thermodynamics\\importers\\spana\\normalize.js",
+      "sha256": "1524a967ec6cbf9cbd92f8831ca186631143b838c594f1fea53ee1193b343a18",
+      "after": "1524a967ec6cbf9cbd92f8831ca186631143b838c594f1fea53ee1193b343a18",
+      "unchanged": true
+    },
+    {
+      "path": "src\\thermodynamics\\importers\\spana\\references.js",
+      "sha256": "75b47f05838d8d8608b11064a78154b555002f99616e032f133c4999843d3b5c",
+      "after": "75b47f05838d8d8608b11064a78154b555002f99616e032f133c4999843d3b5c",
+      "unchanged": true
+    },
+    {
+      "path": "src\\thermodynamics\\importers\\spana\\spana.test.js",
+      "sha256": "1ef6f3420f058047061d376d07238e3d02cbbbfcfb027c4c50cede1f9f32087f",
+      "after": "1ef6f3420f058047061d376d07238e3d02cbbbfcfb027c4c50cede1f9f32087f",
+      "unchanged": true
+    },
+    {
+      "path": "tests\\fixtures\\eq-diagr\\references.json",
+      "sha256": "aefc0949b585ef290595088c8ed852a1eb591be25dff24563a44a2cf98d40960",
+      "after": "aefc0949b585ef290595088c8ed852a1eb591be25dff24563a44a2cf98d40960",
+      "unchanged": true
+    },
+    {
+      "path": "public\\data\\thermodynamic-default.json",
+      "sha256": "9fa7db6f4a13a88073a0ca214c412690846674f6b3f442e336baf1586c45d245",
+      "after": "9fa7db6f4a13a88073a0ca214c412690846674f6b3f442e336baf1586c45d245",
+      "unchanged": true
+    },
+    {
+      "path": "src\\calculations\\definition.js",
+      "sha256": "0e7a5e26be53a10e69d731872fbba84bcb40c71de2de748901d18da4ab626f83",
+      "after": "0e7a5e26be53a10e69d731872fbba84bcb40c71de2de748901d18da4ab626f83",
+      "unchanged": true
+    },
+    {
+      "path": "src\\analysis\\pointTrace.js",
+      "sha256": "2194407bfed084b98694cb57598322a3a2368b479c79beb2dfebbafa9e75fa4b",
+      "after": "2194407bfed084b98694cb57598322a3a2368b479c79beb2dfebbafa9e75fa4b",
+      "unchanged": true
+    },
+    {
+      "path": "src\\analysis\\pourbaixContract.js",
+      "sha256": "2d1764d7f237071f2253ebe0fe54b4519ec09e072aea2c98623d9c8fb579c47c",
+      "after": "2d1764d7f237071f2253ebe0fe54b4519ec09e072aea2c98623d9c8fb579c47c",
+      "unchanged": true
+    }
+  ],
+  "changed": [
+    {
+      "path": "src\\App.jsx",
+      "kind": "modified",
+      "sha256": "d28b38ba320a9c59c554d2161da2a99fec762981102d73d5379ef6a2c36eede5"
+    },
+    {
+      "path": "src\\analysis\\redoxDiscovery.js",
+      "kind": "added",
+      "sha256": "42a5912b2b490dc6d0997df99f4aa037cf9f2b68fbd3362011a91dadac4c7047"
+    },
+    {
+      "path": "src\\analysis\\redoxSupportCatalog.js",
+      "kind": "added",
+      "sha256": "23dd7cca3c5b91dcc763c4dbc5ae92fef8d106c67cb893fb065206f76813372f"
+    },
+    {
+      "path": "src\\calculations\\boundedPourbaix.js",
+      "kind": "modified",
+      "sha256": "f66dc2d107826e8f3661f5a96916fabcca0651605ba0817b636b7d696f44cea6"
+    },
+    {
+      "path": "src\\calculations\\diagramSetup.js",
+      "kind": "modified",
+      "sha256": "6bc5975f10187853ad395948ee3e8b7ce5727a4d43dadc65377414d913b0515b"
+    },
+    {
+      "path": "src\\calculations\\userPourbaix.js",
+      "kind": "added",
+      "sha256": "cdb53343e496c80718716309eccae7b5a3ec9057f8477f7a8d5849e345395a2f"
+    },
+    {
+      "path": "src\\components\\CalculationWorkspace.jsx",
+      "kind": "modified",
+      "sha256": "4506ec21a4894b15d1ad0e7f8b3f369fdc7b9180596279264a148784856ea392"
+    },
+    {
+      "path": "src\\components\\PlotWorkspace.jsx",
+      "kind": "modified",
+      "sha256": "cf82e4ce258b624009a7e3e8992d66035d11f1cf2e010a7869d54490c8e95b59"
+    },
+    {
+      "path": "src\\components\\Pourbaix.css",
+      "kind": "added",
+      "sha256": "3c4589332e4b1260213b3d6d9f5de89e86d1fc9b5283b013c02ff9712b80fab4"
+    },
+    {
+      "path": "src\\components\\PourbaixSetup.jsx",
+      "kind": "added",
+      "sha256": "0ee392f1adcd3639e008130a748314d3f834819a3e6d684dbfd7458e1e9b94b2"
+    },
+    {
+      "path": "src\\components\\PourbaixWorkspace.jsx",
+      "kind": "added",
+      "sha256": "c1e3cb00161d6fa3c5e496615c95799c84b3665a78a801d953b09cb4e7553663"
+    },
+    {
+      "path": "src\\data\\redoxWorkflowExample.js",
+      "kind": "added",
+      "sha256": "59d7854663b814c405861761481dde8b750d69bd0c342243d22e097d2c23895e"
+    },
+    {
+      "path": "src\\plots\\pourbaixPresentation.js",
+      "kind": "added",
+      "sha256": "021066bc619cf35110c0c9771633cb1a40ceb0cf204df380cd1d795fc587d642"
+    },
+    {
+      "path": "src\\plots\\resultSelection.js",
+      "kind": "modified",
+      "sha256": "a79c42735ec59d067c1e21393b5960677922244a6765623b5b9e77962efc3b14"
+    },
+    {
+      "path": "src\\session\\laboratorySession.js",
+      "kind": "modified",
+      "sha256": "bef161922836748b73d85e915ffb5fe122fe6ab6f8b802a803562e0135e70c43"
+    },
+    {
+      "path": "tests\\cuPourbaix.test.js",
+      "kind": "modified",
+      "sha256": "df68e7dab5098d02cb5aa796197c2c0b6f049e6a7aa7a59fb347616c2ebc8d57"
+    },
+    {
+      "path": "tests\\diagramSetup.test.js",
+      "kind": "modified",
+      "sha256": "20e68e710de9e957ecec1a17c656f3ea7cf936617d57e42844fce858ed475671"
+    },
+    {
+      "path": "tests\\fastDiagramUx.test.js",
+      "kind": "modified",
+      "sha256": "3b24a3c230011120e5a6b3601410a297bf49bf2ec8bac3bd761b05c1f6cc9e1f"
+    },
+    {
+      "path": "tests\\userPourbaix.test.js",
+      "kind": "added",
+      "sha256": "f311107e5ad49ac64983928ff1cc2e38a0d8b768571cada102f7a204ececcb52"
+    },
+    {
+      "path": "scripts\\audit-production-boundary.js",
+      "kind": "modified",
+      "sha256": "d5919c6a2b55dd5d8c14df49e5f3b081e3bcca7d0b76df9d39a619329babfe9e"
+    },
+    {
+      "path": "docs\\discovery-browser.json",
+      "kind": "added",
+      "sha256": "bb5ccd90212664a2b76068c3d8829aa9b5d1dbbb6dee26398eaf204a72a4fa7a"
+    },
+    {
+      "path": "docs\\discovery-changed-browser.png",
+      "kind": "added",
+      "sha256": "673926125c464a1876306379d7affe596c319efc64f0527fd7f016605b20a80a"
+    },
+    {
+      "path": "docs\\discovery-cu-browser.png",
+      "kind": "added",
+      "sha256": "05436afdf2fa0936116f6910db876873a74736095ed2e665d2d64206fe5490d4"
+    },
+    {
+      "path": "docs\\discovery-fe-browser.png",
+      "kind": "added",
+      "sha256": "b472f52d56b2dc60f09d328d4a086093e215697a7ce39e69f7de3da4b2a9276d"
+    },
+    {
+      "path": "docs\\discovery-file-checks.json",
+      "kind": "added",
+      "sha256": null
+    },
+    {
+      "path": "docs\\discovery-mobile-browser.png",
+      "kind": "added",
+      "sha256": "9e3d534b28ee57222dcf4444de30786f03dbd84065f53ffba8d4b61c1cf0b52f"
+    },
+    {
+      "path": "docs\\discovery-phase-checks.json",
+      "kind": "added",
+      "sha256": "d65affdba20386d70be5d88c659409e1e9e46c0e1e899f5ec0f23f13ef53cdee"
+    },
+    {
+      "path": "docs\\discovery-unsupported-browser.png",
+      "kind": "added",
+      "sha256": "e4bfb7142844aa76544754b2a311304ef2830fabe139d8e60b720d85dd6dbe4c"
+    },
+    {
+      "path": "docs\\redox-discovery-audit.json",
+      "kind": "added",
+      "sha256": "82f49a41f89709c3d0ff747d2acb890e1d690886326fe35ee1e14addfc966818"
+    },
+    {
+      "path": "docs\\redox-discovery-audit.md",
+      "kind": "added",
+      "sha256": "86c45ddc94b1866653030ec61950c2e6c5d62bc5027569d3a1af8e3c644bb48d"
+    },
+    {
+      "path": "docs\\user-selected-pourbaix-phase.md",
+      "kind": "added",
+      "sha256": "62b1b38bab3c79358dbd0ed7c31960c2dcfe99d0873961bd4a7e2b28927f13df"
+    }
+  ],
+  "scratchFiles": [
+    ".local/discovery-phase/audit-first.txt",
+    ".local/discovery-phase/baseline-audit.txt",
+    ".local/discovery-phase/baseline-build.txt",
+    ".local/discovery-phase/baseline-lint.txt",
+    ".local/discovery-phase/baseline-tests.txt",
+    ".local/discovery-phase/before.json",
+    ".local/discovery-phase/build-first.txt",
+    ".local/discovery-phase/compatibility-tests.txt",
+    ".local/discovery-phase/controls.json",
+    ".local/discovery-phase/controls.txt",
+    ".local/discovery-phase/Cu-discovery.json",
+    ".local/discovery-phase/Fe-discovery.json",
+    ".local/discovery-phase/final-audit.txt",
+    ".local/discovery-phase/final-build.txt",
+    ".local/discovery-phase/final-lint.txt",
+    ".local/discovery-phase/final-tests-passed.txt",
+    ".local/discovery-phase/final-tests.txt",
+    ".local/discovery-phase/finalize.mjs",
+    ".local/discovery-phase/focused.txt",
+    ".local/discovery-phase/lint-first.txt",
+    ".local/discovery-phase/navigation-tests.txt",
+    ".local/discovery-phase/save-browser-artifacts.mjs",
+    ".local/discovery-phase/U-discovery.json",
+    ".local/discovery-phase/validate-controls.mjs",
+    ".local/discovery-phase/write-audit.mjs"
+  ]
+}

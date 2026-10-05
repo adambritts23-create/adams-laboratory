@@ -1,0 +1,47 @@
+✔ aqueous element discovery includes H/O implicitly but does not define totals or basis (4.4631ms)
+✔ selected species define analytical constraints excluding solvent H/O (1.3271ms)
+✔ element and phase changes prune incompatible species and orphan totals (2.0177ms)
+✔ system validation checks both pH modes, numbers, fixed ionic strength and future redox inputs (9.3368ms)
+✔ beaker consumes branded accepted equilibrium points, never lookalike or archived objects (53.1471ms)
+✔ all pH control samples map exactly to the existing proton activity input (0.7956ms)
+✔ accepted aqueous-only points have no precipitate and retain unavailable saturation solubility (0.865ms)
+✔ one-solid beaker state identifies calcite from the solver assemblage (0.2934ms)
+✔ multi-solid beaker states show all two- and three-phase inventories without layers (0.3218ms)
+✔ display inventory preserves every exact solid amount and agrees with prior multi-solid evidence (0.9925ms)
+✔ dissolved totals and all weighted contributors reuse existing calculated output (1.2091ms)
+✔ synchronized marker uses exactly the beaker pH, input identity and original solubility samples (0.7309ms)
+✔ unsupported and uncalculated states remain explicit and never produce a visual equilibrium (97.7128ms)
+✔ stale revision and late invalidated runs cannot masquerade as the current beaker state (33.2243ms)
+✔ default provider loads once, reports loading/validation and shares the validated repository across subscribers (171.3865ms)
+✔ production default provider never requests a local source; transport and malformed-source failures are explicit (67.7831ms)
+✔ development middleware serves only the configured local file to loopback, without caching or arbitrary path access (7.7994ms)
+✔ production artifact audit rejects local paths, dataset copies, source fingerprints and embedded oversized payloads (7.4766ms)
+✔ available and unavailable element clicks both expose custom entry; discovery never infers a component (3.4348ms)
+✔ custom component validation accepts explicit ordinary associations but rejects unsupported roles, malformed metadata and ambiguity (1.9211ms)
+✔ custom component and equilibrium coexist with source data, preserving provenance without invented logK or implicit selection (4.4769ms)
+✔ custom-only versioned interchange preserves raw values, rejects result injection, and rejects missing dependencies (5.7381ms)
+✔ explicit custom basis reaches unchanged preparation and point solver with the retained official formation constant (20.6582ms)
+✔ structural handoff reports the actual multiple-solid preparation diagnostic without substituting numeric constraints (6.1685ms)
+✔ custom edits and removals invalidate current results, preserve stale plots and reconcile removed component conditions (3.432ms)
+✔ New system retains the repository and custom collection while Reset calculation retains selected chemistry and clears results (3.0388ms)
+✔ parameter bars map positive totals logarithmically and keep exact numeric entry outside convenience ranges (0.3041ms)
+✔ direct curve labels avoid collisions, retain exact anchors and use legend fallback for crowded series (1.7001ms)
+✔ automatic membership requires every explicit nonzero component and ignores discovery elements (10.0277ms)
+✔ exclusion changes science and retains stale plots; visibility leaves membership and revision untouched; restoration is explicit (3.2569ms)
+✔ repository generation invalidates immutable caches and re-derives membership on source edit/removal (6.0744ms)
+✔ solids require deliberate inclusion and multiple choices retain the existing typed preparation rejection (6.6182ms)
+✔ automatic and legacy explicit custom membership produce identical prepared science and point results (19.0566ms)
+✔ automatic policy survives new/reset and deliberate exclusions survive temporary component removal (2.4452ms)
+✔ imported and user-defined formation records use identical component compatibility, independent of product names (3.0778ms)
+✔ unavailable thermodynamic values and disabled aqueous phase never create automatic equilibrium products (1.8771ms)
+✔ integer log grid preserves -3 as a minor landmark and varies label density with pixel height (0.8438ms)
+✔ crowded direct labels fall back before offsets become ambiguous (13.9804ms)
+✔ real local carbonate: auto acid/base membership equals explicit four-product pH sweep at all 51 points (2250.0101ms)
+ℹ tests 39
+ℹ suites 0
+ℹ pass 39
+ℹ fail 0
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 4615.026

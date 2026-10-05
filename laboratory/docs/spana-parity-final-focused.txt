@@ -1,0 +1,17 @@
+✔ MVP boundary contract distinguishes all six reservoir combinations (1.2055ms)
+✔ MVP constructor preserves ordinary preparation and refuses unknown adapters (450.3058ms)
+✔ non-redox structural scope reuse respects immutable repository and exact support (738.5203ms)
+✔ boundary UI transitions reset incompatible hydrogen coordinates and never reinterpret electron reagent (3.0126ms)
+✔ selected Cu/chloride source system uses independent total and retains real unavailable samples (423.3457ms)
+✔ SPANA analytical parity: acetate-total (101.8289ms)
+✔ SPANA analytical parity: fe-peroxide-analytical (90.1902ms)
+✔ SPANA analytical parity: Fe-derived-pH (1764.6308ms)
+✔ unvalidated calculated electron balance is gated independently of physical closed chemistry (6.3743ms)
+ℹ tests 9
+ℹ suites 0
+ℹ pass 9
+ℹ fail 0
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 4207.3404

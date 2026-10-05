@@ -1,0 +1,19 @@
+✔ N physical contributions occupy one final volume and retain immutable source provenance (4.3638ms)
+✔ invalid, duplicate and forged rows cannot define recipes or source identities (0.7086ms)
+✔ mixed Wet Lab reproduces saved independent carriers and all six pH controls; views/hover preserve identities (46734.3128ms)
+ℹ {"preparedMs":46614.0891,"interactionMs":50.34850000000006,"evidence":[{"mL":0,"pH":3.232816494563762,"pHError":0,"maxCarrierError":7.979727989493313e-17,"timing":{"compileMs":376.9377000000004,"prepareMs":16.87169999999969,"solveMs":1.3846000000003187}},{"mL":5,"pH":4.75276901736995,"pHError":0,"maxCarrierError":8.673617379884035e-18,"timing":{"compileMs":405.34619999999995,"prepareMs":34.57170000000042,"solveMs":1.8888999999999214}},{"mL":10,"pH":6.979561727891936,"pHError":9.237055564881302e-13,"maxCarrierError":2.914335439641036e-15,"timing":{"compileMs":444.46379999999954,"prepareMs":16.159099999998944,"solveMs":3.4699000000000524}},{"mL":15,"pH":9.220328731995949,"pHError":1.7763568394002505e-15,"maxCarrierError":2.949029909160572e-17,"timing":{"compileMs":391.57550000000083,"prepareMs":15.31500000000051,"solveMs":1.051900000000387}},{"mL":20,"pH":10.678997049575306,"pHError":3.552713678800501e-15,"maxCarrierError":3.848917712323541e-18,"timing":{"compileMs":430.2400000000016,"prepareMs":41.168900000000576,"solveMs":1.199400000001333}},{"mL":100,"pH":12.717501076711436,"pHError":0,"maxCarrierError":8.413408858487514e-17,"timing":{"compileMs":375.5100999999995,"prepareMs":13.212299999999232,"solveMs":1.434399999998277}}]}
+✔ scope checks respect exclusions, refuse stale/forged stocks and do not fall back for chloride/borate (790.3902ms)
+✔ required phase closure stays an unavailable Wet Lab sample, never accepted aqueous fallback (823.3974ms)
+✔ physical pure-solid states match ordinary Calculation and independent raw-source reference (3.3827ms)
+✔ permitted phases remain exactly absent, then precipitate and redissolve without sediment leakage (1.1189ms)
+✔ Wet Lab independent physical doses preserve point parity and inventory lineage (2533.1832ms)
+✔ source candidate ordering preserves physical result; gas and redox stay refused (3219.0159ms)
+✔ cached hover crosses phase transition and restores exact commitment without solving (43882.6837ms)
+ℹ tests 10
+ℹ suites 0
+ℹ pass 10
+ℹ fail 0
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 103774.4588

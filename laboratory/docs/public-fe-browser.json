@@ -1,0 +1,42 @@
+{
+  "samples": [
+    {
+      "state": "Fe(0)",
+      "text": "Fe(0) · Selected sample 142\nMap sample\n\npH 7 · Eh -0.9 V vs SHE · pe -15.21315\nTotal Fe: 0.001 mol/kg H₂O\n\nOxidation-state inventory · denominator is total Fe\nFe(0)\t100% of total Fe\nFe(II)\t2.931826e-10% of total Fe\nFe(III)\t4.096655e-29% of total Fe\nFe(VI)\t9.122338e-141% of total Fe\n\nPredominant: Fe(0) · Majority (>50%): yes · Tie: no\n\nDominant thermodynamic carrier: Fe(cr) (solid)\n\nDissolved Fe: 2.931826e-15 mol/kg H₂O\nAccepted solids: Fe(cr): 0.001 mol/kg H₂O\nWater context: below H2 reference\nSolver: converged · Unresolved Fe inventory: 0 mol/kg H₂O\n\nExact fractions, carriers and provenance",
+      "inputId": "b3cbe41ab2211a21286d5c84f5dcb52e42cadabd6f6ea6febdf1124812660431",
+      "beakerInputId": "b3cbe41ab2211a21286d5c84f5dcb52e42cadabd6f6ea6febdf1124812660431"
+    },
+    {
+      "state": "Fe(II)",
+      "text": "Fe(II) · Selected sample 1146\nMap sample\n\npH 1.5 · Eh 0 V vs SHE · pe 0\nTotal Fe: 0.001 mol/kg H₂O\n\nOxidation-state inventory · denominator is total Fe\nFe(0)\t0% of total Fe\nFe(II)\t100% of total Fe\nFe(III)\t1.102361e-11% of total Fe\nFe(VI)\t2.233572e-112% of total Fe\n\nPredominant: Fe(II) · Majority (>50%): yes · Tie: no\n\nDominant thermodynamic carrier: Fe²⁺ (aqueous)\n\nDissolved Fe: 0.001 mol/kg H₂O\nAccepted solids: none\nWater context: inside water reference window\nSolver: converged · Unresolved Fe inventory: 0 mol/kg H₂O\n\nExact fractions, carriers and provenance",
+      "inputId": "5ba7fe1c4a8f35aa51fcf0698811d8df3a2e3ec387eba39ced23cd098b57d26f",
+      "beakerInputId": "5ba7fe1c4a8f35aa51fcf0698811d8df3a2e3ec387eba39ced23cd098b57d26f"
+    },
+    {
+      "state": "Fe(III)",
+      "text": "Fe(III) · Selected sample 1457\nMap sample\n\npH 8 · Eh 0.25 V vs SHE · pe 4.225875\nTotal Fe: 0.001 mol/kg H₂O\n\nOxidation-state inventory · denominator is total Fe\nFe(0)\t0% of total Fe\nFe(II)\t6.424377e-11% of total Fe\nFe(III)\t100% of total Fe\nFe(VI)\t1.064447e-55% of total Fe\n\nPredominant: Fe(III) · Majority (>50%): yes · Tie: no\n\nDominant thermodynamic carrier: Fe₂O₃(cr) (solid)\n\nDissolved Fe: 1.054321e-12 mol/kg H₂O\nAccepted solids: Fe₂O₃(cr): 0.0005 mol/kg H₂O\nWater context: inside water reference window\nSolver: converged · Unresolved Fe inventory: 0 mol/kg H₂O\n\nExact fractions, carriers and provenance",
+      "inputId": "68a99d9bbaf3820f20a0f633e43aedb85a3fe5bffe16958332ce3e96476d44e2",
+      "beakerInputId": "68a99d9bbaf3820f20a0f633e43aedb85a3fe5bffe16958332ce3e96476d44e2"
+    },
+    {
+      "state": "Fe(VI)",
+      "text": "Fe(VI) · Selected sample 2444\nMap sample\n\npH 12.5 · Eh 1.1 V vs SHE · pe 18.59385\nTotal Fe: 0.001 mol/kg H₂O\n\nOxidation-state inventory · denominator is total Fe\nFe(0)\t0% of total Fe\nFe(II)\t7.474744e-43% of total Fe\nFe(III)\t1.655771e-13% of total Fe\nFe(VI)\t100% of total Fe\n\nPredominant: Fe(VI) · Majority (>50%): yes · Tie: no\n\nDominant thermodynamic carrier: FeO₄²⁻ (aqueous)\n\nDissolved Fe: 0.001 mol/kg H₂O\nAccepted solids: none\nWater context: above O₂ reference\nSolver: converged · Unresolved Fe inventory: 0 mol/kg H₂O\n\nExact fractions, carriers and provenance",
+      "inputId": "2d4fb0863f2d8b1329d5f9bde776f2ffed79ca76dc82b4ed8754679a0dfb569f",
+      "beakerInputId": "2d4fb0863f2d8b1329d5f9bde776f2ffed79ca76dc82b4ed8754679a0dfb569f"
+    }
+  ],
+  "magnetite": {
+    "text": "Fe(III) · Selected sample 496\nMap sample\n\npH 10 · Eh -0.6 V vs SHE · pe -10.1421\nTotal Fe: 0.001 mol/kg H₂O\n\nOxidation-state inventory · denominator is total Fe\nFe(0)\t0% of total Fe\nFe(II)\t33.34403% of total Fe\nFe(III)\t66.65597% of total Fe\nFe(VI)\t1.052775e-89% of total Fe\n\nPredominant: Fe(III) · Majority (>50%): yes · Tie: no\n\nDominant thermodynamic carrier: Fe₃O₄(cr) (solid)\n\nDissolved Fe: 1.604219e-7 mol/kg H₂O\nAccepted solids: Fe₃O₄(cr): 0.0003332799 mol/kg H₂O\nWater context: below H2 reference\nSolver: converged · Unresolved Fe inventory: 0 mol/kg H₂O\n\nExact fractions, carriers and provenance",
+    "inputId": "17172d55403a668110715e0bee2d3673a66558b6e4ea35f5a0bf0d0b0238d2e9",
+    "beakerInputId": "17172d55403a668110715e0bee2d3673a66558b6e4ea35f5a0bf0d0b0238d2e9"
+  },
+  "keyboard": "497",
+  "mobile": {
+    "scrollWidth": 375,
+    "width": 390
+  },
+  "unsupported": [
+    "Calculation needs attentionUnsupported Fe total: v1 requires exactly 0.001 mol/kg H₂O. Other totals are not publicly validated.The retained graph belongs to its displayed calculation; this message does not establish a new equilibrium.",
+    "Unsupported Fe total: v1 requires exactly 0.001 mol/kg H₂O. Other totals are not publicly validated."
+  ]
+}

@@ -1,0 +1,126 @@
+{
+  "nonRedox": [
+    {
+      "code": "redox-boundary-mismatch",
+      "message": "Connected aqueous electron-transfer chemistry requires an appropriate validated closed-redox boundary; no reactions were suppressed or rerouted."
+    }
+  ],
+  "sodiumRedox": {
+    "canCalculate": false,
+    "reasons": [
+      {
+        "code": "missing-conservation-metadata",
+        "message": "No source-bound elemental/charge allocation for this supplied form.",
+        "ids": [
+          "component:Na%2B"
+        ]
+      }
+    ]
+  },
+  "signedDose": {
+    "ok": false,
+    "code": "invalid-reagent-inventory",
+    "message": "Supply finite nonnegative solute amounts with reviewed identities; no electron or solvent inventory."
+  },
+  "reachable": 46,
+  "points": [
+    {
+      "v": 0,
+      "pH": 2.6856409736427747,
+      "pe": 10.845490415860338,
+      "solidFraction": 0,
+      "positive": []
+    },
+    {
+      "v": 1,
+      "pH": 2.8354913142077587,
+      "pe": 10.583512573465223,
+      "solidFraction": 0,
+      "positive": []
+    },
+    {
+      "v": 2,
+      "pH": 2.967088544077054,
+      "pe": 10.353508632278023,
+      "solidFraction": 0,
+      "positive": []
+    },
+    {
+      "v": 3,
+      "pH": 3.1001404714859304,
+      "pe": 10.121049636406358,
+      "solidFraction": 0,
+      "positive": []
+    },
+    {
+      "v": 5,
+      "pH": 3.4638298286256872,
+      "pe": 9.486404908710279,
+      "solidFraction": 0,
+      "positive": []
+    },
+    {
+      "v": 7,
+      "pH": 3.5744178028311158,
+      "pe": 9.293779912075516,
+      "solidFraction": 0.1860315260624833,
+      "positive": [
+        "Cr2O3(cr)"
+      ]
+    },
+    {
+      "v": 10,
+      "pH": 3.6330281945382015,
+      "pe": 9.19178747560292,
+      "solidFraction": 0.5083607874208464,
+      "positive": [
+        "Cr2O3(cr)"
+      ]
+    },
+    {
+      "v": 14,
+      "pH": 3.853086455206537,
+      "pe": 8.809637583990076,
+      "solidFraction": 0.9147936162015358,
+      "positive": [
+        "Cr2O3(cr)"
+      ]
+    },
+    {
+      "v": 15,
+      "pH": 7.002153504604114,
+      "pe": 3.645479995597514,
+      "solidFraction": 0.9999993923409972,
+      "positive": [
+        "Cr2O3(cr)"
+      ]
+    },
+    {
+      "v": 20,
+      "pH": 11.850473910498012,
+      "pe": -3.520481524269223,
+      "solidFraction": 0.9999973091383778,
+      "positive": [
+        "Cr2O3(cr)"
+      ]
+    },
+    {
+      "v": 50,
+      "pH": 12.53711431295832,
+      "pe": -4.481778306090094,
+      "solidFraction": 0.9999841858513788,
+      "positive": [
+        "Cr2O3(cr)"
+      ]
+    },
+    {
+      "v": 100,
+      "pH": 12.743673597835322,
+      "pe": -4.770961305858633,
+      "solidFraction": 0.9999625110764351,
+      "positive": [
+        "Cr2O3(cr)"
+      ]
+    }
+  ]
+}

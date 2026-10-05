@@ -1,0 +1,37 @@
+{
+  "coverage": {
+    "activeSourceComponents": 168,
+    "rawUniqueElbNames": 168,
+    "elbBlocks": 86,
+    "dbRecords": 4444,
+    "officialCharges": 168,
+    "newAtomVectorsFromSourceSchema": 0,
+    "existingReviewedVectors": 15,
+    "ordinaryReviewedVectors": 12,
+    "physicalMetadataAvailable": 13,
+    "specialComponents": 3,
+    "missingReviewedAtoms": 153,
+    "newlyUnlockedPhysicalForms": 0
+  },
+  "chargeMismatches": [],
+  "pinsChecked": 15,
+  "productChecks": 4,
+  "preflights": [
+    {
+      "name": "CuCl2",
+      "status": "UNAVAILABLE",
+      "reason": "Missing authoritative composition/charge metadata for Cu 2+. Selection is allowed; physical preparation is unavailable."
+    },
+    {
+      "name": "NaNO3",
+      "status": "UNAVAILABLE",
+      "reason": "Missing authoritative composition/charge metadata for NO3-. Selection is allowed; physical preparation is unavailable."
+    }
+  ],
+  "chargeDemo": {
+    "balanced": true,
+    "unbalanced": false,
+    "upstreamTolerance": 0.001,
+    "upstreamSkipCoefficientMagnitudeBelow": 0.0001
+  }
+}

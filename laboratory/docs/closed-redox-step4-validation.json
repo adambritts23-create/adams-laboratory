@@ -1,0 +1,38 @@
+{
+  "focused": {
+    "tests": 37,
+    "passed": 37,
+    "failed": 0
+  },
+  "full": {
+    "tests": 562,
+    "passed": 562,
+    "failed": 0,
+    "cancelled": 0,
+    "skipped": 0,
+    "todo": 0,
+    "durationMs": 365562.0939
+  },
+  "build": "passed",
+  "artifactAudit": "passed",
+  "lint": {
+    "errors": 0,
+    "existingWarnings": 1
+  },
+  "protectedFiles": {
+    "checked": 223,
+    "unchanged": 220,
+    "changes": [
+      "src/thermodynamics/closedRedoxNetwork.js",
+      "src/solver/closedRedox.js",
+      "src/solver/point.js"
+    ],
+    "thermodynamicDataChanged": false,
+    "solverEquationsChanged": false,
+    "solverTolerancesChanged": false
+  },
+  "scientificScope": "Conditional ideal fixed-solvent V/Eu + V(III) hydrolysis + water dissociation; eight solutes; derived pH/Eh",
+  "nextStep": "Bounded Fe(II)/H2O2 source audit and independent benchmark appropriate; not yet chemically validated or implemented",
+  "deployed": false,
+  "pushed": false
+}

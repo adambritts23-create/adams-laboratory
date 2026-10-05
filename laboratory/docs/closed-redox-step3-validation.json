@@ -1,0 +1,31 @@
+{
+  "focused": {
+    "tests": 30,
+    "passed": 30,
+    "failed": 0
+  },
+  "full": {
+    "tests": 555,
+    "passed": 555,
+    "failed": 0,
+    "cancelled": 0,
+    "skipped": 0,
+    "todo": 0,
+    "durationMs": 364517.3565
+  },
+  "build": "passed; surviving unchanged production build",
+  "artifactAudit": "passed",
+  "protectedFiles": {
+    "checked": 223,
+    "changed": []
+  },
+  "lint": {
+    "errors": 0,
+    "warnings": 1,
+    "existingWarning": "ExpandedPlot react-hooks/exhaustive-deps"
+  },
+  "recovery": "Corrected malformed citation-prefix assertion in validation helper; full and focused suites pass on corrected files.",
+  "scientificScope": "Conditional five-ion V/Eu/Cl reaction network; not complete aqueous chemistry",
+  "deployed": false,
+  "pushed": false
+}

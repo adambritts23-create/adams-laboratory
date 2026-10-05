@@ -1,0 +1,7 @@
+[
+  "src\\App.jsx",
+  "src\\calculations\\wetLabExperience.js",
+  "src\\components\\WetLab.css",
+  "src\\components\\WetLab.jsx",
+  "tests\\wetLabExperience.test.js"
+]

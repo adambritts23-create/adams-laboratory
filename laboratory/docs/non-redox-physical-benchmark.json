@@ -1,0 +1,4096 @@
+{
+  "summary": {
+    "points": 6,
+    "maxPHError": 9.174883075502294e-13,
+    "maxCarrierAbsoluteError": 2.914335439641036e-15,
+    "maxCarrierLogError": 1.5276875725110304e-12,
+    "maxComponentResidual": 1.1102230246251565e-16,
+    "maxChargeResidual": 1.942890293094024e-16,
+    "maxMassActionResidual": 8.881784197001252e-16
+  },
+  "evidence": [
+    {
+      "volumeMl": 0,
+      "pH": 3.232816494563761,
+      "pHError": -8.881784197001252e-16,
+      "carriers": [
+        {
+          "id": "component:H%2B",
+          "name": "H+",
+          "amount": 0.0005850372317340491,
+          "expected": 0.0005850372317340479,
+          "absoluteError": 1.1926223897340549e-18,
+          "logError": 8.678947198979575e-16
+        },
+        {
+          "id": "component:B(OH)3",
+          "name": "B(OH)3",
+          "amount": 0.019995663381624004,
+          "expected": 0.019995663381623993,
+          "absoluteError": 1.0408340855860843e-17,
+          "logError": 1.9286549331065737e-16
+        },
+        {
+          "id": "component:CH3COO-",
+          "name": "CH3COO-",
+          "amount": 0.0005807022696595256,
+          "expected": 0.0005807022696595263,
+          "absoluteError": 6.505213034913027e-19,
+          "logError": 4.821637332766438e-16
+        },
+        {
+          "id": "spana:2ac52a30213c9288:36848",
+          "name": "B(OH)3(CH3COO)-",
+          "amount": 0.000004314091384631493,
+          "expected": 0.000004314091384631501,
+          "absoluteError": 8.470329472543003e-21,
+          "logError": 8.678947198979592e-16
+        },
+        {
+          "id": "spana:2ac52a30213c9288:37016",
+          "name": "B(OH)4-",
+          "amount": 1.984962523215978e-8,
+          "expected": 1.984962523215978e-8,
+          "absoluteError": 0,
+          "logError": 0
+        },
+        {
+          "id": "spana:2ac52a30213c9288:38021",
+          "name": "B2O(OH)5-",
+          "amount": 3.3472498327110927e-10,
+          "expected": 3.3472498327110927e-10,
+          "absoluteError": 0,
+          "logError": 0
+        },
+        {
+          "id": "spana:2ac52a30213c9288:38284",
+          "name": "B3O3(OH)4-",
+          "amount": 6.693048090908847e-10,
+          "expected": 6.693048090908847e-10,
+          "absoluteError": 0,
+          "logError": 0
+        },
+        {
+          "id": "spana:2ac52a30213c9288:38377",
+          "name": "B4O5(OH)4-2",
+          "amount": 4.358893489358008e-16,
+          "expected": 4.3588934893580257e-16,
+          "absoluteError": 1.7749370367472766e-30,
+          "logError": 1.784005813123585e-15
+        },
+        {
+          "id": "spana:2ac52a30213c9288:79298",
+          "name": "CH3COOH",
+          "amount": 0.019414983638955854,
+          "expected": 0.019414983638955812,
+          "absoluteError": 4.163336342344337e-17,
+          "logError": 9.643274665532861e-16
+        },
+        {
+          "id": "spana:2ac52a30213c9288:250448",
+          "name": "OH-",
+          "amount": 1.7033994181549572e-11,
+          "expected": 1.7033994181549643e-11,
+          "absoluteError": 7.108583389127582e-26,
+          "logError": 1.8322221864512493e-15
+        }
+      ],
+      "balances": [
+        {
+          "componentId": "component:H%2B",
+          "expected": 0.02,
+          "actual": 0.02000000000000001,
+          "residual": 1.0408340855860843e-17
+        },
+        {
+          "componentId": "component:B(OH)3",
+          "expected": 0.02,
+          "actual": 0.020000000000000004,
+          "residual": 3.469446951953614e-18
+        },
+        {
+          "componentId": "component:CH3COO-",
+          "expected": 0.02,
+          "actual": 0.02000000000000001,
+          "residual": 1.0408340855860843e-17
+        }
+      ],
+      "massAction": [
+        {
+          "id": "spana:2ac52a30213c9288:36848",
+          "residual": 0
+        },
+        {
+          "id": "spana:2ac52a30213c9288:37016",
+          "residual": 4.440892098500626e-16
+        },
+        {
+          "id": "spana:2ac52a30213c9288:38021",
+          "residual": 0
+        },
+        {
+          "id": "spana:2ac52a30213c9288:38284",
+          "residual": 0
+        },
+        {
+          "id": "spana:2ac52a30213c9288:38377",
+          "residual": 0
+        },
+        {
+          "id": "spana:2ac52a30213c9288:79298",
+          "residual": 0
+        },
+        {
+          "id": "spana:2ac52a30213c9288:250448",
+          "residual": -8.881784197001252e-16
+        }
+      ],
+      "charge": {
+        "ok": true,
+        "netCharge": 1.5232539348905358e-18,
+        "limit": 4e-12,
+        "unit": "mol charge equivalents/kg H2O",
+        "contributions": [
+          {
+            "id": "component:H%2B",
+            "charge": 1,
+            "amount": 0.0005850372317340491
+          },
+          {
+            "id": "component:B(OH)3",
+            "charge": 0,
+            "amount": 0.019995663381624004
+          },
+          {
+            "id": "component:CH3COO-",
+            "charge": -1,
+            "amount": 0.0005807022696595256
+          },
+          {
+            "id": "spana:2ac52a30213c9288:36848",
+            "charge": -1,
+            "amount": 0.000004314091384631493
+          },
+          {
+            "id": "spana:2ac52a30213c9288:37016",
+            "charge": -1,
+            "amount": 1.984962523215978e-8
+          },
+          {
+            "id": "spana:2ac52a30213c9288:38021",
+            "charge": -1,
+            "amount": 3.3472498327110927e-10
+          },
+          {
+            "id": "spana:2ac52a30213c9288:38284",
+            "charge": -1,
+            "amount": 6.693048090908847e-10
+          },
+          {
+            "id": "spana:2ac52a30213c9288:38377",
+            "charge": -2,
+            "amount": 4.358893489358008e-16
+          },
+          {
+            "id": "spana:2ac52a30213c9288:79298",
+            "charge": 0,
+            "amount": 0.019414983638955854
+          },
+          {
+            "id": "spana:2ac52a30213c9288:250448",
+            "charge": -1,
+            "amount": 1.7033994181549572e-11
+          }
+        ]
+      },
+      "phaseDiagnostics": [
+        {
+          "id": "spana:2ac52a30213c9288:38100",
+          "name": "B2O3(cr)",
+          "phase": "solid",
+          "reference": "Codata: Cox J D, Wagman D D, Medvedev V A, CODATA Key Values for Thermodynamics. Hemisphere Publ. Co., New York, 1989",
+          "provenance": {
+            "kind": "imported",
+            "sourceDatabase": "spana:2ac52a30213c9288dd18fc6dd597411e5c3ca53173fa6d1fab5530b371c30a0a",
+            "sourceFile": "Eq-Diagr/Reactions.db",
+            "sourceRecordId": "byte:38100",
+            "originalRecordId": null,
+            "originalSpeciesName": "B2O3(cr)",
+            "originalReaction": {
+              "product": "B2O3(cr)",
+              "components": [
+                {
+                  "name": "B(OH)3",
+                  "coefficient": 2
+                },
+                {
+                  "name": "H2O",
+                  "coefficient": -3
+                }
+              ],
+              "separateProtonCount": null
+            },
+            "originalLogK": -5.745,
+            "originalReferenceCode": "Codata",
+            "resolvedCitation": "Codata: Cox J D, Wagman D D, Medvedev V A, CODATA Key Values for Thermodynamics. Hemisphere Publ. Co., New York, 1989",
+            "referenceSourceFile": "Eq-Diagr/References.txt",
+            "dbSha256": "2ac52a30213c9288dd18fc6dd597411e5c3ca53173fa6d1fab5530b371c30a0a",
+            "byteOffset": 38100,
+            "byteLength": 76,
+            "importDate": "2026-09-05T16:23:16.736Z",
+            "importerVersion": "spana-readonly-1.0.0",
+            "comments": [
+              "Element links describe source components, not product atom counts. Oxidation states are not supplied."
+            ],
+            "qualityFlags": [
+              "imported",
+              "not-solver-validated",
+              "composition-unknown"
+            ],
+            "original": {
+              "speciesName": "B2O3(cr)",
+              "reaction": {
+                "product": "B2O3(cr)",
+                "components": [
+                  {
+                    "name": "B(OH)3",
+                    "coefficient": 2
+                  },
+                  {
+                    "name": "H2O",
+                    "coefficient": -3
+                  }
+                ],
+                "separateProtonCount": null
+              },
+              "logK": -5.745,
+              "citation": "Codata",
+              "raw": {
+                "ordinal": 409,
+                "byteOffset": 38100,
+                "byteLength": 76,
+                "name": "B2O3(cr)",
+                "logK": -5.745,
+                "thermal": {
+                  "kind": "deltaH-deltaCp",
+                  "deltaH": 14.599999999999989,
+                  "deltaCp": 187.99999999999997
+                },
+                "layout": "variable",
+                "componentToken": "2",
+                "components": [
+                  {
+                    "name": "B(OH)3",
+                    "coefficient": 2
+                  },
+                  {
+                    "name": "H2O",
+                    "coefficient": -3
+                  }
+                ],
+                "protonCount": null,
+                "reference": "Codata",
+                "comment": "",
+                "rawBase64": "AAhCMk8zKGNyKcAW+uFHrhR7QC0zMzMzMy1AZ3///////wABMgAGQihPSCkzQAAAAAAAAAAAA0gyT8AIAAAAAAAAAAZDb2RhdGEAAA=="
+              }
+            }
+          },
+          "terms": [
+            {
+              "name": "B(OH)3",
+              "coefficient": 2
+            },
+            {
+              "name": "H2O",
+              "coefficient": -3
+            }
+          ],
+          "logK": -5.745,
+          "reason": "Non-aqueous inventory outside Phase-1 scope.",
+          "logActivity": -9.143128366036708
+        },
+        {
+          "id": "spana:2ac52a30213c9288:79376",
+          "name": "CH3COOH(g)",
+          "phase": "gas",
+          "reference": "SmithMart: NIST Standard Reference Database 46 Version 8.\nNIST Critically Selected Stability Constants of Metal Complexes Database\nhttp://www.nist.gov/srd/nist46.cfm\nNational Institute of Standards and Technology, 100 Bureau Dr., Stop 2300, Gaithersburg, MD\n\n2015Sander: Sander R, Atmos. Chem. Phys., 15 (2015) 4399-4981",
+          "provenance": {
+            "kind": "imported",
+            "sourceDatabase": "spana:2ac52a30213c9288dd18fc6dd597411e5c3ca53173fa6d1fab5530b371c30a0a",
+            "sourceFile": "Eq-Diagr/Reactions.db",
+            "sourceRecordId": "byte:79376",
+            "originalRecordId": null,
+            "originalSpeciesName": "CH3COOH(g)",
+            "originalReaction": {
+              "product": "CH3COOH(g)",
+              "components": [
+                {
+                  "name": "H+",
+                  "coefficient": 1
+                },
+                {
+                  "name": "CH3COO-",
+                  "coefficient": 1
+                }
+              ],
+              "separateProtonCount": null
+            },
+            "originalLogK": 1.02,
+            "originalReferenceCode": "SmithMart+2015Sander",
+            "resolvedCitation": "SmithMart: NIST Standard Reference Database 46 Version 8.\nNIST Critically Selected Stability Constants of Metal Complexes Database\nhttp://www.nist.gov/srd/nist46.cfm\nNational Institute of Standards and Technology, 100 Bureau Dr., Stop 2300, Gaithersburg, MD\n\n2015Sander: Sander R, Atmos. Chem. Phys., 15 (2015) 4399-4981",
+            "referenceSourceFile": "Eq-Diagr/References.txt",
+            "dbSha256": "2ac52a30213c9288dd18fc6dd597411e5c3ca53173fa6d1fab5530b371c30a0a",
+            "byteOffset": 79376,
+            "byteLength": 92,
+            "importDate": "2026-09-05T16:23:16.736Z",
+            "importerVersion": "spana-readonly-1.0.0",
+            "comments": [
+              "Element links describe source components, not product atom counts. Oxidation states are not supplied."
+            ],
+            "qualityFlags": [
+              "imported",
+              "not-solver-validated",
+              "composition-unknown"
+            ],
+            "original": {
+              "speciesName": "CH3COOH(g)",
+              "reaction": {
+                "product": "CH3COOH(g)",
+                "components": [
+                  {
+                    "name": "H+",
+                    "coefficient": 1
+                  },
+                  {
+                    "name": "CH3COO-",
+                    "coefficient": 1
+                  }
+                ],
+                "separateProtonCount": null
+              },
+              "logK": 1.02,
+              "citation": "SmithMart+2015Sander",
+              "raw": {
+                "ordinal": 872,
+                "byteOffset": 79376,
+                "byteLength": 92,
+                "name": "CH3COOH(g)",
+                "logK": 1.02,
+                "thermal": {
+                  "kind": "deltaH-deltaCp",
+                  "deltaH": 52.8,
+                  "deltaCp": -999999.9
+                },
+                "layout": "variable",
+                "componentToken": "2",
+                "components": [
+                  {
+                    "name": "H+",
+                    "coefficient": 1
+                  },
+                  {
+                    "name": "CH3COO-",
+                    "coefficient": 1
+                  }
+                ],
+                "protonCount": null,
+                "reference": "SmithMart+2015Sander",
+                "comment": "",
+                "rawBase64": "AApDSDNDT09IKGcpP/BR64UeuFJASmZmZmZmZsEuhH/MzMzNAAEyAAJIKz/wAAAAAAAAAAdDSDNDT08tP/AAAAAAAAAAFFNtaXRoTWFydCsyMDE1U2FuZGVyAAA="
+              }
+            }
+          },
+          "terms": [
+            {
+              "name": "H+",
+              "coefficient": 1
+            },
+            {
+              "name": "CH3COO-",
+              "coefficient": 1
+            }
+          ],
+          "logK": 1.02,
+          "reason": "Non-aqueous inventory outside Phase-1 scope.",
+          "logActivity": -5.448862971098576
+        },
+        {
+          "id": "spana:2ac52a30213c9288:155572",
+          "name": "H3BO3(cr)",
+          "phase": "solid",
+          "reference": "Codata: Cox J D, Wagman D D, Medvedev V A, CODATA Key Values for Thermodynamics. Hemisphere Publ. Co., New York, 1989",
+          "provenance": {
+            "kind": "imported",
+            "sourceDatabase": "spana:2ac52a30213c9288dd18fc6dd597411e5c3ca53173fa6d1fab5530b371c30a0a",
+            "sourceFile": "Eq-Diagr/Reactions.db",
+            "sourceRecordId": "byte:155572",
+            "originalRecordId": null,
+            "originalSpeciesName": "H3BO3(cr)",
+            "originalReaction": {
+              "product": "H3BO3(cr)",
+              "components": [
+                {
+                  "name": "B(OH)3",
+                  "coefficient": 1
+                }
+              ],
+              "separateProtonCount": null
+            },
+            "originalLogK": 0.07,
+            "originalReferenceCode": "Codata",
+            "resolvedCitation": "Codata: Cox J D, Wagman D D, Medvedev V A, CODATA Key Values for Thermodynamics. Hemisphere Publ. Co., New York, 1989",
+            "referenceSourceFile": "Eq-Diagr/References.txt",
+            "dbSha256": "2ac52a30213c9288dd18fc6dd597411e5c3ca53173fa6d1fab5530b371c30a0a",
+            "byteOffset": 155572,
+            "byteLength": 64,
+            "importDate": "2026-09-05T16:23:16.736Z",
+            "importerVersion": "spana-readonly-1.0.0",
+            "comments": [
+              "Element links describe source components, not product atom counts. Oxidation states are not supplied."
+            ],
+            "qualityFlags": [
+              "imported",
+              "not-solver-validated",
+              "composition-unknown"
+            ],
+            "original": {
+              "speciesName": "H3BO3(cr)",
+              "reaction": {
+                "product": "H3BO3(cr)",
+                "components": [
+                  {
+                    "name": "B(OH)3",
+                    "coefficient": 1
+                  }
+                ],
+                "separateProtonCount": null
+              },
+              "logK": 0.07,
+              "citation": "Codata",
+              "raw": {
+                "ordinal": 1742,
+                "byteOffset": 155572,
+                "byteLength": 64,
+                "name": "H3BO3(cr)",
+                "logK": 0.07,
+                "thermal": {
+                  "kind": "deltaH-deltaCp",
+                  "deltaH": -22.000000000000004,
+                  "deltaCp": 36
+                },
+                "layout": "variable",
+                "componentToken": "1",
+                "components": [
+                  {
+                    "name": "B(OH)3",
+                    "coefficient": 1
+                  }
+                ],
+                "protonCount": null,
+                "reference": "Codata",
+                "comment": "",
+                "rawBase64": "AAlIM0JPMyhjcik/seuFHrhR7MA2AAAAAAABQEIAAAAAAAAAATEABkIoT0gpMz/wAAAAAAAAAAZDb2RhdGEAAA=="
+              }
+            }
+          },
+          "terms": [
+            {
+              "name": "B(OH)3",
+              "coefficient": 1
+            }
+          ],
+          "logK": 0.07,
+          "reason": "Non-aqueous inventory outside Phase-1 scope.",
+          "logActivity": -1.6290641830183537
+        }
+      ],
+      "gasActivitySum": 0.000003557435453175998,
+      "status": "CONDITIONAL",
+      "timing": {
+        "compileMs": 1789.7410999999997,
+        "prepareMs": 24.8112000000001,
+        "solveMs": 4.325199999999768
+      },
+      "carrierCount": 10,
+      "sourceReactionCount": 7,
+      "basisRank": 4,
+      "solvedComponentCount": 3,
+      "independentReactionRank": 7
+    },
+    {
+      "volumeMl": 5,
+      "pH": 4.75276901736995,
+      "pHError": 0,
+      "carriers": [
+        {
+          "id": "component:H%2B",
+          "name": "H+",
+          "amount": 0.000017669773503728018,
+          "expected": 0.000017669773503728018,
+          "absoluteError": 0,
+          "logError": 0
+        },
+        {
+          "id": "component:B(OH)3",
+          "name": "B(OH)3",
+          "amount": 0.01812064745913333,
+          "expected": 0.01812064745913333,
+          "absoluteError": 0,
+          "logError": 0
+        },
+        {
+          "id": "component:CH3COO-",
+          "name": "CH3COO-",
+          "amount": 0.008985901069757872,
+          "expected": 0.008985901069757872,
+          "absoluteError": 0,
+          "logError": 0
+        },
+        {
+          "id": "component:Na%2B",
+          "name": "Na+",
+          "amount": 0.009029350248372061,
+          "expected": 0.009029350248372061,
+          "absoluteError": 0,
+          "logError": 0
+        },
+        {
+          "id": "spana:2ac52a30213c9288:36848",
+          "name": "B(OH)3(CH3COO)-",
+          "amount": 0.00006049720967760251,
+          "expected": 0.00006049720967760251,
+          "absoluteError": 0,
+          "logError": 0
+        },
+        {
+          "id": "spana:2ac52a30213c9288:37016",
+          "name": "B(OH)4-",
+          "amount": 5.955835972935498e-7,
+          "expected": 5.955835972935498e-7,
+          "absoluteError": 0,
+          "logError": 0
+        },
+        {
+          "id": "spana:2ac52a30213c9288:38021",
+          "name": "B2O(OH)5-",
+          "amount": 9.101572642794487e-9,
+          "expected": 9.101572642794487e-9,
+          "absoluteError": 0,
+          "logError": 0
+        },
+        {
+          "id": "spana:2ac52a30213c9288:38284",
+          "name": "B3O3(OH)4-",
+          "amount": 1.649263891837715e-8,
+          "expected": 1.649263891837715e-8,
+          "absoluteError": 0,
+          "logError": 0
+        },
+        {
+          "id": "spana:2ac52a30213c9288:38377",
+          "name": "B4O5(OH)4-2",
+          "amount": 3.22279647077658e-13,
+          "expected": 3.22279647077658e-13,
+          "absoluteError": 0,
+          "logError": 0
+        },
+        {
+          "id": "spana:2ac52a30213c9288:79298",
+          "name": "CH3COOH",
+          "amount": 0.009073871308938821,
+          "expected": 0.009073871308938821,
+          "absoluteError": 0,
+          "logError": 0
+        },
+        {
+          "id": "spana:2ac52a30213c9288:220132",
+          "name": "Na(CH3COO)",
+          "amount": 0.00006154859344388113,
+          "expected": 0.00006154859344388113,
+          "absoluteError": 0,
+          "logError": 0
+        },
+        {
+          "id": "spana:2ac52a30213c9288:223181",
+          "name": "NaB(OH)4",
+          "amount": 1.0247058796743133e-8,
+          "expected": 1.0247058796743133e-8,
+          "absoluteError": 0,
+          "logError": 0
+        },
+        {
+          "id": "spana:2ac52a30213c9288:224689",
+          "name": "NaOH",
+          "amount": 2.034349268007033e-12,
+          "expected": 2.034349268007033e-12,
+          "absoluteError": 0,
+          "logError": 0
+        },
+        {
+          "id": "spana:2ac52a30213c9288:250448",
+          "name": "OH-",
+          "amount": 5.639869010910145e-10,
+          "expected": 5.639869010910145e-10,
+          "absoluteError": 0,
+          "logError": 0
+        }
+      ],
+      "balances": [
+        {
+          "componentId": "component:H%2B",
+          "expected": 0.00909090909090909,
+          "actual": 0.009090909090909087,
+          "residual": -3.469446951953614e-18
+        },
+        {
+          "componentId": "component:B(OH)3",
+          "expected": 0.01818181818181818,
+          "actual": 0.01818181818181818,
+          "residual": 0
+        },
+        {
+          "componentId": "component:CH3COO-",
+          "expected": 0.01818181818181818,
+          "actual": 0.018181818181818177,
+          "residual": -3.469446951953614e-18
+        },
+        {
+          "componentId": "component:Na%2B",
+          "expected": 0.00909090909090909,
+          "actual": 0.009090909090909089,
+          "residual": -1.734723475976807e-18
+        }
+      ],
+      "massAction": [
+        {
+          "id": "spana:2ac52a30213c9288:36848",
+          "residual": 0
+        },
+        {
+          "id": "spana:2ac52a30213c9288:37016",
+          "residual": -4.440892098500626e-16
+        },
+        {
+          "id": "spana:2ac52a30213c9288:38021",
+          "residual": 8.881784197001252e-16
+        },
+        {
+          "id": "spana:2ac52a30213c9288:38284",
+          "residual": 0
+        },
+        {
+          "id": "spana:2ac52a30213c9288:38377",
+          "residual": 0
+        },
+        {
+          "id": "spana:2ac52a30213c9288:79298",
+          "residual": 0
+        },
+        {
+          "id": "spana:2ac52a30213c9288:220132",
+          "residual": 0
+        },
+        {
+          "id": "spana:2ac52a30213c9288:223181",
+          "residual": -4.440892098500626e-16
+        },
+        {
+          "id": "spana:2ac52a30213c9288:224689",
+          "residual": 0
+        },
+        {
+          "id": "spana:2ac52a30213c9288:250448",
+          "residual": 0
+        }
+      ],
+      "charge": {
+        "ok": true,
+        "netCharge": -1.228279250809072e-18,
+        "limit": 3.636363636363636e-12,
+        "unit": "mol charge equivalents/kg H2O",
+        "contributions": [
+          {
+            "id": "component:H%2B",
+            "charge": 1,
+            "amount": 0.000017669773503728018
+          },
+          {
+            "id": "component:B(OH)3",
+            "charge": 0,
+            "amount": 0.01812064745913333
+          },
+          {
+            "id": "component:CH3COO-",
+            "charge": -1,
+            "amount": 0.008985901069757872
+          },
+          {
+            "id": "component:Na%2B",
+            "charge": 1,
+            "amount": 0.009029350248372061
+          },
+          {
+            "id": "spana:2ac52a30213c9288:36848",
+            "charge": -1,
+            "amount": 0.00006049720967760251
+          },
+          {
+            "id": "spana:2ac52a30213c9288:37016",
+            "charge": -1,
+            "amount": 5.955835972935498e-7
+          },
+          {
+            "id": "spana:2ac52a30213c9288:38021",
+            "charge": -1,
+            "amount": 9.101572642794487e-9
+          },
+          {
+            "id": "spana:2ac52a30213c9288:38284",
+            "charge": -1,
+            "amount": 1.649263891837715e-8
+          },
+          {
+            "id": "spana:2ac52a30213c9288:38377",
+            "charge": -2,
+            "amount": 3.22279647077658e-13
+          },
+          {
+            "id": "spana:2ac52a30213c9288:79298",
+            "charge": 0,
+            "amount": 0.009073871308938821
+          },
+          {
+            "id": "spana:2ac52a30213c9288:220132",
+            "charge": 0,
+            "amount": 0.00006154859344388113
+          },
+          {
+            "id": "spana:2ac52a30213c9288:223181",
+            "charge": 0,
+            "amount": 1.0247058796743133e-8
+          },
+          {
+            "id": "spana:2ac52a30213c9288:224689",
+            "charge": 0,
+            "amount": 2.034349268007033e-12
+          },
+          {
+            "id": "spana:2ac52a30213c9288:250448",
+            "charge": -1,
+            "amount": 5.639869010910145e-10
+          }
+        ]
+      },
+      "phaseDiagnostics": [
+        {
+          "id": "spana:2ac52a30213c9288:38100",
+          "name": "B2O3(cr)",
+          "phase": "solid",
+          "reference": "Codata: Cox J D, Wagman D D, Medvedev V A, CODATA Key Values for Thermodynamics. Hemisphere Publ. Co., New York, 1989",
+          "provenance": {
+            "kind": "imported",
+            "sourceDatabase": "spana:2ac52a30213c9288dd18fc6dd597411e5c3ca53173fa6d1fab5530b371c30a0a",
+            "sourceFile": "Eq-Diagr/Reactions.db",
+            "sourceRecordId": "byte:38100",
+            "originalRecordId": null,
+            "originalSpeciesName": "B2O3(cr)",
+            "originalReaction": {
+              "product": "B2O3(cr)",
+              "components": [
+                {
+                  "name": "B(OH)3",
+                  "coefficient": 2
+                },
+                {
+                  "name": "H2O",
+                  "coefficient": -3
+                }
+              ],
+              "separateProtonCount": null
+            },
+            "originalLogK": -5.745,
+            "originalReferenceCode": "Codata",
+            "resolvedCitation": "Codata: Cox J D, Wagman D D, Medvedev V A, CODATA Key Values for Thermodynamics. Hemisphere Publ. Co., New York, 1989",
+            "referenceSourceFile": "Eq-Diagr/References.txt",
+            "dbSha256": "2ac52a30213c9288dd18fc6dd597411e5c3ca53173fa6d1fab5530b371c30a0a",
+            "byteOffset": 38100,
+            "byteLength": 76,
+            "importDate": "2026-09-05T16:23:16.736Z",
+            "importerVersion": "spana-readonly-1.0.0",
+            "comments": [
+              "Element links describe source components, not product atom counts. Oxidation states are not supplied."
+            ],
+            "qualityFlags": [
+              "imported",
+              "not-solver-validated",
+              "composition-unknown"
+            ],
+            "original": {
+              "speciesName": "B2O3(cr)",
+              "reaction": {
+                "product": "B2O3(cr)",
+                "components": [
+                  {
+                    "name": "B(OH)3",
+                    "coefficient": 2
+                  },
+                  {
+                    "name": "H2O",
+                    "coefficient": -3
+                  }
+                ],
+                "separateProtonCount": null
+              },
+              "logK": -5.745,
+              "citation": "Codata",
+              "raw": {
+                "ordinal": 409,
+                "byteOffset": 38100,
+                "byteLength": 76,
+                "name": "B2O3(cr)",
+                "logK": -5.745,
+                "thermal": {
+                  "kind": "deltaH-deltaCp",
+                  "deltaH": 14.599999999999989,
+                  "deltaCp": 187.99999999999997
+                },
+                "layout": "variable",
+                "componentToken": "2",
+                "components": [
+                  {
+                    "name": "B(OH)3",
+                    "coefficient": 2
+                  },
+                  {
+                    "name": "H2O",
+                    "coefficient": -3
+                  }
+                ],
+                "protonCount": null,
+                "reference": "Codata",
+                "comment": "",
+                "rawBase64": "AAhCMk8zKGNyKcAW+uFHrhR7QC0zMzMzMy1AZ3///////wABMgAGQihPSCkzQAAAAAAAAAAAA0gyT8AIAAAAAAAAAAZDb2RhdGEAAA=="
+              }
+            }
+          },
+          "terms": [
+            {
+              "name": "B(OH)3",
+              "coefficient": 2
+            },
+            {
+              "name": "H2O",
+              "coefficient": -3
+            }
+          ],
+          "logK": -5.745,
+          "reason": "Non-aqueous inventory outside Phase-1 scope.",
+          "logActivity": -9.228652577677648
+        },
+        {
+          "id": "spana:2ac52a30213c9288:79376",
+          "name": "CH3COOH(g)",
+          "phase": "gas",
+          "reference": "SmithMart: NIST Standard Reference Database 46 Version 8.\nNIST Critically Selected Stability Constants of Metal Complexes Database\nhttp://www.nist.gov/srd/nist46.cfm\nNational Institute of Standards and Technology, 100 Bureau Dr., Stop 2300, Gaithersburg, MD\n\n2015Sander: Sander R, Atmos. Chem. Phys., 15 (2015) 4399-4981",
+          "provenance": {
+            "kind": "imported",
+            "sourceDatabase": "spana:2ac52a30213c9288dd18fc6dd597411e5c3ca53173fa6d1fab5530b371c30a0a",
+            "sourceFile": "Eq-Diagr/Reactions.db",
+            "sourceRecordId": "byte:79376",
+            "originalRecordId": null,
+            "originalSpeciesName": "CH3COOH(g)",
+            "originalReaction": {
+              "product": "CH3COOH(g)",
+              "components": [
+                {
+                  "name": "H+",
+                  "coefficient": 1
+                },
+                {
+                  "name": "CH3COO-",
+                  "coefficient": 1
+                }
+              ],
+              "separateProtonCount": null
+            },
+            "originalLogK": 1.02,
+            "originalReferenceCode": "SmithMart+2015Sander",
+            "resolvedCitation": "SmithMart: NIST Standard Reference Database 46 Version 8.\nNIST Critically Selected Stability Constants of Metal Complexes Database\nhttp://www.nist.gov/srd/nist46.cfm\nNational Institute of Standards and Technology, 100 Bureau Dr., Stop 2300, Gaithersburg, MD\n\n2015Sander: Sander R, Atmos. Chem. Phys., 15 (2015) 4399-4981",
+            "referenceSourceFile": "Eq-Diagr/References.txt",
+            "dbSha256": "2ac52a30213c9288dd18fc6dd597411e5c3ca53173fa6d1fab5530b371c30a0a",
+            "byteOffset": 79376,
+            "byteLength": 92,
+            "importDate": "2026-09-05T16:23:16.736Z",
+            "importerVersion": "spana-readonly-1.0.0",
+            "comments": [
+              "Element links describe source components, not product atom counts. Oxidation states are not supplied."
+            ],
+            "qualityFlags": [
+              "imported",
+              "not-solver-validated",
+              "composition-unknown"
+            ],
+            "original": {
+              "speciesName": "CH3COOH(g)",
+              "reaction": {
+                "product": "CH3COOH(g)",
+                "components": [
+                  {
+                    "name": "H+",
+                    "coefficient": 1
+                  },
+                  {
+                    "name": "CH3COO-",
+                    "coefficient": 1
+                  }
+                ],
+                "separateProtonCount": null
+              },
+              "logK": 1.02,
+              "citation": "SmithMart+2015Sander",
+              "raw": {
+                "ordinal": 872,
+                "byteOffset": 79376,
+                "byteLength": 92,
+                "name": "CH3COOH(g)",
+                "logK": 1.02,
+                "thermal": {
+                  "kind": "deltaH-deltaCp",
+                  "deltaH": 52.8,
+                  "deltaCp": -999999.9
+                },
+                "layout": "variable",
+                "componentToken": "2",
+                "components": [
+                  {
+                    "name": "H+",
+                    "coefficient": 1
+                  },
+                  {
+                    "name": "CH3COO-",
+                    "coefficient": 1
+                  }
+                ],
+                "protonCount": null,
+                "reference": "SmithMart+2015Sander",
+                "comment": "",
+                "rawBase64": "AApDSDNDT09IKGcpP/BR64UeuFJASmZmZmZmZsEuhH/MzMzNAAEyAAJIKz/wAAAAAAAAAAdDSDNDT08tP/AAAAAAAAAAFFNtaXRoTWFydCsyMDE1U2FuZGVyAAA="
+              }
+            }
+          },
+          "terms": [
+            {
+              "name": "H+",
+              "coefficient": 1
+            },
+            {
+              "name": "CH3COO-",
+              "coefficient": 1
+            }
+          ],
+          "logK": 1.02,
+          "reason": "Non-aqueous inventory outside Phase-1 scope.",
+          "logActivity": -5.779207384449997
+        },
+        {
+          "id": "spana:2ac52a30213c9288:155572",
+          "name": "H3BO3(cr)",
+          "phase": "solid",
+          "reference": "Codata: Cox J D, Wagman D D, Medvedev V A, CODATA Key Values for Thermodynamics. Hemisphere Publ. Co., New York, 1989",
+          "provenance": {
+            "kind": "imported",
+            "sourceDatabase": "spana:2ac52a30213c9288dd18fc6dd597411e5c3ca53173fa6d1fab5530b371c30a0a",
+            "sourceFile": "Eq-Diagr/Reactions.db",
+            "sourceRecordId": "byte:155572",
+            "originalRecordId": null,
+            "originalSpeciesName": "H3BO3(cr)",
+            "originalReaction": {
+              "product": "H3BO3(cr)",
+              "components": [
+                {
+                  "name": "B(OH)3",
+                  "coefficient": 1
+                }
+              ],
+              "separateProtonCount": null
+            },
+            "originalLogK": 0.07,
+            "originalReferenceCode": "Codata",
+            "resolvedCitation": "Codata: Cox J D, Wagman D D, Medvedev V A, CODATA Key Values for Thermodynamics. Hemisphere Publ. Co., New York, 1989",
+            "referenceSourceFile": "Eq-Diagr/References.txt",
+            "dbSha256": "2ac52a30213c9288dd18fc6dd597411e5c3ca53173fa6d1fab5530b371c30a0a",
+            "byteOffset": 155572,
+            "byteLength": 64,
+            "importDate": "2026-09-05T16:23:16.736Z",
+            "importerVersion": "spana-readonly-1.0.0",
+            "comments": [
+              "Element links describe source components, not product atom counts. Oxidation states are not supplied."
+            ],
+            "qualityFlags": [
+              "imported",
+              "not-solver-validated",
+              "composition-unknown"
+            ],
+            "original": {
+              "speciesName": "H3BO3(cr)",
+              "reaction": {
+                "product": "H3BO3(cr)",
+                "components": [
+                  {
+                    "name": "B(OH)3",
+                    "coefficient": 1
+                  }
+                ],
+                "separateProtonCount": null
+              },
+              "logK": 0.07,
+              "citation": "Codata",
+              "raw": {
+                "ordinal": 1742,
+                "byteOffset": 155572,
+                "byteLength": 64,
+                "name": "H3BO3(cr)",
+                "logK": 0.07,
+                "thermal": {
+                  "kind": "deltaH-deltaCp",
+                  "deltaH": -22.000000000000004,
+                  "deltaCp": 36
+                },
+                "layout": "variable",
+                "componentToken": "1",
+                "components": [
+                  {
+                    "name": "B(OH)3",
+                    "coefficient": 1
+                  }
+                ],
+                "protonCount": null,
+                "reference": "Codata",
+                "comment": "",
+                "rawBase64": "AAlIM0JPMyhjcik/seuFHrhR7MA2AAAAAAABQEIAAAAAAAAAATEABkIoT0gpMz/wAAAAAAAAAAZDb2RhdGEAAA=="
+              }
+            }
+          },
+          "terms": [
+            {
+              "name": "B(OH)3",
+              "coefficient": 1
+            }
+          ],
+          "logK": 0.07,
+          "reason": "Non-aqueous inventory outside Phase-1 scope.",
+          "logActivity": -1.671826288838824
+        },
+        {
+          "id": "spana:2ac52a30213c9288:221010",
+          "name": "Na2B4O7·10H2O(s)",
+          "phase": "solid",
+          "reference": "82NBS: Wagman D D, Evans W H, Parker V B, Schumm R H, Halow I, Bailey S M, Churney K L, Nuttall R L; The NBS tables of chemical thermodynamic properties: Selected values for inorganic and C1 and C2 organic substances in SI units. J. Phys. Chem. Ref. Data 11, Suppl. No.2, 1982",
+          "provenance": {
+            "kind": "imported",
+            "sourceDatabase": "spana:2ac52a30213c9288dd18fc6dd597411e5c3ca53173fa6d1fab5530b371c30a0a",
+            "sourceFile": "Eq-Diagr/Reactions.db",
+            "sourceRecordId": "byte:221010",
+            "originalRecordId": null,
+            "originalSpeciesName": "Na2B4O7·10H2O(s)",
+            "originalReaction": {
+              "product": "Na2B4O7·10H2O(s)",
+              "components": [
+                {
+                  "name": "Na+",
+                  "coefficient": 2
+                },
+                {
+                  "name": "H+",
+                  "coefficient": -2
+                },
+                {
+                  "name": "B(OH)3",
+                  "coefficient": 4
+                },
+                {
+                  "name": "H2O",
+                  "coefficient": 5
+                }
+              ],
+              "separateProtonCount": null
+            },
+            "originalLogK": -12.4,
+            "originalReferenceCode": "82NBS",
+            "resolvedCitation": "82NBS: Wagman D D, Evans W H, Parker V B, Schumm R H, Halow I, Bailey S M, Churney K L, Nuttall R L; The NBS tables of chemical thermodynamic properties: Selected values for inorganic and C1 and C2 organic substances in SI units. J. Phys. Chem. Ref. Data 11, Suppl. No.2, 1982",
+            "referenceSourceFile": "Eq-Diagr/References.txt",
+            "dbSha256": "2ac52a30213c9288dd18fc6dd597411e5c3ca53173fa6d1fab5530b371c30a0a",
+            "byteOffset": 221010,
+            "byteLength": 109,
+            "importDate": "2026-09-05T16:23:16.736Z",
+            "importerVersion": "spana-readonly-1.0.0",
+            "comments": [
+              "Element links describe source components, not product atom counts. Oxidation states are not supplied."
+            ],
+            "qualityFlags": [
+              "imported",
+              "not-solver-validated",
+              "composition-unknown"
+            ],
+            "original": {
+              "speciesName": "Na2B4O7·10H2O(s)",
+              "reaction": {
+                "product": "Na2B4O7·10H2O(s)",
+                "components": [
+                  {
+                    "name": "Na+",
+                    "coefficient": 2
+                  },
+                  {
+                    "name": "H+",
+                    "coefficient": -2
+                  },
+                  {
+                    "name": "B(OH)3",
+                    "coefficient": 4
+                  },
+                  {
+                    "name": "H2O",
+                    "coefficient": 5
+                  }
+                ],
+                "separateProtonCount": null
+              },
+              "logK": -12.4,
+              "citation": "82NBS",
+              "raw": {
+                "ordinal": 2499,
+                "byteOffset": 221010,
+                "byteLength": 109,
+                "name": "Na2B4O7·10H2O(s)",
+                "logK": -12.4,
+                "thermal": {
+                  "kind": "deltaH-deltaCp",
+                  "deltaH": -87.6,
+                  "deltaCp": -38
+                },
+                "layout": "variable",
+                "componentToken": "4",
+                "components": [
+                  {
+                    "name": "Na+",
+                    "coefficient": 2
+                  },
+                  {
+                    "name": "H+",
+                    "coefficient": -2
+                  },
+                  {
+                    "name": "B(OH)3",
+                    "coefficient": 4
+                  },
+                  {
+                    "name": "H2O",
+                    "coefficient": 5
+                  }
+                ],
+                "protonCount": null,
+                "reference": "82NBS",
+                "comment": "",
+                "rawBase64": "ABFOYTJCNE83wrcxMEgyTyhzKcAozMzMzMzNwFXmZmZmZmbAQwAAAAAAAAABNAADTmErQAAAAAAAAAAAAkgrwAAAAAAAAAAABkIoT0gpM0AQAAAAAAAAAANIMk9AFAAAAAAAAAAFODJOQlMAAA=="
+              }
+            }
+          },
+          "terms": [
+            {
+              "name": "Na+",
+              "coefficient": 2
+            },
+            {
+              "name": "H+",
+              "coefficient": -2
+            },
+            {
+              "name": "B(OH)3",
+              "coefficient": 4
+            },
+            {
+              "name": "H2O",
+              "coefficient": 5
+            }
+          ],
+          "logK": -12.4,
+          "reason": "Non-aqueous inventory outside Phase-1 scope.",
+          "logActivity": -13.950454121361439
+        }
+      ],
+      "gasActivitySum": 0.0000016626185266108942,
+      "status": "CONDITIONAL",
+      "timing": {
+        "compileMs": 409.55229999999983,
+        "prepareMs": 20.628000000000156,
+        "solveMs": 1.6712999999999738
+      },
+      "carrierCount": 14,
+      "sourceReactionCount": 10,
+      "basisRank": 5,
+      "solvedComponentCount": 4,
+      "independentReactionRank": 10
+    },
+    {
+      "volumeMl": 10,
+      "pH": 6.97956172789193,
+      "pHError": 9.174883075502294e-13,
+      "carriers": [
+        {
+          "id": "component:H%2B",
+          "name": "H+",
+          "amount": 1.0481858004417469e-7,
+          "expected": 1.0481858004439614e-7,
+          "absoluteError": 2.2144617614779614e-19,
+          "logError": 9.175093680530941e-13
+        },
+        {
+          "id": "component:B(OH)3",
+          "name": "B(OH)3",
+          "amount": 0.01646426438792028,
+          "expected": 0.016464264387923193,
+          "absoluteError": 2.914335439641036e-15,
+          "logError": 7.685689908430378e-14
+        },
+        {
+          "id": "component:CH3COO-",
+          "name": "CH3COO-",
+          "amount": 0.016266607014374723,
+          "expected": 0.01626660701437761,
+          "absoluteError": 2.886579864025407e-15,
+          "logError": 7.704976457761447e-14
+        },
+        {
+          "id": "component:Na%2B",
+          "name": "Na+",
+          "amount": 0.01646068842620789,
+          "expected": 0.01646068842620916,
+          "absoluteError": 1.2698175844150228e-15,
+          "logError": 3.351037946272802e-14
+        },
+        {
+          "id": "spana:2ac52a30213c9288:36848",
+          "name": "B(OH)3(CH3COO)-",
+          "amount": 0.00009950371742855473,
+          "expected": 0.00009950371742858994,
+          "absoluteError": 3.5209465551466756e-17,
+          "logError": 1.536655817952935e-13
+        },
+        {
+          "id": "spana:2ac52a30213c9288:37016",
+          "name": "B(OH)4-",
+          "amount": 0.00009122293884478919,
+          "expected": 0.0000912229388446127,
+          "absoluteError": 1.7648100862632798e-16,
+          "logError": 8.402185216070662e-13
+        },
+        {
+          "id": "spana:2ac52a30213c9288:38021",
+          "name": "B2O(OH)5-",
+          "amount": 0.00000126662014469955,
+          "expected": 0.0000012666201446973223,
+          "absoluteError": 2.22769665127881e-18,
+          "logError": 7.63843786256187e-13
+        },
+        {
+          "id": "spana:2ac52a30213c9288:38284",
+          "name": "B3O3(OH)4-",
+          "amount": 0.0000020853968941399277,
+          "expected": 0.000002085396894136631,
+          "absoluteError": 3.296652230713737e-18,
+          "logError": 6.865047234387425e-13
+        },
+        {
+          "id": "spana:2ac52a30213c9288:38377",
+          "name": "B4O5(OH)4-2",
+          "amount": 6.241554711977133e-9,
+          "expected": 6.241554711955178e-9,
+          "absoluteError": 2.195502781838246e-20,
+          "logError": 1.5276875725110304e-12
+        },
+        {
+          "id": "spana:2ac52a30213c9288:79298",
+          "name": "CH3COOH",
+          "amount": 0.00009743954487369945,
+          "expected": 0.00009743954487392263,
+          "absoluteError": 2.231830172061411e-16,
+          "logError": 9.947519981241825e-13
+        },
+        {
+          "id": "spana:2ac52a30213c9288:220132",
+          "name": "Na(CH3COO)",
+          "amount": 0.00020311638998971265,
+          "expected": 0.0002031163899897646,
+          "absoluteError": 5.193328406205566e-17,
+          "logError": 1.1104230777362519e-13
+        },
+        {
+          "id": "spana:2ac52a30213c9288:223181",
+          "name": "NaB(OH)4",
+          "amount": 0.000002861225282377728,
+          "expected": 0.000002861225282372415,
+          "absoluteError": 5.313014161652599e-18,
+          "logError": 8.064670602777652e-13
+        },
+        {
+          "id": "spana:2ac52a30213c9288:224689",
+          "name": "NaOH",
+          "amount": 6.251866884629202e-10,
+          "expected": 6.251866884616467e-10,
+          "absoluteError": 1.2734445530253861e-21,
+          "logError": 8.845775850684294e-13
+        },
+        {
+          "id": "spana:2ac52a30213c9288:250448",
+          "name": "OH-",
+          "amount": 9.50739916257959e-8,
+          "expected": 9.507399162559504e-8,
+          "absoluteError": 2.0085268761767597e-19,
+          "logError": 9.17461151677828e-13
+        }
+      ],
+      "balances": [
+        {
+          "componentId": "component:H%2B",
+          "expected": 0,
+          "actual": -9.723541187785342e-19,
+          "residual": -9.723541187785342e-19
+        },
+        {
+          "componentId": "component:B(OH)3",
+          "expected": 0.016666666666666666,
+          "actual": 0.016666666666666666,
+          "residual": 0
+        },
+        {
+          "componentId": "component:CH3COO-",
+          "expected": 0.016666666666666666,
+          "actual": 0.01666666666666669,
+          "residual": 2.42861286636753e-17
+        },
+        {
+          "componentId": "component:Na%2B",
+          "expected": 0.016666666666666666,
+          "actual": 0.01666666666666667,
+          "residual": 3.469446951953614e-18
+        }
+      ],
+      "massAction": [
+        {
+          "id": "spana:2ac52a30213c9288:36848",
+          "residual": 4.440892098500626e-16
+        },
+        {
+          "id": "spana:2ac52a30213c9288:37016",
+          "residual": 0
+        },
+        {
+          "id": "spana:2ac52a30213c9288:38021",
+          "residual": 0
+        },
+        {
+          "id": "spana:2ac52a30213c9288:38284",
+          "residual": 0
+        },
+        {
+          "id": "spana:2ac52a30213c9288:38377",
+          "residual": 0
+        },
+        {
+          "id": "spana:2ac52a30213c9288:79298",
+          "residual": 0
+        },
+        {
+          "id": "spana:2ac52a30213c9288:220132",
+          "residual": 0
+        },
+        {
+          "id": "spana:2ac52a30213c9288:223181",
+          "residual": -4.440892098500626e-16
+        },
+        {
+          "id": "spana:2ac52a30213c9288:224689",
+          "residual": 0
+        },
+        {
+          "id": "spana:2ac52a30213c9288:250448",
+          "residual": 0
+        }
+      ],
+      "charge": {
+        "ok": true,
+        "netCharge": -2.1355328491726416e-17,
+        "limit": 3.3533333333333335e-12,
+        "unit": "mol charge equivalents/kg H2O",
+        "contributions": [
+          {
+            "id": "component:H%2B",
+            "charge": 1,
+            "amount": 1.0481858004417469e-7
+          },
+          {
+            "id": "component:B(OH)3",
+            "charge": 0,
+            "amount": 0.01646426438792028
+          },
+          {
+            "id": "component:CH3COO-",
+            "charge": -1,
+            "amount": 0.016266607014374723
+          },
+          {
+            "id": "component:Na%2B",
+            "charge": 1,
+            "amount": 0.01646068842620789
+          },
+          {
+            "id": "spana:2ac52a30213c9288:36848",
+            "charge": -1,
+            "amount": 0.00009950371742855473
+          },
+          {
+            "id": "spana:2ac52a30213c9288:37016",
+            "charge": -1,
+            "amount": 0.00009122293884478919
+          },
+          {
+            "id": "spana:2ac52a30213c9288:38021",
+            "charge": -1,
+            "amount": 0.00000126662014469955
+          },
+          {
+            "id": "spana:2ac52a30213c9288:38284",
+            "charge": -1,
+            "amount": 0.0000020853968941399277
+          },
+          {
+            "id": "spana:2ac52a30213c9288:38377",
+            "charge": -2,
+            "amount": 6.241554711977133e-9
+          },
+          {
+            "id": "spana:2ac52a30213c9288:79298",
+            "charge": 0,
+            "amount": 0.00009743954487369945
+          },
+          {
+            "id": "spana:2ac52a30213c9288:220132",
+            "charge": 0,
+            "amount": 0.00020311638998971265
+          },
+          {
+            "id": "spana:2ac52a30213c9288:223181",
+            "charge": 0,
+            "amount": 0.000002861225282377728
+          },
+          {
+            "id": "spana:2ac52a30213c9288:224689",
+            "charge": 0,
+            "amount": 6.251866884629202e-10
+          },
+          {
+            "id": "spana:2ac52a30213c9288:250448",
+            "charge": -1,
+            "amount": 9.50739916257959e-8
+          }
+        ]
+      },
+      "phaseDiagnostics": [
+        {
+          "id": "spana:2ac52a30213c9288:38100",
+          "name": "B2O3(cr)",
+          "phase": "solid",
+          "reference": "Codata: Cox J D, Wagman D D, Medvedev V A, CODATA Key Values for Thermodynamics. Hemisphere Publ. Co., New York, 1989",
+          "provenance": {
+            "kind": "imported",
+            "sourceDatabase": "spana:2ac52a30213c9288dd18fc6dd597411e5c3ca53173fa6d1fab5530b371c30a0a",
+            "sourceFile": "Eq-Diagr/Reactions.db",
+            "sourceRecordId": "byte:38100",
+            "originalRecordId": null,
+            "originalSpeciesName": "B2O3(cr)",
+            "originalReaction": {
+              "product": "B2O3(cr)",
+              "components": [
+                {
+                  "name": "B(OH)3",
+                  "coefficient": 2
+                },
+                {
+                  "name": "H2O",
+                  "coefficient": -3
+                }
+              ],
+              "separateProtonCount": null
+            },
+            "originalLogK": -5.745,
+            "originalReferenceCode": "Codata",
+            "resolvedCitation": "Codata: Cox J D, Wagman D D, Medvedev V A, CODATA Key Values for Thermodynamics. Hemisphere Publ. Co., New York, 1989",
+            "referenceSourceFile": "Eq-Diagr/References.txt",
+            "dbSha256": "2ac52a30213c9288dd18fc6dd597411e5c3ca53173fa6d1fab5530b371c30a0a",
+            "byteOffset": 38100,
+            "byteLength": 76,
+            "importDate": "2026-09-05T16:23:16.736Z",
+            "importerVersion": "spana-readonly-1.0.0",
+            "comments": [
+              "Element links describe source components, not product atom counts. Oxidation states are not supplied."
+            ],
+            "qualityFlags": [
+              "imported",
+              "not-solver-validated",
+              "composition-unknown"
+            ],
+            "original": {
+              "speciesName": "B2O3(cr)",
+              "reaction": {
+                "product": "B2O3(cr)",
+                "components": [
+                  {
+                    "name": "B(OH)3",
+                    "coefficient": 2
+                  },
+                  {
+                    "name": "H2O",
+                    "coefficient": -3
+                  }
+                ],
+                "separateProtonCount": null
+              },
+              "logK": -5.745,
+              "citation": "Codata",
+              "raw": {
+                "ordinal": 409,
+                "byteOffset": 38100,
+                "byteLength": 76,
+                "name": "B2O3(cr)",
+                "logK": -5.745,
+                "thermal": {
+                  "kind": "deltaH-deltaCp",
+                  "deltaH": 14.599999999999989,
+                  "deltaCp": 187.99999999999997
+                },
+                "layout": "variable",
+                "componentToken": "2",
+                "components": [
+                  {
+                    "name": "B(OH)3",
+                    "coefficient": 2
+                  },
+                  {
+                    "name": "H2O",
+                    "coefficient": -3
+                  }
+                ],
+                "protonCount": null,
+                "reference": "Codata",
+                "comment": "",
+                "rawBase64": "AAhCMk8zKGNyKcAW+uFHrhR7QC0zMzMzMy1AZ3///////wABMgAGQihPSCkzQAAAAAAAAAAAA0gyT8AIAAAAAAAAAAZDb2RhdGEAAA=="
+              }
+            }
+          },
+          "terms": [
+            {
+              "name": "B(OH)3",
+              "coefficient": 2
+            },
+            {
+              "name": "H2O",
+              "coefficient": -3
+            }
+          ],
+          "logK": -5.745,
+          "reason": "Non-aqueous inventory outside Phase-1 scope.",
+          "logActivity": -9.31191533699845
+        },
+        {
+          "id": "spana:2ac52a30213c9288:79376",
+          "name": "CH3COOH(g)",
+          "phase": "gas",
+          "reference": "SmithMart: NIST Standard Reference Database 46 Version 8.\nNIST Critically Selected Stability Constants of Metal Complexes Database\nhttp://www.nist.gov/srd/nist46.cfm\nNational Institute of Standards and Technology, 100 Bureau Dr., Stop 2300, Gaithersburg, MD\n\n2015Sander: Sander R, Atmos. Chem. Phys., 15 (2015) 4399-4981",
+          "provenance": {
+            "kind": "imported",
+            "sourceDatabase": "spana:2ac52a30213c9288dd18fc6dd597411e5c3ca53173fa6d1fab5530b371c30a0a",
+            "sourceFile": "Eq-Diagr/Reactions.db",
+            "sourceRecordId": "byte:79376",
+            "originalRecordId": null,
+            "originalSpeciesName": "CH3COOH(g)",
+            "originalReaction": {
+              "product": "CH3COOH(g)",
+              "components": [
+                {
+                  "name": "H+",
+                  "coefficient": 1
+                },
+                {
+                  "name": "CH3COO-",
+                  "coefficient": 1
+                }
+              ],
+              "separateProtonCount": null
+            },
+            "originalLogK": 1.02,
+            "originalReferenceCode": "SmithMart+2015Sander",
+            "resolvedCitation": "SmithMart: NIST Standard Reference Database 46 Version 8.\nNIST Critically Selected Stability Constants of Metal Complexes Database\nhttp://www.nist.gov/srd/nist46.cfm\nNational Institute of Standards and Technology, 100 Bureau Dr., Stop 2300, Gaithersburg, MD\n\n2015Sander: Sander R, Atmos. Chem. Phys., 15 (2015) 4399-4981",
+            "referenceSourceFile": "Eq-Diagr/References.txt",
+            "dbSha256": "2ac52a30213c9288dd18fc6dd597411e5c3ca53173fa6d1fab5530b371c30a0a",
+            "byteOffset": 79376,
+            "byteLength": 92,
+            "importDate": "2026-09-05T16:23:16.736Z",
+            "importerVersion": "spana-readonly-1.0.0",
+            "comments": [
+              "Element links describe source components, not product atom counts. Oxidation states are not supplied."
+            ],
+            "qualityFlags": [
+              "imported",
+              "not-solver-validated",
+              "composition-unknown"
+            ],
+            "original": {
+              "speciesName": "CH3COOH(g)",
+              "reaction": {
+                "product": "CH3COOH(g)",
+                "components": [
+                  {
+                    "name": "H+",
+                    "coefficient": 1
+                  },
+                  {
+                    "name": "CH3COO-",
+                    "coefficient": 1
+                  }
+                ],
+                "separateProtonCount": null
+              },
+              "logK": 1.02,
+              "citation": "SmithMart+2015Sander",
+              "raw": {
+                "ordinal": 872,
+                "byteOffset": 79376,
+                "byteLength": 92,
+                "name": "CH3COOH(g)",
+                "logK": 1.02,
+                "thermal": {
+                  "kind": "deltaH-deltaCp",
+                  "deltaH": 52.8,
+                  "deltaCp": -999999.9
+                },
+                "layout": "variable",
+                "componentToken": "2",
+                "components": [
+                  {
+                    "name": "H+",
+                    "coefficient": 1
+                  },
+                  {
+                    "name": "CH3COO-",
+                    "coefficient": 1
+                  }
+                ],
+                "protonCount": null,
+                "reference": "SmithMart+2015Sander",
+                "comment": "",
+                "rawBase64": "AApDSDNDT09IKGcpP/BR64UeuFJASmZmZmZmZsEuhH/MzMzNAAEyAAJIKz/wAAAAAAAAAAdDSDNDT08tP/AAAAAAAAAAFFNtaXRoTWFydCsyMDE1U2FuZGVyAAA="
+              }
+            }
+          },
+          "terms": [
+            {
+              "name": "H+",
+              "coefficient": 1
+            },
+            {
+              "name": "CH3COO-",
+              "coefficient": 1
+            }
+          ],
+          "logK": 1.02,
+          "reason": "Non-aqueous inventory outside Phase-1 scope.",
+          "logActivity": -7.7482647532344195
+        },
+        {
+          "id": "spana:2ac52a30213c9288:155572",
+          "name": "H3BO3(cr)",
+          "phase": "solid",
+          "reference": "Codata: Cox J D, Wagman D D, Medvedev V A, CODATA Key Values for Thermodynamics. Hemisphere Publ. Co., New York, 1989",
+          "provenance": {
+            "kind": "imported",
+            "sourceDatabase": "spana:2ac52a30213c9288dd18fc6dd597411e5c3ca53173fa6d1fab5530b371c30a0a",
+            "sourceFile": "Eq-Diagr/Reactions.db",
+            "sourceRecordId": "byte:155572",
+            "originalRecordId": null,
+            "originalSpeciesName": "H3BO3(cr)",
+            "originalReaction": {
+              "product": "H3BO3(cr)",
+              "components": [
+                {
+                  "name": "B(OH)3",
+                  "coefficient": 1
+                }
+              ],
+              "separateProtonCount": null
+            },
+            "originalLogK": 0.07,
+            "originalReferenceCode": "Codata",
+            "resolvedCitation": "Codata: Cox J D, Wagman D D, Medvedev V A, CODATA Key Values for Thermodynamics. Hemisphere Publ. Co., New York, 1989",
+            "referenceSourceFile": "Eq-Diagr/References.txt",
+            "dbSha256": "2ac52a30213c9288dd18fc6dd597411e5c3ca53173fa6d1fab5530b371c30a0a",
+            "byteOffset": 155572,
+            "byteLength": 64,
+            "importDate": "2026-09-05T16:23:16.736Z",
+            "importerVersion": "spana-readonly-1.0.0",
+            "comments": [
+              "Element links describe source components, not product atom counts. Oxidation states are not supplied."
+            ],
+            "qualityFlags": [
+              "imported",
+              "not-solver-validated",
+              "composition-unknown"
+            ],
+            "original": {
+              "speciesName": "H3BO3(cr)",
+              "reaction": {
+                "product": "H3BO3(cr)",
+                "components": [
+                  {
+                    "name": "B(OH)3",
+                    "coefficient": 1
+                  }
+                ],
+                "separateProtonCount": null
+              },
+              "logK": 0.07,
+              "citation": "Codata",
+              "raw": {
+                "ordinal": 1742,
+                "byteOffset": 155572,
+                "byteLength": 64,
+                "name": "H3BO3(cr)",
+                "logK": 0.07,
+                "thermal": {
+                  "kind": "deltaH-deltaCp",
+                  "deltaH": -22.000000000000004,
+                  "deltaCp": 36
+                },
+                "layout": "variable",
+                "componentToken": "1",
+                "components": [
+                  {
+                    "name": "B(OH)3",
+                    "coefficient": 1
+                  }
+                ],
+                "protonCount": null,
+                "reference": "Codata",
+                "comment": "",
+                "rawBase64": "AAlIM0JPMyhjcik/seuFHrhR7MA2AAAAAAABQEIAAAAAAAAAATEABkIoT0gpMz/wAAAAAAAAAAZDb2RhdGEAAA=="
+              }
+            }
+          },
+          "terms": [
+            {
+              "name": "B(OH)3",
+              "coefficient": 1
+            }
+          ],
+          "logK": 0.07,
+          "reason": "Non-aqueous inventory outside Phase-1 scope.",
+          "logActivity": -1.7134576684992242
+        },
+        {
+          "id": "spana:2ac52a30213c9288:221010",
+          "name": "Na2B4O7·10H2O(s)",
+          "phase": "solid",
+          "reference": "82NBS: Wagman D D, Evans W H, Parker V B, Schumm R H, Halow I, Bailey S M, Churney K L, Nuttall R L; The NBS tables of chemical thermodynamic properties: Selected values for inorganic and C1 and C2 organic substances in SI units. J. Phys. Chem. Ref. Data 11, Suppl. No.2, 1982",
+          "provenance": {
+            "kind": "imported",
+            "sourceDatabase": "spana:2ac52a30213c9288dd18fc6dd597411e5c3ca53173fa6d1fab5530b371c30a0a",
+            "sourceFile": "Eq-Diagr/Reactions.db",
+            "sourceRecordId": "byte:221010",
+            "originalRecordId": null,
+            "originalSpeciesName": "Na2B4O7·10H2O(s)",
+            "originalReaction": {
+              "product": "Na2B4O7·10H2O(s)",
+              "components": [
+                {
+                  "name": "Na+",
+                  "coefficient": 2
+                },
+                {
+                  "name": "H+",
+                  "coefficient": -2
+                },
+                {
+                  "name": "B(OH)3",
+                  "coefficient": 4
+                },
+                {
+                  "name": "H2O",
+                  "coefficient": 5
+                }
+              ],
+              "separateProtonCount": null
+            },
+            "originalLogK": -12.4,
+            "originalReferenceCode": "82NBS",
+            "resolvedCitation": "82NBS: Wagman D D, Evans W H, Parker V B, Schumm R H, Halow I, Bailey S M, Churney K L, Nuttall R L; The NBS tables of chemical thermodynamic properties: Selected values for inorganic and C1 and C2 organic substances in SI units. J. Phys. Chem. Ref. Data 11, Suppl. No.2, 1982",
+            "referenceSourceFile": "Eq-Diagr/References.txt",
+            "dbSha256": "2ac52a30213c9288dd18fc6dd597411e5c3ca53173fa6d1fab5530b371c30a0a",
+            "byteOffset": 221010,
+            "byteLength": 109,
+            "importDate": "2026-09-05T16:23:16.736Z",
+            "importerVersion": "spana-readonly-1.0.0",
+            "comments": [
+              "Element links describe source components, not product atom counts. Oxidation states are not supplied."
+            ],
+            "qualityFlags": [
+              "imported",
+              "not-solver-validated",
+              "composition-unknown"
+            ],
+            "original": {
+              "speciesName": "Na2B4O7·10H2O(s)",
+              "reaction": {
+                "product": "Na2B4O7·10H2O(s)",
+                "components": [
+                  {
+                    "name": "Na+",
+                    "coefficient": 2
+                  },
+                  {
+                    "name": "H+",
+                    "coefficient": -2
+                  },
+                  {
+                    "name": "B(OH)3",
+                    "coefficient": 4
+                  },
+                  {
+                    "name": "H2O",
+                    "coefficient": 5
+                  }
+                ],
+                "separateProtonCount": null
+              },
+              "logK": -12.4,
+              "citation": "82NBS",
+              "raw": {
+                "ordinal": 2499,
+                "byteOffset": 221010,
+                "byteLength": 109,
+                "name": "Na2B4O7·10H2O(s)",
+                "logK": -12.4,
+                "thermal": {
+                  "kind": "deltaH-deltaCp",
+                  "deltaH": -87.6,
+                  "deltaCp": -38
+                },
+                "layout": "variable",
+                "componentToken": "4",
+                "components": [
+                  {
+                    "name": "Na+",
+                    "coefficient": 2
+                  },
+                  {
+                    "name": "H+",
+                    "coefficient": -2
+                  },
+                  {
+                    "name": "B(OH)3",
+                    "coefficient": 4
+                  },
+                  {
+                    "name": "H2O",
+                    "coefficient": 5
+                  }
+                ],
+                "protonCount": null,
+                "reference": "82NBS",
+                "comment": "",
+                "rawBase64": "ABFOYTJCNE83wrcxMEgyTyhzKcAozMzMzMzNwFXmZmZmZmbAQwAAAAAAAAABNAADTmErQAAAAAAAAAAAAkgrwAAAAAAAAAAABkIoT0gpM0AQAAAAAAAAAANIMk9AFAAAAAAAAAAFODJOQlMAAA=="
+              }
+            }
+          },
+          "terms": [
+            {
+              "name": "Na+",
+              "coefficient": 2
+            },
+            {
+              "name": "H+",
+              "coefficient": -2
+            },
+            {
+              "name": "B(OH)3",
+              "coefficient": 4
+            },
+            {
+              "name": "H2O",
+              "coefficient": 5
+            }
+          ],
+          "logK": -12.4,
+          "reason": "Non-aqueous inventory outside Phase-1 scope.",
+          "logActivity": -9.14181122918822
+        }
+      ],
+      "gasActivitySum": 1.7853988338136633e-8,
+      "status": "CONDITIONAL",
+      "timing": {
+        "compileMs": 409.9183000000003,
+        "prepareMs": 20.585900000000038,
+        "solveMs": 0.6770999999998821
+      },
+      "carrierCount": 14,
+      "sourceReactionCount": 10,
+      "basisRank": 5,
+      "solvedComponentCount": 4,
+      "independentReactionRank": 10
+    },
+    {
+      "volumeMl": 15,
+      "pH": 9.220328731995947,
+      "pHError": 0,
+      "carriers": [
+        {
+          "id": "component:H%2B",
+          "name": "H+",
+          "amount": 6.021036611762688e-10,
+          "expected": 6.021036611762688e-10,
+          "absoluteError": 0,
+          "logError": 0
+        },
+        {
+          "id": "component:B(OH)3",
+          "name": "B(OH)3",
+          "amount": 0.007533936122768038,
+          "expected": 0.00753393612276803,
+          "absoluteError": 7.806255641895632e-18,
+          "logError": 4.821637332766433e-16
+        },
+        {
+          "id": "component:CH3COO-",
+          "name": "CH3COO-",
+          "amount": 0.015084327613199661,
+          "expected": 0.01508432761319967,
+          "absoluteError": 8.673617379884035e-18,
+          "logError": 2.4108186663832183e-16
+        },
+        {
+          "id": "component:Na%2B",
+          "name": "Na+",
+          "amount": 0.022507569695733375,
+          "expected": 0.022507569695733386,
+          "absoluteError": 1.0408340855860843e-17,
+          "logError": 1.9286549331065747e-16
+        },
+        {
+          "id": "spana:2ac52a30213c9288:36848",
+          "name": "B(OH)3(CH3COO)-",
+          "amount": 0.00004222288358558349,
+          "expected": 0.0000422228835855834,
+          "absoluteError": 8.809142651444724e-20,
+          "logError": 8.678947198979575e-16
+        },
+        {
+          "id": "spana:2ac52a30213c9288:37016",
+          "name": "B(OH)4-",
+          "amount": 0.007266924794036774,
+          "expected": 0.007266924794036774,
+          "absoluteError": 0,
+          "logError": 0
+        },
+        {
+          "id": "spana:2ac52a30213c9288:38021",
+          "name": "B2O(OH)5-",
+          "amount": 0.000046171352796957286,
+          "expected": 0.0000461713527969572,
+          "absoluteError": 8.809142651444724e-20,
+          "logError": 8.678947198979575e-16
+        },
+        {
+          "id": "spana:2ac52a30213c9288:38284",
+          "name": "B3O3(OH)4-",
+          "amount": 0.00003478520226740643,
+          "expected": 0.00003478520226740629,
+          "absoluteError": 1.4230153513872246e-19,
+          "logError": 1.7357894397959133e-15
+        },
+        {
+          "id": "spana:2ac52a30213c9288:38377",
+          "name": "B4O5(OH)4-2",
+          "amount": 0.000008293640354501,
+          "expected": 0.000008293640354500967,
+          "absoluteError": 3.3881317890172014e-20,
+          "logError": 1.7357894397959133e-15
+        },
+        {
+          "id": "spana:2ac52a30213c9288:79298",
+          "name": "CH3COOH",
+          "amount": 5.190356927456498e-7,
+          "expected": 5.190356927456498e-7,
+          "absoluteError": 0,
+          "logError": 0
+        },
+        {
+          "id": "spana:2ac52a30213c9288:220132",
+          "name": "Na(CH3COO)",
+          "amount": 0.0002575458521373904,
+          "expected": 0.0002575458521373904,
+          "absoluteError": 0,
+          "logError": 0
+        },
+        {
+          "id": "spana:2ac52a30213c9288:223181",
+          "name": "NaB(OH)4",
+          "amount": 0.00031165871041084704,
+          "expected": 0.00031165871041084704,
+          "absoluteError": 0,
+          "logError": 0
+        },
+        {
+          "id": "spana:2ac52a30213c9288:224689",
+          "name": "NaOH",
+          "amount": 1.4881864146281676e-7,
+          "expected": 1.4881864146281676e-7,
+          "absoluteError": 0,
+          "logError": 0
+        },
+        {
+          "id": "spana:2ac52a30213c9288:250448",
+          "name": "OH-",
+          "amount": 0.00001655117124164144,
+          "expected": 0.00001655117124164144,
+          "absoluteError": 0,
+          "logError": 0
+        }
+      ],
+      "balances": [
+        {
+          "componentId": "component:H%2B",
+          "expected": -0.007692307692307692,
+          "actual": -0.007692307692307685,
+          "residual": 6.938893903907228e-18
+        },
+        {
+          "componentId": "component:B(OH)3",
+          "expected": 0.015384615384615384,
+          "actual": 0.015384615384615379,
+          "residual": -5.204170427930421e-18
+        },
+        {
+          "componentId": "component:CH3COO-",
+          "expected": 0.015384615384615384,
+          "actual": 0.01538461538461538,
+          "residual": -3.469446951953614e-18
+        },
+        {
+          "componentId": "component:Na%2B",
+          "expected": 0.023076923076923078,
+          "actual": 0.023076923076923075,
+          "residual": -3.469446951953614e-18
+        }
+      ],
+      "massAction": [
+        {
+          "id": "spana:2ac52a30213c9288:36848",
+          "residual": 4.440892098500626e-16
+        },
+        {
+          "id": "spana:2ac52a30213c9288:37016",
+          "residual": 0
+        },
+        {
+          "id": "spana:2ac52a30213c9288:38021",
+          "residual": 0
+        },
+        {
+          "id": "spana:2ac52a30213c9288:38284",
+          "residual": 0
+        },
+        {
+          "id": "spana:2ac52a30213c9288:38377",
+          "residual": 0
+        },
+        {
+          "id": "spana:2ac52a30213c9288:79298",
+          "residual": 0
+        },
+        {
+          "id": "spana:2ac52a30213c9288:220132",
+          "residual": 0
+        },
+        {
+          "id": "spana:2ac52a30213c9288:223181",
+          "residual": 0
+        },
+        {
+          "id": "spana:2ac52a30213c9288:224689",
+          "residual": 0
+        },
+        {
+          "id": "spana:2ac52a30213c9288:250448",
+          "residual": 0
+        }
+      ],
+      "charge": {
+        "ok": true,
+        "netCharge": 9.703609443745265e-18,
+        "limit": 4.615384615384615e-12,
+        "unit": "mol charge equivalents/kg H2O",
+        "contributions": [
+          {
+            "id": "component:H%2B",
+            "charge": 1,
+            "amount": 6.021036611762688e-10
+          },
+          {
+            "id": "component:B(OH)3",
+            "charge": 0,
+            "amount": 0.007533936122768038
+          },
+          {
+            "id": "component:CH3COO-",
+            "charge": -1,
+            "amount": 0.015084327613199661
+          },
+          {
+            "id": "component:Na%2B",
+            "charge": 1,
+            "amount": 0.022507569695733375
+          },
+          {
+            "id": "spana:2ac52a30213c9288:36848",
+            "charge": -1,
+            "amount": 0.00004222288358558349
+          },
+          {
+            "id": "spana:2ac52a30213c9288:37016",
+            "charge": -1,
+            "amount": 0.007266924794036774
+          },
+          {
+            "id": "spana:2ac52a30213c9288:38021",
+            "charge": -1,
+            "amount": 0.000046171352796957286
+          },
+          {
+            "id": "spana:2ac52a30213c9288:38284",
+            "charge": -1,
+            "amount": 0.00003478520226740643
+          },
+          {
+            "id": "spana:2ac52a30213c9288:38377",
+            "charge": -2,
+            "amount": 0.000008293640354501
+          },
+          {
+            "id": "spana:2ac52a30213c9288:79298",
+            "charge": 0,
+            "amount": 5.190356927456498e-7
+          },
+          {
+            "id": "spana:2ac52a30213c9288:220132",
+            "charge": 0,
+            "amount": 0.0002575458521373904
+          },
+          {
+            "id": "spana:2ac52a30213c9288:223181",
+            "charge": 0,
+            "amount": 0.00031165871041084704
+          },
+          {
+            "id": "spana:2ac52a30213c9288:224689",
+            "charge": 0,
+            "amount": 1.4881864146281676e-7
+          },
+          {
+            "id": "spana:2ac52a30213c9288:250448",
+            "charge": -1,
+            "amount": 0.00001655117124164144
+          }
+        ]
+      },
+      "phaseDiagnostics": [
+        {
+          "id": "spana:2ac52a30213c9288:38100",
+          "name": "B2O3(cr)",
+          "phase": "solid",
+          "reference": "Codata: Cox J D, Wagman D D, Medvedev V A, CODATA Key Values for Thermodynamics. Hemisphere Publ. Co., New York, 1989",
+          "provenance": {
+            "kind": "imported",
+            "sourceDatabase": "spana:2ac52a30213c9288dd18fc6dd597411e5c3ca53173fa6d1fab5530b371c30a0a",
+            "sourceFile": "Eq-Diagr/Reactions.db",
+            "sourceRecordId": "byte:38100",
+            "originalRecordId": null,
+            "originalSpeciesName": "B2O3(cr)",
+            "originalReaction": {
+              "product": "B2O3(cr)",
+              "components": [
+                {
+                  "name": "B(OH)3",
+                  "coefficient": 2
+                },
+                {
+                  "name": "H2O",
+                  "coefficient": -3
+                }
+              ],
+              "separateProtonCount": null
+            },
+            "originalLogK": -5.745,
+            "originalReferenceCode": "Codata",
+            "resolvedCitation": "Codata: Cox J D, Wagman D D, Medvedev V A, CODATA Key Values for Thermodynamics. Hemisphere Publ. Co., New York, 1989",
+            "referenceSourceFile": "Eq-Diagr/References.txt",
+            "dbSha256": "2ac52a30213c9288dd18fc6dd597411e5c3ca53173fa6d1fab5530b371c30a0a",
+            "byteOffset": 38100,
+            "byteLength": 76,
+            "importDate": "2026-09-05T16:23:16.736Z",
+            "importerVersion": "spana-readonly-1.0.0",
+            "comments": [
+              "Element links describe source components, not product atom counts. Oxidation states are not supplied."
+            ],
+            "qualityFlags": [
+              "imported",
+              "not-solver-validated",
+              "composition-unknown"
+            ],
+            "original": {
+              "speciesName": "B2O3(cr)",
+              "reaction": {
+                "product": "B2O3(cr)",
+                "components": [
+                  {
+                    "name": "B(OH)3",
+                    "coefficient": 2
+                  },
+                  {
+                    "name": "H2O",
+                    "coefficient": -3
+                  }
+                ],
+                "separateProtonCount": null
+              },
+              "logK": -5.745,
+              "citation": "Codata",
+              "raw": {
+                "ordinal": 409,
+                "byteOffset": 38100,
+                "byteLength": 76,
+                "name": "B2O3(cr)",
+                "logK": -5.745,
+                "thermal": {
+                  "kind": "deltaH-deltaCp",
+                  "deltaH": 14.599999999999989,
+                  "deltaCp": 187.99999999999997
+                },
+                "layout": "variable",
+                "componentToken": "2",
+                "components": [
+                  {
+                    "name": "B(OH)3",
+                    "coefficient": 2
+                  },
+                  {
+                    "name": "H2O",
+                    "coefficient": -3
+                  }
+                ],
+                "protonCount": null,
+                "reference": "Codata",
+                "comment": "",
+                "rawBase64": "AAhCMk8zKGNyKcAW+uFHrhR7QC0zMzMzMy1AZ3///////wABMgAGQihPSCkzQAAAAAAAAAAAA0gyT8AIAAAAAAAAAAZDb2RhdGEAAA=="
+              }
+            }
+          },
+          "terms": [
+            {
+              "name": "B(OH)3",
+              "coefficient": 2
+            },
+            {
+              "name": "H2O",
+              "coefficient": -3
+            }
+          ],
+          "logK": -5.745,
+          "reason": "Non-aqueous inventory outside Phase-1 scope.",
+          "logActivity": -9.990956132652805
+        },
+        {
+          "id": "spana:2ac52a30213c9288:79376",
+          "name": "CH3COOH(g)",
+          "phase": "gas",
+          "reference": "SmithMart: NIST Standard Reference Database 46 Version 8.\nNIST Critically Selected Stability Constants of Metal Complexes Database\nhttp://www.nist.gov/srd/nist46.cfm\nNational Institute of Standards and Technology, 100 Bureau Dr., Stop 2300, Gaithersburg, MD\n\n2015Sander: Sander R, Atmos. Chem. Phys., 15 (2015) 4399-4981",
+          "provenance": {
+            "kind": "imported",
+            "sourceDatabase": "spana:2ac52a30213c9288dd18fc6dd597411e5c3ca53173fa6d1fab5530b371c30a0a",
+            "sourceFile": "Eq-Diagr/Reactions.db",
+            "sourceRecordId": "byte:79376",
+            "originalRecordId": null,
+            "originalSpeciesName": "CH3COOH(g)",
+            "originalReaction": {
+              "product": "CH3COOH(g)",
+              "components": [
+                {
+                  "name": "H+",
+                  "coefficient": 1
+                },
+                {
+                  "name": "CH3COO-",
+                  "coefficient": 1
+                }
+              ],
+              "separateProtonCount": null
+            },
+            "originalLogK": 1.02,
+            "originalReferenceCode": "SmithMart+2015Sander",
+            "resolvedCitation": "SmithMart: NIST Standard Reference Database 46 Version 8.\nNIST Critically Selected Stability Constants of Metal Complexes Database\nhttp://www.nist.gov/srd/nist46.cfm\nNational Institute of Standards and Technology, 100 Bureau Dr., Stop 2300, Gaithersburg, MD\n\n2015Sander: Sander R, Atmos. Chem. Phys., 15 (2015) 4399-4981",
+            "referenceSourceFile": "Eq-Diagr/References.txt",
+            "dbSha256": "2ac52a30213c9288dd18fc6dd597411e5c3ca53173fa6d1fab5530b371c30a0a",
+            "byteOffset": 79376,
+            "byteLength": 92,
+            "importDate": "2026-09-05T16:23:16.736Z",
+            "importerVersion": "spana-readonly-1.0.0",
+            "comments": [
+              "Element links describe source components, not product atom counts. Oxidation states are not supplied."
+            ],
+            "qualityFlags": [
+              "imported",
+              "not-solver-validated",
+              "composition-unknown"
+            ],
+            "original": {
+              "speciesName": "CH3COOH(g)",
+              "reaction": {
+                "product": "CH3COOH(g)",
+                "components": [
+                  {
+                    "name": "H+",
+                    "coefficient": 1
+                  },
+                  {
+                    "name": "CH3COO-",
+                    "coefficient": 1
+                  }
+                ],
+                "separateProtonCount": null
+              },
+              "logK": 1.02,
+              "citation": "SmithMart+2015Sander",
+              "raw": {
+                "ordinal": 872,
+                "byteOffset": 79376,
+                "byteLength": 92,
+                "name": "CH3COOH(g)",
+                "logK": 1.02,
+                "thermal": {
+                  "kind": "deltaH-deltaCp",
+                  "deltaH": 52.8,
+                  "deltaCp": -999999.9
+                },
+                "layout": "variable",
+                "componentToken": "2",
+                "components": [
+                  {
+                    "name": "H+",
+                    "coefficient": 1
+                  },
+                  {
+                    "name": "CH3COO-",
+                    "coefficient": 1
+                  }
+                ],
+                "protonCount": null,
+                "reference": "SmithMart+2015Sander",
+                "comment": "",
+                "rawBase64": "AApDSDNDT09IKGcpP/BR64UeuFJASmZmZmZmZsEuhH/MzMzNAAEyAAJIKz/wAAAAAAAAAAdDSDNDT08tP/AAAAAAAAAAFFNtaXRoTWFydCsyMDE1U2FuZGVyAAA="
+              }
+            }
+          },
+          "terms": [
+            {
+              "name": "H+",
+              "coefficient": 1
+            },
+            {
+              "name": "CH3COO-",
+              "coefficient": 1
+            }
+          ],
+          "logK": 1.02,
+          "reason": "Non-aqueous inventory outside Phase-1 scope.",
+          "logActivity": -10.02180277581343
+        },
+        {
+          "id": "spana:2ac52a30213c9288:155572",
+          "name": "H3BO3(cr)",
+          "phase": "solid",
+          "reference": "Codata: Cox J D, Wagman D D, Medvedev V A, CODATA Key Values for Thermodynamics. Hemisphere Publ. Co., New York, 1989",
+          "provenance": {
+            "kind": "imported",
+            "sourceDatabase": "spana:2ac52a30213c9288dd18fc6dd597411e5c3ca53173fa6d1fab5530b371c30a0a",
+            "sourceFile": "Eq-Diagr/Reactions.db",
+            "sourceRecordId": "byte:155572",
+            "originalRecordId": null,
+            "originalSpeciesName": "H3BO3(cr)",
+            "originalReaction": {
+              "product": "H3BO3(cr)",
+              "components": [
+                {
+                  "name": "B(OH)3",
+                  "coefficient": 1
+                }
+              ],
+              "separateProtonCount": null
+            },
+            "originalLogK": 0.07,
+            "originalReferenceCode": "Codata",
+            "resolvedCitation": "Codata: Cox J D, Wagman D D, Medvedev V A, CODATA Key Values for Thermodynamics. Hemisphere Publ. Co., New York, 1989",
+            "referenceSourceFile": "Eq-Diagr/References.txt",
+            "dbSha256": "2ac52a30213c9288dd18fc6dd597411e5c3ca53173fa6d1fab5530b371c30a0a",
+            "byteOffset": 155572,
+            "byteLength": 64,
+            "importDate": "2026-09-05T16:23:16.736Z",
+            "importerVersion": "spana-readonly-1.0.0",
+            "comments": [
+              "Element links describe source components, not product atom counts. Oxidation states are not supplied."
+            ],
+            "qualityFlags": [
+              "imported",
+              "not-solver-validated",
+              "composition-unknown"
+            ],
+            "original": {
+              "speciesName": "H3BO3(cr)",
+              "reaction": {
+                "product": "H3BO3(cr)",
+                "components": [
+                  {
+                    "name": "B(OH)3",
+                    "coefficient": 1
+                  }
+                ],
+                "separateProtonCount": null
+              },
+              "logK": 0.07,
+              "citation": "Codata",
+              "raw": {
+                "ordinal": 1742,
+                "byteOffset": 155572,
+                "byteLength": 64,
+                "name": "H3BO3(cr)",
+                "logK": 0.07,
+                "thermal": {
+                  "kind": "deltaH-deltaCp",
+                  "deltaH": -22.000000000000004,
+                  "deltaCp": 36
+                },
+                "layout": "variable",
+                "componentToken": "1",
+                "components": [
+                  {
+                    "name": "B(OH)3",
+                    "coefficient": 1
+                  }
+                ],
+                "protonCount": null,
+                "reference": "Codata",
+                "comment": "",
+                "rawBase64": "AAlIM0JPMyhjcik/seuFHrhR7MA2AAAAAAABQEIAAAAAAAAAATEABkIoT0gpMz/wAAAAAAAAAAZDb2RhdGEAAA=="
+              }
+            }
+          },
+          "terms": [
+            {
+              "name": "B(OH)3",
+              "coefficient": 1
+            }
+          ],
+          "logK": 0.07,
+          "reason": "Non-aqueous inventory outside Phase-1 scope.",
+          "logActivity": -2.052978066326402
+        },
+        {
+          "id": "spana:2ac52a30213c9288:221010",
+          "name": "Na2B4O7·10H2O(s)",
+          "phase": "solid",
+          "reference": "82NBS: Wagman D D, Evans W H, Parker V B, Schumm R H, Halow I, Bailey S M, Churney K L, Nuttall R L; The NBS tables of chemical thermodynamic properties: Selected values for inorganic and C1 and C2 organic substances in SI units. J. Phys. Chem. Ref. Data 11, Suppl. No.2, 1982",
+          "provenance": {
+            "kind": "imported",
+            "sourceDatabase": "spana:2ac52a30213c9288dd18fc6dd597411e5c3ca53173fa6d1fab5530b371c30a0a",
+            "sourceFile": "Eq-Diagr/Reactions.db",
+            "sourceRecordId": "byte:221010",
+            "originalRecordId": null,
+            "originalSpeciesName": "Na2B4O7·10H2O(s)",
+            "originalReaction": {
+              "product": "Na2B4O7·10H2O(s)",
+              "components": [
+                {
+                  "name": "Na+",
+                  "coefficient": 2
+                },
+                {
+                  "name": "H+",
+                  "coefficient": -2
+                },
+                {
+                  "name": "B(OH)3",
+                  "coefficient": 4
+                },
+                {
+                  "name": "H2O",
+                  "coefficient": 5
+                }
+              ],
+              "separateProtonCount": null
+            },
+            "originalLogK": -12.4,
+            "originalReferenceCode": "82NBS",
+            "resolvedCitation": "82NBS: Wagman D D, Evans W H, Parker V B, Schumm R H, Halow I, Bailey S M, Churney K L, Nuttall R L; The NBS tables of chemical thermodynamic properties: Selected values for inorganic and C1 and C2 organic substances in SI units. J. Phys. Chem. Ref. Data 11, Suppl. No.2, 1982",
+            "referenceSourceFile": "Eq-Diagr/References.txt",
+            "dbSha256": "2ac52a30213c9288dd18fc6dd597411e5c3ca53173fa6d1fab5530b371c30a0a",
+            "byteOffset": 221010,
+            "byteLength": 109,
+            "importDate": "2026-09-05T16:23:16.736Z",
+            "importerVersion": "spana-readonly-1.0.0",
+            "comments": [
+              "Element links describe source components, not product atom counts. Oxidation states are not supplied."
+            ],
+            "qualityFlags": [
+              "imported",
+              "not-solver-validated",
+              "composition-unknown"
+            ],
+            "original": {
+              "speciesName": "Na2B4O7·10H2O(s)",
+              "reaction": {
+                "product": "Na2B4O7·10H2O(s)",
+                "components": [
+                  {
+                    "name": "Na+",
+                    "coefficient": 2
+                  },
+                  {
+                    "name": "H+",
+                    "coefficient": -2
+                  },
+                  {
+                    "name": "B(OH)3",
+                    "coefficient": 4
+                  },
+                  {
+                    "name": "H2O",
+                    "coefficient": 5
+                  }
+                ],
+                "separateProtonCount": null
+              },
+              "logK": -12.4,
+              "citation": "82NBS",
+              "raw": {
+                "ordinal": 2499,
+                "byteOffset": 221010,
+                "byteLength": 109,
+                "name": "Na2B4O7·10H2O(s)",
+                "logK": -12.4,
+                "thermal": {
+                  "kind": "deltaH-deltaCp",
+                  "deltaH": -87.6,
+                  "deltaCp": -38
+                },
+                "layout": "variable",
+                "componentToken": "4",
+                "components": [
+                  {
+                    "name": "Na+",
+                    "coefficient": 2
+                  },
+                  {
+                    "name": "H+",
+                    "coefficient": -2
+                  },
+                  {
+                    "name": "B(OH)3",
+                    "coefficient": 4
+                  },
+                  {
+                    "name": "H2O",
+                    "coefficient": 5
+                  }
+                ],
+                "protonCount": null,
+                "reference": "82NBS",
+                "comment": "",
+                "rawBase64": "ABFOYTJCNE83wrcxMEgyTyhzKcAozMzMzMzNwFXmZmZmZmbAQwAAAAAAAAABNAADTmErQAAAAAAAAAAAAkgrwAAAAAAAAAAABkIoT0gpM0AQAAAAAAAAAANIMk9AFAAAAAAAAAAFODJOQlMAAA=="
+              }
+            }
+          },
+          "terms": [
+            {
+              "name": "Na+",
+              "coefficient": 2
+            },
+            {
+              "name": "H+",
+              "coefficient": -2
+            },
+            {
+              "name": "B(OH)3",
+              "coefficient": 4
+            },
+            {
+              "name": "H2O",
+              "coefficient": 5
+            }
+          ],
+          "logK": -12.4,
+          "reason": "Non-aqueous inventory outside Phase-1 scope.",
+          "logActivity": -5.746597594050437
+        }
+      ],
+      "gasActivitySum": 9.510365855432868e-11,
+      "status": "CONDITIONAL",
+      "timing": {
+        "compileMs": 417.1794,
+        "prepareMs": 23.085799999999836,
+        "solveMs": 1.8645999999998821
+      },
+      "carrierCount": 14,
+      "sourceReactionCount": 10,
+      "basisRank": 5,
+      "solvedComponentCount": 4,
+      "independentReactionRank": 10
+    },
+    {
+      "volumeMl": 20,
+      "pH": 10.678997049575303,
+      "pHError": 0,
+      "carriers": [
+        {
+          "id": "component:H%2B",
+          "name": "H+",
+          "amount": 2.0941266824698187e-11,
+          "expected": 2.0941266824698187e-11,
+          "absoluteError": 0,
+          "logError": 0
+        },
+        {
+          "id": "component:B(OH)3",
+          "name": "B(OH)3",
+          "amount": 0.0004727165972903432,
+          "expected": 0.00047271659729034227,
+          "absoluteError": 9.215718466126788e-19,
+          "logError": 8.678947198979575e-16
+        },
+        {
+          "id": "component:CH3COO-",
+          "name": "CH3COO-",
+          "amount": 0.013990490983220631,
+          "expected": 0.013990490983220631,
+          "absoluteError": 0,
+          "logError": 0
+        },
+        {
+          "id": "component:Na%2B",
+          "name": "Na+",
+          "amount": 0.027584368994702606,
+          "expected": 0.027584368994702606,
+          "absoluteError": 0,
+          "logError": 0
+        },
+        {
+          "id": "spana:2ac52a30213c9288:36848",
+          "name": "B(OH)3(CH3COO)-",
+          "amount": 0.000002457162092929364,
+          "expected": 0.000002457162092929359,
+          "absoluteError": 5.082197683525802e-21,
+          "logError": 8.678947198979575e-16
+        },
+        {
+          "id": "spana:2ac52a30213c9288:37016",
+          "name": "B(OH)4-",
+          "amount": 0.013109855367211714,
+          "expected": 0.013109855367211714,
+          "absoluteError": 0,
+          "logError": 0
+        },
+        {
+          "id": "spana:2ac52a30213c9288:38021",
+          "name": "B2O(OH)5-",
+          "amount": 0.000005226353139881568,
+          "expected": 0.000005226353139881546,
+          "absoluteError": 2.202285662861181e-20,
+          "logError": 1.8322221864512418e-15
+        },
+        {
+          "id": "spana:2ac52a30213c9288:38284",
+          "name": "B3O3(OH)4-",
+          "amount": 2.4705838725225236e-7,
+          "expected": 2.4705838725225034e-7,
+          "absoluteError": 2.0117032497289633e-21,
+          "logError": 3.568011626247148e-15
+        },
+        {
+          "id": "spana:2ac52a30213c9288:38377",
+          "name": "B4O5(OH)4-2",
+          "amount": 1.0626677543536196e-7,
+          "expected": 1.0626677543536109e-7,
+          "absoluteError": 8.735027268559972e-22,
+          "logError": 3.568011626247148e-15
+        },
+        {
+          "id": "spana:2ac52a30213c9288:79298",
+          "name": "CH3COOH",
+          "amount": 1.6743101358121396e-8,
+          "expected": 1.6743101358121396e-8,
+          "absoluteError": 0,
+          "logError": 0
+        },
+        {
+          "id": "spana:2ac52a30213c9288:220132",
+          "name": "Na(CH3COO)",
+          "amount": 0.0002927493972993672,
+          "expected": 0.0002927493972993672,
+          "absoluteError": 0,
+          "logError": 0
+        },
+        {
+          "id": "spana:2ac52a30213c9288:223181",
+          "name": "NaB(OH)4",
+          "amount": 0.0006890662105760491,
+          "expected": 0.0006890662105760491,
+          "absoluteError": 0,
+          "logError": 0
+        },
+        {
+          "id": "spana:2ac52a30213c9288:224689",
+          "name": "NaOH",
+          "amount": 0.0000052439688505534975,
+          "expected": 0.0000052439688505534975,
+          "absoluteError": 0,
+          "logError": 0
+        },
+        {
+          "id": "spana:2ac52a30213c9288:250448",
+          "name": "OH-",
+          "amount": 0.0004758795580406015,
+          "expected": 0.0004758795580406015,
+          "absoluteError": 0,
+          "logError": 0
+        }
+      ],
+      "balances": [
+        {
+          "componentId": "component:H%2B",
+          "expected": -0.014285714285714285,
+          "actual": -0.014285714285714297,
+          "residual": -1.214306433183765e-17
+        },
+        {
+          "componentId": "component:B(OH)3",
+          "expected": 0.014285714285714285,
+          "actual": 0.014285714285714297,
+          "residual": 1.214306433183765e-17
+        },
+        {
+          "componentId": "component:CH3COO-",
+          "expected": 0.014285714285714285,
+          "actual": 0.014285714285714285,
+          "residual": 0
+        },
+        {
+          "componentId": "component:Na%2B",
+          "expected": 0.02857142857142857,
+          "actual": 0.028571428571428577,
+          "residual": 6.938893903907228e-18
+        }
+      ],
+      "massAction": [
+        {
+          "id": "spana:2ac52a30213c9288:36848",
+          "residual": 0
+        },
+        {
+          "id": "spana:2ac52a30213c9288:37016",
+          "residual": 0
+        },
+        {
+          "id": "spana:2ac52a30213c9288:38021",
+          "residual": 0
+        },
+        {
+          "id": "spana:2ac52a30213c9288:38284",
+          "residual": 0
+        },
+        {
+          "id": "spana:2ac52a30213c9288:38377",
+          "residual": 0
+        },
+        {
+          "id": "spana:2ac52a30213c9288:79298",
+          "residual": 0
+        },
+        {
+          "id": "spana:2ac52a30213c9288:220132",
+          "residual": 0
+        },
+        {
+          "id": "spana:2ac52a30213c9288:223181",
+          "residual": 0
+        },
+        {
+          "id": "spana:2ac52a30213c9288:224689",
+          "residual": 0
+        },
+        {
+          "id": "spana:2ac52a30213c9288:250448",
+          "residual": 0
+        }
+      ],
+      "charge": {
+        "ok": true,
+        "netCharge": -9.161508357502512e-18,
+        "limit": 5.714285714285714e-12,
+        "unit": "mol charge equivalents/kg H2O",
+        "contributions": [
+          {
+            "id": "component:H%2B",
+            "charge": 1,
+            "amount": 2.0941266824698187e-11
+          },
+          {
+            "id": "component:B(OH)3",
+            "charge": 0,
+            "amount": 0.0004727165972903432
+          },
+          {
+            "id": "component:CH3COO-",
+            "charge": -1,
+            "amount": 0.013990490983220631
+          },
+          {
+            "id": "component:Na%2B",
+            "charge": 1,
+            "amount": 0.027584368994702606
+          },
+          {
+            "id": "spana:2ac52a30213c9288:36848",
+            "charge": -1,
+            "amount": 0.000002457162092929364
+          },
+          {
+            "id": "spana:2ac52a30213c9288:37016",
+            "charge": -1,
+            "amount": 0.013109855367211714
+          },
+          {
+            "id": "spana:2ac52a30213c9288:38021",
+            "charge": -1,
+            "amount": 0.000005226353139881568
+          },
+          {
+            "id": "spana:2ac52a30213c9288:38284",
+            "charge": -1,
+            "amount": 2.4705838725225236e-7
+          },
+          {
+            "id": "spana:2ac52a30213c9288:38377",
+            "charge": -2,
+            "amount": 1.0626677543536196e-7
+          },
+          {
+            "id": "spana:2ac52a30213c9288:79298",
+            "charge": 0,
+            "amount": 1.6743101358121396e-8
+          },
+          {
+            "id": "spana:2ac52a30213c9288:220132",
+            "charge": 0,
+            "amount": 0.0002927493972993672
+          },
+          {
+            "id": "spana:2ac52a30213c9288:223181",
+            "charge": 0,
+            "amount": 0.0006890662105760491
+          },
+          {
+            "id": "spana:2ac52a30213c9288:224689",
+            "charge": 0,
+            "amount": 0.0000052439688505534975
+          },
+          {
+            "id": "spana:2ac52a30213c9288:250448",
+            "charge": -1,
+            "amount": 0.0004758795580406015
+          }
+        ]
+      },
+      "phaseDiagnostics": [
+        {
+          "id": "spana:2ac52a30213c9288:38100",
+          "name": "B2O3(cr)",
+          "phase": "solid",
+          "reference": "Codata: Cox J D, Wagman D D, Medvedev V A, CODATA Key Values for Thermodynamics. Hemisphere Publ. Co., New York, 1989",
+          "provenance": {
+            "kind": "imported",
+            "sourceDatabase": "spana:2ac52a30213c9288dd18fc6dd597411e5c3ca53173fa6d1fab5530b371c30a0a",
+            "sourceFile": "Eq-Diagr/Reactions.db",
+            "sourceRecordId": "byte:38100",
+            "originalRecordId": null,
+            "originalSpeciesName": "B2O3(cr)",
+            "originalReaction": {
+              "product": "B2O3(cr)",
+              "components": [
+                {
+                  "name": "B(OH)3",
+                  "coefficient": 2
+                },
+                {
+                  "name": "H2O",
+                  "coefficient": -3
+                }
+              ],
+              "separateProtonCount": null
+            },
+            "originalLogK": -5.745,
+            "originalReferenceCode": "Codata",
+            "resolvedCitation": "Codata: Cox J D, Wagman D D, Medvedev V A, CODATA Key Values for Thermodynamics. Hemisphere Publ. Co., New York, 1989",
+            "referenceSourceFile": "Eq-Diagr/References.txt",
+            "dbSha256": "2ac52a30213c9288dd18fc6dd597411e5c3ca53173fa6d1fab5530b371c30a0a",
+            "byteOffset": 38100,
+            "byteLength": 76,
+            "importDate": "2026-09-05T16:23:16.736Z",
+            "importerVersion": "spana-readonly-1.0.0",
+            "comments": [
+              "Element links describe source components, not product atom counts. Oxidation states are not supplied."
+            ],
+            "qualityFlags": [
+              "imported",
+              "not-solver-validated",
+              "composition-unknown"
+            ],
+            "original": {
+              "speciesName": "B2O3(cr)",
+              "reaction": {
+                "product": "B2O3(cr)",
+                "components": [
+                  {
+                    "name": "B(OH)3",
+                    "coefficient": 2
+                  },
+                  {
+                    "name": "H2O",
+                    "coefficient": -3
+                  }
+                ],
+                "separateProtonCount": null
+              },
+              "logK": -5.745,
+              "citation": "Codata",
+              "raw": {
+                "ordinal": 409,
+                "byteOffset": 38100,
+                "byteLength": 76,
+                "name": "B2O3(cr)",
+                "logK": -5.745,
+                "thermal": {
+                  "kind": "deltaH-deltaCp",
+                  "deltaH": 14.599999999999989,
+                  "deltaCp": 187.99999999999997
+                },
+                "layout": "variable",
+                "componentToken": "2",
+                "components": [
+                  {
+                    "name": "B(OH)3",
+                    "coefficient": 2
+                  },
+                  {
+                    "name": "H2O",
+                    "coefficient": -3
+                  }
+                ],
+                "protonCount": null,
+                "reference": "Codata",
+                "comment": "",
+                "rawBase64": "AAhCMk8zKGNyKcAW+uFHrhR7QC0zMzMzMy1AZ3///////wABMgAGQihPSCkzQAAAAAAAAAAAA0gyT8AIAAAAAAAAAAZDb2RhdGEAAA=="
+              }
+            }
+          },
+          "terms": [
+            {
+              "name": "B(OH)3",
+              "coefficient": 2
+            },
+            {
+              "name": "H2O",
+              "coefficient": -3
+            }
+          ],
+          "logK": -5.745,
+          "reason": "Non-aqueous inventory outside Phase-1 scope.",
+          "logActivity": -12.395798298313279
+        },
+        {
+          "id": "spana:2ac52a30213c9288:79376",
+          "name": "CH3COOH(g)",
+          "phase": "gas",
+          "reference": "SmithMart: NIST Standard Reference Database 46 Version 8.\nNIST Critically Selected Stability Constants of Metal Complexes Database\nhttp://www.nist.gov/srd/nist46.cfm\nNational Institute of Standards and Technology, 100 Bureau Dr., Stop 2300, Gaithersburg, MD\n\n2015Sander: Sander R, Atmos. Chem. Phys., 15 (2015) 4399-4981",
+          "provenance": {
+            "kind": "imported",
+            "sourceDatabase": "spana:2ac52a30213c9288dd18fc6dd597411e5c3ca53173fa6d1fab5530b371c30a0a",
+            "sourceFile": "Eq-Diagr/Reactions.db",
+            "sourceRecordId": "byte:79376",
+            "originalRecordId": null,
+            "originalSpeciesName": "CH3COOH(g)",
+            "originalReaction": {
+              "product": "CH3COOH(g)",
+              "components": [
+                {
+                  "name": "H+",
+                  "coefficient": 1
+                },
+                {
+                  "name": "CH3COO-",
+                  "coefficient": 1
+                }
+              ],
+              "separateProtonCount": null
+            },
+            "originalLogK": 1.02,
+            "originalReferenceCode": "SmithMart+2015Sander",
+            "resolvedCitation": "SmithMart: NIST Standard Reference Database 46 Version 8.\nNIST Critically Selected Stability Constants of Metal Complexes Database\nhttp://www.nist.gov/srd/nist46.cfm\nNational Institute of Standards and Technology, 100 Bureau Dr., Stop 2300, Gaithersburg, MD\n\n2015Sander: Sander R, Atmos. Chem. Phys., 15 (2015) 4399-4981",
+            "referenceSourceFile": "Eq-Diagr/References.txt",
+            "dbSha256": "2ac52a30213c9288dd18fc6dd597411e5c3ca53173fa6d1fab5530b371c30a0a",
+            "byteOffset": 79376,
+            "byteLength": 92,
+            "importDate": "2026-09-05T16:23:16.736Z",
+            "importerVersion": "spana-readonly-1.0.0",
+            "comments": [
+              "Element links describe source components, not product atom counts. Oxidation states are not supplied."
+            ],
+            "qualityFlags": [
+              "imported",
+              "not-solver-validated",
+              "composition-unknown"
+            ],
+            "original": {
+              "speciesName": "CH3COOH(g)",
+              "reaction": {
+                "product": "CH3COOH(g)",
+                "components": [
+                  {
+                    "name": "H+",
+                    "coefficient": 1
+                  },
+                  {
+                    "name": "CH3COO-",
+                    "coefficient": 1
+                  }
+                ],
+                "separateProtonCount": null
+              },
+              "logK": 1.02,
+              "citation": "SmithMart+2015Sander",
+              "raw": {
+                "ordinal": 872,
+                "byteOffset": 79376,
+                "byteLength": 92,
+                "name": "CH3COOH(g)",
+                "logK": 1.02,
+                "thermal": {
+                  "kind": "deltaH-deltaCp",
+                  "deltaH": 52.8,
+                  "deltaCp": -999999.9
+                },
+                "layout": "variable",
+                "componentToken": "2",
+                "components": [
+                  {
+                    "name": "H+",
+                    "coefficient": 1
+                  },
+                  {
+                    "name": "CH3COO-",
+                    "coefficient": 1
+                  }
+                ],
+                "protonCount": null,
+                "reference": "SmithMart+2015Sander",
+                "comment": "",
+                "rawBase64": "AApDSDNDT09IKGcpP/BR64UeuFJASmZmZmZmZsEuhH/MzMzNAAEyAAJIKz/wAAAAAAAAAAdDSDNDT08tP/AAAAAAAAAAFFNtaXRoTWFydCsyMDE1U2FuZGVyAAA="
+              }
+            }
+          },
+          "terms": [
+            {
+              "name": "H+",
+              "coefficient": 1
+            },
+            {
+              "name": "CH3COO-",
+              "coefficient": 1
+            }
+          ],
+          "logK": 1.02,
+          "reason": "Non-aqueous inventory outside Phase-1 scope.",
+          "logActivity": -11.513164093656613
+        },
+        {
+          "id": "spana:2ac52a30213c9288:155572",
+          "name": "H3BO3(cr)",
+          "phase": "solid",
+          "reference": "Codata: Cox J D, Wagman D D, Medvedev V A, CODATA Key Values for Thermodynamics. Hemisphere Publ. Co., New York, 1989",
+          "provenance": {
+            "kind": "imported",
+            "sourceDatabase": "spana:2ac52a30213c9288dd18fc6dd597411e5c3ca53173fa6d1fab5530b371c30a0a",
+            "sourceFile": "Eq-Diagr/Reactions.db",
+            "sourceRecordId": "byte:155572",
+            "originalRecordId": null,
+            "originalSpeciesName": "H3BO3(cr)",
+            "originalReaction": {
+              "product": "H3BO3(cr)",
+              "components": [
+                {
+                  "name": "B(OH)3",
+                  "coefficient": 1
+                }
+              ],
+              "separateProtonCount": null
+            },
+            "originalLogK": 0.07,
+            "originalReferenceCode": "Codata",
+            "resolvedCitation": "Codata: Cox J D, Wagman D D, Medvedev V A, CODATA Key Values for Thermodynamics. Hemisphere Publ. Co., New York, 1989",
+            "referenceSourceFile": "Eq-Diagr/References.txt",
+            "dbSha256": "2ac52a30213c9288dd18fc6dd597411e5c3ca53173fa6d1fab5530b371c30a0a",
+            "byteOffset": 155572,
+            "byteLength": 64,
+            "importDate": "2026-09-05T16:23:16.736Z",
+            "importerVersion": "spana-readonly-1.0.0",
+            "comments": [
+              "Element links describe source components, not product atom counts. Oxidation states are not supplied."
+            ],
+            "qualityFlags": [
+              "imported",
+              "not-solver-validated",
+              "composition-unknown"
+            ],
+            "original": {
+              "speciesName": "H3BO3(cr)",
+              "reaction": {
+                "product": "H3BO3(cr)",
+                "components": [
+                  {
+                    "name": "B(OH)3",
+                    "coefficient": 1
+                  }
+                ],
+                "separateProtonCount": null
+              },
+              "logK": 0.07,
+              "citation": "Codata",
+              "raw": {
+                "ordinal": 1742,
+                "byteOffset": 155572,
+                "byteLength": 64,
+                "name": "H3BO3(cr)",
+                "logK": 0.07,
+                "thermal": {
+                  "kind": "deltaH-deltaCp",
+                  "deltaH": -22.000000000000004,
+                  "deltaCp": 36
+                },
+                "layout": "variable",
+                "componentToken": "1",
+                "components": [
+                  {
+                    "name": "B(OH)3",
+                    "coefficient": 1
+                  }
+                ],
+                "protonCount": null,
+                "reference": "Codata",
+                "comment": "",
+                "rawBase64": "AAlIM0JPMyhjcik/seuFHrhR7MA2AAAAAAABQEIAAAAAAAAAATEABkIoT0gpMz/wAAAAAAAAAAZDb2RhdGEAAA=="
+              }
+            }
+          },
+          "terms": [
+            {
+              "name": "B(OH)3",
+              "coefficient": 1
+            }
+          ],
+          "logK": 0.07,
+          "reason": "Non-aqueous inventory outside Phase-1 scope.",
+          "logActivity": -3.2553991491566396
+        },
+        {
+          "id": "spana:2ac52a30213c9288:221010",
+          "name": "Na2B4O7·10H2O(s)",
+          "phase": "solid",
+          "reference": "82NBS: Wagman D D, Evans W H, Parker V B, Schumm R H, Halow I, Bailey S M, Churney K L, Nuttall R L; The NBS tables of chemical thermodynamic properties: Selected values for inorganic and C1 and C2 organic substances in SI units. J. Phys. Chem. Ref. Data 11, Suppl. No.2, 1982",
+          "provenance": {
+            "kind": "imported",
+            "sourceDatabase": "spana:2ac52a30213c9288dd18fc6dd597411e5c3ca53173fa6d1fab5530b371c30a0a",
+            "sourceFile": "Eq-Diagr/Reactions.db",
+            "sourceRecordId": "byte:221010",
+            "originalRecordId": null,
+            "originalSpeciesName": "Na2B4O7·10H2O(s)",
+            "originalReaction": {
+              "product": "Na2B4O7·10H2O(s)",
+              "components": [
+                {
+                  "name": "Na+",
+                  "coefficient": 2
+                },
+                {
+                  "name": "H+",
+                  "coefficient": -2
+                },
+                {
+                  "name": "B(OH)3",
+                  "coefficient": 4
+                },
+                {
+                  "name": "H2O",
+                  "coefficient": 5
+                }
+              ],
+              "separateProtonCount": null
+            },
+            "originalLogK": -12.4,
+            "originalReferenceCode": "82NBS",
+            "resolvedCitation": "82NBS: Wagman D D, Evans W H, Parker V B, Schumm R H, Halow I, Bailey S M, Churney K L, Nuttall R L; The NBS tables of chemical thermodynamic properties: Selected values for inorganic and C1 and C2 organic substances in SI units. J. Phys. Chem. Ref. Data 11, Suppl. No.2, 1982",
+            "referenceSourceFile": "Eq-Diagr/References.txt",
+            "dbSha256": "2ac52a30213c9288dd18fc6dd597411e5c3ca53173fa6d1fab5530b371c30a0a",
+            "byteOffset": 221010,
+            "byteLength": 109,
+            "importDate": "2026-09-05T16:23:16.736Z",
+            "importerVersion": "spana-readonly-1.0.0",
+            "comments": [
+              "Element links describe source components, not product atom counts. Oxidation states are not supplied."
+            ],
+            "qualityFlags": [
+              "imported",
+              "not-solver-validated",
+              "composition-unknown"
+            ],
+            "original": {
+              "speciesName": "Na2B4O7·10H2O(s)",
+              "reaction": {
+                "product": "Na2B4O7·10H2O(s)",
+                "components": [
+                  {
+                    "name": "Na+",
+                    "coefficient": 2
+                  },
+                  {
+                    "name": "H+",
+                    "coefficient": -2
+                  },
+                  {
+                    "name": "B(OH)3",
+                    "coefficient": 4
+                  },
+                  {
+                    "name": "H2O",
+                    "coefficient": 5
+                  }
+                ],
+                "separateProtonCount": null
+              },
+              "logK": -12.4,
+              "citation": "82NBS",
+              "raw": {
+                "ordinal": 2499,
+                "byteOffset": 221010,
+                "byteLength": 109,
+                "name": "Na2B4O7·10H2O(s)",
+                "logK": -12.4,
+                "thermal": {
+                  "kind": "deltaH-deltaCp",
+                  "deltaH": -87.6,
+                  "deltaCp": -38
+                },
+                "layout": "variable",
+                "componentToken": "4",
+                "components": [
+                  {
+                    "name": "Na+",
+                    "coefficient": 2
+                  },
+                  {
+                    "name": "H+",
+                    "coefficient": -2
+                  },
+                  {
+                    "name": "B(OH)3",
+                    "coefficient": 4
+                  },
+                  {
+                    "name": "H2O",
+                    "coefficient": 5
+                  }
+                ],
+                "protonCount": null,
+                "reference": "82NBS",
+                "comment": "",
+                "rawBase64": "ABFOYTJCNE83wrcxMEgyTyhzKcAozMzMzMzNwFXmZmZmZmbAQwAAAAAAAAABNAADTmErQAAAAAAAAAAAAkgrwAAAAAAAAAAABkIoT0gpM0AQAAAAAAAAAANIMk9AFAAAAAAAAAAFODJOQlMAAA=="
+              }
+            }
+          },
+          "terms": [
+            {
+              "name": "Na+",
+              "coefficient": 2
+            },
+            {
+              "name": "H+",
+              "coefficient": -2
+            },
+            {
+              "name": "B(OH)3",
+              "coefficient": 4
+            },
+            {
+              "name": "H2O",
+              "coefficient": 5
+            }
+          ],
+          "logK": -12.4,
+          "reason": "Non-aqueous inventory outside Phase-1 scope.",
+          "logActivity": -7.462276390038561
+        }
+      ],
+      "gasActivitySum": 3.067862609370885e-12,
+      "status": "CONDITIONAL",
+      "timing": {
+        "compileMs": 402.80830000000014,
+        "prepareMs": 44.880200000000514,
+        "solveMs": 1.636700000000019
+      },
+      "carrierCount": 14,
+      "sourceReactionCount": 10,
+      "basisRank": 5,
+      "solvedComponentCount": 4,
+      "independentReactionRank": 10
+    },
+    {
+      "volumeMl": 100,
+      "pH": 12.717501076711436,
+      "pHError": 0,
+      "carriers": [
+        {
+          "id": "component:H%2B",
+          "name": "H+",
+          "amount": 1.916456311413252e-13,
+          "expected": 1.916456311413252e-13,
+          "absoluteError": 0,
+          "logError": 0
+        },
+        {
+          "id": "component:B(OH)3",
+          "name": "B(OH)3",
+          "amount": 0.0000019592441616839416,
+          "expected": 0.0000019592441616839416,
+          "absoluteError": 0,
+          "logError": 0
+        },
+        {
+          "id": "component:CH3COO-",
+          "name": "CH3COO-",
+          "amount": 0.006356637622372634,
+          "expected": 0.00635663762237255,
+          "absoluteError": 8.413408858487514e-17,
+          "logError": 5.785964799319684e-15
+        },
+        {
+          "id": "component:Na%2B",
+          "name": "Na+",
+          "amount": 0.06429368944506048,
+          "expected": 0.06429368944506048,
+          "absoluteError": 0,
+          "logError": 0
+        },
+        {
+          "id": "spana:2ac52a30213c9288:36848",
+          "name": "B(OH)3(CH3COO)-",
+          "amount": 4.6271759634701934e-9,
+          "expected": 4.627175963470137e-9,
+          "absoluteError": 5.624828165360588e-23,
+          "logError": 5.303801066043047e-15
+        },
+        {
+          "id": "spana:2ac52a30213c9288:37016",
+          "name": "B(OH)4-",
+          "amount": 0.005937308810881854,
+          "expected": 0.005937308810881854,
+          "absoluteError": 0,
+          "logError": 0
+        },
+        {
+          "id": "spana:2ac52a30213c9288:38021",
+          "name": "B2O(OH)5-",
+          "amount": 9.810207632656404e-9,
+          "expected": 9.810207632656404e-9,
+          "absoluteError": 0,
+          "logError": 0
+        },
+        {
+          "id": "spana:2ac52a30213c9288:38284",
+          "name": "B3O3(OH)4-",
+          "amount": 1.922059202918938e-12,
+          "expected": 1.922059202918938e-12,
+          "absoluteError": 0,
+          "logError": 0
+        },
+        {
+          "id": "spana:2ac52a30213c9288:38377",
+          "name": "B4O5(OH)4-2",
+          "amount": 3.7441772368673575e-13,
+          "expected": 3.7441772368673575e-13,
+          "absoluteError": 0,
+          "logError": 0
+        },
+        {
+          "id": "spana:2ac52a30213c9288:79298",
+          "name": "CH3COOH",
+          "amount": 6.961877500444295e-11,
+          "expected": 6.96187750044421e-11,
+          "absoluteError": 8.530300066953098e-25,
+          "logError": 5.303801066043047e-15
+        },
+        {
+          "id": "spana:2ac52a30213c9288:220132",
+          "name": "Na(CH3COO)",
+          "amount": 0.00031002434749938213,
+          "expected": 0.00031002434749937796,
+          "absoluteError": 4.174178364069192e-18,
+          "logError": 5.8823975459750115e-15
+        },
+        {
+          "id": "spana:2ac52a30213c9288:223181",
+          "name": "NaB(OH)4",
+          "amount": 0.0007273743567680643,
+          "expected": 0.0007273743567680643,
+          "absoluteError": 0,
+          "logError": 0
+        },
+        {
+          "id": "spana:2ac52a30213c9288:224689",
+          "name": "NaOH",
+          "amount": 0.0013355785173387615,
+          "expected": 0.0013355785173387615,
+          "absoluteError": 0,
+          "logError": 0
+        },
+        {
+          "id": "spana:2ac52a30213c9288:250448",
+          "name": "OH-",
+          "amount": 0.051999728571943335,
+          "expected": 0.051999728571943335,
+          "absoluteError": 0,
+          "logError": 0
+        }
+      ],
+      "balances": [
+        {
+          "componentId": "component:H%2B",
+          "expected": -0.06000000000000001,
+          "actual": -0.06000000000000012,
+          "residual": -1.1102230246251565e-16
+        },
+        {
+          "componentId": "component:B(OH)3",
+          "expected": 0.006666666666666667,
+          "actual": 0.00666666666666668,
+          "residual": 1.3010426069826053e-17
+        },
+        {
+          "componentId": "component:CH3COO-",
+          "expected": 0.006666666666666667,
+          "actual": 0.006666666666666755,
+          "residual": 8.760353553682876e-17
+        },
+        {
+          "componentId": "component:Na%2B",
+          "expected": 0.06666666666666667,
+          "actual": 0.06666666666666668,
+          "residual": 1.3877787807814457e-17
+        }
+      ],
+      "massAction": [
+        {
+          "id": "spana:2ac52a30213c9288:36848",
+          "residual": 0
+        },
+        {
+          "id": "spana:2ac52a30213c9288:37016",
+          "residual": 0
+        },
+        {
+          "id": "spana:2ac52a30213c9288:38021",
+          "residual": 0
+        },
+        {
+          "id": "spana:2ac52a30213c9288:38284",
+          "residual": 8.881784197001252e-16
+        },
+        {
+          "id": "spana:2ac52a30213c9288:38377",
+          "residual": 0
+        },
+        {
+          "id": "spana:2ac52a30213c9288:79298",
+          "residual": 0
+        },
+        {
+          "id": "spana:2ac52a30213c9288:220132",
+          "residual": 0
+        },
+        {
+          "id": "spana:2ac52a30213c9288:223181",
+          "residual": 0
+        },
+        {
+          "id": "spana:2ac52a30213c9288:224689",
+          "residual": 0
+        },
+        {
+          "id": "spana:2ac52a30213c9288:250448",
+          "residual": 0
+        }
+      ],
+      "charge": {
+        "ok": true,
+        "netCharge": -1.942890293094024e-16,
+        "limit": 1.3333333333333336e-11,
+        "unit": "mol charge equivalents/kg H2O",
+        "contributions": [
+          {
+            "id": "component:H%2B",
+            "charge": 1,
+            "amount": 1.916456311413252e-13
+          },
+          {
+            "id": "component:B(OH)3",
+            "charge": 0,
+            "amount": 0.0000019592441616839416
+          },
+          {
+            "id": "component:CH3COO-",
+            "charge": -1,
+            "amount": 0.006356637622372634
+          },
+          {
+            "id": "component:Na%2B",
+            "charge": 1,
+            "amount": 0.06429368944506048
+          },
+          {
+            "id": "spana:2ac52a30213c9288:36848",
+            "charge": -1,
+            "amount": 4.6271759634701934e-9
+          },
+          {
+            "id": "spana:2ac52a30213c9288:37016",
+            "charge": -1,
+            "amount": 0.005937308810881854
+          },
+          {
+            "id": "spana:2ac52a30213c9288:38021",
+            "charge": -1,
+            "amount": 9.810207632656404e-9
+          },
+          {
+            "id": "spana:2ac52a30213c9288:38284",
+            "charge": -1,
+            "amount": 1.922059202918938e-12
+          },
+          {
+            "id": "spana:2ac52a30213c9288:38377",
+            "charge": -2,
+            "amount": 3.7441772368673575e-13
+          },
+          {
+            "id": "spana:2ac52a30213c9288:79298",
+            "charge": 0,
+            "amount": 6.961877500444295e-11
+          },
+          {
+            "id": "spana:2ac52a30213c9288:220132",
+            "charge": 0,
+            "amount": 0.00031002434749938213
+          },
+          {
+            "id": "spana:2ac52a30213c9288:223181",
+            "charge": 0,
+            "amount": 0.0007273743567680643
+          },
+          {
+            "id": "spana:2ac52a30213c9288:224689",
+            "charge": 0,
+            "amount": 0.0013355785173387615
+          },
+          {
+            "id": "spana:2ac52a30213c9288:250448",
+            "charge": -1,
+            "amount": 0.051999728571943335
+          }
+        ]
+      },
+      "phaseDiagnostics": [
+        {
+          "id": "spana:2ac52a30213c9288:38100",
+          "name": "B2O3(cr)",
+          "phase": "solid",
+          "reference": "Codata: Cox J D, Wagman D D, Medvedev V A, CODATA Key Values for Thermodynamics. Hemisphere Publ. Co., New York, 1989",
+          "provenance": {
+            "kind": "imported",
+            "sourceDatabase": "spana:2ac52a30213c9288dd18fc6dd597411e5c3ca53173fa6d1fab5530b371c30a0a",
+            "sourceFile": "Eq-Diagr/Reactions.db",
+            "sourceRecordId": "byte:38100",
+            "originalRecordId": null,
+            "originalSpeciesName": "B2O3(cr)",
+            "originalReaction": {
+              "product": "B2O3(cr)",
+              "components": [
+                {
+                  "name": "B(OH)3",
+                  "coefficient": 2
+                },
+                {
+                  "name": "H2O",
+                  "coefficient": -3
+                }
+              ],
+              "separateProtonCount": null
+            },
+            "originalLogK": -5.745,
+            "originalReferenceCode": "Codata",
+            "resolvedCitation": "Codata: Cox J D, Wagman D D, Medvedev V A, CODATA Key Values for Thermodynamics. Hemisphere Publ. Co., New York, 1989",
+            "referenceSourceFile": "Eq-Diagr/References.txt",
+            "dbSha256": "2ac52a30213c9288dd18fc6dd597411e5c3ca53173fa6d1fab5530b371c30a0a",
+            "byteOffset": 38100,
+            "byteLength": 76,
+            "importDate": "2026-09-05T16:23:16.736Z",
+            "importerVersion": "spana-readonly-1.0.0",
+            "comments": [
+              "Element links describe source components, not product atom counts. Oxidation states are not supplied."
+            ],
+            "qualityFlags": [
+              "imported",
+              "not-solver-validated",
+              "composition-unknown"
+            ],
+            "original": {
+              "speciesName": "B2O3(cr)",
+              "reaction": {
+                "product": "B2O3(cr)",
+                "components": [
+                  {
+                    "name": "B(OH)3",
+                    "coefficient": 2
+                  },
+                  {
+                    "name": "H2O",
+                    "coefficient": -3
+                  }
+                ],
+                "separateProtonCount": null
+              },
+              "logK": -5.745,
+              "citation": "Codata",
+              "raw": {
+                "ordinal": 409,
+                "byteOffset": 38100,
+                "byteLength": 76,
+                "name": "B2O3(cr)",
+                "logK": -5.745,
+                "thermal": {
+                  "kind": "deltaH-deltaCp",
+                  "deltaH": 14.599999999999989,
+                  "deltaCp": 187.99999999999997
+                },
+                "layout": "variable",
+                "componentToken": "2",
+                "components": [
+                  {
+                    "name": "B(OH)3",
+                    "coefficient": 2
+                  },
+                  {
+                    "name": "H2O",
+                    "coefficient": -3
+                  }
+                ],
+                "protonCount": null,
+                "reference": "Codata",
+                "comment": "",
+                "rawBase64": "AAhCMk8zKGNyKcAW+uFHrhR7QC0zMzMzMy1AZ3///////wABMgAGQihPSCkzQAAAAAAAAAAAA0gyT8AIAAAAAAAAAAZDb2RhdGEAAA=="
+              }
+            }
+          },
+          "terms": [
+            {
+              "name": "B(OH)3",
+              "coefficient": 2
+            },
+            {
+              "name": "H2O",
+              "coefficient": -3
+            }
+          ],
+          "logK": -5.745,
+          "reason": "Non-aqueous inventory outside Phase-1 scope.",
+          "logActivity": -17.160822877408688
+        },
+        {
+          "id": "spana:2ac52a30213c9288:79376",
+          "name": "CH3COOH(g)",
+          "phase": "gas",
+          "reference": "SmithMart: NIST Standard Reference Database 46 Version 8.\nNIST Critically Selected Stability Constants of Metal Complexes Database\nhttp://www.nist.gov/srd/nist46.cfm\nNational Institute of Standards and Technology, 100 Bureau Dr., Stop 2300, Gaithersburg, MD\n\n2015Sander: Sander R, Atmos. Chem. Phys., 15 (2015) 4399-4981",
+          "provenance": {
+            "kind": "imported",
+            "sourceDatabase": "spana:2ac52a30213c9288dd18fc6dd597411e5c3ca53173fa6d1fab5530b371c30a0a",
+            "sourceFile": "Eq-Diagr/Reactions.db",
+            "sourceRecordId": "byte:79376",
+            "originalRecordId": null,
+            "originalSpeciesName": "CH3COOH(g)",
+            "originalReaction": {
+              "product": "CH3COOH(g)",
+              "components": [
+                {
+                  "name": "H+",
+                  "coefficient": 1
+                },
+                {
+                  "name": "CH3COO-",
+                  "coefficient": 1
+                }
+              ],
+              "separateProtonCount": null
+            },
+            "originalLogK": 1.02,
+            "originalReferenceCode": "SmithMart+2015Sander",
+            "resolvedCitation": "SmithMart: NIST Standard Reference Database 46 Version 8.\nNIST Critically Selected Stability Constants of Metal Complexes Database\nhttp://www.nist.gov/srd/nist46.cfm\nNational Institute of Standards and Technology, 100 Bureau Dr., Stop 2300, Gaithersburg, MD\n\n2015Sander: Sander R, Atmos. Chem. Phys., 15 (2015) 4399-4981",
+            "referenceSourceFile": "Eq-Diagr/References.txt",
+            "dbSha256": "2ac52a30213c9288dd18fc6dd597411e5c3ca53173fa6d1fab5530b371c30a0a",
+            "byteOffset": 79376,
+            "byteLength": 92,
+            "importDate": "2026-09-05T16:23:16.736Z",
+            "importerVersion": "spana-readonly-1.0.0",
+            "comments": [
+              "Element links describe source components, not product atom counts. Oxidation states are not supplied."
+            ],
+            "qualityFlags": [
+              "imported",
+              "not-solver-validated",
+              "composition-unknown"
+            ],
+            "original": {
+              "speciesName": "CH3COOH(g)",
+              "reaction": {
+                "product": "CH3COOH(g)",
+                "components": [
+                  {
+                    "name": "H+",
+                    "coefficient": 1
+                  },
+                  {
+                    "name": "CH3COO-",
+                    "coefficient": 1
+                  }
+                ],
+                "separateProtonCount": null
+              },
+              "logK": 1.02,
+              "citation": "SmithMart+2015Sander",
+              "raw": {
+                "ordinal": 872,
+                "byteOffset": 79376,
+                "byteLength": 92,
+                "name": "CH3COOH(g)",
+                "logK": 1.02,
+                "thermal": {
+                  "kind": "deltaH-deltaCp",
+                  "deltaH": 52.8,
+                  "deltaCp": -999999.9
+                },
+                "layout": "variable",
+                "componentToken": "2",
+                "components": [
+                  {
+                    "name": "H+",
+                    "coefficient": 1
+                  },
+                  {
+                    "name": "CH3COO-",
+                    "coefficient": 1
+                  }
+                ],
+                "protonCount": null,
+                "reference": "SmithMart+2015Sander",
+                "comment": "",
+                "rawBase64": "AApDSDNDT09IKGcpP/BR64UeuFJASmZmZmZmZsEuhH/MzMzNAAEyAAJIKz/wAAAAAAAAAAdDSDNDT08tP/AAAAAAAAAAFFNtaXRoTWFydCsyMDE1U2FuZGVyAAA="
+              }
+            }
+          },
+          "terms": [
+            {
+              "name": "H+",
+              "coefficient": 1
+            },
+            {
+              "name": "CH3COO-",
+              "coefficient": 1
+            }
+          ],
+          "logK": 1.02,
+          "reason": "Non-aqueous inventory outside Phase-1 scope.",
+          "logActivity": -13.894273622727848
+        },
+        {
+          "id": "spana:2ac52a30213c9288:155572",
+          "name": "H3BO3(cr)",
+          "phase": "solid",
+          "reference": "Codata: Cox J D, Wagman D D, Medvedev V A, CODATA Key Values for Thermodynamics. Hemisphere Publ. Co., New York, 1989",
+          "provenance": {
+            "kind": "imported",
+            "sourceDatabase": "spana:2ac52a30213c9288dd18fc6dd597411e5c3ca53173fa6d1fab5530b371c30a0a",
+            "sourceFile": "Eq-Diagr/Reactions.db",
+            "sourceRecordId": "byte:155572",
+            "originalRecordId": null,
+            "originalSpeciesName": "H3BO3(cr)",
+            "originalReaction": {
+              "product": "H3BO3(cr)",
+              "components": [
+                {
+                  "name": "B(OH)3",
+                  "coefficient": 1
+                }
+              ],
+              "separateProtonCount": null
+            },
+            "originalLogK": 0.07,
+            "originalReferenceCode": "Codata",
+            "resolvedCitation": "Codata: Cox J D, Wagman D D, Medvedev V A, CODATA Key Values for Thermodynamics. Hemisphere Publ. Co., New York, 1989",
+            "referenceSourceFile": "Eq-Diagr/References.txt",
+            "dbSha256": "2ac52a30213c9288dd18fc6dd597411e5c3ca53173fa6d1fab5530b371c30a0a",
+            "byteOffset": 155572,
+            "byteLength": 64,
+            "importDate": "2026-09-05T16:23:16.736Z",
+            "importerVersion": "spana-readonly-1.0.0",
+            "comments": [
+              "Element links describe source components, not product atom counts. Oxidation states are not supplied."
+            ],
+            "qualityFlags": [
+              "imported",
+              "not-solver-validated",
+              "composition-unknown"
+            ],
+            "original": {
+              "speciesName": "H3BO3(cr)",
+              "reaction": {
+                "product": "H3BO3(cr)",
+                "components": [
+                  {
+                    "name": "B(OH)3",
+                    "coefficient": 1
+                  }
+                ],
+                "separateProtonCount": null
+              },
+              "logK": 0.07,
+              "citation": "Codata",
+              "raw": {
+                "ordinal": 1742,
+                "byteOffset": 155572,
+                "byteLength": 64,
+                "name": "H3BO3(cr)",
+                "logK": 0.07,
+                "thermal": {
+                  "kind": "deltaH-deltaCp",
+                  "deltaH": -22.000000000000004,
+                  "deltaCp": 36
+                },
+                "layout": "variable",
+                "componentToken": "1",
+                "components": [
+                  {
+                    "name": "B(OH)3",
+                    "coefficient": 1
+                  }
+                ],
+                "protonCount": null,
+                "reference": "Codata",
+                "comment": "",
+                "rawBase64": "AAlIM0JPMyhjcik/seuFHrhR7MA2AAAAAAABQEIAAAAAAAAAATEABkIoT0gpMz/wAAAAAAAAAAZDb2RhdGEAAA=="
+              }
+            }
+          },
+          "terms": [
+            {
+              "name": "B(OH)3",
+              "coefficient": 1
+            }
+          ],
+          "logK": 0.07,
+          "reason": "Non-aqueous inventory outside Phase-1 scope.",
+          "logActivity": -5.637911438704343
+        },
+        {
+          "id": "spana:2ac52a30213c9288:221010",
+          "name": "Na2B4O7·10H2O(s)",
+          "phase": "solid",
+          "reference": "82NBS: Wagman D D, Evans W H, Parker V B, Schumm R H, Halow I, Bailey S M, Churney K L, Nuttall R L; The NBS tables of chemical thermodynamic properties: Selected values for inorganic and C1 and C2 organic substances in SI units. J. Phys. Chem. Ref. Data 11, Suppl. No.2, 1982",
+          "provenance": {
+            "kind": "imported",
+            "sourceDatabase": "spana:2ac52a30213c9288dd18fc6dd597411e5c3ca53173fa6d1fab5530b371c30a0a",
+            "sourceFile": "Eq-Diagr/Reactions.db",
+            "sourceRecordId": "byte:221010",
+            "originalRecordId": null,
+            "originalSpeciesName": "Na2B4O7·10H2O(s)",
+            "originalReaction": {
+              "product": "Na2B4O7·10H2O(s)",
+              "components": [
+                {
+                  "name": "Na+",
+                  "coefficient": 2
+                },
+                {
+                  "name": "H+",
+                  "coefficient": -2
+                },
+                {
+                  "name": "B(OH)3",
+                  "coefficient": 4
+                },
+                {
+                  "name": "H2O",
+                  "coefficient": 5
+                }
+              ],
+              "separateProtonCount": null
+            },
+            "originalLogK": -12.4,
+            "originalReferenceCode": "82NBS",
+            "resolvedCitation": "82NBS: Wagman D D, Evans W H, Parker V B, Schumm R H, Halow I, Bailey S M, Churney K L, Nuttall R L; The NBS tables of chemical thermodynamic properties: Selected values for inorganic and C1 and C2 organic substances in SI units. J. Phys. Chem. Ref. Data 11, Suppl. No.2, 1982",
+            "referenceSourceFile": "Eq-Diagr/References.txt",
+            "dbSha256": "2ac52a30213c9288dd18fc6dd597411e5c3ca53173fa6d1fab5530b371c30a0a",
+            "byteOffset": 221010,
+            "byteLength": 109,
+            "importDate": "2026-09-05T16:23:16.736Z",
+            "importerVersion": "spana-readonly-1.0.0",
+            "comments": [
+              "Element links describe source components, not product atom counts. Oxidation states are not supplied."
+            ],
+            "qualityFlags": [
+              "imported",
+              "not-solver-validated",
+              "composition-unknown"
+            ],
+            "original": {
+              "speciesName": "Na2B4O7·10H2O(s)",
+              "reaction": {
+                "product": "Na2B4O7·10H2O(s)",
+                "components": [
+                  {
+                    "name": "Na+",
+                    "coefficient": 2
+                  },
+                  {
+                    "name": "H+",
+                    "coefficient": -2
+                  },
+                  {
+                    "name": "B(OH)3",
+                    "coefficient": 4
+                  },
+                  {
+                    "name": "H2O",
+                    "coefficient": 5
+                  }
+                ],
+                "separateProtonCount": null
+              },
+              "logK": -12.4,
+              "citation": "82NBS",
+              "raw": {
+                "ordinal": 2499,
+                "byteOffset": 221010,
+                "byteLength": 109,
+                "name": "Na2B4O7·10H2O(s)",
+                "logK": -12.4,
+                "thermal": {
+                  "kind": "deltaH-deltaCp",
+                  "deltaH": -87.6,
+                  "deltaCp": -38
+                },
+                "layout": "variable",
+                "componentToken": "4",
+                "components": [
+                  {
+                    "name": "Na+",
+                    "coefficient": 2
+                  },
+                  {
+                    "name": "H+",
+                    "coefficient": -2
+                  },
+                  {
+                    "name": "B(OH)3",
+                    "coefficient": 4
+                  },
+                  {
+                    "name": "H2O",
+                    "coefficient": 5
+                  }
+                ],
+                "protonCount": null,
+                "reference": "82NBS",
+                "comment": "",
+                "rawBase64": "ABFOYTJCNE83wrcxMEgyTyhzKcAozMzMzMzNwFXmZmZmZmbAQwAAAAAAAAABNAADTmErQAAAAAAAAAAAAkgrwAAAAAAAAAAABkIoT0gpM0AQAAAAAAAAAANIMk9AFAAAAAAAAAAFODJOQlMAAA=="
+              }
+            }
+          },
+          "terms": [
+            {
+              "name": "Na+",
+              "coefficient": 2
+            },
+            {
+              "name": "H+",
+              "coefficient": -2
+            },
+            {
+              "name": "B(OH)3",
+              "coefficient": 4
+            },
+            {
+              "name": "H2O",
+              "coefficient": 5
+            }
+          ],
+          "logK": -12.4,
+          "reason": "Non-aqueous inventory outside Phase-1 scope.",
+          "logActivity": -12.180306905116298
+        }
+      ],
+      "gasActivitySum": 1.275634855084572e-14,
+      "status": "CONDITIONAL",
+      "timing": {
+        "compileMs": 522.9542000000001,
+        "prepareMs": 20.86329999999998,
+        "solveMs": 2.662699999999859
+      },
+      "carrierCount": 14,
+      "sourceReactionCount": 10,
+      "basisRank": 5,
+      "solvedComponentCount": 4,
+      "independentReactionRank": 10
+    }
+  ]
+}

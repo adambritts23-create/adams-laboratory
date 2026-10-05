@@ -1,0 +1,26 @@
+{
+  "phase": "Calculation visual hierarchy and scientific beaker",
+  "baselineTests": 382,
+  "focusedTests": {"pass":35,"fail":0},
+  "fullTests": {"pass":393,"fail":0,"cancelled":0,"skipped":0,"todo":0,"durationMs":238963.7973},
+  "goldens": {"acid-base":"passed","complexation":"passed","precipitation":"passed","redox":"passed","fixed-activity":"passed","fixtureSha256":"aefc0949b585ef290595088c8ed852a1eb591be25dff24563a44a2cf98d40960"},
+  "protectedFiles": {"count":51,"changed":0},
+  "build":"passed",
+  "lint":{"errors":0,"warnings":1,"existingWarning":"ExpandedPlot.jsx:21 react-hooks/exhaustive-deps cleanup ref"},
+  "artifactAudit":"passed",
+  "portrait":{"file":"public/artwork/adam-observer.png","bytes":916067,"sha256":"0389cc3730a6cae0f643a7f07559c87063ed3bfce27b1d3d0e2d780d36c5a16d","modifiedImageBytes":false},
+  "browser":{
+    "nickel":{"total":1,"range":[0,14],"calculated":51,"aqueousSample":0,"aqueousBedCount":0,"solidSample":32,"pH":8.96,"solid":"Ni(OH)2(cr)","amount":0.9999998357827817,"bedHeight":53.904761577072165,"keyboardInspection":"passed","returnToZeroRemovedBedAndCallout":true},
+    "iron":{"total":0.1,"sample":30,"pH":8.4,"solid":"Fe2O3(cr)","amount":0.04999999999949872,"coefficient":2,"componentContribution":0.09999999999899745},
+    "calciumCarbonate":{"totals":[0.1,0.1],"sample":50,"pH":14,"solids":[{"name":"Ca(OH)2(cr)","amount":0.0004319891431656231,"visualWidth":89},{"name":"CaCO3(cr)","amount":0.09940548505259345,"visualWidth":89}],"distinctPatterns":true},
+    "mobile":{"viewport":[390,844],"documentWidth":375,"primaryPlotCount":1,"plotTop":9,"plotRight":345,"overflow":false},
+    "desktopStickyHeadingTop":0,
+    "themes":["dark","light results"],
+    "consoleErrors":[],
+    "screenshots":"Displayed inline in conversation; no screenshot files saved",
+    "viewportRestored":true
+  },
+  "deployed":false,
+  "remotePush":false,
+  "status":"Stopped for review"
+}

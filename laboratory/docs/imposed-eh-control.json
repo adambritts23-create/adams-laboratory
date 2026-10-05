@@ -1,0 +1,35 @@
+{
+  "request": {
+    "componentId": "component:Fe%202%2B",
+    "total": 0.001,
+    "pH": 7,
+    "Eh": {
+      "min": -2,
+      "max": 2,
+      "points": 17
+    }
+  },
+  "counts": {
+    "requested": 17,
+    "converged": 17,
+    "failed": 0,
+    "notRun": 0
+  },
+  "systemId": "8ead3d660c3c240620da3c69fa3a4b55810695c1dce8216e166f9579043386a1",
+  "sweepId": "b2893d63be1402f85e662bbf6b5018b280f87585f72c3e9808389351e164e7c9",
+  "phaseScopeId": "260419fcdda926a0b6419b0553595b62612d4afc014996d9fb92b2e6111cfaf4",
+  "maximumTotalFractionClosureError": 2.5979218776228663e-14,
+  "solubilityDefined": 13,
+  "solubilityGaps": 4,
+  "scientificStatus": "Internal integration evidence; not independently validated across this potential range. Carrier colors are not oxidation-state colors.",
+  "browser": {
+    "productionPreview": true,
+    "electronTile": "row 1, column 4; special component workflow",
+    "feSweepAccepted": 17,
+    "fixedEhPHScanAccepted": 3,
+    "sharedViewReuse": true,
+    "staleBeakerRejected": true,
+    "solidFocusAndClear": true,
+    "consoleErrors": []
+  }
+}

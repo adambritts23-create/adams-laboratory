@@ -1,0 +1,853 @@
+✔ T/TV/LTV/LA/LAV preserve hur, kh and source input semantics (11.2106ms)
+✔ pH/pe/Eh are electron/proton activity coordinates with temperature-dependent conversion (0.7336ms)
+✔ molality and molarity stay distinct; no density-free conversion or exponent overflow (1.1188ms)
+✔ definition validates capability, duplicate constraints, unknown components, units and sampling (1.0642ms)
+✔ multidimensional definition uses independent-variable arrays and an explicit point budget (0.6538ms)
+✔ workspaces retain the same system; edits invalidate results without requiring persistence (3.1275ms)
+✔ removing electron/proton/required components removes incompatible conditions and outputs (1.6858ms)
+✔ aqueous element discovery includes H/O implicitly but does not define totals or basis (0.8928ms)
+✔ selected species define analytical constraints excluding solvent H/O (1.163ms)
+✔ element and phase changes prune incompatible species and orphan totals (2.2778ms)
+✔ system validation checks both pH modes, numbers, fixed ionic strength and future redox inputs (12.0709ms)
+✔ import runner preserves raw input even if adapter mutates its copy and reports unsupported/malformed rows (1.2759ms)
+✔ import runner rejects duplicates, missing context provenance and parser failures (1.1179ms)
+✔ Java modified UTF handles NUL and surrogate pairs, rejects broken sequences (0.7873ms)
+✔ DB variable and six-slot layouts preserve source doubles, offsets, proton field and bytes (2.1476ms)
+✔ DB analytic and lookup fields remain raw; missing lookup NaN is preserved (2.5217ms)
+✔ DB truncation reports an error instead of silently treating partial record as EOF (0.6948ms)
+✔ ELB retains labels and descriptions, not fabricated atom counts (0.609ms)
+✔ Java properties escaping, continuation, duplicates and reference token lookup (1.4687ms)
+✔ documented source naming conventions preserve phase and charge without redox inference (0.2631ms)
+✔ imported repository preserves constants, source component coefficients and missing metadata (4.3541ms)
+✔ ZIP reader rejects malformed input rather than extracting files (0.4576ms)
+✔ unknown ELB labels do not silently become compatible with every element selection (0.5851ms)
+✔ source component choices gate direct reactions and electron-dependent redox capability (4.3004ms)
+✔ optional local snapshot integration checks every stored reaction against retained bytes (1216.3ms)
+✔ repository queries elements, IDs, sources, phases and text from a validated snapshot (0.7962ms)
+✔ oxidation-state filtering is generic, explicit about unknown, and supports mixed valence (1.4208ms)
+✔ repository protects provenance from mutations and rejects invalid datasets (2.4212ms)
+✔ all demo records are valid and thermodynamic fields remain explicitly null (0.5735ms)
+✔ record validation reports malformed science and provenance without repairing it (1.6332ms)
+✔ aqueous fractions: Ca 2+ agree with independent saved mixed evidence and sum to one (4.2217ms)
+✔ aqueous fractions: CO3 2- agree with independent saved mixed evidence and sum to one (3.6875ms)
+✔ aqueous fractions: Mg 2+ agree with independent saved mixed evidence and sum to one (2.301ms)
+✔ precipitation is excluded from the denominator; tetramer carries four units and excluded species never contribute (7.8856ms)
+✔ zero, sub-resolution, nonfinite and invalid inputs never manufacture fractions (1.043ms)
+✔ stale, cancelled and failed states stay gaps while raw export retains original precision (532.2421ms)
+✔ reordering candidate solids does not change aqueous fractions (140.5034ms)
+✔ independent carbonate acid/base fractions follow stored mass-action ratios; omitted forms are absent (7.0716ms)
+✔ an accepted very small dissolved inventory remains explicitly unavailable for fractions (1.1981ms)
+✔ new ordinary systems and New system include intrinsic water/proton and database hydroxide chemistry (13.7672ms)
+✔ automatic solid compatibility requires every exact nonzero source component; no phosphate or sulfide leakage (70.8168ms)
+✔ Ca hydroxide is discovered without carbonate and transitions from absent to positive accepted inventory (1.1521ms)
+✔ FeIII source phases select hematite at the exact screenshot pH without a redox basis (0.354ms)
+✔ Ca carbonate automatically considers four exact phases and admits one and two positive solids (0.3637ms)
+✔ validated mixed configuration retains explicit choices and the exact three-solid inventory (0.5411ms)
+✔ every accepted control sample and Beaker share the exact input/result and positive solid objects (6.2035ms)
+✔ no compatible solid negative control never invents a precipitate (0.9334ms)
+✔ exclusions persist through pH edits, diagram/view changes, reset, serialization and recalc (42.9853ms)
+✔ component removal/readdition recomputes candidates without restoring an explicitly excluded phase (33.4968ms)
+✔ saved explicit and unversioned legacy scientific choices remain unchanged (82.4969ms)
+✔ excluding every compatible solid produces an honest aqueous-only accepted state (113.1894ms)
+✔ phase-group exclusion disables solids without erasing per-solid exclusions (42.9094ms)
+✔ precipitating automatic systems retain aqueous-only fraction normalization (5.1521ms)
+✔ response grids, solid and solubility modes use the same included/excluded phase set at every point (81.0942ms)
+✔ failed automatic sweeps fabricate neither accepted solids nor fraction values (2.6481ms)
+✔ automatic policy does not broaden electron-basis or gas equilibrium (22.3266ms)
+✔ axis grouping: fieldset labels retain variable, range, samples and native unit controls together (0.5024ms)
+✔ axis grouping: dimensionality controls fieldset count and surface response heading without fake bounds (0.3708ms)
+✔ axis grouping: editing Y retains X and the fixed inventory while changing only selected bounds (677.1986ms)
+✔ axis grouping: 2D/3D view and workspace navigation retain the scientific definition (40.5345ms)
+✔ axis grouping: navigation semantics and component identities stay separate from display labels (0.6839ms)
+✔ aqueous-only accepted state draws no candidate sediment, while Ni precipitate has its exact phase and amount (0.765ms)
+✔ accepted inventory display is monotonic and bounded, explicitly not physical volume (0.3989ms)
+✔ multiple Ca solids have distinct equal-width pattern keys, not amount-proportional volume or density order (2.7919ms)
+✔ Fe2O3 visual amount and coefficient-two partition remain separate unchanged authorities (1.5366ms)
+✔ excluded Ni phase never appears in the display, even if another supported solid replaces it (109.1055ms)
+✔ stale and unavailable selected states never retain a previous precipitate display (0.3619ms)
+✔ sample-to-sample display uses original results and preserves all partition values (5.6897ms)
+✔ refined drawing exposes keyboard phase inspection and does not render liquid for unavailable states (1.003ms)
+✔ partition gauge uses the existing computed partition, with labels and reduced-motion support (1.2701ms)
+✔ Calculation retains one sticky Plot action, readonly conditions and collapsed advanced sections (1.7667ms)
+✔ observer portrait is separate decorative content, while header media remains intact (0.69ms)
+✔ canonical basis: deterministic source identity, incidence rank and one inventory independent of order (0.9502ms)
+✔ canonical basis: reversed bridge direction yields equivalent state even without a forward product row (0.7532ms)
+✔ canonical rejection: disconnected, missing, redundant and unsupported bridge structures (0.3812ms)
+✔ canonical cycles: consistent alternatives accepted; inconsistent logBeta or electron bookkeeping rejected without averaging (0.6792ms)
+✔ canonical substitution: exact signed integer H/e coefficients, logBeta and reconstructable multipliers (0.4453ms)
+✔ canonical exclusions apply to every source representation of a phase (0.2787ms)
+✔ canonical source and inventory gates: Fe fractional oxide stays explicit, independent totals are never silently merged (0.3369ms)
+✔ canonical unbounded Fe request reports unsupported source coefficients instead of rounding (72.4721ms)
+✔ canonical Fe and Cu exchange, alternate basis solids and fixed potential conserve total and residual contract (53.8214ms)
+✔ canonical solids: candidates alone do not precipitate, exclusion survives, accepted amount remains exact (90.6652ms)
+✔ canonical Mn agrees with independent existing offline compiler for every overlapping row (1.0026ms)
+✔ canonical representative Fe/Cu products preserve independent metal/H/O counts (0.4345ms)
+✔ reverse Fe and Cu physical equilibrium equivalence under independent alternative source-coordinate solve (83.7336ms)
+✔ source selection of either Fe valence compiles to identical prepared chemistry (77.5662ms)
+✔ canonical Fe/Cu re-expression onto alternate source basis compiles back to common physical representation (56.8143ms)
+✔ canonical bounded graph rejects oversized families and source candidates with missing bridges (0.8589ms)
+✔ canonical alternate basis selection order and existing independent inventories do not alter ordinary session input (56.3231ms)
+✔ canonical prepared system feeds existing pH/pe grid with one preparation and fixed electron controls (34.7313ms)
+✔ Closed UI artifact permits only exact unchanged Step-5 metadata, never source payloads or drift (89.7204ms)
+✔ Closed UI path exactly reproduces every Step-5 broad-sweep carrier and derived potential (1.8015ms)
+✔ Closed adapter is branded, preserves identity, and rejects forged or incomplete runs (0.5438ms)
+✔ All three views reuse the sweep and preserve total/dissolved denominators (17.0289ms)
+✔ Selected endpoint/hover/pin use exact closed objects and expose derived pH/Eh/net reaction (1.0476ms)
+✔ Changed addition/setup/chemistry and restored ordinary mode invalidate closed inspection and commit (1.0651ms)
+✔ Unsupported reagent selection, electron and changed source never fall back to ordinary sweep (579.2622ms)
+✔ Out-of-scope samples remain gaps in views and Beaker; cancellation/stale never commits (552.9857ms)
+✖ Supplied axis and residual species labels remain distinct in output/export (284.6049ms)
+✔ Step 5 actual reagents automatically discover all 24 source reactions without selected electron (0.2283ms)
+✔ Step 5 independent raw-law expectation and equivalent controlled boundary conditions at dose 2.5e-7 (163.7416ms)
+✔ Step 5 independent raw-law expectation and equivalent controlled boundary conditions at dose 5e-7 (146.5453ms)
+✔ Step 5 independent raw-law expectation and equivalent controlled boundary conditions at dose 0.000001 (138.0306ms)
+✔ Step 5 generated net reaction retains electron cancellation, source coefficients and signed extent closure (0.595ms)
+✔ Step 5 preparation history, supported bases and reversed source order preserve equilibrium (1451.8759ms)
+✔ Step 5 scope fails closed for imposed conditions, electron inventory, changed sources and unreviewed metadata (1341.1481ms)
+✔ Step 5 reviewed aqueous domain excludes supersaturated high-Fe candidate and out-of-range additions (1.5066ms)
+✔ Step 5 broad closed addition sweep preserves inventories, phase exclusions and derived outputs (2.8074ms)
+✔ Step 5 source-derived equivalence region is sampled without imposing textbook completion (2068.6632ms)
+✔ Step 5 selected sample is exact accepted result, retains dimer weighting and rejects stale or forged selection (1.4607ms)
+✔ Step 5 failed additions remain gaps and cancelled/stale sweeps cannot provide inspection (476.5505ms)
+✔ Step 5 analytical axis validation retains existing invalid/reversed-range rules (433.275ms)
+✔ closed original: independent concentrations, inventories, charge and simultaneous half laws (0.8735ms)
+✔ closed unequal: independent concentrations, inventories, charge and simultaneous half laws (0.217ms)
+✔ closed three: independent concentrations, inventories, charge and simultaneous half laws (0.1637ms)
+✔ unequal two/three electron stoichiometry cancels exactly at six with transformed log K (0.1865ms)
+✔ all controls preserve equilibrium across preparations and supported bases, not preparation provenance (0.4805ms)
+✔ three simultaneous couples are invariant to reaction order, reversal and scaling (7.8411ms)
+✔ reservoir or electron-total inputs cannot enter closed mode (1.1891ms)
+✔ missing counterions, source metadata or invalid composition fail before solving (1.4463ms)
+✔ rank gates reject underdetermined/disconnected families and contradictory reaction cycles (0.9425ms)
+✔ forged preparations cannot solve and inspection branding cannot be copied (1.0886ms)
+✔ independent water/proton scalar solution is pinned before production and satisfies every raw law (3.0846ms)
+✔ one simultaneous real redox/hydrolysis/water network derives pH and Eh with physical closure (21.0209ms)
+✔ proton closure survives both preparations, physical bases, solvent position and reaction order (102.3121ms)
+✔ ordinary and electron-bearing source reactions may be reversed/scaled without fake electron terms (14.7078ms)
+✔ exact fixed-pH, fixed-Eh and both-controlled comparisons preserve equivalent equilibrium inventories (18.6022ms)
+✔ water inventory, undeclared solvent, imposed proton/electron reservoirs and bad source metadata fail closed (21.5309ms)
+✔ cancellation-residue initialization preserves the signed target and cannot alter fixed water activity (13.2716ms)
+✔ real V/Eu raw-source expected solution is independently analytic before production calculation (2.6446ms)
+✔ real two-family closed chemistry closes atoms, charge and electrons with common derived potential (4.8345ms)
+✔ real closed chemistry is preparation-history, reaction-order and supported-basis invariant (44.3103ms)
+✔ same five-ion chemistry through generic imposed-Eh sweep agrees at exact independent equilibrium potential (13.2938ms)
+✔ real fixture cannot silently admit unbalanced preparation, imposed closed potential or edited source constants (2.4283ms)
+✔ closed two-couple synthetic equilibrium agrees with independent analytic extent without electron input (0.4723ms)
+✔ both half reactions give common derived pe and satisfy net K=100 (0.1396ms)
+✔ three chemical bases and two equivalent preparation histories preserve the same final state (0.3413ms)
+✔ charge is independently audited; generic additional electroneutrality remains explicitly unsupported (0.1718ms)
+✔ disconnected state-total constraints preserve inappropriate preparation memory (2.243ms)
+✔ an unconstrained explicit electron basis is rejected rather than silently prescribing Eh (0.6833ms)
+✔ response surface selects 3D with floor contours; 2D/3D view changes preserve the identical grid (20.2874ms)
+✔ ordinary surface families exclude generalized inventory, fractions, redox and fixed/varied pH (25.3673ms)
+✔ secondary surface targets preserve authoritative species/phase identities and never invent Mg (12.7512ms)
+✔ incompatible stale products and unselected solids cannot enter ordinary Z options (407.662ms)
+✔ Ca/carbonate without selected solids: fraction inspection and Beaker share exact accepted state and positive solids (1.7402ms)
+✔ Ca/carbonate with calcite selected: fraction inspection and Beaker share exact accepted state and positive solids (1.5729ms)
+✔ Validated mixed-solid example: fraction inspection and Beaker share exact accepted state and positive solids (3.6826ms)
+✔ large CaCO3 aqueous fraction is not calcite; explicit calcite and mixed solids agree with the Beaker (0.8385ms)
+✔ failed exact samples never acquire fractions, solids or 3D interpolated equilibrium (5.2077ms)
+✔ Cu uses the registered generic pipeline with exact metadata, chemistry and phase pins (298.2258ms)
+✔ Cu grid has all three states, complete total inventory, explicit fractions and symmetric tie policy (4.8521ms)
+✔ Cu(I) oxide counts two Cu atoms and Cu(II) hydrolysis polymers retain their full weighting (10.9113ms)
+✔ Cu unknown, ambiguous, implicit or altered allocations reject before any trace waiver (40.4921ms)
+✔ Fe and Cu metadata cannot contaminate each other or claim the other support contract (56.6599ms)
+✔ Cu support rejects changed total, phase scope, grid evidence and stale or forged results (1.2184ms)
+✔ Cu inspection, exact cell map and JSON export share one accepted result contract (22.4815ms)
+✔ Cu matches independently aggregated unchanged HALTAFALL at every identical coordinate (22.5467ms)
+✔ Cu water context retains every state and distinguishes included from stable phases (5.2481ms)
+✔ Research stays outside the public import graph and the Fe full-grid evidence remains exact (55.873ms)
+✔ diagram transition preserves chemistry and axis ranges, returns a removed axis to an explicit unset fixed condition (0.9174ms)
+✔ calculated pH is dependent: the proton sweep becomes an explicit signed total, without inventing an amount (0.321ms)
+✔ pending diagrams and multi-solid policies cannot be silently replaced by ordinary diagrams (0.4695ms)
+✔ response surface preserves axes and clears incompatible fraction output without altering source identity (0.2641ms)
+✔ ordinary log concentration curves derive only from the accepted system and leave exact results intact (4.6695ms)
+✔ display numbers remove binary tails and insignificant zeros without changing source values (0.5521ms)
+✔ conserved basis inventory is Fe atom weighted across oxidation states; electron activity is not analytical total (1.5504ms)
+✔ selected-sample ranking changes from metal to oxidized carrier without global maxima or rounded display values (33.3802ms)
+✔ focus, reference preference, view and endpoint selection retain exact accepted sweep identities (17.2927ms)
+✔ redox labels do not alter fractions or provenance and missing validated metadata cannot assign oxidation states (30.4307ms)
+✔ supplied ferric form is preserved separately from canonical ferrous basis and elemental Fe conservation (207.286ms)
+✔ Fe metal source mass action and Nernst independently reproduce disappearance and 50/50 transitions (1027.4038ms)
+✔ Eh sweep references exactly reuse registered Pourbaix convention at pH 0 and 7 (4.8892ms)
+✔ water annotations fail independently of equilibrium and do not apply to a pH axis (0.4729ms)
+✔ water toggle preserves exact sweep, selected samples, numerical curves and outside-window equilibria (18.5844ms)
+✔ short metal label retains exact accepted formula-unit amount and units in output/export (0.3868ms)
+✔ beaker consumes branded accepted equilibrium points, never lookalike or archived objects (66.8948ms)
+✔ all pH control samples map exactly to the existing proton activity input (0.7957ms)
+✔ accepted aqueous-only points have no precipitate and retain unavailable saturation solubility (0.1788ms)
+✔ one-solid beaker state identifies calcite from the solver assemblage (0.1369ms)
+✔ multi-solid beaker states show all two- and three-phase inventories without layers (0.195ms)
+✔ display inventory preserves every exact solid amount and agrees with prior multi-solid evidence (1.0386ms)
+✔ dissolved totals and all weighted contributors reuse existing calculated output (1.0403ms)
+✔ synchronized marker uses exactly the beaker pH, input identity and original solubility samples (0.3454ms)
+✔ unsupported and uncalculated states remain explicit and never produce a visual equilibrium (100.0849ms)
+✔ stale revision and late invalidated runs cannot masquerade as the current beaker state (38.0394ms)
+✔ local generic Cr carrier smoke: accepted full grid, exact source identities, no guessed oxidation states (17.0401ms)
+✔ metadata-pending public maps remain blocked and reviewed Fe/Cu cannot use the fallback (297.8363ms)
+✔ failed or forged equilibria yield gaps, never carrier winners (0.3923ms)
+✔ cancellation retains uncalculated gaps without manufacturing equilibria (64.511ms)
+✔ four common outputs reuse one current accepted sweep and preserve scientific setup and selected state (5.9102ms)
+✔ fast solubility retains unsaturated gaps and aqueous fractions retain aqueous-only normalization (1.1814ms)
+✔ stale, missing and unverified snapshots never become reusable through navigation (2.2492ms)
+✔ surface and dependent-pH transitions preserve compatible conditions but explicitly require setup (0.7798ms)
+✔ missing fraction component and incompatible fraction axis go to setup without inventing a selection (0.3906ms)
+✔ pending modes and unavailable solubility remain unavailable (0.3608ms)
+✔ navigation uses only view updates for reuse and suppresses automatic solve for changed setup (1.0478ms)
+✔ switcher exposes direct choices, remaining modes, native button semantics and explicit availability (1.1217ms)
+✔ media preserves local artwork architecture, native dialog close and focus restoration with missing-image fallback (0.5994ms)
+✔ active solid phase label has correct zero, singular and plural forms (0.1358ms)
+✔ production registry covers every Fe carrier with explicit sourced integer allocations and pinned identity (0.9342ms)
+✔ display labels do not assign oxidation states, whereas changed reaction/source identities invalidate them (32.1225ms)
+✔ an unknown candidate is unsupported even when its equilibrium contribution would be numerically zero (9.7397ms)
+✔ duplicate source identity cannot form an accepted prepared chemistry (3.2973ms)
+✔ magnetite contributes one Fe(II) and two Fe(III), preserving dissolved plus solid closure (2.8009ms)
+✔ ferrate outside the water window remains classified and exact analytical fractions are not renormalized (7.3517ms)
+✔ unbranded, stale, failed and copied results cannot receive metadata-backed classification (2.0247ms)
+✔ phase suppression discloses a modified model and invalidates default support evidence (9.605ms)
+✔ water context requires static source identity and cannot accept edited constants or forged overlays (1.9313ms)
+✔ new validation evidence is pinned, complete, fraction-identical and restricted to the independently matched total (1.2737ms)
+✔ registered support preserves symmetric ties and distinguishes predominance from a majority (0.5196ms)
+✔ new production metadata entry points have no research, fixture or runtime network dependencies (10.5406ms)
+✔ aqueous legend explicitly reports dissolved denominator without changing raw fractions (0.4286ms)
+✔ uranium dual-basis grid accepts every reference point with unchanged inventory criteria (32979.1139ms)
+✔ generic Ca-only aqueous Beaker exactly matches direct point solves and never introduces other components (549.9755ms)
+✔ second ordinary aqueous chemistry is generic, with exact component weighting (55.3861ms)
+✔ generic single-solid and explicit multi-solid states reuse accepted inventories (259.0615ms)
+✔ unsupported requests and uncontrolled axes return scientific diagnostics, never substitute an example (39.4524ms)
+✔ fixed pH control uses the current basis and no fixture constraints (15.774ms)
+✔ compact total and axis edits preserve exact values, advanced options and unrelated controls (17.7311ms)
+✔ Calculate opens results only for a new returned snapshot; invalid requests retain setup (0.1879ms)
+✔ Edit setup survives background updates; explicit return/recalculate retain the existing graph (0.178ms)
+✔ results condition summary uses the actual snapshot, not edited inputs, and preserves exact values (3.8922ms)
+✔ grid retains x-fast Cartesian order, descending axes, identities and exact unchanged point solves (5.2263ms)
+✔ pH × pe/Eh grids reuse the existing signs and temperature conversion (6.8959ms)
+✔ grid output equals 1D output at matching accepted coordinates with unchanged units and formulas (6.544ms)
+✔ failed grid coordinates retain typed diagnostics and null derived values (3.4483ms)
+✔ grid cancellation and superseded generation retain all unrun coordinates (15.1243ms)
+✔ grid rejects malformed dimensions, excessive allocation, unsupported physical models and forged definitions (2.0095ms)
+✔ grid session commits reject stale and forged identities and retain the older snapshot on edits (5.6948ms)
+✔ grid view, exact inspection and export preserve units, gaps and identities without chemistry imports (11.0658ms)
+✔ imposed Fe control: 17 independent accepted equilibria exactly match fixed-Eh solves (94.9182ms)
+✔ total partition closes and dissolved speciation uses the unchanged normalization at every Eh (9.9856ms)
+✔ accepted saturation keeps 13 defined solubilities and four genuine gaps; mixed overlay stays pH-only (1.013ms)
+✔ sample endpoints, hover and keyboard index navigation share exact Beaker equilibrium identities (0.8689ms)
+✔ all four compatible view switches reuse the same branded sweep without scientific revision changes (1.2129ms)
+✔ invalid ranges, samples and conditions fail the existing sweep rules (525.3619ms)
+✔ fixed pH, Eh range, phase scope, forged results and stale requests cannot reuse inspection (79.482ms)
+✔ electron tile selection is a special-condition route, not an element or conserved inventory (10.3716ms)
+✔ fixed imposed Eh configuration varies pH using the same fixed-electron preparation (73.6075ms)
+✔ both independent hydroxide curves satisfy analytical saturation and exact aqueous weighting (538.6854ms)
+✔ changing or removing one independent inventory cannot change the other curve (374.4416ms)
+✔ failed, unsupported, cancelled and stale comparison samples remain gaps with traceable reasons (101.182ms)
+✔ comparison commits and exact exports preserve identities, traces, raw precision and stale status (230.4269ms)
+✔ independent carbonate axes produce analytical bicarbonate Z at all 45 points (0.3272ms)
+✔ both independent 1D slice directions and all four traversal orders preserve exact states and Z (0.2221ms)
+✔ mixed grid preserves Ca/Mg totals and matches independent calcite/brucite mass action (0.8674ms)
+✔ new repository examples use ordinary grid preparation; multi-solid remains explicit and grid-only (13484.1415ms)
+✔ exact inspection and numerical export preserve independent inputs, response and full equilibrium provenance (532.0186ms)
+✔ cancelled and stale grids never create interpolated scientific values (23.5343ms)
+✔ failed or unavailable surface corners remove whole quads and keep exact surviving vertices (1.4981ms)
+✔ mixed phase-change intervals remain open and contours cannot bridge those unresolved intervals (0.4139ms)
+✔ initialization retry: all 29 historical Mn failures recover through ordinary acceptance gates (111.6845ms)
+✔ initialization retry: all 166 previously accepted sampled numerical states are unchanged (1018.1515ms)
+✔ initialization retry: coexistence, invalid total and zero iteration budget still fail explicitly (4.8773ms)
+✔ initialization retry: applies to generic mathematical monomer chemistry without Mn or redox identity (1.8345ms)
+✔ initialization retry: exact export retains original failure and starting activities (2.6731ms)
+✔ rapid live edits debounce to the last immutable snapshot and abort superseded work (86.0237ms)
+✔ ordinary concentrations keep the existing numerical path and exact split (1.397ms)
+✔ subnormal mass action is checked from retained logs, not a quantized logarithmic round trip (1.498ms)
+✔ positive traces below exponentiation range retain distinct logs and reconstructable mass action (1.6367ms)
+✔ fixed positive activity remains distinct from exact zero and unrepresentable overflow remains rejected (1.6094ms)
+✔ trace aqueous species coexist with a dominant solid without changing saturation or amount (0.9712ms)
+✔ competing solids retain phase selection with multiple positive log traces (1.0449ms)
+✔ weighted trace contributions and normalized derivatives factor before materializing (0.1629ms)
+✔ an unrepresentable dissolved inventory retains a finite saturated log-solubility (2.049ms)
+✔ extreme hydrolysis preserves protonation, water activity and analytical inventory (3.166ms)
+✔ Ni–ammonia grid agrees with independent two-balance bisection, with all compatible solids unsaturated (1.1299ms)
+✔ Ni–ammonia has a moving interior ridge and substantial mixed response, not a separable surface (0.2289ms)
+✔ three rows, three columns and changed traversal preserve accepted chemistry exactly (0.1055ms)
+✔ selectable Ni example reproduces the audited grid and exact exported samples through existing preparation (3921.4904ms)
+✔ full mixed Ca-carbonate-Mg candidate set remains typed unsupported; low-pH diagnostic states satisfy all solid inequalities (0.4711ms)
+✔ no zero/one-solid assemblage is feasible at alkaline sampled mixed-system points despite numerical convergence (0.2747ms)
+✔ independent calcite-brucite closed form establishes coexistence but rejects its own pH14 assemblage (0.2787ms)
+✔ mixed example explicitly opts into one shared pH sweep and preserves the legacy gate (6.8408ms)
+✔ plotted mixed Ca and Mg points agree with prior evidence across all sampled phase regions (1.3131ms)
+✔ mixed traces, exact export, focus and discrete markers use the existing plot machinery (307.2576ms)
+✔ cancelled mixed samples remain null and do not create phase markers across missing states (1.4346ms)
+✔ Mn audit: all 83 records accounted for, 19 atom/charge-checked candidates, explicit exclusions (0.5602ms)
+✔ Mn audit: explicit MnIII substitution preserves original source mass action at independent coordinates (0.6414ms)
+✔ Mn audit: expanded aqueous monomer/dimer inventory matches independent quadratic, weights two Mn per dimer (3.5765ms)
+✔ Mn audit: accepted grid points independently satisfy source equations, quadratic/caps, inventory and phase selection (23.9745ms)
+✔ Mn audit: candidate order invariant for each sampled assemblage, coexistence fails explicitly (34.067ms)
+✔ Mn audit: classification retains mixtures, exact ties, stale, unsupported and failed samples (150.1041ms)
+✔ Mn audit: exact numerical export contains all controls, conversion provenance and failure traces (98.8575ms)
+✔ Mn boundaries: 80 exact-neighbor brackets, canonical candidate independence, original evidence intact (132.0781ms)
+✔ Mn boundaries: deterministic unchanged solver refinement reaches physical coordinate bounds (264.1718ms)
+✔ Mn boundaries: Nernst equal-cap coordinates and proton slope agree independently (5.4704ms)
+✔ Mn boundaries: accepted solid/aqueous and solid/solid states preserve balances and saturation (3.2277ms)
+✔ Mn boundaries: intervening phases remain explicit; no junction or degenerate state invented (6.1683ms)
+✔ Mn regions: every enclosure corner independently matches the source mass-action oracle (385.9612ms)
+✔ Mn regions: all 195 samples compatible or explicitly unresolved, never contradictory (45.3963ms)
+✔ Mn regions: JSON retains exact states, uncertainty and inspection provenance; SVG separates water (26.4994ms)
+✔ Mn classification: pinned provenance and exact candidate set; corrupted evidence is rejected (25.7782ms)
+✔ Mn classification: deterministic, nonmutating, invariant to candidate and metadata order (78.1927ms)
+✔ Mn classification: oxidation derivations and dimers use atom/charge stoichiometry (1.4946ms)
+✔ Mn classification: independent source oracle checks every region and both sides of sampled changes (3.6476ms)
+✔ Mn classification: explicit comparison intervals identify unresolved ties without arbitrary cleanup (0.3143ms)
+✔ Mn classification: active, multiple, negligible and unavailable categories stay separate (0.9943ms)
+✔ Mn water references: original source equations, SHE slope, gas exclusion and temperature gate (0.4743ms)
+✔ Mn diagnostic: pH/Eh controls, exact JSON, SVG conditions and stale exports (170.7135ms)
+✔ Mn topology: 71 same-state/equality candidates, stable under crossing order changes (1.1212ms)
+✔ Mn topology: 25 certificates require consistent accepted side states and physical brackets (0.6844ms)
+✔ Mn topology: deterministic adaptive tracing uses unchanged solver (586.8677ms)
+✔ Mn topology: continuous solid-cap certificate agrees with independent source reactions (17.3706ms)
+✔ Mn topology: an A to C shortcut cannot collapse the intervening Mn2O3 phase (1.3641ms)
+✔ Mn topology: junction candidates retain eight uncertain cells and disprove four false triple points (4.083ms)
+✔ Mn topology: genuine pure-solid degeneracy remains typed ambiguous, never fabricated amounts (4.0098ms)
+✔ Mn topology: all 195 original points retain compatible interiors or explicit uncertainty (38.978ms)
+✔ Mn topology: pinned compressed numerical export preserves exact audit bytes and provenance (7860.0887ms)
+✔ Mn topology: SVG renders only certified connections, inspectable junctions and separate water references (70.4492ms)
+✔ C: independent two-solid mathematical solution and candidate permutation (3.3411ms)
+✔ D: complete candidate set recovers audited pH12 closed form (183.2434ms)
+✔ E: pH14 full candidate selection independently satisfies three-solid mass action and inventories (115.1334ms)
+✔ degenerate equal-stability phases reject arbitrary inventories; unequal polymorphs select stable phase (2.9312ms)
+✔ bounds fail closed without a truncated search; non-redox policy and fixed saturated reservoirs (2.767ms)
+✔ F: full pH sweep preserves independently reconstructed balances and complementarity without gaps (3802.2448ms)
+✔ phase-boundary neighborhoods retain nonnegative inventories and explicit failures (3.7361ms)
+✔ derived log concentration and log activity preserve source units and raw values (3.3788ms)
+✔ nonnegative component fractions sum to one including solids; dissolved output excludes solid inventory (3.1801ms)
+✔ pH and pe/Eh derived values follow independently checked signs and units (5.727ms)
+✔ unsupported requests and untrusted or stale result objects cannot create scientific series (2.6298ms)
+✔ failed and not-run samples stay gaps; geometry never joins separated runs (4.0011ms)
+✔ exact pinned lookup, numeric axis geometry, pan and zoom do not interpolate chemistry (2.4949ms)
+✔ plot visibility leaves revision and chemistry untouched; scientific edits retain clearly old plot identity (3.9494ms)
+✔ figure and numerical exports retain actual conditions, identities, visibility, units and gap reasons (2.9297ms)
+✔ renderer geometry and SVG modules do not import preparation or numerical solvers (1.3574ms)
+✔ calculated Fe evidence has exact grid coverage, inventory closure and unaltered accepted samples (6.4636ms)
+✔ offline figure cells and large labels correspond to actual classified grid points (44.003ms)
+✔ independent rerun of one exact point in every displayed state reproduces the saved classification (145.7089ms)
+✔ oxidation largest fraction is predominant without a majority; deterministic and no alphabetical tie-break (0.8429ms)
+✔ oxidation explicit tie tolerance is in analytical fractions; exact and near ties remain unassigned (0.6005ms)
+✔ oxidation includes weighted solids and aqueous inventory; secondary carrier uses component amount (0.3155ms)
+✔ oxidation metadata requires absolute reference, electron localization and full carrier coverage (0.9655ms)
+✔ mixed-valence magnetite allocates one II and two III, never an average state (1.4459ms)
+✔ solid-dominated FeIII remains state III, with exact hematite amount retained as secondary carrier (6.2333ms)
+✔ absent solid candidates contribute zero; accepted free and aqueous carriers all close (6.8897ms)
+✔ failed, not-run, ambiguous, stale and forged outcomes never classify (2.9494ms)
+✔ independent stripped Fe Nernst control verifies fractions and transition; classifier never uses the line (99.5121ms)
+✔ generic Cu and Mn cross-checks include metallic, monovalent and multivalent inventories (8.129ms)
+✔ generic production classifier contains no metal-specific assignment table or solver call (0.5547ms)
+✔ bundled Mg hydroxide pH solubility agrees with independent analytical saturation and weighted aqueous sum (549.2932ms)
+✔ pH solubility example preserves unsaturated and failed sample gaps (63.6882ms)
+✔ example rejects missing source records instead of supplying constants or substitute phases (0.588ms)
+✔ total dissolved is the actual weighted aqueous sum, not a free species or copied input total (4.2858ms)
+✔ total dissolved excludes pure solid inventory and solid amount is independently selected (3.0074ms)
+✔ log dissolved extrema retain underlying linear amounts; zero logs remain unavailable (6.1806ms)
+✔ ordinary dissolved output rejects signed bookkeeping component inventories (2.2931ms)
+✔ sampled extrema ignore even finite failed/unrun values and expose no-valid state (0.4387ms)
+✔ disconnected valid regions use requested adjacency, never a diagonal bridge (0.3392ms)
+✔ thresholds retain exact bracketing samples and equality, with no interpolation across gaps (0.266ms)
+✔ exact horizontal/vertical slices preserve grid indices, values and failed gaps (2.9893ms)
+✔ failure summaries use actual diagnostic codes and exclude failed extrema (2.0921ms)
+✔ ScientificResultSummary is deterministic, rejects forged inputs and exposes stale facts (3.1038ms)
+✔ cancelled grids retain unrun counts, distinct masks, and unavailable extrema in exports (3.5085ms)
+✔ map extrema toggles preserve scientific revision and the accepted result (3.9155ms)
+✔ all-failed current 1D sweeps replace old snapshots with inspectable unavailable analysis (1.9129ms)
+✔ calculated-domain overlay uses only differing adjacent sampled availability (3.4564ms)
+✔ carbonate total descriptor is shared by scalar map, surface, summary and exported exact cells (1058.6395ms)
+✔ safe complexation dissolved sum uses actual coefficients and excludes free/supplied substitutions (3.3885ms)
+✔ dissolved logs never floor zero, log negative sums or turn unavailable values into numbers (0.1593ms)
+✔ shared selector catalog and stable descriptors distinguish free, individual and component inventories (3.6128ms)
+✔ normalization preserves uncertainty and raw/attempt evidence rather than inventing causes (0.4605ms)
+✔ calculated unavailable, failed and cancelled are independent statuses even with misleading finite F (0.1718ms)
+✔ preflight rejects missing/excluded/incompatible F before a grid while retaining signed component algebra (1.0986ms)
+✔ real partial complexation grid keeps failures, exact coverage, extrema, slices and surface holes (16.2978ms)
+✔ cancelled grid preserves exact unrun coordinates and no accepted output or surface (1.8399ms)
+✔ supplied total remains the requested constraint instead of recomputed dissolved amount (9.8783ms)
+✔ surface conversion retains exact sampled X/Y/Z, identities, linear amount and triangle topology (3.0238ms)
+✔ any unavailable corner removes the whole quad, even if the other three corners are valid (0.4462ms)
+✔ disconnected valid regions never receive triangles or wire edges across a missing column (0.4522ms)
+✔ manual Z range and aspect normalize/clamp no scientific values, invalid ranges recover to auto (3.6323ms)
+✔ surface extrema are the Phase 10 sampled coordinates, never recomputed from geometry (2.7228ms)
+✔ linear/log output changes preserve original grid and zero/non-log values remain gaps (3.7715ms)
+✔ slice guides align exactly with existing row/column and never select an arbitrary coordinate (3.0151ms)
+✔ visualization/camera/color/aspect changes retain calculation, revision and pin in session (3.3494ms)
+✔ cancelled grid has holes and its complete statuses survive numerical export with camera state (1.6916ms)
+✔ stale surfaces preserve original conditions and expose different current revision (2.78ms)
+✔ malformed grid topology is rejected and renderer fallback leaves scientific alternatives explicit (0.8421ms)
+✔ renderer capability failure is caught without modifying or discarding the grid (4.4789ms)
+✔ default provider loads once, reports loading/validation and shares the validated repository across subscribers (122.0577ms)
+✔ production default provider never requests a local source; transport and malformed-source failures are explicit (63.9124ms)
+✔ development middleware serves only the configured local file to loopback, without caching or arbitrary path access (4.9689ms)
+✔ production artifact audit rejects local paths, dataset copies, source fingerprints and embedded oversized payloads (6.1872ms)
+✔ available and unavailable element clicks both expose custom entry; discovery never infers a component (2.4948ms)
+✔ custom component validation accepts explicit ordinary associations but rejects unsupported roles, malformed metadata and ambiguity (1.8568ms)
+✔ custom component and equilibrium coexist with source data, preserving provenance without invented logK or implicit selection (3.5592ms)
+✔ custom-only versioned interchange preserves raw values, rejects result injection, and rejects missing dependencies (1.942ms)
+✔ explicit custom basis reaches unchanged preparation and point solver with the retained official formation constant (20.026ms)
+✔ structural handoff reports the actual multiple-solid preparation diagnostic without substituting numeric constraints (3.0014ms)
+✔ custom edits and removals invalidate current results, preserve stale plots and reconcile removed component conditions (1.6706ms)
+✔ New system retains the repository and custom collection while Reset calculation retains selected chemistry and clears results (1.6436ms)
+✔ parameter bars map positive totals logarithmically and keep exact numeric entry outside convenience ranges (0.3021ms)
+✔ direct curve labels avoid collisions, retain exact anchors and use legend fallback for crowded series (0.3426ms)
+✔ automatic membership requires every explicit nonzero component and ignores discovery elements (2.396ms)
+✔ exclusion changes science and retains stale plots; visibility leaves membership and revision untouched; restoration is explicit (1.7752ms)
+✔ repository generation invalidates immutable caches and re-derives membership on source edit/removal (2.5797ms)
+✔ solids require deliberate inclusion and multiple choices retain the existing typed preparation rejection (3.9757ms)
+✔ automatic and legacy explicit custom membership produce identical prepared science and point results (4.5181ms)
+✔ automatic policy survives new/reset and deliberate exclusions survive temporary component removal (2.5204ms)
+✔ imported and user-defined formation records use identical component compatibility, independent of product names (2.2613ms)
+✔ unavailable thermodynamic values and disabled aqueous phase never create automatic equilibrium products (1.7569ms)
+✔ integer log grid preserves -3 as a minor landmark and varies label density with pixel height (0.478ms)
+✔ crowded direct labels fall back before offsets become ambiguous (0.2442ms)
+✔ real local carbonate: auto acid/base membership equals explicit four-product pH sweep at all 51 points (3337.4191ms)
+✔ real automatic carbonate F(pH,log total): manual point inputs and both 1D slices match exactly (1315.0309ms)
+✔ swapping X/Y transposes the lattice and preserves scientific meaning and exported orientation (8.7812ms)
+✔ output unavailable, solver failure, cancellation, stale and not-run retain distinct states (7.4952ms)
+✔ failure lattice exports every coordinate and hatched cells cannot become zeros (4.5659ms)
+✔ contours interpolate valid triangles only and mask every quad touching a missing corner (0.7081ms)
+✔ sequential scalar colors are channel-monotone, ranges clamp view only and invalid ranges are explicit (0.6745ms)
+✔ explicit unavailable output identity is not silently substituted and SVG preserves view/color/contour metadata (3.9644ms)
+✔ user stop preserves partial grid results while invalidation prevents old generation commits (12.5476ms)
+✔ grid definition rejects duplicate component coordinates and retains independent pH/pe/Eh direct inputs (7.1336ms)
+✔ molar mass derives from explicit atom counts and sourced atomic weights, never display-string guesses (0.7421ms)
+✔ g/L conversion requires explicit solvent basis, rejects dilute assumptions and preserves full provenance (0.8547ms)
+✔ mass-input provenance is checked at the scientific boundary; g/L axes and stale converted values fail (1.2355ms)
+✔ defined g/L fixed total reaches the shared sweep path unchanged and preserves export provenance (1321.1401ms)
+✔ cancelled current grids remain inspectable/exportable even when an older map exists (4.0233ms)
+✔ shared plot hover previews exact samples; click pins; leaving restores pinned selection (1.6268ms)
+✔ drag, wheel and keyboard retain existing view navigation without changing pinned sample (1.3221ms)
+✔ retained sweep output-switch regression: rejected derivation has no series; analysis selection remains unavailable (4.0175ms)
+✔ focus and clear preserve membership, input, revision and all scientific point data (3.8921ms)
+✔ expanded layout keeps mounted children, Escape/exit cleanup and actual responsive resize paths (1.4061ms)
+✔ analytical dilution and representable trace amounts over 297 orders of magnitude (4.2935ms)
+✔ analytical single-solid onset below, at, and just above saturation (2.4058ms)
+✔ signed proton balances independently match the stable quadratic root (3.2123ms)
+✔ awkward initial estimate thirty decades from the analytical free concentration (1.3858ms)
+✔ incomplete boundaries reject, while extreme formation constants retain positive logs and exact inventory (12.8176ms)
+✔ repository preparation reaches a real point; only matching successful results enter the session (2.1515ms)
+✔ preparation rejects sweeps, unit confusion, nonideal conditions, absent basis terms and dependencies (2.1983ms)
+✔ prepared/input identities change with science but not workspace; stale/wrong identity results are rejected (3.0833ms)
+✔ official golden fixture remains unchanged from Phase 4 (2.7433ms)
+✔ independent solver quantitatively reproduces official acid-base (1.4057ms)
+✔ independent solver quantitatively reproduces official complexation (0.8682ms)
+✔ independent solver quantitatively reproduces official precipitation (1.4098ms)
+✔ independent solver quantitatively reproduces official redox (1.0252ms)
+✔ independent solver quantitatively reproduces official fixed-activity (1.1934ms)
+✔ structural regression: zero residual cannot accept an unconstrained electron activity (1.8667ms)
+✔ free components, mixed inputs and extremely small representable activity (0.5825ms)
+✔ analytically checkable formation, signed proton balance, and mixed constraints (1.5117ms)
+✔ solid absent, saturated, and inconsistent fixed-activity reservoirs (2.2661ms)
+✔ preparation diagnoses unsupported basis, missing constants, duplicate identities and units (1.1438ms)
+✔ failure diagnostics for nonconvergence, range errors, singularity and incompatible inputs (2.1573ms)
+✔ signed electron total remains an algebraic balance with zero electron concentration (0.895ms)
+✔ preparation rejects multiple solids, false special roles and impossible positive-variable boundaries (0.8657ms)
+✔ Pourbaix audit: signed imported Fe/Cu/Mn electron reactions conserve representative atoms and charge (1.1961ms)
+✔ Pourbaix audit: reciprocal redox constants and electron signs agree with formation direction (0.3832ms)
+✔ Pourbaix audit: 25 C Eh/pe magnitude, sign and round trip remain source-aligned (0.198ms)
+✔ Pourbaix audit: selecting both oxidation bases is rejected rather than merging analytical totals (554.319ms)
+✔ Pourbaix audit: direct FeII basis cannot discover ferric oxides by canonical substitution (20.873ms)
+✔ Pourbaix audit: ordinary preparation cannot activate cross-oxidation multi-solid policy (29.7298ms)
+✔ experimental inventory dominance follows analytical AgCl/free Ag ratio with an explicit tie (6.591ms)
+✔ experimental inventory classification counts actual solid amount, not solid activity (5.881ms)
+✔ classification keeps unavailable points unclassified (1.6577ms)
+✔ complete periodic layout contains 118 unique conventional positions including detached series (0.5453ms)
+✔ element availability comes only from nondeprecated source components, independent of selection and identities (0.4092ms)
+✔ log bounds expand outward and integer major ticks align the -3 decade without changing values (0.3064ms)
+✔ ticks remain bounded for broad ranges and readable for fractional zooms and degenerate views (0.2512ms)
+✔ free-component display uses the accepted free amount, never the analytical total (3.8532ms)
+✔ figure log grid lines use integer decades and display labels preserve canonical series and native units (0.5706ms)
+✔ database feedback reports real validated counts and stages, and rejects malformed/oversized files (162.3231ms)
+✔ artifact audit permits only the exact approved registry and rejects drift, duplicate or additional source payloads (25.7625ms)
+✔ exact Fe setup enables the integrated public diagram and accepts all 2565 unchanged classifications (1524.9996ms)
+✔ unsupported total, temperature, model, basis, carrier set, phase suppression and resolution reject (2.4348ms)
+✔ inspection and beaker use exactly the accepted input/result, including magnetite and ferrate (2.2048ms)
+✔ stale, forged, failed or unresolved records receive no public region or accepted beaker (1.0622ms)
+✔ map cells are exact sampled classifications, retain FeVI, label water references and support keyboard selection (30.1827ms)
+✔ public default resolves under the exact deployment base and loads once with original source identity (2107.3217ms)
+✔ public asset retains every scientific field; only absolute archive-location prefixes are removed (1159.2285ms)
+✔ explicit manual load is a replacement repository, while automatic failures never supply a fake database (318.7967ms)
+✔ asset exceptions require exact content hashes and cannot admit unrelated data or duplicate copies (383.0142ms)
+✔ expandable imagery stays in the header and remains visible at narrow widths; plots contain no artwork (3.1027ms)
+✔ general signed reaction substitution retains stored fractions, explicit water and source-unit provenance (0.8975ms)
+✔ scaling and reversal change both sides and logK, preserving the normalized expression (1.8889ms)
+✔ redundant and inverse paths are deterministic, while contradictory cycles fail closed (1.3199ms)
+✔ rank deficiency, disconnected components and duplicate IDs are typed failures (0.244ms)
+✔ contradictory alternate product rows fail in the generic engine itself (0.4768ms)
+✔ explicit product exclusions apply to every representation and never restore an excluded basis (0.4153ms)
+✔ bookkeeping rejects material errors and records separately justified source precision (1.6513ms)
+✔ general algebra contains no names, element branches or formula parsing (0.8048ms)
+✔ all four unchanged HYDRA audit reaction tables are reproduced exactly by the new engine (2226.6825ms)
+✔ normalized oxide source unit has an explicitly bounded four-decimal elemental residual (0.6691ms)
+✔ redox: electron intensive semantics, independent H/e, no electron balance (18.2895ms)
+✔ redox: SHE conversion magnitude, round trip and temperature dependence (0.2933ms)
+✔ redox: analytical aqueous equilibrium and quantitative proton-coupled slope (2.8368ms)
+✔ redox: existing sweep changes oxidation-state ordering according to mass action (7.28ms)
+✔ redox: pure-solid assemblage agrees with independent saturation bounds and candidate order (17.6074ms)
+✔ redox: unsupported conditions, missing controls and failed states remain explicit (1.8176ms)
+✔ redox: exact JSON trace preserves provenance, balances, coefficients and no classification claim (3.4105ms)
+✔ redox: immutable golden and bundled source artifacts (30.7471ms)
+✔ reference inputs retain exact raw source constants and coefficient order (2.29ms)
+✔ official Java captures successful finite outputs at both requested tolerances (0.6286ms)
+✔ reference outputs independently satisfy source mass action and specified component balances (0.6716ms)
+✔ full numerical matrices have explicit X/Y orientation and retain every exact Z (2.5562ms)
+✔ mixed sensitivity is predominantly carbonate-driven but has genuine nonzero pH response (0.3712ms)
+✔ carbonate demonstration has substantial two-axis sensitivity, beyond numerical noise (0.2018ms)
+✔ reciprocal low/middle/high traces retain actual fixed activities and analytical totals at solver entry (0.7479ms)
+✔ independent points, all reciprocal slices and five traversal orders reproduce equilibrium and Z (0.2301ms)
+✔ display presets never transform scientific Z and floor contours are the intended default (2.1166ms)
+✔ floor projection inverses the actual X/Y axes and snaps only to exact requested samples (1.7441ms)
+✔ surface and floor contours share the exact same Z and gap mask (1.14ms)
+✔ new display modes and inspection origins do not change full-precision numerical exports (593.0054ms)
+✔ 1D selected result is the exact Calculation input/result object, with exact dissolved totals (1.0981ms)
+✔ aqueous, calcite, two-solid and three-solid Beaker states come only from accepted amounts (1.3156ms)
+✔ hover, pin and leave use one selection; invalid/noninteger mesh coordinates cannot select chemistry (0.3412ms)
+✔ stale, unrun, failed, forged and wrong-chemistry states cannot become a Beaker equilibrium (121.6311ms)
+✔ 2D grid and 3D exact sampled vertex resolve to the same stored equilibrium, without new solves (1777.7213ms)
+✔ single point stores its original prepared context and immediately supplies the Beaker (38.227ms)
+✔ production Beaker presentation has no solver, pH controller or example dependency; navigation is Calculation only (2.0066ms)
+✔ saturated AgCl solubility is independently reconstructed, not analytical total or free ion (2.0556ms)
+✔ solubility keeps unsaturated and cancelled grid samples unavailable with no linear fallback (6.0572ms)
+✔ aqueous iron classification follows actual FeIII/FeII equation on pH-pe and pH-Eh samples (12.7057ms)
+✔ zero inventory and failed points never become solubility values; 1D trace agrees at accepted saturation (5.2314ms)
+✔ aqueous classification retains failed sampled coordinates without filling across them (5.2073ms)
+✔ compact-editor definition edits retain fixed/varied semantics and invalidate previous results (1.5183ms)
+✔ solubility inspection explains unsaturation and identifies log-total coordinates (0.4572ms)
+✔ semantic pH, Eh, temperature and amount formatting leaves source precision intact (0.2227ms)
+✔ concentration automatic bounds use useful padded data range without forcing -20 (0.206ms)
+✔ visual floor preserves exact sub-floor samples, unavailable gaps and inspection values (0.1976ms)
+✔ semantic floor excludes activity, pH, Eh, saturation, fractions and arbitrary response values (0.2107ms)
+✔ 2D colors and 3D vertical display ranges honor concentration semantics with manual overrides (0.2866ms)
+✔ solution summary uses dissolved inventory, not analytical total or solid amount (0.5867ms)
+✔ solution summary rejects signed, empty, nonfinite and inconsistent denominators (0.2558ms)
+✔ solution summary is deterministic across contributor order and handles multiple components independently (0.2154ms)
+✔ TV/LTV/LAV endpoint inclusion, transformations and independent point equivalence (235.9091ms)
+✔ pH, pe and Eh retain increasing display coordinates and decreasing solver activities (6.5345ms)
+✔ failed coordinates remain between their neighbors with typed diagnostics (4.4283ms)
+✔ definition rejects unsupported domain, multiple axes, malformed sampling and identity forgery (2.4845ms)
+✔ cancellation and stale runs preserve N requested points distinctly (33.8212ms)
+✔ application integration: sweep commits require exact revision, system, definition and branded result (4.7382ms)
+✔ total fractions close across aqueous plus accepted solids using each analytical component total (7.9538ms)
+✔ pH 0 Fe total 1: significant hematite, zero amorphous hydroxide, same exact dissolved solubility (0.7531ms)
+✔ dissolved-only speciation is unchanged and total-fraction legend reports both denominators (2.0267ms)
+✔ amorphous hydroxide alone is unsaturated at pH 0: no false precipitate or solubility (474.4259ms)
+✔ accepted trace solid remains exact but is invisible; significant solid and saturated-zero behave distinctly (1.7722ms)
+✔ total partitions reject forged states and retain stale result gaps (0.4657ms)
+✔ molarity prefixes scale within their own family and round trip without a physical conversion (0.3207ms)
+✔ molality never falls back to one-to-one molarity; malformed and overflowing values fail (0.234ms)
+✔ user-defined record reaches the same preparation, point and sweep path as equivalent imported data (13.0076ms)
+✔ custom validation rejects malformed science, unknown components, references and collisions (2.6369ms)
+✔ source-only interchange preserves raw values and provenance and rejects calculated results (1.9597ms)
+✔ custom preparation rejects unselected basis and tampered normalized values (2.1715ms)
+✔ source edits invalidate previous results and increment scientific revision (0.8292ms)
+✔ user solvent terms preserve signs and use explicit water composition for discovery, not XX (1.0071ms)
+✔ Fe discovered full grid exactly preserves independently accepted fractions and topology (1541.8215ms)
+✔ Cu discovered full grid exactly preserves independently accepted fractions and topology (1407.2868ms)
+✔ element-only System selection discovers its family without manually selecting redox forms (131.0416ms)
+✔ source family closure is independent of starting form and explicit registry identity covers every included carrier (353.9439ms)
+✔ missing, ambiguous and changed metadata fail closed with no test-only fallback (87.1664ms)
+✔ user total and ranges change the actual grid and cannot inherit reference validation (148.2104ms)
+✔ phase suppression is disclosed and cannot retain the default reference claim (160.2223ms)
+✔ invalid totals, ranges, oversized grids, nonideal conditions and extra analytical components fail explicitly (11.0199ms)
+✔ uranium discovery resolves fractional reaction algebra but keeps unresolved allocations unavailable (53.5879ms)
+✔ stale, cancelled or forged results cannot enter the shared plot and beaker (700.3896ms)
+✔ generic map and numerical export retain actual element, source scope, total denominator and status (48.4311ms)
+✔ generic discovery contains no element-specific branches or oxidation-state name parsing (72.3257ms)
+✔ experience readiness distinguishes constructible metadata-pending chemistry from unsupported and checked results (64.6076ms)
+✔ carrier details preserve within-state chemistry and count mixed-valence atoms once per carrier (41.8046ms)
+✔ keyboard inspection reuses the same accepted input and result for plot and beaker (0.3901ms)
+✔ ordinary UI element toggle removes forms, incompatible phases and downstream component selections (492.8531ms)
+✔ required solvent elements cannot be removed and have explicit explanations (36.1939ms)
+✔ tabs change only view state and explicit example load synchronizes authoritative chemistry (32.1456ms)
+✔ unsupported current Ca/carbonate chemistry never substitutes a beaker example (96.0814ms)
+✔ New and Reset isolate prior examples without resurrecting metals or ligands (100.5734ms)
+✔ explicit shared beaker session preserves every one of the 29 accepted exact pH states (4652.4829ms)
+✔ Ca/carbonate recalculation and exact numerical export contain no removed Mg component or species (253.0263ms)
+✔ Mn development control is dev-gated inside collapsed diagnostics, outside ordinary header (0.6485ms)
+✔ new workspace and New system default to log concentrations, pH 0–14 and ideal 25 C / 1 bar (12.7463ms)
+✔ new ordinary component rows get one mol/kg water while existing explicit totals survive additions and views (25.9704ms)
+✔ historical saved conditions and explicit examples are never overwritten by new defaults (118.6524ms)
+✔ diagram identities distinguish all requested families without changing series colors (1.6085ms)
+✔ component forms retain distinct authoritative Fe identities, checkbox keyboard semantics and larger targets (52.1275ms)
+✔ live legend uses hover then pinned exact samples and retains raw precision and phase identity (1.9427ms)
+✔ legend reports unavailable for stale, missing and failed samples (2.2546ms)
+✔ legend focus wiring and detailed inspection remain; pan buttons removed from both ordinary renderers (1.0868ms)
+✔ direct navigation pans both axes and zooms at an anchor without mutating the scientific view (0.2123ms)
+✔ Ni no-solid and 1:1 solid partitions use the supplied total and exact accepted amounts (0.3053ms)
+✔ Fe2O3 partitions two Fe units per accepted solid formula unit (0.208ms)
+✔ multiple Ca solids allocate the same component total; neutral aqueous carbonate remains dissolved (0.3148ms)
+✔ mixed Ca/Mg partitions close at every accepted control sample under the original result tolerance (69.1135ms)
+✔ absent candidates and explicit exclusions contribute no solid allocation (75.5771ms)
+✔ stale and forged states never acquire a component percentage (1.4086ms)
+✔ activity-controlled and unresolved tiny analytical totals report partition unavailable (1.1606ms)
+✔ percentage display preserves small nonzero dissolved shares without rounding them to zero (0.1556ms)
+ℹ tests 584
+ℹ suites 0
+ℹ pass 583
+ℹ fail 1
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 415485.4677
+
+✖ failing tests:
+
+test at tests\closedReagentUI.test.js:45:1
+✖ Supplied axis and residual species labels remain distinct in output/export (284.6049ms)
+  AssertionError [ERR_ASSERTION]: Expected values to be strictly deep-equal:
+  + actual - expected
+  ... Skipped lines
+  
+    {
+      Eh: 0.7517778984871895,
+      acceptedSolids: [],
+      carriers: [
+        {
+  ...
+            coefficients: {
+  +           'component:Cl-': 0,
+  -           'component:Cl-': -0,
+              'component:Fe%202%2B': -3,
+              'component:Fe%203%2B': 4,
+              'component:H%2B': -8,
+              'component:H2O': 4,
+  +           'component:H2O2': 0,
+  +           'component:e-': 0,
+  +           'spana:2ac52a30213c9288:130813': 0,
+  +           'spana:2ac52a30213c9288:131002': 0,
+  +           'spana:2ac52a30213c9288:131099': 0,
+  +           'spana:2ac52a30213c9288:131406': 0,
+  +           'spana:2ac52a30213c9288:131496': 0,
+  +           'spana:2ac52a30213c9288:131586': 0,
+  +           'spana:2ac52a30213c9288:133463': 0,
+  +           'spana:2ac52a30213c9288:135482': 0,
+  +           'spana:2ac52a30213c9288:135557': 0,
+  +           'spana:2ac52a30213c9288:135630': 0,
+  +           'spana:2ac52a30213c9288:135711': 0,
+  +           'spana:2ac52a30213c9288:135791': 0,
+  -           'component:H2O2': -0,
+  -           'component:e-': -0,
+  -           'spana:2ac52a30213c9288:130813': -0,
+  -           'spana:2ac52a30213c9288:131002': -0,
+  -           'spana:2ac52a30213c9288:131099': -0,
+  -           'spana:2ac52a30213c9288:131406': -0,
+  -           'spana:2ac52a30213c9288:131496': -0,
+  -           'spana:2ac52a30213c9288:131586': -0,
+  -           'spana:2ac52a30213c9288:133463': -0,
+  -           'spana:2ac52a30213c9288:135482': -0,
+  -           'spana:2ac52a30213c9288:135557': -0,
+  -           'spana:2ac52a30213c9288:135630': -0,
+  -           'spana:2ac52a30213c9288:135711': -0,
+  -           'spana:2ac52a30213c9288:135791': -0,
+              'spana:2ac52a30213c9288:138672': -1,
+  +           'spana:2ac52a30213c9288:138873': 0,
+  +           'spana:2ac52a30213c9288:138969': 0,
+  +           'spana:2ac52a30213c9288:151381': 0,
+  +           'spana:2ac52a30213c9288:159033': 0,
+  +           'spana:2ac52a30213c9288:175307': 0,
+  +           'spana:2ac52a30213c9288:249989': 0,
+  +           'spana:2ac52a30213c9288:250161': 0,
+  +           'spana:2ac52a30213c9288:250448': 0
+  -           'spana:2ac52a30213c9288:138873': -0,
+  -           'spana:2ac52a30213c9288:138969': -0,
+  -           'spana:2ac52a30213c9288:151381': -0,
+  -           'spana:2ac52a30213c9288:159033': -0,
+  -           'spana:2ac52a30213c9288:175307': -0,
+  -           'spana:2ac52a30213c9288:249989': -0,
+  -           'spana:2ac52a30213c9288:250161': -0,
+  -           'spana:2ac52a30213c9288:250448': -0
+            },
+            electrons: 3,
+            extent: -4.658681209898652e-19,
+            extentUnit: 'mol/kg-H2O',
+            halfReactionDirections: [
+  ...
+            coefficients: {
+  +           'component:Cl-': 0,
+  -           'component:Cl-': -0,
+              'component:Fe%202%2B': -2,
+              'component:Fe%203%2B': 2,
+              'component:H%2B': -2,
+              'component:H2O': 2,
+              'component:H2O2': -1,
+  +           'component:e-': 0,
+  +           'spana:2ac52a30213c9288:130813': 0,
+  +           'spana:2ac52a30213c9288:131002': 0,
+  +           'spana:2ac52a30213c9288:131099': 0,
+  +           'spana:2ac52a30213c9288:131406': 0,
+  +           'spana:2ac52a30213c9288:131496': 0,
+  +           'spana:2ac52a30213c9288:131586': 0,
+  +           'spana:2ac52a30213c9288:133463': 0,
+  +           'spana:2ac52a30213c9288:135482': 0,
+  +           'spana:2ac52a30213c9288:135557': 0,
+  +           'spana:2ac52a30213c9288:135630': 0,
+  +           'spana:2ac52a30213c9288:135711': 0,
+  +           'spana:2ac52a30213c9288:135791': 0,
+  +           'spana:2ac52a30213c9288:138672': 0,
+  +           'spana:2ac52a30213c9288:138873': 0,
+  +           'spana:2ac52a30213c9288:138969': 0,
+  +           'spana:2ac52a30213c9288:151381': 0,
+  +           'spana:2ac52a30213c9288:159033': 0,
+  +           'spana:2ac52a30213c9288:175307': 0,
+  +           'spana:2ac52a30213c9288:249989': 0,
+  +           'spana:2ac52a30213c9288:250161': 0,
+  +           'spana:2ac52a30213c9288:250448': 0
+  -           'component:e-': -0,
+  -           'spana:2ac52a30213c9288:130813': -0,
+  -           'spana:2ac52a30213c9288:131002': -0,
+  -           'spana:2ac52a30213c9288:131099': -0,
+  -           'spana:2ac52a30213c9288:131406': -0,
+  -           'spana:2ac52a30213c9288:131496': -0,
+  -           'spana:2ac52a30213c9288:131586': -0,
+  -           'spana:2ac52a30213c9288:133463': -0,
+  -           'spana:2ac52a30213c9288:135482': -0,
+  -           'spana:2ac52a30213c9288:135557': -0,
+  -           'spana:2ac52a30213c9288:135630': -0,
+  -           'spana:2ac52a30213c9288:135711': -0,
+  -           'spana:2ac52a30213c9288:135791': -0,
+  -           'spana:2ac52a30213c9288:138672': -0,
+  -           'spana:2ac52a30213c9288:138873': -0,
+  -           'spana:2ac52a30213c9288:138969': -0,
+  -           'spana:2ac52a30213c9288:151381': -0,
+  -           'spana:2ac52a30213c9288:159033': -0,
+  -           'spana:2ac52a30213c9288:175307': -0,
+  -           'spana:2ac52a30213c9288:249989': -0,
+  -           'spana:2ac52a30213c9288:250161': -0,
+  -           'spana:2ac52a30213c9288:250448': -0
+            },
+            electrons: 2,
+            extent: 2.499999999999993e-7,
+            extentUnit: 'mol/kg-H2O',
+            halfReactionDirections: [
+  ...
+            coefficients: {
+  +           'component:Cl-': 0,
+  -           'component:Cl-': -0,
+              'component:Fe%202%2B': -4,
+              'component:Fe%203%2B': 4,
+              'component:H%2B': -4,
+              'component:H2O': 2,
+  +           'component:H2O2': 0,
+  +           'component:e-': 0,
+  +           'spana:2ac52a30213c9288:130813': 0,
+  +           'spana:2ac52a30213c9288:131002': 0,
+  +           'spana:2ac52a30213c9288:131099': 0,
+  +           'spana:2ac52a30213c9288:131406': 0,
+  +           'spana:2ac52a30213c9288:131496': 0,
+  +           'spana:2ac52a30213c9288:131586': 0,
+  +           'spana:2ac52a30213c9288:133463': 0,
+  +           'spana:2ac52a30213c9288:135482': 0,
+  +           'spana:2ac52a30213c9288:135557': 0,
+  +           'spana:2ac52a30213c9288:135630': 0,
+  +           'spana:2ac52a30213c9288:135711': 0,
+  +           'spana:2ac52a30213c9288:135791': 0,
+  +           'spana:2ac52a30213c9288:138672': 0,
+  +           'spana:2ac52a30213c9288:138873': 0,
+  +           'spana:2ac52a30213c9288:138969': 0,
+  +           'spana:2ac52a30213c9288:151381': 0,
+  +           'spana:2ac52a30213c9288:159033': 0,
+  +           'spana:2ac52a30213c9288:175307': 0,
+  -           'component:H2O2': -0,
+  -           'component:e-': -0,
+  -           'spana:2ac52a30213c9288:130813': -0,
+  -           'spana:2ac52a30213c9288:131002': -0,
+  -           'spana:2ac52a30213c9288:131099': -0,
+  -           'spana:2ac52a30213c9288:131406': -0,
+  -           'spana:2ac52a30213c9288:131496': -0,
+  -           'spana:2ac52a30213c9288:131586': -0,
+  -           'spana:2ac52a30213c9288:133463': -0,
+  -           'spana:2ac52a30213c9288:135482': -0,
+  -           'spana:2ac52a30213c9288:135557': -0,
+  -           'spana:2ac52a30213c9288:135630': -0,
+  -           'spana:2ac52a30213c9288:135711': -0,
+  -           'spana:2ac52a30213c9288:135791': -0,
+  -           'spana:2ac52a30213c9288:138672': -0,
+  -           'spana:2ac52a30213c9288:138873': -0,
+  -           'spana:2ac52a30213c9288:138969': -0,
+  -           'spana:2ac52a30213c9288:151381': -0,
+  -           'spana:2ac52a30213c9288:159033': -0,
+  -           'spana:2ac52a30213c9288:175307': -0,
+              'spana:2ac52a30213c9288:249989': -1,
+  +           'spana:2ac52a30213c9288:250161': 0,
+  +           'spana:2ac52a30213c9288:250448': 0
+  -           'spana:2ac52a30213c9288:250161': -0,
+  -           'spana:2ac52a30213c9288:250448': -0
+            },
+            electrons: 4,
+            extent: 0,
+            extentUnit: 'mol/kg-H2O',
+            halfReactionDirections: [
+  ...
+            coefficients: {
+  +           'component:Cl-': 0,
+  -           'component:Cl-': -0,
+              'component:Fe%202%2B': -6,
+              'component:Fe%203%2B': 6,
+              'component:H%2B': -6,
+              'component:H2O': 3,
+  +           'component:H2O2': 0,
+  +           'component:e-': 0,
+  +           'spana:2ac52a30213c9288:130813': 0,
+  +           'spana:2ac52a30213c9288:131002': 0,
+  +           'spana:2ac52a30213c9288:131099': 0,
+  +           'spana:2ac52a30213c9288:131406': 0,
+  +           'spana:2ac52a30213c9288:131496': 0,
+  +           'spana:2ac52a30213c9288:131586': 0,
+  +           'spana:2ac52a30213c9288:133463': 0,
+  +           'spana:2ac52a30213c9288:135482': 0,
+  +           'spana:2ac52a30213c9288:135557': 0,
+  +           'spana:2ac52a30213c9288:135630': 0,
+  +           'spana:2ac52a30213c9288:135711': 0,
+  +           'spana:2ac52a30213c9288:135791': 0,
+  +           'spana:2ac52a30213c9288:138672': 0,
+  +           'spana:2ac52a30213c9288:138873': 0,
+  +           'spana:2ac52a30213c9288:138969': 0,
+  +           'spana:2ac52a30213c9288:151381': 0,
+  +           'spana:2ac52a30213c9288:159033': 0,
+  +           'spana:2ac52a30213c9288:175307': 0,
+  +           'spana:2ac52a30213c9288:249989': 0,
+  -           'component:H2O2': -0,
+  -           'component:e-': -0,
+  -           'spana:2ac52a30213c9288:130813': -0,
+  -           'spana:2ac52a30213c9288:131002': -0,
+  -           'spana:2ac52a30213c9288:131099': -0,
+  -           'spana:2ac52a30213c9288:131406': -0,
+  -           'spana:2ac52a30213c9288:131496': -0,
+  -           'spana:2ac52a30213c9288:131586': -0,
+  -           'spana:2ac52a30213c9288:133463': -0,
+  -           'spana:2ac52a30213c9288:135482': -0,
+  -           'spana:2ac52a30213c9288:135557': -0,
+  -           'spana:2ac52a30213c9288:135630': -0,
+  -           'spana:2ac52a30213c9288:135711': -0,
+  -           'spana:2ac52a30213c9288:135791': -0,
+  -           'spana:2ac52a30213c9288:138672': -0,
+  -           'spana:2ac52a30213c9288:138873': -0,
+  -           'spana:2ac52a30213c9288:138969': -0,
+  -           'spana:2ac52a30213c9288:151381': -0,
+  -           'spana:2ac52a30213c9288:159033': -0,
+  -           'spana:2ac52a30213c9288:175307': -0,
+  -           'spana:2ac52a30213c9288:249989': -0,
+              'spana:2ac52a30213c9288:250161': -1,
+  +           'spana:2ac52a30213c9288:250448': 0
+  -           'spana:2ac52a30213c9288:250448': -0
+            },
+            electrons: 6,
+            extent: 2.329340604949326e-19,
+            extentUnit: 'mol/kg-H2O',
+            halfReactionDirections: [
+  
+      at TestContext.<anonymous> (file:///C:/Users/adamb/PycharmProjects/PythonProject/adams-laboratory/tests/closedReagentUI.test.js:47:217)
+      at Test.runInAsyncScope (node:async_hooks:227:14)
+      at Test.run (node:internal/test_runner/test:1201:25)
+      at Test.processPendingSubtests (node:internal/test_runner/test:831:18)
+      at Test.postRun (node:internal/test_runner/test:1330:19)
+      at Test.run (node:internal/test_runner/test:1258:12)
+      at async Test.processPendingSubtests (node:internal/test_runner/test:831:7) {
+    generatedMessage: true,
+    code: 'ERR_ASSERTION',
+    actual: [Object],
+    expected: [Object],
+    operator: 'deepStrictEqual',
+    diff: 'simple'
+  }

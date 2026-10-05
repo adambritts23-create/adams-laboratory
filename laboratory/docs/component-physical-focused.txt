@@ -1,0 +1,33 @@
+✔ all pinned source components carry source charge; unknown atoms remain absent (475.792ms)
+✔ nitrate and copper admit balanced physical inventory then expose actual redox source refusal (14340.1277ms)
+✔ atomless lithium acetate closes component balances and mass action with the ordinary solver (5728.7625ms)
+✔ charge, negative amounts, special identities and stale source/revision still refuse (11127.4627ms)
+✔ unified physical route retains independent acetate/borate values and has no derived Eh (13699.0652ms)
+✔ positive physical source base projects to signed proton equivalents without negative reagents (3923.471ms)
+✔ unified physical redox preserves exact reviewed Fe peroxide source scope and reference (8629.6346ms)
+✔ non Fe Cr europium control uses the same physical contract and independent source reference (2699.5723ms)
+✔ all twelve independent Cr doses reproduce pH pe aqueous carriers solid inventory and closure (32040.8012ms)
+✔ unknown metadata physical negatives conflicting constraints forged and stale preparations refuse (9772.4691ms)
+✔ gas and required excluded solids remain refusals after automatic routing (2681.4347ms)
+✔ ordinary reviewed chromium recipe feeds Wet Lab and elemental plots using exact accepted objects (8409.0174ms)
+✔ ionic chromium inventory equals reviewed bottle and supports dispense and N rows (1.4216ms)
+✔ authoritative two-row balance works in either order; unbalanced/unknown/forged metadata refuse (0.3978ms)
+✔ mixed reviewed and ionic contributions retain a single physical preparation (0.1593ms)
+✔ Cu passes component admission then refuses unsupported redox conservation; exclusions respected (2636.6862ms)
+✔ non-chromium sodium chloride uses identical generic preparation and compiler route (7209.4671ms)
+✔ ionic Cr titration matches all saved independent doses and existing shared analytical views (34781.8376ms)
+✔ reviewed recipes activate intrinsic chemistry without manual System counterion selection (2787.7518ms)
+✔ source drift cannot create physical recipe availability (6.6419ms)
+✔ editable sample and burette inputs move accepted equivalence through inventories alone (14009.5143ms)
+✔ reverse orientation is the same validated physical/point path (2952.5932ms)
+✔ loaded volume controls capacity and sampling; insufficient titrant remains an honest partial experiment (2567.4997ms)
+✔ all editable numeric fields refuse invalid values and arbitrary recipes (1.6978ms)
+✔ sampling retains dense region at moved equivalence and never determines pH (0.358ms)
+ℹ tests 25
+ℹ suites 0
+ℹ pass 25
+ℹ fail 0
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 182210.3956

@@ -1,0 +1,18 @@
+✔ 18 independent acid/water/base controls agree without a production titration formula (2.0915ms)
+✔ volume and counterion moles are conserved before/at/after equivalence (0.1801ms)
+✔ curve, selected point and Beaker retain the same exact equilibrium object (0.1862ms)
+✔ each dose is independently reproducible, including reordered and duplicate totals (5.6846ms)
+✔ dispensing returns conserved aliquot and finite remainder without mutating the stock (0.4953ms)
+✔ mix two entire beakers uses the same physical and equilibrium preparation (0.7335ms)
+✔ invalid concentrations, volumes, conventions and arbitrary recipes are refused (0.3552ms)
+✔ forged preparations, mismatched selections and stale runs cannot provide a current result (1.3213ms)
+✔ changed thermodynamic provenance fails preparation instead of silently reusing benchmark evidence (0.8562ms)
+✔ fractional additions and changed analytical quantities are not snapped to nominal equivalence (2.7478ms)
+ℹ tests 10
+ℹ suites 0
+ℹ pass 10
+ℹ fail 0
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 359.0882

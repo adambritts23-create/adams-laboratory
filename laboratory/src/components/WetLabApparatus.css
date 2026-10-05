@@ -1,0 +1,17 @@
+.wet-3d{border:1px solid #446a73;border-radius:12px;background:#14242b;overflow:hidden;min-width:0}.wet-3d-toolbar{display:flex;gap:7px;align-items:center;flex-wrap:wrap;padding:10px 12px}.wet-3d-toolbar strong{margin-right:auto}.wet-3d-toolbar button{font-size:12px;padding:4px 9px}.wet-3d-toolbar label{font-size:12px;display:flex;align-items:center;gap:4px}.wet-3d-toolbar input{min-height:0}.wet-3d-canvas{height:420px;width:100%;touch-action:none}.wet-3d-canvas canvas{display:block;width:100%;height:100%}.wet-3d-canvas:focus-visible{outline:2px solid #81e6c1;outline-offset:-3px}.wet-3d-readout{display:flex;gap:12px;justify-content:space-between;flex-wrap:wrap;padding:10px 12px;background:#1a343c;font-size:12px}.wet-3d-readout strong{display:block;color:#a0f0d6;font-size:16px;font-variant-numeric:tabular-nums}.wet-3d-phase,.wet-3d-solids{margin:8px 12px;font-size:12px}.wet-3d>details{font-size:12px;padding:8px 12px;color:#aec8cd}.wet-volume-scrubber{display:flex;flex:1 1 100%;align-items:center;gap:12px;padding:10px;background:#1d363e;border:1px solid #41626e;border-radius:8px}.wet-volume-scrubber label{flex:1!important;display:grid!important;grid-template-columns:1fr!important}.wet-volume-scrubber input{width:100%!important;accent-color:#83dfc1}.wet-volume-scrubber output{min-width:80px;font-variant-numeric:tabular-nums;color:#9beed2}.wet-volume-scrubber small{font-size:11px;color:#b0cbd0}
+/* Keep stock editors beside the apparatus, with the live curve in the right column. */
+.wet-lab .wet-experiment-layout{grid-template-columns:minmax(620px,1.65fr) minmax(340px,1fr)}
+.wet-apparatus-editor{grid-template-columns:minmax(300px,1.2fr) minmax(250px,1fr)!important;grid-template-rows:min-content 1fr!important;align-items:start}
+.wet-apparatus-editor .wet-apparatus-drawing{grid-column:1!important;grid-row:1 / 3!important;position:sticky!important;top:76px;align-self:start;min-width:0}
+.wet-apparatus-editor .wet-titrant-editor{grid-column:2!important;grid-row:1!important}
+.wet-apparatus-editor .wet-sample-editor{grid-column:2!important;grid-row:2!important}
+@media(max-width:1000px){.wet-lab .wet-experiment-layout{grid-template-columns:1fr}.wet-3d-canvas{height:440px}}
+@media(max-width:600px){.wet-3d-canvas{height:340px}.wet-apparatus-editor{grid-template-columns:1fr!important}.wet-apparatus-editor .wet-apparatus-drawing{grid-row:1!important;position:static!important}.wet-apparatus-editor .wet-titrant-editor{grid-column:1!important;grid-row:2!important}.wet-apparatus-editor .wet-sample-editor{grid-column:1!important;grid-row:3!important}}
+
+/* The preparation banner must not cover the interactive apparatus while scrolling. */
+.wet-lab .wet-setup-header{position:static}
+
+
+.wet-3d-material-controls{display:flex;align-items:center;flex-wrap:wrap;gap:10px;padding:0 12px 8px;font-size:12px}.wet-3d-material-controls label{display:flex;align-items:center;gap:6px}.wet-3d-material-controls select{font-size:12px;min-height:30px;padding:3px 6px;width:auto}.wet-3d-material-controls small{color:#adc4cb}.wet-solid-swatch{display:inline-block;width:10px;height:10px;border-radius:50%;margin-right:7px;border:1px solid #ffffff55}.wet-3d-solids{list-style:none;padding-left:0}
+
+.wet-3d-toolbar select{font-size:12px;min-height:30px;width:auto;padding:4px 8px}.wet-3d-toolbar small{flex-basis:100%;color:#b3ced0}.wet-3d-toolbar button[aria-pressed="true"]{background:#387f72;color:white;border-color:#7ed7bb}

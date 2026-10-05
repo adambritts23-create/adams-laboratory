@@ -1,0 +1,6 @@
+Brushed Concrete roughness texture (1K)
+Source: https://polyhaven.com/a/brushed_concrete
+File: https://dl.polyhaven.org/file/ph-assets/Textures/jpg/1k/brushed_concrete/brushed_concrete_rough_1k.jpg
+Authors: Dimitrios Savva (photography), Dario Barresi (processing).
+License: CC0 1.0 https://polyhaven.com/license
+Used as worktop roughness and subtle bump, with a dark material colour.

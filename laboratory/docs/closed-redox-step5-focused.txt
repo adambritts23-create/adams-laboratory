@@ -1,0 +1,21 @@
+✔ Step 5 actual reagents automatically discover all 24 source reactions without selected electron (1.5712ms)
+✔ Step 5 independent raw-law expectation and equivalent controlled boundary conditions at dose 2.5e-7 (124.2028ms)
+✔ Step 5 independent raw-law expectation and equivalent controlled boundary conditions at dose 5e-7 (109.4964ms)
+✔ Step 5 independent raw-law expectation and equivalent controlled boundary conditions at dose 0.000001 (103.6331ms)
+✔ Step 5 generated net reaction retains electron cancellation, source coefficients and signed extent closure (2.0645ms)
+✔ Step 5 preparation history, supported bases and reversed source order preserve equilibrium (1130.9502ms)
+✔ Step 5 scope fails closed for imposed conditions, electron inventory, changed sources and unreviewed metadata (1233.2287ms)
+✔ Step 5 reviewed aqueous domain excludes supersaturated high-Fe candidate and out-of-range additions (1.2081ms)
+✔ Step 5 broad closed addition sweep preserves inventories, phase exclusions and derived outputs (2.221ms)
+✔ Step 5 source-derived equivalence region is sampled without imposing textbook completion (2188.9799ms)
+✔ Step 5 selected sample is exact accepted result, retains dimer weighting and rejects stale or forged selection (0.8894ms)
+✔ Step 5 failed additions remain gaps and cancelled/stale sweeps cannot provide inspection (659.7236ms)
+✔ Step 5 analytical axis validation retains existing invalid/reversed-range rules (582.73ms)
+ℹ tests 13
+ℹ suites 0
+ℹ pass 13
+ℹ fail 0
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 10000.2259

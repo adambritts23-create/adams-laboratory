@@ -1,0 +1,3167 @@
+{
+  "candidates": [
+    {
+      "schemaVersion": 1,
+      "id": "spana:2ac52a30213c9288:73858",
+      "name": "Ce 3+",
+      "displayName": "Ce 3+",
+      "formula": "Ce 3+",
+      "phase": "aqueous",
+      "role": "solute",
+      "charge": 3,
+      "elementalComposition": null,
+      "discoveryElements": [
+        "Ce"
+      ],
+      "oxidationStates": null,
+      "componentStoichiometry": {
+        "Ce 4+": 1,
+        "e-": 1
+      },
+      "formationReaction": null,
+      "logK": 29.08,
+      "logKConvention": "log10 formation constant for one named product from the signed source component coefficients (eq-diagr Complex)",
+      "temperatureReference": 298.15,
+      "temperatureModel": {
+        "type": "spana-deltaH-deltaCp",
+        "parameters": {
+          "deltaH_kJ_per_mol": -120,
+          "deltaCp_J_per_mol_K": null
+        }
+      },
+      "pressureReference": null,
+      "activityModelCompatibility": null,
+      "source": "Spana/DataBase local reaction database",
+      "sourceDatabase": "spana:2ac52a30213c9288dd18fc6dd597411e5c3ca53173fa6d1fab5530b371c30a0a",
+      "sourceRecordId": "byte:73858",
+      "citation": "85Bar/Par: Bard A J, Parsons R, Jordan J, (eds.); Standard Potentials in Aqueous Solution. New York: Marcel Dekker, Inc., IUPAC (Int. Union Pure Appl. Chem.), 1985",
+      "notes": [
+        "Element links describe source components, not product atom counts. Oxidation states are not supplied."
+      ],
+      "qualityFlags": [
+        "imported",
+        "not-solver-validated",
+        "composition-unknown"
+      ],
+      "deprecated": false,
+      "metadata": {
+        "sourceFormat": "spana-java-binary",
+        "sourceRevision": "c94b0d8f33fd89eaadcec5a9f3fbf296b6b0e3f7",
+        "componentLinks": [
+          {
+            "name": "Ce 4+",
+            "coefficient": 1,
+            "associations": [
+              {
+                "element": "Ce",
+                "description": "ceric",
+                "recognizedElement": true,
+                "byteOffset": 2505
+              }
+            ]
+          },
+          {
+            "name": "e-",
+            "coefficient": 1,
+            "associations": [
+              {
+                "element": "e-",
+                "description": "electron (= redox potential)",
+                "recognizedElement": false,
+                "byteOffset": 0
+              }
+            ]
+          }
+        ],
+        "elementFilterBasis": "source-component-associations; not complete product composition",
+        "solverReady": false,
+        "sourceNamingConvention": "eq-diagr Util",
+        "sourceReferenceResolutions": [
+          {
+            "code": "85Bar/Par",
+            "matchedKey": "85Bar/Par",
+            "citation": "Bard A J, Parsons R, Jordan J, (eds.); Standard Potentials in Aqueous Solution. New York: Marcel Dekker, Inc., IUPAC (Int. Union Pure Appl. Chem.), 1985",
+            "status": "resolved"
+          }
+        ],
+        "sourceTemperatureMetadata": {
+          "kind": "deltaH-deltaCp",
+          "deltaH": -120,
+          "deltaCp": -999999.9
+        },
+        "sourcePressureMetadata": {
+          "storedReferencePressure": null,
+          "note": "No pressure-reference scalar stored. Upstream derives limits; no derivation performed here."
+        },
+        "originalReaction": {
+          "product": "Ce 3+",
+          "components": [
+            {
+              "name": "Ce 4+",
+              "coefficient": 1
+            },
+            {
+              "name": "e-",
+              "coefficient": 1
+            }
+          ],
+          "separateProtonCount": null
+        },
+        "effectiveSourceReaction": {
+          "product": "Ce 3+",
+          "components": [
+            {
+              "name": "Ce 4+",
+              "coefficient": 1
+            },
+            {
+              "name": "e-",
+              "coefficient": 1
+            }
+          ]
+        }
+      },
+      "provenance": {
+        "kind": "imported",
+        "sourceDatabase": "spana:2ac52a30213c9288dd18fc6dd597411e5c3ca53173fa6d1fab5530b371c30a0a",
+        "sourceFile": "Eq-Diagr/Reactions.db",
+        "sourceRecordId": "byte:73858",
+        "originalRecordId": null,
+        "originalSpeciesName": "Ce 3+",
+        "originalReaction": {
+          "product": "Ce 3+",
+          "components": [
+            {
+              "name": "Ce 4+",
+              "coefficient": 1
+            },
+            {
+              "name": "e-",
+              "coefficient": 1
+            }
+          ],
+          "separateProtonCount": null
+        },
+        "originalLogK": 29.08,
+        "originalReferenceCode": "85Bar/Par",
+        "resolvedCitation": "85Bar/Par: Bard A J, Parsons R, Jordan J, (eds.); Standard Potentials in Aqueous Solution. New York: Marcel Dekker, Inc., IUPAC (Int. Union Pure Appl. Chem.), 1985",
+        "referenceSourceFile": "Eq-Diagr/References.txt",
+        "dbSha256": "2ac52a30213c9288dd18fc6dd597411e5c3ca53173fa6d1fab5530b371c30a0a",
+        "byteOffset": 73858,
+        "byteLength": 74,
+        "importDate": "2026-09-05T16:23:16.736Z",
+        "importerVersion": "spana-readonly-1.0.0",
+        "comments": [
+          "Element links describe source components, not product atom counts. Oxidation states are not supplied."
+        ],
+        "qualityFlags": [
+          "imported",
+          "not-solver-validated",
+          "composition-unknown"
+        ],
+        "original": {
+          "speciesName": "Ce 3+",
+          "reaction": {
+            "product": "Ce 3+",
+            "components": [
+              {
+                "name": "Ce 4+",
+                "coefficient": 1
+              },
+              {
+                "name": "e-",
+                "coefficient": 1
+              }
+            ],
+            "separateProtonCount": null
+          },
+          "logK": 29.08,
+          "citation": "85Bar/Par",
+          "raw": {
+            "ordinal": 806,
+            "byteOffset": 73858,
+            "byteLength": 74,
+            "name": "Ce 3+",
+            "logK": 29.08,
+            "thermal": {
+              "kind": "deltaH-deltaCp",
+              "deltaH": -120,
+              "deltaCp": -999999.9
+            },
+            "layout": "variable",
+            "componentToken": "2",
+            "components": [
+              {
+                "name": "Ce 4+",
+                "coefficient": 1
+              },
+              {
+                "name": "e-",
+                "coefficient": 1
+              }
+            ],
+            "protonCount": null,
+            "reference": "85Bar/Par",
+            "comment": "",
+            "rawBase64": "AAVDZSAzK0A9FHrhR64UwF4AAAAAAADBLoR/zMzMzQABMgAFQ2UgNCs/8AAAAAAAAAACZS0/8AAAAAAAAAAJODVCYXIvUGFyAAA="
+          }
+        }
+      }
+    },
+    {
+      "schemaVersion": 1,
+      "id": "spana:2ac52a30213c9288:103398",
+      "name": "Cu+",
+      "displayName": "Cu+",
+      "formula": "Cu+",
+      "phase": "aqueous",
+      "role": "solute",
+      "charge": 1,
+      "elementalComposition": null,
+      "discoveryElements": [
+        "Cu"
+      ],
+      "oxidationStates": null,
+      "componentStoichiometry": {
+        "Cu 2+": 1,
+        "e-": 1
+      },
+      "formationReaction": null,
+      "logK": 2.833,
+      "logKConvention": "log10 formation constant for one named product from the signed source component coefficients (eq-diagr Complex)",
+      "temperatureReference": 298.15,
+      "temperatureModel": {
+        "type": "spana-deltaH-deltaCp",
+        "parameters": {
+          "deltaH_kJ_per_mol": -5.670000000000001,
+          "deltaCp_J_per_mol_K": -66.7
+        }
+      },
+      "pressureReference": null,
+      "activityModelCompatibility": null,
+      "source": "Spana/DataBase local reaction database",
+      "sourceDatabase": "spana:2ac52a30213c9288dd18fc6dd597411e5c3ca53173fa6d1fab5530b371c30a0a",
+      "sourceRecordId": "byte:103398",
+      "citation": "1997BP-Cu: Beverskog B, Puigdomenech I; J. Electrochem. Soc., 144 (1997) 3476-3483",
+      "notes": [
+        "Element links describe source components, not product atom counts. Oxidation states are not supplied."
+      ],
+      "qualityFlags": [
+        "imported",
+        "not-solver-validated",
+        "composition-unknown"
+      ],
+      "deprecated": false,
+      "metadata": {
+        "sourceFormat": "spana-java-binary",
+        "sourceRevision": "c94b0d8f33fd89eaadcec5a9f3fbf296b6b0e3f7",
+        "componentLinks": [
+          {
+            "name": "Cu 2+",
+            "coefficient": 1,
+            "associations": [
+              {
+                "element": "Cu",
+                "description": "cupric",
+                "recognizedElement": true,
+                "byteOffset": 1473
+              }
+            ]
+          },
+          {
+            "name": "e-",
+            "coefficient": 1,
+            "associations": [
+              {
+                "element": "e-",
+                "description": "electron (= redox potential)",
+                "recognizedElement": false,
+                "byteOffset": 0
+              }
+            ]
+          }
+        ],
+        "elementFilterBasis": "source-component-associations; not complete product composition",
+        "solverReady": false,
+        "sourceNamingConvention": "eq-diagr Util",
+        "sourceReferenceResolutions": [
+          {
+            "code": "1997BP-Cu",
+            "matchedKey": "1997BP-Cu",
+            "citation": "Beverskog B, Puigdomenech I; J. Electrochem. Soc., 144 (1997) 3476-3483",
+            "status": "resolved"
+          }
+        ],
+        "sourceTemperatureMetadata": {
+          "kind": "deltaH-deltaCp",
+          "deltaH": -5.670000000000001,
+          "deltaCp": -66.7
+        },
+        "sourcePressureMetadata": {
+          "storedReferencePressure": null,
+          "note": "No pressure-reference scalar stored. Upstream derives limits; no derivation performed here."
+        },
+        "originalReaction": {
+          "product": "Cu+",
+          "components": [
+            {
+              "name": "Cu 2+",
+              "coefficient": 1
+            },
+            {
+              "name": "e-",
+              "coefficient": 1
+            }
+          ],
+          "separateProtonCount": null
+        },
+        "effectiveSourceReaction": {
+          "product": "Cu+",
+          "components": [
+            {
+              "name": "Cu 2+",
+              "coefficient": 1
+            },
+            {
+              "name": "e-",
+              "coefficient": 1
+            }
+          ]
+        }
+      },
+      "provenance": {
+        "kind": "imported",
+        "sourceDatabase": "spana:2ac52a30213c9288dd18fc6dd597411e5c3ca53173fa6d1fab5530b371c30a0a",
+        "sourceFile": "Eq-Diagr/Reactions.db",
+        "sourceRecordId": "byte:103398",
+        "originalRecordId": null,
+        "originalSpeciesName": "Cu+",
+        "originalReaction": {
+          "product": "Cu+",
+          "components": [
+            {
+              "name": "Cu 2+",
+              "coefficient": 1
+            },
+            {
+              "name": "e-",
+              "coefficient": 1
+            }
+          ],
+          "separateProtonCount": null
+        },
+        "originalLogK": 2.833,
+        "originalReferenceCode": "1997BP-Cu",
+        "resolvedCitation": "1997BP-Cu: Beverskog B, Puigdomenech I; J. Electrochem. Soc., 144 (1997) 3476-3483",
+        "referenceSourceFile": "Eq-Diagr/References.txt",
+        "dbSha256": "2ac52a30213c9288dd18fc6dd597411e5c3ca53173fa6d1fab5530b371c30a0a",
+        "byteOffset": 103398,
+        "byteLength": 72,
+        "importDate": "2026-09-05T16:23:16.736Z",
+        "importerVersion": "spana-readonly-1.0.0",
+        "comments": [
+          "Element links describe source components, not product atom counts. Oxidation states are not supplied."
+        ],
+        "qualityFlags": [
+          "imported",
+          "not-solver-validated",
+          "composition-unknown"
+        ],
+        "original": {
+          "speciesName": "Cu+",
+          "reaction": {
+            "product": "Cu+",
+            "components": [
+              {
+                "name": "Cu 2+",
+                "coefficient": 1
+              },
+              {
+                "name": "e-",
+                "coefficient": 1
+              }
+            ],
+            "separateProtonCount": null
+          },
+          "logK": 2.833,
+          "citation": "1997BP-Cu",
+          "raw": {
+            "ordinal": 1147,
+            "byteOffset": 103398,
+            "byteLength": 72,
+            "name": "Cu+",
+            "logK": 2.833,
+            "thermal": {
+              "kind": "deltaH-deltaCp",
+              "deltaH": -5.670000000000001,
+              "deltaCp": -66.7
+            },
+            "layout": "variable",
+            "componentToken": "2",
+            "components": [
+              {
+                "name": "Cu 2+",
+                "coefficient": 1
+              },
+              {
+                "name": "e-",
+                "coefficient": 1
+              }
+            ],
+            "protonCount": null,
+            "reference": "1997BP-Cu",
+            "comment": "",
+            "rawBase64": "AANDdStABqn752yLRMAWrhR64UevwFCszMzMzM0AATIABUN1IDIrP/AAAAAAAAAAAmUtP/AAAAAAAAAACTE5OTdCUC1DdQAA"
+          }
+        }
+      }
+    },
+    {
+      "schemaVersion": 1,
+      "id": "spana:2ac52a30213c9288:120483",
+      "name": "Eu 2+",
+      "displayName": "Eu 2+",
+      "formula": "Eu 2+",
+      "phase": "aqueous",
+      "role": "solute",
+      "charge": 2,
+      "elementalComposition": null,
+      "discoveryElements": [
+        "Eu"
+      ],
+      "oxidationStates": null,
+      "componentStoichiometry": {
+        "Eu 3+": 1,
+        "e-": 1
+      },
+      "formationReaction": null,
+      "logK": -6.1,
+      "logKConvention": "log10 formation constant for one named product from the signed source component coefficients (eq-diagr Complex)",
+      "temperatureReference": 298.15,
+      "temperatureModel": {
+        "type": "spana-deltaH-deltaCp",
+        "parameters": {
+          "deltaH_kJ_per_mol": 78,
+          "deltaCp_J_per_mol_K": null
+        }
+      },
+      "pressureReference": null,
+      "activityModelCompatibility": null,
+      "source": "Spana/DataBase local reaction database",
+      "sourceDatabase": "spana:2ac52a30213c9288dd18fc6dd597411e5c3ca53173fa6d1fab5530b371c30a0a",
+      "sourceRecordId": "byte:120483",
+      "citation": "85Bar/Par: Bard A J, Parsons R, Jordan J, (eds.); Standard Potentials in Aqueous Solution. New York: Marcel Dekker, Inc., IUPAC (Int. Union Pure Appl. Chem.), 1985",
+      "notes": [
+        "Element links describe source components, not product atom counts. Oxidation states are not supplied."
+      ],
+      "qualityFlags": [
+        "imported",
+        "not-solver-validated",
+        "composition-unknown"
+      ],
+      "deprecated": false,
+      "metadata": {
+        "sourceFormat": "spana-java-binary",
+        "sourceRevision": "c94b0d8f33fd89eaadcec5a9f3fbf296b6b0e3f7",
+        "componentLinks": [
+          {
+            "name": "Eu 3+",
+            "coefficient": 1,
+            "associations": [
+              {
+                "element": "Eu",
+                "description": "",
+                "recognizedElement": true,
+                "byteOffset": 2593
+              }
+            ]
+          },
+          {
+            "name": "e-",
+            "coefficient": 1,
+            "associations": [
+              {
+                "element": "e-",
+                "description": "electron (= redox potential)",
+                "recognizedElement": false,
+                "byteOffset": 0
+              }
+            ]
+          }
+        ],
+        "elementFilterBasis": "source-component-associations; not complete product composition",
+        "solverReady": false,
+        "sourceNamingConvention": "eq-diagr Util",
+        "sourceReferenceResolutions": [
+          {
+            "code": "85Bar/Par",
+            "matchedKey": "85Bar/Par",
+            "citation": "Bard A J, Parsons R, Jordan J, (eds.); Standard Potentials in Aqueous Solution. New York: Marcel Dekker, Inc., IUPAC (Int. Union Pure Appl. Chem.), 1985",
+            "status": "resolved"
+          }
+        ],
+        "sourceTemperatureMetadata": {
+          "kind": "deltaH-deltaCp",
+          "deltaH": 78,
+          "deltaCp": -999999.9
+        },
+        "sourcePressureMetadata": {
+          "storedReferencePressure": null,
+          "note": "No pressure-reference scalar stored. Upstream derives limits; no derivation performed here."
+        },
+        "originalReaction": {
+          "product": "Eu 2+",
+          "components": [
+            {
+              "name": "Eu 3+",
+              "coefficient": 1
+            },
+            {
+              "name": "e-",
+              "coefficient": 1
+            }
+          ],
+          "separateProtonCount": null
+        },
+        "effectiveSourceReaction": {
+          "product": "Eu 2+",
+          "components": [
+            {
+              "name": "Eu 3+",
+              "coefficient": 1
+            },
+            {
+              "name": "e-",
+              "coefficient": 1
+            }
+          ]
+        }
+      },
+      "provenance": {
+        "kind": "imported",
+        "sourceDatabase": "spana:2ac52a30213c9288dd18fc6dd597411e5c3ca53173fa6d1fab5530b371c30a0a",
+        "sourceFile": "Eq-Diagr/Reactions.db",
+        "sourceRecordId": "byte:120483",
+        "originalRecordId": null,
+        "originalSpeciesName": "Eu 2+",
+        "originalReaction": {
+          "product": "Eu 2+",
+          "components": [
+            {
+              "name": "Eu 3+",
+              "coefficient": 1
+            },
+            {
+              "name": "e-",
+              "coefficient": 1
+            }
+          ],
+          "separateProtonCount": null
+        },
+        "originalLogK": -6.1,
+        "originalReferenceCode": "85Bar/Par",
+        "resolvedCitation": "85Bar/Par: Bard A J, Parsons R, Jordan J, (eds.); Standard Potentials in Aqueous Solution. New York: Marcel Dekker, Inc., IUPAC (Int. Union Pure Appl. Chem.), 1985",
+        "referenceSourceFile": "Eq-Diagr/References.txt",
+        "dbSha256": "2ac52a30213c9288dd18fc6dd597411e5c3ca53173fa6d1fab5530b371c30a0a",
+        "byteOffset": 120483,
+        "byteLength": 74,
+        "importDate": "2026-09-05T16:23:16.736Z",
+        "importerVersion": "spana-readonly-1.0.0",
+        "comments": [
+          "Element links describe source components, not product atom counts. Oxidation states are not supplied."
+        ],
+        "qualityFlags": [
+          "imported",
+          "not-solver-validated",
+          "composition-unknown"
+        ],
+        "original": {
+          "speciesName": "Eu 2+",
+          "reaction": {
+            "product": "Eu 2+",
+            "components": [
+              {
+                "name": "Eu 3+",
+                "coefficient": 1
+              },
+              {
+                "name": "e-",
+                "coefficient": 1
+              }
+            ],
+            "separateProtonCount": null
+          },
+          "logK": -6.1,
+          "citation": "85Bar/Par",
+          "raw": {
+            "ordinal": 1345,
+            "byteOffset": 120483,
+            "byteLength": 74,
+            "name": "Eu 2+",
+            "logK": -6.1,
+            "thermal": {
+              "kind": "deltaH-deltaCp",
+              "deltaH": 78,
+              "deltaCp": -999999.9
+            },
+            "layout": "variable",
+            "componentToken": "2",
+            "components": [
+              {
+                "name": "Eu 3+",
+                "coefficient": 1
+              },
+              {
+                "name": "e-",
+                "coefficient": 1
+              }
+            ],
+            "protonCount": null,
+            "reference": "85Bar/Par",
+            "comment": "",
+            "rawBase64": "AAVFdSAyK8AYZmZmZmZmQFOAAAAAAADBLoR/zMzMzQABMgAFRXUgMys/8AAAAAAAAAACZS0/8AAAAAAAAAAJODVCYXIvUGFyAAA="
+          }
+        }
+      }
+    },
+    {
+      "schemaVersion": 1,
+      "id": "spana:2ac52a30213c9288:126513",
+      "name": "Fe 2+",
+      "displayName": "Fe 2+",
+      "formula": "Fe 2+",
+      "phase": "aqueous",
+      "role": "solute",
+      "charge": 2,
+      "elementalComposition": null,
+      "discoveryElements": [
+        "Fe"
+      ],
+      "oxidationStates": null,
+      "componentStoichiometry": {
+        "Fe 3+": 1,
+        "e-": 1
+      },
+      "formationReaction": null,
+      "logK": 13.051,
+      "logKConvention": "log10 formation constant for one named product from the signed source component coefficients (eq-diagr Complex)",
+      "temperatureReference": 298.15,
+      "temperatureModel": {
+        "type": "spana-deltaH-deltaCp",
+        "parameters": {
+          "deltaH_kJ_per_mol": -40.19999999999999,
+          "deltaCp_J_per_mol_K": 71
+        }
+      },
+      "pressureReference": null,
+      "activityModelCompatibility": null,
+      "source": "Spana/DataBase local reaction database",
+      "sourceDatabase": "spana:2ac52a30213c9288dd18fc6dd597411e5c3ca53173fa6d1fab5530b371c30a0a",
+      "sourceRecordId": "byte:126513",
+      "citation": "NEA-Fe: Lemire R J, Berner U, Musikas C, Palmer D A, Taylor P, Tochiyama O, Chemical Thermodynamics of Iron. Part 1. Paris: OECD Nuclear Energy Agency (NEA), 2013",
+      "notes": [
+        "Element links describe source components, not product atom counts. Oxidation states are not supplied."
+      ],
+      "qualityFlags": [
+        "imported",
+        "not-solver-validated",
+        "composition-unknown"
+      ],
+      "deprecated": false,
+      "metadata": {
+        "sourceFormat": "spana-java-binary",
+        "sourceRevision": "c94b0d8f33fd89eaadcec5a9f3fbf296b6b0e3f7",
+        "componentLinks": [
+          {
+            "name": "Fe 3+",
+            "coefficient": 1,
+            "associations": [
+              {
+                "element": "Fe",
+                "description": "ferric",
+                "recognizedElement": true,
+                "byteOffset": 1374
+              }
+            ]
+          },
+          {
+            "name": "e-",
+            "coefficient": 1,
+            "associations": [
+              {
+                "element": "e-",
+                "description": "electron (= redox potential)",
+                "recognizedElement": false,
+                "byteOffset": 0
+              }
+            ]
+          }
+        ],
+        "elementFilterBasis": "source-component-associations; not complete product composition",
+        "solverReady": false,
+        "sourceNamingConvention": "eq-diagr Util",
+        "sourceReferenceResolutions": [
+          {
+            "code": "NEA-Fe",
+            "matchedKey": "NEA-Fe",
+            "citation": "Lemire R J, Berner U, Musikas C, Palmer D A, Taylor P, Tochiyama O, Chemical Thermodynamics of Iron. Part 1. Paris: OECD Nuclear Energy Agency (NEA), 2013",
+            "status": "resolved"
+          }
+        ],
+        "sourceTemperatureMetadata": {
+          "kind": "deltaH-deltaCp",
+          "deltaH": -40.19999999999999,
+          "deltaCp": 71
+        },
+        "sourcePressureMetadata": {
+          "storedReferencePressure": null,
+          "note": "No pressure-reference scalar stored. Upstream derives limits; no derivation performed here."
+        },
+        "originalReaction": {
+          "product": "Fe 2+",
+          "components": [
+            {
+              "name": "Fe 3+",
+              "coefficient": 1
+            },
+            {
+              "name": "e-",
+              "coefficient": 1
+            }
+          ],
+          "separateProtonCount": null
+        },
+        "effectiveSourceReaction": {
+          "product": "Fe 2+",
+          "components": [
+            {
+              "name": "Fe 3+",
+              "coefficient": 1
+            },
+            {
+              "name": "e-",
+              "coefficient": 1
+            }
+          ]
+        }
+      },
+      "provenance": {
+        "kind": "imported",
+        "sourceDatabase": "spana:2ac52a30213c9288dd18fc6dd597411e5c3ca53173fa6d1fab5530b371c30a0a",
+        "sourceFile": "Eq-Diagr/Reactions.db",
+        "sourceRecordId": "byte:126513",
+        "originalRecordId": null,
+        "originalSpeciesName": "Fe 2+",
+        "originalReaction": {
+          "product": "Fe 2+",
+          "components": [
+            {
+              "name": "Fe 3+",
+              "coefficient": 1
+            },
+            {
+              "name": "e-",
+              "coefficient": 1
+            }
+          ],
+          "separateProtonCount": null
+        },
+        "originalLogK": 13.051,
+        "originalReferenceCode": "NEA-Fe",
+        "resolvedCitation": "NEA-Fe: Lemire R J, Berner U, Musikas C, Palmer D A, Taylor P, Tochiyama O, Chemical Thermodynamics of Iron. Part 1. Paris: OECD Nuclear Energy Agency (NEA), 2013",
+        "referenceSourceFile": "Eq-Diagr/References.txt",
+        "dbSha256": "2ac52a30213c9288dd18fc6dd597411e5c3ca53173fa6d1fab5530b371c30a0a",
+        "byteOffset": 126513,
+        "byteLength": 71,
+        "importDate": "2026-09-05T16:23:16.736Z",
+        "importerVersion": "spana-readonly-1.0.0",
+        "comments": [
+          "Element links describe source components, not product atom counts. Oxidation states are not supplied."
+        ],
+        "qualityFlags": [
+          "imported",
+          "not-solver-validated",
+          "composition-unknown"
+        ],
+        "original": {
+          "speciesName": "Fe 2+",
+          "reaction": {
+            "product": "Fe 2+",
+            "components": [
+              {
+                "name": "Fe 3+",
+                "coefficient": 1
+              },
+              {
+                "name": "e-",
+                "coefficient": 1
+              }
+            ],
+            "separateProtonCount": null
+          },
+          "logK": 13.051,
+          "citation": "NEA-Fe",
+          "raw": {
+            "ordinal": 1415,
+            "byteOffset": 126513,
+            "byteLength": 71,
+            "name": "Fe 2+",
+            "logK": 13.051,
+            "thermal": {
+              "kind": "deltaH-deltaCp",
+              "deltaH": -40.19999999999999,
+              "deltaCp": 71
+            },
+            "layout": "variable",
+            "componentToken": "2",
+            "components": [
+              {
+                "name": "Fe 3+",
+                "coefficient": 1
+              },
+              {
+                "name": "e-",
+                "coefficient": 1
+              }
+            ],
+            "protonCount": null,
+            "reference": "NEA-Fe",
+            "comment": "",
+            "rawBase64": "AAVGZSAyK0AqGhysCDEnwEQZmZmZmZhAUcAAAAAAAAABMgAFRmUgMys/8AAAAAAAAAACZS0/8AAAAAAAAAAGTkVBLUZlAAA="
+          }
+        }
+      }
+    },
+    {
+      "schemaVersion": 1,
+      "id": "spana:2ac52a30213c9288:307267",
+      "name": "Sn 2+",
+      "displayName": "Sn 2+",
+      "formula": "Sn 2+",
+      "phase": "aqueous",
+      "role": "solute",
+      "charge": 2,
+      "elementalComposition": null,
+      "discoveryElements": [
+        "Sn"
+      ],
+      "oxidationStates": null,
+      "componentStoichiometry": {
+        "Sn 4+": 1,
+        "e-": 2
+      },
+      "formationReaction": null,
+      "logK": 12.98,
+      "logKConvention": "log10 formation constant for one named product from the signed source component coefficients (eq-diagr Complex)",
+      "temperatureReference": 298.15,
+      "temperatureModel": {
+        "type": "spana-deltaH-deltaCp",
+        "parameters": {
+          "deltaH_kJ_per_mol": null,
+          "deltaCp_J_per_mol_K": null
+        }
+      },
+      "pressureReference": null,
+      "activityModelCompatibility": null,
+      "source": "Spana/DataBase local reaction database",
+      "sourceDatabase": "spana:2ac52a30213c9288dd18fc6dd597411e5c3ca53173fa6d1fab5530b371c30a0a",
+      "sourceRecordId": "byte:307267",
+      "citation": "NEA-Sn: Gamsjäger H, Gajda T, Sangster J, Saxena S K, Voigt W, Chemical Thermodynamics of Tin. Paris: OECD Nuclear Energy Agency (NEA), 2012",
+      "notes": [
+        "Element links describe source components, not product atom counts. Oxidation states are not supplied."
+      ],
+      "qualityFlags": [
+        "imported",
+        "not-solver-validated",
+        "composition-unknown"
+      ],
+      "deprecated": false,
+      "metadata": {
+        "sourceFormat": "spana-java-binary",
+        "sourceRevision": "c94b0d8f33fd89eaadcec5a9f3fbf296b6b0e3f7",
+        "componentLinks": [
+          {
+            "name": "Sn 4+",
+            "coefficient": 1,
+            "associations": [
+              {
+                "element": "Sn",
+                "description": "",
+                "recognizedElement": true,
+                "byteOffset": 2247
+              }
+            ]
+          },
+          {
+            "name": "e-",
+            "coefficient": 2,
+            "associations": [
+              {
+                "element": "e-",
+                "description": "electron (= redox potential)",
+                "recognizedElement": false,
+                "byteOffset": 0
+              }
+            ]
+          }
+        ],
+        "elementFilterBasis": "source-component-associations; not complete product composition",
+        "solverReady": false,
+        "sourceNamingConvention": "eq-diagr Util",
+        "sourceReferenceResolutions": [
+          {
+            "code": "NEA-Sn",
+            "matchedKey": "NEA-Sn",
+            "citation": "Gamsjäger H, Gajda T, Sangster J, Saxena S K, Voigt W, Chemical Thermodynamics of Tin. Paris: OECD Nuclear Energy Agency (NEA), 2012",
+            "status": "resolved"
+          }
+        ],
+        "sourceTemperatureMetadata": {
+          "kind": "deltaH-deltaCp",
+          "deltaH": -999999.9,
+          "deltaCp": -999999.9
+        },
+        "sourcePressureMetadata": {
+          "storedReferencePressure": null,
+          "note": "No pressure-reference scalar stored. Upstream derives limits; no derivation performed here."
+        },
+        "originalReaction": {
+          "product": "Sn 2+",
+          "components": [
+            {
+              "name": "Sn 4+",
+              "coefficient": 1
+            },
+            {
+              "name": "e-",
+              "coefficient": 2
+            }
+          ],
+          "separateProtonCount": null
+        },
+        "effectiveSourceReaction": {
+          "product": "Sn 2+",
+          "components": [
+            {
+              "name": "Sn 4+",
+              "coefficient": 1
+            },
+            {
+              "name": "e-",
+              "coefficient": 2
+            }
+          ]
+        }
+      },
+      "provenance": {
+        "kind": "imported",
+        "sourceDatabase": "spana:2ac52a30213c9288dd18fc6dd597411e5c3ca53173fa6d1fab5530b371c30a0a",
+        "sourceFile": "Eq-Diagr/Reactions.db",
+        "sourceRecordId": "byte:307267",
+        "originalRecordId": null,
+        "originalSpeciesName": "Sn 2+",
+        "originalReaction": {
+          "product": "Sn 2+",
+          "components": [
+            {
+              "name": "Sn 4+",
+              "coefficient": 1
+            },
+            {
+              "name": "e-",
+              "coefficient": 2
+            }
+          ],
+          "separateProtonCount": null
+        },
+        "originalLogK": 12.98,
+        "originalReferenceCode": "NEA-Sn",
+        "resolvedCitation": "NEA-Sn: Gamsjäger H, Gajda T, Sangster J, Saxena S K, Voigt W, Chemical Thermodynamics of Tin. Paris: OECD Nuclear Energy Agency (NEA), 2012",
+        "referenceSourceFile": "Eq-Diagr/References.txt",
+        "dbSha256": "2ac52a30213c9288dd18fc6dd597411e5c3ca53173fa6d1fab5530b371c30a0a",
+        "byteOffset": 307267,
+        "byteLength": 71,
+        "importDate": "2026-09-05T16:23:16.736Z",
+        "importerVersion": "spana-readonly-1.0.0",
+        "comments": [
+          "Element links describe source components, not product atom counts. Oxidation states are not supplied."
+        ],
+        "qualityFlags": [
+          "imported",
+          "not-solver-validated",
+          "composition-unknown"
+        ],
+        "original": {
+          "speciesName": "Sn 2+",
+          "reaction": {
+            "product": "Sn 2+",
+            "components": [
+              {
+                "name": "Sn 4+",
+                "coefficient": 1
+              },
+              {
+                "name": "e-",
+                "coefficient": 2
+              }
+            ],
+            "separateProtonCount": null
+          },
+          "logK": 12.98,
+          "citation": "NEA-Sn",
+          "raw": {
+            "ordinal": 3473,
+            "byteOffset": 307267,
+            "byteLength": 71,
+            "name": "Sn 2+",
+            "logK": 12.98,
+            "thermal": {
+              "kind": "deltaH-deltaCp",
+              "deltaH": -999999.9,
+              "deltaCp": -999999.9
+            },
+            "layout": "variable",
+            "componentToken": "2",
+            "components": [
+              {
+                "name": "Sn 4+",
+                "coefficient": 1
+              },
+              {
+                "name": "e-",
+                "coefficient": 2
+              }
+            ],
+            "protonCount": null,
+            "reference": "NEA-Sn",
+            "comment": "",
+            "rawBase64": "AAVTbiAyK0Ap9cKPXCj2wS6Ef8zMzM3BLoR/zMzMzQABMgAFU24gNCs/8AAAAAAAAAACZS1AAAAAAAAAAAAGTkVBLVNuAAA="
+          }
+        }
+      }
+    },
+    {
+      "schemaVersion": 1,
+      "id": "spana:2ac52a30213c9288:360928",
+      "name": "V 2+",
+      "displayName": "V 2+",
+      "formula": "V 2+",
+      "phase": "aqueous",
+      "role": "solute",
+      "charge": 2,
+      "elementalComposition": null,
+      "discoveryElements": [
+        "V"
+      ],
+      "oxidationStates": null,
+      "componentStoichiometry": {
+        "V 3+": 1,
+        "e-": 1
+      },
+      "formationReaction": null,
+      "logK": -5.83,
+      "logKConvention": "log10 formation constant for one named product from the signed source component coefficients (eq-diagr Complex)",
+      "temperatureReference": 298.15,
+      "temperatureModel": {
+        "type": "spana-deltaH-deltaCp",
+        "parameters": {
+          "deltaH_kJ_per_mol": 33,
+          "deltaCp_J_per_mol_K": null
+        }
+      },
+      "pressureReference": null,
+      "activityModelCompatibility": null,
+      "source": "Spana/DataBase local reaction database",
+      "sourceDatabase": "spana:2ac52a30213c9288dd18fc6dd597411e5c3ca53173fa6d1fab5530b371c30a0a",
+      "sourceRecordId": "byte:360928",
+      "citation": "85Bar/Par: Bard A J, Parsons R, Jordan J, (eds.); Standard Potentials in Aqueous Solution. New York: Marcel Dekker, Inc., IUPAC (Int. Union Pure Appl. Chem.), 1985",
+      "notes": [
+        "Element links describe source components, not product atom counts. Oxidation states are not supplied."
+      ],
+      "qualityFlags": [
+        "imported",
+        "not-solver-validated",
+        "composition-unknown"
+      ],
+      "deprecated": false,
+      "metadata": {
+        "sourceFormat": "spana-java-binary",
+        "sourceRevision": "c94b0d8f33fd89eaadcec5a9f3fbf296b6b0e3f7",
+        "componentLinks": [
+          {
+            "name": "V 3+",
+            "coefficient": 1,
+            "associations": [
+              {
+                "element": "V",
+                "description": "",
+                "recognizedElement": true,
+                "byteOffset": 1226
+              }
+            ]
+          },
+          {
+            "name": "e-",
+            "coefficient": 1,
+            "associations": [
+              {
+                "element": "e-",
+                "description": "electron (= redox potential)",
+                "recognizedElement": false,
+                "byteOffset": 0
+              }
+            ]
+          }
+        ],
+        "elementFilterBasis": "source-component-associations; not complete product composition",
+        "solverReady": false,
+        "sourceNamingConvention": "eq-diagr Util",
+        "sourceReferenceResolutions": [
+          {
+            "code": "85Bar/Par",
+            "matchedKey": "85Bar/Par",
+            "citation": "Bard A J, Parsons R, Jordan J, (eds.); Standard Potentials in Aqueous Solution. New York: Marcel Dekker, Inc., IUPAC (Int. Union Pure Appl. Chem.), 1985",
+            "status": "resolved"
+          }
+        ],
+        "sourceTemperatureMetadata": {
+          "kind": "deltaH-deltaCp",
+          "deltaH": 33,
+          "deltaCp": -999999.9
+        },
+        "sourcePressureMetadata": {
+          "storedReferencePressure": null,
+          "note": "No pressure-reference scalar stored. Upstream derives limits; no derivation performed here."
+        },
+        "originalReaction": {
+          "product": "V 2+",
+          "components": [
+            {
+              "name": "V 3+",
+              "coefficient": 1
+            },
+            {
+              "name": "e-",
+              "coefficient": 1
+            }
+          ],
+          "separateProtonCount": null
+        },
+        "effectiveSourceReaction": {
+          "product": "V 2+",
+          "components": [
+            {
+              "name": "V 3+",
+              "coefficient": 1
+            },
+            {
+              "name": "e-",
+              "coefficient": 1
+            }
+          ]
+        }
+      },
+      "provenance": {
+        "kind": "imported",
+        "sourceDatabase": "spana:2ac52a30213c9288dd18fc6dd597411e5c3ca53173fa6d1fab5530b371c30a0a",
+        "sourceFile": "Eq-Diagr/Reactions.db",
+        "sourceRecordId": "byte:360928",
+        "originalRecordId": null,
+        "originalSpeciesName": "V 2+",
+        "originalReaction": {
+          "product": "V 2+",
+          "components": [
+            {
+              "name": "V 3+",
+              "coefficient": 1
+            },
+            {
+              "name": "e-",
+              "coefficient": 1
+            }
+          ],
+          "separateProtonCount": null
+        },
+        "originalLogK": -5.83,
+        "originalReferenceCode": "85Bar/Par",
+        "resolvedCitation": "85Bar/Par: Bard A J, Parsons R, Jordan J, (eds.); Standard Potentials in Aqueous Solution. New York: Marcel Dekker, Inc., IUPAC (Int. Union Pure Appl. Chem.), 1985",
+        "referenceSourceFile": "Eq-Diagr/References.txt",
+        "dbSha256": "2ac52a30213c9288dd18fc6dd597411e5c3ca53173fa6d1fab5530b371c30a0a",
+        "byteOffset": 360928,
+        "byteLength": 72,
+        "importDate": "2026-09-05T16:23:16.736Z",
+        "importerVersion": "spana-readonly-1.0.0",
+        "comments": [
+          "Element links describe source components, not product atom counts. Oxidation states are not supplied."
+        ],
+        "qualityFlags": [
+          "imported",
+          "not-solver-validated",
+          "composition-unknown"
+        ],
+        "original": {
+          "speciesName": "V 2+",
+          "reaction": {
+            "product": "V 2+",
+            "components": [
+              {
+                "name": "V 3+",
+                "coefficient": 1
+              },
+              {
+                "name": "e-",
+                "coefficient": 1
+              }
+            ],
+            "separateProtonCount": null
+          },
+          "logK": -5.83,
+          "citation": "85Bar/Par",
+          "raw": {
+            "ordinal": 4079,
+            "byteOffset": 360928,
+            "byteLength": 72,
+            "name": "V 2+",
+            "logK": -5.83,
+            "thermal": {
+              "kind": "deltaH-deltaCp",
+              "deltaH": 33,
+              "deltaCp": -999999.9
+            },
+            "layout": "variable",
+            "componentToken": "2",
+            "components": [
+              {
+                "name": "V 3+",
+                "coefficient": 1
+              },
+              {
+                "name": "e-",
+                "coefficient": 1
+              }
+            ],
+            "protonCount": null,
+            "reference": "85Bar/Par",
+            "comment": "",
+            "rawBase64": "AARWIDIrwBdR64UeuFJAQIAAAAAAAMEuhH/MzMzNAAEyAARWIDMrP/AAAAAAAAAAAmUtP/AAAAAAAAAACTg1QmFyL1BhcgAA"
+          }
+        }
+      }
+    }
+  ],
+  "counterion": {
+    "id": "component:Cl-",
+    "name": "Cl-",
+    "role": "basis-choice",
+    "associations": [
+      {
+        "element": "Cl",
+        "description": "chloride",
+        "byteOffset": 1091,
+        "rawBlockBase64": "AAJDbAAAAAIAA0NsLQAIY2hsb3JpZGUABUNsTzMtAAhjaGxvcmF0ZQ=="
+      }
+    ],
+    "deprecated": false,
+    "provenance": {
+      "sourceDatabase": "spana:2ac52a30213c9288dd18fc6dd597411e5c3ca53173fa6d1fab5530b371c30a0a",
+      "sourceFile": "Eq-Diagr/Reactions.elb",
+      "importDate": "2026-09-05T16:23:16.736Z",
+      "importerVersion": "spana-readonly-1.0.0"
+    }
+  },
+  "excluded": [
+    {
+      "id": "spana:2ac52a30213c9288:120483",
+      "name": "Eu 2+",
+      "phase": "aqueous",
+      "logK": -6.1,
+      "reaction": {
+        "product": "Eu 2+",
+        "components": [
+          {
+            "name": "Eu 3+",
+            "coefficient": 1
+          },
+          {
+            "name": "e-",
+            "coefficient": 1
+          }
+        ]
+      }
+    },
+    {
+      "id": "spana:2ac52a30213c9288:120557",
+      "name": "Eu(CH3COO) 2+",
+      "phase": "aqueous",
+      "logK": 2.77,
+      "reaction": {
+        "product": "Eu(CH3COO) 2+",
+        "components": [
+          {
+            "name": "Eu 3+",
+            "coefficient": 1
+          },
+          {
+            "name": "CH3COO-",
+            "coefficient": 1
+          }
+        ]
+      }
+    },
+    {
+      "id": "spana:2ac52a30213c9288:120644",
+      "name": "Eu(CH3COO)2+",
+      "phase": "aqueous",
+      "logK": 4.7,
+      "reaction": {
+        "product": "Eu(CH3COO)2+",
+        "components": [
+          {
+            "name": "Eu 3+",
+            "coefficient": 1
+          },
+          {
+            "name": "CH3COO-",
+            "coefficient": 2
+          }
+        ]
+      }
+    },
+    {
+      "id": "spana:2ac52a30213c9288:120730",
+      "name": "Eu(CH3COO)3",
+      "phase": "aqueous",
+      "logK": 5.51,
+      "reaction": {
+        "product": "Eu(CH3COO)3",
+        "components": [
+          {
+            "name": "Eu 3+",
+            "coefficient": 1
+          },
+          {
+            "name": "CH3COO-",
+            "coefficient": 3
+          }
+        ]
+      }
+    },
+    {
+      "id": "spana:2ac52a30213c9288:120815",
+      "name": "Eu(cit)",
+      "phase": "aqueous",
+      "logK": 9.46,
+      "reaction": {
+        "product": "Eu(cit)",
+        "components": [
+          {
+            "name": "Eu 3+",
+            "coefficient": 1
+          },
+          {
+            "name": "cit 3-",
+            "coefficient": 1
+          }
+        ]
+      }
+    },
+    {
+      "id": "spana:2ac52a30213c9288:120895",
+      "name": "Eu(CO3)2-",
+      "phase": "aqueous",
+      "logK": 12.24,
+      "reaction": {
+        "product": "Eu(CO3)2-",
+        "components": [
+          {
+            "name": "Eu 3+",
+            "coefficient": 1
+          },
+          {
+            "name": "CO3 2-",
+            "coefficient": 2
+          }
+        ]
+      }
+    },
+    {
+      "id": "spana:2ac52a30213c9288:120985",
+      "name": "Eu(cr)",
+      "phase": "solid",
+      "logK": -100.9,
+      "reaction": {
+        "product": "Eu(cr)",
+        "components": [
+          {
+            "name": "Eu 3+",
+            "coefficient": 1
+          },
+          {
+            "name": "e-",
+            "coefficient": 3
+          }
+        ]
+      }
+    },
+    {
+      "id": "spana:2ac52a30213c9288:121060",
+      "name": "Eu(EDTA)-",
+      "phase": "aqueous",
+      "logK": 19.82,
+      "reaction": {
+        "product": "Eu(EDTA)-",
+        "components": [
+          {
+            "name": "Eu 3+",
+            "coefficient": 1
+          },
+          {
+            "name": "EDTA 4-",
+            "coefficient": 1
+          }
+        ]
+      }
+    },
+    {
+      "id": "spana:2ac52a30213c9288:121143",
+      "name": "Eu(gly) 2+",
+      "phase": "aqueous",
+      "logK": 4.1,
+      "reaction": {
+        "product": "Eu(gly) 2+",
+        "components": [
+          {
+            "name": "Eu 3+",
+            "coefficient": 1
+          },
+          {
+            "name": "gly-",
+            "coefficient": 1
+          }
+        ]
+      }
+    },
+    {
+      "id": "spana:2ac52a30213c9288:121224",
+      "name": "Eu(H3SiO4)2+",
+      "phase": "aqueous",
+      "logK": -6.89,
+      "reaction": {
+        "product": "Eu(H3SiO4)2+",
+        "components": [
+          {
+            "name": "Eu 3+",
+            "coefficient": 1
+          },
+          {
+            "name": "H+",
+            "coefficient": -2
+          },
+          {
+            "name": "Si(OH)4",
+            "coefficient": 2
+          }
+        ]
+      }
+    },
+    {
+      "id": "spana:2ac52a30213c9288:121322",
+      "name": "Eu(HCOO) 2+",
+      "phase": "aqueous",
+      "logK": 2.04,
+      "reaction": {
+        "product": "Eu(HCOO) 2+",
+        "components": [
+          {
+            "name": "Eu 3+",
+            "coefficient": 1
+          },
+          {
+            "name": "HCOO-",
+            "coefficient": 1
+          }
+        ]
+      }
+    },
+    {
+      "id": "spana:2ac52a30213c9288:121405",
+      "name": "Eu(HCOO)2+",
+      "phase": "aqueous",
+      "logK": 3,
+      "reaction": {
+        "product": "Eu(HCOO)2+",
+        "components": [
+          {
+            "name": "Eu 3+",
+            "coefficient": 1
+          },
+          {
+            "name": "HCOO-",
+            "coefficient": 2
+          }
+        ]
+      }
+    },
+    {
+      "id": "spana:2ac52a30213c9288:121487",
+      "name": "Eu(HEDTA)",
+      "phase": "aqueous",
+      "logK": 21.52,
+      "reaction": {
+        "product": "Eu(HEDTA)",
+        "components": [
+          {
+            "name": "Eu 3+",
+            "coefficient": 1
+          },
+          {
+            "name": "H+",
+            "coefficient": 1
+          },
+          {
+            "name": "EDTA 4-",
+            "coefficient": 1
+          }
+        ]
+      }
+    },
+    {
+      "id": "spana:2ac52a30213c9288:121582",
+      "name": "Eu(Hgly) 3+",
+      "phase": "aqueous",
+      "logK": 10.52,
+      "reaction": {
+        "product": "Eu(Hgly) 3+",
+        "components": [
+          {
+            "name": "Eu 3+",
+            "coefficient": 1
+          },
+          {
+            "name": "H+",
+            "coefficient": 1
+          },
+          {
+            "name": "gly-",
+            "coefficient": 1
+          }
+        ]
+      }
+    },
+    {
+      "id": "spana:2ac52a30213c9288:121676",
+      "name": "Eu(HPO4)2-",
+      "phase": "aqueous",
+      "logK": 33.8,
+      "reaction": {
+        "product": "Eu(HPO4)2-",
+        "components": [
+          {
+            "name": "Eu 3+",
+            "coefficient": 1
+          },
+          {
+            "name": "H+",
+            "coefficient": 2
+          },
+          {
+            "name": "PO4 3-",
+            "coefficient": 2
+          }
+        ]
+      }
+    },
+    {
+      "id": "spana:2ac52a30213c9288:121769",
+      "name": "Eu(IO3)3(s)",
+      "phase": "solid",
+      "logK": 11.41,
+      "reaction": {
+        "product": "Eu(IO3)3(s)",
+        "components": [
+          {
+            "name": "Eu 3+",
+            "coefficient": 1
+          },
+          {
+            "name": "IO3-",
+            "coefficient": 3
+          }
+        ]
+      }
+    },
+    {
+      "id": "spana:2ac52a30213c9288:121851",
+      "name": "Eu(NTA)2 3-",
+      "phase": "aqueous",
+      "logK": 22.56,
+      "reaction": {
+        "product": "Eu(NTA)2 3-",
+        "components": [
+          {
+            "name": "Eu 3+",
+            "coefficient": 1
+          },
+          {
+            "name": "NTA 3-",
+            "coefficient": 2
+          }
+        ]
+      }
+    },
+    {
+      "id": "spana:2ac52a30213c9288:121935",
+      "name": "Eu(NTA)OH-",
+      "phase": "aqueous",
+      "logK": 6.08,
+      "reaction": {
+        "product": "Eu(NTA)OH-",
+        "components": [
+          {
+            "name": "Eu 3+",
+            "coefficient": 1
+          },
+          {
+            "name": "H+",
+            "coefficient": -1
+          },
+          {
+            "name": "NTA 3-",
+            "coefficient": 1
+          },
+          {
+            "name": "H2O",
+            "coefficient": 1
+          }
+        ]
+      }
+    },
+    {
+      "id": "spana:2ac52a30213c9288:122043",
+      "name": "Eu(OH)2+",
+      "phase": "aqueous",
+      "logK": -16.38,
+      "reaction": {
+        "product": "Eu(OH)2+",
+        "components": [
+          {
+            "name": "Eu 3+",
+            "coefficient": 1
+          },
+          {
+            "name": "H+",
+            "coefficient": -2
+          },
+          {
+            "name": "H2O",
+            "coefficient": 2
+          }
+        ]
+      }
+    },
+    {
+      "id": "spana:2ac52a30213c9288:122131",
+      "name": "Eu(OH)3",
+      "phase": "aqueous",
+      "logK": -25.42,
+      "reaction": {
+        "product": "Eu(OH)3",
+        "components": [
+          {
+            "name": "Eu 3+",
+            "coefficient": 1
+          },
+          {
+            "name": "H+",
+            "coefficient": -3
+          },
+          {
+            "name": "H2O",
+            "coefficient": 3
+          }
+        ]
+      }
+    },
+    {
+      "id": "spana:2ac52a30213c9288:122218",
+      "name": "Eu(OH)3(am)",
+      "phase": "solid",
+      "logK": -17.5,
+      "reaction": {
+        "product": "Eu(OH)3(am)",
+        "components": [
+          {
+            "name": "Eu 3+",
+            "coefficient": 1
+          },
+          {
+            "name": "H+",
+            "coefficient": -3
+          },
+          {
+            "name": "H2O",
+            "coefficient": 3
+          }
+        ]
+      }
+    },
+    {
+      "id": "spana:2ac52a30213c9288:122311",
+      "name": "Eu(OH)3(cr)",
+      "phase": "solid",
+      "logK": -15.5,
+      "reaction": {
+        "product": "Eu(OH)3(cr)",
+        "components": [
+          {
+            "name": "Eu 3+",
+            "coefficient": 1
+          },
+          {
+            "name": "H+",
+            "coefficient": -3
+          },
+          {
+            "name": "H2O",
+            "coefficient": 3
+          }
+        ]
+      }
+    },
+    {
+      "id": "spana:2ac52a30213c9288:122414",
+      "name": "Eu(OH)4-",
+      "phase": "aqueous",
+      "logK": -34.53,
+      "reaction": {
+        "product": "Eu(OH)4-",
+        "components": [
+          {
+            "name": "Eu 3+",
+            "coefficient": 1
+          },
+          {
+            "name": "H+",
+            "coefficient": -4
+          },
+          {
+            "name": "H2O",
+            "coefficient": 4
+          }
+        ]
+      }
+    },
+    {
+      "id": "spana:2ac52a30213c9288:122502",
+      "name": "Eu(ox)+",
+      "phase": "aqueous",
+      "logK": 6.52,
+      "reaction": {
+        "product": "Eu(ox)+",
+        "components": [
+          {
+            "name": "Eu 3+",
+            "coefficient": 1
+          },
+          {
+            "name": "ox 2-",
+            "coefficient": 1
+          }
+        ]
+      }
+    },
+    {
+      "id": "spana:2ac52a30213c9288:122581",
+      "name": "Eu(ox)2-",
+      "phase": "aqueous",
+      "logK": 10.74,
+      "reaction": {
+        "product": "Eu(ox)2-",
+        "components": [
+          {
+            "name": "Eu 3+",
+            "coefficient": 1
+          },
+          {
+            "name": "ox 2-",
+            "coefficient": 2
+          }
+        ]
+      }
+    },
+    {
+      "id": "spana:2ac52a30213c9288:122661",
+      "name": "Eu(ox)3 3-",
+      "phase": "aqueous",
+      "logK": 13.12,
+      "reaction": {
+        "product": "Eu(ox)3 3-",
+        "components": [
+          {
+            "name": "Eu 3+",
+            "coefficient": 1
+          },
+          {
+            "name": "ox 2-",
+            "coefficient": 3
+          }
+        ]
+      }
+    },
+    {
+      "id": "spana:2ac52a30213c9288:122743",
+      "name": "Eu(ox)4 5-",
+      "phase": "aqueous",
+      "logK": 12.54,
+      "reaction": {
+        "product": "Eu(ox)4 5-",
+        "components": [
+          {
+            "name": "Eu 3+",
+            "coefficient": 1
+          },
+          {
+            "name": "ox 2-",
+            "coefficient": 4
+          }
+        ]
+      }
+    },
+    {
+      "id": "spana:2ac52a30213c9288:122825",
+      "name": "Eu(PO4)2 3-",
+      "phase": "aqueous",
+      "logK": 20.66,
+      "reaction": {
+        "product": "Eu(PO4)2 3-",
+        "components": [
+          {
+            "name": "Eu 3+",
+            "coefficient": 1
+          },
+          {
+            "name": "PO4 3-",
+            "coefficient": 2
+          }
+        ]
+      }
+    },
+    {
+      "id": "spana:2ac52a30213c9288:122906",
+      "name": "Eu(SO4)2-",
+      "phase": "aqueous",
+      "logK": 5.4,
+      "reaction": {
+        "product": "Eu(SO4)2-",
+        "components": [
+          {
+            "name": "Eu 3+",
+            "coefficient": 1
+          },
+          {
+            "name": "SO4 2-",
+            "coefficient": 2
+          }
+        ]
+      }
+    },
+    {
+      "id": "spana:2ac52a30213c9288:122988",
+      "name": "Eu2(CO3)3(s)",
+      "phase": "solid",
+      "logK": 32.3,
+      "reaction": {
+        "product": "Eu2(CO3)3(s)",
+        "components": [
+          {
+            "name": "Eu 3+",
+            "coefficient": 2
+          },
+          {
+            "name": "CO3 2-",
+            "coefficient": 3
+          }
+        ]
+      }
+    },
+    {
+      "id": "spana:2ac52a30213c9288:123073",
+      "name": "Eu2(OH)2+4",
+      "phase": "aqueous",
+      "logK": -14.48,
+      "reaction": {
+        "product": "Eu2(OH)2+4",
+        "components": [
+          {
+            "name": "Eu 3+",
+            "coefficient": 2
+          },
+          {
+            "name": "H+",
+            "coefficient": -2
+          },
+          {
+            "name": "H2O",
+            "coefficient": 2
+          }
+        ]
+      }
+    },
+    {
+      "id": "spana:2ac52a30213c9288:123165",
+      "name": "Eu2(SO4)3·8H2O(s)",
+      "phase": "solid",
+      "logK": 10.2,
+      "reaction": {
+        "product": "Eu2(SO4)3·8H2O(s)",
+        "components": [
+          {
+            "name": "Eu 3+",
+            "coefficient": 2
+          },
+          {
+            "name": "SO4 2-",
+            "coefficient": 3
+          },
+          {
+            "name": "H2O",
+            "coefficient": 8
+          }
+        ]
+      }
+    },
+    {
+      "id": "spana:2ac52a30213c9288:123266",
+      "name": "Eu2P2O7+2",
+      "phase": "aqueous",
+      "logK": 20.27,
+      "reaction": {
+        "product": "Eu2P2O7+2",
+        "components": [
+          {
+            "name": "Eu 3+",
+            "coefficient": 2
+          },
+          {
+            "name": "P2O7 4-",
+            "coefficient": 1
+          }
+        ]
+      }
+    },
+    {
+      "id": "spana:2ac52a30213c9288:123349",
+      "name": "EuAsO4(cr)",
+      "phase": "solid",
+      "logK": 22.5,
+      "reaction": {
+        "product": "EuAsO4(cr)",
+        "components": [
+          {
+            "name": "Eu 3+",
+            "coefficient": 1
+          },
+          {
+            "name": "AsO4 3-",
+            "coefficient": 1
+          },
+          {
+            "name": "H2O",
+            "coefficient": 2
+          }
+        ]
+      }
+    },
+    {
+      "id": "spana:2ac52a30213c9288:123446",
+      "name": "EuBr+2",
+      "phase": "aqueous",
+      "logK": 0.6,
+      "reaction": {
+        "product": "EuBr+2",
+        "components": [
+          {
+            "name": "Eu 3+",
+            "coefficient": 1
+          },
+          {
+            "name": "Br-",
+            "coefficient": 1
+          }
+        ]
+      }
+    },
+    {
+      "id": "spana:2ac52a30213c9288:123522",
+      "name": "EuBr2+",
+      "phase": "aqueous",
+      "logK": 1,
+      "reaction": {
+        "product": "EuBr2+",
+        "components": [
+          {
+            "name": "Eu 3+",
+            "coefficient": 1
+          },
+          {
+            "name": "Br-",
+            "coefficient": 2
+          }
+        ]
+      }
+    },
+    {
+      "id": "spana:2ac52a30213c9288:123598",
+      "name": "EuBrO3+2",
+      "phase": "aqueous",
+      "logK": 1.2,
+      "reaction": {
+        "product": "EuBrO3+2",
+        "components": [
+          {
+            "name": "Eu 3+",
+            "coefficient": 1
+          },
+          {
+            "name": "BrO3-",
+            "coefficient": 1
+          }
+        ]
+      }
+    },
+    {
+      "id": "spana:2ac52a30213c9288:123678",
+      "name": "EuCl 2+",
+      "phase": "aqueous",
+      "logK": 0.28,
+      "reaction": {
+        "product": "EuCl 2+",
+        "components": [
+          {
+            "name": "Eu 3+",
+            "coefficient": 1
+          },
+          {
+            "name": "Cl-",
+            "coefficient": 1
+          }
+        ]
+      }
+    },
+    {
+      "id": "spana:2ac52a30213c9288:123763",
+      "name": "EuCl2+",
+      "phase": "aqueous",
+      "logK": -0.05,
+      "reaction": {
+        "product": "EuCl2+",
+        "components": [
+          {
+            "name": "Eu 3+",
+            "coefficient": 1
+          },
+          {
+            "name": "Cl-",
+            "coefficient": 2
+          }
+        ]
+      }
+    },
+    {
+      "id": "spana:2ac52a30213c9288:123837",
+      "name": "EuCl3",
+      "phase": "aqueous",
+      "logK": -0.44,
+      "reaction": {
+        "product": "EuCl3",
+        "components": [
+          {
+            "name": "Eu 3+",
+            "coefficient": 1
+          },
+          {
+            "name": "Cl-",
+            "coefficient": 3
+          }
+        ]
+      }
+    },
+    {
+      "id": "spana:2ac52a30213c9288:123910",
+      "name": "EuClO3+2",
+      "phase": "aqueous",
+      "logK": 0.6,
+      "reaction": {
+        "product": "EuClO3+2",
+        "components": [
+          {
+            "name": "Eu 3+",
+            "coefficient": 1
+          },
+          {
+            "name": "ClO3-",
+            "coefficient": 1
+          }
+        ]
+      }
+    },
+    {
+      "id": "spana:2ac52a30213c9288:123990",
+      "name": "EuCO3+",
+      "phase": "aqueous",
+      "logK": 7.95,
+      "reaction": {
+        "product": "EuCO3+",
+        "components": [
+          {
+            "name": "Eu 3+",
+            "coefficient": 1
+          },
+          {
+            "name": "CO3 2-",
+            "coefficient": 1
+          }
+        ]
+      }
+    },
+    {
+      "id": "spana:2ac52a30213c9288:124077",
+      "name": "EuCO3OH(s)",
+      "phase": "solid",
+      "logK": 7.7,
+      "reaction": {
+        "product": "EuCO3OH(s)",
+        "components": [
+          {
+            "name": "Eu 3+",
+            "coefficient": 1
+          },
+          {
+            "name": "H+",
+            "coefficient": -1
+          },
+          {
+            "name": "CO3 2-",
+            "coefficient": 1
+          },
+          {
+            "name": "H2O",
+            "coefficient": 1
+          }
+        ]
+      }
+    },
+    {
+      "id": "spana:2ac52a30213c9288:124185",
+      "name": "EuF 2+",
+      "phase": "aqueous",
+      "logK": 4.45,
+      "reaction": {
+        "product": "EuF 2+",
+        "components": [
+          {
+            "name": "Eu 3+",
+            "coefficient": 1
+          },
+          {
+            "name": "F-",
+            "coefficient": 1
+          }
+        ]
+      }
+    },
+    {
+      "id": "spana:2ac52a30213c9288:124268",
+      "name": "EuF2+",
+      "phase": "aqueous",
+      "logK": 7.74,
+      "reaction": {
+        "product": "EuF2+",
+        "components": [
+          {
+            "name": "Eu 3+",
+            "coefficient": 1
+          },
+          {
+            "name": "F-",
+            "coefficient": 2
+          }
+        ]
+      }
+    },
+    {
+      "id": "spana:2ac52a30213c9288:124350",
+      "name": "EuF3",
+      "phase": "aqueous",
+      "logK": 10.16,
+      "reaction": {
+        "product": "EuF3",
+        "components": [
+          {
+            "name": "Eu 3+",
+            "coefficient": 1
+          },
+          {
+            "name": "F-",
+            "coefficient": 3
+          }
+        ]
+      }
+    },
+    {
+      "id": "spana:2ac52a30213c9288:124421",
+      "name": "EuF3(s)",
+      "phase": "solid",
+      "logK": 21.9,
+      "reaction": {
+        "product": "EuF3(s)",
+        "components": [
+          {
+            "name": "Eu 3+",
+            "coefficient": 1
+          },
+          {
+            "name": "F-",
+            "coefficient": 3
+          }
+        ]
+      }
+    },
+    {
+      "id": "spana:2ac52a30213c9288:124497",
+      "name": "EuF3·0.5H2O(s)",
+      "phase": "solid",
+      "logK": 17.2,
+      "reaction": {
+        "product": "EuF3·0.5H2O(s)",
+        "components": [
+          {
+            "name": "Eu 3+",
+            "coefficient": 1
+          },
+          {
+            "name": "F-",
+            "coefficient": 3
+          },
+          {
+            "name": "H2O",
+            "coefficient": 0.5
+          }
+        ]
+      }
+    },
+    {
+      "id": "spana:2ac52a30213c9288:124591",
+      "name": "EuF4-",
+      "phase": "aqueous",
+      "logK": 12.15,
+      "reaction": {
+        "product": "EuF4-",
+        "components": [
+          {
+            "name": "Eu 3+",
+            "coefficient": 1
+          },
+          {
+            "name": "F-",
+            "coefficient": 4
+          }
+        ]
+      }
+    },
+    {
+      "id": "spana:2ac52a30213c9288:124663",
+      "name": "EuFe(CN)6",
+      "phase": "aqueous",
+      "logK": 47.25,
+      "reaction": {
+        "product": "EuFe(CN)6",
+        "components": [
+          {
+            "name": "Fe 3+",
+            "coefficient": 1
+          },
+          {
+            "name": "CN-",
+            "coefficient": 6
+          },
+          {
+            "name": "Eu 3+",
+            "coefficient": 1
+          }
+        ]
+      }
+    },
+    {
+      "id": "spana:2ac52a30213c9288:124756",
+      "name": "EuH2PO2+2",
+      "phase": "aqueous",
+      "logK": 2.27,
+      "reaction": {
+        "product": "EuH2PO2+2",
+        "components": [
+          {
+            "name": "Eu 3+",
+            "coefficient": 1
+          },
+          {
+            "name": "H2PO2-",
+            "coefficient": 1
+          }
+        ]
+      }
+    },
+    {
+      "id": "spana:2ac52a30213c9288:124838",
+      "name": "EuH2PO4 2+",
+      "phase": "aqueous",
+      "logK": 22.426,
+      "reaction": {
+        "product": "EuH2PO4 2+",
+        "components": [
+          {
+            "name": "Eu 3+",
+            "coefficient": 1
+          },
+          {
+            "name": "H+",
+            "coefficient": 2
+          },
+          {
+            "name": "PO4 3-",
+            "coefficient": 1
+          }
+        ]
+      }
+    },
+    {
+      "id": "spana:2ac52a30213c9288:124931",
+      "name": "EuH3SiO4+2",
+      "phase": "aqueous",
+      "logK": -1.9,
+      "reaction": {
+        "product": "EuH3SiO4+2",
+        "components": [
+          {
+            "name": "Eu 3+",
+            "coefficient": 1
+          },
+          {
+            "name": "H+",
+            "coefficient": -1
+          },
+          {
+            "name": "Si(OH)4",
+            "coefficient": 1
+          }
+        ]
+      }
+    },
+    {
+      "id": "spana:2ac52a30213c9288:125027",
+      "name": "EuHCO3 2+",
+      "phase": "aqueous",
+      "logK": 11.929,
+      "reaction": {
+        "product": "EuHCO3 2+",
+        "components": [
+          {
+            "name": "Eu 3+",
+            "coefficient": 1
+          },
+          {
+            "name": "H+",
+            "coefficient": 1
+          },
+          {
+            "name": "CO3 2-",
+            "coefficient": 1
+          }
+        ]
+      }
+    },
+    {
+      "id": "spana:2ac52a30213c9288:125129",
+      "name": "EuHPO4+",
+      "phase": "aqueous",
+      "logK": 18.47,
+      "reaction": {
+        "product": "EuHPO4+",
+        "components": [
+          {
+            "name": "Eu 3+",
+            "coefficient": 1
+          },
+          {
+            "name": "H+",
+            "coefficient": 1
+          },
+          {
+            "name": "PO4 3-",
+            "coefficient": 1
+          }
+        ]
+      }
+    },
+    {
+      "id": "spana:2ac52a30213c9288:125219",
+      "name": "EuI+2",
+      "phase": "aqueous",
+      "logK": 0.36,
+      "reaction": {
+        "product": "EuI+2",
+        "components": [
+          {
+            "name": "Eu 3+",
+            "coefficient": 1
+          },
+          {
+            "name": "I-",
+            "coefficient": 1
+          }
+        ]
+      }
+    },
+    {
+      "id": "spana:2ac52a30213c9288:125293",
+      "name": "EuIO3+2",
+      "phase": "aqueous",
+      "logK": 1.83,
+      "reaction": {
+        "product": "EuIO3+2",
+        "components": [
+          {
+            "name": "Eu 3+",
+            "coefficient": 1
+          },
+          {
+            "name": "IO3-",
+            "coefficient": 1
+          }
+        ]
+      }
+    },
+    {
+      "id": "spana:2ac52a30213c9288:125371",
+      "name": "EuN3+2",
+      "phase": "aqueous",
+      "logK": 1.54,
+      "reaction": {
+        "product": "EuN3+2",
+        "components": [
+          {
+            "name": "Eu 3+",
+            "coefficient": 1
+          },
+          {
+            "name": "N3-",
+            "coefficient": 1
+          }
+        ]
+      }
+    },
+    {
+      "id": "spana:2ac52a30213c9288:125447",
+      "name": "EuNO3 2+",
+      "phase": "aqueous",
+      "logK": 0.833,
+      "reaction": {
+        "product": "EuNO3 2+",
+        "components": [
+          {
+            "name": "Eu 3+",
+            "coefficient": 1
+          },
+          {
+            "name": "NO3-",
+            "coefficient": 1
+          }
+        ]
+      }
+    },
+    {
+      "id": "spana:2ac52a30213c9288:125524",
+      "name": "EuNTA",
+      "phase": "aqueous",
+      "logK": 13.24,
+      "reaction": {
+        "product": "EuNTA",
+        "components": [
+          {
+            "name": "Eu 3+",
+            "coefficient": 1
+          },
+          {
+            "name": "NTA 3-",
+            "coefficient": 1
+          }
+        ]
+      }
+    },
+    {
+      "id": "spana:2ac52a30213c9288:125602",
+      "name": "EuOH 2+",
+      "phase": "aqueous",
+      "logK": -7.9,
+      "reaction": {
+        "product": "EuOH 2+",
+        "components": [
+          {
+            "name": "Eu 3+",
+            "coefficient": 1
+          },
+          {
+            "name": "H+",
+            "coefficient": -1
+          },
+          {
+            "name": "H2O",
+            "coefficient": 1
+          }
+        ]
+      }
+    },
+    {
+      "id": "spana:2ac52a30213c9288:125689",
+      "name": "EuPO4",
+      "phase": "aqueous",
+      "logK": 12.2,
+      "reaction": {
+        "product": "EuPO4",
+        "components": [
+          {
+            "name": "Eu 3+",
+            "coefficient": 1
+          },
+          {
+            "name": "PO4 3-",
+            "coefficient": 1
+          }
+        ]
+      }
+    },
+    {
+      "id": "spana:2ac52a30213c9288:125764",
+      "name": "EuPO4(s)",
+      "phase": "solid",
+      "logK": 25.96,
+      "reaction": {
+        "product": "EuPO4(s)",
+        "components": [
+          {
+            "name": "Eu 3+",
+            "coefficient": 1
+          },
+          {
+            "name": "PO4 3-",
+            "coefficient": 1
+          }
+        ]
+      }
+    },
+    {
+      "id": "spana:2ac52a30213c9288:125843",
+      "name": "EuSCN+2",
+      "phase": "aqueous",
+      "logK": 0.7,
+      "reaction": {
+        "product": "EuSCN+2",
+        "components": [
+          {
+            "name": "Eu 3+",
+            "coefficient": 1
+          },
+          {
+            "name": "SCN-",
+            "coefficient": 1
+          }
+        ]
+      }
+    },
+    {
+      "id": "spana:2ac52a30213c9288:125921",
+      "name": "EuSO4+",
+      "phase": "aqueous",
+      "logK": 3.67,
+      "reaction": {
+        "product": "EuSO4+",
+        "components": [
+          {
+            "name": "Eu 3+",
+            "coefficient": 1
+          },
+          {
+            "name": "SO4 2-",
+            "coefficient": 1
+          }
+        ]
+      }
+    },
+    {
+      "id": "spana:2ac52a30213c9288:360928",
+      "name": "V 2+",
+      "phase": "aqueous",
+      "logK": -5.83,
+      "reaction": {
+        "product": "V 2+",
+        "components": [
+          {
+            "name": "V 3+",
+            "coefficient": 1
+          },
+          {
+            "name": "e-",
+            "coefficient": 1
+          }
+        ]
+      }
+    },
+    {
+      "id": "spana:2ac52a30213c9288:361000",
+      "name": "V 3+",
+      "phase": "aqueous",
+      "logK": 5.83,
+      "reaction": {
+        "product": "V 3+",
+        "components": [
+          {
+            "name": "e-",
+            "coefficient": -1
+          },
+          {
+            "name": "V 2+",
+            "coefficient": 1
+          }
+        ]
+      }
+    },
+    {
+      "id": "spana:2ac52a30213c9288:361170",
+      "name": "V(cr)",
+      "phase": "solid",
+      "logK": -38.19,
+      "reaction": {
+        "product": "V(cr)",
+        "components": [
+          {
+            "name": "V 2+",
+            "coefficient": 1
+          },
+          {
+            "name": "e-",
+            "coefficient": 2
+          }
+        ]
+      }
+    },
+    {
+      "id": "spana:2ac52a30213c9288:361243",
+      "name": "V(EDTA) 2-",
+      "phase": "aqueous",
+      "logK": 14.4,
+      "reaction": {
+        "product": "V(EDTA) 2-",
+        "components": [
+          {
+            "name": "V 2+",
+            "coefficient": 1
+          },
+          {
+            "name": "EDTA 4-",
+            "coefficient": 1
+          }
+        ]
+      }
+    },
+    {
+      "id": "spana:2ac52a30213c9288:361326",
+      "name": "V(EDTA)-",
+      "phase": "aqueous",
+      "logK": 28.5,
+      "reaction": {
+        "product": "V(EDTA)-",
+        "components": [
+          {
+            "name": "V 3+",
+            "coefficient": 1
+          },
+          {
+            "name": "EDTA 4-",
+            "coefficient": 1
+          }
+        ]
+      }
+    },
+    {
+      "id": "spana:2ac52a30213c9288:361407",
+      "name": "V(EDTA)OH 2-",
+      "phase": "aqueous",
+      "logK": 18.53,
+      "reaction": {
+        "product": "V(EDTA)OH 2-",
+        "components": [
+          {
+            "name": "V 3+",
+            "coefficient": 1
+          },
+          {
+            "name": "H+",
+            "coefficient": -1
+          },
+          {
+            "name": "EDTA 4-",
+            "coefficient": 1
+          },
+          {
+            "name": "H2O",
+            "coefficient": 1
+          }
+        ]
+      }
+    },
+    {
+      "id": "spana:2ac52a30213c9288:361517",
+      "name": "V(EDTA)OH 3-",
+      "phase": "aqueous",
+      "logK": 0.700000000000001,
+      "reaction": {
+        "product": "V(EDTA)OH 3-",
+        "components": [
+          {
+            "name": "V 2+",
+            "coefficient": 1
+          },
+          {
+            "name": "H+",
+            "coefficient": -1
+          },
+          {
+            "name": "EDTA 4-",
+            "coefficient": 1
+          },
+          {
+            "name": "H2O",
+            "coefficient": 1
+          }
+        ]
+      }
+    },
+    {
+      "id": "spana:2ac52a30213c9288:361627",
+      "name": "V(HEDTA)",
+      "phase": "aqueous",
+      "logK": 31.31,
+      "reaction": {
+        "product": "V(HEDTA)",
+        "components": [
+          {
+            "name": "V 3+",
+            "coefficient": 1
+          },
+          {
+            "name": "H+",
+            "coefficient": 1
+          },
+          {
+            "name": "EDTA 4-",
+            "coefficient": 1
+          }
+        ]
+      }
+    },
+    {
+      "id": "spana:2ac52a30213c9288:361720",
+      "name": "V(HEDTA)-",
+      "phase": "aqueous",
+      "logK": 18.3,
+      "reaction": {
+        "product": "V(HEDTA)-",
+        "components": [
+          {
+            "name": "V 2+",
+            "coefficient": 1
+          },
+          {
+            "name": "H+",
+            "coefficient": 1
+          },
+          {
+            "name": "EDTA 4-",
+            "coefficient": 1
+          }
+        ]
+      }
+    },
+    {
+      "id": "spana:2ac52a30213c9288:361814",
+      "name": "V(NTA)",
+      "phase": "aqueous",
+      "logK": 15.33,
+      "reaction": {
+        "product": "V(NTA)",
+        "components": [
+          {
+            "name": "V 3+",
+            "coefficient": 1
+          },
+          {
+            "name": "NTA 3-",
+            "coefficient": 1
+          }
+        ]
+      }
+    },
+    {
+      "id": "spana:2ac52a30213c9288:361892",
+      "name": "V(NTA)2 3-",
+      "phase": "aqueous",
+      "logK": 25.01,
+      "reaction": {
+        "product": "V(NTA)2 3-",
+        "components": [
+          {
+            "name": "V 3+",
+            "coefficient": 1
+          },
+          {
+            "name": "NTA 3-",
+            "coefficient": 2
+          }
+        ]
+      }
+    },
+    {
+      "id": "spana:2ac52a30213c9288:361974",
+      "name": "V(NTA)OH-",
+      "phase": "aqueous",
+      "logK": 8.96,
+      "reaction": {
+        "product": "V(NTA)OH-",
+        "components": [
+          {
+            "name": "V 3+",
+            "coefficient": 1
+          },
+          {
+            "name": "H+",
+            "coefficient": -1
+          },
+          {
+            "name": "NTA 3-",
+            "coefficient": 1
+          },
+          {
+            "name": "H2O",
+            "coefficient": 1
+          }
+        ]
+      }
+    },
+    {
+      "id": "spana:2ac52a30213c9288:362080",
+      "name": "V(OH)2(s)",
+      "phase": "solid",
+      "logK": -12.6,
+      "reaction": {
+        "product": "V(OH)2(s)",
+        "components": [
+          {
+            "name": "V 2+",
+            "coefficient": 1
+          },
+          {
+            "name": "H+",
+            "coefficient": -2
+          },
+          {
+            "name": "H2O",
+            "coefficient": 2
+          }
+        ]
+      }
+    },
+    {
+      "id": "spana:2ac52a30213c9288:362170",
+      "name": "V(OH)2+",
+      "phase": "aqueous",
+      "logK": -6.03,
+      "reaction": {
+        "product": "V(OH)2+",
+        "components": [
+          {
+            "name": "V 3+",
+            "coefficient": 1
+          },
+          {
+            "name": "H+",
+            "coefficient": -2
+          },
+          {
+            "name": "H2O",
+            "coefficient": 2
+          }
+        ]
+      }
+    },
+    {
+      "id": "spana:2ac52a30213c9288:362258",
+      "name": "V(OH)3(s)",
+      "phase": "solid",
+      "logK": -7.6,
+      "reaction": {
+        "product": "V(OH)3(s)",
+        "components": [
+          {
+            "name": "V 3+",
+            "coefficient": 1
+          },
+          {
+            "name": "H+",
+            "coefficient": -3
+          },
+          {
+            "name": "H2O",
+            "coefficient": 3
+          }
+        ]
+      }
+    },
+    {
+      "id": "spana:2ac52a30213c9288:362435",
+      "name": "V2(OH)2+4",
+      "phase": "aqueous",
+      "logK": -3.8,
+      "reaction": {
+        "product": "V2(OH)2+4",
+        "components": [
+          {
+            "name": "V 3+",
+            "coefficient": 2
+          },
+          {
+            "name": "H+",
+            "coefficient": -2
+          },
+          {
+            "name": "H2O",
+            "coefficient": 2
+          }
+        ]
+      }
+    },
+    {
+      "id": "spana:2ac52a30213c9288:362525",
+      "name": "V2(OH)3+3",
+      "phase": "aqueous",
+      "logK": -6.59,
+      "reaction": {
+        "product": "V2(OH)3+3",
+        "components": [
+          {
+            "name": "V 3+",
+            "coefficient": 2
+          },
+          {
+            "name": "H+",
+            "coefficient": -3
+          },
+          {
+            "name": "H2O",
+            "coefficient": 3
+          }
+        ]
+      }
+    },
+    {
+      "id": "spana:2ac52a30213c9288:363287",
+      "name": "VF+2",
+      "phase": "aqueous",
+      "logK": 5.8,
+      "reaction": {
+        "product": "VF+2",
+        "components": [
+          {
+            "name": "V 3+",
+            "coefficient": 1
+          },
+          {
+            "name": "F-",
+            "coefficient": 1
+          }
+        ]
+      }
+    },
+    {
+      "id": "spana:2ac52a30213c9288:363359",
+      "name": "VN3+2",
+      "phase": "aqueous",
+      "logK": 3.69,
+      "reaction": {
+        "product": "VN3+2",
+        "components": [
+          {
+            "name": "V 3+",
+            "coefficient": 1
+          },
+          {
+            "name": "N3-",
+            "coefficient": 1
+          }
+        ]
+      }
+    },
+    {
+      "id": "spana:2ac52a30213c9288:363433",
+      "name": "VO 2+",
+      "phase": "aqueous",
+      "logK": -7.37,
+      "reaction": {
+        "product": "VO 2+",
+        "components": [
+          {
+            "name": "H+",
+            "coefficient": -2
+          },
+          {
+            "name": "e-",
+            "coefficient": -1
+          },
+          {
+            "name": "H2O",
+            "coefficient": 1
+          },
+          {
+            "name": "V 3+",
+            "coefficient": 1
+          }
+        ]
+      }
+    },
+    {
+      "id": "spana:2ac52a30213c9288:363880",
+      "name": "VO(cr)",
+      "phase": "solid",
+      "logK": -8.92,
+      "reaction": {
+        "product": "VO(cr)",
+        "components": [
+          {
+            "name": "V 2+",
+            "coefficient": 1
+          },
+          {
+            "name": "H+",
+            "coefficient": -2
+          },
+          {
+            "name": "H2O",
+            "coefficient": 1
+          }
+        ]
+      }
+    },
+    {
+      "id": "spana:2ac52a30213c9288:369626",
+      "name": "VOH+",
+      "phase": "aqueous",
+      "logK": -6.5,
+      "reaction": {
+        "product": "VOH+",
+        "components": [
+          {
+            "name": "V 2+",
+            "coefficient": 1
+          },
+          {
+            "name": "H+",
+            "coefficient": -1
+          },
+          {
+            "name": "H2O",
+            "coefficient": 1
+          }
+        ]
+      }
+    },
+    {
+      "id": "spana:2ac52a30213c9288:369711",
+      "name": "VOH+2",
+      "phase": "aqueous",
+      "logK": -2.26,
+      "reaction": {
+        "product": "VOH+2",
+        "components": [
+          {
+            "name": "V 3+",
+            "coefficient": 1
+          },
+          {
+            "name": "H+",
+            "coefficient": -1
+          },
+          {
+            "name": "H2O",
+            "coefficient": 1
+          }
+        ]
+      }
+    },
+    {
+      "id": "spana:2ac52a30213c9288:370493",
+      "name": "VSCN+",
+      "phase": "aqueous",
+      "logK": 2.07,
+      "reaction": {
+        "product": "VSCN+",
+        "components": [
+          {
+            "name": "V 2+",
+            "coefficient": 1
+          },
+          {
+            "name": "SCN-",
+            "coefficient": 1
+          }
+        ]
+      }
+    },
+    {
+      "id": "spana:2ac52a30213c9288:370568",
+      "name": "VSCN+2",
+      "phase": "aqueous",
+      "logK": 3.17,
+      "reaction": {
+        "product": "VSCN+2",
+        "components": [
+          {
+            "name": "V 3+",
+            "coefficient": 1
+          },
+          {
+            "name": "SCN-",
+            "coefficient": 1
+          }
+        ]
+      }
+    },
+    {
+      "id": "spana:2ac52a30213c9288:370644",
+      "name": "VSO4+",
+      "phase": "aqueous",
+      "logK": 3.58,
+      "reaction": {
+        "product": "VSO4+",
+        "components": [
+          {
+            "name": "V 3+",
+            "coefficient": 1
+          },
+          {
+            "name": "SO4 2-",
+            "coefficient": 1
+          }
+        ]
+      }
+    }
+  ]
+}

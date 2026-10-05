@@ -1,0 +1,322 @@
+{
+  "Cu": {
+    "systemId": "fa745a9d951a38cac972a421932facd4634655ad14203aec20dd7feb9ed47a05",
+    "metadataSha256": "628819f67a3122f2ad020bacb71a718f56b9009415d02dfc5a665ae1d9a95b55",
+    "contract": {
+      "version": "cu-pourbaix-candidate-v1",
+      "publicEnabled": false,
+      "tieTolerance": 1e-8,
+      "majorityRule": "strictly greater than 0.5; independent of predominance",
+      "metadataVersion": "cu-oxidation-state-metadata-v1",
+      "metadataSha256": "628819f67a3122f2ad020bacb71a718f56b9009415d02dfc5a665ae1d9a95b55",
+      "systemId": "fa745a9d951a38cac972a421932facd4634655ad14203aec20dd7feb9ed47a05",
+      "phaseScopeVersion": "cu-four-solids-v1",
+      "total": 0.0001,
+      "unit": "mol/kg-H2O",
+      "temperatureC": 25,
+      "pressureBar": 1,
+      "pressureMeaning": "declared",
+      "activityModel": "ideal",
+      "totalRationale": "Dilute 0.1 mmol/kg Cu tests aqueous hydrolysis, Cu(I)/Cu(II) exchange and metal/oxide precipitation while the existing 2e-14 mol/kg balance floor is only 2e-10 of total, below one quarter of the 1e-8 tie tolerance. This is a test inventory, not a universal environmental concentration.",
+      "pH": {
+        "min": 0,
+        "max": 14,
+        "step": 0.25,
+        "points": 57
+      },
+      "Eh": {
+        "min": -1,
+        "max": 1.2,
+        "step": 0.05,
+        "points": 45,
+        "reference": "SHE"
+      },
+      "includedSolids": [
+        "spana:2ac52a30213c9288:102394",
+        "spana:2ac52a30213c9288:104641",
+        "spana:2ac52a30213c9288:110778",
+        "spana:2ac52a30213c9288:98874"
+      ],
+      "excluded": [],
+      "excludedScope": "Other ligand systems, alloys, nonstoichiometric phases and phases absent from the pinned source snapshot are not modeled. No compatible Cu-H-O phase in this snapshot was suppressed.",
+      "reservoirs": [
+        "fixed H+ activity",
+        "fixed electron activity",
+        "a(H2O)=1"
+      ],
+      "gasTreatment": "H2/O2 reference overlays only; no analytical gas inventory is solved.",
+      "phaseSuppression": "Modified thermodynamic scope; default validation claim invalidated. No kinetic claim.",
+      "otherTotals": "No support beyond the fixed independently compared total."
+    },
+    "gridCounts": {
+      "requested": 2565,
+      "converged": 2565,
+      "failed": 0,
+      "notRun": 0
+    },
+    "counts": {
+      "0": 1179,
+      "1": 156,
+      "2": 1230
+    },
+    "water": {
+      "0": {
+        "below-H2-reference": 696,
+        "inside-water-reference-window": 483
+      },
+      "1": {
+        "inside-water-reference-window": 156
+      },
+      "2": {
+        "inside-water-reference-window": 762,
+        "above-O2-reference": 468
+      }
+    },
+    "maximumClosureResidual": 1.974603206639225e-17,
+    "maximumUnresolved": 0,
+    "acceptedSolidSampleCounts": {
+      "spana:2ac52a30213c9288:102394": 0,
+      "spana:2ac52a30213c9288:104641": 129,
+      "spana:2ac52a30213c9288:110778": 727,
+      "spana:2ac52a30213c9288:98874": 1181
+    },
+    "representatives": {
+      "0": {
+        "index": 370,
+        "pH": 7,
+        "Eh": -0.7000000000000001,
+        "pe": -11.832449202531757,
+        "fractions": [
+          {
+            "oxidationState": 0,
+            "amount": 0.0001,
+            "fraction": 1
+          },
+          {
+            "oxidationState": 1,
+            "amount": 4.058973422040823e-21,
+            "fraction": 4.058973422040823e-17
+          },
+          {
+            "oxidationState": 2,
+            "amount": 9.714840501402054e-36,
+            "fraction": 9.714840501402053e-32
+          }
+        ],
+        "majority": true,
+        "carrier": [
+          {
+            "id": "spana:2ac52a30213c9288:98874",
+            "name": "Cu(cr)",
+            "phase": "solid",
+            "oxidationState": 0,
+            "componentAmount": 0.0001,
+            "formulaAmount": 0.0001
+          }
+        ],
+        "acceptedSolids": [
+          {
+            "id": "spana:2ac52a30213c9288:98874",
+            "name": "Cu(cr)",
+            "amount": 0.0001,
+            "logSaturation": 0,
+            "status": "present",
+            "activity": 1,
+            "componentAmount": 0.0001
+          }
+        ],
+        "waterWindow": "below-H2-reference"
+      },
+      "1": {
+        "index": 1119,
+        "pH": 9,
+        "Eh": -0.04999999999999993,
+        "pe": -0.8451749430379815,
+        "fractions": [
+          {
+            "oxidationState": 0,
+            "amount": 0,
+            "fraction": 0
+          },
+          {
+            "oxidationState": 1,
+            "amount": 0.00009999999729912821,
+            "fraction": 0.9999999729912821
+          },
+          {
+            "oxidationState": 2,
+            "amount": 2.7008718355471904e-12,
+            "fraction": 2.70087183554719e-8
+          }
+        ],
+        "majority": true,
+        "carrier": [
+          {
+            "id": "spana:2ac52a30213c9288:104641",
+            "name": "Cu2O(cr)",
+            "phase": "solid",
+            "oxidationState": 1,
+            "componentAmount": 0.00009998794535488306,
+            "formulaAmount": 0.00004999397267744153
+          }
+        ],
+        "acceptedSolids": [
+          {
+            "id": "spana:2ac52a30213c9288:104641",
+            "name": "Cu2O(cr)",
+            "amount": 0.00004999397267744153,
+            "logSaturation": -1.7763568394002505e-15,
+            "status": "present",
+            "activity": 1,
+            "componentAmount": 0.00009998794535488306
+          }
+        ],
+        "waterWindow": "inside-water-reference-window"
+      },
+      "2": {
+        "index": 1970,
+        "pH": 8,
+        "Eh": 0.7,
+        "pe": 11.832449202531755,
+        "fractions": [
+          {
+            "oxidationState": 0,
+            "amount": 0,
+            "fraction": 0
+          },
+          {
+            "oxidationState": 1,
+            "amount": 7.861687798092366e-18,
+            "fraction": 7.861687798092366e-14
+          },
+          {
+            "oxidationState": 2,
+            "amount": 0.00009999999999998026,
+            "fraction": 0.9999999999998025
+          }
+        ],
+        "majority": true,
+        "carrier": [
+          {
+            "id": "spana:2ac52a30213c9288:110778",
+            "name": "CuO(cr)",
+            "phase": "solid",
+            "oxidationState": 2,
+            "componentAmount": 0.00009998734043515469,
+            "formulaAmount": 0.00009998734043515469
+          }
+        ],
+        "acceptedSolids": [
+          {
+            "id": "spana:2ac52a30213c9288:110778",
+            "name": "CuO(cr)",
+            "amount": 0.00009998734043515469,
+            "logSaturation": 8.881784197001252e-16,
+            "status": "present",
+            "activity": 1,
+            "componentAmount": 0.00009998734043515469
+          }
+        ],
+        "waterWindow": "inside-water-reference-window"
+      }
+    }
+  },
+  "Fe": {
+    "systemId": "8ead3d660c3c240620da3c69fa3a4b55810695c1dce8216e166f9579043386a1",
+    "metadataSha256": "933fe048793b76fed9f2ddce64760829bee7efc0b55ace4bffd6a7d6d9dafa78",
+    "contract": {
+      "version": "fe-pourbaix-candidate-v1",
+      "publicEnabled": false,
+      "tieTolerance": 1e-8,
+      "majorityRule": "strictly greater than 0.5; independent of predominance",
+      "metadataVersion": "oxidation-state-metadata-v1",
+      "metadataSha256": "933fe048793b76fed9f2ddce64760829bee7efc0b55ace4bffd6a7d6d9dafa78",
+      "systemId": "8ead3d660c3c240620da3c69fa3a4b55810695c1dce8216e166f9579043386a1",
+      "phaseScopeVersion": "fe-seven-solids-v1",
+      "total": 0.001,
+      "unit": "mol/kg-H2O",
+      "temperatureC": 25,
+      "pressureBar": 1,
+      "pressureMeaning": "declared",
+      "activityModel": "ideal",
+      "pH": {
+        "min": 0,
+        "max": 14,
+        "step": 0.25,
+        "points": 57
+      },
+      "Eh": {
+        "min": -1,
+        "max": 1.2,
+        "step": 0.05,
+        "points": 45,
+        "reference": "SHE"
+      },
+      "includedSolids": [
+        "spana:2ac52a30213c9288:127500",
+        "spana:2ac52a30213c9288:130902",
+        "spana:2ac52a30213c9288:131188",
+        "spana:2ac52a30213c9288:131294",
+        "spana:2ac52a30213c9288:133739",
+        "spana:2ac52a30213c9288:134486",
+        "spana:2ac52a30213c9288:139276"
+      ],
+      "excluded": [
+        {
+          "id": "spana:2ac52a30213c9288:132744",
+          "name": "Fe0.932O(cr)",
+          "reason": "unsupported-fractional-canonical-stoichiometry"
+        }
+      ],
+      "reservoirs": [
+        "fixed H+ activity",
+        "fixed electron activity",
+        "a(H2O)=1"
+      ],
+      "gasTreatment": "H2/O2 reference overlays only; no analytical gas inventory is solved.",
+      "phaseSuppression": "Modified thermodynamic scope; default validation claim invalidated. No kinetic claim.",
+      "otherTotals": "Internal exploration only; independent validation is restricted to 0.001 mol/kg H2O."
+    },
+    "gridCounts": {
+      "requested": 2565,
+      "converged": 2565,
+      "failed": 0,
+      "notRun": 0
+    },
+    "counts": {
+      "0": 422,
+      "2": 581,
+      "3": 1473,
+      "6": 89
+    },
+    "water": {
+      "0": {
+        "below-H2-reference": 422
+      },
+      "2": {
+        "below-H2-reference": 268,
+        "inside-water-reference-window": 313
+      },
+      "3": {
+        "below-H2-reference": 6,
+        "inside-water-reference-window": 1088,
+        "above-O2-reference": 379
+      },
+      "6": {
+        "above-O2-reference": 89
+      }
+    },
+    "maximumClosureResidual": 1.9949319973733282e-16,
+    "maximumUnresolved": 0,
+    "acceptedSolidSampleCounts": {
+      "spana:2ac52a30213c9288:127500": 422,
+      "spana:2ac52a30213c9288:130902": 49,
+      "spana:2ac52a30213c9288:131188": 0,
+      "spana:2ac52a30213c9288:131294": 0,
+      "spana:2ac52a30213c9288:133739": 1365,
+      "spana:2ac52a30213c9288:134486": 92,
+      "spana:2ac52a30213c9288:139276": 0
+    },
+    "maximumFractionDifference": 0
+  }
+}

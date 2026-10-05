@@ -1,0 +1,168 @@
+e-
+H+
+H2O2
+Li+
+Be 2+
+B(OH)3
+CO3 2-
+CN-
+OCN-
+SCN-
+HCOO-
+CH3COO-
+ox 2-
+cit 3-
+NTA 3-
+EDTA 4-
+gly-
+AcSal-
+NO3-
+NO2-
+NH3
+N3-
+F-
+Na+
+Mg 2+
+Al 3+
+Si(OH)4
+PO4 3-
+HPO3 2-
+H2PO2-
+P2O6 4-
+HP2O6 3-
+P2O7 4-
+P3O9 3-
+P3O10 5-
+P4O12 4-
+SO4 2-
+SO3 2-
+S2O3 2-
+HS-
+Cl-
+ClO3-
+K+
+Ca 2+
+Sc 3+
+TiO 2+
+Ti 3+
+Ti 2+
+V 2+
+V 3+
+VO 2+
+VO2+
+Cr 3+
+Cr 2+
+CrO4 2-
+Mn 2+
+Mn 3+
+Fe 2+
+Fe 3+
+Co 2+
+Co 3+
+Ni 2+
+Cu 2+
+Cu+
+Zn 2+
+Ga 3+
+Ge 2+
+Ge(OH)4
+H3AsO3
+AsO4 3-
+SeO4 2-
+SeO3 2-
+H2Se
+SeCN-
+Br-
+BrO-
+BrO3-
+Rb+
+Sr 2+
+Y 3+
+Zr 4+
+Nb(OH)5
+MoO4 2-
+Mo2O4 2+
+Mo 3+
+Tc 3+
+TcO(OH)2
+TcO4 3-
+TcO4 2-
+TcO4-
+Ru 2+
+Ru 3+
+Ru(OH)2 2+
+RuO4 2-
+RuO4
+Rh 3+
+Rh 2+
+Pd 2+
+Ag+
+Cd 2+
+In 3+
+Sn 2+
+Sn 4+
+(CH3)2Sn 2+
+Sb(OH)3
+Sb(OH)6-
+HTe-
+H2TeO3
+H6TeO6
+I-
+IO3-
+Cs+
+Ba 2+
+La 3+
+Ce 3+
+Ce 4+
+Pr 3+
+Nd 3+
+Sm 3+
+Eu 3+
+Gd 3+
+Tb 3+
+Dy 3+
+Ho 3+
+Er 3+
+Tm 3+
+Yb 3+
+Lu 3+
+Hf 4+
+Ta(OH)5
+WO4 2-
+ReO4-
+Re(OH)4
+OsO4
+Ir 3+
+Pt 2+
+Au+
+Au 3+
+Hg 2+
+Hg2 2+
+CH3Hg+
+Tl 3+
+Tl+
+Pb 2+
+Pb 4+
+(CH3)2Pb 2+
+Bi 3+
+HPo-
+Po 2+
+PoO 2+
+Ra 2+
+Th 4+
+U 4+
+UO2+
+UO2 2+
+U 3+
+Np 4+
+NpO2+
+NpO2 2+
+Np 3+
+Pu 3+
+Pu 4+
+PuO2+
+PuO2 2+
+Am 3+
+Am 4+
+AmO2+
+H2O

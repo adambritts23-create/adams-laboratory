@@ -1,0 +1,2167 @@
+{
+  "baseline": {
+    "tests": 468,
+    "pass": 468,
+    "fail": 0,
+    "cancelled": 0,
+    "skipped": 0,
+    "todo": 0,
+    "build": "passed",
+    "lint": "0 errors; 1 pre-existing warning",
+    "artifactAudit": "passed"
+  },
+  "final": {
+    "tests": 480,
+    "pass": 480,
+    "fail": 0,
+    "cancelled": 0,
+    "skipped": 0,
+    "todo": 0,
+    "durationMs": 223265.9759,
+    "build": "passed",
+    "lint": "0 errors; 1 pre-existing ExpandedPlot hook-cleanup warning",
+    "artifactAudit": "passed",
+    "goldens": [
+      "acid-base",
+      "complexation",
+      "precipitation",
+      "redox",
+      "fixed-activity"
+    ]
+  },
+  "controls": {
+    "Fe": {
+      "counts": {
+        "0": 422,
+        "2": 581,
+        "3": 1473,
+        "6": 89
+      },
+      "status": "reference-validated",
+      "systemId": "8ead3d660c3c240620da3c69fa3a4b55810695c1dce8216e166f9579043386a1",
+      "maxFractionDifference": 0
+    },
+    "Cu": {
+      "counts": {
+        "0": 1179,
+        "1": 156,
+        "2": 1230
+      },
+      "status": "reference-validated",
+      "systemId": "fa745a9d951a38cac972a421932facd4634655ad14203aec20dd7feb9ed47a05",
+      "maxFractionDifference": 0
+    },
+    "CuExploration": {
+      "counts": {
+        "requested": 2565,
+        "converged": 2565,
+        "failed": 0,
+        "notRun": 0
+      },
+      "status": "calculated-internally-verified",
+      "contract": {
+        "version": "user-selected-pourbaix-v1",
+        "publicEnabled": false,
+        "tieTolerance": 1e-8,
+        "majorityRule": "strictly greater than 0.5; independent of predominance",
+        "metadataVersion": "cu-oxidation-state-metadata-v1",
+        "metadataSha256": "628819f67a3122f2ad020bacb71a718f56b9009415d02dfc5a665ae1d9a95b55",
+        "systemId": "fa745a9d951a38cac972a421932facd4634655ad14203aec20dd7feb9ed47a05",
+        "phaseScopeVersion": "cu-four-solids-v1",
+        "total": 0.002,
+        "unit": "mol/kg-H2O",
+        "temperatureC": 25,
+        "pressureBar": 1,
+        "pressureMeaning": "declared",
+        "activityModel": "ideal",
+        "totalRationale": "Dilute 0.1 mmol/kg Cu tests aqueous hydrolysis, Cu(I)/Cu(II) exchange and metal/oxide precipitation while the existing 2e-14 mol/kg balance floor is only 2e-10 of total, below one quarter of the 1e-8 tie tolerance. This is a test inventory, not a universal environmental concentration.",
+        "pH": {
+          "min": 2,
+          "max": 12,
+          "points": 57,
+          "step": 0.17857142857142858
+        },
+        "Eh": {
+          "min": -1.005715,
+          "max": 1.005715,
+          "points": 45,
+          "step": 0.045714318181818175,
+          "reference": "SHE"
+        },
+        "includedSolids": [
+          "spana:2ac52a30213c9288:102394",
+          "spana:2ac52a30213c9288:104641",
+          "spana:2ac52a30213c9288:110778",
+          "spana:2ac52a30213c9288:98874"
+        ],
+        "excluded": [],
+        "excludedScope": "Other ligand systems, alloys, nonstoichiometric phases and phases absent from the pinned source snapshot are not modeled. No compatible Cu-H-O phase in this snapshot was suppressed.",
+        "reservoirs": [
+          "fixed H+ activity",
+          "fixed electron activity",
+          "a(H2O)=1"
+        ],
+        "gasTreatment": "H2/O2 reference overlays only; no analytical gas inventory is solved.",
+        "phaseSuppression": "Modified thermodynamic scope; default validation claim invalidated. No kinetic claim.",
+        "otherTotals": "No support beyond the fixed independently compared total.",
+        "claim": "User-selected conditions; scientific status requires accepted equilibrium at every requested point."
+      }
+    },
+    "U": {
+      "ok": false,
+      "reason": "Redox bridges cannot be canonicalized by the current supported compiler. A connected bridge is not a validated unit, electron-only substitution.",
+      "discovery": {
+        "componentId": "component:U%203%2B",
+        "family": {
+          "componentIds": [
+            "component:U%203%2B",
+            "component:U%204%2B",
+            "component:UO2%202%2B",
+            "component:UO2%2B"
+          ],
+          "bridges": [
+            {
+              "id": "spana:2ac52a30213c9288:346107",
+              "name": "U 3+",
+              "reaction": {
+                "product": "U 3+",
+                "components": [
+                  {
+                    "name": "U 4+",
+                    "coefficient": 1
+                  },
+                  {
+                    "name": "e-",
+                    "coefficient": 1
+                  }
+                ]
+              },
+              "reference": "NEA-U: Grenthe I, Fuger J, Konings R J M, Lemire R J, Muller A B, Nguyen-Trung C, Wanner H, Chemical Thermodynamics of Uranium. North-Holland, Elsevier Sci. Publ. B.V., Amsterdam, 1992\n\nNEA-Upd: Guillaumont R, Fanghänel T, Neck V, Fuger J, Palmer D A, Grenthe I, Rand M H, Update on the Chemical Thermodynamics of Uranium, Neptunium, Plutonium, Americium and Technetium. Elsevier B.V., Amsterdam, 2003"
+            },
+            {
+              "id": "spana:2ac52a30213c9288:346183",
+              "name": "U 4+",
+              "reaction": {
+                "product": "U 4+",
+                "components": [
+                  {
+                    "name": "H+",
+                    "coefficient": 4
+                  },
+                  {
+                    "name": "e-",
+                    "coefficient": 1
+                  },
+                  {
+                    "name": "H2O",
+                    "coefficient": -2
+                  },
+                  {
+                    "name": "UO2+",
+                    "coefficient": 1
+                  }
+                ]
+              },
+              "reference": "NEA-U: Grenthe I, Fuger J, Konings R J M, Lemire R J, Muller A B, Nguyen-Trung C, Wanner H, Chemical Thermodynamics of Uranium. North-Holland, Elsevier Sci. Publ. B.V., Amsterdam, 1992\n\nNEA-Upd: Guillaumont R, Fanghänel T, Neck V, Fuger J, Palmer D A, Grenthe I, Rand M H, Update on the Chemical Thermodynamics of Uranium, Neptunium, Plutonium, Americium and Technetium. Elsevier B.V., Amsterdam, 2003"
+            },
+            {
+              "id": "spana:2ac52a30213c9288:346284",
+              "name": "U 4+",
+              "reaction": {
+                "product": "U 4+",
+                "components": [
+                  {
+                    "name": "H+",
+                    "coefficient": 4
+                  },
+                  {
+                    "name": "e-",
+                    "coefficient": 2
+                  },
+                  {
+                    "name": "H2O",
+                    "coefficient": -2
+                  },
+                  {
+                    "name": "UO2 2+",
+                    "coefficient": 1
+                  }
+                ]
+              },
+              "reference": "NEA-U: Grenthe I, Fuger J, Konings R J M, Lemire R J, Muller A B, Nguyen-Trung C, Wanner H, Chemical Thermodynamics of Uranium. North-Holland, Elsevier Sci. Publ. B.V., Amsterdam, 1992\n\nNEA-Upd: Guillaumont R, Fanghänel T, Neck V, Fuger J, Palmer D A, Grenthe I, Rand M H, Update on the Chemical Thermodynamics of Uranium, Neptunium, Plutonium, Americium and Technetium. Elsevier B.V., Amsterdam, 2003"
+            },
+            {
+              "id": "spana:2ac52a30213c9288:346387",
+              "name": "U 4+",
+              "reaction": {
+                "product": "U 4+",
+                "components": [
+                  {
+                    "name": "e-",
+                    "coefficient": -1
+                  },
+                  {
+                    "name": "U 3+",
+                    "coefficient": 1
+                  }
+                ]
+              },
+              "reference": "NEA-U: Grenthe I, Fuger J, Konings R J M, Lemire R J, Muller A B, Nguyen-Trung C, Wanner H, Chemical Thermodynamics of Uranium. North-Holland, Elsevier Sci. Publ. B.V., Amsterdam, 1992\n\nNEA-Upd: Guillaumont R, Fanghänel T, Neck V, Fuger J, Palmer D A, Grenthe I, Rand M H, Update on the Chemical Thermodynamics of Uranium, Neptunium, Plutonium, Americium and Technetium. Elsevier B.V., Amsterdam, 2003"
+            },
+            {
+              "id": "spana:2ac52a30213c9288:350349",
+              "name": "UO2 2+",
+              "reaction": {
+                "product": "UO2 2+",
+                "components": [
+                  {
+                    "name": "e-",
+                    "coefficient": -1
+                  },
+                  {
+                    "name": "UO2+",
+                    "coefficient": 1
+                  }
+                ]
+              },
+              "reference": "NEA-U: Grenthe I, Fuger J, Konings R J M, Lemire R J, Muller A B, Nguyen-Trung C, Wanner H, Chemical Thermodynamics of Uranium. North-Holland, Elsevier Sci. Publ. B.V., Amsterdam, 1992\n\nNEA-Upd: Guillaumont R, Fanghänel T, Neck V, Fuger J, Palmer D A, Grenthe I, Rand M H, Update on the Chemical Thermodynamics of Uranium, Neptunium, Plutonium, Americium and Technetium. Elsevier B.V., Amsterdam, 2003"
+            },
+            {
+              "id": "spana:2ac52a30213c9288:350427",
+              "name": "UO2 2+",
+              "reaction": {
+                "product": "UO2 2+",
+                "components": [
+                  {
+                    "name": "H+",
+                    "coefficient": -4
+                  },
+                  {
+                    "name": "e-",
+                    "coefficient": -2
+                  },
+                  {
+                    "name": "H2O",
+                    "coefficient": 2
+                  },
+                  {
+                    "name": "U 4+",
+                    "coefficient": 1
+                  }
+                ]
+              },
+              "reference": "NEA-U: Grenthe I, Fuger J, Konings R J M, Lemire R J, Muller A B, Nguyen-Trung C, Wanner H, Chemical Thermodynamics of Uranium. North-Holland, Elsevier Sci. Publ. B.V., Amsterdam, 1992\n\nNEA-Upd: Guillaumont R, Fanghänel T, Neck V, Fuger J, Palmer D A, Grenthe I, Rand M H, Update on the Chemical Thermodynamics of Uranium, Neptunium, Plutonium, Americium and Technetium. Elsevier B.V., Amsterdam, 2003"
+            },
+            {
+              "id": "spana:2ac52a30213c9288:354421",
+              "name": "UO2+",
+              "reaction": {
+                "product": "UO2+",
+                "components": [
+                  {
+                    "name": "H+",
+                    "coefficient": -4
+                  },
+                  {
+                    "name": "e-",
+                    "coefficient": -1
+                  },
+                  {
+                    "name": "H2O",
+                    "coefficient": 2
+                  },
+                  {
+                    "name": "U 4+",
+                    "coefficient": 1
+                  }
+                ]
+              },
+              "reference": "NEA-U: Grenthe I, Fuger J, Konings R J M, Lemire R J, Muller A B, Nguyen-Trung C, Wanner H, Chemical Thermodynamics of Uranium. North-Holland, Elsevier Sci. Publ. B.V., Amsterdam, 1992\n\nNEA-Upd: Guillaumont R, Fanghänel T, Neck V, Fuger J, Palmer D A, Grenthe I, Rand M H, Update on the Chemical Thermodynamics of Uranium, Neptunium, Plutonium, Americium and Technetium. Elsevier B.V., Amsterdam, 2003"
+            },
+            {
+              "id": "spana:2ac52a30213c9288:354522",
+              "name": "UO2+",
+              "reaction": {
+                "product": "UO2+",
+                "components": [
+                  {
+                    "name": "e-",
+                    "coefficient": 1
+                  },
+                  {
+                    "name": "UO2 2+",
+                    "coefficient": 1
+                  }
+                ]
+              },
+              "reference": "NEA-U: Grenthe I, Fuger J, Konings R J M, Lemire R J, Muller A B, Nguyen-Trung C, Wanner H, Chemical Thermodynamics of Uranium. North-Holland, Elsevier Sci. Publ. B.V., Amsterdam, 1992\n\nNEA-Upd: Guillaumont R, Fanghänel T, Neck V, Fuger J, Palmer D A, Grenthe I, Rand M H, Update on the Chemical Thermodynamics of Uranium, Neptunium, Plutonium, Americium and Technetium. Elsevier B.V., Amsterdam, 2003"
+            }
+          ]
+        },
+        "carriers": [
+          {
+            "id": "spana:2ac52a30213c9288:6790",
+            "name": "(UO2)2(OH)2 2+",
+            "phase": "aqueous",
+            "sourceReference": "NEA-U: Grenthe I, Fuger J, Konings R J M, Lemire R J, Muller A B, Nguyen-Trung C, Wanner H, Chemical Thermodynamics of Uranium. North-Holland, Elsevier Sci. Publ. B.V., Amsterdam, 1992\n\nNEA-Upd: Guillaumont R, Fanghänel T, Neck V, Fuger J, Palmer D A, Grenthe I, Rand M H, Update on the Chemical Thermodynamics of Uranium, Neptunium, Plutonium, Americium and Technetium. Elsevier B.V., Amsterdam, 2003"
+          },
+          {
+            "id": "spana:2ac52a30213c9288:7227",
+            "name": "(UO2)2OH+3",
+            "phase": "aqueous",
+            "sourceReference": "NEA-U: Grenthe I, Fuger J, Konings R J M, Lemire R J, Muller A B, Nguyen-Trung C, Wanner H, Chemical Thermodynamics of Uranium. North-Holland, Elsevier Sci. Publ. B.V., Amsterdam, 1992\n\nNEA-Upd: Guillaumont R, Fanghänel T, Neck V, Fuger J, Palmer D A, Grenthe I, Rand M H, Update on the Chemical Thermodynamics of Uranium, Neptunium, Plutonium, Americium and Technetium. Elsevier B.V., Amsterdam, 2003"
+          },
+          {
+            "id": "spana:2ac52a30213c9288:7752",
+            "name": "(UO2)3(OH)4 2+",
+            "phase": "aqueous",
+            "sourceReference": "NEA-U: Grenthe I, Fuger J, Konings R J M, Lemire R J, Muller A B, Nguyen-Trung C, Wanner H, Chemical Thermodynamics of Uranium. North-Holland, Elsevier Sci. Publ. B.V., Amsterdam, 1992\n\nNEA-Upd: Guillaumont R, Fanghänel T, Neck V, Fuger J, Palmer D A, Grenthe I, Rand M H, Update on the Chemical Thermodynamics of Uranium, Neptunium, Plutonium, Americium and Technetium. Elsevier B.V., Amsterdam, 2003"
+          },
+          {
+            "id": "spana:2ac52a30213c9288:7853",
+            "name": "(UO2)3(OH)5+",
+            "phase": "aqueous",
+            "sourceReference": "NEA-U: Grenthe I, Fuger J, Konings R J M, Lemire R J, Muller A B, Nguyen-Trung C, Wanner H, Chemical Thermodynamics of Uranium. North-Holland, Elsevier Sci. Publ. B.V., Amsterdam, 1992\n\nNEA-Upd: Guillaumont R, Fanghänel T, Neck V, Fuger J, Palmer D A, Grenthe I, Rand M H, Update on the Chemical Thermodynamics of Uranium, Neptunium, Plutonium, Americium and Technetium. Elsevier B.V., Amsterdam, 2003"
+          },
+          {
+            "id": "spana:2ac52a30213c9288:7952",
+            "name": "(UO2)3(OH)7-",
+            "phase": "aqueous",
+            "sourceReference": "NEA-U: Grenthe I, Fuger J, Konings R J M, Lemire R J, Muller A B, Nguyen-Trung C, Wanner H, Chemical Thermodynamics of Uranium. North-Holland, Elsevier Sci. Publ. B.V., Amsterdam, 1992\n\nNEA-Upd: Guillaumont R, Fanghänel T, Neck V, Fuger J, Palmer D A, Grenthe I, Rand M H, Update on the Chemical Thermodynamics of Uranium, Neptunium, Plutonium, Americium and Technetium. Elsevier B.V., Amsterdam, 2003"
+          },
+          {
+            "id": "spana:2ac52a30213c9288:8611",
+            "name": "(UO2)4(OH)7+",
+            "phase": "aqueous",
+            "sourceReference": "NEA-U: Grenthe I, Fuger J, Konings R J M, Lemire R J, Muller A B, Nguyen-Trung C, Wanner H, Chemical Thermodynamics of Uranium. North-Holland, Elsevier Sci. Publ. B.V., Amsterdam, 1992\n\nNEA-Upd: Guillaumont R, Fanghänel T, Neck V, Fuger J, Palmer D A, Grenthe I, Rand M H, Update on the Chemical Thermodynamics of Uranium, Neptunium, Plutonium, Americium and Technetium. Elsevier B.V., Amsterdam, 2003"
+          },
+          {
+            "id": "spana:2ac52a30213c9288:346107",
+            "name": "U 3+",
+            "phase": "aqueous",
+            "sourceReference": "NEA-U: Grenthe I, Fuger J, Konings R J M, Lemire R J, Muller A B, Nguyen-Trung C, Wanner H, Chemical Thermodynamics of Uranium. North-Holland, Elsevier Sci. Publ. B.V., Amsterdam, 1992\n\nNEA-Upd: Guillaumont R, Fanghänel T, Neck V, Fuger J, Palmer D A, Grenthe I, Rand M H, Update on the Chemical Thermodynamics of Uranium, Neptunium, Plutonium, Americium and Technetium. Elsevier B.V., Amsterdam, 2003"
+          },
+          {
+            "id": "spana:2ac52a30213c9288:346183",
+            "name": "U 4+",
+            "phase": "aqueous",
+            "sourceReference": "NEA-U: Grenthe I, Fuger J, Konings R J M, Lemire R J, Muller A B, Nguyen-Trung C, Wanner H, Chemical Thermodynamics of Uranium. North-Holland, Elsevier Sci. Publ. B.V., Amsterdam, 1992\n\nNEA-Upd: Guillaumont R, Fanghänel T, Neck V, Fuger J, Palmer D A, Grenthe I, Rand M H, Update on the Chemical Thermodynamics of Uranium, Neptunium, Plutonium, Americium and Technetium. Elsevier B.V., Amsterdam, 2003"
+          },
+          {
+            "id": "spana:2ac52a30213c9288:346284",
+            "name": "U 4+",
+            "phase": "aqueous",
+            "sourceReference": "NEA-U: Grenthe I, Fuger J, Konings R J M, Lemire R J, Muller A B, Nguyen-Trung C, Wanner H, Chemical Thermodynamics of Uranium. North-Holland, Elsevier Sci. Publ. B.V., Amsterdam, 1992\n\nNEA-Upd: Guillaumont R, Fanghänel T, Neck V, Fuger J, Palmer D A, Grenthe I, Rand M H, Update on the Chemical Thermodynamics of Uranium, Neptunium, Plutonium, Americium and Technetium. Elsevier B.V., Amsterdam, 2003"
+          },
+          {
+            "id": "spana:2ac52a30213c9288:346387",
+            "name": "U 4+",
+            "phase": "aqueous",
+            "sourceReference": "NEA-U: Grenthe I, Fuger J, Konings R J M, Lemire R J, Muller A B, Nguyen-Trung C, Wanner H, Chemical Thermodynamics of Uranium. North-Holland, Elsevier Sci. Publ. B.V., Amsterdam, 1992\n\nNEA-Upd: Guillaumont R, Fanghänel T, Neck V, Fuger J, Palmer D A, Grenthe I, Rand M H, Update on the Chemical Thermodynamics of Uranium, Neptunium, Plutonium, Americium and Technetium. Elsevier B.V., Amsterdam, 2003"
+          },
+          {
+            "id": "spana:2ac52a30213c9288:346635",
+            "name": "U(cr)",
+            "phase": "solid",
+            "sourceReference": "NEA-U: Grenthe I, Fuger J, Konings R J M, Lemire R J, Muller A B, Nguyen-Trung C, Wanner H, Chemical Thermodynamics of Uranium. North-Holland, Elsevier Sci. Publ. B.V., Amsterdam, 1992\n\nNEA-Upd: Guillaumont R, Fanghänel T, Neck V, Fuger J, Palmer D A, Grenthe I, Rand M H, Update on the Chemical Thermodynamics of Uranium, Neptunium, Plutonium, Americium and Technetium. Elsevier B.V., Amsterdam, 2003"
+          },
+          {
+            "id": "spana:2ac52a30213c9288:347201",
+            "name": "U(OH)4",
+            "phase": "aqueous",
+            "sourceReference": "NEA-U: Grenthe I, Fuger J, Konings R J M, Lemire R J, Muller A B, Nguyen-Trung C, Wanner H, Chemical Thermodynamics of Uranium. North-Holland, Elsevier Sci. Publ. B.V., Amsterdam, 1992\n\nNEA-Upd: Guillaumont R, Fanghänel T, Neck V, Fuger J, Palmer D A, Grenthe I, Rand M H, Update on the Chemical Thermodynamics of Uranium, Neptunium, Plutonium, Americium and Technetium. Elsevier B.V., Amsterdam, 2003"
+          },
+          {
+            "id": "spana:2ac52a30213c9288:347292",
+            "name": "U(OH)5-",
+            "phase": "aqueous",
+            "sourceReference": "NEA-U: Grenthe I, Fuger J, Konings R J M, Lemire R J, Muller A B, Nguyen-Trung C, Wanner H, Chemical Thermodynamics of Uranium. North-Holland, Elsevier Sci. Publ. B.V., Amsterdam, 1992"
+          },
+          {
+            "id": "spana:2ac52a30213c9288:348584",
+            "name": "U3O7(cr)",
+            "phase": "solid",
+            "sourceReference": "NEA-U: Grenthe I, Fuger J, Konings R J M, Lemire R J, Muller A B, Nguyen-Trung C, Wanner H, Chemical Thermodynamics of Uranium. North-Holland, Elsevier Sci. Publ. B.V., Amsterdam, 1992\n\nNEA-Upd: Guillaumont R, Fanghänel T, Neck V, Fuger J, Palmer D A, Grenthe I, Rand M H, Update on the Chemical Thermodynamics of Uranium, Neptunium, Plutonium, Americium and Technetium. Elsevier B.V., Amsterdam, 2003"
+          },
+          {
+            "id": "spana:2ac52a30213c9288:348696",
+            "name": "U3O8(cr)",
+            "phase": "solid",
+            "sourceReference": "NEA-U: Grenthe I, Fuger J, Konings R J M, Lemire R J, Muller A B, Nguyen-Trung C, Wanner H, Chemical Thermodynamics of Uranium. North-Holland, Elsevier Sci. Publ. B.V., Amsterdam, 1992\n\nNEA-Upd: Guillaumont R, Fanghänel T, Neck V, Fuger J, Palmer D A, Grenthe I, Rand M H, Update on the Chemical Thermodynamics of Uranium, Neptunium, Plutonium, Americium and Technetium. Elsevier B.V., Amsterdam, 2003"
+          },
+          {
+            "id": "spana:2ac52a30213c9288:349004",
+            "name": "U4O9(cr)",
+            "phase": "solid",
+            "sourceReference": "NEA-U: Grenthe I, Fuger J, Konings R J M, Lemire R J, Muller A B, Nguyen-Trung C, Wanner H, Chemical Thermodynamics of Uranium. North-Holland, Elsevier Sci. Publ. B.V., Amsterdam, 1992\n\nNEA-Upd: Guillaumont R, Fanghänel T, Neck V, Fuger J, Palmer D A, Grenthe I, Rand M H, Update on the Chemical Thermodynamics of Uranium, Neptunium, Plutonium, Americium and Technetium. Elsevier B.V., Amsterdam, 2003"
+          },
+          {
+            "id": "spana:2ac52a30213c9288:350096",
+            "name": "UH3(cr)",
+            "phase": "solid",
+            "sourceReference": "NEA-U: Grenthe I, Fuger J, Konings R J M, Lemire R J, Muller A B, Nguyen-Trung C, Wanner H, Chemical Thermodynamics of Uranium. North-Holland, Elsevier Sci. Publ. B.V., Amsterdam, 1992\n\nNEA-Upd: Guillaumont R, Fanghänel T, Neck V, Fuger J, Palmer D A, Grenthe I, Rand M H, Update on the Chemical Thermodynamics of Uranium, Neptunium, Plutonium, Americium and Technetium. Elsevier B.V., Amsterdam, 2003"
+          },
+          {
+            "id": "spana:2ac52a30213c9288:350349",
+            "name": "UO2 2+",
+            "phase": "aqueous",
+            "sourceReference": "NEA-U: Grenthe I, Fuger J, Konings R J M, Lemire R J, Muller A B, Nguyen-Trung C, Wanner H, Chemical Thermodynamics of Uranium. North-Holland, Elsevier Sci. Publ. B.V., Amsterdam, 1992\n\nNEA-Upd: Guillaumont R, Fanghänel T, Neck V, Fuger J, Palmer D A, Grenthe I, Rand M H, Update on the Chemical Thermodynamics of Uranium, Neptunium, Plutonium, Americium and Technetium. Elsevier B.V., Amsterdam, 2003"
+          },
+          {
+            "id": "spana:2ac52a30213c9288:350427",
+            "name": "UO2 2+",
+            "phase": "aqueous",
+            "sourceReference": "NEA-U: Grenthe I, Fuger J, Konings R J M, Lemire R J, Muller A B, Nguyen-Trung C, Wanner H, Chemical Thermodynamics of Uranium. North-Holland, Elsevier Sci. Publ. B.V., Amsterdam, 1992\n\nNEA-Upd: Guillaumont R, Fanghänel T, Neck V, Fuger J, Palmer D A, Grenthe I, Rand M H, Update on the Chemical Thermodynamics of Uranium, Neptunium, Plutonium, Americium and Technetium. Elsevier B.V., Amsterdam, 2003"
+          },
+          {
+            "id": "spana:2ac52a30213c9288:350530",
+            "name": "UO2(am)",
+            "phase": "solid",
+            "sourceReference": "NEA-U: Grenthe I, Fuger J, Konings R J M, Lemire R J, Muller A B, Nguyen-Trung C, Wanner H, Chemical Thermodynamics of Uranium. North-Holland, Elsevier Sci. Publ. B.V., Amsterdam, 1992\n\nNEA-Upd: Guillaumont R, Fanghänel T, Neck V, Fuger J, Palmer D A, Grenthe I, Rand M H, Update on the Chemical Thermodynamics of Uranium, Neptunium, Plutonium, Americium and Technetium. Elsevier B.V., Amsterdam, 2003"
+          },
+          {
+            "id": "spana:2ac52a30213c9288:351365",
+            "name": "UO2(cr)",
+            "phase": "solid",
+            "sourceReference": "NEA-U: Grenthe I, Fuger J, Konings R J M, Lemire R J, Muller A B, Nguyen-Trung C, Wanner H, Chemical Thermodynamics of Uranium. North-Holland, Elsevier Sci. Publ. B.V., Amsterdam, 1992\n\nNEA-Upd: Guillaumont R, Fanghänel T, Neck V, Fuger J, Palmer D A, Grenthe I, Rand M H, Update on the Chemical Thermodynamics of Uranium, Neptunium, Plutonium, Americium and Technetium. Elsevier B.V., Amsterdam, 2003"
+          },
+          {
+            "id": "spana:2ac52a30213c9288:353335",
+            "name": "UO2(OH)2",
+            "phase": "aqueous",
+            "sourceReference": "NEA-U: Grenthe I, Fuger J, Konings R J M, Lemire R J, Muller A B, Nguyen-Trung C, Wanner H, Chemical Thermodynamics of Uranium. North-Holland, Elsevier Sci. Publ. B.V., Amsterdam, 1992\n\nNEA-Upd: Guillaumont R, Fanghänel T, Neck V, Fuger J, Palmer D A, Grenthe I, Rand M H, Update on the Chemical Thermodynamics of Uranium, Neptunium, Plutonium, Americium and Technetium. Elsevier B.V., Amsterdam, 2003"
+          },
+          {
+            "id": "spana:2ac52a30213c9288:353430",
+            "name": "UO2(OH)2(cr)",
+            "phase": "solid",
+            "sourceReference": "NEA-U: Grenthe I, Fuger J, Konings R J M, Lemire R J, Muller A B, Nguyen-Trung C, Wanner H, Chemical Thermodynamics of Uranium. North-Holland, Elsevier Sci. Publ. B.V., Amsterdam, 1992\n\nNEA-Upd: Guillaumont R, Fanghänel T, Neck V, Fuger J, Palmer D A, Grenthe I, Rand M H, Update on the Chemical Thermodynamics of Uranium, Neptunium, Plutonium, Americium and Technetium. Elsevier B.V., Amsterdam, 2003"
+          },
+          {
+            "id": "spana:2ac52a30213c9288:353533",
+            "name": "UO2(OH)3-",
+            "phase": "aqueous",
+            "sourceReference": "NEA-U: Grenthe I, Fuger J, Konings R J M, Lemire R J, Muller A B, Nguyen-Trung C, Wanner H, Chemical Thermodynamics of Uranium. North-Holland, Elsevier Sci. Publ. B.V., Amsterdam, 1992\n\nNEA-Upd: Guillaumont R, Fanghänel T, Neck V, Fuger J, Palmer D A, Grenthe I, Rand M H, Update on the Chemical Thermodynamics of Uranium, Neptunium, Plutonium, Americium and Technetium. Elsevier B.V., Amsterdam, 2003"
+          },
+          {
+            "id": "spana:2ac52a30213c9288:353629",
+            "name": "UO2(OH)4 2-",
+            "phase": "aqueous",
+            "sourceReference": "NEA-U: Grenthe I, Fuger J, Konings R J M, Lemire R J, Muller A B, Nguyen-Trung C, Wanner H, Chemical Thermodynamics of Uranium. North-Holland, Elsevier Sci. Publ. B.V., Amsterdam, 1992\n\nNEA-Upd: Guillaumont R, Fanghänel T, Neck V, Fuger J, Palmer D A, Grenthe I, Rand M H, Update on the Chemical Thermodynamics of Uranium, Neptunium, Plutonium, Americium and Technetium. Elsevier B.V., Amsterdam, 2003"
+          },
+          {
+            "id": "spana:2ac52a30213c9288:354421",
+            "name": "UO2+",
+            "phase": "aqueous",
+            "sourceReference": "NEA-U: Grenthe I, Fuger J, Konings R J M, Lemire R J, Muller A B, Nguyen-Trung C, Wanner H, Chemical Thermodynamics of Uranium. North-Holland, Elsevier Sci. Publ. B.V., Amsterdam, 1992\n\nNEA-Upd: Guillaumont R, Fanghänel T, Neck V, Fuger J, Palmer D A, Grenthe I, Rand M H, Update on the Chemical Thermodynamics of Uranium, Neptunium, Plutonium, Americium and Technetium. Elsevier B.V., Amsterdam, 2003"
+          },
+          {
+            "id": "spana:2ac52a30213c9288:354522",
+            "name": "UO2+",
+            "phase": "aqueous",
+            "sourceReference": "NEA-U: Grenthe I, Fuger J, Konings R J M, Lemire R J, Muller A B, Nguyen-Trung C, Wanner H, Chemical Thermodynamics of Uranium. North-Holland, Elsevier Sci. Publ. B.V., Amsterdam, 1992\n\nNEA-Upd: Guillaumont R, Fanghänel T, Neck V, Fuger J, Palmer D A, Grenthe I, Rand M H, Update on the Chemical Thermodynamics of Uranium, Neptunium, Plutonium, Americium and Technetium. Elsevier B.V., Amsterdam, 2003"
+          },
+          {
+            "id": "spana:2ac52a30213c9288:357296",
+            "name": "UO2OH+",
+            "phase": "aqueous",
+            "sourceReference": "NEA-U: Grenthe I, Fuger J, Konings R J M, Lemire R J, Muller A B, Nguyen-Trung C, Wanner H, Chemical Thermodynamics of Uranium. North-Holland, Elsevier Sci. Publ. B.V., Amsterdam, 1992\n\nNEA-Upd: Guillaumont R, Fanghänel T, Neck V, Fuger J, Palmer D A, Grenthe I, Rand M H, Update on the Chemical Thermodynamics of Uranium, Neptunium, Plutonium, Americium and Technetium. Elsevier B.V., Amsterdam, 2003"
+          },
+          {
+            "id": "spana:2ac52a30213c9288:358594",
+            "name": "UO3·2H2O(cr)",
+            "phase": "solid",
+            "sourceReference": "NEA-U: Grenthe I, Fuger J, Konings R J M, Lemire R J, Muller A B, Nguyen-Trung C, Wanner H, Chemical Thermodynamics of Uranium. North-Holland, Elsevier Sci. Publ. B.V., Amsterdam, 1992\n\nNEA-Upd: Guillaumont R, Fanghänel T, Neck V, Fuger J, Palmer D A, Grenthe I, Rand M H, Update on the Chemical Thermodynamics of Uranium, Neptunium, Plutonium, Americium and Technetium. Elsevier B.V., Amsterdam, 2003"
+          },
+          {
+            "id": "spana:2ac52a30213c9288:359769",
+            "name": "UOH 3+",
+            "phase": "aqueous",
+            "sourceReference": "NEA-U: Grenthe I, Fuger J, Konings R J M, Lemire R J, Muller A B, Nguyen-Trung C, Wanner H, Chemical Thermodynamics of Uranium. North-Holland, Elsevier Sci. Publ. B.V., Amsterdam, 1992\n\nNEA-Upd: Guillaumont R, Fanghänel T, Neck V, Fuger J, Palmer D A, Grenthe I, Rand M H, Update on the Chemical Thermodynamics of Uranium, Neptunium, Plutonium, Americium and Technetium. Elsevier B.V., Amsterdam, 2003"
+          }
+        ],
+        "includedCandidates": [
+          {
+            "id": "spana:2ac52a30213c9288:6790",
+            "name": "(UO2)2(OH)2 2+",
+            "phase": "aqueous",
+            "sourceReference": "NEA-U: Grenthe I, Fuger J, Konings R J M, Lemire R J, Muller A B, Nguyen-Trung C, Wanner H, Chemical Thermodynamics of Uranium. North-Holland, Elsevier Sci. Publ. B.V., Amsterdam, 1992\n\nNEA-Upd: Guillaumont R, Fanghänel T, Neck V, Fuger J, Palmer D A, Grenthe I, Rand M H, Update on the Chemical Thermodynamics of Uranium, Neptunium, Plutonium, Americium and Technetium. Elsevier B.V., Amsterdam, 2003"
+          },
+          {
+            "id": "spana:2ac52a30213c9288:7227",
+            "name": "(UO2)2OH+3",
+            "phase": "aqueous",
+            "sourceReference": "NEA-U: Grenthe I, Fuger J, Konings R J M, Lemire R J, Muller A B, Nguyen-Trung C, Wanner H, Chemical Thermodynamics of Uranium. North-Holland, Elsevier Sci. Publ. B.V., Amsterdam, 1992\n\nNEA-Upd: Guillaumont R, Fanghänel T, Neck V, Fuger J, Palmer D A, Grenthe I, Rand M H, Update on the Chemical Thermodynamics of Uranium, Neptunium, Plutonium, Americium and Technetium. Elsevier B.V., Amsterdam, 2003"
+          },
+          {
+            "id": "spana:2ac52a30213c9288:7752",
+            "name": "(UO2)3(OH)4 2+",
+            "phase": "aqueous",
+            "sourceReference": "NEA-U: Grenthe I, Fuger J, Konings R J M, Lemire R J, Muller A B, Nguyen-Trung C, Wanner H, Chemical Thermodynamics of Uranium. North-Holland, Elsevier Sci. Publ. B.V., Amsterdam, 1992\n\nNEA-Upd: Guillaumont R, Fanghänel T, Neck V, Fuger J, Palmer D A, Grenthe I, Rand M H, Update on the Chemical Thermodynamics of Uranium, Neptunium, Plutonium, Americium and Technetium. Elsevier B.V., Amsterdam, 2003"
+          },
+          {
+            "id": "spana:2ac52a30213c9288:7853",
+            "name": "(UO2)3(OH)5+",
+            "phase": "aqueous",
+            "sourceReference": "NEA-U: Grenthe I, Fuger J, Konings R J M, Lemire R J, Muller A B, Nguyen-Trung C, Wanner H, Chemical Thermodynamics of Uranium. North-Holland, Elsevier Sci. Publ. B.V., Amsterdam, 1992\n\nNEA-Upd: Guillaumont R, Fanghänel T, Neck V, Fuger J, Palmer D A, Grenthe I, Rand M H, Update on the Chemical Thermodynamics of Uranium, Neptunium, Plutonium, Americium and Technetium. Elsevier B.V., Amsterdam, 2003"
+          },
+          {
+            "id": "spana:2ac52a30213c9288:7952",
+            "name": "(UO2)3(OH)7-",
+            "phase": "aqueous",
+            "sourceReference": "NEA-U: Grenthe I, Fuger J, Konings R J M, Lemire R J, Muller A B, Nguyen-Trung C, Wanner H, Chemical Thermodynamics of Uranium. North-Holland, Elsevier Sci. Publ. B.V., Amsterdam, 1992\n\nNEA-Upd: Guillaumont R, Fanghänel T, Neck V, Fuger J, Palmer D A, Grenthe I, Rand M H, Update on the Chemical Thermodynamics of Uranium, Neptunium, Plutonium, Americium and Technetium. Elsevier B.V., Amsterdam, 2003"
+          },
+          {
+            "id": "spana:2ac52a30213c9288:8611",
+            "name": "(UO2)4(OH)7+",
+            "phase": "aqueous",
+            "sourceReference": "NEA-U: Grenthe I, Fuger J, Konings R J M, Lemire R J, Muller A B, Nguyen-Trung C, Wanner H, Chemical Thermodynamics of Uranium. North-Holland, Elsevier Sci. Publ. B.V., Amsterdam, 1992\n\nNEA-Upd: Guillaumont R, Fanghänel T, Neck V, Fuger J, Palmer D A, Grenthe I, Rand M H, Update on the Chemical Thermodynamics of Uranium, Neptunium, Plutonium, Americium and Technetium. Elsevier B.V., Amsterdam, 2003"
+          },
+          {
+            "id": "spana:2ac52a30213c9288:346107",
+            "name": "U 3+",
+            "phase": "aqueous",
+            "sourceReference": "NEA-U: Grenthe I, Fuger J, Konings R J M, Lemire R J, Muller A B, Nguyen-Trung C, Wanner H, Chemical Thermodynamics of Uranium. North-Holland, Elsevier Sci. Publ. B.V., Amsterdam, 1992\n\nNEA-Upd: Guillaumont R, Fanghänel T, Neck V, Fuger J, Palmer D A, Grenthe I, Rand M H, Update on the Chemical Thermodynamics of Uranium, Neptunium, Plutonium, Americium and Technetium. Elsevier B.V., Amsterdam, 2003"
+          },
+          {
+            "id": "spana:2ac52a30213c9288:346183",
+            "name": "U 4+",
+            "phase": "aqueous",
+            "sourceReference": "NEA-U: Grenthe I, Fuger J, Konings R J M, Lemire R J, Muller A B, Nguyen-Trung C, Wanner H, Chemical Thermodynamics of Uranium. North-Holland, Elsevier Sci. Publ. B.V., Amsterdam, 1992\n\nNEA-Upd: Guillaumont R, Fanghänel T, Neck V, Fuger J, Palmer D A, Grenthe I, Rand M H, Update on the Chemical Thermodynamics of Uranium, Neptunium, Plutonium, Americium and Technetium. Elsevier B.V., Amsterdam, 2003"
+          },
+          {
+            "id": "spana:2ac52a30213c9288:346284",
+            "name": "U 4+",
+            "phase": "aqueous",
+            "sourceReference": "NEA-U: Grenthe I, Fuger J, Konings R J M, Lemire R J, Muller A B, Nguyen-Trung C, Wanner H, Chemical Thermodynamics of Uranium. North-Holland, Elsevier Sci. Publ. B.V., Amsterdam, 1992\n\nNEA-Upd: Guillaumont R, Fanghänel T, Neck V, Fuger J, Palmer D A, Grenthe I, Rand M H, Update on the Chemical Thermodynamics of Uranium, Neptunium, Plutonium, Americium and Technetium. Elsevier B.V., Amsterdam, 2003"
+          },
+          {
+            "id": "spana:2ac52a30213c9288:346387",
+            "name": "U 4+",
+            "phase": "aqueous",
+            "sourceReference": "NEA-U: Grenthe I, Fuger J, Konings R J M, Lemire R J, Muller A B, Nguyen-Trung C, Wanner H, Chemical Thermodynamics of Uranium. North-Holland, Elsevier Sci. Publ. B.V., Amsterdam, 1992\n\nNEA-Upd: Guillaumont R, Fanghänel T, Neck V, Fuger J, Palmer D A, Grenthe I, Rand M H, Update on the Chemical Thermodynamics of Uranium, Neptunium, Plutonium, Americium and Technetium. Elsevier B.V., Amsterdam, 2003"
+          },
+          {
+            "id": "spana:2ac52a30213c9288:346635",
+            "name": "U(cr)",
+            "phase": "solid",
+            "sourceReference": "NEA-U: Grenthe I, Fuger J, Konings R J M, Lemire R J, Muller A B, Nguyen-Trung C, Wanner H, Chemical Thermodynamics of Uranium. North-Holland, Elsevier Sci. Publ. B.V., Amsterdam, 1992\n\nNEA-Upd: Guillaumont R, Fanghänel T, Neck V, Fuger J, Palmer D A, Grenthe I, Rand M H, Update on the Chemical Thermodynamics of Uranium, Neptunium, Plutonium, Americium and Technetium. Elsevier B.V., Amsterdam, 2003"
+          },
+          {
+            "id": "spana:2ac52a30213c9288:347201",
+            "name": "U(OH)4",
+            "phase": "aqueous",
+            "sourceReference": "NEA-U: Grenthe I, Fuger J, Konings R J M, Lemire R J, Muller A B, Nguyen-Trung C, Wanner H, Chemical Thermodynamics of Uranium. North-Holland, Elsevier Sci. Publ. B.V., Amsterdam, 1992\n\nNEA-Upd: Guillaumont R, Fanghänel T, Neck V, Fuger J, Palmer D A, Grenthe I, Rand M H, Update on the Chemical Thermodynamics of Uranium, Neptunium, Plutonium, Americium and Technetium. Elsevier B.V., Amsterdam, 2003"
+          },
+          {
+            "id": "spana:2ac52a30213c9288:347292",
+            "name": "U(OH)5-",
+            "phase": "aqueous",
+            "sourceReference": "NEA-U: Grenthe I, Fuger J, Konings R J M, Lemire R J, Muller A B, Nguyen-Trung C, Wanner H, Chemical Thermodynamics of Uranium. North-Holland, Elsevier Sci. Publ. B.V., Amsterdam, 1992"
+          },
+          {
+            "id": "spana:2ac52a30213c9288:350096",
+            "name": "UH3(cr)",
+            "phase": "solid",
+            "sourceReference": "NEA-U: Grenthe I, Fuger J, Konings R J M, Lemire R J, Muller A B, Nguyen-Trung C, Wanner H, Chemical Thermodynamics of Uranium. North-Holland, Elsevier Sci. Publ. B.V., Amsterdam, 1992\n\nNEA-Upd: Guillaumont R, Fanghänel T, Neck V, Fuger J, Palmer D A, Grenthe I, Rand M H, Update on the Chemical Thermodynamics of Uranium, Neptunium, Plutonium, Americium and Technetium. Elsevier B.V., Amsterdam, 2003"
+          },
+          {
+            "id": "spana:2ac52a30213c9288:350349",
+            "name": "UO2 2+",
+            "phase": "aqueous",
+            "sourceReference": "NEA-U: Grenthe I, Fuger J, Konings R J M, Lemire R J, Muller A B, Nguyen-Trung C, Wanner H, Chemical Thermodynamics of Uranium. North-Holland, Elsevier Sci. Publ. B.V., Amsterdam, 1992\n\nNEA-Upd: Guillaumont R, Fanghänel T, Neck V, Fuger J, Palmer D A, Grenthe I, Rand M H, Update on the Chemical Thermodynamics of Uranium, Neptunium, Plutonium, Americium and Technetium. Elsevier B.V., Amsterdam, 2003"
+          },
+          {
+            "id": "spana:2ac52a30213c9288:350427",
+            "name": "UO2 2+",
+            "phase": "aqueous",
+            "sourceReference": "NEA-U: Grenthe I, Fuger J, Konings R J M, Lemire R J, Muller A B, Nguyen-Trung C, Wanner H, Chemical Thermodynamics of Uranium. North-Holland, Elsevier Sci. Publ. B.V., Amsterdam, 1992\n\nNEA-Upd: Guillaumont R, Fanghänel T, Neck V, Fuger J, Palmer D A, Grenthe I, Rand M H, Update on the Chemical Thermodynamics of Uranium, Neptunium, Plutonium, Americium and Technetium. Elsevier B.V., Amsterdam, 2003"
+          },
+          {
+            "id": "spana:2ac52a30213c9288:350530",
+            "name": "UO2(am)",
+            "phase": "solid",
+            "sourceReference": "NEA-U: Grenthe I, Fuger J, Konings R J M, Lemire R J, Muller A B, Nguyen-Trung C, Wanner H, Chemical Thermodynamics of Uranium. North-Holland, Elsevier Sci. Publ. B.V., Amsterdam, 1992\n\nNEA-Upd: Guillaumont R, Fanghänel T, Neck V, Fuger J, Palmer D A, Grenthe I, Rand M H, Update on the Chemical Thermodynamics of Uranium, Neptunium, Plutonium, Americium and Technetium. Elsevier B.V., Amsterdam, 2003"
+          },
+          {
+            "id": "spana:2ac52a30213c9288:351365",
+            "name": "UO2(cr)",
+            "phase": "solid",
+            "sourceReference": "NEA-U: Grenthe I, Fuger J, Konings R J M, Lemire R J, Muller A B, Nguyen-Trung C, Wanner H, Chemical Thermodynamics of Uranium. North-Holland, Elsevier Sci. Publ. B.V., Amsterdam, 1992\n\nNEA-Upd: Guillaumont R, Fanghänel T, Neck V, Fuger J, Palmer D A, Grenthe I, Rand M H, Update on the Chemical Thermodynamics of Uranium, Neptunium, Plutonium, Americium and Technetium. Elsevier B.V., Amsterdam, 2003"
+          },
+          {
+            "id": "spana:2ac52a30213c9288:353335",
+            "name": "UO2(OH)2",
+            "phase": "aqueous",
+            "sourceReference": "NEA-U: Grenthe I, Fuger J, Konings R J M, Lemire R J, Muller A B, Nguyen-Trung C, Wanner H, Chemical Thermodynamics of Uranium. North-Holland, Elsevier Sci. Publ. B.V., Amsterdam, 1992\n\nNEA-Upd: Guillaumont R, Fanghänel T, Neck V, Fuger J, Palmer D A, Grenthe I, Rand M H, Update on the Chemical Thermodynamics of Uranium, Neptunium, Plutonium, Americium and Technetium. Elsevier B.V., Amsterdam, 2003"
+          },
+          {
+            "id": "spana:2ac52a30213c9288:353430",
+            "name": "UO2(OH)2(cr)",
+            "phase": "solid",
+            "sourceReference": "NEA-U: Grenthe I, Fuger J, Konings R J M, Lemire R J, Muller A B, Nguyen-Trung C, Wanner H, Chemical Thermodynamics of Uranium. North-Holland, Elsevier Sci. Publ. B.V., Amsterdam, 1992\n\nNEA-Upd: Guillaumont R, Fanghänel T, Neck V, Fuger J, Palmer D A, Grenthe I, Rand M H, Update on the Chemical Thermodynamics of Uranium, Neptunium, Plutonium, Americium and Technetium. Elsevier B.V., Amsterdam, 2003"
+          },
+          {
+            "id": "spana:2ac52a30213c9288:353533",
+            "name": "UO2(OH)3-",
+            "phase": "aqueous",
+            "sourceReference": "NEA-U: Grenthe I, Fuger J, Konings R J M, Lemire R J, Muller A B, Nguyen-Trung C, Wanner H, Chemical Thermodynamics of Uranium. North-Holland, Elsevier Sci. Publ. B.V., Amsterdam, 1992\n\nNEA-Upd: Guillaumont R, Fanghänel T, Neck V, Fuger J, Palmer D A, Grenthe I, Rand M H, Update on the Chemical Thermodynamics of Uranium, Neptunium, Plutonium, Americium and Technetium. Elsevier B.V., Amsterdam, 2003"
+          },
+          {
+            "id": "spana:2ac52a30213c9288:353629",
+            "name": "UO2(OH)4 2-",
+            "phase": "aqueous",
+            "sourceReference": "NEA-U: Grenthe I, Fuger J, Konings R J M, Lemire R J, Muller A B, Nguyen-Trung C, Wanner H, Chemical Thermodynamics of Uranium. North-Holland, Elsevier Sci. Publ. B.V., Amsterdam, 1992\n\nNEA-Upd: Guillaumont R, Fanghänel T, Neck V, Fuger J, Palmer D A, Grenthe I, Rand M H, Update on the Chemical Thermodynamics of Uranium, Neptunium, Plutonium, Americium and Technetium. Elsevier B.V., Amsterdam, 2003"
+          },
+          {
+            "id": "spana:2ac52a30213c9288:354421",
+            "name": "UO2+",
+            "phase": "aqueous",
+            "sourceReference": "NEA-U: Grenthe I, Fuger J, Konings R J M, Lemire R J, Muller A B, Nguyen-Trung C, Wanner H, Chemical Thermodynamics of Uranium. North-Holland, Elsevier Sci. Publ. B.V., Amsterdam, 1992\n\nNEA-Upd: Guillaumont R, Fanghänel T, Neck V, Fuger J, Palmer D A, Grenthe I, Rand M H, Update on the Chemical Thermodynamics of Uranium, Neptunium, Plutonium, Americium and Technetium. Elsevier B.V., Amsterdam, 2003"
+          },
+          {
+            "id": "spana:2ac52a30213c9288:354522",
+            "name": "UO2+",
+            "phase": "aqueous",
+            "sourceReference": "NEA-U: Grenthe I, Fuger J, Konings R J M, Lemire R J, Muller A B, Nguyen-Trung C, Wanner H, Chemical Thermodynamics of Uranium. North-Holland, Elsevier Sci. Publ. B.V., Amsterdam, 1992\n\nNEA-Upd: Guillaumont R, Fanghänel T, Neck V, Fuger J, Palmer D A, Grenthe I, Rand M H, Update on the Chemical Thermodynamics of Uranium, Neptunium, Plutonium, Americium and Technetium. Elsevier B.V., Amsterdam, 2003"
+          },
+          {
+            "id": "spana:2ac52a30213c9288:357296",
+            "name": "UO2OH+",
+            "phase": "aqueous",
+            "sourceReference": "NEA-U: Grenthe I, Fuger J, Konings R J M, Lemire R J, Muller A B, Nguyen-Trung C, Wanner H, Chemical Thermodynamics of Uranium. North-Holland, Elsevier Sci. Publ. B.V., Amsterdam, 1992\n\nNEA-Upd: Guillaumont R, Fanghänel T, Neck V, Fuger J, Palmer D A, Grenthe I, Rand M H, Update on the Chemical Thermodynamics of Uranium, Neptunium, Plutonium, Americium and Technetium. Elsevier B.V., Amsterdam, 2003"
+          },
+          {
+            "id": "spana:2ac52a30213c9288:358594",
+            "name": "UO3·2H2O(cr)",
+            "phase": "solid",
+            "sourceReference": "NEA-U: Grenthe I, Fuger J, Konings R J M, Lemire R J, Muller A B, Nguyen-Trung C, Wanner H, Chemical Thermodynamics of Uranium. North-Holland, Elsevier Sci. Publ. B.V., Amsterdam, 1992\n\nNEA-Upd: Guillaumont R, Fanghänel T, Neck V, Fuger J, Palmer D A, Grenthe I, Rand M H, Update on the Chemical Thermodynamics of Uranium, Neptunium, Plutonium, Americium and Technetium. Elsevier B.V., Amsterdam, 2003"
+          },
+          {
+            "id": "spana:2ac52a30213c9288:359769",
+            "name": "UOH 3+",
+            "phase": "aqueous",
+            "sourceReference": "NEA-U: Grenthe I, Fuger J, Konings R J M, Lemire R J, Muller A B, Nguyen-Trung C, Wanner H, Chemical Thermodynamics of Uranium. North-Holland, Elsevier Sci. Publ. B.V., Amsterdam, 1992\n\nNEA-Upd: Guillaumont R, Fanghänel T, Neck V, Fuger J, Palmer D A, Grenthe I, Rand M H, Update on the Chemical Thermodynamics of Uranium, Neptunium, Plutonium, Americium and Technetium. Elsevier B.V., Amsterdam, 2003"
+          }
+        ],
+        "excludedCandidates": [
+          {
+            "id": "spana:2ac52a30213c9288:6288",
+            "name": "(UO2)11(CO3)6(OH)12-2",
+            "phase": "aqueous",
+            "sourceReference": "NEA-U: Grenthe I, Fuger J, Konings R J M, Lemire R J, Muller A B, Nguyen-Trung C, Wanner H, Chemical Thermodynamics of Uranium. North-Holland, Elsevier Sci. Publ. B.V., Amsterdam, 1992\n\nNEA-Upd: Guillaumont R, Fanghänel T, Neck V, Fuger J, Palmer D A, Grenthe I, Rand M H, Update on the Chemical Thermodynamics of Uranium, Neptunium, Plutonium, Americium and Technetium. Elsevier B.V., Amsterdam, 2003",
+            "reason": "requires-components-outside-selected-family"
+          },
+          {
+            "id": "spana:2ac52a30213c9288:6412",
+            "name": "(UO2)2(cit)2 2-",
+            "phase": "aqueous",
+            "sourceReference": "NEA-Org: Hummel W., Anderegg G., Rao L., Puigdomènech I., Tochiyama O., Chemical Thermodynamics of Compounds and Complexes of U, Np, Pu, Am, Tc, Se, Ni and Zr with Selected Organic Ligands, Amsterdam: Elsevier, 2005",
+            "reason": "requires-components-outside-selected-family"
+          },
+          {
+            "id": "spana:2ac52a30213c9288:6499",
+            "name": "(UO2)2(EDTA)",
+            "phase": "aqueous",
+            "sourceReference": "NEA-Org: Hummel W., Anderegg G., Rao L., Puigdomènech I., Tochiyama O., Chemical Thermodynamics of Compounds and Complexes of U, Np, Pu, Am, Tc, Se, Ni and Zr with Selected Organic Ligands, Amsterdam: Elsevier, 2005",
+            "reason": "requires-components-outside-selected-family"
+          },
+          {
+            "id": "spana:2ac52a30213c9288:6584",
+            "name": "(UO2)2(EDTA)2 4-",
+            "phase": "aqueous",
+            "sourceReference": "SmithMart: NIST Standard Reference Database 46 Version 8.\nNIST Critically Selected Stability Constants of Metal Complexes Database\nhttp://www.nist.gov/srd/nist46.cfm\nNational Institute of Standards and Technology, 100 Bureau Dr., Stop 2300, Gaithersburg, MD",
+            "reason": "requires-components-outside-selected-family"
+          },
+          {
+            "id": "spana:2ac52a30213c9288:6675",
+            "name": "(UO2)2(EDTA)OH-",
+            "phase": "aqueous",
+            "sourceReference": "SmithMart: NIST Standard Reference Database 46 Version 8.\nNIST Critically Selected Stability Constants of Metal Complexes Database\nhttp://www.nist.gov/srd/nist46.cfm\nNational Institute of Standards and Technology, 100 Bureau Dr., Stop 2300, Gaithersburg, MD",
+            "reason": "requires-components-outside-selected-family"
+          },
+          {
+            "id": "spana:2ac52a30213c9288:6891",
+            "name": "(UO2)2As2O7(cr)",
+            "phase": "solid",
+            "sourceReference": "NEA-U: Grenthe I, Fuger J, Konings R J M, Lemire R J, Muller A B, Nguyen-Trung C, Wanner H, Chemical Thermodynamics of Uranium. North-Holland, Elsevier Sci. Publ. B.V., Amsterdam, 1992\n\nNEA-Upd: Guillaumont R, Fanghänel T, Neck V, Fuger J, Palmer D A, Grenthe I, Rand M H, Update on the Chemical Thermodynamics of Uranium, Neptunium, Plutonium, Americium and Technetium. Elsevier B.V., Amsterdam, 2003",
+            "reason": "requires-components-outside-selected-family"
+          },
+          {
+            "id": "spana:2ac52a30213c9288:7010",
+            "name": "(UO2)2Cl3(s)",
+            "phase": "solid",
+            "sourceReference": "NEA-U: Grenthe I, Fuger J, Konings R J M, Lemire R J, Muller A B, Nguyen-Trung C, Wanner H, Chemical Thermodynamics of Uranium. North-Holland, Elsevier Sci. Publ. B.V., Amsterdam, 1992\n\nNEA-Upd: Guillaumont R, Fanghänel T, Neck V, Fuger J, Palmer D A, Grenthe I, Rand M H, Update on the Chemical Thermodynamics of Uranium, Neptunium, Plutonium, Americium and Technetium. Elsevier B.V., Amsterdam, 2003",
+            "reason": "requires-components-outside-selected-family"
+          },
+          {
+            "id": "spana:2ac52a30213c9288:7109",
+            "name": "(UO2)2CO3(OH)3-",
+            "phase": "aqueous",
+            "sourceReference": "NEA-U: Grenthe I, Fuger J, Konings R J M, Lemire R J, Muller A B, Nguyen-Trung C, Wanner H, Chemical Thermodynamics of Uranium. North-Holland, Elsevier Sci. Publ. B.V., Amsterdam, 1992\n\nNEA-Upd: Guillaumont R, Fanghänel T, Neck V, Fuger J, Palmer D A, Grenthe I, Rand M H, Update on the Chemical Thermodynamics of Uranium, Neptunium, Plutonium, Americium and Technetium. Elsevier B.V., Amsterdam, 2003",
+            "reason": "requires-components-outside-selected-family"
+          },
+          {
+            "id": "spana:2ac52a30213c9288:7324",
+            "name": "(UO2)2P2O7(s)",
+            "phase": "solid",
+            "sourceReference": "NEA-U: Grenthe I, Fuger J, Konings R J M, Lemire R J, Muller A B, Nguyen-Trung C, Wanner H, Chemical Thermodynamics of Uranium. North-Holland, Elsevier Sci. Publ. B.V., Amsterdam, 1992\n\nNEA-Upd: Guillaumont R, Fanghänel T, Neck V, Fuger J, Palmer D A, Grenthe I, Rand M H, Update on the Chemical Thermodynamics of Uranium, Neptunium, Plutonium, Americium and Technetium. Elsevier B.V., Amsterdam, 2003",
+            "reason": "requires-components-outside-selected-family"
+          },
+          {
+            "id": "spana:2ac52a30213c9288:7440",
+            "name": "(UO2)2SiO4·2H2O(s)",
+            "phase": "solid",
+            "sourceReference": "NEA-U: Grenthe I, Fuger J, Konings R J M, Lemire R J, Muller A B, Nguyen-Trung C, Wanner H, Chemical Thermodynamics of Uranium. North-Holland, Elsevier Sci. Publ. B.V., Amsterdam, 1992",
+            "reason": "requires-components-outside-selected-family"
+          },
+          {
+            "id": "spana:2ac52a30213c9288:7563",
+            "name": "(UO2)3(AsO4)2(cr)",
+            "phase": "solid",
+            "sourceReference": "NEA-U: Grenthe I, Fuger J, Konings R J M, Lemire R J, Muller A B, Nguyen-Trung C, Wanner H, Chemical Thermodynamics of Uranium. North-Holland, Elsevier Sci. Publ. B.V., Amsterdam, 1992\n\nNEA-Upd: Guillaumont R, Fanghänel T, Neck V, Fuger J, Palmer D A, Grenthe I, Rand M H, Update on the Chemical Thermodynamics of Uranium, Neptunium, Plutonium, Americium and Technetium. Elsevier B.V., Amsterdam, 2003",
+            "reason": "requires-components-outside-selected-family"
+          },
+          {
+            "id": "spana:2ac52a30213c9288:7659",
+            "name": "(UO2)3(CO3)6 6-",
+            "phase": "aqueous",
+            "sourceReference": "NEA-U: Grenthe I, Fuger J, Konings R J M, Lemire R J, Muller A B, Nguyen-Trung C, Wanner H, Chemical Thermodynamics of Uranium. North-Holland, Elsevier Sci. Publ. B.V., Amsterdam, 1992\n\nNEA-Upd: Guillaumont R, Fanghänel T, Neck V, Fuger J, Palmer D A, Grenthe I, Rand M H, Update on the Chemical Thermodynamics of Uranium, Neptunium, Plutonium, Americium and Technetium. Elsevier B.V., Amsterdam, 2003",
+            "reason": "requires-components-outside-selected-family"
+          },
+          {
+            "id": "spana:2ac52a30213c9288:8051",
+            "name": "(UO2)3(PO4)2(s)",
+            "phase": "solid",
+            "sourceReference": "NEA-U: Grenthe I, Fuger J, Konings R J M, Lemire R J, Muller A B, Nguyen-Trung C, Wanner H, Chemical Thermodynamics of Uranium. North-Holland, Elsevier Sci. Publ. B.V., Amsterdam, 1992\n\nNEA-Upd: Guillaumont R, Fanghänel T, Neck V, Fuger J, Palmer D A, Grenthe I, Rand M H, Update on the Chemical Thermodynamics of Uranium, Neptunium, Plutonium, Americium and Technetium. Elsevier B.V., Amsterdam, 2003",
+            "reason": "requires-components-outside-selected-family"
+          },
+          {
+            "id": "spana:2ac52a30213c9288:8144",
+            "name": "(UO2)3(PO4)2·4H2O(s)",
+            "phase": "solid",
+            "sourceReference": "NEA-U: Grenthe I, Fuger J, Konings R J M, Lemire R J, Muller A B, Nguyen-Trung C, Wanner H, Chemical Thermodynamics of Uranium. North-Holland, Elsevier Sci. Publ. B.V., Amsterdam, 1992\n\nNEA-Upd: Guillaumont R, Fanghänel T, Neck V, Fuger J, Palmer D A, Grenthe I, Rand M H, Update on the Chemical Thermodynamics of Uranium, Neptunium, Plutonium, Americium and Technetium. Elsevier B.V., Amsterdam, 2003",
+            "reason": "requires-components-outside-selected-family"
+          },
+          {
+            "id": "spana:2ac52a30213c9288:8256",
+            "name": "(UO2)3(PO4)2·6H2O(s)",
+            "phase": "solid",
+            "sourceReference": "NEA-U: Grenthe I, Fuger J, Konings R J M, Lemire R J, Muller A B, Nguyen-Trung C, Wanner H, Chemical Thermodynamics of Uranium. North-Holland, Elsevier Sci. Publ. B.V., Amsterdam, 1992\n\nNEA-Upd: Guillaumont R, Fanghänel T, Neck V, Fuger J, Palmer D A, Grenthe I, Rand M H, Update on the Chemical Thermodynamics of Uranium, Neptunium, Plutonium, Americium and Technetium. Elsevier B.V., Amsterdam, 2003",
+            "reason": "requires-components-outside-selected-family"
+          },
+          {
+            "id": "spana:2ac52a30213c9288:8368",
+            "name": "(UO2)3O(OH)2(HCO3)+",
+            "phase": "aqueous",
+            "sourceReference": "NEA-U: Grenthe I, Fuger J, Konings R J M, Lemire R J, Muller A B, Nguyen-Trung C, Wanner H, Chemical Thermodynamics of Uranium. North-Holland, Elsevier Sci. Publ. B.V., Amsterdam, 1992\n\nNEA-Upd: Guillaumont R, Fanghänel T, Neck V, Fuger J, Palmer D A, Grenthe I, Rand M H, Update on the Chemical Thermodynamics of Uranium, Neptunium, Plutonium, Americium and Technetium. Elsevier B.V., Amsterdam, 2003",
+            "reason": "requires-components-outside-selected-family"
+          },
+          {
+            "id": "spana:2ac52a30213c9288:8490",
+            "name": "(UO2)4(EDTA)2(OH)4 4-",
+            "phase": "aqueous",
+            "sourceReference": "SmithMart: NIST Standard Reference Database 46 Version 8.\nNIST Critically Selected Stability Constants of Metal Complexes Database\nhttp://www.nist.gov/srd/nist46.cfm\nNational Institute of Standards and Technology, 100 Bureau Dr., Stop 2300, Gaithersburg, MD",
+            "reason": "requires-components-outside-selected-family"
+          },
+          {
+            "id": "spana:2ac52a30213c9288:8710",
+            "name": "(UO2)6(EDTA)3(OH)4 4-",
+            "phase": "aqueous",
+            "sourceReference": "SmithMart: NIST Standard Reference Database 46 Version 8.\nNIST Critically Selected Stability Constants of Metal Complexes Database\nhttp://www.nist.gov/srd/nist46.cfm\nNational Institute of Standards and Technology, 100 Bureau Dr., Stop 2300, Gaithersburg, MD",
+            "reason": "requires-components-outside-selected-family"
+          },
+          {
+            "id": "spana:2ac52a30213c9288:37594",
+            "name": "b-UF5(s)",
+            "phase": "solid",
+            "sourceReference": "NEA-U: Grenthe I, Fuger J, Konings R J M, Lemire R J, Muller A B, Nguyen-Trung C, Wanner H, Chemical Thermodynamics of Uranium. North-Holland, Elsevier Sci. Publ. B.V., Amsterdam, 1992\n\nNEA-Upd: Guillaumont R, Fanghänel T, Neck V, Fuger J, Palmer D A, Grenthe I, Rand M H, Update on the Chemical Thermodynamics of Uranium, Neptunium, Plutonium, Americium and Technetium. Elsevier B.V., Amsterdam, 2003",
+            "reason": "requires-components-outside-selected-family"
+          },
+          {
+            "id": "spana:2ac52a30213c9288:39808",
+            "name": "Ba2U2O7(s)",
+            "phase": "solid",
+            "sourceReference": "NEA-U: Grenthe I, Fuger J, Konings R J M, Lemire R J, Muller A B, Nguyen-Trung C, Wanner H, Chemical Thermodynamics of Uranium. North-Holland, Elsevier Sci. Publ. B.V., Amsterdam, 1992\n\nNEA-Upd: Guillaumont R, Fanghänel T, Neck V, Fuger J, Palmer D A, Grenthe I, Rand M H, Update on the Chemical Thermodynamics of Uranium, Neptunium, Plutonium, Americium and Technetium. Elsevier B.V., Amsterdam, 2003",
+            "reason": "requires-components-outside-selected-family"
+          },
+          {
+            "id": "spana:2ac52a30213c9288:39918",
+            "name": "Ba2UO2(CO3)3",
+            "phase": "aqueous",
+            "sourceReference": "2006DB: Dong W, Brooks S C;  Environ.Sci. Technol. 40 (2006) 4689-4695",
+            "reason": "requires-components-outside-selected-family"
+          },
+          {
+            "id": "spana:2ac52a30213c9288:40409",
+            "name": "Ba3UO6(s)",
+            "phase": "solid",
+            "sourceReference": "NEA-U: Grenthe I, Fuger J, Konings R J M, Lemire R J, Muller A B, Nguyen-Trung C, Wanner H, Chemical Thermodynamics of Uranium. North-Holland, Elsevier Sci. Publ. B.V., Amsterdam, 1992\n\nNEA-Upd: Guillaumont R, Fanghänel T, Neck V, Fuger J, Palmer D A, Grenthe I, Rand M H, Update on the Chemical Thermodynamics of Uranium, Neptunium, Plutonium, Americium and Technetium. Elsevier B.V., Amsterdam, 2003",
+            "reason": "requires-components-outside-selected-family"
+          },
+          {
+            "id": "spana:2ac52a30213c9288:43548",
+            "name": "BaU2O7(s)",
+            "phase": "solid",
+            "sourceReference": "NEA-U: Grenthe I, Fuger J, Konings R J M, Lemire R J, Muller A B, Nguyen-Trung C, Wanner H, Chemical Thermodynamics of Uranium. North-Holland, Elsevier Sci. Publ. B.V., Amsterdam, 1992\n\nNEA-Upd: Guillaumont R, Fanghänel T, Neck V, Fuger J, Palmer D A, Grenthe I, Rand M H, Update on the Chemical Thermodynamics of Uranium, Neptunium, Plutonium, Americium and Technetium. Elsevier B.V., Amsterdam, 2003",
+            "reason": "requires-components-outside-selected-family"
+          },
+          {
+            "id": "spana:2ac52a30213c9288:43659",
+            "name": "BaUO2(CO3)3-2",
+            "phase": "aqueous",
+            "sourceReference": "2006DB: Dong W, Brooks S C;  Environ.Sci. Technol. 40 (2006) 4689-4695",
+            "reason": "requires-components-outside-selected-family"
+          },
+          {
+            "id": "spana:2ac52a30213c9288:43758",
+            "name": "BaUO4(s)",
+            "phase": "solid",
+            "sourceReference": "NEA-U: Grenthe I, Fuger J, Konings R J M, Lemire R J, Muller A B, Nguyen-Trung C, Wanner H, Chemical Thermodynamics of Uranium. North-Holland, Elsevier Sci. Publ. B.V., Amsterdam, 1992\n\nNEA-Upd: Guillaumont R, Fanghänel T, Neck V, Fuger J, Palmer D A, Grenthe I, Rand M H, Update on the Chemical Thermodynamics of Uranium, Neptunium, Plutonium, Americium and Technetium. Elsevier B.V., Amsterdam, 2003",
+            "reason": "requires-components-outside-selected-family"
+          },
+          {
+            "id": "spana:2ac52a30213c9288:55615",
+            "name": "Ca(H3O)2(UO2)2(SiO4)2·3H2O(cr)",
+            "phase": "solid",
+            "sourceReference": "NEA-U: Grenthe I, Fuger J, Konings R J M, Lemire R J, Muller A B, Nguyen-Trung C, Wanner H, Chemical Thermodynamics of Uranium. North-Holland, Elsevier Sci. Publ. B.V., Amsterdam, 1992",
+            "reason": "requires-components-outside-selected-family"
+          },
+          {
+            "id": "spana:2ac52a30213c9288:57909",
+            "name": "Ca2UO2(CO3)3",
+            "phase": "aqueous",
+            "sourceReference": "2006DB: Dong W, Brooks S C;  Environ.Sci. Technol. 40 (2006) 4689-4695\n\n2000KC: Kalmykov S N, Choppin G R; Radiochim. Acta, 88 (2000) 603-606",
+            "reason": "requires-components-outside-selected-family"
+          },
+          {
+            "id": "spana:2ac52a30213c9288:59569",
+            "name": "Ca4U(OH)8+4",
+            "phase": "aqueous",
+            "sourceReference": "2013AG: Altmaier M, Gaona X, Fanghänel T; Chem. Revs., 113 (2013) 901-943",
+            "reason": "requires-components-outside-selected-family"
+          },
+          {
+            "id": "spana:2ac52a30213c9288:64289",
+            "name": "CaU6O19·11H2O(cr)",
+            "phase": "solid",
+            "sourceReference": "NEA-U: Grenthe I, Fuger J, Konings R J M, Lemire R J, Muller A B, Nguyen-Trung C, Wanner H, Chemical Thermodynamics of Uranium. North-Holland, Elsevier Sci. Publ. B.V., Amsterdam, 1992\n\nNEA-Upd: Guillaumont R, Fanghänel T, Neck V, Fuger J, Palmer D A, Grenthe I, Rand M H, Update on the Chemical Thermodynamics of Uranium, Neptunium, Plutonium, Americium and Technetium. Elsevier B.V., Amsterdam, 2003",
+            "reason": "requires-components-outside-selected-family"
+          },
+          {
+            "id": "spana:2ac52a30213c9288:64409",
+            "name": "CaUO2(CO3)3-2",
+            "phase": "aqueous",
+            "sourceReference": "2006DB: Dong W, Brooks S C;  Environ.Sci. Technol. 40 (2006) 4689-4695",
+            "reason": "requires-components-outside-selected-family"
+          },
+          {
+            "id": "spana:2ac52a30213c9288:64508",
+            "name": "CaUO4(s)",
+            "phase": "solid",
+            "sourceReference": "NEA-U: Grenthe I, Fuger J, Konings R J M, Lemire R J, Muller A B, Nguyen-Trung C, Wanner H, Chemical Thermodynamics of Uranium. North-Holland, Elsevier Sci. Publ. B.V., Amsterdam, 1992\n\nNEA-Upd: Guillaumont R, Fanghänel T, Neck V, Fuger J, Palmer D A, Grenthe I, Rand M H, Update on the Chemical Thermodynamics of Uranium, Neptunium, Plutonium, Americium and Technetium. Elsevier B.V., Amsterdam, 2003",
+            "reason": "requires-components-outside-selected-family"
+          },
+          {
+            "id": "spana:2ac52a30213c9288:97053",
+            "name": "Cs2U2O7(s)",
+            "phase": "solid",
+            "sourceReference": "NEA-U: Grenthe I, Fuger J, Konings R J M, Lemire R J, Muller A B, Nguyen-Trung C, Wanner H, Chemical Thermodynamics of Uranium. North-Holland, Elsevier Sci. Publ. B.V., Amsterdam, 1992\n\nNEA-Upd: Guillaumont R, Fanghänel T, Neck V, Fuger J, Palmer D A, Grenthe I, Rand M H, Update on the Chemical Thermodynamics of Uranium, Neptunium, Plutonium, Americium and Technetium. Elsevier B.V., Amsterdam, 2003",
+            "reason": "requires-components-outside-selected-family"
+          },
+          {
+            "id": "spana:2ac52a30213c9288:97163",
+            "name": "Cs2U4O12(s)",
+            "phase": "solid",
+            "sourceReference": "NEA-U: Grenthe I, Fuger J, Konings R J M, Lemire R J, Muller A B, Nguyen-Trung C, Wanner H, Chemical Thermodynamics of Uranium. North-Holland, Elsevier Sci. Publ. B.V., Amsterdam, 1992\n\nNEA-Upd: Guillaumont R, Fanghänel T, Neck V, Fuger J, Palmer D A, Grenthe I, Rand M H, Update on the Chemical Thermodynamics of Uranium, Neptunium, Plutonium, Americium and Technetium. Elsevier B.V., Amsterdam, 2003",
+            "reason": "requires-components-outside-selected-family"
+          },
+          {
+            "id": "spana:2ac52a30213c9288:97288",
+            "name": "Cs2UO4(s)",
+            "phase": "solid",
+            "sourceReference": "NEA-U: Grenthe I, Fuger J, Konings R J M, Lemire R J, Muller A B, Nguyen-Trung C, Wanner H, Chemical Thermodynamics of Uranium. North-Holland, Elsevier Sci. Publ. B.V., Amsterdam, 1992\n\nNEA-Upd: Guillaumont R, Fanghänel T, Neck V, Fuger J, Palmer D A, Grenthe I, Rand M H, Update on the Chemical Thermodynamics of Uranium, Neptunium, Plutonium, Americium and Technetium. Elsevier B.V., Amsterdam, 2003",
+            "reason": "requires-components-outside-selected-family"
+          },
+          {
+            "id": "spana:2ac52a30213c9288:187903",
+            "name": "K2U6O19·11H2O(cr)",
+            "phase": "solid",
+            "sourceReference": "NEA-U: Grenthe I, Fuger J, Konings R J M, Lemire R J, Muller A B, Nguyen-Trung C, Wanner H, Chemical Thermodynamics of Uranium. North-Holland, Elsevier Sci. Publ. B.V., Amsterdam, 1992\n\nNEA-Upd: Guillaumont R, Fanghänel T, Neck V, Fuger J, Palmer D A, Grenthe I, Rand M H, Update on the Chemical Thermodynamics of Uranium, Neptunium, Plutonium, Americium and Technetium. Elsevier B.V., Amsterdam, 2003",
+            "reason": "requires-components-outside-selected-family"
+          },
+          {
+            "id": "spana:2ac52a30213c9288:188020",
+            "name": "K2UO4(s)",
+            "phase": "solid",
+            "sourceReference": "NEA-U: Grenthe I, Fuger J, Konings R J M, Lemire R J, Muller A B, Nguyen-Trung C, Wanner H, Chemical Thermodynamics of Uranium. North-Holland, Elsevier Sci. Publ. B.V., Amsterdam, 1992\n\nNEA-Upd: Guillaumont R, Fanghänel T, Neck V, Fuger J, Palmer D A, Grenthe I, Rand M H, Update on the Chemical Thermodynamics of Uranium, Neptunium, Plutonium, Americium and Technetium. Elsevier B.V., Amsterdam, 2003",
+            "reason": "requires-components-outside-selected-family"
+          },
+          {
+            "id": "spana:2ac52a30213c9288:195582",
+            "name": "Li2UO4(s)",
+            "phase": "solid",
+            "sourceReference": "NEA-U: Grenthe I, Fuger J, Konings R J M, Lemire R J, Muller A B, Nguyen-Trung C, Wanner H, Chemical Thermodynamics of Uranium. North-Holland, Elsevier Sci. Publ. B.V., Amsterdam, 1992\n\nNEA-Upd: Guillaumont R, Fanghänel T, Neck V, Fuger J, Palmer D A, Grenthe I, Rand M H, Update on the Chemical Thermodynamics of Uranium, Neptunium, Plutonium, Americium and Technetium. Elsevier B.V., Amsterdam, 2003",
+            "reason": "requires-components-outside-selected-family"
+          },
+          {
+            "id": "spana:2ac52a30213c9288:206838",
+            "name": "MgUO2(CO3)3-2",
+            "phase": "aqueous",
+            "sourceReference": "2006DB: Dong W, Brooks S C;  Environ.Sci. Technol. 40 (2006) 4689-4695",
+            "reason": "requires-components-outside-selected-family"
+          },
+          {
+            "id": "spana:2ac52a30213c9288:206937",
+            "name": "MgUO4(s)",
+            "phase": "solid",
+            "sourceReference": "NEA-U: Grenthe I, Fuger J, Konings R J M, Lemire R J, Muller A B, Nguyen-Trung C, Wanner H, Chemical Thermodynamics of Uranium. North-Holland, Elsevier Sci. Publ. B.V., Amsterdam, 1992\n\nNEA-Upd: Guillaumont R, Fanghänel T, Neck V, Fuger J, Palmer D A, Grenthe I, Rand M H, Update on the Chemical Thermodynamics of Uranium, Neptunium, Plutonium, Americium and Technetium. Elsevier B.V., Amsterdam, 2003",
+            "reason": "requires-components-outside-selected-family"
+          },
+          {
+            "id": "spana:2ac52a30213c9288:220446",
+            "name": "Na(H3O)UO2SiO4·H2O(cr)",
+            "phase": "solid",
+            "sourceReference": "NEA-U: Grenthe I, Fuger J, Konings R J M, Lemire R J, Muller A B, Nguyen-Trung C, Wanner H, Chemical Thermodynamics of Uranium. North-Holland, Elsevier Sci. Publ. B.V., Amsterdam, 1992",
+            "reason": "requires-components-outside-selected-family"
+          },
+          {
+            "id": "spana:2ac52a30213c9288:220863",
+            "name": "Na2(UO2)2(Si2O5)3·4H2O(cr)",
+            "phase": "solid",
+            "sourceReference": "NEA-U: Grenthe I, Fuger J, Konings R J M, Lemire R J, Muller A B, Nguyen-Trung C, Wanner H, Chemical Thermodynamics of Uranium. North-Holland, Elsevier Sci. Publ. B.V., Amsterdam, 1992",
+            "reason": "requires-components-outside-selected-family"
+          },
+          {
+            "id": "spana:2ac52a30213c9288:221554",
+            "name": "Na2U2O7(s)",
+            "phase": "solid",
+            "sourceReference": "NEA-U: Grenthe I, Fuger J, Konings R J M, Lemire R J, Muller A B, Nguyen-Trung C, Wanner H, Chemical Thermodynamics of Uranium. North-Holland, Elsevier Sci. Publ. B.V., Amsterdam, 1992\n\nNEA-Upd: Guillaumont R, Fanghänel T, Neck V, Fuger J, Palmer D A, Grenthe I, Rand M H, Update on the Chemical Thermodynamics of Uranium, Neptunium, Plutonium, Americium and Technetium. Elsevier B.V., Amsterdam, 2003",
+            "reason": "requires-components-outside-selected-family"
+          },
+          {
+            "id": "spana:2ac52a30213c9288:221664",
+            "name": "Na2UO4(s)",
+            "phase": "solid",
+            "sourceReference": "NEA-U: Grenthe I, Fuger J, Konings R J M, Lemire R J, Muller A B, Nguyen-Trung C, Wanner H, Chemical Thermodynamics of Uranium. North-Holland, Elsevier Sci. Publ. B.V., Amsterdam, 1992\n\nNEA-Upd: Guillaumont R, Fanghänel T, Neck V, Fuger J, Palmer D A, Grenthe I, Rand M H, Update on the Chemical Thermodynamics of Uranium, Neptunium, Plutonium, Americium and Technetium. Elsevier B.V., Amsterdam, 2003",
+            "reason": "requires-components-outside-selected-family"
+          },
+          {
+            "id": "spana:2ac52a30213c9288:222511",
+            "name": "Na3UO4(s)",
+            "phase": "solid",
+            "sourceReference": "NEA-U: Grenthe I, Fuger J, Konings R J M, Lemire R J, Muller A B, Nguyen-Trung C, Wanner H, Chemical Thermodynamics of Uranium. North-Holland, Elsevier Sci. Publ. B.V., Amsterdam, 1992\n\nNEA-Upd: Guillaumont R, Fanghänel T, Neck V, Fuger J, Palmer D A, Grenthe I, Rand M H, Update on the Chemical Thermodynamics of Uranium, Neptunium, Plutonium, Americium and Technetium. Elsevier B.V., Amsterdam, 2003",
+            "reason": "requires-components-outside-selected-family"
+          },
+          {
+            "id": "spana:2ac52a30213c9288:222618",
+            "name": "Na4UO2(CO3)3(s)",
+            "phase": "solid",
+            "sourceReference": "NEA-U: Grenthe I, Fuger J, Konings R J M, Lemire R J, Muller A B, Nguyen-Trung C, Wanner H, Chemical Thermodynamics of Uranium. North-Holland, Elsevier Sci. Publ. B.V., Amsterdam, 1992\n\nNEA-Upd: Guillaumont R, Fanghänel T, Neck V, Fuger J, Palmer D A, Grenthe I, Rand M H, Update on the Chemical Thermodynamics of Uranium, Neptunium, Plutonium, Americium and Technetium. Elsevier B.V., Amsterdam, 2003",
+            "reason": "requires-components-outside-selected-family"
+          },
+          {
+            "id": "spana:2ac52a30213c9288:225334",
+            "name": "NaUO3(s)",
+            "phase": "solid",
+            "sourceReference": "NEA-U: Grenthe I, Fuger J, Konings R J M, Lemire R J, Muller A B, Nguyen-Trung C, Wanner H, Chemical Thermodynamics of Uranium. North-Holland, Elsevier Sci. Publ. B.V., Amsterdam, 1992\n\nNEA-Upd: Guillaumont R, Fanghänel T, Neck V, Fuger J, Palmer D A, Grenthe I, Rand M H, Update on the Chemical Thermodynamics of Uranium, Neptunium, Plutonium, Americium and Technetium. Elsevier B.V., Amsterdam, 2003",
+            "reason": "requires-components-outside-selected-family"
+          },
+          {
+            "id": "spana:2ac52a30213c9288:285199",
+            "name": "Rb2UO4(s)",
+            "phase": "solid",
+            "sourceReference": "NEA-U: Grenthe I, Fuger J, Konings R J M, Lemire R J, Muller A B, Nguyen-Trung C, Wanner H, Chemical Thermodynamics of Uranium. North-Holland, Elsevier Sci. Publ. B.V., Amsterdam, 1992\n\nNEA-Upd: Guillaumont R, Fanghänel T, Neck V, Fuger J, Palmer D A, Grenthe I, Rand M H, Update on the Chemical Thermodynamics of Uranium, Neptunium, Plutonium, Americium and Technetium. Elsevier B.V., Amsterdam, 2003",
+            "reason": "requires-components-outside-selected-family"
+          },
+          {
+            "id": "spana:2ac52a30213c9288:314863",
+            "name": "Sr2UO2(CO3)3",
+            "phase": "aqueous",
+            "sourceReference": "2008GA: Geipel G, Amayri S, Bernhard G; Spectrochim. Acta, A 71 (2008) 53-58",
+            "reason": "requires-components-outside-selected-family"
+          },
+          {
+            "id": "spana:2ac52a30213c9288:317677",
+            "name": "SrUO2(CO3)3-2",
+            "phase": "aqueous",
+            "sourceReference": "2006DB: Dong W, Brooks S C;  Environ.Sci. Technol. 40 (2006) 4689-4695",
+            "reason": "requires-components-outside-selected-family"
+          },
+          {
+            "id": "spana:2ac52a30213c9288:317776",
+            "name": "SrUO4(s)",
+            "phase": "solid",
+            "sourceReference": "NEA-U: Grenthe I, Fuger J, Konings R J M, Lemire R J, Muller A B, Nguyen-Trung C, Wanner H, Chemical Thermodynamics of Uranium. North-Holland, Elsevier Sci. Publ. B.V., Amsterdam, 1992\n\nNEA-Upd: Guillaumont R, Fanghänel T, Neck V, Fuger J, Palmer D A, Grenthe I, Rand M H, Update on the Chemical Thermodynamics of Uranium, Neptunium, Plutonium, Americium and Technetium. Elsevier B.V., Amsterdam, 2003",
+            "reason": "requires-components-outside-selected-family"
+          },
+          {
+            "id": "spana:2ac52a30213c9288:346463",
+            "name": "U(CO3)4 4-",
+            "phase": "aqueous",
+            "sourceReference": "NEA-U: Grenthe I, Fuger J, Konings R J M, Lemire R J, Muller A B, Nguyen-Trung C, Wanner H, Chemical Thermodynamics of Uranium. North-Holland, Elsevier Sci. Publ. B.V., Amsterdam, 1992\n\nNEA-Upd: Guillaumont R, Fanghänel T, Neck V, Fuger J, Palmer D A, Grenthe I, Rand M H, Update on the Chemical Thermodynamics of Uranium, Neptunium, Plutonium, Americium and Technetium. Elsevier B.V., Amsterdam, 2003",
+            "reason": "requires-components-outside-selected-family"
+          },
+          {
+            "id": "spana:2ac52a30213c9288:346549",
+            "name": "U(CO3)5 6-",
+            "phase": "aqueous",
+            "sourceReference": "NEA-U: Grenthe I, Fuger J, Konings R J M, Lemire R J, Muller A B, Nguyen-Trung C, Wanner H, Chemical Thermodynamics of Uranium. North-Holland, Elsevier Sci. Publ. B.V., Amsterdam, 1992\n\nNEA-Upd: Guillaumont R, Fanghänel T, Neck V, Fuger J, Palmer D A, Grenthe I, Rand M H, Update on the Chemical Thermodynamics of Uranium, Neptunium, Plutonium, Americium and Technetium. Elsevier B.V., Amsterdam, 2003",
+            "reason": "requires-components-outside-selected-family"
+          },
+          {
+            "id": "spana:2ac52a30213c9288:346712",
+            "name": "U(EDTA)",
+            "phase": "aqueous",
+            "sourceReference": "NEA-Org: Hummel W., Anderegg G., Rao L., Puigdomènech I., Tochiyama O., Chemical Thermodynamics of Compounds and Complexes of U, Np, Pu, Am, Tc, Se, Ni and Zr with Selected Organic Ligands, Amsterdam: Elsevier, 2005",
+            "reason": "requires-components-outside-selected-family"
+          },
+          {
+            "id": "spana:2ac52a30213c9288:346790",
+            "name": "U(EDTA)OH-",
+            "phase": "aqueous",
+            "sourceReference": "SmithMart: NIST Standard Reference Database 46 Version 8.\nNIST Critically Selected Stability Constants of Metal Complexes Database\nhttp://www.nist.gov/srd/nist46.cfm\nNational Institute of Standards and Technology, 100 Bureau Dr., Stop 2300, Gaithersburg, MD",
+            "reason": "requires-components-outside-selected-family"
+          },
+          {
+            "id": "spana:2ac52a30213c9288:346898",
+            "name": "U(HPO4)2·4H2O(s)",
+            "phase": "solid",
+            "sourceReference": "NEA-U: Grenthe I, Fuger J, Konings R J M, Lemire R J, Muller A B, Nguyen-Trung C, Wanner H, Chemical Thermodynamics of Uranium. North-Holland, Elsevier Sci. Publ. B.V., Amsterdam, 1992\n\nNEA-Upd: Guillaumont R, Fanghänel T, Neck V, Fuger J, Palmer D A, Grenthe I, Rand M H, Update on the Chemical Thermodynamics of Uranium, Neptunium, Plutonium, Americium and Technetium. Elsevier B.V., Amsterdam, 2003",
+            "reason": "requires-components-outside-selected-family"
+          },
+          {
+            "id": "spana:2ac52a30213c9288:347003",
+            "name": "U(NO3)2 2+",
+            "phase": "aqueous",
+            "sourceReference": "NEA-U: Grenthe I, Fuger J, Konings R J M, Lemire R J, Muller A B, Nguyen-Trung C, Wanner H, Chemical Thermodynamics of Uranium. North-Holland, Elsevier Sci. Publ. B.V., Amsterdam, 1992\n\nNEA-Upd: Guillaumont R, Fanghänel T, Neck V, Fuger J, Palmer D A, Grenthe I, Rand M H, Update on the Chemical Thermodynamics of Uranium, Neptunium, Plutonium, Americium and Technetium. Elsevier B.V., Amsterdam, 2003",
+            "reason": "requires-components-outside-selected-family"
+          },
+          {
+            "id": "spana:2ac52a30213c9288:347087",
+            "name": "U(OH)2SO4(cr)",
+            "phase": "solid",
+            "sourceReference": "NEA-U: Grenthe I, Fuger J, Konings R J M, Lemire R J, Muller A B, Nguyen-Trung C, Wanner H, Chemical Thermodynamics of Uranium. North-Holland, Elsevier Sci. Publ. B.V., Amsterdam, 1992\n\nNEA-Upd: Guillaumont R, Fanghänel T, Neck V, Fuger J, Palmer D A, Grenthe I, Rand M H, Update on the Chemical Thermodynamics of Uranium, Neptunium, Plutonium, Americium and Technetium. Elsevier B.V., Amsterdam, 2003",
+            "reason": "requires-components-outside-selected-family"
+          },
+          {
+            "id": "spana:2ac52a30213c9288:347401",
+            "name": "U(SCN)2 2+",
+            "phase": "aqueous",
+            "sourceReference": "NEA-U: Grenthe I, Fuger J, Konings R J M, Lemire R J, Muller A B, Nguyen-Trung C, Wanner H, Chemical Thermodynamics of Uranium. North-Holland, Elsevier Sci. Publ. B.V., Amsterdam, 1992\n\nNEA-Upd: Guillaumont R, Fanghänel T, Neck V, Fuger J, Palmer D A, Grenthe I, Rand M H, Update on the Chemical Thermodynamics of Uranium, Neptunium, Plutonium, Americium and Technetium. Elsevier B.V., Amsterdam, 2003",
+            "reason": "requires-components-outside-selected-family"
+          },
+          {
+            "id": "spana:2ac52a30213c9288:347485",
+            "name": "U(SO3)2(s)",
+            "phase": "solid",
+            "sourceReference": "NEA-U: Grenthe I, Fuger J, Konings R J M, Lemire R J, Muller A B, Nguyen-Trung C, Wanner H, Chemical Thermodynamics of Uranium. North-Holland, Elsevier Sci. Publ. B.V., Amsterdam, 1992\n\nNEA-Upd: Guillaumont R, Fanghänel T, Neck V, Fuger J, Palmer D A, Grenthe I, Rand M H, Update on the Chemical Thermodynamics of Uranium, Neptunium, Plutonium, Americium and Technetium. Elsevier B.V., Amsterdam, 2003",
+            "reason": "requires-components-outside-selected-family"
+          },
+          {
+            "id": "spana:2ac52a30213c9288:347571",
+            "name": "U(SO4)2",
+            "phase": "aqueous",
+            "sourceReference": "NEA-U: Grenthe I, Fuger J, Konings R J M, Lemire R J, Muller A B, Nguyen-Trung C, Wanner H, Chemical Thermodynamics of Uranium. North-Holland, Elsevier Sci. Publ. B.V., Amsterdam, 1992\n\nNEA-Upd: Guillaumont R, Fanghänel T, Neck V, Fuger J, Palmer D A, Grenthe I, Rand M H, Update on the Chemical Thermodynamics of Uranium, Neptunium, Plutonium, Americium and Technetium. Elsevier B.V., Amsterdam, 2003",
+            "reason": "requires-components-outside-selected-family"
+          },
+          {
+            "id": "spana:2ac52a30213c9288:347654",
+            "name": "U(SO4)2(s)",
+            "phase": "solid",
+            "sourceReference": "NEA-U: Grenthe I, Fuger J, Konings R J M, Lemire R J, Muller A B, Nguyen-Trung C, Wanner H, Chemical Thermodynamics of Uranium. North-Holland, Elsevier Sci. Publ. B.V., Amsterdam, 1992\n\nNEA-Upd: Guillaumont R, Fanghänel T, Neck V, Fuger J, Palmer D A, Grenthe I, Rand M H, Update on the Chemical Thermodynamics of Uranium, Neptunium, Plutonium, Americium and Technetium. Elsevier B.V., Amsterdam, 2003",
+            "reason": "requires-components-outside-selected-family"
+          },
+          {
+            "id": "spana:2ac52a30213c9288:347740",
+            "name": "U(SO4)2·4H2O(s)",
+            "phase": "solid",
+            "sourceReference": "NEA-U: Grenthe I, Fuger J, Konings R J M, Lemire R J, Muller A B, Nguyen-Trung C, Wanner H, Chemical Thermodynamics of Uranium. North-Holland, Elsevier Sci. Publ. B.V., Amsterdam, 1992\n\nNEA-Upd: Guillaumont R, Fanghänel T, Neck V, Fuger J, Palmer D A, Grenthe I, Rand M H, Update on the Chemical Thermodynamics of Uranium, Neptunium, Plutonium, Americium and Technetium. Elsevier B.V., Amsterdam, 2003",
+            "reason": "requires-components-outside-selected-family"
+          },
+          {
+            "id": "spana:2ac52a30213c9288:347845",
+            "name": "U(SO4)2·8H2O(s)",
+            "phase": "solid",
+            "sourceReference": "NEA-U: Grenthe I, Fuger J, Konings R J M, Lemire R J, Muller A B, Nguyen-Trung C, Wanner H, Chemical Thermodynamics of Uranium. North-Holland, Elsevier Sci. Publ. B.V., Amsterdam, 1992\n\nNEA-Upd: Guillaumont R, Fanghänel T, Neck V, Fuger J, Palmer D A, Grenthe I, Rand M H, Update on the Chemical Thermodynamics of Uranium, Neptunium, Plutonium, Americium and Technetium. Elsevier B.V., Amsterdam, 2003",
+            "reason": "requires-components-outside-selected-family"
+          },
+          {
+            "id": "spana:2ac52a30213c9288:347950",
+            "name": "U2(EDTA)2(OH)2 2-",
+            "phase": "aqueous",
+            "sourceReference": "SmithMart: NIST Standard Reference Database 46 Version 8.\nNIST Critically Selected Stability Constants of Metal Complexes Database\nhttp://www.nist.gov/srd/nist46.cfm\nNational Institute of Standards and Technology, 100 Bureau Dr., Stop 2300, Gaithersburg, MD",
+            "reason": "requires-components-outside-selected-family"
+          },
+          {
+            "id": "spana:2ac52a30213c9288:348065",
+            "name": "U2F9(s)",
+            "phase": "solid",
+            "sourceReference": "NEA-U: Grenthe I, Fuger J, Konings R J M, Lemire R J, Muller A B, Nguyen-Trung C, Wanner H, Chemical Thermodynamics of Uranium. North-Holland, Elsevier Sci. Publ. B.V., Amsterdam, 1992\n\nNEA-Upd: Guillaumont R, Fanghänel T, Neck V, Fuger J, Palmer D A, Grenthe I, Rand M H, Update on the Chemical Thermodynamics of Uranium, Neptunium, Plutonium, Americium and Technetium. Elsevier B.V., Amsterdam, 2003",
+            "reason": "requires-components-outside-selected-family"
+          },
+          {
+            "id": "spana:2ac52a30213c9288:348156",
+            "name": "U2O2Cl5(s)",
+            "phase": "solid",
+            "sourceReference": "NEA-U: Grenthe I, Fuger J, Konings R J M, Lemire R J, Muller A B, Nguyen-Trung C, Wanner H, Chemical Thermodynamics of Uranium. North-Holland, Elsevier Sci. Publ. B.V., Amsterdam, 1992\n\nNEA-Upd: Guillaumont R, Fanghänel T, Neck V, Fuger J, Palmer D A, Grenthe I, Rand M H, Update on the Chemical Thermodynamics of Uranium, Neptunium, Plutonium, Americium and Technetium. Elsevier B.V., Amsterdam, 2003",
+            "reason": "requires-components-outside-selected-family"
+          },
+          {
+            "id": "spana:2ac52a30213c9288:348276",
+            "name": "U2O3F6(s)",
+            "phase": "solid",
+            "sourceReference": "NEA-U: Grenthe I, Fuger J, Konings R J M, Lemire R J, Muller A B, Nguyen-Trung C, Wanner H, Chemical Thermodynamics of Uranium. North-Holland, Elsevier Sci. Publ. B.V., Amsterdam, 1992\n\nNEA-Upd: Guillaumont R, Fanghänel T, Neck V, Fuger J, Palmer D A, Grenthe I, Rand M H, Update on the Chemical Thermodynamics of Uranium, Neptunium, Plutonium, Americium and Technetium. Elsevier B.V., Amsterdam, 2003",
+            "reason": "requires-components-outside-selected-family"
+          },
+          {
+            "id": "spana:2ac52a30213c9288:348384",
+            "name": "U2S3(s)",
+            "phase": "solid",
+            "sourceReference": "NEA-U: Grenthe I, Fuger J, Konings R J M, Lemire R J, Muller A B, Nguyen-Trung C, Wanner H, Chemical Thermodynamics of Uranium. North-Holland, Elsevier Sci. Publ. B.V., Amsterdam, 1992\n\nNEA-Upd: Guillaumont R, Fanghänel T, Neck V, Fuger J, Palmer D A, Grenthe I, Rand M H, Update on the Chemical Thermodynamics of Uranium, Neptunium, Plutonium, Americium and Technetium. Elsevier B.V., Amsterdam, 2003",
+            "reason": "requires-components-outside-selected-family"
+          },
+          {
+            "id": "spana:2ac52a30213c9288:348476",
+            "name": "U3O5F8(s)",
+            "phase": "solid",
+            "sourceReference": "NEA-U: Grenthe I, Fuger J, Konings R J M, Lemire R J, Muller A B, Nguyen-Trung C, Wanner H, Chemical Thermodynamics of Uranium. North-Holland, Elsevier Sci. Publ. B.V., Amsterdam, 1992\n\nNEA-Upd: Guillaumont R, Fanghänel T, Neck V, Fuger J, Palmer D A, Grenthe I, Rand M H, Update on the Chemical Thermodynamics of Uranium, Neptunium, Plutonium, Americium and Technetium. Elsevier B.V., Amsterdam, 2003",
+            "reason": "requires-components-outside-selected-family"
+          },
+          {
+            "id": "spana:2ac52a30213c9288:348808",
+            "name": "U3S5(s)",
+            "phase": "solid",
+            "sourceReference": "NEA-U: Grenthe I, Fuger J, Konings R J M, Lemire R J, Muller A B, Nguyen-Trung C, Wanner H, Chemical Thermodynamics of Uranium. North-Holland, Elsevier Sci. Publ. B.V., Amsterdam, 1992\n\nNEA-Upd: Guillaumont R, Fanghänel T, Neck V, Fuger J, Palmer D A, Grenthe I, Rand M H, Update on the Chemical Thermodynamics of Uranium, Neptunium, Plutonium, Americium and Technetium. Elsevier B.V., Amsterdam, 2003",
+            "reason": "requires-components-outside-selected-family"
+          },
+          {
+            "id": "spana:2ac52a30213c9288:348912",
+            "name": "U4F17(s)",
+            "phase": "solid",
+            "sourceReference": "NEA-U: Grenthe I, Fuger J, Konings R J M, Lemire R J, Muller A B, Nguyen-Trung C, Wanner H, Chemical Thermodynamics of Uranium. North-Holland, Elsevier Sci. Publ. B.V., Amsterdam, 1992\n\nNEA-Upd: Guillaumont R, Fanghänel T, Neck V, Fuger J, Palmer D A, Grenthe I, Rand M H, Update on the Chemical Thermodynamics of Uranium, Neptunium, Plutonium, Americium and Technetium. Elsevier B.V., Amsterdam, 2003",
+            "reason": "requires-components-outside-selected-family"
+          },
+          {
+            "id": "spana:2ac52a30213c9288:349115",
+            "name": "U5O12Cl(s)",
+            "phase": "solid",
+            "sourceReference": "NEA-U: Grenthe I, Fuger J, Konings R J M, Lemire R J, Muller A B, Nguyen-Trung C, Wanner H, Chemical Thermodynamics of Uranium. North-Holland, Elsevier Sci. Publ. B.V., Amsterdam, 1992\n\nNEA-Upd: Guillaumont R, Fanghänel T, Neck V, Fuger J, Palmer D A, Grenthe I, Rand M H, Update on the Chemical Thermodynamics of Uranium, Neptunium, Plutonium, Americium and Technetium. Elsevier B.V., Amsterdam, 2003",
+            "reason": "requires-components-outside-selected-family"
+          },
+          {
+            "id": "spana:2ac52a30213c9288:349223",
+            "name": "UBr 3+",
+            "phase": "aqueous",
+            "sourceReference": "NEA-U: Grenthe I, Fuger J, Konings R J M, Lemire R J, Muller A B, Nguyen-Trung C, Wanner H, Chemical Thermodynamics of Uranium. North-Holland, Elsevier Sci. Publ. B.V., Amsterdam, 1992\n\nNEA-Upd: Guillaumont R, Fanghänel T, Neck V, Fuger J, Palmer D A, Grenthe I, Rand M H, Update on the Chemical Thermodynamics of Uranium, Neptunium, Plutonium, Americium and Technetium. Elsevier B.V., Amsterdam, 2003",
+            "reason": "requires-components-outside-selected-family"
+          },
+          {
+            "id": "spana:2ac52a30213c9288:349302",
+            "name": "UCl 3+",
+            "phase": "aqueous",
+            "sourceReference": "NEA-U: Grenthe I, Fuger J, Konings R J M, Lemire R J, Muller A B, Nguyen-Trung C, Wanner H, Chemical Thermodynamics of Uranium. North-Holland, Elsevier Sci. Publ. B.V., Amsterdam, 1992\n\nNEA-Upd: Guillaumont R, Fanghänel T, Neck V, Fuger J, Palmer D A, Grenthe I, Rand M H, Update on the Chemical Thermodynamics of Uranium, Neptunium, Plutonium, Americium and Technetium. Elsevier B.V., Amsterdam, 2003",
+            "reason": "requires-components-outside-selected-family"
+          },
+          {
+            "id": "spana:2ac52a30213c9288:349381",
+            "name": "UF 3+",
+            "phase": "aqueous",
+            "sourceReference": "NEA-U: Grenthe I, Fuger J, Konings R J M, Lemire R J, Muller A B, Nguyen-Trung C, Wanner H, Chemical Thermodynamics of Uranium. North-Holland, Elsevier Sci. Publ. B.V., Amsterdam, 1992\n\nNEA-Upd: Guillaumont R, Fanghänel T, Neck V, Fuger J, Palmer D A, Grenthe I, Rand M H, Update on the Chemical Thermodynamics of Uranium, Neptunium, Plutonium, Americium and Technetium. Elsevier B.V., Amsterdam, 2003",
+            "reason": "requires-components-outside-selected-family"
+          },
+          {
+            "id": "spana:2ac52a30213c9288:349458",
+            "name": "UF2 2+",
+            "phase": "aqueous",
+            "sourceReference": "NEA-U: Grenthe I, Fuger J, Konings R J M, Lemire R J, Muller A B, Nguyen-Trung C, Wanner H, Chemical Thermodynamics of Uranium. North-Holland, Elsevier Sci. Publ. B.V., Amsterdam, 1992\n\nNEA-Upd: Guillaumont R, Fanghänel T, Neck V, Fuger J, Palmer D A, Grenthe I, Rand M H, Update on the Chemical Thermodynamics of Uranium, Neptunium, Plutonium, Americium and Technetium. Elsevier B.V., Amsterdam, 2003",
+            "reason": "requires-components-outside-selected-family"
+          },
+          {
+            "id": "spana:2ac52a30213c9288:349536",
+            "name": "UF3(s)",
+            "phase": "solid",
+            "sourceReference": "NEA-U: Grenthe I, Fuger J, Konings R J M, Lemire R J, Muller A B, Nguyen-Trung C, Wanner H, Chemical Thermodynamics of Uranium. North-Holland, Elsevier Sci. Publ. B.V., Amsterdam, 1992\n\nNEA-Upd: Guillaumont R, Fanghänel T, Neck V, Fuger J, Palmer D A, Grenthe I, Rand M H, Update on the Chemical Thermodynamics of Uranium, Neptunium, Plutonium, Americium and Technetium. Elsevier B.V., Amsterdam, 2003",
+            "reason": "requires-components-outside-selected-family"
+          },
+          {
+            "id": "spana:2ac52a30213c9288:349614",
+            "name": "UF3+",
+            "phase": "aqueous",
+            "sourceReference": "NEA-U: Grenthe I, Fuger J, Konings R J M, Lemire R J, Muller A B, Nguyen-Trung C, Wanner H, Chemical Thermodynamics of Uranium. North-Holland, Elsevier Sci. Publ. B.V., Amsterdam, 1992\n\nNEA-Upd: Guillaumont R, Fanghänel T, Neck V, Fuger J, Palmer D A, Grenthe I, Rand M H, Update on the Chemical Thermodynamics of Uranium, Neptunium, Plutonium, Americium and Technetium. Elsevier B.V., Amsterdam, 2003",
+            "reason": "requires-components-outside-selected-family"
+          },
+          {
+            "id": "spana:2ac52a30213c9288:349690",
+            "name": "UF4",
+            "phase": "aqueous",
+            "sourceReference": "NEA-U: Grenthe I, Fuger J, Konings R J M, Lemire R J, Muller A B, Nguyen-Trung C, Wanner H, Chemical Thermodynamics of Uranium. North-Holland, Elsevier Sci. Publ. B.V., Amsterdam, 1992\n\nNEA-Upd: Guillaumont R, Fanghänel T, Neck V, Fuger J, Palmer D A, Grenthe I, Rand M H, Update on the Chemical Thermodynamics of Uranium, Neptunium, Plutonium, Americium and Technetium. Elsevier B.V., Amsterdam, 2003",
+            "reason": "requires-components-outside-selected-family"
+          },
+          {
+            "id": "spana:2ac52a30213c9288:349765",
+            "name": "UF4(s)",
+            "phase": "solid",
+            "sourceReference": "NEA-U: Grenthe I, Fuger J, Konings R J M, Lemire R J, Muller A B, Nguyen-Trung C, Wanner H, Chemical Thermodynamics of Uranium. North-Holland, Elsevier Sci. Publ. B.V., Amsterdam, 1992\n\nNEA-Upd: Guillaumont R, Fanghänel T, Neck V, Fuger J, Palmer D A, Grenthe I, Rand M H, Update on the Chemical Thermodynamics of Uranium, Neptunium, Plutonium, Americium and Technetium. Elsevier B.V., Amsterdam, 2003",
+            "reason": "requires-components-outside-selected-family"
+          },
+          {
+            "id": "spana:2ac52a30213c9288:349843",
+            "name": "UF4·2.5H2O(s)",
+            "phase": "solid",
+            "sourceReference": "NEA-U: Grenthe I, Fuger J, Konings R J M, Lemire R J, Muller A B, Nguyen-Trung C, Wanner H, Chemical Thermodynamics of Uranium. North-Holland, Elsevier Sci. Publ. B.V., Amsterdam, 1992\n\nNEA-Upd: Guillaumont R, Fanghänel T, Neck V, Fuger J, Palmer D A, Grenthe I, Rand M H, Update on the Chemical Thermodynamics of Uranium, Neptunium, Plutonium, Americium and Technetium. Elsevier B.V., Amsterdam, 2003",
+            "reason": "requires-components-outside-selected-family"
+          },
+          {
+            "id": "spana:2ac52a30213c9288:349942",
+            "name": "UF5-",
+            "phase": "aqueous",
+            "sourceReference": "NEA-U: Grenthe I, Fuger J, Konings R J M, Lemire R J, Muller A B, Nguyen-Trung C, Wanner H, Chemical Thermodynamics of Uranium. North-Holland, Elsevier Sci. Publ. B.V., Amsterdam, 1992\n\nNEA-Upd: Guillaumont R, Fanghänel T, Neck V, Fuger J, Palmer D A, Grenthe I, Rand M H, Update on the Chemical Thermodynamics of Uranium, Neptunium, Plutonium, Americium and Technetium. Elsevier B.V., Amsterdam, 2003",
+            "reason": "requires-components-outside-selected-family"
+          },
+          {
+            "id": "spana:2ac52a30213c9288:350018",
+            "name": "UF6 2-",
+            "phase": "aqueous",
+            "sourceReference": "NEA-U: Grenthe I, Fuger J, Konings R J M, Lemire R J, Muller A B, Nguyen-Trung C, Wanner H, Chemical Thermodynamics of Uranium. North-Holland, Elsevier Sci. Publ. B.V., Amsterdam, 1992\n\nNEA-Upd: Guillaumont R, Fanghänel T, Neck V, Fuger J, Palmer D A, Grenthe I, Rand M H, Update on the Chemical Thermodynamics of Uranium, Neptunium, Plutonium, Americium and Technetium. Elsevier B.V., Amsterdam, 2003",
+            "reason": "requires-components-outside-selected-family"
+          },
+          {
+            "id": "spana:2ac52a30213c9288:350191",
+            "name": "UI 3+",
+            "phase": "aqueous",
+            "sourceReference": "NEA-U: Grenthe I, Fuger J, Konings R J M, Lemire R J, Muller A B, Nguyen-Trung C, Wanner H, Chemical Thermodynamics of Uranium. North-Holland, Elsevier Sci. Publ. B.V., Amsterdam, 1992\n\nNEA-Upd: Guillaumont R, Fanghänel T, Neck V, Fuger J, Palmer D A, Grenthe I, Rand M H, Update on the Chemical Thermodynamics of Uranium, Neptunium, Plutonium, Americium and Technetium. Elsevier B.V., Amsterdam, 2003",
+            "reason": "requires-components-outside-selected-family"
+          },
+          {
+            "id": "spana:2ac52a30213c9288:350268",
+            "name": "UNO3 3+",
+            "phase": "aqueous",
+            "sourceReference": "NEA-U: Grenthe I, Fuger J, Konings R J M, Lemire R J, Muller A B, Nguyen-Trung C, Wanner H, Chemical Thermodynamics of Uranium. North-Holland, Elsevier Sci. Publ. B.V., Amsterdam, 1992\n\nNEA-Upd: Guillaumont R, Fanghänel T, Neck V, Fuger J, Palmer D A, Grenthe I, Rand M H, Update on the Chemical Thermodynamics of Uranium, Neptunium, Plutonium, Americium and Technetium. Elsevier B.V., Amsterdam, 2003",
+            "reason": "requires-components-outside-selected-family"
+          },
+          {
+            "id": "spana:2ac52a30213c9288:350638",
+            "name": "UO2(AsO3)2(cr)",
+            "phase": "solid",
+            "sourceReference": "NEA-U: Grenthe I, Fuger J, Konings R J M, Lemire R J, Muller A B, Nguyen-Trung C, Wanner H, Chemical Thermodynamics of Uranium. North-Holland, Elsevier Sci. Publ. B.V., Amsterdam, 1992\n\nNEA-Upd: Guillaumont R, Fanghänel T, Neck V, Fuger J, Palmer D A, Grenthe I, Rand M H, Update on the Chemical Thermodynamics of Uranium, Neptunium, Plutonium, Americium and Technetium. Elsevier B.V., Amsterdam, 2003",
+            "reason": "requires-components-outside-selected-family"
+          },
+          {
+            "id": "spana:2ac52a30213c9288:350754",
+            "name": "UO2(CH3COO)+",
+            "phase": "aqueous",
+            "sourceReference": "SmithMart: NIST Standard Reference Database 46 Version 8.\nNIST Critically Selected Stability Constants of Metal Complexes Database\nhttp://www.nist.gov/srd/nist46.cfm\nNational Institute of Standards and Technology, 100 Bureau Dr., Stop 2300, Gaithersburg, MD",
+            "reason": "requires-components-outside-selected-family"
+          },
+          {
+            "id": "spana:2ac52a30213c9288:350841",
+            "name": "UO2(CH3COO)2",
+            "phase": "aqueous",
+            "sourceReference": "SmithMart: NIST Standard Reference Database 46 Version 8.\nNIST Critically Selected Stability Constants of Metal Complexes Database\nhttp://www.nist.gov/srd/nist46.cfm\nNational Institute of Standards and Technology, 100 Bureau Dr., Stop 2300, Gaithersburg, MD",
+            "reason": "requires-components-outside-selected-family"
+          },
+          {
+            "id": "spana:2ac52a30213c9288:350928",
+            "name": "UO2(CH3COO)3-",
+            "phase": "aqueous",
+            "sourceReference": "SmithMart: NIST Standard Reference Database 46 Version 8.\nNIST Critically Selected Stability Constants of Metal Complexes Database\nhttp://www.nist.gov/srd/nist46.cfm\nNational Institute of Standards and Technology, 100 Bureau Dr., Stop 2300, Gaithersburg, MD",
+            "reason": "requires-components-outside-selected-family"
+          },
+          {
+            "id": "spana:2ac52a30213c9288:351016",
+            "name": "UO2(cit)-",
+            "phase": "aqueous",
+            "sourceReference": "NEA-Org: Hummel W., Anderegg G., Rao L., Puigdomènech I., Tochiyama O., Chemical Thermodynamics of Compounds and Complexes of U, Np, Pu, Am, Tc, Se, Ni and Zr with Selected Organic Ligands, Amsterdam: Elsevier, 2005",
+            "reason": "requires-components-outside-selected-family"
+          },
+          {
+            "id": "spana:2ac52a30213c9288:351097",
+            "name": "UO2(CO3)2 2-",
+            "phase": "aqueous",
+            "sourceReference": "NEA-U: Grenthe I, Fuger J, Konings R J M, Lemire R J, Muller A B, Nguyen-Trung C, Wanner H, Chemical Thermodynamics of Uranium. North-Holland, Elsevier Sci. Publ. B.V., Amsterdam, 1992\n\nNEA-Upd: Guillaumont R, Fanghänel T, Neck V, Fuger J, Palmer D A, Grenthe I, Rand M H, Update on the Chemical Thermodynamics of Uranium, Neptunium, Plutonium, Americium and Technetium. Elsevier B.V., Amsterdam, 2003",
+            "reason": "requires-components-outside-selected-family"
+          },
+          {
+            "id": "spana:2ac52a30213c9288:351187",
+            "name": "UO2(CO3)3 4-",
+            "phase": "aqueous",
+            "sourceReference": "NEA-U: Grenthe I, Fuger J, Konings R J M, Lemire R J, Muller A B, Nguyen-Trung C, Wanner H, Chemical Thermodynamics of Uranium. North-Holland, Elsevier Sci. Publ. B.V., Amsterdam, 1992\n\nNEA-Upd: Guillaumont R, Fanghänel T, Neck V, Fuger J, Palmer D A, Grenthe I, Rand M H, Update on the Chemical Thermodynamics of Uranium, Neptunium, Plutonium, Americium and Technetium. Elsevier B.V., Amsterdam, 2003",
+            "reason": "requires-components-outside-selected-family"
+          },
+          {
+            "id": "spana:2ac52a30213c9288:351277",
+            "name": "UO2(CO3)3 5-",
+            "phase": "aqueous",
+            "sourceReference": "NEA-U: Grenthe I, Fuger J, Konings R J M, Lemire R J, Muller A B, Nguyen-Trung C, Wanner H, Chemical Thermodynamics of Uranium. North-Holland, Elsevier Sci. Publ. B.V., Amsterdam, 1992\n\nNEA-Upd: Guillaumont R, Fanghänel T, Neck V, Fuger J, Palmer D A, Grenthe I, Rand M H, Update on the Chemical Thermodynamics of Uranium, Neptunium, Plutonium, Americium and Technetium. Elsevier B.V., Amsterdam, 2003",
+            "reason": "requires-components-outside-selected-family"
+          },
+          {
+            "id": "spana:2ac52a30213c9288:351466",
+            "name": "UO2(EDTA) 2-",
+            "phase": "aqueous",
+            "sourceReference": "NEA-Org: Hummel W., Anderegg G., Rao L., Puigdomènech I., Tochiyama O., Chemical Thermodynamics of Compounds and Complexes of U, Np, Pu, Am, Tc, Se, Ni and Zr with Selected Organic Ligands, Amsterdam: Elsevier, 2005",
+            "reason": "requires-components-outside-selected-family"
+          },
+          {
+            "id": "spana:2ac52a30213c9288:351551",
+            "name": "UO2(H2AsO4)2",
+            "phase": "aqueous",
+            "sourceReference": "NEA-U: Grenthe I, Fuger J, Konings R J M, Lemire R J, Muller A B, Nguyen-Trung C, Wanner H, Chemical Thermodynamics of Uranium. North-Holland, Elsevier Sci. Publ. B.V., Amsterdam, 1992\n\nNEA-Upd: Guillaumont R, Fanghänel T, Neck V, Fuger J, Palmer D A, Grenthe I, Rand M H, Update on the Chemical Thermodynamics of Uranium, Neptunium, Plutonium, Americium and Technetium. Elsevier B.V., Amsterdam, 2003",
+            "reason": "requires-components-outside-selected-family"
+          },
+          {
+            "id": "spana:2ac52a30213c9288:351654",
+            "name": "UO2(H2PO4)(H3PO4)+",
+            "phase": "aqueous",
+            "sourceReference": "NEA-U: Grenthe I, Fuger J, Konings R J M, Lemire R J, Muller A B, Nguyen-Trung C, Wanner H, Chemical Thermodynamics of Uranium. North-Holland, Elsevier Sci. Publ. B.V., Amsterdam, 1992\n\nNEA-Upd: Guillaumont R, Fanghänel T, Neck V, Fuger J, Palmer D A, Grenthe I, Rand M H, Update on the Chemical Thermodynamics of Uranium, Neptunium, Plutonium, Americium and Technetium. Elsevier B.V., Amsterdam, 2003",
+            "reason": "requires-components-outside-selected-family"
+          },
+          {
+            "id": "spana:2ac52a30213c9288:351762",
+            "name": "UO2(H2PO4)2",
+            "phase": "aqueous",
+            "sourceReference": "NEA-U: Grenthe I, Fuger J, Konings R J M, Lemire R J, Muller A B, Nguyen-Trung C, Wanner H, Chemical Thermodynamics of Uranium. North-Holland, Elsevier Sci. Publ. B.V., Amsterdam, 1992\n\nNEA-Upd: Guillaumont R, Fanghänel T, Neck V, Fuger J, Palmer D A, Grenthe I, Rand M H, Update on the Chemical Thermodynamics of Uranium, Neptunium, Plutonium, Americium and Technetium. Elsevier B.V., Amsterdam, 2003",
+            "reason": "requires-components-outside-selected-family"
+          },
+          {
+            "id": "spana:2ac52a30213c9288:351863",
+            "name": "UO2(Hcit)",
+            "phase": "aqueous",
+            "sourceReference": "NEA-Org: Hummel W., Anderegg G., Rao L., Puigdomènech I., Tochiyama O., Chemical Thermodynamics of Compounds and Complexes of U, Np, Pu, Am, Tc, Se, Ni and Zr with Selected Organic Ligands, Amsterdam: Elsevier, 2005",
+            "reason": "requires-components-outside-selected-family"
+          },
+          {
+            "id": "spana:2ac52a30213c9288:351956",
+            "name": "UO2(HCOO)+",
+            "phase": "aqueous",
+            "sourceReference": "SmithMart: NIST Standard Reference Database 46 Version 8.\nNIST Critically Selected Stability Constants of Metal Complexes Database\nhttp://www.nist.gov/srd/nist46.cfm\nNational Institute of Standards and Technology, 100 Bureau Dr., Stop 2300, Gaithersburg, MD",
+            "reason": "requires-components-outside-selected-family"
+          },
+          {
+            "id": "spana:2ac52a30213c9288:352039",
+            "name": "UO2(HCOO)2",
+            "phase": "aqueous",
+            "sourceReference": "SmithMart: NIST Standard Reference Database 46 Version 8.\nNIST Critically Selected Stability Constants of Metal Complexes Database\nhttp://www.nist.gov/srd/nist46.cfm\nNational Institute of Standards and Technology, 100 Bureau Dr., Stop 2300, Gaithersburg, MD",
+            "reason": "requires-components-outside-selected-family"
+          },
+          {
+            "id": "spana:2ac52a30213c9288:352122",
+            "name": "UO2(HCOO)3-",
+            "phase": "aqueous",
+            "sourceReference": "SmithMart: NIST Standard Reference Database 46 Version 8.\nNIST Critically Selected Stability Constants of Metal Complexes Database\nhttp://www.nist.gov/srd/nist46.cfm\nNational Institute of Standards and Technology, 100 Bureau Dr., Stop 2300, Gaithersburg, MD",
+            "reason": "requires-components-outside-selected-family"
+          },
+          {
+            "id": "spana:2ac52a30213c9288:352206",
+            "name": "UO2(HEDTA)-",
+            "phase": "aqueous",
+            "sourceReference": "NEA-Org: Hummel W., Anderegg G., Rao L., Puigdomènech I., Tochiyama O., Chemical Thermodynamics of Compounds and Complexes of U, Np, Pu, Am, Tc, Se, Ni and Zr with Selected Organic Ligands, Amsterdam: Elsevier, 2005\n\nSmithMart: NIST Standard Reference Database 46 Version 8.\nNIST Critically Selected Stability Constants of Metal Complexes Database\nhttp://www.nist.gov/srd/nist46.cfm\nNational Institute of Standards and Technology, 100 Bureau Dr., Stop 2300, Gaithersburg, MD",
+            "reason": "requires-components-outside-selected-family"
+          },
+          {
+            "id": "spana:2ac52a30213c9288:352312",
+            "name": "UO2(Hgly) 2+",
+            "phase": "aqueous",
+            "sourceReference": "SmithMart: NIST Standard Reference Database 46 Version 8.\nNIST Critically Selected Stability Constants of Metal Complexes Database\nhttp://www.nist.gov/srd/nist46.cfm\nNational Institute of Standards and Technology, 100 Bureau Dr., Stop 2300, Gaithersburg, MD",
+            "reason": "requires-components-outside-selected-family"
+          },
+          {
+            "id": "spana:2ac52a30213c9288:352408",
+            "name": "UO2(Hgly)2 2+",
+            "phase": "aqueous",
+            "sourceReference": "SmithMart: NIST Standard Reference Database 46 Version 8.\nNIST Critically Selected Stability Constants of Metal Complexes Database\nhttp://www.nist.gov/srd/nist46.cfm\nNational Institute of Standards and Technology, 100 Bureau Dr., Stop 2300, Gaithersburg, MD",
+            "reason": "requires-components-outside-selected-family"
+          },
+          {
+            "id": "spana:2ac52a30213c9288:352505",
+            "name": "UO2(Hox)+",
+            "phase": "aqueous",
+            "sourceReference": "SmithMart: NIST Standard Reference Database 46 Version 8.\nNIST Critically Selected Stability Constants of Metal Complexes Database\nhttp://www.nist.gov/srd/nist46.cfm\nNational Institute of Standards and Technology, 100 Bureau Dr., Stop 2300, Gaithersburg, MD",
+            "reason": "requires-components-outside-selected-family"
+          },
+          {
+            "id": "spana:2ac52a30213c9288:352599",
+            "name": "UO2(Hox)2",
+            "phase": "aqueous",
+            "sourceReference": "SmithMart: NIST Standard Reference Database 46 Version 8.\nNIST Critically Selected Stability Constants of Metal Complexes Database\nhttp://www.nist.gov/srd/nist46.cfm\nNational Institute of Standards and Technology, 100 Bureau Dr., Stop 2300, Gaithersburg, MD",
+            "reason": "requires-components-outside-selected-family"
+          },
+          {
+            "id": "spana:2ac52a30213c9288:352693",
+            "name": "UO2(IO3)2",
+            "phase": "aqueous",
+            "sourceReference": "NEA-U: Grenthe I, Fuger J, Konings R J M, Lemire R J, Muller A B, Nguyen-Trung C, Wanner H, Chemical Thermodynamics of Uranium. North-Holland, Elsevier Sci. Publ. B.V., Amsterdam, 1992\n\nNEA-Upd: Guillaumont R, Fanghänel T, Neck V, Fuger J, Palmer D A, Grenthe I, Rand M H, Update on the Chemical Thermodynamics of Uranium, Neptunium, Plutonium, Americium and Technetium. Elsevier B.V., Amsterdam, 2003",
+            "reason": "requires-components-outside-selected-family"
+          },
+          {
+            "id": "spana:2ac52a30213c9288:352778",
+            "name": "UO2(IO3)2(cr)",
+            "phase": "solid",
+            "sourceReference": "NEA-U: Grenthe I, Fuger J, Konings R J M, Lemire R J, Muller A B, Nguyen-Trung C, Wanner H, Chemical Thermodynamics of Uranium. North-Holland, Elsevier Sci. Publ. B.V., Amsterdam, 1992\n\nNEA-Upd: Guillaumont R, Fanghänel T, Neck V, Fuger J, Palmer D A, Grenthe I, Rand M H, Update on the Chemical Thermodynamics of Uranium, Neptunium, Plutonium, Americium and Technetium. Elsevier B.V., Amsterdam, 2003",
+            "reason": "requires-components-outside-selected-family"
+          },
+          {
+            "id": "spana:2ac52a30213c9288:352867",
+            "name": "UO2(N3)2",
+            "phase": "aqueous",
+            "sourceReference": "NEA-U: Grenthe I, Fuger J, Konings R J M, Lemire R J, Muller A B, Nguyen-Trung C, Wanner H, Chemical Thermodynamics of Uranium. North-Holland, Elsevier Sci. Publ. B.V., Amsterdam, 1992\n\nNEA-Upd: Guillaumont R, Fanghänel T, Neck V, Fuger J, Palmer D A, Grenthe I, Rand M H, Update on the Chemical Thermodynamics of Uranium, Neptunium, Plutonium, Americium and Technetium. Elsevier B.V., Amsterdam, 2003",
+            "reason": "requires-components-outside-selected-family"
+          },
+          {
+            "id": "spana:2ac52a30213c9288:352950",
+            "name": "UO2(N3)3-",
+            "phase": "aqueous",
+            "sourceReference": "NEA-U: Grenthe I, Fuger J, Konings R J M, Lemire R J, Muller A B, Nguyen-Trung C, Wanner H, Chemical Thermodynamics of Uranium. North-Holland, Elsevier Sci. Publ. B.V., Amsterdam, 1992\n\nNEA-Upd: Guillaumont R, Fanghänel T, Neck V, Fuger J, Palmer D A, Grenthe I, Rand M H, Update on the Chemical Thermodynamics of Uranium, Neptunium, Plutonium, Americium and Technetium. Elsevier B.V., Amsterdam, 2003",
+            "reason": "requires-components-outside-selected-family"
+          },
+          {
+            "id": "spana:2ac52a30213c9288:353034",
+            "name": "UO2(N3)4-2",
+            "phase": "aqueous",
+            "sourceReference": "NEA-U: Grenthe I, Fuger J, Konings R J M, Lemire R J, Muller A B, Nguyen-Trung C, Wanner H, Chemical Thermodynamics of Uranium. North-Holland, Elsevier Sci. Publ. B.V., Amsterdam, 1992\n\nNEA-Upd: Guillaumont R, Fanghänel T, Neck V, Fuger J, Palmer D A, Grenthe I, Rand M H, Update on the Chemical Thermodynamics of Uranium, Neptunium, Plutonium, Americium and Technetium. Elsevier B.V., Amsterdam, 2003",
+            "reason": "requires-components-outside-selected-family"
+          },
+          {
+            "id": "spana:2ac52a30213c9288:353119",
+            "name": "UO2(NO3)2·3H2O(cr)",
+            "phase": "solid",
+            "sourceReference": "NEA-U: Grenthe I, Fuger J, Konings R J M, Lemire R J, Muller A B, Nguyen-Trung C, Wanner H, Chemical Thermodynamics of Uranium. North-Holland, Elsevier Sci. Publ. B.V., Amsterdam, 1992\n\nNEA-Upd: Guillaumont R, Fanghänel T, Neck V, Fuger J, Palmer D A, Grenthe I, Rand M H, Update on the Chemical Thermodynamics of Uranium, Neptunium, Plutonium, Americium and Technetium. Elsevier B.V., Amsterdam, 2003",
+            "reason": "requires-components-outside-selected-family"
+          },
+          {
+            "id": "spana:2ac52a30213c9288:353227",
+            "name": "UO2(NO3)2·6H2O(cr)",
+            "phase": "solid",
+            "sourceReference": "NEA-U: Grenthe I, Fuger J, Konings R J M, Lemire R J, Muller A B, Nguyen-Trung C, Wanner H, Chemical Thermodynamics of Uranium. North-Holland, Elsevier Sci. Publ. B.V., Amsterdam, 1992\n\nNEA-Upd: Guillaumont R, Fanghänel T, Neck V, Fuger J, Palmer D A, Grenthe I, Rand M H, Update on the Chemical Thermodynamics of Uranium, Neptunium, Plutonium, Americium and Technetium. Elsevier B.V., Amsterdam, 2003",
+            "reason": "requires-components-outside-selected-family"
+          },
+          {
+            "id": "spana:2ac52a30213c9288:353727",
+            "name": "UO2(ox)",
+            "phase": "aqueous",
+            "sourceReference": "NEA-Org: Hummel W., Anderegg G., Rao L., Puigdomènech I., Tochiyama O., Chemical Thermodynamics of Compounds and Complexes of U, Np, Pu, Am, Tc, Se, Ni and Zr with Selected Organic Ligands, Amsterdam: Elsevier, 2005",
+            "reason": "requires-components-outside-selected-family"
+          },
+          {
+            "id": "spana:2ac52a30213c9288:353805",
+            "name": "UO2(ox)2 2-",
+            "phase": "aqueous",
+            "sourceReference": "NEA-Org: Hummel W., Anderegg G., Rao L., Puigdomènech I., Tochiyama O., Chemical Thermodynamics of Compounds and Complexes of U, Np, Pu, Am, Tc, Se, Ni and Zr with Selected Organic Ligands, Amsterdam: Elsevier, 2005",
+            "reason": "requires-components-outside-selected-family"
+          },
+          {
+            "id": "spana:2ac52a30213c9288:353887",
+            "name": "UO2(ox)3 4-",
+            "phase": "aqueous",
+            "sourceReference": "NEA-Org: Hummel W., Anderegg G., Rao L., Puigdomènech I., Tochiyama O., Chemical Thermodynamics of Compounds and Complexes of U, Np, Pu, Am, Tc, Se, Ni and Zr with Selected Organic Ligands, Amsterdam: Elsevier, 2005",
+            "reason": "requires-components-outside-selected-family"
+          },
+          {
+            "id": "spana:2ac52a30213c9288:353969",
+            "name": "UO2(ox)·3H2O(cr)",
+            "phase": "solid",
+            "sourceReference": "NEA-Org: Hummel W., Anderegg G., Rao L., Puigdomènech I., Tochiyama O., Chemical Thermodynamics of Compounds and Complexes of U, Np, Pu, Am, Tc, Se, Ni and Zr with Selected Organic Ligands, Amsterdam: Elsevier, 2005",
+            "reason": "requires-components-outside-selected-family"
+          },
+          {
+            "id": "spana:2ac52a30213c9288:354070",
+            "name": "UO2(SCN)2",
+            "phase": "aqueous",
+            "sourceReference": "NEA-U: Grenthe I, Fuger J, Konings R J M, Lemire R J, Muller A B, Nguyen-Trung C, Wanner H, Chemical Thermodynamics of Uranium. North-Holland, Elsevier Sci. Publ. B.V., Amsterdam, 1992\n\nNEA-Upd: Guillaumont R, Fanghänel T, Neck V, Fuger J, Palmer D A, Grenthe I, Rand M H, Update on the Chemical Thermodynamics of Uranium, Neptunium, Plutonium, Americium and Technetium. Elsevier B.V., Amsterdam, 2003",
+            "reason": "requires-components-outside-selected-family"
+          },
+          {
+            "id": "spana:2ac52a30213c9288:354155",
+            "name": "UO2(SCN)3-",
+            "phase": "aqueous",
+            "sourceReference": "NEA-U: Grenthe I, Fuger J, Konings R J M, Lemire R J, Muller A B, Nguyen-Trung C, Wanner H, Chemical Thermodynamics of Uranium. North-Holland, Elsevier Sci. Publ. B.V., Amsterdam, 1992\n\nNEA-Upd: Guillaumont R, Fanghänel T, Neck V, Fuger J, Palmer D A, Grenthe I, Rand M H, Update on the Chemical Thermodynamics of Uranium, Neptunium, Plutonium, Americium and Technetium. Elsevier B.V., Amsterdam, 2003",
+            "reason": "requires-components-outside-selected-family"
+          },
+          {
+            "id": "spana:2ac52a30213c9288:354241",
+            "name": "UO2(SO4)2 2-",
+            "phase": "aqueous",
+            "sourceReference": "NEA-U: Grenthe I, Fuger J, Konings R J M, Lemire R J, Muller A B, Nguyen-Trung C, Wanner H, Chemical Thermodynamics of Uranium. North-Holland, Elsevier Sci. Publ. B.V., Amsterdam, 1992\n\nNEA-Upd: Guillaumont R, Fanghänel T, Neck V, Fuger J, Palmer D A, Grenthe I, Rand M H, Update on the Chemical Thermodynamics of Uranium, Neptunium, Plutonium, Americium and Technetium. Elsevier B.V., Amsterdam, 2003",
+            "reason": "requires-components-outside-selected-family"
+          },
+          {
+            "id": "spana:2ac52a30213c9288:354331",
+            "name": "UO2(SO4)3 4-",
+            "phase": "aqueous",
+            "sourceReference": "NEA-U: Grenthe I, Fuger J, Konings R J M, Lemire R J, Muller A B, Nguyen-Trung C, Wanner H, Chemical Thermodynamics of Uranium. North-Holland, Elsevier Sci. Publ. B.V., Amsterdam, 1992\n\nNEA-Upd: Guillaumont R, Fanghänel T, Neck V, Fuger J, Palmer D A, Grenthe I, Rand M H, Update on the Chemical Thermodynamics of Uranium, Neptunium, Plutonium, Americium and Technetium. Elsevier B.V., Amsterdam, 2003",
+            "reason": "requires-components-outside-selected-family"
+          },
+          {
+            "id": "spana:2ac52a30213c9288:354600",
+            "name": "UO2Br+",
+            "phase": "aqueous",
+            "sourceReference": "NEA-U: Grenthe I, Fuger J, Konings R J M, Lemire R J, Muller A B, Nguyen-Trung C, Wanner H, Chemical Thermodynamics of Uranium. North-Holland, Elsevier Sci. Publ. B.V., Amsterdam, 1992\n\nNEA-Upd: Guillaumont R, Fanghänel T, Neck V, Fuger J, Palmer D A, Grenthe I, Rand M H, Update on the Chemical Thermodynamics of Uranium, Neptunium, Plutonium, Americium and Technetium. Elsevier B.V., Amsterdam, 2003",
+            "reason": "requires-components-outside-selected-family"
+          },
+          {
+            "id": "spana:2ac52a30213c9288:354681",
+            "name": "UO2BrO3+",
+            "phase": "aqueous",
+            "sourceReference": "NEA-U: Grenthe I, Fuger J, Konings R J M, Lemire R J, Muller A B, Nguyen-Trung C, Wanner H, Chemical Thermodynamics of Uranium. North-Holland, Elsevier Sci. Publ. B.V., Amsterdam, 1992\n\nNEA-Upd: Guillaumont R, Fanghänel T, Neck V, Fuger J, Palmer D A, Grenthe I, Rand M H, Update on the Chemical Thermodynamics of Uranium, Neptunium, Plutonium, Americium and Technetium. Elsevier B.V., Amsterdam, 2003",
+            "reason": "requires-components-outside-selected-family"
+          },
+          {
+            "id": "spana:2ac52a30213c9288:354766",
+            "name": "UO2Cl+",
+            "phase": "aqueous",
+            "sourceReference": "NEA-U: Grenthe I, Fuger J, Konings R J M, Lemire R J, Muller A B, Nguyen-Trung C, Wanner H, Chemical Thermodynamics of Uranium. North-Holland, Elsevier Sci. Publ. B.V., Amsterdam, 1992\n\nNEA-Upd: Guillaumont R, Fanghänel T, Neck V, Fuger J, Palmer D A, Grenthe I, Rand M H, Update on the Chemical Thermodynamics of Uranium, Neptunium, Plutonium, Americium and Technetium. Elsevier B.V., Amsterdam, 2003",
+            "reason": "requires-components-outside-selected-family"
+          },
+          {
+            "id": "spana:2ac52a30213c9288:354847",
+            "name": "UO2Cl2",
+            "phase": "aqueous",
+            "sourceReference": "NEA-U: Grenthe I, Fuger J, Konings R J M, Lemire R J, Muller A B, Nguyen-Trung C, Wanner H, Chemical Thermodynamics of Uranium. North-Holland, Elsevier Sci. Publ. B.V., Amsterdam, 1992\n\nNEA-Upd: Guillaumont R, Fanghänel T, Neck V, Fuger J, Palmer D A, Grenthe I, Rand M H, Update on the Chemical Thermodynamics of Uranium, Neptunium, Plutonium, Americium and Technetium. Elsevier B.V., Amsterdam, 2003",
+            "reason": "requires-components-outside-selected-family"
+          },
+          {
+            "id": "spana:2ac52a30213c9288:354928",
+            "name": "UO2ClO3+",
+            "phase": "aqueous",
+            "sourceReference": "NEA-U: Grenthe I, Fuger J, Konings R J M, Lemire R J, Muller A B, Nguyen-Trung C, Wanner H, Chemical Thermodynamics of Uranium. North-Holland, Elsevier Sci. Publ. B.V., Amsterdam, 1992\n\nNEA-Upd: Guillaumont R, Fanghänel T, Neck V, Fuger J, Palmer D A, Grenthe I, Rand M H, Update on the Chemical Thermodynamics of Uranium, Neptunium, Plutonium, Americium and Technetium. Elsevier B.V., Amsterdam, 2003",
+            "reason": "requires-components-outside-selected-family"
+          },
+          {
+            "id": "spana:2ac52a30213c9288:355013",
+            "name": "UO2ClOH·2H2O(s)",
+            "phase": "solid",
+            "sourceReference": "NEA-U: Grenthe I, Fuger J, Konings R J M, Lemire R J, Muller A B, Nguyen-Trung C, Wanner H, Chemical Thermodynamics of Uranium. North-Holland, Elsevier Sci. Publ. B.V., Amsterdam, 1992\n\nNEA-Upd: Guillaumont R, Fanghänel T, Neck V, Fuger J, Palmer D A, Grenthe I, Rand M H, Update on the Chemical Thermodynamics of Uranium, Neptunium, Plutonium, Americium and Technetium. Elsevier B.V., Amsterdam, 2003",
+            "reason": "requires-components-outside-selected-family"
+          },
+          {
+            "id": "spana:2ac52a30213c9288:355129",
+            "name": "UO2CO3",
+            "phase": "aqueous",
+            "sourceReference": "NEA-U: Grenthe I, Fuger J, Konings R J M, Lemire R J, Muller A B, Nguyen-Trung C, Wanner H, Chemical Thermodynamics of Uranium. North-Holland, Elsevier Sci. Publ. B.V., Amsterdam, 1992\n\nNEA-Upd: Guillaumont R, Fanghänel T, Neck V, Fuger J, Palmer D A, Grenthe I, Rand M H, Update on the Chemical Thermodynamics of Uranium, Neptunium, Plutonium, Americium and Technetium. Elsevier B.V., Amsterdam, 2003",
+            "reason": "requires-components-outside-selected-family"
+          },
+          {
+            "id": "spana:2ac52a30213c9288:355213",
+            "name": "UO2CO3(cr)",
+            "phase": "solid",
+            "sourceReference": "NEA-U: Grenthe I, Fuger J, Konings R J M, Lemire R J, Muller A B, Nguyen-Trung C, Wanner H, Chemical Thermodynamics of Uranium. North-Holland, Elsevier Sci. Publ. B.V., Amsterdam, 1992\n\nNEA-Upd: Guillaumont R, Fanghänel T, Neck V, Fuger J, Palmer D A, Grenthe I, Rand M H, Update on the Chemical Thermodynamics of Uranium, Neptunium, Plutonium, Americium and Technetium. Elsevier B.V., Amsterdam, 2003",
+            "reason": "requires-components-outside-selected-family"
+          },
+          {
+            "id": "spana:2ac52a30213c9288:355314",
+            "name": "UO2CO3F-",
+            "phase": "aqueous",
+            "sourceReference": "NEA-U: Grenthe I, Fuger J, Konings R J M, Lemire R J, Muller A B, Nguyen-Trung C, Wanner H, Chemical Thermodynamics of Uranium. North-Holland, Elsevier Sci. Publ. B.V., Amsterdam, 1992\n\nNEA-Upd: Guillaumont R, Fanghänel T, Neck V, Fuger J, Palmer D A, Grenthe I, Rand M H, Update on the Chemical Thermodynamics of Uranium, Neptunium, Plutonium, Americium and Technetium. Elsevier B.V., Amsterdam, 2003",
+            "reason": "requires-components-outside-selected-family"
+          },
+          {
+            "id": "spana:2ac52a30213c9288:355412",
+            "name": "UO2CO3F2 2-",
+            "phase": "aqueous",
+            "sourceReference": "NEA-U: Grenthe I, Fuger J, Konings R J M, Lemire R J, Muller A B, Nguyen-Trung C, Wanner H, Chemical Thermodynamics of Uranium. North-Holland, Elsevier Sci. Publ. B.V., Amsterdam, 1992\n\nNEA-Upd: Guillaumont R, Fanghänel T, Neck V, Fuger J, Palmer D A, Grenthe I, Rand M H, Update on the Chemical Thermodynamics of Uranium, Neptunium, Plutonium, Americium and Technetium. Elsevier B.V., Amsterdam, 2003",
+            "reason": "requires-components-outside-selected-family"
+          },
+          {
+            "id": "spana:2ac52a30213c9288:355513",
+            "name": "UO2CO3F3 3-",
+            "phase": "aqueous",
+            "sourceReference": "NEA-U: Grenthe I, Fuger J, Konings R J M, Lemire R J, Muller A B, Nguyen-Trung C, Wanner H, Chemical Thermodynamics of Uranium. North-Holland, Elsevier Sci. Publ. B.V., Amsterdam, 1992\n\nNEA-Upd: Guillaumont R, Fanghänel T, Neck V, Fuger J, Palmer D A, Grenthe I, Rand M H, Update on the Chemical Thermodynamics of Uranium, Neptunium, Plutonium, Americium and Technetium. Elsevier B.V., Amsterdam, 2003",
+            "reason": "requires-components-outside-selected-family"
+          },
+          {
+            "id": "spana:2ac52a30213c9288:355614",
+            "name": "UO2F+",
+            "phase": "aqueous",
+            "sourceReference": "NEA-U: Grenthe I, Fuger J, Konings R J M, Lemire R J, Muller A B, Nguyen-Trung C, Wanner H, Chemical Thermodynamics of Uranium. North-Holland, Elsevier Sci. Publ. B.V., Amsterdam, 1992\n\nNEA-Upd: Guillaumont R, Fanghänel T, Neck V, Fuger J, Palmer D A, Grenthe I, Rand M H, Update on the Chemical Thermodynamics of Uranium, Neptunium, Plutonium, Americium and Technetium. Elsevier B.V., Amsterdam, 2003",
+            "reason": "requires-components-outside-selected-family"
+          },
+          {
+            "id": "spana:2ac52a30213c9288:355693",
+            "name": "UO2F2",
+            "phase": "aqueous",
+            "sourceReference": "NEA-U: Grenthe I, Fuger J, Konings R J M, Lemire R J, Muller A B, Nguyen-Trung C, Wanner H, Chemical Thermodynamics of Uranium. North-Holland, Elsevier Sci. Publ. B.V., Amsterdam, 1992\n\nNEA-Upd: Guillaumont R, Fanghänel T, Neck V, Fuger J, Palmer D A, Grenthe I, Rand M H, Update on the Chemical Thermodynamics of Uranium, Neptunium, Plutonium, Americium and Technetium. Elsevier B.V., Amsterdam, 2003",
+            "reason": "requires-components-outside-selected-family"
+          },
+          {
+            "id": "spana:2ac52a30213c9288:355772",
+            "name": "UO2F2(s)",
+            "phase": "solid",
+            "sourceReference": "NEA-U: Grenthe I, Fuger J, Konings R J M, Lemire R J, Muller A B, Nguyen-Trung C, Wanner H, Chemical Thermodynamics of Uranium. North-Holland, Elsevier Sci. Publ. B.V., Amsterdam, 1992\n\nNEA-Upd: Guillaumont R, Fanghänel T, Neck V, Fuger J, Palmer D A, Grenthe I, Rand M H, Update on the Chemical Thermodynamics of Uranium, Neptunium, Plutonium, Americium and Technetium. Elsevier B.V., Amsterdam, 2003",
+            "reason": "requires-components-outside-selected-family"
+          },
+          {
+            "id": "spana:2ac52a30213c9288:355854",
+            "name": "UO2F2·3H2O(s)",
+            "phase": "solid",
+            "sourceReference": "NEA-U: Grenthe I, Fuger J, Konings R J M, Lemire R J, Muller A B, Nguyen-Trung C, Wanner H, Chemical Thermodynamics of Uranium. North-Holland, Elsevier Sci. Publ. B.V., Amsterdam, 1992\n\nNEA-Upd: Guillaumont R, Fanghänel T, Neck V, Fuger J, Palmer D A, Grenthe I, Rand M H, Update on the Chemical Thermodynamics of Uranium, Neptunium, Plutonium, Americium and Technetium. Elsevier B.V., Amsterdam, 2003",
+            "reason": "requires-components-outside-selected-family"
+          },
+          {
+            "id": "spana:2ac52a30213c9288:355955",
+            "name": "UO2F3-",
+            "phase": "aqueous",
+            "sourceReference": "NEA-U: Grenthe I, Fuger J, Konings R J M, Lemire R J, Muller A B, Nguyen-Trung C, Wanner H, Chemical Thermodynamics of Uranium. North-Holland, Elsevier Sci. Publ. B.V., Amsterdam, 1992\n\nNEA-Upd: Guillaumont R, Fanghänel T, Neck V, Fuger J, Palmer D A, Grenthe I, Rand M H, Update on the Chemical Thermodynamics of Uranium, Neptunium, Plutonium, Americium and Technetium. Elsevier B.V., Amsterdam, 2003",
+            "reason": "requires-components-outside-selected-family"
+          },
+          {
+            "id": "spana:2ac52a30213c9288:356035",
+            "name": "UO2F4 2-",
+            "phase": "aqueous",
+            "sourceReference": "NEA-U: Grenthe I, Fuger J, Konings R J M, Lemire R J, Muller A B, Nguyen-Trung C, Wanner H, Chemical Thermodynamics of Uranium. North-Holland, Elsevier Sci. Publ. B.V., Amsterdam, 1992\n\nNEA-Upd: Guillaumont R, Fanghänel T, Neck V, Fuger J, Palmer D A, Grenthe I, Rand M H, Update on the Chemical Thermodynamics of Uranium, Neptunium, Plutonium, Americium and Technetium. Elsevier B.V., Amsterdam, 2003",
+            "reason": "requires-components-outside-selected-family"
+          },
+          {
+            "id": "spana:2ac52a30213c9288:356117",
+            "name": "UO2FOH·2H2O(s)",
+            "phase": "solid",
+            "sourceReference": "NEA-U: Grenthe I, Fuger J, Konings R J M, Lemire R J, Muller A B, Nguyen-Trung C, Wanner H, Chemical Thermodynamics of Uranium. North-Holland, Elsevier Sci. Publ. B.V., Amsterdam, 1992\n\nNEA-Upd: Guillaumont R, Fanghänel T, Neck V, Fuger J, Palmer D A, Grenthe I, Rand M H, Update on the Chemical Thermodynamics of Uranium, Neptunium, Plutonium, Americium and Technetium. Elsevier B.V., Amsterdam, 2003",
+            "reason": "requires-components-outside-selected-family"
+          },
+          {
+            "id": "spana:2ac52a30213c9288:356231",
+            "name": "UO2FOH·H2O(s)",
+            "phase": "solid",
+            "sourceReference": "NEA-U: Grenthe I, Fuger J, Konings R J M, Lemire R J, Muller A B, Nguyen-Trung C, Wanner H, Chemical Thermodynamics of Uranium. North-Holland, Elsevier Sci. Publ. B.V., Amsterdam, 1992\n\nNEA-Upd: Guillaumont R, Fanghänel T, Neck V, Fuger J, Palmer D A, Grenthe I, Rand M H, Update on the Chemical Thermodynamics of Uranium, Neptunium, Plutonium, Americium and Technetium. Elsevier B.V., Amsterdam, 2003",
+            "reason": "requires-components-outside-selected-family"
+          },
+          {
+            "id": "spana:2ac52a30213c9288:356344",
+            "name": "UO2H2AsO4+",
+            "phase": "aqueous",
+            "sourceReference": "NEA-U: Grenthe I, Fuger J, Konings R J M, Lemire R J, Muller A B, Nguyen-Trung C, Wanner H, Chemical Thermodynamics of Uranium. North-Holland, Elsevier Sci. Publ. B.V., Amsterdam, 1992\n\nNEA-Upd: Guillaumont R, Fanghänel T, Neck V, Fuger J, Palmer D A, Grenthe I, Rand M H, Update on the Chemical Thermodynamics of Uranium, Neptunium, Plutonium, Americium and Technetium. Elsevier B.V., Amsterdam, 2003",
+            "reason": "requires-components-outside-selected-family"
+          },
+          {
+            "id": "spana:2ac52a30213c9288:356445",
+            "name": "UO2H2PO4+",
+            "phase": "aqueous",
+            "sourceReference": "NEA-U: Grenthe I, Fuger J, Konings R J M, Lemire R J, Muller A B, Nguyen-Trung C, Wanner H, Chemical Thermodynamics of Uranium. North-Holland, Elsevier Sci. Publ. B.V., Amsterdam, 1992\n\nNEA-Upd: Guillaumont R, Fanghänel T, Neck V, Fuger J, Palmer D A, Grenthe I, Rand M H, Update on the Chemical Thermodynamics of Uranium, Neptunium, Plutonium, Americium and Technetium. Elsevier B.V., Amsterdam, 2003",
+            "reason": "requires-components-outside-selected-family"
+          },
+          {
+            "id": "spana:2ac52a30213c9288:356544",
+            "name": "UO2H3PO4 2+",
+            "phase": "aqueous",
+            "sourceReference": "NEA-U: Grenthe I, Fuger J, Konings R J M, Lemire R J, Muller A B, Nguyen-Trung C, Wanner H, Chemical Thermodynamics of Uranium. North-Holland, Elsevier Sci. Publ. B.V., Amsterdam, 1992\n\nNEA-Upd: Guillaumont R, Fanghänel T, Neck V, Fuger J, Palmer D A, Grenthe I, Rand M H, Update on the Chemical Thermodynamics of Uranium, Neptunium, Plutonium, Americium and Technetium. Elsevier B.V., Amsterdam, 2003",
+            "reason": "requires-components-outside-selected-family"
+          },
+          {
+            "id": "spana:2ac52a30213c9288:356645",
+            "name": "UO2HAsO4",
+            "phase": "aqueous",
+            "sourceReference": "NEA-U: Grenthe I, Fuger J, Konings R J M, Lemire R J, Muller A B, Nguyen-Trung C, Wanner H, Chemical Thermodynamics of Uranium. North-Holland, Elsevier Sci. Publ. B.V., Amsterdam, 1992\n\nNEA-Upd: Guillaumont R, Fanghänel T, Neck V, Fuger J, Palmer D A, Grenthe I, Rand M H, Update on the Chemical Thermodynamics of Uranium, Neptunium, Plutonium, Americium and Technetium. Elsevier B.V., Amsterdam, 2003",
+            "reason": "requires-components-outside-selected-family"
+          },
+          {
+            "id": "spana:2ac52a30213c9288:356744",
+            "name": "UO2HPO4",
+            "phase": "aqueous",
+            "sourceReference": "NEA-U: Grenthe I, Fuger J, Konings R J M, Lemire R J, Muller A B, Nguyen-Trung C, Wanner H, Chemical Thermodynamics of Uranium. North-Holland, Elsevier Sci. Publ. B.V., Amsterdam, 1992\n\nNEA-Upd: Guillaumont R, Fanghänel T, Neck V, Fuger J, Palmer D A, Grenthe I, Rand M H, Update on the Chemical Thermodynamics of Uranium, Neptunium, Plutonium, Americium and Technetium. Elsevier B.V., Amsterdam, 2003",
+            "reason": "requires-components-outside-selected-family"
+          },
+          {
+            "id": "spana:2ac52a30213c9288:356841",
+            "name": "UO2HPO4·4H2O(s)",
+            "phase": "solid",
+            "sourceReference": "NEA-U: Grenthe I, Fuger J, Konings R J M, Lemire R J, Muller A B, Nguyen-Trung C, Wanner H, Chemical Thermodynamics of Uranium. North-Holland, Elsevier Sci. Publ. B.V., Amsterdam, 1992\n\nNEA-Upd: Guillaumont R, Fanghänel T, Neck V, Fuger J, Palmer D A, Grenthe I, Rand M H, Update on the Chemical Thermodynamics of Uranium, Neptunium, Plutonium, Americium and Technetium. Elsevier B.V., Amsterdam, 2003",
+            "reason": "requires-components-outside-selected-family"
+          },
+          {
+            "id": "spana:2ac52a30213c9288:356968",
+            "name": "UO2IO3+",
+            "phase": "aqueous",
+            "sourceReference": "NEA-U: Grenthe I, Fuger J, Konings R J M, Lemire R J, Muller A B, Nguyen-Trung C, Wanner H, Chemical Thermodynamics of Uranium. North-Holland, Elsevier Sci. Publ. B.V., Amsterdam, 1992\n\nNEA-Upd: Guillaumont R, Fanghänel T, Neck V, Fuger J, Palmer D A, Grenthe I, Rand M H, Update on the Chemical Thermodynamics of Uranium, Neptunium, Plutonium, Americium and Technetium. Elsevier B.V., Amsterdam, 2003",
+            "reason": "requires-components-outside-selected-family"
+          },
+          {
+            "id": "spana:2ac52a30213c9288:357051",
+            "name": "UO2N3+",
+            "phase": "aqueous",
+            "sourceReference": "NEA-U: Grenthe I, Fuger J, Konings R J M, Lemire R J, Muller A B, Nguyen-Trung C, Wanner H, Chemical Thermodynamics of Uranium. North-Holland, Elsevier Sci. Publ. B.V., Amsterdam, 1992\n\nNEA-Upd: Guillaumont R, Fanghänel T, Neck V, Fuger J, Palmer D A, Grenthe I, Rand M H, Update on the Chemical Thermodynamics of Uranium, Neptunium, Plutonium, Americium and Technetium. Elsevier B.V., Amsterdam, 2003",
+            "reason": "requires-components-outside-selected-family"
+          },
+          {
+            "id": "spana:2ac52a30213c9288:357132",
+            "name": "UO2NO3+",
+            "phase": "aqueous",
+            "sourceReference": "NEA-U: Grenthe I, Fuger J, Konings R J M, Lemire R J, Muller A B, Nguyen-Trung C, Wanner H, Chemical Thermodynamics of Uranium. North-Holland, Elsevier Sci. Publ. B.V., Amsterdam, 1992\n\nNEA-Upd: Guillaumont R, Fanghänel T, Neck V, Fuger J, Palmer D A, Grenthe I, Rand M H, Update on the Chemical Thermodynamics of Uranium, Neptunium, Plutonium, Americium and Technetium. Elsevier B.V., Amsterdam, 2003",
+            "reason": "requires-components-outside-selected-family"
+          },
+          {
+            "id": "spana:2ac52a30213c9288:357215",
+            "name": "UO2NTA-",
+            "phase": "aqueous",
+            "sourceReference": "SmithMart: NIST Standard Reference Database 46 Version 8.\nNIST Critically Selected Stability Constants of Metal Complexes Database\nhttp://www.nist.gov/srd/nist46.cfm\nNational Institute of Standards and Technology, 100 Bureau Dr., Stop 2300, Gaithersburg, MD",
+            "reason": "requires-components-outside-selected-family"
+          },
+          {
+            "id": "spana:2ac52a30213c9288:357389",
+            "name": "UO2PO4-",
+            "phase": "aqueous",
+            "sourceReference": "NEA-U: Grenthe I, Fuger J, Konings R J M, Lemire R J, Muller A B, Nguyen-Trung C, Wanner H, Chemical Thermodynamics of Uranium. North-Holland, Elsevier Sci. Publ. B.V., Amsterdam, 1992\n\nNEA-Upd: Guillaumont R, Fanghänel T, Neck V, Fuger J, Palmer D A, Grenthe I, Rand M H, Update on the Chemical Thermodynamics of Uranium, Neptunium, Plutonium, Americium and Technetium. Elsevier B.V., Amsterdam, 2003",
+            "reason": "requires-components-outside-selected-family"
+          },
+          {
+            "id": "spana:2ac52a30213c9288:357474",
+            "name": "UO2S2O3",
+            "phase": "aqueous",
+            "sourceReference": "NEA-U: Grenthe I, Fuger J, Konings R J M, Lemire R J, Muller A B, Nguyen-Trung C, Wanner H, Chemical Thermodynamics of Uranium. North-Holland, Elsevier Sci. Publ. B.V., Amsterdam, 1992\n\nNEA-Upd: Guillaumont R, Fanghänel T, Neck V, Fuger J, Palmer D A, Grenthe I, Rand M H, Update on the Chemical Thermodynamics of Uranium, Neptunium, Plutonium, Americium and Technetium. Elsevier B.V., Amsterdam, 2003",
+            "reason": "requires-components-outside-selected-family"
+          },
+          {
+            "id": "spana:2ac52a30213c9288:357560",
+            "name": "UO2SCN+",
+            "phase": "aqueous",
+            "sourceReference": "NEA-U: Grenthe I, Fuger J, Konings R J M, Lemire R J, Muller A B, Nguyen-Trung C, Wanner H, Chemical Thermodynamics of Uranium. North-Holland, Elsevier Sci. Publ. B.V., Amsterdam, 1992\n\nNEA-Upd: Guillaumont R, Fanghänel T, Neck V, Fuger J, Palmer D A, Grenthe I, Rand M H, Update on the Chemical Thermodynamics of Uranium, Neptunium, Plutonium, Americium and Technetium. Elsevier B.V., Amsterdam, 2003",
+            "reason": "requires-components-outside-selected-family"
+          },
+          {
+            "id": "spana:2ac52a30213c9288:357643",
+            "name": "UO2SeO4",
+            "phase": "aqueous",
+            "sourceReference": "NEA-Se: Olin Å, Noläng B, Osadchii E G, Öhman L-O, Rosén E, Chemical Thermodynamics of Selenium. Amsterdam, The Netherlands: Elsevier B.V., 2005",
+            "reason": "requires-components-outside-selected-family"
+          },
+          {
+            "id": "spana:2ac52a30213c9288:357722",
+            "name": "UO2SeO4·4H2O(s)",
+            "phase": "solid",
+            "sourceReference": "SmithMart: NIST Standard Reference Database 46 Version 8.\nNIST Critically Selected Stability Constants of Metal Complexes Database\nhttp://www.nist.gov/srd/nist46.cfm\nNational Institute of Standards and Technology, 100 Bureau Dr., Stop 2300, Gaithersburg, MD",
+            "reason": "requires-components-outside-selected-family"
+          },
+          {
+            "id": "spana:2ac52a30213c9288:357826",
+            "name": "UO2SiO(OH)3+",
+            "phase": "aqueous",
+            "sourceReference": "NEA-U: Grenthe I, Fuger J, Konings R J M, Lemire R J, Muller A B, Nguyen-Trung C, Wanner H, Chemical Thermodynamics of Uranium. North-Holland, Elsevier Sci. Publ. B.V., Amsterdam, 1992\n\nNEA-Upd: Guillaumont R, Fanghänel T, Neck V, Fuger J, Palmer D A, Grenthe I, Rand M H, Update on the Chemical Thermodynamics of Uranium, Neptunium, Plutonium, Americium and Technetium. Elsevier B.V., Amsterdam, 2003",
+            "reason": "requires-components-outside-selected-family"
+          },
+          {
+            "id": "spana:2ac52a30213c9288:357929",
+            "name": "UO2SO3",
+            "phase": "aqueous",
+            "sourceReference": "NEA-U: Grenthe I, Fuger J, Konings R J M, Lemire R J, Muller A B, Nguyen-Trung C, Wanner H, Chemical Thermodynamics of Uranium. North-Holland, Elsevier Sci. Publ. B.V., Amsterdam, 1992\n\nNEA-Upd: Guillaumont R, Fanghänel T, Neck V, Fuger J, Palmer D A, Grenthe I, Rand M H, Update on the Chemical Thermodynamics of Uranium, Neptunium, Plutonium, Americium and Technetium. Elsevier B.V., Amsterdam, 2003",
+            "reason": "requires-components-outside-selected-family"
+          },
+          {
+            "id": "spana:2ac52a30213c9288:358013",
+            "name": "UO2SO3(s)",
+            "phase": "solid",
+            "sourceReference": "NEA-U: Grenthe I, Fuger J, Konings R J M, Lemire R J, Muller A B, Nguyen-Trung C, Wanner H, Chemical Thermodynamics of Uranium. North-Holland, Elsevier Sci. Publ. B.V., Amsterdam, 1992\n\nNEA-Upd: Guillaumont R, Fanghänel T, Neck V, Fuger J, Palmer D A, Grenthe I, Rand M H, Update on the Chemical Thermodynamics of Uranium, Neptunium, Plutonium, Americium and Technetium. Elsevier B.V., Amsterdam, 2003",
+            "reason": "requires-components-outside-selected-family"
+          },
+          {
+            "id": "spana:2ac52a30213c9288:358101",
+            "name": "UO2SO4",
+            "phase": "aqueous",
+            "sourceReference": "NEA-U: Grenthe I, Fuger J, Konings R J M, Lemire R J, Muller A B, Nguyen-Trung C, Wanner H, Chemical Thermodynamics of Uranium. North-Holland, Elsevier Sci. Publ. B.V., Amsterdam, 1992\n\nNEA-Upd: Guillaumont R, Fanghänel T, Neck V, Fuger J, Palmer D A, Grenthe I, Rand M H, Update on the Chemical Thermodynamics of Uranium, Neptunium, Plutonium, Americium and Technetium. Elsevier B.V., Amsterdam, 2003",
+            "reason": "requires-components-outside-selected-family"
+          },
+          {
+            "id": "spana:2ac52a30213c9288:358185",
+            "name": "UO2SO4(s)",
+            "phase": "solid",
+            "sourceReference": "NEA-U: Grenthe I, Fuger J, Konings R J M, Lemire R J, Muller A B, Nguyen-Trung C, Wanner H, Chemical Thermodynamics of Uranium. North-Holland, Elsevier Sci. Publ. B.V., Amsterdam, 1992\n\nNEA-Upd: Guillaumont R, Fanghänel T, Neck V, Fuger J, Palmer D A, Grenthe I, Rand M H, Update on the Chemical Thermodynamics of Uranium, Neptunium, Plutonium, Americium and Technetium. Elsevier B.V., Amsterdam, 2003",
+            "reason": "requires-components-outside-selected-family"
+          },
+          {
+            "id": "spana:2ac52a30213c9288:358272",
+            "name": "UO2SO4·2.5H2O(s)",
+            "phase": "solid",
+            "sourceReference": "NEA-U: Grenthe I, Fuger J, Konings R J M, Lemire R J, Muller A B, Nguyen-Trung C, Wanner H, Chemical Thermodynamics of Uranium. North-Holland, Elsevier Sci. Publ. B.V., Amsterdam, 1992\n\nNEA-Upd: Guillaumont R, Fanghänel T, Neck V, Fuger J, Palmer D A, Grenthe I, Rand M H, Update on the Chemical Thermodynamics of Uranium, Neptunium, Plutonium, Americium and Technetium. Elsevier B.V., Amsterdam, 2003",
+            "reason": "requires-components-outside-selected-family"
+          },
+          {
+            "id": "spana:2ac52a30213c9288:358380",
+            "name": "UO2SO4·3.5H2O(s)",
+            "phase": "solid",
+            "sourceReference": "NEA-U: Grenthe I, Fuger J, Konings R J M, Lemire R J, Muller A B, Nguyen-Trung C, Wanner H, Chemical Thermodynamics of Uranium. North-Holland, Elsevier Sci. Publ. B.V., Amsterdam, 1992\n\nNEA-Upd: Guillaumont R, Fanghänel T, Neck V, Fuger J, Palmer D A, Grenthe I, Rand M H, Update on the Chemical Thermodynamics of Uranium, Neptunium, Plutonium, Americium and Technetium. Elsevier B.V., Amsterdam, 2003",
+            "reason": "requires-components-outside-selected-family"
+          },
+          {
+            "id": "spana:2ac52a30213c9288:358488",
+            "name": "UO2SO4·3H2O(s)",
+            "phase": "solid",
+            "sourceReference": "NEA-U: Grenthe I, Fuger J, Konings R J M, Lemire R J, Muller A B, Nguyen-Trung C, Wanner H, Chemical Thermodynamics of Uranium. North-Holland, Elsevier Sci. Publ. B.V., Amsterdam, 1992\n\nNEA-Upd: Guillaumont R, Fanghänel T, Neck V, Fuger J, Palmer D A, Grenthe I, Rand M H, Update on the Chemical Thermodynamics of Uranium, Neptunium, Plutonium, Americium and Technetium. Elsevier B.V., Amsterdam, 2003",
+            "reason": "requires-components-outside-selected-family"
+          },
+          {
+            "id": "spana:2ac52a30213c9288:358703",
+            "name": "UOBr2(s)",
+            "phase": "solid",
+            "sourceReference": "NEA-U: Grenthe I, Fuger J, Konings R J M, Lemire R J, Muller A B, Nguyen-Trung C, Wanner H, Chemical Thermodynamics of Uranium. North-Holland, Elsevier Sci. Publ. B.V., Amsterdam, 1992\n\nNEA-Upd: Guillaumont R, Fanghänel T, Neck V, Fuger J, Palmer D A, Grenthe I, Rand M H, Update on the Chemical Thermodynamics of Uranium, Neptunium, Plutonium, Americium and Technetium. Elsevier B.V., Amsterdam, 2003",
+            "reason": "requires-components-outside-selected-family"
+          },
+          {
+            "id": "spana:2ac52a30213c9288:358809",
+            "name": "UOBr3(s)",
+            "phase": "solid",
+            "sourceReference": "NEA-U: Grenthe I, Fuger J, Konings R J M, Lemire R J, Muller A B, Nguyen-Trung C, Wanner H, Chemical Thermodynamics of Uranium. North-Holland, Elsevier Sci. Publ. B.V., Amsterdam, 1992\n\nNEA-Upd: Guillaumont R, Fanghänel T, Neck V, Fuger J, Palmer D A, Grenthe I, Rand M H, Update on the Chemical Thermodynamics of Uranium, Neptunium, Plutonium, Americium and Technetium. Elsevier B.V., Amsterdam, 2003",
+            "reason": "requires-components-outside-selected-family"
+          },
+          {
+            "id": "spana:2ac52a30213c9288:358915",
+            "name": "UOCl(s)",
+            "phase": "solid",
+            "sourceReference": "NEA-U: Grenthe I, Fuger J, Konings R J M, Lemire R J, Muller A B, Nguyen-Trung C, Wanner H, Chemical Thermodynamics of Uranium. North-Holland, Elsevier Sci. Publ. B.V., Amsterdam, 1992\n\nNEA-Upd: Guillaumont R, Fanghänel T, Neck V, Fuger J, Palmer D A, Grenthe I, Rand M H, Update on the Chemical Thermodynamics of Uranium, Neptunium, Plutonium, Americium and Technetium. Elsevier B.V., Amsterdam, 2003",
+            "reason": "requires-components-outside-selected-family"
+          },
+          {
+            "id": "spana:2ac52a30213c9288:359020",
+            "name": "UOCl2(s)",
+            "phase": "solid",
+            "sourceReference": "NEA-U: Grenthe I, Fuger J, Konings R J M, Lemire R J, Muller A B, Nguyen-Trung C, Wanner H, Chemical Thermodynamics of Uranium. North-Holland, Elsevier Sci. Publ. B.V., Amsterdam, 1992\n\nNEA-Upd: Guillaumont R, Fanghänel T, Neck V, Fuger J, Palmer D A, Grenthe I, Rand M H, Update on the Chemical Thermodynamics of Uranium, Neptunium, Plutonium, Americium and Technetium. Elsevier B.V., Amsterdam, 2003",
+            "reason": "requires-components-outside-selected-family"
+          },
+          {
+            "id": "spana:2ac52a30213c9288:359126",
+            "name": "UOCl3(s)",
+            "phase": "solid",
+            "sourceReference": "NEA-U: Grenthe I, Fuger J, Konings R J M, Lemire R J, Muller A B, Nguyen-Trung C, Wanner H, Chemical Thermodynamics of Uranium. North-Holland, Elsevier Sci. Publ. B.V., Amsterdam, 1992\n\nNEA-Upd: Guillaumont R, Fanghänel T, Neck V, Fuger J, Palmer D A, Grenthe I, Rand M H, Update on the Chemical Thermodynamics of Uranium, Neptunium, Plutonium, Americium and Technetium. Elsevier B.V., Amsterdam, 2003",
+            "reason": "requires-components-outside-selected-family"
+          },
+          {
+            "id": "spana:2ac52a30213c9288:359232",
+            "name": "UOF2(s)",
+            "phase": "solid",
+            "sourceReference": "NEA-U: Grenthe I, Fuger J, Konings R J M, Lemire R J, Muller A B, Nguyen-Trung C, Wanner H, Chemical Thermodynamics of Uranium. North-Holland, Elsevier Sci. Publ. B.V., Amsterdam, 1992\n\nNEA-Upd: Guillaumont R, Fanghänel T, Neck V, Fuger J, Palmer D A, Grenthe I, Rand M H, Update on the Chemical Thermodynamics of Uranium, Neptunium, Plutonium, Americium and Technetium. Elsevier B.V., Amsterdam, 2003",
+            "reason": "requires-components-outside-selected-family"
+          },
+          {
+            "id": "spana:2ac52a30213c9288:359336",
+            "name": "UOF2·H2O(s)",
+            "phase": "solid",
+            "sourceReference": "NEA-U: Grenthe I, Fuger J, Konings R J M, Lemire R J, Muller A B, Nguyen-Trung C, Wanner H, Chemical Thermodynamics of Uranium. North-Holland, Elsevier Sci. Publ. B.V., Amsterdam, 1992\n\nNEA-Upd: Guillaumont R, Fanghänel T, Neck V, Fuger J, Palmer D A, Grenthe I, Rand M H, Update on the Chemical Thermodynamics of Uranium, Neptunium, Plutonium, Americium and Technetium. Elsevier B.V., Amsterdam, 2003",
+            "reason": "requires-components-outside-selected-family"
+          },
+          {
+            "id": "spana:2ac52a30213c9288:359445",
+            "name": "UOF4(s)",
+            "phase": "solid",
+            "sourceReference": "NEA-U: Grenthe I, Fuger J, Konings R J M, Lemire R J, Muller A B, Nguyen-Trung C, Wanner H, Chemical Thermodynamics of Uranium. North-Holland, Elsevier Sci. Publ. B.V., Amsterdam, 1992\n\nNEA-Upd: Guillaumont R, Fanghänel T, Neck V, Fuger J, Palmer D A, Grenthe I, Rand M H, Update on the Chemical Thermodynamics of Uranium, Neptunium, Plutonium, Americium and Technetium. Elsevier B.V., Amsterdam, 2003",
+            "reason": "requires-components-outside-selected-family"
+          },
+          {
+            "id": "spana:2ac52a30213c9288:359551",
+            "name": "UOFOH(s)",
+            "phase": "solid",
+            "sourceReference": "NEA-U: Grenthe I, Fuger J, Konings R J M, Lemire R J, Muller A B, Nguyen-Trung C, Wanner H, Chemical Thermodynamics of Uranium. North-Holland, Elsevier Sci. Publ. B.V., Amsterdam, 1992\n\nNEA-Upd: Guillaumont R, Fanghänel T, Neck V, Fuger J, Palmer D A, Grenthe I, Rand M H, Update on the Chemical Thermodynamics of Uranium, Neptunium, Plutonium, Americium and Technetium. Elsevier B.V., Amsterdam, 2003",
+            "reason": "requires-components-outside-selected-family"
+          },
+          {
+            "id": "spana:2ac52a30213c9288:359656",
+            "name": "UOFOH·0.5H2O(s)",
+            "phase": "solid",
+            "sourceReference": "NEA-U: Grenthe I, Fuger J, Konings R J M, Lemire R J, Muller A B, Nguyen-Trung C, Wanner H, Chemical Thermodynamics of Uranium. North-Holland, Elsevier Sci. Publ. B.V., Amsterdam, 1992\n\nNEA-Upd: Guillaumont R, Fanghänel T, Neck V, Fuger J, Palmer D A, Grenthe I, Rand M H, Update on the Chemical Thermodynamics of Uranium, Neptunium, Plutonium, Americium and Technetium. Elsevier B.V., Amsterdam, 2003",
+            "reason": "requires-components-outside-selected-family"
+          },
+          {
+            "id": "spana:2ac52a30213c9288:359860",
+            "name": "UP2O7",
+            "phase": "aqueous",
+            "sourceReference": "SmithMart: NIST Standard Reference Database 46 Version 8.\nNIST Critically Selected Stability Constants of Metal Complexes Database\nhttp://www.nist.gov/srd/nist46.cfm\nNational Institute of Standards and Technology, 100 Bureau Dr., Stop 2300, Gaithersburg, MD",
+            "reason": "requires-components-outside-selected-family"
+          },
+          {
+            "id": "spana:2ac52a30213c9288:359938",
+            "name": "UP2O7(s)",
+            "phase": "solid",
+            "sourceReference": "NEA-U: Grenthe I, Fuger J, Konings R J M, Lemire R J, Muller A B, Nguyen-Trung C, Wanner H, Chemical Thermodynamics of Uranium. North-Holland, Elsevier Sci. Publ. B.V., Amsterdam, 1992\n\nNEA-Upd: Guillaumont R, Fanghänel T, Neck V, Fuger J, Palmer D A, Grenthe I, Rand M H, Update on the Chemical Thermodynamics of Uranium, Neptunium, Plutonium, Americium and Technetium. Elsevier B.V., Amsterdam, 2003",
+            "reason": "requires-components-outside-selected-family"
+          },
+          {
+            "id": "spana:2ac52a30213c9288:360047",
+            "name": "UPO5(s)",
+            "phase": "solid",
+            "sourceReference": "NEA-U: Grenthe I, Fuger J, Konings R J M, Lemire R J, Muller A B, Nguyen-Trung C, Wanner H, Chemical Thermodynamics of Uranium. North-Holland, Elsevier Sci. Publ. B.V., Amsterdam, 1992\n\nNEA-Upd: Guillaumont R, Fanghänel T, Neck V, Fuger J, Palmer D A, Grenthe I, Rand M H, Update on the Chemical Thermodynamics of Uranium, Neptunium, Plutonium, Americium and Technetium. Elsevier B.V., Amsterdam, 2003",
+            "reason": "requires-components-outside-selected-family"
+          },
+          {
+            "id": "spana:2ac52a30213c9288:360155",
+            "name": "US(s)",
+            "phase": "solid",
+            "sourceReference": "NEA-U: Grenthe I, Fuger J, Konings R J M, Lemire R J, Muller A B, Nguyen-Trung C, Wanner H, Chemical Thermodynamics of Uranium. North-Holland, Elsevier Sci. Publ. B.V., Amsterdam, 1992\n\nNEA-Upd: Guillaumont R, Fanghänel T, Neck V, Fuger J, Palmer D A, Grenthe I, Rand M H, Update on the Chemical Thermodynamics of Uranium, Neptunium, Plutonium, Americium and Technetium. Elsevier B.V., Amsterdam, 2003",
+            "reason": "requires-components-outside-selected-family"
+          },
+          {
+            "id": "spana:2ac52a30213c9288:360257",
+            "name": "US1.9(s)",
+            "phase": "solid",
+            "sourceReference": "NEA-U: Grenthe I, Fuger J, Konings R J M, Lemire R J, Muller A B, Nguyen-Trung C, Wanner H, Chemical Thermodynamics of Uranium. North-Holland, Elsevier Sci. Publ. B.V., Amsterdam, 1992\n\nNEA-Upd: Guillaumont R, Fanghänel T, Neck V, Fuger J, Palmer D A, Grenthe I, Rand M H, Update on the Chemical Thermodynamics of Uranium, Neptunium, Plutonium, Americium and Technetium. Elsevier B.V., Amsterdam, 2003",
+            "reason": "requires-components-outside-selected-family"
+          },
+          {
+            "id": "spana:2ac52a30213c9288:360362",
+            "name": "US2(s)",
+            "phase": "solid",
+            "sourceReference": "NEA-U: Grenthe I, Fuger J, Konings R J M, Lemire R J, Muller A B, Nguyen-Trung C, Wanner H, Chemical Thermodynamics of Uranium. North-Holland, Elsevier Sci. Publ. B.V., Amsterdam, 1992\n\nNEA-Upd: Guillaumont R, Fanghänel T, Neck V, Fuger J, Palmer D A, Grenthe I, Rand M H, Update on the Chemical Thermodynamics of Uranium, Neptunium, Plutonium, Americium and Technetium. Elsevier B.V., Amsterdam, 2003",
+            "reason": "requires-components-outside-selected-family"
+          },
+          {
+            "id": "spana:2ac52a30213c9288:360453",
+            "name": "US3(s)",
+            "phase": "solid",
+            "sourceReference": "NEA-U: Grenthe I, Fuger J, Konings R J M, Lemire R J, Muller A B, Nguyen-Trung C, Wanner H, Chemical Thermodynamics of Uranium. North-Holland, Elsevier Sci. Publ. B.V., Amsterdam, 1992\n\nNEA-Upd: Guillaumont R, Fanghänel T, Neck V, Fuger J, Palmer D A, Grenthe I, Rand M H, Update on the Chemical Thermodynamics of Uranium, Neptunium, Plutonium, Americium and Technetium. Elsevier B.V., Amsterdam, 2003",
+            "reason": "requires-components-outside-selected-family"
+          },
+          {
+            "id": "spana:2ac52a30213c9288:360559",
+            "name": "USCN 3+",
+            "phase": "aqueous",
+            "sourceReference": "NEA-U: Grenthe I, Fuger J, Konings R J M, Lemire R J, Muller A B, Nguyen-Trung C, Wanner H, Chemical Thermodynamics of Uranium. North-Holland, Elsevier Sci. Publ. B.V., Amsterdam, 1992\n\nNEA-Upd: Guillaumont R, Fanghänel T, Neck V, Fuger J, Palmer D A, Grenthe I, Rand M H, Update on the Chemical Thermodynamics of Uranium, Neptunium, Plutonium, Americium and Technetium. Elsevier B.V., Amsterdam, 2003",
+            "reason": "requires-components-outside-selected-family"
+          },
+          {
+            "id": "spana:2ac52a30213c9288:360640",
+            "name": "USe(cr)",
+            "phase": "solid",
+            "sourceReference": "NEA-Se: Olin Å, Noläng B, Osadchii E G, Öhman L-O, Rosén E, Chemical Thermodynamics of Selenium. Amsterdam, The Netherlands: Elsevier B.V., 2005",
+            "reason": "requires-components-outside-selected-family"
+          },
+          {
+            "id": "spana:2ac52a30213c9288:360738",
+            "name": "USiO4(cr)",
+            "phase": "solid",
+            "sourceReference": "NEA-U: Grenthe I, Fuger J, Konings R J M, Lemire R J, Muller A B, Nguyen-Trung C, Wanner H, Chemical Thermodynamics of Uranium. North-Holland, Elsevier Sci. Publ. B.V., Amsterdam, 1992\n\nNEA-Upd: Guillaumont R, Fanghänel T, Neck V, Fuger J, Palmer D A, Grenthe I, Rand M H, Update on the Chemical Thermodynamics of Uranium, Neptunium, Plutonium, Americium and Technetium. Elsevier B.V., Amsterdam, 2003",
+            "reason": "requires-components-outside-selected-family"
+          },
+          {
+            "id": "spana:2ac52a30213c9288:360845",
+            "name": "USO4 2+",
+            "phase": "aqueous",
+            "sourceReference": "NEA-U: Grenthe I, Fuger J, Konings R J M, Lemire R J, Muller A B, Nguyen-Trung C, Wanner H, Chemical Thermodynamics of Uranium. North-Holland, Elsevier Sci. Publ. B.V., Amsterdam, 1992\n\nNEA-Upd: Guillaumont R, Fanghänel T, Neck V, Fuger J, Palmer D A, Grenthe I, Rand M H, Update on the Chemical Thermodynamics of Uranium, Neptunium, Plutonium, Americium and Technetium. Elsevier B.V., Amsterdam, 2003",
+            "reason": "requires-components-outside-selected-family"
+          }
+        ],
+        "unsupportedCandidates": [
+          {
+            "id": "spana:2ac52a30213c9288:348584",
+            "name": "U3O7(cr)",
+            "phase": "solid",
+            "sourceReference": "NEA-U: Grenthe I, Fuger J, Konings R J M, Lemire R J, Muller A B, Nguyen-Trung C, Wanner H, Chemical Thermodynamics of Uranium. North-Holland, Elsevier Sci. Publ. B.V., Amsterdam, 1992\n\nNEA-Upd: Guillaumont R, Fanghänel T, Neck V, Fuger J, Palmer D A, Grenthe I, Rand M H, Update on the Chemical Thermodynamics of Uranium, Neptunium, Plutonium, Americium and Technetium. Elsevier B.V., Amsterdam, 2003",
+            "reason": "unsupported-fractional-canonical-stoichiometry",
+            "excludedByReferenceScope": false
+          },
+          {
+            "id": "spana:2ac52a30213c9288:348696",
+            "name": "U3O8(cr)",
+            "phase": "solid",
+            "sourceReference": "NEA-U: Grenthe I, Fuger J, Konings R J M, Lemire R J, Muller A B, Nguyen-Trung C, Wanner H, Chemical Thermodynamics of Uranium. North-Holland, Elsevier Sci. Publ. B.V., Amsterdam, 1992\n\nNEA-Upd: Guillaumont R, Fanghänel T, Neck V, Fuger J, Palmer D A, Grenthe I, Rand M H, Update on the Chemical Thermodynamics of Uranium, Neptunium, Plutonium, Americium and Technetium. Elsevier B.V., Amsterdam, 2003",
+            "reason": "unsupported-fractional-canonical-stoichiometry",
+            "excludedByReferenceScope": false
+          },
+          {
+            "id": "spana:2ac52a30213c9288:349004",
+            "name": "U4O9(cr)",
+            "phase": "solid",
+            "sourceReference": "NEA-U: Grenthe I, Fuger J, Konings R J M, Lemire R J, Muller A B, Nguyen-Trung C, Wanner H, Chemical Thermodynamics of Uranium. North-Holland, Elsevier Sci. Publ. B.V., Amsterdam, 1992\n\nNEA-Upd: Guillaumont R, Fanghänel T, Neck V, Fuger J, Palmer D A, Grenthe I, Rand M H, Update on the Chemical Thermodynamics of Uranium, Neptunium, Plutonium, Americium and Technetium. Elsevier B.V., Amsterdam, 2003",
+            "reason": "unsupported-fractional-canonical-stoichiometry",
+            "excludedByReferenceScope": false
+          }
+        ],
+        "unresolvedCarriers": [
+          {
+            "id": "spana:2ac52a30213c9288:6790",
+            "name": "(UO2)2(OH)2 2+",
+            "phase": "aqueous",
+            "sourceReference": "NEA-U: Grenthe I, Fuger J, Konings R J M, Lemire R J, Muller A B, Nguyen-Trung C, Wanner H, Chemical Thermodynamics of Uranium. North-Holland, Elsevier Sci. Publ. B.V., Amsterdam, 1992\n\nNEA-Upd: Guillaumont R, Fanghänel T, Neck V, Fuger J, Palmer D A, Grenthe I, Rand M H, Update on the Chemical Thermodynamics of Uranium, Neptunium, Plutonium, Americium and Technetium. Elsevier B.V., Amsterdam, 2003",
+            "reason": "missing-authoritative-oxidation-metadata"
+          },
+          {
+            "id": "spana:2ac52a30213c9288:7227",
+            "name": "(UO2)2OH+3",
+            "phase": "aqueous",
+            "sourceReference": "NEA-U: Grenthe I, Fuger J, Konings R J M, Lemire R J, Muller A B, Nguyen-Trung C, Wanner H, Chemical Thermodynamics of Uranium. North-Holland, Elsevier Sci. Publ. B.V., Amsterdam, 1992\n\nNEA-Upd: Guillaumont R, Fanghänel T, Neck V, Fuger J, Palmer D A, Grenthe I, Rand M H, Update on the Chemical Thermodynamics of Uranium, Neptunium, Plutonium, Americium and Technetium. Elsevier B.V., Amsterdam, 2003",
+            "reason": "missing-authoritative-oxidation-metadata"
+          },
+          {
+            "id": "spana:2ac52a30213c9288:7752",
+            "name": "(UO2)3(OH)4 2+",
+            "phase": "aqueous",
+            "sourceReference": "NEA-U: Grenthe I, Fuger J, Konings R J M, Lemire R J, Muller A B, Nguyen-Trung C, Wanner H, Chemical Thermodynamics of Uranium. North-Holland, Elsevier Sci. Publ. B.V., Amsterdam, 1992\n\nNEA-Upd: Guillaumont R, Fanghänel T, Neck V, Fuger J, Palmer D A, Grenthe I, Rand M H, Update on the Chemical Thermodynamics of Uranium, Neptunium, Plutonium, Americium and Technetium. Elsevier B.V., Amsterdam, 2003",
+            "reason": "missing-authoritative-oxidation-metadata"
+          },
+          {
+            "id": "spana:2ac52a30213c9288:7853",
+            "name": "(UO2)3(OH)5+",
+            "phase": "aqueous",
+            "sourceReference": "NEA-U: Grenthe I, Fuger J, Konings R J M, Lemire R J, Muller A B, Nguyen-Trung C, Wanner H, Chemical Thermodynamics of Uranium. North-Holland, Elsevier Sci. Publ. B.V., Amsterdam, 1992\n\nNEA-Upd: Guillaumont R, Fanghänel T, Neck V, Fuger J, Palmer D A, Grenthe I, Rand M H, Update on the Chemical Thermodynamics of Uranium, Neptunium, Plutonium, Americium and Technetium. Elsevier B.V., Amsterdam, 2003",
+            "reason": "missing-authoritative-oxidation-metadata"
+          },
+          {
+            "id": "spana:2ac52a30213c9288:7952",
+            "name": "(UO2)3(OH)7-",
+            "phase": "aqueous",
+            "sourceReference": "NEA-U: Grenthe I, Fuger J, Konings R J M, Lemire R J, Muller A B, Nguyen-Trung C, Wanner H, Chemical Thermodynamics of Uranium. North-Holland, Elsevier Sci. Publ. B.V., Amsterdam, 1992\n\nNEA-Upd: Guillaumont R, Fanghänel T, Neck V, Fuger J, Palmer D A, Grenthe I, Rand M H, Update on the Chemical Thermodynamics of Uranium, Neptunium, Plutonium, Americium and Technetium. Elsevier B.V., Amsterdam, 2003",
+            "reason": "missing-authoritative-oxidation-metadata"
+          },
+          {
+            "id": "spana:2ac52a30213c9288:8611",
+            "name": "(UO2)4(OH)7+",
+            "phase": "aqueous",
+            "sourceReference": "NEA-U: Grenthe I, Fuger J, Konings R J M, Lemire R J, Muller A B, Nguyen-Trung C, Wanner H, Chemical Thermodynamics of Uranium. North-Holland, Elsevier Sci. Publ. B.V., Amsterdam, 1992\n\nNEA-Upd: Guillaumont R, Fanghänel T, Neck V, Fuger J, Palmer D A, Grenthe I, Rand M H, Update on the Chemical Thermodynamics of Uranium, Neptunium, Plutonium, Americium and Technetium. Elsevier B.V., Amsterdam, 2003",
+            "reason": "missing-authoritative-oxidation-metadata"
+          },
+          {
+            "id": "spana:2ac52a30213c9288:346107",
+            "name": "U 3+",
+            "phase": "aqueous",
+            "sourceReference": "NEA-U: Grenthe I, Fuger J, Konings R J M, Lemire R J, Muller A B, Nguyen-Trung C, Wanner H, Chemical Thermodynamics of Uranium. North-Holland, Elsevier Sci. Publ. B.V., Amsterdam, 1992\n\nNEA-Upd: Guillaumont R, Fanghänel T, Neck V, Fuger J, Palmer D A, Grenthe I, Rand M H, Update on the Chemical Thermodynamics of Uranium, Neptunium, Plutonium, Americium and Technetium. Elsevier B.V., Amsterdam, 2003",
+            "reason": "missing-authoritative-oxidation-metadata"
+          },
+          {
+            "id": "spana:2ac52a30213c9288:346183",
+            "name": "U 4+",
+            "phase": "aqueous",
+            "sourceReference": "NEA-U: Grenthe I, Fuger J, Konings R J M, Lemire R J, Muller A B, Nguyen-Trung C, Wanner H, Chemical Thermodynamics of Uranium. North-Holland, Elsevier Sci. Publ. B.V., Amsterdam, 1992\n\nNEA-Upd: Guillaumont R, Fanghänel T, Neck V, Fuger J, Palmer D A, Grenthe I, Rand M H, Update on the Chemical Thermodynamics of Uranium, Neptunium, Plutonium, Americium and Technetium. Elsevier B.V., Amsterdam, 2003",
+            "reason": "missing-authoritative-oxidation-metadata"
+          },
+          {
+            "id": "spana:2ac52a30213c9288:346284",
+            "name": "U 4+",
+            "phase": "aqueous",
+            "sourceReference": "NEA-U: Grenthe I, Fuger J, Konings R J M, Lemire R J, Muller A B, Nguyen-Trung C, Wanner H, Chemical Thermodynamics of Uranium. North-Holland, Elsevier Sci. Publ. B.V., Amsterdam, 1992\n\nNEA-Upd: Guillaumont R, Fanghänel T, Neck V, Fuger J, Palmer D A, Grenthe I, Rand M H, Update on the Chemical Thermodynamics of Uranium, Neptunium, Plutonium, Americium and Technetium. Elsevier B.V., Amsterdam, 2003",
+            "reason": "missing-authoritative-oxidation-metadata"
+          },
+          {
+            "id": "spana:2ac52a30213c9288:346387",
+            "name": "U 4+",
+            "phase": "aqueous",
+            "sourceReference": "NEA-U: Grenthe I, Fuger J, Konings R J M, Lemire R J, Muller A B, Nguyen-Trung C, Wanner H, Chemical Thermodynamics of Uranium. North-Holland, Elsevier Sci. Publ. B.V., Amsterdam, 1992\n\nNEA-Upd: Guillaumont R, Fanghänel T, Neck V, Fuger J, Palmer D A, Grenthe I, Rand M H, Update on the Chemical Thermodynamics of Uranium, Neptunium, Plutonium, Americium and Technetium. Elsevier B.V., Amsterdam, 2003",
+            "reason": "missing-authoritative-oxidation-metadata"
+          },
+          {
+            "id": "spana:2ac52a30213c9288:346635",
+            "name": "U(cr)",
+            "phase": "solid",
+            "sourceReference": "NEA-U: Grenthe I, Fuger J, Konings R J M, Lemire R J, Muller A B, Nguyen-Trung C, Wanner H, Chemical Thermodynamics of Uranium. North-Holland, Elsevier Sci. Publ. B.V., Amsterdam, 1992\n\nNEA-Upd: Guillaumont R, Fanghänel T, Neck V, Fuger J, Palmer D A, Grenthe I, Rand M H, Update on the Chemical Thermodynamics of Uranium, Neptunium, Plutonium, Americium and Technetium. Elsevier B.V., Amsterdam, 2003",
+            "reason": "missing-authoritative-oxidation-metadata"
+          },
+          {
+            "id": "spana:2ac52a30213c9288:347201",
+            "name": "U(OH)4",
+            "phase": "aqueous",
+            "sourceReference": "NEA-U: Grenthe I, Fuger J, Konings R J M, Lemire R J, Muller A B, Nguyen-Trung C, Wanner H, Chemical Thermodynamics of Uranium. North-Holland, Elsevier Sci. Publ. B.V., Amsterdam, 1992\n\nNEA-Upd: Guillaumont R, Fanghänel T, Neck V, Fuger J, Palmer D A, Grenthe I, Rand M H, Update on the Chemical Thermodynamics of Uranium, Neptunium, Plutonium, Americium and Technetium. Elsevier B.V., Amsterdam, 2003",
+            "reason": "missing-authoritative-oxidation-metadata"
+          },
+          {
+            "id": "spana:2ac52a30213c9288:347292",
+            "name": "U(OH)5-",
+            "phase": "aqueous",
+            "sourceReference": "NEA-U: Grenthe I, Fuger J, Konings R J M, Lemire R J, Muller A B, Nguyen-Trung C, Wanner H, Chemical Thermodynamics of Uranium. North-Holland, Elsevier Sci. Publ. B.V., Amsterdam, 1992",
+            "reason": "missing-authoritative-oxidation-metadata"
+          },
+          {
+            "id": "spana:2ac52a30213c9288:350096",
+            "name": "UH3(cr)",
+            "phase": "solid",
+            "sourceReference": "NEA-U: Grenthe I, Fuger J, Konings R J M, Lemire R J, Muller A B, Nguyen-Trung C, Wanner H, Chemical Thermodynamics of Uranium. North-Holland, Elsevier Sci. Publ. B.V., Amsterdam, 1992\n\nNEA-Upd: Guillaumont R, Fanghänel T, Neck V, Fuger J, Palmer D A, Grenthe I, Rand M H, Update on the Chemical Thermodynamics of Uranium, Neptunium, Plutonium, Americium and Technetium. Elsevier B.V., Amsterdam, 2003",
+            "reason": "missing-authoritative-oxidation-metadata"
+          },
+          {
+            "id": "spana:2ac52a30213c9288:350349",
+            "name": "UO2 2+",
+            "phase": "aqueous",
+            "sourceReference": "NEA-U: Grenthe I, Fuger J, Konings R J M, Lemire R J, Muller A B, Nguyen-Trung C, Wanner H, Chemical Thermodynamics of Uranium. North-Holland, Elsevier Sci. Publ. B.V., Amsterdam, 1992\n\nNEA-Upd: Guillaumont R, Fanghänel T, Neck V, Fuger J, Palmer D A, Grenthe I, Rand M H, Update on the Chemical Thermodynamics of Uranium, Neptunium, Plutonium, Americium and Technetium. Elsevier B.V., Amsterdam, 2003",
+            "reason": "missing-authoritative-oxidation-metadata"
+          },
+          {
+            "id": "spana:2ac52a30213c9288:350427",
+            "name": "UO2 2+",
+            "phase": "aqueous",
+            "sourceReference": "NEA-U: Grenthe I, Fuger J, Konings R J M, Lemire R J, Muller A B, Nguyen-Trung C, Wanner H, Chemical Thermodynamics of Uranium. North-Holland, Elsevier Sci. Publ. B.V., Amsterdam, 1992\n\nNEA-Upd: Guillaumont R, Fanghänel T, Neck V, Fuger J, Palmer D A, Grenthe I, Rand M H, Update on the Chemical Thermodynamics of Uranium, Neptunium, Plutonium, Americium and Technetium. Elsevier B.V., Amsterdam, 2003",
+            "reason": "missing-authoritative-oxidation-metadata"
+          },
+          {
+            "id": "spana:2ac52a30213c9288:350530",
+            "name": "UO2(am)",
+            "phase": "solid",
+            "sourceReference": "NEA-U: Grenthe I, Fuger J, Konings R J M, Lemire R J, Muller A B, Nguyen-Trung C, Wanner H, Chemical Thermodynamics of Uranium. North-Holland, Elsevier Sci. Publ. B.V., Amsterdam, 1992\n\nNEA-Upd: Guillaumont R, Fanghänel T, Neck V, Fuger J, Palmer D A, Grenthe I, Rand M H, Update on the Chemical Thermodynamics of Uranium, Neptunium, Plutonium, Americium and Technetium. Elsevier B.V., Amsterdam, 2003",
+            "reason": "missing-authoritative-oxidation-metadata"
+          },
+          {
+            "id": "spana:2ac52a30213c9288:351365",
+            "name": "UO2(cr)",
+            "phase": "solid",
+            "sourceReference": "NEA-U: Grenthe I, Fuger J, Konings R J M, Lemire R J, Muller A B, Nguyen-Trung C, Wanner H, Chemical Thermodynamics of Uranium. North-Holland, Elsevier Sci. Publ. B.V., Amsterdam, 1992\n\nNEA-Upd: Guillaumont R, Fanghänel T, Neck V, Fuger J, Palmer D A, Grenthe I, Rand M H, Update on the Chemical Thermodynamics of Uranium, Neptunium, Plutonium, Americium and Technetium. Elsevier B.V., Amsterdam, 2003",
+            "reason": "missing-authoritative-oxidation-metadata"
+          },
+          {
+            "id": "spana:2ac52a30213c9288:353335",
+            "name": "UO2(OH)2",
+            "phase": "aqueous",
+            "sourceReference": "NEA-U: Grenthe I, Fuger J, Konings R J M, Lemire R J, Muller A B, Nguyen-Trung C, Wanner H, Chemical Thermodynamics of Uranium. North-Holland, Elsevier Sci. Publ. B.V., Amsterdam, 1992\n\nNEA-Upd: Guillaumont R, Fanghänel T, Neck V, Fuger J, Palmer D A, Grenthe I, Rand M H, Update on the Chemical Thermodynamics of Uranium, Neptunium, Plutonium, Americium and Technetium. Elsevier B.V., Amsterdam, 2003",
+            "reason": "missing-authoritative-oxidation-metadata"
+          },
+          {
+            "id": "spana:2ac52a30213c9288:353430",
+            "name": "UO2(OH)2(cr)",
+            "phase": "solid",
+            "sourceReference": "NEA-U: Grenthe I, Fuger J, Konings R J M, Lemire R J, Muller A B, Nguyen-Trung C, Wanner H, Chemical Thermodynamics of Uranium. North-Holland, Elsevier Sci. Publ. B.V., Amsterdam, 1992\n\nNEA-Upd: Guillaumont R, Fanghänel T, Neck V, Fuger J, Palmer D A, Grenthe I, Rand M H, Update on the Chemical Thermodynamics of Uranium, Neptunium, Plutonium, Americium and Technetium. Elsevier B.V., Amsterdam, 2003",
+            "reason": "missing-authoritative-oxidation-metadata"
+          },
+          {
+            "id": "spana:2ac52a30213c9288:353533",
+            "name": "UO2(OH)3-",
+            "phase": "aqueous",
+            "sourceReference": "NEA-U: Grenthe I, Fuger J, Konings R J M, Lemire R J, Muller A B, Nguyen-Trung C, Wanner H, Chemical Thermodynamics of Uranium. North-Holland, Elsevier Sci. Publ. B.V., Amsterdam, 1992\n\nNEA-Upd: Guillaumont R, Fanghänel T, Neck V, Fuger J, Palmer D A, Grenthe I, Rand M H, Update on the Chemical Thermodynamics of Uranium, Neptunium, Plutonium, Americium and Technetium. Elsevier B.V., Amsterdam, 2003",
+            "reason": "missing-authoritative-oxidation-metadata"
+          },
+          {
+            "id": "spana:2ac52a30213c9288:353629",
+            "name": "UO2(OH)4 2-",
+            "phase": "aqueous",
+            "sourceReference": "NEA-U: Grenthe I, Fuger J, Konings R J M, Lemire R J, Muller A B, Nguyen-Trung C, Wanner H, Chemical Thermodynamics of Uranium. North-Holland, Elsevier Sci. Publ. B.V., Amsterdam, 1992\n\nNEA-Upd: Guillaumont R, Fanghänel T, Neck V, Fuger J, Palmer D A, Grenthe I, Rand M H, Update on the Chemical Thermodynamics of Uranium, Neptunium, Plutonium, Americium and Technetium. Elsevier B.V., Amsterdam, 2003",
+            "reason": "missing-authoritative-oxidation-metadata"
+          },
+          {
+            "id": "spana:2ac52a30213c9288:354421",
+            "name": "UO2+",
+            "phase": "aqueous",
+            "sourceReference": "NEA-U: Grenthe I, Fuger J, Konings R J M, Lemire R J, Muller A B, Nguyen-Trung C, Wanner H, Chemical Thermodynamics of Uranium. North-Holland, Elsevier Sci. Publ. B.V., Amsterdam, 1992\n\nNEA-Upd: Guillaumont R, Fanghänel T, Neck V, Fuger J, Palmer D A, Grenthe I, Rand M H, Update on the Chemical Thermodynamics of Uranium, Neptunium, Plutonium, Americium and Technetium. Elsevier B.V., Amsterdam, 2003",
+            "reason": "missing-authoritative-oxidation-metadata"
+          },
+          {
+            "id": "spana:2ac52a30213c9288:354522",
+            "name": "UO2+",
+            "phase": "aqueous",
+            "sourceReference": "NEA-U: Grenthe I, Fuger J, Konings R J M, Lemire R J, Muller A B, Nguyen-Trung C, Wanner H, Chemical Thermodynamics of Uranium. North-Holland, Elsevier Sci. Publ. B.V., Amsterdam, 1992\n\nNEA-Upd: Guillaumont R, Fanghänel T, Neck V, Fuger J, Palmer D A, Grenthe I, Rand M H, Update on the Chemical Thermodynamics of Uranium, Neptunium, Plutonium, Americium and Technetium. Elsevier B.V., Amsterdam, 2003",
+            "reason": "missing-authoritative-oxidation-metadata"
+          },
+          {
+            "id": "spana:2ac52a30213c9288:357296",
+            "name": "UO2OH+",
+            "phase": "aqueous",
+            "sourceReference": "NEA-U: Grenthe I, Fuger J, Konings R J M, Lemire R J, Muller A B, Nguyen-Trung C, Wanner H, Chemical Thermodynamics of Uranium. North-Holland, Elsevier Sci. Publ. B.V., Amsterdam, 1992\n\nNEA-Upd: Guillaumont R, Fanghänel T, Neck V, Fuger J, Palmer D A, Grenthe I, Rand M H, Update on the Chemical Thermodynamics of Uranium, Neptunium, Plutonium, Americium and Technetium. Elsevier B.V., Amsterdam, 2003",
+            "reason": "missing-authoritative-oxidation-metadata"
+          },
+          {
+            "id": "spana:2ac52a30213c9288:358594",
+            "name": "UO3·2H2O(cr)",
+            "phase": "solid",
+            "sourceReference": "NEA-U: Grenthe I, Fuger J, Konings R J M, Lemire R J, Muller A B, Nguyen-Trung C, Wanner H, Chemical Thermodynamics of Uranium. North-Holland, Elsevier Sci. Publ. B.V., Amsterdam, 1992\n\nNEA-Upd: Guillaumont R, Fanghänel T, Neck V, Fuger J, Palmer D A, Grenthe I, Rand M H, Update on the Chemical Thermodynamics of Uranium, Neptunium, Plutonium, Americium and Technetium. Elsevier B.V., Amsterdam, 2003",
+            "reason": "missing-authoritative-oxidation-metadata"
+          },
+          {
+            "id": "spana:2ac52a30213c9288:359769",
+            "name": "UOH 3+",
+            "phase": "aqueous",
+            "sourceReference": "NEA-U: Grenthe I, Fuger J, Konings R J M, Lemire R J, Muller A B, Nguyen-Trung C, Wanner H, Chemical Thermodynamics of Uranium. North-Holland, Elsevier Sci. Publ. B.V., Amsterdam, 1992\n\nNEA-Upd: Guillaumont R, Fanghänel T, Neck V, Fuger J, Palmer D A, Grenthe I, Rand M H, Update on the Chemical Thermodynamics of Uranium, Neptunium, Plutonium, Americium and Technetium. Elsevier B.V., Amsterdam, 2003",
+            "reason": "missing-authoritative-oxidation-metadata"
+          }
+        ],
+        "oxidationStates": [],
+        "metadataVersion": null,
+        "canonicalEstablished": false,
+        "inventoryComplete": false
+      }
+    }
+  },
+  "commands": {
+    "tests": "node --test --experimental-test-isolation=none src/chemistry/*.test.js src/thermodynamics/*.test.js src/thermodynamics/importers/*.test.js src/thermodynamics/importers/spana/*.test.js src/calculations/*.test.js tests/*.test.js",
+    "build": "npm run build -- --configLoader native",
+    "lint": "npm run lint",
+    "audit": "node scripts/audit-production-boundary.js"
+  }
+}

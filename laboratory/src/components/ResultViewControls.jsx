@@ -1,0 +1,8 @@
+import {resultViewOptions,resultViewTransition} from '../plots/resultViews.js'
+import {chemicalLabel} from '../chemistry/format.js'
+export default function ResultViewControls({snapshot,plot,onView}){
+ const {components,componentId,options}=resultViewOptions(snapshot,plot)
+ if(!options.length)return null
+ const choose=type=>{const next=resultViewTransition(snapshot,plot,type);if(next.ok)onView(next.plot)}
+ return <section className="result-view-controls" aria-label="Result views"><div className="result-view-buttons">{options.map(v=><button key={v.type} disabled={!v.available} title={v.reason||'Same accepted samples · no equilibrium solve'} aria-pressed={plot.type===v.type} onClick={()=>choose(v.type)}>{v.label}</button>)}</div><label className="result-view-mobile">Result view<select aria-label="Result view" value={plot.type??'log-concentration'} onChange={e=>choose(e.target.value)}>{!options.some(v=>v.type===plot.type)&&<option value={plot.type}>Current output</option>}{options.map(v=><option key={v.type} value={v.type} disabled={!v.available}>{v.label}{!v.available?' · unavailable':''}</option>)}</select></label>{components.length>0&&<label>Component for fractions / solubility<select aria-label="Result component" value={componentId??''} onChange={e=>onView({componentId:e.target.value,visibleIds:null})}><option value="">Choose component</option>{components.map(c=><option key={c.id} value={c.id}>{chemicalLabel(c.name)}</option>)}</select></label>}<details className="result-view-help"><summary>About result views</summary><p>Views share the same accepted data; switching does not recalculate. Relative activities remain validation-pending.</p></details></section>
+}

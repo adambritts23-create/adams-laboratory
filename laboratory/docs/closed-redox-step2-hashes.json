@@ -1,0 +1,1092 @@
+{
+  "checked": 215,
+  "changed": [],
+  "unchanged": true,
+  "newProductionFiles": [
+    {
+      "path": "src/thermodynamics/closedRedoxNetwork.js",
+      "sha256": "1cf688fd686aab991b10ba10b6e151dd67038fc8f83c91377d1cf5c8072f1cec"
+    },
+    {
+      "path": "src/solver/closedRedox.js",
+      "sha256": "67bbc2e8dd156524e3382f3fd7c0497c6a058e419c346da2ec7460ac855998aa"
+    }
+  ],
+  "files": [
+    {
+      "path": "C:\\Users\\adamb\\PycharmProjects\\PythonProject\\adams-laboratory\\src\\App.css",
+      "before": "19ff4442151c3f1570523223c3dedf3fba2ae1d53873ea02c40461326916fdf2",
+      "after": "19ff4442151c3f1570523223c3dedf3fba2ae1d53873ea02c40461326916fdf2"
+    },
+    {
+      "path": "C:\\Users\\adamb\\PycharmProjects\\PythonProject\\adams-laboratory\\src\\App.jsx",
+      "before": "aa56f3e1c0c564cfe2f4dd3d399d5be20a8a8adc1918acfc305ec94bc197227a",
+      "after": "aa56f3e1c0c564cfe2f4dd3d399d5be20a8a8adc1918acfc305ec94bc197227a"
+    },
+    {
+      "path": "C:\\Users\\adamb\\PycharmProjects\\PythonProject\\adams-laboratory\\src\\index.css",
+      "before": "65fd7cb7c06db8e80e06ddfa170f59b0082aa370e893fd4918ba89d44e12583b",
+      "after": "65fd7cb7c06db8e80e06ddfa170f59b0082aa370e893fd4918ba89d44e12583b"
+    },
+    {
+      "path": "C:\\Users\\adamb\\PycharmProjects\\PythonProject\\adams-laboratory\\src\\main.jsx",
+      "before": "4b4b864dbe45253425d0c925337180ec07e204295179f80f59551216f466f618",
+      "after": "4b4b864dbe45253425d0c925337180ec07e204295179f80f59551216f466f618"
+    },
+    {
+      "path": "C:\\Users\\adamb\\PycharmProjects\\PythonProject\\adams-laboratory\\src\\MVP2Adam'sLab.jsx",
+      "before": "799bf39c9ba8322bd71617ab309324bb4e7ca5057fe8291494a5a40cfcfb7069",
+      "after": "799bf39c9ba8322bd71617ab309324bb4e7ca5057fe8291494a5a40cfcfb7069"
+    },
+    {
+      "path": "C:\\Users\\adamb\\PycharmProjects\\PythonProject\\adams-laboratory\\src\\analysis\\cuOxidationMetadata.js",
+      "before": "255174cc7ec4f3413156d8ae10a1e1f47c4d9d0dbc3b7ec5fb29b16f05d7afc4",
+      "after": "255174cc7ec4f3413156d8ae10a1e1f47c4d9d0dbc3b7ec5fb29b16f05d7afc4"
+    },
+    {
+      "path": "C:\\Users\\adamb\\PycharmProjects\\PythonProject\\adams-laboratory\\src\\analysis\\cuPourbaixContract.js",
+      "before": "a462d56ac0b5cd580021134fc9cef1165ea5da16633ee15fd91d65a37417a7ae",
+      "after": "a462d56ac0b5cd580021134fc9cef1165ea5da16633ee15fd91d65a37417a7ae"
+    },
+    {
+      "path": "C:\\Users\\adamb\\PycharmProjects\\PythonProject\\adams-laboratory\\src\\analysis\\feOxidationMetadata.js",
+      "before": "068bce4e6c17889a7ba081f74f46dd664b3e14769c0d2f99a46c93eb4a19f6bd",
+      "after": "068bce4e6c17889a7ba081f74f46dd664b3e14769c0d2f99a46c93eb4a19f6bd"
+    },
+    {
+      "path": "C:\\Users\\adamb\\PycharmProjects\\PythonProject\\adams-laboratory\\src\\analysis\\fePourbaixContract.js",
+      "before": "1f4ee90d1ea0bc5541e01e067d86aee41e6d781c119ea69cddc6766d5a7c3d93",
+      "after": "1f4ee90d1ea0bc5541e01e067d86aee41e6d781c119ea69cddc6766d5a7c3d93"
+    },
+    {
+      "path": "C:\\Users\\adamb\\PycharmProjects\\PythonProject\\adams-laboratory\\src\\analysis\\feWaterContext.js",
+      "before": "78cca6987f0f197c39b33b65770e5ee3ab9395dc79855695b1059a9fa81ae64a",
+      "after": "78cca6987f0f197c39b33b65770e5ee3ab9395dc79855695b1059a9fa81ae64a"
+    },
+    {
+      "path": "C:\\Users\\adamb\\PycharmProjects\\PythonProject\\adams-laboratory\\src\\analysis\\gridDiagnostics.js",
+      "before": "ba092891559fae54619874952a477eb1f7303f9c84f247361bd373d584dbf95f",
+      "after": "ba092891559fae54619874952a477eb1f7303f9c84f247361bd373d584dbf95f"
+    },
+    {
+      "path": "C:\\Users\\adamb\\PycharmProjects\\PythonProject\\adams-laboratory\\src\\analysis\\mnDiagnostic.js",
+      "before": "b2e3ea03ab079ac0c165951e869477ec960a900c116f6f52074b47a683719de2",
+      "after": "b2e3ea03ab079ac0c165951e869477ec960a900c116f6f52074b47a683719de2"
+    },
+    {
+      "path": "C:\\Users\\adamb\\PycharmProjects\\PythonProject\\adams-laboratory\\src\\analysis\\oxidationInventory.js",
+      "before": "e9b0e5c87843b4c3670038e5a7a9e37d8c8f0eb518854788096f6a2a309ae8d4",
+      "after": "e9b0e5c87843b4c3670038e5a7a9e37d8c8f0eb518854788096f6a2a309ae8d4"
+    },
+    {
+      "path": "C:\\Users\\adamb\\PycharmProjects\\PythonProject\\adams-laboratory\\src\\analysis\\pointTrace.js",
+      "before": "646fd27c0e3bdfa18c6e56c6d5349b72d8400b16b4bd7cd3383cee5b8e8bdfa8",
+      "after": "646fd27c0e3bdfa18c6e56c6d5349b72d8400b16b4bd7cd3383cee5b8e8bdfa8"
+    },
+    {
+      "path": "C:\\Users\\adamb\\PycharmProjects\\PythonProject\\adams-laboratory\\src\\analysis\\pourbaixContract.js",
+      "before": "2d1764d7f237071f2253ebe0fe54b4519ec09e072aea2c98623d9c8fb579c47c",
+      "after": "2d1764d7f237071f2253ebe0fe54b4519ec09e072aea2c98623d9c8fb579c47c"
+    },
+    {
+      "path": "C:\\Users\\adamb\\PycharmProjects\\PythonProject\\adams-laboratory\\src\\analysis\\prepareElementCandidate.js",
+      "before": "f2329c2e0636f8bdc748fbc1fa1a167ab4905a16e877f2667958a9345461da2e",
+      "after": "f2329c2e0636f8bdc748fbc1fa1a167ab4905a16e877f2667958a9345461da2e"
+    },
+    {
+      "path": "C:\\Users\\adamb\\PycharmProjects\\PythonProject\\adams-laboratory\\src\\analysis\\prepareFeCandidate.js",
+      "before": "ea079ff22c5c8ab6d541f6719faf615c3b0c62a4c70e51c6531667063f5bfb47",
+      "after": "ea079ff22c5c8ab6d541f6719faf615c3b0c62a4c70e51c6531667063f5bfb47"
+    },
+    {
+      "path": "C:\\Users\\adamb\\PycharmProjects\\PythonProject\\adams-laboratory\\src\\analysis\\redoxDiscovery.js",
+      "before": "8def4af8b3aed935429d94f39abf8486615eaf0d2f2ffe700d3113b04f12b0c1",
+      "after": "8def4af8b3aed935429d94f39abf8486615eaf0d2f2ffe700d3113b04f12b0c1"
+    },
+    {
+      "path": "C:\\Users\\adamb\\PycharmProjects\\PythonProject\\adams-laboratory\\src\\analysis\\redoxSupportCatalog.js",
+      "before": "23dd7cca3c5b91dcc763c4dbc5ae92fef8d106c67cb893fb065206f76813372f",
+      "after": "23dd7cca3c5b91dcc763c4dbc5ae92fef8d106c67cb893fb065206f76813372f"
+    },
+    {
+      "path": "C:\\Users\\adamb\\PycharmProjects\\PythonProject\\adams-laboratory\\src\\analysis\\registeredElementOxidation.js",
+      "before": "7cd70eef611ca6c37aff9da042fc334ef367fc3255e10f198ad01298a1188aef",
+      "after": "7cd70eef611ca6c37aff9da042fc334ef367fc3255e10f198ad01298a1188aef"
+    },
+    {
+      "path": "C:\\Users\\adamb\\PycharmProjects\\PythonProject\\adams-laboratory\\src\\analysis\\registeredOxidation.js",
+      "before": "9e9b39f34a56a9a3a45ad5b65c229bf3de7c2822bb3579982f5ed1d1b4814c1b",
+      "after": "9e9b39f34a56a9a3a45ad5b65c229bf3de7c2822bb3579982f5ed1d1b4814c1b"
+    },
+    {
+      "path": "C:\\Users\\adamb\\PycharmProjects\\PythonProject\\adams-laboratory\\src\\analysis\\registeredWaterContext.js",
+      "before": "fc396a4df5f8e1ac883a2f6b616b20ef761a4eef849fa0b2ec48b4630ee9ae82",
+      "after": "fc396a4df5f8e1ac883a2f6b616b20ef761a4eef849fa0b2ec48b4630ee9ae82"
+    },
+    {
+      "path": "C:\\Users\\adamb\\PycharmProjects\\PythonProject\\adams-laboratory\\src\\analysis\\samples.js",
+      "before": "cd7da40ef5df879fb01de328105e4c5bf54a2e3ec30f3a54a1efe8ab025aaf7d",
+      "after": "cd7da40ef5df879fb01de328105e4c5bf54a2e3ec30f3a54a1efe8ab025aaf7d"
+    },
+    {
+      "path": "C:\\Users\\adamb\\PycharmProjects\\PythonProject\\adams-laboratory\\src\\analysis\\slices.js",
+      "before": "0c1703a24ffcd750fabefc354b7398a6d0ce85bcabd5a0e099ecd1396506f303",
+      "after": "0c1703a24ffcd750fabefc354b7398a6d0ce85bcabd5a0e099ecd1396506f303"
+    },
+    {
+      "path": "C:\\Users\\adamb\\PycharmProjects\\PythonProject\\adams-laboratory\\src\\analysis\\summary.js",
+      "before": "cdbf9190bab85d49870c5f08731bfcdc4166ad30528ec67b79c7ed0da1c83da1",
+      "after": "cdbf9190bab85d49870c5f08731bfcdc4166ad30528ec67b79c7ed0da1c83da1"
+    },
+    {
+      "path": "C:\\Users\\adamb\\PycharmProjects\\PythonProject\\adams-laboratory\\src\\analysis\\waterReferences.js",
+      "before": "3ed8d762c0967680c8783c34d6eba897bcf30e36e602c8c614e8932533c8bfa9",
+      "after": "3ed8d762c0967680c8783c34d6eba897bcf30e36e602c8c614e8932533c8bfa9"
+    },
+    {
+      "path": "C:\\Users\\adamb\\PycharmProjects\\PythonProject\\adams-laboratory\\src\\assets\\hero.png",
+      "before": "881ffbcaafc212e49addad08846a5b82761355fa20624253af3477ba33262c5c",
+      "after": "881ffbcaafc212e49addad08846a5b82761355fa20624253af3477ba33262c5c"
+    },
+    {
+      "path": "C:\\Users\\adamb\\PycharmProjects\\PythonProject\\adams-laboratory\\src\\assets\\react.svg",
+      "before": "35ef61ed53b323ae94a16a8ec659b3d0af3880698791133f23b084085ab1c2e5",
+      "after": "35ef61ed53b323ae94a16a8ec659b3d0af3880698791133f23b084085ab1c2e5"
+    },
+    {
+      "path": "C:\\Users\\adamb\\PycharmProjects\\PythonProject\\adams-laboratory\\src\\assets\\vite.svg",
+      "before": "5be21acd42eb7b896e517f4e0f0f11eb5c5d9e54fbbcebe9453f033008fcca6f",
+      "after": "5be21acd42eb7b896e517f4e0f0f11eb5c5d9e54fbbcebe9453f033008fcca6f"
+    },
+    {
+      "path": "C:\\Users\\adamb\\PycharmProjects\\PythonProject\\adams-laboratory\\src\\beaker\\acceptedState.js",
+      "before": "1ca824026b65c67d2eb3842c3f3393ce95d3f58c13d0dddb7575848f1a882e4b",
+      "after": "1ca824026b65c67d2eb3842c3f3393ce95d3f58c13d0dddb7575848f1a882e4b"
+    },
+    {
+      "path": "C:\\Users\\adamb\\PycharmProjects\\PythonProject\\adams-laboratory\\src\\beaker\\componentPartition.js",
+      "before": "214f684c9ee580490ea0570bfd97cdb9435adaafefd732191e10b6fa744f08f8",
+      "after": "214f684c9ee580490ea0570bfd97cdb9435adaafefd732191e10b6fa744f08f8"
+    },
+    {
+      "path": "C:\\Users\\adamb\\PycharmProjects\\PythonProject\\adams-laboratory\\src\\beaker\\currentPoint.js",
+      "before": "1aa4c2c14c63ca1221c0edae9c6defa851a9b213a0a58e77dc933455fb6c354a",
+      "after": "1aa4c2c14c63ca1221c0edae9c6defa851a9b213a0a58e77dc933455fb6c354a"
+    },
+    {
+      "path": "C:\\Users\\adamb\\PycharmProjects\\PythonProject\\adams-laboratory\\src\\beaker\\equilibriumBeaker.js",
+      "before": "9d563c8fb66f2d9375698a1c6baa288ef93dca78a6f889b1cae173e5f88daac9",
+      "after": "9d563c8fb66f2d9375698a1c6baa288ef93dca78a6f889b1cae173e5f88daac9"
+    },
+    {
+      "path": "C:\\Users\\adamb\\PycharmProjects\\PythonProject\\adams-laboratory\\src\\beaker\\phaseLabel.js",
+      "before": "9c7a10232190350d2b13550e5e4ff63143e47acaffb7e6ffd14c4f8a8b110790",
+      "after": "9c7a10232190350d2b13550e5e4ff63143e47acaffb7e6ffd14c4f8a8b110790"
+    },
+    {
+      "path": "C:\\Users\\adamb\\PycharmProjects\\PythonProject\\adams-laboratory\\src\\beaker\\scene.js",
+      "before": "684cfc91ab12135ead60901b08a4324814c0497079f9f54402cfa2bf19076a21",
+      "after": "684cfc91ab12135ead60901b08a4324814c0497079f9f54402cfa2bf19076a21"
+    },
+    {
+      "path": "C:\\Users\\adamb\\PycharmProjects\\PythonProject\\adams-laboratory\\src\\beaker\\solutionSummary.js",
+      "before": "04520a8a9ccb374f8f9c9e8286a6cf9bb80e1eb852333a9087c9c3db689d86cc",
+      "after": "04520a8a9ccb374f8f9c9e8286a6cf9bb80e1eb852333a9087c9c3db689d86cc"
+    },
+    {
+      "path": "C:\\Users\\adamb\\PycharmProjects\\PythonProject\\adams-laboratory\\src\\beaker\\visual.js",
+      "before": "fbbe551ca5c7a609e2c7bbbbbede67876ffe2384bbd939c9b6dae7c8a7bef9e1",
+      "after": "fbbe551ca5c7a609e2c7bbbbbede67876ffe2384bbd939c9b6dae7c8a7bef9e1"
+    },
+    {
+      "path": "C:\\Users\\adamb\\PycharmProjects\\PythonProject\\adams-laboratory\\src\\calculations\\aqueousFractions.js",
+      "before": "66fec20c46b95f6a074dd310b7dfd58a6657dff9e991148c60d37f59c5b9d8aa",
+      "after": "66fec20c46b95f6a074dd310b7dfd58a6657dff9e991148c60d37f59c5b9d8aa"
+    },
+    {
+      "path": "C:\\Users\\adamb\\PycharmProjects\\PythonProject\\adams-laboratory\\src\\calculations\\boundedPourbaix.js",
+      "before": "f66dc2d107826e8f3661f5a96916fabcca0651605ba0817b636b7d696f44cea6",
+      "after": "f66dc2d107826e8f3661f5a96916fabcca0651605ba0817b636b7d696f44cea6"
+    },
+    {
+      "path": "C:\\Users\\adamb\\PycharmProjects\\PythonProject\\adams-laboratory\\src\\calculations\\definition.js",
+      "before": "9591dd1e67b5390c12782d1b130b6b7610e8e42127aaea86f5ca9ec0430d78f1",
+      "after": "9591dd1e67b5390c12782d1b130b6b7610e8e42127aaea86f5ca9ec0430d78f1"
+    },
+    {
+      "path": "C:\\Users\\adamb\\PycharmProjects\\PythonProject\\adams-laboratory\\src\\calculations\\definition.test.js",
+      "before": "3b1cf7dd3fadfce2ffaafe3a963ae534ee6fb07f0ba2ac86c2ac44251187cbce",
+      "after": "3b1cf7dd3fadfce2ffaafe3a963ae534ee6fb07f0ba2ac86c2ac44251187cbce"
+    },
+    {
+      "path": "C:\\Users\\adamb\\PycharmProjects\\PythonProject\\adams-laboratory\\src\\calculations\\diagramSetup.js",
+      "before": "f0b260c74190514a583e563f75a50a152a02fee4756199c50090d74f7a4c1ff3",
+      "after": "f0b260c74190514a583e563f75a50a152a02fee4756199c50090d74f7a4c1ff3"
+    },
+    {
+      "path": "C:\\Users\\adamb\\PycharmProjects\\PythonProject\\adams-laboratory\\src\\calculations\\fePublicSetup.js",
+      "before": "5b7bc38e586f3bdc6e001f86e77d76e89b4da26eefba3d97a88c310e3402b365",
+      "after": "5b7bc38e586f3bdc6e001f86e77d76e89b4da26eefba3d97a88c310e3402b365"
+    },
+    {
+      "path": "C:\\Users\\adamb\\PycharmProjects\\PythonProject\\adams-laboratory\\src\\calculations\\grid.js",
+      "before": "d2f61163f254a2e53367885038f66e5ac3f9fb068e39c36523f911db9c7c3b29",
+      "after": "d2f61163f254a2e53367885038f66e5ac3f9fb068e39c36523f911db9c7c3b29"
+    },
+    {
+      "path": "C:\\Users\\adamb\\PycharmProjects\\PythonProject\\adams-laboratory\\src\\calculations\\independentSolubility.js",
+      "before": "e85ca53cd827bda43d614151351e9abdb06a40dc91933ba76bb01c3c8caeba3c",
+      "after": "e85ca53cd827bda43d614151351e9abdb06a40dc91933ba76bb01c3c8caeba3c"
+    },
+    {
+      "path": "C:\\Users\\adamb\\PycharmProjects\\PythonProject\\adams-laboratory\\src\\calculations\\liveRun.js",
+      "before": "4e666e1f6fff68af32626aad9a1779797d756c730ca478bafa7291e16b2800c4",
+      "after": "4e666e1f6fff68af32626aad9a1779797d756c730ca478bafa7291e16b2800c4"
+    },
+    {
+      "path": "C:\\Users\\adamb\\PycharmProjects\\PythonProject\\adams-laboratory\\src\\calculations\\massConcentration.js",
+      "before": "b6fa9774a5c40feab797f3e9712d526f8cdececa38c135c0ab20ad5d3ad90856",
+      "after": "b6fa9774a5c40feab797f3e9712d526f8cdececa38c135c0ab20ad5d3ad90856"
+    },
+    {
+      "path": "C:\\Users\\adamb\\PycharmProjects\\PythonProject\\adams-laboratory\\src\\calculations\\outputDescriptors.js",
+      "before": "3763f566d190daf76641aff93afea61a6ee2217680c50af6c077048b0cedda96",
+      "after": "3763f566d190daf76641aff93afea61a6ee2217680c50af6c077048b0cedda96"
+    },
+    {
+      "path": "C:\\Users\\adamb\\PycharmProjects\\PythonProject\\adams-laboratory\\src\\calculations\\outputs.js",
+      "before": "caeca73d44451f285bed5d96d58fd31623b0be7b4ddddfc509417fd336e5e9fa",
+      "after": "caeca73d44451f285bed5d96d58fd31623b0be7b4ddddfc509417fd336e5e9fa"
+    },
+    {
+      "path": "C:\\Users\\adamb\\PycharmProjects\\PythonProject\\adams-laboratory\\src\\calculations\\predominance.js",
+      "before": "1194b93695ac2ba58cabb910260c6cc0c504a452b54d6165997533f85d2c0272",
+      "after": "1194b93695ac2ba58cabb910260c6cc0c504a452b54d6165997533f85d2c0272"
+    },
+    {
+      "path": "C:\\Users\\adamb\\PycharmProjects\\PythonProject\\adams-laboratory\\src\\calculations\\publicFePourbaix.js",
+      "before": "acd50b5f8c516a3d311b2c2965c46a64ac8fbec7453f88d1469b76d2150dd3e9",
+      "after": "acd50b5f8c516a3d311b2c2965c46a64ac8fbec7453f88d1469b76d2150dd3e9"
+    },
+    {
+      "path": "C:\\Users\\adamb\\PycharmProjects\\PythonProject\\adams-laboratory\\src\\calculations\\setupEditing.js",
+      "before": "594a878ba725eab5509608bc5ffa861bc7331a413bfc9358cc1d1623f9baa85f",
+      "after": "594a878ba725eab5509608bc5ffa861bc7331a413bfc9358cc1d1623f9baa85f"
+    },
+    {
+      "path": "C:\\Users\\adamb\\PycharmProjects\\PythonProject\\adams-laboratory\\src\\calculations\\solubility.js",
+      "before": "6913b9dd745b1f633b26dbf4ec6f15e2444177fa5c6b80a90de07937f0a28507",
+      "after": "6913b9dd745b1f633b26dbf4ec6f15e2444177fa5c6b80a90de07937f0a28507"
+    },
+    {
+      "path": "C:\\Users\\adamb\\PycharmProjects\\PythonProject\\adams-laboratory\\src\\calculations\\surfaceResponses.js",
+      "before": "9e77a4cecc8cf09400301eeefc2cd5e24c4a2289c5b7f847821bd9d9217e2eff",
+      "after": "9e77a4cecc8cf09400301eeefc2cd5e24c4a2289c5b7f847821bd9d9217e2eff"
+    },
+    {
+      "path": "C:\\Users\\adamb\\PycharmProjects\\PythonProject\\adams-laboratory\\src\\calculations\\sweep.js",
+      "before": "38fc739f567378b7188a1bdc3c880e999489af937af96844233703c4d5321ad6",
+      "after": "38fc739f567378b7188a1bdc3c880e999489af937af96844233703c4d5321ad6"
+    },
+    {
+      "path": "C:\\Users\\adamb\\PycharmProjects\\PythonProject\\adams-laboratory\\src\\calculations\\totalFractions.js",
+      "before": "9cb919135bc4cf5902a4825569cdf575f8591f3584e757d9bd29a90cc0e3059f",
+      "after": "9cb919135bc4cf5902a4825569cdf575f8591f3584e757d9bd29a90cc0e3059f"
+    },
+    {
+      "path": "C:\\Users\\adamb\\PycharmProjects\\PythonProject\\adams-laboratory\\src\\calculations\\units.js",
+      "before": "2e787ad389f97e94dc6df98a6fc0843a77a582558f70cb0c472764121b9407f3",
+      "after": "2e787ad389f97e94dc6df98a6fc0843a77a582558f70cb0c472764121b9407f3"
+    },
+    {
+      "path": "C:\\Users\\adamb\\PycharmProjects\\PythonProject\\adams-laboratory\\src\\calculations\\userPourbaix.js",
+      "before": "cdb53343e496c80718716309eccae7b5a3ec9057f8477f7a8d5849e345395a2f",
+      "after": "cdb53343e496c80718716309eccae7b5a3ec9057f8477f7a8d5849e345395a2f"
+    },
+    {
+      "path": "C:\\Users\\adamb\\PycharmProjects\\PythonProject\\adams-laboratory\\src\\chemistry\\components.js",
+      "before": "c0104d378b6827ab628f3530d860e961c84d6f2f79768cad84d63198089923ca",
+      "after": "c0104d378b6827ab628f3530d860e961c84d6f2f79768cad84d63198089923ca"
+    },
+    {
+      "path": "C:\\Users\\adamb\\PycharmProjects\\PythonProject\\adams-laboratory\\src\\chemistry\\elementInteraction.js",
+      "before": "d782d644c41f9ec542a4418fdec93765e6afae64d8b3863f5accb48e88ec6a87",
+      "after": "d782d644c41f9ec542a4418fdec93765e6afae64d8b3863f5accb48e88ec6a87"
+    },
+    {
+      "path": "C:\\Users\\adamb\\PycharmProjects\\PythonProject\\adams-laboratory\\src\\chemistry\\format.js",
+      "before": "93f940d20851c2d8a49e2ab921ed8d12e2839e3eba6592bcd1ee92d643827cfd",
+      "after": "93f940d20851c2d8a49e2ab921ed8d12e2839e3eba6592bcd1ee92d643827cfd"
+    },
+    {
+      "path": "C:\\Users\\adamb\\PycharmProjects\\PythonProject\\adams-laboratory\\src\\chemistry\\system.js",
+      "before": "4b87922472b593f09d19131de5dab92f579464400a5fe6dce8d7c6e0c23444a9",
+      "after": "4b87922472b593f09d19131de5dab92f579464400a5fe6dce8d7c6e0c23444a9"
+    },
+    {
+      "path": "C:\\Users\\adamb\\PycharmProjects\\PythonProject\\adams-laboratory\\src\\chemistry\\system.test.js",
+      "before": "0af1d9c158f275bd77937bd993a173d4e077611d175e670c2f880de7d4493a7f",
+      "after": "0af1d9c158f275bd77937bd993a173d4e077611d175e670c2f880de7d4493a7f"
+    },
+    {
+      "path": "C:\\Users\\adamb\\PycharmProjects\\PythonProject\\adams-laboratory\\src\\chemistry\\validation.js",
+      "before": "a0cebe2baa134a8612e55ba32d57520edcbd7c64536edea295ce4b6e01bf62dc",
+      "after": "a0cebe2baa134a8612e55ba32d57520edcbd7c64536edea295ce4b6e01bf62dc"
+    },
+    {
+      "path": "C:\\Users\\adamb\\PycharmProjects\\PythonProject\\adams-laboratory\\src\\components\\AdamMedia.jsx",
+      "before": "1fb54fcee6a1e0da2aa046ef04d367bcb756c1b7ad9648636c02325c12867963",
+      "after": "1fb54fcee6a1e0da2aa046ef04d367bcb756c1b7ad9648636c02325c12867963"
+    },
+    {
+      "path": "C:\\Users\\adamb\\PycharmProjects\\PythonProject\\adams-laboratory\\src\\components\\AmountUnitSelect.jsx",
+      "before": "eee02191dada5c7904923ea203912aaa98babd05afa2641072c346b9be890cfe",
+      "after": "eee02191dada5c7904923ea203912aaa98babd05afa2641072c346b9be890cfe"
+    },
+    {
+      "path": "C:\\Users\\adamb\\PycharmProjects\\PythonProject\\adams-laboratory\\src\\components\\AnalysisPanel.jsx",
+      "before": "9f5f0c620f24bdc7e880488478f4feb72ef89402c729a21a698f6d936ab9da5a",
+      "after": "9f5f0c620f24bdc7e880488478f4feb72ef89402c729a21a698f6d936ab9da5a"
+    },
+    {
+      "path": "C:\\Users\\adamb\\PycharmProjects\\PythonProject\\adams-laboratory\\src\\components\\AqueousFractionInspection.jsx",
+      "before": "abcd18d0705d777f7361b540e4c643c3a7c5bda60695306b912c6845d5a20dd3",
+      "after": "abcd18d0705d777f7361b540e4c643c3a7c5bda60695306b912c6845d5a20dd3"
+    },
+    {
+      "path": "C:\\Users\\adamb\\PycharmProjects\\PythonProject\\adams-laboratory\\src\\components\\AvailableSpecies.jsx",
+      "before": "583857b6b2b20a87efc9b1cfc1da0309e021389f6d887eef5aae2189c983853f",
+      "after": "583857b6b2b20a87efc9b1cfc1da0309e021389f6d887eef5aae2189c983853f"
+    },
+    {
+      "path": "C:\\Users\\adamb\\PycharmProjects\\PythonProject\\adams-laboratory\\src\\components\\AxisControls.jsx",
+      "before": "2aeccc592999b88ca0c55a9434d79508a1fc07bad443b51d588c0f0b072e7b25",
+      "after": "2aeccc592999b88ca0c55a9434d79508a1fc07bad443b51d588c0f0b072e7b25"
+    },
+    {
+      "path": "C:\\Users\\adamb\\PycharmProjects\\PythonProject\\adams-laboratory\\src\\components\\BeakerDrawing.jsx",
+      "before": "6f5982aa1e6dc8154fc7e7acbc4a2824a186686c3cf83b9861a1dce2a71a7cb9",
+      "after": "6f5982aa1e6dc8154fc7e7acbc4a2824a186686c3cf83b9861a1dce2a71a7cb9"
+    },
+    {
+      "path": "C:\\Users\\adamb\\PycharmProjects\\PythonProject\\adams-laboratory\\src\\components\\CalculationWorkspace.jsx",
+      "before": "dbe308111c14756a380dd5172398088c7a9d65401756acc2dc27f7ae2b8b9a6d",
+      "after": "dbe308111c14756a380dd5172398088c7a9d65401756acc2dc27f7ae2b8b9a6d"
+    },
+    {
+      "path": "C:\\Users\\adamb\\PycharmProjects\\PythonProject\\adams-laboratory\\src\\components\\CellDiagnostic.jsx",
+      "before": "43841b4e301709a593522575c368ea7c6efc52687533cfb13b5e6b7c63733888",
+      "after": "43841b4e301709a593522575c368ea7c6efc52687533cfb13b5e6b7c63733888"
+    },
+    {
+      "path": "C:\\Users\\adamb\\PycharmProjects\\PythonProject\\adams-laboratory\\src\\components\\ComponentPartition.jsx",
+      "before": "a7638b750d9b6147a042f7b8f594e7c0ff6d3b691915bb5104bcdd09ce036b2b",
+      "after": "a7638b750d9b6147a042f7b8f594e7c0ff6d3b691915bb5104bcdd09ce036b2b"
+    },
+    {
+      "path": "C:\\Users\\adamb\\PycharmProjects\\PythonProject\\adams-laboratory\\src\\components\\ComponentSelector.jsx",
+      "before": "3ece805f5fd38955d5bde447745cf8e217523fe63e84bf6bf59ed298f4e11ac7",
+      "after": "3ece805f5fd38955d5bde447745cf8e217523fe63e84bf6bf59ed298f4e11ac7"
+    },
+    {
+      "path": "C:\\Users\\adamb\\PycharmProjects\\PythonProject\\adams-laboratory\\src\\components\\databaseLoading.js",
+      "before": "8737378ff32d39e83a81741ed8fd6b79e1af028afc2e91665ff3a3a14d932025",
+      "after": "8737378ff32d39e83a81741ed8fd6b79e1af028afc2e91665ff3a3a14d932025"
+    },
+    {
+      "path": "C:\\Users\\adamb\\PycharmProjects\\PythonProject\\adams-laboratory\\src\\components\\DatabaseSource.jsx",
+      "before": "e067d58734efa39db23993af896953b24333237261eb9341f62a481cc57cb75f",
+      "after": "e067d58734efa39db23993af896953b24333237261eb9341f62a481cc57cb75f"
+    },
+    {
+      "path": "C:\\Users\\adamb\\PycharmProjects\\PythonProject\\adams-laboratory\\src\\components\\defaultSource.js",
+      "before": "01eba6a1fed088a55abca8feef6650ad185b79d188c544d16b6f404b050b5c0e",
+      "after": "01eba6a1fed088a55abca8feef6650ad185b79d188c544d16b6f404b050b5c0e"
+    },
+    {
+      "path": "C:\\Users\\adamb\\PycharmProjects\\PythonProject\\adams-laboratory\\src\\components\\DiagramSwitcher.jsx",
+      "before": "3fb2bbd9749baab0847816277b252e6d3f8a9c0719bbf3df845dd5b61440d43c",
+      "after": "3fb2bbd9749baab0847816277b252e6d3f8a9c0719bbf3df845dd5b61440d43c"
+    },
+    {
+      "path": "C:\\Users\\adamb\\PycharmProjects\\PythonProject\\adams-laboratory\\src\\components\\ElementSelector.jsx",
+      "before": "5087863f0e35af1063f9dcc95d92853ef75a503b42026be8abcd1c83abe01e80",
+      "after": "5087863f0e35af1063f9dcc95d92853ef75a503b42026be8abcd1c83abe01e80"
+    },
+    {
+      "path": "C:\\Users\\adamb\\PycharmProjects\\PythonProject\\adams-laboratory\\src\\components\\ExpandedPlot.jsx",
+      "before": "40a23040bb421781c58e2f4dc523656965c8ef8173c5626961e2289f2ca9cbb3",
+      "after": "40a23040bb421781c58e2f4dc523656965c8ef8173c5626961e2289f2ca9cbb3"
+    },
+    {
+      "path": "C:\\Users\\adamb\\PycharmProjects\\PythonProject\\adams-laboratory\\src\\components\\ExperimentalCarrierPourbaix.css",
+      "before": "1deab1eb3b3da99601dd20abbe67a42eeb3737ed39681ec7a92bb65a2c315091",
+      "after": "1deab1eb3b3da99601dd20abbe67a42eeb3737ed39681ec7a92bb65a2c315091"
+    },
+    {
+      "path": "C:\\Users\\adamb\\PycharmProjects\\PythonProject\\adams-laboratory\\src\\components\\ExperimentalCarrierPourbaix.jsx",
+      "before": "7785b54f11fe5929c0447b56cbf0c70906e5bf4873d7467e9db7cc74a7472ebf",
+      "after": "7785b54f11fe5929c0447b56cbf0c70906e5bf4873d7467e9db7cc74a7472ebf"
+    },
+    {
+      "path": "C:\\Users\\adamb\\PycharmProjects\\PythonProject\\adams-laboratory\\src\\components\\ExportPanel.jsx",
+      "before": "5d2f8e5a5ebcb89a17c8616543d1ab5de93e0e12bbe85ca86f04f5ae36566521",
+      "after": "5d2f8e5a5ebcb89a17c8616543d1ab5de93e0e12bbe85ca86f04f5ae36566521"
+    },
+    {
+      "path": "C:\\Users\\adamb\\PycharmProjects\\PythonProject\\adams-laboratory\\src\\components\\FePourbaix.css",
+      "before": "b2a21d4e7e5217dcf554efd1fd4d0119a6c7d56a34b73b0525133354bc2a72d1",
+      "after": "b2a21d4e7e5217dcf554efd1fd4d0119a6c7d56a34b73b0525133354bc2a72d1"
+    },
+    {
+      "path": "C:\\Users\\adamb\\PycharmProjects\\PythonProject\\adams-laboratory\\src\\components\\FePourbaixSetup.jsx",
+      "before": "9faad22342bf834e56da08b11e761c463da50a06bbfd5096d2c3f4127d29260c",
+      "after": "9faad22342bf834e56da08b11e761c463da50a06bbfd5096d2c3f4127d29260c"
+    },
+    {
+      "path": "C:\\Users\\adamb\\PycharmProjects\\PythonProject\\adams-laboratory\\src\\components\\FePourbaixWorkspace.jsx",
+      "before": "86f41051c8e1deacb466b73e6c1d337cb589dbfc4843593171f01cbbae9960eb",
+      "after": "86f41051c8e1deacb466b73e6c1d337cb589dbfc4843593171f01cbbae9960eb"
+    },
+    {
+      "path": "C:\\Users\\adamb\\PycharmProjects\\PythonProject\\adams-laboratory\\src\\components\\FixedCondition.jsx",
+      "before": "56af4b8ca2ba72a86de8adfa957da862b5da664c4c6508e225c50c5d3171b59c",
+      "after": "56af4b8ca2ba72a86de8adfa957da862b5da664c4c6508e225c50c5d3171b59c"
+    },
+    {
+      "path": "C:\\Users\\adamb\\PycharmProjects\\PythonProject\\adams-laboratory\\src\\components\\GridDiagnostics.jsx",
+      "before": "42e832f415c3ac0d75bf564643f63f56246801d465cace4c1f3d773a6fbc387f",
+      "after": "42e832f415c3ac0d75bf564643f63f56246801d465cace4c1f3d773a6fbc387f"
+    },
+    {
+      "path": "C:\\Users\\adamb\\PycharmProjects\\PythonProject\\adams-laboratory\\src\\components\\GridPlot.jsx",
+      "before": "c82698d677fa820679335336e5d96fbf079d9d4c8c16cbd3f7347334de1cd339",
+      "after": "c82698d677fa820679335336e5d96fbf079d9d4c8c16cbd3f7347334de1cd339"
+    },
+    {
+      "path": "C:\\Users\\adamb\\PycharmProjects\\PythonProject\\adams-laboratory\\src\\components\\GridWorkspace.jsx",
+      "before": "c177dbf5fa21e870bff897c89b445a5b0b657a276dae4837b6f3d095bb7d4d5b",
+      "after": "c177dbf5fa21e870bff897c89b445a5b0b657a276dae4837b6f3d095bb7d4d5b"
+    },
+    {
+      "path": "C:\\Users\\adamb\\PycharmProjects\\PythonProject\\adams-laboratory\\src\\components\\IndependentSolubilityPlot.jsx",
+      "before": "f89a365529b11af7b17645e8bcc8c8a477a0903c87210fb5d473cb8de2126d69",
+      "after": "f89a365529b11af7b17645e8bcc8c8a477a0903c87210fb5d473cb8de2126d69"
+    },
+    {
+      "path": "C:\\Users\\adamb\\PycharmProjects\\PythonProject\\adams-laboratory\\src\\components\\IndependentSolubilitySetup.jsx",
+      "before": "e781791593775ee52f0af172a8246e3df2fcfd819fe0c95d356485f217e919f2",
+      "after": "e781791593775ee52f0af172a8246e3df2fcfd819fe0c95d356485f217e919f2"
+    },
+    {
+      "path": "C:\\Users\\adamb\\PycharmProjects\\PythonProject\\adams-laboratory\\src\\components\\InteractiveBeaker.css",
+      "before": "305aad2ea4f6e0453c160612057f489d092739e612ebf71338b97c28bf76458e",
+      "after": "305aad2ea4f6e0453c160612057f489d092739e612ebf71338b97c28bf76458e"
+    },
+    {
+      "path": "C:\\Users\\adamb\\PycharmProjects\\PythonProject\\adams-laboratory\\src\\components\\InteractiveBeaker.jsx",
+      "before": "af4968f424293f497f81cd6c6ea732cf1f2a815e06f207ff7d5a285e45a95aaa",
+      "after": "af4968f424293f497f81cd6c6ea732cf1f2a815e06f207ff7d5a285e45a95aaa"
+    },
+    {
+      "path": "C:\\Users\\adamb\\PycharmProjects\\PythonProject\\adams-laboratory\\src\\components\\JsonDetails.jsx",
+      "before": "07f6f3a484b68e41a4763d99e9933338cdaed1f03dea369d65515ee41acb6ebf",
+      "after": "07f6f3a484b68e41a4763d99e9933338cdaed1f03dea369d65515ee41acb6ebf"
+    },
+    {
+      "path": "C:\\Users\\adamb\\PycharmProjects\\PythonProject\\adams-laboratory\\src\\components\\MapOutput.jsx",
+      "before": "da1e3b7e2f6950255adeab3099c788fb51363dd639786c81f431913de758a248",
+      "after": "da1e3b7e2f6950255adeab3099c788fb51363dd639786c81f431913de758a248"
+    },
+    {
+      "path": "C:\\Users\\adamb\\PycharmProjects\\PythonProject\\adams-laboratory\\src\\components\\MassInput.jsx",
+      "before": "abd6a4b86806e749d91a711fcf9d7bdc6e2704d157a0292f6fa21224a8deead5",
+      "after": "abd6a4b86806e749d91a711fcf9d7bdc6e2704d157a0292f6fa21224a8deead5"
+    },
+    {
+      "path": "C:\\Users\\adamb\\PycharmProjects\\PythonProject\\adams-laboratory\\src\\components\\MnDiagnostic.css",
+      "before": "000b91f7cb0d98ddc1ac5be9521af20f7a4e3472701e8cbedebc9f229775e31f",
+      "after": "000b91f7cb0d98ddc1ac5be9521af20f7a4e3472701e8cbedebc9f229775e31f"
+    },
+    {
+      "path": "C:\\Users\\adamb\\PycharmProjects\\PythonProject\\adams-laboratory\\src\\components\\MnDiagnostic.jsx",
+      "before": "8d7b1e71291ba6a88debe5367965f5b78544945d3f7674da36bd5a98031e7aa3",
+      "after": "8d7b1e71291ba6a88debe5367965f5b78544945d3f7674da36bd5a98031e7aa3"
+    },
+    {
+      "path": "C:\\Users\\adamb\\PycharmProjects\\PythonProject\\adams-laboratory\\src\\components\\NumberField.jsx",
+      "before": "3a5814134d06b260adb59d5e7ac2fe799c92f68b47fe5deb4d0b616594062798",
+      "after": "3a5814134d06b260adb59d5e7ac2fe799c92f68b47fe5deb4d0b616594062798"
+    },
+    {
+      "path": "C:\\Users\\adamb\\PycharmProjects\\PythonProject\\adams-laboratory\\src\\components\\ObserverPortrait.jsx",
+      "before": "d8a92bda576a37d023f63e8071aeac4376c44235ca225a6a82d8e9b0a7e19dfd",
+      "after": "d8a92bda576a37d023f63e8071aeac4376c44235ca225a6a82d8e9b0a7e19dfd"
+    },
+    {
+      "path": "C:\\Users\\adamb\\PycharmProjects\\PythonProject\\adams-laboratory\\src\\components\\OutputControls.jsx",
+      "before": "1b772d7bcffb04582875e746a9aadbbce8ccacfe83008f1cf365074b82047c28",
+      "after": "1b772d7bcffb04582875e746a9aadbbce8ccacfe83008f1cf365074b82047c28"
+    },
+    {
+      "path": "C:\\Users\\adamb\\PycharmProjects\\PythonProject\\adams-laboratory\\src\\components\\PlotExport.jsx",
+      "before": "41841417425781739ab12b8164a4da58c13b8fd9266177fdf4aef1716139db83",
+      "after": "41841417425781739ab12b8164a4da58c13b8fd9266177fdf4aef1716139db83"
+    },
+    {
+      "path": "C:\\Users\\adamb\\PycharmProjects\\PythonProject\\adams-laboratory\\src\\components\\PlotWorkspace.jsx",
+      "before": "fde3be38a371457758b8b5e65e277d56512f39f0c3ca650d7f3bdd820323bb7c",
+      "after": "fde3be38a371457758b8b5e65e277d56512f39f0c3ca650d7f3bdd820323bb7c"
+    },
+    {
+      "path": "C:\\Users\\adamb\\PycharmProjects\\PythonProject\\adams-laboratory\\src\\components\\PointResult.jsx",
+      "before": "dcd15ccbf0527c635dfd01101a388ff6b26d558273a2182e34d9b6cae1d21749",
+      "after": "dcd15ccbf0527c635dfd01101a388ff6b26d558273a2182e34d9b6cae1d21749"
+    },
+    {
+      "path": "C:\\Users\\adamb\\PycharmProjects\\PythonProject\\adams-laboratory\\src\\components\\Pourbaix.css",
+      "before": "b645e8f1da442091538a04665036cdf84b1c190a1ea39730490b38d583016339",
+      "after": "b645e8f1da442091538a04665036cdf84b1c190a1ea39730490b38d583016339"
+    },
+    {
+      "path": "C:\\Users\\adamb\\PycharmProjects\\PythonProject\\adams-laboratory\\src\\components\\PourbaixSetup.jsx",
+      "before": "67ba415a4c0dbba67d145481bc0916ecd268a0207593c0a05578a22f830aa3f4",
+      "after": "67ba415a4c0dbba67d145481bc0916ecd268a0207593c0a05578a22f830aa3f4"
+    },
+    {
+      "path": "C:\\Users\\adamb\\PycharmProjects\\PythonProject\\adams-laboratory\\src\\components\\PourbaixWorkspace.jsx",
+      "before": "541b8341f98e29db3778937a8e51af276440cda6cd62af6d11c2c13cc259a949",
+      "after": "541b8341f98e29db3778937a8e51af276440cda6cd62af6d11c2c13cc259a949"
+    },
+    {
+      "path": "C:\\Users\\adamb\\PycharmProjects\\PythonProject\\adams-laboratory\\src\\components\\ReactionReview.jsx",
+      "before": "7fcbd8131b6f8eed6c4fb0c4ca39f56fdb96480beb1deee5e80eb6fbcec76ebe",
+      "after": "7fcbd8131b6f8eed6c4fb0c4ca39f56fdb96480beb1deee5e80eb6fbcec76ebe"
+    },
+    {
+      "path": "C:\\Users\\adamb\\PycharmProjects\\PythonProject\\adams-laboratory\\src\\components\\RedoxControls.jsx",
+      "before": "d96ad45cd5f9938d724057cf489e25ebe489d840d9bdd824623090ca66ee16ff",
+      "after": "d96ad45cd5f9938d724057cf489e25ebe489d840d9bdd824623090ca66ee16ff"
+    },
+    {
+      "path": "C:\\Users\\adamb\\PycharmProjects\\PythonProject\\adams-laboratory\\src\\components\\ResultSelectionContext.js",
+      "before": "8187bda4e1e8f417ae4df24a7490bd00301c8661536074ee9d375e34d63cf462",
+      "after": "8187bda4e1e8f417ae4df24a7490bd00301c8661536074ee9d375e34d63cf462"
+    },
+    {
+      "path": "C:\\Users\\adamb\\PycharmProjects\\PythonProject\\adams-laboratory\\src\\components\\ScientificPlot.jsx",
+      "before": "990546f928506941c051e39f42483c5286decdd04562bf6de0ac11d4699e54ea",
+      "after": "990546f928506941c051e39f42483c5286decdd04562bf6de0ac11d4699e54ea"
+    },
+    {
+      "path": "C:\\Users\\adamb\\PycharmProjects\\PythonProject\\adams-laboratory\\src\\components\\ScientificTrace.jsx",
+      "before": "012b1e07170ed57228322f3e9ea5dfffe52c1f6243a51b24a4b2110d4c560bc2",
+      "after": "012b1e07170ed57228322f3e9ea5dfffe52c1f6243a51b24a4b2110d4c560bc2"
+    },
+    {
+      "path": "C:\\Users\\adamb\\PycharmProjects\\PythonProject\\adams-laboratory\\src\\components\\SelectedSystem.jsx",
+      "before": "5e1273988c4375e967d392fde7e0301b4baacb234e996b529e1d2b539604e059",
+      "after": "5e1273988c4375e967d392fde7e0301b4baacb234e996b529e1d2b539604e059"
+    },
+    {
+      "path": "C:\\Users\\adamb\\PycharmProjects\\PythonProject\\adams-laboratory\\src\\components\\SliceView.jsx",
+      "before": "352c3cf636b7aa9e46b24b8b3dc8a6a44128a01465a2fb50359d99daff756e6b",
+      "after": "352c3cf636b7aa9e46b24b8b3dc8a6a44128a01465a2fb50359d99daff756e6b"
+    },
+    {
+      "path": "C:\\Users\\adamb\\PycharmProjects\\PythonProject\\adams-laboratory\\src\\components\\SolutionSummary.jsx",
+      "before": "442d33c57a6314916be1481e1e4092608ea3ce31471e6cc8a42c79c94b495c6d",
+      "after": "442d33c57a6314916be1481e1e4092608ea3ce31471e6cc8a42c79c94b495c6d"
+    },
+    {
+      "path": "C:\\Users\\adamb\\PycharmProjects\\PythonProject\\adams-laboratory\\src\\components\\SpeciesDetails.jsx",
+      "before": "a55085b1b759883baf86bef0175bd9385498a07fdcbbb544c9574e736e83542a",
+      "after": "a55085b1b759883baf86bef0175bd9385498a07fdcbbb544c9574e736e83542a"
+    },
+    {
+      "path": "C:\\Users\\adamb\\PycharmProjects\\PythonProject\\adams-laboratory\\src\\components\\Surface3D.jsx",
+      "before": "714ddac895f7a6f16e1d51b33459b6da163ee2cf9a3507aa69f44ac65972a599",
+      "after": "714ddac895f7a6f16e1d51b33459b6da163ee2cf9a3507aa69f44ac65972a599"
+    },
+    {
+      "path": "C:\\Users\\adamb\\PycharmProjects\\PythonProject\\adams-laboratory\\src\\components\\SurfaceControls.jsx",
+      "before": "310566bbb87d8ee7d094c2aff7c316cea3eae19cf56a5ea0b360838db01ca22d",
+      "after": "310566bbb87d8ee7d094c2aff7c316cea3eae19cf56a5ea0b360838db01ca22d"
+    },
+    {
+      "path": "C:\\Users\\adamb\\PycharmProjects\\PythonProject\\adams-laboratory\\src\\components\\SurfaceResponseControls.jsx",
+      "before": "39e2ffc85cd831c0e90cf929a818e49b58065b6faf79870906ad7fbcc2793502",
+      "after": "39e2ffc85cd831c0e90cf929a818e49b58065b6faf79870906ad7fbcc2793502"
+    },
+    {
+      "path": "C:\\Users\\adamb\\PycharmProjects\\PythonProject\\adams-laboratory\\src\\components\\SweepResult.jsx",
+      "before": "d98e1d57d747e241018e35eb3b1e530e5bbf085ae3592ec525ccb1b01f3574d0",
+      "after": "d98e1d57d747e241018e35eb3b1e530e5bbf085ae3592ec525ccb1b01f3574d0"
+    },
+    {
+      "path": "C:\\Users\\adamb\\PycharmProjects\\PythonProject\\adams-laboratory\\src\\components\\SystemDefinition.jsx",
+      "before": "7e3d866ddd586e9273ede5e31b01d1ed74ef40841cdccccddd30d5fc4eee341b",
+      "after": "7e3d866ddd586e9273ede5e31b01d1ed74ef40841cdccccddd30d5fc4eee341b"
+    },
+    {
+      "path": "C:\\Users\\adamb\\PycharmProjects\\PythonProject\\adams-laboratory\\src\\components\\SystemReadiness.jsx",
+      "before": "0ddaabad42b74672fdca188643c996269ab559521efa561ec87c45931c43eff7",
+      "after": "0ddaabad42b74672fdca188643c996269ab559521efa561ec87c45931c43eff7"
+    },
+    {
+      "path": "C:\\Users\\adamb\\PycharmProjects\\PythonProject\\adams-laboratory\\src\\components\\usePlotBox.js",
+      "before": "faf34c52c8524b015e91ef9f83287cdfd1d6581c885f9d19f6a480b54a720c7d",
+      "after": "faf34c52c8524b015e91ef9f83287cdfd1d6581c885f9d19f6a480b54a720c7d"
+    },
+    {
+      "path": "C:\\Users\\adamb\\PycharmProjects\\PythonProject\\adams-laboratory\\src\\components\\usePlotGestures.js",
+      "before": "71f8c6ce01564ce1573bd35cc857532737a6d0a8b7f0c44d722e9d68b8fd9a74",
+      "after": "71f8c6ce01564ce1573bd35cc857532737a6d0a8b7f0c44d722e9d68b8fd9a74"
+    },
+    {
+      "path": "C:\\Users\\adamb\\PycharmProjects\\PythonProject\\adams-laboratory\\src\\components\\UserChemistry.jsx",
+      "before": "31918bfaec8be936460dd40098ee68c5f214dbdf6bf8b556faa5221175bfb15e",
+      "after": "31918bfaec8be936460dd40098ee68c5f214dbdf6bf8b556faa5221175bfb15e"
+    },
+    {
+      "path": "C:\\Users\\adamb\\PycharmProjects\\PythonProject\\adams-laboratory\\src\\components\\UserComponents.jsx",
+      "before": "329acf77cee35a159b3d7dc55d5cdf3cc321d3cab8316efca3bdcf5b90c05a35",
+      "after": "329acf77cee35a159b3d7dc55d5cdf3cc321d3cab8316efca3bdcf5b90c05a35"
+    },
+    {
+      "path": "C:\\Users\\adamb\\PycharmProjects\\PythonProject\\adams-laboratory\\src\\components\\UserEquilibria.jsx",
+      "before": "9ec474f45ecc12e0df99bf94eb64685558a665c3f707d3d1241765812f0da290",
+      "after": "9ec474f45ecc12e0df99bf94eb64685558a665c3f707d3d1241765812f0da290"
+    },
+    {
+      "path": "C:\\Users\\adamb\\PycharmProjects\\PythonProject\\adams-laboratory\\src\\data\\atomicWeights.js",
+      "before": "a780e9ab2db32b5a7775fac4233195f301df3049f31592734917f0a0d52ec102",
+      "after": "a780e9ab2db32b5a7775fac4233195f301df3049f31592734917f0a0d52ec102"
+    },
+    {
+      "path": "C:\\Users\\adamb\\PycharmProjects\\PythonProject\\adams-laboratory\\src\\data\\elementIdentities.js",
+      "before": "3f860e65dbe648462020e1b8740e3ea0301f3d783845471cd1dda3d6233ecc31",
+      "after": "3f860e65dbe648462020e1b8740e3ea0301f3d783845471cd1dda3d6233ecc31"
+    },
+    {
+      "path": "C:\\Users\\adamb\\PycharmProjects\\PythonProject\\adams-laboratory\\src\\data\\elements.js",
+      "before": "39c9a29ec3551c668478a08c3a6a623321b0b3a61bf7ffda3e74e2e93b0a6e71",
+      "after": "39c9a29ec3551c668478a08c3a6a623321b0b3a61bf7ffda3e74e2e93b0a6e71"
+    },
+    {
+      "path": "C:\\Users\\adamb\\PycharmProjects\\PythonProject\\adams-laboratory\\src\\data\\fePourbaixExample.js",
+      "before": "76137337a3c59d9359dfaf1c378a4b9021029d0e408325acb6d1a9a74b6d82da",
+      "after": "76137337a3c59d9359dfaf1c378a4b9021029d0e408325acb6d1a9a74b6d82da"
+    },
+    {
+      "path": "C:\\Users\\adamb\\PycharmProjects\\PythonProject\\adams-laboratory\\src\\data\\metalLigandSurfaceExample.js",
+      "before": "c78196b8ced9210d81dfa866fd845009847d21ba094f6f09cc1ae90a8af385d6",
+      "after": "c78196b8ced9210d81dfa866fd845009847d21ba094f6f09cc1ae90a8af385d6"
+    },
+    {
+      "path": "C:\\Users\\adamb\\PycharmProjects\\PythonProject\\adams-laboratory\\src\\data\\mnDiagnosticIdentity.js",
+      "before": "d3e1f0e1c7a02115fe997746f9b42e2bc527cdb4132f057522bd866c60e5037e",
+      "after": "d3e1f0e1c7a02115fe997746f9b42e2bc527cdb4132f057522bd866c60e5037e"
+    },
+    {
+      "path": "C:\\Users\\adamb\\PycharmProjects\\PythonProject\\adams-laboratory\\src\\data\\mnRegionIdentity.js",
+      "before": "6ddbfb8d185c3621550fe5ce8481c270b7228fa056666c65fa871481efcafee8",
+      "after": "6ddbfb8d185c3621550fe5ce8481c270b7228fa056666c65fa871481efcafee8"
+    },
+    {
+      "path": "C:\\Users\\adamb\\PycharmProjects\\PythonProject\\adams-laboratory\\src\\data\\mnTopologyIdentity.js",
+      "before": "1ab2be160924a6750a88e1211f2d02063228ab01048f7078137813538a66c838",
+      "after": "1ab2be160924a6750a88e1211f2d02063228ab01048f7078137813538a66c838"
+    },
+    {
+      "path": "C:\\Users\\adamb\\PycharmProjects\\PythonProject\\adams-laboratory\\src\\data\\periodicTable.js",
+      "before": "452fc318523a2474f08e192d87fb16210d3b8018d1b0f8f4215fc29d7d18092c",
+      "after": "452fc318523a2474f08e192d87fb16210d3b8018d1b0f8f4215fc29d7d18092c"
+    },
+    {
+      "path": "C:\\Users\\adamb\\PycharmProjects\\PythonProject\\adams-laboratory\\src\\data\\redoxWorkflowExample.js",
+      "before": "59d7854663b814c405861761481dde8b750d69bd0c342243d22e097d2c23895e",
+      "after": "59d7854663b814c405861761481dde8b750d69bd0c342243d22e097d2c23895e"
+    },
+    {
+      "path": "C:\\Users\\adamb\\PycharmProjects\\PythonProject\\adams-laboratory\\src\\data\\solubilityExample.js",
+      "before": "abeabb38a9c5303725dafa2a4b0550f6258fe46027a8e6f83f6e8258aad50a48",
+      "after": "abeabb38a9c5303725dafa2a4b0550f6258fe46027a8e6f83f6e8258aad50a48"
+    },
+    {
+      "path": "C:\\Users\\adamb\\PycharmProjects\\PythonProject\\adams-laboratory\\src\\data\\species.js",
+      "before": "fde79ea678f2e808b5c29faebb924ca280a6ea6a19e3a5e22f3941cccbf05b4f",
+      "after": "fde79ea678f2e808b5c29faebb924ca280a6ea6a19e3a5e22f3941cccbf05b4f"
+    },
+    {
+      "path": "C:\\Users\\adamb\\PycharmProjects\\PythonProject\\adams-laboratory\\src\\data\\surfaceExamples.js",
+      "before": "1ccf58179e4667e8ce4e7d0c1648cc85d643c563760692ac076d4e8aedaa4408",
+      "after": "1ccf58179e4667e8ce4e7d0c1648cc85d643c563760692ac076d4e8aedaa4408"
+    },
+    {
+      "path": "C:\\Users\\adamb\\PycharmProjects\\PythonProject\\adams-laboratory\\src\\experimental\\carrierPourbaix.js",
+      "before": "751b459f82954562966843587884e7e95f8fe09a907a801e6a19155695687e86",
+      "after": "751b459f82954562966843587884e7e95f8fe09a907a801e6a19155695687e86"
+    },
+    {
+      "path": "C:\\Users\\adamb\\PycharmProjects\\PythonProject\\adams-laboratory\\src\\plots\\diagramIdentity.js",
+      "before": "e002d8e4be674dfc8a83feebfaf61a49b8245e316a5ef3b778facf005e74ae90",
+      "after": "e002d8e4be674dfc8a83feebfaf61a49b8245e316a5ef3b778facf005e74ae90"
+    },
+    {
+      "path": "C:\\Users\\adamb\\PycharmProjects\\PythonProject\\adams-laboratory\\src\\plots\\export.js",
+      "before": "3903b07ec6171703c4cb90015a8ad03ca4229bda82dcde8c5fcd4bd700368a61",
+      "after": "3903b07ec6171703c4cb90015a8ad03ca4229bda82dcde8c5fcd4bd700368a61"
+    },
+    {
+      "path": "C:\\Users\\adamb\\PycharmProjects\\PythonProject\\adams-laboratory\\src\\plots\\fePourbaixView.js",
+      "before": "44c3c0164cf4f0fd06000022422c3800326284b24271904b4af8cf1b045ddbb9",
+      "after": "44c3c0164cf4f0fd06000022422c3800326284b24271904b4af8cf1b045ddbb9"
+    },
+    {
+      "path": "C:\\Users\\adamb\\PycharmProjects\\PythonProject\\adams-laboratory\\src\\plots\\formatNumber.js",
+      "before": "eaab7f967ff789001663fd4bd4aacf9472bff40a8b37fc5488393c431c4f48cf",
+      "after": "eaab7f967ff789001663fd4bd4aacf9472bff40a8b37fc5488393c431c4f48cf"
+    },
+    {
+      "path": "C:\\Users\\adamb\\PycharmProjects\\PythonProject\\adams-laboratory\\src\\plots\\geometry.js",
+      "before": "98c991db807f66ad220fb977edf9a3a81a7645d1593609ead98f36a2ab2de642",
+      "after": "98c991db807f66ad220fb977edf9a3a81a7645d1593609ead98f36a2ab2de642"
+    },
+    {
+      "path": "C:\\Users\\adamb\\PycharmProjects\\PythonProject\\adams-laboratory\\src\\plots\\gridView.js",
+      "before": "e3371915f85de119f9b029d195e56941657836dd03ef5b1bb39b324846aacb5b",
+      "after": "e3371915f85de119f9b029d195e56941657836dd03ef5b1bb39b324846aacb5b"
+    },
+    {
+      "path": "C:\\Users\\adamb\\PycharmProjects\\PythonProject\\adams-laboratory\\src\\plots\\labels.js",
+      "before": "ec976133de1ad3da5af8c2802377342890a16573bc5d48703e195125d1ace848",
+      "after": "ec976133de1ad3da5af8c2802377342890a16573bc5d48703e195125d1ace848"
+    },
+    {
+      "path": "C:\\Users\\adamb\\PycharmProjects\\PythonProject\\adams-laboratory\\src\\plots\\legendReadout.js",
+      "before": "fcb91266df14508d7753852295d02d286b79701ea9ec87f0748cb16df8e52817",
+      "after": "fcb91266df14508d7753852295d02d286b79701ea9ec87f0748cb16df8e52817"
+    },
+    {
+      "path": "C:\\Users\\adamb\\PycharmProjects\\PythonProject\\adams-laboratory\\src\\plots\\logLandmarks.js",
+      "before": "ea4b9ef6a9751211a78009419179e7dfb4367cd177525c7cf49ff220b960ca12",
+      "after": "ea4b9ef6a9751211a78009419179e7dfb4367cd177525c7cf49ff220b960ca12"
+    },
+    {
+      "path": "C:\\Users\\adamb\\PycharmProjects\\PythonProject\\adams-laboratory\\src\\plots\\mnDiagnostic.js",
+      "before": "5f40d0876e11fe629602f81d8a942c15c966d13bf8ce3e9cddd1cd2718966738",
+      "after": "5f40d0876e11fe629602f81d8a942c15c966d13bf8ce3e9cddd1cd2718966738"
+    },
+    {
+      "path": "C:\\Users\\adamb\\PycharmProjects\\PythonProject\\adams-laboratory\\src\\plots\\mnRegions.js",
+      "before": "34888569a69cac113952d78da0a485b6c110716067f2d9b5968b3cd590bae76c",
+      "after": "34888569a69cac113952d78da0a485b6c110716067f2d9b5968b3cd590bae76c"
+    },
+    {
+      "path": "C:\\Users\\adamb\\PycharmProjects\\PythonProject\\adams-laboratory\\src\\plots\\mnTopology.js",
+      "before": "ba132815a2db4d7731985bcb8d94690b3be65c00858950e54683fc1f68efe8f5",
+      "after": "ba132815a2db4d7731985bcb8d94690b3be65c00858950e54683fc1f68efe8f5"
+    },
+    {
+      "path": "C:\\Users\\adamb\\PycharmProjects\\PythonProject\\adams-laboratory\\src\\plots\\navigation.js",
+      "before": "5fc229234f38a4a02b8c516189ffac4a8b7244963c17bd82adbed0460a2416f3",
+      "after": "5fc229234f38a4a02b8c516189ffac4a8b7244963c17bd82adbed0460a2416f3"
+    },
+    {
+      "path": "C:\\Users\\adamb\\PycharmProjects\\PythonProject\\adams-laboratory\\src\\plots\\parameterScale.js",
+      "before": "c52715950f1925071a719eb8793fd1b30cbbcc5a162fd9c2d8c61e1efa9493f3",
+      "after": "c52715950f1925071a719eb8793fd1b30cbbcc5a162fd9c2d8c61e1efa9493f3"
+    },
+    {
+      "path": "C:\\Users\\adamb\\PycharmProjects\\PythonProject\\adams-laboratory\\src\\plots\\pourbaixExperience.js",
+      "before": "b90f41c9393244db227752aec151640cbd20708395b5585d96f8443b605cd9c8",
+      "after": "b90f41c9393244db227752aec151640cbd20708395b5585d96f8443b605cd9c8"
+    },
+    {
+      "path": "C:\\Users\\adamb\\PycharmProjects\\PythonProject\\adams-laboratory\\src\\plots\\pourbaixPresentation.js",
+      "before": "021066bc619cf35110c0c9771633cb1a40ceb0cf204df380cd1d795fc587d642",
+      "after": "021066bc619cf35110c0c9771633cb1a40ceb0cf204df380cd1d795fc587d642"
+    },
+    {
+      "path": "C:\\Users\\adamb\\PycharmProjects\\PythonProject\\adams-laboratory\\src\\plots\\pourbaixView.js",
+      "before": "70e10d59a4585f26bad0811c335d78f6dc8e0c57202fc6e8a4ddade7fc0128f4",
+      "after": "70e10d59a4585f26bad0811c335d78f6dc8e0c57202fc6e8a4ddade7fc0128f4"
+    },
+    {
+      "path": "C:\\Users\\adamb\\PycharmProjects\\PythonProject\\adams-laboratory\\src\\plots\\presentation.js",
+      "before": "dee80e8b04f9ac61e6ace4ed58948e75cc4b5eb9fc95e3f5672ea8d13b28387a",
+      "after": "dee80e8b04f9ac61e6ace4ed58948e75cc4b5eb9fc95e3f5672ea8d13b28387a"
+    },
+    {
+      "path": "C:\\Users\\adamb\\PycharmProjects\\PythonProject\\adams-laboratory\\src\\plots\\responseSurface.js",
+      "before": "da3c5f1569be895103284ef635ed9ec6520e4691bc8b9764618cb4d52aa7dd50",
+      "after": "da3c5f1569be895103284ef635ed9ec6520e4691bc8b9764618cb4d52aa7dd50"
+    },
+    {
+      "path": "C:\\Users\\adamb\\PycharmProjects\\PythonProject\\adams-laboratory\\src\\plots\\resultSelection.js",
+      "before": "a79c42735ec59d067c1e21393b5960677922244a6765623b5b9e77962efc3b14",
+      "after": "a79c42735ec59d067c1e21393b5960677922244a6765623b5b9e77962efc3b14"
+    },
+    {
+      "path": "C:\\Users\\adamb\\PycharmProjects\\PythonProject\\adams-laboratory\\src\\plots\\scalarMap.js",
+      "before": "a213ee08c9b5e1fdf9e805d47d1cbd675eeed29bb665ee38292a4d61f9e6e67f",
+      "after": "a213ee08c9b5e1fdf9e805d47d1cbd675eeed29bb665ee38292a4d61f9e6e67f"
+    },
+    {
+      "path": "C:\\Users\\adamb\\PycharmProjects\\PythonProject\\adams-laboratory\\src\\plots\\statusText.js",
+      "before": "456c6155717e0bb82ae5c76254c1c474fd85a2fc3c8fec50a63b1049ecd995c2",
+      "after": "456c6155717e0bb82ae5c76254c1c474fd85a2fc3c8fec50a63b1049ecd995c2"
+    },
+    {
+      "path": "C:\\Users\\adamb\\PycharmProjects\\PythonProject\\adams-laboratory\\src\\plots\\surface3d.js",
+      "before": "66320f6f64b110f522b94bd4e4e750b61f6ecb2b741a8faa6edac06d4da07408",
+      "after": "66320f6f64b110f522b94bd4e4e750b61f6ecb2b741a8faa6edac06d4da07408"
+    },
+    {
+      "path": "C:\\Users\\adamb\\PycharmProjects\\PythonProject\\adams-laboratory\\src\\plots\\surfaceFigure.js",
+      "before": "0ca2174d2c9ab6559421be6b2db1e46f5357b40c25508a540341a8c446ea4b36",
+      "after": "0ca2174d2c9ab6559421be6b2db1e46f5357b40c25508a540341a8c446ea4b36"
+    },
+    {
+      "path": "C:\\Users\\adamb\\PycharmProjects\\PythonProject\\adams-laboratory\\src\\plots\\surfaceLifecycle.js",
+      "before": "f3b5d55e28336ce7d759effd904850e19403261fc849a6c3e906e0928095f9e0",
+      "after": "f3b5d55e28336ce7d759effd904850e19403261fc849a6c3e906e0928095f9e0"
+    },
+    {
+      "path": "C:\\Users\\adamb\\PycharmProjects\\PythonProject\\adams-laboratory\\src\\plots\\threeSurfaceRenderer.js",
+      "before": "9d094fc28ffe0475e78544ee2419251967e08c5f34bac44b966a3271841b3f79",
+      "after": "9d094fc28ffe0475e78544ee2419251967e08c5f34bac44b966a3271841b3f79"
+    },
+    {
+      "path": "C:\\Users\\adamb\\PycharmProjects\\PythonProject\\adams-laboratory\\src\\plots\\workspaceView.js",
+      "before": "41fd9c5b92ac5237819032f6a4a441f6ebc3dbda2f9881609b2c285c4794cf19",
+      "after": "41fd9c5b92ac5237819032f6a4a441f6ebc3dbda2f9881609b2c285c4794cf19"
+    },
+    {
+      "path": "C:\\Users\\adamb\\PycharmProjects\\PythonProject\\adams-laboratory\\src\\session\\diagramNavigation.js",
+      "before": "1c6220ecd0e23a90996e9e5f66b6fc14a04059bd33240749b9b985b7b982cc6e",
+      "after": "1c6220ecd0e23a90996e9e5f66b6fc14a04059bd33240749b9b985b7b982cc6e"
+    },
+    {
+      "path": "C:\\Users\\adamb\\PycharmProjects\\PythonProject\\adams-laboratory\\src\\session\\laboratorySession.js",
+      "before": "bef161922836748b73d85e915ffb5fe122fe6ab6f8b802a803562e0135e70c43",
+      "after": "bef161922836748b73d85e915ffb5fe122fe6ab6f8b802a803562e0135e70c43"
+    },
+    {
+      "path": "C:\\Users\\adamb\\PycharmProjects\\PythonProject\\adams-laboratory\\src\\session\\workspaceDefaults.js",
+      "before": "db4eea8c01908e198a704842b74502c0fa3e56bdb3ddb5f396015ee11f550d76",
+      "after": "db4eea8c01908e198a704842b74502c0fa3e56bdb3ddb5f396015ee11f550d76"
+    },
+    {
+      "path": "C:\\Users\\adamb\\PycharmProjects\\PythonProject\\adams-laboratory\\src\\solver\\assemblages.js",
+      "before": "e25b0801841e7fa90f2bfba44488807e2c0f417dc5e0ee7c0bf98b7745650dc4",
+      "after": "e25b0801841e7fa90f2bfba44488807e2c0f417dc5e0ee7c0bf98b7745650dc4"
+    },
+    {
+      "path": "C:\\Users\\adamb\\PycharmProjects\\PythonProject\\adams-laboratory\\src\\solver\\contract.js",
+      "before": "8d035ccb7c9637ff734fb3cd5d14aec7ddc01ee61243cdd9fe4bd4372b8099bf",
+      "after": "8d035ccb7c9637ff734fb3cd5d14aec7ddc01ee61243cdd9fe4bd4372b8099bf"
+    },
+    {
+      "path": "C:\\Users\\adamb\\PycharmProjects\\PythonProject\\adams-laboratory\\src\\solver\\linear.js",
+      "before": "85bc2b1dd9792cf050bf64014ae76c0e66c6602c208c18607e97f05f71ba2f79",
+      "after": "85bc2b1dd9792cf050bf64014ae76c0e66c6602c208c18607e97f05f71ba2f79"
+    },
+    {
+      "path": "C:\\Users\\adamb\\PycharmProjects\\PythonProject\\adams-laboratory\\src\\solver\\logConcentration.js",
+      "before": "0838a65475c47eb86ff0807f4247010d69e9c4c7ee6bb7555c90af47b2228079",
+      "after": "0838a65475c47eb86ff0807f4247010d69e9c4c7ee6bb7555c90af47b2228079"
+    },
+    {
+      "path": "C:\\Users\\adamb\\PycharmProjects\\PythonProject\\adams-laboratory\\src\\solver\\models.js",
+      "before": "6627e609bcb575037aafeee9610e5a408ddad505eb17ee30eeee93ee45535bb5",
+      "after": "6627e609bcb575037aafeee9610e5a408ddad505eb17ee30eeee93ee45535bb5"
+    },
+    {
+      "path": "C:\\Users\\adamb\\PycharmProjects\\PythonProject\\adams-laboratory\\src\\solver\\point.js",
+      "before": "aa86983f63ee081a01e270be61271eff53b2284cf5d6bc1fcc6a348f2eb68d38",
+      "after": "aa86983f63ee081a01e270be61271eff53b2284cf5d6bc1fcc6a348f2eb68d38"
+    },
+    {
+      "path": "C:\\Users\\adamb\\PycharmProjects\\PythonProject\\adams-laboratory\\src\\solver\\prepareCanonicalRedox.js",
+      "before": "d5666d86b7e3a5730f09ccaaf6d330f590149a54317647a94aeb24e41db19085",
+      "after": "d5666d86b7e3a5730f09ccaaf6d330f590149a54317647a94aeb24e41db19085"
+    },
+    {
+      "path": "C:\\Users\\adamb\\PycharmProjects\\PythonProject\\adams-laboratory\\src\\solver\\prepareSession.js",
+      "before": "6eb8bf7d6b11d14508f3f05c3bb8d0c8099e0c5eb30f0df262cd6c59767b2164",
+      "after": "6eb8bf7d6b11d14508f3f05c3bb8d0c8099e0c5eb30f0df262cd6c59767b2164"
+    },
+    {
+      "path": "C:\\Users\\adamb\\PycharmProjects\\PythonProject\\adams-laboratory\\src\\solver\\redox.js",
+      "before": "80b9f117b93a313e7172476ee38633bb7156d8886839bdeaf6c9d7cc9a9d6074",
+      "after": "80b9f117b93a313e7172476ee38633bb7156d8886839bdeaf6c9d7cc9a9d6074"
+    },
+    {
+      "path": "C:\\Users\\adamb\\PycharmProjects\\PythonProject\\adams-laboratory\\src\\solver\\validationContract.js",
+      "before": "1eec965214cb5aaf583b55280c0203d4f58396264fa44e1cc69b0e7e6a3317db",
+      "after": "1eec965214cb5aaf583b55280c0203d4f58396264fa44e1cc69b0e7e6a3317db"
+    },
+    {
+      "path": "C:\\Users\\adamb\\PycharmProjects\\PythonProject\\adams-laboratory\\src\\thermodynamics\\canonicalRedox.js",
+      "before": "1627b21369186cd78e405faa127b4ca9921d165ae69aa4eecfb44c7487ff5754",
+      "after": "1627b21369186cd78e405faa127b4ca9921d165ae69aa4eecfb44c7487ff5754"
+    },
+    {
+      "path": "C:\\Users\\adamb\\PycharmProjects\\PythonProject\\adams-laboratory\\src\\thermodynamics\\compatibility.js",
+      "before": "65bec87e1351d660cb0c453c18b57f0a58f8fd041ef0a48714b226a46e942603",
+      "after": "65bec87e1351d660cb0c453c18b57f0a58f8fd041ef0a48714b226a46e942603"
+    },
+    {
+      "path": "C:\\Users\\adamb\\PycharmProjects\\PythonProject\\adams-laboratory\\src\\thermodynamics\\formationSupport.js",
+      "before": "7e3d39500b13e63f21865af5aaa5dda090687971fce50e4ee7e030bf510eaca2",
+      "after": "7e3d39500b13e63f21865af5aaa5dda090687971fce50e4ee7e030bf510eaca2"
+    },
+    {
+      "path": "C:\\Users\\adamb\\PycharmProjects\\PythonProject\\adams-laboratory\\src\\thermodynamics\\index.js",
+      "before": "54f32bdf2c6731b37494cad1ff939269b5b3740249447315cd823cb9639f5c47",
+      "after": "54f32bdf2c6731b37494cad1ff939269b5b3740249447315cd823cb9639f5c47"
+    },
+    {
+      "path": "C:\\Users\\adamb\\PycharmProjects\\PythonProject\\adams-laboratory\\src\\thermodynamics\\prepareReactionBasis.js",
+      "before": "915448c3a68e1a8c81e660db128f7bbb3de1be4161cb471abc4d5484fac89ab3",
+      "after": "915448c3a68e1a8c81e660db128f7bbb3de1be4161cb471abc4d5484fac89ab3"
+    },
+    {
+      "path": "C:\\Users\\adamb\\PycharmProjects\\PythonProject\\adams-laboratory\\src\\thermodynamics\\reactionBasis.js",
+      "before": "e62e37bc21c47f4713ea4948522e21c0680374e54bf5cff0e4c6d5a9cc467d75",
+      "after": "e62e37bc21c47f4713ea4948522e21c0680374e54bf5cff0e4c6d5a9cc467d75"
+    },
+    {
+      "path": "C:\\Users\\adamb\\PycharmProjects\\PythonProject\\adams-laboratory\\src\\thermodynamics\\repository.js",
+      "before": "fa5727992267e38947edded8bfcc0228a3ebca564d42e8e6e464cf08268d6f63",
+      "after": "fa5727992267e38947edded8bfcc0228a3ebca564d42e8e6e464cf08268d6f63"
+    },
+    {
+      "path": "C:\\Users\\adamb\\PycharmProjects\\PythonProject\\adams-laboratory\\src\\thermodynamics\\repository.test.js",
+      "before": "47fad4e831d87de3e01da033e674e894838c1f4a9d1ef291d9b91c3f28de5d92",
+      "after": "47fad4e831d87de3e01da033e674e894838c1f4a9d1ef291d9b91c3f28de5d92"
+    },
+    {
+      "path": "C:\\Users\\adamb\\PycharmProjects\\PythonProject\\adams-laboratory\\src\\thermodynamics\\schema.js",
+      "before": "b9ad007ae1d96ca7a693fa1d7debbd505ab205045844c2c99a503208e08737a2",
+      "after": "b9ad007ae1d96ca7a693fa1d7debbd505ab205045844c2c99a503208e08737a2"
+    },
+    {
+      "path": "C:\\Users\\adamb\\PycharmProjects\\PythonProject\\adams-laboratory\\src\\thermodynamics\\snapshot.js",
+      "before": "8c8fd7076f005858cded6a6dd1340179018ba71c1af2aec3beaff9427a9d7acc",
+      "after": "8c8fd7076f005858cded6a6dd1340179018ba71c1af2aec3beaff9427a9d7acc"
+    },
+    {
+      "path": "C:\\Users\\adamb\\PycharmProjects\\PythonProject\\adams-laboratory\\src\\thermodynamics\\sourceReactionBasis.js",
+      "before": "354ed493fe41c4afafc3133726b4483bdaffb861ed100062aeb9033bca0e7083",
+      "after": "354ed493fe41c4afafc3133726b4483bdaffb861ed100062aeb9033bca0e7083"
+    },
+    {
+      "path": "C:\\Users\\adamb\\PycharmProjects\\PythonProject\\adams-laboratory\\src\\thermodynamics\\userComponents.js",
+      "before": "9b48067be2ec303218ae9ee1daed3e98ed2e8d71e7b7541a5523ead89777c725",
+      "after": "9b48067be2ec303218ae9ee1daed3e98ed2e8d71e7b7541a5523ead89777c725"
+    },
+    {
+      "path": "C:\\Users\\adamb\\PycharmProjects\\PythonProject\\adams-laboratory\\src\\thermodynamics\\userEquilibria.js",
+      "before": "5c1aabb37aec7131d57d48006341fb9da5824043ad147e8f3c6ffc98fd0bc9a8",
+      "after": "5c1aabb37aec7131d57d48006341fb9da5824043ad147e8f3c6ffc98fd0bc9a8"
+    },
+    {
+      "path": "C:\\Users\\adamb\\PycharmProjects\\PythonProject\\adams-laboratory\\src\\thermodynamics\\validation.js",
+      "before": "6e094cc718006f0300ce4f335fbcda6349629250518570b005551fc70f87405f",
+      "after": "6e094cc718006f0300ce4f335fbcda6349629250518570b005551fc70f87405f"
+    },
+    {
+      "path": "C:\\Users\\adamb\\PycharmProjects\\PythonProject\\adams-laboratory\\src\\thermodynamics\\validation.test.js",
+      "before": "d4c58a21beb0d9b36268f4995b355bc577fbb12af30630a752c8ecee3a5e259b",
+      "after": "d4c58a21beb0d9b36268f4995b355bc577fbb12af30630a752c8ecee3a5e259b"
+    },
+    {
+      "path": "C:\\Users\\adamb\\PycharmProjects\\PythonProject\\adams-laboratory\\src\\thermodynamics\\importers\\pipeline.js",
+      "before": "8d041a97bea3957ce4e7785acfad29cc7f547758c8cbcc666b4a3447e149d909",
+      "after": "8d041a97bea3957ce4e7785acfad29cc7f547758c8cbcc666b4a3447e149d909"
+    },
+    {
+      "path": "C:\\Users\\adamb\\PycharmProjects\\PythonProject\\adams-laboratory\\src\\thermodynamics\\importers\\pipeline.test.js",
+      "before": "93740acc37618fc625769b656b64478e610557f0a7db1f867dc4c5933b845ce4",
+      "after": "93740acc37618fc625769b656b64478e610557f0a7db1f867dc4c5933b845ce4"
+    },
+    {
+      "path": "C:\\Users\\adamb\\PycharmProjects\\PythonProject\\adams-laboratory\\src\\thermodynamics\\importers\\spana\\binary.js",
+      "before": "889017b231430c00de0c7107e135517f3f137e145d69f759f58efddcde642356",
+      "after": "889017b231430c00de0c7107e135517f3f137e145d69f759f58efddcde642356"
+    },
+    {
+      "path": "C:\\Users\\adamb\\PycharmProjects\\PythonProject\\adams-laboratory\\src\\thermodynamics\\importers\\spana\\components.js",
+      "before": "5ba6cf65a05dfeb506fd70f70ed8998122eab1b6dd524ebdd3d42872840bd765",
+      "after": "5ba6cf65a05dfeb506fd70f70ed8998122eab1b6dd524ebdd3d42872840bd765"
+    },
+    {
+      "path": "C:\\Users\\adamb\\PycharmProjects\\PythonProject\\adams-laboratory\\src\\thermodynamics\\importers\\spana\\convert.js",
+      "before": "3a1e6e05c1c25d743991cc4b95b7fa7b7f993d1f6831c9e4a72d4cf1919aa776",
+      "after": "3a1e6e05c1c25d743991cc4b95b7fa7b7f993d1f6831c9e4a72d4cf1919aa776"
+    },
+    {
+      "path": "C:\\Users\\adamb\\PycharmProjects\\PythonProject\\adams-laboratory\\src\\thermodynamics\\importers\\spana\\names.js",
+      "before": "2e3c89d92ab2f663e29f26a2978064c3a3d91aacf373dc450e241f18552bf61f",
+      "after": "2e3c89d92ab2f663e29f26a2978064c3a3d91aacf373dc450e241f18552bf61f"
+    },
+    {
+      "path": "C:\\Users\\adamb\\PycharmProjects\\PythonProject\\adams-laboratory\\src\\thermodynamics\\importers\\spana\\normalize.js",
+      "before": "1524a967ec6cbf9cbd92f8831ca186631143b838c594f1fea53ee1193b343a18",
+      "after": "1524a967ec6cbf9cbd92f8831ca186631143b838c594f1fea53ee1193b343a18"
+    },
+    {
+      "path": "C:\\Users\\adamb\\PycharmProjects\\PythonProject\\adams-laboratory\\src\\thermodynamics\\importers\\spana\\references.js",
+      "before": "75b47f05838d8d8608b11064a78154b555002f99616e032f133c4999843d3b5c",
+      "after": "75b47f05838d8d8608b11064a78154b555002f99616e032f133c4999843d3b5c"
+    },
+    {
+      "path": "C:\\Users\\adamb\\PycharmProjects\\PythonProject\\adams-laboratory\\src\\thermodynamics\\importers\\spana\\spana.test.js",
+      "before": "1ef6f3420f058047061d376d07238e3d02cbbbfcfb027c4c50cede1f9f32087f",
+      "after": "1ef6f3420f058047061d376d07238e3d02cbbbfcfb027c4c50cede1f9f32087f"
+    },
+    {
+      "path": "C:\\Users\\adamb\\PycharmProjects\\PythonProject\\adams-laboratory\\public\\favicon.svg",
+      "before": "61bc9a161de58248288e6905425d7180f0624c2865007b97d763fdac12043a66",
+      "after": "61bc9a161de58248288e6905425d7180f0624c2865007b97d763fdac12043a66"
+    },
+    {
+      "path": "C:\\Users\\adamb\\PycharmProjects\\PythonProject\\adams-laboratory\\public\\icons.svg",
+      "before": "b45fa506195cfcdef406ba9f0c77b36ddc1a7c224040926ec70abc2fdea7b93a",
+      "after": "b45fa506195cfcdef406ba9f0c77b36ddc1a7c224040926ec70abc2fdea7b93a"
+    },
+    {
+      "path": "C:\\Users\\adamb\\PycharmProjects\\PythonProject\\adams-laboratory\\public\\artwork\\adam-laboratory.png",
+      "before": "c88de996a7e8019a2fb09bbdb60beb8f10416f4e678b23f24cc641709cc934d6",
+      "after": "c88de996a7e8019a2fb09bbdb60beb8f10416f4e678b23f24cc641709cc934d6"
+    },
+    {
+      "path": "C:\\Users\\adamb\\PycharmProjects\\PythonProject\\adams-laboratory\\public\\artwork\\adam-observer.png",
+      "before": "0389cc3730a6cae0f643a7f07559c87063ed3bfce27b1d3d0e2d780d36c5a16d",
+      "after": "0389cc3730a6cae0f643a7f07559c87063ed3bfce27b1d3d0e2d780d36c5a16d"
+    },
+    {
+      "path": "C:\\Users\\adamb\\PycharmProjects\\PythonProject\\adams-laboratory\\public\\artwork\\adam-portrait.png",
+      "before": "cc814a5f3fc7bc7e0d56caa168e756e8d7aaf2a8c9bb013c6f5b82a829ad32f0",
+      "after": "cc814a5f3fc7bc7e0d56caa168e756e8d7aaf2a8c9bb013c6f5b82a829ad32f0"
+    },
+    {
+      "path": "C:\\Users\\adamb\\PycharmProjects\\PythonProject\\adams-laboratory\\public\\artwork\\adam-studio.png",
+      "before": "8340fd8a6958d78c986bf53d5c7d42c7733316ca992c3c89c526c8aa96c095b4",
+      "after": "8340fd8a6958d78c986bf53d5c7d42c7733316ca992c3c89c526c8aa96c095b4"
+    },
+    {
+      "path": "C:\\Users\\adamb\\PycharmProjects\\PythonProject\\adams-laboratory\\public\\artwork\\adam-workspace.png",
+      "before": "1cf49efeaae32267b7d814251fd351792ebfaee12ef4b02158bd7e22fe2c6820",
+      "after": "1cf49efeaae32267b7d814251fd351792ebfaee12ef4b02158bd7e22fe2c6820"
+    },
+    {
+      "path": "C:\\Users\\adamb\\PycharmProjects\\PythonProject\\adams-laboratory\\public\\data\\thermodynamic-default.json",
+      "before": "9fa7db6f4a13a88073a0ca214c412690846674f6b3f442e336baf1586c45d245",
+      "after": "9fa7db6f4a13a88073a0ca214c412690846674f6b3f442e336baf1586c45d245"
+    }
+  ]
+}

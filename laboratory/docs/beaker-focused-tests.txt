@@ -1,0 +1,18 @@
+✔ beaker consumes branded accepted equilibrium points, never lookalike or archived objects (92.3949ms)
+✔ all pH control samples map exactly to the existing proton activity input (1.7086ms)
+✔ accepted aqueous-only points have no precipitate and retain unavailable saturation solubility (2.0268ms)
+✔ one-solid beaker state identifies calcite from the solver assemblage (0.5693ms)
+✔ multi-solid beaker states show all two- and three-phase inventories without layers (0.4805ms)
+✔ display inventory preserves every exact solid amount and agrees with prior multi-solid evidence (2.1398ms)
+✔ dissolved totals and all weighted contributors reuse existing calculated output (2.1514ms)
+✔ synchronized marker uses exactly the beaker pH, input identity and original solubility samples (0.9151ms)
+✔ unsupported and uncalculated states remain explicit and never produce a visual equilibrium (169.6465ms)
+✔ stale revision and late invalidated runs cannot masquerade as the current beaker state (75.6578ms)
+ℹ tests 10
+ℹ suites 0
+ℹ pass 10
+ℹ fail 0
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 3450.426

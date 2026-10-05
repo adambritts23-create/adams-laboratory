@@ -1,0 +1,27 @@
+import PlotExport from './PlotExport.jsx'
+import usePlotGestures from './usePlotGestures.js'
+import {ResultSelectionContext} from './ResultSelectionContext.js'
+import { displayNumber as formatNumber, outputNumberType } from '../plots/formatNumber.js'
+import CellDiagnostic from './CellDiagnostic.jsx'
+import AnalysisPanel from './AnalysisPanel.jsx'
+import { colorRange, gridCellStatus } from '../plots/scalarMap.js'
+import usePlotBox from './usePlotBox.js'
+import { useMemo, useState, useRef, useContext } from 'react'
+import { gridBounds,gridSvg,gridBox,exactGridIndex } from '../plots/gridView.js'
+import { chemicalLabel } from '../chemistry/format.js'
+import { pointStatusText } from '../plots/statusText.js'
+export default function GridPlot({model,summary,onSlice,outcomes=[],settings={},onView,theme,currentRevision,onExport}){
+  const surface=useRef(null),box=usePlotBox(surface,gridBox,model.metadata.fixedConditions.length+1)
+  const shared=useContext(ResultSelectionContext)
+  const [localHover,setLocalHover]=useState(null)
+  const hover=shared?shared.hover:localHover,setHover=shared?shared.preview:setLocalHover
+  const pinned=shared?shared.pinned:Math.min(settings.gridPinned??0,model.points.length-1),setPinned=shared?shared.pin:n=>onView({gridPinned:n})
+  const view=useMemo(()=>gridBounds(model.metadata),[model.metadata]),index=hover??pinned,p=model.points[index], range=colorRange(model,settings.colorRange)
+  const svg=useMemo(()=>gridSvg(model,view,theme,currentRevision,index,box,settings),[model,view,theme,currentRevision,index,box,settings])
+  const sample=e=>{const r=e.currentTarget.getBoundingClientRect(),sx=(e.clientX-r.left)/r.width*box.width,sy=(e.clientY-r.top)/r.height*(box.height+(model.metadata.fixedConditions.length+1)*21);return exactGridIndex(model,view.xMin+(sx-box.left)/(box.right-box.left)*(view.xMax-view.xMin),view.yMin+(box.bottom-sy)/(box.bottom-box.top)*(view.yMax-view.yMin))}
+  const gestures=usePlotGestures({count:model.points.length,pinned,sample,preview:setHover,pin:setPinned})
+  return <section><div className="plot-toolbar"><PlotExport><button onClick={()=>onExport('svg',svg,{view,pinned,colorRange:settings.colorRange,contours:settings.contours})}>Export SVG</button><button onClick={()=>onExport('json',null,{view,pinned,colorRange:settings.colorRange,contours:settings.contours})}>Export numerical JSON</button></PlotExport></div>
+    <div ref={surface} className="plot-surface fixed-sample-plot" role="group" aria-label="Interactive equilibrium grid" title="Click to select a calculated sample. Arrow keys select adjacent samples; Home / End select endpoints. Fixed data viewport." {...gestures} dangerouslySetInnerHTML={{__html:svg}}/>
+    <details className="result-analysis"><summary>Analysis and sampled extrema</summary><AnalysisPanel summary={summary} settings={settings} onView={onView} onPin={index=>{setPinned(index);setHover(null)}} onSlice={direction=>onSlice(direction,pinned)}/></details><p className="scope-note">Inspection snaps to calculated samples. Colors: calculated with F available. Cross-hatching: failed equilibrium. Horizontal hatching: calculated but F unavailable. Dots: unrun/cancelled. Failure is not a chemical boundary.</p><details className="map-display"><summary>Color range / contours · view only</summary><p>{model.metadata.output.formula}. Logarithms of zero amounts and unavailable quantities are masked.</p><p>Data min {formatNumber(model.min)??'unavailable'} · max {formatNumber(model.max)??'unavailable'} · {model.metadata.output.unit}</p>{['min','max'].map(key=><label key={key}>Color {key}<input type="number" step="any" placeholder="Auto" value={settings.colorRange?.[key]??''} onChange={e=>onView({colorRange:{...settings.colorRange,[key]:e.target.value===''?null:Number(e.target.value)}})}/></label>)}<button onClick={()=>onView({colorRange:null})}>Reset color range</button>{range.error&&<p role="alert">{range.error}</p>}<label><input type="checkbox" checked={settings.contours??false} onChange={e=>onView({contours:e.target.checked})}/>Contours · interpolated visualization only</label></details><details className="inspection" open><summary>Exact sampled point</summary><label>Grid sample index<input type="number" min="0" max={model.points.length-1} value={pinned} onChange={e=>{const n=Number(e.target.value);if(Number.isInteger(n)&&n>=0&&n<model.points.length){setPinned(n);setHover(null)}}}/></label><h3>{hover===null?'Pinned':'Hovered'} coordinate</h3><p>X = {formatNumber(p.x,model.metadata.axes[0].quantity)} · Y = {formatNumber(p.y,model.metadata.axes[1].quantity)}</p><p>{model.classification?((p.winner?chemicalLabel(model.classification.candidates.find(c=>c.id===p.winner)?.name??p.winner):null)??(p.status==='tie'?'Tie — no single winner':'Unavailable')):Number.isFinite(p.value)?`${formatNumber(p.value,outputNumberType(model.metadata.output))} ${model.metadata.output.unit}`:'Unavailable — this coordinate has no accepted value.'}</p><small>{model.classification ? p.status : pointStatusText(p)} · {gridCellStatus(p)} · exact requested sample, no interpolation. Hatched cells are unavailable.</small><p>Indices X={p.ix} · Y={p.iy} · scientific revision {model.metadata.revision}</p><CellDiagnostic outcome={outcomes[index]} point={p} descriptor={model.series.descriptor}/><details><summary>Point diagnostics, active solids and transformed input</summary><pre>{JSON.stringify(outcomes[index]??p,null,2)}</pre></details></details>
+  </section>
+}

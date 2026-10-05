@@ -1,0 +1,1306 @@
+{
+  "decision": "STOP: general production basis transformation and validated session redox policy absent; Pourbaix remains pending",
+  "conversion": {
+    "voltsPerPeAt25C": 0.059159349684782335,
+    "reference": "SHE",
+    "logElectronActivity": "-pe"
+  },
+  "cases": [
+    {
+      "pair": [
+        "Fe 2+",
+        "Fe 3+"
+      ],
+      "dualBasisPreparation": {
+        "ok": false,
+        "diagnostics": [
+          {
+            "code": "redundant-basis",
+            "message": "Selected component Fe 2+ is also a direct reaction product of this basis. Remove the dependent choice; no substitution will be performed.",
+            "path": null
+          },
+          {
+            "code": "redundant-basis",
+            "message": "Selected component Fe 3+ is also a direct reaction product of this basis. Remove the dependent choice; no substitution will be performed.",
+            "path": null
+          }
+        ]
+      },
+      "automaticSolids": false,
+      "candidateAudit": [
+        {
+          "id": "spana:2ac52a30213c9288:126513",
+          "name": "Fe 2+",
+          "phase": "aqueous",
+          "logK": 13.051,
+          "terms": [
+            {
+              "name": "Fe 3+",
+              "coefficient": 1
+            },
+            {
+              "name": "e-",
+              "coefficient": 1
+            }
+          ],
+          "directBasisCompatible": true,
+          "source": "byte:126513"
+        },
+        {
+          "id": "spana:2ac52a30213c9288:126584",
+          "name": "Fe 3+",
+          "phase": "aqueous",
+          "logK": -13.051,
+          "terms": [
+            {
+              "name": "Fe 2+",
+              "coefficient": 1
+            },
+            {
+              "name": "e-",
+              "coefficient": -1
+            }
+          ],
+          "directBasisCompatible": true,
+          "source": "byte:126584"
+        },
+        {
+          "id": "spana:2ac52a30213c9288:127500",
+          "name": "Fe(cr)",
+          "phase": "solid",
+          "logK": -15.89,
+          "terms": [
+            {
+              "name": "Fe 2+",
+              "coefficient": 1
+            },
+            {
+              "name": "e-",
+              "coefficient": 2
+            }
+          ],
+          "directBasisCompatible": true,
+          "source": "byte:127500"
+        },
+        {
+          "id": "spana:2ac52a30213c9288:130813",
+          "name": "Fe(OH)2",
+          "phase": "aqueous",
+          "logK": -20.6,
+          "terms": [
+            {
+              "name": "Fe 2+",
+              "coefficient": 1
+            },
+            {
+              "name": "H+",
+              "coefficient": -2
+            },
+            {
+              "name": "H2O",
+              "coefficient": 2
+            }
+          ],
+          "directBasisCompatible": true,
+          "source": "byte:130813"
+        },
+        {
+          "id": "spana:2ac52a30213c9288:130902",
+          "name": "Fe(OH)2(cr)",
+          "phase": "solid",
+          "logK": -12.3,
+          "terms": [
+            {
+              "name": "Fe 2+",
+              "coefficient": 1
+            },
+            {
+              "name": "H+",
+              "coefficient": -2
+            },
+            {
+              "name": "H2O",
+              "coefficient": 2
+            }
+          ],
+          "directBasisCompatible": true,
+          "source": "byte:130902"
+        },
+        {
+          "id": "spana:2ac52a30213c9288:131002",
+          "name": "Fe(OH)2+",
+          "phase": "aqueous",
+          "logK": -4.8,
+          "terms": [
+            {
+              "name": "Fe 3+",
+              "coefficient": 1
+            },
+            {
+              "name": "H+",
+              "coefficient": -2
+            },
+            {
+              "name": "H2O",
+              "coefficient": 2
+            }
+          ],
+          "directBasisCompatible": false,
+          "source": "byte:131002"
+        },
+        {
+          "id": "spana:2ac52a30213c9288:131099",
+          "name": "Fe(OH)3",
+          "phase": "aqueous",
+          "logK": -12,
+          "terms": [
+            {
+              "name": "Fe 3+",
+              "coefficient": 1
+            },
+            {
+              "name": "H+",
+              "coefficient": -3
+            },
+            {
+              "name": "H2O",
+              "coefficient": 3
+            }
+          ],
+          "directBasisCompatible": false,
+          "source": "byte:131099"
+        },
+        {
+          "id": "spana:2ac52a30213c9288:131188",
+          "name": "Fe(OH)3(am)",
+          "phase": "solid",
+          "logK": -4.9,
+          "terms": [
+            {
+              "name": "Fe 3+",
+              "coefficient": 1
+            },
+            {
+              "name": "H+",
+              "coefficient": -3
+            },
+            {
+              "name": "H2O",
+              "coefficient": 3
+            }
+          ],
+          "directBasisCompatible": false,
+          "source": "byte:131188"
+        },
+        {
+          "id": "spana:2ac52a30213c9288:131294",
+          "name": "Fe(OH)3(s)",
+          "phase": "solid",
+          "logK": -3.43,
+          "terms": [
+            {
+              "name": "Fe 3+",
+              "coefficient": 1
+            },
+            {
+              "name": "H+",
+              "coefficient": -3
+            },
+            {
+              "name": "H2O",
+              "coefficient": 3
+            }
+          ],
+          "directBasisCompatible": false,
+          "source": "byte:131294"
+        },
+        {
+          "id": "spana:2ac52a30213c9288:131406",
+          "name": "Fe(OH)3-",
+          "phase": "aqueous",
+          "logK": -34.2,
+          "terms": [
+            {
+              "name": "Fe 2+",
+              "coefficient": 1
+            },
+            {
+              "name": "H+",
+              "coefficient": -3
+            },
+            {
+              "name": "H2O",
+              "coefficient": 3
+            }
+          ],
+          "directBasisCompatible": true,
+          "source": "byte:131406"
+        },
+        {
+          "id": "spana:2ac52a30213c9288:131496",
+          "name": "Fe(OH)4-",
+          "phase": "aqueous",
+          "logK": -21.6,
+          "terms": [
+            {
+              "name": "Fe 3+",
+              "coefficient": 1
+            },
+            {
+              "name": "H+",
+              "coefficient": -4
+            },
+            {
+              "name": "H2O",
+              "coefficient": 4
+            }
+          ],
+          "directBasisCompatible": false,
+          "source": "byte:131496"
+        },
+        {
+          "id": "spana:2ac52a30213c9288:131586",
+          "name": "Fe(OH)4-2",
+          "phase": "aqueous",
+          "logK": -46,
+          "terms": [
+            {
+              "name": "Fe 2+",
+              "coefficient": 1
+            },
+            {
+              "name": "H+",
+              "coefficient": -4
+            },
+            {
+              "name": "H2O",
+              "coefficient": 4
+            }
+          ],
+          "directBasisCompatible": true,
+          "source": "byte:131586"
+        },
+        {
+          "id": "spana:2ac52a30213c9288:132744",
+          "name": "Fe0.932O(cr)",
+          "phase": "solid",
+          "logK": -13.507,
+          "terms": [
+            {
+              "name": "Fe 2+",
+              "coefficient": 0.932
+            },
+            {
+              "name": "H+",
+              "coefficient": -2
+            },
+            {
+              "name": "e-",
+              "coefficient": -0.136
+            },
+            {
+              "name": "H2O",
+              "coefficient": 1
+            }
+          ],
+          "directBasisCompatible": true,
+          "source": "byte:132744"
+        },
+        {
+          "id": "spana:2ac52a30213c9288:133463",
+          "name": "Fe2(OH)2+4",
+          "phase": "aqueous",
+          "logK": -2.82,
+          "terms": [
+            {
+              "name": "Fe 3+",
+              "coefficient": 2
+            },
+            {
+              "name": "H+",
+              "coefficient": -2
+            },
+            {
+              "name": "H2O",
+              "coefficient": 2
+            }
+          ],
+          "directBasisCompatible": false,
+          "source": "byte:133463"
+        },
+        {
+          "id": "spana:2ac52a30213c9288:133739",
+          "name": "Fe2O3(cr)",
+          "phase": "solid",
+          "logK": 0.101,
+          "terms": [
+            {
+              "name": "Fe 3+",
+              "coefficient": 2
+            },
+            {
+              "name": "H+",
+              "coefficient": -6
+            },
+            {
+              "name": "H2O",
+              "coefficient": 3
+            }
+          ],
+          "directBasisCompatible": false,
+          "source": "byte:133739"
+        },
+        {
+          "id": "spana:2ac52a30213c9288:134486",
+          "name": "Fe3O4(cr)",
+          "phase": "solid",
+          "logK": 2.712,
+          "terms": [
+            {
+              "name": "Fe 3+",
+              "coefficient": 3
+            },
+            {
+              "name": "H+",
+              "coefficient": -8
+            },
+            {
+              "name": "e-",
+              "coefficient": 1
+            },
+            {
+              "name": "H2O",
+              "coefficient": 4
+            }
+          ],
+          "directBasisCompatible": false,
+          "source": "byte:134486"
+        },
+        {
+          "id": "spana:2ac52a30213c9288:138672",
+          "name": "FeO4-2",
+          "phase": "aqueous",
+          "logK": -112.6,
+          "terms": [
+            {
+              "name": "Fe 3+",
+              "coefficient": 1
+            },
+            {
+              "name": "H+",
+              "coefficient": -8
+            },
+            {
+              "name": "e-",
+              "coefficient": -3
+            },
+            {
+              "name": "H2O",
+              "coefficient": 4
+            }
+          ],
+          "directBasisCompatible": false,
+          "source": "byte:138672"
+        },
+        {
+          "id": "spana:2ac52a30213c9288:138873",
+          "name": "FeOH 2+",
+          "phase": "aqueous",
+          "logK": -2.15,
+          "terms": [
+            {
+              "name": "Fe 3+",
+              "coefficient": 1
+            },
+            {
+              "name": "H+",
+              "coefficient": -1
+            },
+            {
+              "name": "H2O",
+              "coefficient": 1
+            }
+          ],
+          "directBasisCompatible": false,
+          "source": "byte:138873"
+        },
+        {
+          "id": "spana:2ac52a30213c9288:138969",
+          "name": "FeOH+",
+          "phase": "aqueous",
+          "logK": -9.1,
+          "terms": [
+            {
+              "name": "Fe 2+",
+              "coefficient": 1
+            },
+            {
+              "name": "H+",
+              "coefficient": -1
+            },
+            {
+              "name": "H2O",
+              "coefficient": 1
+            }
+          ],
+          "directBasisCompatible": true,
+          "source": "byte:138969"
+        },
+        {
+          "id": "spana:2ac52a30213c9288:139276",
+          "name": "FeOOH(cr)",
+          "phase": "solid",
+          "logK": -0.17,
+          "terms": [
+            {
+              "name": "Fe 3+",
+              "coefficient": 1
+            },
+            {
+              "name": "H+",
+              "coefficient": -3
+            },
+            {
+              "name": "H2O",
+              "coefficient": 2
+            }
+          ],
+          "directBasisCompatible": false,
+          "source": "byte:139276"
+        }
+      ]
+    },
+    {
+      "pair": [
+        "Cu+",
+        "Cu 2+"
+      ],
+      "dualBasisPreparation": {
+        "ok": false,
+        "diagnostics": [
+          {
+            "code": "redundant-basis",
+            "message": "Selected component Cu 2+ is also a direct reaction product of this basis. Remove the dependent choice; no substitution will be performed.",
+            "path": null
+          },
+          {
+            "code": "redundant-basis",
+            "message": "Selected component Cu+ is also a direct reaction product of this basis. Remove the dependent choice; no substitution will be performed.",
+            "path": null
+          }
+        ]
+      },
+      "automaticSolids": false,
+      "candidateAudit": [
+        {
+          "id": "spana:2ac52a30213c9288:97858",
+          "name": "Cu 2+",
+          "phase": "aqueous",
+          "logK": -2.833,
+          "terms": [
+            {
+              "name": "Cu+",
+              "coefficient": 1
+            },
+            {
+              "name": "e-",
+              "coefficient": -1
+            }
+          ],
+          "directBasisCompatible": true,
+          "source": "byte:97858"
+        },
+        {
+          "id": "spana:2ac52a30213c9288:98874",
+          "name": "Cu(cr)",
+          "phase": "solid",
+          "logK": 8.562,
+          "terms": [
+            {
+              "name": "Cu+",
+              "coefficient": 1
+            },
+            {
+              "name": "e-",
+              "coefficient": 1
+            }
+          ],
+          "directBasisCompatible": true,
+          "source": "byte:98874"
+        },
+        {
+          "id": "spana:2ac52a30213c9288:102305",
+          "name": "Cu(OH)2",
+          "phase": "aqueous",
+          "logK": -16.24,
+          "terms": [
+            {
+              "name": "Cu 2+",
+              "coefficient": 1
+            },
+            {
+              "name": "H+",
+              "coefficient": -2
+            },
+            {
+              "name": "H2O",
+              "coefficient": 2
+            }
+          ],
+          "directBasisCompatible": false,
+          "source": "byte:102305"
+        },
+        {
+          "id": "spana:2ac52a30213c9288:102394",
+          "name": "Cu(OH)2(cr)",
+          "phase": "solid",
+          "logK": -8.641,
+          "terms": [
+            {
+              "name": "Cu 2+",
+              "coefficient": 1
+            },
+            {
+              "name": "H+",
+              "coefficient": -2
+            },
+            {
+              "name": "H2O",
+              "coefficient": 2
+            }
+          ],
+          "directBasisCompatible": false,
+          "source": "byte:102394"
+        },
+        {
+          "id": "spana:2ac52a30213c9288:102484",
+          "name": "Cu(OH)2-",
+          "phase": "aqueous",
+          "logK": -16.181,
+          "terms": [
+            {
+              "name": "Cu+",
+              "coefficient": 1
+            },
+            {
+              "name": "H+",
+              "coefficient": -2
+            },
+            {
+              "name": "H2O",
+              "coefficient": 2
+            }
+          ],
+          "directBasisCompatible": true,
+          "source": "byte:102484"
+        },
+        {
+          "id": "spana:2ac52a30213c9288:102572",
+          "name": "Cu(OH)3-",
+          "phase": "aqueous",
+          "logK": -26.7,
+          "terms": [
+            {
+              "name": "Cu 2+",
+              "coefficient": 1
+            },
+            {
+              "name": "H+",
+              "coefficient": -3
+            },
+            {
+              "name": "H2O",
+              "coefficient": 3
+            }
+          ],
+          "directBasisCompatible": false,
+          "source": "byte:102572"
+        },
+        {
+          "id": "spana:2ac52a30213c9288:102662",
+          "name": "Cu(OH)4-2",
+          "phase": "aqueous",
+          "logK": -39.6,
+          "terms": [
+            {
+              "name": "Cu 2+",
+              "coefficient": 1
+            },
+            {
+              "name": "H+",
+              "coefficient": -4
+            },
+            {
+              "name": "H2O",
+              "coefficient": 4
+            }
+          ],
+          "directBasisCompatible": false,
+          "source": "byte:102662"
+        },
+        {
+          "id": "spana:2ac52a30213c9288:103398",
+          "name": "Cu+",
+          "phase": "aqueous",
+          "logK": 2.833,
+          "terms": [
+            {
+              "name": "Cu 2+",
+              "coefficient": 1
+            },
+            {
+              "name": "e-",
+              "coefficient": 1
+            }
+          ],
+          "directBasisCompatible": true,
+          "source": "byte:103398"
+        },
+        {
+          "id": "spana:2ac52a30213c9288:104107",
+          "name": "Cu2(OH)2+2",
+          "phase": "aqueous",
+          "logK": -10.354,
+          "terms": [
+            {
+              "name": "Cu 2+",
+              "coefficient": 2
+            },
+            {
+              "name": "H+",
+              "coefficient": -2
+            },
+            {
+              "name": "H2O",
+              "coefficient": 2
+            }
+          ],
+          "directBasisCompatible": false,
+          "source": "byte:104107"
+        },
+        {
+          "id": "spana:2ac52a30213c9288:104641",
+          "name": "Cu2O(cr)",
+          "phase": "solid",
+          "logK": 1.489,
+          "terms": [
+            {
+              "name": "Cu+",
+              "coefficient": 2
+            },
+            {
+              "name": "H+",
+              "coefficient": -2
+            },
+            {
+              "name": "H2O",
+              "coefficient": 1
+            }
+          ],
+          "directBasisCompatible": true,
+          "source": "byte:104641"
+        },
+        {
+          "id": "spana:2ac52a30213c9288:105296",
+          "name": "Cu3(OH)4+2",
+          "phase": "aqueous",
+          "logK": -21.1,
+          "terms": [
+            {
+              "name": "Cu 2+",
+              "coefficient": 3
+            },
+            {
+              "name": "H+",
+              "coefficient": -4
+            },
+            {
+              "name": "H2O",
+              "coefficient": 4
+            }
+          ],
+          "directBasisCompatible": false,
+          "source": "byte:105296"
+        },
+        {
+          "id": "spana:2ac52a30213c9288:110778",
+          "name": "CuO(cr)",
+          "phase": "solid",
+          "logK": -7.675,
+          "terms": [
+            {
+              "name": "Cu 2+",
+              "coefficient": 1
+            },
+            {
+              "name": "H+",
+              "coefficient": -2
+            },
+            {
+              "name": "H2O",
+              "coefficient": 1
+            }
+          ],
+          "directBasisCompatible": false,
+          "source": "byte:110778"
+        },
+        {
+          "id": "spana:2ac52a30213c9288:110864",
+          "name": "CuOH",
+          "phase": "aqueous",
+          "logK": -11.554,
+          "terms": [
+            {
+              "name": "Cu+",
+              "coefficient": 1
+            },
+            {
+              "name": "H+",
+              "coefficient": -1
+            },
+            {
+              "name": "H2O",
+              "coefficient": 1
+            }
+          ],
+          "directBasisCompatible": true,
+          "source": "byte:110864"
+        },
+        {
+          "id": "spana:2ac52a30213c9288:110948",
+          "name": "CuOH+",
+          "phase": "aqueous",
+          "logK": -7.961,
+          "terms": [
+            {
+              "name": "Cu 2+",
+              "coefficient": 1
+            },
+            {
+              "name": "H+",
+              "coefficient": -1
+            },
+            {
+              "name": "H2O",
+              "coefficient": 1
+            }
+          ],
+          "directBasisCompatible": false,
+          "source": "byte:110948"
+        }
+      ]
+    },
+    {
+      "pair": [
+        "Mn 2+",
+        "Mn 3+"
+      ],
+      "dualBasisPreparation": {
+        "ok": false,
+        "diagnostics": [
+          {
+            "code": "redundant-basis",
+            "message": "Selected component Mn 2+ is also a direct reaction product of this basis. Remove the dependent choice; no substitution will be performed.",
+            "path": null
+          },
+          {
+            "code": "redundant-basis",
+            "message": "Selected component Mn 3+ is also a direct reaction product of this basis. Remove the dependent choice; no substitution will be performed.",
+            "path": null
+          }
+        ]
+      },
+      "automaticSolids": false,
+      "candidateAudit": [
+        {
+          "id": "spana:2ac52a30213c9288:11394",
+          "name": "a-MnOOH(s)",
+          "phase": "solid",
+          "logK": 0.07,
+          "terms": [
+            {
+              "name": "Mn 3+",
+              "coefficient": 1
+            },
+            {
+              "name": "H+",
+              "coefficient": -3
+            },
+            {
+              "name": "H2O",
+              "coefficient": 2
+            }
+          ],
+          "directBasisCompatible": false,
+          "source": "byte:11394"
+        },
+        {
+          "id": "spana:2ac52a30213c9288:207128",
+          "name": "Mn 2+",
+          "phase": "aqueous",
+          "logK": 25.42,
+          "terms": [
+            {
+              "name": "Mn 3+",
+              "coefficient": 1
+            },
+            {
+              "name": "e-",
+              "coefficient": 1
+            }
+          ],
+          "directBasisCompatible": true,
+          "source": "byte:207128"
+        },
+        {
+          "id": "spana:2ac52a30213c9288:207202",
+          "name": "Mn 3+",
+          "phase": "aqueous",
+          "logK": -25.42,
+          "terms": [
+            {
+              "name": "Mn 2+",
+              "coefficient": 1
+            },
+            {
+              "name": "e-",
+              "coefficient": -1
+            }
+          ],
+          "directBasisCompatible": true,
+          "source": "byte:207202"
+        },
+        {
+          "id": "spana:2ac52a30213c9288:207519",
+          "name": "Mn(cr)",
+          "phase": "solid",
+          "logK": -39.96,
+          "terms": [
+            {
+              "name": "Mn 2+",
+              "coefficient": 1
+            },
+            {
+              "name": "e-",
+              "coefficient": 2
+            }
+          ],
+          "directBasisCompatible": true,
+          "source": "byte:207519"
+        },
+        {
+          "id": "spana:2ac52a30213c9288:209137",
+          "name": "Mn(OH)2",
+          "phase": "aqueous",
+          "logK": -22.2,
+          "terms": [
+            {
+              "name": "Mn 2+",
+              "coefficient": 1
+            },
+            {
+              "name": "H+",
+              "coefficient": -2
+            },
+            {
+              "name": "H2O",
+              "coefficient": 2
+            }
+          ],
+          "directBasisCompatible": true,
+          "source": "byte:209137"
+        },
+        {
+          "id": "spana:2ac52a30213c9288:209226",
+          "name": "Mn(OH)2(am)",
+          "phase": "solid",
+          "logK": -15.2,
+          "terms": [
+            {
+              "name": "Mn 2+",
+              "coefficient": 1
+            },
+            {
+              "name": "H+",
+              "coefficient": -2
+            },
+            {
+              "name": "H2O",
+              "coefficient": 2
+            }
+          ],
+          "directBasisCompatible": true,
+          "source": "byte:209226"
+        },
+        {
+          "id": "spana:2ac52a30213c9288:209319",
+          "name": "Mn(OH)2+",
+          "phase": "aqueous",
+          "logK": 0.84,
+          "terms": [
+            {
+              "name": "Mn 3+",
+              "coefficient": 1
+            },
+            {
+              "name": "H+",
+              "coefficient": -2
+            },
+            {
+              "name": "H2O",
+              "coefficient": 2
+            }
+          ],
+          "directBasisCompatible": false,
+          "source": "byte:209319"
+        },
+        {
+          "id": "spana:2ac52a30213c9288:209409",
+          "name": "Mn(OH)3-",
+          "phase": "aqueous",
+          "logK": -34.8,
+          "terms": [
+            {
+              "name": "Mn 2+",
+              "coefficient": 1
+            },
+            {
+              "name": "H+",
+              "coefficient": -3
+            },
+            {
+              "name": "H2O",
+              "coefficient": 3
+            }
+          ],
+          "directBasisCompatible": true,
+          "source": "byte:209409"
+        },
+        {
+          "id": "spana:2ac52a30213c9288:209499",
+          "name": "Mn(OH)4-2",
+          "phase": "aqueous",
+          "logK": -48.3,
+          "terms": [
+            {
+              "name": "Mn 2+",
+              "coefficient": 1
+            },
+            {
+              "name": "H+",
+              "coefficient": -4
+            },
+            {
+              "name": "H2O",
+              "coefficient": 4
+            }
+          ],
+          "directBasisCompatible": true,
+          "source": "byte:209499"
+        },
+        {
+          "id": "spana:2ac52a30213c9288:210106",
+          "name": "Mn2(OH)3+",
+          "phase": "aqueous",
+          "logK": -23.9,
+          "terms": [
+            {
+              "name": "Mn 2+",
+              "coefficient": 2
+            },
+            {
+              "name": "H+",
+              "coefficient": -3
+            },
+            {
+              "name": "H2O",
+              "coefficient": 3
+            }
+          ],
+          "directBasisCompatible": true,
+          "source": "byte:210106"
+        },
+        {
+          "id": "spana:2ac52a30213c9288:210197",
+          "name": "Mn2O3(cr)",
+          "phase": "solid",
+          "logK": 0.65,
+          "terms": [
+            {
+              "name": "Mn 3+",
+              "coefficient": 2
+            },
+            {
+              "name": "H+",
+              "coefficient": -6
+            },
+            {
+              "name": "H2O",
+              "coefficient": 3
+            }
+          ],
+          "directBasisCompatible": false,
+          "source": "byte:210197"
+        },
+        {
+          "id": "spana:2ac52a30213c9288:210288",
+          "name": "Mn2OH+3",
+          "phase": "aqueous",
+          "logK": -10.56,
+          "terms": [
+            {
+              "name": "Mn 2+",
+              "coefficient": 2
+            },
+            {
+              "name": "H+",
+              "coefficient": -1
+            },
+            {
+              "name": "H2O",
+              "coefficient": 1
+            }
+          ],
+          "directBasisCompatible": true,
+          "source": "byte:210288"
+        },
+        {
+          "id": "spana:2ac52a30213c9288:210463",
+          "name": "Mn3O4(s)",
+          "phase": "solid",
+          "logK": -61.26,
+          "terms": [
+            {
+              "name": "Mn 2+",
+              "coefficient": 3
+            },
+            {
+              "name": "H+",
+              "coefficient": -8
+            },
+            {
+              "name": "e-",
+              "coefficient": -2
+            },
+            {
+              "name": "H2O",
+              "coefficient": 4
+            }
+          ],
+          "directBasisCompatible": true,
+          "source": "byte:210463"
+        },
+        {
+          "id": "spana:2ac52a30213c9288:212626",
+          "name": "MnO(cr)",
+          "phase": "solid",
+          "logK": -17.93,
+          "terms": [
+            {
+              "name": "Mn 2+",
+              "coefficient": 1
+            },
+            {
+              "name": "H+",
+              "coefficient": -2
+            },
+            {
+              "name": "H2O",
+              "coefficient": 1
+            }
+          ],
+          "directBasisCompatible": true,
+          "source": "byte:212626"
+        },
+        {
+          "id": "spana:2ac52a30213c9288:212715",
+          "name": "MnO2(s)",
+          "phase": "solid",
+          "logK": -41.56,
+          "terms": [
+            {
+              "name": "Mn 2+",
+              "coefficient": 1
+            },
+            {
+              "name": "H+",
+              "coefficient": -4
+            },
+            {
+              "name": "e-",
+              "coefficient": -2
+            },
+            {
+              "name": "H2O",
+              "coefficient": 2
+            }
+          ],
+          "directBasisCompatible": true,
+          "source": "byte:212715"
+        },
+        {
+          "id": "spana:2ac52a30213c9288:212826",
+          "name": "MnO4 2-",
+          "phase": "aqueous",
+          "logK": -118.4,
+          "terms": [
+            {
+              "name": "Mn 2+",
+              "coefficient": 1
+            },
+            {
+              "name": "H+",
+              "coefficient": -8
+            },
+            {
+              "name": "e-",
+              "coefficient": -4
+            },
+            {
+              "name": "H2O",
+              "coefficient": 4
+            }
+          ],
+          "directBasisCompatible": true,
+          "source": "byte:212826"
+        },
+        {
+          "id": "spana:2ac52a30213c9288:212927",
+          "name": "MnO4-",
+          "phase": "aqueous",
+          "logK": -122.5,
+          "terms": [
+            {
+              "name": "Mn 2+",
+              "coefficient": 1
+            },
+            {
+              "name": "H+",
+              "coefficient": -8
+            },
+            {
+              "name": "e-",
+              "coefficient": -5
+            },
+            {
+              "name": "H2O",
+              "coefficient": 4
+            }
+          ],
+          "directBasisCompatible": true,
+          "source": "byte:212927"
+        },
+        {
+          "id": "spana:2ac52a30213c9288:213026",
+          "name": "MnO4-3",
+          "phase": "aqueous",
+          "logK": -113.8,
+          "terms": [
+            {
+              "name": "Mn 2+",
+              "coefficient": 1
+            },
+            {
+              "name": "H+",
+              "coefficient": -8
+            },
+            {
+              "name": "e-",
+              "coefficient": -3
+            },
+            {
+              "name": "H2O",
+              "coefficient": 4
+            }
+          ],
+          "directBasisCompatible": true,
+          "source": "byte:213026"
+        },
+        {
+          "id": "spana:2ac52a30213c9288:213126",
+          "name": "MnOH+",
+          "phase": "aqueous",
+          "logK": -10.59,
+          "terms": [
+            {
+              "name": "Mn 2+",
+              "coefficient": 1
+            },
+            {
+              "name": "H+",
+              "coefficient": -1
+            },
+            {
+              "name": "H2O",
+              "coefficient": 1
+            }
+          ],
+          "directBasisCompatible": true,
+          "source": "byte:213126"
+        },
+        {
+          "id": "spana:2ac52a30213c9288:213213",
+          "name": "MnOH+2",
+          "phase": "aqueous",
+          "logK": 1.24,
+          "terms": [
+            {
+              "name": "Mn 3+",
+              "coefficient": 1
+            },
+            {
+              "name": "H+",
+              "coefficient": -1
+            },
+            {
+              "name": "H2O",
+              "coefficient": 1
+            }
+          ],
+          "directBasisCompatible": false,
+          "source": "byte:213213"
+        }
+      ]
+    }
+  ],
+  "waterReferences": [
+    {
+      "name": "H2(g)",
+      "logK": 0,
+      "terms": [
+        {
+          "name": "H+",
+          "coefficient": 2
+        },
+        {
+          "name": "e-",
+          "coefficient": 2
+        }
+      ]
+    },
+    {
+      "name": "O2(g)",
+      "logK": -83.09,
+      "terms": [
+        {
+          "name": "H+",
+          "coefficient": -4
+        },
+        {
+          "name": "e-",
+          "coefficient": -4
+        },
+        {
+          "name": "H2O",
+          "coefficient": 2
+        }
+      ]
+    }
+  ],
+  "protectedFiles": {
+    "count": 173,
+    "changed": []
+  },
+  "productionChanges": [],
+  "deployed": false
+}

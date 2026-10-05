@@ -1,0 +1,674 @@
+{
+  "summary": {
+    "points": 2565,
+    "flags": {
+      "0": 2565
+    },
+    "counts": {
+      "0": 1179,
+      "1": 156,
+      "2": 1230
+    },
+    "classificationDisagreements": [],
+    "solidAssemblageDisagreements": [],
+    "maximumSpeciesConcentrationDifference": 1.9056411722055688e-14,
+    "maximumWeightedFractionDifference": 1.9056411722055688e-10,
+    "maximumOxidationFractionDifference": 1.9056400901718007e-10,
+    "maximumReferenceClosureResidual": 1.905643882711e-14,
+    "maximumAdamClosureResidual": 1.974603206639225e-17,
+    "minimumClassificationMargin": 0.029532198831962342,
+    "tolerance": {
+      "officialRelative": 1e-10,
+      "adamBalance": "unchanged componentBalanceTolerance",
+      "classificationTie": 1e-8
+    },
+    "matching": "Identical pH and pe; source thermodynamics independently transformed into Cu2+/H+/e-/H2O by the pinned Cu+ bridge."
+  },
+  "library": {
+    "revision": "c94b0d8f33fd89eaadcec5a9f3fbf296b6b0e3f7",
+    "library": [
+      {
+        "path": "lib/Version.java",
+        "sha256": "7f5c56444478ec303e1cc23f5010b6b45da4f797fa18be10429af73bd77e890b",
+        "actual": "7f5c56444478ec303e1cc23f5010b6b45da4f797fa18be10429af73bd77e890b"
+      },
+      {
+        "path": "lib/common/ClassLocator.java",
+        "sha256": "5aee9720b7231c75eee14153bccd31ab4c70c6ed628469e8a620999ae482eff2",
+        "actual": "5aee9720b7231c75eee14153bccd31ab4c70c6ed628469e8a620999ae482eff2"
+      },
+      {
+        "path": "lib/common/MsgExceptn.java",
+        "sha256": "967a27ae7f424d29067d2f2545b851967d9247ee2b1051a540b50d0088cba9eb",
+        "actual": "967a27ae7f424d29067d2f2545b851967d9247ee2b1051a540b50d0088cba9eb"
+      },
+      {
+        "path": "lib/common/Util.java",
+        "sha256": "f366b1de8ad2ca852ce92c0d3ee495ba0f75b6483ff12828244bb1ac0bb4cc55",
+        "actual": "f366b1de8ad2ca852ce92c0d3ee495ba0f75b6483ff12828244bb1ac0bb4cc55"
+      },
+      {
+        "path": "lib/huvud/Div.java",
+        "sha256": "71f3fe9a7c1f895030735b81bb2e13d3a23e978c34a66a7ac50b7e75be3e7832",
+        "actual": "71f3fe9a7c1f895030735b81bb2e13d3a23e978c34a66a7ac50b7e75be3e7832"
+      },
+      {
+        "path": "lib/huvud/JarClassLoader.java",
+        "sha256": "15e60e6c035a0c694114ad9efd41ff656b6e96c6741ce60ac2f7bc3c0b3f8e97",
+        "actual": "15e60e6c035a0c694114ad9efd41ff656b6e96c6741ce60ac2f7bc3c0b3f8e97"
+      },
+      {
+        "path": "lib/huvud/LicenseFrame.java",
+        "sha256": "86fdc59800297d150af5c0475cae53e277e383cb058ebd74970a0fbcf19a391d",
+        "actual": "86fdc59800297d150af5c0475cae53e277e383cb058ebd74970a0fbcf19a391d"
+      },
+      {
+        "path": "lib/huvud/ProgramConf.java",
+        "sha256": "472d8b4a1efea265bafee8a66ce99d3481c64b74a63b6e02033a1e5c24b48710",
+        "actual": "472d8b4a1efea265bafee8a66ce99d3481c64b74a63b6e02033a1e5c24b48710"
+      },
+      {
+        "path": "lib/huvud/RedirectedFrame.java",
+        "sha256": "be4adffbd5bf49955694729436c513765042abd15730129b82b3d02fce6fc555",
+        "actual": "be4adffbd5bf49955694729436c513765042abd15730129b82b3d02fce6fc555"
+      },
+      {
+        "path": "lib/huvud/RunJar.java",
+        "sha256": "fb925c606f03d96c115832b6c0bac837b94ee071f271f570485268cc6887a277",
+        "actual": "fb925c606f03d96c115832b6c0bac837b94ee071f271f570485268cc6887a277"
+      },
+      {
+        "path": "lib/huvud/RunProgr.java",
+        "sha256": "08b10cdd1b278dd105fab5a764093a7ef8052402ca04555e0d9a1ee4abb45fc1",
+        "actual": "08b10cdd1b278dd105fab5a764093a7ef8052402ca04555e0d9a1ee4abb45fc1"
+      },
+      {
+        "path": "lib/huvud/SortedListModel.java",
+        "sha256": "ad7d72c6308d3800495ebc38199453245b61936dfc3e3532e905f54041471c90",
+        "actual": "ad7d72c6308d3800495ebc38199453245b61936dfc3e3532e905f54041471c90"
+      },
+      {
+        "path": "lib/huvud/SortedProperties.java",
+        "sha256": "91a0ebeac617e8517007ffc79e54bb23b52392f40dae94efbfd3cf0c8ace2e51",
+        "actual": "91a0ebeac617e8517007ffc79e54bb23b52392f40dae94efbfd3cf0c8ace2e51"
+      },
+      {
+        "path": "lib/huvud/Splash.java",
+        "sha256": "1b1bf56ccf48c87e1a81b5f986803cb1e70f2f19036648de3a7fe6b434084843",
+        "actual": "1b1bf56ccf48c87e1a81b5f986803cb1e70f2f19036648de3a7fe6b434084843"
+      },
+      {
+        "path": "lib/kemi/chem/Chem.java",
+        "sha256": "275b1391f2ea0e2e7bf504e8daccba0dbab5e7472c7f69c508e3a604041632aa",
+        "actual": "275b1391f2ea0e2e7bf504e8daccba0dbab5e7472c7f69c508e3a604041632aa"
+      },
+      {
+        "path": "lib/kemi/graph_lib/DiagrPaintUtility.java",
+        "sha256": "8d5f42295e67329ac6057044ee6c450a54767ffab3e644965625d1e9bc18166d",
+        "actual": "8d5f42295e67329ac6057044ee6c450a54767ffab3e644965625d1e9bc18166d"
+      },
+      {
+        "path": "lib/kemi/graph_lib/GraphLib.java",
+        "sha256": "16af715fc632a8f324ab8516f9c0790d968e28d3c32476363bcae9b7e8c08f6a",
+        "actual": "16af715fc632a8f324ab8516f9c0790d968e28d3c32476363bcae9b7e8c08f6a"
+      },
+      {
+        "path": "lib/kemi/H2O/Dielectric.java",
+        "sha256": "f1a413f2aacbbb7813fd988d749b29e3e137b9fd889c1787e09e3aaea4a0ea52",
+        "actual": "f1a413f2aacbbb7813fd988d749b29e3e137b9fd889c1787e09e3aaea4a0ea52"
+      },
+      {
+        "path": "lib/kemi/H2O/IAPWSF95.java",
+        "sha256": "266322db2899f2af725bd704e2d584c58fe3d10612248a562cb431c0a34ae457",
+        "actual": "266322db2899f2af725bd704e2d584c58fe3d10612248a562cb431c0a34ae457"
+      },
+      {
+        "path": "lib/kemi/haltaFall/Factor.java",
+        "sha256": "947dd8c180fe1d835680c6e648541daf5b47fe58dae2263dfd2f70d1c54412da",
+        "actual": "947dd8c180fe1d835680c6e648541daf5b47fe58dae2263dfd2f70d1c54412da"
+      },
+      {
+        "path": "lib/kemi/haltaFall/FactorInterface.java",
+        "sha256": "c231272359f661d5e3b5c4b2047998120a264526e04f7a9638189ec0e325b006",
+        "actual": "c231272359f661d5e3b5c4b2047998120a264526e04f7a9638189ec0e325b006"
+      },
+      {
+        "path": "lib/kemi/haltaFall/HaltaFall.java",
+        "sha256": "30736dac110453a8558c51fe2f9a4b9000aee5aedea04a98d4f5370e5fb0df95",
+        "actual": "30736dac110453a8558c51fe2f9a4b9000aee5aedea04a98d4f5370e5fb0df95"
+      },
+      {
+        "path": "lib/kemi/interpolate/Interpolate.java",
+        "sha256": "2275bf1200aeb1160b4baf30c8963013b17fdc944c6fca053cdfe11dd13214d4",
+        "actual": "2275bf1200aeb1160b4baf30c8963013b17fdc944c6fca053cdfe11dd13214d4"
+      },
+      {
+        "path": "lib/kemi/readDataLib/ReadDataLib.java",
+        "sha256": "d32be4b2fa1a0feeb511efc130330a542dbb6fd272135ae4d2b92603f4c00946",
+        "actual": "d32be4b2fa1a0feeb511efc130330a542dbb6fd272135ae4d2b92603f4c00946"
+      },
+      {
+        "path": "lib/kemi/readWriteDataFiles/DefaultPlotAndConcs.java",
+        "sha256": "95158e1b73b390ca98dfd0712299103e990946201b1a2bdd65a23faa287460e5",
+        "actual": "95158e1b73b390ca98dfd0712299103e990946201b1a2bdd65a23faa287460e5"
+      },
+      {
+        "path": "lib/kemi/readWriteDataFiles/ModifyChemSyst.java",
+        "sha256": "2a42488f58be73450fcd804c538827a0459b169852fbdce9346a4697416965e2",
+        "actual": "2a42488f58be73450fcd804c538827a0459b169852fbdce9346a4697416965e2"
+      },
+      {
+        "path": "lib/kemi/readWriteDataFiles/ReadChemSyst.java",
+        "sha256": "a4aa14aaebae11d2d7c81973ab48d22f77a5ef9dc7e4df9de1136a36aa0de063",
+        "actual": "a4aa14aaebae11d2d7c81973ab48d22f77a5ef9dc7e4df9de1136a36aa0de063"
+      },
+      {
+        "path": "lib/kemi/readWriteDataFiles/WriteChemSyst.java",
+        "sha256": "d6af4373b37cb8c217888980ac5c0ea94e09300914cd5734912bb4deca86c7a5",
+        "actual": "d6af4373b37cb8c217888980ac5c0ea94e09300914cd5734912bb4deca86c7a5"
+      }
+    ]
+  },
+  "chemistry": {
+    "total": 0.0001,
+    "inventory": [
+      [
+        97858,
+        2,
+        1
+      ],
+      [
+        103398,
+        1,
+        1
+      ],
+      [
+        102305,
+        2,
+        1
+      ],
+      [
+        102484,
+        1,
+        1
+      ],
+      [
+        102572,
+        2,
+        1
+      ],
+      [
+        102662,
+        2,
+        1
+      ],
+      [
+        104107,
+        2,
+        2
+      ],
+      [
+        105296,
+        2,
+        3
+      ],
+      [
+        110864,
+        1,
+        1
+      ],
+      [
+        110948,
+        2,
+        1
+      ],
+      [
+        102394,
+        2,
+        1
+      ],
+      [
+        104641,
+        1,
+        2
+      ],
+      [
+        110778,
+        2,
+        1
+      ],
+      [
+        98874,
+        0,
+        1
+      ]
+    ],
+    "transformed": [
+      {
+        "id": "spana:2ac52a30213c9288:103398",
+        "name": "Cu+",
+        "phase": "aqueous",
+        "state": 1,
+        "count": 1,
+        "sourceLogK": 2.833,
+        "logK": 2.833,
+        "coefficients": [
+          1,
+          0,
+          1,
+          0
+        ],
+        "sourceReaction": {
+          "product": "Cu+",
+          "components": [
+            {
+              "name": "Cu 2+",
+              "coefficient": 1
+            },
+            {
+              "name": "e-",
+              "coefficient": 1
+            }
+          ]
+        },
+        "sourceCitation": "1997BP-Cu: Beverskog B, Puigdomenech I; J. Electrochem. Soc., 144 (1997) 3476-3483"
+      },
+      {
+        "id": "spana:2ac52a30213c9288:102305",
+        "name": "Cu(OH)2",
+        "phase": "aqueous",
+        "state": 2,
+        "count": 1,
+        "sourceLogK": -16.24,
+        "logK": -16.24,
+        "coefficients": [
+          1,
+          -2,
+          0,
+          2
+        ],
+        "sourceReaction": {
+          "product": "Cu(OH)2",
+          "components": [
+            {
+              "name": "Cu 2+",
+              "coefficient": 1
+            },
+            {
+              "name": "H+",
+              "coefficient": -2
+            },
+            {
+              "name": "H2O",
+              "coefficient": 2
+            }
+          ]
+        },
+        "sourceCitation": "1997BP-Cu: Beverskog B, Puigdomenech I; J. Electrochem. Soc., 144 (1997) 3476-3483"
+      },
+      {
+        "id": "spana:2ac52a30213c9288:102484",
+        "name": "Cu(OH)2-",
+        "phase": "aqueous",
+        "state": 1,
+        "count": 1,
+        "sourceLogK": -16.181,
+        "logK": -13.348,
+        "coefficients": [
+          1,
+          -2,
+          1,
+          2
+        ],
+        "sourceReaction": {
+          "product": "Cu(OH)2-",
+          "components": [
+            {
+              "name": "Cu+",
+              "coefficient": 1
+            },
+            {
+              "name": "H+",
+              "coefficient": -2
+            },
+            {
+              "name": "H2O",
+              "coefficient": 2
+            }
+          ]
+        },
+        "sourceCitation": "1997BP-Cu: Beverskog B, Puigdomenech I; J. Electrochem. Soc., 144 (1997) 3476-3483"
+      },
+      {
+        "id": "spana:2ac52a30213c9288:102572",
+        "name": "Cu(OH)3-",
+        "phase": "aqueous",
+        "state": 2,
+        "count": 1,
+        "sourceLogK": -26.7,
+        "logK": -26.7,
+        "coefficients": [
+          1,
+          -3,
+          0,
+          3
+        ],
+        "sourceReaction": {
+          "product": "Cu(OH)3-",
+          "components": [
+            {
+              "name": "Cu 2+",
+              "coefficient": 1
+            },
+            {
+              "name": "H+",
+              "coefficient": -3
+            },
+            {
+              "name": "H2O",
+              "coefficient": 3
+            }
+          ]
+        },
+        "sourceCitation": "1997BP-Cu: Beverskog B, Puigdomenech I; J. Electrochem. Soc., 144 (1997) 3476-3483"
+      },
+      {
+        "id": "spana:2ac52a30213c9288:102662",
+        "name": "Cu(OH)4-2",
+        "phase": "aqueous",
+        "state": 2,
+        "count": 1,
+        "sourceLogK": -39.6,
+        "logK": -39.6,
+        "coefficients": [
+          1,
+          -4,
+          0,
+          4
+        ],
+        "sourceReaction": {
+          "product": "Cu(OH)4-2",
+          "components": [
+            {
+              "name": "Cu 2+",
+              "coefficient": 1
+            },
+            {
+              "name": "H+",
+              "coefficient": -4
+            },
+            {
+              "name": "H2O",
+              "coefficient": 4
+            }
+          ]
+        },
+        "sourceCitation": "1997BP-Cu: Beverskog B, Puigdomenech I; J. Electrochem. Soc., 144 (1997) 3476-3483"
+      },
+      {
+        "id": "spana:2ac52a30213c9288:104107",
+        "name": "Cu2(OH)2+2",
+        "phase": "aqueous",
+        "state": 2,
+        "count": 2,
+        "sourceLogK": -10.354,
+        "logK": -10.354,
+        "coefficients": [
+          2,
+          -2,
+          0,
+          2
+        ],
+        "sourceReaction": {
+          "product": "Cu2(OH)2+2",
+          "components": [
+            {
+              "name": "Cu 2+",
+              "coefficient": 2
+            },
+            {
+              "name": "H+",
+              "coefficient": -2
+            },
+            {
+              "name": "H2O",
+              "coefficient": 2
+            }
+          ]
+        },
+        "sourceCitation": "1997BP-Cu: Beverskog B, Puigdomenech I; J. Electrochem. Soc., 144 (1997) 3476-3483"
+      },
+      {
+        "id": "spana:2ac52a30213c9288:105296",
+        "name": "Cu3(OH)4+2",
+        "phase": "aqueous",
+        "state": 2,
+        "count": 3,
+        "sourceLogK": -21.1,
+        "logK": -21.1,
+        "coefficients": [
+          3,
+          -4,
+          0,
+          4
+        ],
+        "sourceReaction": {
+          "product": "Cu3(OH)4+2",
+          "components": [
+            {
+              "name": "Cu 2+",
+              "coefficient": 3
+            },
+            {
+              "name": "H+",
+              "coefficient": -4
+            },
+            {
+              "name": "H2O",
+              "coefficient": 4
+            }
+          ]
+        },
+        "sourceCitation": "1997BP-Cu: Beverskog B, Puigdomenech I; J. Electrochem. Soc., 144 (1997) 3476-3483"
+      },
+      {
+        "id": "spana:2ac52a30213c9288:110864",
+        "name": "CuOH",
+        "phase": "aqueous",
+        "state": 1,
+        "count": 1,
+        "sourceLogK": -11.554,
+        "logK": -8.721,
+        "coefficients": [
+          1,
+          -1,
+          1,
+          1
+        ],
+        "sourceReaction": {
+          "product": "CuOH",
+          "components": [
+            {
+              "name": "Cu+",
+              "coefficient": 1
+            },
+            {
+              "name": "H+",
+              "coefficient": -1
+            },
+            {
+              "name": "H2O",
+              "coefficient": 1
+            }
+          ]
+        },
+        "sourceCitation": "1997BP-Cu: Beverskog B, Puigdomenech I; J. Electrochem. Soc., 144 (1997) 3476-3483"
+      },
+      {
+        "id": "spana:2ac52a30213c9288:110948",
+        "name": "CuOH+",
+        "phase": "aqueous",
+        "state": 2,
+        "count": 1,
+        "sourceLogK": -7.961,
+        "logK": -7.961,
+        "coefficients": [
+          1,
+          -1,
+          0,
+          1
+        ],
+        "sourceReaction": {
+          "product": "CuOH+",
+          "components": [
+            {
+              "name": "Cu 2+",
+              "coefficient": 1
+            },
+            {
+              "name": "H+",
+              "coefficient": -1
+            },
+            {
+              "name": "H2O",
+              "coefficient": 1
+            }
+          ]
+        },
+        "sourceCitation": "1997BP-Cu: Beverskog B, Puigdomenech I; J. Electrochem. Soc., 144 (1997) 3476-3483"
+      },
+      {
+        "id": "spana:2ac52a30213c9288:102394",
+        "name": "Cu(OH)2(cr)",
+        "phase": "solid",
+        "state": 2,
+        "count": 1,
+        "sourceLogK": -8.641,
+        "logK": -8.641,
+        "coefficients": [
+          1,
+          -2,
+          0,
+          2
+        ],
+        "sourceReaction": {
+          "product": "Cu(OH)2(cr)",
+          "components": [
+            {
+              "name": "Cu 2+",
+              "coefficient": 1
+            },
+            {
+              "name": "H+",
+              "coefficient": -2
+            },
+            {
+              "name": "H2O",
+              "coefficient": 2
+            }
+          ]
+        },
+        "sourceCitation": "2000PT: Puigdomenech I, Taxén C; Thermodynamic data for copper. Implications for the corrosion of copper under repository conditions. Report SKB-TR-00-13. Stockholm, Sweden: Swedish Nuclear Fuel and Waste Management Co. (SKB), 2000"
+      },
+      {
+        "id": "spana:2ac52a30213c9288:104641",
+        "name": "Cu2O(cr)",
+        "phase": "solid",
+        "state": 1,
+        "count": 2,
+        "sourceLogK": 1.489,
+        "logK": 7.155,
+        "coefficients": [
+          2,
+          -2,
+          2,
+          1
+        ],
+        "sourceReaction": {
+          "product": "Cu2O(cr)",
+          "components": [
+            {
+              "name": "Cu+",
+              "coefficient": 2
+            },
+            {
+              "name": "H+",
+              "coefficient": -2
+            },
+            {
+              "name": "H2O",
+              "coefficient": 1
+            }
+          ]
+        },
+        "sourceCitation": "2000PT: Puigdomenech I, Taxén C; Thermodynamic data for copper. Implications for the corrosion of copper under repository conditions. Report SKB-TR-00-13. Stockholm, Sweden: Swedish Nuclear Fuel and Waste Management Co. (SKB), 2000"
+      },
+      {
+        "id": "spana:2ac52a30213c9288:110778",
+        "name": "CuO(cr)",
+        "phase": "solid",
+        "state": 2,
+        "count": 1,
+        "sourceLogK": -7.675,
+        "logK": -7.675,
+        "coefficients": [
+          1,
+          -2,
+          0,
+          1
+        ],
+        "sourceReaction": {
+          "product": "CuO(cr)",
+          "components": [
+            {
+              "name": "Cu 2+",
+              "coefficient": 1
+            },
+            {
+              "name": "H+",
+              "coefficient": -2
+            },
+            {
+              "name": "H2O",
+              "coefficient": 1
+            }
+          ]
+        },
+        "sourceCitation": "2000PT: Puigdomenech I, Taxén C; Thermodynamic data for copper. Implications for the corrosion of copper under repository conditions. Report SKB-TR-00-13. Stockholm, Sweden: Swedish Nuclear Fuel and Waste Management Co. (SKB), 2000"
+      },
+      {
+        "id": "spana:2ac52a30213c9288:98874",
+        "name": "Cu(cr)",
+        "phase": "solid",
+        "state": 0,
+        "count": 1,
+        "sourceLogK": 8.562,
+        "logK": 11.395,
+        "coefficients": [
+          1,
+          0,
+          2,
+          0
+        ],
+        "sourceReaction": {
+          "product": "Cu(cr)",
+          "components": [
+            {
+              "name": "Cu+",
+              "coefficient": 1
+            },
+            {
+              "name": "e-",
+              "coefficient": 1
+            }
+          ]
+        },
+        "sourceCitation": "2000PT: Puigdomenech I, Taxén C; Thermodynamic data for copper. Implications for the corrosion of copper under repository conditions. Report SKB-TR-00-13. Stockholm, Sweden: Swedish Nuclear Fuel and Waste Management Co. (SKB), 2000"
+      }
+    ]
+  },
+  "adapterSha256": "bbea915b5ce550b71ce55e7dc45808850e1d420dc4a8d0a7c6dbda18bbc8f64d",
+  "coordinatesSha256": "04305a6bf5b011c57f25452e123580b4759d0dcdb58771051cbf11f0fc5e0c78",
+  "datSha256": "16ac49cbd29e9d21de96daa68386d3ddf7e0db097e149952d94798203d39baa4",
+  "referenceOutputSha256": "311f54cc3b0e8e0a9476dca71b76d493fe3d6c9865b5a7a143b2e449f73ce4bb"
+}

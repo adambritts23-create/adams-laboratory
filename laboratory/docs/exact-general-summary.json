@@ -1,0 +1,36 @@
+{
+  "knownControlsPassed": true,
+  "fePoints": 3,
+  "euPoints": 1,
+  "newInvarianceRuns": 12,
+  "retainedCrDoses": 12,
+  "retainedCrVariants": 7,
+  "maximumFeSavedLogRatio": 4.796179087622945e-12,
+  "maximumEuSavedLogRatio": 5.684710415331999e-14,
+  "nitrate": {
+    "dimension": 4,
+    "sourceRows": 25,
+    "status": "equilibrium-not-accepted",
+    "solverDiagnostic": [
+      {
+        "code": "singular-or-ill-conditioned",
+        "message": "No scientifically accepted point state was found. Inspect the per-assemblage diagnostics.",
+        "path": null
+      }
+    ]
+  },
+  "copper": {
+    "dimension": 4,
+    "sourceRows": 35,
+    "status": "excluded-phase-required",
+    "required": [
+      {
+        "id": "spana:2ac52a30213c9288:107212",
+        "name": "CuCl2·3Cu(OH)2(cr)",
+        "phase": "solid",
+        "logActivity": 1.5378464245888157
+      }
+    ]
+  },
+  "productionPromoted": false
+}

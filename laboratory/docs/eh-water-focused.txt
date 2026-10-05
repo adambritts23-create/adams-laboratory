@@ -1,0 +1,22 @@
+✔ Fe metal source mass action and Nernst independently reproduce disappearance and 50/50 transitions (549.9388ms)
+✔ Eh sweep references exactly reuse registered Pourbaix convention at pH 0 and 7 (3.0314ms)
+✔ water annotations fail independently of equilibrium and do not apply to a pH axis (0.242ms)
+✔ water toggle preserves exact sweep, selected samples, numerical curves and outside-window equilibria (15.3718ms)
+✔ short metal label retains exact accepted formula-unit amount and units in output/export (0.2813ms)
+✔ imposed Fe control: 17 independent accepted equilibria exactly match fixed-Eh solves (48.1711ms)
+✔ total partition closes and dissolved speciation uses the unchanged normalization at every Eh (8.8788ms)
+✔ accepted saturation keeps 13 defined solubilities and four genuine gaps; mixed overlay stays pH-only (1.421ms)
+✔ sample endpoints, hover and keyboard index navigation share exact Beaker equilibrium identities (0.7514ms)
+✔ all four compatible view switches reuse the same branded sweep without scientific revision changes (1.6192ms)
+✔ invalid ranges, samples and conditions fail the existing sweep rules (461.7619ms)
+✔ fixed pH, Eh range, phase scope, forged results and stale requests cannot reuse inspection (111.2963ms)
+✔ electron tile selection is a special-condition route, not an element or conserved inventory (17.0253ms)
+✔ fixed imposed Eh configuration varies pH using the same fixed-electron preparation (89.0673ms)
+ℹ tests 14
+ℹ suites 0
+ℹ pass 14
+ℹ fail 0
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 3444.9763

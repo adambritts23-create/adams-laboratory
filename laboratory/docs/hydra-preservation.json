@@ -1,0 +1,175 @@
+{
+  "checked": 251,
+  "changed": [
+    {
+      "path": "src/calculations/wetLabAnalysis.js",
+      "before": "0d990d1dbfb94935d5b2fa64d00a65d05eed2743ce9fa3613c7d182120a4a9e2",
+      "after": "3803feed46413e6ba7577350a5382c05164b7e997f30609840ed64f60f342b9e",
+      "expected": true
+    },
+    {
+      "path": "src/calculations/wetLabSolutions.js",
+      "before": "2cacf5ca364258d4e55d58976abb110168b13ed386791e029d41581a30b4de80",
+      "after": "326895d3f1178371e18888a6378767bda7d825c94cf53957a615dcd9f1217c8a",
+      "expected": true
+    },
+    {
+      "path": "src/calculations/wetLabTitration.js",
+      "before": "7233d5b42f2e774ce7b8bae6b61e7026cd3cafd236ced81fb8b9895449fad4e9",
+      "after": "cb9dc36c68545c79d7b8f80697700f05d8094ba139dc828b57d6f895d4c8cb57",
+      "expected": true
+    },
+    {
+      "path": "src/components/SelectedSystem.jsx",
+      "before": "5e1273988c4375e967d392fde7e0301b4baacb234e996b529e1d2b539604e059",
+      "after": "cf0b7d74eb14d8102e8ad0f5c0e44e5e398194915f095a82391e9f5b57759aad",
+      "expected": true
+    },
+    {
+      "path": "src/solver/assemblages.js",
+      "before": "e25b0801841e7fa90f2bfba44488807e2c0f417dc5e0ee7c0bf98b7745650dc4",
+      "after": "5a0dcc85767c11df1a05b07a4ece6d866bf28370b58be3af5d6b5a00f0650a5c",
+      "expected": true
+    },
+    {
+      "path": "src/solver/closedRedox.js",
+      "before": "d6907456dcc9b8030041c88b89c57922e0ec51a9f6bb1a9be78c19e8f00ad268",
+      "after": "c3d9aa2df3a79630a271e68f6cf22af25640f6cbcf0c8e7b1dcebccb6a7c0904",
+      "expected": true
+    },
+    {
+      "path": "src/solver/models.js",
+      "before": "6627e609bcb575037aafeee9610e5a408ddad505eb17ee30eeee93ee45535bb5",
+      "after": "e140d8345640ed75c99242d50be7d07625f99a1fed60d99bcae5d9adc5779ee6",
+      "expected": true
+    },
+    {
+      "path": "src/solver/point.js",
+      "before": "1c721f78dae772de8e443973e11e9fb105cc9faa14d21d086640b15f6c588ab8",
+      "after": "b2504008062ed7a453077b15485b6a9d758407484343e207c3992295b20b795d",
+      "expected": true
+    },
+    {
+      "path": "src/thermodynamics/closedPureSolids.js",
+      "before": "3fc0f36c4d95aa7e32aea152724dfce11142c3868a6041245734be454033973f",
+      "after": "f99134b5a586b59f5e8cf0f96f4377587c24cec0a3551733decf74547d275432",
+      "expected": true
+    },
+    {
+      "path": "src/thermodynamics/closedReagents.js",
+      "before": "4fc6fce6de02f96e77da44b22f0d097b4aaf7e7210cbf6776602aed25a00e3db",
+      "after": "73ea9605a807e9ef37c8badaf5f6c67fa623ab50970cb8c36e86a1d05b3da7b8",
+      "expected": true
+    },
+    {
+      "path": "src/thermodynamics/closedRedoxNetwork.js",
+      "before": "5cf62cd979e7e6f353edb356f7d832026efc4ade3eaddfb9da2d522723d50005",
+      "after": "dd03a80758e66c8e7107027c8fc68d8ca78fe895c0bdb54c5d0bedd05bce5e3f",
+      "expected": true
+    },
+    {
+      "path": "src/thermodynamics/equilibriumNetwork.js",
+      "before": "b3a01e48bab5c892a2b32257b1e3b5e0096428c3d4b39c93be8cc57afd49783d",
+      "after": "77195602370168fe5fd80587dc53e30f1b6411d9e94f3504583eda670c266612",
+      "expected": true
+    },
+    {
+      "path": "src/thermodynamics/generalClosedReagents.js",
+      "before": "dc72fb97b6398b21058846f0bb170602cee427d685dd00852bd43911b0426d96",
+      "after": "f43d4866f45a7f58d3934e86942b5efda4fd8743832f567f624e917d1336e7c2",
+      "expected": true
+    },
+    {
+      "path": "src/thermodynamics/repository.js",
+      "before": "fa5727992267e38947edded8bfcc0228a3ebca564d42e8e6e464cf08268d6f63",
+      "after": "6973083eca5e9855c808b8542e0b4bbc92ba8e61590365f34e2fb53fde01d828",
+      "expected": true
+    },
+    {
+      "path": "src/thermodynamics/sourceComponentMetadata.js",
+      "before": "e99045c71ce66035004ea6aed155b84687f1fd964787f1c1e33a514397bd1b9c",
+      "after": "eb5dc57fdf6dc1eaa5c55f90a6bc212935f5dc7d2c08ab54e4b4353da9b3035b",
+      "expected": true
+    }
+  ],
+  "missing": [],
+  "newSourceFiles": [
+    "src/components/ComponentSearch.jsx",
+    "src/thermodynamics/componentSearch.js",
+    "src/thermodynamics/sourceConservation.js"
+  ],
+  "referenceChecks": [
+    {
+      "path": "docs/closed-redox-step4-independent.json",
+      "before": "aeb6a8293f21efba89ecd14a95f548897ee94c1efb61d400b4c7ad3a143e9f4f",
+      "after": "aeb6a8293f21efba89ecd14a95f548897ee94c1efb61d400b4c7ad3a143e9f4f"
+    },
+    {
+      "path": "docs/closed-redox-step5-independent-points.json",
+      "before": "ffd53dd564094ed8d873c79dbba6d1062ae34f31b66b232d035831ff95d3c47a",
+      "after": "ffd53dd564094ed8d873c79dbba6d1062ae34f31b66b232d035831ff95d3c47a"
+    },
+    {
+      "path": "docs/closed-redox-step5-independent.json",
+      "before": "94fc83ba16596aa9bccd8bd0780f27b5336e8f49f6dd1c64b7bf6af2795f231e",
+      "after": "94fc83ba16596aa9bccd8bd0780f27b5336e8f49f6dd1c64b7bf6af2795f231e"
+    },
+    {
+      "path": "docs/closed-redox-step5-rejected-1mM-independent.json",
+      "before": "63e432861ab2d9f008f819f97e541177d87d82463d94595357e3d6a63a2874d0",
+      "after": "63e432861ab2d9f008f819f97e541177d87d82463d94595357e3d6a63a2874d0"
+    },
+    {
+      "path": "docs/closed-solids-independent.json",
+      "before": "5d2046440afa7a289e1c40ca699f76dafd8f9ac6cda1e1c36a779b71a5a71306",
+      "after": "5d2046440afa7a289e1c40ca699f76dafd8f9ac6cda1e1c36a779b71a5a71306"
+    },
+    {
+      "path": "docs/cr-reagent-independent-reference.json",
+      "before": "223a41ee2d40b48c8b9c692b0b9e562d276830c47719e2db58cbd1e4017f10f4",
+      "after": "223a41ee2d40b48c8b9c692b0b9e562d276830c47719e2db58cbd1e4017f10f4"
+    },
+    {
+      "path": "docs/cu-haltafall-reference.json.gz",
+      "before": "9ced7c210e85de291fa36eaf5109ef4a5b402326c30ac65d41db9411833888c4",
+      "after": "9ced7c210e85de291fa36eaf5109ef4a5b402326c30ac65d41db9411833888c4"
+    },
+    {
+      "path": "docs/general-closed-independent.json",
+      "before": "77b12369bb38feba9da70251940accefba16e254435c8a9e3088b41d31c9882d",
+      "after": "77b12369bb38feba9da70251940accefba16e254435c8a9e3088b41d31c9882d"
+    },
+    {
+      "path": "docs/independent-surface-carbonate.json.gz",
+      "before": "49135c954a34e50889bd8cf96bf63c20325e96d6780b827eb75b2bb7653dedbd",
+      "after": "49135c954a34e50889bd8cf96bf63c20325e96d6780b827eb75b2bb7653dedbd"
+    },
+    {
+      "path": "docs/independent-surface-mixed.json.gz",
+      "before": "851a1f333daefe53ed73ea50c94640605086debf1ab7b8826337d3c927a1b0b4",
+      "after": "851a1f333daefe53ed73ea50c94640605086debf1ab7b8826337d3c927a1b0b4"
+    },
+    {
+      "path": "docs/open-closed-independent.json",
+      "before": "d9729a72e47238c7ba6a99369084c18d1e43f508111339c056b3a6ce28e72e73",
+      "after": "d9729a72e47238c7ba6a99369084c18d1e43f508111339c056b3a6ce28e72e73"
+    },
+    {
+      "path": "docs/reaction-basis-UV-haltafall-reference.ndjson.gz",
+      "before": "6b183f0c080d4f87afff525b615109ef3447f14146b8dd6be2b0922013627336",
+      "after": "6b183f0c080d4f87afff525b615109ef3447f14146b8dd6be2b0922013627336"
+    },
+    {
+      "path": "docs/reaction-basis-UVI-haltafall-reference.ndjson.gz",
+      "before": "699756df3850ba6be319c5acb0402b9022dfce4bc05befb789402fcaf02d5e58",
+      "after": "699756df3850ba6be319c5acb0402b9022dfce4bc05befb789402fcaf02d5e58"
+    },
+    {
+      "path": "tests/fixtures/eq-diagr/references.json",
+      "before": "aefc0949b585ef290595088c8ed852a1eb591be25dff24563a44a2cf98d40960",
+      "after": "aefc0949b585ef290595088c8ed852a1eb591be25dff24563a44a2cf98d40960"
+    }
+  ],
+  "protectedChanges": [],
+  "ok": true
+}

@@ -1,0 +1,14 @@
+{
+  "baseline":{"pass":399,"fail":0,"durationMs":229911.6825},
+  "final":{"pass":404,"fail":0,"cancelled":0,"skipped":0,"todo":0,"durationMs":251805.9769},
+  "focused":{"pass":5,"fail":0},
+  "goldens":{"acid-base":"passed","complexation":"passed","precipitation":"passed","redox":"passed","fixed-activity":"passed"},
+  "protectedFiles":{"count":169,"changed":[]},
+  "build":"passed with native config loader",
+  "lint":{"errors":0,"existingWarnings":1},
+  "artifactAudit":"passed",
+  "browser":{"nickel":{"points":51,"x":[0,14],"samples":51,"yGroup":false},"surface":{"points":45,"x":[4,12,9],"y":[-6,-2,5],"inputIdBeforeAndAfter3D":"d51e9e18df9c6342b0fd0d8864b90a623130fffcdfb3191f9ceb295ee2856acc"},"mobile":{"width":390,"height":844,"documentWidth":375,"primaryHeight":48,"fontPx":16,"navigationBottom":111,"stickyPlotTop":111},"desktop":{"primaryHeight":48,"fontPx":17,"navigationHeight":59},"resetActions":"passed","keyboardWorkspaceNavigation":"passed","consoleErrors":[],"screenshots":"inline conversation only","viewportRestored":true},
+  "pourbaix":"validation pending",
+  "deployed":false,
+  "status":"Stopped for review"
+}

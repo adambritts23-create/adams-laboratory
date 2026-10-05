@@ -1,0 +1,39 @@
+✔ Closed UI path exactly reproduces every Step-5 broad-sweep carrier and derived potential (4.6117ms)
+✔ Closed adapter is branded, preserves identity, and rejects forged or incomplete runs (0.2495ms)
+✔ All three views reuse the sweep and preserve total/dissolved denominators (28.7744ms)
+✔ Selected endpoint/hover/pin use exact closed objects and expose derived pH/Eh/net reaction (2.3961ms)
+✔ Changed addition/setup/chemistry and restored ordinary mode invalidate closed inspection and commit (1.6262ms)
+✔ Unsupported reagent selection, electron and changed source never fall back to ordinary sweep (1028.7673ms)
+✔ Out-of-scope samples remain gaps in views and Beaker; cancellation/stale never commits (1230.7519ms)
+✔ Supplied axis and residual species labels remain distinct in output/export (227.8245ms)
+✔ Step 5 actual reagents automatically discover all 24 source reactions without selected electron (0.4419ms)
+✔ Step 5 independent raw-law expectation and equivalent controlled boundary conditions at dose 2.5e-7 (163.0624ms)
+✔ Step 5 independent raw-law expectation and equivalent controlled boundary conditions at dose 5e-7 (141.505ms)
+✔ Step 5 independent raw-law expectation and equivalent controlled boundary conditions at dose 0.000001 (158.411ms)
+✔ Step 5 generated net reaction retains electron cancellation, source coefficients and signed extent closure (0.7664ms)
+✔ Step 5 preparation history, supported bases and reversed source order preserve equilibrium (1409.9667ms)
+✔ Step 5 scope fails closed for imposed conditions, electron inventory, changed sources and unreviewed metadata (1309.2732ms)
+✔ Step 5 reviewed aqueous domain excludes supersaturated high-Fe candidate and out-of-range additions (1.3171ms)
+✔ Step 5 broad closed addition sweep preserves inventories, phase exclusions and derived outputs (2.5002ms)
+✔ Step 5 source-derived equivalence region is sampled without imposing textbook completion (2030.1072ms)
+✔ Step 5 selected sample is exact accepted result, retains dimer weighting and rejects stale or forged selection (0.6282ms)
+✔ Step 5 failed additions remain gaps and cancelled/stale sweeps cannot provide inspection (491.9911ms)
+✔ Step 5 analytical axis validation retains existing invalid/reversed-range rules (438.839ms)
+✔ general source discovery finds peroxide-only graph without a pair scope and retains gas candidates (0.2842ms)
+✔ generic unbuffered peroxide agrees with independent raw-law scalar expectation (0.311ms)
+✔ excluded gases remain conditional at low dose and require unsupported inventory at high dose (31.6491ms)
+✔ reviewed Fe network, exclusions, input/result identity, algebra and explanation are exact (414.7632ms)
+✔ unrestricted Fe chloride network includes counterion redox and refuses capacity overflow (155.9791ms)
+✔ missing source-bound composition and selected electron refuse before solving (144.9211ms)
+✔ source drift, forged audit, mismatched repository and reviewed-profile misuse cannot calculate (1113.2909ms)
+✔ source row order preserves independent generic equilibrium (1787.2652ms)
+✔ conflicting reservoirs, unsupported conditions, nonphysical or unbalanced recipes fail closed (117.2757ms)
+✔ general point setup preserves ordinary settings and never turns fixed pH into supplied acid (1.3603ms)
+ℹ tests 31
+ℹ suites 0
+ℹ pass 31
+ℹ fail 0
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 20631.6633

@@ -1,0 +1,15 @@
+✔ compiler preserves reviewed Fe peroxide source scope and independent Step-5 expectations (1.5992ms)
+✔ two soluble redox families and non-Fe network agree with separate raw-law balances (0.8049ms)
+✔ abstract signed proton equivalents compile acid/base source laws without spectator inventory (0.3785ms)
+✔ excluded supersaturated Fe phases withhold complete equilibrium despite aqueous convergence (0.2528ms)
+✔ compiler fails closed for missing metadata, unknown identities, boundary conflicts and forged results (1005.0593ms)
+✔ source identity ordering leaves analytical accepted amounts invariant (1272.7453ms)
+✔ Calculation integration uses compiler without replacing reviewed engines or adding a new mode (1.0339ms)
+ℹ tests 7
+ℹ suites 0
+ℹ pass 7
+ℹ fail 0
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 7400.6306

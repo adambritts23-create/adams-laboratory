@@ -1,0 +1,20 @@
+✔ closed original: independent concentrations, inventories, charge and simultaneous half laws (1.3055ms)
+✔ closed unequal: independent concentrations, inventories, charge and simultaneous half laws (0.2137ms)
+✔ closed three: independent concentrations, inventories, charge and simultaneous half laws (0.1659ms)
+✔ unequal two/three electron stoichiometry cancels exactly at six with transformed log K (0.6981ms)
+✔ all controls preserve equilibrium across preparations and supported bases, not preparation provenance (0.4141ms)
+✔ three simultaneous couples are invariant to reaction order, reversal and scaling (6.863ms)
+✔ reservoir or electron-total inputs cannot enter closed mode (1.081ms)
+✔ missing counterions, source metadata or invalid composition fail before solving (1.4473ms)
+✔ rank gates reject underdetermined/disconnected families and contradictory reaction cycles (0.849ms)
+✔ forged preparations cannot solve and inspection branding cannot be copied (0.7202ms)
+✔ structural reuse never reuses dose inventory or bypasses boundary validation (5.6964ms)
+✔ repository reuse is scoped to immutable identity, ordered support and reviewed phase contract (4013.5197ms)
+ℹ tests 12
+ℹ suites 0
+ℹ pass 12
+ℹ fail 0
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 4613.1502

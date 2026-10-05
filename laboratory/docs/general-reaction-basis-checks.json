@@ -1,0 +1,62 @@
+{
+  "baseline": {
+    "tests": 480,
+    "pass": 480,
+    "fail": 0,
+    "cancelled": 0,
+    "skipped": 0,
+    "todo": 0,
+    "duration_ms": 322377.1128
+  },
+  "final": {
+    "tests": 491,
+    "pass": 491,
+    "fail": 0,
+    "cancelled": 0,
+    "skipped": 0,
+    "todo": 0,
+    "duration_ms": 336396.0827
+  },
+  "goldens": {
+    "status": "passed-unchanged",
+    "names": [
+      "acid-base",
+      "complexation",
+      "precipitation",
+      "redox",
+      "fixed-activity"
+    ]
+  },
+  "build": "passed",
+  "lint": {
+    "errors": 0,
+    "warnings": 1,
+    "existingWarning": "ExpandedPlot.jsx effect cleanup ref"
+  },
+  "artifactAudit": "passed",
+  "protectedFiles": true,
+  "uraniumFullGridAcceptance": false,
+  "recommendation": "B. FURTHER REACTION-BASIS FOUNDATION REQUIRED",
+  "addedFiles": [
+    "src/thermodynamics/prepareReactionBasis.js",
+    "src/thermodynamics/reactionBasis.js",
+    "src/thermodynamics/sourceReactionBasis.js",
+    "tests/generalBasisEquilibrium.test.js",
+    "tests/reactionBasis.test.js",
+    "scripts/validation/generalBasisAudit.js",
+    "docs/general-reaction-basis-phase.md",
+    "docs/general-reaction-basis-preservation.json",
+    "docs/general-reaction-basis-samples.json.gz",
+    "docs/general-reaction-basis-tables.md",
+    "docs/general-reaction-basis-underflow-control.json",
+    "docs/general-reaction-basis-validation.json",
+    "docs/reaction-basis-UV-haltafall-reference.ndjson.gz",
+    "docs/reaction-basis-UVI-haltafall-reference.ndjson.gz",
+    "docs/general-reaction-basis-checks.json"
+  ],
+  "modifiedExistingFiles": [
+    "src/analysis/redoxDiscovery.js",
+    "tests/userPourbaix.test.js"
+  ],
+  "logs": ".local/reaction-basis-phase"
+}

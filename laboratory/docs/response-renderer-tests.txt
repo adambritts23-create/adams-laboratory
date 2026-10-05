@@ -1,0 +1,30 @@
+✔ carbonate total descriptor is shared by scalar map, surface, summary and exported exact cells (1268.3384ms)
+✔ safe complexation dissolved sum uses actual coefficients and excludes free/supplied substitutions (6.5574ms)
+✔ dissolved logs never floor zero, log negative sums or turn unavailable values into numbers (0.3423ms)
+✔ shared selector catalog and stable descriptors distinguish free, individual and component inventories (17.8239ms)
+✔ normalization preserves uncertainty and raw/attempt evidence rather than inventing causes (0.5842ms)
+✔ calculated unavailable, failed and cancelled are independent statuses even with misleading finite F (0.2847ms)
+✔ preflight rejects missing/excluded/incompatible F before a grid while retaining signed component algebra (2.8788ms)
+✔ real partial complexation grid keeps failures, exact coverage, extrema, slices and surface holes (20.4337ms)
+✔ cancelled grid preserves exact unrun coordinates and no accepted output or surface (2.5465ms)
+✔ supplied total remains the requested constraint instead of recomputed dissolved amount (8.9577ms)
+✔ surface conversion retains exact sampled X/Y/Z, identities, linear amount and triangle topology (28.5324ms)
+✔ any unavailable corner removes the whole quad, even if the other three corners are valid (0.6353ms)
+✔ disconnected valid regions never receive triangles or wire edges across a missing column (0.9717ms)
+✔ manual Z range and aspect normalize/clamp no scientific values, invalid ranges recover to auto (8.0654ms)
+✔ surface extrema are the Phase 10 sampled coordinates, never recomputed from geometry (6.8116ms)
+✔ linear/log output changes preserve original grid and zero/non-log values remain gaps (6.7898ms)
+✔ slice guides align exactly with existing row/column and never select an arbitrary coordinate (5.4621ms)
+✔ visualization/camera/color/aspect changes retain calculation, revision and pin in session (6.9404ms)
+✔ cancelled grid has holes and its complete statuses survive numerical export with camera state (2.8129ms)
+✔ stale surfaces preserve original conditions and expose different current revision (4.3345ms)
+✔ malformed grid topology is rejected and renderer fallback leaves scientific alternatives explicit (1.5712ms)
+✔ renderer capability failure is caught without modifying or discarding the grid (6.5344ms)
+ℹ tests 22
+ℹ suites 0
+ℹ pass 22
+ℹ fail 0
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 1590.4172

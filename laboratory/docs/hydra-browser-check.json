@@ -1,0 +1,29 @@
+{
+  "url": "http://localhost:5173/adambritts-site/laboratory/",
+  "surface": "System / Selected system / Database products found",
+  "checks": [
+    {
+      "selected": [
+        "H+",
+        "Fe 2+"
+      ],
+      "aqueous": 5,
+      "solids": 1,
+      "gases": 0,
+      "electronRecords": 0
+    },
+    {
+      "selected": [
+        "H+",
+        "Fe 2+",
+        "e-"
+      ],
+      "aqueous": 17,
+      "solids": 8,
+      "gases": 3,
+      "electronRecords": 12
+    }
+  ],
+  "observed": "Selecting electron updates the open inspector; expanded solids show eight intact formulas and source IDs. Desktop screenshot visually checked; source membership/accepted calculation distinction visible.",
+  "errors": []
+}

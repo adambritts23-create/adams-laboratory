@@ -1,0 +1,8 @@
+First browser run (before replacing compact-route timer yields): all routes 2565 solves / 2565 region classifications, zero analytical boundary evaluations. Shared renderer, two animation frames after SVG insertion; database/module load excluded.
+Fe full-grid: prep 211.9 ms, plot 12387.7 ms, inspection 0.1 ms, retained 45385954 bytes.
+Fe compact: prep 207.4 ms, plot 14601.8 ms, inspection 3.0 ms, retained 1406212 bytes.
+Cu full-grid: prep 196.6 ms, plot 7301.3 ms, inspection 0.1 ms, retained 29863877 bytes.
+Cu compact: prep 179.3 ms, plot 10130.2 ms, inspection 3.1 ms, retained 1221239 bytes.
+Cr full-grid: prep 188.4 ms, plot 15557.4 ms, inspection 0.2 ms, retained 41368771 bytes.
+Cr compact: prep 167.1 ms, plot 18845.4 ms, inspection 5.1 ms, retained 594931 bytes.
+Timings are non-scientific single-run observations, not a controlled SPANA comparison. Compact path yielded every 8 points through timer; full path every 20. Browser timer overhead motivated scheduler.yield() for compact projections only. Fallback remains setTimeout in runtimes without scheduler.yield.

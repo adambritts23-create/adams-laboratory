@@ -1,0 +1,13 @@
+✔ MVP boundary contract distinguishes all six reservoir combinations (1.8192ms)
+✔ MVP constructor preserves ordinary preparation and refuses unknown adapters (319.1062ms)
+✔ non-redox structural scope reuse respects immutable repository and exact support (529.4267ms)
+✔ boundary UI transitions reset incompatible hydrogen coordinates and never reinterpret electron reagent (1.3344ms)
+✔ selected Cu/chloride source system uses independent total and retains real unavailable samples (273.59ms)
+ℹ tests 5
+ℹ suites 0
+ℹ pass 5
+ℹ fail 0
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 1634.9718

@@ -1,0 +1,23 @@
+✔ general source discovery finds peroxide-only graph without a pair scope and retains gas candidates (2.1238ms)
+✔ generic unbuffered peroxide agrees with independent raw-law scalar expectation (0.3202ms)
+✔ excluded gases remain conditional at low dose and require unsupported inventory at high dose (66.67ms)
+✔ reviewed Fe network, exclusions, input/result identity, algebra and explanation are exact (1982.8049ms)
+✔ unrestricted Fe chloride network includes counterion redox within audited expanded capacity (1610.947ms)
+✔ atomless source discovery is admitted; selected electron and inactive systems refuse (3078.5633ms)
+✔ source drift, forged audit, mismatched repository and reviewed-profile misuse cannot calculate (2771.0364ms)
+✔ source row order preserves independent generic equilibrium (3562.0341ms)
+✔ conflicting reservoirs, unsupported conditions, nonphysical or unbalanced recipes fail closed (1503.9585ms)
+✔ general point setup preserves ordinary settings and never turns fixed pH into supplied acid (1.3518ms)
+✔ seven component-system searches match independently executed pinned Java names exactly (1089.0421ms)
+✔ water is implicit, electron expands vocabulary only through admitted redox products (181.3764ms)
+✔ general 76-source Fe/chromate closes all 21 candidates without subset enumeration (10803.488ms)
+✔ active policy solves two simultaneous solids above 64 and retains existing 128-product bound (27.3924ms)
+✔ nitrate conditioning selection preserves exact inventory and agrees with an independent basis solve (11918.6582ms)
+ℹ tests 15
+ℹ suites 0
+ℹ pass 15
+ℹ fail 0
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 41472.1045

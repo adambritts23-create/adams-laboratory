@@ -1,0 +1,23 @@
+✔ Fe discovered full grid exactly preserves independently accepted fractions and topology (560.2648ms)
+✔ Cu discovered full grid exactly preserves independently accepted fractions and topology (510.4209ms)
+✔ element-only System selection discovers its family without manually selecting redox forms (153.5517ms)
+✔ source family closure is independent of starting form and explicit registry identity covers every included carrier (464.2325ms)
+✔ missing, ambiguous and changed metadata fail closed with no test-only fallback (294.0376ms)
+✔ user total and ranges change the actual grid and cannot inherit reference validation (243.6863ms)
+✔ phase suppression is disclosed and cannot retain the default reference claim (324.077ms)
+✔ invalid totals, ranges, oversized grids, nonideal conditions and extra analytical components fail explicitly (15.7217ms)
+✔ uranium discovery resolves fractional reaction algebra but keeps unresolved allocations unavailable (127.3238ms)
+✔ stale, cancelled or forged results cannot enter the shared plot and beaker (1085.4855ms)
+✔ generic map and numerical export retain actual element, source scope, total denominator and status (35.6226ms)
+✔ generic discovery contains no element-specific branches or oxidation-state name parsing (100.1674ms)
+✔ experience readiness distinguishes constructible metadata-pending chemistry from unsupported and checked results (135.0674ms)
+✔ carrier details preserve within-state chemistry and count mixed-valence atoms once per carrier (51.4464ms)
+✔ keyboard inspection reuses the same accepted input and result for plot and beaker (0.6288ms)
+ℹ tests 15
+ℹ suites 0
+ℹ pass 15
+ℹ fail 0
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 18169.4542

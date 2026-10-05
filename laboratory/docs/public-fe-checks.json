@@ -1,0 +1,397 @@
+{
+  "status": "passed",
+  "baseline": {
+    "tests": 452,
+    "pass": 452,
+    "fail": 0,
+    "cancelled": 0,
+    "skipped": 0,
+    "todo": 0
+  },
+  "final": {
+    "tests": 458,
+    "pass": 458,
+    "fail": 0,
+    "cancelled": 0,
+    "skipped": 0,
+    "todo": 0
+  },
+  "allFiveGoldens": "unchanged",
+  "build": "passed",
+  "lint": "passed; 0 errors, 1 pre-existing warning",
+  "artifactAudit": "passed; exact pinned registry object allowed once; other payloads rejected",
+  "scientificProtectedFiles": 45,
+  "scientificHashes": [
+    {
+      "path": "src\\analysis\\feOxidationMetadata.js",
+      "sha256": "068bce4e6c17889a7ba081f74f46dd664b3e14769c0d2f99a46c93eb4a19f6bd",
+      "afterSha256": "068bce4e6c17889a7ba081f74f46dd664b3e14769c0d2f99a46c93eb4a19f6bd"
+    },
+    {
+      "path": "src\\analysis\\fePourbaixContract.js",
+      "sha256": "fa1a03fb9603e6005a751dd55721dd84d3b0ade320157613ec6d2e0088c28b70",
+      "afterSha256": "fa1a03fb9603e6005a751dd55721dd84d3b0ade320157613ec6d2e0088c28b70"
+    },
+    {
+      "path": "src\\analysis\\feWaterContext.js",
+      "sha256": "8bf5cbcbdda386deb4f3e81f78362ab1ab0c69a3eccc8f6f09f239bc836b4753",
+      "afterSha256": "8bf5cbcbdda386deb4f3e81f78362ab1ab0c69a3eccc8f6f09f239bc836b4753"
+    },
+    {
+      "path": "src\\analysis\\gridDiagnostics.js",
+      "sha256": "ba092891559fae54619874952a477eb1f7303f9c84f247361bd373d584dbf95f",
+      "afterSha256": "ba092891559fae54619874952a477eb1f7303f9c84f247361bd373d584dbf95f"
+    },
+    {
+      "path": "src\\analysis\\mnDiagnostic.js",
+      "sha256": "b2e3ea03ab079ac0c165951e869477ec960a900c116f6f52074b47a683719de2",
+      "afterSha256": "b2e3ea03ab079ac0c165951e869477ec960a900c116f6f52074b47a683719de2"
+    },
+    {
+      "path": "src\\analysis\\oxidationInventory.js",
+      "sha256": "e9b0e5c87843b4c3670038e5a7a9e37d8c8f0eb518854788096f6a2a309ae8d4",
+      "afterSha256": "e9b0e5c87843b4c3670038e5a7a9e37d8c8f0eb518854788096f6a2a309ae8d4"
+    },
+    {
+      "path": "src\\analysis\\pointTrace.js",
+      "sha256": "2194407bfed084b98694cb57598322a3a2368b479c79beb2dfebbafa9e75fa4b",
+      "afterSha256": "2194407bfed084b98694cb57598322a3a2368b479c79beb2dfebbafa9e75fa4b"
+    },
+    {
+      "path": "src\\analysis\\prepareFeCandidate.js",
+      "sha256": "46fd520fb1cec495c9a8dea150d2b5bbe94f8a2a8e560f43b66793831bd5564b",
+      "afterSha256": "46fd520fb1cec495c9a8dea150d2b5bbe94f8a2a8e560f43b66793831bd5564b"
+    },
+    {
+      "path": "src\\analysis\\registeredOxidation.js",
+      "sha256": "b4474e6709c39099db1a5185c832788a6708b9cb0d726a98aa2b3c0da9f0b4df",
+      "afterSha256": "b4474e6709c39099db1a5185c832788a6708b9cb0d726a98aa2b3c0da9f0b4df"
+    },
+    {
+      "path": "src\\analysis\\samples.js",
+      "sha256": "cd7da40ef5df879fb01de328105e4c5bf54a2e3ec30f3a54a1efe8ab025aaf7d",
+      "afterSha256": "cd7da40ef5df879fb01de328105e4c5bf54a2e3ec30f3a54a1efe8ab025aaf7d"
+    },
+    {
+      "path": "src\\analysis\\slices.js",
+      "sha256": "0c1703a24ffcd750fabefc354b7398a6d0ce85bcabd5a0e099ecd1396506f303",
+      "afterSha256": "0c1703a24ffcd750fabefc354b7398a6d0ce85bcabd5a0e099ecd1396506f303"
+    },
+    {
+      "path": "src\\analysis\\summary.js",
+      "sha256": "cdbf9190bab85d49870c5f08731bfcdc4166ad30528ec67b79c7ed0da1c83da1",
+      "afterSha256": "cdbf9190bab85d49870c5f08731bfcdc4166ad30528ec67b79c7ed0da1c83da1"
+    },
+    {
+      "path": "src\\analysis\\waterReferences.js",
+      "sha256": "3ed8d762c0967680c8783c34d6eba897bcf30e36e602c8c614e8932533c8bfa9",
+      "afterSha256": "3ed8d762c0967680c8783c34d6eba897bcf30e36e602c8c614e8932533c8bfa9"
+    },
+    {
+      "path": "src\\solver\\assemblages.js",
+      "sha256": "e25b0801841e7fa90f2bfba44488807e2c0f417dc5e0ee7c0bf98b7745650dc4",
+      "afterSha256": "e25b0801841e7fa90f2bfba44488807e2c0f417dc5e0ee7c0bf98b7745650dc4"
+    },
+    {
+      "path": "src\\solver\\contract.js",
+      "sha256": "8d035ccb7c9637ff734fb3cd5d14aec7ddc01ee61243cdd9fe4bd4372b8099bf",
+      "afterSha256": "8d035ccb7c9637ff734fb3cd5d14aec7ddc01ee61243cdd9fe4bd4372b8099bf"
+    },
+    {
+      "path": "src\\solver\\linear.js",
+      "sha256": "85bc2b1dd9792cf050bf64014ae76c0e66c6602c208c18607e97f05f71ba2f79",
+      "afterSha256": "85bc2b1dd9792cf050bf64014ae76c0e66c6602c208c18607e97f05f71ba2f79"
+    },
+    {
+      "path": "src\\solver\\models.js",
+      "sha256": "6627e609bcb575037aafeee9610e5a408ddad505eb17ee30eeee93ee45535bb5",
+      "afterSha256": "6627e609bcb575037aafeee9610e5a408ddad505eb17ee30eeee93ee45535bb5"
+    },
+    {
+      "path": "src\\solver\\point.js",
+      "sha256": "5ae9b017b3ea3cb8c6b7e23ac4bb57f7935da42af93c60050fb9b92f6d4b5809",
+      "afterSha256": "5ae9b017b3ea3cb8c6b7e23ac4bb57f7935da42af93c60050fb9b92f6d4b5809"
+    },
+    {
+      "path": "src\\solver\\prepareCanonicalRedox.js",
+      "sha256": "d5666d86b7e3a5730f09ccaaf6d330f590149a54317647a94aeb24e41db19085",
+      "afterSha256": "d5666d86b7e3a5730f09ccaaf6d330f590149a54317647a94aeb24e41db19085"
+    },
+    {
+      "path": "src\\solver\\prepareSession.js",
+      "sha256": "6eb8bf7d6b11d14508f3f05c3bb8d0c8099e0c5eb30f0df262cd6c59767b2164",
+      "afterSha256": "6eb8bf7d6b11d14508f3f05c3bb8d0c8099e0c5eb30f0df262cd6c59767b2164"
+    },
+    {
+      "path": "src\\solver\\redox.js",
+      "sha256": "80b9f117b93a313e7172476ee38633bb7156d8886839bdeaf6c9d7cc9a9d6074",
+      "afterSha256": "80b9f117b93a313e7172476ee38633bb7156d8886839bdeaf6c9d7cc9a9d6074"
+    },
+    {
+      "path": "src\\solver\\validationContract.js",
+      "sha256": "1eec965214cb5aaf583b55280c0203d4f58396264fa44e1cc69b0e7e6a3317db",
+      "afterSha256": "1eec965214cb5aaf583b55280c0203d4f58396264fa44e1cc69b0e7e6a3317db"
+    },
+    {
+      "path": "src\\thermodynamics\\canonicalRedox.js",
+      "sha256": "1627b21369186cd78e405faa127b4ca9921d165ae69aa4eecfb44c7487ff5754",
+      "afterSha256": "1627b21369186cd78e405faa127b4ca9921d165ae69aa4eecfb44c7487ff5754"
+    },
+    {
+      "path": "src\\thermodynamics\\compatibility.js",
+      "sha256": "65bec87e1351d660cb0c453c18b57f0a58f8fd041ef0a48714b226a46e942603",
+      "afterSha256": "65bec87e1351d660cb0c453c18b57f0a58f8fd041ef0a48714b226a46e942603"
+    },
+    {
+      "path": "src\\thermodynamics\\formationSupport.js",
+      "sha256": "7e3d39500b13e63f21865af5aaa5dda090687971fce50e4ee7e030bf510eaca2",
+      "afterSha256": "7e3d39500b13e63f21865af5aaa5dda090687971fce50e4ee7e030bf510eaca2"
+    },
+    {
+      "path": "src\\thermodynamics\\index.js",
+      "sha256": "54f32bdf2c6731b37494cad1ff939269b5b3740249447315cd823cb9639f5c47",
+      "afterSha256": "54f32bdf2c6731b37494cad1ff939269b5b3740249447315cd823cb9639f5c47"
+    },
+    {
+      "path": "src\\thermodynamics\\repository.js",
+      "sha256": "fa5727992267e38947edded8bfcc0228a3ebca564d42e8e6e464cf08268d6f63",
+      "afterSha256": "fa5727992267e38947edded8bfcc0228a3ebca564d42e8e6e464cf08268d6f63"
+    },
+    {
+      "path": "src\\thermodynamics\\repository.test.js",
+      "sha256": "47fad4e831d87de3e01da033e674e894838c1f4a9d1ef291d9b91c3f28de5d92",
+      "afterSha256": "47fad4e831d87de3e01da033e674e894838c1f4a9d1ef291d9b91c3f28de5d92"
+    },
+    {
+      "path": "src\\thermodynamics\\schema.js",
+      "sha256": "b9ad007ae1d96ca7a693fa1d7debbd505ab205045844c2c99a503208e08737a2",
+      "afterSha256": "b9ad007ae1d96ca7a693fa1d7debbd505ab205045844c2c99a503208e08737a2"
+    },
+    {
+      "path": "src\\thermodynamics\\snapshot.js",
+      "sha256": "8c8fd7076f005858cded6a6dd1340179018ba71c1af2aec3beaff9427a9d7acc",
+      "afterSha256": "8c8fd7076f005858cded6a6dd1340179018ba71c1af2aec3beaff9427a9d7acc"
+    },
+    {
+      "path": "src\\thermodynamics\\userComponents.js",
+      "sha256": "9b48067be2ec303218ae9ee1daed3e98ed2e8d71e7b7541a5523ead89777c725",
+      "afterSha256": "9b48067be2ec303218ae9ee1daed3e98ed2e8d71e7b7541a5523ead89777c725"
+    },
+    {
+      "path": "src\\thermodynamics\\userEquilibria.js",
+      "sha256": "5c1aabb37aec7131d57d48006341fb9da5824043ad147e8f3c6ffc98fd0bc9a8",
+      "afterSha256": "5c1aabb37aec7131d57d48006341fb9da5824043ad147e8f3c6ffc98fd0bc9a8"
+    },
+    {
+      "path": "src\\thermodynamics\\validation.js",
+      "sha256": "6e094cc718006f0300ce4f335fbcda6349629250518570b005551fc70f87405f",
+      "afterSha256": "6e094cc718006f0300ce4f335fbcda6349629250518570b005551fc70f87405f"
+    },
+    {
+      "path": "src\\thermodynamics\\validation.test.js",
+      "sha256": "d4c58a21beb0d9b36268f4995b355bc577fbb12af30630a752c8ecee3a5e259b",
+      "afterSha256": "d4c58a21beb0d9b36268f4995b355bc577fbb12af30630a752c8ecee3a5e259b"
+    },
+    {
+      "path": "src\\thermodynamics\\importers\\pipeline.js",
+      "sha256": "8d041a97bea3957ce4e7785acfad29cc7f547758c8cbcc666b4a3447e149d909",
+      "afterSha256": "8d041a97bea3957ce4e7785acfad29cc7f547758c8cbcc666b4a3447e149d909"
+    },
+    {
+      "path": "src\\thermodynamics\\importers\\pipeline.test.js",
+      "sha256": "93740acc37618fc625769b656b64478e610557f0a7db1f867dc4c5933b845ce4",
+      "afterSha256": "93740acc37618fc625769b656b64478e610557f0a7db1f867dc4c5933b845ce4"
+    },
+    {
+      "path": "src\\thermodynamics\\importers\\spana\\binary.js",
+      "sha256": "889017b231430c00de0c7107e135517f3f137e145d69f759f58efddcde642356",
+      "afterSha256": "889017b231430c00de0c7107e135517f3f137e145d69f759f58efddcde642356"
+    },
+    {
+      "path": "src\\thermodynamics\\importers\\spana\\components.js",
+      "sha256": "5ba6cf65a05dfeb506fd70f70ed8998122eab1b6dd524ebdd3d42872840bd765",
+      "afterSha256": "5ba6cf65a05dfeb506fd70f70ed8998122eab1b6dd524ebdd3d42872840bd765"
+    },
+    {
+      "path": "src\\thermodynamics\\importers\\spana\\convert.js",
+      "sha256": "3a1e6e05c1c25d743991cc4b95b7fa7b7f993d1f6831c9e4a72d4cf1919aa776",
+      "afterSha256": "3a1e6e05c1c25d743991cc4b95b7fa7b7f993d1f6831c9e4a72d4cf1919aa776"
+    },
+    {
+      "path": "src\\thermodynamics\\importers\\spana\\names.js",
+      "sha256": "2e3c89d92ab2f663e29f26a2978064c3a3d91aacf373dc450e241f18552bf61f",
+      "afterSha256": "2e3c89d92ab2f663e29f26a2978064c3a3d91aacf373dc450e241f18552bf61f"
+    },
+    {
+      "path": "src\\thermodynamics\\importers\\spana\\normalize.js",
+      "sha256": "1524a967ec6cbf9cbd92f8831ca186631143b838c594f1fea53ee1193b343a18",
+      "afterSha256": "1524a967ec6cbf9cbd92f8831ca186631143b838c594f1fea53ee1193b343a18"
+    },
+    {
+      "path": "src\\thermodynamics\\importers\\spana\\references.js",
+      "sha256": "75b47f05838d8d8608b11064a78154b555002f99616e032f133c4999843d3b5c",
+      "afterSha256": "75b47f05838d8d8608b11064a78154b555002f99616e032f133c4999843d3b5c"
+    },
+    {
+      "path": "src\\thermodynamics\\importers\\spana\\spana.test.js",
+      "sha256": "1ef6f3420f058047061d376d07238e3d02cbbbfcfb027c4c50cede1f9f32087f",
+      "afterSha256": "1ef6f3420f058047061d376d07238e3d02cbbbfcfb027c4c50cede1f9f32087f"
+    },
+    {
+      "path": "public\\data\\thermodynamic-default.json",
+      "sha256": "9fa7db6f4a13a88073a0ca214c412690846674f6b3f442e336baf1586c45d245",
+      "afterSha256": "9fa7db6f4a13a88073a0ca214c412690846674f6b3f442e336baf1586c45d245"
+    },
+    {
+      "path": "tests\\fixtures\\eq-diagr\\references.json",
+      "sha256": "aefc0949b585ef290595088c8ed852a1eb591be25dff24563a44a2cf98d40960",
+      "afterSha256": "aefc0949b585ef290595088c8ed852a1eb591be25dff24563a44a2cf98d40960"
+    }
+  ],
+  "changedFiles": [
+    {
+      "path": "src\\App.jsx",
+      "beforeSha256": "c86d6f453e633b0bbedb04b0fe9f6fac5dfda450b0d975e49c0d20e120f60aad",
+      "afterSha256": "99deab9817c4b5ec3e7cf2e1d8726ee0a9fd82b53be3740a751c0c3ee28e5c7b"
+    },
+    {
+      "path": "src\\calculations\\diagramSetup.js",
+      "beforeSha256": "18066245ac0ece3a9126dd3e523a72c9472a60683fedba2805f8b64ee3e4ebc3",
+      "afterSha256": "1323744211fb29a9dbbece3b9576894524649e52454e4d0ea7037e630aec6734"
+    },
+    {
+      "path": "src\\components\\CalculationWorkspace.jsx",
+      "beforeSha256": "0928495c985e3306fbcaa8aea4a2c1964ee7f5c4e8a660e40fcfa7b5daee846f",
+      "afterSha256": "7b037a1a0df3aaf965c8249154d59c93cc0c27de8c7a4b42cf019107e5b52aac"
+    },
+    {
+      "path": "src\\components\\DiagramSwitcher.jsx",
+      "beforeSha256": "f0dd18220a36db9c307c74573c24bf4324bcef7cc24e87014babe78c124ff56c",
+      "afterSha256": "2b6cc61fb960c5e1bed0b53b36ee91c81a9dc94b5e8ae983100bf55d97de6985"
+    },
+    {
+      "path": "src\\components\\InteractiveBeaker.jsx",
+      "beforeSha256": "2910dd5a014fc3b5357c0e69392c7726a7b64d512ac51e9458a82256fbe473fb",
+      "afterSha256": "fbde35e71ebddb60204b94eec151d4a482630be9b9eb1fda4ec4d40ddbdb7d89"
+    },
+    {
+      "path": "src\\components\\PlotWorkspace.jsx",
+      "beforeSha256": "95e7f0cbad4191aeeeeba7eb519ea2cffc902912a5f96ab52e46f95a19c87ff1",
+      "afterSha256": "a7278f08620b8ae9d55cb8a1168517d73bcc7d430654c8d65b3b70f2d7dd4402"
+    },
+    {
+      "path": "src\\plots\\resultSelection.js",
+      "beforeSha256": "334886112dff839a97e2fa6fc0d1273df71ab40fdc4050d55f28627d24aeb925",
+      "afterSha256": "a6f37f519ba566d2c92ce2c2dcfc94686999a1e3b556304dc7fa990478c16a10"
+    },
+    {
+      "path": "src\\session\\diagramNavigation.js",
+      "beforeSha256": "0275fbbbe44a638f8d136fa651532b07f0eb285c22c045495ecea5f691c2d0f7",
+      "afterSha256": "b032d37107b74ea002d5d43bde35fae34a053638e27fe2980f8d25371ac09efd"
+    },
+    {
+      "path": "src\\session\\laboratorySession.js",
+      "beforeSha256": "7845eac35e6fd6bce02f70834b65310ddf482111d25b0f200947b272fd5785e3",
+      "afterSha256": "49976f6359fa7c7aa1ae6a79b774678cb1d21f1349693008469a08367b63796c"
+    },
+    {
+      "path": "tests\\diagramSetup.test.js",
+      "beforeSha256": "a7f7693670a237762a85fda12ceed30c8910bc05ed0d46a7e7923314a7f95271",
+      "afterSha256": "de708ffe5123b8ad6d22213fdd588289369f3c393acf3e5201a16903d284289b"
+    },
+    {
+      "path": "scripts\\audit-production-boundary.js",
+      "beforeSha256": "e45387535ae5af5337204689411cddc8e2e2b4dd1f80d7df7b05227d3c00266e",
+      "afterSha256": "285024f611e315c745542ec440000ece2252b1301447b93dbaab1e8a0f33f7cb"
+    },
+    {
+      "path": "scripts\\production-artifacts.js",
+      "beforeSha256": "65880d71d54d85a2e3bab57ad5c775c81b8ccd5e5009faf7662b41789dcdca38",
+      "afterSha256": "6c81ffc3c5ebf82ae12c20c5c2fc183bf0ad0990a78a707983e3cc8af5e0abb3"
+    }
+  ],
+  "newFiles": [
+    {
+      "path": "src/calculations/fePublicSetup.js",
+      "sha256": "5b7bc38e586f3bdc6e001f86e77d76e89b4da26eefba3d97a88c310e3402b365"
+    },
+    {
+      "path": "src/calculations/publicFePourbaix.js",
+      "sha256": "b46fa47e15838af338ff1d513916c1ef53066753980e0761701e931702665d60"
+    },
+    {
+      "path": "src/components/FePourbaix.css",
+      "sha256": "b2a21d4e7e5217dcf554efd1fd4d0119a6c7d56a34b73b0525133354bc2a72d1"
+    },
+    {
+      "path": "src/components/FePourbaixSetup.jsx",
+      "sha256": "9faad22342bf834e56da08b11e761c463da50a06bbfd5096d2c3f4127d29260c"
+    },
+    {
+      "path": "src/components/FePourbaixWorkspace.jsx",
+      "sha256": "fe489d7cc86f960c736d2c65c5984ac84e27caa109f272876f1d614c299afcf5"
+    },
+    {
+      "path": "src/data/fePourbaixExample.js",
+      "sha256": "76137337a3c59d9359dfaf1c378a4b9021029d0e408325acb6d1a9a74b6d82da"
+    },
+    {
+      "path": "src/plots/fePourbaixView.js",
+      "sha256": "00489bc3a61cfad23b1a5904b3b80664d82d6072b75f5dcd4d002dc0d7a3e13a"
+    },
+    {
+      "path": "tests/publicFeArtifact.test.js",
+      "sha256": "36db3470ccf54e44ef51a75fef2ba2a50058a1d573b6b879cf686459f8e4f8fb"
+    },
+    {
+      "path": "tests/publicFePourbaix.test.js",
+      "sha256": "08f409f95a8db19481747724c2ab6132dc13c7f9e6884dfffb9cf5951f0e1d82"
+    },
+    {
+      "path": "docs/public-fe-browser.json",
+      "sha256": "de6079d2e5797832cacb79e0a2e551d6dd3691ec580b005440440632df23f824"
+    },
+    {
+      "path": "docs/public-fe-desktop.png",
+      "sha256": "deb3312d0d95570ab76e242b3a9d3b2d0790c62429e38e697342b1fb46181e19"
+    },
+    {
+      "path": "docs/public-fe-mobile.png",
+      "sha256": "e6497e820df77c6d3afdca6a80685720b1773ff0f1b6ebefb60c2d25c82b2a3e"
+    },
+    {
+      "path": "docs/public-fe-pourbaix-v1.md",
+      "sha256": "7e47b644a3f8c23ba4fcace4714b33397d327425b9228458d2325ef0123d16f9"
+    },
+    {
+      "path": "docs/public-fe-unsupported.png",
+      "sha256": "4a853c4d70975397704094a9917ee2148f8b9d40cdc9f010f357ba8bca7354ef"
+    }
+  ],
+  "gridCounts": {
+    "Fe(0)": 422,
+    "Fe(II)": 581,
+    "Fe(III)": 1473,
+    "Fe(VI)": 89
+  },
+  "fractionDifference": 0,
+  "browser": {
+    "states": [
+      "Fe(0)",
+      "Fe(II)",
+      "Fe(III)",
+      "Fe(VI)"
+    ],
+    "magnetite": true,
+    "inputIdsMatch": true,
+    "keyboard": true,
+    "mobile": {
+      "scrollWidth": 375,
+      "width": 390
+    },
+    "unsupportedTotalRejected": true
+  },
+  "publicEnabled": "exact bounded Fe v1 only",
+  "deployed": false,
+  "pushed": false
+}

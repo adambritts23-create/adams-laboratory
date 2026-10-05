@@ -1,0 +1,2 @@
+export const mnTopologySha256 = '0fafe0465b534426d339d84db25f49dbd06ae01b29438dab8f0103e2dc4547ca'
+export const mnTopologyAuditSha256 = '4a066e11b1cc9aa26804f0f439f9d097de808c6458ceb2381edc00cde5e94a16'

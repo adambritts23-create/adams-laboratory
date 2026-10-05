@@ -1,0 +1,11 @@
+{
+  "url": "http://localhost:5173/adambritts-site/laboratory/",
+  "observations": [
+    "Calculation shows Equilibrium constraints: Hydrogen boundary and Electron boundary; no duplicate diagram selector.",
+    "Switching hydrogen from Imposed to Derived removes the old pH axis and presents an empty signed H+ balance in mol/kg H2O.",
+    "Wet Lab HCl 0.1 M / NaOH 0.1 M, 50 mL sample and 100 mL burette, prepared successfully with 107 selectable samples.",
+    "Selected initial sample: 0 mL, pH 1.00000, beaker 50 mL, burette 100 mL.",
+    "Titration, log concentrations, total fractions and aqueous speciation remain available in the Wet Lab graph control."
+  ],
+  "method": "Actual local browser UI inspection; no browser frame-rate claim."
+}

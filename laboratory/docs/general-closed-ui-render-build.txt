@@ -1,0 +1,12 @@
+
+> adams-laboratory@0.0.0 build
+> vite build --ssr scripts/validation/renderGeneralClosed.jsx --outDir .local/general-closed-ssr --configLoader native
+
+vite v8.0.13 building ssr environment for production...
+[2K
+transforming...✓ 28 modules transformed.
+rendering chunks...
+computing gzip size...
+.local/general-closed-ssr/renderGeneralClosed.js  222.42 kB │ gzip: 46.39 kB
+
+✓ built in 78ms

@@ -1,0 +1,27 @@
+✔ local generic Cr carrier smoke: accepted full grid, exact source identities, no guessed oxidation states (22.0397ms)
+✔ metadata-pending public maps remain blocked and reviewed Fe/Cu cannot use the fallback (499.9946ms)
+✔ failed or forged equilibria yield gaps, never carrier winners (0.5955ms)
+✔ cancellation retains uncalculated gaps without manufacturing equilibria (116.7358ms)
+✔ Fe discovered full grid exactly preserves independently accepted fractions and topology (971.2328ms)
+✔ Cu discovered full grid exactly preserves independently accepted fractions and topology (616.1552ms)
+✔ element-only System selection discovers its family without manually selecting redox forms (186.9795ms)
+✔ source family closure is independent of starting form and explicit registry identity covers every included carrier (628.5404ms)
+✔ missing, ambiguous and changed metadata fail closed with no test-only fallback (242.2547ms)
+✔ user total and ranges change the actual grid and cannot inherit reference validation (221.4642ms)
+✔ phase suppression is disclosed and cannot retain the default reference claim (304.1653ms)
+✔ invalid totals, ranges, oversized grids, nonideal conditions and extra analytical components fail explicitly (15.0447ms)
+✔ uranium discovery resolves fractional reaction algebra but keeps unresolved allocations unavailable (112.8955ms)
+✔ stale, cancelled or forged results cannot enter the shared plot and beaker (839.2494ms)
+✔ generic map and numerical export retain actual element, source scope, total denominator and status (35.0199ms)
+✔ generic discovery contains no element-specific branches or oxidation-state name parsing (98.7981ms)
+✔ experience readiness distinguishes constructible metadata-pending chemistry from unsupported and checked results (123.5806ms)
+✔ carrier details preserve within-state chemistry and count mixed-valence atoms once per carrier (84.0733ms)
+✔ keyboard inspection reuses the same accepted input and result for plot and beaker (0.661ms)
+ℹ tests 19
+ℹ suites 0
+ℹ pass 19
+ℹ fail 0
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 37671.1786

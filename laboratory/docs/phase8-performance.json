@@ -1,0 +1,196 @@
+{
+  "runtime": "v24.15.0",
+  "generatedAt": "2026-09-06T00:18:31.369Z",
+  "note": "Local Node CPU/orchestration and SVG preparation timings, not browser paint timings. All coordinates retained. Existing reference constants only; no new Java goldens.",
+  "measurements": [
+    {
+      "case": "fixed-activity",
+      "shape": [
+        11,
+        11
+      ],
+      "counts": {
+        "requested": 121,
+        "converged": 121,
+        "failed": 0,
+        "notRun": 0
+      },
+      "preparationMs": 6.916800000000002,
+      "nonScientific": true,
+      "solvingMs": 8.949399999999883,
+      "inputPreparationMs": 21.37299999999985,
+      "elapsedMs": 96.9185,
+      "transformationMs": 1.4605999999999995,
+      "visualizationModelMs": 0.20459999999999923,
+      "svgGenerationMeanMs": 0.5129799999999989
+    },
+    {
+      "case": "fixed-activity",
+      "shape": [
+        21,
+        21
+      ],
+      "counts": {
+        "requested": 441,
+        "converged": 441,
+        "failed": 0,
+        "notRun": 0
+      },
+      "preparationMs": 1.0978000000000065,
+      "nonScientific": true,
+      "solvingMs": 22.77900000000031,
+      "inputPreparationMs": 73.60930000000022,
+      "elapsedMs": 338.44159999999994,
+      "transformationMs": 3.6385999999999967,
+      "visualizationModelMs": 0.22709999999995034,
+      "svgGenerationMeanMs": 0.8317000000000008
+    },
+    {
+      "case": "fixed-activity",
+      "shape": [
+        51,
+        51
+      ],
+      "counts": {
+        "requested": 2601,
+        "converged": 2601,
+        "failed": 0,
+        "notRun": 0
+      },
+      "preparationMs": 0.9075000000000273,
+      "nonScientific": true,
+      "solvingMs": 116.39279999999769,
+      "inputPreparationMs": 417.86399999999776,
+      "elapsedMs": 1997.3456999999999,
+      "transformationMs": 26.059099999999944,
+      "visualizationModelMs": 0.9673999999999978,
+      "svgGenerationMeanMs": 1.4161399999999957
+    },
+    {
+      "case": "precipitation",
+      "shape": [
+        11,
+        11
+      ],
+      "counts": {
+        "requested": 121,
+        "converged": 121,
+        "failed": 0,
+        "notRun": 0
+      },
+      "preparationMs": 3.965400000000045,
+      "nonScientific": true,
+      "solvingMs": 21.32800000000225,
+      "inputPreparationMs": 19.51890000000094,
+      "elapsedMs": 89.02610000000004,
+      "transformationMs": 0.8731000000002496,
+      "visualizationModelMs": 0.08270000000038635,
+      "svgGenerationMeanMs": 0.2786600000000362
+    },
+    {
+      "case": "precipitation",
+      "shape": [
+        21,
+        21
+      ],
+      "counts": {
+        "requested": 441,
+        "converged": 441,
+        "failed": 0,
+        "notRun": 0
+      },
+      "preparationMs": 1.5302999999998974,
+      "nonScientific": true,
+      "solvingMs": 61.21190000000479,
+      "inputPreparationMs": 75.1949999999988,
+      "elapsedMs": 332.86749999999984,
+      "transformationMs": 2.3702000000002954,
+      "visualizationModelMs": 0.043699999999716965,
+      "svgGenerationMeanMs": 0.7879799999999705
+    },
+    {
+      "case": "precipitation",
+      "shape": [
+        51,
+        51
+      ],
+      "counts": {
+        "requested": 2601,
+        "converged": 2601,
+        "failed": 0,
+        "notRun": 0
+      },
+      "preparationMs": 1.274499999999989,
+      "nonScientific": true,
+      "solvingMs": 357.4171000000051,
+      "inputPreparationMs": 433.7111000000041,
+      "elapsedMs": 2014.7988999999998,
+      "transformationMs": 40.49499999999989,
+      "visualizationModelMs": 0.3214000000007218,
+      "svgGenerationMeanMs": 1.947739999999976
+    },
+    {
+      "case": "pH-redox",
+      "shape": [
+        11,
+        11
+      ],
+      "counts": {
+        "requested": 121,
+        "converged": 121,
+        "failed": 0,
+        "notRun": 0
+      },
+      "preparationMs": 1.469600000000355,
+      "nonScientific": true,
+      "solvingMs": 14.904499999995096,
+      "inputPreparationMs": 25.365000000007058,
+      "elapsedMs": 96.60890000000018,
+      "transformationMs": 2.1865999999999985,
+      "visualizationModelMs": 0.06779999999980646,
+      "svgGenerationMeanMs": 0.4848599999999351
+    },
+    {
+      "case": "pH-redox",
+      "shape": [
+        21,
+        21
+      ],
+      "counts": {
+        "requested": 441,
+        "converged": 441,
+        "failed": 0,
+        "notRun": 0
+      },
+      "preparationMs": 1.1471999999994296,
+      "nonScientific": true,
+      "solvingMs": 30.555200000003424,
+      "inputPreparationMs": 71.82429999999658,
+      "elapsedMs": 349.02439999999933,
+      "transformationMs": 2.7512000000006083,
+      "visualizationModelMs": 0.03110000000015134,
+      "svgGenerationMeanMs": 0.4245999999999185
+    },
+    {
+      "case": "pH-redox",
+      "shape": [
+        51,
+        51
+      ],
+      "counts": {
+        "requested": 2601,
+        "converged": 2601,
+        "failed": 0,
+        "notRun": 0
+      },
+      "preparationMs": 1.0497999999997774,
+      "nonScientific": true,
+      "solvingMs": 230.40960000001905,
+      "inputPreparationMs": 450.88729999999487,
+      "elapsedMs": 1977.3555000000006,
+      "transformationMs": 40.16239999999925,
+      "visualizationModelMs": 0.5478000000002794,
+      "svgGenerationMeanMs": 1.1953600000000733
+    }
+  ]
+}

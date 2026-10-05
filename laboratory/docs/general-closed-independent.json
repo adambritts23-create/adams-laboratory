@@ -1,0 +1,17 @@
+{
+  "method": "Raw source mass-action laws; charge eliminates proton; bisection of H-2O inventory. No production compiler or solver imported.",
+  "dose": 0.000001,
+  "expected": {
+    "u": -19.921742501084005,
+    "H": 9.982745514810884e-8,
+    "H2": 1.1844452696684446e-43,
+    "H2O2": 1.7119260563967557e-20,
+    "HO2": 3.8391493046028566e-25,
+    "OH": 9.982745514810885e-8,
+    "O2": 5e-7,
+    "O3": 2.457282040283027e-36,
+    "residual": 1.7152417181899582e-20,
+    "pH": 7.00075,
+    "pe": 12.920992501084005
+  }
+}
