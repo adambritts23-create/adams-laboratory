@@ -1,0 +1,10 @@
+import {calculateConditions} from './calculation_bridge.mjs';
+import fs from 'node:fs';import assert from 'node:assert/strict';
+const h={componentId:'component:H%2B',mode:'LAV',quantity:'pH',unit:'dimensionless',axis:'x',range:{min:2,max:12},points:11};
+const w={componentId:'component:H2O',mode:'LA',quantity:'log-activity',unit:'dimensionless',value:0};
+const ca={componentId:'component:Ca%202%2B',mode:'T',quantity:'total',unit:'mol/kg-H2O',value:.01};
+const sweep=await calculateConditions({conditions:[h,w,ca]});assert.equal(sweep.counts.converged,11);assert(sweep.diagrams.some(d=>d.key.startsWith('saturated-log-solubility')));fs.writeFileSync('validation/calculation-pass/sweep.json',JSON.stringify(sweep));
+const grid=await calculateConditions({conditions:[h,w,{...ca,mode:'LTV',axis:'y',range:{min:-4,max:-1},points:8}]});assert.equal(grid.kind,'grid');assert.equal(grid.counts.converged,88);fs.writeFileSync('validation/calculation-pass/grid.json',JSON.stringify(grid));
+const {axis,range,points,...fixed}=h;const point=await calculateConditions({conditions:[{...fixed,mode:'LA',value:7},w]});assert(Math.abs(point.pH-7)<1e-6);fs.writeFileSync('validation/calculation-pass/point.json',JSON.stringify(point));
+await assert.rejects(calculateConditions({conditions:[h,w,{...ca,mode:'TV',axis:'x',range:{min:.01,max:.1},points:5}]}));
+console.log('PASS: fixed point, 11 independent pH points, 88-point 3D grid, solubility output, duplicate-axis rejection');

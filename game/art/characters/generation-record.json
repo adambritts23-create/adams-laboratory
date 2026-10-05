@@ -1,0 +1,13 @@
+{
+  "tool": "Built-in image_gen",
+  "purpose": "Local diffuse face textures integrated into curved procedural heads",
+  "references": [
+    "Supplied Lab B two-person reference",
+    "Previously supplied Adam portrait"
+  ],
+  "notes": "Latest clear Adam portrait additionally retained for manual likeness and wristwatch geometry review. No remote asset dependency.",
+  "prompts": [
+    "Create one game-ready diffuse FACE TEXTURE for a shaped low-poly 3D head of ADAM, the LEFT man in laboratory reference and man in portrait. Preserve his identity, angular jaw, short swept brown hair with close sides, neatly trimmed brown beard/goatee, complexion and brows. Remove sunglasses using the laboratory reference for uncovered eyes. This is a texture asset, NOT a portrait render or scene. Square canvas full-bleed orthographic frontal facial surface: top edge hair crown, bottom edge chin; ears/temples at left and right edge. Face fills canvas, no neck, no clothing, no background, no borders, no labels, no perspective, no directional shadows or highlights. Neutral diffuse lighting, early-PC/PS2 hand-painted realistic stylization, clear eyes, natural proportions, restrained detail. It will be wrapped onto a rounded shaped head, so avoid any rectangular photographic frame.",
+    "Create one game-ready diffuse FACE TEXTURE for a shaped low-poly 3D head of AXEL, the RIGHT man in supplied laboratory reference. Preserve that man's identity: mature broad strong brow, receding/balding top with short dark side hair, stubble beard, broad angular jaw, stern eyes, approximate complexion and distinguishing nose/face proportions. This is a texture asset, NOT a portrait render or scene. Square canvas full-bleed orthographic frontal facial surface: top edge scalp crown, bottom edge chin; ears/temples at left and right edge. Face fills canvas, no neck, no clothing, no background, no borders, no labels, no perspective, no directional shadows/highlights. Neutral diffuse lighting, early-PC/PS2 hand-painted realistic stylization, clear eyes, natural proportions. It will wrap onto a rounded shaped head, avoid rectangular photographic frame."
+  ]
+}

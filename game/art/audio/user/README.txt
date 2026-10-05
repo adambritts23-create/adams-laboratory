@@ -1,0 +1,1 @@
+The bundled default is Espionage (CC0), credited in art/audio/music/MANIFEST.json. Optional override: place a licensed Ogg recording at watch_theme.ogg. Playback loops only in periodic-table/titration interfaces. Restart after adding a file. No GoldenEye recording is supplied.

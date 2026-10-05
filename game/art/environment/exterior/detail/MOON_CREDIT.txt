@@ -1,0 +1,2 @@
+Moon texture: NASA's Scientific Visualization Studio, CGI Moon Kit. LROC imagery (NASA/GSFC/Arizona State University). Visualizer: Ernie Wright. Source: https://svs.gsfc.nasa.gov/4720
+File: lroc_color_2k.jpg (2048 x 1024). Downloaded 2026-10-01.

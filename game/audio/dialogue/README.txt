@@ -1,0 +1,3 @@
+Offline neural voice prototype generated with Piper (OHF-Voice/piper1-gpl) using en_US-joe-medium. Synthetic performance, not a recording of Adam. Voice model dataset license: CC0; model card included. Original transcripts in lines.json. Fictional Bjorkdal news bulletin. Only the rendered WAV files are needed by the game; the generator/model are development tools under validation with .gdignore. Replace these WAV files with licensed voice acting to change the performances.
+Voice source: https://huggingface.co/rhasspy/piper-voices/tree/main/en/en_US/joe/medium
+Generator: https://github.com/OHF-Voice/piper1-gpl

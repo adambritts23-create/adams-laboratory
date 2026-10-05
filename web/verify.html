@@ -1,0 +1,29 @@
+<!doctype html><html lang="en"><meta charset="utf-8"><title>Browser chemistry verification</title>
+<style>body{font:16px system-ui;max-width:900px;margin:40px auto}pre{white-space:pre-wrap}</style>
+<h1>Browser chemistry verification</h1><button id="run">Run checks</button><pre id="output">Ready</pre>
+<script src="chemistry.js"></script><script type="module">
+const out=document.querySelector('#output');
+const solve=(kind,input)=>new Promise((resolve,reject)=>{
+ const id=AdamChemistry.submit(kind,JSON.stringify(input));
+ const timer=setInterval(()=>{const text=AdamChemistry.poll(id);if(text){clearInterval(timer);resolve(JSON.parse(text));}},50);
+});
+document.querySelector('#run').onclick=async()=>{
+ out.textContent='Running real browser workers…';
+ try {
+  const catalog=await (await fetch('science/catalog.json')).json();
+  const wet=await solve('wet',{setup:catalog.defaultSetup,dose:0});
+  if(!wet.ok || !wet.points.length)throw Error(JSON.stringify(wet));
+  out.textContent='PASS wet laboratory: '+wet.points.length+' points; '+wet.solveCount+' solves\n';
+  const conditions=[{componentId:'component:H%2B',mode:'LAV',quantity:'pH',unit:'dimensionless',axis:'x',range:{min:0,max:14},points:5},{componentId:'component:H2O',mode:'LA',quantity:'log-activity',unit:'dimensionless',value:0}];
+  const sweep=await solve('conditions',{conditions});
+  if(!sweep.ok || sweep.kind!=='sweep' || !sweep.previews.every(p=>p.accepted))throw Error(JSON.stringify(sweep));
+  out.textContent+='PASS calculation: '+sweep.previews.map(p=>p.pH.toFixed(2)).join(', ')+' pH\n';
+  const bad=await solve('conditions',{conditions:[]});
+  if(bad.ok)throw Error('Invalid input unexpectedly accepted');
+  out.textContent+='PASS invalid input reports an error\n';
+  const id=AdamChemistry.submit('wet',JSON.stringify({setup:catalog.defaultSetup}));AdamChemistry.cancel(id);
+  if(JSON.parse(AdamChemistry.poll(id)).ok!==false)throw Error('Cancellation failed');
+  out.textContent+='PASS cancellation\nAll browser transport checks passed.';
+ }catch(e){out.textContent+='\nFAIL '+e.message;}
+};
+</script></html>

@@ -1,0 +1,38 @@
+[
+  {
+    "file": "hvac.wav",
+    "source": "BigSoundBank 0504 Joseph SARDIN CC0",
+    "excerpt_start_s": 2,
+    "excerpt_duration_s": 18,
+    "band_hz": [
+      35,
+      350
+    ],
+    "crossfade_s": 1.5,
+    "mono_rate": 24000
+  },
+  {
+    "file": "hood.wav",
+    "source": "BigSoundBank 0504 Joseph SARDIN CC0",
+    "excerpt_start_s": 17,
+    "excerpt_duration_s": 16,
+    "band_hz": [
+      250,
+      3200
+    ],
+    "crossfade_s": 1.5,
+    "mono_rate": 24000
+  },
+  {
+    "file": "machinery.wav",
+    "source": "BigSoundBank 0504 Joseph SARDIN CC0",
+    "excerpt_start_s": 34,
+    "excerpt_duration_s": 18,
+    "band_hz": [
+      50,
+      1800
+    ],
+    "crossfade_s": 1.5,
+    "mono_rate": 24000
+  }
+]

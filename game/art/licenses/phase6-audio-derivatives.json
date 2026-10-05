@@ -1,0 +1,170 @@
+[
+  {
+    "file": "art/audio/phase6/hvac.wav",
+    "source_id": "2434",
+    "source_start_seconds": 1,
+    "source_window_seconds": 8,
+    "band_hz": [
+      30,
+      900
+    ],
+    "loop_crossfade_seconds": 0.75,
+    "transient_excerpt": false,
+    "duration": 7.25,
+    "peak": 0.6264998357074504
+  },
+  {
+    "file": "art/audio/phase6/hood.wav",
+    "source_id": "1032",
+    "source_start_seconds": 2,
+    "source_window_seconds": 16,
+    "band_hz": [
+      160,
+      6000
+    ],
+    "loop_crossfade_seconds": 0.75,
+    "transient_excerpt": false,
+    "duration": 15.25,
+    "peak": 0.6984691102243694
+  },
+  {
+    "file": "art/audio/phase6/motor.wav",
+    "source_id": "3091",
+    "source_start_seconds": 10,
+    "source_window_seconds": 24,
+    "band_hz": [
+      40,
+      2600
+    ],
+    "loop_crossfade_seconds": 0.75,
+    "transient_excerpt": false,
+    "duration": 23.25,
+    "peak": 0.6881741431874023
+  },
+  {
+    "file": "art/audio/phase6/pump_cycle.wav",
+    "source_id": "1487",
+    "source_start_seconds": 0,
+    "source_window_seconds": 37,
+    "band_hz": [
+      45,
+      3200
+    ],
+    "loop_crossfade_seconds": 0,
+    "transient_excerpt": false,
+    "duration": 37.0,
+    "peak": 0.6464207818280442
+  },
+  {
+    "file": "art/audio/phase6/transformer.wav",
+    "source_id": "0086",
+    "source_start_seconds": 0,
+    "source_window_seconds": 2,
+    "band_hz": [
+      40,
+      1800
+    ],
+    "loop_crossfade_seconds": 0.4,
+    "transient_excerpt": false,
+    "duration": 1.6,
+    "peak": 0.6111692689475738
+  },
+  {
+    "file": "art/audio/phase6/relay.wav",
+    "source_id": "1092",
+    "source_start_seconds": 0.2,
+    "source_window_seconds": 2,
+    "band_hz": [
+      100,
+      6500
+    ],
+    "loop_crossfade_seconds": 0,
+    "transient_excerpt": true,
+    "duration": 1.911625,
+    "peak": 0.6606501441437665
+  },
+  {
+    "file": "art/audio/phase6/geiger_tick.wav",
+    "source_id": "1092",
+    "source_start_seconds": 0.2,
+    "source_window_seconds": 0.7,
+    "band_hz": [
+      700,
+      7000
+    ],
+    "loop_crossfade_seconds": 0,
+    "transient_excerpt": true,
+    "duration": 0.026,
+    "peak": 0.6580636773197783
+  },
+  {
+    "file": "art/audio/phase6/beep.wav",
+    "source_id": "1030",
+    "source_start_seconds": 1,
+    "source_window_seconds": 2,
+    "band_hz": [
+      400,
+      5000
+    ],
+    "loop_crossfade_seconds": 0,
+    "transient_excerpt": true,
+    "duration": 0.31816666666666665,
+    "peak": 0.42199055647892186
+  },
+  {
+    "file": "art/audio/phase6/clang.wav",
+    "source_id": "0235",
+    "source_start_seconds": 0,
+    "source_window_seconds": 2,
+    "band_hz": [
+      70,
+      4200
+    ],
+    "loop_crossfade_seconds": 0,
+    "transient_excerpt": false,
+    "duration": 1.201625,
+    "peak": 0.6563620763738913
+  },
+  {
+    "file": "art/audio/phase6/hiss.wav",
+    "source_id": "0805",
+    "source_start_seconds": 12,
+    "source_window_seconds": 3,
+    "band_hz": [
+      600,
+      6500
+    ],
+    "loop_crossfade_seconds": 0,
+    "transient_excerpt": false,
+    "duration": 3.0,
+    "peak": 0.7
+  },
+  {
+    "file": "art/audio/phase6/drain.wav",
+    "source_id": "1383",
+    "source_start_seconds": 1,
+    "source_window_seconds": 12,
+    "band_hz": [
+      150,
+      6000
+    ],
+    "loop_crossfade_seconds": 0.75,
+    "transient_excerpt": false,
+    "duration": 11.25,
+    "peak": 0.7
+  },
+  {
+    "file": "art/audio/phase6/drops.wav",
+    "source_id": "1384",
+    "source_start_seconds": 1,
+    "source_window_seconds": 3,
+    "band_hz": [
+      200,
+      6500
+    ],
+    "loop_crossfade_seconds": 0,
+    "transient_excerpt": false,
+    "duration": 3.0,
+    "peak": 0.7
+  }
+]

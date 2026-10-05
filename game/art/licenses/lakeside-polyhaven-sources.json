@@ -1,0 +1,140 @@
+{
+  "license_url": "https://polyhaven.com/license",
+  "assets": [
+    {
+      "asset": "grass_ground",
+      "map": "diff",
+      "url": "https://dl.polyhaven.org/file/ph-assets/Textures/jpg/1k/grass_ground/grass_ground_diff_1k.jpg",
+      "file": "art\\environment\\exterior\\pbr\\grass_ground_diff.jpg",
+      "sha256": "a79cc5ed65af0f80261b39a383b64a8c5272c5144d724deb43dbc29f0e4cd19b",
+      "license": "CC0",
+      "source": "https://polyhaven.com/a/grass_ground"
+    },
+    {
+      "asset": "grass_ground",
+      "map": "nor_gl",
+      "url": "https://dl.polyhaven.org/file/ph-assets/Textures/jpg/1k/grass_ground/grass_ground_nor_gl_1k.jpg",
+      "file": "art\\environment\\exterior\\pbr\\grass_ground_nor_gl.jpg",
+      "sha256": "7000e2ccd479bb7b66dcdf4faef7b47554324566886314ca620cbf03e274e826",
+      "license": "CC0",
+      "source": "https://polyhaven.com/a/grass_ground"
+    },
+    {
+      "asset": "grass_ground",
+      "map": "rough",
+      "url": "https://dl.polyhaven.org/file/ph-assets/Textures/jpg/1k/grass_ground/grass_ground_rough_1k.jpg",
+      "file": "art\\environment\\exterior\\pbr\\grass_ground_rough.jpg",
+      "sha256": "111341f948b7e073edf7ac6add8777e1bf10df8959400df3863243e89bbc8c08",
+      "license": "CC0",
+      "source": "https://polyhaven.com/a/grass_ground"
+    },
+    {
+      "asset": "clean_asphalt",
+      "map": "diff",
+      "url": "https://dl.polyhaven.org/file/ph-assets/Textures/jpg/1k/clean_asphalt/clean_asphalt_diff_1k.jpg",
+      "file": "art\\environment\\exterior\\pbr\\clean_asphalt_diff.jpg",
+      "sha256": "ddf9224e9cfa3eb2998d9097e4cd34bd3630c85e0e6798e5a0a000415a684083",
+      "license": "CC0",
+      "source": "https://polyhaven.com/a/clean_asphalt"
+    },
+    {
+      "asset": "clean_asphalt",
+      "map": "nor_gl",
+      "url": "https://dl.polyhaven.org/file/ph-assets/Textures/jpg/1k/clean_asphalt/clean_asphalt_nor_gl_1k.jpg",
+      "file": "art\\environment\\exterior\\pbr\\clean_asphalt_nor_gl.jpg",
+      "sha256": "99cdf6b6f0b8a319d206e1d561bf2a5d9933d8d33e1d685f8e25388101d21310",
+      "license": "CC0",
+      "source": "https://polyhaven.com/a/clean_asphalt"
+    },
+    {
+      "asset": "clean_asphalt",
+      "map": "rough",
+      "url": "https://dl.polyhaven.org/file/ph-assets/Textures/jpg/1k/clean_asphalt/clean_asphalt_rough_1k.jpg",
+      "file": "art\\environment\\exterior\\pbr\\clean_asphalt_rough.jpg",
+      "sha256": "2280be133c104eb04370b625ebcc7f6709d2173b43ae2cd15a0074c26f492bf9",
+      "license": "CC0",
+      "source": "https://polyhaven.com/a/clean_asphalt"
+    },
+    {
+      "asset": "white_plaster_rough_02",
+      "map": "diff",
+      "url": "https://dl.polyhaven.org/file/ph-assets/Textures/jpg/1k/white_plaster_rough_02/white_plaster_rough_02_diff_1k.jpg",
+      "file": "art\\environment\\exterior\\pbr\\white_plaster_rough_02_diff.jpg",
+      "sha256": "1449dbca00e0c5c9588306313d910bbc8bfe201b4d8798dd4856fba822e47e09",
+      "license": "CC0",
+      "source": "https://polyhaven.com/a/white_plaster_rough_02"
+    },
+    {
+      "asset": "white_plaster_rough_02",
+      "map": "nor_gl",
+      "url": "https://dl.polyhaven.org/file/ph-assets/Textures/jpg/1k/white_plaster_rough_02/white_plaster_rough_02_nor_gl_1k.jpg",
+      "file": "art\\environment\\exterior\\pbr\\white_plaster_rough_02_nor_gl.jpg",
+      "sha256": "95cb88137a13bc33a52c5215862ab2903a686dec7579d86a42aa1d765287349a",
+      "license": "CC0",
+      "source": "https://polyhaven.com/a/white_plaster_rough_02"
+    },
+    {
+      "asset": "white_plaster_rough_02",
+      "map": "rough",
+      "url": "https://dl.polyhaven.org/file/ph-assets/Textures/jpg/1k/white_plaster_rough_02/white_plaster_rough_02_rough_1k.jpg",
+      "file": "art\\environment\\exterior\\pbr\\white_plaster_rough_02_rough.jpg",
+      "sha256": "2868a7b0b19bac754d32c40f29e8bc5c4e048fab0ef94af4dda3f81d5bb923c7",
+      "license": "CC0",
+      "source": "https://polyhaven.com/a/white_plaster_rough_02"
+    },
+    {
+      "asset": "wood_planks_grey",
+      "map": "diff",
+      "url": "https://dl.polyhaven.org/file/ph-assets/Textures/jpg/1k/wood_planks_grey/wood_planks_grey_diff_1k.jpg",
+      "file": "art\\environment\\exterior\\pbr\\wood_planks_grey_diff.jpg",
+      "sha256": "d758be23e8fe7bfbd73bc4ab257cfd59406e1835f6557c12a67cd4fdb15de0d8",
+      "license": "CC0",
+      "source": "https://polyhaven.com/a/wood_planks_grey"
+    },
+    {
+      "asset": "wood_planks_grey",
+      "map": "nor_gl",
+      "url": "https://dl.polyhaven.org/file/ph-assets/Textures/jpg/1k/wood_planks_grey/wood_planks_grey_nor_gl_1k.jpg",
+      "file": "art\\environment\\exterior\\pbr\\wood_planks_grey_nor_gl.jpg",
+      "sha256": "5e570e57d688b016b217b9e8e0592f9a8b3364406e22bf6cd775da990452bdb6",
+      "license": "CC0",
+      "source": "https://polyhaven.com/a/wood_planks_grey"
+    },
+    {
+      "asset": "wood_planks_grey",
+      "map": "rough",
+      "url": "https://dl.polyhaven.org/file/ph-assets/Textures/jpg/1k/wood_planks_grey/wood_planks_grey_rough_1k.jpg",
+      "file": "art\\environment\\exterior\\pbr\\wood_planks_grey_rough.jpg",
+      "sha256": "ef640502cec94bd2b6500e252891a778a7a721be16b5536d4efc9fe4d99b12aa",
+      "license": "CC0",
+      "source": "https://polyhaven.com/a/wood_planks_grey"
+    },
+    {
+      "asset": "clay_roof_tiles_02",
+      "map": "diff",
+      "url": "https://dl.polyhaven.org/file/ph-assets/Textures/jpg/1k/clay_roof_tiles_02/clay_roof_tiles_02_diff_1k.jpg",
+      "file": "art\\environment\\exterior\\pbr\\clay_roof_tiles_02_diff.jpg",
+      "sha256": "227a062b38b170e02c27eaa513dae45dc8bc893a62cbd8d0c08e2c32b381fc25",
+      "license": "CC0",
+      "source": "https://polyhaven.com/a/clay_roof_tiles_02"
+    },
+    {
+      "asset": "clay_roof_tiles_02",
+      "map": "nor_gl",
+      "url": "https://dl.polyhaven.org/file/ph-assets/Textures/jpg/1k/clay_roof_tiles_02/clay_roof_tiles_02_nor_gl_1k.jpg",
+      "file": "art\\environment\\exterior\\pbr\\clay_roof_tiles_02_nor_gl.jpg",
+      "sha256": "1548d3ebce335a4590d9e421556c4189a7b63852c793a568c71b9e533f8b62d5",
+      "license": "CC0",
+      "source": "https://polyhaven.com/a/clay_roof_tiles_02"
+    },
+    {
+      "asset": "clay_roof_tiles_02",
+      "map": "rough",
+      "url": "https://dl.polyhaven.org/file/ph-assets/Textures/jpg/1k/clay_roof_tiles_02/clay_roof_tiles_02_rough_1k.jpg",
+      "file": "art\\environment\\exterior\\pbr\\clay_roof_tiles_02_rough.jpg",
+      "sha256": "6d7596c4f3644ac50237381aeadf58f9b68a6dddeb66b6eef4f64462dcbbf82f",
+      "license": "CC0",
+      "source": "https://polyhaven.com/a/clay_roof_tiles_02"
+    }
+  ]
+}

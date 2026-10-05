@@ -1,0 +1,79 @@
+[
+  {
+    "name": "Prop_Barrel_Large",
+    "source": "art\\source\\phase5\\megakit\\Modular SciFi MegaKit[Standard]\\glTF\\Props\\Prop_Barrel_Large.gltf",
+    "runtime": "art/environment/props/Prop_Barrel_Large.glb",
+    "height_m": 1.2,
+    "modifications": "Normalized units/origin; smooth shading; runtime surface adaptation",
+    "creator": "Quaternius",
+    "source_url": "https://quaternius.itch.io/modular-sci-fi-megakit",
+    "license": "CC0-1.0",
+    "sha256": "7501899db9ecd16d0519f8459fe3f3f206e0cc79238d44a9fd3b9d13871dc422"
+  },
+  {
+    "name": "Prop_Crate3",
+    "source": "art\\source\\phase5\\megakit\\Modular SciFi MegaKit[Standard]\\glTF\\Props\\Prop_Crate3.gltf",
+    "runtime": "art/environment/props/Prop_Crate3.glb",
+    "height_m": 1.4,
+    "modifications": "Normalized units/origin; smooth shading; runtime surface adaptation",
+    "creator": "Quaternius",
+    "source_url": "https://quaternius.itch.io/modular-sci-fi-megakit",
+    "license": "CC0-1.0",
+    "sha256": "69ea6f4fba9bddf78a91425869a5caee6771d5ddbd98a580199ca5ee5e487d9b"
+  },
+  {
+    "name": "Prop_Crate4",
+    "source": "art\\source\\phase5\\megakit\\Modular SciFi MegaKit[Standard]\\glTF\\Props\\Prop_Crate4.gltf",
+    "runtime": "art/environment/props/Prop_Crate4.glb",
+    "height_m": 1.7,
+    "modifications": "Normalized units/origin; smooth shading; runtime surface adaptation",
+    "creator": "Quaternius",
+    "source_url": "https://quaternius.itch.io/modular-sci-fi-megakit",
+    "license": "CC0-1.0",
+    "sha256": "d1b4cade27977be8430bb1045f302eada495bd322f959c3541b88b8b712790c0"
+  },
+  {
+    "name": "Prop_Vent_Big",
+    "source": "art\\source\\phase5\\megakit\\Modular SciFi MegaKit[Standard]\\glTF\\Props\\Prop_Vent_Big.gltf",
+    "runtime": "art/environment/props/Prop_Vent_Big.glb",
+    "height_m": 0.1,
+    "modifications": "Normalized units/origin; smooth shading; runtime surface adaptation",
+    "creator": "Quaternius",
+    "source_url": "https://quaternius.itch.io/modular-sci-fi-megakit",
+    "license": "CC0-1.0",
+    "sha256": "64196912e41fdc84fb5107cff2a6eec4586bb76d3188341ee9078efb365672fe"
+  },
+  {
+    "name": "Prop_PipeHolder",
+    "source": "art\\source\\phase5\\megakit\\Modular SciFi MegaKit[Standard]\\glTF\\Props\\Prop_PipeHolder.gltf",
+    "runtime": "art/environment/props/Prop_PipeHolder.glb",
+    "height_m": 1.0,
+    "modifications": "Normalized units/origin; smooth shading; runtime surface adaptation",
+    "creator": "Quaternius",
+    "source_url": "https://quaternius.itch.io/modular-sci-fi-megakit",
+    "license": "CC0-1.0",
+    "sha256": "5cb410e33de6f1768d86a03cc08e075f803adc25964e219d90f6a7b4d00ceb02"
+  },
+  {
+    "name": "Door_DarkMetal",
+    "source": "art\\source\\phase5\\megakit\\Modular SciFi MegaKit[Standard]\\glTF\\Platforms\\Door_DarkMetal.gltf",
+    "runtime": "art/environment/props/Door_DarkMetal.glb",
+    "height_m": 4.0,
+    "modifications": "Normalized units/origin; smooth shading; runtime surface adaptation",
+    "creator": "Quaternius",
+    "source_url": "https://quaternius.itch.io/modular-sci-fi-megakit",
+    "license": "CC0-1.0",
+    "sha256": "0559e9583ca141aa52b650952bc0f1226f4f8ac1cc7e8b8d370dd53b54a538d7"
+  },
+  {
+    "name": "Column_Pipes",
+    "source": "art\\source\\phase5\\megakit\\Modular SciFi MegaKit[Standard]\\glTF\\Columns\\Column_Pipes.gltf",
+    "runtime": "art/environment/props/Column_Pipes.glb",
+    "height_m": 5.8,
+    "modifications": "Normalized units/origin; smooth shading; runtime surface adaptation",
+    "creator": "Quaternius",
+    "source_url": "https://quaternius.itch.io/modular-sci-fi-megakit",
+    "license": "CC0-1.0",
+    "sha256": "3a41add8d8f590b4240ac0b40af2dbd5f128345cc40d4af4aca255b70ca67c87"
+  }
+]

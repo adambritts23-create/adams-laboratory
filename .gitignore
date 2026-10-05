@@ -1,0 +1,15 @@
+game/.godot/
+dist/
+templates/
+userdata/
+localdata/
+*.log
+__pycache__/
+
+# Local verification screenshots
+/browser-*.png
+/chemistry-checks.png
+# Platform/editor files
+.DS_Store
+Thumbs.db
+*.tmp

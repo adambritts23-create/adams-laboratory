@@ -1,0 +1,26 @@
+import assert from 'node:assert/strict';
+import fs from 'node:fs';
+import crypto from 'node:crypto';
+import {calculate} from './bridge.mjs';
+const catalog=JSON.parse(fs.readFileSync(new URL('./catalog.json',import.meta.url)));
+const tests=[];
+let setup=structuredClone(catalog.defaultSetup);
+let out=await calculate(setup,50.01);
+assert.equal(out.ok,true);assert.ok(out.points.some(p=>p.x===50.01));
+assert.ok(Math.abs(out.points[0].y-.9985)<.01);
+assert.ok(Math.abs(out.points.find(p=>p.x===50).y-7)<.01);
+assert.ok(out.points.every(p=>p.solids.every(s=>s.amount===0)));
+tests.push('H+/OH- default, neutral equivalence and custom dose; no false solids');
+setup.sample.initialPH='invalid';await assert.rejects(()=>calculate(setup));tests.push('Invalid pH refuses');
+setup=structuredClone(catalog.defaultSetup);
+setup.sample.contributions=[{id:'c',kind:'component',sourceId:'component:CO3%202-',concentrationMolPerL:.01}];setup.sample.initialPH=11;
+setup.titrant={preparationContract:'analytical-acid-base',initialPH:7,volumeMl:200,contributions:[{id:'ca',kind:'component',sourceId:'component:Ca%202%2B',concentrationMolPerL:.01}]};
+out=await calculate(setup);
+assert.equal(out.points[0].y,null);assert.ok(out.points.slice(1).some(p=>p.solids.some(s=>s.amount>0)));tests.push('Ca/carbonate genuine zero-dose gap and calculated solids retained');
+setup.sample.contributions.push({id:'ca',kind:'component',sourceId:'component:Ca%202%2B',concentrationMolPerL:.01});setup.sample.initialPH=11;
+await assert.rejects(()=>calculate(setup),/heterogeneous/i);tests.push('Heterogeneous stock refuses');
+const manifest=JSON.parse(fs.readFileSync(new URL('./SOURCE-MANIFEST.json',import.meta.url)));
+for(const [file,hash] of Object.entries(manifest.files))assert.equal(crypto.createHash('sha256').update(fs.readFileSync(new URL('./'+file,import.meta.url))).digest('hex'),hash);
+tests.push('All vendored calculation modules unchanged from original source');
+fs.writeFileSync(new URL('../validation/free-lab/science-checks.json',import.meta.url),JSON.stringify(tests,null,2));console.log(tests.join('\n'));
+

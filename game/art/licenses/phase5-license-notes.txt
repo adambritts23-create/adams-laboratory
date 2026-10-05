@@ -1,0 +1,5 @@
+Verified 2026-09-18
+Poly Haven assets: CC0 1.0, https://polyhaven.com/license
+BigSoundBank sound 0504: CC0 public domain, https://bigsoundbank.com/technical-room-of-an-industry-s0504.html
+Lab Assets and Quaternius: original supplied license texts retained beside this file.
+GDQuest: MIT code, CC-BY-NC-SA art. Only development reference code retained; no art imported.

@@ -1,0 +1,39 @@
+{
+  "assets": [
+    {
+      "author": "Quaternius",
+      "pack": "Universal Base Characters, Standard",
+      "source": "https://quaternius.itch.io/universal-base-characters",
+      "license": "CC0 1.0 Universal",
+      "license_url": "https://creativecommons.org/publicdomain/zero/1.0/",
+      "used": [
+        "Superhero_Male_FullBody humanoid mesh, skeleton, eyes",
+        "Hair_SimpleParted (Adam)",
+        "Hair_Buzzed (Axel)",
+        "hair/eye textures"
+      ],
+      "adaptations": "Separate offline head edits, portrait UV registration, distinct proportions and hair trims; skinned GLB exports."
+    },
+    {
+      "author": "Quaternius",
+      "pack": "Modular Character Outfits - Fantasy, Standard",
+      "source": "https://quaternius.itch.io/modular-character-outfits-fantasy",
+      "license": "CC0 1.0 Universal",
+      "license_url": "https://creativecommons.org/publicdomain/zero/1.0/",
+      "used": [
+        "Male_Peasant_Body",
+        "Male_Ranger_Arms",
+        "Male_Peasant_Legs",
+        "Male_Ranger_Feet_Boots"
+      ],
+      "adaptations": "Fantasy fasteners/rolled sleeve overhang removed, garment openings closed, ivory cloth and green gloves, broader Adam silhouette, humanoid skinning."
+    }
+  ],
+  "authoring_tool": {
+    "name": "Blender 4.5.0 portable",
+    "source": "https://mirror.blender.org/release/Blender4.5/blender-4.5.0-windows-x64.zip",
+    "license": "GNU GPL; offline authoring tool, not a game runtime dependency",
+    "authenticode": "Valid Blender Foundation signature verified"
+  },
+  "user_assets": "User-supplied Adam photos and prior character/reference textures remain local. No new external likeness photos or AI images were acquired."
+}
