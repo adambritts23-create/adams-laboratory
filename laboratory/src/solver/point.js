@@ -99,6 +99,26 @@ function singleTotalSeed(system, input, activeRows) {
   return logs.every(Number.isFinite) ? logs : null
 }
 
+// Coordinate mass balances provide a bounded starting guess for strongly complexed
+// positive inventories. This is only initialization; all Newton and science gates remain.
+function positiveTotalsSeed(system, input) {
+  const unknown = input.constraints.flatMap((c,i)=>c.kh===1?[i]:[])
+  if(unknown.length<2||unknown.some(i=>system.components[i].role!=='ordinary'||!(input.constraints[i].value>0)||system.aqueousRows.some(j=>system.products[j].coefficients[i]<0)))return null
+  const logs=input.constraints.map(c=>c.kh===2?c.value:Math.log10(c.value))
+  for(let sweep=0;sweep<16;sweep++)for(const i of unknown){
+    const target=Math.log10(input.constraints[i].value)
+    const rows=system.aqueousRows.filter(j=>system.products[j].coefficients[i]>0)
+    const terms=rows.map(j=>{const p=system.products[j];return {n:p.coefficients[i],fixed:p.logBeta+sum(p.coefficients.map((v,k)=>k===i?0:v*logs[k]))+Math.log10(p.coefficients[i])}})
+    const inventory=x=>{const values=[...(!system.components[i].suppressed?[x]:[]),...terms.map(t=>t.fixed+t.n*x)],m=Math.max(...values);return m+Math.log10(sum(values.map(v=>10**(v-m))))}
+    let high=target,low=high-32
+    while(inventory(low)>target&&low> -300)low-=32
+    if(inventory(low)>target)return null
+    for(let step=0;step<64;step++){const mid=(low+high)/2;if(inventory(mid)>target)high=mid;else low=mid}
+    logs[i]=(low+high)/2
+  }
+  return logs.every(Number.isFinite)?logs:null
+}
+
 function acceptedScience(system, input, solution) {
   const s = solution.state, errors = []
   const minimumTotal = Math.min(1e-6, ...input.constraints.filter(c => c.kh === 1 && c.value !== 0).map(c => Math.abs(c.value)))
@@ -150,21 +170,24 @@ export function solvePoint(system, input, options = {}) {
   if (search) selection = { policy: activePolicy ? closedSolidActivePolicy : multiSolidPolicy, candidateSolidIds: system.solidRows.map(j => system.products[j].id), maximumActive: search.maximumActive, subsetLimit: 1024 }
   if (search && !search.ok) return failure(search.code, 'Candidate subset budget exceeded; no truncated search result is accepted.')
   const attempts = [], valid = []
+  let aqueousSeed = null
   for (const candidate of (activePolicy ? activeCandidates() : search?.subsets) ?? (system.solidRows.length ? [false, true] : [false]).map(active => ({ rows: active ? [system.solidRows[0]] : [], independent: true }))) {
     const active = candidate.rows.length > 0, activeIds = candidate.rows.map(j => system.products[j].id)
     if (!candidate.independent) { attempts.push({ active, activeIds, code: 'dependent-active-solids', message: 'Active saturation/amount constraints are rank deficient on total-constrained components.' }); continue }
     let solution = solveAssemblage(system, input, candidate.rows, { maxIterations, initialLogActivities: activePolicy ? phaseSeed : initialLogActivities })
     let initializationRetry = null
     if (!solution.ok && maxIterations > 0 && ['singular-or-ill-conditioned', 'numerical-nonconvergence', 'overflow', 'underflow'].includes(solution.code)) {
-      const initialLogActivities = singleTotalSeed(system, input, candidate.rows)
+      const singleSeed = singleTotalSeed(system, input, candidate.rows)
+      const initialLogActivities = candidate.rows.length && aqueousSeed ? aqueousSeed : singleSeed ?? positiveTotalsSeed(system,input)
       if (initialLogActivities) {
-        initializationRetry = { policy: 'single-positive-total-mass-action-seed-v1', originalFailure: solution, initialLogActivities }
+        initializationRetry = { policy: candidate.rows.length && aqueousSeed ? 'converged-aqueous-assemblage-seed-v1' : singleSeed ? 'single-positive-total-mass-action-seed-v1' : 'positive-totals-coordinate-seed-v1', originalFailure: solution, initialLogActivities }
         const retry = solveAssemblage(system, input, candidate.rows, { maxIterations, initialLogActivities })
         if (retry.ok) solution = retry
         else initializationRetry.retryFailure = retry // Preserve the original typed failure when recovery also fails.
       }
     }
     if (!solution.ok) { attempts.push({ active, activeIds, ...solution, ...(initializationRetry ? { initializationRetry } : {}) }); continue }
+    if (!candidate.rows.length) aqueousSeed = [...solution.state.logA]
     const check = acceptedScience(system, input, solution)
     if (activePolicy) {
       phaseSeed=solution.state.logA

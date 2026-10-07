@@ -105,7 +105,7 @@ export function updateLaboratorySession(session, action, repository) {
     return { ...session, sweepRequest: null, sweepResult: r, calculationStatus: r.status,
       ...(p.system ? { lastPlot: { system: p.system, sweep: r } } : {}) }
   }
-  if (action.type === 'workspace') return { ...session, visualizationState: { ...session.visualizationState, workspace: ['intro','database','calculation','beaker','wet-lab','kf-titration','ise'].includes(action.workspace) ? action.workspace : 'system' } }
+  if (action.type === 'workspace') return { ...session, visualizationState: { ...session.visualizationState, workspace: ['intro','database','calculation','beaker','wet-lab','kf-titration','ise','engineering'].includes(action.workspace) ? action.workspace : 'system' } }
   if (action.type === 'beginPoint') {
     if (action.revision !== session.revision) return session
     return { ...session, pointRequest: { revision: action.revision, systemId: action.systemId, inputId: action.inputId, system:action.system,input:action.input }, sweepRequest: null, sweepResult: null, calculationResult: null, calculationStatus: 'calculating-point' }

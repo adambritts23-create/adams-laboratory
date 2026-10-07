@@ -74,5 +74,5 @@ export function selectDiagram(definition, plot, id, components) {
 }
 
 export function defaultVisibleSeries(series, type) {
-  return series.filter(s => type !== 'log-concentration' || s.phase === 'aqueous' && s.kind !== 'special').map(s => s.id)
+  return series.filter(s => type !== 'log-concentration' || s.phase === 'aqueous' && s.kind !== 'special' || s.id==='literature:uranium:auc').map(s => s.id)
 }

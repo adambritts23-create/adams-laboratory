@@ -2,7 +2,7 @@ import test from 'node:test'
 import assert from 'node:assert/strict'
 import fs from 'node:fs'
 import {repositoryFromSnapshot} from '../src/thermodynamics/snapshot.js'
-import {emptyLibrary,composition,balance,createEditedRecord,savePersonalRecord,compileLibrary,resolveLibrary,exportLibrary,importLibrary,resetToSpana,addDatabase,setLayerEnabled,reactionSignature,draftFromRecord} from '../src/thermodynamics/databaseLibrary.js'
+import {selectDatabaseSources,databaseCollections,emptyLibrary,composition,balance,createEditedRecord,savePersonalRecord,compileLibrary,resolveLibrary,exportLibrary,importLibrary,resetToSpana,addDatabase,setLayerEnabled,reactionSignature,draftFromRecord} from '../src/thermodynamics/databaseLibrary.js'
 import {isSupportedUserSpecies} from '../src/thermodynamics/userEquilibria.js'
 const snapshot=JSON.parse(fs.readFileSync(new URL('../public/data/thermodynamic-default.json',import.meta.url)))
 const base=repositoryFromSnapshot(snapshot)
@@ -22,7 +22,7 @@ test('atom and charge checks independently reject unbalanced data',()=>{
 test('new records start disabled; enabled equivalent overrides original without mutating it',()=>{
  const {record,library}=added();assert.equal(record.metadata.editor.supported,true)
  assert.equal(compileLibrary(base,library).repository.getSpeciesById(record.id),null)
- const enabled=setLayerEnabled(library,'personal',true),compiled=compileLibrary(base,enabled)
+ const enabled={...setLayerEnabled(library,'personal',true),reviewConflicts:false},compiled=compileLibrary(base,enabled)
  assert.equal(compiled.repository.getSpeciesById(original.id),null);assert.equal(compiled.repository.getSpeciesById(record.id).logK,10.4)
  assert.equal(base.getSpeciesById(original.id).logK,10.327)
  assert.equal(isSupportedUserSpecies(compiled.repository.getSpeciesById(record.id),compiled.repository),true)
@@ -60,4 +60,27 @@ test('reaction comparison normalizes reversal without changing stored constants'
  const a={name:'AB',phase:'aqueous',logK:2,temperatureReference:298.15,pressureReference:null,logKConvention:'log10 formation constant',metadata:{effectiveSourceReaction:{components:[{name:'A',coefficient:1},{name:'B',coefficient:1}]}}}
  const b={...a,name:'A',logK:-2,metadata:{effectiveSourceReaction:{components:[{name:'AB',coefficient:1},{name:'B',coefficient:-1}]}}}
  assert.deepEqual(reactionSignature(a),reactionSignature(b));assert.equal(a.logK,2)
+})
+
+test('new libraries require an explicit choice for disagreeing constants',()=>{
+ const {record,library}=added()
+ const enabled=setLayerEnabled(library,'personal',true)
+ const result=compileLibrary(base,enabled)
+ const conflict=result.conflicts.find(c=>c.rows.some(r=>r.record.id===record.id))
+ assert.equal(conflict.winner,null)
+ const chosen=compileLibrary(base,{...enabled,choices:{[conflict.identity]:`personal|${record.id}`}})
+ assert.equal(chosen.repository.getSpeciesById(record.id).logK,10.4)
+})
+test('switching databases removes the old reactions and combination deduplicates copies',()=>{
+ const library=addDatabase(base,emptyLibrary(),snapshot,'Independent copy','copy')
+ const switched=selectDatabaseSources(base,library,['copy'])
+ const collections=databaseCollections(base,switched)
+ assert.equal(collections[0].enabled,0)
+ assert.equal(collections[1].enabled,4445)
+ assert.equal(compileLibrary(base,switched).repository.getSpeciesIdentities().length,4445)
+ const combined=compileLibrary(base,selectDatabaseSources(base,switched,['base','copy']))
+ assert.equal(combined.repository.getSpeciesIdentities().length,4445)
+ assert.equal(combined.conflicts.filter(c=>!c.winner).length,0)
+ assert.throws(()=>selectDatabaseSources(base,library,[]),/at least one/)
+ assert.deepEqual(importLibrary(exportLibrary(base,switched)).library,switched)
 })

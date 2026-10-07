@@ -52,7 +52,7 @@ export function figureSvg(derived, visibleIds, view, theme = 'dark', currentRevi
     const color = seriesColor(series.id, theme, derived.series.findIndex(s => s.id === series.id))
     for (const run of segments(series.points)) {
       const points = run.map(p => mapPoint(p, view, b))
-      svg += points.length === 1 ? `<circle clip-path="url(#plot-clip)" cx="${points[0].x}" cy="${points[0].y}" r="${series.id===focusedId?4:2.5}" fill="${color}"/>` : `<polyline clip-path="url(#plot-clip)" fill="none" stroke="${color}" stroke-width="${series.id===focusedId?4:2}" points="${points.map(p => `${p.x},${p.y}`).join(' ')}"/>`
+      svg += points.length === 1 ? `<circle clip-path="url(#plot-clip)" cx="${points[0].x}" cy="${points[0].y}" r="${series.id===focusedId?4:2.5}" fill="${color}"/>` : `<polyline clip-path="url(#plot-clip)" fill="none" stroke="${color}" stroke-dasharray="${series.lineStyle==='dashed'?'8 5':'none'}" stroke-width="${series.id===focusedId?4:2}" points="${points.map(p => `${p.x},${p.y}`).join(' ')}"/>`
     }
     const end = series.points.findLast(p => p.value !== null && p.x >= view.xMin && p.x <= view.xMax && p.value >= view.yMin && p.value <= view.yMax)
     if (end) anchors.push({ id: series.id, name: seriesLabel(series,derived.metadata.output.type), color, ...mapPoint(end,view,b) })

@@ -1,0 +1,35 @@
+import test from 'node:test'
+import assert from 'node:assert/strict'
+import fs from 'node:fs'
+import {createRepository} from '../src/thermodynamics/repository.js'
+import {batchSource,createBatchSample,addBatchReagent,equilibrateBatch,filterBatch,batchBalance,equilibriumBalance,importWetLabBatch} from '../src/calculations/batchExperiment.js'
+const repo=createRepository(JSON.parse(fs.readFileSync(new URL('../public/data/thermodynamic-default.json',import.meta.url))))
+test('batch addition, equilibrium, filtration and resuspension conserve inventories and keep branches',async()=>{
+ const sourceFingerprint=await batchSource(repo)
+ const stock=(name,moles,volumeMl=100)=>createBatchSample({name,moles,volumeMl,sourceFingerprint},repo)
+ const silver=stock('Silver',{'component:Ag%2B':.0001,'component:H%2B':.0001})
+ const chloride=stock('Chloride',{'component:Cl-':.0001})
+ const original=JSON.stringify(silver),mixed=addBatchReagent(silver,chloride)
+ assert.equal(mixed.volumeMl,200);assert.equal(JSON.stringify(silver),original)
+ assert.ok(batchBalance([silver,chloride],[mixed]).every(r=>r.residual===0))
+ assert.throws(()=>filterBatch(mixed),/equilibrium/)
+ const accepted=await equilibrateBatch(mixed,repo)
+ assert.ok(accepted.inventory.solids.length>0)
+ assert.ok(equilibriumBalance(accepted).every(r=>Math.abs(r.residual)<1e-10))
+ const [filtrate,solids]=filterBatch(accepted)
+ assert.ok(filtrate.moles['component:Ag%2B']<.0001)
+ assert.ok(solids.moles['component:Ag%2B']>0)
+ assert.equal(solids.volumeMl,0)
+ assert.ok(batchBalance([accepted],[filtrate,solids]).every(r=>Math.abs(r.residual)<1e-15))
+ await assert.rejects(()=>equilibrateBatch(solids,repo),/resuspend/)
+ const rewet=addBatchReagent(solids,stock('Water',{}))
+ const dissolved=await equilibrateBatch(rewet,repo)
+ assert.equal(dissolved.equilibrium.ok,true)
+ assert.ok(batchBalance([solids,stock('Water',{})],[rewet]).every(r=>Math.abs(r.residual)<1e-15))
+ assert.throws(()=>addBatchReagent(silver,{...chloride,sourceFingerprint:'different'}),/different database/)
+ assert.throws(()=>stock('Invalid',{'component:Ag%2B':-1}),/nonnegative/)
+ const imported=await importWetLabBatch({status:'accepted-v0',equilibrium:accepted.equilibrium,pH:accepted.pH,mixture:{moles:mixed.moles,volumeMl:mixed.volumeMl},chemicalSystem:{enabledPhases:['aqueous','liquid'],excludedSpecies:[]}},repo)
+ assert.deepEqual(imported.moles,mixed.moles)
+ const importedNext=await equilibrateBatch(imported,repo)
+ assert.equal(importedNext.equilibrium.system.products.some(p=>p.phase==='solid'),false)
+})

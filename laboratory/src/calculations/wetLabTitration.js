@@ -17,7 +17,7 @@ const pins={
 }
 const contexts=new WeakSet(),seriesObjects=new WeakSet()
 const generalContexts=new WeakMap()
-const physicalRequest=(mixture,revision,phases)=>({boundary:'physical-preparation',revision,temperatureC:25,pressureBar:1,activityModel:'ideal',unit:'mol/kg-H2O',sourceFingerprint:equilibriumSourceFingerprint,phases,solvent:'unit-water-activity',preparation:{...(mixture.preparationContract==='simplified-redox'?{counterionModel:'inert-background'}:{}),provenance:JSON.stringify(mixture.provenance),solventCoordinate:{convention:volumeConvention.id,volumeMl:mixture.volumeMl,modelSolventMassKg:mixture.modelSolventMassKg},contributions:mixture.contributions.flatMap(r=>(r.sourceParts??[{sourceId:r.sourceId,coefficient:1}]).map((part,i)=>({id:`${r.id}/${i}`,sourceId:part.sourceId,moles:r.moles*part.coefficient,provenance:JSON.stringify({recipe:r.reagent,recipeVersion:r.recipeVersion,formulaUnitMoles:r.moles,intrinsicComponents:r.intrinsicComponents,sourceFingerprint:mixture.sourceFingerprint,revision:mixture.preparationRevision,reference:r.provenance})})))}})
+const physicalRequest=(mixture,revision,phases)=>({boundary:'physical-preparation',revision,temperatureC:25,pressureBar:1,activityModel:'ideal',unit:'mol/kg-H2O',sourceFingerprint:mixture.sourceFingerprint,phases,solvent:'unit-water-activity',preparation:{...(mixture.preparationContract==='simplified-redox'?{counterionModel:'inert-background'}:{}),provenance:JSON.stringify(mixture.provenance),solventCoordinate:{convention:volumeConvention.id,volumeMl:mixture.volumeMl,modelSolventMassKg:mixture.modelSolventMassKg},contributions:mixture.contributions.flatMap(r=>(r.sourceParts??[{sourceId:r.sourceId,coefficient:1}]).map((part,i)=>({id:`${r.id}/${i}`,sourceId:part.sourceId,moles:r.moles*part.coefficient,provenance:JSON.stringify({recipe:r.reagent,recipeVersion:r.recipeVersion,formulaUnitMoles:r.moles,intrinsicComponents:r.intrinsicComponents,sourceFingerprint:mixture.sourceFingerprint,revision:mixture.preparationRevision,reference:r.provenance})})))}})
 /** One resolved source scope for one physical experiment; System supplies policy, not recipe ions. */
 export async function prepareWetLabScope(repository,stocks,chemicalSystem,revision=0){
  if(!stocks?.sample||!stocks?.titrant||!Object.values(stocks).every(s=>isWetLabSolution(s)&&s.preparationRevision===revision))wetLabError('invalid-preparation','Current branded sample and titrant preparations are required.')
@@ -47,7 +47,7 @@ export async function prepareWetLabScope(repository,stocks,chemicalSystem,revisi
   context={version:'wet-lab-general-v1',convention:volumeConvention}
  }
  for(const id of [...scope.components,...scope.reactions])if(excluded.has(id)||(chemicalSystem.excludedComponents??[]).includes(id))wetLabError('explicit-scope-exclusion',`Required recipe chemistry is explicitly excluded: ${id}`)
- const resolved=freeze({...context,preparationRevision:revision,sourceId:await identity({source:context.sourceId??equilibriumSourceFingerprint,scope,chemicalSystem,revision}),scope})
+ const resolved=freeze({...context,preparationRevision:revision,sourceId:await identity({source:context.sourceId??stocks.sample.sourceFingerprint,scope,chemicalSystem,revision}),scope})
  contexts.add(resolved)
  if(analytical||!legacy)generalContexts.set(resolved,{repository,analytical,chemicalSystem:structuredClone(chemicalSystem),phases:scope.phaseScope.included})
  return resolved

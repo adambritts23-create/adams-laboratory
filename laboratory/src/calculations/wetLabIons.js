@@ -1,4 +1,5 @@
 import {buildAnalyticalCandidates} from './analyticalCandidates.js'
+import {URANIUM_LITERATURE_ID} from '../thermodynamics/uraniumLiterature.js'
 
 import {isRepositorySnapshot} from '../thermodynamics/repository.js'
 
@@ -38,7 +39,7 @@ async function buildCatalog(repository){
 
  // Source-bound input conveniences, not equations or pKa values. All coefficients come from records.
 
- const aliases=['spana:2ac52a30213c9288:250448','spana:2ac52a30213c9288:79298','spana:2ac52a30213c9288:37016']
+ const aliases=['spana:2ac52a30213c9288:250448','spana:2ac52a30213c9288:79298','spana:2ac52a30213c9288:37016',...repository.getSpecies().filter(s=>s.name==='OH-').map(s=>s.id)]
 
  for(const id of aliases){const r=repository.getSpeciesById(id),terms=r?.metadata?.effectiveSourceReaction?.components?.filter(t=>t.coefficient!==0)
 
@@ -101,13 +102,22 @@ async function buildCatalog(repository){
 
  }
 
+ // A preparation recipe, not a fictitious UF6(aq) equilibrium species. Proton
+ // equivalents and fluoride are subsequently speciated by the selected database.
+ if(repository.getSources().some(s=>s.id===URANIUM_LITERATURE_ID)&&['UO2 2+','F-','H+','H2O'].every(n=>byName.has(n))){
+  const id='feed:UF6-hydrolysed',name='UF6 · hydrolysed feed (experimental)'
+  const coefficients=Object.fromEntries([['UO2 2+',1],['F-',6],['H+',4],['H2O',-2]].map(([n,k])=>[byName.get(n).id,k]))
+  analyticalEntries[id]={id,name,charge:0,coefficients,source:{sourceDatabase:URANIUM_LITERATURE_ID,reference:'https://pmc.ncbi.nlm.nih.gov/articles/PMC9056877/',warning:'Assumed complete hydrolysis in excess water. No gas loss or kinetics. UF6 + 2 H2O -> UO2F2 + 4 HF.'}}
+  const form={id,name,role:'ordinary',associations:[{element:'U'},{element:'F'}]}
+  forms.push(form);analyticalInputForms.push(form)
+ }
  const browseForms=[...forms,...species.filter(r=>!forms.some(f=>f.id===r.id)).map(r=>({id:r.id,name:r.name,phase:r.phase,role:'ordinary',associations:(r.discoveryElements??[]).map(element=>({element}))}))]
 
  const analyticalForms=Object.values(analyticalEntries).sort((a,b)=>a.name.localeCompare(b.name))
 
  const candidates=buildAnalyticalCandidates(repository,[...analyticalInputForms,...analyticalForms.filter(f=>!analyticalInputForms.some(c=>c.id===f.id))],analyticalEntries,registry.entries)
 
- const catalog=freeze({browseForms,candidates,forms,entries,version:registry.version,analyticalEntries,analyticalForms})
+ const catalog=freeze({browseForms,candidates,forms,entries,version:registry.version,sourceFingerprint:registry.sourceFingerprint,analyticalEntries,analyticalForms})
 
  catalogs.add(catalog);return catalog
 

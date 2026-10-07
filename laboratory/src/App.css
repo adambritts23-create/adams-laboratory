@@ -876,3 +876,4 @@ summary { font-size:12px; color:#a2b7c5; padding:5px 0; }
 .graph-first.results-mode>.results-toolbar .results-actions .back-to-setup:hover{background:#fff;border-color:#fff}
 .graph-first.results-mode>.results-toolbar .results-actions .back-to-setup:focus-visible{outline:3px solid #82dfc7;outline-offset:3px}
 @media(max-width:650px){.graph-first.results-mode>.results-toolbar{position:static}.graph-first.results-mode>.results-toolbar .results-actions .back-to-setup{flex-basis:100%;justify-content:center;margin-right:0}}
+@media(max-width:700px){.workspace-nav{position:static}.database-active-strip{flex-wrap:wrap}.db-source-row{flex-wrap:wrap}.db-source-selection select{width:100%}}

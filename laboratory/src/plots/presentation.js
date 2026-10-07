@@ -1,7 +1,7 @@
 import { chemicalLabel } from '../chemistry/format.js'
 // Display only. Never substitute totals for free-species values.
 export function seriesLabel(series,type){
-  const name=chemicalLabel(series.name)
+  const name=series.id==='literature:uranium:auc'?'AUC · provisional estimate':chemicalLabel(series.name)
   if(['total-fraction','aqueous-fraction'].includes(type)&&series.phase==='aqueous')return `${name} (aq)`
   if(series.phase==='solid'&&type==='log-concentration')return `${name} · solid`
   if(series.kind==='free-component'&&['concentration','log-concentration','log-activity'].includes(type))return `Free ${name}`

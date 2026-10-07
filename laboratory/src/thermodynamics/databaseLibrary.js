@@ -7,7 +7,7 @@ import { periodicTable } from '../data/periodicTable.js'
 
 const clean = name => name.replaceAll(/\s/g, '').replaceAll('−','-')
 const symbols = new Set(periodicTable.map(e => e.symbol))
-export const emptyLibrary = () => ({version:1, layers:[], disabled:[], choices:{}, preferNew:true})
+export const emptyLibrary = () => ({version:1, layers:[], disabled:[], choices:{}, preferNew:true, reviewConflicts:true})
 export const repositoryData = r => ({species:r.getSpecies({includeDeprecated:true}),components:r.getComponents(),elements:r.getElements(),sources:r.getSources(),phases:r.getPhases()})
 export const termsOf = s => s.metadata?.effectiveSourceReaction?.components ?? []
 export function equation(s) {
@@ -54,7 +54,10 @@ export function reactionSignature(s) {
  return {key:JSON.stringify([pairs.map(([k,n])=>[k,Number((n/factor).toPrecision(12))]),s.temperatureReference,s.pressureReference,convention]),logK:s.logK/factor}
 }
 export function libraryEntries(base, library) {
- const rows=base.getSpecies({includeDeprecated:true}).map(record=>({key:`base|${record.id}`,layer:'base',name:'Spana / current base',record,order:0}))
+ const records=base.getSpecies({includeDeprecated:true})
+ const sourceIds=new Set(records.filter(s=>s.role!=='solvent').map(s=>s.sourceDatabase))
+ const name=base.getSources().filter(s=>sourceIds.has(s.id)).map(s=>s.name).join(' / ')||'Base database'
+ const rows=records.map(record=>({key:`base|${record.id}`,layer:'base',name,record,order:0}))
  library.layers.forEach((layer,i)=>layer.data.species.forEach(record=>rows.push({key:`${layer.id}|${record.id}`,layer:layer.id,name:layer.name,record,order:i+1})))
  return rows.map(r=>({...r,enabled:!library.disabled.includes(r.key),signature:reactionSignature(r.record)}))
 }
@@ -69,7 +72,7 @@ export function resolveLibrary(base, library) {
   groups.get(identity).push(row)
  }
  for(const [identity,group] of groups){
-  if(group.every(r=>r.layer==='base')){active.push(...group);for(const r of group)statuses[r.key]='Active · original basis';continue}
+  if(group.every(r=>r.layer==='base')||group.every(r=>r.layer===group[0].layer&&r.record.metadata?.sourceFormat==='spana-java-binary')){active.push(...group);for(const r of group)statuses[r.key]='Active · original basis';continue}
   const baseSignatures=new Set(group.filter(r=>r.layer==='base').map(r=>r.signature?.key))
   const signatureKeys=new Set(group.map(r=>r.signature?.key))
   const incompatible=signatureKeys.size>1&&group.some(r=>r.layer!=='base'&&!baseSignatures.has(r.signature?.key))
@@ -82,7 +85,7 @@ export function resolveLibrary(base, library) {
    const equivalent=signature&&alternatives.every(r=>r.signature?.key===signature.key)
    const duplicate=equivalent&&alternatives.every(r=>Math.abs(r.signature.logK-signature.logK)<1e-10&&JSON.stringify(r.record.temperatureModel)===JSON.stringify(alternatives[0].record.temperatureModel))
    const explicit=alternatives.find(r=>r.key===library.choices[id])
-   const winner=explicit ?? (equivalent?[...alternatives].sort((a,b)=>library.preferNew?b.order-a.order:a.order-b.order)[0]:null)
+   const winner=explicit ?? (equivalent&&(!library.reviewConflicts||duplicate)?[...alternatives].sort((a,b)=>library.preferNew?b.order-a.order:a.order-b.order)[0]:null)
    conflicts.push({identity:id,rows:alternatives,kind:duplicate?'Duplicate':equivalent?'Different constants':'Different basis / conditions',winner:winner?.key??null})
    if(winner)active.push(winner)
    for(const row of alternatives)statuses[row.key]=row===winner?'Active':winner?'Alternative':'Needs choice'
@@ -92,8 +95,9 @@ export function resolveLibrary(base, library) {
 }
 export function compileLibrary(base, library) {
  const result=resolveLibrary(base,library),original=repositoryData(base)
- const components=new Map(original.components.map(c=>[c.id,c])),sources=new Map(original.sources.map(s=>[s.id,s])),elements=new Map(original.elements.map(e=>[e.symbol,e]))
- for(const layer of library.layers){
+ const selected=new Set(result.rows.filter(r=>r.enabled).map(r=>r.layer))
+ const components=new Map(),sources=new Map(),elements=new Map()
+ for(const layer of [{id:'base',data:original},...library.layers].filter(l=>selected.has(l.id)||l.data.species.length===0)){
   for(const c of layer.data.components){const prior=components.get(c.id);if(prior&&(prior.name!==c.name||prior.role!==c.role))throw Error(`Component identity conflict: ${c.id}`);components.set(c.id,prior??c)}
   for(const s of layer.data.sources)if(!sources.has(s.id))sources.set(s.id,s)
   for(const e of layer.data.elements)if(!elements.has(e.symbol))elements.set(e.symbol,e)
@@ -115,6 +119,18 @@ export function setLayerEnabled(library,id,enabled) {
  const layer=library.layers.find(l=>l.id===id);if(!layer)throw Error('Collection not found')
  const keys=layer.data.species.filter(s=>!enabled||s.metadata?.editor?.supported!==false).map(s=>`${id}|${s.id}`)
  return {...library,disabled:enabled?library.disabled.filter(k=>!keys.includes(k)):[...new Set([...library.disabled,...keys])]}
+}
+export function selectDatabaseSources(base,library,ids) {
+ const selected=new Set(ids),known=new Set(['base',...library.layers.map(l=>l.id)])
+ if(!selected.size||[...selected].some(id=>!known.has(id)))throw Error('Select at least one loaded database.')
+ return {...library,disabled:libraryEntries(base,library).filter(r=>!selected.has(r.layer)||r.record.metadata?.editor?.supported===false).map(r=>r.key)}
+}
+export function databaseCollections(base,library) {
+ const rows=libraryEntries(base,library)
+ return [{id:'base',name:rows.find(r=>r.layer==='base')?.name||'Base database'},...library.layers.map(l=>({id:l.id,name:l.name}))].map(c=>{
+  const entries=rows.filter(r=>r.layer===c.id)
+  return {...c,total:entries.length,enabled:entries.filter(r=>r.enabled&&r.record.metadata?.editor?.supported!==false).length}
+ })
 }
 export function resetToSpana(base,library) {
  const isSpana=s=>s.role==='solvent'||s.metadata?.sourceFormat==='spana-java-binary'
